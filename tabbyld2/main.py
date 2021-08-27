@@ -1,9 +1,9 @@
 import os
 import json
-import stl.parser as pr
-import stl.utility as utl
-import stl.cleaner as cln
-import stl.column_classifier as cc
+import tabbyld2.parser as pr
+import tabbyld2.utility as utl
+import tabbyld2.cleaner as cln
+import tabbyld2.column_classifier as cc
 
 
 CSV_FILE_PATH = "C:/Users/79501/datasets/test/"

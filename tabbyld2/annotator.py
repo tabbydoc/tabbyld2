@@ -1,5 +1,5 @@
 import collections
-import stl.column_classifier as cc
+import tabbyld2.column_classifier as cc
 
 
 # Типы данных XML-схемы для литеральных столбцов таблицы

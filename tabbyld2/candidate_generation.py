@@ -1,5 +1,5 @@
-import stl.dbpedia_lookup as dbl
-import stl.graphql_interface as gql
+import tabbyld2.dbpedia_lookup as dbl
+import tabbyld2.graphql_interface as gql
 
 
 def generate_candidate_classes(class_mention):

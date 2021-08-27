@@ -1,14 +1,14 @@
 import os
 import json
-import stl.parser as pr
-import stl.utility as utl
-import stl.cleaner as cln
-import stl.annotator as ant
-import stl.column_classifier as cc
-import stl.candidate_generation as cg
+import tabbyld2.parser as pr
+import tabbyld2.utility as utl
+import tabbyld2.cleaner as cln
+import tabbyld2.annotator as ant
+import tabbyld2.column_classifier as cc
+import tabbyld2.candidate_generation as cg
 from flask import Flask, jsonify, abort, make_response, request
 from werkzeug.utils import secure_filename
-import stl.graphql_interface as gql
+import tabbyld2.graphql_interface as gql
 
 
 CSV_FILE_PATH = "C:/Users/79501/datasets/test/"
