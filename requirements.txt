@@ -4,4 +4,3 @@ pandas~=1.2.3
 stanza~=1.2.0
 werkzeug~=1.0.1
 requests~=2.25.1
-gql~=3.0.0a5
