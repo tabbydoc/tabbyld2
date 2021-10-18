@@ -1,3 +1,4 @@
+import re
 import stanza
 import operator
 import collections
@@ -28,6 +29,22 @@ MONEY = "MONEY"  # Monetary values, including unit
 QUANTITY = "QUANTITY"  # Measurements, as of weight or distance
 ORDINAL = "ORDINAL"  # "first", "second", etc.
 CARDINAL = "CARDINAL"  # Numerals that do not fall under another type
+# Another literal types:
+POSITIVE_INTEGER = "POSITIVE INTEGER"  # Positive integer
+NEGATIVE_INTEGER = "NEGATIVE INTEGER"  # Negative integer
+FLOAT = "FLOAT"  # Float
+BOOLEAN = "BOOLEAN"  # true or false
+MAIL = "MAIL"  # Mail address
+EMAIL = "EMAIL"  # Email address
+ISSN = "ISSN"  # ISSN
+ISBN = "ISBN"  # ISBN
+IP_ADDRESS_V4 = "IPv4"  # IP address for 4 version
+BANK_CARD = "BANK_CARD"  # Bank card number
+COORDINATES = "COORDINATES"  # Latitude and longitude coordinates
+PHONE = "PHONE"  # Phone number
+COLOR = "COLOR"  # Color number
+TEMPERATURE = "TEMPERATURE"  # Temperature degrees (celcius or fahrenheit)
+URL = "URL"  # URL address for site
 EMPTY = "EMPTY"  # Empty value
 
 CATEGORICAL_COLUMN = "CATEGORICAL"  # Categorical column type
@@ -37,15 +54,90 @@ SUBJECT_COLUMN = "SUBJECT"  # Subject column type
 
 def is_float(string):
     """
-    Определение является ли строка числовым значением.
+    Определение является ли строка числовым значением с плавающей точкой.
     :param string: исходная строка
-    :return: True - если строка является числом, False - в противном случае
+    :return: True - если строка является числом с плавающей точкой, False - в противном случае
     """
     try:
         float(string.replace(",", "."))
         return True
     except ValueError:
         return False
+
+
+def determine_number(number):
+    """
+    Определение типа числового значения.
+    :param number: исходное числовое значение
+    :return: определенная метка числа
+    """
+    # Определенная метка произвольного числа
+    label = "CARDINAL"
+    # Если число с плавающей точкой
+    if is_float(number):
+        label = FLOAT
+    # Если целое положительное число
+    if re.search(r"^[1-9]\d*$", number):
+        label = POSITIVE_INTEGER
+    # Если целое отрицательное число
+    if re.search(r"^[-][1-9]\d*$", number):
+        label = NEGATIVE_INTEGER
+
+    return label
+
+
+def determine_mention_entity(mention_entity):
+    """
+    Корректировка упоминания сущности (строки) с присвоением определенной метки.
+    :param mention_entity: текстовое упоминание сущности (исходная строка)
+    :return: определенная метка
+    """
+    # Определенная метка
+    label = "NONE"
+    # Если упоминание сущности является пустой строкой
+    if mention_entity == "":
+        label = EMPTY
+    else:
+        # Определение типа числового значения
+        label = determine_number(mention_entity)
+        # Если упоминание сущности является логическим значением
+        if re.search(r"^'true|false|True|False|TRUE|FALSE'&", mention_entity):
+            label = BOOLEAN
+        # Если упоминание сущности является почтовым адресом (индексом)
+        if re.search(r"^\d{6}$", mention_entity) or re.search(r"^\d{5}(?:[-\s]\d{4})?$", mention_entity):
+            label = MAIL
+        # Если упоминание сущности является ISSN-номером
+        if re.search(r"^[0-9]{4}-[0-9]{3}[0-9xX]$", mention_entity):
+            label = ISSN
+        # Если упоминание сущности является ISBN-номером
+        if re.search(r"^(?:ISBN(?:: ?| ))?((?:97[89])?\d{9}[\dx])+$", mention_entity):
+            label = ISBN
+        # Если упоминание сущности является IP-адресом
+        if re.search(r"((25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(25[0-5]|2[0-4]\d|[01]?\d\d?)", mention_entity):
+            label = IP_ADDRESS_V4
+        # Если упоминание сущности является номером банковской карты
+        if re.search(r"^([456][0-9]{3})-?([0-9]{4})-?([0-9]{4})-?([0-9]{4})$", mention_entity):
+            label = BANK_CARD
+        # Если упоминание сущности является цветом в 16 бит
+        if re.search(r"#[0-9A-Fa-f]{6}", mention_entity):
+            label = COLOR
+        # Если упоминание сущности является адресом электронной почты
+        if re.search(r"[\w.-]+@[\w.-]+\.?[\w]+?", mention_entity):
+            label = EMAIL
+        # Если упоминание сущности является координатами широты и долготы
+        if re.search(r"^(-?\d+(\.\d+)?),\s*(-?\d+(\.\d+)?)$", mention_entity):
+            label = COORDINATES
+        # Если упоминание сущности является номером сотового телефона
+        if re.search(r"^((?:\+\d{2}[-\.\s]??|\d{4}[-\.\s]??)?(?:\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4}))$", mention_entity):
+            label = PHONE
+        # Если упоминание сущности является значением температуры
+        if re.search(r"([+-]?\d+(\.\d+)*)\s?°([CcFf])", mention_entity):
+            label = TEMPERATURE
+        # Если упоминание сущности является URL-адресом
+        if re.search(r"((http|https)\:\/\/)?[a-zA-Z0-9\.\/\?\:@\-_=#]+\.([a-zA-Z]){2,6}([a-zA-Z0-9\.\&\/\?\:@\-_=#])*", mention_entity):
+            label = URL
+
+    return label
 
 
 def test_ner(text):
@@ -87,12 +179,8 @@ def recognize_named_entities(source_table):
             # Если упоминанию сущности присвоена неопределенная метка NONE
             if not isinstance(recognized_named_entities, list):
                 if recognized_named_entities == NONE:
-                    # Корректировка упоминания сущности, если оно является числовым значением
-                    if is_float(mention_entity):
-                        recognized_named_entities = CARDINAL
-                    # Корректировка упоминания сущности, если оно является пустой строкой
-                    if mention_entity == "":
-                        recognized_named_entities = EMPTY
+                    # Корректировка упоминания сущности на основе регулярных выражений
+                    recognized_named_entities = determine_mention_entity(mention_entity)
             result_item[key] = recognized_named_entities
         result_list.append(result_item)
 
