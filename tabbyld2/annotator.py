@@ -1,5 +1,6 @@
 import collections
 import tabbyld2.column_classifier as cc
+from Levenshtein._levenshtein import distance
 
 
 # Типы данных XML-схемы для литеральных столбцов таблицы
@@ -9,6 +10,32 @@ NON_NEGATIVE_INTEGER_DATATYPE = "xsd:nonNegativeInteger"
 POSITIVE_INTEGER_DATATYPE = "xsd:positiveInteger"
 DECIMAL_DATATYPE = "xsd:decimal"
 STRING_DATATYPE = "xsd:string"
+
+
+def get_levenshtein_distance(entity_mention, candidate_entity, underscore_replacement: bool = False):
+    """
+    Вычисление расстояния Левенштейна (редактирования) между двумя строками.
+    :param entity_mention: текстовое упоминание сущности
+    :param candidate_entity: сущность-кандидат
+    :param underscore_replacement: режим замены символа нижнего подчеркивания на пробел
+    :return: нормализованное расстояние Левенштейна в диапазоне [0, ..., 1]
+    """
+    # Замена символа нижнего подчеркивания на пробел
+    if underscore_replacement:
+        candidate_entity = candidate_entity.replace("_", " ")
+    # Вычисление абсолютного расстояния Левенштейна
+    levenshtein_distance = distance(entity_mention, candidate_entity)
+    # Нижняя граница
+    min_range = 0
+    # Определение верхней границы
+    if len(entity_mention) > len(candidate_entity):
+        max_range = len(entity_mention)
+    else:
+        max_range = len(candidate_entity)
+    # Нормализация абсолютного расстояния Левенштейна
+    normalized_levenshtein_distance = 1 - ((levenshtein_distance - min_range) / (max_range - min_range))
+
+    return normalized_levenshtein_distance
 
 
 def merge_dicts(dict1, dict2):

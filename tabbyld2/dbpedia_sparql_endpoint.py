@@ -1,6 +1,10 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 
+# Название конечной точки DBpedia
+ENDPOINT_NAME = "http://dbpedia.org/sparql"
+
+
 def get_entities(entity_mention: str = "", short_name: bool = False):
     """
     Получение набора (списка) сущностей кандидатов на основе SPARQL-запроса к DBpedia.
@@ -17,7 +21,7 @@ def get_entities(entity_mention: str = "", short_name: bool = False):
         else:
             string = word
     # Выполнение SPARQL-запроса к DBpedia
-    sparql = SPARQLWrapper("http://dbpedia.org/sparql")
+    sparql = SPARQLWrapper(ENDPOINT_NAME)
     sparql.setQuery("""
         SELECT DISTINCT (str(?subject) as ?subject)
         WHERE {
