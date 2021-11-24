@@ -1,4 +1,30 @@
 from Levenshtein._levenshtein import distance
+import tabbyld2.dbpedia_sparql_endpoint as dbs
+import tabbyld2.column_classifier as cc
+
+
+# Названия классов в DBpedia, соответствующие NER-классам
+PARK = "dbo:Park"
+MINE = "dbo:Mine"
+GARDEN = "dbo:Garden"
+CEMETERY = "dbo:Cemetery"
+WINE_REGION = "dbo:WineRegion"
+NATURAL_PLACE = "dbo:NaturalPlace"
+PROTECTED_AREA = "dbo:ProtectedArea"
+WORLD_HERITAGE_SITE = "dbo:WorldHeritageSite"
+SITE_OF_SPECIAL_SCIENTIFIC_INTEREST = "dbo:SiteOfSpecialScientificInterest"
+POPULATED_PLACE = "dbo:PopulatedPlace"
+ETHNIC_GROUP = "dbo:EthnicGroup"
+PERSON = "dbo:Person"
+DEVICE = "dbo:Device"
+FOOD = "dbo:Food"
+MEAN_OF_TRANSPORTATION = "dbo:MeanOfTransportation"
+ARCHITECTURAL_STRUCTURE = "dbo:ArchitecturalStructure"
+ORGANISATION = "dbo:Organisation"
+EVENT = "dbo:Event"
+WORK = "dbo:Work"
+LAW = "dbo:Law"
+LEGAL_CASE = "dbo:LegalCase"
 
 
 def get_levenshtein_distance(entity_mention, candidate_entity, underscore_replacement: bool = False,
@@ -41,6 +67,51 @@ def get_string_similarity(entity_mention, candidate_entities):
     """
     result = []
     for candidate_entity in candidate_entities:
-        result.append([candidate_entity, get_levenshtein_distance(entity_mention, candidate_entity, True, False)])
+        result.append([candidate_entity, get_levenshtein_distance(entity_mention, candidate_entity, True, True)])
+    # Сортировка по оценкам
+    result = sorted(result, key=lambda k: k[1], reverse=True)
+
+    return result
+
+
+def get_ner_based_similarity(ner_class, candidate_entities):
+    """
+    Вычисление оценок для сущностей из набора кандидатов на основе NER-классов.
+    :param ner_class: NER-класс, которому соответствует значение ячейки
+    :param candidate_entities: набор сущностей-кандидатов
+    :return: ранжированный список сущностей-кандидатов
+    """
+    # Поиск целевого класса DBpedia на основе NER-класса
+    target_classes = ""
+    if ner_class == cc.LOCATION:
+        target_classes = [PARK, MINE, GARDEN, WINE_REGION, NATURAL_PLACE, PROTECTED_AREA,
+                          WORLD_HERITAGE_SITE, SITE_OF_SPECIAL_SCIENTIFIC_INTEREST]
+    if ner_class == cc.GPE:
+        target_classes = POPULATED_PLACE
+    if ner_class == cc.NORP:
+        target_classes = ETHNIC_GROUP
+    if ner_class == cc.PERSON:
+        target_classes = PERSON
+    if ner_class == cc.PRODUCT:
+        target_classes = [DEVICE, FOOD, MEAN_OF_TRANSPORTATION]
+    if ner_class == cc.FACILITY:
+        target_classes = ARCHITECTURAL_STRUCTURE
+    if ner_class == cc.ORGANIZATION:
+        target_classes = ORGANISATION
+    if ner_class == cc.EVENT:
+        target_classes = EVENT
+    if ner_class == cc.ART_WORK:
+        target_classes = WORK
+    if ner_class == cc.LAW:
+        target_classes = [LAW, LEGAL_CASE]
+    result = []
+    # Обход сущностей в наборе кандидатов
+    for candidate_entity in candidate_entities:
+        # Определение дистанции до целевого класса для сущности-кандидата
+        distance_to_class = dbs.get_distance_to_class(candidate_entity, target_classes, False)
+        # Определение оценки на основе дистанции до целевого класса
+        result.append([candidate_entity, (1 if int(distance_to_class) > 0 else 0)])
+        # Сортировка по оценкам
+        result = sorted(result, key=lambda k: k[1], reverse=True)
 
     return result

@@ -5,7 +5,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 ENDPOINT_NAME = "http://dbpedia.org/sparql"
 
 
-def get_entities(entity_mention: str = "", short_name: bool = False):
+def get_candidate_entities(entity_mention: str = "", short_name: bool = False):
     """
     Получение набора (списка) сущностей кандидатов на основе SPARQL-запроса к DBpedia.
     :param entity_mention: текстовое упоминание сущности
@@ -51,3 +51,43 @@ def get_entities(entity_mention: str = "", short_name: bool = False):
             result_list.append(result["subject"]["value"])
 
     return result_list
+
+
+def get_distance_to_class(candidate_entity: str = "", target_classes: str = "", short_name: bool = False):
+    """
+    Получение дистанции до целевого класса для сущности-кандидата на основе SPARQL-запроса к DBpedia.
+    :param candidate_entity: сущность кандидат
+    :param target_classes: набор целевых классов
+    :param short_name: режим отображения короткого наименования класса (без полного URI)
+    :return: дистанция до целевого класса (натуральное число, включая ноль)
+    """
+    # Выполнение SPARQL-запроса к DBpedia
+    sparql = SPARQLWrapper(ENDPOINT_NAME)
+    if target_classes == "":
+        sparql.setQuery("""
+            SELECT COUNT DISTINCT ?type
+            WHERE {
+                <%s> rdf:type/rdfs:subClassOf* ?type .
+                ?type rdfs:subClassOf* ""
+            }
+        """ % candidate_entity)
+    else:
+        sparql.setQuery("""
+            SELECT COUNT DISTINCT ?type
+            WHERE {
+                <%s> rdf:type/rdfs:subClassOf* ?type .
+                ?type rdfs:subClassOf* ?c .
+                FILTER (?c IN (%s))
+            }
+        """ % (candidate_entity, target_classes if isinstance(target_classes, str) else ", ".join(target_classes)))
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+    # Определение дистанции до целевого класса
+    distance_to_class = 0
+    for result in results["results"]["bindings"]:
+        if short_name:
+            distance_to_class = result["callret-0"]["value"].replace("http://dbpedia.org/ontology/", "")
+        else:
+            distance_to_class = result["callret-0"]["value"]
+
+    return distance_to_class

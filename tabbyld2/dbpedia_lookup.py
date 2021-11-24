@@ -14,7 +14,7 @@ def init(port=9274):
     URL = f"http://localhost:{port}/lookup-application/api/search"
 
 
-def get_entities(query: str, max_results: int = None, min_relevance: int = None, short_name: bool = False) -> list:
+def get_candidate_entities(query: str, max_results: int = None, min_relevance: int = None, short_name: bool = False):
     """
     Получение набора (списка) сущностей кандидатов по строковому запросу.
     :param query: строка запроса
