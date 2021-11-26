@@ -247,53 +247,53 @@ def determine_number(value, label):
     return label
 
 
-def determine_mention_entity(mention_entity):
+def determine_mention_entity(entity_mention):
     """
     Корректировка упоминания сущности (строки) с присвоением определенной метки.
-    :param mention_entity: текстовое упоминание сущности (исходная строка)
+    :param entity_mention: текстовое упоминание сущности (исходная строка)
     :return: определенная метка
     """
     # Если упоминание сущности является пустой строкой
-    if mention_entity == "":
+    if entity_mention == "":
         label = EMPTY
     else:
         # Определение типа числового значения
-        label = determine_number(mention_entity, NONE)
+        label = determine_number(entity_mention, NONE)
         # Если упоминание сущности является логическим значением
-        if re.search(r"^'true|false|True|False|TRUE|FALSE'&", mention_entity):
+        if re.search(r"^'true|false|True|False|TRUE|FALSE'&", entity_mention):
             label = BOOLEAN
         # Если упоминание сущности является почтовым адресом (индексом)
-        if re.search(r"^\d{6}$", mention_entity) or re.search(r"^\d{5}(?:[-\s]\d{4})?$", mention_entity):
+        if re.search(r"^\d{6}$", entity_mention) or re.search(r"^\d{5}(?:[-\s]\d{4})?$", entity_mention):
             label = MAIL
         # Если упоминание сущности является ISSN-номером
-        if re.search(r"^[0-9]{4}-[0-9]{3}[0-9xX]$", mention_entity):
+        if re.search(r"^[0-9]{4}-[0-9]{3}[0-9xX]$", entity_mention):
             label = ISSN
         # Если упоминание сущности является ISBN-номером
-        if re.search(r"^(?:ISBN(?:: ?| ))?((?:97[89])?\d{9}[\dx])+$", mention_entity):
+        if re.search(r"^(?:ISBN(?:: ?| ))?((?:97[89])?\d{9}[\dx])+$", entity_mention):
             label = ISBN
         # Если упоминание сущности является IP-адресом
-        if re.search(r"((25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(25[0-5]|2[0-4]\d|[01]?\d\d?)", mention_entity):
+        if re.search(r"((25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(25[0-5]|2[0-4]\d|[01]?\d\d?)", entity_mention):
             label = IP_ADDRESS_V4
         # Если упоминание сущности является номером банковской карты
-        if re.search(r"^([456][0-9]{3})-?([0-9]{4})-?([0-9]{4})-?([0-9]{4})$", mention_entity):
+        if re.search(r"^([456][0-9]{3})-?([0-9]{4})-?([0-9]{4})-?([0-9]{4})$", entity_mention):
             label = BANK_CARD
         # Если упоминание сущности является цветом в 16 бит
-        if re.search(r"#[0-9A-Fa-f]{6}", mention_entity):
+        if re.search(r"#[0-9A-Fa-f]{6}", entity_mention):
             label = COLOR
         # Если упоминание сущности является адресом электронной почты
-        if re.search(r"[\w.-]+@[\w.-]+\.?[\w]+?", mention_entity):
+        if re.search(r"[\w.-]+@[\w.-]+\.?[\w]+?", entity_mention):
             label = EMAIL
         # Если упоминание сущности является координатами широты и долготы
-        if re.search(r"^(-?\d+(\.\d+)?),\s*(-?\d+(\.\d+)?)$", mention_entity):
+        if re.search(r"^(-?\d+(\.\d+)?),\s*(-?\d+(\.\d+)?)$", entity_mention):
             label = COORDINATES
         # Если упоминание сущности является номером сотового телефона
-        if re.search(r"^((?:\+\d{2}[-\.\s]??|\d{4}[-\.\s]??)?(?:\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4}))$", mention_entity):
+        if re.search(r"^((?:\+\d{2}[-\.\s]??|\d{4}[-\.\s]??)?(?:\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4}))$", entity_mention):
             label = PHONE
         # Если упоминание сущности является значением температуры
-        if re.search(r"([+-]?\d+(\.\d+)*)\s?°([CcFf])", mention_entity):
+        if re.search(r"([+-]?\d+(\.\d+)*)\s?°([CcFf])", entity_mention):
             label = TEMPERATURE
         # Если упоминание сущности является URL-адресом
-        if re.search(r"((http|https)\:\/\/)?[a-zA-Z0-9\.\/\?\:@\-_=#]+\.([a-zA-Z]){2,6}([a-zA-Z0-9\.\&\/\?\:@\-_=#])*", mention_entity):
+        if re.search(r"((http|https)\:\/\/)?[a-zA-Z0-9\.\/\?\:@\-_=#]+\.([a-zA-Z]){2,6}([a-zA-Z0-9\.\&\/\?\:@\-_=#])*", entity_mention):
             label = URL
 
     return label
@@ -323,9 +323,9 @@ def recognize_named_entities(source_table):
     # Обход строк в исходной таблице
     for row in source_table:
         result_item = dict()
-        for key, mention_entity in row.items():
+        for key, entity_mention in row.items():
             # Распознавание именованной сущности
-            doc = nlp(mention_entity + ".")
+            doc = nlp(entity_mention + ".")
             # Формирование словаря с рузультатом распознавания именованных сущностей
             recognized_named_entities = []
             if len(doc.ents) > 1:
@@ -339,10 +339,10 @@ def recognize_named_entities(source_table):
             if not isinstance(recognized_named_entities, list):
                 # Корректировка значения NONE на основе регулярных выражений
                 if recognized_named_entities == NONE:
-                    recognized_named_entities = determine_mention_entity(mention_entity)
+                    recognized_named_entities = determine_mention_entity(entity_mention)
                 # Уточнение типа числа на основе регулярных выражений
                 if recognized_named_entities == CARDINAL:
-                    recognized_named_entities = determine_number(mention_entity, CARDINAL)
+                    recognized_named_entities = determine_number(entity_mention, CARDINAL)
             result_item[key] = recognized_named_entities
         result_list.append(result_item)
 
