@@ -594,7 +594,7 @@ def define_subject_column(source_table, classified_table, index=None):
                 # Вычисление итогового ранга (оценки)
                 sub_col[key] = (weighting_factor_1 * unique_content_cell_fraction[key] + weighting_factor_2 * awn -
                                 penalty_rank) / sqrt(distance_from_first_ne_column[key] + 1)
-                print("TOTAL = " + str(sub_col[key]))
+                print("Итоговый ранг для '" + str(key) + "' = " + str(sub_col[key]))
         # Определение ключа столбца с максимальной оценкой
         subject_key = max(sub_col.items(), key=operator.itemgetter(1))[0]
         # Формирование словаря с определенным сущностным (тематическим) столбцом
