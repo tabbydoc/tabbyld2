@@ -247,7 +247,7 @@ def determine_number(value, label):
     return label
 
 
-def determine_mention_entity(entity_mention):
+def determine_entity_mention(entity_mention):
     """
     Корректировка упоминания сущности (строки) с присвоением определенной метки.
     :param entity_mention: текстовое упоминание сущности (исходная строка)
@@ -339,7 +339,7 @@ def recognize_named_entities(source_table):
             if not isinstance(recognized_named_entities, list):
                 # Корректировка значения NONE на основе регулярных выражений
                 if recognized_named_entities == NONE:
-                    recognized_named_entities = determine_mention_entity(entity_mention)
+                    recognized_named_entities = determine_entity_mention(entity_mention)
                 # Уточнение типа числа на основе регулярных выражений
                 if recognized_named_entities == CARDINAL:
                     recognized_named_entities = determine_number(entity_mention, CARDINAL)
@@ -421,8 +421,8 @@ def get_empty_cell_fraction(source_table, classified_table):
             # Вычисление количества пустых ячеек в столбце
             empty_cell_number = 0
             for row in source_table:
-                for key, mention_entity in row.items():
-                    if column_key == key and not mention_entity:
+                for key, entity_mention in row.items():
+                    if column_key == key and not entity_mention:
                         empty_cell_number += 1
             # Вычисление доли пустых ячеек в столбце
             result_list[column_key] = empty_cell_number / cell_number
@@ -446,9 +446,9 @@ def get_cell_fraction_with_acronyms(source_table, classified_table):
             # Вычисление количества ячеек с акронимами в столбце
             cell_number_with_acronyms = 0
             for row in source_table:
-                for key, mention_entity in row.items():
+                for key, entity_mention in row.items():
                     # Поиск акронимов по регулярному выражению
-                    if column_key == key and re.search(r"\b[A-ZА-Я.]{2,}\b", mention_entity):
+                    if column_key == key and re.search(r"\b[A-ZА-Я.]{2,}\b", entity_mention):
                         cell_number_with_acronyms += 1
             # Вычисление доли ячеек, содержащих акронимы
             result_list[column_key] = cell_number_with_acronyms / cell_number
@@ -490,9 +490,9 @@ def get_unique_content_cell_fraction(source_table, classified_table):
             # Вычисление количества ячеек с уникальным содержимым
             col = collections.Counter()
             for row in source_table:
-                for key, mention_entity in row.items():
+                for key, entity_mention in row.items():
                     if column_key == key:
-                        col[mention_entity] += 1
+                        col[entity_mention] += 1
             # Вычисление доли ячеек с уникальным содержимым в столбце
             result_list[column_key] = len(col) / cell_number
 
@@ -531,9 +531,9 @@ def get_average_word_number(source_table, classified_table):
             # Подсчет количества слов в ячейках
             total_word_number = 0
             for row in source_table:
-                for key, mention_entity in row.items():
-                    if column_key == key and mention_entity:
-                        total_word_number += len(mention_entity.split())
+                for key, entity_mention in row.items():
+                    if column_key == key and entity_mention:
+                        total_word_number += len(entity_mention.split())
             # Вычисление среднего количества слов в ячейках столбца
             result_list[column_key] = total_word_number / cell_number
 
