@@ -1,5 +1,8 @@
 import collections
+import tabbyld2.utility as utl
+import tabbyld2.cea_solver as cea
 import tabbyld2.column_classifier as cc
+import tabbyld2.candidate_generation as cg
 
 
 # Типы данных XML-схемы для литеральных столбцов таблицы
@@ -9,6 +12,23 @@ NON_NEGATIVE_INTEGER_DATATYPE = "xsd:nonNegativeInteger"
 POSITIVE_INTEGER_DATATYPE = "xsd:positiveInteger"
 DECIMAL_DATATYPE = "xsd:decimal"
 STRING_DATATYPE = "xsd:string"
+
+
+def ranking_cells_by_ss(table_with_candidate_entities):
+    """
+    Ранжирование значений ячеек категориальных столбцов (включая сущностный столбец) по схоству строк.
+    :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
+    :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
+    """
+    for key, items in table_with_candidate_entities.items():
+        for item in items:
+            if isinstance(item, dict):
+                # Обход ячеек с сущностями кандидатами
+                for entity_mention, candidate_entities in item.items():
+                    # Вычисление оценок для сущностей из набора кандидатов по сходству строк
+                    item[entity_mention] = cea.get_string_similarity(entity_mention, candidate_entities)
+
+    return table_with_candidate_entities
 
 
 def merge_dicts(dict1, dict2):
