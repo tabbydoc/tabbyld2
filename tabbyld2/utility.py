@@ -1,6 +1,18 @@
 import os
 import json
 import shutil
+from pathlib import Path
+
+
+def remove_suffix_in_filename(filename):
+    """
+    Удаление расширения файла из имени файла.
+    :param filename: полное имя файла
+    :return: имя файла без расширения
+    """
+    path = Path(filename)
+
+    return path.stem
 
 
 def allowed_file(filename, allowed_extensions):
