@@ -83,6 +83,87 @@ def ranking_cells_by_ns(table_with_candidate_entities, recognized_table):
     return result_list
 
 
+def ranking_cells_by_hs(table_with_candidate_entities):
+    """
+    Ранжирование значений ячеек категориальных столбцов (включая сущностный столбец) по
+    сходству на основе заголовка столбца.
+    :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
+    :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
+    """
+    result_list = dict()
+    for key, items in table_with_candidate_entities.items():
+        for item in items:
+            if isinstance(item, dict):
+                result_item = dict()
+                # Обход ячеек с сущностями кандидатами
+                for entity_mention, candidate_entities in item.items():
+                    # Вычисление оценок для сущностей из набора кандидатов по сходству на основе заголовка столбца
+                    result_item[entity_mention] = cea.get_heading_based_similarity(key, candidate_entities)
+                    # Формирование ранжированных сущностей кандидатов для ячеек
+                    if key in result_list:
+                        result_list[key].append(result_item)
+                    else:
+                        result_list[key] = [result_item]
+            else:
+                result_list[key] = cc.LITERAL_COLUMN
+
+    return result_list
+
+
+def ranking_cells_by_ess(table_with_candidate_entities):
+    """
+    Ранжирование значений ячеек категориальных столбцов (включая сущностный столбец) по сходству на основе
+    семантической близости между сущностями кандидатами.
+    :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
+    :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
+    """
+    result_list = dict()
+    for key, items in table_with_candidate_entities.items():
+        for item in items:
+            if isinstance(item, dict):
+                result_item = dict()
+                # Обход ячеек с сущностями кандидатами
+                for entity_mention, candidate_entities in item.items():
+                    # Вычисление оценок для сущностей из набора кандидатов по сходству на основе
+                    # семантической близости между сущностями кандидатами
+                    result_item[entity_mention] = cea.get_entity_embedding_based_semantic_similarity(candidate_entities)
+                    # Формирование ранжированных сущностей кандидатов для ячеек
+                    if key in result_list:
+                        result_list[key].append(result_item)
+                    else:
+                        result_list[key] = [result_item]
+            else:
+                result_list[key] = cc.LITERAL_COLUMN
+
+    return result_list
+
+
+def ranking_cells_by_cs(table_with_candidate_entities):
+    """
+    Ранжирование значений ячеек категориальных столбцов (включая сущностный столбец) по сходству на основе контекста.
+    :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
+    :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
+    """
+    result_list = dict()
+    for key, items in table_with_candidate_entities.items():
+        for item in items:
+            if isinstance(item, dict):
+                result_item = dict()
+                # Обход ячеек с сущностями кандидатами
+                for entity_mention, candidate_entities in item.items():
+                    # Вычисление оценок для сущностей из набора кандидатов по сходству на основе контекста
+                    result_item[entity_mention] = cea.get_context_based_similarity(entity_mention, candidate_entities)
+                    # Формирование ранжированных сущностей кандидатов для ячеек
+                    if key in result_list:
+                        result_list[key].append(result_item)
+                    else:
+                        result_list[key] = [result_item]
+            else:
+                result_list[key] = cc.LITERAL_COLUMN
+
+    return result_list
+
+
 def merge_dicts(dict1, dict2):
     """
     Объединение содержимого двух словарей.
