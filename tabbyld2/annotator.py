@@ -20,15 +20,67 @@ def ranking_cells_by_ss(table_with_candidate_entities):
     :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
     :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
     """
+    result_list = dict()
     for key, items in table_with_candidate_entities.items():
         for item in items:
             if isinstance(item, dict):
+                result_item = dict()
                 # Обход ячеек с сущностями кандидатами
                 for entity_mention, candidate_entities in item.items():
                     # Вычисление оценок для сущностей из набора кандидатов по сходству строк
-                    item[entity_mention] = cea.get_string_similarity(entity_mention, candidate_entities)
+                    result_item[entity_mention] = cea.get_string_similarity(entity_mention, candidate_entities)
+                    # Формирование ранжированных сущностей кандидатов для ячеек
+                    if key in result_list:
+                        result_list[key].append(result_item)
+                    else:
+                        result_list[key] = [result_item]
+            else:
+                result_list[key] = cc.LITERAL_COLUMN
 
-    return table_with_candidate_entities
+    return result_list
+
+
+def ranking_cells_by_ns(table_with_candidate_entities, recognized_table):
+    """
+    Ранжирование значений ячеек категориальных столбцов (включая сущностный столбец) по сходству на основе NER-классов.
+    :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
+    :param recognized_table: словарь (таблица) с распознанными именованными сущностями: ключ и NER-класс
+    :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
+    """
+    result_list = dict()
+    for key, items in table_with_candidate_entities.items():
+        global_index = 1
+        for item in items:
+            if isinstance(item, dict):
+                result_item = dict()
+                # Обход ячеек с сущностями кандидатами
+                for entity_mention, candidate_entities in item.items():
+                    # Определение NER-класса (метки) для текущего значения ячейки
+                    ner_class = cc.NONE
+                    local_index = 1
+                    for recognized_row in recognized_table:
+                        if global_index == local_index:
+                            for rd_key, recognized_named_entities in recognized_row.items():
+                                if rd_key == key:
+                                    if isinstance(recognized_named_entities, list):
+                                        for recognized_named_entity in recognized_named_entities:
+                                            if recognized_named_entity in cc.NAMED_ENTITY_TAGS:
+                                                ner_class = recognized_named_entity
+                                    else:
+                                        ner_class = recognized_named_entities
+                        local_index += 1
+                    # Вычисление оценок для сущностей из набора кандидатов по сходству на основе NER-классов
+                    result_item[entity_mention] = cea.get_ner_based_similarity(ner_class, candidate_entities)
+                    # Формирование ранжированных сущностей кандидатов для ячеек
+                    if key in result_list:
+                        result_list[key].append(result_item)
+                    else:
+                        result_list[key] = [result_item]
+            else:
+                result_list[key] = cc.LITERAL_COLUMN
+            global_index += 1
+
+    return result_list
 
 
 def merge_dicts(dict1, dict2):
