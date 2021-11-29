@@ -155,6 +155,24 @@ def ranking_cells_by_cs(table_with_candidate_entities):
     return result_list
 
 
+def get_counter_for_ranked_candidate_entities(cell_value, ranked_candidate_entities):
+    """
+    Получение ранжированных сущностей кандидатов в Counter
+    :param cell_value: значение ячейки для которого необходимо сформировать ранжированный набор сущностей кандидатов
+    :param ranked_candidate_entities: ранжированный набор сущностей кандидатов
+    :return: ранжированный набор сущностей кандидатов в Counter
+    """
+    result_list = Counter()
+    for key, items in ranked_candidate_entities.items():
+        for item in items:
+            if isinstance(item, dict):
+                for entity_mention, candidate_entities in item.items():
+                    if cell_value == entity_mention:
+                        result_list = Counter(candidate_entities)
+
+    return result_list
+
+
 def aggregate_ranked_cells(ranked_candidate_entities_by_ss, ranked_candidate_entities_by_ns,
                            ranked_candidate_entities_by_hs, ranked_candidate_entities_by_ess,
                            ranked_candidate_entities_by_cs):
@@ -175,41 +193,17 @@ def aggregate_ranked_cells(ranked_candidate_entities_by_ss, ranked_candidate_ent
                 result_item = dict()
                 # Обход ячеек с сущностями кандидатами, полученных по сходству строк
                 for ss_entity_mention, ss_candidate_entities in ss_item.items():
-                    # Преобразование в Counter
+                    # Преобразование ранжированных сущностей кандидатов по сходству строк в Counter
                     ss = Counter(ss_candidate_entities)
-                    ns = Counter()
-                    hs = Counter()
-                    ess = Counter()
-                    cs = Counter()
                     # Обход ячеек с сущностями кандидатами, полученных по сходству на основе NER-классов
-                    for ns_key, ns_items in ranked_candidate_entities_by_ns.items():
-                        for ns_item in ns_items:
-                            if isinstance(ns_item, dict):
-                                for ns_entity_mention, ns_candidate_entities in ns_item.items():
-                                    if ss_entity_mention == ns_entity_mention:
-                                        ns = Counter(ns_candidate_entities)
+                    ns = get_counter_for_ranked_candidate_entities(ss_entity_mention, ranked_candidate_entities_by_ns)
                     # Обход ячеек с сущностями кандидатами, полученных по сходству на основе заголовка столбца
-                    for hs_key, hs_items in ranked_candidate_entities_by_hs.items():
-                        for hs_item in hs_items:
-                            if isinstance(hs_item, dict):
-                                for hs_entity_mention, hs_candidate_entities in hs_item.items():
-                                    if ss_entity_mention == hs_entity_mention:
-                                        hs = Counter(hs_candidate_entities)
+                    hs = get_counter_for_ranked_candidate_entities(ss_entity_mention, ranked_candidate_entities_by_hs)
                     # Обход ячеек с сущностями кандидатами, полученных по сходству на основе
                     # семантической близости между сущностями кандидатами
-                    for ess_key, ess_items in ranked_candidate_entities_by_ess.items():
-                        for ess_item in ess_items:
-                            if isinstance(ess_item, dict):
-                                for ess_entity_mention, ess_candidate_entities in ess_item.items():
-                                    if ss_entity_mention == ess_entity_mention:
-                                        ess = Counter(ess_candidate_entities)
+                    ess = get_counter_for_ranked_candidate_entities(ss_entity_mention, ranked_candidate_entities_by_ess)
                     # Обход ячеек с сущностями кандидатами, полученных по сходству на основе контекста
-                    for cs_key, cs_items in ranked_candidate_entities_by_cs.items():
-                        for cs_item in cs_items:
-                            if isinstance(cs_item, dict):
-                                for cs_entity_mention, cs_candidate_entities in cs_item.items():
-                                    if ss_entity_mention == cs_entity_mention:
-                                        ess = Counter(cs_candidate_entities)
+                    cs = get_counter_for_ranked_candidate_entities(ss_entity_mention, ranked_candidate_entities_by_cs)
                     # Объединение оценок (рангов)
                     final_ranked_candidate_entities = ss + ns + hs + ess + cs
                     result_item[ss_entity_mention] = dict(final_ranked_candidate_entities)
