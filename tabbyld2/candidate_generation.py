@@ -65,7 +65,12 @@ def get_candidate_entities_for_table(source_table, classified_table):
                         else:
                             result_list[key] = [candidate_entities]
                     else:
-                        result_list[key] = [cc.LITERAL_COLUMN]
+                        item = dict()
+                        item[entity_mention] = []
+                        if key in result_list:
+                            result_list[key].append(item)
+                        else:
+                            result_list[key] = [item]
 
     return result_list
 
