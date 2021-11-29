@@ -26,6 +26,13 @@ WORK = "dbo:Work"
 LAW = "dbo:Law"
 LEGAL_CASE = "dbo:LegalCase"
 
+# Весовые коэффициенты для балансировки важности оценок, полученных на основе применения 5 эвристик определения сходства
+SS_WEIGHT_FACTOR = 1  # Сходства строк
+NS_WEIGHT_FACTOR = 1  # Сходства на основе NER-классов
+HS_WEIGHT_FACTOR = 1  # Сходство на основе заголовка
+EES_WEIGHT_FACTOR = 1  # Сходство на основе семантической близости сущностей кандидатов
+CS_WEIGHT_FACTOR = 1  # Сходство на основе контекста
+
 
 def get_levenshtein_distance(entity_mention, candidate_entity, underscore_replacement: bool = False,
                              short_name: bool = False):
@@ -65,18 +72,19 @@ def get_string_similarity(entity_mention, candidate_entities):
     :param candidate_entities: набор сущностей-кандидатов
     :return: ранжированный список сущностей-кандидатов
     """
-    result = []
+    result = dict()
     for candidate_entity in candidate_entities:
-        result.append([candidate_entity, get_levenshtein_distance(entity_mention, candidate_entity, True, True)])
+        result[candidate_entity] = get_levenshtein_distance(entity_mention, candidate_entity, True, True) * \
+                                   SS_WEIGHT_FACTOR
     # Сортировка по оценкам
-    result = sorted(result, key=lambda k: k[1], reverse=True)
+    result = dict(sorted(result.items(), key=lambda item: item[1], reverse=True))
 
     return result
 
 
 def get_ner_based_similarity(ner_class, candidate_entities):
     """
-    Вычисление оценок для сущностей из набора кандидатов на основе NER-классов.
+    Вычисление оценок для сущностей из набора кандидатов по сходству на основе NER-классов.
     :param ner_class: NER-класс, которому соответствует значение ячейки
     :param candidate_entities: набор сущностей-кандидатов
     :return: ранжированный список сущностей-кандидатов
@@ -104,14 +112,62 @@ def get_ner_based_similarity(ner_class, candidate_entities):
         target_classes = WORK
     if ner_class == cc.LAW:
         target_classes = [LAW, LEGAL_CASE]
-    result = []
+    result = dict()
     # Обход сущностей в наборе кандидатов
     for candidate_entity in candidate_entities:
         # Определение дистанции до целевого класса для сущности-кандидата
         distance_to_class = dbs.get_distance_to_class(candidate_entity, target_classes, False)
         # Определение оценки на основе дистанции до целевого класса
-        result.append([candidate_entity, (1 if int(distance_to_class) > 0 else 0)])
-        # Сортировка по оценкам
-        result = sorted(result, key=lambda k: k[1], reverse=True)
+        result[candidate_entity] = (1 * NS_WEIGHT_FACTOR if int(distance_to_class) > 0 else 0)
+    # Сортировка по оценкам
+    result = dict(sorted(result.items(), key=lambda item: item[1], reverse=True))
+
+    return result
+
+
+def get_heading_based_similarity(heading_name, candidate_entities):
+    """
+    Вычисление оценок для сущностей из набора кандидатов по сходству на основе заголовка столбца.
+    :param heading_name: название заголовка столбца
+    :param candidate_entities: набор сущностей-кандидатов
+    :return: ранжированный список сущностей-кандидатов
+    """
+    result = dict()
+    for candidate_entity in candidate_entities:
+        result[candidate_entity] = 0 * HS_WEIGHT_FACTOR
+    # Сортировка по оценкам
+    result = dict(sorted(result.items(), key=lambda item: item[1], reverse=True))
+
+    return result
+
+
+def get_entity_embedding_based_semantic_similarity(all_candidate_entities):
+    """
+    Вычисление оценок для сущностей из набора кандидатов по сходству на основе
+    семантической близости между сущностями кандидатами.
+    :param all_candidate_entities: множество наборов сущностей-кандидатов для каждой ячейки столбца
+    :return: ранжированный список сущностей-кандидатов
+    """
+    result = dict()
+    for candidate_entity in all_candidate_entities:
+        result[candidate_entity] = 0 * EES_WEIGHT_FACTOR
+    # Сортировка по оценкам
+    result = dict(sorted(result.items(), key=lambda item: item[1], reverse=True))
+
+    return result
+
+
+def get_context_based_similarity(cell_context, candidate_entities):
+    """
+    Вычисление оценок для сущностей из набора кандидатов по сходству на основе контекста.
+    :param cell_context: контекст для ячейки
+    :param candidate_entities: набор сущностей-кандидатов
+    :return: ранжированный список сущностей-кандидатов
+    """
+    result = dict()
+    for candidate_entity in candidate_entities:
+        result[candidate_entity] = 0 * CS_WEIGHT_FACTOR
+    # Сортировка по оценкам
+    result = dict(sorted(result.items(), key=lambda item: item[1], reverse=True))
 
     return result
