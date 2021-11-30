@@ -153,3 +153,13 @@ for root, dirs, files in os.walk(JSON_FILE_PATH):
                 # Запись json-файла c результатами итогового ранжирования сущностей кандидатов
                 with open(path + file, "w") as outfile:
                     json.dump(final_ranked_candidate_entities, outfile, indent=4)
+            # Аннотирование значений ячеек на основе ранжированного списка сущностей кандидатов
+            annotated_cell_data = ant.annotate_cells(final_ranked_candidate_entities)
+            if annotated_cell_data:
+                # Формирование пути к файлу
+                path = PROVENANCE_PATH + utl.remove_suffix_in_filename(file) + ANNOTATED_CELL_DATA_PATH
+                # Проверка существования каталога для сохранения результатов аннотирования значений ячеек
+                utl.check_directory(path)
+                # Запись json-файла c результатами аннотирования значений ячеек
+                with open(path + file, "w") as outfile:
+                    json.dump(annotated_cell_data, outfile, indent=4)
