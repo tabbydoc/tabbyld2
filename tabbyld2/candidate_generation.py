@@ -25,7 +25,6 @@ def generate_candidate_entities(entity_mention):
     :param entity_mention: текстовое упоминание сущности
     :return: словарь сущностей кандидатов для упоминания сущности
     """
-    result_list = dict()
     # Получение сущностей кандидатов на основе конечной точки DBpedia SPARQL Endpoint
     candidate_entities_from_sparql_endpoint = dbs.get_candidate_entities(entity_mention, False)
     # Получение сущностей кандидатов от сервиса DBpedia Lookup
@@ -33,12 +32,8 @@ def generate_candidate_entities(entity_mention):
     # Получение объединенного набора (списка) сущностей кандидатов
     candidate_entities = union_candidate_entity_lists(candidate_entities_from_sparql_endpoint,
                                                       candidate_entities_from_dbl)
-    if candidate_entities:
-        result_list[entity_mention] = candidate_entities
-    else:
-        result_list[entity_mention] = []
 
-    return result_list
+    return candidate_entities
 
 
 def get_candidate_entities_for_table(source_table, classified_table):
@@ -60,17 +55,13 @@ def get_candidate_entities_for_table(source_table, classified_table):
                         # Генерация сущностей кандидатов на основе текстового упоминания сущности в ячейке
                         candidate_entities = generate_candidate_entities(entity_mention)
                         # Формирование словаря (таблицы) с найденными сущностями кандидатами
-                        if key in result_list:
-                            result_list[key].append(candidate_entities)
-                        else:
-                            result_list[key] = [candidate_entities]
+                        if key not in result_list:
+                            result_list[key] = dict()
+                        result_list[key][entity_mention] = candidate_entities
                     else:
-                        item = dict()
-                        item[entity_mention] = []
-                        if key in result_list:
-                            result_list[key].append(item)
-                        else:
-                            result_list[key] = [item]
+                        if key not in result_list:
+                            result_list[key] = dict()
+                        result_list[key][entity_mention] = []
 
     return result_list
 
