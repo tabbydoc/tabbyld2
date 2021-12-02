@@ -4,6 +4,14 @@ import shutil
 from pathlib import Path
 
 
+def get_project_root() -> Path:
+    """
+    Получить путь в котором лежит папка с проектом.
+    :return:
+    """
+    return Path(__file__).parent.parent
+
+
 def remove_suffix_in_filename(filename):
     """
     Удаление расширения файла из имени файла.
