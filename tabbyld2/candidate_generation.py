@@ -43,7 +43,7 @@ def get_candidate_entities_for_table(source_table, classified_table):
     :param classified_table: словарь (таблица) с типизированными столбцами
     :return: словарь (таблица) с найденными сущностями кандидатами
     """
-    result_list = dict()
+    result = dict()
     # Обход строк в исходной таблице
     for row in source_table:
         for key, entity_mention in row.items():
@@ -55,15 +55,15 @@ def get_candidate_entities_for_table(source_table, classified_table):
                         # Генерация сущностей кандидатов на основе текстового упоминания сущности в ячейке
                         candidate_entities = generate_candidate_entities(entity_mention)
                         # Формирование словаря (таблицы) с найденными сущностями кандидатами
-                        if key not in result_list:
-                            result_list[key] = dict()
-                        result_list[key][entity_mention] = candidate_entities
+                        if key not in result:
+                            result[key] = dict()
+                        result[key][entity_mention] = candidate_entities
                     else:
-                        if key not in result_list:
-                            result_list[key] = dict()
-                        result_list[key][entity_mention] = []
+                        if key not in result:
+                            result[key] = dict()
+                        result[key][entity_mention] = []
 
-    return result_list
+    return result
 
 
 def generate_candidate_classes(class_mention):
@@ -72,14 +72,14 @@ def generate_candidate_classes(class_mention):
     :param class_mention: текстовое упоминание класса
     :return: словарь классов кандидатов для упоминания класса
     """
-    result_list = dict()
+    result = dict()
     candidate_classes = []
     if candidate_classes:
-        result_list[class_mention] = candidate_classes
+        result[class_mention] = candidate_classes
     else:
-        result_list[class_mention] = []
+        result[class_mention] = []
 
-    return result_list
+    return result
 
 
 def generate_candidate_properties(class_mention):
@@ -88,11 +88,11 @@ def generate_candidate_properties(class_mention):
     :param class_mention: текстовое упоминание класса
     :return: словарь свойств кандидатов
     """
-    result_list = dict()
+    result = dict()
     candidate_properties = []
     if candidate_properties:
-        result_list[class_mention] = candidate_properties
+        result[class_mention] = candidate_properties
     else:
-        result_list[class_mention] = []
+        result[class_mention] = []
 
-    return result_list
+    return result
