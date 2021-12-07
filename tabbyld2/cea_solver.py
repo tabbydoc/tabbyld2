@@ -116,7 +116,7 @@ def get_ner_based_similarity(ner_class, candidate_entities):
     # Обход сущностей в наборе кандидатов
     for candidate_entity in candidate_entities:
         # Определение дистанции до целевого класса для сущности-кандидата
-        distance_to_class = dbs.get_distance_to_class(candidate_entity, target_classes, False)
+        distance_to_class = dbs.get_distance_to_class(candidate_entity, target_classes)
         # Определение оценки на основе дистанции до целевого класса
         result[candidate_entity] = (1 * NS_WEIGHT_FACTOR if int(distance_to_class) > 0 else 0)
     # Сортировка по оценкам

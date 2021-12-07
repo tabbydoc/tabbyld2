@@ -53,12 +53,11 @@ def get_candidate_entities(entity_mention: str = "", short_name: bool = False):
     return result_list
 
 
-def get_distance_to_class(candidate_entity: str = "", target_classes: str = "", short_name: bool = False):
+def get_distance_to_class(entity: str = "", target_classes: str = ""):
     """
-    Получение дистанции до целевого класса для сущности-кандидата на основе SPARQL-запроса к DBpedia.
-    :param candidate_entity: сущность кандидат
+    Получение дистанции до целевого класса для сущности из DBpedia на основе SPARQL-запроса.
+    :param entity: сущность из DBpedia
     :param target_classes: набор целевых классов
-    :param short_name: режим отображения короткого наименования класса (без полного URI)
     :return: дистанция до целевого класса (натуральное число, включая ноль)
     """
     # Выполнение SPARQL-запроса к DBpedia
@@ -70,7 +69,7 @@ def get_distance_to_class(candidate_entity: str = "", target_classes: str = "", 
                 <%s> rdf:type/rdfs:subClassOf* ?type .
                 ?type rdfs:subClassOf* ""
             }
-        """ % candidate_entity)
+        """ % entity)
     else:
         sparql.setQuery("""
             SELECT COUNT DISTINCT ?type
@@ -79,15 +78,40 @@ def get_distance_to_class(candidate_entity: str = "", target_classes: str = "", 
                 ?type rdfs:subClassOf* ?c .
                 FILTER (?c IN (%s))
             }
-        """ % (candidate_entity, target_classes if isinstance(target_classes, str) else ", ".join(target_classes)))
+        """ % (entity, target_classes if isinstance(target_classes, str) else ", ".join(target_classes)))
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
     # Определение дистанции до целевого класса
     distance_to_class = 0
     for result in results["results"]["bindings"]:
-        if short_name:
-            distance_to_class = result["callret-0"]["value"].replace("http://dbpedia.org/ontology/", "")
-        else:
-            distance_to_class = result["callret-0"]["value"]
+        distance_to_class = result["callret-0"]["value"]
 
     return distance_to_class
+
+
+def get_classes(entity: str = "", short_name: bool = False):
+    """
+    Получение набора (списка) классов для сущности из DBpedia на основе SPARQL-запроса.
+    :param entity: сущность из DBpedia
+    :param short_name: режим отображения короткого наименования класса (без полного URI)
+    :return: список найденных классов
+    """
+    result_list = []
+    # Выполнение SPARQL-запроса к DBpedia
+    sparql = SPARQLWrapper(ENDPOINT_NAME)
+    sparql.setQuery("""
+        SELECT ?type
+        WHERE {
+            <%s> a ?type .
+            FILTER (strstarts(str(?type), "http://dbpedia.org/ontology/"))
+        }
+    """ % entity)
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+    for result in results["results"]["bindings"]:
+        if short_name:
+            result_list.append(result["type"]["value"].replace("http://dbpedia.org/ontology/", ""))
+        else:
+            result_list.append(result["type"]["value"])
+
+    return result_list
