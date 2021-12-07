@@ -39,7 +39,7 @@ def get_levenshtein_distance(entity_mention, candidate_entity, underscore_replac
     """
     Вычисление расстояния Левенштейна (редактирования) между двумя строками.
     :param entity_mention: текстовое упоминание сущности
-    :param candidate_entity: сущность-кандидат
+    :param candidate_entity: сущность кандидат
     :param underscore_replacement: режим замены символа нижнего подчеркивания на пробел
     :param short_name: режим отображения короткого наименования сущности (без полного URI)
     :return: нормализованное расстояние Левенштейна в диапазоне [0, ..., 1]
@@ -67,10 +67,10 @@ def get_levenshtein_distance(entity_mention, candidate_entity, underscore_replac
 
 def get_string_similarity(entity_mention, candidate_entities):
     """
-    Вычисление оценок для сущностей из набора кандидатов по сходству строк.
+    Вычисление оценок для сущностей из набора кандидатов по сходству строк для значения ячейки.
     :param entity_mention: текстовое упоминание сущности
-    :param candidate_entities: набор сущностей-кандидатов
-    :return: ранжированный список сущностей-кандидатов
+    :param candidate_entities: набор сущностей кандидатов
+    :return: ранжированный список сущностей кандидатов
     """
     result = dict()
     for candidate_entity in candidate_entities:
@@ -84,10 +84,10 @@ def get_string_similarity(entity_mention, candidate_entities):
 
 def get_ner_based_similarity(ner_class, candidate_entities):
     """
-    Вычисление оценок для сущностей из набора кандидатов по сходству на основе NER-классов.
+    Вычисление оценок для сущностей из набора кандидатов по сходству на основе NER-классов для значения ячейки.
     :param ner_class: NER-класс, которому соответствует значение ячейки
-    :param candidate_entities: набор сущностей-кандидатов
-    :return: ранжированный список сущностей-кандидатов
+    :param candidate_entities: набор сущностей кандидатов
+    :return: ранжированный список сущностей кандидатов
     """
     # Поиск целевого класса DBpedia на основе NER-класса
     target_classes = ""
@@ -127,10 +127,10 @@ def get_ner_based_similarity(ner_class, candidate_entities):
 
 def get_heading_based_similarity(heading_name, candidate_entities):
     """
-    Вычисление оценок для сущностей из набора кандидатов по сходству на основе заголовка столбца.
+    Вычисление оценок для сущностей из набора кандидатов по сходству на основе заголовка столбца для значения ячейки.
     :param heading_name: название заголовка столбца
-    :param candidate_entities: набор сущностей-кандидатов
-    :return: ранжированный список сущностей-кандидатов
+    :param candidate_entities: набор сущностей кандидатов
+    :return: ранжированный список сущностей кандидатов
     """
     result = dict()
     for candidate_entity in candidate_entities:
@@ -144,9 +144,9 @@ def get_heading_based_similarity(heading_name, candidate_entities):
 def get_entity_embedding_based_semantic_similarity(all_candidate_entities):
     """
     Вычисление оценок для сущностей из набора кандидатов по сходству на основе
-    семантической близости между сущностями кандидатами.
-    :param all_candidate_entities: множество наборов сущностей-кандидатов для каждой ячейки столбца
-    :return: ранжированный список сущностей-кандидатов
+    семантической близости между сущностями кандидатами для значения ячейки.
+    :param all_candidate_entities: множество наборов сущностей кандидатов для каждой ячейки столбца
+    :return: ранжированный список сущностей кандидатов
     """
     result = dict()
     for candidate_entity in all_candidate_entities:
@@ -159,10 +159,10 @@ def get_entity_embedding_based_semantic_similarity(all_candidate_entities):
 
 def get_context_based_similarity(cell_context, candidate_entities):
     """
-    Вычисление оценок для сущностей из набора кандидатов по сходству на основе контекста.
+    Вычисление оценок для сущностей из набора кандидатов по сходству на основе контекста для значения ячейки.
     :param cell_context: контекст для ячейки
-    :param candidate_entities: набор сущностей-кандидатов
-    :return: ранжированный список сущностей-кандидатов
+    :param candidate_entities: набор сущностей кандидатов
+    :return: ранжированный список сущностей кандидатов
     """
     result = dict()
     for candidate_entity in candidate_entities:
