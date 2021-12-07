@@ -4,6 +4,21 @@ import shutil
 from pathlib import Path
 
 
+def merge_dicts(dict1, dict2):
+    """
+    Объединение содержимого двух словарей.
+    :param dict1: первый словарь
+    :param dict2: второй словарь
+    :return: результирующий (третий) словарь
+    """
+    dict3 = {**dict1, **dict2}
+    for key, value in dict3.items():
+        if key in dict1 and key in dict2:
+            if isinstance(dict3[key], list):
+                dict3[key].append(dict1[key])
+    return dict3
+
+
 def get_project_root() -> Path:
     """
     Получить путь в котором лежит папка с проектом.

@@ -215,21 +215,6 @@ def annotate_cells(final_ranked_candidate_entities):
     return result_list
 
 
-def merge_dicts(dict1, dict2):
-    """
-    Объединение содержимого двух словарей.
-    :param dict1: первый словарь
-    :param dict2: второй словарь
-    :return: результирующий (третий) словарь
-    """
-    dict3 = {**dict1, **dict2}
-    for key, value in dict3.items():
-        if key in dict1 and key in dict2:
-            if isinstance(dict3[key], list):
-                dict3[key].append(dict1[key])
-    return dict3
-
-
 def define_datatype(recognized_table):
     """
     Определение типа данных для каждого столбца таблицы на основе распознанных именованных сущностей (NER-меток).
@@ -275,7 +260,7 @@ def define_datatype(recognized_table):
             for key, value in typed_row.items():
                 merge_table[key] = [value]
         else:
-            merge_table = merge_dicts(typed_row, merge_table)
+            merge_table = utl.merge_dicts(typed_row, merge_table)
 
     # Определение наиболее распространенного типа данных в списке для каждого столбца
     result_list = dict()
