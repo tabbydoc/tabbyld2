@@ -2,6 +2,7 @@ import collections
 from collections import Counter
 import tabbyld2.utility as utl
 import tabbyld2.cea_solver as cea
+import tabbyld2.cta_solver as cta
 import tabbyld2.column_classifier as cc
 import tabbyld2.candidate_generation as cg
 
@@ -15,9 +16,10 @@ DECIMAL_DATATYPE = "xsd:decimal"
 STRING_DATATYPE = "xsd:string"
 
 
-def ranking_cells_by_ss(table_with_candidate_entities):
+def ranking_candidate_entities_by_ss(table_with_candidate_entities):
     """
-    Ранжирование значений ячеек категориальных столбцов (включая сущностный столбец) по схоству строк.
+    Ранжирование сущностей кандидатов для значений ячеек категориальных столбцов (включая сущностный столбец)
+    по схоству строк.
     :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
     :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
     """
@@ -35,9 +37,10 @@ def ranking_cells_by_ss(table_with_candidate_entities):
     return result_list
 
 
-def ranking_cells_by_ns(table_with_candidate_entities, recognized_table):
+def ranking_candidate_entities_by_ns(table_with_candidate_entities, recognized_table):
     """
-    Ранжирование значений ячеек категориальных столбцов (включая сущностный столбец) по сходству на основе NER-классов.
+    Ранжирование сущностей кандидатов для значений ячеек категориальных столбцов (включая сущностный столбец)
+    по сходству на основе NER-классов.
     :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
     :param recognized_table: словарь (таблица) с распознанными именованными сущностями: ключ и NER-класс
     :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
@@ -73,10 +76,10 @@ def ranking_cells_by_ns(table_with_candidate_entities, recognized_table):
     return result_list
 
 
-def ranking_cells_by_hs(table_with_candidate_entities):
+def ranking_candidate_entities_by_hs(table_with_candidate_entities):
     """
-    Ранжирование значений ячеек категориальных столбцов (включая сущностный столбец) по
-    сходству на основе заголовка столбца.
+    Ранжирование сущностей кандидатов для значений ячеек категориальных столбцов (включая сущностный столбец)
+    по сходству на основе заголовка столбца.
     :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
     :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
     """
@@ -94,10 +97,10 @@ def ranking_cells_by_hs(table_with_candidate_entities):
     return result_list
 
 
-def ranking_cells_by_ess(table_with_candidate_entities):
+def ranking_candidate_entities_by_ess(table_with_candidate_entities):
     """
-    Ранжирование значений ячеек категориальных столбцов (включая сущностный столбец) по сходству на основе
-    семантической близости между сущностями кандидатами.
+    Ранжирование сущностей кандидатов для значений ячеек категориальных столбцов (включая сущностный столбец)
+    по сходству на основе семантической близости между сущностями кандидатами.
     :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
     :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
     """
@@ -116,9 +119,10 @@ def ranking_cells_by_ess(table_with_candidate_entities):
     return result_list
 
 
-def ranking_cells_by_cs(table_with_candidate_entities):
+def ranking_candidate_entities_by_cs(table_with_candidate_entities):
     """
-    Ранжирование значений ячеек категориальных столбцов (включая сущностный столбец) по сходству на основе контекста.
+    Ранжирование сущностей кандидатов для значений ячеек категориальных столбцов (включая сущностный столбец)
+    по сходству на основе контекста.
     :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
     :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
     """
@@ -152,11 +156,11 @@ def get_counter_for_ranked_candidate_entities(cell_value, ranked_candidate_entit
     return result_list
 
 
-def aggregate_ranked_cells(ranked_candidate_entities_by_ss, ranked_candidate_entities_by_ns,
-                           ranked_candidate_entities_by_hs, ranked_candidate_entities_by_ess,
-                           ranked_candidate_entities_by_cs):
+def aggregate_ranked_candidate_entities(ranked_candidate_entities_by_ss, ranked_candidate_entities_by_ns,
+                                        ranked_candidate_entities_by_hs, ranked_candidate_entities_by_ess,
+                                        ranked_candidate_entities_by_cs):
     """
-    Агрегирование оценок (рангов) для значений ячеек, полученных на основе пяти эвристик.
+    Агрегирование оценок (рангов) для сущностей кандидатов для значений ячеек, полученных на основе пяти эвристик.
     :param ranked_candidate_entities_by_ss: ранжированные сущности кандидаты по сходству строк
     :param ranked_candidate_entities_by_ns: ранжированные сущности кандидаты по сходству на основе NER-классов
     :param ranked_candidate_entities_by_hs: ранжированные сущности кандидаты по сходству на основе заголовка столбца
@@ -213,6 +217,28 @@ def annotate_cells(final_ranked_candidate_entities):
             result_list[key][entity_mention] = result_item
 
     return result_list
+
+
+def ranking_candidate_classes_by_mv(annotated_cells_table, classified_table):
+    """
+    Ранжирование классов кандидатов для категориальных столбцов (включая сущностный столбец)
+    по сходству на голосования большинством.
+    :param annotated_cells_table: словарь (таблица) с аннотированными ячейками
+    :param classified_table: словарь (таблица) с типизированными столбцами
+    :return: таблица с наборами ранжированных классов кандидатов для категориальных столбцов
+    """
+    result = dict()
+    for key, item in annotated_cells_table.items():
+        # Обход строк в данных с классификацией столбцов
+        for col_key, type_column in classified_table.items():
+            if key == col_key:
+                if type_column == cc.SUBJECT_COLUMN or type_column == cc.CATEGORICAL_COLUMN:
+                    #
+                    result[key] = cta.get_majority_voting_similarity(item)
+                else:
+                    result[key] = ""
+
+    return result
 
 
 def define_datatype(recognized_table):

@@ -28,6 +28,8 @@ RANKED_CANDIDATE_ENTITIES_BY_HS = "/ranked_candidate_entities_by_hs/"
 RANKED_CANDIDATE_ENTITIES_BY_ESS = "/ranked_candidate_entities_by_ess/"
 RANKED_CANDIDATE_ENTITIES_BY_CS = "/ranked_candidate_entities_by_cs/"
 
+RANKED_CANDIDATE_CLASSES_BY_MV = "/ranked_candidate_classes_by_mv/"
+
 ANNOTATED_CELL_DATA_PATH = "/annotated_cell_data/"
 ANNOTATED_COLUMN_DATA_PATH = "/annotated_column_data/"
 ANNOTATED_PROPERTY_DATA_PATH = "/annotated_property_data/"
@@ -89,8 +91,8 @@ for root, dirs, files in os.walk(JSON_FILE_PATH):
                     json.dump(candidate_entity_data, outfile, indent=4)
 
             print("*********************************************************")
-            # Ранжирование значений ячеек по схоству строк
-            ranked_candidate_entities_by_ss = ant.ranking_cells_by_ss(candidate_entity_data)
+            # Ранжирование сущностей кандидатов по схоству строк
+            ranked_candidate_entities_by_ss = ant.ranking_candidate_entities_by_ss(candidate_entity_data)
             if ranked_candidate_entities_by_ss:
                 # Формирование пути к файлу
                 path = PROVENANCE_PATH + utl.remove_suffix_in_filename(file) + RANKED_CANDIDATE_ENTITIES_BY_SS
@@ -99,8 +101,9 @@ for root, dirs, files in os.walk(JSON_FILE_PATH):
                 # Запись json-файла c результатами ранжирования сущностей кандидатов
                 with open(path + file, "w") as outfile:
                     json.dump(ranked_candidate_entities_by_ss, outfile, indent=4)
-            # Ранжирование значений ячеек по сходству на основе NER-классов
-            ranked_candidate_entities_by_ns = ant.ranking_cells_by_ns(candidate_entity_data, recognized_data)
+            # Ранжирование сущностей кандидатов по сходству на основе NER-классов
+            ranked_candidate_entities_by_ns = ant.ranking_candidate_entities_by_ns(candidate_entity_data,
+                                                                                   recognized_data)
             if ranked_candidate_entities_by_ns:
                 # Формирование пути к файлу
                 path = PROVENANCE_PATH + utl.remove_suffix_in_filename(file) + RANKED_CANDIDATE_ENTITIES_BY_NS
@@ -109,9 +112,9 @@ for root, dirs, files in os.walk(JSON_FILE_PATH):
                 # Запись json-файла c результатами ранжирования сущностей кандидатов
                 with open(path + file, "w") as outfile:
                     json.dump(ranked_candidate_entities_by_ns, outfile, indent=4)
-            # Ранжирование значений ячеек категориальных столбцов (включая сущностный столбец) по
+            # Ранжирование сущностей кандидатов категориальных столбцов (включая сущностный столбец) по
             # сходству на основе заголовка столбца
-            ranked_candidate_entities_by_hs = ant.ranking_cells_by_hs(candidate_entity_data)
+            ranked_candidate_entities_by_hs = ant.ranking_candidate_entities_by_hs(candidate_entity_data)
             if ranked_candidate_entities_by_hs:
                 # Формирование пути к файлу
                 path = PROVENANCE_PATH + utl.remove_suffix_in_filename(file) + RANKED_CANDIDATE_ENTITIES_BY_HS
@@ -120,8 +123,8 @@ for root, dirs, files in os.walk(JSON_FILE_PATH):
                 # Запись json-файла c результатами ранжирования сущностей кандидатов
                 with open(path + file, "w") as outfile:
                     json.dump(ranked_candidate_entities_by_hs, outfile, indent=4)
-            # Ранжирование значений ячеек по сходству на основе семантической близости между сущностями кандидатами
-            ranked_candidate_entities_by_ess = ant.ranking_cells_by_ess(candidate_entity_data)
+            # Ранжирование сущностей кандидатов по сходству на основе семантической близости между сущностями кандидатами
+            ranked_candidate_entities_by_ess = ant.ranking_candidate_entities_by_ess(candidate_entity_data)
             if ranked_candidate_entities_by_ess:
                 # Формирование пути к файлу
                 path = PROVENANCE_PATH + utl.remove_suffix_in_filename(file) + RANKED_CANDIDATE_ENTITIES_BY_ESS
@@ -130,8 +133,8 @@ for root, dirs, files in os.walk(JSON_FILE_PATH):
                 # Запись json-файла c результатами ранжирования сущностей кандидатов
                 with open(path + file, "w") as outfile:
                     json.dump(ranked_candidate_entities_by_ess, outfile, indent=4)
-            # Ранжирование значений ячеек по сходству на основе контекста
-            ranked_candidate_entities_by_cs = ant.ranking_cells_by_cs(candidate_entity_data)
+            # Ранжирование сущностей кандидатов по сходству на основе контекста
+            ranked_candidate_entities_by_cs = ant.ranking_candidate_entities_by_cs(candidate_entity_data)
             if ranked_candidate_entities_by_cs:
                 # Формирование пути к файлу
                 path = PROVENANCE_PATH + utl.remove_suffix_in_filename(file) + RANKED_CANDIDATE_ENTITIES_BY_CS
@@ -141,11 +144,11 @@ for root, dirs, files in os.walk(JSON_FILE_PATH):
                 with open(path + file, "w") as outfile:
                     json.dump(ranked_candidate_entities_by_cs, outfile, indent=4)
             # Агрегирование оценок (рангов) для значений ячеек, полученных на основе пяти эвристик
-            final_ranked_candidate_entities = ant.aggregate_ranked_cells(ranked_candidate_entities_by_ss,
-                                                                         ranked_candidate_entities_by_ns,
-                                                                         ranked_candidate_entities_by_hs,
-                                                                         ranked_candidate_entities_by_ess,
-                                                                         ranked_candidate_entities_by_cs)
+            final_ranked_candidate_entities = ant.aggregate_ranked_candidate_entities(ranked_candidate_entities_by_ss,
+                                                                                      ranked_candidate_entities_by_ns,
+                                                                                      ranked_candidate_entities_by_hs,
+                                                                                      ranked_candidate_entities_by_ess,
+                                                                                      ranked_candidate_entities_by_cs)
             if final_ranked_candidate_entities:
                 # Формирование пути к файлу
                 path = PROVENANCE_PATH + utl.remove_suffix_in_filename(file) + RANKED_CANDIDATE_ENTITIES
@@ -157,6 +160,7 @@ for root, dirs, files in os.walk(JSON_FILE_PATH):
             # Аннотирование значений ячеек на основе ранжированного списка сущностей кандидатов
             annotated_cell_data = ant.annotate_cells(final_ranked_candidate_entities)
             if annotated_cell_data:
+                print("Ячейки для '" + file + "' проаннотированы")
                 # Формирование пути к файлу
                 path = PROVENANCE_PATH + utl.remove_suffix_in_filename(file) + ANNOTATED_CELL_DATA_PATH
                 # Проверка существования каталога для сохранения результатов аннотирования значений ячеек
@@ -164,3 +168,15 @@ for root, dirs, files in os.walk(JSON_FILE_PATH):
                 # Запись json-файла c результатами аннотирования значений ячеек
                 with open(path + file, "w") as outfile:
                     json.dump(annotated_cell_data, outfile, indent=4)
+
+            print("*********************************************************")
+            # Ранжирование классов кандидатов для категориальных столбцов по сходству голосования большинством
+            ranked_classes_by_mv = ant.ranking_candidate_classes_by_mv(annotated_cell_data, classified_data)
+            if ranked_classes_by_mv:
+                # Формирование пути к файлу
+                path = PROVENANCE_PATH + utl.remove_suffix_in_filename(file) + RANKED_CANDIDATE_CLASSES_BY_MV
+                # Проверка существования каталога для сохранения результатов ранжирования классов
+                utl.check_directory(path)
+                # Запись json-файла c результатами итогового ранжирования классов
+                with open(path + file, "w") as outfile:
+                    json.dump(ranked_classes_by_mv, outfile, indent=4)
