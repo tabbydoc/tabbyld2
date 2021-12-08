@@ -23,18 +23,18 @@ def ranking_candidate_entities_by_ss(table_with_candidate_entities):
     :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
     :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
     """
-    result_list = dict()
+    result = dict()
     for key, item in table_with_candidate_entities.items():
         # Обход ячеек с сущностями кандидатами
         for entity_mention, candidate_entities in item.items():
             # Вычисление оценок для сущностей из набора кандидатов по сходству строк
             result_item = cea.get_string_similarity(entity_mention, candidate_entities)
             # Формирование ранжированных сущностей кандидатов для ячеек
-            if key not in result_list:
-                result_list[key] = dict()
-            result_list[key][entity_mention] = result_item
+            if key not in result:
+                result[key] = dict()
+            result[key][entity_mention] = result_item
 
-    return result_list
+    return result
 
 
 def ranking_candidate_entities_by_ns(table_with_candidate_entities, recognized_table):
@@ -45,7 +45,7 @@ def ranking_candidate_entities_by_ns(table_with_candidate_entities, recognized_t
     :param recognized_table: словарь (таблица) с распознанными именованными сущностями: ключ и NER-класс
     :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
     """
-    result_list = dict()
+    result = dict()
     for key, item in table_with_candidate_entities.items():
         global_index = 1
         # Обход ячеек с сущностями кандидатами
@@ -68,12 +68,12 @@ def ranking_candidate_entities_by_ns(table_with_candidate_entities, recognized_t
             # Вычисление оценок для сущностей из набора кандидатов по сходству на основе NER-классов
             result_item = cea.get_ner_based_similarity(ner_class, candidate_entities)
             # Формирование ранжированных сущностей кандидатов для ячеек
-            if key not in result_list:
-                result_list[key] = dict()
-            result_list[key][entity_mention] = result_item
+            if key not in result:
+                result[key] = dict()
+            result[key][entity_mention] = result_item
             global_index += 1
 
-    return result_list
+    return result
 
 
 def ranking_candidate_entities_by_hs(table_with_candidate_entities):
@@ -83,18 +83,18 @@ def ranking_candidate_entities_by_hs(table_with_candidate_entities):
     :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
     :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
     """
-    result_list = dict()
+    result = dict()
     for key, item in table_with_candidate_entities.items():
         # Обход ячеек с сущностями кандидатами
         for entity_mention, candidate_entities in item.items():
             # Вычисление оценок для сущностей из набора кандидатов по сходству на основе заголовка столбца
             result_item = cea.get_heading_based_similarity(key, candidate_entities)
             # Формирование ранжированных сущностей кандидатов для ячеек
-            if key not in result_list:
-                result_list[key] = dict()
-            result_list[key][entity_mention] = result_item
+            if key not in result:
+                result[key] = dict()
+            result[key][entity_mention] = result_item
 
-    return result_list
+    return result
 
 
 def ranking_candidate_entities_by_ess(table_with_candidate_entities):
@@ -104,7 +104,7 @@ def ranking_candidate_entities_by_ess(table_with_candidate_entities):
     :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
     :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
     """
-    result_list = dict()
+    result = dict()
     for key, item in table_with_candidate_entities.items():
         # Обход ячеек с сущностями кандидатами
         for entity_mention, candidate_entities in item.items():
@@ -112,11 +112,11 @@ def ranking_candidate_entities_by_ess(table_with_candidate_entities):
             # семантической близости между сущностями кандидатами
             result_item = cea.get_entity_embedding_based_semantic_similarity(candidate_entities)
             # Формирование ранжированных сущностей кандидатов для ячеек
-            if key not in result_list:
-                result_list[key] = dict()
-            result_list[key][entity_mention] = result_item
+            if key not in result:
+                result[key] = dict()
+            result[key][entity_mention] = result_item
 
-    return result_list
+    return result
 
 
 def ranking_candidate_entities_by_cs(table_with_candidate_entities):
@@ -126,18 +126,18 @@ def ranking_candidate_entities_by_cs(table_with_candidate_entities):
     :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
     :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
     """
-    result_list = dict()
+    result = dict()
     for key, item in table_with_candidate_entities.items():
         # Обход ячеек с сущностями кандидатами
         for entity_mention, candidate_entities in item.items():
             # Вычисление оценок для сущностей из набора кандидатов по сходству на основе контекста
             result_item = cea.get_context_based_similarity(entity_mention, candidate_entities)
             # Формирование ранжированных сущностей кандидатов для ячеек
-            if key not in result_list:
-                result_list[key] = dict()
-            result_list[key][entity_mention] = result_item
+            if key not in result:
+                result[key] = dict()
+            result[key][entity_mention] = result_item
 
-    return result_list
+    return result
 
 
 def get_counter_for_ranked_candidate_entities(cell_value, ranked_candidate_entities):
@@ -147,13 +147,13 @@ def get_counter_for_ranked_candidate_entities(cell_value, ranked_candidate_entit
     :param ranked_candidate_entities: ранжированный набор сущностей кандидатов
     :return: ранжированный набор сущностей кандидатов в Counter
     """
-    result_list = Counter()
+    result = Counter()
     for key, item in ranked_candidate_entities.items():
         for entity_mention, candidate_entities in item.items():
             if cell_value == entity_mention:
-                result_list = Counter(candidate_entities)
+                result = Counter(candidate_entities)
 
-    return result_list
+    return result
 
 
 def aggregate_ranked_candidate_entities(ranked_candidate_entities_by_ss, ranked_candidate_entities_by_ns,
@@ -169,7 +169,7 @@ def aggregate_ranked_candidate_entities(ranked_candidate_entities_by_ss, ranked_
     :param ranked_candidate_entities_by_cs: ранжированные сущности кандидаты по сходству на основе контекста
     :return: таблица с наборами агрегированных ранжированных сущностей кандидатов для ячеек
     """
-    result_list = dict()
+    result = dict()
     for ss_key, ss_item in ranked_candidate_entities_by_ss.items():
         # Обход ячеек с сущностями кандидатами, полученных по сходству строк
         for ss_entity_mention, ss_candidate_entities in ss_item.items():
@@ -190,11 +190,11 @@ def aggregate_ranked_candidate_entities(ranked_candidate_entities_by_ss, ranked_
             # Сортировка по оценкам
             result_item = dict(sorted(result_item.items(), key=lambda item: item[1], reverse=True))
             # Формирование ранжированных сущностей кандидатов для ячеек
-            if ss_key not in result_list:
-                result_list[ss_key] = dict()
-            result_list[ss_key][ss_entity_mention] = result_item
+            if ss_key not in result:
+                result[ss_key] = dict()
+            result[ss_key][ss_entity_mention] = result_item
 
-    return result_list
+    return result
 
 
 def annotate_cells(final_ranked_candidate_entities):
@@ -203,7 +203,7 @@ def annotate_cells(final_ranked_candidate_entities):
     :param final_ranked_candidate_entities: словарь (таблица) с наборами ранжированных сущностей кандидатов
     :return: словарь (таблица) с аннотированными значениями ячеек
     """
-    result_list = dict()
+    result = dict()
     for key, item in final_ranked_candidate_entities.items():
         # Обход ячеек с сущностями кандидатами
         for entity_mention, candidate_entities in item.items():
@@ -212,11 +212,11 @@ def annotate_cells(final_ranked_candidate_entities):
                 # Получение первой сущности из набора кандидатов с максимальной оценкой
                 result_item = list(candidate_entities.keys())[0]
             # Формирование ранжированных сущностей кандидатов для ячеек
-            if key not in result_list:
-                result_list[key] = dict()
-            result_list[key][entity_mention] = result_item
+            if key not in result:
+                result[key] = dict()
+            result[key][entity_mention] = result_item
 
-    return result_list
+    return result
 
 
 def ranking_candidate_classes_by_mv(annotated_cells_table, classified_table):
@@ -289,11 +289,11 @@ def define_datatype(recognized_table):
             merge_table = utl.merge_dicts(typed_row, merge_table)
 
     # Определение наиболее распространенного типа данных в списке для каждого столбца
-    result_list = dict()
+    result = dict()
     for key, datatype_list in merge_table.items():
-        result_list[key] = max(set(datatype_list), key=datatype_list.count)
+        result[key] = max(set(datatype_list), key=datatype_list.count)
 
-    return result_list
+    return result
 
 
 def link_datatype_to_column(recognized_table):
@@ -302,16 +302,16 @@ def link_datatype_to_column(recognized_table):
     :param recognized_table: словарь (таблица) с распознанными именнованными сущностями
     :return: словарь содержащий аннотированные литеральные столбцы
     """
-    result_list = dict()
+    result = dict()
     typed_data = define_datatype(recognized_table)
     try:
         if isinstance(typed_data, dict):
             for key, value in typed_data.items():
                 if value != STRING_DATATYPE:
-                    result_list[key] = value
+                    result[key] = value
     except Exception as e:
         print(e)
-    return result_list
+    return result
 
 
 def link_class_to_column(column_name, candidate_classes, reference_class=None):
@@ -322,16 +322,16 @@ def link_class_to_column(column_name, candidate_classes, reference_class=None):
     :param reference_class: референтный класс
     :return: словарь содержащий аннотированный столбец
     """
-    result_list = dict()
+    result = dict()
     if reference_class is not None:
-        result_list[column_name] = reference_class
+        result[column_name] = reference_class
     else:
         if isinstance(candidate_classes, collections.Mapping) and len(candidate_classes):
             pass
         else:
             pass
 
-    return result_list
+    return result
 
 
 def link_entity_to_cell(cell_value, candidate_entities, reference_entity=None):
@@ -342,16 +342,16 @@ def link_entity_to_cell(cell_value, candidate_entities, reference_entity=None):
     :param reference_entity: референтная сущность
     :return: словарь содержащий аннотированную ячейку
     """
-    result_list = dict()
+    result = dict()
     if reference_entity is not None:
-        result_list[cell_value] = reference_entity
+        result[cell_value] = reference_entity
     else:
         if isinstance(candidate_entities, collections.Mapping) and len(candidate_entities):
             pass
         else:
             pass
 
-    return result_list
+    return result
 
 
 def link_property_to_column_pair(column_name, candidate_properties, reference_property=None):
@@ -362,13 +362,13 @@ def link_property_to_column_pair(column_name, candidate_properties, reference_pr
     :param reference_property: референтное свойство
     :return: словарь содержащий аннотированную связь между парой столбцов
     """
-    result_list = dict()
+    result = dict()
     if reference_property is not None:
-        result_list[column_name] = reference_property
+        result[column_name] = reference_property
     else:
         if isinstance(candidate_properties, collections.Mapping) and len(candidate_properties):
             pass
         else:
             pass
 
-    return result_list
+    return result
