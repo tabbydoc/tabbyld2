@@ -233,7 +233,7 @@ def ranking_candidate_classes_by_mv(annotated_cells_table, classified_table):
         for col_key, type_column in classified_table.items():
             if key == col_key:
                 if type_column == cc.SUBJECT_COLUMN or type_column == cc.CATEGORICAL_COLUMN:
-                    #
+                    # Вычисление оценок для классов кандидатов на основе голосования большинством
                     result[key] = cta.get_majority_voting_similarity(item)
                 else:
                     result[key] = ""

@@ -29,6 +29,8 @@ RANKED_CANDIDATE_ENTITIES_BY_ESS = "/ranked_candidate_entities_by_ess/"
 RANKED_CANDIDATE_ENTITIES_BY_CS = "/ranked_candidate_entities_by_cs/"
 
 RANKED_CANDIDATE_CLASSES_BY_MV = "/ranked_candidate_classes_by_mv/"
+RANKED_CANDIDATE_CLASSES_BY_HS = "/ranked_candidate_classes_by_hs/"
+RANKED_CANDIDATE_CLASSES_BY_CN = "/ranked_candidate_classes_by_cn/"
 
 ANNOTATED_CELL_DATA_PATH = "/annotated_cell_data/"
 ANNOTATED_COLUMN_DATA_PATH = "/annotated_column_data/"

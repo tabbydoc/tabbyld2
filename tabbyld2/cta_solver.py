@@ -26,5 +26,14 @@ def get_majority_voting_similarity(annotated_cells):
                 result[dbpedia_class] += 1
     # Сортировка по оценкам
     result = dict(sorted(result.items(), key=lambda item: item[1], reverse=True))
+    # Нормализация оценок
+    result_list = list(result.values())
+    max_range = result_list[0]
+    min_range = result_list[-1]
+    for key, value in result.items():
+        if max_range - min_range != 0:
+            result[key] = (value - min_range) / (max_range - min_range)
+        else:
+            result[key] = 0
 
     return result
