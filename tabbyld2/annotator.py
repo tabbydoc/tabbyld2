@@ -5,6 +5,7 @@ import tabbyld2.cea_solver as cea
 import tabbyld2.cta_solver as cta
 import tabbyld2.column_classifier as cc
 import tabbyld2.candidate_generation as cg
+import os
 
 
 # Типы данных XML-схемы для литеральных столбцов таблицы
@@ -104,18 +105,12 @@ def ranking_candidate_entities_by_ess(table_with_candidate_entities):
     :param table_with_candidate_entities: очищенная исходная таблица с наборами сущностей кандидатов
     :return: таблица с наборами ранжированных сущностей кандидатов для ячеек
     """
-    result = dict()
-    for key, item in table_with_candidate_entities.items():
-        # Обход ячеек с сущностями кандидатами
-        for entity_mention, candidate_entities in item.items():
-            # Вычисление оценок для сущностей из набора кандидатов по сходству на основе
-            # семантической близости между сущностями кандидатами
-            result_item = cea.get_entity_embedding_based_semantic_similarity(candidate_entities)
-            # Формирование ранжированных сущностей кандидатов для ячеек
-            if key not in result:
-                result[key] = dict()
-            result[key][entity_mention] = result_item
+    # Вычисление оценок для сущностей из набора кандидатов по сходству на основе
+    # семантической близости между сущностями кандидатами
+    result = cea.get_entity_embedding_based_semantic_similarity(table_with_candidate_entities)
+    # Формирование ранжированных сущностей кандидатов для ячеек
 
+    os.remove("word2vec.model")
     return result
 
 

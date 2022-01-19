@@ -6,3 +6,4 @@ werkzeug~=1.0.1
 requests~=2.25.1
 sparqlwrapper~=1.8.5
 python-Levenshtein
+gensim
