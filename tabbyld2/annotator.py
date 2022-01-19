@@ -110,7 +110,7 @@ def ranking_candidate_entities_by_ess(table_with_candidate_entities):
     result = cea.get_entity_embedding_based_semantic_similarity(table_with_candidate_entities)
     # Формирование ранжированных сущностей кандидатов для ячеек
 
-    os.remove("word2vec.model")
+    os.remove( "word2vec.model")
     return result
 
 
