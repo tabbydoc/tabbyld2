@@ -3,6 +3,12 @@ import tabbyld2.dbpedia_sparql_endpoint as dbs
 from gensim.models import Word2Vec
 import tabbyld2.column_classifier as cc
 
+from pyrdf2vec import RDF2VecTransformer
+from pyrdf2vec.embedders import Word2Vec
+from gensim.models.word2vec import Word2Vec as W2V
+from pyrdf2vec.graphs import KG
+from pyrdf2vec.walkers import RandomWalker
+
 
 
 # Названия классов в DBpedia, соответствующие NER-классам
@@ -144,30 +150,45 @@ def get_heading_based_similarity(heading_name, candidate_entities):
 
 
 def get_entity_embedding_based_semantic_similarity(table_with_candidate_entities):
-    list1 = []
-    dictionary_entities = {}
-    total_result = {}
+    list_new = []
+    dictionary_new = {}
+    list_words = []
     for key, items in table_with_candidate_entities.items():
         if items:
             for entity_mention, candidate_entities in items.items():
-                dictionary_entities.update(dict.fromkeys(candidate_entities,
-                                                         [list_entities for key_entities, list_entities in items.items()
-                                                          if
-                                                          key_entities != entity_mention]))
-
-                list1.append(candidate_entities)
-    for keys_entities, entities in dictionary_entities.items():
-
-        entities.append([keys_entities])
-        modeller = Word2Vec(entities, vector_size=100, window=5, min_count=1, workers=4)
-        modeller.save("word2vec.model")
-        sims_entity = modeller.wv.most_similar(keys_entities, topn=100000)  # get other similar words
-        for tuple_entities in sims_entity:
-            total_result.setdefault(tuple_entities[0], []).append(tuple_entities[1])
-        entities.pop()
-    for key_values, precisions in total_result.items():
-        maximum = max(total_result[key_values])
-        total_result.update([(key_values, (maximum + 1) / 2)])
+                if candidate_entities:
+                    for i in range(len(candidate_entities)):
+                        list_new.append(candidate_entities[i])
+    knowledge_graph = KG(
+        "https://dbpedia.org/sparql",
+        skip_predicates={"www.w3.org/1999/02/22-rdf-syntax-ns#type"},
+        literals=[
+            [
+                "http://dbpedia.org/ontology/wikiPageWikiLink",
+                "http://www.w3.org/2004/02/skos/core#prefLabel",
+            ],
+            ["http://dbpedia.org/ontology/humanDevelopmentIndex"],
+        ],
+    )
+    transformer = RDF2VecTransformer(
+        Word2Vec(epochs=10),
+        walkers=[RandomWalker(4, 10, with_reverse=False, n_jobs=2)],
+        # verbose=1
+    )
+    embeddings, literals = transformer.fit_transform(knowledge_graph, list_new)
+    transformer.embedder._model.save("rdf2vec.model")
+    modeller = W2V.load("rdf2vec.model")
+    for entity in list_new:
+        count = modeller.wv.most_similar(entity, topn=100000000)
+        list_words.append(count)
+    for list_of_words in list_words:
+        for entity in list_new:
+            for i in range(len(list_of_words)):
+                if entity == list_of_words[i][0]:
+                    dictionary_new.setdefault(list_of_words[i][0], []).append(list_of_words[i][1])
+    for key_values, precisions in dictionary_new.items():
+        maximum = max(dictionary_new[key_values])
+        dictionary_new.update([(key_values, (maximum + 1) / 2)])
     for key, items in table_with_candidate_entities.items():
         if items:
             for keys_entities, item_items in items.items():
@@ -175,16 +196,14 @@ def get_entity_embedding_based_semantic_similarity(table_with_candidate_entities
                     dictionary = {}
                     for i in range(len(item_items)):
                         dictionary[item_items[i]] = dict()
-                        dictionary[item_items[i]] = total_result[items[keys_entities][i]]
+                        dictionary[item_items[i]] = dictionary_new[items[keys_entities][i]]
                     items[keys_entities] = dictionary
                     for key_values, item_values in items[keys_entities].items():
                         items[keys_entities][key_values] = items[keys_entities][key_values] * EES_WEIGHT_FACTOR
 
-                    items[keys_entities] = dict(sorted(items[keys_entities].items(), key=lambda item: item[1], reverse=True))
+                    items[keys_entities] = dict(
+                        sorted(items[keys_entities].items(), key=lambda item: item[1], reverse=True))
 
-    #result[candidate_entity] = 0 * EES_WEIGHT_FACTOR
-    # Сортировка по оценкам
-    #result = dict(sorted(result.items(), key=lambda item: item[1], reverse=True))
     return table_with_candidate_entities
 
 
