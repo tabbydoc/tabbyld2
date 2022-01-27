@@ -1,6 +1,6 @@
 # TabbyLD2
 
-A web-based application to annotate relation tables and generate knowledge graphs
+A web-based application to annotate relational tables and generate knowledge graphs.
 
 ## Version
 
@@ -26,6 +26,14 @@ A table represents a set of entities of the same type, where:
 
 **Assumption 2.** *All values of column cells in a source table have the same entity types and data types.*
 
+**Assumption 3.** *TabbyLD2 supports a semantic interpretation (annotation) of separate elements of a source table by using a target knowledge graph. [DBpedia](https://www.dbpedia.org/) is used as a target knowledge graph..*
+
+#### Semantic table interpretation
+*Semantic Table Interpretation (STI)* is the process of recognizing and linking tabular data with external concepts from a target knowledge graph, which includes three main tasks:
+1.	*Cell-Entity Annotation (CEA)* is a matching between values of table cells and entities (specific instances) from a target knowledge graph;
+2.	*Column-Type Annotation (CTA)* is a matching between columns (or headers, if available) and classes or datatypes from a target knowledge graph;
+3.	*Columns Property Annotation (CPA)* is a matching relationship between two columns (S-column and all other columns) and properties (relationships) from a target knowledge graph.
+
 ## Installation
 
 First, you need to clone the project into your directory
@@ -50,7 +58,7 @@ In addition to [SPARQL](https://www.w3.org/TR/rdf-sparql-query/) queries, we use
 
 #### Console mode
 
-In order to use the TabbyLD2 in *console mode*, you may run the following command
+In order to use the TabbyLD2 in *console mode*, you may run the following command:
 
 ```
 python main.py
@@ -62,7 +70,7 @@ The processing result are presented as JSON format and will also be saved to the
 
 #### Web mode
 
-In order to use the TabbyLD2 in *web mode*, you may run the following command
+In order to use the TabbyLD2 in *web mode*, you may run the following command:
 
 ```
 python app.py
@@ -72,4 +80,6 @@ python app.py
 
 ## Authors
 
-* Nikita O. Dorodnykh
+* [Nikita O. Dorodnykh](mailto:tualatin32@mail.ru)
+* [Daria A. Denisova](mailto:daryalich@mail.ru)
+* [Vitaliy V. Biryuckov](mailto:stukov.biryuckov2017@yandex.ru)
