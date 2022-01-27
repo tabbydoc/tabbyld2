@@ -140,6 +140,5 @@ cython_debug/
 # idea
 .idea/
 
-# dataset files
-dataset/json/
-dataset/provenance/
+# processing result files
+results/

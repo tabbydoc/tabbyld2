@@ -8,9 +8,12 @@ import tabbyld2.column_classifier as cc
 import tabbyld2.candidate_generation as cg
 
 
-CSV_FILE_PATH = str(utl.get_project_root()) + "/dataset/"  # root path for source tables in CSV format
-JSON_FILE_PATH = CSV_FILE_PATH + "json/"  # path for json table files
-PROVENANCE_PATH = CSV_FILE_PATH + "provenance/"  # path for results and their provenance
+# Path for source tables in CSV format
+CSV_FILE_PATH = str(utl.get_project_root()) + "/source_tables/"
+# Path to save source tables in the form json files
+JSON_FILE_PATH = str(utl.get_project_root()) + "/results/json/"
+# Path to save processing results and their provenance in the form json files
+PROVENANCE_PATH = str(utl.get_project_root()) + "/results/provenance/"
 
 # Paths of result provenance
 CLEARED_DATA_PATH = "/cleared_data/"

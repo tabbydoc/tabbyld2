@@ -64,9 +64,9 @@ In order to use the TabbyLD2 in *console mode*, you may run the following comman
 python main.py
 ```
 
-Run this script to process source tables in CSV format. Tables must be located in the `dataset` directory.
+Run this script to process source tables in CSV format. Tables must be located in the `source_tables` directory.
 
-The processing result are presented as JSON format and will also be saved to the `dataset` directory (`json` and `provenance` subdirectories).
+The processing result are presented as JSON format and will be saved to the `results` directory (`json` and `provenance` subdirectories).
 
 #### Web mode
 
