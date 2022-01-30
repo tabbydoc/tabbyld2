@@ -57,7 +57,7 @@ if __name__ == '__main__':
                                             annotator.table_model.serialize_ranked_candidate_entities(
                                                 EntityRankingMethod.STRING_SIMILARITY))
                         # Rank candidate entities by NER based similarity
-                        annotator.rank_candidate_entities_by_ner_based_similarity()
+                        # annotator.rank_candidate_entities_by_ner_based_similarity()
                         utl.write_json_file(file, ResultPath.RANKED_CANDIDATE_ENTITIES_BY_NS,
                                             annotator.table_model.serialize_ranked_candidate_entities(
                                                 EntityRankingMethod.NER_BASED_SIMILARITY))
@@ -108,6 +108,8 @@ if __name__ == '__main__':
                                                 ClassRankingMethod.SCORES_AGGREGATION))
                         # Annotate categorical columns based on ranked candidate classes
                         annotator.annotate_categorical_columns()
+                        # Annotate literal columns based on recognized named entities for cells
+                        annotator.annotate_literal_columns()
                         utl.write_json_file(file, ResultPath.ANNOTATED_COLUMNS_PATH,
                                             annotator.table_model.serialize_annotated_columns())
                 except json.decoder.JSONDecodeError:

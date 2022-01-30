@@ -1,5 +1,6 @@
 import os
 from abc import ABC
+from collections import Counter
 from Levenshtein._levenshtein import distance
 from pyrdf2vec.graphs import KG
 from pyrdf2vec import RDF2VecTransformer
@@ -8,9 +9,9 @@ from pyrdf2vec.walkers import RandomWalker
 from gensim.models.word2vec import Word2Vec as W2V
 import tabbyld2.dbpedia_lookup as dbl
 import tabbyld2.dbpedia_sparql_endpoint as dbs
-from tabbyld2.knowledge_graph_model import EntityModel, ClassModel
-from tabbyld2.column_classifier import ColumnType, NamedEntityLabel
 from tabbyld2.tabular_data_model import TableModel
+from tabbyld2.knowledge_graph_model import EntityModel, ClassModel
+from tabbyld2.column_classifier import ColumnType, NamedEntityLabel, LiteralLabel
 
 
 class OntologyClass:
@@ -38,12 +39,16 @@ class OntologyClass:
 
 
 class XMLSchemaDataType:
-    DATE_DATATYPE = "xsd:date"
-    TIME_DATATYPE = "xsd:time"
-    NON_NEGATIVE_INTEGER_DATATYPE = "xsd:nonNegativeInteger"
-    POSITIVE_INTEGER_DATATYPE = "xsd:positiveInteger"
-    DECIMAL_DATATYPE = "xsd:decimal"
-    STRING_DATATYPE = "xsd:string"
+    DATE = "xsd:date"
+    TIME = "xsd:time"
+    NON_NEGATIVE_INTEGER = "xsd:nonNegativeInteger"
+    POSITIVE_INTEGER = "xsd:positiveInteger"
+    NEGATIVE_INTEGER = "xsd:negativeInteger"
+    DECIMAL = "xsd:decimal"
+    FLOAT = "xsd:float"
+    BOOLEAN = "xsd:boolean"
+    STRING = "xsd:string"
+    URL = "xsd:anyURI"
 
 
 class AbstractSemanticTableAnnotator(ABC):
@@ -358,4 +363,39 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
         for column in self.table_model.columns:
             if column.column_type == ColumnType.CATEGORICAL_COLUMN or column.column_type == ColumnType.SUBJECT_COLUMN:
                 column.annotate_column()
-        print("Annotation of table columns is completed.")
+        print("Annotation of categorical (named entity) columns of table is completed.")
+
+    def annotate_literal_columns(self):
+        """
+        Аннотирование всех литеральных столбцов таблицы на основе распознанных именованных сущностей в ячейках.
+        """
+        for column in self.table_model.columns:
+            if column.column_type == ColumnType.LITERAL_COLUMN:
+                xml_schema_data_types = []
+                for cell in column.cells:
+                    datatype = XMLSchemaDataType.STRING
+                    if cell.label == LiteralLabel.DATE:
+                        datatype = XMLSchemaDataType.DATE
+                    if cell.label == LiteralLabel.TIME:
+                        datatype = XMLSchemaDataType.TIME
+                    if cell.label == LiteralLabel.PERCENT or cell.label == LiteralLabel.MONEY or \
+                            cell.label == LiteralLabel.QUANTITY or cell.label == LiteralLabel.POSITIVE_INTEGER:
+                        datatype = XMLSchemaDataType.NON_NEGATIVE_INTEGER
+                    if cell.label == LiteralLabel.ORDINAL:
+                        datatype = XMLSchemaDataType.POSITIVE_INTEGER
+                    if cell.label == LiteralLabel.CARDINAL or cell.label == LiteralLabel.MAIL or \
+                            cell.label == LiteralLabel.BANK_CARD or cell.label == LiteralLabel.PHONE:
+                        datatype = XMLSchemaDataType.DECIMAL
+                    if cell.label == LiteralLabel.NEGATIVE_INTEGER:
+                        datatype = XMLSchemaDataType.NEGATIVE_INTEGER
+                    if cell.label == LiteralLabel.FLOAT:
+                        datatype = XMLSchemaDataType.FLOAT
+                    if cell.label == LiteralLabel.BOOLEAN:
+                        datatype = XMLSchemaDataType.BOOLEAN
+                    if cell.label == LiteralLabel.BOOLEAN:
+                        datatype = XMLSchemaDataType.BOOLEAN
+                    if cell.label == LiteralLabel.URL:
+                        datatype = XMLSchemaDataType.URL
+                    xml_schema_data_types.append(datatype)
+                column._annotation = [dt for dt, dt_count in Counter(xml_schema_data_types).most_common(1)][0]
+        print("Annotation of literal columns of table is completed.")
