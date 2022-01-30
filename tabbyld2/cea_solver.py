@@ -1,8 +1,8 @@
+import os
 from Levenshtein._levenshtein import distance
 import tabbyld2.dbpedia_sparql_endpoint as dbs
 from gensim.models import Word2Vec
 import tabbyld2.column_classifier as cc
-
 from pyrdf2vec import RDF2VecTransformer
 from pyrdf2vec.embedders import Word2Vec
 from gensim.models.word2vec import Word2Vec as W2V
@@ -175,7 +175,7 @@ def get_entity_embedding_based_semantic_similarity(table_with_candidate_entities
         walkers=[RandomWalker(4, 10, with_reverse=False, n_jobs=2)],
         # verbose=1
     )
-    embeddings, literals = transformer.fit_transform(knowledge_graph, list_new)
+    transformer.fit_transform(knowledge_graph, list_new)
     transformer.embedder._model.save("rdf2vec.model")
     modeller = W2V.load("rdf2vec.model")
     for entity in list_new:
@@ -203,6 +203,7 @@ def get_entity_embedding_based_semantic_similarity(table_with_candidate_entities
 
                     items[keys_entities] = dict(
                         sorted(items[keys_entities].items(), key=lambda item: item[1], reverse=True))
+    os.remove("rdf2vec.model")
 
     return table_with_candidate_entities
 

@@ -4,8 +4,6 @@ import tabbyld2.utility as utl
 import tabbyld2.cea_solver as cea
 import tabbyld2.cta_solver as cta
 import tabbyld2.column_classifier as cc
-import tabbyld2.candidate_generation as cg
-import os
 
 
 # Типы данных XML-схемы для литеральных столбцов таблицы
@@ -108,9 +106,7 @@ def ranking_candidate_entities_by_ess(table_with_candidate_entities):
     # Вычисление оценок для сущностей из набора кандидатов по сходству на основе
     # семантической близости между сущностями кандидатами
     result = cea.get_entity_embedding_based_semantic_similarity(table_with_candidate_entities)
-    # Формирование ранжированных сущностей кандидатов для ячеек
 
-    os.remove("rdf2vec.model")
     return result
 
 
