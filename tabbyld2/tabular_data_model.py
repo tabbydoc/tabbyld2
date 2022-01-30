@@ -2,8 +2,7 @@ from enum import Enum
 from abc import ABC, abstractmethod
 from typing import Any, Callable, Iterator, Optional, Tuple
 import tabbyld2.cleaner as cln
-from tabbyld2.class_model import ClassModel, ClassRankingMethod
-from tabbyld2.entity_model import EntityModel, EntityRankingMethod
+from tabbyld2.knowledge_graph_model import EntityModel, EntityRankingMethod, ClassModel, ClassRankingMethod
 
 
 class ContextDirection(Enum):

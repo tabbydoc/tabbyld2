@@ -8,8 +8,7 @@ from pyrdf2vec.walkers import RandomWalker
 from gensim.models.word2vec import Word2Vec as W2V
 import tabbyld2.dbpedia_lookup as dbl
 import tabbyld2.dbpedia_sparql_endpoint as dbs
-from tabbyld2.class_model import ClassModel
-from tabbyld2.entity_model import EntityModel
+from tabbyld2.knowledge_graph_model import EntityModel, ClassModel
 from tabbyld2.column_classifier import ColumnType, NamedEntityLabel
 from tabbyld2.tabular_data_model import TableModel
 

@@ -3,8 +3,7 @@ import json
 import tabbyld2.parser as pr
 import tabbyld2.utility as utl
 from tabbyld2.config import ResultPath
-from tabbyld2.class_model import ClassRankingMethod
-from tabbyld2.entity_model import EntityRankingMethod
+from tabbyld2.knowledge_graph_model import EntityRankingMethod, ClassRankingMethod
 from tabbyld2.annotator import SemanticTableAnnotator
 from tabbyld2.column_classifier import TableColumnClassifier
 from tabbyld2.tabular_data_model import ColumnCellModel, TableColumnModel, TableModel
@@ -19,6 +18,7 @@ if __name__ == '__main__':
             if utl.allowed_file(file, {"json"}):
                 try:
                     with open(ResultPath.JSON_FILE_PATH + file, "r", encoding="utf-8") as fp:
+                        print("File '" + str(file) + "' processing started!")
                         # Deserialize a source table in the json format (create a table model)
                         source_json_data = json.load(fp)
                         columns = tuple()

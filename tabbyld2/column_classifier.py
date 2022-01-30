@@ -530,7 +530,8 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
                     sub_col[column.header_name] = (Coefficient.WEIGHTING_FACTOR_1 * unique_content_cell_fraction +
                                                    Coefficient.WEIGHTING_FACTOR_2 * awn - penalty_rank) / sqrt(
                                                     distance_from_first_ne_column + 1)
-                    print("Final score for '" + str(column.header_name) + "' = " + str(sub_col[column.header_name]))
+                    print("Final score for '" + str(column.header_name) + "' (subject column) = " +
+                          str(sub_col[column.header_name]))
                 index += 1
             # Определение столбца с максимальной оценкой в качестве сущностного
             subject_key = max(sub_col.items(), key=operator.itemgetter(1))[0]

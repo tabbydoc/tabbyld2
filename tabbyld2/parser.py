@@ -24,11 +24,11 @@ def convert_csv_to_json(csv_file_path, csv_file_name, json_file_path):
             # Сохранение json-файла с результатами конвертации электронной таблицы
             file_data.to_json(json_file_path + json_file_name, orient="records", date_format="epoch",
                               double_precision=10, force_ascii=True, date_unit="ms", default_handler=None, indent=4)
-            print("Файл электронной таблицы в формате json успешно получен!")
+            print("Source table file in JSON format has been successfully received!")
         except pd.errors.EmptyDataError:
-            print("Файл электронной таблицы пуст!")
+            print("Source table file is empty!")
     else:
-        print("Файла электронной таблицы не существует!")
+        print("Source table file does not exist!")
 
     return json_file_name
 
@@ -53,11 +53,11 @@ def convert_json_to_csv(json_file_path, json_file_name, csv_file_path):
             csv_file_name = os.path.splitext(json_file_name)[0] + ".csv"
             # Сохранение csv-файла электронной таблицы
             file_data.to_csv(csv_file_path + csv_file_name, index=False)
-            print("Файл электронной таблицы в формате csv успешно сохранен!")
+            print("Source table file in CSV format has been successfully received!")
         except pd.errors.EmptyDataError:
-            print("JSON-файл представления электронной таблицы пуст!")
+            print("Source table file is empty!")
     else:
-        print("JSON-файла представления электронной таблицы не существует!")
+        print("Source table file does not exist!")
 
     return csv_file_name
 
