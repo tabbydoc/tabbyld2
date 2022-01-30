@@ -39,9 +39,11 @@ def get_candidate_entities(query: str, max_results: int = None, min_relevance: i
                 json_response = json.loads(response.text)
                 for doc in json_response["docs"]:
                     if short_name:
-                        result_list.append(doc["resource"][0].replace("http://dbpedia.org/resource/", ""))
+                        result_list.append([doc["resource"][0].replace("http://dbpedia.org/resource/", ""),
+                                            doc["label"][0], doc["comment"][0] if "comment" in doc else ""])
                     else:
-                        result_list.append(doc["resource"][0])
+                        result_list.append([doc["resource"][0], doc["label"][0],
+                                            doc["comment"][0] if "comment" in doc else ""])
                 return result_list
             # else:
             #     raise requests.exceptions.ConnectionError(f"{response.status_code}")

@@ -2,6 +2,21 @@ import os
 import json
 import shutil
 from pathlib import Path
+from typing import Optional, Dict
+from tabbyld2.config import ResultPath
+
+
+def is_float(string):
+    """
+    Определение является ли строка числовым значением с плавающей точкой.
+    :param string: исходная строка
+    :return: True - если строка является числом с плавающей точкой, False - в противном случае
+    """
+    try:
+        float(string.replace(",", "."))
+        return True
+    except ValueError:
+        return False
 
 
 def merge_dicts(dict1, dict2):
@@ -17,14 +32,6 @@ def merge_dicts(dict1, dict2):
             if isinstance(dict3[key], list):
                 dict3[key].append(dict1[key])
     return dict3
-
-
-def get_project_root() -> Path:
-    """
-    Получить путь в котором лежит папка с проектом.
-    :return:
-    """
-    return Path(__file__).parent.parent
 
 
 def remove_suffix_in_filename(filename):
@@ -65,6 +72,12 @@ def remove_file(file):
     if os.path.exists(file):
         path = os.path.join(os.path.abspath(file))
         os.remove(path)
+
+
+def write_json_file(file: str = None, path: str = None, dicts: Optional[Dict] = None):
+    check_directory(ResultPath.PROVENANCE_PATH + remove_suffix_in_filename(file) + path)
+    with open(ResultPath.PROVENANCE_PATH + remove_suffix_in_filename(file) + path + file, "w") as outfile:
+        json.dump(dicts, outfile, indent=4)
 
 
 def create_table_headings_file(classified_data_file, table_headings_file):

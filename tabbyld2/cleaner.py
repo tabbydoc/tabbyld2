@@ -1,5 +1,4 @@
 import ftfy
-import json
 
 
 def remove_multiple_spaces(text):
@@ -8,7 +7,7 @@ def remove_multiple_spaces(text):
     :param text: исходный текст
     :return: текст с удаленными множественными пробелами
     """
-    new_text = ' '.join(text.split())
+    new_text = " ".join(text.split())
 
     return new_text
 
@@ -36,36 +35,14 @@ def remove_garbage_characters(text):
     return text
 
 
-def clean(file_path):
+def fix_text(value):
     """
-    Очистка данных в json-файле исходной таблицы. Очищаются ключи и их значения.
-    :param file_path: полный путь к json-файлу исходной таблицы
-    :return: очищенные данные в виде словаря
+    Исправления битых символов Юникода и тегов HTML в исходном значении (строке).
+    :param value: исходное значение (строка)
+    :return: исправленное текстовое значение (строка)
     """
-    result_list = []
-    try:
-        with open(file_path, "r", encoding="utf-8") as fp:
-            source_json_data = json.load(fp)
-            for item in source_json_data:
-                result_item = {}
-                for key, mention in item.items():
-                    if not isinstance(mention, str):
-                        mention = str(mention)
-                    # Исправления битых символов Юникода и тегов HTML
-                    clean_key = ftfy.fix_encoding(key)
-                    clean_key = ftfy.fix_text(clean_key)
-                    clean_mention = ftfy.fix_encoding(mention)
-                    clean_mention = ftfy.fix_text(clean_mention)
-                    # Удаление "мусорных" символов
-                    # clean_key = remove_garbage_characters(clean_key)
-                    clean_mention = remove_garbage_characters(clean_mention)
-                    # Удаление множественных пробелов
-                    clean_key = remove_multiple_spaces(clean_key)
-                    clean_mention = remove_multiple_spaces(clean_mention)
-                    # Сохранение результата очистки
-                    result_item[clean_key] = clean_mention
-                result_list.append(result_item)
-    except json.decoder.JSONDecodeError:
-        print("Ошибка декодирования исходного json-файла!")
+    text = str(value)
+    cleared_text = ftfy.fix_encoding(text)
+    cleared_text = ftfy.fix_text(cleared_text)
 
-    return result_list
+    return cleared_text
