@@ -14,7 +14,7 @@ def init(port=9274):
     URL = f"http://localhost:{port}/lookup-application/api/search"
 
 
-def get_entities(query: str, max_results: int = None, min_relevance: int = None, short_name: bool = False) -> list:
+def get_candidate_entities(query: str, max_results: int = None, min_relevance: int = None, short_name: bool = False):
     """
     Получение набора (списка) сущностей кандидатов по строковому запросу.
     :param query: строка запроса
@@ -25,27 +25,30 @@ def get_entities(query: str, max_results: int = None, min_relevance: int = None,
     """
     result_list = []
 
-    parameters = {"query": query, "format": "JSON"}
-    if max_results:
-        parameters["maxResults"] = max_results
-    if min_relevance:
-        parameters["minRelevance"] = min_relevance
+    if query != "":
+        parameters = {"query": query, "format": "JSON"}
+        if max_results:
+            parameters["maxResults"] = max_results
+        if min_relevance:
+            parameters["minRelevance"] = min_relevance
 
-    try:
-        response = requests.get(url=URL, params=parameters)
+        try:
+            response = requests.get(url=URL, params=parameters)
 
-        if response.status_code == 200:
-            json_response = json.loads(response.text)
-            for doc in json_response["docs"]:
-                if short_name:
-                    result_list.append(doc["resource"][0].replace("http://dbpedia.org/resource/", ""))
-                else:
-                    result_list.append(doc["resource"][0])
+            if response.status_code == 200:
+                json_response = json.loads(response.text)
+                for doc in json_response["docs"]:
+                    if short_name:
+                        result_list.append(doc["resource"][0].replace("http://dbpedia.org/resource/", ""))
+                    else:
+                        result_list.append(doc["resource"][0])
+                return result_list
+            # else:
+            #     raise requests.exceptions.ConnectionError(f"{response.status_code}")
+        except requests.exceptions.RequestException as e:
             return result_list
-        # else:
-        #     raise requests.exceptions.ConnectionError(f"{response.status_code}")
-    except requests.exceptions.RequestException as e:
-        return result_list
+
+    return result_list
 
 
 init()

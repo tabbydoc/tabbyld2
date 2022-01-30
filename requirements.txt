@@ -1,7 +1,15 @@
-ftfy~=5.8
-flask~=1.1.2
-pandas~=1.2.3
-stanza~=1.2.0
-werkzeug~=1.0.1
-requests~=2.25.1
-gql~=3.0.0a5
+# Main packages
+ftfy
+flask
+pandas
+stanza
+werkzeug
+requests
+sparqlwrapper
+python-Levenshtein
+# Packages for entity embeddings
+gensim
+pyrdf2vec
+nest_asyncio
+aiohttp
+attr

@@ -1,6 +1,41 @@
 import os
 import json
 import shutil
+from pathlib import Path
+
+
+def merge_dicts(dict1, dict2):
+    """
+    Объединение содержимого двух словарей.
+    :param dict1: первый словарь
+    :param dict2: второй словарь
+    :return: результирующий (третий) словарь
+    """
+    dict3 = {**dict1, **dict2}
+    for key, value in dict3.items():
+        if key in dict1 and key in dict2:
+            if isinstance(dict3[key], list):
+                dict3[key].append(dict1[key])
+    return dict3
+
+
+def get_project_root() -> Path:
+    """
+    Получить путь в котором лежит папка с проектом.
+    :return:
+    """
+    return Path(__file__).parent.parent
+
+
+def remove_suffix_in_filename(filename):
+    """
+    Удаление расширения файла из имени файла.
+    :param filename: полное имя файла
+    :return: имя файла без расширения
+    """
+    path = Path(filename)
+
+    return path.stem
 
 
 def allowed_file(filename, allowed_extensions):
