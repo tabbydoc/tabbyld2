@@ -66,9 +66,9 @@ In addition to [SPARQL](https://www.w3.org/TR/rdf-sparql-query/) queries, we use
 ## Directory Structure
 
 * `datasets` contains datasets of source tables for experimental evaluation:
-    * `T2Dv2` contains [T2Dv2 Gold Standard](http://webdatacommons.org/webtables/goldstandardV2.html) dataset, where `col_class_checked_fg.csv` was formed by [SemAIDA](https://github.com/alan-turing-institute/SemAIDA/tree/master/AAAI19/T2Dv2) and is fine-grained ground truth class for all columns.
-    * `Tough_Tables` contains [Tough Tables (2T)](https://zenodo.org/record/4246370#.Yf5AO-pBw2w) dataset;
-* `experimental_evaluation` contains scripts for obtaining an experimental evaluation on tables presented in `datasets` directory.
+    * `T2Dv2` contains [T2Dv2 Gold Standard](http://webdatacommons.org/webtables/goldstandardV2.html) dataset, where `col_class_checked_fg.csv` was formed by [SemAIDA](https://github.com/alan-turing-institute/SemAIDA/tree/master/AAAI19/T2Dv2) and is fine-grained ground truth class for all columns;
+    * `Tough_Tables` contains [Tough Tables (2T)](https://zenodo.org/record/4246370#.Yf5AO-pBw2w) dataset. **NOTE:** `CEA_2T_gt.zip` must be unzipped before receiving an experimental evaluation.
+* `experimental_evaluation` contains scripts for obtaining an experimental evaluation on tables presented in `datasets` directory;
 * `results` contains processing results of tables (*this directory is created by default*);
 * `source_tables` contains examples of source tables in the CSV format for testing;
 * `tabbyld2` contains software TabbyLD2 modules, including `main.py` for a console mode and `app.py` for a web mode.

@@ -140,5 +140,8 @@ cython_debug/
 # idea
 .idea/
 
+# 2T dataset
+datasets/Tough_Tables/gt/CEA_2T_gt/*.csv
+
 # processing result files
 results/
