@@ -8,6 +8,8 @@ class ResultPath:
     JSON_FILE_PATH = str(Path(__file__).parent.parent) + "/results/json/"
     # Path to save processing results and their provenance in the form json files
     PROVENANCE_PATH = str(Path(__file__).parent.parent) + "/results/provenance/"
+    # Path for T2Dv2 dataset tables in JSON format
+    T2DV2_JSON_PATH = str(Path(__file__).parent.parent) + "/datasets/T2Dv2/tables/"
 
     # Paths of result provenance
     CLEARED_DATA_PATH = "/cleared_data/"
