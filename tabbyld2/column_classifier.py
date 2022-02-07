@@ -51,10 +51,11 @@ class LiteralLabel:
     TEMPERATURE = "TEMPERATURE"  # Temperature degrees (celcius or fahrenheit)
     URL = "URL"  # URL address for site
     EMPTY = "EMPTY"  # Empty value
+    SYMBOL = "SYMBOL"  # Some symbol
     # Literal labels list
     LITERAL_TAGS = [DATE, TIME, PERCENT, MONEY, QUANTITY, ORDINAL, CARDINAL, POSITIVE_INTEGER, NEGATIVE_INTEGER,
                     FLOAT, BOOLEAN, MAIL, EMAIL, ISSN, ISBN, IP_ADDRESS_V4, BANK_CARD, COORDINATES, PHONE, COLOR,
-                    TEMPERATURE, URL, EMPTY]
+                    TEMPERATURE, URL, EMPTY, SYMBOL]
 
 
 class ColumnType:
@@ -287,6 +288,9 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
             label = LiteralLabel.EMPTY
         else:
             label = NamedEntityLabel.NONE
+            # Если упоминание сущности является каким-либо символом
+            if len(entity_mention) == 1 or len(entity_mention) == 2:
+                label = LiteralLabel.SYMBOL
             # Если упоминание сущности является логическим значением
             if re.search(r"^'true|false|True|False|TRUE|FALSE'&", entity_mention):
                 label = LiteralLabel.BOOLEAN
