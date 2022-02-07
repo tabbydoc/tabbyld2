@@ -1,0 +1,700 @@
+Line,
+1,
+2,
+3,
+4,>
+5,>
+6,>
+7,>Test.HUnit.Text
+8,>
+9,
+10,/* -------- Global things --------- */
+11,
+12,BODY {
+13,background-color: #ffffff;
+14,color: #000000;
+15,font-family: sans-serif;
+16,}
+17,
+18,A:link { color: #0000e0; text-decoration: none }
+19,A:visited { color: #0000a0; text-decoration: none }
+20,A:hover { background-color: #e0e0ff; text-decoration: none }
+21,
+22,TABLE.vanilla {
+23,width: 100%;
+24,border-width: 0px;
+25,/* I can't seem to specify cellspacing or cellpadding properly using CSS... */
+26,}
+27,
+28,TABLE.vanilla2 {
+29,border-width: 0px;
+30,}
+31,
+32,/* font is a little too small in MSIE */
+33,TT { font-size: 100%; }
+34,PRE { font-size: 100%; }
+35,
+36,LI P { margin: 0pt }
+37,
+38,TD {
+39,border-width: 0px;
+40,}
+41,
+42,TABLE.narrow {
+43,border-width: 0px;
+44,}
+45,
+46,TD.s8 { height: 8px; }
+47,TD.s15 { height: 15px; }
+48,
+49,SPAN.keyword { text-decoration: underline; }
+50,
+51,/* Resize the buttom image to match the text size */
+52,IMG.coll { width : 0.75em; height: 0.75em; margin-bottom: 0; margin-right: 0.5em }
+53,
+54,/* --------- Contents page ---------- */
+55,
+56,DIV.node {
+57,padding-left: 3em;
+58,}
+59,
+60,DIV.cnode {
+61,padding-left: 1.75em;
+62,}
+63,
+64,SPAN.pkg {
+65,position: absolute;
+66,left: 50em;
+67,}
+68,
+69,/* --------- Documentation elements ---------- */
+70,
+71,TD.children {
+72,padding-left: 25px;
+73,}
+74,
+75,TD.synopsis {
+76,padding: 2px;
+77,background-color: #f0f0f0;
+78,font-family: monospace
+79,}
+80,
+81,TD.decl {
+82,padding: 2px;
+83,background-color: #f0f0f0;
+84,font-family: monospace;
+85,vertical-align: top;
+86,}
+87,
+88,TD.topdecl {
+89,padding: 2px;
+90,background-color: #f0f0f0;
+91,font-family: monospace;
+92,vertical-align: top;
+93,}
+94,
+95,TABLE.declbar {
+96,border-spacing: 0px;
+97,}
+98,
+99,TD.declname {
+100,width: 100%;
+101,}
+102,
+103,TD.declbut {
+104,padding-left: 5px;
+105,padding-right: 5px;
+106,border-left-width: 1px;
+107,border-left-color: #000099;
+108,border-left-style: solid;
+109,white-space: nowrap;
+110,font-size: small;
+111,}
+112,
+113,/*
+114,"arg is just like decl, except that wrapping is not allowed. It is"
+115,used for function and constructor arguments which have a text box
+116,"to the right, where if wrapping is allowed the text box squashes up"
+117,the declaration by wrapping it.
+118,*/
+119,TD.arg {
+120,padding: 2px;
+121,background-color: #f0f0f0;
+122,font-family: monospace;
+123,vertical-align: top;
+124,white-space: nowrap;
+125,}
+126,
+127,TD.recfield { padding-left: 20px }
+128,
+129,TD.doc {
+130,padding-top: 2px;
+131,padding-left: 10px;
+132,}
+133,
+134,TD.ndoc {
+135,padding: 2px;
+136,}
+137,
+138,TD.rdoc {
+139,padding: 2px;
+140,padding-left: 10px;
+141,width: 100%;
+142,}
+143,
+144,TD.body {
+145,padding-left: 10px
+146,}
+147,
+148,TD.pkg {
+149,width: 100%;
+150,padding-left: 10px
+151,}
+152,
+153,TD.indexentry {
+154,vertical-align: top;
+155,padding-right: 10px
+156,}
+157,
+158,TD.indexannot {
+159,vertical-align: top;
+160,padding-left: 20px;
+161,white-space: nowrap
+162,}
+163,
+164,TD.indexlinks {
+165,width: 100%
+166,}
+167,
+168,/* ------- Section Headings ------- */
+169,
+170,TD.section1 {
+171,padding-top: 15px;
+172,font-weight: bold;
+173,font-size: 150%
+174,}
+175,
+176,TD.section2 {
+177,padding-top: 10px;
+178,font-weight: bold;
+179,font-size: 130%
+180,}
+181,
+182,TD.section3 {
+183,padding-top: 5px;
+184,font-weight: bold;
+185,font-size: 110%
+186,}
+187,
+188,TD.section4 {
+189,font-weight: bold;
+190,font-size: 100%
+191,}
+192,
+193,/* -------------- The title bar at the top of the page */
+194,
+195,TD.infohead {
+196,color: #ffffff;
+197,font-weight: bold;
+198,padding-right: 10px;
+199,text-align: left;
+200,}
+201,
+202,TD.infoval {
+203,color: #ffffff;
+204,padding-right: 10px;
+205,text-align: left;
+206,}
+207,
+208,TD.topbar {
+209,background-color: #000099;
+210,padding: 5px;
+211,}
+212,
+213,TD.title {
+214,color: #ffffff;
+215,padding-left: 10px;
+216,width: 100%
+217,}
+218,
+219,TD.topbut {
+220,padding-left: 5px;
+221,padding-right: 5px;
+222,border-left-width: 1px;
+223,border-left-color: #ffffff;
+224,border-left-style: solid;
+225,white-space: nowrap;
+226,}
+227,
+228,TD.topbut A:link {
+229,color: #ffffff
+230,}
+231,
+232,TD.topbut A:visited {
+233,color: #ffff00
+234,}
+235,
+236,TD.topbut A:hover {
+237,background-color: #6060ff;
+238,}
+239,
+240,TD.topbut:hover {
+241,background-color: #6060ff
+242,}
+243,
+244,TD.modulebar {
+245,background-color: #0077dd;
+246,padding: 5px;
+247,border-top-width: 1px;
+248,border-top-color: #ffffff;
+249,border-top-style: solid;
+250,}
+251,
+252,/* --------- The page footer --------- */
+253,
+254,TD.botbar {
+255,background-color: #000099;
+256,color: #ffffff;
+257,padding: 5px
+258,}
+259,TD.botbar A:link {
+260,color: #ffffff;
+261,text-decoration: underline
+262,}
+263,TD.botbar A:visited {
+264,color: #ffff00
+265,}
+266,TD.botbar A:hover {
+267,background-color: #6060ff
+268,}
+269,
+270,
+271,//
+272,// Haddock JavaScript utilities
+273,"function toggle(button,id)"
+274,{
+275,var n = document.getElementById(id).style;
+276,"if (n.display == ""none"")"
+277,{
+278,"button.src = ""minus.gif"";"
+279,"n.display = ""block"";"
+280,}
+281,else
+282,{
+283,"button.src = ""plus.gif"";"
+284,"n.display = ""none"";"
+285,}
+286,}
+287,//-->
+288,
+289,
+290,>
+291,>
+292,>
+293,>
+294,>
+295,>
+296,>
+297,>
+298,>
+299,>
+300,>
+301,>
+302,>
+303,>Contents
+304,>
+305,>
+306,>
+307,>Index
+308,>
+309,>
+310,>
+311,>
+312,>
+313,>
+314,>
+315,>
+316,>
+317,>
+318,>
+319,>Test.HUnit.Text
+320,>
+321,>
+322,>
+323,>
+324,>
+325,>
+326,>
+327,>
+328,>
+329,>
+330,>
+331,>Description
+332,>
+333,>
+334,>
+335,>Text-based test controller for running HUnit tests and reporting
+336,"results as text, usually to a terminal."
+337,
+338,>
+339,>
+340,>
+341,>
+342,>
+343,>
+344,>
+345,>Synopsis
+346,>
+347,>
+348,>
+349,>
+350,>
+351,>
+352,>
+353,>
+354,>
+355,>
+356,>
+357,>data
+358,>
+359,>PutText
+360,> st =
+361,>PutText
+362,> (String -> Bool -> st -> IO st) st
+363,>
+364,>
+365,>
+366,>
+367,>
+368,>
+369,>
+370,>
+371,>putTextToHandle
+372,> :: Handle -> Bool ->
+373,>PutText
+374,> Int
+375,>
+376,>
+377,>
+378,>
+379,>
+380,>
+381,>
+382,>
+383,>putTextToShowS
+384,> ::
+385,>PutText
+386,> ShowS
+387,>
+388,>
+389,>
+390,>
+391,>
+392,>
+393,>
+394,>
+395,>runTestText
+396,> ::
+397,>PutText
+398,> st ->
+399,>Test
+400,> -> IO (
+401,>Counts
+402,">, st)"
+403,>
+404,>
+405,>
+406,>
+407,>
+408,>
+409,>
+410,>
+411,>showPath
+412,> ::
+413,>Path
+414,> -> String
+415,>
+416,>
+417,>
+418,>
+419,>
+420,>
+421,>
+422,>
+423,>showCounts
+424,> ::
+425,>Counts
+426,> -> String
+427,>
+428,>
+429,>
+430,>
+431,>
+432,>
+433,>
+434,>
+435,>runTestTT
+436,> ::
+437,>Test
+438,> -> IO
+439,>Counts
+440,>
+441,>
+442,>
+443,>
+444,>
+445,>
+446,>
+447,>
+448,>
+449,>
+450,>
+451,>Documentation
+452,>
+453,>
+454,>
+455,>
+456,>
+457,>
+458,>
+459,>
+460,>data
+461,>
+462,>
+463,>
+464,>PutText
+465,> st
+466,>
+467,>
+468,>
+469,>
+470,>
+471,>
+472,>
+473,>As the general text-based test controller (
+474,>
+475,>runTestText
+476,>
+477,>) executes a
+478,"test, it reports each test case start, error, and failure by"
+479,constructing a string and passing it to the function embodied in a
+480,
+481,>
+482,>PutText
+483,>
+484,">. A report string is known as a ""line"", although it includes"
+485,no line terminator; the function in a
+486,>
+487,>PutText
+488,>
+489,> is responsible for
+490,"terminating lines appropriately. Besides the line, the function"
+491,"receives a flag indicating the intended ""persistence"" of the line:"
+492,True indicates that the line should be part of the final overall
+493,report; False indicates that the line merely indicates progress of
+494,the test execution. Each progress line shows the current values of
+495,"the cumulative test execution counts; a final, persistent line shows"
+496,the final count values.
+497,
+498,>
+499,>The
+500,>
+501,>PutText
+502,>
+503,"> function is also passed, and returns, an arbitrary state"
+504,value (called st here). The initial state value is given in the
+505,
+506,>
+507,>PutText
+508,>
+509,>; the final value is returned by
+510,>
+511,>runTestText
+512,>
+513,>.
+514,
+515,>
+516,>
+517,>
+518,>
+519,>Constructors
+520,>
+521,>
+522,>
+523,>
+524,>
+525,>
+526,>
+527,>
+528,>
+529,>PutText
+530,> (String -> Bool -> st -> IO st) st
+531,>
+532,>
+533,>
+534,>
+535,>
+536,>
+537,>
+538,>
+539,>
+540,>
+541,>
+542,>
+543,>
+544,>
+545,>
+546,>
+547,>
+548,>
+549,>putTextToHandle
+550,> :: Handle -> Bool ->
+551,>PutText
+552,> Int
+553,>
+554,>
+555,>
+556,">writes persistent lines to the given handle, following each by a newline"
+557,"character. In addition, if the given flag is True, it writes progress"
+558,lines to the handle as well. A progress line is written with no line
+559,"termination, so that it can be overwritten by the next report line."
+560,"As overwriting involves writing carriage return and blank characters, its"
+561,proper effect is usually only obtained on terminal devices.
+562,
+563,>
+564,>
+565,>
+566,>
+567,>
+568,>
+569,>
+570,>
+571,>
+572,>
+573,>putTextToShowS
+574,> ::
+575,>PutText
+576,> ShowS
+577,>
+578,>
+579,>
+580,>accumulates persistent lines (dropping progess lines) for return by
+581,
+582,>
+583,>runTestText
+584,>
+585,>. The accumulated lines are represented by a
+586,
+587,>ShowS (String -> String)
+588,> function whose first argument is the
+589,string to be appended to the accumulated report lines.
+590,
+591,>
+592,>
+593,>
+594,>
+595,>
+596,>
+597,>
+598,>
+599,>
+600,>
+601,>runTestText
+602,> ::
+603,>PutText
+604,> st ->
+605,>Test
+606,> -> IO (
+607,>Counts
+608,">, st)"
+609,>
+610,>
+611,>
+612,">executes a test, processing each report line according to the given"
+613,reporting scheme. The reporting scheme's state is threaded through calls
+614,"to the reporting scheme's function and finally returned, along with final"
+615,count values.
+616,
+617,>
+618,>
+619,>
+620,>
+621,>
+622,>
+623,>
+624,>
+625,>
+626,>
+627,>showPath
+628,> ::
+629,>Path
+630,> -> String
+631,>
+632,>
+633,>
+634,">converts a test case path to a string, separating adjacent elements by"
+635,the colon (':'). An element of the path is quoted (as with show) when
+636,there is potential ambiguity.
+637,
+638,>
+639,>
+640,>
+641,>
+642,>
+643,>
+644,>
+645,>
+646,>
+647,>
+648,>showCounts
+649,> ::
+650,>Counts
+651,> -> String
+652,>
+653,>
+654,>
+655,>converts test execution counts to a string.
+656,
+657,>
+658,>
+659,>
+660,>
+661,>
+662,>
+663,>
+664,>
+665,>
+666,>
+667,>runTestTT
+668,> ::
+669,>Test
+670,> -> IO
+671,>Counts
+672,>
+673,>
+674,>
+675,>
+676,>
+677,">provides the ""standard"" text-based test controller. Reporting is made to"
+678,"standard error, and progress reports are included. For possible"
+679,"programmatic use, the final counts are returned."
+680,
+681,>
+682,">The ""TT"" in the name suggests ""Text-based reporting to the Terminal""."
+683,
+684,>
+685,>
+686,>
+687,>
+688,>
+689,>
+690,>
+691,>
+692,>Produced by
+693,>Haddock
+694,> version 0.8
+695,>
+696,>
+697,>
+698,>
+699,>

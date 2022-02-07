@@ -1,0 +1,57 @@
+Debug command,Purpose
+aaa,Enables AAA debugging.
+all,Enables all debugging.
+biosd,Enables BIOS daemon debugging.
+bootvar,Enables bootvar debugging.
+callhome,Enables debugging for Call Home.
+cdp,Enables CDP debugging.
+cfs,Enables Cisco Fabric Services debugging.
+cimserver,Enables CIM server debugging.
+core,Enables core daemon debugging.
+device-alias,Enables device alias debugging.
+dstats,Enables delta statistics debugging.
+ethport,Enables port debugging.
+exceptionlog,Enables exception log debugging.
+fc-tunnel,Enables Fibre Channel tunnel debugging.
+fc2,Enables FC2 debugging.
+fc2d,Enables FC2D debugging.
+fcc,Enables Fibre Channel congestion debugging.
+fcdomain,Enables fcdomain debugging.
+fcfwd,Enables fcfwd debugging.
+fcns,Enables Fibre Channel name server debugging.
+fcs,Enables Fabric Configuration Server debugging.
+fdmi,Enables FDMI debugging.
+flogi,Enables fabric login debugging.
+fm,Enables feature manager debugging.
+fspf,Enables FSPF debugging.
+hardware,"Enables hardware, kernel loadable module parameter debugging."
+idehsd,Enables idehsd manager debugging.
+ilc_helper,Enables ilc-helper debugging.
+ipacl,Enables IP ACL debugging.
+ipconf,Enables IP configuration debugging.
+ipfc,Enables IPFC debugging.
+klm,Enables kernel loadable module parameter debugging.
+license,Enables license debugging.
+logfile,Directs the debug command output to a logfile.
+module,Enables module manager debugging.
+ntp,Enables NTP debugging.
+platform,Enables platform manager debugging.
+port,Enables port debugging.
+port-channel,Enables PortChannel debug.
+qos,Enables QOS Manager debugging.
+radius,Enables RADIUS debugging.
+rib,Enables RIB debugging.
+rlir,Enables RLIR debugging.
+rscn,Enables RSCN debugging.
+scsi-target,Enables scsi target daemon debugging.
+security,Enables security and accounting debugging.
+snmp,Enables SNMP debugging.
+span,Enables SPAN debugging.
+svc,Enables SVC debugging.
+system,Enables System debugging.
+tlport,Enables TL Port debugging.
+vni,Enables virtual network interface debugging.
+vrrp,Enables VRRP debugging.
+vsan,Enables VSAN manager debugging.
+wwn,Enables WWN manager debugging.
+zone,Enables zone server debugging.

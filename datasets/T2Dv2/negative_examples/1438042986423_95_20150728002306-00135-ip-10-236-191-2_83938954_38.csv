@@ -1,0 +1,7 @@
+MysqlI Support,enabled
+Client API library version,5.1.73
+Active Persistent Links,0
+Inactive Persistent Links,0
+Active Links,0
+Client API header version,5.1.71
+MYSQLI_SOCKET,/var/lib/mysql/mysql.sock

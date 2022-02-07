@@ -1,0 +1,14 @@
+Product Name,Company Name,Year Introduced,RAM MB,Flash MB,Processor,Source or Notes,Download Area,Proprietary Drivers,Proprietary Software
+VM1188T,Accton,2006,-,-,-,LinuxDevices,-,?,?
+C8000,Cellon,2005,-,-,-,LinuxDevices,-,?,?
+3G Linux Ref Design,Datang,2004,-,-,-,LinuxDevices,-,?,?
+E28 FMC phones,E28,2006,-,-,OMAP 730,LinuxDevices,-,?,?
+E28 E2800,E28,2003,32,32,ARM9,LinuxDevices,-,?,?
+E28 E2800+,E28,2004,64,32,ARM9 300MHz,LinuxDevices,-,?,?
+PWG500,G-Tek,2006,X,X,X,LinuxDevices,X,?,?
+G500i,Grundig,2005,52 - User,X,OMAP850,LinuxDevices,X,?,?
+N60,Haier,2006,X,X,X,LinuxDevices,X,?,?
+GPS Phone,ImCoSys,2006,64,64,OMAP 730,LinuxDevices,SDK & Flash Image,?,?
+Openmoko Freerunner,Openmoko,2008,128,256,armV4@400Mhz,"Openmoko wiki, open hardware(schematics freely available)",multiple distributions,"None(but 3 proprietary firmwares: gsm,gps and wifi)",None
+Nokia N900,Nokia,?,256,256M NAND +32G eMMC,OMAP 3430 SoC( 600 MHz ARM Cortex-A8 CPU),?,?,see here,see here
+Htc Dream,HTC,?,192M(but some reserved for the DSPs),,MSM7201A(armv6-novfp@528Mhz),"run android by default,GNU/Linux port in progress(require routing or ADP)",,yes by default(list here ),yes by default

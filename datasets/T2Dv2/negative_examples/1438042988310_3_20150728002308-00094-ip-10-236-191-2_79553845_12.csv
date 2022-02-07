@@ -1,0 +1,93 @@
+Directive,Local Value,Master Value
+allow_call_time_pass_reference,Off,Off
+allow_url_fopen,On,On
+allow_url_include,Off,Off
+always_populate_raw_post_data,Off,Off
+arg_separator.input,&,&
+arg_separator.output,&,&
+asp_tags,Off,Off
+auto_append_file,no value,no value
+auto_globals_jit,On,On
+auto_prepend_file,no value,no value
+browscap,no value,no value
+default_charset,no value,no value
+default_mimetype,text/html,text/html
+define_syslog_variables,Off,Off
+disable_classes,no value,no value
+disable_functions,no value,no value
+display_errors,Off,Off
+display_startup_errors,Off,Off
+doc_root,no value,no value
+docref_ext,no value,no value
+docref_root,no value,no value
+enable_dl,On,On
+error_append_string,no value,no value
+error_log,no value,no value
+error_prepend_string,no value,no value
+error_reporting,81,81
+exit_on_timeout,Off,Off
+expose_php,Off,Off
+extension_dir,/usr/lib64/php/modules,/usr/lib64/php/modules
+file_uploads,On,On
+highlight.bg,#FFFFFF,#FFFFFF
+highlight.comment,#FF8000,#FF8000
+highlight.default,#0000BB,#0000BB
+highlight.html,#000000,#000000
+highlight.keyword,#007700,#007700
+highlight.string,#DD0000,#DD0000
+html_errors,On,On
+ignore_repeated_errors,Off,Off
+ignore_repeated_source,Off,Off
+ignore_user_abort,Off,Off
+implicit_flush,Off,Off
+include_path,.:/usr/share/pear:/usr/share/php,.:/usr/share/pear:/usr/share/php
+log_errors,On,On
+log_errors_max_len,1024,1024
+magic_quotes_gpc,Off,Off
+magic_quotes_runtime,Off,Off
+magic_quotes_sybase,Off,Off
+mail.add_x_header,Off,Off
+mail.force_extra_parameters,no value,no value
+mail.log,no value,no value
+max_execution_time,30,30
+max_file_uploads,20,20
+max_input_nesting_level,64,64
+max_input_time,60,60
+max_input_vars,1000,1000
+memory_limit,50M,50M
+open_basedir,no value,no value
+output_buffering,4096,4096
+output_handler,no value,no value
+post_max_size,50M,50M
+precision,14,14
+realpath_cache_size,16K,16K
+realpath_cache_ttl,120,120
+register_argc_argv,Off,Off
+register_globals,Off,Off
+register_long_arrays,On,On
+report_memleaks,On,On
+report_zend_debug,On,On
+request_order,no value,no value
+safe_mode,Off,Off
+safe_mode_exec_dir,no value,no value
+safe_mode_gid,Off,Off
+safe_mode_include_dir,no value,no value
+sendmail_from,oficinaweb@pas.ucm.es,oficinaweb@pas.ucm.es
+sendmail_path,/usr/sbin/sendmail -t -i,/usr/sbin/sendmail -t -i
+serialize_precision,100,100
+short_open_tag,On,On
+SMTP,ucmail.ucm.es,ucmail.ucm.es
+smtp_port,25,25
+sql.safe_mode,Off,Off
+track_errors,Off,Off
+unserialize_callback_func,no value,no value
+upload_max_filesize,50M,50M
+upload_tmp_dir,no value,no value
+user_dir,no value,no value
+user_ini.cache_ttl,300,300
+user_ini.filename,.user.ini,.user.ini
+variables_order,GPCS,GPCS
+xmlrpc_error_number,0,0
+xmlrpc_errors,Off,Off
+y2k_compliance,Off,Off
+zend.enable_gc,On,On

@@ -1,0 +1,6 @@
+Form and Size of Riser,"Volume, cu inch","Weight, lb","Area, sq inch","Amount Solidified in 1 Minute, lb/cu inch","Time to Completely Solidify, minutes",A/V
+Sphere: 6-inch diameter,113,32,100,42.7,7.2,0.884
+Cylinder: 4-1/4 inches by 8 inches,113,32,120,51.2,4.7,1.062
+Square: 3-5/8 inches by 3-5/8 inches by 8-5/8 inches,113,32,135,57.5,3.6,1.194
+Plate: 2-1/4 inches by 6-1/4 inches by 8 inches,113,32,160,68.4,2.7,1.416
+Plate: 1-25/64 inches by 10-5/32 inches by 8 inches,113,32,220,93.8,1.5,1.947

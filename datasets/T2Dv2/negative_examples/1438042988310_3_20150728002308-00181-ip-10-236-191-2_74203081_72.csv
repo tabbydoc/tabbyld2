@@ -1,0 +1,4 @@
+Parameter,In/Out,Description
+xctx,IN,XML context
+elem,IN,element node
+name,IN,tag name to match; data encoding; * for all

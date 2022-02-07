@@ -1,0 +1,19 @@
+Window Name,Type,Description
+programguide,Window,The Non-LiveTV program guide.
+programguide-video,Window,The LiveTV Program Guide.
+manualschedule,Window,The Manual Schedule editor.
+viewscheduled,Window,The Upcoming Recordings screen.
+channelrecpriority,Window,The Channel Priority screen.
+programrecpriority,Window,The Program Priority screen.
+custompriority,Window,The Custom Priority screen.
+phrasepopup,Window,Multiple screen template for screen using a text entry popup.
+timepopup,Window,Template screen type for screens using a date and time buttonlist.
+powersearchpopup,Window,The Power Search popup.
+editpowersearchpopup,Window,The Edit Power Search popup.
+programlist,Window,The Program List screen.
+progdetails,Window,The Program Details screen.
+progfind,Window,The Program Finder screen.
+scheduleeditor,Window,The Schedule Editor screen.
+scheduleoptionseditor,Window,The Schedule Options screen.
+storageoptionseditor,Window,The Storage Options screen.
+postproceditor,Window,The Post Processing screen.

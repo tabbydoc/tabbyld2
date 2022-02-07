@@ -1,0 +1,28 @@
+Split,Value,G,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,TRB,DRB,AST,STL,BLK,TOV,PF,PTS
+Total,,7,8,1,2,.500,1,1,1.000,0,1,.000,0,0,,0,1,1,0,0,1,0,2,3
+Split,Value,G,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,TRB,DRB,AST,STL,BLK,TOV,PF,PTS
+Result,Win,5,7,0,1,.000,0,0,,0,1,.000,0,0,,0,1,1,0,0,0,0,2,0
+,Loss,2,1,1,1,1.000,1,1,1.000,0,0,,0,0,,0,0,0,0,0,1,0,0,3
+Split,Value,G,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,TRB,DRB,AST,STL,BLK,TOV,PF,PTS
+Type,Regular,6,8,0,1,.000,0,0,,0,1,.000,0,0,,0,1,1,0,0,1,0,2,0
+Split,Value,G,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,TRB,DRB,AST,STL,BLK,TOV,PF,PTS
+Month,January,1,1,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,1,0,0,0
+,February,1,1,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0
+,March,1,0,1,1,1.000,1,1,1.000,0,0,,0,0,,0,0,0,0,0,0,0,0,3
+,November,3,5,0,1,.000,0,0,,0,1,.000,0,0,,0,1,1,0,0,0,0,2,0
+,December,1,1,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0
+Split,Value,G,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,TRB,DRB,AST,STL,BLK,TOV,PF,PTS
+Conference,A-10,2,2,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,1,0,0,0
+,Sun Belt,1,1,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0
+,Summit,1,2,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,2,0
+,Big Ten,2,0,1,1,1.000,1,1,1.000,0,0,,0,0,,0,0,0,0,0,0,0,0,3
+,CAA,1,3,0,1,.000,0,0,,0,1,.000,0,0,,0,1,1,0,0,0,0,0,0
+Split,Value,G,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,TRB,DRB,AST,STL,BLK,TOV,PF,PTS
+Day,Sunday,1,0,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0
+,Wednesday,1,1,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,1,0,0,0
+,Saturday,4,7,0,1,.000,0,0,,0,1,.000,0,0,,0,1,1,0,0,0,0,2,0
+,Tuesday,1,0,1,1,1.000,1,1,1.000,0,0,,0,0,,0,0,0,0,0,0,0,0,3
+Split,Value,G,MP,FG,FGA,FG%,3P,3PA,3P%,2P,2PA,2P%,FT,FTA,FT%,ORB,TRB,DRB,AST,STL,BLK,TOV,PF,PTS
+Place,Away,2,1,1,1,1.000,1,1,1.000,0,0,,0,0,,0,0,0,0,0,1,0,0,3
+,Home,4,7,0,1,.000,0,0,,0,1,.000,0,0,,0,1,1,0,0,0,0,2,0
+,Neutral,1,0,0,0,,0,0,,0,0,,0,0,,0,0,0,0,0,0,0,0,0

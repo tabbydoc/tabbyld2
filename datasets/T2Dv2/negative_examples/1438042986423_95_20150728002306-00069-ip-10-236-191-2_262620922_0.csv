@@ -1,0 +1,9 @@
+Column name,Description
+PROCEDURE_CAT,The catalog that contains the procedure. The value is NULL if this table does not have catalogs.
+PROCEDURE_SCHEM,Name of the schema that contains the stored procedure.
+PROCEDURE_NAME,Name of the procedure.
+NUM_INPUT_PARAMS,Number of input (IN) parameters for the stored procedure.
+NUM_OUTPUT_PARAMS,Number of output (OUT) parameters for the stored procedure.
+NUM_RESULT_SETS,Number of result sets returned by the stored procedure.
+REMARKS,Any comments about the stored procedure.
+PROCEDURE_TYPE,"Always returns 1, indicating that the stored procedure does not return a return value."

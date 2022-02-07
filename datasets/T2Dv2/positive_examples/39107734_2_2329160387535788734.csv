@@ -1,0 +1,51 @@
+Rank,Airport,Location,Code (IATA/ICAO),Total Passengers,Rank Change,% Change
+1.,Hartsfield-Jackson Atlanta International Airport,"Atlanta, Georgia, United States",ATL/KATL,"88,032,086",,2.2%
+2.,London Heathrow Airport,"Hillingdon, Greater London, England, United Kingdom",LHR/EGLL,"66,037,578",1,1.5%
+3.,Beijing Capital International Airport,"Chaoyang, Beijing, China",PEK/ZBAA,"65,372,012",5,16.9%
+4.,O'Hare International Airport,"Chicago, Illinois, United States",ORD/KORD,"64,158,343",2,6.1%
+5.,Tokyo International Airport,"?ta, Tokyo, Japan",HND/RJTT,"61,903,656",1,7.2%
+6.,Paris Charles de Gaulle Airport,"Roissy-en-France, Val d'Oise, ?le-de-France, France",CDG/LFPG,"57,906,866",1,4.9%
+7.,Los Angeles International Airport,"Los Angeles, California, United States",LAX/KLAX,"56,520,843",1,5.5%
+8.,Dallas-Fort Worth International Airport,"Dallas/Fort Worth, Texas, United States",DFW/KDFW,"56,030,457",1,1.9%
+9.,Frankfurt Airport,"Flughafen (Frankfurt am Main), Frankfurt, Hesse, Germany",FRA/EDDF,"50,932,840",,4.7%
+10.,Denver International Airport,"Denver, Colorado, United States",DEN/KDEN,"50,167,485",,2.1%
+11.,Madrid-Barajas Airport,"Madrid, Comunidad de Madrid, Spain",MAD/LEMD,"48,250,784",,5.1%
+12.,John F. Kennedy International Airport,"Queens, New York City, New York, United States",JFK/KJFK,"45,915,069",1,3.9%
+13.,Hong Kong International Airport,"Chek Lap Kok, Hong Kong, China",HKG/VHHH,"45,558,807",1,4.8%
+14.,Amsterdam Airport Schiphol,"Haarlemmermeer, North Holland, Netherlands",AMS/EHAM,"43,570,370",,8.1%
+15.,Dubai International Airport,"Garhoud, Dubai, United Arab Emirates",DXB/OMDB,"40,901,752",5,9.2%
+16.,Suvarnabhumi Airport,"Racha Thewa, Bang Phli, Samut Prakan, Greater Bangkok, Thailand",BKK/VTBS,"40,500,224",2,4.9%
+17.,McCarran International Airport,"Las Vegas, Nevada, United States",LAS/KLAS,"40,469,012",2,6.3%
+18.,George Bush Intercontinental Airport,"Houston, Texas, United States",IAH/KIAH,"40,007,354",2,4.1%
+19.,Phoenix Sky Harbor International Airport,"Phoenix, Arizona, United States",PHX/KPHX,"37,824,982",2,5.2%
+20.,San Francisco International Airport,"San Mateo County, California, United States",SFO/KSFO,"37,338,942",1,0.3%
+21.,Singapore Changi Airport,"Changi, East Region, Singapore",SIN/WSSS,"37,203,978",2,1.3%
+22.,Soekarno-Hatta International Airport,"Cengkareng, Jakarta, Java, Indonesia",CGK/WIII,"37,143,719",14,15.2%
+23.,Guangzhou Baiyun International Airport,"Huadu District, Guangzhou, Guangdong, China",CAN/ZGGG,"37,048,712",9,10.8%
+24.,Charlotte Douglas International Airport,"Charlotte, North Carolina, United States",CLT/KCLT,"34,536,666",2,0.6%
+25.,Miami International Airport,"Miami-Dade County, Florida, United States",MIA/KMIA,"33,886,025",4,0.5%
+26.,Leonardo da Vinci Airport,"Fiumicino, Rome, Italy",FCO/LIRF,"33,723,213",1,4.0%
+27.,Orlando International Airport,"Orlando, Florida, United States",MCO/KMCO,"33,693,649",5,5.5%
+28.,Sydney Airport,"Sydney, New South Wales, Australia",SYD/YSSY,"33,451,383",5,0.4%
+29.,Newark Liberty International Airport,"Newark, New Jersey, United States",EWR/KEWR,"33,399,207",6,5.5%
+30.,Munich Airport,"Munich, Bavaria, Germany",MUC/EDDM,"32,681,067",3,5.4%
+31.,London Gatwick Airport,"Crawley, West Sussex, England, United Kingdom",LGW/EGKK,"32,398,979",3,5.3%
+32.,Minneapolis-Saint Paul International Airport,"Fort Snelling, Minnesota, United States",MSP/KMSP,"32,378,599",2,4.9%
+33.,Narita International Airport,"Narita, Chiba, Japan",NRT/RJAA,"32,135,191",2,4.0%
+34.,Shanghai Pudong International Airport,"Pudong, Shanghai, China",PVG/ZSPD,"32,102,549",6,13.7%
+35.,Detroit Metropolitan Wayne County Airport,"Detroit, Michigan, United States",DTW/KDTW,"31,357,388",11,10.8%
+36.,Seattle-Tacoma International Airport,"Seattle, Washington, United States",SEA/KSEA,"31,227,512",1,3.0%
+37.,Philadelphia International Airport,"Philadelphia, Pennsylvania, United States",PHL/KPHI,"30,669,564",,3.7%
+38.,Toronto Pearson International Airport,"Mississauga, Ontario, Canada",YYZ/CYYZ,"30,368,339",4,6.1%
+39.,Atat?rk International Airport,"Yesilk?y, Istanbul, Turkey",IST/LTBA,"29,854,119",3,4.3%
+40.,Kuala Lumpur International Airport,"Sepang, Selangor, Malaysia",KUL/WMKK,"29,682,093",1,7.8%
+41.,Seoul Incheon International Airport,"Incheon, Republic of Korea",ICN/RKSI,"28,677,161",2,4.9%
+42.,Barcelona Airport,"Barcelona, Catalonia, Spain",BCN/LEBL,"27,301,662",4,9.8%
+43.,Logan International Airport,"Boston, Massachusetts, United States",BOS/KBOS,"25,512,086",2,2.3%
+44.,Indira Gandhi International Airport,"Delhi, India",DEL/VIDP,"25,252,814",6,8.6%
+45.,Melbourne Airport,"Melbourne, Victoria, Australia",MEL/YMML,"25,248,762",1,1.4%
+46.,Paris-Orly Airport,"Orly, France",ORY/LFPO,"25,107,693",2,4.2%
+47.,Shanghai Hongqiao International Airport,"Changning District, Shanghai, China",SHA/ZSSS,"25,078,548",?,9.6%
+48.,Chhatrapati Shivaji International Airport,"Mumbai, Maharashtra, India",BOM/VABB,"24,804,766",1,1.9%
+49.,Shenzhen Bao'an International Airport,"Bao'an District, Shenzhen, Guangdong, China",SZX/ZGSZ,"24,486,406",?,14.4%
+50.,Mexico City International Airport,"Mexico City, Mexico",MEX/MMMX,"24,243,056",7,7.5%

@@ -1,0 +1,151 @@
+World rank,City,Country,City population,Metro population,Mayor
+1,Karachi,Pakistan,"15,500,000","18,000,000",Fazlur Rehman
+2,Shanghai,China,"14,900,000","19,200,000",Han Zheng
+3,Mumbai (Bombay),India,"13,900,000","21,200,000",Shraddha Jadhav
+4,BEIJING,China,"12,460,000","17,550,000",Guo Jinlong
+5,DELHI,India,"12,100,000","16,713,000",Kanwar Sain
+6,BUENOS AIRES,Argentina,"11,655,000","12,924,000",Mauricio Macri
+7,MANILA METRO,Philippines,"11,550,000","13,503,000",Alfredo S Lim
+8,SEOUL,South Korea,"11,153,000","24,472,000",Oh Se-hoon
+9,Sao Paulo,Brazil,"11,038,000","19,890,000",Gilberto Kassab
+10,MOSCOW,Russia,"10,524,000","14,800,000",Sergei Sobyanin
+11,JAKARTA,Indonesia,"10,100,000","24,100,000",Fauzi Bowo
+12,Istanbul,Turkey,"9,560,000","12,600,000",Kadir Topbas
+13,BANGKOK,Thailand,"9,100,000","11,970,000",Sukhumbhand Paribatra
+14,MEXICO CITY,Mexico,"8,841,000","21,163,000",Marcelo Ebrard
+15,TOKYO,Japan,"8,653,000","31,036,000",Shintaro Ishihara
+16,TEHRAN,Iran,"8,430,000","13,450,000",Mohammad Bagher Ghalibaf
+17,New York City,USA,"8,364,000","20,090,000",Michael Bloomberg
+18,KINSHASA,Congo D.R.,"8,200,000","10,100,000",Andrй Kimbuta Yango
+19,DHAKA,Bangladesh,"7,940,000","12,797,000",Sadeque Hossain Khosa
+20,Lagos,Nigeria,"7,938,000","9,123,000",n/k
+21,CAIRO,Egypt,"7,764,000","15,546,000",Abdul Azim Wazir
+22,LIMA,Peru,"7,606,000","8,473,000",Susana Villaran
+23,LONDON,UK,"7,557,000","12,200,000",Boris Johnson
+24,Tianjin,China,"7,500,000","11,750,000",Huang Xingguo
+25,BOGOTA,Colombia,"7,320,000","8,361,000",Samuel Moreno Rojas
+26,Ho Chi Minh City,Vietnam,"7,100,000",,Pham Phuong Thao
+27,Hong Kong,China,"7,055,000",,Donald Tsang
+28,Guangzhou,China,"6,458,000","10,182,000",Wan Qingliang
+29,Dongguan,China,"6,446,000","7,650,000",Li Yuquan
+30,Lahore,Pakistan,"6,100,000","8,600,000",Mian Amir Mahmood
+31,Rio de Janeiro,Brazil,"6,093,000","14,387,000",Eduardo Paes
+32,Baghdad,Iraq,"6,050,000","6,500,000",Sabir al-Issawi
+33,Bangalore,India,"5,840,000","6,562,000",SK Nataraj
+34,Surat,India,"5,390,000","6,347,000",Rajendra Desai
+35,SANTIAGO,Chile,"5,278,000","6,677,000",Pablo Zalaquett Said
+36,Kolkata,India,"5,100,000","15,420,000",Bikash Ranjan Bhattacharya
+37,Shenyang,China,"5,090,000","7,760,000",Li Yingjie
+38,Chongqing,China,"5,087,000","9,700,000",Huang Qifan
+39,SINGAPORE,Singapore,"4,988,000",,Lee Hsien Loong
+40,RIYADH,Saudi Arabia,"4,950,000","5,855,000",Abdul Aziz ibn 'Ayyaf Al Migrin
+41,LUANDA,Angola,"4,799,000","5,500,000",Josй Maria Ferraz dos Santos
+42,Harbin,China,"4,755,000","9,874,000",Zhang Xiaolian
+43,St Petersburg,Russia,"4,661,000","4,900,000",Valentina Matviyenko
+44,Chennai,India,"4,600,000","7,330,000",M Subramaniam
+45,Ahmadabad,India,"4,525,000","6,168,000",Kanaji Thakor
+46,Wuhan,China,"4,500,000","6,200,000",Ruan Chengfa
+47,Yangon,Myanmar (Burma),"4,468,000","5.500,000",Aung Thein Lynn
+48,Sydney,Australia,"4,400,000",,Clover Moore
+49,Chengdu,China,"4,334,000","11,000,000",Ge Honglin
+50,Shenzhen,China,"4,320,000","8,616,000",Xy Qin
+51,Nanjing,China,"4,150,000","7,600,000",Ji Jianye
+52,Alexandria,Egypt,"4,110,000","4,350,000",Adel Labib
+53,Johannesburg,South Africa,"3,888,000","10,268,000",Amos Masondo
+54,Jeddah,Saudi Arabia,"3,856,000","4,500,000",Adil Faqeeh
+55,Los Angeles,USA,"3,834,000","12,890,000",Antonio Villaraigosa
+56,Abidjan,Ivory Coast,"3,800,000","4,000,000",Pierre Djйdji Amondji
+57,ANKARA,Turkey,"3,764,000","4,000,000",Melih Gцkзek
+58,Casablanca,Morocco,"3,673,000","3,850,000",Mohammed Sajid
+59,Yokohama,Japan,"3,655,000",,Fumiko Hayashi
+60,Hyderabad,India,"3,637,000","6,290,000",Banda Karthika Reddy
+61,Melbourne,Australia,"3,635,000",,Robert Doyle
+62,Kano,Nigeria,"3,626,000","3,900,000",Ibrahim Shekarau
+63,Busan,South Korea,"3,600,000","4,292,000",Hur Nam-sik
+64,KABUL,Afghanistan,"3,586,000","4,000,000",Mohammad Yunus Noandesh
+65,Changchun,China,"3,581,000","7,460,000",Cui Jie
+66,Cape Town,South Africa,"3,497,000","7,280,000",Patricia de Lille
+67,Guiyang,China,"3,450,000",,Yuan Zhou
+68,BERLIN,Germany,"3,432,000","3,943,000",Klaus Wowereit
+69,Hangzhou,China,"3,408,000","6,776,000",Cai Qi
+70,ADDIS ABABA,Ethiopia,"3,385,000","4,568,000",Kuma Demeksa
+71,Pune,India,"3,337,000","4,470,000",Mohansingh Rajpal
+72,PYONGYANG,North Korea,"3,255,000","3,400,000",n/k
+73,MADRID,Spain,"3,213,000","5,300,000",Alberto Ruiz-Gallardуn
+74,NAIROBI,Kenya,"3,130,000","3,300,000",Geoffrey Majiwa
+75,Kanpur,India,"3,100,000","4,865,000",Ravindra Patani
+76,Kunming,China,"3,100,000","6,800,000",Zhang Zulin
+77,Surabaya,Indonesia,"3,100,000","3,700,000",Bambang D H
+78,Jaipur,India,"3,050,000","5,690,000",Jyoti Khandelwal
+79,Salvador da Bahia,Brazil,"2,998,000","3,173,000",Joгo Henrique Carneiro
+80,SANTO DOMINGO,Dominican Republic,"2,989,000","3,813,000",Roberto Salcedo
+81,Mashhad,Iran,"2,910,000","3,000,000",Mohammad Pejman
+82,Chicago,USA,"2,853,000","8,770,000",Rahm Emanuel
+83,Zibo,China,"2,850,000","4,200,000",Liu Huiyan
+84,KIEV,Ukraine,"2,820,000","3,300,000",Alexander Popov
+85,Durg,India,"2,810,000",,Dr Shiv Kumar Tamer
+86,Huludao,China,"2,787,000",,Sun Zhaolin
+87,CARACAS,Venezuela,"2,762,000","3,478,000",Antonio Ledezma
+88,Qingdao,China,"2,755,000","7,580,000",Xia Geng
+89,Changsha,China,"2,744,000","6,140,000",Zhang Jiangfei
+90,ROME,Italy,"2,732,000","3,555,000",Gianni Alemanno
+91,Fuzhou (Fujian),China,"2,710,000","6,630,000",Yuan Rongxiang
+92,Quezon City,Philippines,"2,680,000",,Herbert M Bautis
+93,Xian,China,"2,670,000","4,480,000",Chen Baogen
+94,Port Harcourt,Nigeria,"2,667,000","3,761,000",Azubuike Nmerukini
+95,Osaka,Japan,"2,647,000","17,590,000",Kunio Hiramatsu
+96,Incheon,South Korea,"2,630,000","2,630,000",Song Young-gil
+97,Shijiazhuang,China,"2,630,000","9,600,000",Ai Wenli
+98,TAIPEI,Taiwan,"2,620,000","6,753,000",Hau Lung-pin
+99,Zhengzhou,China,"2,600,000","4,510,000",Zhao Jiancai
+100,Chittagong,Bangladesh,"2,580,000","3,858,000",Mohammed Manjur Alam
+101,Toronto,Canada,"2,571,000","5,100,000",Rob Ford
+102,Ibadan,Nigeria,"2,550,000","3,000,000",Adebayo Alao-Akala
+103,Taiyuan,China,"2,550,000","3,400,000",Zhang Bingsheng
+104,Cali,Colombia,"2,525,000","2,801,000",Jorge Ivan Ospina
+105,Daegu,South Korea,"2,512,000",,Kim Bum-il
+106,Bandung,Indonesia,"2,510,000","3,829,000",Dada Rosada
+107,Faisalabad,Pakistan,"2,510,000","5,081,000",Rana Zahid Tauseef
+108,Fortaleza,Brazil,"2,506,000","3,415,000",Luizianne Lins
+109,Baoshan,China,"2,500,000",,Xiong Qinghua
+110,DAR ES SALAAM,Tanzania,"2,498,000","2,700,000",Adam Kimbisa
+111,Zhongshan,China,"2,495,000",,n/k
+112,Xiamen,China,"2,490,000",,Liu Cigui
+113,Chaoyang,China,"2,471,000",,Zhang Tiemin
+114,Belo Horizonte,Brazil,"2,453,000","5,397,000",Marcio Lacerda
+115,Nanning,China,"2,450,000","6,480,000",Huang Fangfang
+116,HAVANA,Cuba,"2,430,000","3,700,000",Juan Contino Aslбn
+117,Nagpur,India,"2,420,000",,Archana Dehankar
+118,Omdurman,Sudan,"2,400,000",,Al-Fatih Az-ddin
+119,Suzhou,China,"2,383,000","6,298,000",Yan Li
+120,Aleppo,Syria,"2,360,000","3,000,000",Ma'an Al-Shibli
+121,Lucknow,India,"2,342,000","2,686,000",Dinesh Sharma
+122,Izmir,Turkey,"2,330,000","3,796,000",Aziz Kocaoglu
+123,Linyi,China,"2,300,000","10,080,000",Lian Chengmin
+124,Dalian,China,"2,270,000","3,478,000",Li Wancai
+125,Nagoya,Japan,"2,260,000","9,250,000",Takashi Kawamura
+126,Houston,USA,"2,242,000","5,728,000",Annise Parker
+127,Giza,Egypt,"2,225,000","2,600,000",n/k
+128,Medellin,Colombia,"2,223,000","3,312,000",Alonso Salazar Jaramillo
+129,KHARTOUM,Sudan,"2,208,000","7,500,000",Abdul Rahman Alkheder
+130,Ningbo,China,"2,201,000","5,600,000",Mao Guanglie
+131,Guayaquil,Ecuador,"2,196,000","2,686,000",Jaime Nebot
+132,TASHKENT,Uzbekistan,"2,180,000","3,400,000",Abdukahar Tuhtayev
+133,PARIS,France,"2,113,000","11,769,000",Bertrand Delanoл
+134,BRASILIA,Brazil,"2,089,000","2,090,000",Josй Roberto Arruda
+135,Lanzhou,China,"2,088,000","3,300,000",Zhang Jinliang
+136,Changzhou,China,"2,086,000","3,570,000",Wang Weicheng
+137,Monterrey,Mexico,"2,057,000","3,650,000",Fernando Larrazabal
+138,BAKU,Azerbaijan,"2,040,000","2,072,000",Hajibala Abutalybov
+139,Kowloon,China,"2,020,000","2,200,000",Wong Kwok-keung
+140,BUCHAREST,Romania,"1,994,000","2,151,000",Sorin Oprescu
+141,Medan,Indonesia,"1,990,000","2,390,000",Rahudman Harahap
+142,Tangshan,China,"1,980,000","7,100,000",Zhang Guodong
+143,Jilin,China,"1,953,000","4,523,000",Zhang Xiaopei
+144,Nanchong,China,"1,950,000","7,300,000",Liu Hongjian
+145,CONAKRY,Guinea,"1,931,000",,Mamadou Wasco Camara
+146,AMMAN,Jordan,"1,919,000","2,524,000",Omar Maani
+147,Indore,India,"1,912,000","1,920,000",Krishna Murari Moghe
+148,Sapporo,Japan,"1,906,000","2,130,000",Fumio Ueda
+149,Jinan,China,"1,900,000","2,444,000",Zhang Jianguo
+150,Puebla,Mexico,"1,888,000","2,500,000",Blanca Alcala Ruiz

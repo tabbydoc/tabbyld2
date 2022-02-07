@@ -1,0 +1,5 @@
+Species,Name,Bond Length (Г…),Atom1 index,Atom2 index
+FHF-,FHF-,1.145,1,2
+FHF,FHF,1.145,1,2
+,,1.145,1,3
+FHF-,FHF-,1.145,1,3
