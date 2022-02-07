@@ -19,6 +19,34 @@ def is_float(string):
         return False
 
 
+def is_int(string):
+    """
+    Определение является ли строка целым числовым значением.
+    :param string: исходная строка
+    :return: True - если строка является целым числом, False - в противном случае
+    """
+    try:
+        int(string)
+        return True
+    except ValueError:
+        return False
+
+
+def is_number(string):
+    """
+    Определение является ли строка каким-либо числовым занчением.
+    :param string: исходная строка
+    :return: True - если строка является числом, False - в противном случае
+    """
+    if is_int(string):
+        return True
+    else:
+        if is_float(string):
+            return True
+        else:
+            return False
+
+
 def merge_dicts(dict1, dict2):
     """
     Объединение содержимого двух словарей.
