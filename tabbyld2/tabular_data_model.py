@@ -412,3 +412,18 @@ class TableModel(AbstractTableModel):
             serialized_annotated_columns[column.header_name] = column.annotation
 
         return serialized_annotated_columns
+
+    @staticmethod
+    def deserialize_source_table(file_name: str = None, source_json_data: dict = None):
+        """
+        Deserialize a source table in the json format and create table model object.
+        :return: TableModel object
+        """
+        columns = tuple()
+        dicts = {k: [d[k] for d in source_json_data] for k in source_json_data[0]}
+        for key, items in dicts.items():
+            cells = tuple()
+            for item in items:
+                cells += (ColumnCellModel(item),)
+            columns += (TableColumnModel(key, cells),)
+        return TableModel(file_name, columns)

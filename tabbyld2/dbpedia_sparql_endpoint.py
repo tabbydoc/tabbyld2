@@ -17,13 +17,11 @@ def get_candidate_entities(entity_mention: str = "", short_name: bool = False):
     # Разделение текстового упоминания сущности на слова
     string = ""
     word_list = re.split("[,' ]+", entity_mention)
-    print(word_list)
     for word in word_list:
         if string:
             string += " AND '" + word + "'"
         else:
             string = "'" + word + "'"
-    print(string)
     if string != "":
         # Выполнение SPARQL-запроса к DBpedia
         sparql = SPARQLWrapper(ENDPOINT_NAME)
