@@ -53,7 +53,7 @@ class AbstractEntityModel(ABC):
         pass
 
 
-class EntityModel(AbstractEntityModel):
+class EntityModel(AbstractEntityModel, EntityRankingWeightFactor):
     __slots__ = ("_uri", "_label", "_comment", "_string_similarity", "_ner_based_similarity",
                  "_heading_based_similarity", "_entity_embeddings_based_similarity",
                  "_context_based_similarity", "_final_score")
@@ -109,12 +109,11 @@ class EntityModel(AbstractEntityModel):
         return self._final_score
 
     def aggregate_scores(self):
-        self._final_score = self.string_similarity * EntityRankingWeightFactor.STRING_SIMILARITY + \
-                            self.ner_based_similarity * EntityRankingWeightFactor.NER_BASED_SIMILARITY + \
-                            self.heading_based_similarity * EntityRankingWeightFactor.HEADING_BASED_SIMILARITY + \
-                            self.entity_embeddings_based_similarity * \
-                            EntityRankingWeightFactor.ENTITY_EMBEDDINGS_BASED_SIMILARITY + \
-                            self.context_based_similarity * EntityRankingWeightFactor.CONTEXT_BASED_SIMILARITY
+        self._final_score = self.string_similarity * self.STRING_SIMILARITY + \
+                            self.ner_based_similarity * self.NER_BASED_SIMILARITY + \
+                            self.heading_based_similarity * self.HEADING_BASED_SIMILARITY + \
+                            self.entity_embeddings_based_similarity * self.ENTITY_EMBEDDINGS_BASED_SIMILARITY + \
+                            self.context_based_similarity * self.CONTEXT_BASED_SIMILARITY
 
 
 class AbstractClassModel(ABC):
@@ -128,7 +127,7 @@ class AbstractClassModel(ABC):
         pass
 
 
-class ClassModel(AbstractClassModel):
+class ClassModel(AbstractClassModel, ClassRankingWeightFactor):
     __slots__ = ("_uri", "_label", "_comment", "_majority_voting_score", "_heading_similarity",
                  "_column_type_prediction_score", "_final_score")
 
@@ -172,6 +171,6 @@ class ClassModel(AbstractClassModel):
         return self._final_score
 
     def aggregate_scores(self):
-        self._final_score = self.majority_voting_score * ClassRankingWeightFactor.MAJORITY_VOTING + \
-                            self.heading_similarity * ClassRankingWeightFactor.HEADING_SIMILARITY + \
-                            self.column_type_prediction_score * ClassRankingWeightFactor.COLUMN_TYPE_PREDICTION
+        self._final_score = self.majority_voting_score * self.MAJORITY_VOTING + \
+                            self.heading_similarity * self.HEADING_SIMILARITY + \
+                            self.column_type_prediction_score * self.COLUMN_TYPE_PREDICTION
