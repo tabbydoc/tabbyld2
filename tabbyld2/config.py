@@ -10,6 +10,10 @@ class ResultPath:
     PROVENANCE_PATH = str(Path(__file__).parent.parent) + "/results/provenance/"
     # Path for T2Dv2 dataset tables in JSON format
     T2DV2_JSON_PATH = str(Path(__file__).parent.parent) + "/datasets/T2Dv2/tables/"
+    # Path for positive examples of T2Dv2 dataset tables in CSV format
+    T2DV2_POSITIVE_EXAMPLES_PATH = str(Path(__file__).parent.parent) + "/datasets/T2Dv2/positive_examples/"
+    # Path for negative examples of T2Dv2 dataset tables in CSV format
+    T2DV2_NEGATIVE_EXAMPLES_PATH = str(Path(__file__).parent.parent) + "/datasets/T2Dv2/negative_examples/"
 
     # Paths of result provenance
     CLEARED_DATA_PATH = "/cleared_data/"
