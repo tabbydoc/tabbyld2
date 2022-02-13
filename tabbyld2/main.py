@@ -3,11 +3,13 @@ import json
 import tabbyld2.parser as pr
 import tabbyld2.utility as utl
 import tabbyld2.pipeline as pl
+from datetime import datetime
 from tabbyld2.config import ResultPath
 from tabbyld2.tabular_data_model import TableModel
 
 
 if __name__ == '__main__':
+    start_full_time = datetime.now()
     # Save a set of source tables in the json format
     pr.save_json_dataset(ResultPath.CSV_FILE_PATH, ResultPath.JSON_FILE_PATH)
     # Cycle through table files
@@ -28,3 +30,5 @@ if __name__ == '__main__':
                     table = pl.pipeline_cell_entity_annotation(table, file)
                     # Solve CTA task
                     table = pl.pipeline_column_type_annotation(table, file)
+    print("***************************************************")
+    print("Full time: " + str(datetime.now() - start_full_time))
