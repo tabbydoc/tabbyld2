@@ -196,65 +196,57 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
 
     def rank_candidate_entities_by_entity_embeddings_based_similarity(self):
         """
-        Ранжирование сущностей кандидатов для значений ячеек категориальных столбцов, включая сущностный столбец,
-        по сходству на основе семантической близости между сущностями кандидатами.
+        Ранжирование сущностей кандидатов для значений ячеек категориальных столбцов,
+        включая сущностный столбец, по сходству на основе контекста.
         """
         # # Вычисление оценок для сущностей из набора кандидатов по сходству на основе
         # # семантической близости между сущностями кандидатами
-        # list_new = []
-        # dictionary_new = {}
-        # list_words = []
-        # for key, items in table_with_candidate_entities.items():
-        #     if items:
-        #         for entity_mention, candidate_entities in items.items():
-        #             if candidate_entities:
-        #                 for i in range(len(candidate_entities)):
-        #                     list_new.append(candidate_entities[i])
-        # knowledge_graph = KG(
-        #     "https://dbpedia.org/sparql",
-        #     skip_predicates={"www.w3.org/1999/02/22-rdf-syntax-ns#type"},
-        #     literals=[
-        #         [
-        #             "http://dbpedia.org/ontology/wikiPageWikiLink",
-        #             "http://www.w3.org/2004/02/skos/core#prefLabel",
-        #         ],
-        #         ["http://dbpedia.org/ontology/humanDevelopmentIndex"],
-        #     ],
-        # )
-        # transformer = RDF2VecTransformer(
-        #     Word2Vec(epochs=10),
-        #     walkers=[RandomWalker(4, 10, with_reverse=False, n_jobs=2)],
-        #     # verbose=1
-        # )
-        # transformer.fit_transform(knowledge_graph, list_new)
-        # transformer.embedder._model.save("rdf2vec.model")
-        # modeller = W2V.load("rdf2vec.model")
-        # for entity in list_new:
-        #     count = modeller.wv.most_similar(entity, topn=100000000)
-        #     list_words.append(count)
-        # for list_of_words in list_words:
-        #     for entity in list_new:
-        #         for i in range(len(list_of_words)):
-        #             if entity == list_of_words[i][0]:
-        #                 dictionary_new.setdefault(list_of_words[i][0], []).append(list_of_words[i][1])
-        # for key_values, precisions in dictionary_new.items():
-        #     maximum = max(dictionary_new[key_values])
-        #     dictionary_new.update([(key_values, (maximum + 1) / 2)])
-        # for key, items in table_with_candidate_entities.items():
-        #     if items:
-        #         for keys_entities, item_items in items.items():
-        #             if item_items:
-        #                 dictionary = {}
-        #                 for i in range(len(item_items)):
-        #                     dictionary[item_items[i]] = dict()
-        #                     dictionary[item_items[i]] = dictionary_new[items[keys_entities][i]]
-        #                 items[keys_entities] = dictionary
-        #                 for key_values, item_values in items[keys_entities].items():
-        #                     items[keys_entities][key_values] = items[keys_entities][key_values] * EES_WEIGHT_FACTOR
-        #
-        #                 items[keys_entities] = dict(
-        #                     sorted(items[keys_entities].items(), key=lambda item: item[1], reverse=True))
-        # os.remove("rdf2vec.model")
+        list_new = []
+        dictionary_new = {}
+        list_words = []
+        for column in self.table_model.columns:
+            for cell in column.cells:
+                if cell.candidate_entities is not None:
+                    for candidate_entity in cell.candidate_entities:
+                        if candidate_entity:
+                            list_new.append(candidate_entity)
+        knowledge_graph = KG(
+            "https://dbpedia.org/sparql",
+            skip_predicates={"www.w3.org/1999/02/22-rdf-syntax-ns#type"},
+            literals=[
+                [
+                    "http://dbpedia.org/ontology/wikiPageWikiLink",
+                    "http://www.w3.org/2004/02/skos/core#prefLabel",
+                ],
+                ["http://dbpedia.org/ontology/humanDevelopmentIndex"],
+            ],
+        )
+        transformer = RDF2VecTransformer(
+            Word2Vec(epochs=10),
+            walkers=[RandomWalker(4, 10, with_reverse=False, n_jobs=2)],
+            # verbose=1
+        )
+        transformer.fit_transform(knowledge_graph, list_new)
+        transformer.embedder._model.save("rdf2vec.model")
+        modeller = W2V.load("rdf2vec.model")
+        for entity in list_new:
+            count = modeller.wv.most_similar(entity, topn=100000000)
+            list_words.append(count)
+        for list_of_words in list_words:
+            for entity in list_new:
+                for i in range(len(list_of_words)):
+                    if entity == list_of_words[i][0]:
+                        dictionary_new.setdefault(list_of_words[i][0], []).append(list_of_words[i][1])
+        for key_values, precisions in dictionary_new.items():
+            maximum = max(dictionary_new[key_values])
+            dictionary_new.update([(key_values, (maximum + 1) / 2)])
+            for column in self.table_model.columns:
+                for cell in column.cells:
+                    if cell.candidate_entities is not None:
+                        for candidate_entity in cell.candidate_entities:
+                            candidate_entity._entity_embeddings_based_similarity = dictionary_new[candidate_entity]
+
+        os.remove("rdf2vec.model")
         print("Ranking of candidate entities by entity embeddings based similarity is complete.")
 
     def rank_candidate_entities_by_context_based_similarity(self):
