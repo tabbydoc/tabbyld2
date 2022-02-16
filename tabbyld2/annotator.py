@@ -209,7 +209,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                 if cell.candidate_entities is not None:
                     for candidate_entity in cell.candidate_entities:
                         if candidate_entity:
-                            list_new.append(candidate_entity)
+                            list_new.append(candidate_entity.uri)
         knowledge_graph = KG(
             "https://dbpedia.org/sparql",
             skip_predicates={"www.w3.org/1999/02/22-rdf-syntax-ns#type"},
@@ -244,7 +244,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                 for cell in column.cells:
                     if cell.candidate_entities is not None:
                         for candidate_entity in cell.candidate_entities:
-                            candidate_entity._entity_embeddings_based_similarity = dictionary_new[candidate_entity]
+                            candidate_entity._entity_embeddings_based_similarity = dictionary_new[candidate_entity.uri]
 
         os.remove("rdf2vec.model")
         print("Ranking of candidate entities by entity embeddings based similarity is complete.")
