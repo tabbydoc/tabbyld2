@@ -197,10 +197,8 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
     def rank_candidate_entities_by_entity_embeddings_based_similarity(self):
         """
         Ранжирование сущностей кандидатов для значений ячеек категориальных столбцов,
-        включая сущностный столбец, по сходству на основе контекста.
+        включая сущностный столбец, по сходству на основе семантической близости между сущностями кандидатами.
         """
-        # # Вычисление оценок для сущностей из набора кандидатов по сходству на основе
-        # # семантической близости между сущностями кандидатами
         list_new = []
         dictionary_new = {}
         list_words = []
@@ -245,7 +243,6 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                     if cell.candidate_entities is not None:
                         for candidate_entity in cell.candidate_entities:
                             candidate_entity._entity_embeddings_based_similarity = dictionary_new[candidate_entity.uri]
-
         os.remove("rdf2vec.model")
         print("Ranking of candidate entities by entity embeddings based similarity is complete.")
 
