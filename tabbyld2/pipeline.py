@@ -27,10 +27,11 @@ def pipeline_preprocessing(table_model: TableModel = None, file: str = None, inc
     column_classifier.define_subject_column()
     # Serialize results in json format
     if include_serialization:
-        utl.write_json_file(file, ResultPath.CLEARED_DATA_PATH, table_model.serialize_cleared_table())
-        utl.write_json_file(file, ResultPath.RECOGNIZED_DATA_PATH,
+        path = ResultPath.PROVENANCE_PATH + utl.remove_suffix_in_filename(file) + "/"
+        utl.write_json_file(path, ResultPath.CLEARED_DATA, table_model.serialize_cleared_table())
+        utl.write_json_file(path, ResultPath.RECOGNIZED_DATA,
                             column_classifier.table_model.serialize_recognized_named_entities())
-        utl.write_json_file(file, ResultPath.CLASSIFIED_DATA_PATH,
+        utl.write_json_file(path, ResultPath.CLASSIFIED_DATA,
                             column_classifier.table_model.serialize_classified_columns())
 
     return column_classifier.table_model
@@ -56,7 +57,7 @@ def pipeline_cell_entity_annotation(table_model: TableModel = None, file: str = 
     # Rank candidate entities by heading based similarity
     annotator.rank_candidate_entities_by_heading_based_similarity()
     # Rank candidate entities by entity embeddings based similarity
-    annotator.rank_candidate_entities_by_entity_embeddings_based_similarity()
+    # annotator.rank_candidate_entities_by_entity_embeddings_based_similarity()
     # Rank candidate entities by context based similarity
     annotator.rank_candidate_entities_by_context_based_similarity()
     # Aggregate scores for candidate entities obtained based on five heuristics
@@ -65,27 +66,28 @@ def pipeline_cell_entity_annotation(table_model: TableModel = None, file: str = 
     annotator.annotate_cells()
     # Serialize results in json format
     if include_serialization:
-        utl.write_json_file(file, ResultPath.CANDIDATE_ENTITIES_PATH,
+        path = ResultPath.PROVENANCE_PATH + utl.remove_suffix_in_filename(file) + "/"
+        utl.write_json_file(path, ResultPath.CANDIDATE_ENTITIES,
                             annotator.table_model.serialize_candidate_entities_for_cells())
-        utl.write_json_file(file, ResultPath.RANKED_CANDIDATE_ENTITIES_BY_SS,
+        utl.write_json_file(path, ResultPath.RANKED_CANDIDATE_ENTITIES_BY_SS,
                             annotator.table_model.serialize_ranked_candidate_entities(
                                 EntityRankingMethod.STRING_SIMILARITY))
-        utl.write_json_file(file, ResultPath.RANKED_CANDIDATE_ENTITIES_BY_NS,
+        utl.write_json_file(path, ResultPath.RANKED_CANDIDATE_ENTITIES_BY_NS,
                             annotator.table_model.serialize_ranked_candidate_entities(
                                 EntityRankingMethod.NER_BASED_SIMILARITY))
-        utl.write_json_file(file, ResultPath.RANKED_CANDIDATE_ENTITIES_BY_HS,
+        utl.write_json_file(path, ResultPath.RANKED_CANDIDATE_ENTITIES_BY_HS,
                             annotator.table_model.serialize_ranked_candidate_entities(
                                 EntityRankingMethod.HEADING_BASED_SIMILARITY))
-        utl.write_json_file(file, ResultPath.RANKED_CANDIDATE_ENTITIES_BY_ESS,
+        utl.write_json_file(path, ResultPath.RANKED_CANDIDATE_ENTITIES_BY_ESS,
                             annotator.table_model.serialize_ranked_candidate_entities(
                                 EntityRankingMethod.ENTITY_EMBEDDINGS_BASED_SIMILARITY))
-        utl.write_json_file(file, ResultPath.RANKED_CANDIDATE_ENTITIES_BY_CS,
+        utl.write_json_file(path, ResultPath.RANKED_CANDIDATE_ENTITIES_BY_CS,
                             annotator.table_model.serialize_ranked_candidate_entities(
                                 EntityRankingMethod.CONTEXT_BASED_SIMILARITY))
-        utl.write_json_file(file, ResultPath.RANKED_CANDIDATE_ENTITIES,
+        utl.write_json_file(path, ResultPath.RANKED_CANDIDATE_ENTITIES,
                             annotator.table_model.serialize_ranked_candidate_entities(
                                 EntityRankingMethod.SCORES_AGGREGATION))
-        utl.write_json_file(file, ResultPath.ANNOTATED_CELLS_PATH, annotator.table_model.serialize_annotated_cells())
+        utl.write_json_file(path, ResultPath.ANNOTATED_CELLS_PATH, annotator.table_model.serialize_annotated_cells())
 
     return annotator.table_model
 
@@ -115,19 +117,20 @@ def pipeline_column_type_annotation(table_model: TableModel = None, file: str = 
     annotator.annotate_literal_columns()
     # Serialize results in json format
     if include_serialization:
-        utl.write_json_file(file, ResultPath.RANKED_CANDIDATE_CLASSES_BY_MV,
+        path = ResultPath.PROVENANCE_PATH + utl.remove_suffix_in_filename(file) + "/"
+        utl.write_json_file(path, ResultPath.RANKED_CANDIDATE_CLASSES_BY_MV,
                             annotator.table_model.serialize_ranked_candidate_classes(
                                 ClassRankingMethod.MAJORITY_VOTING))
-        utl.write_json_file(file, ResultPath.RANKED_CANDIDATE_CLASSES_BY_HS,
+        utl.write_json_file(path, ResultPath.RANKED_CANDIDATE_CLASSES_BY_HS,
                             annotator.table_model.serialize_ranked_candidate_classes(
                                 ClassRankingMethod.HEADING_SIMILARITY))
-        utl.write_json_file(file, ResultPath.RANKED_CANDIDATE_CLASSES_BY_CTP,
+        utl.write_json_file(path, ResultPath.RANKED_CANDIDATE_CLASSES_BY_CTP,
                             annotator.table_model.serialize_ranked_candidate_classes(
                                 ClassRankingMethod.COLUMN_TYPE_PREDICTION))
-        utl.write_json_file(file, ResultPath.RANKED_CANDIDATE_CLASSES,
+        utl.write_json_file(path, ResultPath.RANKED_CANDIDATE_CLASSES,
                             annotator.table_model.serialize_ranked_candidate_classes(
                                 ClassRankingMethod.SCORES_AGGREGATION))
-        utl.write_json_file(file, ResultPath.ANNOTATED_COLUMNS_PATH,
+        utl.write_json_file(path, ResultPath.ANNOTATED_COLUMNS_PATH,
                             annotator.table_model.serialize_annotated_columns())
 
     return annotator.table_model

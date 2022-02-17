@@ -102,9 +102,16 @@ def remove_file(file):
         os.remove(path)
 
 
-def write_json_file(file: str = None, path: str = None, dicts: Optional[Dict] = None):
-    check_directory(ResultPath.PROVENANCE_PATH + remove_suffix_in_filename(file) + path)
-    with open(ResultPath.PROVENANCE_PATH + remove_suffix_in_filename(file) + path + file, "w") as outfile:
+def write_json_file(path: str, file: str, dicts: Optional[Dict]):
+    """
+    Записать файл в формате JSON с сериализованными данными, представленных в виде словаря.
+    :param path: полный путь до файла
+    :param file: полное название файла
+    :param dicts: данные в виде словаря
+    """
+    check_directory(path)  # Проверка существования пути (каталога)
+    # Запись json-файла
+    with open(path + file, "w") as outfile:
         json.dump(dicts, outfile, indent=4)
 
 
