@@ -87,7 +87,7 @@ def pipeline_cell_entity_annotation(table_model: TableModel = None, file: str = 
         utl.write_json_file(path, ResultPath.RANKED_CANDIDATE_ENTITIES,
                             annotator.table_model.serialize_ranked_candidate_entities(
                                 EntityRankingMethod.SCORES_AGGREGATION))
-        utl.write_json_file(path, ResultPath.ANNOTATED_CELLS_PATH, annotator.table_model.serialize_annotated_cells())
+        utl.write_json_file(path, ResultPath.ANNOTATED_CELLS, annotator.table_model.serialize_annotated_cells())
 
     return annotator.table_model
 
@@ -130,7 +130,7 @@ def pipeline_column_type_annotation(table_model: TableModel = None, file: str = 
         utl.write_json_file(path, ResultPath.RANKED_CANDIDATE_CLASSES,
                             annotator.table_model.serialize_ranked_candidate_classes(
                                 ClassRankingMethod.SCORES_AGGREGATION))
-        utl.write_json_file(path, ResultPath.ANNOTATED_COLUMNS_PATH,
+        utl.write_json_file(path, ResultPath.ANNOTATED_COLUMNS,
                             annotator.table_model.serialize_annotated_columns())
 
     return annotator.table_model

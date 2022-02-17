@@ -30,9 +30,9 @@ class ResultPath:
     RANKED_CANDIDATE_CLASSES_BY_HS = "ranked_candidate_classes_by_hs.json"
     RANKED_CANDIDATE_CLASSES_BY_CTP = "ranked_candidate_classes_by_ctp.json"
 
-    ANNOTATED_CELLS_PATH = "annotated_cells.json"
-    ANNOTATED_COLUMNS_PATH = "annotated_columns.json"
-    ANNOTATED_PROPERTIES_PATH = "annotated_properties.json"
+    ANNOTATED_CELLS = "annotated_cells.json"
+    ANNOTATED_COLUMNS = "annotated_columns.json"
+    ANNOTATED_PROPERTIES = "annotated_properties.json"
 
 
 class EvaluationPath:
