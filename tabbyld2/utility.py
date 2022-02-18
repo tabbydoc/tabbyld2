@@ -111,8 +111,8 @@ def write_json_file(path: str, file: str, dicts: Optional[Dict]):
     """
     check_directory(path)  # Проверка существования пути (каталога)
     # Запись json-файла
-    with open(path + file, "w") as outfile:
-        json.dump(dicts, outfile, indent=4)
+    with open(path + file, "w", encoding="utf-8") as outfile:
+        json.dump(dicts, outfile, indent=4, ensure_ascii=False)
 
 
 def create_table_headings_file(classified_data_file, table_headings_file):
