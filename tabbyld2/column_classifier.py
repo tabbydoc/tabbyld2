@@ -342,29 +342,32 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
         # Обход столбцов в таблице
         for column in self.table_model.columns:
             for cell in column.cells:
-                # Распознавание именованной сущности
-                doc = nlp(cell.cleared_value + ".")
-                # Формирование словаря с рузультатом распознавания именованных сущностей
-                recognized_named_entities = []
-                if len(doc.ents) > 1:
-                    for ent in doc.ents:
-                        recognized_named_entities.append(ent.type)
-                if len(doc.ents) == 1:
-                    recognized_named_entities = doc.ents[0].type
-                if len(doc.ents) == 0:
-                    recognized_named_entities = NamedEntityLabel.NONE
-                # Если упоминанию сущности присвоена неопределенная метка NONE
-                if not isinstance(recognized_named_entities, list):
-                    # Корректировка значения NONE на основе регулярных выражений
-                    if recognized_named_entities == NamedEntityLabel.NONE:
-                        recognized_named_entities = self.determine_entity_mention(cell.cleared_value)
-                    # Уточнение типа числа на основе регулярных выражений
-                    if recognized_named_entities == LiteralLabel.CARDINAL:
-                        recognized_named_entities = self.determine_number(cell.cleared_value, LiteralLabel.CARDINAL)
-                    if recognized_named_entities == NamedEntityLabel.NONE:
-                        recognized_named_entities = self.determine_number(cell.cleared_value, NamedEntityLabel.NONE)
-                # Присваивание метки
-                cell._label = recognized_named_entities
+                if cell.cleared_value is not None:
+                    # Распознавание именованной сущности
+                    doc = nlp(cell.cleared_value + ".")
+                    # Формирование словаря с рузультатом распознавания именованных сущностей
+                    recognized_named_entities = []
+                    if len(doc.ents) > 1:
+                        for ent in doc.ents:
+                            recognized_named_entities.append(ent.type)
+                    if len(doc.ents) == 1:
+                        recognized_named_entities = doc.ents[0].type
+                    if len(doc.ents) == 0:
+                        recognized_named_entities = NamedEntityLabel.NONE
+                    # Если упоминанию сущности присвоена неопределенная метка NONE
+                    if not isinstance(recognized_named_entities, list):
+                        # Корректировка значения NONE на основе регулярных выражений
+                        if recognized_named_entities == NamedEntityLabel.NONE:
+                            recognized_named_entities = self.determine_entity_mention(cell.cleared_value)
+                        # Уточнение типа числа на основе регулярных выражений
+                        if recognized_named_entities == LiteralLabel.CARDINAL:
+                            recognized_named_entities = self.determine_number(cell.cleared_value, LiteralLabel.CARDINAL)
+                        if recognized_named_entities == NamedEntityLabel.NONE:
+                            recognized_named_entities = self.determine_number(cell.cleared_value, NamedEntityLabel.NONE)
+                    # Присваивание метки
+                    cell._label = recognized_named_entities
+                else:
+                    cell._label = LiteralLabel.EMPTY
 
     def classify_columns(self):
         """
@@ -423,8 +426,9 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
         # Вычисление количества ячеек с акронимами в столбце
         cell_number_with_acronyms = 0
         for cell in column:
-            if re.search(r"\b[A-ZА-Я.]{2,}\b", cell):
-                cell_number_with_acronyms += 1
+            if cell is not None:
+                if re.search(r"\b[A-ZА-Я.]{2,}\b", cell):
+                    cell_number_with_acronyms += 1
         # Вычисление доли ячеек, содержащих акронимы
         cell_fraction_with_acronyms = cell_number_with_acronyms / self.table_model.rows_number
 
