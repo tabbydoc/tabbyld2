@@ -271,9 +271,10 @@ class TableModel(AbstractTableModel):
                 fixed_header_name = cln.fix_text(column.header_name)
                 column._header_name = cln.remove_multiple_spaces(fixed_header_name)
             for cell in column.cells:
-                fixed_value = cln.fix_text(cell.source_value)
-                cleared_value = cln.remove_garbage_characters(fixed_value)
-                cell._cleared_value = cln.remove_multiple_spaces(cleared_value)
+                if cell.source_value is not None:
+                    fixed_value = cln.fix_text(cell.source_value)
+                    cleared_value = cln.remove_garbage_characters(fixed_value)
+                    cell._cleared_value = cln.remove_multiple_spaces(cleared_value)
 
     def serialize_cleared_table(self):
         """
@@ -324,10 +325,13 @@ class TableModel(AbstractTableModel):
             cells = dict()
             for cell in column.cells:
                 candidate_entities = list()
-                if cell.candidate_entities is not None:
-                    for candidate_entity in cell.candidate_entities:
-                        candidate_entities.append(candidate_entity.uri)
-                cells[cell.cleared_value] = candidate_entities
+                if cell.cleared_value is not None:
+                    if cell.candidate_entities is not None:
+                        for candidate_entity in cell.candidate_entities:
+                            candidate_entities.append(candidate_entity.uri)
+                        cells[cell.cleared_value] = candidate_entities
+                    else:
+                        cells[cell.cleared_value] = None
             serialized_candidate_entities[column.header_name] = cells
 
         return serialized_candidate_entities
