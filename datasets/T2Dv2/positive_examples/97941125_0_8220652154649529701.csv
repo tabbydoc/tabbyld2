@@ -3,7 +3,7 @@ Afghanistan,Afghani,AFA,4,Af,100 puls
 Albania,Lek,ALL,8,L,100 qindarka (qintars)
 Algeria,Algerian Dinar,DZD,12,DA,100 centimes
 American Samoa,US Dollar,USD,840,$,100 cents
-Andorra,Euro,EUR,978,Ђ,100 euro-cents
+Andorra,Euro,EUR,978,,100 euro-cents
 Angola,New Kwanza,AON,24,Kz,100 lwei
 Anguilla,East Caribbean Dollar,XCD,951,EC$,100 cents
 Antarctica,No universal currency,,,,
@@ -12,14 +12,14 @@ Argentina,Argentine Peso,ARS,32,$,100 centavos
 Armenia,Armenian Dram,AMD,51,,100 luma
 Aruba,Aruban Guilder,AWG,533,Af.,100 cents
 Australia,Australian Dollar,AUD,36,A$,100 cents
-Austria,Euro,EUR,978,Ђ,100 euro-cents
+Austria,Euro,EUR,978,,100 euro-cents
 Azerbaijan,Azerbaijanian Manat,AZM,31,,100 gopik
 Bahamas,Bahamian Dollar,BSD,44,B$,100 cents
 Bahrain,Bahraini Dinar,BHD,48,BD,1000 fils
 Bangladesh,Taka,BDT,50,Tk,100 paisa (poisha)
 Barbados,Barbados Dollar,BBD,52,Bds$,100 cents
 Belarus,Belarussian Ruble,BYR,974,BR,
-Belgium,Euro,EUR,978,Ђ,100 euro-cents
+Belgium,Euro,EUR,978,,100 euro-cents
 Belize,Belize Dollar,BZD,84,BZ$,100 cents
 Benin,CFA Franc BCEAO,XOF,952,CFAF,100 centimes
 Bermuda,Bermudian Dollar,BMD,60,Bd$,100 cents
@@ -27,9 +27,9 @@ Bhutan,Ngultrum,BTN,64,Nu,100 chetrum
 Bhutan (other),Indian Rupee,INR,356,Rs,100 paise
 Bosnia and Herzegovina,Convertible Marks,BAM,977,KM,100 fennig
 Botswana,Pula,BWP,72,P,100 thebe
-Bouvet Island,Norwegian Krone,NOK,578,NKr,100 шre
+Bouvet Island,Norwegian Krone,NOK,578,NKr,100 øre
 Brazil,Brazilian Real,BRL,986,R$,100 centavos
-British Indian Ocean Territory,Pound Sterling,GBP,826,Ј,100 pence
+British Indian Ocean Territory,Pound Sterling,GBP,826,£,100 pence
 British Indian Ocean Territory (other),US Dollar,USD,840,$,100 cents
 Brunei Darussalam,Brunei Dollar,BND,96,B$,100 sen (a.k.a. 100 cents)
 Bulgaria,Lev,BGL,100,Lv,100 stotinki

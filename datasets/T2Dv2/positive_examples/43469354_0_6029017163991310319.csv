@@ -16,7 +16,7 @@ World rank,City,Country,City population,Metro population,Mayor
 15,TOKYO,Japan,"8,653,000","31,036,000",Shintaro Ishihara
 16,TEHRAN,Iran,"8,430,000","13,450,000",Mohammad Bagher Ghalibaf
 17,New York City,USA,"8,364,000","20,090,000",Michael Bloomberg
-18,KINSHASA,Congo D.R.,"8,200,000","10,100,000",Andrй Kimbuta Yango
+18,KINSHASA,Congo D.R.,"8,200,000","10,100,000",André Kimbuta Yango
 19,DHAKA,Bangladesh,"7,940,000","12,797,000",Sadeque Hossain Khosa
 20,Lagos,Nigeria,"7,938,000","9,123,000",n/k
 21,CAIRO,Egypt,"7,764,000","15,546,000",Abdul Azim Wazir
@@ -39,7 +39,7 @@ World rank,City,Country,City population,Metro population,Mayor
 38,Chongqing,China,"5,087,000","9,700,000",Huang Qifan
 39,SINGAPORE,Singapore,"4,988,000",,Lee Hsien Loong
 40,RIYADH,Saudi Arabia,"4,950,000","5,855,000",Abdul Aziz ibn 'Ayyaf Al Migrin
-41,LUANDA,Angola,"4,799,000","5,500,000",Josй Maria Ferraz dos Santos
+41,LUANDA,Angola,"4,799,000","5,500,000",José Maria Ferraz dos Santos
 42,Harbin,China,"4,755,000","9,874,000",Zhang Xiaolian
 43,St Petersburg,Russia,"4,661,000","4,900,000",Valentina Matviyenko
 44,Chennai,India,"4,600,000","7,330,000",M Subramaniam
@@ -54,8 +54,8 @@ World rank,City,Country,City population,Metro population,Mayor
 53,Johannesburg,South Africa,"3,888,000","10,268,000",Amos Masondo
 54,Jeddah,Saudi Arabia,"3,856,000","4,500,000",Adil Faqeeh
 55,Los Angeles,USA,"3,834,000","12,890,000",Antonio Villaraigosa
-56,Abidjan,Ivory Coast,"3,800,000","4,000,000",Pierre Djйdji Amondji
-57,ANKARA,Turkey,"3,764,000","4,000,000",Melih Gцkзek
+56,Abidjan,Ivory Coast,"3,800,000","4,000,000",Pierre Djédji Amondji
+57,ANKARA,Turkey,"3,764,000","4,000,000",Melih Gökçek
 58,Casablanca,Morocco,"3,673,000","3,850,000",Mohammed Sajid
 59,Yokohama,Japan,"3,655,000",,Fumiko Hayashi
 60,Hyderabad,India,"3,637,000","6,290,000",Banda Karthika Reddy
@@ -71,13 +71,13 @@ World rank,City,Country,City population,Metro population,Mayor
 70,ADDIS ABABA,Ethiopia,"3,385,000","4,568,000",Kuma Demeksa
 71,Pune,India,"3,337,000","4,470,000",Mohansingh Rajpal
 72,PYONGYANG,North Korea,"3,255,000","3,400,000",n/k
-73,MADRID,Spain,"3,213,000","5,300,000",Alberto Ruiz-Gallardуn
+73,MADRID,Spain,"3,213,000","5,300,000",Alberto Ruiz-Gallardón
 74,NAIROBI,Kenya,"3,130,000","3,300,000",Geoffrey Majiwa
 75,Kanpur,India,"3,100,000","4,865,000",Ravindra Patani
 76,Kunming,China,"3,100,000","6,800,000",Zhang Zulin
 77,Surabaya,Indonesia,"3,100,000","3,700,000",Bambang D H
 78,Jaipur,India,"3,050,000","5,690,000",Jyoti Khandelwal
-79,Salvador da Bahia,Brazil,"2,998,000","3,173,000",Joгo Henrique Carneiro
+79,Salvador da Bahia,Brazil,"2,998,000","3,173,000",João Henrique Carneiro
 80,SANTO DOMINGO,Dominican Republic,"2,989,000","3,813,000",Roberto Salcedo
 81,Mashhad,Iran,"2,910,000","3,000,000",Mohammad Pejman
 82,Chicago,USA,"2,853,000","8,770,000",Rahm Emanuel
@@ -114,7 +114,7 @@ World rank,City,Country,City population,Metro population,Mayor
 113,Chaoyang,China,"2,471,000",,Zhang Tiemin
 114,Belo Horizonte,Brazil,"2,453,000","5,397,000",Marcio Lacerda
 115,Nanning,China,"2,450,000","6,480,000",Huang Fangfang
-116,HAVANA,Cuba,"2,430,000","3,700,000",Juan Contino Aslбn
+116,HAVANA,Cuba,"2,430,000","3,700,000",Juan Contino Aslán
 117,Nagpur,India,"2,420,000",,Archana Dehankar
 118,Omdurman,Sudan,"2,400,000",,Al-Fatih Az-ddin
 119,Suzhou,China,"2,383,000","6,298,000",Yan Li
@@ -131,8 +131,8 @@ World rank,City,Country,City population,Metro population,Mayor
 130,Ningbo,China,"2,201,000","5,600,000",Mao Guanglie
 131,Guayaquil,Ecuador,"2,196,000","2,686,000",Jaime Nebot
 132,TASHKENT,Uzbekistan,"2,180,000","3,400,000",Abdukahar Tuhtayev
-133,PARIS,France,"2,113,000","11,769,000",Bertrand Delanoл
-134,BRASILIA,Brazil,"2,089,000","2,090,000",Josй Roberto Arruda
+133,PARIS,France,"2,113,000","11,769,000",Bertrand Delanoë
+134,BRASILIA,Brazil,"2,089,000","2,090,000",José Roberto Arruda
 135,Lanzhou,China,"2,088,000","3,300,000",Zhang Jinliang
 136,Changzhou,China,"2,086,000","3,570,000",Wang Weicheng
 137,Monterrey,Mexico,"2,057,000","3,650,000",Fernando Larrazabal

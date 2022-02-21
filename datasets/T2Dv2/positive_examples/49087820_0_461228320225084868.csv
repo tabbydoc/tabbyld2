@@ -2,13 +2,13 @@ Country,Currency,Alphabetic code,Numeric code,Symbol,Subdivision
 Gabon,CFA Franc BEAC,XAF,950,CFAF,100 centimes
 Gambia,Dalasi,GMD,270,D,100 butut
 Georgia,Lari,GEL,981,,100 tetri
-Germany,Euro,EUR,978,Ђ,100 euro-cents
-Ghana,Cedi,GHC,288,ў,100 psewas
-Gibraltar,Gibraltar Pound,GIP,292,ЈG,100 pence
-Greece,Euro,EUR,978,Ђ,100 euro-cents
-Greenland,Danish Krone,DKK,208,Dkr,100 шre
+Germany,Euro,EUR,978,,100 euro-cents
+Ghana,Cedi,GHC,288,¢,100 psewas
+Gibraltar,Gibraltar Pound,GIP,292,£G,100 pence
+Greece,Euro,EUR,978,,100 euro-cents
+Greenland,Danish Krone,DKK,208,Dkr,100 øre
 Grenada,East Caribbean Dollar,XCD,951,EC$,100 cents
-Guadeloupe,Euro,EUR,978,Ђ,100 euro-cents
+Guadeloupe,Euro,EUR,978,,100 euro-cents
 Guam,US Dollar,USD,840,$,100 cents
 Guatemala,Quetzal,GTQ,320,Q,100 centavos
 Guinea,Guinea Franc,GNF,324,,
@@ -26,12 +26,12 @@ Indonesia,Rupiah,IDR,360,Rp,100 sen (no longer used)
 International Monetary Fund (Imf),SDR,XDR,960,SDR,
 Iran (Islamic Republic Of),Iranian Rial,IRR,364,Rls,10 rials = 1 toman
 Iraq,Iraqi Dinar,IQD,368,ID,"1,000 fils"
-Ireland,Euro,EUR,978,Ђ,100 euro-cents
+Ireland,Euro,EUR,978,,100 euro-cents
 Israel,New Israeli Sheqel,ILS,376,NIS,100 new agorot
-Italy,Euro,EUR,978,Ђ,100 euro-cents
+Italy,Euro,EUR,978,,100 euro-cents
 Jamaica,Jamaican Dollar,JMD,388,J$,100 cents
-Japan,Yen,JPY,392,Ґ,100 sen (not used)
-Jersey,Pound Sterling,GBP,826,Ј,100 pence
+Japan,Yen,JPY,392,¥,100 sen (not used)
+Jersey,Pound Sterling,GBP,826,£,100 pence
 Jordan,Jordanian Dinar,JOD,400,JD,"1,000 fils"
 Kazakhstan,Tenge,KZT,398,,100 tiyn
 Kenya,Kenyan Shilling,KES,404,K Sh,100 cents

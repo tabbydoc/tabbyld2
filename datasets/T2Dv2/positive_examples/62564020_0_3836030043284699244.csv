@@ -47,7 +47,7 @@ Giraffe,bull,doe,calf,"herd, corps, tower, group",
 Gnat,male,female,larva,"cloud, horde",
 Gnu,bull,cow,calf,herd,
 Goat,"buck, billy","doe, nanny","kid, billy","herd, tribe, trip",hirsine
-Goose,gander,goose,gosling,"flock, gaggle, skein (only while in flight), wedge (flying in a ""V"" formation)",
+Goose,gander,goose,gosling,"flock, gaggle, skein (only while in flight), wedge (flying in a 'V' formation)",
 Gorilla,male,female,infant,band,
 Grasshopper,male,female,nymph,swarm,
 Guinea pig,boar,sow,pup,group,
@@ -118,7 +118,7 @@ Snake,male,female,"Snakelet, neonate (a newly-born snake), hatchling (a newly-ha
 Spider,male,female,spiderling,-,
 Squirrel,buck,doe,"pup, kit, kitten",dray,
 Swallow,-,-,-,flight,
-Swan,cob,pen,"cygnet, flapper","bevy, game, herd, team, wedge (flying in a ""V"" formation)",
+Swan,cob,pen,"cygnet, flapper","bevy, game, herd, team, wedge (flying in a 'V' formation)",
 Termite,male,female,larva,"swarm (while flying), colony",
 Tiger,tiger,tigress,"cub, whelp","ambush, streak",feline
 Toad,male,female,tadpole,knot,

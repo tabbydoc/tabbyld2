@@ -10,27 +10,27 @@ n/r,ASMARA,Eritrea,"392,000","881,000",n/k
 n/r,TALLINN,Estonia,"407,000",,Edgar Savisaar
 70,ADDIS ABABA,Ethiopia,"3,385,000","4,568,000",Kuma Demeksa
 577,HELSINKI,Finland,"583,000","1,311,000",Jussi Pajunen
-133,PARIS,France,"2,113,000","11,769,000",Bertrand Delanoл
+133,PARIS,France,"2,113,000","11,769,000",Bertrand Delanoë
 464,Marseille,France,"852,000","1,605,000",Jean-Claude Gaudin
-n/r,Lyon,France,"472,000","1,665,000",Gйrard Collomb
+n/r,Lyon,France,"472,000","1,665,000",Gérard Collomb
 n/r,Toulouse,France,"438,000","851,000",Pierre Cohen
 n/r,Nice,France,"347,000","943,000",Christian Estrosi
 n/r,Nantes,France,"283,000","804,000",Jean-Marc Ayrault
 n/r,Strasbourg,France,"273,000","639,000",Roland Rie
-n/r,Montpellier,France,"252,000",,Hйlиne Mandroux-Colas
-n/r,Bordeaux,France,"250,000","1,010,000",Alain Juppй
+n/r,Montpellier,France,"252,000",,Hélène Mandroux-Colas
+n/r,Bordeaux,France,"250,000","1,010,000",Alain Juppé
 n/r,Lille,France,"226,000","1,143,000",Martine Aubry
 n/r,Rennes,France,"206,000",,Daniel Delaveau
 221,TBILISI,Georgia,"1,490,000","1,550,000",Giorgi Ugulava
 68,BERLIN,Germany,"3,432,000","3,943,000",Klaus Wowereit
 166,Hamburg,Germany,"1,775,000","3,260,000",Olaf Scholz
 271,Munich,Germany,"1,367,000","2,600,000",Christian Ude
-414,Cologne,Germany,"995,000","11,297,000",Jьrgen Roters
+414,Cologne,Germany,"995,000","11,297,000",Jürgen Roters
 557,Frankfurt,Germany,"665,000","2,717,000",Petra Roth
 570,Stuttgart,Germany,"600,000","2,330,000",Wolfgang Schuster
 573,Dortmund,Germany,"584,000",,Ullrich Sierau
-579,Essen,Germany,"580,000",,Reinhard PaЯ
-590,Bremen,Germany,"547,000","1,009,000",Jens Bцhrnsen
+579,Essen,Germany,"580,000",,Reinhard Paß
+590,Bremen,Germany,"547,000","1,009,000",Jens Böhrnsen
 n/r,Hannover,Germany,"520,000","1,130,000",Stephan Weil
 n/r,Leipzig,Germany,"515,000","1,417,000",Burkhard Jung
 n/r,Dresden,Germany,"512,000","1,030,000",Helma Orosz
@@ -40,8 +40,8 @@ n/r,Wuppertal,Germany,"353,000",,Peter Jung
 n/r,Bielefeld,Germany,"324,000","1,420,000",Peter Clausen
 n/r,Mannheim,Germany,"311,000","1,456,000",Peter Kurz
 n/r,Karlsruhe,Germany,"291,000",,Heinz Fenrich
-n/r,Wiesbaden,Germany,"277,000",,Helmut Mьller
-n/r,Mьnster,Germany,"274,000",,Markus Lewe
+n/r,Wiesbaden,Germany,"277,000",,Helmut Müller
+n/r,Münster,Germany,"274,000",,Markus Lewe
 n/r,Augsburg,Germany,"263,000",,Kurt Gribl
 n/r,Gelsenkirchen,Germany,"262,000",,Frank Baranowski
 n/r,Aachen,Germany,"259,000","1,240,000",Marcel Philipp
@@ -49,21 +49,21 @@ n/r,Braunschweig,Germany,"246,000",,Gert Hoffmann
 n/r,Chemnitz,Germany,"243,000","1,082,000",Barbara Ludwig
 n/r,Krefeld,Germany,"236,000",,Gregor Kathstede
 n/r,Halle,Germany,"233,000",,Dagmar Szabados
-n/r,Magdeburg,Germany,"230,000",,Lutz Trьmper
+n/r,Magdeburg,Germany,"230,000",,Lutz Trümper
 n/r,Freiburg,Germany,"220,000",,Dieter Salomon
 n/r,Oberhausen,Germany,"216,000",,Klaus Wehling
-n/r,Lьbeck,Germany,"211,000",,Bernd Saxe
+n/r,Lübeck,Germany,"211,000",,Bernd Saxe
 n/r,Erfurt,Germany,"203,000",,Andreas Bausewein
 n/r,Rostock,Germany,"201,000",,Roland Methling
 192,ACCRA,Ghana,"1,605,000","2,756,000",Alfred Vanderpuije
 216,Kumasi,Ghana,"1,500,000","2,500,000",Samuel Sarpong
 518,ATHENS,Greece,"757,000","3,216,000",Giorgos Kaminis
 n/r,Thessaloniki,Greece,"407,000","798,000",Vasilis Papageorgopoulos
-372,GUATEMALA CITY,Guatemala,"1,090,000","2,564,000",Alvaro Arzъ
+372,GUATEMALA CITY,Guatemala,"1,090,000","2,564,000",Alvaro Arzú
 145,CONAKRY,Guinea,"1,931,000",,Mamadou Wasco Camara
 376,PORT-AU-PRINCE,Haiti,"1,083,000","1,728,000",Jean Yves Jason
 326,Tegucigalpa,Honduras,"1,200,000","1,324,000",Ricardo Alvarez
-175,BUDAPEST,Hungary,"1,712,000","2,503,000",Istvбn Tarlуs
+175,BUDAPEST,Hungary,"1,712,000","2,503,000",István Tarlós
 3,Mumbai (Bombay),India,"13,900,000","21,200,000",Shraddha Jadhav
 5,DELHI,India,"12,100,000","16,713,000",Kanwar Sain
 33,Bangalore,India,"5,840,000","6,562,000",SK Nataraj
@@ -166,7 +166,7 @@ n/r,Haifa,Israel,"276,000","975,000",Yona Yahav
 546,Palermo,Italy,"684,000","947,000",Diego Cammarata
 n/r,Florence,Italy,"375,000","825,000",Matteo Renzi
 n/r,Catania,Italy,"337,000","831,000",n/k
-56,Abidjan,Ivory Coast,"3,800,000","4,000,000",Pierre Djйdji Amondji
+56,Abidjan,Ivory Coast,"3,800,000","4,000,000",Pierre Djédji Amondji
 n/r,Bouakt,Ivory Coast,"531,000","775,000",n/k
 562,KINGSTON,Jamaica,"650,000","925,000",n/k
 15,TOKYO,Japan,"8,653,000","31,036,000",Shintaro Ishihara

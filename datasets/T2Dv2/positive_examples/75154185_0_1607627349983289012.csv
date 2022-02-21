@@ -1,12 +1,12 @@
 World rank,City,Country,City population,Metro population,Mayor
 n/r,Aachen,Germany,"259,000","1,240,000",Marcel Philipp
-56,Abidjan,Ivory Coast,"3,800,000","4,000,000",Pierre Djйdji Amondji
+56,Abidjan,Ivory Coast,"3,800,000","4,000,000",Pierre Djédji Amondji
 451,ABU DHABI,UAE,"897,000",,Khalifa bin Zayed Al Nahyan
 509,ABUJA,Nigeria,"779,000","900,000",Muhammad Adamu Aliero
-529,Acapulco,Mexico,"718,000","880,000",Manuel Aсorve Bolaсos
+529,Acapulco,Mexico,"718,000","880,000",Manuel Añorve Bolaños
 192,ACCRA,Ghana,"1,605,000","2,756,000",Alfred Vanderpuije
 484,Ad-Dammam,Saudi Arabia,"813,000","2,051,000",Dhaifallah al-'Utaybi
-340,Adana,Turkey,"1,162,000","1,556,000",Aytaз Durak
+340,Adana,Turkey,"1,162,000","1,556,000",Aytaç Durak
 70,ADDIS ABABA,Ethiopia,"3,385,000","4,568,000",Kuma Demeksa
 296,Adelaide,Australia,"1,290,000",,Stephen Yarwood
 184,Agra,India,"1,650,000","1,800,000",Anjula Singh Mahaur
@@ -26,13 +26,13 @@ n/r,Albany,USA,"96,000","1,100,000",Gerald Jennings
 329,Amritsar,India,"1,195,000","1,300,000",Shawet Malik
 515,AMSTERDAM,Netherlands,"762,000","1,536,000",Eberhard van der Laan
 521,Ankang,China,"743,000",,n/k
-57,ANKARA,Turkey,"3,764,000","4,000,000",Melih Gцkзek
+57,ANKARA,Turkey,"3,764,000","4,000,000",Melih Gökçek
 322,Anqiu,China,"1,200,000",,n/k
 297,Anshan,China,"1,290,000","2,404,000",n/k
 447,ANTANANARIVO,Madagascar,"903,000","1,403,000",n/k
 n/r,Antwerp,Belgium,"444,000","948,000",Patrick Janssens
 233,Anyang,China,"1,450,000","3,000,000",Zhang Xiaodong
-443,Arequipa,Peru,"905,000",,Simуn Balbuena Marroquнn
+443,Arequipa,Peru,"905,000",,Simón Balbuena Marroquín
 n/r,ASMARA,Eritrea,"392,000","881,000",n/k
 496,ASTANA,Kazakhstan,"803,000",,Imangali Tasmagambetov
 592,ASUNCION,Paraguay,"546,000","1,433,000",Evangelista Troche de Gallegos
@@ -45,7 +45,7 @@ n/r,Augsburg,Germany,"263,000",,Kurt Gribl
 32,Baghdad,Iraq,"6,050,000","6,500,000",Sabir al-Issawi
 138,BAKU,Azerbaijan,"2,040,000","2,072,000",Hajibala Abutalybov
 556,Baltimore,USA,"667,000","2,670,000",Stephanie C. Rawlings-Blake
-158,BAMAKO,Mali,"1,809,000",,Adama B. Sangarй
+158,BAMAKO,Mali,"1,809,000",,Adama B. Sangaré
 522,Bandar Lampung,Indonesia,"743,000","1,123,000",n/k
 106,Bandung,Indonesia,"2,510,000","3,829,000",Dada Rosada
 33,Bangalore,India,"5,840,000","6,562,000",SK Nataraj
@@ -75,28 +75,28 @@ n/r,Augsburg,Germany,"263,000",,Kurt Gribl
 559,Bhubaneswar,India,"659,000","1,455,000",n/k
 n/r,Bielefeld,Germany,"324,000","1,420,000",Peter Clausen
 353,Bijie,China,"1,130,000","7,188,000",n/k
-n/r,Bilbao,Spain,"351,000","879,000",Iсzki Azkuna
+n/r,Bilbao,Spain,"351,000","879,000",Iñzki Azkuna
 401,Birmingham,UK,"1,017,000","2,284,000",Mike Whitby
 n/r,Birmingham,USA,"245,000","1,200,000",William A. Bell
 513,BISHKEK,Kyrgyzstan,"765,000","800,000",Nariman Tuleyev
 460,Bogor,Indonesia,"866,000",,Diani Budiarto
 25,BOGOTA,Colombia,"7,320,000","8,361,000",Samuel Moreno Rojas
-n/r,Bordeaux,France,"250,000","1,010,000",Alain Juppй
+n/r,Bordeaux,France,"250,000","1,010,000",Alain Juppé
 566,Boston,USA,"621,000","4,033,000",Thomas Menino
 n/r,Bouakt,Ivory Coast,"531,000","775,000",n/k
 275,Bozhou,China,"1,352,000",,Liu Jian
-134,BRASILIA,Brazil,"2,089,000","2,090,000",Josй Roberto Arruda
-n/r,BRATISLAVA,Slovak Republic,"431,000","550,000",Milan Ftбcnik
+134,BRASILIA,Brazil,"2,089,000","2,090,000",José Roberto Arruda
+n/r,BRATISLAVA,Slovak Republic,"431,000","550,000",Milan Ftácnik
 n/r,Braunschweig,Germany,"246,000",,Gert Hoffmann
 352,BRAZZAVILLE,Congo Br,"1,133,000","1,134,000",n/k
-590,Bremen,Germany,"547,000","1,009,000",Jens Bцhrnsen
+590,Bremen,Germany,"547,000","1,009,000",Jens Böhrnsen
 204,Brisbane,Australia,"1,544,000","1,544,000",Campbell Newman
 n/r,Bruges,Belgium,"117,000",,Patrick Moenaert
 427,BRUSSELS,Belgium,"958,000","1,740,000",Freddy Thielemans
 595,Bucaramanga,Colombia,"542,000","956,000",n/k
 140,BUCHAREST,Romania,"1,994,000","2,151,000",Sorin Oprescu
 465,Bucheon,South Korea,"850,000","850,000",n/k
-175,BUDAPEST,Hungary,"1,712,000","2,503,000",Istvбn Tarlуs
+175,BUDAPEST,Hungary,"1,712,000","2,503,000",István Tarlós
 6,BUENOS AIRES,Argentina,"11,655,000","12,924,000",Mauricio Macri
 n/r,Buffalo,USA,"296,000","1,572,000",Byron Brown
 553,Bulawayo,Zimbabwe,"676,000","676,000",Thaba Moyo
@@ -106,7 +106,7 @@ n/r,Buffalo,USA,"296,000","1,572,000",Byron Brown
 416,Calgary,Canada,"988,000","1,080,000",Naheed Nenshi
 104,Cali,Colombia,"2,525,000","2,801,000",Jorge Ivan Ospina
 267,Caloocan,Philippines,"1,379,000",,Enrico Echiverri
-386,Campinas,Brazil,"1,059,000","3,200,000",Hйlio de Oliveira Santos
+386,Campinas,Brazil,"1,059,000","3,200,000",Hélio de Oliveira Santos
 66,Cape Town,South Africa,"3,497,000","7,280,000",Patricia de Lille
 87,CARACAS,Venezuela,"2,762,000","3,478,000",Antonio Ledezma
 452,Cartagena,Colombia,"893,000","1,240,000",Judith Pinedo
@@ -134,18 +134,18 @@ n/r,Chemnitz,Germany,"243,000","1,082,000",Barbara Ludwig
 38,Chongqing,China,"5,087,000","9,700,000",Huang Qifan
 n/r,Cincinnati,USA,"380,000","2,155,000",Mark L. Mallory
 n/r,Cirebon,Indonesia,"319,000","926,000",n/k
-431,Ciudad Guayana,Venezuela,"940,000","1,000,000",Josй Ramуn Lopйz
-255,Ciudad Juarez,Mexico,"1,400,000","2,010,000",Josй Reyes Ferriz
+431,Ciudad Guayana,Venezuela,"940,000","1,000,000",José Ramón Lopéz
+255,Ciudad Juarez,Mexico,"1,400,000","2,010,000",José Reyes Ferriz
 319,Cixi,China,"1,220,000",,n/k
 n/r,Cleveland,USA,"434,000","2,250,000",Frank G. Jackson
 568,Cochabamba,Bolivia,"608,000","798,000",n/k
 433,Coimbatore,India,"931,000","1,446,000",R.Venkatachalam
-414,Cologne,Germany,"995,000","11,297,000",Jьrgen Roters
-n/r,Colombo,Brazil,"247,000","2,160,000",Josй Antonio Camargo
+414,Cologne,Germany,"995,000","11,297,000",Jürgen Roters
+n/r,Colombo,Brazil,"247,000","2,160,000",José Antonio Camargo
 561,COLOMBO,Sri Lanka,"650,000","2,400,000",Uvais Mohamed Imitiyas
 531,Columbus,USA,"714,000","1,540,000",Michael B Coleman
 145,CONAKRY,Guinea,"1,931,000",,Mamadou Wasco Camara
-n/r,Concepciуn,Chile,"404,000","978,000",Jacqueline van Rysselberghe
+n/r,Concepción,Chile,"404,000","978,000",Jacqueline van Rysselberghe
 369,COPENHAGEN,Denmark,"1,096,000","1,096,000",Frank Jensen
 288,Cordoba,Argentina,"1,310,000","1,528,000",Daniel Giacomino
 582,Culiacan,Mexico,"567,000","766,000",n/k
@@ -181,7 +181,7 @@ n/r,Dresden,Germany,"512,000","1,030,000",Helma Orosz
 374,Dubai,UAE,"1,089,000","2,100,000",n/k
 n/r,Dublin,Ireland,"506,000","1,661,000",Emer Costello
 n/r,Duisburg,Germany,"494,000",,Adolf Sauerland
-462,Duque de Caxias,Brazil,"864,000","1,000,000",Josй Camilo Zito dos Santos Filho
+462,Duque de Caxias,Brazil,"864,000","1,000,000",José Camilo Zito dos Santos Filho
 554,Durban,South Africa,"670,000","3,468,000",Obed Mlama
 85,Durg,India,"2,810,000",,Dr Shiv Kumar Tamer
 550,DUSHANBE,Tajikistan,"680,000","810,000",Mahmadsaid Ubaydulloyev

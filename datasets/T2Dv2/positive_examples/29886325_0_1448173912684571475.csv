@@ -2,21 +2,21 @@ World rank,City,Country,City population,Metro population,Mayor
 64,KABUL,Afghanistan,"3,586,000","4,000,000",Mohammad Yunus Noandesh
 211,ALGIERS,Algeria,"1,520,000","3,354,000",Tayeb Zitouni
 547,Oran,Algeria,"683,000","772,000",Saddek Benkada
-41,LUANDA,Angola,"4,799,000","5,500,000",Josй Maria Ferraz dos Santos
+41,LUANDA,Angola,"4,799,000","5,500,000",José Maria Ferraz dos Santos
 6,BUENOS AIRES,Argentina,"11,655,000","12,924,000",Mauricio Macri
 288,Cordoba,Argentina,"1,310,000","1,528,000",Daniel Giacomino
 307,La Matanza,Argentina,"1,255,000",,n/k
 343,Rosario,Argentina,"1,160,000","1,358,000",Miguel Lifschitz
 535,La Plata,Argentina,"710,000","833,000",Pablo Bruera
 n/r,Tucuman,Argentina,"528,000","830,000",Domingo Amaya
-n/r,Mendoza,Argentina,"113,000","849,000",Vнctor Fayad
+n/r,Mendoza,Argentina,"113,000","849,000",Víctor Fayad
 365,YEREVAN,Armenia,"1,108,000","1,246,000",Gagik Beglaryan
 48,Sydney,Australia,"4,400,000",,Clover Moore
 61,Melbourne,Australia,"3,635,000","3,3635,000",Robert Doyle
 193,Perth,Australia,"1,603,000",,Lisa Scaffidi
 204,Brisbane,Australia,"1,544,000","1,544,000",Campbell Newman
 296,Adelaide,Australia,"1,290,000",,Stephen Yarwood
-180,VIENNA,Austria,"1,681,000","2,269,000",Michael Hдupl
+180,VIENNA,Austria,"1,681,000","2,269,000",Michael Häupl
 138,BAKU,Azerbaijan,"2,040,000","2,072,000",Hajibala Abutalybov
 19,DHAKA,Bangladesh,"7,940,000","12,797,000",Sadeque Hossain Khosa
 100,Chittagong,Bangladesh,"2,580,000","3,858,000",Mohammed Manjur Alam
@@ -24,54 +24,54 @@ n/r,Mendoza,Argentina,"113,000","849,000",Vнctor Fayad
 155,MINSK,Belarus,"1,831,000",,Nikolai Ladutko
 427,BRUSSELS,Belgium,"958,000","1,740,000",Freddy Thielemans
 n/r,Antwerp,Belgium,"444,000","948,000",Patrick Janssens
-n/r,Gent,Belgium,"233,000",,Daniлl Termont
+n/r,Gent,Belgium,"233,000",,Daniël Termont
 n/r,Bruges,Belgium,"117,000",,Patrick Moenaert
 196,Santa Cruz,Bolivia,"1,595,000","1,863,000",Percy Fernandez
 212,LA PAZ,Bolivia,"1,517,000","1,551,000",Luis Antonio Revilla Herrero
 568,Cochabamba,Bolivia,"608,000","798,000",n/k
 9,Sao Paulo,Brazil,"11,038,000","19,890,000",Gilberto Kassab
 31,Rio de Janeiro,Brazil,"6,093,000","14,387,000",Eduardo Paes
-79,Salvador da Bahia,Brazil,"2,998,000","3,173,000",Joгo Henrique Carneiro
+79,Salvador da Bahia,Brazil,"2,998,000","3,173,000",João Henrique Carneiro
 108,Fortaleza,Brazil,"2,506,000","3,415,000",Luizianne Lins
 114,Belo Horizonte,Brazil,"2,453,000","5,397,000",Marcio Lacerda
-134,BRASILIA,Brazil,"2,089,000","2,090,000",Josй Roberto Arruda
+134,BRASILIA,Brazil,"2,089,000","2,090,000",José Roberto Arruda
 153,Curitiba,Brazil,"1,851,000","3,261,000",Carlos Richa
 173,Manaus,Brazil,"1,739,000","1,924,000",Amazonino Mendes
-200,Recife,Brazil,"1,561,000","3,769,000",Joгo da Costa Bezerra Filho
+200,Recife,Brazil,"1,561,000","3,769,000",João da Costa Bezerra Filho
 251,Belem,Brazil,"1,409,000","1,913,000",Duciomar Costa
-273,Porto Alegre,Brazil,"1,355,000","3,646,000",Josй Fortunati
-300,Guarulhos,Brazil,"1,283,000","1,500,000",Sebastiгo Moreira
-301,Goiania,Brazil,"1,282,000","2,064,000",Нris Rezende Machado
-386,Campinas,Brazil,"1,059,000","3,200,000",Hйlio de Oliveira Santos
-417,Sao Luis,Brazil,"987,000","1,228,000",Joгo Castelo
+273,Porto Alegre,Brazil,"1,355,000","3,646,000",José Fortunati
+300,Guarulhos,Brazil,"1,283,000","1,500,000",Sebastião Moreira
+301,Goiania,Brazil,"1,282,000","2,064,000",Íris Rezende Machado
+386,Campinas,Brazil,"1,059,000","3,200,000",Hélio de Oliveira Santos
+417,Sao Luis,Brazil,"987,000","1,228,000",João Castelo
 419,Sao Goncalo,Brazil,"973,000","1.221,000",n/k
-437,Maceio,Brazil,"922,000","1,100,000",Josй Cнcero Soares de Almeida
+437,Maceio,Brazil,"922,000","1,100,000",José Cícero Soares de Almeida
 453,Teresina,Brazil,"893,000","949,000",Silvio Mendes
-462,Duque de Caxias,Brazil,"864,000","1,000,000",Josй Camilo Zito dos Santos Filho
+462,Duque de Caxias,Brazil,"864,000","1,000,000",José Camilo Zito dos Santos Filho
 469,Nova Iguacu,Brazil,"846,000","959,000",Lindberg Farias
 503,Natal,Brazil,"790,000","1,100,000",n/k
 507,Sao Bernardo do Campo,Brazil,"783,000",,Luiz Marinho
 538,Joao Pessoa,Brazil,"702,000","984,000",Ricardo Coutinho
 567,Sao Jose dos Campos,Brazil,"611,000","794,000",Eduardo Cury
-591,Ribeirao Preto,Brazil,"547,000","789,000",Dбrcy Vera
-n/r,Santos,Brazil,"418,000","1,477,000",Joгo Paulo Tavares Papa
-n/r,Vitoria,Brazil,"313,000","1,628,000",Joгo Carlos Coser
-n/r,Colombo,Brazil,"247,000","2,160,000",Josй Antonio Camargo
+591,Ribeirao Preto,Brazil,"547,000","789,000",Dárcy Vera
+n/r,Santos,Brazil,"418,000","1,477,000",João Paulo Tavares Papa
+n/r,Vitoria,Brazil,"313,000","1,628,000",João Carlos Coser
+n/r,Colombo,Brazil,"247,000","2,160,000",José Antonio Camargo
 252,SOFIA,Bulgaria,"1,403,000","1,455,000",Yordanka Fandukova
-225,OUAGADOUGOU,Burkina Faso,"1,475,000","1,727,000",Simon Compaorй
+225,OUAGADOUGOU,Burkina Faso,"1,475,000","1,727,000",Simon Compaoré
 314,PHNOM PENH,Cambodia,"1,242,000","2,001,000",Keb Chutema
-242,YAOUNDЙ,Cameroon,"1,430,000","1,550,000",n/k
+242,YAOUNDÉ,Cameroon,"1,430,000","1,550,000",n/k
 263,Douala,Cameroon,"1,382,000","2,000,000",n/k
 101,Toronto,Canada,"2,571,000","5,100,000",Rob Ford
-189,Montreal,Canada,"1,621,000","3,636,000",Gйrald Tremblay
+189,Montreal,Canada,"1,621,000","3,636,000",Gérald Tremblay
 416,Calgary,Canada,"988,000","1,080,000",Naheed Nenshi
 483,OTTAWA,Canada,"815,000","1,131,000",Larry O'Brien
 526,Edmonton,Canada,"730,000","1,035,000",Stephen Mandel
 580,Vancouver,Canada,"580,000","2,120,000",Gregor Robertson
-n/r,Quйbec,Canada,"495,000","717,000",Rйgis Labeaume
+n/r,Québec,Canada,"495,000","717,000",Régis Labeaume
 560,BANGUI,Central African Republic,"652,000","789,000",n/k
 35,SANTIAGO,Chile,"5,278,000","6,677,000",Pablo Zalaquett Said
-n/r,Concepciуn,Chile,"404,000","978,000",Jacqueline van Rysselberghe
+n/r,Concepción,Chile,"404,000","978,000",Jacqueline van Rysselberghe
 n/r,Valparaiso,Chile,"301,000","904,000",Aldo Cornej
 2,Shanghai,China,"14,900,000","19,200,000",Han Zheng
 4,BEIJING,China,"12,460,000","17,550,000",Guo Jinlong
@@ -200,7 +200,7 @@ n/r,Valparaiso,Chile,"301,000","904,000",Aldo Cornej
 390,Beiliu,China,"1,050,000",,n/k
 391,Gongzhuling,China,"1,050,000",,n/k
 392,Changshu,China,"1,048,000",,Wang Xiang
-399,Fuzhou (Jiangxi),China,"1,020,000","3,700,000",Xмe Yмs®•
+399,Fuzhou (Jiangxi),China,"1,020,000","3,700,000",Xìe Yìs®
 400,Yichun,China,"1,020,000","958,000",Gong Jianhua
 402,Mudanjiang,China,"1,014,000","2,707,000",n/k
 413,Baoding,China,"997,000",,n/k
@@ -241,14 +241,14 @@ n/r,Dongying,China,"294,000","804,000",n/k
 595,Bucaramanga,Colombia,"542,000","956,000",n/k
 352,BRAZZAVILLE,Congo Br,"1,133,000","1,134,000",n/k
 n/r,Pointe Noire,Congo Br,"527,000","789,000",n/k
-18,KINSHASA,Congo D.R.,"8,200,000","10,100,000",Andrй Kimbuta Yango
+18,KINSHASA,Congo D.R.,"8,200,000","10,100,000",André Kimbuta Yango
 347,Lubumbashi,Congo D.R.,"1,140,000","1,250,000",Moise Katumbi
 444,Mbuji-Mayi,Congo D.R.,"905,000","1,054,000",n/k
 497,Kolwezi,Congo D.R.,"803,000","803,000",n/k
 n/r,Kisangani,Congo D.R.,"510,000","818,000",n/k
 n/r,SAN JOSE,Costa Rica,"357,000","1,370,000",Johnny Araya
 495,ZAGREB,Croatia,"804,000","1,288,000",Milan Bandic
-116,HAVANA,Cuba,"2,430,000","3,700,000",Juan Contino Aslбn
+116,HAVANA,Cuba,"2,430,000","3,700,000",Juan Contino Aslán
 315,PRAGUE,Czech Republic,"1,242,000","1,900,000",Zdenek Tuma
 369,COPENHAGEN,Denmark,"1,096,000","1,096,000",Frank Jensen
 80,SANTO DOMINGO,Dominican Republic,"2,989,000","3,813,000",Roberto Salcedo

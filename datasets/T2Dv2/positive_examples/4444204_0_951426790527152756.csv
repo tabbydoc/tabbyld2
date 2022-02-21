@@ -2,24 +2,24 @@ World rank,City,Country,City population,Metro population,Mayor
 447,ANTANANARIVO,Madagascar,"903,000","1,403,000",n/k
 461,LILONGWE,Malawi,"866,000",,n/k
 157,KUALA LUMPUR,Malaysia,"1,810,000","5,470,000",Dato Ahmed Fuad Ismail
-158,BAMAKO,Mali,"1,809,000",,Adama B. Sangarй
+158,BAMAKO,Mali,"1,809,000",,Adama B. Sangaré
 14,MEXICO CITY,Mexico,"8,841,000","21,163,000",Marcelo Ebrard
 137,Monterrey,Mexico,"2,057,000","3,650,000",Fernando Larrazabal
 150,Puebla,Mexico,"1,888,000","2,500,000",Blanca Alcala Ruiz
-178,Ecatepec,Mexico,"1,688,000","1,690,000",Eruviel Бvila Villegas
+178,Ecatepec,Mexico,"1,688,000","1,690,000",Eruviel Ávila Villegas
 198,Guadalajara,Mexico,"1,580,000","3,600,000",Jorge Aristoteles Sandoval
 222,Tijuana,Mexico,"1,484,000","1,500,000",Carlos Bustamante
-255,Ciudad Juarez,Mexico,"1,400,000","2,010,000",Josй Reyes Ferriz
-345,Zapopan,Mexico,"1,155,000","1,200,000",Hector Vielma Ordoсez
-346,Nezahualcoyotl,Mexico,"1,141,000","1,150,000",Edgar Cesбreo Navarro Sбnchez
+255,Ciudad Juarez,Mexico,"1,400,000","2,010,000",José Reyes Ferriz
+345,Zapopan,Mexico,"1,155,000","1,200,000",Hector Vielma Ordoñez
+346,Nezahualcoyotl,Mexico,"1,141,000","1,150,000",Edgar Cesáreo Navarro Sánchez
 349,Leon,Mexico,"1,138,000","1,635,000",Ricardo Sheffield
 410,Torreon,Mexico,"1,001,000",,Eduardo Olmos Castro
 411,Mexicali,Mexico,"1,000,000","1,000,000",n/k
-478,Naucalpan,Mexico,"822,000","835,000",Azucena Olivares Villagуmez
-494,Santiago de Queretaro,Mexico,"805,000","1,085,000",Francisco Domнnguez Servien
+478,Naucalpan,Mexico,"822,000","835,000",Azucena Olivares Villagómez
+494,Santiago de Queretaro,Mexico,"805,000","1,085,000",Francisco Domínguez Servien
 505,Toluca,Mexico,"785,000","1,650,000",Maria Elena Barrera Tapia
-525,Merida,Mexico,"734,000","890,000",Cйsar Bojуrquez Zapata
-529,Acapulco,Mexico,"718,000","880,000",Manuel Aсorve Bolaсos
+525,Merida,Mexico,"734,000","890,000",César Bojórquez Zapata
+529,Acapulco,Mexico,"718,000","880,000",Manuel Añorve Bolaños
 540,Chihuahua,Mexico,"694,000","825,000",n/k
 544,San Luis Potosi,Mexico,"685,000","957,000",Jorge Lozano Armengol
 545,Tlalnepantla de Baz,Mexico,"685,000","800,000",Arturo Ugalde Meneses
@@ -34,7 +34,7 @@ n/r,Tampico,Mexico,"319,000","775,000",n/k
 405,Fes,Morocco,"1,009,000",,n/k
 432,Safi,Morocco,"933,000",,n/k
 438,Fez,Morocco,"921,000","921,000",n/k
-446,Salй,Morocco,"904,000",,n/k
+446,Salé,Morocco,"904,000",,n/k
 536,Tangier,Morocco,"710,000",,n/k
 564,RABAT,Morocco,"627,000","1,790,000",Omar El Bahraoui
 313,MAPUTO,Mozambique,"1,244,000","1,640,000",David Simango
@@ -75,7 +75,7 @@ n/r,Gaza,Palestine,"410,000","1,000,000",n/k
 467,PANAMA CITY,Panama,"850,000","1,220,000",Bosco Vallarino
 592,ASUNCION,Paraguay,"546,000","1,433,000",Evangelista Troche de Gallegos
 22,LIMA,Peru,"7,606,000","8,473,000",Susana Villaran
-443,Arequipa,Peru,"905,000",,Simуn Balbuena Marroquнn
+443,Arequipa,Peru,"905,000",,Simón Balbuena Marroquín
 7,MANILA METRO,Philippines,"11,550,000","13,503,000",Alfredo S Lim
 92,Quezon City,Philippines,"2,680,000",,Herbert M Bautis
 267,Caloocan,Philippines,"1,379,000",,Enrico Echiverri
@@ -86,7 +86,7 @@ n/r,Gaza,Palestine,"410,000","1,000,000",n/k
 519,Krakow,Poland,"755,000","1,250,000",Jacek Majchrowski
 n/r,Gdansk,Poland,"457,000","866,000",Pawel Adamowicz
 n/r,Katowice,Poland,"340,000","2,746,000",Piotr Uszok
-587,LISBON,Portugal,"558,000","2,612,000",Antуnio Costa
+587,LISBON,Portugal,"558,000","2,612,000",António Costa
 n/r,Porto,Portugal,"263,000","1,210,000",Rui Rio
 n/r,SAN JUAN,Puerto Rico,"442,000","2,500,000",Jorge A. Santini Padilla
 140,BUCHAREST,Romania,"1,994,000","2,151,000",Sorin Oprescu

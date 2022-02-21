@@ -1,25 +1,25 @@
-Province,Ville,Hфpital,Participation,Option*
+Province,Ville,Hôpital,Participation,Option*
 Colombie-Britannique,Vancouver,Vancouver General Hospital,Oui,3
 ,Vancouver,Richmond General Hospital,Oui,3
-,Vancouver,Lion’s Gate,Oui,3
+,Vancouver,Lions Gate,Oui,3
 ,Vancouver,Powell River,Oui,3
-,Vancouver,St. Mary’s Hospital,Oui,3
+,Vancouver,St. Marys Hospital,Oui,3
 ,Vancouver,Squamish Hospital,,3
 ,Vancouver,Victoria General,,3
 ,Vancouver,Royal Jubilee,,
-,Vancouver,Children’s and Women’s Health Center,,
+,Vancouver,Childrens and Womens Health Center,,
 Alberta,Calgary,Peter Lougheed,,
 ,Calgary,Rockyview General,,
 ,Calgary,Foothills Hospital,,
-,Calgary,Alberta Children’s Hospital,Oui,Pйd VEN†
+,Calgary,Alberta Childrens Hospital,Oui,Péd VEN
 ,Calgary,Rockyview Hospital,,
 ,Edmonton,University of Alberta Hospital,Oui,3
-,Edmonton,Stollery Children’s Hospital,Oui,Pйd VEN†
+,Edmonton,Stollery Childrens Hospital,Oui,Péd VEN
 Saskatchewan,Saskatoon,Royal University Hospital,Oui,3
 Manitoba,Winnipeg,,Oui,3
-,Winnipeg,"Universitй du Manitoba, Maladies infectieuses pйdiatriques",Oui,Pйd VEN†
-Ontario,London,St. Joseph’s Health care,,
-,London,Children’s Hospital of Western Ontario,,
+,Winnipeg,"Université du Manitoba, Maladies infectieuses pédiatriques",Oui,Péd VEN
+Ontario,London,St. Josephs Health care,,
+,London,Childrens Hospital of Western Ontario,,
 ,London,Victoria Hospital,,
 ,London,University Hospital,,
 ,Toronto,Toronto Western Hospital,Oui,3
@@ -27,29 +27,29 @@ Ontario,London,St. Joseph’s Health care,,
 ,Toronto,Princess Margaret Hospital,,
 ,Toronto,Mount Sinai Hospital,Oui,3
 ,Toronto,Sunnybrook Health Science Centre,Oui,1
-,Toronto,The Hospital for Sick Children,Oui,Pйd VEN†
+,Toronto,The Hospital for Sick Children,Oui,Péd VEN
 ,Kingston,Kingston General Hospital,,
 ,Hamilton,Hamilton Health Sciences Centre,Oui,3
 ,Hamilton,McMaster Site,Non,
 ,Hamilton,Chedoke,Non,
 ,Hamilton,Henderson & General Sites,Non,
-,Hamilton,St. Joseph’s Healthcare,Oui,1
-,Ottawa,L’Hфpital d’Ottawa,Oui,(Sept)
+,Hamilton,St. Josephs Healthcare,Oui,1
+,Ottawa,LHôpital dOttawa,Oui,(Sept)
 ,Ottawa,Campus Civic,Oui,
-,Ottawa,Institut gйnйral et de cardiologie,Oui,
-,Ottawa,Centre hospitalier pour enfants de l'Est de l'Ontario,Oui,Pйd VEN†
-Quйbec,Montrйal,Hфpital gйnйral juif – SMBD,Oui,3
-,Montrйal,Hфpital de Montrйal pour enfants,Oui,Pйd VEN†
-,Montrйal,Hфpital Maisonneuve-Rosemont,,
-,Montrйal,Hфpital gйnйral de Montrйal,Oui,3
-,Montrйal,Hфpital Royal Victoria,Oui,3
-,Montrйal,Institut neurologique de Montrйal,Oui,3
-,Montrйal,Institut thoracique de Montrйal,Oui,3
-,Sherbrooke,CHUS Hфpital Fleurimont,Non,
-,Quйbec City,Hфtel-Dieu de Quйbec du CHUQ,Non,
+,Ottawa,Institut général et de cardiologie,Oui,
+,Ottawa,Centre hospitalier pour enfants de l'Est de l'Ontario,Oui,Péd VEN
+Québec,Montréal,Hôpital général juif  SMBD,Oui,3
+,Montréal,Hôpital de Montréal pour enfants,Oui,Péd VEN
+,Montréal,Hôpital Maisonneuve-Rosemont,,
+,Montréal,Hôpital général de Montréal,Oui,3
+,Montréal,Hôpital Royal Victoria,Oui,3
+,Montréal,Institut neurologique de Montréal,Oui,3
+,Montréal,Institut thoracique de Montréal,Oui,3
+,Sherbrooke,CHUS Hôpital Fleurimont,Non,
+,Québec City,Hôtel-Dieu de Québec du CHUQ,Non,
 Nouveau-Brunswick,Moncton,The Moncton Hospital,Oui,3
-Nouvelle-Йcosse,Halifax,QEII Health Sciences Centre,Oui,3
-,Halifax,IWK Health Centre,Oui,Pйd VEN†
-Terre-Neuve-et-Labrador,St John’s,Health care Corp. of St. John’s General & Miller Sites,,
-,St John’s,Janeway Site,,
-,St John’s,St. Clare Site,,
+Nouvelle-Écosse,Halifax,QEII Health Sciences Centre,Oui,3
+,Halifax,IWK Health Centre,Oui,Péd VEN
+Terre-Neuve-et-Labrador,St Johns,Health care Corp. of St. Johns General & Miller Sites,,
+,St Johns,Janeway Site,,
+,St Johns,St. Clare Site,,

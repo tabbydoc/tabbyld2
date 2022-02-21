@@ -8,7 +8,7 @@ Liberia,Liberian Dollar,LRD,430,$,100 cents
 Libyan Arab Jamahiriya,Libyan Dinar,LYD,434,LD,"1,000 dirhams"
 Liechtenstein,Swiss Franc,CHF,756,SwF,100 rappen/centimes
 Lithuania,Lithuanian Litas,LTL,440,,100 centu
-Luxembourg,Euro,EUR,978,Ђ,100 euro-cents
+Luxembourg,Euro,EUR,978,,100 euro-cents
 Macau,Pataca,MOP,446,P,100 avos
 "Macedonia, The Former Yugoslav Republic Of",Denar,MKD,807,MKD,100 deni
 Madagascar,Malagasy Franc,MGF,450,FMG,100 centimes
@@ -18,13 +18,13 @@ Maldives,Rufiyaa,MVR,462,Rf,100 lari
 Mali,CFA Franc BCEAO,XOF,952,CFAF,100 centimes
 Malta,Maltese Lira,MTL,470,Lm,100 cents
 Marshall Islands,US Dollar,USD,840,$,100 cents
-Martinique,Euro,EUR,978,Ђ,100 euro-cents
+Martinique,Euro,EUR,978,,100 euro-cents
 Mauritania,Ouguiya,MRO,478,UM,5 khoums
 Mauritius,Mauritius Rupee,MUR,480,Mau Rs,100 cents
 Mexico,Mexican Peso,MXN,484,Mex$,100 centavos
 Micronesia,US Dollar,USD,840,$,100 cents
 "Moldova, Republic Of",Moldovan Leu,MDL,498,,
-Monaco,Euro,EUR,978,Ђ,100 euro-cents
+Monaco,Euro,EUR,978,,100 euro-cents
 Mongolia,Tugrik,MNT,496,Tug,100 mongos
 Montserrat,East Caribbean Dollar,XCD,951,EC$,100 cents
 Morocco,Moroccan Dirham,MAD,504,DH,100 centimes
@@ -34,7 +34,7 @@ Namibia,Namibia Dollar,NAD,516,N$,100 cents
 Namibia (other),Rand,ZAR,710,R,100 cents
 Nauru,Australian Dollar,AUD,36,A$,100 cents
 Nepal,Nepalese Rupee,NPR,524,NRs,100 paise
-Netherlands,Euro,EUR,978,Ђ,100 euro-cents
+Netherlands,Euro,EUR,978,,100 euro-cents
 Netherlands Antilles,Antillian Guilder,ANG,532,Ant.f. or NAf.,100 cents
 New Caledonia,CFP Franc,XPF,953,CFPF,100 centimes
 New Zealand,New Zealand Dollar,NZD,554,NZ$,100 cents
@@ -44,5 +44,5 @@ Nigeria,Naira,NGN,566,double-dashed N,100 kobo
 Niue,New Zealand Dollar,NZD,554,NZ$,100 cents
 Norfolk Island,Australian Dollar,AUD,36,A$,100 cents
 Northern Mariana Islands,US Dollar,USD,840,$,100 cents
-Norway,Norwegian Krone,NOK,578,NKr,100 шre
+Norway,Norwegian Krone,NOK,578,NKr,100 øre
 Oman,Rial Omani,OMR,512,RO,"1,000 baizas"
