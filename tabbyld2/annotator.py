@@ -1,6 +1,8 @@
 import os
 from abc import ABC
 from collections import Counter
+from typing import Tuple
+
 from Levenshtein._levenshtein import distance
 from pyrdf2vec.graphs import KG
 from pyrdf2vec import RDF2VecTransformer
@@ -71,30 +73,37 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
             if column.column_type == ColumnType.CATEGORICAL_COLUMN or column.column_type == ColumnType.SUBJECT_COLUMN:
                 for cell in column.cells:
                     if cell.cleared_value is not None:
-                        # Получение сущностей кандидатов на основе конечной точки DBpedia SPARQL Endpoint
-                        candidate_entities_from_dbs = dbs.get_candidate_entities(cell.cleared_value, False)
-                        # Формирование словаря моделей сущностей кандидатов
-                        if candidate_entities_from_dbs:
-                            cell._candidate_entities = tuple()
-                            for candidate_entity in candidate_entities_from_dbs:
-                                entity = EntityModel(candidate_entity[0], candidate_entity[1], candidate_entity[2],
-                                                     0, 0, 0, 0, 0, 0)
-                                cell._candidate_entities = cell.candidate_entities + (entity,)
-                        # Получение сущностей кандидатов от сервиса DBpedia Lookup
-                        candidate_entities_from_dbl = dbl.get_candidate_entities(cell.cleared_value, 100, None, False)
-                        # Формирование словаря моделей сущностей кандидатов
-                        if candidate_entities_from_dbl:
-                            if cell._candidate_entities is None:
+                        # Формирование набора кандидатов для ячеек с одинаковыми значениями
+                        for c in column.cells:
+                            if c.cleared_value == cell.cleared_value and c.candidate_entities is not None:
+                                cell._candidate_entities = c.candidate_entities
+
+                        if cell.candidate_entities is None:
+                            # Получение сущностей кандидатов на основе конечной точки DBpedia SPARQL Endpoint
+                            candidate_entities_from_dbs = dbs.get_candidate_entities(cell.cleared_value, False)
+                            # Формирование словаря моделей сущностей кандидатов
+                            if candidate_entities_from_dbs:
                                 cell._candidate_entities = tuple()
-                            for candidate_entity_from_dbl in candidate_entities_from_dbl:
-                                exist_entity = False
-                                for candidate_entity_from_dbs in candidate_entities_from_dbs:
-                                    if candidate_entity_from_dbl[0] == candidate_entity_from_dbs[0]:
-                                        exist_entity = True
-                                if not exist_entity:
-                                    entity = EntityModel(candidate_entity_from_dbl[0], candidate_entity_from_dbl[1],
-                                                         candidate_entity_from_dbl[2], 0, 0, 0, 0, 0, 0)
+                                for candidate_entity in candidate_entities_from_dbs:
+                                    entity = EntityModel(candidate_entity[0], candidate_entity[1], candidate_entity[2],
+                                                         0, 0, 0, 0, 0, 0)
                                     cell._candidate_entities = cell.candidate_entities + (entity,)
+                            # Получение сущностей кандидатов от сервиса DBpedia Lookup
+                            candidate_entities_from_dbl = dbl.get_candidate_entities(cell.cleared_value, 100,
+                                                                                     None, False)
+                            # Формирование словаря моделей сущностей кандидатов
+                            if candidate_entities_from_dbl:
+                                if cell.candidate_entities is None:
+                                    cell._candidate_entities = tuple()
+                                for candidate_entity_from_dbl in candidate_entities_from_dbl:
+                                    exist_entity = False
+                                    for candidate_entity_from_dbs in candidate_entities_from_dbs:
+                                        if candidate_entity_from_dbl[0] == candidate_entity_from_dbs[0]:
+                                            exist_entity = True
+                                    if not exist_entity:
+                                        entity = EntityModel(candidate_entity_from_dbl[0], candidate_entity_from_dbl[1],
+                                                             candidate_entity_from_dbl[2], 0, 0, 0, 0, 0, 0)
+                                        cell._candidate_entities = cell.candidate_entities + (entity,)
                         print("The candidate entity lookup for '" + str(cell.cleared_value) + "' cell is complete.")
 
     @staticmethod
