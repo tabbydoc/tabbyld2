@@ -275,6 +275,8 @@ class TableModel(AbstractTableModel):
                     fixed_value = cln.fix_text(cell.source_value)
                     cleared_value = cln.remove_garbage_characters(fixed_value)
                     cell._cleared_value = cln.remove_multiple_spaces(cleared_value)
+                    if not cell.cleared_value:
+                        cell._cleared_value = None
 
     def serialize_cleared_table(self):
         """
