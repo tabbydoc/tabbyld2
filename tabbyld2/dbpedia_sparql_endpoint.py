@@ -1,5 +1,8 @@
 import re
+from urllib.error import URLError
+
 from SPARQLWrapper import SPARQLWrapper, JSON
+import tabbyld2.cleaner as cln
 
 
 # Название конечной точки DBpedia
@@ -17,43 +20,53 @@ def get_candidate_entities(entity_mention: str = "", short_name: bool = False):
     # Разделение текстового упоминания сущности на слова
     string = ""
     text = entity_mention.replace("&", "and")
-    word_list = re.split("[,' ]+", text)
+    word_list = re.split(r"[\\/,.'* ]+", text)
     for word in word_list:
-        if string:
-            string += " AND '" + word + "'"
-        else:
-            string = "'" + word + "'"
-    if string != "":
-        # Выполнение SPARQL-запроса к DBpedia
-        sparql = SPARQLWrapper(ENDPOINT_NAME)
-        sparql.setQuery("""
-            SELECT DISTINCT (str(?subject) as ?subject) (str(?label) as ?label) (str(?comment) as ?comment)
-            WHERE {
-                {
-                    ?subject rdfs:comment ?comment .
-                    ?subject a ?type .
-                    ?subject rdfs:label ?label .
-                    ?label <bif:contains> "%s" .
-                }
-                FILTER NOT EXISTS { ?subject dbo:wikiPageRedirects ?r2 } .
-                FILTER (!strstarts(str(?subject), "http://dbpedia.org/resource/Category:")) .
-                FILTER (!strstarts(str(?subject), "http://dbpedia.org/property/")) .
-                FILTER (!strstarts(str(?subject), "http://dbpedia.org/ontology/")) .
-                FILTER (strstarts(str(?type), "http://dbpedia.org/ontology/")) .
-                FILTER (lang(?label) = "en") .
-                FILTER (lang(?comment) = "en")
-            }
-            ORDER BY ASC(strlen(?label))
-            LIMIT 100
-        """ % string)
-        sparql.setReturnFormat(JSON)
-        results = sparql.query().convert()
-        for result in results["results"]["bindings"]:
-            if short_name:
-                result_list.append([result["subject"]["value"].replace("http://dbpedia.org/resource/", ""),
-                                    result["label"]["value"], result["comment"]["value"]])
+        if word and not cln.check_letter_and_digit_existence(word):
+            if string:
+                string += " AND '" + word + "'"
             else:
-                result_list.append([result["subject"]["value"], result["label"]["value"], result["comment"]["value"]])
+                string = "'" + word + "'"
+    print(string)
+    if string != "":
+        no_processing_query = True
+        while no_processing_query:
+            try:
+                # Выполнение SPARQL-запроса к DBpedia
+                sparql = SPARQLWrapper(ENDPOINT_NAME)
+                sparql.setQuery("""
+                    SELECT DISTINCT (str(?subject) as ?subject) (str(?label) as ?label) (str(?comment) as ?comment)
+                    WHERE {
+                        {
+                            ?subject rdfs:comment ?comment .
+                            ?subject a ?type .
+                            ?subject rdfs:label ?label .
+                            ?label <bif:contains> "%s" .
+                        }
+                        FILTER NOT EXISTS { ?subject dbo:wikiPageRedirects ?r2 } .
+                        FILTER (!strstarts(str(?subject), "http://dbpedia.org/resource/Category:")) .
+                        FILTER (!strstarts(str(?subject), "http://dbpedia.org/property/")) .
+                        FILTER (!strstarts(str(?subject), "http://dbpedia.org/ontology/")) .
+                        FILTER (strstarts(str(?type), "http://dbpedia.org/ontology/")) .
+                        FILTER (lang(?label) = "en") .
+                        FILTER (lang(?comment) = "en")
+                    }
+                    ORDER BY ASC(strlen(?label))
+                    LIMIT 100
+                """ % string)
+                sparql.setReturnFormat(JSON)
+                results = sparql.query().convert()
+                for result in results["results"]["bindings"]:
+                    if short_name:
+                        result_list.append([result["subject"]["value"].replace("http://dbpedia.org/resource/", ""),
+                                            result["label"]["value"], result["comment"]["value"]])
+                    else:
+                        result_list.append([result["subject"]["value"], result["label"]["value"],
+                                            result["comment"]["value"]])
+                no_processing_query = False
+            except URLError:
+                no_processing_query = True
+                print("Connection error to DBpedia SPARQL Endpoint! Reconnection is carried out.")
 
     return result_list
 

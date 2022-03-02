@@ -40,9 +40,10 @@ def get_candidate_entities(query: str, max_results: int = None, min_relevance: i
                 for doc in json_response["docs"]:
                     if short_name:
                         result_list.append([doc["resource"][0].replace("http://dbpedia.org/resource/", ""),
-                                            doc["label"][0], doc["comment"][0] if "comment" in doc else ""])
+                                            doc["label"][0] if "label" in doc else "",
+                                            doc["comment"][0] if "comment" in doc else ""])
                     else:
-                        result_list.append([doc["resource"][0], doc["label"][0],
+                        result_list.append([doc["resource"][0], doc["label"][0] if "label" in doc else "",
                                             doc["comment"][0] if "comment" in doc else ""])
                 return result_list
             # else:
