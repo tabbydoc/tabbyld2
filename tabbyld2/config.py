@@ -38,6 +38,8 @@ class ResultPath:
 class EvaluationPath:
     # Path to T2Dv2 dataset
     T2DV2 = str(Path(__file__).parent.parent) + "/datasets/T2Dv2/"
+    # Path to source T2Dv2 tables in the JSON format
+    T2DV2_JSON = str(Path(__file__).parent.parent) + "/datasets/T2Dv2/tables/"
     # Path to positive examples in CSV format from T2Dv2 dataset
     T2DV2_POSITIVE_EXAMPLES = str(Path(__file__).parent.parent) + "/datasets/T2Dv2/positive_examples/"
     # Path to negative examples in CSV format from T2Dv2 dataset
@@ -53,5 +55,8 @@ class EvaluationPath:
     # JSON files of table evaluations
     COLUMNS_CLASSIFICATION_EVALUATION = "columns_classification.json"
     SUBJECT_COLUMN_IDENTIFICATION_EVALUATION = "subject_column_identification.json"
+    CELL_ENTITY_ANNOTATION_EVALUATION = "cell_entity_annotation.json"
+    COLUMN_TYPE_ANNOTATION_EVALUATION = "column_type_annotation.json"
+    COLUMNS_PROPERTY_ANNOTATION_EVALUATION = "columns_property_annotation.json"
     # JSON file of dataset evaluation
     TOTAL_EVALUATION = "total_evaluation.json"
