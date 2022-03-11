@@ -65,12 +65,14 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
     def table_model(self):
         return self._table_model
 
-    def find_candidate_entities(self):
+    def find_candidate_entities(self, only_subject_column: bool = False):
         """
         Поиск сущностей кандидатов на основе текстового упоминания сущности.
+        :param only_subject_column: индикатор поиска сущностей кандидатов только для сущностного столбца
         """
         for column in self.table_model.columns:
-            if column.column_type == ColumnType.CATEGORICAL_COLUMN or column.column_type == ColumnType.SUBJECT_COLUMN:
+            if (column.column_type == ColumnType.CATEGORICAL_COLUMN and not only_subject_column) or \
+                    column.column_type == ColumnType.SUBJECT_COLUMN:
                 for cell in column.cells:
                     if cell.cleared_value is not None:
                         # Формирование набора кандидатов для ячеек с одинаковыми значениями
