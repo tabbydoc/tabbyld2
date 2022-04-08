@@ -220,25 +220,63 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                     for candidate_entity in cell.candidate_entities:
                         if candidate_entity:
                             list_new.append(candidate_entity.uri)
-        knowledge_graph = KG(
+        list_new = list(set(list_new))
+        transformer = RDF2VecTransformer(
+            Word2Vec(epochs=10),
+            walkers=[RandomWalker(4, 10, with_reverse=False, n_jobs=2)],
+            verbose=1)
+        kg = KG(
             "https://dbpedia.org/sparql",
             skip_predicates={"www.w3.org/1999/02/22-rdf-syntax-ns#type"},
             literals=[
                 [
-                    "http://dbpedia.org/ontology/wikiPageWikiLink",
-                    "http://www.w3.org/2004/02/skos/core#prefLabel",
-                ],
-                ["http://dbpedia.org/ontology/humanDevelopmentIndex"],
-            ],
+                    'http://dbpedia.org/ontology/abstract',
+                    'http://dbpedia.org/ontology/flag',
+                    'http://dbpedia.org/ontology/thumbnail',
+                    'http://dbpedia.org/ontology/wikiPageExternalLink',
+                    'http://dbpedia.org/ontology/wikiPageID',
+                    'http://dbpedia.org/ontology/wikiPageRevisionID',
+                    'http://dbpedia.org/ontology/wikiPageWikiLink',
+                    'http://dbpedia.org/property/flagCaption',
+                    'http://dbpedia.org/property/float',
+                    'http://dbpedia.org/property/footnoteA',
+                    'http://dbpedia.org/property/footnoteB',
+                    'http://dbpedia.org/property/footnoteC',
+                    'http://dbpedia.org/property/source',
+                    'http://dbpedia.org/property/width',
+                    'http://purl.org/dc/terms/subject',
+                    'http://purl.org/linguistics/gold/hypernym',
+                    'http://purl.org/voc/vrank#hasRank',
+                    'http://www.georss.org/georss/point',
+                    'http://www.w3.org/2000/01/rdf-schema#comment',
+                    'http://www.w3.org/2000/01/rdf-schema#label',
+                    'http://www.w3.org/2000/01/rdf-schema#seeAlso',
+                    'http://www.w3.org/2002/07/owl#sameAs',
+                    'http://www.w3.org/2003/01/geo/wgs84_pos#geometry',
+                    'http://dbpedia.org/ontology/wikiPageRedirects',
+                    'http://www.w3.org/2003/01/geo/wgs84_pos#lat',
+                    'http://www.w3.org/2003/01/geo/wgs84_pos#long',
+                    'http://www.w3.org/2004/02/skos/core#exactMatch',
+                    'http://www.w3.org/ns/prov#wasDerivedFrom',
+                    'http://xmlns.com/foaf/0.1/depiction',
+                    'http://xmlns.com/foaf/0.1/homepage',
+                    'http://xmlns.com/foaf/0.1/isPrimaryTopicOf',
+                    'http://xmlns.com/foaf/0.1/name',
+                    'http://dbpedia.org/property/website',
+                    'http://dbpedia.org/property/west',
+                    'http://dbpedia.org/property/wordnet_type',
+                    'http://www.w3.org/2002/07/owl#differentFrom',
+                ]]
         )
-        transformer = RDF2VecTransformer(
-            Word2Vec(epochs=10),
-            walkers=[RandomWalker(4, 10, with_reverse=False, n_jobs=2)],
-            # verbose=1
-        )
-        transformer.fit_transform(knowledge_graph, list_new)
-        transformer.embedder._model.save("rdf2vec.model")
-        modeller = W2V.load("rdf2vec.model")
+        try:
+            walkers = transformer.get_walks(kg, list_new)
+            transformer.fit(walkers, is_update=False)
+            transformer.transform(kg, list_new)
+        except:
+            print('Request error')
+            pass
+        transformer.embedder._model.save("rdf2vec3.model")
+        modeller = W2V.load("rdf2vec3.model")
         for entity in list_new:
             count = modeller.wv.most_similar(entity, topn=100000000)
             list_words.append(count)

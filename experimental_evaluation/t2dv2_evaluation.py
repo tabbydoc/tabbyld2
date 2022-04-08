@@ -262,4 +262,5 @@ def evaluation():
     print("Full time: " + str(datetime.now() - start_full_time))
 
 
-evaluation()
+if __name__ == "__main__":
+    evaluation()
