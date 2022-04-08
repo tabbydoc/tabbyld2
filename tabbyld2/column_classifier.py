@@ -2,6 +2,7 @@ import re
 from abc import ABC
 import stanza
 import operator
+import dateparser
 import collections
 from math import sqrt
 from collections import defaultdict
@@ -291,6 +292,9 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
             # Если упоминание сущности является каким-либо символом
             if len(entity_mention) == 1 or len(entity_mention) == 2:
                 label = LiteralLabel.SYMBOL
+            # Если упоминание сущности является датой
+            if dateparser.parse(entity_mention):
+                label = LiteralLabel.DATE
             # Если упоминание сущности является логическим значением
             if re.search(r"^'true|false|True|False|TRUE|FALSE'&", entity_mention):
                 label = LiteralLabel.BOOLEAN
