@@ -220,10 +220,10 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                     for candidate_entity in cell.candidate_entities:
                         if candidate_entity:
                             list_new.append(candidate_entity.uri)
-        list_new = list(set(list_new))
+        list_new1 = list(set(list_new))
         transformer = RDF2VecTransformer(
             Word2Vec(epochs=10),
-            walkers=[RandomWalker(4, 10, with_reverse=False, n_jobs=2)],
+            walkers=[RandomWalker(4, 5, with_reverse=False, n_jobs=4)],
             verbose=1)
         kg = KG(
             "https://dbpedia.org/sparql",
@@ -266,17 +266,26 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                     'http://dbpedia.org/property/west',
                     'http://dbpedia.org/property/wordnet_type',
                     'http://www.w3.org/2002/07/owl#differentFrom',
-                ]]
+                ]
+            ]
         )
         try:
-            walkers = transformer.get_walks(kg, list_new)
+            print("Walks were begun")
+            walkers = transformer.get_walks(kg, list_new1)
+            print("Walks were completed")
+            print("Fit was begun")
             transformer.fit(walkers, is_update=False)
+            print("Fit was completed")
+            print("Transform was begun")
             transformer.transform(kg, list_new)
+            print("Transform was completed")
+            transformer.embedder._model.save("rdf2vec.model")
         except:
+            modeller = W2V(sentences=[list_new], vector_size=100, window=5, min_count=0, workers=4)
+            modeller.save("rdf2vec.model")
             print('Request error')
             pass
-        transformer.embedder._model.save("rdf2vec3.model")
-        modeller = W2V.load("rdf2vec3.model")
+        modeller = W2V.load("rdf2vec.model")
         for entity in list_new:
             count = modeller.wv.most_similar(entity, topn=100000000)
             list_words.append(count)
