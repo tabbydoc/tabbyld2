@@ -223,7 +223,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
         list_new1 = list(set(list_new))
         transformer = RDF2VecTransformer(
             Word2Vec(epochs=10),
-            walkers=[RandomWalker(4, 6, with_reverse=False, n_jobs=1)],
+            walkers=[RandomWalker(4, 6, with_reverse=False, n_jobs=4)],
             verbose=1)
         kg = KG(
             "https://dbpedia.org/sparql",
