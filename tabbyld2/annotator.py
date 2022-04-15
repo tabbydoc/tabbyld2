@@ -214,12 +214,17 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
         list_new = []
         dictionary_new = {}
         list_words = []
+        list_new1 = []
+        list_total=[]
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.candidate_entities is not None:
                     for candidate_entity in cell.candidate_entities:
                         if candidate_entity:
                             list_new.append(candidate_entity.uri)
+                            list_new1.append(candidate_entity.uri)
+                    list_total.append(list_new1)
+                    list_new1 = []
         list_new1 = list(set(list_new))
         transformer = RDF2VecTransformer(
             Word2Vec(epochs=10),
@@ -269,22 +274,19 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                 ]
             ]
         )
-        try:
-            print("Walks were begun")
-            walkers = transformer.get_walks(kg, list_new1)
+        walkers = []
+        for i in range(len(list_new1)):
+            print("Walks were begun", i + 1)
+            walkers1 = transformer.get_walks(kg, [list_new1[i]])
             print("Walks were completed")
-            print("Fit was begun")
-            transformer.fit(walkers, is_update=False)
-            print("Fit was completed")
-            print("Transform was begun")
-            transformer.transform(kg, list_new)
-            print("Transform was completed")
-            transformer.embedder._model.save("rdf2vec.model")
-        except:
-            modeller = W2V(sentences=[list_new], vector_size=100, window=5, min_count=0, workers=4)
-            modeller.save("rdf2vec.model")
-            print('Request error')
-            pass
+            if walkers1:
+                walkers.append(walkers1[0][0])
+            else:
+                walkers.append(list_new1[i])
+        print("Fit was begun")
+        # # transformer.transform(kg, list_new)
+        print("Transform was completed")
+        transformer.embedder._model.save("rdf2vec.model")
         modeller = W2V.load("rdf2vec.model")
         for entity in list_new:
             count = modeller.wv.most_similar(entity, topn=100000000)
