@@ -134,7 +134,7 @@ class T2Dv2CellEntityAnnotationEvaluationModel(AbstractCellEntityAnnotationEvalu
                                                         if column.cells[i].annotation is not None:
                                                             annotated_cells += 1
                                                             if urllib.parse.unquote(instances[j].lower()) == \
-                                                                    column.cells[i].annotation.lower():
+                                                                    column.cells[i].annotation.lower() or instances[j].encode("raw_unicode_escape").decode("utf-8").lower() == column.cells[i].annotation.lower():
                                                                 correctly_annotated_cells += 1
                                                             else:
                                                                 print("INS: " + urllib.parse.unquote(instances[j]) +
