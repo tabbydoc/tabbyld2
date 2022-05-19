@@ -1,38 +1,34 @@
 import re
+from typing import List
 from urllib.error import URLError
-
 from SPARQLWrapper import SPARQLWrapper, JSON
 import tabbyld2.cleaner as cln
 
 
-# Название конечной точки DBpedia
+# DBpedia endpoint name
 ENDPOINT_NAME = "http://dbpedia.org/sparql"
 
 
-def get_candidate_entities(entity_mention: str = "", short_name: bool = False):
+def get_candidate_entities(entity_mention: str = "", short_name: bool = False) -> List[List]:
     """
-    Получение набора (списка) сущностей кандидатов на основе SPARQL-запроса к DBpedia.
-    :param entity_mention: текстовое упоминание сущности
-    :param short_name: режим отображения короткого наименования сущности (без полного URI)
-    :return: список найденных сущностей кандидатов
+    Get a set of candidate entities based on the direct SPARQL query to DBpedia.
+    :param entity_mention: a textual entity mention
+    :param short_name: flag to enable or disable short entity name display mode (without full URI)
+    :return: a set of candidate entities
     """
-    result_list = []
-    # Разделение текстового упоминания сущности на слова
+    # Split a textual entity mention into words
     string = ""
-    text = entity_mention.replace("&", "and")
-    word_list = re.split(r"[\\/,.'* ]+", text)
-    for word in word_list:
+    for word in re.split(r"[\\/,.'* ]+", entity_mention.replace("&", "and")):
         if word and not cln.check_letter_and_digit_existence(word):
-            if string:
-                string += " AND '" + word + "'"
-            else:
-                string = "'" + word + "'"
-    print(string)
+            string += " AND '" + word + "'" if string else "'" + word + "'"
+
+    print("Searching for " + string)
+    result_list = []
     if string != "":
         no_processing_query = True
         while no_processing_query:
             try:
-                # Выполнение SPARQL-запроса к DBpedia
+                # Execute SPARQL query to DBpedia
                 sparql = SPARQLWrapper(ENDPOINT_NAME)
                 sparql.setQuery("""
                     SELECT DISTINCT (str(?subject) as ?subject) (str(?label) as ?label) (str(?comment) as ?comment)
@@ -71,16 +67,16 @@ def get_candidate_entities(entity_mention: str = "", short_name: bool = False):
     return result_list
 
 
-def get_distance_to_class(entity: str = "", target_classes: str = ""):
+def get_distance_to_class(entity: str = "", target_classes: str = None) -> int:
     """
-    Получение дистанции до целевого класса для сущности из DBpedia на основе SPARQL-запроса.
-    :param entity: сущность из DBpedia
-    :param target_classes: набор целевых классов
-    :return: дистанция до целевого класса (натуральное число, включая ноль)
+    Get a distance to a target class of an entity based on the direct SPARQL query to DBpedia.
+    :param entity: an entity from DBpedia
+    :param target_classes: a set of target classes
+    :return: a distance to a target class (non-negative integer including zero)
     """
-    # Выполнение SPARQL-запроса к DBpedia
+    # Execute SPARQL query to DBpedia
     sparql = SPARQLWrapper(ENDPOINT_NAME)
-    if target_classes == "":
+    if target_classes is None:
         sparql.setQuery("""
             SELECT COUNT DISTINCT ?type
             WHERE {
@@ -99,7 +95,7 @@ def get_distance_to_class(entity: str = "", target_classes: str = ""):
         """ % (entity, target_classes if isinstance(target_classes, str) else ", ".join(target_classes)))
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
-    # Определение дистанции до целевого класса
+    # Calculate a distance to a target class
     distance_to_class = 0
     for result in results["results"]["bindings"]:
         distance_to_class = result["callret-0"]["value"]
@@ -107,15 +103,15 @@ def get_distance_to_class(entity: str = "", target_classes: str = ""):
     return distance_to_class
 
 
-def get_classes(entity: str = "", short_name: bool = False):
+def get_classes_for_entity(entity: str = "", short_name: bool = False) -> List:
     """
-    Получение набора (списка) классов для сущности из DBpedia на основе SPARQL-запроса.
-    :param entity: сущность из DBpedia
-    :param short_name: режим отображения короткого наименования класса (без полного URI)
-    :return: список найденных классов
+    Get a set of classes for an entity based on the direct SPARQL query to DBpedia.
+    :param entity: an entity from DBpedia
+    :param short_name: flag to enable or disable short entity name display mode (without full URI)
+    :return: a set of found classes
     """
     result_list = []
-    # Выполнение SPARQL-запроса к DBpedia
+    # Execute SPARQL query to DBpedia
     sparql = SPARQLWrapper(ENDPOINT_NAME)
     sparql.setQuery("""
         SELECT ?type

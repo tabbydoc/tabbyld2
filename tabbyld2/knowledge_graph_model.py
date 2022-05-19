@@ -58,10 +58,10 @@ class EntityModel(AbstractEntityModel, EntityRankingWeightFactor):
                  "_heading_based_similarity", "_entity_embeddings_based_similarity",
                  "_context_based_similarity", "_final_score")
 
-    def __init__(self, uri: Any = None, label: str = None, comment: str = None, string_similarity: float = None,
-                 ner_based_similarity: float = None, heading_based_similarity: float = None,
-                 entity_embeddings_based_similarity: float = None, context_based_similarity: float = None,
-                 final_score: float = None):
+    def __init__(self, uri: Any = None, label: str = None, comment: str = None, string_similarity: float = 0,
+                 ner_based_similarity: float = 0, heading_based_similarity: float = 0,
+                 entity_embeddings_based_similarity: float = 0, context_based_similarity: float = 0,
+                 final_score: float = 0):
         self._uri = uri
         self._label = label
         self._comment = comment
@@ -131,9 +131,8 @@ class ClassModel(AbstractClassModel, ClassRankingWeightFactor):
     __slots__ = ("_uri", "_label", "_comment", "_majority_voting_score", "_heading_similarity",
                  "_column_type_prediction_score", "_final_score")
 
-    def __init__(self, uri: Any = None, label: str = None, comment: str = None, majority_voting_score: float = None,
-                 heading_similarity: float = None, column_type_prediction_score: float = None,
-                 final_score: float = None):
+    def __init__(self, uri: Any = None, label: str = None, comment: str = None, majority_voting_score: float = 0,
+                 heading_similarity: float = 0, column_type_prediction_score: float = 0, final_score: float = 0):
         self._uri = uri
         self._label = label
         self._comment = comment
