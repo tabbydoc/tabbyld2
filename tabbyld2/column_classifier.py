@@ -1,10 +1,11 @@
 import re
-from abc import ABC
 import stanza
 import operator
 import dateparser
 import collections
 from math import sqrt
+from typing import Any
+from abc import ABC, abstractmethod
 from collections import defaultdict
 from tabbyld2.utility import is_float
 from tabbyld2.tabular_data_model import TableModel
@@ -134,7 +135,7 @@ class SimplePreposition:
     SINCE = "since"  # с (некоторого времени), после
     THAN = "than"  # нежели, чем
     THROUGH = "through"  # через, сквозь, по, в, через посредство, из, от, в продолжение, в течение, включительно
-    # Список простых предлогов
+    # List of simple prepositions
     SIMPLE_PREPOSITIONS = [ABOARD, ABOUT, ABOVE, ABSENT, ACROSS, AFORE, AFTER, AGAINST, ALONG, AMID, AMIDST, AMONG,
                            AMONGST, AROUND, AS, ASIDE, ASLANT, ASTRIDE, AT, ATHWART, ATOP, BAR, BEFORE, BEHIND, BELOW,
                            BENEATH, BESIDE, BESIDES, BETWEEN, BETWIXT, BEYOND, BUT, BY, CIRCA, DESPITE, DOWN, EXCEPT,
@@ -158,7 +159,7 @@ class DerivedPreposition:
     PAST = "past"  # за, после, мимо, сверх, выше
     PENDING = "pending"  # в продолжение, в течение, до, вплоть
     REGARDING = "regarding"  # относительно, касательно
-    # Список производных предлогов
+    # List of derivative prepositions
     DERIVATIVE_PREPOSITIONS = [BARRING, CONCERNING, CONSIDERING, DEPENDING, DURING, GRANTED, EXCEPTING, EXCLUDING,
                                FAILING, FOLLOWING, INCLUDING, PAST, PENDING, REGARDING]
 
@@ -170,7 +171,7 @@ class ComplexPreposition:
     ONTO = "onto"  # на, в
     THROUGHOUT = "throughout"  # через, по всей площади, длине, на всем протяжении
     WHEREWITH = "wherewith"  # чем, посредством которого
-    # Список сложных предлогов
+    # List of complex prepositions
     COMPLEX_PREPOSITIONS = [ALONGSIDE, WITHIN, UPON, ONTO, THROUGHOUT, WHEREWITH]
 
 
@@ -224,7 +225,7 @@ class CompoundPreposition:
     UP_TO = "up to"  # вплоть до, на уровне
     WITH_REGARD_TO = "with regard to"  # относительно, по отношению
     WITH_RESPECT_TO = "with respect to"  # относительно, по отношению
-    # Список сложных предлогов
+    # List of compound prepositions
     COMPOUND_PREPOSITIONS = [ACCORDING_TO, AHEAD_OF, APART_FROM, AS_FAR_AS, AS_FOR, AS_OF, AS_PER, AS_REGARDS,
                              ASIDE_FROM, AS_WELL_AS, AWAY_FROM, BECAUSE, BY_FORCE_OF, BY_MEANS_OF, BY_VIRTUE_OF,
                              CLOSE_TO, CONTRARY, DUE_TO, EXCEPT_FOR, FAR_FROM, FOR_THE_SAKE_OF, IN_ACCORDANCE_WITH,
@@ -234,19 +235,85 @@ class CompoundPreposition:
                              OUT_OF, OUTSIDE_OF, OWING_TO, THANKS_TO, UP_TO, WITH_REGARD_TO, WITH_RESPECT_TO]
 
 
-class Coefficient:
-    # Весовые коэффициенты для балансировки эвристик
-    WEIGHTING_FACTOR_1 = 2
-    WEIGHTING_FACTOR_2 = 1
-    WEIGHTING_FACTOR_3 = 1
-    WEIGHTING_FACTOR_4 = 1
-    WEIGHTING_FACTOR_5 = 1
-    # Пороговый коэффициент, определяющий, что в ячейке представлен длинный текст
-    THRESHOLD_COEFFICIENT = 10
+class WeightingFactor:
+    UCF = 2
+    AWN = 1
+    ECF = 1
+    CFA = 1
+    HPN = 1
 
 
 class AbstractTableColumnClassifier(ABC):
     __slots__ = ()
+
+    @abstractmethod
+    def recognize_named_entities(self) -> None:
+        """
+        Recognize named entities in table cells.
+        """
+        pass
+
+    @abstractmethod
+    def classify_columns(self) -> None:
+        """
+        Determine column types based on recognized named entities in table cells.
+        """
+        pass
+
+    @abstractmethod
+    def get_empty_cell_fraction(self, column_index: int = None) -> float:
+        """
+        Get a proportion of empty cells for current column from table.
+        :param column_index: index of current column
+        :return: proportion of blank cells for current column
+        """
+        pass
+
+    @abstractmethod
+    def get_cell_fraction_with_acronyms(self, column_index: int = None) -> float:
+        """
+        Get a proportion of cells with acronyms for current column from table.
+        :param column_index: index of current column
+        :return: proportion of cells with acronyms for current column
+        """
+        pass
+
+    @abstractmethod
+    def get_unique_content_cell_fraction(self, column_index: int = None) -> float:
+        """
+        Get a proportion of cells with unique content for current column from table.
+        :param column_index: index of current column
+        :return: proportion of cells with unique content for current column
+        """
+        pass
+
+    @abstractmethod
+    def get_distance_from_first_ne_column(self, column_index: int = None) -> int:
+        """
+        Get a distance from the first categorical column to current column.
+        :param column_index: index of current column
+        :return: distance from the first categorical column
+        """
+        pass
+
+    @abstractmethod
+    def get_average_word_number(self, column_index: int = None, threshold_factor: int = 0) -> float:
+        """
+        Get average number of words for current column.
+        :param column_index: index of current column
+        :param threshold_factor: threshold factor for cells that contains long text
+        :return: average number of words
+        """
+        pass
+
+    @abstractmethod
+    def determine_prepositions_in_column_header_name(self, column_index: int = None) -> int:
+        """
+        Define preposition names in current column heading.
+        :param column_index: index of current column
+        :return: 1 if heading is a preposition, otherwise 0
+        """
+        pass
 
 
 class TableColumnClassifier(AbstractTableColumnClassifier):
@@ -258,98 +325,77 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
         return self._table_model
 
     @staticmethod
-    def determine_number(value, label):
+    def determine_number(value: Any, label: str) -> str:
         """
-        Определение типа числа на основе исходного входного значения.
-        :param value: исходное входное значение
-        :param label: текущая метка
-        :return: определенная метка числа
+        Determine number type based on input textual value.
+        :param value: input textual value
+        :param label: current label
+        :return: number label
         """
-        # Если число с плавающей точкой
+        # If float
         if is_float(value):
             label = LiteralLabel.FLOAT
-        # Если целое положительное число
+        # If positive integer
         if re.search(r"^[1-9]\d*$", value):
             label = LiteralLabel.POSITIVE_INTEGER
-        # Если целое отрицательное число
+        # If negative integer
         if re.search(r"^[-][1-9]\d*$", value):
             label = LiteralLabel.NEGATIVE_INTEGER
 
         return label
 
     @staticmethod
-    def determine_entity_mention(entity_mention):
+    def determine_entity_mention(entity_mention: str) -> str:
         """
-        Корректировка упоминания сущности (строки) с присвоением определенной метки.
-        :param entity_mention: текстовое упоминание сущности (исходная строка)
-        :return: определенная метка
+        Correct entity mention (string) with the assignment of a specific label.
+        :param entity_mention: text mention of an entity (a source text)
+        :return: specific label
         """
-        # Если упоминание сущности является пустой строкой
         if entity_mention == "":
             label = LiteralLabel.EMPTY
         else:
             label = NamedEntityLabel.NONE
-            # Если упоминание сущности является каким-либо символом
             if len(entity_mention) == 1 or len(entity_mention) == 2:
                 label = LiteralLabel.SYMBOL
-            # Если упоминание сущности является датой
             if dateparser.parse(entity_mention):
                 label = LiteralLabel.DATE
-            # Если упоминание сущности является логическим значением
             if re.search(r"^'true|false|True|False|TRUE|FALSE'&", entity_mention):
                 label = LiteralLabel.BOOLEAN
-            # Если упоминание сущности является почтовым адресом (индексом)
             if re.search(r"^\d{6}$", entity_mention) or re.search(r"^\d{5}(?:[-\s]\d{4})?$", entity_mention):
                 label = LiteralLabel.MAIL
-            # Если упоминание сущности является ISSN-номером
             if re.search(r"^[0-9]{4}-[0-9]{3}[0-9xX]$", entity_mention):
                 label = LiteralLabel.ISSN
-            # Если упоминание сущности является ISBN-номером
             if re.search(r"^(?:ISBN(?:: ?| ))?((?:97[89])?\d{9}[\dx])+$", entity_mention):
                 label = LiteralLabel.ISBN
-            # Если упоминание сущности является IP-адресом
             if re.search(r"((25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(25[0-5]|2[0-4]\d|[01]?\d\d?)", entity_mention):
                 label = LiteralLabel.IP_ADDRESS_V4
-            # Если упоминание сущности является номером банковской карты
             if re.search(r"^([456][0-9]{3})-?([0-9]{4})-?([0-9]{4})-?([0-9]{4})$", entity_mention):
                 label = LiteralLabel.BANK_CARD
-            # Если упоминание сущности является цветом в 16 бит
             if re.search(r"#[0-9A-Fa-f]{6}", entity_mention):
                 label = LiteralLabel.COLOR
-            # Если упоминание сущности является адресом электронной почты
             if re.search(r"[\w.-]+@[\w.-]+\.?[\w]+?", entity_mention):
                 label = LiteralLabel.EMAIL
-            # Если упоминание сущности является координатами широты и долготы
             if re.search(r"^(-?\d+(\.\d+)?),\s*(-?\d+(\.\d+)?)$", entity_mention):
                 label = LiteralLabel.COORDINATES
-            # Если упоминание сущности является номером сотового телефона
             if re.search(r"^((?:\+\d{2}[-\.\s]??|\d{4}[-\.\s]??)?(?:\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{"
                          r"3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4}))$", entity_mention):
                 label = LiteralLabel.PHONE
-            # Если упоминание сущности является значением температуры
             if re.search(r"([+-]?\d+(\.\d+)*)\s?°([CcFf])", entity_mention):
                 label = LiteralLabel.TEMPERATURE
-            # Если упоминание сущности является URL-адресом
             if re.search(r"((http|https)\:\/\/)?[a-zA-Z0-9\.\/\?\:@\-_=#]+\.([a-zA-Z]){2,"
                          r"6}([a-zA-Z0-9\.\&\/\?\:@\-_=#])*", entity_mention):
                 label = LiteralLabel.URL
 
         return label
 
-    def recognize_named_entities(self):
-        """
-        Распознавание именованных сущностей в ячейках таблицы.
-        """
-        # Подготовка нейронного конвейера
+    def recognize_named_entities(self) -> None:
         stanza.download("en")
-        nlp = stanza.Pipeline(lang="en", processors="tokenize,ner")
-        # Обход столбцов в таблице
+        nlp = stanza.Pipeline(lang="en", processors="tokenize,ner")  # Neural pipeline preparation
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.cleared_value is not None:
-                    # Распознавание именованной сущности
-                    doc = nlp(cell.cleared_value + ".")
-                    # Формирование словаря с рузультатом распознавания именованных сущностей
+                    doc = nlp(cell.cleared_value + ".")  # Named Entity Recognition
+                    # Form list with named entity recognition results
                     recognized_named_entities = []
                     if len(doc.ents) > 1:
                         for ent in doc.ents:
@@ -358,26 +404,22 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
                         recognized_named_entities = doc.ents[0].type
                     if len(doc.ents) == 0:
                         recognized_named_entities = NamedEntityLabel.NONE
-                    # Если упоминанию сущности присвоена неопределенная метка NONE
+                    # If entity mention is assigned an undefined label - NONE
                     if not isinstance(recognized_named_entities, list):
-                        # Корректировка значения NONE на основе регулярных выражений
+                        # Clarifying NONE label based on regular expressions
                         if recognized_named_entities == NamedEntityLabel.NONE:
                             recognized_named_entities = self.determine_entity_mention(cell.cleared_value)
-                        # Уточнение типа числа на основе регулярных выражений
+                        # Clarifying number label based on regular expressions
                         if recognized_named_entities == LiteralLabel.CARDINAL:
                             recognized_named_entities = self.determine_number(cell.cleared_value, LiteralLabel.CARDINAL)
                         if recognized_named_entities == NamedEntityLabel.NONE:
                             recognized_named_entities = self.determine_number(cell.cleared_value, NamedEntityLabel.NONE)
-                    # Присваивание метки
                     cell._label = recognized_named_entities
                 else:
                     cell._label = LiteralLabel.EMPTY
 
-    def classify_columns(self):
-        """
-        Определение типов столбцов на основе распознанных именованных сущностей в ячейках таблицы.
-        """
-        # Подсчет категориальных и литеральных ячеек
+    def classify_columns(self) -> None:
+        # Counting categorical and literal cells
         categorical_number = defaultdict(int)
         literal_number = defaultdict(int)
         for column in self.table_model.columns:
@@ -390,7 +432,7 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
                     categorical_number[column.header_name] += 1
                 if cell.label in LiteralLabel.LITERAL_TAGS:
                     literal_number[column.header_name] += 1
-        # Определение типов столбцов на основе классифицированных ячейках
+        # Determining column types based on classified cells
         for key_c, value_c in categorical_number.items():
             for key_l, value_l in literal_number.items():
                 if key_c == key_l:
@@ -401,161 +443,106 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
                             else:
                                 column._column_type = ColumnType.LITERAL_COLUMN
 
-    def get_empty_cell_fraction(self, column_index: int = None):
-        """
-        Получение доли пустых ячеек для указанного столбца.
-        :param column_index: индекс столбца
-        :return: доля пустых ячеек для указанного столбца
-        """
-        # Получение столбца по его индексу
-        column = self.table_model.column(column_index)
-        # Вычисление количества пустых ячеек в столбце
+    def get_empty_cell_fraction(self, column_index: int = None) -> float:
         empty_cell_number = 0
-        for cell in column:
+        for cell in self.table_model.column(column_index):
             if not cell:
                 empty_cell_number += 1
-        # Вычисление доли пустых ячеек в столбце
-        empty_cell_fraction = empty_cell_number / self.table_model.rows_number
 
-        return empty_cell_fraction
+        return empty_cell_number / self.table_model.rows_number
 
-    def get_cell_fraction_with_acronyms(self, column_index: int = None):
-        """
-        Получение доли ячеек для указанного столбца, содержащих акронимы.
-        :param column_index: индекс столбца
-        :return: доля ячеек для указанного столбца, содержащих акронимы
-        """
-        # Получение столбца по его индексу
-        column = self.table_model.column(column_index)
-        # Вычисление количества ячеек с акронимами в столбце
+    def get_cell_fraction_with_acronyms(self, column_index: int = None) -> float:
         cell_number_with_acronyms = 0
-        for cell in column:
-            if cell is not None:
-                if re.search(r"\b[A-ZА-Я.]{2,}\b", cell):
-                    cell_number_with_acronyms += 1
-        # Вычисление доли ячеек, содержащих акронимы
-        cell_fraction_with_acronyms = cell_number_with_acronyms / self.table_model.rows_number
+        for cell in self.table_model.column(column_index):
+            if cell is not None and re.search(r"\b[A-ZА-Я.]{2,}\b", cell):
+                cell_number_with_acronyms += 1
 
-        return cell_fraction_with_acronyms
+        return cell_number_with_acronyms / self.table_model.rows_number
 
-    @staticmethod
-    def determine_prepositions_in_column_header_name(header_name: str = None):
-        """
-        Определение названий предлогов в заголовке столбца.
-        :param header_name: название заголовка столбца
-        :return: если название есть, то 1, иначе 0
-        """
-        result = 0
-        # Проверка названия заголовка столбца в нижнем регистре на предлоги
-        if header_name.lower() in SimplePreposition.SIMPLE_PREPOSITIONS or \
-                header_name.lower() in DerivedPreposition.DERIVATIVE_PREPOSITIONS or \
-                header_name.lower() in ComplexPreposition.COMPLEX_PREPOSITIONS or \
-                header_name.lower() in CompoundPreposition.COMPOUND_PREPOSITIONS:
-            result = 1
-
-        return result
-
-    def get_unique_content_cell_fraction(self, column_index: int = None):
-        """
-        Получение доли ячеек с уникальным содержимым для указанного столбца.
-        :param column_index: индекс столбца
-        :return: доля ячеек с уникальным содержимым для указанного столбца
-        """
-        # Получение столбца по его индексу
-        column = self.table_model.column(column_index)
-        # Вычисление количества ячеек с уникальным содержимым
+    def get_unique_content_cell_fraction(self, column_index: int = None) -> float:
         col = collections.Counter()
-        for cell in column:
+        for cell in self.table_model.column(column_index):
             col[cell] += 1
-        # Вычисление доли ячеек с уникальным содержимым в столбце
-        unique_content_cell_fraction = len(col) / self.table_model.rows_number
 
-        return unique_content_cell_fraction
+        return len(col) / self.table_model.rows_number
 
-    @staticmethod
-    def get_distance_from_first_ne_column(column_index: int = None):
-        """
-        Получение расстояния от первого категориального столбца до текущего указанного столбца.
-        :param column_index: индекс столбца
-        :return: расстояние от первого категориального столбца
-        """
-        distance_from_first_ne_column = column_index
+    def get_distance_from_first_ne_column(self, column_index: int = None) -> int:
+        categorical_column_index = 0
+        for column in self.table_model.columns:
+            if column.column_type == ColumnType.CATEGORICAL_COLUMN:
+                break
+            categorical_column_index += 1
+        column_number = 0
+        for i in range(categorical_column_index, self.table_model.columns_number):
+            if i < column_index:
+                column_number += 1
 
-        return distance_from_first_ne_column
+        return column_number
 
-    def get_average_word_number(self, column_index: int = None):
-        """
-        Получение среднего количества слов для указанного столбца.
-        :param column_index: индекс столбца
-        :return: среднее количество слов для указанного столбца
-        """
-        # Получение столбца по его индексу
-        column = self.table_model.column(column_index)
-        # Подсчет количества слов в ячейках
+    def get_average_word_number(self, column_index: int = None, threshold_factor: int = 0) -> float:
         total_word_number = 0
-        for cell in column:
+        for cell in self.table_model.column(column_index):
             if cell:
                 total_word_number += len(cell.split())
-        # Вычисление среднего количества слов в ячейках столбца
-        average_word_number = total_word_number / self.table_model.rows_number
+        score = total_word_number / self.table_model.rows_number  # Get a non-normalized score
 
-        return average_word_number
+        return score / threshold_factor if score <= threshold_factor else 0
+
+    def determine_prepositions_in_column_header_name(self, column_index: int = None) -> int:
+        result = 0
+        column_number = 0
+        for column in self.table_model.columns:
+            if column_number == column_index:
+                if column.header_name.lower() in SimplePreposition.SIMPLE_PREPOSITIONS or \
+                        column.header_name.lower() in DerivedPreposition.DERIVATIVE_PREPOSITIONS or \
+                        column.header_name.lower() in ComplexPreposition.COMPLEX_PREPOSITIONS or \
+                        column.header_name.lower() in CompoundPreposition.COMPOUND_PREPOSITIONS:
+                    result = 1
+            column_number += 1
+
+        return result
 
     def define_subject_column(self, column_index: int = None):
         """
         Определение сущностного (тематического) столбца на основе эвристических оценок.
         :param column_index: явное указание на номер сущностного (тематического) столбца
         """
-        # Если явно указан номер столбца, то данный столбец назначается сущностным (тематическим)
+        # If column index is explicitly specified, then this column is assigned to a subject column
         if is_float(str(column_index)) and 0 <= column_index < self.table_model.columns_number:
-            i = 0
-            for column in self.table_model.columns:
-                if column_index == i:
-                    column._column_type = ColumnType.SUBJECT_COLUMN
-                i += 1
+            for i in range(self.table_model.columns_number):
+                if self.table_model.column(i) == column_index:
+                    self.table_model.column(i)._column_type = ColumnType.SUBJECT_COLUMN
         else:
-            index = 0
-            sub_col = dict()
+            column_index = 0
+            sub_col = {}
             for column in self.table_model.columns:
                 if column.column_type == ColumnType.CATEGORICAL_COLUMN:
-                    # Получение доли пустых ячеек
-                    empty_cell_fraction = self.get_empty_cell_fraction(index)
-                    # Получение доли ячеек с акронимами
-                    cell_fraction_with_acronyms = self.get_cell_fraction_with_acronyms(index)
-                    # Определение предлогов в названии заголовка столбца
-                    hpn = self.determine_prepositions_in_column_header_name(column.header_name)
-                    # Получение доли ячеек с уникальным содержимым
-                    unique_content_cell_fraction = self.get_unique_content_cell_fraction(index)
-                    # Получение расстояния от первого сущностного столбца
-                    distance_from_first_ne_column = self.get_distance_from_first_ne_column(index)
-                    # Получение среднего количества слов
-                    average_word_number = self.get_average_word_number(index)
-                    # Нормализация ранга, полученного путем подсчета среднего количества слов
-                    awn = 0
-                    if average_word_number <= Coefficient.THRESHOLD_COEFFICIENT:
-                        awn = average_word_number / Coefficient.THRESHOLD_COEFFICIENT
-                    # Вычисление штрафной оценки
-                    penalty_rank = Coefficient.WEIGHTING_FACTOR_3 * empty_cell_fraction + \
-                                   Coefficient.WEIGHTING_FACTOR_4 * cell_fraction_with_acronyms + \
-                                   Coefficient.WEIGHTING_FACTOR_5 * hpn
-                    # Вычисление итогового ранга (оценки)
-                    sub_col[column.header_name] = (Coefficient.WEIGHTING_FACTOR_1 * unique_content_cell_fraction +
-                                                   Coefficient.WEIGHTING_FACTOR_2 * awn - penalty_rank) / sqrt(
-                                                    distance_from_first_ne_column + 1)
-                    print("Final score for '" + str(column.header_name) + "' (subject column) = " +
+                    # Calculate heuristics
+                    ucf = self.get_unique_content_cell_fraction(column_index)
+                    awn = self.get_average_word_number(column_index, 10)
+                    ecf = self.get_empty_cell_fraction(column_index)
+                    cfa = self.get_cell_fraction_with_acronyms(column_index)
+                    hpn = self.determine_prepositions_in_column_header_name(column_index)
+                    dfc = self.get_distance_from_first_ne_column(column_index)
+                    # Get score
+                    score = WeightingFactor.UCF * ucf + WeightingFactor.AWN * awn
+                    # Get penalty score
+                    penalty_score = WeightingFactor.ECF * ecf + WeightingFactor.CFA * cfa + WeightingFactor.HPN * hpn
+                    # Get total score
+                    sub_col[column.header_name] = (score - penalty_score) / sqrt(dfc + 1)
+                    print("Total score for '" + str(column.header_name) + "' (candidate subject column) = " +
                           str(sub_col[column.header_name]))
-                index += 1
-            # Определение столбца с максимальной оценкой в качестве сущностного
-            subject_key = max(sub_col.items(), key=operator.itemgetter(1))[0]
+                column_index += 1
+            # Define current column with highest score as subject column
             for column in self.table_model.columns:
-                if column.header_name == subject_key:
+                if column.header_name == max(sub_col.items(), key=operator.itemgetter(1))[0]:
                     column._column_type = ColumnType.SUBJECT_COLUMN
 
 
 def test_ner(text):
     """
-    Функция для тестирвоания распознавания именованных сущностей в тексте.
-    :param text: исходный текст
+    Test recognition of named entities in a source text.
+    :param text: a source text
     """
     stanza.download("en")
     nlp = stanza.Pipeline(lang="en", processors="tokenize,ner")

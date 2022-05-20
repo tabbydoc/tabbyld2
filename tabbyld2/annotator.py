@@ -90,7 +90,7 @@ class AbstractSemanticTableAnnotator(ABC):
     __slots__ = ()
 
     @abstractmethod
-    def find_candidate_entities(self, only_subject_column: bool = False):
+    def find_candidate_entities(self, only_subject_column: bool = False) -> None:
         """
         Find a set of candidate entities based on a textual entity mention.
         :param only_subject_column: flag to include or exclude all columns from result
@@ -98,7 +98,7 @@ class AbstractSemanticTableAnnotator(ABC):
         pass
 
     @abstractmethod
-    def rank_candidate_entities_by_string_similarity(self):
+    def rank_candidate_entities_by_string_similarity(self) -> None:
         """
         Rank a set of candidate entities for cell values of categorical columns including a subject column
         by using a string similarity.
@@ -107,80 +107,80 @@ class AbstractSemanticTableAnnotator(ABC):
         pass
 
     @abstractmethod
-    def rank_candidate_entities_by_ner_based_similarity(self):
+    def rank_candidate_entities_by_ner_based_similarity(self) -> None:
         """
         Rank a set of candidate entities for cell values of categorical columns including a subject column
         by using a NER based similarity.
         """
 
     @abstractmethod
-    def rank_candidate_entities_by_heading_based_similarity(self):
+    def rank_candidate_entities_by_heading_based_similarity(self) -> None:
         """
         Rank a set of candidate entities for cell values of categorical columns including a subject column
         by using a heading based similarity.
         """
 
     @abstractmethod
-    def rank_candidate_entities_by_entity_embeddings_based_similarity(self):
+    def rank_candidate_entities_by_entity_embeddings_based_similarity(self) -> None:
         """
         Rank a set of candidate entities for cell values of categorical columns including a subject column
         by using an entity embeddings based similarity.
         """
 
     @abstractmethod
-    def rank_candidate_entities_by_context_based_similarity(self):
+    def rank_candidate_entities_by_context_based_similarity(self) -> None:
         """
         Rank a set of candidate entities for cell values of categorical columns including a subject column
         by using a context based similarity.
         """
 
     @abstractmethod
-    def aggregate_ranked_candidate_entities(self):
+    def aggregate_ranked_candidate_entities(self) -> None:
         """
         Aggregate scores for candidate entities based on five heuristics.
         """
         pass
 
     @abstractmethod
-    def annotate_cells(self):
+    def annotate_cells(self) -> None:
         """
         Annotate all cell values.
         """
         pass
 
     @abstractmethod
-    def rank_candidate_classes_by_majority_voting(self):
+    def rank_candidate_classes_by_majority_voting(self) -> None:
         """
         Rank candidate classes for categorical columns including a subject column by using a majority voting.
         """
         pass
 
     @abstractmethod
-    def rank_candidate_classes_by_heading_similarity(self):
+    def rank_candidate_classes_by_heading_similarity(self) -> None:
         """
         Rank candidate classes for categorical columns including a subject column by using a heading similarity.
         """
 
     @abstractmethod
-    def rank_candidate_classes_by_column_type_prediction(self):
+    def rank_candidate_classes_by_column_type_prediction(self) -> None:
         """
         Rank candidate classes for categorical columns including a subject column by using a column type prediction.
         """
 
     @abstractmethod
-    def aggregate_ranked_candidate_classes(self):
+    def aggregate_ranked_candidate_classes(self) -> None:
         """
         Aggregate scores for candidate classes based on three methods.
         """
 
     @abstractmethod
-    def annotate_categorical_columns(self):
+    def annotate_categorical_columns(self) -> None:
         """
         Annotate all categorical columns including a subject column.
         """
 
     @abstractmethod
-    def annotate_literal_columns(self):
+    def annotate_literal_columns(self) -> None:
         """
         Annotate all literal columns based on recognized named entities (NER) in cells.
         """
@@ -194,7 +194,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
     def table_model(self):
         return self._table_model
 
-    def find_candidate_entities(self, only_subject_column: bool = False):
+    def find_candidate_entities(self, only_subject_column: bool = False) -> None:
         for column in self.table_model.columns:
             if (column.column_type == ColumnType.CATEGORICAL_COLUMN and not only_subject_column) or \
                     column.column_type == ColumnType.SUBJECT_COLUMN:
@@ -250,7 +250,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
 
         return normalized_levenshtein_distance
 
-    def rank_candidate_entities_by_string_similarity(self):
+    def rank_candidate_entities_by_string_similarity(self) -> None:
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.candidate_entities is not None:
@@ -259,7 +259,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                                                                                             candidate_entity.uri)
         print("Ranking of candidate entities by string similarity is complete.")
 
-    def rank_candidate_entities_by_ner_based_similarity(self):
+    def rank_candidate_entities_by_ner_based_similarity(self) -> None:
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.candidate_entities is not None:
@@ -272,7 +272,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         candidate_entity._ner_based_similarity = 1 if int(distance_to_class) > 0 else 0
         print("Ranking of candidate entities by NER based similarity is complete.")
 
-    def rank_candidate_entities_by_heading_based_similarity(self):
+    def rank_candidate_entities_by_heading_based_similarity(self) -> None:
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.candidate_entities is not None:
@@ -280,7 +280,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         candidate_entity._heading_based_similarity = 0
         print("Ranking of candidate entities by heading based similarity is complete.")
 
-    def rank_candidate_entities_by_entity_embeddings_based_similarity(self):
+    def rank_candidate_entities_by_entity_embeddings_based_similarity(self) -> None:
         list_new = []
         dictionary_new = {}
         list_words = []
@@ -377,7 +377,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
         os.remove("rdf2vec.model")
         print("Ranking of candidate entities by entity embeddings based similarity is complete.")
 
-    def rank_candidate_entities_by_context_based_similarity(self):
+    def rank_candidate_entities_by_context_based_similarity(self) -> None:
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.candidate_entities is not None:
@@ -385,7 +385,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         candidate_entity._context_based_similarity = 0
         print("Ranking of candidate entities by context based similarity is complete.")
 
-    def aggregate_ranked_candidate_entities(self):
+    def aggregate_ranked_candidate_entities(self) -> None:
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.candidate_entities is not None:
@@ -393,13 +393,13 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         candidate_entity.aggregate_scores()
         print("Aggregation of scores for candidate entities is complete.")
 
-    def annotate_cells(self):
+    def annotate_cells(self) -> None:
         for column in self.table_model.columns:
             for cell in column.cells:
                 cell.annotate_cell()
         print("Annotation of table cell values is completed.")
 
-    def rank_candidate_classes_by_majority_voting(self):
+    def rank_candidate_classes_by_majority_voting(self) -> None:
         for column in self.table_model.columns:
             if column.column_type == ColumnType.CATEGORICAL_COLUMN or column.column_type == ColumnType.SUBJECT_COLUMN:
                 frequency = Counter()
@@ -421,34 +421,34 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         column._candidate_classes += (class_model,)
         print("Ranking of candidate classes by majority voting is complete.")
 
-    def rank_candidate_classes_by_heading_similarity(self):
+    def rank_candidate_classes_by_heading_similarity(self) -> None:
         for column in self.table_model.columns:
             if column.candidate_classes is not None:
                 for candidate_class in column.candidate_classes:
                     candidate_class._heading_similarity = 0
         print("Ranking of candidate classes by heading similarity is complete.")
 
-    def rank_candidate_classes_by_column_type_prediction(self):
+    def rank_candidate_classes_by_column_type_prediction(self) -> None:
         for column in self.table_model.columns:
             if column.candidate_classes is not None:
                 for candidate_class in column.candidate_classes:
                     candidate_class._column_type_prediction_score = 0
         print("Ranking of candidate classes by column type prediction is complete.")
 
-    def aggregate_ranked_candidate_classes(self):
+    def aggregate_ranked_candidate_classes(self) -> None:
         for column in self.table_model.columns:
             if column.candidate_classes is not None:
                 for candidate_class in column.candidate_classes:
                     candidate_class.aggregate_scores()
         print("Aggregation of scores for candidate classes is complete.")
 
-    def annotate_categorical_columns(self):
+    def annotate_categorical_columns(self) -> None:
         for column in self.table_model.columns:
             if column.column_type == ColumnType.CATEGORICAL_COLUMN or column.column_type == ColumnType.SUBJECT_COLUMN:
                 column.annotate_column()
         print("Annotation of categorical (named entity) columns of table is completed.")
 
-    def annotate_literal_columns(self):
+    def annotate_literal_columns(self) -> None:
         for column in self.table_model.columns:
             if column.column_type == ColumnType.LITERAL_COLUMN:
                 xml_schema_data_types = []
