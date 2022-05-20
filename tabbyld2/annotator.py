@@ -228,24 +228,24 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                     print("The candidate entity lookup for '" + str(cell.cleared_value) + "' cell is complete.")
 
     @staticmethod
-    def get_levenshtein_distance(entity_mention: str = None, candidate_entity: str = None,
-                                 underscore_replacement: bool = True, short_name: bool = True) -> float:
+    def get_levenshtein_distance(text_mention: str = None, candidate: str = None, underscore_replacement: bool = True,
+                                 short_name: bool = True) -> float:
         """
         Calculate the Levenshtein distance (edit distance) between two strings.
-        :param entity_mention: a textual entity mention
-        :param candidate_entity: an entity from a set of candidates
+        :param text_mention: a textual mention of entity or class
+        :param candidate: an candidate concept (entity or class)
         :param underscore_replacement: flag to enable or disable replace mode of underscore character with a space
-        :param short_name: flag to enable or disable short entity name display mode (without full URI)
+        :param short_name: flag to enable or disable short concept name display mode (without full URI)
         :return: normalized Levenshtein distance in the range [0, ..., 1]
         """
         if underscore_replacement:
-            candidate_entity = candidate_entity.replace("_", " ")
+            candidate = candidate.replace("_", " ")
         if short_name:
-            candidate_entity = candidate_entity.replace("http://dbpedia.org/resource/", "")
+            candidate = candidate.replace("http://dbpedia.org/resource/", "").replace("http://dbpedia.org/ontology/", "")
         # Calculate Levenshtein distance
-        levenshtein_distance = distance(entity_mention, candidate_entity)
+        levenshtein_distance = distance(text_mention, candidate)
         # Normalize Levenshtein distance
-        max_range = max([len(entity_mention), len(candidate_entity)])
+        max_range = max([len(text_mention), len(candidate)])
         normalized_levenshtein_distance = 1 - ((levenshtein_distance - 0) / (max_range - 0))
 
         return normalized_levenshtein_distance
@@ -403,29 +403,45 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
         for column in self.table_model.columns:
             if column.column_type == ColumnType.CATEGORICAL_COLUMN or column.column_type == ColumnType.SUBJECT_COLUMN:
                 frequency = Counter()
+                dbpedia_classes = {}
                 for cell in column.cells:
                     # Get a set of classes from DBpedia for a referent entity
-                    dbpedia_classes = dbs.get_classes_for_entity(cell.annotation, False)
+                    response = dbs.get_classes_for_entity(cell.annotation, False)
+                    dbpedia_classes.update(response)
                     # Calculate a class occurrence frequency
-                    frequency.update(Counter(dbpedia_classes))
+                    frequency.update(Counter([*response]))
                 # Sort by frequency
                 result = dict(sorted(dict(frequency).items(), key=lambda item: item[1], reverse=True))
                 if result:
                     # Normalize scores based on frequency
-                    column._candidate_classes = tuple()
-                    max_range = list(result.values())[0]
-                    min_range = list(result.values())[-1]
+                    column._candidate_classes = []
                     for key, value in result.items():
-                        score = (value - min_range) / (max_range - min_range) if max_range - min_range != 0 else 0
-                        class_model = ClassModel(key, None, None, score)
+                        score = value / list(result.values())[0] if list(result.values())[0] != 0 else 0
+                        class_model = ClassModel(key, dbpedia_classes.get(key)[0], dbpedia_classes.get(key)[1], score)
                         column._candidate_classes += (class_model,)
         print("Ranking of candidate classes by majority voting is complete.")
 
     def rank_candidate_classes_by_heading_similarity(self) -> None:
         for column in self.table_model.columns:
-            if column.candidate_classes is not None:
-                for candidate_class in column.candidate_classes:
-                    candidate_class._heading_similarity = 0
+            if column.column_type == ColumnType.CATEGORICAL_COLUMN or column.column_type == ColumnType.SUBJECT_COLUMN:
+                # Get a set of candidate classes using the DBpedia SPARQL Endpoint
+                candidate_classes = dbs.get_candidate_classes(column.header_name, False)
+                # Add new candidate classes
+                if candidate_classes:
+                    for candidate_class in candidate_classes:
+                        # Calculate Levenshtein distance between column header name and class URI
+                        levenshtein_distance = self.get_levenshtein_distance(column.header_name, candidate_class[0])
+                        exist_class = False
+                        for col_cls in column.candidate_classes:
+                            if candidate_class[0] == col_cls.uri:
+                                exist_class = True
+                                col_cls._heading_similarity = levenshtein_distance  # Update score
+                        # Form new class model
+                        if not exist_class:
+                            if column.candidate_classes is None:
+                                column._candidate_classes = []
+                            column._candidate_classes += (ClassModel(candidate_class[0], candidate_class[1],
+                                                                     candidate_class[2], 0, levenshtein_distance),)
         print("Ranking of candidate classes by heading similarity is complete.")
 
     def rank_candidate_classes_by_column_type_prediction(self) -> None:
