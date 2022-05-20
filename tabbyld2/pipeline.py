@@ -1,4 +1,5 @@
 import tabbyld2.utility as utl
+from typing import Optional
 from tabbyld2.annotator import SemanticTableAnnotator
 from tabbyld2.column_classifier import TableColumnClassifier
 from tabbyld2.config import ResultPath
@@ -6,7 +7,8 @@ from tabbyld2.knowledge_graph_model import EntityRankingMethod, ClassRankingMeth
 from tabbyld2.tabular_data_model import TableModel
 
 
-def pipeline_preprocessing(table_model: TableModel = None, file: str = None, include_serialization: bool = True):
+def pipeline_preprocessing(table_model: TableModel = None, file: str = None, include_serialization: bool = True) \
+        -> Optional[TableModel]:
     """
     Pipeline for table preprocessing procedure, including named-entity recognition for cells, columns classification and
     subject column identification.
@@ -38,7 +40,7 @@ def pipeline_preprocessing(table_model: TableModel = None, file: str = None, inc
 
 
 def pipeline_cell_entity_annotation(table_model: TableModel = None, file: str = None,
-                                    include_serialization: bool = True):
+                                    include_serialization: bool = True) -> Optional[TableModel]:
     """
     Pipeline for cell entity annotation (CEA) task.
     :param table_model: table model
@@ -93,7 +95,7 @@ def pipeline_cell_entity_annotation(table_model: TableModel = None, file: str = 
 
 
 def pipeline_column_type_annotation(table_model: TableModel = None, file: str = None,
-                                    include_serialization: bool = True):
+                                    include_serialization: bool = True) -> Optional[TableModel]:
     """
     Pipeline for column type annotation (CTA) task.
     :param table_model: table model

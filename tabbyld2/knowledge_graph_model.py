@@ -1,45 +1,35 @@
-from abc import ABC, abstractmethod
 from typing import Any
+from abc import ABC, abstractmethod
 
 
 class EntityRankingMethod:
-    # Сходства строк
     STRING_SIMILARITY = "string similarity"
-    # Сходства на основе NER-классов
     NER_BASED_SIMILARITY = "ner based similarity"
-    # Сходство на основе заголовка
     HEADING_BASED_SIMILARITY = "heading based similarity"
-    # Сходство на основе семантической близости сущностей кандидатов
     ENTITY_EMBEDDINGS_BASED_SIMILARITY = "entity embeddings based similarity"
-    # Сходство на основе контекста
     CONTEXT_BASED_SIMILARITY = "context based similarity"
-    # Агрегация оценок (рангов)
     SCORES_AGGREGATION = "scores aggregation"
 
 
 class EntityRankingWeightFactor:
-    STRING_SIMILARITY = 1  # Сходства строк
-    NER_BASED_SIMILARITY = 1  # Сходства на основе NER-классов
-    HEADING_BASED_SIMILARITY = 1  # Сходство на основе заголовка
-    ENTITY_EMBEDDINGS_BASED_SIMILARITY = 1  # Сходство на основе семантической близости сущностей кандидатов
-    CONTEXT_BASED_SIMILARITY = 1  # Сходство на основе контекста
+    STRING_SIMILARITY = 1
+    NER_BASED_SIMILARITY = 1
+    HEADING_BASED_SIMILARITY = 1
+    ENTITY_EMBEDDINGS_BASED_SIMILARITY = 1
+    CONTEXT_BASED_SIMILARITY = 1
 
 
 class ClassRankingMethod:
-    # Голосование большинством
     MAJORITY_VOTING = "majority voting"
-    # Сходство заголовка
     HEADING_SIMILARITY = "heading similarity"
-    # Прогнозирования класса
     COLUMN_TYPE_PREDICTION = "column type prediction"
-    # Агрегация оценок (рангов)
     SCORES_AGGREGATION = "scores aggregation"
 
 
 class ClassRankingWeightFactor:
-    MAJORITY_VOTING = 1  # Голосование большинством
-    HEADING_SIMILARITY = 1  # Сходство заголовка
-    COLUMN_TYPE_PREDICTION = 1  # Прогнозирования класса
+    MAJORITY_VOTING = 1
+    HEADING_SIMILARITY = 1
+    COLUMN_TYPE_PREDICTION = 1
 
 
 class AbstractEntityModel(ABC):

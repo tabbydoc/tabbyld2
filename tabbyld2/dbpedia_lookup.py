@@ -7,7 +7,7 @@ import requests
 URL = ""
 
 
-def init(port=9274):
+def init(port=9274) -> None:
     """
     Change port to start the DBpedia Lookup service.
     :param port: port number (when importing a library, port 9274 is set by default)

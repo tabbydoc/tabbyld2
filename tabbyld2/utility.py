@@ -3,7 +3,6 @@ import json
 import shutil
 from pathlib import Path
 from typing import Optional, Dict
-from tabbyld2.config import ResultPath
 
 
 def is_float(string):
