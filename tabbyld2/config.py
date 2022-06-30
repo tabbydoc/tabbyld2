@@ -47,7 +47,7 @@ class EvaluationPath:
     # Path to instances in CSV format from T2Dv2 dataset
     T2DV2_INSTANCE = str(Path(__file__).parent.parent) + "/datasets/T2Dv2/instance/"
     # File of class checked for T2Dv2 dataset
-    T2DV2_CLASS_CHECKED = "col_class_checked_fg.csv"
+    T2DV2_CLASS_CHECKED = "extend_col_class_checked_fg.csv"
 
     # Path to save evaluations in the form json files
     EVALUATION_PATH = str(Path(__file__).parent.parent) + "/results/evaluation/"
