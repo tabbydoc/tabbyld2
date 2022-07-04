@@ -49,9 +49,8 @@ class EntityModel(AbstractEntityModel, EntityRankingWeightFactor):
                  "_context_based_similarity", "_final_score")
 
     def __init__(self, uri: Any = None, label: str = None, comment: str = None, string_similarity: float = 0,
-                 ner_based_similarity: float = 0, heading_based_similarity: float = 0,
-                 entity_embeddings_based_similarity: float = 0, context_based_similarity: float = 0,
-                 final_score: float = 0):
+                 ner_based_similarity: float = 0, heading_based_similarity: float = 0, entity_embeddings_based_similarity: float = 0,
+                 context_based_similarity: float = 0, final_score: float = 0):
         self._uri = uri
         self._label = label
         self._comment = comment

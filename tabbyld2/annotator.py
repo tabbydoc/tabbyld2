@@ -1,6 +1,8 @@
 import os
 from abc import ABC, abstractmethod
 from collections import Counter
+from typing import Tuple
+
 from Levenshtein._levenshtein import distance
 from pyrdf2vec.graphs import KG
 from pyrdf2vec import RDF2VecTransformer
@@ -40,8 +42,8 @@ class OntologyClass:
 
 CLASS_MAPPING = {
     NamedEntityLabel.LOCATION: [OntologyClass.PARK, OntologyClass.MINE, OntologyClass.GARDEN, OntologyClass.WINE_REGION,
-                                OntologyClass.NATURAL_PLACE, OntologyClass.PROTECTED_AREA,
-                                OntologyClass.WORLD_HERITAGE_SITE, OntologyClass.SITE_OF_SPECIAL_SCIENTIFIC_INTEREST],
+                                OntologyClass.NATURAL_PLACE, OntologyClass.PROTECTED_AREA, OntologyClass.WORLD_HERITAGE_SITE,
+                                OntologyClass.SITE_OF_SPECIAL_SCIENTIFIC_INTEREST],
     NamedEntityLabel.GPE: OntologyClass.POPULATED_PLACE,
     NamedEntityLabel.NORP: OntologyClass.ETHNIC_GROUP,
     NamedEntityLabel.PERSON: OntologyClass.PERSON,
@@ -204,8 +206,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         candidate_entities_from_dbs = dbs.get_candidate_entities(cell.cleared_value, False)
                         # Form dict of candidate entity models
                         if candidate_entities_from_dbs:
-                            cell._candidate_entities = [EntityModel(item[0], item[1], item[2]) for item in
-                                                        candidate_entities_from_dbs]
+                            cell._candidate_entities = [EntityModel(item[0], item[1], item[2]) for item in candidate_entities_from_dbs]
                         # Get a set of candidate entities using the DBpedia Lookup
                         candidate_entities_from_dbl = dbl.get_candidate_entities(cell.cleared_value, 100, None, False)
                         # Form dict of candidate entity models
@@ -228,12 +229,13 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                     print("The candidate entity lookup for '" + str(cell.cleared_value) + "' cell is complete.")
 
     @staticmethod
-    def get_levenshtein_distance(text_mention: str = None, candidate: str = None, underscore_replacement: bool = True,
-                                 short_name: bool = True) -> float:
+    def get_levenshtein_distance(text_mention: str = None, candidate: str = None, candidates: Tuple = None,
+                                 underscore_replacement: bool = True, short_name: bool = True) -> float:
         """
         Calculate the Levenshtein distance (edit distance) between two strings.
         :param text_mention: a textual mention of entity or class
         :param candidate: an candidate concept (entity or class)
+        :param candidates: a set of candidate concepts (entities or classes)
         :param underscore_replacement: flag to enable or disable replace mode of underscore character with a space
         :param short_name: flag to enable or disable short concept name display mode (without full URI)
         :return: normalized Levenshtein distance in the range [0, ..., 1]
@@ -245,7 +247,11 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
         # Calculate Levenshtein distance
         levenshtein_distance = distance(text_mention, candidate)
         # Normalize Levenshtein distance
-        max_range = max([len(text_mention), len(candidate)])
+        max_range = len(text_mention)
+        for c in candidates:
+            cnd = c.uri.replace("http://dbpedia.org/resource/", "").replace("http://dbpedia.org/ontology/", "") if short_name else c.uri
+            if len(cnd) > max_range:
+                max_range = len(cnd)
         normalized_levenshtein_distance = 1 - ((levenshtein_distance - 0) / (max_range - 0))
 
         return normalized_levenshtein_distance
@@ -255,8 +261,8 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
             for cell in column.cells:
                 if cell.candidate_entities is not None:
                     for candidate_entity in cell.candidate_entities:
-                        candidate_entity._string_similarity = self.get_levenshtein_distance(cell.cleared_value,
-                                                                                            candidate_entity.uri)
+                        candidate_entity._string_similarity = self.get_levenshtein_distance(cell.cleared_value, candidate_entity.uri,
+                                                                                            cell.candidate_entities)
         print("Ranking of candidate entities by string similarity is complete.")
 
     def rank_candidate_entities_by_ner_based_similarity(self) -> None:
@@ -401,7 +407,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
 
     def rank_candidate_classes_by_majority_voting(self) -> None:
         for column in self.table_model.columns:
-            if column.column_type == ColumnType.CATEGORICAL_COLUMN or column.column_type == ColumnType.SUBJECT_COLUMN:
+            if column.column_type != ColumnType.LITERAL_COLUMN:
                 frequency = Counter()
                 dbpedia_classes = {}
                 for cell in column.cells:
@@ -423,25 +429,20 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
 
     def rank_candidate_classes_by_heading_similarity(self) -> None:
         for column in self.table_model.columns:
-            if column.column_type == ColumnType.CATEGORICAL_COLUMN or column.column_type == ColumnType.SUBJECT_COLUMN:
+            if column.column_type != ColumnType.LITERAL_COLUMN:
                 # Get a set of candidate classes using the DBpedia SPARQL Endpoint
                 candidate_classes = dbs.get_candidate_classes(column.header_name, False)
-                # Add new candidate classes
                 if candidate_classes:
+                    if column.candidate_classes is None:
+                        column._candidate_classes = []
                     for candidate_class in candidate_classes:
+                        # Add new candidate classes
+                        column._candidate_classes += (ClassModel(candidate_class[0], candidate_class[1], candidate_class[2]),)
+                if column.candidate_classes is not None:
+                    for candidate_class in column.candidate_classes:
                         # Calculate Levenshtein distance between column header name and class URI
-                        levenshtein_distance = self.get_levenshtein_distance(column.header_name, candidate_class[0])
-                        exist_class = False
-                        for col_cls in column.candidate_classes:
-                            if candidate_class[0] == col_cls.uri:
-                                exist_class = True
-                                col_cls._heading_similarity = levenshtein_distance  # Update score
-                        # Form new class model
-                        if not exist_class:
-                            if column.candidate_classes is None:
-                                column._candidate_classes = []
-                            column._candidate_classes += (ClassModel(candidate_class[0], candidate_class[1],
-                                                                     candidate_class[2], 0, levenshtein_distance),)
+                        candidate_class._heading_similarity = self.get_levenshtein_distance(column.header_name, candidate_class.uri,
+                                                                                            column.candidate_classes)
         print("Ranking of candidate classes by heading similarity is complete.")
 
     def rank_candidate_classes_by_column_type_prediction(self) -> None:
@@ -460,7 +461,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
 
     def annotate_categorical_columns(self) -> None:
         for column in self.table_model.columns:
-            if column.column_type == ColumnType.CATEGORICAL_COLUMN or column.column_type == ColumnType.SUBJECT_COLUMN:
+            if column.column_type != ColumnType.LITERAL_COLUMN:
                 column.annotate_column()
         print("Annotation of categorical (named entity) columns of table is completed.")
 
