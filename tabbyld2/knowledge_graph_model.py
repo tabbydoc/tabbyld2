@@ -159,6 +159,5 @@ class ClassModel(AbstractClassModel, ClassRankingWeightFactor):
         return self._final_score
 
     def aggregate_scores(self):
-        self._final_score = self.majority_voting_score * self.MAJORITY_VOTING + \
-                            self.heading_similarity * self.HEADING_SIMILARITY + \
-                            self.column_type_prediction_score * self.COLUMN_TYPE_PREDICTION
+        self._final_score = (self.majority_voting_score * self.MAJORITY_VOTING + self.heading_similarity * self.HEADING_SIMILARITY
+                             + self.column_type_prediction_score * self.COLUMN_TYPE_PREDICTION)

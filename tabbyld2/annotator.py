@@ -436,13 +436,21 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                     if column.candidate_classes is None:
                         column._candidate_classes = []
                     for candidate_class in candidate_classes:
-                        # Add new candidate classes
-                        column._candidate_classes += (ClassModel(candidate_class[0], candidate_class[1], candidate_class[2]),)
+                        # Find duplicate candidate class
+                        exist_class = False
+                        for c in column.candidate_classes:
+                            if c.uri == candidate_class[0]:
+                                exist_class = True
+                        if not exist_class:
+                            # Add new candidate classes
+                            column._candidate_classes += (ClassModel(candidate_class[0], candidate_class[1], candidate_class[2]),)
                 if column.candidate_classes is not None:
                     for candidate_class in column.candidate_classes:
                         # Calculate Levenshtein distance between column header name and class URI
                         candidate_class._heading_similarity = self.get_levenshtein_distance(column.header_name, candidate_class.uri,
                                                                                             column.candidate_classes)
+                    # Sort candidate classes by heading similarity
+                    column.candidate_classes.sort(key=lambda c: c.heading_similarity, reverse=True)
         print("Ranking of candidate classes by heading similarity is complete.")
 
     def rank_candidate_classes_by_column_type_prediction(self) -> None:
@@ -457,6 +465,8 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
             if column.candidate_classes is not None:
                 for candidate_class in column.candidate_classes:
                     candidate_class.aggregate_scores()
+                    print(candidate_class.uri + " / " + str(candidate_class.final_score))
+                column.candidate_classes.sort(key=lambda c: c.final_score, reverse=True)  # Sort candidate classes by final score
         print("Aggregation of scores for candidate classes is complete.")
 
     def annotate_categorical_columns(self) -> None:
@@ -470,9 +480,9 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
             if column.column_type == ColumnType.LITERAL_COLUMN:
                 xml_schema_data_types = []
                 for cell in column.cells:
-                    # Mapping between NER and XML Schema datatype
-                    datatype = DATATYPE_MAPPING.get(cell.label) if DATATYPE_MAPPING.get(
-                        cell.label) is not None else XMLSchemaDataType.STRING
-                    xml_schema_data_types.append(datatype)
+                    for label in cell.label:
+                        # Mapping between NER and XML Schema datatype
+                        datatype = DATATYPE_MAPPING.get(label) if DATATYPE_MAPPING.get(label) is not None else XMLSchemaDataType.STRING
+                        xml_schema_data_types.append(datatype)
                 column._annotation = [dt for dt, dt_count in Counter(xml_schema_data_types).most_common(1)][0]
         print("Annotation of literal columns of table is completed.")
