@@ -188,7 +188,7 @@ class T2Dv2TableEvaluation(TableEvaluation):
         # Calculate evaluations
         self._column_type_annotation_evaluation = AdditionalEvaluation()
         self._column_type_annotation_evaluation._average_hierarchical_score = (1 * perfect_annotations + 0.5 * okay_annotations - 1 * wrong_annotations) / len(column_indices)
-        self._column_type_annotation_evaluation._average_perfect_score = perfect_annotations / all_annotations
+        self._column_type_annotation_evaluation._average_perfect_score = perfect_annotations / all_annotations if all_annotations != 0 else 0
 
 
 def evaluate_t2dv2_dataset():
@@ -281,7 +281,7 @@ def evaluate_t2dv2_dataset():
         # Get column classification evaluations for all tables from T2Dv2 dataset
         cc_precision = cc_precision / len(table_evaluations)
         cc_recall = cc_recall / len(table_evaluations)
-        cc_f1_score = (2 * cc_precision * cc_recall) / (cc_precision + cc_recall)
+        cc_f1_score = (2 * cc_precision * cc_recall) / (cc_precision + cc_recall) if cc_precision != 0 and cc_recall != 0 else 0
         print("***************************************************")
         print("Total evaluation for column classification:")
         print("precision = " + str(cc_precision))
@@ -290,7 +290,7 @@ def evaluate_t2dv2_dataset():
         # Get subject column identification evaluations for all tables from T2Dv2 dataset
         sci_precision = sci_precision / len(table_evaluations)
         sci_recall = sci_recall / len(table_evaluations)
-        sci_f1_score = (2 * sci_precision * sci_recall) / (sci_precision + sci_recall)
+        sci_f1_score = (2 * sci_precision * sci_recall) / (sci_precision + sci_recall) if sci_precision != 0 and sci_recall != 0 else 0
         print("***************************************************")
         print("Total evaluation for subject column identification:")
         print("precision = " + str(sci_precision))
@@ -299,7 +299,7 @@ def evaluate_t2dv2_dataset():
         # Get cell entity annotation evaluations for all tables from T2Dv2 dataset
         cea_precision = cea_precision / len(table_evaluations)
         cea_recall = cea_recall / len(table_evaluations)
-        cea_f1_score = (2 * cea_precision * cea_recall) / (cea_precision + cea_recall)
+        cea_f1_score = (2 * cea_precision * cea_recall) / (cea_precision + cea_recall) if cea_precision != 0 and cea_recall != 0 else 0
         print("***************************************************")
         print("Total evaluation for cell entity annotation:")
         print("precision = " + str(cea_precision))

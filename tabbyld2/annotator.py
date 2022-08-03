@@ -465,7 +465,6 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
             if column.candidate_classes is not None:
                 for candidate_class in column.candidate_classes:
                     candidate_class.aggregate_scores()
-                    print(candidate_class.uri + " / " + str(candidate_class.final_score))
                 column.candidate_classes.sort(key=lambda c: c.final_score, reverse=True)  # Sort candidate classes by final score
         print("Aggregation of scores for candidate classes is complete.")
 
