@@ -7,7 +7,7 @@ from math import sqrt
 from typing import Any
 from abc import ABC, abstractmethod
 from collections import defaultdict
-from tabbyld2.utility import is_float
+from tabbyld2.utility import is_float, is_int
 from tabbyld2.tabular_data_model import TableModel
 
 
@@ -508,10 +508,12 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
         :param column_index: явное указание на номер сущностного (тематического) столбца
         """
         # If column index is explicitly specified, then this column is assigned to a subject column
-        if is_float(str(column_index)) and 0 <= column_index < self.table_model.columns_number:
-            for i in range(self.table_model.columns_number):
-                if self.table_model.column(i) == column_index:
-                    self.table_model.column(i)._column_type = ColumnType.SUBJECT_COLUMN
+        if is_int(str(column_index)) and 0 <= column_index < self.table_model.columns_number:
+            i = 0
+            for column in self.table_model.columns:
+                if column_index == i:
+                    column._column_type = ColumnType.SUBJECT_COLUMN
+                i += 1
         else:
             column_index = 0
             sub_col = {}
