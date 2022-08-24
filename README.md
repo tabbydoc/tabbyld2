@@ -57,11 +57,34 @@ Next, you need to install all requirements for this project:
 pip install -r requirements.txt
 ```
 
-*We recommend you to use Python 3.0 or more.*
+*We recommend you to use Python 3.7 or more.*
 
 #### Additional software
 
-In addition to [SPARQL](https://www.w3.org/TR/rdf-sparql-query/) queries, we use [DBpedia Lookup](https://github.com/dbpedia/dbpedia-lookup) to find candidate entities from DBpedia. This service requires a separate installation.
+1. In addition to [SPARQL](https://www.w3.org/TR/rdf-sparql-query/) queries, we use [DBpedia Lookup](https://github.com/dbpedia/dbpedia-lookup) to find candidate entities from DBpedia. This service requires a separate installation.
+
+2. **TabbyLD2** uses [ColNet](https://arxiv.org/abs/1811.01304) for CTA task. ColNet is a framework based on Convolutional Neural Networks (CNNs) to predict the most suitable (relevant) class from a set of candidates for each named entity column. The ColNet framework uses *Tensorflow* as a machine learning platform.
+
+**ColNet** requirements:
+
+* Wikipedia corpus (e.g., https://github.com/attardi/wikiextractor)
+* Pre-train word2vec (e.g., https://radimrehurek.com/gensim/models/word2vec.html)
+* Pre-trained word2vec model by Wikipedia Dump: https://drive.google.com/open?id=1d_xrUPRLQjpcZrlm_cpKJO3jWBFKYhcl
+
+**NOTE 1:** to use `sparql.query` in Python 3.7 and more, go to sparql library, find the IRI class and change return of the `__str__()` function.
+
+From:
+```
+def __str__(self):
+    return self.value.encode("unicode-escape")
+```
+to:
+```to:
+def __str__(self):
+    return self.value
+```
+
+**NOTE 2:** The version of *Tensorflow* and *Keras* libraries must match.
 
 ## Directory Structure
 
@@ -71,7 +94,9 @@ In addition to [SPARQL](https://www.w3.org/TR/rdf-sparql-query/) queries, we use
 * `experimental_evaluation` contains scripts for obtaining an experimental evaluation on tables presented in `datasets` directory;
 * `results` contains processing results of tables (*this directory is created by default*);
 * `source_tables` contains examples of source tables in the CSV format for testing;
-* `tabbyld2` contains software TabbyLD2 modules, including `main.py` for a console mode and `app.py` for a web mode.
+* `tabbyld2` contains software TabbyLD2 modules, including `main.py` for a console mode and `app.py` for a web mode, and also:
+    * `colnet` contains ColNet framework for annotating categorical columns (NE-columns).
+    * `w2v_model` contains pre-train word2vec model. **NOTE:** this model is installed and placed independently.
 
 ## Usage
 
@@ -101,4 +126,3 @@ python app.py
 
 * [Nikita O. Dorodnykh](mailto:tualatin32@mail.ru)
 * [Daria A. Denisova](mailto:daryalich@mail.ru)
-* [Vitaliy V. Biryuckov](mailto:stukov.biryuckov2017@yandex.ru)
