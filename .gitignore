@@ -145,3 +145,10 @@ datasets/Tough_Tables/gt/CEA_2T_gt/*.csv
 
 # processing result files
 results/
+
+# db
+bd.xls
+w2v_model
+
+cnn/
+predictions/

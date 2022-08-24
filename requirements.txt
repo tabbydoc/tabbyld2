@@ -7,8 +7,13 @@ werkzeug
 requests
 sparqlwrapper
 python-Levenshtein
+# Packages for ColNet framework
+tensorflow==2.6.0
+gensim==4.0.1
+sparql-client==3.6
+scikit-learn==0.24.2
+pattern
 # Packages for entity embeddings
-gensim
 pyrdf2vec
 nest_asyncio
 aiohttp
