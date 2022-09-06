@@ -1,0 +1,93 @@
+Country,Currency Name / Currency Code,Rate Bank Will Buy From You:,Rate Bank Will Sell To You:
+United States,Dollar (USD),0.9660,1.0178
+Euro,Euro (EUR),1.2525,1.3594
+Great Britain,Pound (GBP),1.5200,1.6250
+Switzerland,Franc (CHF),1.0379,1.1269
+Japan,Yen (JPY),0.012475,0.013479
+Australia,Dollar (AUD),1.0110,1.1417
+New Zealand,Dollar (NZD),0.7849,0.8866
+Denmark,Krone (DKK),0.1674,0.1845
+Norway,Krone (NOK),0.1627,0.1801
+Sweden,Krona (SEK),0.1412,0.1562
+,,,
+Aruba,Florin (AWG),0.4601,0.6090
+Austria,Schilling (ATS),0.08546,Refer to Euro
+Bahamas,Dollar (BSD),N/A,1.0254
+Bahrain,Dinar (BHD),2.3062,2.8486
+Barbados,Dollar (BBD),0.4417,0.5389
+Belgium,Franc (BEF),0.02915,Refer to Euro
+Belize,Dollar (BZD),0.4526,0.5389
+Bermuda,Dollar (BMD),0.8214,1.0244
+Brazil,Real (BRL),0.5212,0.6362
+Brunei,Dollar (BND),0.6916,0.8575
+Cayman Islands,Dollar (KYD),1.0893,1.2935
+Chile,Peso (CLP),0.001844,0.002255
+China,Renminbi (CNY),0.1421,0.1728
+Colombia,Peso (COP),0.000475,0.000612
+Costa Rica,Colon (CRC),0.001797,0.002182
+Cyprus,Pound (CYP),1.8348,Refer to Euro
+Czech Republic,Koruna (CZK),0.04714,0.05870
+Dominican Republic,Peso (DOP),0.0236,0.0285
+East Caribbean,Dollar (XCD),0.3368,0.4081
+Egypt,Pound (EGP),N/A,N/A
+Estonia,Kroon (EEK),0.07010,Refer to Euro
+Fiji,Dollar (FJD),0.5175,0.6325
+Finland,Markka (FIM),N/A,Refer to Euro
+France,Franc (FRF),N/A,Refer to Euro
+Germany,Deutsche Mark (DEM),0.6013,Refer to Euro
+Gibraltar,Pound (GIP),1.4494,1.6525
+Greece,Drachma (GRD),N/A,Refer to Euro
+Guatemala,Quetzal (GTQ),0.1165,0.1394
+Guernsey,Pound (GSP),1.4808,1.6525
+Honduras,Lempira (HNL),0.0481,0.0575
+Hong Kong,Dollar (HKD),0.1197,0.1376
+Hungary,Forint (HUF),0.00405,0.00512
+Iceland,Krona (ISK),N/A,0.01018
+India,Rupee (INR),0.01806,0.02271
+Indonesia,Rupiah (IDR),0.000094,0.000128
+Ireland,Punt (IEP),1.4269,Refer to Euro
+Isle of Man,Pound (IMP),1.4808,1.6525
+Israel,"Shekel, New (ILS)",0.2380,0.2946
+Italy,Lira (ITL),N/A,Refer to Euro
+Jamaica,Dollar (JMD),0.0103,0.0131
+Jersey,Pound (JSP),1.4808,1.6525
+Jordan,Dinar (JOD),1.2679,1.5480
+Kenya,Shilling (KES),0.01053,0.01382
+Kuwait,Dinar (KWD),3.2416,3.8792
+Latvia,Lats (LVL),1.6560,2.1000
+Lithuania,Litas (LTL),0.3368,0.4311
+Luxembourg,Franc (LUF),0.02915,Refer to Euro
+Malaysia,Ringgit (MYR),0.2740,0.3664
+Malta,Lira (MTL),2.4935,Refer to Euro
+Mauritius,Rupee (MUR),0.03019,0.03894
+Mexico,Peso (MXN),0.0702,0.0832
+Morocco,Dirham (MAD),0.1006,0.1362
+Netherlands,Euro (EUR),Refer to Euro,Refer to Euro
+Netherlands Antilles,N.A. Gulden (ANG),N/A,N/A
+North Ireland,N. Ireland Pound (NIR),1.5161,1.6250
+Oman,Rial (OMR),2.3312,2.7910
+Pakistan,Rupee (PKR),0.00971,0.01255
+Paraguay,Guarani (PYG),N/A,N/A
+Peru,Neuvo Sol (PEN),0.3353,0.4009
+Philippines,Peso (PHP),0.01891,0.02552
+Poland,Zloty (PLN),0.2775,0.3448
+Portugal,Escudo (PTE),N/A,Refer to Euro
+Qatar,Rial (QAR),0.2479,0.2956
+Russian Federation,Ruble (RUB),0.02916,0.03621
+Saudi Arabia,Riyal (SAR),0.2413,0.2909
+Scotland,Scottish Pound (SCO),1.5161,1.6250
+Singapore,Dollar (SGD),0.7511,0.8610
+Slovakia,Koruna (SKK),0.03434,Refer to Euro
+Slovenia,Tolar (SIT),0.004281,Refer to Euro
+South Africa,Rand (ZAR),0.1157,0.1423
+South Korea,Won (KRW),0.000813,0.000979
+Spain,Peseta (ESP),0.00675,Refer to Euro
+Tahiti,Franc (XPF),0.009738,0.012190
+Taiwan,Dollar (TWD),0.02775,0.03751
+Thailand,Baht (THB),0.02804,0.03663
+Trinidad & Tobago,Dollar (TTD),0.1416,0.1732
+Tunisia,Dinar (TND),0.5188,0.8346
+Turkey,Lira (TRL),N/A,N/A
+United Arab Emirates,Dirham (AED),0.2460,0.2967
+Uruguay,Peso (UYU),0.04638,0.05703
+Venezuela,Bolivar (VEB),N/A,N/A

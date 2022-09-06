@@ -1,0 +1,8 @@
+Order,Ships,Arrives by
+Mon,Tues,Fri
+Tues,Wed,Mon
+Wed,Thurs,Tues
+Thurs,Fri,Wed
+Fri,Mon,Thurs
+Sat,Mon,Thurs
+Sun,Mon,Thurs

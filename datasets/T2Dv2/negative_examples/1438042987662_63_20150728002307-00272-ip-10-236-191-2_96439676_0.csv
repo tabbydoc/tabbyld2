@@ -1,0 +1,6 @@
+GO ID,Qualified GO term,Evidence,PubMed IDs
+GO:0000287,magnesium ion binding,IDA,14607334
+GO:0002020,protease binding,TAS,24522549
+GO:0004672,protein kinase activity,,--
+GO:0004674,protein serine/threonine kinase activity,TAS,24522549
+GO:0004713,protein tyrosine kinase activity,,--

@@ -3,7 +3,6 @@ import json
 import shutil
 from pathlib import Path
 from typing import Optional, Dict
-from tabbyld2.config import ResultPath
 
 
 def is_float(string):
@@ -17,6 +16,34 @@ def is_float(string):
         return True
     except ValueError:
         return False
+
+
+def is_int(string):
+    """
+    Определение является ли строка целым числовым значением.
+    :param string: исходная строка
+    :return: True - если строка является целым числом, False - в противном случае
+    """
+    try:
+        int(string)
+        return True
+    except ValueError:
+        return False
+
+
+def is_number(string):
+    """
+    Определение является ли строка каким-либо числовым занчением.
+    :param string: исходная строка
+    :return: True - если строка является числом, False - в противном случае
+    """
+    if is_int(string):
+        return True
+    else:
+        if is_float(string):
+            return True
+        else:
+            return False
 
 
 def merge_dicts(dict1, dict2):
@@ -74,10 +101,17 @@ def remove_file(file):
         os.remove(path)
 
 
-def write_json_file(file: str = None, path: str = None, dicts: Optional[Dict] = None):
-    check_directory(ResultPath.PROVENANCE_PATH + remove_suffix_in_filename(file) + path)
-    with open(ResultPath.PROVENANCE_PATH + remove_suffix_in_filename(file) + path + file, "w") as outfile:
-        json.dump(dicts, outfile, indent=4)
+def write_json_file(path: str, file: str, dicts: Optional[Dict]):
+    """
+    Записать файл в формате JSON с сериализованными данными, представленных в виде словаря.
+    :param path: полный путь до файла
+    :param file: полное название файла
+    :param dicts: данные в виде словаря
+    """
+    check_directory(path)  # Проверка существования пути (каталога)
+    # Запись json-файла
+    with open(path + file, "w", encoding="utf-8") as outfile:
+        json.dump(dicts, outfile, indent=4, ensure_ascii=False)
 
 
 def create_table_headings_file(classified_data_file, table_headings_file):

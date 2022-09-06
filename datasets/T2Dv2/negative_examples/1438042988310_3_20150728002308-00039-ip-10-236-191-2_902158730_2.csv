@@ -1,0 +1,6 @@
+Status,Project,Description,Contact
+DONE,KGlobalSettings,Make KGlobalSettings reread locale settings before calling settingsChanged().,Lamarque V. Souza
+DONE,Kate Part,Reworked Color Configuration,Dominik Haumann
+DONE,KActivities,Encryption for private activities (not available via UI).,Ivan ДЊukiД‡
+DONE,KActivities,"Linking files to activities in Dolphin, Konqueror, Folder View.",Ivan ДЊukiД‡
+DONE,KActivities,Activities KIO.,Ivan ДЊukiД‡

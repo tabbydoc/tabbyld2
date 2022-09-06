@@ -1,0 +1,6 @@
+,API Name,Description,Category,Date
+,Demographics Pro,The Demographics Pro REST API provides a set of interfaces allowing the integration of social media demographic data into other applications. Some example API methods include aggregating audience...,Demographics,07.10.2015
+,DoSomething,"The DoSomething API allows developers to interact with its campaigns for social change programmatically. Campaigns tackle a variety of issues, including poverty, violence, and environmental...",Charity,06.30.2015
+,Klear,"The Klear REST API allows developers to access and integrate the functionality of Klear with other applications. Some example API methods include looking up users, retrieving user information, and...",Social,06.30.2015
+,Spiritual Networks,"The Spiritual Networks connect over 1,000,000 people on Facebook and Twitter interested in spiritual living with chakra healing, intuition, lightworkers, mediums, and yoga as the main common topics....",Social,06.29.2015
+,Yammer OG Sample Activities,The Yammer OG Sample Activities API provides developers with samples of both public and private activities. вЂњNon-publicвЂќ means the provided URL cannot be publicly accessed and scraped for OG metadata...,Social,06.16.2015

@@ -1,0 +1,122 @@
+Date,Company,Total Laid Off,Industry
+MM/DD/YYYY,COMPANY NAME,####,INDUSTRY
+1/28/2009,Starbucks,"6,700",Restaurants
+1/28/2009,Boeing,"10,000",Aerospace
+1/28/2009,Time Warner,"1,500",Media
+1/27/2009,Target,"1,000",Retailing
+,,,
+1/27/2009,Masco,600,Construction
+1/26/2009,IBM,"2,800",Software
+1/26/2009,Texas Instruments,"3,400",Semiconductors
+1/26/2009,Lincoln National,540,Insurance
+1/26/2009,Caterpillar,"20,814",Capital Goods
+1/26/2009,General Motors,"9,758",Durables
+1/26/2009,Home Depot,"7,000",Retailing
+1/26/2009,Pfizer,"19,800",Pharmaceuticals
+1/26/2009,Sprint Nextel,"8,000",Telecommunications
+1/23/2009,Abercrombie & Fitch,50,Retailing
+1/23/2009,Deere & Company,662,Capital Goods
+1/23/2009,Harley-Davidson,"1,100",Consumer Durables
+1/22/2009,Microsoft,"5,000",Software
+1/22/2009,Huntsman,"1,665",Chemicals
+1/21/2009,Burlington Santa Fe,"2,500",Transportation
+1/21/2009,UAL,"1,000",Transportation
+1/21/2009,SPX,400,Conglomerates
+1/21/2009,Intel,"5,000",Semiconductors
+1/21/2009,Walt Disney,600,Media
+1/21/2009,Wynn Resorts,53,Leisure
+1/21/2009,Eaton,"5,609",Capital Goods
+1/20/2009,Clear Channel,"1,850",Media
+1/20/2009,Deere & Co.,160,Capital Goods
+1/16/2009,ConocoPhillips,"1,300",Oil & Gas
+1/16/2009,Hertz Global Holdings,"4,000",Business Services
+1/16/2009,WellPoint,600,Health Care
+1/16/2009,Advanced Micro Devices,"1,700",Semiconductors
+1/15/2009,Xerox,275,Business Services
+1/15/2009,MeadWestvaco,"2,000",Materials
+1/15/2009,Autodesk,750,Software
+1/15/2009,Marshall & Ilsley,830,Banking
+1/15/2009,General Electric,"1,000",Conglomerates
+1/14/2009,Ecolab,"1,000",Chemicals
+1/14/2009,Delta Air Lines,"2,000",Transportation
+1/14/2009,Motorola,"4,000",Technology
+1/14/2009,Google,100,Software
+1/13/2009,KeyCorp,200,Banking
+1/13/2009,Newell Rubbermaid,75,Household
+1/13/2009,Cummins,"1,300",Capital Goods
+1/12/2009,Textron,"2,665",Conglomerates
+1/12/2009,Mosaic,"1,000",Chemicals
+1/12/2009,Best Buy,500,Retailing
+1/12/2009,Precision Castparts,40,Defense
+1/9/2009,Oracle,500,Software
+1/9/2009,Smithfield Foods,75,Food
+1/9/2009,Freeport-McMoRan Copper & Gold,"2,750",Materials
+1/8/2009,Union Pacific,230,Transportation
+1/8/2009,General Dynamics,179,Defense
+1/7/2009,Walgreen,"1,000",Retailing
+1/7/2009,EMC,"2,400",Technology
+1/6/2009,Alcoa,"13,500",Materials
+1/5/2009,Cigna,"1,100",Health Care
+1/5/2009,United States Steel,"4,225",Materials
+12/31/2008,Mohawk Industries,160,Consumer Durables
+12/31/2008,Tyson Foods,120,Food
+12/31/2008,Target,132,Retailing
+12/30/2008,Allegheny Technologies,323,Materials
+12/30/2008,Motorola,400,Technology
+12/23/2008,"ULA (Boeing, Lockheed Martin)",172,Joint Venture
+12/23/2008,Johnson Controls,125,Consumer Durables
+12/23/2008,Las Vegas Sands,"11,500",Leisure
+12/22/2008,Parker-Hannifin,405,Capital Goods
+12/19/2008,Genworth Financial,"1,000",Insurance
+12/19/2008,Electronic Arts,"1,000",Software
+12/19/2008,Sovereign Bancorp,"1,000",Banking
+12/18/2008,Omnicom Group,"3,145",Media
+12/17/2008,Ryder System,"3,100",Services
+12/17/2008,Western Digital,"2,500",Technology
+12/17/2008,Aetna,"1,000",Health Care
+12/17/2008,Parker-Hannifin,46,Capital Goods
+12/17/2008,Bristol-Myers Squibb,"3,700",Pharmaceuticals
+12/16/2008,CBS,30,Media
+12/15/2008,Merrill Lynch,400,Financials
+12/15/2008,Charles Schwab,100,Financials
+12/13/2008,Berkshire Hathaway,345,Finance
+12/12/2008,International Paper,"2,050",Materials
+12/11/2008,Bank of America,"35,000",Banking
+12/11/2008,Whirlpool,250,Durables
+12/10/2008,Mohawk Industries,105,Durables
+12/10/2008,Procter & Gamble,320,Household
+12/09/2008,Praxair,"1,600",Chemicals
+12/08/2008,Anheuser-Busch Co.,"1,400",Food
+12/08/2008,3M,"2,300",Conglomerates
+12/08/2008,Wyndham Worldwide,"4,000",Leisure
+12/08/2008,Dow Chemical,"5,000",Chemicals
+12/05/2008,Legg Mason,200,Financials
+12/05/2008,Cablevision,100,Media
+12/05/2008,Staples,140,Retailing
+12/04/2008,Steel Dynamics,65,Materials
+12/04/2008,Windstream,170,Telecommunications
+12/04/2008,General Electric,500,Conglomerates
+12/04/2008,E.I. du Pont de Nemours,"2,500",Chemicals
+12/04/2008,AT&T,"12,000",Telecommunications
+12/03/2008,United Technologies,350,Conglomerates
+12/03/2008,Gannett,"2,000",Media
+12/03/2008,Adobe Systems,600,Software
+12/03/2008,Jefferies Group,300,Financials
+12/03/2008,Viacom,850,Media
+12/01/2008,JPMorgan Chase,"9,200",Banking
+12/01/2008,PepsiCo,87,Food
+11/25/2008,Dana Holding,50,Durables
+11/24/2008,BlackRock,10,Financials
+11/21/2008,Western Union,200,Business Services
+11/20/2008,Bank of New York Mellon,"1,800",Banking
+11/20/2008,Boeing,800,Aerospace
+11/17/2008,Citigroup,"52,000",Banking
+11/14/2008,Sun Microsystems,"6,000",Technology
+11/12/2008,Applied Materials,"1,800",Technology
+11/12/2008,Morgan Stanley,"2,000",Finance
+11/12/2008,Liberty Media,910,Retailing
+11/11/2008,AK Steel Holding,800,Materials
+11/7/2008,Ford Motor,"2,600",Durables
+11/6/2008,Mattel,"1,000",Household
+11/6/2008,MGM Mirage,400,Leisure
+11/4/2008,Hartford Financial Services Group,500,Finance

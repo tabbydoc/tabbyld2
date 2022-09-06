@@ -1,0 +1,20 @@
+Emperor,reign,years,no.coins,coin/ year
+Domitian,81-96,15,1,"0,0667"
+Trajan,98-117,19,3,"0,1579"
+Hadrian,117-138,21,2+1,"0,1429"
+[Antonins Dynasty],,,(1),
+(Faustina),,,(3),
+Antoninus Pius,138-161,23,7+3,"0,4348"
+(Lucilla) => Lucius Verus,161-166,,(1),
+Marcus Aurelius,161-180,19,1+1,"0,1053"
+Commodus,180-192,12,0,"0,0000"
+Septimius Severus,193-211,18,4,"0,2222"
+Caracalla,211-217,6,1,"0,1667"
+(Julia Pia),,,4,
+Elagabalus,218-222,4,1+4,"1,2500"
+Julia Mamaea,,,1,
+Severus Alexander,222-235,13,7+1,"0,6154"
+Gordian III,238-244,6,8,"1,3333"
+Philippus,244-249,5,2,"0,4000"
+Decius,249-251,2,1+2,"1,5000"
+Etruscilla,,,(2),

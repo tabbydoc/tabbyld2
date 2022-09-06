@@ -62,7 +62,7 @@ db.sqlite3
 db.sqlite3-journal
 
 # Flask stuff:
-instance/
+#instance/
 .webassets-cache
 
 # Scrapy stuff:
@@ -140,5 +140,15 @@ cython_debug/
 # idea
 .idea/
 
+# 2T dataset
+datasets/Tough_Tables/gt/CEA_2T_gt/*.csv
+
 # processing result files
 results/
+
+# db
+bd.xls
+w2v_model
+
+cnn/
+predictions/

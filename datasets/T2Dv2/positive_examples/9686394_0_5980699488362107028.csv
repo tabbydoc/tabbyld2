@@ -1,0 +1,138 @@
+Code,Airport Name,City,State
+ANC,Anchorage International Airport,Anchorage,AK
+FAI,Fairbanks International Airport,Fairbanks,AK
+JNU,Juneau International Airport,Juneau,AK
+BHM,Birmingham International Airport,Birmingham,AL
+HSV,Huntsville International Airport,Huntsville,AL
+XNA,Northwest Arkansas Regional Airport,Fayetteville,AR
+LIT,Little Rock National Airport,Little Rock,AR
+GCN,Grand Canyon National Park Airport,Grand Canyon,AZ
+PHX,Phoenix Sky Harbor International Airport,Phoenix,AZ
+TUS,Tucson International Airport,Tucson,AZ
+BUR,Burbank Bob Hope Airport,Burbank,CA
+FAT,Fresno Air Terminal,Fresno,CA
+LGB,Long Beach Airport,Long Beach,CA
+LAX,Los Angeles International Airport,Los Angeles,CA
+OAK,Oakland International Airport,Oakland,CA
+ONT,Ontario International Airport,Ontario,CA
+SNA,John Wayne Airport,Orange County,CA
+PSP,Palm Springs International Airport,Palm Springs,CA
+SMF,Sacramento International Airport,Sacramento,CA
+SAN,San Diego International Airport,San Diego,CA
+SFO,San Francisco International Airport,San Francisco,CA
+SJC,San Jose International Airport,San Jose,CA
+SBA,Santa Barbara Airport,Santa Barbara,CA
+COS,Colorado Springs Airport,Colorado Springs,CO
+DEN,Denver International Airport,Denver,CO
+GSN,Saipan International Airport,Saipan Island,CQ
+BDL,Bradley International Airport,Windsor Locks,CT
+DCA,Ronald Reagan Washington National Airport,Washington,DC
+IAD,Washington Dulles International Airport,Washington,DC
+FLL,Fort Lauderdale Hollywood International Airport,Fort Lauderdale,FL
+RSW,Southwest Florida International Airport,Fort Myers,FL
+JAX,Jacksonville International Airport,Jacksonville,FL
+MIA,Miami International Airport,Miami,FL
+MCO,Orlando International Airport,Orlando,FL
+PNS,Pensacola Regional Airport,Pensacola,FL
+PIE,St. Petersburg-Clearwater International Airport,Saint Petersburg,FL
+SFB,Orlando Sanford International Airport,Sanford,FL
+SRQ,Sarasota-Bradenton International Airport,Sarasota,FL
+TLH,Tallahassee Regional Airport,Tallahassee,FL
+TPA,Tampa International Airport,Tampa,FL
+VPS,Fort Walton Beach Airport,Valparaiso,FL
+PBI,Palm Beach International Airport,West Palm Beach,FL
+ATL,Atlanta International Airport,Atlanta,GA
+SAV,Savannah/Hilton Head International Airport,Savannah,GA
+GUM,Guam International Airport,Agana,GU
+ITO,Hilo International Airport,Hilo,HI
+HNL,Honolulu International Airport,Honolulu,HI
+OGG,Kahului Airport,Kahului,HI
+KOA,Kona International Airport,Keahole,HI
+LIH,Lihue Airport,Lihue,HI
+CID,Cedar Rapids Eastern Iowa Airport,Cedar Rapids,IA
+DSM,Des Moines International Airport,Des Moines,IA
+BOI,Boise Airport,Boise,ID
+MDW,Chicago Midway Airport,Chicago,IL
+ORD,Chicago OHare International Airport,Chicago,IL
+MLI,Quad City International Airport,Moline,IL
+IND,Indianapolis International Airport,Indianapolis,IN
+SBN,South Bend Regional Airport,South Bend,IN
+ICT,Wichita Mid-Continent Airport,Wichita,KS
+LEX,Blue Grass Airport,Lexington,KY
+SDF,Louisville International Airport,Louisville,KY
+BTR,Baton Rouge International Airport,Baton Rouge,LA
+MSY,New Orleans International Airport,New Orleans,LA
+BOS,Boston Logan International Airport,Boston,MA
+BWI,Baltimore/Washington International Airport,BWI Airport,MD
+PWM,Portland International Jetport,Portland,ME
+DTW,Detroit Metro Airport,Detroit,MI
+FNT,Bishop International Airport,Flint,MI
+GRR,Gerald R. Ford International Airport,Grand Rapids,MI
+MSP,Minneapolis/St. Paul International Airport,Minneapolis,MN
+MCI,Kansas City International Airport,Kansas City,MO
+STL,Lambert-St. Louis International Airport,Saint Louis,MO
+GPT,Gulfport-Biloxi International Airport,Gulfport,MS
+JAN,Jackson-Evers International Airport,Jackson,MS
+BIL,Billings Logan International Airport,Billings,MT
+CLT,Charlotte/Douglas International Airport,Charlotte,NC
+GSO,Piedmont Triad International Airport,Greensboro,NC
+RDU,Raleigh-Durham International Airport,Rdu Airport,NC
+OMA,Eppley Airfield,Omaha,NE
+MHT,Manchester Airport,Manchester,NH
+ACY,Atlantic City International Airport,Egg Harbor Twp,NJ
+EWR,Newark Liberty International Airport,Newark,NJ
+ABQ,Albuquerque International Sunport,Albuquerque,NM
+LAS,Mccarran International Airport,Las Vegas,NV
+RNO,Reno-Tahoe International Airport,Reno,NV
+ALB,Albany International Airport,Albany,NY
+BUF,Buffalo Niagara International Airport,Buffalo,NY
+ISP,Macarthur Airport,Islip,NY
+JFK,John F. Kennedy International Airport,New York,NY
+LGA,La Guardia Airport,New York,NY
+ROC,Greater Rochester International Airport,Rochester,NY
+SYR,Syracuse Hancock International Airport,Syracuse,NY
+HPN,Westchester County Airport,White Plains,NY
+CVG,Cincinnati/Northern Kentucky International Airport,Cincinnati,OH
+CLE,Cleveland Hopkins International Airport,Cleveland,OH
+CMH,Port Columbus International Airport,Columbus,OH
+DAY,Dayton International Airport,Dayton,OH
+CAK,Akron-Canton Airport,North Canton,OH
+OKC,Will Rogers World Airport,Oklahoma City,OK
+TUL,Tulsa International Airport,Tulsa,OK
+PDX,Portland International Airport,Portland,OR
+ABE,Lehigh Valley International Airport,Allentown,PA
+MDT,Harrisburg International Airport,Harrisburg,PA
+PHL,Philadelphia International Airport,Philadelphia,PA
+PIT,Pittsburgh International Airport,Pittsburgh,PA
+SJU,Luis Munoz Marin International Airport,San Juan,PR
+PVD,T.F. Green Airport,Providence,RI
+CHS,Charleston International Airport,Charleston,SC
+CAE,Columbia Metropolitan Airport,Columbia,SC
+GSP,Greenville/Spartanburg Airport,Greenville,SC
+MYR,Myrtle Beach Airport,Myrtle Beach,SC
+TYS,Mcghee Tyson Airport,Knoxville,TN
+MEM,Memphis Airport,Memphis,TN
+BNA,Nashville International Airport,Nashville,TN
+AMA,Amarillo International Airport,Amarillo,TX
+AUS,Austin-Bergstrom International Airport,Austin,TX
+CRP,Corpus Christi International Airport,Corpus Christi,TX
+DAL,Dallas Love Field,Dallas,TX
+DFW,Dallas/Fort Worth International Airport,Dallas,TX
+ELP,El Paso International Airport,El Paso,TX
+HRL,Valley International Airport,Harlingen,TX
+IAH,Bush Intercontinental Airport,Houston,TX
+HOU,Hobby Airport,Houston,TX
+LBB,Lubbock International Airport,Lubbock,TX
+MAF,Midland International Airport,Midland,TX
+SAT,San Antonio International Airport,San Antonio,TX
+SLC,Salt Lake City International Airport,Salt Lake City,UT
+PHF,Newport News/Williamsburg International Airport,Newport News,VA
+ORF,Norfolk International Airport,Norfolk,VA
+RIC,Richmond International Airport,Richmond,VA
+STT,Cyril E King Airport,Charlotte Amalie,VI
+BTV,Burlington International Airport,South Burlington,VT
+SEA,Seattle/Tacoma International Airport,Seattle,WA
+GEG,Spokane International Airport,Spokane,WA
+GRB,Austin Straubel International Airport,Green Bay,WI
+MSN,Dane County Regional Airport,Madison,WI
+MKE,General Mitchell International Airport,Milwaukee,WI

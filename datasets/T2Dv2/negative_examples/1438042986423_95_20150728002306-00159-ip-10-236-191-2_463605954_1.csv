@@ -1,0 +1,10 @@
+Code,Description
+AF_ERROR_EOF,The end of the AFF file has been reached
+AF_ERROR_DATASMALL,The buffer provided for the requested AFF segment is not large enough to hold the data that would be returned.
+AF_ERROR_TAIL,There is no tail or an error occurred trying to read the tail of an AFF segment. This indicates that the file is corrupt (probably truncated).
+AF_ERROR_SEGH,There is no head or an error occurred trying to read the head. This indicates that the AFF file is corrupt.
+AF_ERROR_NAME,Invalid segment name
+AF_ERROR_INVALID_ARG,The argument was invalid
+AF_ERROR_NO_AES,This version of the library was compiled without AES support and the program is attempting to read an AES-encrypted segment.
+AF_ERROR_AES_TOO_SMALL,The decrypted AES segment is too small for the amount of data that it was supposed to contain. The segment is probably corrupt.
+AF_ERROR_KEY_SET,A key was previously set. (You can only have one AES encryption key per file.)

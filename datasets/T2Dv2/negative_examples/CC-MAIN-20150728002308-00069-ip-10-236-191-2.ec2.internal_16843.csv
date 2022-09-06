@@ -1,0 +1,164 @@
+Number,Quarter Equiv,Course Title,Credits,Requisites,Exclusions
+1110,CSE 100,Introduction to Computing Technology,2.0,,Not open to students with credit for CSE 1111 or CSE 1113 or CSE 100 or CSE 101
+1111,CSE 101,Introduction to Computer-Assisted Problem Solving,3.0,,Not open to students with credit for CSE 1112 or CSE 1113 or CSE 101 or CSE 105 or CSE 200
+1112,CSE 105,Introduction to Computer-Assisted Problem Solving for Construction Systems Management,3.0,,Not open to students with credit for CSE 1111 or CSE 1113 or CSE 101 or 105 or CSE 200
+1113,,Spreadsheet Programming for Business,1.0,(Math 1130 or higher) or (Math 130 or higher under quarters),Not open to students with credit for CSE 1111 or CSE 1112 or CSE 2111 or CSE 101 or CSE 105 or CSE 200
+1114,,Introduction to databases using MS Access,1.5,,Not open to students with credit for CSE 1111 or 1112 or 2111 or CSE 101 or CSE 105 or CSE 200.
+1211,CSE 203 and CSE 204,"Computational Thinking in Context: Images, Animation, and Games",3.0,,Not open to students with credit for CSE 203 or CSE 204
+1212,,Computational Thinking in Context: Mobile Applications,3.0,,
+1221,CSE 205,Introduction to Computer Programming in MATLAB for Engineers and Scientists,2.0,Engr 1181 or Engr 1281 or Engr 181 or Engr 191 or ((Math 1151 or Math 1161 or Math 151 or Math 161) and (Phys 1250 or Phys 131)),Not open to students with credit for Engr 1221 or CSE 205
+1222,CSE 202,Introduction to Computer Programming in C++ for Engineers and Scientists,3.0,co-req: Math 1151 or Math 1161,Not open to students with credit for Engr 1281.01 or Engr 1281.02 or CSE 202
+1223,CSE 201,Introduction to Computer Programming in Java,3.0,,Not open to students with credit for CSE 201
+2021,,Introduction to Modeling and Simulation,3.0,"Math 1151 (152) or equivalent, Phys 1250 (131)",Not open to students with credit for ENGR 1221 or CSE 1221
+2111,CSE 200,Modeling and Problem Solving with Spreadsheets and Databases,3.0,(Math 1130 or higher) or (Math 130 or higher under quarters),Not open to students with credit for CSE 1111 or CSE 1112 or CSE 101 or CSE 105 or CSE 200
+2112,,Modeling and Problem Solving with Spreadsheets and Databases for Engineers,3.0,"1211 (203) or 1212 or 1221 (205) or 1222 (202) or 1223 (201) or 204 or EnGraph 167 or Engr 1221, or 1281.01H, or 1281.02H, or CSE Placement Level A. Pre-req or Concur: Math 1151 or 1161.01 or 1161.02","Not open to students with credit for CSE 2111, 1111 or 1112 or 1113 or CSE 101 or CSE 105 or CSE 200."
+2122,CSE 230,Data Structures Using C++,3.0,CSE 1222 or CSE 202,Not open to students with credit for CSE 230
+2123,CSE 214,Data Structures Using Java,3.0,CSE 1223 or CSE 201,Not open to students with credit for CSE 214
+2133,CSE 314,Business Programming with File Processing,3.0,CSE 1233 or CSE 214,Not open to students with credit for CSE 314
+2193,CSE 493,Individual Studies in Computer Science and Engineering,1.0 - 10.0,Permission of Instructor,
+2193H,,Individual Studies in Computer Science and Engineering,1.0 - 10.0,Permission of Instructor,
+2194,"CSE 294, CSE 494",Group Studies in Computer Science and Engineering,1.0 - 10.0,Permission of Instructor,
+2194H,,Group Studies in Computer Science and Engineering,1.0 - 10.0,Permission of Instructor,
+2221,"CSE 221, part of CSE 222",Software I: Software Components,4.0,CSE 1211 or CSE 1212 or CSE 1221 or CSE 1222 or CSE 1223 or CSE 201 or CSE 202 or CSE 203 or CSE 204 or CSE 205 or EG 167 or CSE Placement Level A; co-req: Math 1151 or Math 1161,Not open to students with credit for CSE 321
+2222,CSE 222,Software I.5-Transition: Development of Software Components,3.0,CSE 221,Not open to students with credit for CSE 222
+2231,"Parts of CSE 222, CSE 321, and CSE 421",Software II: Software Development and Design,4.0,CSE 2221; co-req: CSE 2321,Not open to students with credit for CSE 2231.01 or CSE 321 or CSE 421
+2231.01,"Part of CSE 201, CSE 321, and CSE 421",Software II-Transition: Software Development and Design,4.0,CSE 2222 or CSE 222 or CSE 222H; co-req: CSE 2321,Not open to students with credit for CSE 321
+2232,421,Software II.5-Transition: Software Development in Java,2.0,CSE 321,Not open to students with credit for CSE 421 or CSE 2221 or CSE 2222 or CSE 2231 or CSE 2231.01
+2233,CSE 314,Business Programming with File Processing,3.0,CSE 1233 or CSE 214,Not open to students with credit for CSE 314
+2321,,Foundations I: Discrete Structures,3.0,(CSE 1232 or CSE 1233 or CSE 2221 or CSE 214 or CSE 230 or CSE 222) and (Math 1151 or Math 1156 or Math 1161 or Math 152 or Math 162); co-req for those entering with CSE 2221: CSE 2231,Not open to students with credit for CSE 625 or CSE 680
+2331,680,Foundations II: Data Structures and Algorithms,3.0,(CSE 2231 or CSE 321) and (CSE 2321 or Math 366) and (Math 2566 or Math 566) and (Stat 3470 or Stat 427).,Not open to students with credit for CSE 5331 or CSE 680
+2421,CSE 360 and CSE 459.21,Systems I: Introduction to Low-Level Programming and Computer Organization,4.0,(CSE 1232 or CSE 1233 or CSE 2231 or CSE 321) and (CSE 2321 or Math 2566 or Math 366),Not open to students with credit for CSE 360
+2431,CSE 660,Systems II: Introduction to Operating Systems,3.0,CSE 2421 or ((CSE 360 or ECE 2560 or ECE 265) and (CSE 2451 or CSE 459.21 or CSE 459.22)),Not open to students with credit for CSE 660
+2451,,Advanced C Programming,2.0,CSE 2221 or CSE 222; co-req: CSE 2231,Not open to students with credit for CSE 2421
+2501,601,"Social, Ethical, and Professional Issues in Computing",1.0,(CSE 1222 or CSE 1223 or CSE 2231 or CSE 214 or CSE 230 or CSE 222) and (CSE 2321 or Math 366) and (CSE 2421 or CSE 360),Not open to students with credit for CSE 601
+2502S,,Digital Bridge,0.0,,
+3231,CSE 757,Software Engineering Techniques,3.0,CSE 3901 or CSE 3902 or CSE 560,Not open to students with credit for CSE 5231 or CSE 757
+3232,CSE 616,Software Requirements Analysis,3.0,CSE 3901 or CSE 3902 or CSE 560,Not open to students with credit for CSE 5232 or CSE 616
+3241,CSE 670,Introduction to Database Systems,3.0,(CSE 2231 or CSE 321) and (CSE 2321 or Math 366),Not open to students with credit for CSE 5241 or CSE 670
+3321,CSE 625,Automata and Formal Languages,3.0,(CSE 2231 or CSE 321) and (CSE 2331 or Math 566) and (CSE 2421 or CSE 360),Not open to students with credit for CSE 5321 or CSE 625
+3341,CSE 655,Principles of Programming Languages,3.0,CSE 2231 and (CSE 2331 or CSE 680) and CSE 2421 and (CSE 3901 or CSE 3902 or CSE 560),Not open to students with credit for CSE 5341 or CSE 655
+3421,"CSE 675.01, CSE 675.02",Introduction to Computer Architecture,3.0,(CSE 2231 or CSE 321) and (CSE 2421 or CSE 360 or ECE 2560 or ECE 265) and (ECE 2000 or ECE 261),Not open to students with credit for CSE 5421 or CSE 675.01 or CSE 675.02
+3430,,Overview of Computer Systems For Non-Majors,4.0,"Prereq: 2122 or 2123, and 2321","Not for CSE/CIS majors. Not open to students with credit for CSE 2421, 2431, 360, 660"
+3461,"CSE 677, part of CSE 678",Computer Networking and Internet Technologies,3.0,CSE 2421 or ((ECE 2560 or ECE 265) and CSE 2451); co-req: CSE 2431,Not open to students with credit for CSE 5461 or CSE 677
+3521,CSE 630,Survey of Artificial Intelligence I: Basic Techniques,3.0,CSE 2331 or (CSE 222 and Math 366) or senior standing,Not open to students with credit for CSE 5521 or CSE 630
+3541,CSE 683,Computer Game and Animation Techniques,3.0,CSE 3901 or CSE 3902 or CSE 560,Not open to students with credit for CSE 5541 or CSE 683
+3901,,"Project: Design, Development, and Documentation of Web Applications",4.0,(CSE 2231 or CSE 321) and (CSE 2321 or Math 366) and (CSE 2421 or ((CSE 360 or ECE 2560 or ECE 265) and (CSE 2451 or CSE 459.21 or CSE 459.22)) and Gen Ed Writing Level 2,
+3902,,"Project: Design, Development, and Documentation of Interactive Systems",4.0,(CSE 2231 or CSE 321) and (CSE 2321 or Math 366) and (CSE 2421 or ((CSE 360 or ECE 2560 or ECE 265) and (CSE 2451 or CSE 459.21 or CSE 459.22)) and Gen Ed Writing Level 2,
+3903,560,"Project: Design, Development, and Documentation of System Software",4.0,(CSE 2231 or CSE 321) and (CSE 2321 or Math 366) and (CSE 2421 or ((CSE 360 or ECE 2560 or ECE 265) and (CSE 2451 or CSE 459.21 or CSE 459.22)) and Gen Ed Writing Level 2,
+4193,CSE 693,Individual Studies in Computer Science and Engineering,1.0 - 10.0,Permission of Instructor,
+4193H,,Individual Studies in Computer Science and Engineering,1.0 - 10.0,Honors status; Permission of Instructor,
+4194,CSE 694,Group Studies in Computer Science and Engineering,1.0 - 10.0,Permission of Instructor,
+4194H,,Group Studies in Computer Science and Engineering,1.0 - 10.0,Honors status; Permission of Instructor,
+4194.01,,Modeling and Problem Solving with Spreadsheets and Databases for Engineers,3.0,"1211 (203) or 1212 or 1221 (205) or 1222 (202) or 1223 (201) or 204 or EnGraph 167 or Engr 1221, or 1281.01H, or 1281.02H, or CSE Placement Level A. Concur: Math 1151 or 1161.01 or 1161.02",Not open to students with credit for CSE 1111 or 1112 or 1113 or 2111 or CSE 101 or CSE 105 or CSE 200
+4221,CSE 502,Introduction to Object-Oriented Programming,3.0,Previous programming experience in a procedural language,Not open to CSE or CIS majors; not open to students with credit for CSE 502
+4231,"Parts of CSE 222, CSE 321, and CSE 421",Software II: Software Development and Design,3.0,CSE 2221 or CSE 4221,Not open to students with credit for CSE 2231.01 or CSE 321 or CSE 421 or CSE 2231
+4251,CSE 459.11,The UNIX Programming Environment,1.0,CSE 2231 or CSE 321,Not open to students with credit for CSE 459.11
+4252,CSE 459.22,Programming in C++,1.0,CSE 2231,Not open to students with credit for CSE 459.22
+4253,459.24,Programming in C#,1.0,CSE 2231,Not open to students with credit for CSE 459.24
+4254,CSE 459.31,Programming in Lisp,1.0,CSE 2231,Not open to students with credit for CSE 459.31
+4255,459.51,Programming in Perl,1.0,CSE 2231 and CSE 2331 and CSE 2421,Not open to students with credit for CSE 459.51
+4521,CSE 630,Survey of Artificial Intelligence for Non-Majors,3.0,CSE 1211 or CSE 1221 or CSE 1222 or CSE 1223 or CSE 2221 or graduate standing,Not open to CSE or CIS majors; not open to students with credit for CSE 3521 or CSE 5521 or CSE 630
+4689,489,Professional Practice in Industry,0.0,Permission of the CSE Advising Office,
+4901,,"Project: Design, Development, and Documentation of Web Applications",4.0,Programming maturity and graduate standing,Not open to CSE and CIS majors; not open to students with credit for CSE 3901
+4902,,"Project: Design, Development, and Documentation of Interactive Systems",4.0,Programming maturity and graduate standing,Not open to CSE and CIS majors; not open to students with credit for CSE 3902
+4998,CSE 699,Undergraduate Research in Computer Science and Engineering,1.0 - 10.0,Permission of Instructor,
+4998H,,Undergraduate Research in Computer Science and Engineering,1.0 - 10.0,Honors status; Permission of Instructor,
+4999,CSE 699,Computer Science and Engineering Research for Thesis,1.0 - 10.0,Permission of Instructor,
+4999H,CSE 783H,Computer Science and Engineering Research for Thesis,1.0 - 10.0,Honors status; Permission of Instructor,
+5032,,Foundations I: Discrete Structures,2.0,5022 or equivalent,Not open to students with credit for 625 or 680 or 2321.
+5042,CSE 360 and CSE 459.21,Systems I: Introduction to Low-Level Programming and Computer Organization,3.0,"2122 (230) or 2123 (314) or 2231 or 321, and 2321 or Math 2366 or Math 366",Not open to students with credit for 360 or 2421.
+5043,,Overview of Computer Systems For Non-Majors,3.0,"Prereq: 5022 or equivalent, and 5032 or equivalent",Not for CSE/CIS majors. Not open to students with credit for CSE 2421 or 5042 or 2431 or 3430 or 360 or 660
+5194.01,CSE 694,Group Studies in Computer Science and Engineering,1.0 - 10.0,Permission of Instructor,
+5194.02,CSE 694,Group Studies in Computer Science and Engineering,1.0 - 10.0,Permission of Instructor,
+5231,CSE 757,Software Engineering Techniques,2.0,CSE 3901 or CSE 3902 or CSE 560,Not open to students with credit for CSE 3231 or CSE 757
+5232,CSE 616,Software Requirements Analysis,2.0,CSE 3901 or CSE 3902 or CSE 560,Not open to students with credit for CSE 3232 or CSE 616
+5234,CSE 769,Distributed Enterprise Computing,3.0,CSE 3431 or CSE 5431 or CSE 660,Not open to students with credit for CSE 769
+5235,,Applied Enterprise Architectures and Services,3.0,CSE 5911 or CSE 5912 or CSE 5913 or CSE 5914 or CSE 5915 or CSE 682 or CSE 731 or CSE 758 or CSE 762 or CSE 772 or CSE 778,
+5236,,Mobile Application Development,3.0,CSE 3901 or CSE 3902 or CSE 5901 or CSE 5902 or CSE 560,
+5239,788,Intermediate Studies in Software Engineering,2.0,,
+5241,CSE 670,Introduction to Database Systems,2.0,(CSE 2231 or CSE 321) and (CSE 2321 or Math 366),Not open to students with credit for CSE 3241 or CSE 670
+5242,770,Advanced Database Management Systems,3.0,CSE 3241,Not open to students with credit for CSE 770
+5243,674,Introduction to Data Mining,3.0,CSE 2331 and CSE 3241,Not open to students with credit for CSE 674
+5245,,Introduction to Network Science,3.0,CSE 2331,
+5249,788,Intermediate Studies in Databases,2.0,,
+5321,CSE 625,Automata and Formal Languages,2.0,(CSE 2231 or CSE 321) and (CSE 2331 or Math 566) and (CSE 2421 or CSE 360),Not open to students with credit for CSE 3321 or CSE 625
+5329,788,Intermediate Studies in Computation Theory,2.0,,
+5331,680,Foundations II: Data Structures and Algorithms,2.0,(CSE 2231 or CSE 321) and (CSE 2321 or Math 366) and (Math 2566 or Math 566) and (Stat 3470 or Stat 427),Not open to students with credit for CSE 2331 or CSE 680
+5339,788,Intermediate Studies in Algorithms,2.0,,
+5341,CSE 655,Principles of Programming Languages,2.0,CSE 2231 and (CSE 2331 or CSE 680) and CSE 2421 and (CSE 3901 or CSE 3902 or CSE 560),Not open to students with credit for CSE 3341 or CSE 655
+5343,756,Compiler Design and Implementation,3.0,(CSE 3901 or CSE 3902 or CSE 560) and (CSE 3341 or CSE 655),Not open to students with credit for CSE 756
+5349,788,Intermediate Studies in Programming Languages,2.0,,
+5351,CSE 723,Introduction to Cryptography,3.0,(Stat 3460 or Stat 3470 or Stat 427) and (CSE 2331 or CSE 5331 or CSE 680 or Math 4573 or Math 573 or Math 4580 or Math 580),Not open to students with credit for CSE 723 or CSE 794Q
+5359,788,Intermediate Studies in Cryptography,2.0,,
+5361,541,Numerical Methods,3.0,CSE 2231 and (Math 2568 or 568 or 571) and (Math 1151 or Math 151),Not open to students with credit for CSE 541
+5421,"CSE 675.01, CSE 675.02",Introduction to Computer Architecture,2.0,(CSE 2231 or CSE 321) and (CSE 2421 or CSE 360 or ECE 2560 or ECE 265) and (ECE 2000 or ECE 261),Not open to students with credit for CSE 3421 or CSE 675.01 or CSE 675.02
+5429,788,Intermediate Studies in Computer Architecture,2.0,,
+5431,CSE 660,Systems II: Introduction to Operating Systems,2.0,CSE 2421 or ((ECE 2560 or ECE 265 or CSE 360) and CSE 2451),Not open to students with credit for CSE 2431 or CSE 660
+5432,,Mobile Handset Systems and Networking,3.0,CSE 2421 or ((ECE 2560 or ECE 265) and (CSE 2451 or CSE 459.21)),
+5433,CSE 662,Operating Systems Laboratory,3.0,CSE 2431 or CSE 5431 or (CSE 660 and (CSE 2451 or CSE 459.21)),Not open to students with credit for CSE 662
+5434,741,Comparative Operating Systems,2.0,CSE2431 (660) or CSE5431,Not open to students with credit for CSE 741
+5439,788,Intermediate Studies in Operating Systems,2.0,,
+5441,CSE 621,Introduction to Parallel Computing,3.0,Pre-req: (CSE 2231 and CSE 2321 and (CSE 2421 or ((ECE 2560 or ECE 265) and CSE 2451)) and (Math 2568 or Math 568 or Math 571)) or graduate standing.,Not open to students with credit for CSE 621
+5449,788,Intermediate Studies in Parallel Computing,2.0,,
+5461,"CSE 677, part of CSE 678",Computer Networking and Internet Technologies,2.0,CSE 2421 or ((ECE 2560 or 265) and CSE 2451); co-req: CSE 2431,Not open to students with credit for CSE 3461 or CSE 677
+5462,,Network Programming,3.0,CSE 3461 or CSE 5461 or CSE 677,
+5463,,Introduction to Wireless Networking,3.0,CSE 3461 or 677 or ECE 3367 or 561 or graduate standing in engineering or math & physical sciences.,
+5469,788,Intermediate Studies in Computer Networking,2.0,,
+5471,CSE 551,Information Security,3.0,(CSE 2231 and CSE 2321) or CSE 321,Not open to students with credit for CSE 551
+5472,CSE 652,Information Security Projects,3.0,(CSE 3901 or CSE 3902 or CSE 560) and (CSE 3461 or CSE 5461 or CSE 5471),Not open to students with credit for CSE 652
+5473,CSE 651,Network Security,3.0,CSE 3461 or CSE 5461 or CSE 677,Not open to students with credit for CSE 651
+5479,788,Intermediate Studies in Computer Security,2.0,,
+5501,CSE 601,"Social, Ethical, and Professional Issues in Computing",1.0,(CSE 1222 or CSE 1223 or CSE 2231 or CSE 214 or CSE 230 or CSE 222) and (CSE 2321 or Math 366) and (CSE 2421 or CSE 360),Not open to students with credit for CSE 2501 or CSE 601
+5521,CSE 630,Survey of Artificial Intelligence I: Basic Techniques,2.0,CSE 2331 or (CSE 222 and Math 366),Not open to students with credit for CSE 3521 or CSE 630
+5522,CSE 730,Survey of Artificial Intelligence II: Advanced Techniques,3.0,CSE 3521 or CSE 5521 or CSE 630 or grad standing,Not open to students with credit for CSE 730
+5523,CSE 735,Machine Learning and Statistical Pattern Recognition,3.0,(CSE 3521 or CSE 5521 or CSE 5243) and (CSE 5522 or Stat 3460 or Stat 3470),Not open to students with credit for CSE 735
+5524,CSE 634,Computer Vision for Human-Computer Interaction,3.0,CSE 2331 or senior or grad standing,Not open to students with credit for CSE 634
+5525,CSE 732 and CSE 733,Foundations of Speech and Language Processing,3.0,(CSE 3521 or CSE 5521) and (CSE 5522 or Stat 3460 or Stat 3470),Not open to students with credit for CSE 733
+5526,779,Introduction to Neural Networks,3.0,CSE 3521,Not open to students with credit for CSE 779
+5531,CSE 612,Introduction to Cognitive Science,3.0,"At least 12 sem-cr-hrs equivalent from at least two of the following four areas: computer science, linguistics, philosophy, and psychology; at most 6 sem-cr-hrs can come from any one area","Not open to students with credit for CSE 612, Ling 612, Phil 612, or Psych 612"
+5539,788,Intermediate Studies in Artificial Intelligence,2.0,,
+5541,CSE 683,Computer Game and Animation Techniques,2.0,CSE 3901 or CSE 3902,Not open to students with credit for CSE 3541 or CSE 683
+5542,CSE 781,Real-Time Rendering,3.0,(CSE 3901 or CSE 3902 or CSE 4901 or CSE 4902 or CSE 560) and (Math 2568 or Math 568 or Math 571),Not open to students with credit for CSE 781
+5543,CSE 784,Geometric Modeling,3.0,Math 2568 or Math 568 or Math 571,Not open to students with credit for CSE 784
+5544,CSE 694L,Introduction to Scientific Visualization,3.0,(CSE 5361 or CSE 541) or (CSE 5541 or CSE 581),Not open to students with credit for CSE 694L
+5545,CSE 782,Advanced Computer Graphics,3.0,CSE 5541 or CSE 581,Not open to students with credit for CSE 782
+5559,788,Intermediate Studies in Computer Graphics,2.0,,
+5889,788,Intermediate Studies in Multidisciplinary Computing,2.0,,
+5891,CSE 737,Proseminar in Cognitive Science,2.0,CSE 5531,
+5911,"CSE 758, CSE 762",Capstone Design: Software Applications,4.0,(CSE 2501 or CSE 5501 or CSE 601) and (CSE 3901 or CSE 3902 or CSE 4901 or CE 4902 or CSE 560) and (CSE 3231 or CSE 5231 or CSE 757),Not open to students with credit for CSE 758 or CSE 762
+5912,CSE 786,Capstone Design: Game Design and Development,4.0,(CSE 2501 or CSE 5501 or CSE 601) and (CSE 3901 or CSE 3902 or CSE 4901 or CSE 4902 or CSE 560) and (CSE 3541 or CSE 5541 or CSE 581),Not open to students with credit for CSE 786
+5913,CSE 682,Capstone Design: Computer Animation,4.0,(CSE 2501 or CSE 5501 or CSE 601) and (CSE 3901 or CSE 3902 or CSE 4901 or CSE 4902 or CSE 560) and (CSE 3541 or CSE 5541 or CSE 683),Not open to students with credit for CSE 682
+5914,CSE 731,Capstone Design: Knowledge-Based Systems,4.0,(CSE 2501 or CSE 5501 or CSE 601) and (CSE 3901 or CSE 3902 or CSE 4901 or CSE 4902 or CSE 560) and (CSE 3521 or CSE 5521 or CSE 630),Not open to students with credit for CSE 731
+5915,CSE 772,Capstone Design: Information Systems,4.0,(CSE 2501 or CSE 5501 or CSE 601) and (CSE 3901 or CSE 3902 or CSE 4901 or CSE 4902 or CSE 560) and (CSE 3241 or CSE 5241 or CSE 670),Not open to students with credit for CSE 772
+6193,CSE 793,Individual Studies in Computer Science and Engineering,1.0 - 10.0,Permission of Instructor,
+6194,CSE 794,Group Studies in Computer Science and Engineering,1.0 - 10.0,Permission of Instructor,
+6231,,Formal Foundations of Software Engineering,3.0,(CSE 3321 or CSE 5321 or CSE 625) and (CSE 3341 or CSE 5341 or CSE 655),
+6239,CSE 888,Advanced Studies in Software Engineering,1.0 - 3.0,,
+6249,CSE 888,Advanced Studies in Databases,1.0 - 3.0,,
+6321,CSE 725,Computability and Complexity,3.0,CSE 5321 or CSE 3321 or CSE 625,Not open to students with credit for CSE 725
+6329,CSE 888,Advanced Studies in Computation Theory,1.0 - 3.0,,
+6331,CSE 780,Algorithms,3.0,CSE 2331 or CSE 5331 or CSE 680,Not open to students with credit for CSE 780
+6332,CSE 790,Advanced Algorithms,3.0,CSE 6331 or CSE 780,Not open to students with credit for CSE 790 or CSE 794A
+6333,CSE 763,Distributed Algorithms,3.0,CSE 6431 or CSE 760,Not open to students with credit for CSE 763
+6339,CSE 888,Advanced Studies in Algorithms,1.0 - 3.0,,
+6341,CSE 755,Foundations of Programming Languages,3.0,CSE 3341 or CSE 5341 or CSE 655,Not open to students with credit for CSE 755
+6349,CSE 888,Advanced Studies in Programming Languages,1.0 - 3.0,,
+6359,CSE 888,Advanced Studies in Cryptography,1.0 - 3.0,,
+6421,CSE 775,Computer Architecture,3.0,(CSE 3421 or CSE 5421 or CSE 675 or ECE 5362 or ECE 662) and (CSE 3431 or CSE 5431 or CSE 660),Not open to students with credit for CSE 775
+6422,CSE 875,Advanced Computer Architecture,3.0,(CSE 6421 or CSE 775) and (CSE 6441 or CSE 721),Not open to students with credit for CSE 875
+6429,CSE 888,Advanced Studies in Computer Architecture,1.0 - 3.0,,
+6431,CSE 760,Advanced Operating Systems,3.0,CSE 2431 or CSE 5431 or CSE 660,Not open to students with credit for CSE 760
+6439,CSE 888,Advanced Studies in Operating Systems,1.0 - 3.0,,
+6441,CSE 721,Parallel Computing,3.0,CSE 5441 or CSE 621,Not open to students with credit for CSE 721
+6449,CSE 888,Advanced Studies in Parallel Computing,1.0 - 3.0,,
+6461,"CSE 861, CSE 862",Computer Communication Networks,3.0,Undergraduate course in probability or Stat 3470 or Math 530 or Stat 428 or Stat 520 or ECE 6001 or ECE 804,"Not open to students with credit for CSE 861, CSE 862, ECE 6101, ECE 861, or ECE 862"
+6469,CSE 888,Advanced Studies in Computer Networking,1.0 - 3.0,,
+6479,CSE 888,Advanced Studies in Computer Security,1.0 - 3.0,,
+6539,CSE 888,Advanced Studies in Artificial Intelligence,1.0 - 3.0,,
+6559,CSE 888,Advanced Studies in Computer Graphics,1.0 - 3.0,,
+6998,CSE 999,MS Research in Computer Science and Engineering,1.0 - 10.0,,
+6999,CSE 999,MS Thesis Research in Computer Science and Engineering,1.0 - 10.0,,
+8193,CSE 793,Individual Studies in Computer Science and Engineering,1.0 - 10.0,Permission of Instructor,
+8194,CSE 894,Group Studies in Computer Science and Engineering,1.0 - 10.0,Permission of Instructor,
+8998,CSE 999,PhD Research in Computer Science and Engineering,1.0 - 10.0,,
+8999,CSE 999,PhD Dissertation Research in Computer Science and Engineering,1.0 - 10.0,,

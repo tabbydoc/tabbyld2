@@ -1,0 +1,4 @@
+Date,Bug #,Contribution size,Committer,Contributor,Description
+"August 12, 2010",Bug 321843,"files: 1 modified, 7 loc",dminsky,Vikram Bhatia,Fix to SessionManager to log a potential exception from session logout when SessionManager.destroy() is called
+"July 21, 2010",Bug 309142,"files: 1 new 2 modified, 85 loc",dminsky,John Vandale,ScrollableCursor hasNext() throws DB exception instead of returning false at end of iteration
+"July 20, 2010",Bug 319276,"files: 1 new 3 modified, 110 loc",dminsky,John Vandale,Enable history support to work with bi-directional 1-1 relationships

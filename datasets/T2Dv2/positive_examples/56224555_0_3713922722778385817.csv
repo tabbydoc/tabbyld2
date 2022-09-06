@@ -1,0 +1,101 @@
+Rank,Company,Country,Industry,Sales ($bil),Profits ($bil),Assets ($bil),Market Value ($bil)
+1,JPMorgan Chase,United States,Banking,115.63,11.65,"2,031.99",166.19
+2,General Electric,United States,Conglomerates,156.78,11.03,781.82,169.65
+3,Bank of America,United States,Banking,150.45,6.28,"2,223.30",167.63
+4,ExxonMobil,United States,Oil & Gas Operations,275.56,19.28,233.32,308.77
+5,ICBC,China,Banking,71.86,16.27,"1,428.46",242.23
+6,Banco Santander,Spain,Banking,109.57,12.34,"1,438.68",107.12
+7,Wells Fargo,United States,Banking,98.64,12.28,"1,243.65",141.69
+8,HSBC Holdings,United Kingdom,Banking,103.74,5.83,"2,355.83",178.27
+8,Royal Dutch Shell,Netherlands,Oil & Gas Operations,278.19,12.52,287.64,168.63
+10,BP,United Kingdom,Oil & Gas Operations,239.27,16.58,235.45,167.13
+11,BNP Paribas,France,Banking,101.06,8.37,"2,952.22",86.67
+12,PetroChina,China,Oil & Gas Operations,157.22,16.80,174.95,333.84
+13,AT&T,United States,Telecommunications Services,123.02,12.54,268.75,147.55
+14,Wal-Mart Stores,United States,Retailing,408.21,14.34,170.71,205.37
+15,Berkshire Hathaway,United States,Diversified Financials,112.49,8.06,297.12,190.86
+16,Gazprom,Russia,Oil & Gas Operations,115.25,24.33,234.77,132.58
+17,China Construction Bank,China,Banking,59.16,13.59,"1,106.20",184.32
+18,Petrobras-Petróleo Brasil,Brazil,Oil & Gas Operations,104.81,16.63,198.26,190.34
+19,Total,France,Oil & Gas Operations,160.68,12.10,183.29,131.80
+20,Chevron,United States,Oil & Gas Operations,159.29,10.48,164.62,146.23
+21,Barclays,United Kingdom,Banking,65.91,15.17,"2,223.04",56.15
+22,Bank of China,China,Banking,52.20,9.45,"1,016.31",147.00
+23,Allianz,Germany,Insurance,130.06,6.16,834.04,52.74
+24,GDF Suez,France,Utilities,114.65,6.42,245.95,83.36
+25,E.ON,Germany,Utilities,117.38,12.05,214.58,68.26
+25,Goldman Sachs Group,United States,Diversified Financials,51.67,13.39,849.00,84.95
+27,EDF Group,France,Utilities,95.17,5.60,342.63,92.23
+28,AXA Group,France,Insurance,145.86,5.17,"1,016.70",46.02
+29,Lloyds Banking Group,United Kingdom,Banking,106.67,4.57,"1,650.78",50.25
+29,Procter & Gamble,United States,Household & Personal Products,76.78,13.05,135.29,184.47
+31,ENI,Italy,Oil & Gas Operations,121.01,6.27,163.52,82.22
+32,Telefónica,Spain,Telecommunications Services,79.11,10.84,154.98,108.19
+33,IBM,United States,Software & Services,95.76,13.43,109.02,167.01
+34,UniCredit Group,Italy,Banking,92.17,5.59,"1,438.91",43.95
+35,Hewlett-Packard,United States,Technology Hardware & Equip,116.92,8.13,113.62,121.33
+36,Nestlé,Switzerland,"Food, Drink & Tobacco",97.08,10.07,105.16,173.67
+37,Verizon Communications,United States,Telecommunications Services,107.81,3.65,227.25,82.21
+38,China Mobile,Hong Kong/China,Telecommunications Services,66.22,16.87,104.46,199.73
+39,ConocoPhillips,United States,Oil & Gas Operations,136.02,4.86,152.59,72.72
+40,Pfizer,United States,Drugs & Biotechnology,50.01,8.64,212.95,143.23
+41,Nippon Telegraph & Tel,Japan,Telecommunications Services,106.98,5.53,181.48,68.68
+42,ENEL,Italy,Utilities,91.87,7.74,221.26,50.92
+43,Deutsche Bank,Germany,Banking,62.98,6.93,"2,150.60",39.75
+44,Credit Suisse Group,Switzerland,Diversified Financials,50.26,6.11,988.91,53.93
+45,Sinopec-China Petroleum,China,Oil & Gas Operations,208.47,4.37,110.66,130.06
+46,Vodafone,United Kingdom,Telecommunications Services,58.35,4.38,217.97,112.26
+47,Johnson & Johnson,United States,Drugs & Biotechnology,61.90,12.27,94.68,174.90
+48,BBVA-Banco Bilbao Vizcaya,Spain,Banking,49.27,6.03,760.39,48.20
+49,Microsoft,United States,Software & Services,58.69,16.26,82.10,254.52
+50,Siemens,Germany,Conglomerates,112.23,3.36,133.94,80.07
+51,Banco Bradesco,Brazil,Banking,59.10,4.60,281.40,54.50
+52,Banco do Brasil,Brazil,Banking,56.10,5.82,406.46,42.78
+53,Royal Bank of Canada,Canada,Banking,35.41,3.58,608.05,78.17
+54,Intesa Sanpaolo,Italy,Banking,50.71,3.56,877.66,44.67
+55,Samsung Electronics,South Korea,Semiconductors,97.28,4.43,83.30,94.48
+56,France Telecom,France,Telecommunications Services,65.92,4.30,132.06,62.39
+57,Sanofi-aventis,France,Drugs & Biotechnology,41.99,7.54,114.85,98.07
+58,Ford Motor,United States,Consumer Durables,118.31,2.72,194.85,41.80
+59,Commonwealth Bank,Australia,Banking,31.84,3.81,500.20,75.10
+60,RWE Group,Germany,Utilities,66.57,4.98,130.36,47.93
+61,Novartis,Switzerland,Drugs & Biotechnology,44.27,8.40,90.89,126.22
+62,BHP Billiton,Australia/United Kingdom,Materials,50.21,5.88,74.86,192.45
+63,Zurich Financial Services,Switzerland,Insurance,70.27,3.22,366.66,34.71
+64,Statoil,Norway,Oil & Gas Operations,79.76,3.16,97.09,72.26
+65,Generali Group,Italy,Insurance,123.14,1.83,607.37,35.19
+66,Roche Holding,Switzerland,Drugs & Biotechnology,47.35,7.51,69.64,146.19
+67,Westpac Banking Group,Australia,Banking,31.19,3.04,519.03,70.99
+68,Rio Tinto,United Kingdom/Australia,Materials,41.83,4.87,95.01,118.34
+69,Lukoil,Russia,Oil & Gas Operations,86.34,9.14,70.94,45.18
+70,Anheuser-Busch InBev,Belgium,"Food, Drink & Tobacco",36.76,4.61,111.58,81.48
+71,GlaxoSmithKline,United Kingdom,Drugs & Biotechnology,45.83,8.94,65.38,95.36
+72,Merck & Co,United States,Drugs & Biotechnology,27.43,12.90,112.09,116.11
+73,Crédit Agricole,France,Banking,91.96,1.61,"2,227.22",34.42
+74,Munich Re,Germany,Insurance,59.31,3.67,284.21,30.12
+75,Apple,United States,Technology Hardware & Equip,46.71,9.36,53.93,189.51
+75,Cisco Systems,United States,Technology Hardware & Equip,35.53,6.07,76.40,140.85
+77,Rosneft,Russia,Oil & Gas Operations,34.70,6.51,83.11,83.19
+78,Mitsubishi Corp,Japan,Trading Companies,63.12,3.80,109.74,42.64
+79,National Australia Bank,Australia,Banking,32.50,2.29,574.41,48.80
+80,Vale,Brazil,Materials,27.82,5.88,100.81,145.14
+81,CVS Caremark,United States,Retailing,98.73,3.70,61.64,47.85
+82,Itaúsa,Brazil,Conglomerates,66.36,2.25,342.63,28.74
+83,ANZ Banking,Australia,Banking,26.91,2.60,420.52,53.72
+84,Tesco,United Kingdom,Food Markets,77.94,3.10,65.61,51.43
+85,Unilever,Netherlands/United Kingdom,"Food, Drink & Tobacco",57.05,4.83,52.05,91.33
+86,Honda Motor,Japan,Consumer Durables,102.82,1.41,117.24,63.22
+86,Toronto-Dominion Bank,Canada,Banking,23.60,2.90,517.28,55.43
+88,Iberdrola,Spain,Utilities,35.15,3.94,125.21,42.16
+89,Comcast,United States,Media,35.76,3.64,112.73,47.76
+90,China Life Insurance,China,Insurance,24.01,3.12,153.13,118.75
+91,Bank of Nova Scotia,Canada,Banking,23.27,3.29,460.93,47.26
+92,UnitedHealth Group,United States,Health Care Equipment & Svcs,87.14,3.82,59.05,39.40
+93,Sberbank,Russia,Banking,23.27,3.20,220.62,57.70
+94,United Technologies,United States,Conglomerates,52.92,3.83,55.76,65.28
+95,Nordea Bank,Sweden,Banking,22.81,3.41,729.06,39.42
+96,Bank of Communications,China,Banking,19.05,4.17,392.83,57.34
+97,BASF,Germany,Chemicals,72.63,2.02,72.06,52.12
+98,Walt Disney,United States,Media,36.29,3.31,69.31,61.17
+99,Standard Chartered Group,United Kingdom,Banking,20.94,3.38,435.56,46.16
+100,AstraZeneca,United Kingdom,Drugs & Biotechnology,32.80,7.52,53.63,63.56

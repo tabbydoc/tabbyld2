@@ -1,0 +1,378 @@
+Nr.,Museum,Country,Score *
+1,Museum of Modern Art (MoMA),USA,11
+2,Metropolitan Museum of Art,USA,14
+3,Mus?e du Louvre,France,34
+4,National Gallery of Art,USA,35
+5,Victoria and Albert Museum,United Kingdom,37
+6,J. Paul Getty Museum,USA,40
+7,Deutsches Historisches Museum,Germany,50
+8,Los Angeles County Museum of Art (LACMA),USA,51
+9,State Hermitage Museum,Russia,53
+10,Brooklyn Museum of Art,USA,58
+11,National Maritime Museum,United Kingdom,59
+12,Museum of Fine Arts (MFA),USA,61
+13,National Gallery,United Kingdom,67
+14,Rijksmuseum,Netherlands,69
+15,Museo Nacional del Prado,Spain,72
+16,Royal Academy of Arts,United Kingdom,74
+17,Tate Britain,United Kingdom,76
+18,Museum of New Zealand Te Papa Tongarewa,New Zealand,83
+19,Philadelphia Museum of Art,USA,87
+20,Minneapolis Institute of Arts,USA,88
+21,Indianapolis Museum of Art,USA,89
+22,Ashmolean Museum,United Kingdom,94
+23,Detroit Institute of Arts (DIA),USA,108
+24,Museo Thyssen-Bornemisza,Spain,111
+25,Seattle Art Museum,USA,114
+26,Saint Louis Art Museum (SLAM),USA,123
+27,Art Gallery of Ontario (AGO),Canada,133
+28,Manchester Art Gallery,United Kingdom,141
+29,Corcoran Gallery of Art,USA,141
+30,National Gallery of Scotland /National Portrait Gallery,United Kingdom,145
+31,Royal Collection,United Kingdom,149
+32,National Museum of Western Art,Japan,150
+33,High Museum of Art,USA,156
+34,Jewish Museum,USA,161
+35,Norton Simon Museum,USA,165
+36,Kunsthistorisches Museum (KHM),Austria,168
+37,Frick Collection,USA,168
+38,Isabella Stewart Gardner Museum,USA,175
+39,"Museum of Fine Arts, Houston",USA,178
+40,Denver Art Museum,USA,183
+41,National Museum of Wales,United Kingdom,184
+42,Palacio Real,Spain,186
+43,Sinebrychoffin Taidemuseo,Finland,187
+44,Patrimonio Nacional,Spain,189
+45,Wallace Collection,United Kingdom,190
+46,Statens Museum for Kunst,Denmark,194
+47,Muzeum Ksiazat Lubomirskich,Poland,197
+48,Milwaukee Art Museum,USA,203
+49,Walters Art Museum,USA,209
+50,Carnegie Museum of Art,USA,218
+51,Worcester Art Museum,USA,225
+52,St?del Museum,Germany,227
+53,Cleveland Museum of Art,USA,234
+54,Hamburger Kunsthalle,Germany,237
+55,Klassik Stiftung Weimar,Germany,244
+56,Portland Art Museum,USA,249
+57,Nelson-Atkins Museum of Art,USA,253
+58,Albright-Knox Art Gallery,USA,254
+59,Landesmuseum f?r Kunst und Kulturgeschichte,Germany,255
+60,Museum Boijmans Van Beuningen,Netherlands,255
+61,Phoenix Art Museum,USA,256
+62,Schloss Sanssouci,Germany,257
+63,National Gallery of Canada,Canada,261
+64,"Gem?ldegalerie, Staatliche Museen zu Berlin",Germany,265
+65,North Carolina Museum of Art,USA,265
+66,John and Mable Ringling Museum of Art,USA,270
+67,Kunst- und Ausstellungshalle der Bundesrepublik Deutschland,Germany,270
+68,Dallas Museum of Art,USA,272
+69,Germanisches Nationalmuseum,Germany,274
+70,Sz?pm?v?szeti M?zeum,Hungary,277
+71,Landesmuseum Joanneum - Alte Galerie,Austria,286
+72,Mus?e Jacquemart-Andr?,France,289
+73,Koninklijke Musea voor Schone Kunsten van Belgi?,Belgium,290
+74,British Museum,United Kingdom,292
+75,Mus?e National d'Histoire et d'Art,Luxembourg,292
+76,Van Gogh Museum,Netherlands,293
+77,City Museums and Art Gallery,United Kingdom,293
+78,G?teborgs Konstmuseum,Sweden,293
+79,Chatsworth House,United Kingdom,294
+80,Peter the Great Museum of Anthropology and Ethnography,Russia,295
+81,Sterling and Francine Clark Art Institute,USA,309
+82,Kunstareal Munchen,Germany,316
+83,Kr?ller-M?ller Museum,Netherlands,316
+84,Slovensk? N?rodn? Gal?ria,Slovak Republic,316
+85,Museum Gustavianum Uppsala,Sweden,317
+86,Toledo Museum of Art,USA,319
+87,San Diego Museum of Art,USA,319
+88,Mauritshuis,Netherlands,320
+89,Museum der bildenden K?nste Leipzig,Germany,325
+90,Kunsthaus Z?rich,Switzerland,329
+91,Pushkin State Museum of Fine Arts,Russia,330
+92,Museo Nacional de Bellas Artes,Argentina,330
+93,Joods Historisch Museum,Netherlands,333
+94,Van Abbemuseum,Netherlands,336
+95,Erfgoedcentrum DiEP,Netherlands,339
+96,N?rodn? galerie v Praze,Czech Republic,340
+97,Amsterdams Historisch Museum (AHM),Netherlands,344
+98,New Orleans Museum of Art (NOMA),USA,347
+99,Staatsgalerie Stuttgart,Germany,347
+100,Ackland Art Museum,USA,352
+101,Chrysler Museum of Art,USA,354
+102,Blanton Museum of Art,USA,356
+103,Museo Nacional de Bellas Artes de Cuba,Cuba,357
+104,Mus?e des Beaux-Arts de Lyon,France,358
+105,Auckland Art Gallery Toi o T??maki,New Zealand,359
+106,Muzeum Narodowe w Warszawie,Poland,359
+107,Galleria Borghese,Italy,366
+108,Kunstmuseum Liechtenstein,Liechtenstein,368
+109,Kunstmuseum Basel,Switzerland,378
+110,Staatliche Kunstsammlungen Dresden,Germany,385
+111,Centraal Museum,Netherlands,386
+112,Mus?e des Beaux-Arts de Montr?al,Canada,392
+113,Firenze Musei,Italy,398
+114,Mus?e d'Art et d'Histoire,Switzerland,402
+115,Israel Museum,Israel,403
+116,Von der Heydt-Museum,Germany,404
+117,Ober?sterreichisches Landesmuseum,Austria,407
+118,Liechtenstein Museum,Austria,407
+119,Williams College Museum of Art,USA,407
+120,Baltimore Museum of Art,USA,408
+121,National Museum of Fine Arts,Malta,411
+122,Dayton Art Institute,USA,412
+123,Museu de Arte,Brazil,412
+124,Crocker Art Museum,USA,414
+125,National Gallery of Ireland,Ireland,417
+126,Wadsworth Atheneum Museum of Art,USA,418
+127,Museo Nacional de Escultura,Spain,419
+128,Bilboko Arte Eder Museoa,Spain,420
+129,Stedelijk Museum,Netherlands,432
+130,Palazzo Strozzi,Italy,433
+131,Kulturgeschichtliches Museum,Germany,440
+132,Sprengel Museum,Germany,441
+133,Groninger Museum,Netherlands,443
+134,Museum Het Valkhof,Netherlands,450
+135,Barnes Foundation,USA,451
+136,Dulwich Picture Gallery,United Kingdom,451
+137,Koninklijk Instituut voor het Kunstpatrimonium (KIK),Belgium,454
+138,Staatliches Museum Schwerin,Germany,455
+139,Speed Art Museum,USA,457
+140,Nationalmuseum,Sweden,459
+141,Moravsk? Galerie,Czech Republic,460
+142,Noordbrabants Museum,Netherlands,462
+143,Kunsthalle Bremen,Germany,463
+144,Maritiem Museum Rotterdam,Netherlands,465
+145,Stedelijk Museum De Lakenhal,Netherlands,469
+146,Museum Boerhaave,Netherlands,472
+147,Currier Museum of Art,USA,474
+148,Historisches Museum Frankfurt am Main,Germany,477
+149,Birmingham Museum of Art,USA,478
+150,Muzeul Na??ional de Arta al Rom?niei,Romania,478
+151,Zamek Kr?lewski na Wawelu,Poland,479
+152,Museum Meermanno,Netherlands,480
+153,Zuiderzeemuseum,Netherlands,485
+154,Nederlands Scheepvaartmuseum Amsterdam,Netherlands,489
+155,Bonnefantenmuseum,Netherlands,489
+156,Cincinnati Art Museum,USA,489
+157,Fries Museum,Netherlands,490
+158,Tel Aviv Museum of Art,Israel,494
+159,Museum Kunst Palast,Germany,500
+160,Staatliche Kunsthalle,Germany,502
+161,Albertina,Austria,503
+162,Muzeum-Pa??ac w Wilan?wie,Poland,503
+163,Norton Museum of Art,USA,505
+164,Fundaci?n Carlos de Amberes,Spain,506
+165,Museo L?zaro Galdiano,Spain,508
+166,Kunsthalle der Hypo-Kulturstiftung,Germany,511
+167,"Museum of Art, Rhode Island School of Design",USA,516
+168,Museum Catharijneconvent,Netherlands,528
+169,Courtauld Institute of Art Gallery,United Kingdom,529
+170,Galerij Prins Willem V,Netherlands,531
+171,Geldmuseum Utrecht,Netherlands,532
+172,Schleswig-Holsteinisches Landesmuseum Schloss Gottorf,Germany,532
+173,Koninklijke Musea voor Kunst en Geschiedenis,Belgium,534
+174,Vlaamse Kunstcollectie,Belgium,535
+175,Historisch Museum Deventer,Netherlands,541
+176,Peterhof Palace National Museum,Russia,553
+177,Bowes Museum,United Kingdom,556
+178,Dordrechts Museum,Netherlands,557
+179,Martin-von-Wagner-Museum,Germany,557
+180,Barber Institute of Fine Arts,United Kingdom,558
+181,Teylers Museum,Netherlands,562
+182,Mus?e des Augustins,France,565
+183,Koninklijk Museum voor Schone Kunsten (KMSKA),Belgium,568
+184,Mus?e Cond?,France,569
+185,Muzeul Na??ional Brukenthal,Romania,575
+186,Museo Franz Mayer,Mexico,577
+187,Bass Museum of Art,USA,580
+188,Museo Poldi Pezzoli,Italy,583
+189,Muzeum Narodowe w Krakowie,Poland,585
+190,Cobra Museum voor Moderne Kunst,Netherlands,586
+191,"Nasjonalmuseet for Kunst, Arkitektur og Design",Norway,586
+192,National Portrait Gallery,United Kingdom,587
+193,Koninklijk Museum van het Leger en de Krijgsgeschiedenis,Belgium,588
+194,Aachener Dom,Germany,592
+195,Museo Nacional de Arte Decorativo,Argentina,593
+196,Escher in het Paleis,Netherlands,595
+197,"Kenwood, The Iveagh Bequest",United Kingdom,598
+198,Holland Museum,USA,607
+199,Muzeum Narodowe w Poznaniu,Poland,608
+200,Bergen Kunstmuseum,Norway,612
+201,Castello del Buonconsiglio,Italy,613
+202,Pavlovsk Palace,Russia,614
+203,Rosenborg Slot,Denmark,618
+204,"Museum of Fine Arts, St. Petersburg",USA,623
+205,Museum voor Moderne Kunst Arnhem (MMKA),Netherlands,623
+206,Zamek Kr?lewski w Warszawie,Poland,623
+207,Drents Museum,Netherlands,629
+208,Palais des Beaux-Arts,France,636
+209,Muzeum Narodowe we Wroc??awiu,Poland,638
+210,Mus?e de Grenoble,France,640
+211,Philbrook Museum of Art,USA,642
+212,Gemeentemuseum Den Haag,Netherlands,644
+213,Muzeum Historyczne Miasta Gda??ska,Poland,644
+214,Mus?e des Beaux-Arts de Rennes,France,647
+215,Museum & Gallery at Bob Jones University,USA,648
+216,Frans Hals Museum,Netherlands,653
+217,Cummer Museum of Art and Gardens,USA,654
+218,Museum voor Schone Kunsten,Belgium,660
+219,Muzeum um??n?,Czech Republic,662
+220,Singer Museum,Netherlands,663
+221,Museum het Rembrandthuis,Netherlands,666
+222,Timken Museum of Art,USA,666
+223,Kunsthalle T?bingen,Germany,672
+224,Taft Museum of Art,USA,672
+225,Det Nationalhistoriske Museum p? Frederiksborg Slot,Denmark,679
+226,Cabinet des Estampes et des Dessins de la Ville de Li?ge,Belgium,680
+227,Mus?e National des Beaux-Arts du Qu?bec,Canada,684
+228,Muzej za umjetnost i obrt,Croatia,685
+229,"Tatton Park, National Trust",United Kingdom,685
+230,Residenzgalerie,Austria,689
+231,Allard Pierson Museum,Netherlands,690
+232,Herzog Anton Ulrich-Museum,Germany,695
+233,Latvian Academy of Arts,Latvia,700
+234,Allentown Art Museum,USA,708
+235,Stedelijk Museum Schiedam,Netherlands,711
+236,Zeeuws Museum,Netherlands,716
+237,Winnipeg Art Gallery,Canada,727
+238,Museum Schloss Wilhelmsh?he,Germany,729
+239,Tiroler Landesmuseum Ferdinandeum,Austria,729
+240,Museum Bredius,Netherlands,731
+241,Ostfriesisches Landesmuseum Emden,Germany,735
+242,Gal?ria Mesta Bratislavy,Slovak Republic,736
+243,Zeeuws Maritiem MuZEEum,Netherlands,740
+244,Slezsk? zemsk? muzeum,Czech Republic,745
+245,Muzej Mimara,Croatia,746
+246,Keramiekmuseum Princessehof,Netherlands,749
+247,museumgoudA / Het Catharina Gasthuis,Netherlands,749
+248,Institut National du Patrimoine,France,750
+249,Hrvatska Akademija Znanostii Umjetnosti: Kabinet Grafike,Croatia,750
+250,Chhatrapati Shivaji Maharaj Vastu Sangrahalaya,India,754
+251,Galleria Doria Pamphilj,Italy,759
+252,Stedelijk Museum Roermond,Netherlands,759
+253,Muzeum Sztuki w ??odzi,Poland,760
+254,Mus?e des Beaux-Arts de Strasbourg,France,760
+255,Nordico - Museum der Stadt Linz,Austria,761
+256,Museum Leuven,Belgium,762
+257,Muzeum Zamek w ??a??cucie,Poland,763
+258,Bayerisches Nationalmuseum,Germany,764
+259,Historisch Museum Rotterdam,Netherlands,765
+260,Muzeum w Nieborowie i Arkadii,Poland,767
+261,Couven-Museum,Germany,768
+262,National Art Museum of the Republic of Belarus,Belarus,774
+263,Haus der Niederlande,Germany,775
+264,Museum de Fundatie,Netherlands,778
+265,Westfries Museum,Netherlands,779
+266,Instituto Ricardo Brennand,Brazil,780
+267,Mus?e Granet d'Aix-en-Provence,France,781
+268,Museum Kranenburgh,Netherlands,782
+269,Museu Nacional de Belas Artes,Brazil,784
+270,York Art Gallery,United Kingdom,787
+271,Museum Schloss B?ckeburg,Germany,789
+272,Muzeum Narodowe w Szczecinie,Poland,791
+273,New-York Historical Society,USA,794
+274,Bijbels Museum,Netherlands,797
+275,Museum Jan Cunen,Netherlands,798
+276,Mus?e de l'Art Wallon,Belgium,807
+277,Hyde Collection,USA,808
+278,Gem?ldegalerie der Akademie der bildenden K?nste,Austria,813
+279,Pretoria Art Museum,South Africa,814
+280,Cheltenham Art Gallery and Museum,United Kingdom,815
+281,Panorama Mesdag,Netherlands,821
+282,Muzeum Czartoryskich,Poland,825
+283,Oblastni Galerie,Czech Republic,830
+284,Kunstverein Braunschweig,Germany,833
+285,Landesmuseum Mainz,Germany,834
+286,"Rubenshuis, Musea Antwerpen",Belgium,835
+287,National Gallery and Alexandros Soutzos Museum,Greece,836
+288,Hessisches Landesmuseum,Germany,837
+289,Onze-Lieve-Vrouwekathedraal Antwerpen,Belgium,837
+290,Mus?e Fesch,France,839
+291,Lviv Art Gallery,Ukraine,840
+292,Historisch Museum De Bevelanden,Netherlands,844
+293,Mus?e Jenisch,Switzerland,848
+294,Strossmayerova galerija starih majstora,Croatia,848
+295,Stedelijk Museum Het Prinsenhof,Netherlands,850
+296,Museum Willet-Holthuysen,Netherlands,850
+297,Haags Historisch Museum,Netherlands,854
+298,Agnes Etherington Art Centre,Canada,855
+299,Kimbell Art Museum,USA,856
+300,Museum Kurhaus Kleve,Germany,860
+301,La Cour d'Or-Mus?e de Metz,France,860
+302,"Collection Frits Lugt, Fondation Custodia",France,865
+303,Stedelijk Museum Alkmaar,Netherlands,866
+304,Schloss Friedenstein,Germany,866
+305,Sammlung Oskar Reinhart ?Am R?merholz?,Switzerland,869
+306,Mus?e des Beaux-Arts de Dijon,France,870
+307,Karl Ernst Osthaus-Museum,Germany,871
+308,Mittelrhein-Museum,Germany,877
+309,Sammlung E.G. B?hrle,Switzerland,879
+310,Schloss Rohrau - Graf Harrach'sche Familiensammlung,Austria,881
+311,Mus?e du Ch?teau des Comtes de Marchin,Belgium,882
+312,Mus?e National Magnin de Dijon,France,883
+313,Al??ova jiho??esk? galerie,Czech Republic,884
+314,Mus?e des Beaux-Arts de Charleroi,Belgium,885
+315,Bonner Kunstverein,Germany,891
+316,Muzeum Warmii i Mazur,Poland,898
+317,Stedelijk Museum Zwolle,Netherlands,899
+318,Kunstmuseum Winterthur,Switzerland,901
+319,Meininger Museen,Germany,903
+320,Schloss Weissenstein,Germany,903
+321,Museo Municipal Qui?ones de Le?n,Spain,911
+322,National History Museum of Latvia,Latvia,912
+323,Museo de Arte de Ponce,Puerto Rico,913
+324,Nationaal Glasmuseum Leerdam,Netherlands,913
+325,Kasteel Huis Bergh,Netherlands,919
+326,Muzeum Lubelskie,Poland,928
+327,Muzeum ??azienki Kr?lewskie,Poland,930
+328,Historisch Museum Arnhem,Netherlands,932
+329,Breda's Museum,Netherlands,932
+330,Sofia Art Gallery,Bulgaria,942
+331,Museum Oskar Reinhardt am Stadtgarten,Switzerland,946
+332,Mus?e des Beaux-Arts et d'Arch?ologie,France,946
+333,Springfield Museum of Art,USA,948
+334,B.C. Koekkoek-Haus,Germany,953
+335,Museum Ons' Lieve Heer op Solder,Netherlands,955
+336,Kunstmuseum St. Gallen,Switzerland,958
+337,Mus?e Rupert de Chi?vres,France,959
+338,Capilla Real de Granada,Spain,960
+339,Rijksmuseum Twenthe,Netherlands,963
+340,??rzemju m??kslas muzejs,Latvia,970
+341,Kunstsammlungen der Veste Coburg,Germany,980
+342,Museo Borgogna,Italy,980
+343,Galleria Giorgio Franchetti alla Ca' d'Oro,Italy,985
+344,Cobbe Collection,United Kingdom,985
+345,St?dtisches Museum Schloss Rheydt,Germany,987
+346,Museum Mesdag,Netherlands,991
+347,Simon van Gijn - museum aan huis,Netherlands,992
+348,Mus?e Calvet,France,993
+349,Figge Art Museum,USA,1004
+350,Rubenianum,Belgium,1004
+351,Kereszt?ny M?zeum,Hungary,1006
+352,Marie Tak van Poortvliet Museum,Netherlands,1012
+353,G?sta Serlachius Museum of Fine Arts,Finland,1015
+354,Rockoxhuis,Belgium,1022
+355,"Obraz?rna Prazsk?ho hradu, Prazsk?? hrad",Czech Republic,1022
+356,Museum aan het Vrijthof,Netherlands,1023
+357,William Humphreys Art Gallery,South Africa,1025
+358,Muzeul de Art?? Timi??oara,Romania,1025
+359,Museum Briner und Kern,Switzerland,1029
+360,National Gallery for Foreign Art,Bulgaria,1033
+361,Stedelijk Museum Zutphen,Netherlands,1035
+362,Zilvermuseum Sterckshof Provincie Antwerpen,Belgium,1050
+363,Kunsthaus Heylshof,Germany,1051
+364,Galleria Nazionale di Palazzo Spinola,Italy,1053
+365,Museum Schloss Ehrenburg,Germany,1063
+366,Staatliche Graphische Sammlung M?nchen,Germany,1064
+367,Nederlands Tegelmuseum,Netherlands,1066
+368,Museo di Palazzo Ducale,Italy,1067
+369,Nivaagaards Malerisamling,Denmark,1069
+370,Villa Vauban - Mus?e d'Art de la Ville de Luxembourg,Luxembourg,1073
+371,Kasteel van Loppem,Belgium,1076
+372,Anhaltische Gem?ldegalerie,Germany,1077
+373,Broelmuseum,Belgium,1095
+374,Atlas van Stolk,Netherlands,1105
+375,Ottema-Kingma Stichting,Netherlands,1111
+376,Museo Nacional de Bellas Artes de Neuqu?n (MNBA Neuqu?n),Argentina,1130
+377,Keizerskapel,Belgium,1144

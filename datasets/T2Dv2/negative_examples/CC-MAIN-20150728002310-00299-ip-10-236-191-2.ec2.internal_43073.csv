@@ -1,0 +1,132 @@
+.:,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+:*:,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Algebra
+:+:,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Algebra
+:.:,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Algebra
+ballot,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+ballots,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+C,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Algebra
+CI,Math.Combinatorics.Species.Types
+ciFromMonomials,Math.Combinatorics.Species.Types
+Comp,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Types
+Const,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Types
+Cycle,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Types
+cycle,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+CycleIndex,Math.Combinatorics.Species.Types
+cycles,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+Der,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Algebra
+E,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Algebra
+e,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+EGF,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Types
+egfFromCoeffs,Math.Combinatorics.Species.Types
+element,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+elements,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+filterCoeffs,Math.Combinatorics.Species.Types
+generate,"Math.Combinatorics.Species.Generate, Math.Combinatorics.Species"
+generateF,Math.Combinatorics.Species.Generate
+GF,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Types
+gfFromCoeffs,Math.Combinatorics.Species.Types
+I,Math.Combinatorics.Species.Algebra
+Identity,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Types
+ksubset,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+ksubsets,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+labelled,"Math.Combinatorics.Species.Labelled, Math.Combinatorics.Species"
+LazyQ,Math.Combinatorics.Species.Types
+LazyRing,Math.Combinatorics.Species.Types
+LazyZ,Math.Combinatorics.Species.Types
+liftCI,Math.Combinatorics.Species.Types
+liftCI2,Math.Combinatorics.Species.Types
+liftEGF,Math.Combinatorics.Species.Types
+liftEGF2,Math.Combinatorics.Species.Types
+liftGF,Math.Combinatorics.Species.Types
+liftGF2,Math.Combinatorics.Species.Types
+list,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+lists,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+LR,Math.Combinatorics.Species.Types
+madeOf,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+needsZ,Math.Combinatorics.Species.Algebra
+needsZT,Math.Combinatorics.Species.Algebra
+NonEmpty,Math.Combinatorics.Species.Types
+nonEmpty,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+O,Math.Combinatorics.Species.Algebra
+o,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+octopi,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+octopus,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+OfSize,Math.Combinatorics.Species.Algebra
+ofSize,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+OfSizeExactly,Math.Combinatorics.Species.Algebra
+ofSizeExactly,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+oneHole,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+Original,Math.Combinatorics.Species.Types
+partition,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+partitions,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+permutation,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+permutations,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+pointed,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+Prod,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Types
+RawString,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Types
+reflect,Math.Combinatorics.Species.Algebra
+reflectT,Math.Combinatorics.Species.Algebra
+reify,Math.Combinatorics.Species.Algebra
+S,Math.Combinatorics.Species.Types
+SA,Math.Combinatorics.Species.Algebra
+selectIndex,Math.Combinatorics.Species.Types
+set,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+sets,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+ShowF,Math.Combinatorics.Species.Types
+showF,Math.Combinatorics.Species.Types
+singleton,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+Species,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+SpeciesAlg,Math.Combinatorics.Species.Algebra
+SpeciesAlgT,Math.Combinatorics.Species.Algebra
+Star,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Types
+Structure,
+1 (Type/Class),Math.Combinatorics.Species.Generate
+2 (Data Constructor),Math.Combinatorics.Species.Generate
+StructureF,Math.Combinatorics.Species.Types
+subset,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+subsets,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+Sum,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Types
+unComp,Math.Combinatorics.Species.Types
+unlabelled,"Math.Combinatorics.Species.Unlabelled, Math.Combinatorics.Species"
+unLR,Math.Combinatorics.Species.Types
+unProd,Math.Combinatorics.Species.Types
+unSum,Math.Combinatorics.Species.Types
+X,
+1 (Type/Class),Math.Combinatorics.Species.Types
+2 (Data Constructor),Math.Combinatorics.Species.Algebra
+x,"Math.Combinatorics.Species.Class, Math.Combinatorics.Species"
+Z,Math.Combinatorics.Species.Types
+zToEGF,Math.Combinatorics.Species.CycleIndex
+zToGF,Math.Combinatorics.Species.CycleIndex

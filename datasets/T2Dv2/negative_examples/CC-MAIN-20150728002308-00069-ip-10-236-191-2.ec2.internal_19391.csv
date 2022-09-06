@@ -1,0 +1,283 @@
+,"Units deploying for less than ______ hours are not required to submit a COMMSHIFT, except to Navy facilities.",72
+,PROFORMA stands for what?,Pre-formatted Message
+,How many types of COMMSHIFTS are there?,5
+,Used to shift communications guards.,COMMSHIFT
+,Used to establish a permanent or temporary fleet/mobile unit Plan Language Address.,Establish COMMSHIFT
+,Used to disestablish a permanent or temporary fleet/mobile unit PLA.,Disestablish COMMSHIFT
+,Used to change a permanent or temporary fleet/mobile unit PLA.,Rename COMMSHIFT
+,Used to cancel a previously submitted COMMSHIFT of any kind.,Cancel COMMSHIFT
+,This COMMSHIFT precedence becomes effective in less than 24 hours.,Immediate
+,This COMMSHIFT precedence required within 24 to 48 hours.,Priority
+,This COMMSHIFT precedence is required after 48 hours but less than 14 days.,Routine
+,Who do you address COMMSHIFT messages to?,"Gaining and losing communications facilities, Master Update Authority, NCTAMS"
+,COMMSHIFTs are limited to what classifications?,Secret and below
+,What is the SSIC for a COMMSHIFT?,N02325
+,What is the CIC for a COMMSHIFT?,ZYUW
+,Submitted by all cutters whenever unusual communication difficulties are encountered.,COMSPOT
+,When are COMSPOT reports required?,"Within 30 min of outage, every hour or upon significant changes in status"
+,"If radio systems are not restored in ____ hrs, a CASREP must be issued.",48
+,What manual do you refer to for CASREPS?,Joint Force Maintenance Manual
+,What does COMTAC stand for?,Communications Tactical
+,What is the central control point for the administration and maintenance of COMTAC publications within a command?,CPL
+,True/False CG publications not applicable to the Navy are part of the COMTAC system.,False
+,All classified material shall be controlled and handled in accordance with what manuals?,"COMDTINST M5510.23 series, COMDTINST M 5500.19 series, and COMDTINST M2600.1 series"
+,A web-integrated database centrally managed by TISCOM that displays information applicable to your specific account.,Online Publication Library (OPL)
+,What three ways can COMTAC publications be prepared?,"Paper, CD-ROM, web-based"
+,Responsible for the day-to-day administration of the library and report to the PCO for all matters relating tot he CPL.,Publication Control Clerk (PCC)
+,A MS Acess database developed by TISCOM to automate the accounting and reporting functions needed to maintain a CPL.,Coast Guard Publications Control Software (CGPC)
+,"The designated location of library publications that are not under the control of a holder/user and are available for issure, if needed.",Publication Stock Center
+,Relief/designation letter are retained for how long?,2 years
+,Destruction reports for Unclassified and classified materials are retained for how long?,2 years
+,T/S and Secret destruction reports are retained for how long?,5 years
+,When do you perfom a page check on a pub?,"Upon initial receipt, after a page change or correction, disassembling of a pub, prior to distruction (T/S or secret), during inventory (T/S), and upon relief of CO/PCO (T/S and Secret)"
+,When would a classified pub be considered compromised?,"Missing pages, Misplaced or whereabouts unknown, Loss of control, found in the hands of anyone without proper clearance, destroyed by accident."
+,What are reasons that publications might be destroyed?,"Excess, Superseded, Cancelled, Authorized by ISIC"
+,Unclassified materials must be inventoried...,Annually
+,Confidential materials must be inventoried...,Annually
+,Secret materials must be inventoried...,Annually
+,Top secret materials must be inventoried...,Bi-Annually
+,What are the 4 types of inventory reports?,"Annual, Relief, Unit, Holder"
+,Paper issue requests maybe placed by?,"Naval Logistic Library (NLL), MILSTRIP message, Stock Numbers"
+,The official notification that a publication has been implemented into the Armed Forces by the Joint Chiefs of Staff.,Letter of Promulgation
+,Indicated any changed/corrections or special handling required.,Letter of Instructions
+,NATO approved publications are under the control of who?,NCO
+,What are the 4 general objectives of the SAR program?,"Minimize loss of life, injury, property, and damage to environment/minimize crew risk/optomize resources in SAR/maintain a world leadership in maritime SAR"
+,What are the different phases of SAR?,"Uncertainty, distress, alert"
+,What are the stages of SAR?,"Awareness, Initial Action, Planning, Operations, Conclusion"
+,Responsible for coordinating SAR operations within assigned search and rescue regions.,Rescue Coordination Centers (RCC)
+,Established in areas where the RCC is not capable of exercising effective control of SAR facilities and operations.,Rescue-Sub-Centers (RSO)
+,CG command and control facilities responsible for mission and coordination and tactical control of Search Rescue Units within assigned AORs.,Sector Command Centers (SCC)
+,What are some examples of external partners in SAR?,"Local port and industry organizations, state and local agencies, USN, DHS, etc..."
+,"When an emergancy mandates responses in additions to SAR, emergency responses are managed within what?",Incident Command System (ICS)
+,"Tasks include: 1. Prepare and execure SAR plans. 2. Collect, evaluate, and disseminate information. 3. Inform other Command Center of SAR. 4. Conduct interviews and gather SAR data. 5. Develop case folder. 6. Document actions. 7. Use QRCs.",OU
+,"Tasks include: 1. Assist OU in collecting, evaluating, and disseminating information. 2. Monitor situations that could potentially develop into a SAR case. 3. Track, evaluate, and communicate the potential weather impact on a SAR case. 4. Identify and evaluate additional resources that may be used as an SRU.",SU
+,Tasks include: 1. Receive and copy initial and potential distress information. 2. Replay voice message recordings 3. Issue broadcasts 4. Maintain comms 5. Coordinate comms.,CU
+,What does GMDSS stand for?,Global Maritime Distress and Safety System
+,Satallite communications that allow the continuous exchange of comms and tactical info between suitably equipped CG ships and aircraft,SATCOM
+,An automated infomation system designed to support operational planning through flexible data transfer capabilities and tools for the analysis of tactical data,GMDSS
+,Designed for use as a client workstation connected to a network with a track data gateway.,Command and Control Personal Computer (C2PC)
+,A suite of computer based tools used to aid the search planner in developing an optimal search plan.,SAROPS
+,Used to support the agency's capability to monitor distress calls and coordinate response activites.,Rescue 21
+,"A CG sponsored, computer-based global ship reporting system used worldwide by SAR authorites to coordinate assistance to people in distress.",Automated Mutual Assistance Vessel Rescue System (AMVER)
+,A shipboard VHF maritime broadcast system that continuously send and receives vessel identification data.,Automatic Identification System (AIS)
+,Detects and relays signals from emergency beacons to the appropriate Rescue Coordination Center.,SARSAT
+,Enable info sharing and situational awareness among SAR decision makers.,MISLE
+,MISLE cases should be opened within how long?,15 min
+,The case file in MISLE should be validated within ____ hours of completion.,12
+,Provide relevant and up-to-date info about the progress of a specific SAR operation.,SITREP
+,"Messages and after-action reports provide a detailed summary of events, actions, and assets employed during a specific operation.",Operational Summaries
+,How long is a SAR case maintained on-site?,3 years
+,How long are SAR case folders archived for?,10 Years
+,What are the Coast Guard missions at a sector?,1. Sar 2. Marine Safety 3. ATON 4. Ice Operations 5. Living Marine Resources Protection
+,Program developed to control radiation hazards to crew.,HERP
+,Program developed to protect fueling operations from radiation hazards.,HERF
+,Program developed to protect ordance from radiation hazards.,HERO
+,Authorized to enforce compliance with mandated security measures and actions.,Captain of the Port (COTP)
+,"What MARSEC infomation is communicated to facilities, vessels and stakeholders?",1. Type of threat 2. Expected duration of threat 3. Location impact 4. Potential Targets 5. Actions required to minimize risks
+,When a general threat of possible terrorist activity exists but only warrents routine security measures.,FPCON Normal
+,When there is a general yet unpredictable threat of possible terrorist activity and the circumstances do not justify the full implementation of higher level force protection measures.,FPCON Alpha
+,When an increased and more predictable threat of terrorist activity exists.,FPCON Bravo
+,When a terrorist incident occurs or intelligence indicated that terrorist action against units and personnel is imminent.,FPCON Charlie
+,Applies in the immediate area where a terrorist attack has occured or when intelligence warnings of an attack against a specific location have been received.,FPCON Delta
+,Guidelines set forth by higher authority that specify the conditions under which armed forces will initiate or continue combat engagement with enemy forces.,Rules of Engagment (ROE)
+,"Vessels owned, operated, or chartered by countries which present a risk to security if permitted to enter a U.S. port",Special Interest Vessels
+,Vessels listed on the Maritime Operational Threat Response Plan which are allowed to enter U.S. water with an Advance Notice of Arrival.,Restricted Vessels
+,"Landside or waterside assets which may include waterfront facilities, commercial vessels or naval vessels.",High Value Assets (HVA)
+,"Vessels whose cargo, activites, or persons on board pose a defined security threat.",High Potential Threats
+,Vessels or persons on board who may be engaged in activities which pose threats to security,Medium Potential Threats
+,"Vessels or persons on board associated with an entity engaged in activity posing a potential security threat, but intellegence does not indicate direct involvement or intent.",Low Potential Threat
+,How does the CG identify Vessels of Interest?,1. Characteristics 2. History of compliance with domestic and interational security regulations. 3. Intelligence data 4. Arrival Information
+,Sources of HIV targeting information.,Port State Control (PSC) Matrix
+,"Designated when information is received that the cargo of a vessel, activites of a vessel, or of a person onboard pose a defined security risk.",Cargo of interest (COI)
+,"An intelligence term of reference; it designates key structures, systems, assets, or services which have been associated with potential safety or security risks.",Facility of Interest (FIO)
+,A water area within a defined boundary for which regulations governing the activities of vessels navigating within the area have been established under CFR 33,Regulated Navigation Area (RNA)
+,A 500 yard regulated area of water established around naval vessels to provide for their safety and security.,Naval Vessel Protection Zone (NVPZ)
+,"In a NVPZ no vessel or person is allowed with in _____ yards of a large naval vessel without authorization from the senior naval officer present afloat, CG, or official escort patrol.",100
+,Has the authority to publish special local regulations to promote safety during scheduled marine events and control access to the area where the event is being held.,District Commander
+,Info proccessing activities which support planning and execution of CG missions.,Command and Control
+,The gathering and processing of tactical information from all sources to provide a common picture of maritime activities within areas of operations.,Situational Awareness
+,An accurate and complete display of relevant tactical data that integrates info from multiple sensors and sources.,Common Tactical Picture (CTP)
+,A display of relevant tactical information shared by more than one command to facilitate situational awareness of at all command levels.,Common Operational Picture (COP)
+,Responsible for the production and management of the Common Operational Picture within their AOR.,Area Command Centers
+,What annotates in template form those sets available for COMMSHIFT messages?,NTP 4 SUPP-2
+,"When SAR objective is determined, what is the minimum time that initial action must take place?",5 minutes
+,The release of the appropriate broadcast must take place with in ____ minutes of initial notification.,15
+,"From the time of inital notification, provide a SAR Action Plan within ____ hour on scene response time.",2
+,GMDSS coverage area within line-of-sight radiotelephone coverage of at least one VHF-FM system with continuous DSC channel 70 and channel 16 monitoring services.,Sea Area A1
+,GMDSS coastal regions to approximately 200nm offshore.,Sea Area A2
+,"Major or Minor Involves loss of life or property, lives saved, property saved or unaccounted for lives or property.",Major
+,Major or Minor? Requires SAROPS to compute a drifted datum.,Major
+,Major or Minor? Has high media or political interest,Major
+,Major or Minor? Involves a shift of SMC to a higher level of command.,Major
+,Major or Minor? False alarm,Minor
+,Major or Minor? Cases with only assistance to lives or property.,Minor
+,Major or Minor? Cases that resolve on their own.,Minor
+,Major or Minor? Cases where the only CG involvement is a communication schedule.,Minor
+,How many parts are in a Search Action Plan?,6
+,Monitor MARSEC levels and security Alerts.,Waterways Management
+,Categorize contacts for exchange in the COP,Maritime Doman Awareness
+,Maintain asset readiness database,Resource Management
+,Monitor status of database,Response Operations
+,What IFF systems are military only?,"Modes 1, 2, and 4"
+,What IFF mode secures identification of friendly air/surface contacts?,Mode 4
+,What is the IFF code for a hijack or unlawful interference with ops?,7500
+,What is the IFF code for communications failure?,7600
+,What is the IFF code for an emergency?,7700
+,"An air search RADAR providing two-dimensional target detection and tracking capabilities for long-range surveillance, self-defense, and targeting designation in the ship's integrated air detection and tracking system.",SPS-40
+,What is the air RADAR for new national security cutters?,TRS-3D
+,What is the preferred method to communicate MARSEC levels?,Electronic
+,What does SCI stand for?,Secure Compartmentalized Information
+,What is the Actual Frequency for a 406mhz EPIRB?,406.025
+,What type of investigation corresponds with a secret clearance? Top secret?,Secret: NACLC Top Secret: SSBI
+,How many angles of a vessel should you photograph?,8
+,Who do you contact if you have excess property?,Property Officer
+,What does Semper Paratus mean?,Always Ready
+,What is the secondary frequency for non-commercial vessels?,VHF-FM ch. 9 (156.450mhz)
+,"What does the proword ""FROM"" mean when spoken on VHF?",Beginning Time
+,How many letters are in a diagraph code?,2
+,What does the first letter mean in a diagraph code?,# of segments
+,What does the second letter mean in a diagraph code?,supercession rate
+,What does FCS stand for?,Fire Control System
+,What does FLIR stand for?,Forward looking infrared
+,What are the 3 stages of crypto?,"Reserve, Effective, Superceded"
+,How often do you get fixed wing positions? Rotary winged?,ops every 30 min/position every 60 min; ops every 15 min/position every 30 min
+,What is the minimum classification of any intel message?,FOUO
+,What number precedes an IIR Message?,"4, indicates the USCG"
+,What is the intel HUB for the Coast Guard?,ICC
+,How often do EKMS accounts get inspected by A&A teams?,Every 18 months
+,What is the form for a safe combo?,SF-700
+,How many Headquarters Units report directly to Headquarters?,35
+,"What type of command is responsible for providing services such as civil engineering, health and safety, legal and finance to all operational units within its area?",Maintenance and Logistics Commands
+,What rank head up districts?,Rear Admirals
+,What rank leads the Atlantic and Pacific Areas?,Vice Admirals
+,In what war did cutter capture 18 prizes unaided?,Quasi-War
+,In what war is a Coast Guard cutter credited for firing the first naval shots?,Civil War
+,During what war was the Coast Guard entirely transfered over to the Navy?,World War I
+,During what war did the CGC McCulloch serve as both the escort and dispatch with Commodore George Dewey's squadron?,Spanish-American War
+,"During this war, the Coast Guard's mission was primarily support.",Korean War
+,True or False The first time the Coast Guard augmented the Navy with shallow-draft craft was in WWI?,False
+,What operations in Greenland was the Coast Guard responsible for during WWII?,Cold-weather
+,During what war did ocean-going cutters aument Navy and Coast Guard surveillance forces?,Vietnam
+,The Coast Guard was under Navy command during Operation Eagle?,No
+,"After WWII, members of what organization were given rates and ratings, uniforms, and insignias?",Coast Guard Auxiliary
+,Drug smuggling in the 1960s gave what mission increased signifigance?,Law Enforcement
+,What event sparked the creation of the International Ice Patrol?,Titanic
+,The Refuse Act of 1899 was the catalyst for what CG mission?,Environmental Protection
+,When was the Federal Lifesaving service initiated?,1848
+,What is the location of the only Coast Guard manned light station in the U.S. today?,Boston Harbor
+,She was one of the first uniformed women to serve in the Coast Guard.,Lucille Baker
+,What year were women integrated into active duty and reserve?,1973
+,"This man saved more then 600 lives, earned 2 gold medals, 3 silver, plus other awards.",Joshua James
+,What year were all officer career fields and enlisted ratings open to women?,1978
+,Who is the only Coast Guard member to be awarded the Medal of Honor?,Douglas Munro
+,What year was the first Master Chief Petty Officer of the Coast Guard created?,1969
+,In order to qualify for Officer Candidate School you must have qualifying scores on what exams?,"SAT, ACT or ASVAB"
+,This program allows you to continue civilian employment while serving on active duty (officer).,Selective Reserve Direct Commission Program
+,In order to qualify for this program you must be at least E-6.,Warrent Officer
+,In order to receive this you must have special training and skills in specific fields that meet the Coast Guard's needs.,Direct Commission Program
+,This program allows you to attend college on a full-time basis for up to 2 years and you still receive full pay and allowances.,Pre Commissioning Program
+,"True or false In the Coast Guard, your supervisor maybe a civilian?",True
+,Supporting documentation is required with evals for what marks?,"1, 3, or 7"
+,PRs for construction requests are limited to?,"$2,000"
+,The PR limit for ordering supplies is what?,"$2,500"
+,A next of kin must be notified if a SAR case has no development within what time frame?,At least one day prior to stopping efforts.
+,What is the DTG for a COMMSHIFT?,0000Z/0001Z
+,What is the SSIC for a COMMSHIFT?,N02325
+,What is the time frame requirement for a COMMSHIFT?,24 to 48 hours
+,How long do you have to act on an immediate message?,30 min
+,What freq. does NAVTEX broadcast on?,518 KHZ
+,What term means the Coast Guard is allowed to do a bonafide rescue in foreign seas?,Force Majeur
+,What units have Family Advicacy Specialists?,ISCs
+,What branch of the military does not have CWOs?,Air Force
+,What types of vessels are not covered by commercial fishing regulations in a certain pub?,Recreational fishing vessels
+,What does SCI stand for?,Secure Compartmentalized Information
+,What is the actual freguency for a 406 MHZ EPIRB?,406.025
+,What type of investigation corresponds with a secret clearance? Top secret?,NACLC/SSBI
+,How many angles of a vessel should you photograph?,8
+,Who do you contact if you have excess property?,Property Officer
+,What does Semper Paratus mean?,Always Ready
+,"At a land unit, how long should the emergency generator last for?",72 hours
+,What is the secondary frequencies for non-commercial vessels?,"8, 9, 81, 83A"
+,"What does the proword ""from"" mean when spoken on VHF radio?",Beginning time
+,How many letters are in a diagraph code?,2
+,What does the first letter mean in a diagraph code?,How many segments are in the cannister.
+,What does the second letter mean in a diagraph code?,Supercession rate
+,What does FCS stand for?,Fire Control System
+,What does FLIR stand for?,Forward looking infrared
+,What are the 3 stages of crypto?,"Reserve, Effective, Superceded"
+,What is the minimum classification of any intel msg?,FOUO
+,What does RADAR stand for?,Radio detection and ranging
+,What is the intel hub for the coast guard?,ICC
+,How often do EKMS accounts get inspected by A&A teams?,every 18 months
+,How long must you retain EKMS records of destruction?,3 yrs
+,Who cannot fly the commisioning pennant?,Enlisted Personnel
+,How many stripes are on the USCG ensign?,16
+,How long must a member be in the USCG in order to get discharged for a drug incident?,"Any time, there is Zero tolerance"
+,How high must windows be in a secure space?,"18 ft high, 14 ft from other buildings"
+,What is the form for a security container checksheet?,SF-702
+,What is the form for a safe combo?,SF-700
+,What form number is the Enlisted Performance Evaluation Employee Review Support Form?,CG 3788G
+,"Regarding Employee Reviews, it is the supervisors responsibility to ensure that ""bullets"" are submitted no later than how many days?",14 days
+,Employee Reviews must be submitted no later than how many days to the Marking Official?,9 days
+,Routing for a complete employee review to Approving Offical must happen with in how many days after the marking period ends?,5 days
+,You have how long to appeal an employee review?,15 calander days
+,What two forms are required when requesting travel orders?,"PCS Departing/Separation Worksheet (CG-2000) and Departing TDY or PCS/Temduins to ""A"" school worksheet (CG-2001)"
+,"To receive reimbursement for PCS, what form must you complete?",DD Form 1351-2
+,What is form CG-2070?,TDY Travel Request Worksheet
+,"When traveling TDY, members are required to submit travel claim within how many days?",3 Days
+,TDY travel claims are completed and processed using what?,T-PAX
+,What are the three roles of the Coast Guard?,Maritime Safety Maritime Security Maritime Stewardship
+,What two primary missions are performed within the realm of Maritime Safety?,Marine Safety Search and Rescue
+,What are the 4 primary missions performed within the realm of Maritime Security?,"Illegal Drug Interdiction Undocumented Migrant Interdiction Defense Readiness Ports, Waterways and Coastal Security"
+,What are the 5 primary missions performed in the realm of Maritime Safety?,Living Marine Resources Marine Environmental Protection Fisheries Aids to Navigation Ice Operations
+,These members of the Coast Guard consist of individuals available for immediate recall to active duty.,Ready Reserve
+,"Made up of former active duty members, and is designated as essential to inital contingency requirements having priority over all other Reserve elements.",Select Reserves
+,A manpower pool principally consisting of individuals who have had training and have previously served in the active forces or in the Selected Reserve.,Individual Ready Reserve
+,The uniformed volunteer component of the Coast Guard.,Coast Guard Auxiliary
+,When was the Homeland Security Act signed into law?,"November 25, 2002"
+,On what date was the Coast Guard transferred from the DOT to the DHS?,"March 1, 2003"
+,An E-2 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Private 2. Seaman Apprentice 3. Private First Class 4. Airman
+,An E-3 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Private First Class 2. Seaman 3. Lance Corporal 4. Airman FIrst Class
+,An E-4 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Corporal 2. Petty Officer 3rd Class 3. Corporal 4. Senior Airman
+,An E-5 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Sergeant 2. Petty Officer 2nd Class 3. Sergeant 4. Staff Sergeant
+,An E-6 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Staff Sergeant 2. Petty Officer 1st Class 3. Staff Sergeant 4. Technical Sergeant
+,An E-7 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Sergeant 1st class 2. Cheif Petty Officer 3. Gunnery Sergeant 4. Master Sergeant or First Sergeant
+,An E-8 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Master Sergeant or First Sergeant 2. Senior Chief 3. Master Sergeant or First Sergeant 4. Senior Master Sergeant or First Sergeant
+,An E-9 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Sergeant Major or Command Sergeant Major 2. Master Chief 3. Sergeant Major or Master Gunnery Sergeant 4. Chief Master Sergeant or First Sergeant or Command Chief Master Sergeant
+,What is the equilvant of MCPOCG to the other branches of the US military? 1. Army 2. Navy 3. Marines 4. Air Force,1. Sergeant Major of the Army 2. Master Chief Petty Officer of the Navy 3. Sergeant Major of the Marine Corp 4. Chief Master Sergeant of the Air Force
+,What military branch does not have Warrant Officers?,Air Force
+,An O-1 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. 2nd Lieutenant 2. Ensign 3. 2nd Lieutenant 4. 2nd Lieutenant
+,An O-2 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. 1st Lieutenant 2. Ensign 3. 1st Lieutenant 4. 1st Lieutenant
+,An O-3 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Captain 2. Lieutenant 3. Captain 4. Captain
+,An O-4 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Major 2. Lieutenant Commander 3. Major 4. Major
+,An O-5 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Lieutenant Colonel 2. Commander 3. Lieutenant Colonel 4. Lieutenant Colonel
+,An O-6 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Colonel 2. Captain 3. Colonel 4. Colonel
+,An O-7 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Brigadier General 2. Rear Admiral Lower Half 3. Brigadier General 4. Brigadier General
+,An O-8 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Major General 2. Rear Admiral Upper Half 3. Major General 4. Major General
+,An O-9 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Lieutenant General 2. Vice Admrial 3. Lieutenant General 4. Lieutenant General
+,An O-10 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. General 2. Admrial 3. General 4. General
+,What service does not have a 5 star officer?,Marine Corp
+,What year did the rate of Petty Officer become official?,1808
+,What year was the Chief Petty Officer rate established?,1893
+,During what war did the Coast Guard rates become the same as those in the Navy?,World War I
+,What is UCMJ article 91?,Insubordinate Conduct Toward an Officer
+,What is UCMJ article 7?,Apprehension
+,What is UCMJ Article 92?,Failure to Obey Order or Regulation
+,What gives the Coast Guard its law enforcement authority and establishes who may exercise that authority?,14 USC 89
+,"According to 14 USC 89, Petty Officers have the authority to do what?",Search Examine Arrest Seize Inspect Inquire (remember S.E.A.S.I.I.)
+,Where is the Coast Guard Academy located?,"New London, Connecticut"
+,An O-1 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. 2nd Lieutenant 2. Ensign 3. 2nd Lieutenant 4. 2nd Lieutenant
+,An O-2 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. 1st Lieutenant 2. Ensign 3. 1st Lieutenant 4. 1st Lieutenant
+,An O-3 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Captain 2. Lieutenant 3. Captain 4. Captain
+,An O-4 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Major 2. Lieutenant Commander 3. Major 4. Major
+,An O-5 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Lieutenant Colonel 2. Commander 3. Lieutenant Colonel 4. Lieutenant Colonel
+,An O-6 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Colonel 2. Captain 3. Colonel 4. Colonel
+,An O-7 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Brigadier General 2. Rear Admiral Lower Half 3. Brigadier General 4. Brigadier General
+,An O-8 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Major General 2. Rear Admiral Upper Half 3. Major General 4. Major General
+,An O-9 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. Lieutenant General 2. Vice Admrial 3. Lieutenant General 4. Lieutenant General
+,An O-10 in the Coast Guard is equivilant to what in the.... 1. Army 2. Navy 3. Marine Corp 4. Air Force,1. General 2. Admrial 3. General 4. General
+,True or False You may attend political meetings in uniform.,False
+,EMI is a form of punishment. True or False?,False
+,What UCMJ article gives you the right to remain silent during a courts-martial?,Article 31
+,What article gives Commanding officers the ability to impose NJP?,UCMJ Article 15
+,An NJP appeal must be submitted within how many calander days?,5 days

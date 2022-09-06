@@ -1,0 +1,18 @@
+Model name,Hardware& Driver,Exclusive Software,Remarks
+AX-Synth,Yes,No,Compatible with the original driver came with Windows 8. * Compatible driver here. Exclusive Software: AX-Synth Editor: Cannot work
+Fantom-G6 Fantom-G7 Fantom-G8,Yes,No,Driver: Compatible driver here. Exclusive Software: stand-alone Fantom-G Editor: Sorry but it is out of support. Fantom-G Librarian: Sorry but it is out of support. plug-in Fantom-G Editor: Cannot work
+Fantom-X6 Fantom-X7 Fantom-X8,Yes,No,Driver: Compatible driver here. * Fantom-X6/7/8 Audio Track Expansion version only (Ver.1.xx is not supported). Exclusive Software: Fantom-X Editor: Sorry but it is out of support. Fantom-X Librarian: Sorry but it is out of support. Fantom-X Sample Converter: Sorry but it is out of support.
+Fantom-XR,Yes,No,Driver: Compatible driver here. * Fantom-XR Sample Tools Expansion version only (Ver.1.xx is not supported). Exclusive Software: Fantom-X Editor: Sorry but it is out of support. Fantom-X Librarian: Sorry but it is out of support. Fantom-X Sample Converter: Sorry but it is out of support.
+GAIA SH-01,Yes,-,Driver: Compatible driver here.
+GW-8,Yes,No,Driver: Compatible driver here. Exclusive Software: GW-8 Playlist Editor: Sorry but it is out of support. GW-8 Style Converter: Sorry but it is out of support.
+INTEGRA-7,Yes,Yes,Driver: Compatible driver here. Exclusive Software: INTEGRA-7 Motional Surround Editor: Compatible with Ver.1.00 or later.
+JUNO-Di,Yes,No,Driver: Compatible driver here. Exclusive Software: JUNO-Di Editor/Librarian: Sorry but it is out of support. Playlist Editor: Sorry but it is out of support.
+JUNO-G,Yes,No,Driver: Compatible driver here. Exclusive Software: JUNO-G Editor/Librarian: Sorry but it is out of support.
+JUNO-Gi,Yes,-,Driver: Compatible driver here.
+JUNO-STAGE,Yes,No,Driver: Compatible driver here. Exclusive Software: JUNO-STAGE Editor/Librarian: Sorry but it is out of support. Playlist Editor: Sorry but it is out of support.
+JUPITER-50,Yes,Yes,Driver: Compatible driver here. Exclusive Software: JUPITER-50 Control Surface Plug-in for SONAR: Compatible application here.
+JUPITER-80,Yes,Yes,Driver: Compatible driver here. Exclusive Software: JUPITER-80 Control Surface Plug-in for SONAR: Compatible application here.
+Lucina AX-09,Yes,-,Driver: Compatible driver here.
+SH-201,Yes,No,Driver: Compatible driver here. Exclusive Software: stand-alone SH-201 Editor/Librarian: Sorry but it is out of support. plug-in SH-201 Editor : Cannot work
+SonicCell,Yes,No,Driver: Compatible driver here. Exclusive Software: stand-alone SonicCell Editor/Librarian: Sorry but it is out of support. SonicCell Playlist Editor: Sorry but it is out of support. plug-in SonicCell Editor : Cannot work
+V-Synth GT,Yes,No,Driver: Compatible driver here. Exclusive Software: V-Synth GT Librarian: Sorry but it is out of support.

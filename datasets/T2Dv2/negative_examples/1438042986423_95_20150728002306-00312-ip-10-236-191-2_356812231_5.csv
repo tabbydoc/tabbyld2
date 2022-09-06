@@ -1,0 +1,6 @@
+Row,Accession,Geometry,% AT,Total Size (bp),Periodicity,Predicted origin,Number of genes,tRNA count,5S rRNA count,16S rRNA count,23S rRNA count,Coding density
+1,CP001953,cir,0.3444,437906,,,377,0,0,0,0,
+2,CP001954,cir,0.4394,6359,,,5,0,0,0,0,
+3,CP001955,cir,0.3833,635786,,,613,0,0,0,0,
+4,CP001956,cir,0.3336,2847757,,,2945,51,2,2,2,
+5,CP001957,cir,0.445,85092,,,78,0,0,0,0,

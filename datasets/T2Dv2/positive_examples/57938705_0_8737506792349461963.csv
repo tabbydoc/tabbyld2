@@ -1,0 +1,52 @@
+Pos,Game,Platform,Year,Genre,Publisher,North America,Europe,Japan,Rest of World,Global
+1,Wii Sports,Wii,2006,Sports,Nintendo,39.42,28.03,3.77,8.62,79.84
+2,Super Mario Bros.,NES,1985,Platform,Nintendo,29.08,3.58,6.81,0.77,40.24
+3,Mario Kart Wii,Wii,2008,Racing,Nintendo,13.21,11.73,3.44,3.17,31.55
+4,Pok?mon Red / Green / Blue Version,GB,1996,Role-Playing,Nintendo,11.27,8.89,10.22,1.00,31.37
+5,Wii Sports Resort,Wii,2009,Sports,Nintendo,14.21,10.47,2.85,3.15,30.69
+6,Tetris,GB,1989,Puzzle,Nintendo,23.20,2.26,4.22,0.58,30.26
+7,Wii Play,Wii,2006,Misc,Nintendo,13.69,9.07,2.93,2.83,28.52
+8,Duck Hunt,NES,1984,Shooter,Nintendo,26.93,0.63,0.28,0.47,28.31
+9,New Super Mario Bros.,DS,2006,Platform,Nintendo,9.62,8.37,6.43,2.43,26.85
+10,Nintendogs,DS,2005,Simulation,Nintendo,9.01,10.71,1.93,2.72,24.37
+11,New Super Mario Bros. Wii,Wii,2009,Platform,Nintendo,11.70,5.86,4.50,2.16,24.22
+12,Pok?mon Gold / Silver Version,GB,1999,Role-Playing,Nintendo,9.00,6.18,7.20,0.71,23.10
+13,Mario Kart DS,DS,2005,Racing,Nintendo,9.55,7.28,4.06,2.20,23.08
+14,Wii Fit,Wii,2007,Sports,Nintendo,8.90,8.13,3.60,2.08,22.70
+15,Wii Fit Plus,Wii,2009,Sports,Nintendo,8.70,7.79,2.49,2.20,21.17
+16,Grand Theft Auto: San Andreas,PS2,2004,Action,Take-Two Interactive,9.43,8.48,0.41,2.49,20.81
+17,Super Mario World,SNES,1990,Platform,Nintendo,12.78,3.75,3.54,0.55,20.61
+18,Brain Age: Train Your Brain in Minutes a Day,DS,2005,Misc,Nintendo,4.71,9.04,4.16,2.04,19.95
+19,Super Mario Land,GB,1989,Platform,Nintendo,10.83,2.71,4.18,0.42,18.14
+20,Pok?mon Diamond / Pearl Version,DS,2006,Role-Playing,Nintendo,6.30,4.29,6.04,1.34,17.97
+21,Super Mario Bros. 3,NES,1988,Platform,Nintendo,9.54,3.44,3.84,0.46,17.28
+22,Grand Theft Auto: Vice City,PS2,2002,Action,Take-Two Interactive,8.41,5.49,0.47,1.78,16.15
+23,Kinect Adventures!,X360,2010,Misc,Microsoft,10.47,3.59,0.20,1.65,15.91
+24,Pok?mon Ruby / Sapphire Version,GBA,2002,Role-Playing,Nintendo,6.06,3.90,5.38,0.50,15.85
+25,Brain Age 2: More Training in Minutes a Day,DS,2005,Misc,Nintendo,3.40,5.30,5.32,1.18,15.20
+26,Gran Turismo 3: A-Spec,PS2,2001,Racing,Sony Computer Entertainment,6.85,4.99,1.87,1.16,14.88
+27,Pok?mon Yellow: Special Pikachu Edition,GB,1998,Role-Playing,Nintendo,5.89,5.04,3.12,0.59,14.64
+28,Call of Duty: Black Ops,X360,2010,Shooter,Activision,8.72,3.19,0.07,1.31,13.29
+29,Call of Duty: Modern Warfare 3,X360,2011,Shooter,Activision,8.08,3.72,0.07,1.41,13.28
+30,Grand Theft Auto III,PS2,2001,Action,Capcom,6.99,4.51,0.30,1.30,13.10
+31,Pok?mon Black / White Version,DS,2010,Role-Playing,Nintendo,4.19,2.54,5.53,0.74,13.00
+32,Call of Duty: Modern Warfare 2,X360,2009,Shooter,Activision,8.12,3.26,0.08,1.24,12.70
+33,Super Mario 64,N64,1996,Platform,Nintendo,6.91,2.85,1.91,0.23,11.89
+34,Animal Crossing: Wild World,DS,2005,Simulation,Nintendo,2.42,3.17,5.33,0.83,11.74
+35,Halo 3,X360,2007,Shooter,Microsoft,7.54,2.63,0.13,1.15,11.46
+36,Gran Turismo 4,PS2,2004,Racing,Sony Computer Entertainment,3.01,5.63,1.10,1.62,11.36
+37,Call of Duty: Black Ops,PS3,2010,Shooter,Activision,5.45,3.69,0.40,1.75,11.28
+38,The Sims,PC,2000,Simulation,Electronic Arts,11.22,0.00,0.00,0.00,11.22
+39,Super Mario Land 2: 6 Golden Coins,GB,1992,Platform,Nintendo,6.16,2.04,2.69,0.29,11.18
+40,Gran Turismo,PS,1997,Racing,Sony Computer Entertainment,4.22,3.87,2.54,0.52,11.15
+41,Super Smash Bros. Brawl,Wii,2008,Fighting,Nintendo,5.48,2.20,2.35,0.91,10.93
+42,Pok?mon Heart Gold / Soul Silver Version,DS,2009,Role-Playing,Nintendo,3.63,2.45,3.96,0.77,10.81
+43,Call of Duty: Modern Warfare 3,PS3,2011,Shooter,Activision,4.66,3.80,0.35,1.79,10.60
+44,Super Mario All-Stars,SNES,1993,Platform,Nintendo,5.99,2.15,2.12,0.29,10.55
+45,Pok?mon FireRed / LeafGreen Version,GBA,2004,Role-Playing,Nintendo,4.34,2.65,3.15,0.35,10.49
+46,Super Mario Galaxy,Wii,2007,Platform,Nintendo,4.97,3.01,1.20,1.00,10.17
+47,Mario Kart 64,N64,1996,Racing,Nintendo,5.55,1.94,2.23,0.15,9.87
+48,Call of Duty: Modern Warfare 2,PS3,2009,Shooter,Activision,4.74,3.21,0.37,1.51,9.83
+49,Final Fantasy VII,PS,1997,Role-Playing,Sony Computer Entertainment,3.01,2.47,3.28,0.96,9.72
+50,Super Mario 64 DS,DS,2004,Platform,Nintendo,4.52,2.84,1.25,0.93,9.54
+Total,462.06,256.81,143.65,70.32,932.83,,,,,

@@ -1,0 +1,101 @@
+Company,Industry,Symbol
+Paccar Inc.,Auto & Truck (Repl Prts),PCAR
+Lamar Advertis,Business Svc (Advertising),LAMR
+Cintas Corp.,Business Svc (Misc),CTAS
+Fiserv Inc.,Business Svc (Misc),FISV
+Paychex Inc.,Business Svc (Misc),PAYX
+Apollo Grp A,Business Svc (Schools),APOL
+Career Educatn,Business Svc (Schools),CECO
+Sigma Aldrich,Chemical (Specialty),SIAL
+Autodesk Inc.,Computer (Graphics),ADSK
+Synopsys Inc.,Computer (Graphics),SNPS
+Sun MicroSys,Computer (Makers),SUNW
+Apple Comptr,Computer (Makers),AAPL
+Dell Computer,Computer (Makers),DELL
+Network Aplnce,Computer (Memory Devices),NTAP
+Juniper Netwks,Computer (Networks),JNPR
+Cisco Systems,Computer (Networks),CSCO
+Qlogic Corp.,Computer (Networks),QLGC
+Cognizant Tech,Computer (Services),CTSH
+Level 3 Comm,Diversified Companies,LVLT
+Genzyme Genrl,Drug (Biomedical\Genetic),GENZ
+Gilead Science,Drug (Biomedical\Genetic),GILD
+Invitrogn Corp,Drug (Biomedical\Genetic),IVGN
+Medimmune Inc,Drug (Biomedical\Genetic),MEDI
+Millenium Phrm,Drug (Biomedical\Genetic),MLNM
+Sepracor Inc.,Drug (Biomedical\Genetic),SEPR
+Chiron Corp,Drug (Biomedical\Genetic),CHIR
+Biogn Idec Inc,Drug (Biomedical\Genetic),BIIB
+Celgene Corp.,Drug (Biomedical\Genetic),CELG
+Amgen Inc.,Drug (Biomedical\Genetic),AMGN
+Teva Pharm ADR,Drug (Generic),TEVA
+Molex Inc.,Electrical (Connectors),MOLX
+Amer PowerCC,Electrical (Equipment),APCC
+Flextronics,Electronic (Misc Products),FLEX
+Sanmina-SCI,Electronic (Misc Products),SANM
+Lam Research,Electronic (Semicndtr Eqp),LRCX
+Novellus Sys,Electronic (Semicndtr Eqp),NVLS
+Applied Mat.,Electronic (Semicndtr Eqp),AMAT
+K L A-Tencor,Electronic (Semicndtr Eqp),KLAC
+Intersil CorpA,Electronic (Semicndtr Mfg),ISIL
+Sandisk Corp.,Electronic (Semicndtr Mfg),SNDK
+Microchp Tech,Electronic (Semicndtr Mfg),MCHP
+Maxim IntdPds,Electronic (Semicndtr Mfg),MXIM
+Broadcom Corp.,Electronic (Semicndtr Mfg),BRCM
+Marvell Tech,Electronic (Semicndtr Mfg),MRVL
+Altera Corp.,Electronic (Semicndtr Mfg),ALTR
+A T I Tech,Electronic (Semicndtr Mfg),ATYT
+Linear Tech,Electronic (Semicndtr Mfg),LLTC
+Intel,Electronic (Semicndtr Mfg),INTC
+Xilinx Inc,Electronic (Semicndtr Mfg),XLNX
+Starbucks,Food (Restaurant),SBUX
+Exprss Scrpts,Healthcare (Med\Den Suply},ESRX
+Dentsply Int'l,Healthcare (Med\Den Suply},XRAY
+Patterson Dent,Healthcare (Med\Den Suply},PDCO
+Lincare Hldgs,Healthcare (Outpnt\HmCare),LNCR
+Biomet,Healthcare (Products),BMET
+eBay Inc.,Internet (E:Commerce),EBAY
+IAC Interactve,Internet (E:Commerce),IACI
+Amazon Comm,Internet (E:Commerce),AMZN
+B E A Systems,Internet (Software),BEAS
+Yahoo! Inc.,Internet (Svc Provider),YHOO
+Wynn Resorts,Leisure (Gaming),WYNN
+Pixar Inc.,Media (Movies),PIXR
+X M Satellite,Media (Radio\TV),XMSR
+Sirius SatRad,Media (Radio\TV),SIRI
+EchoStar Comm,Media (Television),DISH
+Liberty Global,Media (Television),LBTYA
+Comcast A,Media (Television),CMCSA
+Staples Inc,Office (Supplies),SPLS
+Smurfit-Stone,Paper,SSCC
+Ross Stores,Retail (Apparel),ROST
+Fastenal Co,Retail (Building Products),FAST
+C D W Corp,Retail (Computers),CDWC
+Dollar TreeStr,Retail (Discount\Variety),DLTR
+BedBath&Bynd,Retail (Home Furnishings),BBBY
+Sears Holdings,Retail (Major Chains),SHLD
+Costco Cos,Retail (Major Chains),COST
+Petsmart Inc.,Retail (Misc\Diversified),PETM
+Whole FoodMkt,Retail (Supermarkets),WFMI
+Siebel Systems,Software (Business),SEBL
+Oracle Systms,Software (Business),ORCL
+Citrix Systems,Software (Business),CTXS
+Mercury Inter,Software (Business),MERQE
+Adobe Systems,Software (Desktop),ADBE
+Microsoft,Software (Desktop),MSFT
+Electrn Arts,Software (Educ\Entr),ERTS
+Intuit Inc,Software (Financial),INTU
+Verisign Inc.,Software (Security),VRSN
+CheckPoint Sft,Software (Security),CHKP
+Symantec Corp,Software (Security),SYMC
+ResearchInMtn,Telecomm (Cellular),RIMM
+Comverse Tech,Telecomm (Equipment),CMVT
+Ericsson TlADR,Telecomm (Equipment),ERICY
+Tellabs Inc.,Telecomm (Equipment),TLAB
+Garmin Ltd,Telecomm (Equipment),GRMN
+Qualcomm Inc.,Telecomm (Equipment),QCOM
+J D S Uniphse,Telecomm (FiberOptics),JDSU
+N T L Inc,Telecomm (Services),NTLI
+MCI Inc,Telecomm (Services),MCIP
+Expedtrs Int'l,Transportation (Services),EXPD
+C H RobinsonWW,Transportation (Services),CHRW

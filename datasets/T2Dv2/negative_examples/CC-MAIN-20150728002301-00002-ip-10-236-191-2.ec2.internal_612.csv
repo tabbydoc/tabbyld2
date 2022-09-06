@@ -1,0 +1,22 @@
+cURL support,enabled
+cURL Information,7.19.7
+Age,3
+Features,
+AsynchDNS,No
+Debug,No
+GSS-Negotiate,Yes
+IDN,Yes
+IPv6,Yes
+Largefile,Yes
+NTLM,Yes
+SPNEGO,No
+SSL,Yes
+SSPI,No
+krb4,No
+libz,Yes
+CharConv,No
+Protocols,"tftp, ftp, telnet, dict, ldap, ldaps, http, file, https, ftps, scp, sftp"
+Host,x86_64-redhat-linux-gnu
+SSL Version,NSS/3.14.3.0
+ZLib Version,1.2.3
+libSSH Version,libssh2/1.4.2

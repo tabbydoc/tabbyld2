@@ -1,48 +1,51 @@
 import ftfy
+from typing import Any
 
 
-def remove_multiple_spaces(text):
+def remove_multiple_spaces(text: str) -> str:
     """
-    Удаление множественных пробелов в строке.
-    :param text: исходный текст
-    :return: текст с удаленными множественными пробелами
+    Remove multiple spaces in a source text.
+    :param text: a source text
+    :return: text with multiple spaces removed
     """
-    new_text = " ".join(text.split())
+    return " ".join(text.split())
 
+
+def check_letter_and_digit_existence(text: Any) -> bool:
+    """
+    Check existence of letters and (or) numbers in a source text.
+    :param text: a source text
+    :return: flag to indicate letters and numbers absence in a source text
+    """
+    exist_letter = True if any(map(str.isalpha, text)) else False
+    exist_digit = True if any(map(str.isdigit, text)) else False
+    return True if not exist_letter and not exist_digit else False
+
+
+def remove_garbage_characters(text: Any) -> str:
+    """
+    Remove "garbage" characters in a source text.
+    :param text: a source text
+    :return: text with garbage characters removed
+    """
+    if check_letter_and_digit_existence(text):
+        text = ""
+    new_text = text
+    if text:
+        # for symbol in symbols:
+        #     new_text = new_text.replace(symbol, "")
+        word_list = text.split()
+        new_text = ""
+        for word in word_list:
+            if not check_letter_and_digit_existence(word) and word:
+                new_text += " " + word if new_text else word
     return new_text
 
 
-def remove_garbage_characters(text):
+def fix_text(text: Any) -> str:
     """
-    Удаление "мусорных" символов в строке, которая не содержит буквы или цифры.
-    :param text: исходный текст
-    :return: текст с удаленными "мусорными" символами
+    Fix broken Unicode characters and HTML tags in a source text.
+    :param text: a source text
+    :return: corrected text
     """
-    letter_exist = False
-    if any(map(str.isalpha, text)):
-        letter_exist = True
-    digit_exist = False
-    if any(map(str.isdigit, text)):
-        digit_exist = True
-    if letter_exist is False and digit_exist is False:
-        text = ""
-    # if text != "":
-    #     symbols = ["?", "!", "@", "#", "$", "%", "^", "&", "*", "+", "=", "{", "}", "[", "]", ":", ";" "<", ">"]
-    #     new_text = text
-    #     for symbol in symbols:
-    #         new_text = new_text.replace(symbol, "")
-
-    return text
-
-
-def fix_text(value):
-    """
-    Исправления битых символов Юникода и тегов HTML в исходном значении (строке).
-    :param value: исходное значение (строка)
-    :return: исправленное текстовое значение (строка)
-    """
-    text = str(value)
-    cleared_text = ftfy.fix_encoding(text)
-    cleared_text = ftfy.fix_text(cleared_text)
-
-    return cleared_text
+    return ftfy.fix_text(ftfy.fix_encoding(str(text)))

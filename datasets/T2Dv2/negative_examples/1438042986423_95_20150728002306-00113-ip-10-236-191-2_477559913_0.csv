@@ -1,0 +1,20 @@
+US,Age,Weight (pounds),Height (inches),EU,UK
+Preemie,0m,less than 6 lbs,"up to 22""",56,0-1m
+Newborn,0-3m,up to 10 lbs,"up to 22""",56,0-1m
+0-3m,0-3m,up to 10 lbs,"up to 22""",62,3m
+3-6m,3-6m,11-15 lbs,"23-26""",68,6m
+6-12m,6-12m,15-22 lbs,"26-30""",74,9m
+12-18m,12-18m,22-25 lbs,"30-32""",80,12m
+18-24m,18-24m,25-30 lbs,"32-35""",86,18m
+2T,2 years,29-31 lbs,"33-35""",92,23-24m
+3T,3 years,31-33 lbs,"35-37""",98,2A
+4,4 years,34-39 lbs,"39-42""",104,4A
+5,5 years,40-43 lbs,"42-45""",110,4A
+6,6 years,44-49 lbs,"45-47""",116,5A
+7,7 years,55-60 lbs,"49-51""",122,6A
+8,8 years,61-66 lbs,"51-53""",128,7A
+10,9 years - 10 years,66-74 lbs,"53-55""",134,8A
+12,11 years - 12 years,74-87 lbs,"55-58""",140,10A
+14,13 years - 14 years,88-100 lbs,"58-61""",152,12A
+16,15 years - 16 years,101-115 lbs,"61-64""",160,14A
+18,17 years - 18 years,116-130 lbs,"65-66""",164,16A

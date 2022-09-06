@@ -1,0 +1,10 @@
+Phar: PHP Archive support,enabled
+Phar EXT version,2.0.1
+Phar API version,1.1.1
+SVN revision,$Revision: 298908 $
+Phar-based phar archives,enabled
+Tar-based phar archives,enabled
+ZIP-based phar archives,enabled
+gzip compression,enabled
+bzip2 compression,enabled
+Native OpenSSL support,enabled

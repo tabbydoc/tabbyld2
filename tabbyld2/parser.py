@@ -1,6 +1,8 @@
 import os
 import pandas as pd
 import tabbyld2.utility as ut
+from tabbyld2.config import ResultPath, EvaluationPath
+from tabbyld2.utility import allowed_file
 
 
 def convert_csv_to_json(csv_file_path, csv_file_name, json_file_path):
@@ -88,3 +90,32 @@ def save_csv_dataset(json_file_path, csv_file_path):
             if ut.allowed_file(file, {"json"}):
                 # Конвертация json-файла представления электронной таблицы в формат csv
                 convert_json_to_csv(json_file_path, file, csv_file_path)
+
+
+def convert_t2dv2_tables_to_csv():
+    """
+    Конвертация json-файлов представления электронных таблиц из набора данных T2Dv2 в формат csv.
+    """
+    # Cycle through table files
+    for root, dirs, files in os.walk(EvaluationPath.T2DV2_JSON):
+        for file in files:
+            if allowed_file(file, {"json"}):
+                print(file)
+                # Extract table from source json file
+                source_json_data = pd.read_json(EvaluationPath.T2DV2_JSON + file, encoding="unicode_escape")
+                table = dict()
+                for key, items in source_json_data.items():
+                    if key == "relation":
+                        index = 0
+                        for item in items:
+                            if item[0]:
+                                table[item[0]] = item[1:]
+                            else:
+                                table[index] = item[1:]
+                            index += 1
+                # Form name for new csv file
+                csv_file_name = os.path.splitext(file)[0] + ".csv"
+                # Save new csv file for tabular data
+                data_frame = pd.DataFrame(table)
+                data_frame.to_csv(ResultPath.CSV_FILE_PATH + csv_file_name, header=True, index=False)
+                print("File '" + str(csv_file_name) + "' is created successfully.")

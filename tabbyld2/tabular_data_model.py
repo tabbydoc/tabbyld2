@@ -271,9 +271,12 @@ class TableModel(AbstractTableModel):
                 fixed_header_name = cln.fix_text(column.header_name)
                 column._header_name = cln.remove_multiple_spaces(fixed_header_name)
             for cell in column.cells:
-                fixed_value = cln.fix_text(cell.source_value)
-                cleared_value = cln.remove_garbage_characters(fixed_value)
-                cell._cleared_value = cln.remove_multiple_spaces(cleared_value)
+                if cell.source_value is not None:
+                    fixed_value = cln.fix_text(cell.source_value)
+                    cleared_value = cln.remove_garbage_characters(fixed_value)
+                    cell._cleared_value = cln.remove_multiple_spaces(cleared_value)
+                    if not cell.cleared_value:
+                        cell._cleared_value = None
 
     def serialize_cleared_table(self):
         """
@@ -324,10 +327,13 @@ class TableModel(AbstractTableModel):
             cells = dict()
             for cell in column.cells:
                 candidate_entities = list()
-                if cell.candidate_entities is not None:
-                    for candidate_entity in cell.candidate_entities:
-                        candidate_entities.append(candidate_entity.uri)
-                cells[cell.cleared_value] = candidate_entities
+                if cell.cleared_value is not None:
+                    if cell.candidate_entities is not None:
+                        for candidate_entity in cell.candidate_entities:
+                            candidate_entities.append(candidate_entity.uri)
+                        cells[cell.cleared_value] = candidate_entities
+                    else:
+                        cells[cell.cleared_value] = None
             serialized_candidate_entities[column.header_name] = cells
 
         return serialized_candidate_entities
@@ -412,3 +418,18 @@ class TableModel(AbstractTableModel):
             serialized_annotated_columns[column.header_name] = column.annotation
 
         return serialized_annotated_columns
+
+    @staticmethod
+    def deserialize_source_table(file_name: str = None, source_json_data: dict = None):
+        """
+        Deserialize a source table in the json format and create table model object.
+        :return: TableModel object
+        """
+        columns = tuple()
+        dicts = {k: [d[k] for d in source_json_data] for k in source_json_data[0]}
+        for key, items in dicts.items():
+            cells = tuple()
+            for item in items:
+                cells += (ColumnCellModel(item),)
+            columns += (TableColumnModel(key, cells),)
+        return TableModel(file_name, columns)
