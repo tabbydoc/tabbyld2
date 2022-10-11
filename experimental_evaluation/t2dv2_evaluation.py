@@ -2,8 +2,6 @@ import os
 import json
 import html
 import urllib.parse
-from typing import re
-
 import pandas as pd
 import tabbyld2.parser as pr
 import tabbyld2.utility as utl
