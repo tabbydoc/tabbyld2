@@ -49,6 +49,15 @@ class EvaluationPath:
     # File of class checked for T2Dv2 dataset
     T2DV2_CLASS_CHECKED = "extend_col_class_checked_fg.csv"
 
+    # Path to Tough_Tables dataset
+    TOUGH_TABLES = str(Path(__file__).parent.parent) + "/datasets/Tough_Tables/"
+    # Path to source tables in CSV format from Tough_Tables dataset
+    TOUGH_TABLES_EXAMPLES = str(Path(__file__).parent.parent) + "/datasets/Tough_Tables/tables/"
+    # Path to checked files for Tough_Tables dataset
+    TOUGH_TABLES_GT = str(Path(__file__).parent.parent) + "/datasets/Tough_Tables/gt/"
+    # File of class checked for Tough_Tables dataset
+    TOUGH_TABLES_CLASS_CHECKED = "CTA_2T_gt.csv"
+
     # Path to save evaluations in the form json files
     EVALUATION_PATH = str(Path(__file__).parent.parent) + "/results/evaluation/"
 
