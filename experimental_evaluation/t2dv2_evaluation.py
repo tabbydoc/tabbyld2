@@ -43,7 +43,8 @@ class T2Dv2TableEvaluation(TableEvaluation):
                         if i == row_index:
                             for k in range(len(self.table.columns)):
                                 if k == int(items[i]):
-                                    if self.table.columns[k].column_type == ColumnType.SUBJECT_COLUMN or self.table.columns[k].column_type == ColumnType.CATEGORICAL_COLUMN:
+                                    if self.table.columns[k].column_type == ColumnType.SUBJECT_COLUMN or \
+                                            self.table.columns[k].column_type == ColumnType.CATEGORICAL_COLUMN:
                                         categorical_column_number += 1
         correctly_classified_columns = categorical_column_number + literal_column_number
         # Calculate evaluations

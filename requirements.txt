@@ -5,6 +5,7 @@ pandas
 stanza
 werkzeug
 requests
+dateparser
 sparqlwrapper
 python-Levenshtein
 # Packages for ColNet framework
