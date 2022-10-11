@@ -95,7 +95,7 @@ def __str__(self):
 * `results` contains processing results of tables (*this directory is created by default*);
 * `source_tables` contains examples of source tables in the CSV format for testing;
 * `tabbyld2` contains software TabbyLD2 modules, including `main.py` for a console mode and `app.py` for a web mode, and also:
-    * `colnet` contains ColNet framework for annotating categorical columns (NE-columns).
+    * `colnet` contains ColNet framework for annotating categorical columns (NE-columns);
     * `w2v_model` contains pre-train word2vec model. **NOTE:** this model is installed and placed independently.
 
 ## Usage
