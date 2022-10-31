@@ -1,0 +1,56 @@
+location,date,vaccine,source_url,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters
+Andorra,2021-01-25,Pfizer/BioNTech,https://www.govern.ad/covid19_newsletter/en/,576,576,,
+Andorra,2021-02-01,Pfizer/BioNTech,https://www.govern.ad/comunicats/item/12379-se-supera-el-miler-de-persones-vacunes-contra-el-coronavirus-sars-cov-2-a-andorra,1036,1036,,
+Andorra,2021-02-10,Pfizer/BioNTech,https://www.govern.ad/comunicats/item/12415-s-inicia-la-revacunacio-al-personal-sanitari-i-usuaris-de-residencies,1291,1291,,
+Andorra,2021-02-12,Pfizer/BioNTech,https://www.govern.ad/comunicats/item/12423-els-casos-actius-de-la-covid-19-baixen-dels-500-per-primera-vegada-des-del-desembre-de-l-any-passat,1622,1622,,
+Andorra,2021-02-19,Pfizer/BioNTech,https://www.govern.ad/comunicats/item/12450-els-casos-actius-per-covid-19-baixen-de-400-per-primer-cop-des-del-setembre,2141,2141,,
+Andorra,2021-02-24,Pfizer/BioNTech,https://www.govern.ad/comunicats/item/12468-mes-de-7-000-persones-s-inscriuen-per-rebre-la-vacuna-el-primer-dia-d-acces-a-la-plataforma,2390,2390,,
+Andorra,2021-02-26,Pfizer/BioNTech,https://www.govern.ad/comunicats/item/12479-prop-de-14-500-persones-inscrites-a-la-plataforma-per-rebre-la-vacuna-contra-el-coronavirus,2526,,,
+Andorra,2021-03-08,"Pfizer/BioNTech, Oxford/AstraZeneca",https://www.govern.ad/comunicats/item/12500-s-administren-mes-de-900-vacunes-durant-el-primer-cap-de-setmana-de-la-campanya-oberta-a-la-ciutadania-major-de-70-anys,3611,2439,1172,
+Andorra,2021-03-10,"Pfizer/BioNTech, Oxford/AstraZeneca",https://www.govern.ad/comunicats/item/12516-la-campanya-de-vacunacio-passara-a-la-fase-3-a-finals-d-aquesta-setmana,4914,3650,1264,
+Andorra,2021-03-15,"Pfizer/BioNTech, Oxford/AstraZeneca",https://www.govern.ad/comunicats/item/12530-la-campanya-de-preinscripcio-per-rebre-la-vacuna-contra-la-covid-19-ja-suma-mes-de-30-000-persones-inscrites,8363,7098,1265,
+Andorra,2021-03-19,"Pfizer/BioNTech, Oxford/AstraZeneca",https://www.govern.ad/comunicats/item/12558-el-govern-repren-l-administracio-del-vacci-d-oxford-astrazeneca-a-partir-de-dilluns,9288,,,
+Andorra,2021-04-04,"Pfizer/BioNTech, Oxford/AstraZeneca",https://twitter.com/GovernAndorra/status/1378732225571749892,12440,,,
+Andorra,2021-04-05,"Pfizer/BioNTech, Oxford/AstraZeneca",https://www.govern.ad/comunicats/item/12631-s-inicia-l-administracio-de-la-vacuna-contra-la-covid-19-al-personal-educatiu,15269,9781,4484,
+Andorra,2021-04-11,"Pfizer/BioNTech, Oxford/AstraZeneca",https://twitter.com/GovernAndorra/status/1381240391270301699,17091,,,
+Andorra,2021-04-12,"Pfizer/BioNTech, Oxford/AstraZeneca",https://www.govern.ad/comunicats/item/12642-mes-del-70-del-personal-educatiu-s-ha-inscrit-per-vacunar-se-contra-la-covid-19,19064,,,
+Andorra,2021-04-19,"Pfizer/BioNTech, Oxford/AstraZeneca",https://www.govern.ad/covid19_newsletter/,26414,21733,4681,
+Andorra,2021-04-26,"Pfizer/BioNTech, Oxford/AstraZeneca",https://www.govern.ad/covid19_newsletter/,28503,23822,4681,
+Andorra,2021-05-03,"Pfizer/BioNTech, Oxford/AstraZeneca",https://www.govern.ad/covid19_newsletter/,28881,24182,4699,
+Andorra,2021-05-10,"Pfizer/BioNTech, Oxford/AstraZeneca",https://www.govern.ad/covid19_newsletter/,31633,26931,4702,
+Andorra,2021-05-17,"Oxford/AstraZeneca, Pfizer/BioNTech",https://www.govern.ad/covid19_newsletter/,32317,27613,4704,
+Andorra,2021-05-31,"Oxford/AstraZeneca, Pfizer/BioNTech",https://www.govern.ad/covid19_newsletter/,35916,27613,8303,
+Andorra,2021-06-07,"Oxford/AstraZeneca, Pfizer/BioNTech",https://www.govern.ad/covid19_newsletter/,41473,30535,10938,
+Andorra,2021-06-14,"Oxford/AstraZeneca, Pfizer/BioNTech",https://www.govern.ad/covid19_newsletter/,51107,34646,16416,
+Andorra,2021-06-21,"Oxford/AstraZeneca, Pfizer/BioNTech",https://www.govern.ad/covid19_newsletter/,63265,38667,24598,
+Andorra,2021-06-28,"Oxford/AstraZeneca, Pfizer/BioNTech",https://www.govern.ad/covid19_newsletter/,68329,41716,26613,
+Andorra,2021-07-12,"Oxford/AstraZeneca, Pfizer/BioNTech",https://www.govern.ad/covid19_newsletter/,70018,43008,27010,
+Andorra,2021-07-19,"Oxford/AstraZeneca, Pfizer/BioNTech",https://www.govern.ad/covid19_newsletter/,82349,48445,33904,
+Andorra,2021-08-01,"Oxford/AstraZeneca, Pfizer/BioNTech",https://who.maps.arcgis.com/apps/dashboards/ead3c6475654481ca51c248d52ab9c61,86320,50747,35573,
+Andorra,2021-08-15,"Oxford/AstraZeneca, Pfizer/BioNTech",https://who.maps.arcgis.com/apps/dashboards/ead3c6475654481ca51c248d52ab9c61,91660,51044,40616,
+Andorra,2021-08-29,"Oxford/AstraZeneca, Pfizer/BioNTech",https://who.maps.arcgis.com/apps/dashboards/ead3c6475654481ca51c248d52ab9c61,95918,52910,43008,
+Andorra,2021-09-26,"Oxford/AstraZeneca, Pfizer/BioNTech",https://who.maps.arcgis.com/apps/dashboards/ead3c6475654481ca51c248d52ab9c61,102032,54312,47720,
+Andorra,2021-10-03,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,102692,54383,48309,
+Andorra,2021-10-31,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,104534,54999,49535,
+Andorra,2021-12-05,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,106428,56095,50333,
+Andorra,2021-12-12,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://worldhealthorg.shinyapps.io/EURO_COVID-19_vaccine_monitor/,115709,56628,50551,8530
+Andorra,2021-12-26,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://worldhealthorg.shinyapps.io/EURO_COVID-19_vaccine_monitor/,117246,57085,51392,8769
+Andorra,2022-01-16,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://worldhealthorg.shinyapps.io/EURO_COVID-19_vaccine_monitor/,135421,57643,53046,24732
+Andorra,2022-01-23,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,140193,57709,53104,
+Andorra,2022-02-06,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,141962,57791,53208,
+Andorra,2022-02-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,142420,57797,53250,
+Andorra,2022-02-20,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,151284,57805,53301,
+Andorra,2022-03-13,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,151997,57817,53367,40813
+Andorra,2022-03-27,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,152187,57835,53389,40963
+Andorra,2022-04-10,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,152301,57850,53406,41045
+Andorra,2022-04-24,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,152463,57866,53414,41183
+Andorra,2022-05-01,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,152694,57874,53427,41393
+Andorra,2022-05-22,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,152991,57878,53442,41671
+Andorra,2022-05-29,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,153072,57880,53450,41742
+Andorra,2022-06-12,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,153177,57883,53453,41841
+Andorra,2022-06-26,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,153383,57886,53456,42041
+Andorra,2022-07-03,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,153447,57888,53459,42100
+Andorra,2022-07-10,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,153531,57888,53460,42183
+Andorra,2022-08-21,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,154077,57892,53474,42711
+Andorra,2022-09-04,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,154195,57893,53478,42824
+Andorra,2022-09-11,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,154216,57894,53478,42844
