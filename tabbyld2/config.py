@@ -58,6 +58,15 @@ class EvaluationPath:
     # File of class checked for Tough_Tables dataset
     TOUGH_TABLES_CLASS_CHECKED = "CTA_2T_gt.csv"
 
+    # Path to GitTables_SemTab_2022 dataset
+    GIT_TABLES_SEMTAB_2022 = str(Path(__file__).parent.parent) + "/datasets/GitTables_SemTab_2022/"
+    # Path to source tables in CSV format from GitTables_SemTab_2022 dataset
+    GIT_TABLES_SEMTAB_2022_EXAMPLES = str(Path(__file__).parent.parent) + "/datasets/GitTables_SemTab_2022/tables/"
+    # Path to checked files for GitTables_SemTab_2022 dataset
+    GIT_TABLES_SEMTAB_2022_GT = str(Path(__file__).parent.parent) + "/datasets/GitTables_SemTab_2022/gt/"
+    # File of class checked for GitTables_SemTab_2022 dataset
+    GIT_TABLES_SEMTAB_2022_CLASS_CHECKED = "dbpedia_property_train.csv"
+
     # Path to save evaluations in the form json files
     EVALUATION_PATH = str(Path(__file__).parent.parent) + "/results/evaluation/"
 
