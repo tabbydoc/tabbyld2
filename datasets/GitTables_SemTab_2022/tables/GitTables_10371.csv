@@ -1,0 +1,19 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14
+Phone,Phone,Landline phone number,1,CONTACTDETAIL_GENERAL,?,Business Phone,False,?,False,?,?,?,?,?
+Phone,Fax,Facsimile number,2,CONTACTDETAIL_GENERAL,?,Business Fax,False,?,False,?,?,?,?,?
+E-Mail,E-Mail,E-Mail address,0,CONTACTDETAIL_EMAILADDRESS,?,Business E-Mail,False,?,False,?,?,?,?,?
+E-Mail,Secure E-Mail,Secure E-Mail address,1,CONTACTDETAIL_EMAILADDRESS,?,Business Secure E-Mail,False,?,False,?,?,?,?,?
+Digital Media,Facebook,Facebook user name,0,CONTACTDETAIL_HYPERLINK_WITHVALUE,https://www.facebook.com/{VALUE},Facebook (Business),False,?,False,?,?,?,?,?
+Digital Media,Twitter,Twitter user name,1,CONTACTDETAIL_HYPERLINK_WITHVALUE,http://www.twitter.com/{VALUE},Twitter (Business),False,?,False,?,?,?,?,?
+Digital Media,LinkedIn,LinkedIn user name,2,CONTACTDETAIL_HYPERLINK,?,LinkedIn (Business),False,?,False,?,?,?,?,?
+Digital Media,Xing,Xing user name,3,CONTACTDETAIL_HYPERLINK_WITHVALUE,http://www.xing.com/profile/{VALUE},Xing (Business),False,?,False,?,?,?,?,?
+Digital Media,Instagram,Instagram user name,4,CONTACTDETAIL_HYPERLINK,?,Instagram (Business),False,?,False,?,?,?,?,?
+Digital Media,Pinterest,Pinterest user name,5,CONTACTDETAIL_HYPERLINK,?,Pinterest (Business),False,?,False,?,?,?,?,?
+Digital Media,Web Site,Internet address of a Web Site,6,CONTACTDETAIL_HYPERLINK,?,Business Web Site,False,?,False,?,?,?,?,?
+Digital Media,Blog,Internet address of a Blog,7,CONTACTDETAIL_HYPERLINK,?,Business Blog,False,?,False,?,?,?,?,?
+Instant Messaging & Chat,Skype,Skype ID,0,CONTACTDETAIL_SKYPEID,?,Skype (Business),False,?,False,?,?,?,?,?
+Instant Messaging & Chat,Lync,Lync ID,1,CONTACTDETAIL_GENERAL,?,Lync (Business),False,?,False,?,?,?,?,?
+Instant Messaging & Chat,WhatsApp,WhatsApp ID,2,CONTACTDETAIL_GENERAL,?,WhatsApp (Business),False,?,False,?,?,?,?,?
+Instant Messaging & Chat,Yahoo,Yahoo ID,3,CONTACTDETAIL_GENERAL,?,Yahoo (Business),False,?,False,?,?,?,?,?
+Instant Messaging & Chat,FaceTime,FaceTime ID,4,CONTACTDETAIL_GENERAL,?,FaceTime (Business),False,?,False,?,?,?,?,?
+PARTNERS_CONTACTDETAILS_SETTINGS,PARTNERS_PRIMARY_CONTACT_METHOD,A Partners' Primary Contact Method,0,CONTACTDETAILSETTING,?,?,False,?,False,?,?,?,?,?

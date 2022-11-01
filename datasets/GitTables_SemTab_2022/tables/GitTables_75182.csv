@@ -1,0 +1,13 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+u1,c1,,1,ACCEPTED,,,{},False,{},,,
+u2,c2,u1,1,ACCEPTED,,,{},False,{},,,
+u3,c3,u2,1,ACCEPTED,,,{},False,{},,,
+u4,c4,u3,1,ACCEPTED,,,{},False,{},,,
+u10,n10,u4,1,ACCEPTED,,,{},False,{MARINE},,,
+u11,n11,u10,1,SYNONYM,,,{},False,{},,,
+u100,n100,u10,1,ACCEPTED,,Allen1991,{},False,{MARINE},,,http://fish.org/100
+u101,n101,u100,1,MISAPPLIED,"(non Gilbert, 1905)",,,,,,,http://fish.org/101
+u102,n102,u100,1,PROVISIONALLY_ACCEPTED,,,,,,,,http://fish.org/102
+us0,ns0,u4,1,ACCEPTED,,,,,,,,
+us1,ns1,us2,1,SYNONYM,,,,,,,,
+us2,ns2,us0,1,ACCEPTED,,,,,,,,

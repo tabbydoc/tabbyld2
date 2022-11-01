@@ -1,0 +1,111 @@
+col0,col1,col2,col3,col4,col5
+1,Follaje-Lenga,t,,1,27.0
+2,Follaje-Raulí,f,,1,34.0
+3,Follaje-Pitra,f,,1,28.0
+4,Follaje-Ñire,f,,1,33.0
+5,Tipos de Bosque-Lenga Marginal,t,,2,30.0
+6,Portes Solitarios-Lenga-SC,t,,2,35.0
+7,Portes Solitarios-Araucaria-2,f,,2,32.0
+8,Portes Solitarios-Araucaria,f,,2,31.0
+9,No,t,,3,
+10,Si,f,,3,
+11,Santa Cruz,t,,4,
+12,Tierra del Fuego,t,,4,
+13,Chubut,f,,4,
+14,Río Negro,f,,4,
+15,GuindoInv1,t,,5,117.0
+16,GuindoInv2,t,,5,63.0
+17,NoGuindoInv1,f,,5,140.0
+18,NoGuindoInv2,f,,5,46.0
+19,GuindoVer1,t,,6,131.0
+20,GuindoVer2,t,,6,64.0
+21,NoGuindoVer1,f,,6,58.0
+22,NoGuindoVer2,f,,6,48.0
+23,Ladera baja,t,,7,
+24,Ladera media,t,,7,
+25,Ladera alta,f,,7,
+26,Cumbre,f,,7,
+27,BosqueAltoGuindo,t,,8,129.0
+28,NoBosqueAltoGuindo1,f,,8,132.0
+29,NoBosqueAltoGuindo2,f,,8,61.0
+30,NoBosqueAltoGuindo3,f,,8,146.0
+31,GuindoJuv1,t,,9,62.0
+32,NoGuindoJuv1,f,,9,84.0
+33,NoGuindoJuv2,f,,9,139.0
+34,NoGuindoJuv3,f,,9,81.0
+35,Inc1,t,,10,147.0
+36,Inc2,t,,10,79.0
+37,Inc3,t,,10,110.0
+38,No Inc1,f,,10,41.0
+39,Herbácea/Subarbustiva,t,,11,
+40,Regeneración del bosque original,f,,11,
+41,Matorral Mixto,f,,11,
+42,Suelo desnudo,f,,11,
+43,Regeneración del bosque original,t,,12,
+44,Herbácea/Subarbustiva,f,,12,
+45,Suelo desnudo,f,,12,
+46,Matorral Mixto,f,,12,
+47,Bosque de Ñire,t,,13,
+48,Matorral Mixto,f,,13,
+49,Regeneración del bosque original,f,,13,
+50,Herbácea/Subarbustiva,f,,13,
+51,IncReciente,t,,14,102.0
+52,IncViejo1,f,,14,73.0
+53,IncViejo2,f,,14,143.0
+54,IncViejo3,f,,14,90.0
+55,Verde oscuro,t,,15,
+56,Verde claro,f,,15,
+57,Rojo oscuro,f,,15,
+58,Anaranjado saturado,f,,15,
+59,Neuquén,t,,16,
+60,Chubut,f,,16,
+61,Santa Cruz,f,,16,
+62,Tierra del Fuego,f,,16,
+63,Suelo profundo de poca pendiente,t,,17,
+64,Valles y laderas bajas,t,,17,
+65,Todos los suelos y pendientes,f,,17,
+66,Laderas medias y altas,f,,17,
+67,roblanto,t,,18,52.0
+68,ñiranto,f,,18,136.0
+69,maitanto,f,,18,72.0
+70,cipresanto,f,,18,97.0
+71,Coihue,t,,19,
+72,Maitén,f,,19,
+73,Guindo,f,,19,
+74,Ciprés,f,,19,
+75,Topografía,t,,20,
+76,Información de Estudios e inventarios locales,t,,20,
+77,Imágenes de alta resolución,f,,20,
+78,Isohietas,f,,20,
+79,Mallín,t,,21,
+80,Turbera,f,,21,
+81,Otros humedales,f,,21,
+82,Erial,f,,21,
+83,Turbera,t,,22,
+84,Mallín,f,,22,
+85,Otros humedales,f,,22,
+86,Nieve,f,,22,
+87,Otros humedales,t,,23,
+88,Mallín,f,,23,
+89,Turbera,f,,23,
+90,Agua,f,,23,
+91,noHumedal,t,,24,56.0
+92,Hum1,f,,24,66.0
+94,Hum2,f,,24,120.0
+95,Hum3,f,,24,36.0
+96,Terreno de poca pendiente,t,,25,
+97,Aporte de agua siempre o parte del año,t,,25,
+98,Presencia de agua en superficie,f,,25,
+99,Vegetación hidrófila,f,,25,
+100,más de la mitad de la cobertura sea vegetación herbácea hidrófila continua,t,,26,
+101,más del 20% de la cobertura sea vegetación herbácea hidrófila continua,f,,26,
+102,Presencia de vegetación hidrófila,f,,26,
+103,Color anaranjado saturado en la imagen SPOT,f,,26,
+104,Más de la mitad cubierto de cojines Sphagnum y otras sp adaptadas a saturación permanente.,t,,27,
+105,Abundante materia orgánica muerta saturada de agua.,t,,27,
+106,más del 50% cubierto de musgos.,f,,27,
+107,El suelo permanece anegado la mayor parte del año.,f,,27,
+108,Es humedal pero no es mallín ni turbera,t,,28,
+109,más del 50% permanece cubierto de agua.,f,,28,
+110,más del 50% de arbustos hidrófilos en superficie anegada.,f,,28,
+111,Superficie cubierta de hierbas y arbustos hidrófilos,f,,28,

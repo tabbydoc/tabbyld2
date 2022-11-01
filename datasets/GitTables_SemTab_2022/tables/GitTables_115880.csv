@@ -1,0 +1,109 @@
+col0,col1,col2,col3,col4,col5,col6
+Archetyped,0.0,0.0,0.0,0.0,1.0,"1 ArchetypeID, 1 TemplateID, 1 FeederAuditDetails"
+FeederAudit,0.0,0.0,0.0,0.0,0.0,"2 FeederAuditDetails, 2 listas de DvIdentifier, DvEncapsuleted"
+FeederAuditDetails,0.0,0.0,0.0,0.0,2.0,"2 PartyIdentified, 1 DvDateTime, 1 PartyProxy"
+Link,0.0,0.0,0.0,0.0,0.0,"2 DvText, 1 DvEHRURI"
+LocatableRef,1.0,0.0,0.0,0.0,2.0,"1 UIBasedID, 1 DvText, 1 Archetyped, 1 FeederAudit, 1 Set de Link"
+Contribution,0.0,0.0,0.0,0.0,0.0,"1 ObjectID, 1 Set de ObjectRef, 1 AuditDetails"
+ImportedVersion,0.0,0.0,0.0,0.0,0.0,1 OriginalVersion<String>
+OrigianlVersion,1.0,0.0,0.0,0.0,0.0,"1 Set de ObjectVersionID, 1 Lista de Attestation"
+Version,0.0,0.0,0.0,0.0,1.0,"1 AuditDetails, 2 ObjectVersionID, 1 ObjectRef, 1 T, 1 DvCodedText"
+VersionedObject,0.0,1.0,0.0,0.0,0.0,"1 HierObjectID, 1 ObjectRef, 1 DvDateTime, 1 SortedMap<DvDateTime, Version<T>>, 1 HashMap<ObjectVersionID, Version<T>>, 1 ObjectVersionID "
+Folder,0.0,0.0,0.0,0.0,0.0,"1 Lista <Folder>, 1 Lista <ObjectRef>"
+Attestation,1.0,0.0,0.0,0.0,1.0,"1 DvMultimedia, 1 Set<DvEHRURI>, 1 DvText"
+AuditDetails,0.0,0.0,0.0,0.0,1.0,"1 PartyProxy, 1 DvDateTime, 1 DvCodedText, 1 DvText"
+Participation,0.0,0.0,0.0,0.0,0.0,"1 PartyProxy, 1 DvText, 1 DvCodedText, 1 DvInterval <DvDateTime>"
+PartyIdentified,0.0,0.0,0.0,0.0,1.0,1 lista de DvIdentifier
+PartyProxy,0.0,0.0,0.0,0.0,0.0,1 PartyRef
+PartyRelated,0.0,0.0,0.0,0.0,0.0,1 DvCodedText
+RevisionHistory,0.0,0.0,0.0,0.0,0.0,1 Lista de RevisionHistoryItem
+RevisionHistoryItem,0.0,0.0,0.0,0.0,0.0,"1 Lista de AuditDetails, 1 ObjectVersionID"
+AuthoredResource,1.0,0.0,0.0,0.0,0.0,"1 CodePhrase, 1 Map de (String, TranslationDetails), 1 ResourceDescription, 1 RevisionHistory"
+ResourceDescription,0.0,0.0,0.0,0.0,2.0,"2 Maps de (String, String), 1 Lista de String, 1 Lista de ResourceDescriptionItem, 1 AuthoredResource"
+ResourceDescriptionItem,0.0,0.0,0.0,0.0,3.0,"1 CodePhrase, 1 String, 1 Lista de String, 2 Maps de (String, String)"
+TranslationDetails,0.0,0.0,0.0,0.0,1.0,"1 CodePhrase, 1 Map de (String, String)"
+Event,0.0,0.0,0.0,0.0,0.0,"1 DvDateTime, 1 T, 1 ItemStructure"
+History,1.0,0.0,0.0,0.0,0.0,"1 DvDateTime, 1 Lista de Event <T>, 2 DvDuration, 1 ItemStructure"
+IntervalEvent,0.0,1.0,0.0,0.0,0.0,"1 DvDuration, 1 DvCodedText"
+Cluster,0.0,0.0,0.0,0.0,0.0,1 Lista de Item
+Element,1.0,0.0,0.0,0.0,0.0,"1 DataValue, 1 DvCodedText"
+ItemSingle,0.0,0.0,0.0,0.0,0.0,1 Element
+ItemTree,0.0,0.0,0.0,0.0,0.0,1 Lista de Item
+DvEncapsuled,0.0,0.0,0.0,0.0,0.0,2 CodePhrase
+DvMultimedia,3.0,1.0,0.0,2.0,1.0,"3 CodePhrase, 1 DvMultimedia, 1 DvURI"
+DvBoolean,1.0,0.0,0.0,0.0,1.0,
+DvParsable,0.0,1.0,0.0,0.0,2.0,
+DvDate,1.0,3.0,1.0,0.0,1.0,
+DvDateTime,4.0,0.0,0.0,0.0,0.0,
+DvDuration,0.0,0.0,1.0,0.0,1.0,1 Period
+DvTemporal,0.0,0.0,0.0,0.0,1.0,1 DateTime
+DvTime,4.0,0.0,0.0,0.0,0.0,
+DvAbsoluteQuantity,0.0,0.0,0.0,0.0,0.0,1 S
+DvAmount,1.0,0.0,1.0,0.0,0.0,
+DvCount,0.0,1.0,0.0,0.0,0.0,
+DvInterval,0.0,0.0,0.0,0.0,0.0,1 Interval<T>
+DvOrdered,0.0,0.0,0.0,0.0,0.0,"1 Lista de ReferenceRange<T>, 1 DvInterval<T>, 1 CodePhrase"
+DvOrdinal,0.0,2.0,0.0,0.0,0.0,1 DvCodedText
+DvProportion,0.0,1.0,2.0,0.0,0.0,1 ProportionKind
+DvQuantified,0.0,0.0,0.0,0.0,1.0,
+DvQuantity,0.0,1.0,1.0,0.0,1.0,1 MeasurementService
+ProportionKind,0.0,1.0,0.0,0.0,0.0,
+ReferenceRange,0.0,0.0,0.0,0.0,1.0,"1 DvText, 1 DvInterval<T>"
+CodePhrase,0.0,0.0,0.0,0.0,1.0,1 TerminologyID
+DvCodedText,0.0,0.0,0.0,0.0,0.0,1 CodePhrase
+DvText,0.0,0.0,0.0,0.0,2.0,"2 CodePhrase, 1 Lista de TermMapping, 1 DvURI"
+TermMapping,0.0,0.0,0.0,0.0,0.0,"1 CodePhrase, 1 Match, 1 DvCodedText"
+DvTimeSpecification,0.0,0.0,0.0,0.0,0.0,1 DvParsable
+DvEHRURI,0.0,0.0,0.0,0.0,1.0,
+DvURI,0.0,0.0,0.0,0.0,0.0,1 java.net.URI
+Interval,2.0,0.0,0.0,0.0,0.0,2 T
+ArchetypedID,0.0,0.0,0.0,0.0,7.0,1 Lista de String
+GenericID,0.0,0.0,0.0,0.0,1.0,
+HierObjectID,0.0,0.0,0.0,0.0,1.0,1 UID
+LocatableRef,0.0,0.0,0.0,0.0,1.0,
+ObjectID,0.0,0.0,0.0,0.0,1.0,
+ObjectRef,0.0,0.0,0.0,0.0,2.0,1 ObjectID
+TerminologyID,0.0,0.0,0.0,0.0,2.0,
+UID,0.0,0.0,0.0,0.0,1.0,
+VersionTreeID,0.0,0.0,0.0,0.0,4.0,
+OpenEHRCodeSetIdentifiers,0.0,0.0,0.0,0.0,1.0,
+OpenEHRTerminologyGroupIdentifiers,0.0,0.0,0.0,0.0,1.0,
+TerminologyService,0.0,0.0,0.0,0.0,2.0,"2 Listas de Strings, 1 Map de String"
+Action,0.0,0.0,0.0,0.0,0.0,"1 DvDateTime, 1 ItemStructure, 1 ISMTransition, 1 InstructionDetails"
+Activity,0.0,0.0,0.0,0.0,1.0,"1 ItemStructure, 1 DvParsable"
+AdminEntry,0.0,0.0,0.0,0.0,0.0,1 ItemStructure
+CareEntry,0.0,0.0,0.0,0.0,1.0,
+Entry,0.0,0.0,0.0,0.0,0.0,"2 CodePhrase, 2 PartyProxy, 1 ObjectRef, 1 Lista de Participation"
+Evaluation,0.0,0.0,0.0,0.0,1.0,
+Instruction,0.0,0.0,0.0,0.0,0.0,"1 DvText, 1 DvDateTime, 1 Lista de Activity, 1 DvParsable"
+InstructionDetails,0.0,0.0,0.0,0.0,1.0,"1 LocatableRef, 1 ItemStructure"
+ISMTransition,0.0,0.0,0.0,0.0,0.0,3 DvCodedText
+Observation,0.0,0.0,0.0,0.0,2.0,2 History<?>
+Section,0.0,0.0,0.0,0.0,0.0,1 Lista de ContentItem
+Composition,1.0,0.0,0.0,0.0,0.0,"1 Lista de ContentItem, 1 EventContext, 1 PartyProxy, 1 DvCodedText, 2 CodePhrase"
+EventContext,0.0,0.0,0.0,0.0,1.0,"1 PartyIdentified, 2 DvDateTime, 1 Lista de Participation, 1 DvCodedText, 1 ItemStructure"
+Actor,0.0,0.0,0.0,0.0,1.0,"1 Set de Role, 1 Set de DvText, "
+Address,0.0,0.0,0.0,0.0,0.0,1 ItemStructure
+Capability,0.0,0.0,0.0,0.0,0.0,"1 DvInterval<DvDate>, 1 ItemStructure"
+Contact,0.0,0.0,0.0,0.0,0.0,"1 DvInterval<DvDate>, 1 Lista de Address"
+Party,0.0,0.0,0.0,0.0,0.0,"1 Set de PartyIdentity,1 Set de Contact, 1 Set de PartyRelationship, 1 Set de LocatableRef, 1 ItemStructure"
+PartyIdentity,0.0,0.0,0.0,0.0,0.0,1 ItemStructure
+PartyRelationship,0.0,0.0,0.0,0.0,0.0,"1 ItemStructure, 1 DvInterval<DvDate>, 2 ObjectRef"
+Role,0.0,0.0,0.0,0.0,0.0,"1 Lista de Capability, 1 DvInterval<DvDate>, 1 PartyRef"
+EHR,0.0,0.0,0.0,0.0,0.0,"2 HierObjectID, 1 DvDateTime, 2 ObjectRef, 2 Listas de ObjectRef"
+EHRAcess,0.0,0.0,0.0,0.0,0.0,1 AccessControlSettings
+EHRStatus,2.0,0.0,0.0,0.0,0.0,"1 PartySelf, 1 ItemStructure"
+EHRExtract,1.0,1.0,0.0,0.0,1.0,"1 DvDateTime, 2 PartyRef, 1 Set de Participation, 1 XFolder, 1 XTerminology, 1 XDemographics, 1 XAccessControl"
+XAccessControl,0.0,0.0,0.0,0.0,0.0,"1 Map de (ObjectID, Object), 1 ItemStructure"
+XComposition,1.0,0.0,0.0,0.0,0.0,"1 DvEHRURI, 1 VersionedComposition"
+XDemographics,0.0,0.0,0.0,0.0,0.0,"1 Map de (ObjectID, Party), 1 ItemStructure"
+XFolder,0.0,0.0,0.0,0.0,0.0,"1 Lista de XFolder, 1 Lista de XComposition"
+XTerminology,0.0,0.0,0.0,0.0,0.0,1 ItemStructure
+GenericEntry,0.0,0.0,0.0,0.0,0.0,1 ItemTree
+Message,0.0,0.0,0.0,0.0,1.0,"1 DvDateTime, 4 PartyRef, 1 Initiator, 1 DvOrdinal, 1 Attestation, 1 MessageContent, 1 Set de Party"
+,,,,,,
+,,,,,,
+Legenda,,,,,,
+Core,,,,,,
+Domain,,,,,,
+ ,,,,,,

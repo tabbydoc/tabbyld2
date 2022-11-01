@@ -1,0 +1,57 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+,3954,0,Biotic_stress_control_product_amount_g/m2,1,2019-09-04T10:25:17+0200,10.00,,248
+,3922,0,Puddling_start_date,1,2019-08-29T19:04:49+0200,2019-08-29,,248
+,3931,0,Senescence_end_date,1,2019-08-29T19:05:25+0200,2020-02-29,,248
+,3930,0,Senescence_notes,1,2019-08-29T19:05:19+0200,late sénescence,,248
+,3923,0,Puddling_depth_cm,1,2019-08-29T19:05:08+0200,10.00,,248
+,3906,0,1:Rice_Grain_Plantdensity_plant/hill,1,2019-08-29T19:04:38+0200,50.00,,248
+,3907,0,1:Rice_Grain_Plantdensity_plant/hill,2,2019-08-29T19:04:42+0200,50.00,,248
+,3938,0,1:Soil_porosity_%,1,2019-08-29T19:05:28+0200,64.00,,248
+,3939,0,1:Soil_porosity_%,2,2019-08-29T19:05:30+0200,65.00,,248
+,3908,0,2:Rice_Grain_Plantdensity_plant/hill,1,2019-08-29T19:04:45+0200,42.00,,248
+,3909,0,2:Rice_Grain_Plantdensity_plant/hill,2,2019-08-29T19:04:47+0200,42.00,,248
+,3940,0,2:Soil_porosity_%,1,2019-08-29T19:05:32+0200,67.00,,248
+,3941,0,2:Soil_porosity_%,2,2019-08-29T19:05:33+0200,63.00,,248
+,3955,0,new trait for marie,1,2019-09-04T10:25:12+0200,hello,,248
+,3956,0,Biotic_stress_control_product_amount_g/m2,1,2019-09-04T10:26:41+0200,2.00,,249
+,3924,0,Puddling_start_date,1,2019-08-29T19:05:44+0200,2019-08-29,,249
+,3933,0,Senescence_end_date,1,2019-08-29T19:05:57+0200,2020-01-29,,249
+,3932,0,Senescence_notes,1,2019-08-29T19:05:49+0200,,,249
+,3925,0,Puddling_depth_cm,1,2019-08-29T19:05:46+0200,10.00,,249
+,3910,0,1:Rice_Grain_Plantdensity_plant/hill,1,2019-08-29T19:05:36+0200,52.00,,249
+,3911,0,1:Rice_Grain_Plantdensity_plant/hill,2,2019-08-29T19:05:37+0200,54.00,,249
+,3942,0,1:Soil_porosity_%,1,2019-08-29T19:06:01+0200,55.00,,249
+,3943,0,1:Soil_porosity_%,2,2019-08-29T19:06:02+0200,54.00,,249
+,3912,0,2:Rice_Grain_Plantdensity_plant/hill,1,2019-08-29T19:05:40+0200,61.00,,249
+,3913,0,2:Rice_Grain_Plantdensity_plant/hill,2,2019-08-29T19:05:41+0200,60.00,,249
+,3944,0,2:Soil_porosity_%,1,2019-08-29T19:06:03+0200,53.00,,249
+,3945,0,2:Soil_porosity_%,2,2019-08-29T19:06:05+0200,52.00,,249
+,3957,0,new trait for marie,1,2019-09-04T10:25:22+0200,salut,,249
+,3958,0,Biotic_stress_control_product_amount_g/m2,1,2019-09-04T10:26:00+0200,88.00,,250
+,3926,0,Puddling_start_date,1,2019-08-29T19:06:19+0200,2019-08-29,,250
+,3935,0,Senescence_end_date,1,2019-08-29T19:06:33+0200,2020-02-06,,250
+,3934,0,Senescence_notes,1,2019-08-29T19:06:24+0200,,,250
+,3927,0,Puddling_depth_cm,1,2019-08-29T19:06:21+0200,10.00,,250
+,3914,0,1:Rice_Grain_Plantdensity_plant/hill,1,2019-08-29T19:06:13+0200,43.00,,250
+,3915,0,1:Rice_Grain_Plantdensity_plant/hill,2,2019-08-29T19:06:15+0200,45.00,,250
+,3946,0,1:Soil_porosity_%,1,2019-08-29T19:06:36+0200,63.00,,250
+,3947,0,1:Soil_porosity_%,2,2019-08-29T19:06:37+0200,62.00,,250
+,3916,0,2:Rice_Grain_Plantdensity_plant/hill,1,2019-08-29T19:06:17+0200,47.00,,250
+,3917,0,2:Rice_Grain_Plantdensity_plant/hill,2,2019-08-29T19:06:18+0200,48.00,,250
+,3948,0,2:Soil_porosity_%,1,2019-08-29T19:06:39+0200,55.00,,250
+,3949,0,2:Soil_porosity_%,2,2019-08-29T19:06:40+0200,54.00,,250
+,3959,0,new trait for marie,1,2019-09-04T10:25:54+0200,Ola,,250
+,3960,0,Biotic_stress_control_product_amount_g/m2,1,2019-09-04T10:26:26+0200,7.00,,251
+,3928,0,Puddling_start_date,1,2019-08-29T19:06:49+0200,2019-08-29,,251
+,3937,0,Senescence_end_date,1,2019-08-29T19:07:05+0200,2020-02-07,,251
+,3936,0,Senescence_notes,1,2019-08-29T19:06:57+0200,some notes,,251
+,3929,0,Puddling_depth_cm,1,2019-08-29T19:06:51+0200,10.00,,251
+,3918,0,1:Rice_Grain_Plantdensity_plant/hill,1,2019-08-29T19:06:42+0200,56.00,,251
+,3919,0,1:Rice_Grain_Plantdensity_plant/hill,2,2019-09-04T10:26:45+0200,5.00,,251
+,3950,0,1:Soil_porosity_%,1,2019-08-29T19:07:08+0200,63.00,,251
+,3951,0,1:Soil_porosity_%,2,2019-08-29T19:07:09+0200,68.00,,251
+,3920,0,2:Rice_Grain_Plantdensity_plant/hill,1,2019-08-29T19:06:46+0200,54.00,,251
+,3921,0,2:Rice_Grain_Plantdensity_plant/hill,2,2019-08-29T19:06:48+0200,51.00,,251
+,3952,0,2:Soil_porosity_%,1,2019-08-29T19:07:10+0200,65.00,,251
+,3953,0,2:Soil_porosity_%,2,2019-08-29T19:07:11+0200,62.00,,251
+,3961,0,new trait for marie,1,2019-09-04T10:26:24+0200,hallo,,251

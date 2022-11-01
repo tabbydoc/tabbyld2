@@ -1,0 +1,26 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+test_average.py::test_average_basic_1[values0-1],test_average,test_average_basic_1[values0-1],test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",passed,,0.0002028942108154
+test_average.py::test_average_basic_1[values1-1.5],test_average,test_average_basic_1[values1-1.5],test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",passed,,0.0001959800720214
+test_average.py::test_average_basic_1[values2-0.5],test_average,test_average_basic_1[values2-0.5],test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",passed,,0.0002040863037109
+test_average.py::test_average_basic_1[values3-2.0],test_average,test_average_basic_1[values3-2.0],test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",passed,,0.0001773834228515
+test_average.py::test_average_basic_1[values4-0.5],test_average,test_average_basic_1[values4-0.5],test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",failed,"AssertionError: Očekávaná hodnota 0.5, vráceno 5.0
+assert 5.0 == 0.5",0.0008950233459472
+"test_average.py::test_average_basic_2[1,1]",test_average,"test_average_basic_2[1,1]",test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",passed,,0.000150442123413
+"test_average.py::test_average_basic_2[1,2]",test_average,"test_average_basic_2[1,2]",test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",passed,,0.0001647472381591
+"test_average.py::test_average_basic_2[0,1]",test_average,"test_average_basic_2[0,1]",test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",passed,,0.0001611709594726
+"test_average.py::test_average_basic_2[1,2,3]",test_average,"test_average_basic_2[1,2,3]",test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",passed,,0.0001361370086669
+"test_average.py::test_average_basic_2[0,10]",test_average,"test_average_basic_2[0,10]",test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",failed,"AssertionError: Očekávaná hodnota 0.5, vráceno 5.0
+assert 5.0 == 0.5",0.0002558231353759
+test_average.py::test_average_basic_3[values0-1],test_average,test_average_basic_3[values0-1],test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",passed,,0.0001685619354248
+test_average.py::test_average_basic_3[values1-1.5],test_average,test_average_basic_3[values1-1.5],test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",passed,,0.0001559257507324
+test_average.py::test_average_basic_3[values2-0.5],test_average,test_average_basic_3[values2-0.5],test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",passed,,0.0001583099365234
+test_average.py::test_average_basic_3[values3-2.0],test_average,test_average_basic_3[values3-2.0],test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",passed,,0.0001575946807861
+test_average.py::test_average_basic_3[values4-0.5],test_average,test_average_basic_3[values4-0.5],test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",failed,"AssertionError: Očekávaná hodnota 0.5, vráceno 5.0
+assert 5.0 == 0.5",0.0002954006195068
+test_average.py::test_average_basic_3[values5-0],test_average,test_average_basic_3[values5-0],test_average.py,Otestování výpočtu průměru.,"parametrize,smoketest",failed,ZeroDivisionError: float division by zero,0.0001771450042724
+test_average.py::test_average_empty_list_1,test_average,test_average_empty_list_1,test_average.py,Otestování výpočtu průměru pro prázdný vstup.,thorough,passed,,0.0004165172576904
+test_average.py::test_average_empty_list_2,test_average,test_average_empty_list_2,test_average.py,Otestování výpočtu průměru pro prázdný vstup.,thorough,passed,,0.0001773834228515
+test_average.py::test_average_five_values,test_average,test_average_five_values,test_average.py,Otestování výpočtu průměru.,,passed,,0.0001521110534667
+test_code_style.py::test_code_style,test_code_style,test_code_style,test_code_style.py,,,failed,"AssertionError: Detected 6 code style problems
+assert 6 == 0
+ +  where 6 = <pycodestyle.StandardReport object at 0x7f7a8e1a10f0>.total_errors",0.0293154716491699

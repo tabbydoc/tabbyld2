@@ -1,0 +1,13 @@
+col0,col1,col2,col3,col4,col5,col6
+0,1357,1357,"[PCE] outcome: first of AMI or ischemic stroke or death, no IP required",1357,,1357
+0,1295,1295,[PCE covariate] periods treated with hypertension drugs,1295,,1295
+0,1286,1286,[PCE] covariate - smoker,1286,,1286
+0,1354,1354,[PCE] outcome: first of AMI or ischemic stroke or death,1354,,1354
+0,1358,1358,[PCE - Target cohort master]  Black Male Persons who are statin-risk eligible not censored at statin initiation,1358,,1358
+0,1326,1326,[PCE - Target cohort master]  Non-Black Male Persons who are statin-risk eligible,1326,,1326
+0,1325,1325,[PCE - Target cohort master]  Black Male Persons who are statin-risk eligible,1325,,1325
+0,1359,1359,[PCE - Target cohort master]  Black Female Persons who are statin-risk eligible not censored at statin initiation,1359,,1359
+0,1322,1322,[PCE - Target cohort master]  Black Female Persons who are statin-risk eligible,1322,,1322
+0,1360,1360,[PCE - Target cohort master]  Non-Black Male Persons who are statin-risk eligible not censored at statin initiation,1360,,1360
+0,1328,1328,[PCE - Target cohort master]  Non-Black Female Persons who are statin-risk eligible,1328,,1328
+0,1361,1361,[PCE - Target cohort master]  Non-Black Female Persons who are statin-risk eligible not censored at statin initiation,1361,,1361

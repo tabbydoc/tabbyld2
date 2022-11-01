@@ -1,0 +1,9 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21
+room,fields.platelocation,,,1,,True,Room,Room,True,,,[l;d],[c],string,link,{ 'hrefTemplate': ',,,,,
+freezer,fields.platelocation,,,2,,True,Freezer,Freezer,True,,,[l;d],[c],string,link,{ 'hrefTemplate': ',,,,,
+shelf,fields.platelocation,,,3,,True,Shelf,Shelf,True,,,[l;d],[c],string,link,{ 'hrefTemplate': ',,,,,
+bin,fields.platelocation,,,4,,True,Bin,Bin,True,,,[l;d],[c],string,link,{ 'hrefTemplate': ',,,,,
+plate_count,fields.platelocation,custom,,5,,True,Number of plates in this location,Plate Count,True,,,[l;d],,integer,link,{ 'hrefTemplate': ',,,,,
+copy_plate_ranges,fields.platelocation,custom,,6,,False,Plate ranges in bin,Copy Plates,False,,,[d],[c;u],list,,,custom,,(([^:]+):)?([^:]+):(\d+)(-(\d+))?,,
+libraries,fields.platelocation,custom,,7,,True,Libraries in this location,Libraries,True,,,[d],,list,,,,,,,
+plate_location_id,fields.platelocation,,,8,,True,Internal plate location ID,Location ID,True,,,[],,integer,,,,,,,

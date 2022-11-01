@@ -1,0 +1,19 @@
+col0,col1,col2,col3,col4,col5
+url,url,Website,URL of provider website,Cal-ITP,
+provider,text,Provider,Name of service provider,Cal-ITP,
+service_county,text,Counties Served,County (or counties) with mapped services,Cal-ITP,"Multiple counties listed where service coverage information is available. In cases where not available, the county of the provider's official address is used. County association may or may not reflect full-county service coverage."
+contact_city,text,City HQ,City included in provider's contact address,Cal-ITP,
+interconnected_providers,text,Interconnected Providers,Riders transferring from the systems listed here are offered discounts by the Provider,Cal-ITP,Fares may be inaccurate because apps and services cannot account for interagency transfers. MobilityData is currently undertaking an effort to assign globally unique identifiers for all worldwide GTFS providers.
+fare_type,text,Fare Type,"Pricing structure for fares. Options are network, flat, and free.",Cal-ITP,Network fares vary based on the route or stops involved in the trip. Flat fares are the same regardless of where you board or alight. Free systems don't collect fares on any trip. Flat fares are easier to encode into GTFS-Fares because they do not require adding new fields to existing GTFS files.
+upt,integer,Passenger Trips,2018 Total Unlinked Passenger Trips,NTD,"Includes NTD mode categories Motorbus (MB), Bus Rapid Transit (RB), Cable Car (CC), Commuter Bus (CB), Commuter Rail (CR), Heavy Rail (HR), Hybrid Rail (YR), Inclined Plane (IP), Jitney (JT), Light Rail (LR), Monorail/Automated  Guideway (MG), Streetcar Rail (SR), Trolleybus (TB)."
+upt_dr,integer,On-Demand Passenger Trips,"2018 Total Unlinked Passenger Trips, Demand Response",NTD,Includes NTD mode categories Demand Response (DR) and Demand Response Taxi (DT).
+voms,integer,Vehicles at Max Service,2018 Vehicles Operating at Maximum Service,NTD,"Includes NTD mode categories Motorbus (MB), Bus Rapid Transit (RB), Cable Car (CC), Commuter Bus (CB), Commuter Rail (CR), Heavy Rail (HR), Hybrid Rail (YR), Inclined Plane (IP), Jitney (JT), Light Rail (LR), Monorail/Automated  Guideway (MG), Streetcar Rail (SR), Trolleybus (TB)."
+voms_dr,integer,On-Demand Vehicles at Max Service,"2018 Vehicles Operating at Maximum Service, Demand Response",NTD,Includes NTD mode categories Demand Response (DR) and Demand Response Taxi (DT).
+fare_revenue,money,Fare Revenue,2018 Total Passenger Fare Revenue,NTD,"Includes NTD mode categories Motorbus (MB), Bus Rapid Transit (RB), Cable Car (CC), Commuter Bus (CB), Commuter Rail (CR), Heavy Rail (HR), Hybrid Rail (YR), Inclined Plane (IP), Jitney (JT), Light Rail (LR), Monorail/Automated  Guideway (MG), Streetcar Rail (SR), Trolleybus (TB)."
+fare_revenue_dr,money,On-Demand Fare Revenue,"2018 Total Passenger Fare Revenue, Demand Response",NTD,Includes NTD mode categories Demand Response (DR) and Demand Response Taxi (DT).
+fare_url,url,Fare URL,"The transit provider's fare policy, as described on their website.",Cal-ITP,
+gtfs,url,GTFS Static Feed,URL for most recent static General Transit Feed Specification (GTFS) feed,https://transitfeeds.com,
+gtfs_rt_service_alerts,url,GTFS-rt Service Alerts,URL for most recent service alerts component of real-time GTFS feed,https://transitfeeds.com,
+gtfs_rt_trip_updates,url,GTFS-rt Trip Updates,URL for most recent trip-updates component of real-time GTFS feed,https://transitfeeds.com,
+gtfs_rt_vehicle_locations,url,GTFS-rt Vehicle Locations,URL for most recent vehicle-locations component of real-time GTFS feed,https://transitfeeds.com,
+ntd_id,text,NTD ID,National Transit Database ID,NTD,

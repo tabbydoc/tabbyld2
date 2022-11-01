@@ -1,0 +1,50 @@
+col0,col1,col2,col3,col4
+getNextPvId(),,,"getPvParentId('2003991', 'Molecular')","RNA, poly-A enriched"
+getNextPvId(),,,"getPvParentId('2003991', 'Molecular')","RNA, nuclear"
+getNextPvId(),,,"getPvParentId('2003991', 'Molecular')",Not Specified
+getNextPvId(),,,"getPvParentId('2003991', 'Molecular')",protein
+getNextPvId(),,,"getPvParentId('2003991', 'Molecular')",cDNA
+getNextPvId(),,,"getPvParentId('2003991', 'Molecular')",RNA
+getNextPvId(),,,"getPvParentId('2003991', 'Molecular')",DNA
+getNextPvId(),,,"getPvParentId('2003991', 'Molecular')","RNA, cytoplasmic"
+getNextPvId(),,,"getPvParentId('2003991', 'Cell')",Frozen Cell Pellet
+getNextPvId(),,,"getPvParentId('2003991', 'Cell')",Fixed Cell Block
+getNextPvId(),,,"getPvParentId('2003991', 'Cell')",Frozen Cell Block
+getNextPvId(),,,"getPvParentId('2003991', 'Cell')",Not Specified
+getNextPvId(),,,"getPvParentId('2003991', 'Cell')",Cryopreserved Cells
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Whole Bone Marrow
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Saliva
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Plasma
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Body Cavity Fluid
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Milk
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Pericardial Fluid
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Lavage
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Whole Blood
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Vitreous Fluid
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Gastric Fluid
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Not Specified
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Bone Marrow Plasma
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Urine
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Serum
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Amniotic Fluid
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Cerebrospinal Fluid
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Bile
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Synovial Fluid
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Sweat
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Feces
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Buffy Coat
+getNextPvId(),,,"getPvParentId('2003991', 'Tissue')",Fixed Tissue
+getNextPvId(),,,"getPvParentId('2003991', 'Tissue')",Fixed Tissue Block
+getNextPvId(),,,"getPvParentId('2003991', 'Tissue')",Frozen Tissue Block
+getNextPvId(),,,"getPvParentId('2003991', 'Tissue')",Fixed Tissue Slide
+getNextPvId(),,,"getPvParentId('2003991', 'Tissue')",Frozen Tissue Slide
+getNextPvId(),,,"getPvParentId('2003991', 'Tissue')",Fresh Tissue
+getNextPvId(),,,"getPvParentId('2003991', 'Tissue')",Microdissected
+getNextPvId(),,,"getPvParentId('2003991', 'Tissue')",Frozen Tissue
+getNextPvId(),,,"getPvParentId('2003991', 'Tissue')",Not Specified
+getNextPvId(),,,"getPvParentId('2003991', 'Fluid')",Sputum
+getNextPvId(),,,"getPvParentId('2003991', 'Cell')",Slide
+getNextPvId(),,,"getPvParentId('2003991', 'Molecular')",Total Nucleic Acid
+getNextPvId(),,,"getPvParentId('2003991', 'Molecular')",Whole Genome Amplified DNA
+getNextPvId(),,,"getPvParentId('2003991', 'Molecular')",ctDNA
+getNextPvId(),,,"getPvParentId('2003991', 'Cell')",PBMC

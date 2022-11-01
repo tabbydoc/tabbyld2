@@ -1,0 +1,68 @@
+col0,col1,col2
+age,age in years,number
+antibiotic_1,first antibiotic administered at the day of observation,international name of the drug. 0 = no antibiotics. Letters after _ indicate the administration route: iv = intravenous; po = oral; inh = inhalation; int = intrathecal; 
+antibiotic_2,second antibiotic administered at the day of observation,international name of the drug. 0 = no antibiotics. Letters after _ indicate the administration route: iv = intravenous; po = oral; inh = inhalation; int = intrathecal; 
+antibiotic_3,third antibiotic administered at the day of observation,international name of the drug. 0 = no antibiotics. Letters after _ indicate the administration route: iv = intravenous; po = oral; inh = inhalation; int = intrathecal; 
+antibiotic_4,fourth antibiotic administered at the day of observation,international name of the drug. 0 = no antibiotics. Letters after _ indicate the administration route: iv = intravenous; po = oral; inh = inhalation; int = intrathecal; 
+antibiotics_total,total number of different antibiotics administered at the day of observation. (sum across fields antibiotic_1 through antibiotics_4),integer
+anxiolytics,anxiolytics administration at the day of observation,yes = 1; no = 0
+aphasia,aphasia at the day of observation,yes = 1; no = 0
+arterial_line,arterial line in place at the day of observation,yes = 1; no = 0
+central_line,central venous line in place at the day of observation,yes = 1; no = 0
+charlson,Charlson comorbidity index (0-37 points),integer form 0 to 37
+consciousness,"level of consciousness: 7 = full consciousness (GCS = 15); 6 = drowsiness (GCS = 12-14); 5 = stupor (GCS = 9-12); 4 = coma-1 (GCS = 7-8); 3 = coma-2 (GCS = 5-6), 2 = coma-3 (GCS = 3-4); 1 = persistent vegetative state 
+",integer from 0 to 7
+convulsions,clinical or EEG convulsions at the day of observation,yes = 1; no = 0
+csfl_ne,CSF leak from nose and/or ears at the day of observation,yes = 1; no = 0
+csfl_ss,CSF leak from surgical site at the day of observation,yes = 1; no = 0
+date,date of observation,YYYY-MM-DD
+day_in_icu,day in ICU at the day of observation,integer
+day_in_icu_max,length of stay in the ICU for current ICU admission,integer
+disease_id,diagnostic code according to ICD-10 classification,icd-10 format
+disease_type,"category of the primary diagnosis: brain tumor; head/neck trauma; vascular disorder of the brain; other 
+","text: tumor, trauma, vascular, other"
+endotracheal_tube,"endotracheal tube in place and tube type at the day of observation: 0 = no tube; 1 = oral intubation tube; 2 = nasal intubation tube; 3 = tracheostomy
+",integer from 0 to 3
+evd,external ventricular drain in place at the day of observation,yes = 1; no = 0
+feeding_tube,feeding tube in place at the day of observation,yes = 1; no = 0
+fio2,average fraction of oxygen in the air delivered to a patient at the day of observation,number from 0.21 to 1
+gender,patient’s gender: M = male; F = female,text
+hemodialysis,one or more sessions of hemodialysis or hemofiltration at the day of observation,yes = 1; no = 0
+hypothermia,therapeutically induced hypothermia for >1 hour at the day of observation,yes = 1; no = 0
+icpm,intracranial pressure monitor in place at the day of admission,yes = 1; no = 0
+ID,patient ID,x…x/xx
+ID_subid,ICU admission ID,x…x/xxx
+infection_bloodstream,ongoing healthcare-associated bloodstream infection at the day of observation (diagnosed based on the CDC 2008 criteria),yes = 1; no = 0
+infection_cns,ongoing healthcare-associated ventriculitis and/or meningitis at the day of observation (diagnosed based on the CDC 2008 criteria),yes = 1; no = 0
+infection_other,ongoing other healthcare-associated infections at the day of observation (diagnosed based on the CDC 2008 criteria),yes = 1; no = 0
+infection_respiratory,ongoing healthcare-associated respiratory infection at the day of observation (diagnosed based on the CDC 2008 criteria),yes = 1; no = 0
+infection_ssi,ongoing surgical site infection at the day of observation (diagnosed based on the CDC 2008 criteria),yes = 1; no = 0
+infection_urinary,ongoing healthcare-associated urinary infection at the day of observation (diagnosed based on the CDC 2008 criteria),yes = 1; no = 0
+intestinal_dysfunction,ongoing intestinal dysfunction at the day of observation (diagnostic criteria: see text),yes = 1; no = 0
+los,Total length of hospital stay in days,integer
+mech_vent,mechanical ventilation for >1 hour at the day of observation,yes = 1; no = 0
+mutism,clinical mutism at the day of observation,yes = 1; no = 0
+outcome,outcome of the hospital stay: discharge or death,text
+pbss,Pittsburg Brain Stem Score,integer from 6 to 12
+pleural_drain,pleural drain in place at the day of observation,yes = 1; no = 0
+purulent_sputum,clinically identified purulent sputum at the day of observation,yes = 1; no = 0
+rass,Richmond Agitation-Sedation Scale (RASS) score at the day of observation,integer from -3 to 3
+sedation,therapeutic sedation at the day of observation,yes = 1; no = 0
+st_craniotomy,neurosurgical procedures performed through skull opening (craniotomy),timestamp with a date of each surgery of this type. 0 = no surgery of this type
+st_craniotomy_len,"length of surgery in minutes (‘wheels in’ to ‘wheels out’ time), craniotomy",integer
+st_device,"surgical insertion of intracranial medical devices (drain, shunt, electrodes, etc.)",timestamp with a date of each surgery of this type. 0 = no surgery of this type
+st_device_len,"length of surgery in minutes (‘wheels in’ to ‘wheels out’ time), device insertion",integer
+st_endonasal,neurosurgical procedure performed through endonasal access,timestamp with a date of each surgery of this type. 0 = no surgery of this type
+st_endonasal_len,"length of surgery in minutes (‘wheels in’ to ‘wheels out’ time), endonasal surgery",integer
+st_endovascular,neurosurgical procedure performed through endovascular access,timestamp with a date of each surgery of this type. 0 = no surgery of this type
+st_endovascular_len,"length of surgery in minutes (‘wheels in’ to ‘wheels out’ time), endovascular surgery",integer
+st_other,non-neurosurgical procedures performed in the operating room,timestamp with a date of each surgery of this type. 0 = no surgery of this type
+st_other_len,"length of surgery in minutes (‘wheels in’ to ‘wheels out’ time), other surgeries",integer
+st_spinal,spinal surgeries,timestamp with a date of each surgery of this type. 0 = no surgery of this type
+st_spinal_len,"length of surgery in minutes (‘wheels in’ to ‘wheels out’ time), spinal surgery",integer
+tbd_sanation,number of tracheal suctions during the day of observation,integer
+temperature,average body temperature in Celsius degree during the day of observation,number
+total_parenteral_feeding,total parenteral feeding at the day of observation,yes = 1; no = 0
+urinary_catheter,urinary catheter in place at the day of observation,yes = 1; no = 0
+vasopressors,vasopressors administered for >1 hour at the day of observation,yes = 1; no = 0
+xray_inf,signs of infiltration in lungs on chest X-ray at the day of observation,yes = 1; no = 0

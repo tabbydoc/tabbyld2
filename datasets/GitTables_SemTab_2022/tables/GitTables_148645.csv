@@ -1,0 +1,13 @@
+col0,col1,col2,col3,col4,col5
+group_1,"partner_1,partner_33",1º Año,2014,kinesis_athletics_x.res_company_partner_13,
+group_2,"partner_2,partner_35",2º Año,2014,kinesis_athletics_x.res_company_partner_13,
+group_3,"partner_3,partner_28",3º Año,2014,kinesis_athletics_x.res_company_partner_13,
+group_4,"partner_10,partner_11,partner_29",1º A,2014,kinesis_athletics_x.res_company_partner_15,level_1
+group_5,"partner_4,partner_5",2º A,2014,kinesis_athletics_x.res_company_partner_15,level_2
+group_6,"partner_6,partner_7",3º A,2014,kinesis_athletics_x.res_company_partner_15,level_3
+group_7,"partner_4,partner_5",1º A,2013,kinesis_athletics_x.res_company_partner_15,level_1
+group_8,"partner_6,partner_7",2º A,2013,kinesis_athletics_x.res_company_partner_15,level_2
+group_9,"partner_8,partner_9",3º A,2013,kinesis_athletics_x.res_company_partner_15,level_3
+group_10,"partner_17,partner_18",Area Administrativa,2014,kinesis_athletics_x.res_company_partner_16,
+group_11,"partner_19,partner_20",Area Operativa,2014,kinesis_athletics_x.res_company_partner_16,
+group_14,"partner_30,partner_31,partner_32,partner_34",6ºA,2014,kinesis_athletics_x.res_company_partner_13,level_6

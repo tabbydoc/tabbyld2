@@ -1,0 +1,30 @@
+col0,col1,col2,col3,col4,col5,col6
+Bebop,No,No,No,No,No,No
+BibBase,No,No,No,No,No,"DBLP, Zotero, BibSonomy, Mendeley"
+BibDesk,Yes,Yes,No,Yes,No,"ACM portal, Jstor, DBLP, Google Scholar, Web of Science, any Z39.50 or Entrez, and others"
+Biblioscape,No,No,No,Yes,No,Import from integrated web browser
+BibSonomy,Yes,Yes,Yes,Yes,No,various[42]
+Bibus,No,No,No,Yes,No,none
+Bookends,Yes,No,No,Yes,No,"Web of Science, Amazon, Google Scholar, Z39.50"
+Citavi,Yes,Yes,Yes,Yes,No,"WorldCat/OCLC, Ovid, EBSCO, ProQuest, Web of Science, Z39.50 (4500+ online resources), SRU. Further catalogs are added upon request. Browser plugins (Firefox, Chrome, Internet Explorer) support DOI lookup, ISBN lookup, PubMed ID lookup, PMCID lookup, arXiv ID lookup, COinS and import from Wikipedia."
+CiteULike,Yes,Yes,Yes,Yes,No,various [4]
+colwiz,Yes,Yes,Yes,Yes,No,"Over 30 repositories, Import from integrated web browser"
+EndNote,Yes,No,Yes,Yes,No,various[43] any Z39.50
+JabRef,Yes,Yes,Yes,Yes,Yes[44],"ACM Portal, CrossRef, DBLP, DOAJ, DOI, GVK, Google Scholar, INSPIRE-HEP, Medline, MathSciNet, SAO/NASA Astrophysics Data System, Springer, and zbMATH"
+KBibTeX,Yes,Yes,Yes,Yes,No,"BibSonomy, CiteBase, CSB, DBLP, Google Scholar, ScienceDirect, INSPIRE-HEP, Z MATH, Z39.50"
+Mendeley,Yes,Yes,Yes,Yes,No,various [5]
+Paperpile,Yes,No,No,Yes,No,Google Scholar
+Pybliographer,No,No,No,Yes,No,none
+Qiqqa,Yes,No,Yes,Yes,No,"GoogleScholar, JSTOR"
+ReadCube (now Papers),Yes,No,Yes,Yes,No,"Microsoft Academic, Google Scholar"
+refbase,Yes,No,No,Yes,No,DOI lookup
+RefDB,Yes,No,No,Yes,No,any Z39.50
+Reference Manager,No,No,No,Yes,No,various[45]
+Referencer,?,?,?,?,No,?
+RefME,?,?,?,?,?,?
+RefWorks,No,No,No,Yes,No,various
+SciRef,No,No,No,No,No,No
+Sente,Yes,Yes,Yes,Yes,No,"Z39.50, SRU, Web of Knowledge"
+Wikindx,No,No,No,Yes,No,via plug-ins
+WizFolio,Yes,No,Yes,Yes,No,various[46]
+Zotero,Yes,Yes,Yes,Yes,Yes[47],various[48]

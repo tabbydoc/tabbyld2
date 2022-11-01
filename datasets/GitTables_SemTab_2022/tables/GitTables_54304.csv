@@ -1,0 +1,46 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+12345678,m,audit,30_min_to_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+12345678,m,audit,30_min_to_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+12345678,m,audit,30_min_to_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+12345678,m,audit,30_min_to_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+12345678,m,audit,30_min_to_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+12345678,m,audit,30_min_to_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+12345678,m,audit,30_min_to_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+12345678,m,audit,30_min_to_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+12345678,m,audit,30_min_to_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+12345678,m,audit,30_min_to_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+12345678,m,audit,30_min_to_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+12345678,m,audit,30_min_to_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+23456789,m,audit,over_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+23456789,m,audit,over_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+23456789,m,audit,over_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+23456789,m,audit,over_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+23456789,m,audit,over_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+23456789,m,audit,over_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+23456789,m,audit,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+23456789,m,audit,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+23456789,m,audit,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+23456789,m,audit,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+23456789,m,audit,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+23456789,m,audit,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+45678910,f,audit,over_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+45678910,f,audit,over_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+45678910,f,audit,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+67891011,f,verified,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+67891011,f,verified,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+67891011,f,verified,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+67891011,f,verified,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+67891011,f,verified,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+67891011,f,verified,over_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+67891011,f,verified,over_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+67891011,f,verified,over_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+67891011,f,verified,over_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+67891011,f,verified,over_5_hr,123abc,57d7f32f51efa305bc000bda,General,General,1
+78910111,m,verified,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+78910111,m,verified,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+78910111,m,verified,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+78910111,m,verified,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+56789101,m,verified,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+56789101,m,verified,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+56789101,m,verified,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2
+56789101,m,verified,over_5_hr,234bcd,57e7ed56424a5d0788000c29,Block 1,"Block 1, Programming for Data Science",2

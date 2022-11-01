@@ -1,0 +1,89 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1,Zimbabwe,Bulawayo Urban,716,21,21,0,1
+2,Zimbabwe,Buhera,716,1001,101,1,3
+3,Zimbabwe,Chimanimani,716,1002,102,1,4
+4,Zimbabwe,Chipinge Rural,716,1003,103,1,5
+5,Zimbabwe,Makoni,716,1004,104,1,6
+6,Zimbabwe,Mutasa,716,1006,106,1,8
+7,Zimbabwe,Nyanga,716,1007,107,1,9
+8,Zimbabwe,Mutare Rural,716,1005,105,1,7
+9,Zimbabwe,Bindura Rural,716,2001,201,2,10
+10,Zimbabwe,Muzarabani,716,2002,202,2,11
+11,Zimbabwe,"Mazowe, Mvurwi",716,2004,204,2,13
+12,Zimbabwe,Mt Darwin,716,2005,205,2,14
+13,Zimbabwe,Rushinga,716,2006,206,2,15
+14,Zimbabwe,Shamva,716,2007,207,2,16
+15,Zimbabwe,Chegutu,716,4001,401,4,26
+16,Zimbabwe,"Hurungwe, Karoi",716,4002,402,4,27
+17,Zimbabwe,Sanyati,716,4007,407,4,28
+18,Zimbabwe,Kariba Rural,716,4004,404,4,29
+19,Zimbabwe,Makonde,716,4005,405,4,30
+20,Zimbabwe,Zvimba,716,4006,406,4,31
+21,Zimbabwe,Bikita,716,8001,801,8,32
+22,Zimbabwe,Chiredzi Rural,716,8002,802,8,33
+23,Zimbabwe,Chivi,716,8003,803,8,34
+24,Zimbabwe,Gutu,716,8004,804,8,35
+25,Zimbabwe,Masvingo Rural,716,8005,805,8,36
+26,Zimbabwe,Mwenezi,716,8006,806,8,37
+27,Zimbabwe,Zaka,716,8007,807,8,38
+28,Zimbabwe,Beitbridge Rural,716,6001,601,6,46
+29,Zimbabwe,Gwanda Rural,716,6004,604,6,48
+30,Zimbabwe,Insiza,716,6005,605,6,49
+31,Zimbabwe,Matobo,716,6006,606,6,51
+32,Zimbabwe,Umzingwane,716,6007,607,6,52
+33,Zimbabwe,Chirumanzu,716,7001,701,7,53
+34,Zimbabwe,Gweru Rural,716,7004,704,7,56
+35,Zimbabwe,Kwekwe Rural,716,7005,705,7,57
+36,Zimbabwe,Mberengwa,716,7006,706,7,58
+37,Zimbabwe,Shurugwi Rural,716,7007,707,7,59
+38,Zimbabwe,Zvishavane Rural,716,7008,708,7,60
+39,Zimbabwe,Gokwe North,716,7002,702,7,54
+40,Zimbabwe,Gokwe South,716,7003,703,7,55
+41,Zimbabwe,Binga,716,5001,501,5,39
+42,Zimbabwe,BUBI,716,5002,502,5,40
+43,Zimbabwe,Lupane,716,5004,504,5,42
+44,Zimbabwe,Nkayi,716,5005,505,5,43
+45,Zimbabwe,Tsholotsho,716,5006,506,5,44
+46,Zimbabwe,Umguza,716,5007,507,5,45
+47,Zimbabwe,Hwange Rural,716,5003,503,5,41
+48,Zimbabwe,Hwedza,716,3003,303,3,25
+49,Zimbabwe,Marondera Rural,716,3004,304,3,19
+50,Zimbabwe,Mudzi,716,3005,305,3,20
+51,Zimbabwe,Murehwa,716,3006,306,3,21
+52,Zimbabwe,Mutoko,716,3007,307,3,22
+53,Zimbabwe,Seke,716,3008,308,3,23
+54,Zimbabwe,Uzumba Maramba Pfungwe,716,3009,309,3,24
+55,Zimbabwe,Chikomba,716,3001,301,3,17
+56,Zimbabwe,Chitungwiza,716,9022,922,9,2
+57,Zimbabwe,Harare Rural,716,9001,901,9,2
+58,Zimbabwe,Bulilima,716,6002,602,6,47
+59,Zimbabwe,"Mangwe Rural, Mangwe Urban (Plumtree)",716,6003,603,6,50
+60,Zimbabwe,Guruve,716,2003,203,2,12
+61,Zimbabwe,Mbire,716,2008,208,2,12
+62,Zimbabwe,Rusape Urban,716,1022,122,1,6
+63,Zimbabwe,Ruwa,716,3023,323,3,18
+64,Zimbabwe,Goromonzi,716,3002,302,3,18
+65,Zimbabwe,Marondera Urban,716,3021,321,3,19
+66,Zimbabwe,Kariba Urban,716,4024,424,4,29
+67,Zimbabwe,Chinhoyi,716,4021,421,4,30
+68,Zimbabwe,Kadoma,716,4022,422,4,28
+69,Zimbabwe,Norton,716,4025,425,4,26
+70,Zimbabwe,Hwange Urban,716,5021,521,5,41
+71,Zimbabwe,Victoria Falls,716,5022,522,5,41
+72,Zimbabwe,Beitbridge Urban,716,6022,622,6,46
+73,Zimbabwe,Kwekwe Urban,716,7022,722,7,57
+74,Zimbabwe,Shurugwi Urban,716,7026,726,7,59
+75,Zimbabwe,Zvishavane Urban,716,7024,724,7,60
+76,Zimbabwe,Gokwe Centre,716,7025,725,7,55
+77,Zimbabwe,Redcliff,716,7023,723,7,57
+78,Zimbabwe,Gweru Urban,716,7021,721,7,56
+79,Zimbabwe,Masvingo Urban,716,8021,821,8,36
+80,Zimbabwe,Chiredzi Town,716,8022,822,8,33
+81,Zimbabwe,Epworth,716,9023,923,9,2
+82,Zimbabwe,Harare Urban,716,9021,921,9,2
+83,Zimbabwe,Mutare Urban,716,1021,121,1,7
+84,Zimbabwe,Chipinge Urban,716,1023,123,1,5
+85,Zimbabwe,Chegutu Urban,716,4023,423,4,26
+86,Zimbabwe,Mhondoro-Ngezi,716,4003,403,4,28
+87,Zimbabwe,Gwanda Urban,716,6021,621,6,48
+88,Zimbabwe,Bindura Urban,716,2021,221,2,10

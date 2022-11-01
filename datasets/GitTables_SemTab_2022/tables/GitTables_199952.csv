@@ -1,0 +1,29 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+6,39,8,1000000.0,10000000000.0,log10_norm,,,,,
+23,39,8,100.0,1000000.0,log10_norm,,,,,
+27,39,8,1.0,1000.0,log10_norm,,,,,
+36,39,8,1.0,10000.0,log10_norm,,,,,
+32,42,1,0.1,1000.0,log10_norm,16.0,,,enteric viruses,calculated from raw (T3.2)*removal(T5.2)
+32,39,2,0.01,100.0,log10_norm,,,,Rota,
+32,43,3,30.0,60.0,log10_norm,,,,enteric viruses,"""High detectable concentration""""Impaced rivers and streames"""
+32,43,4,0.0,3.0,log10_norm,,,,viruses," ""High detectable concentration""""Wilderness rivers and streams"" "
+32,44,5,0.0,0.01,log10_norm,,,,viruses,Collected from several literature in this report (min set to zero)
+32,45,6,9.74510658007135,64.7460691472062,log10_norm,25.1188643150958,,,norovirus,entered 5% and 95% of the lognormal distribution
+32,39,8,50.0,5000.0,log10_norm,,,,Rota,
+32,43,7,0.0,2.0,log10_norm,,,,viruses,
+3,42,1,0.001,1000.0,log10_norm,3.0,,,Campylobacter,calculated from raw (T3.2)*removal(T5.2)
+3,39,2,100.0,10000.0,log10_norm,,,,Campylobacter,
+3,43,3,90.0,2500.0,log10_norm,,,,Campylobacter,"""High detectable concentration""""Impaced rivers and streames"""
+3,43,4,0.0,1100.0,log10_norm,,,,Campylobacter," ""High detectable concentration""""Wilderness rivers and streams"" "
+3,44,5,0.0,24.0,log10_norm,3.0,,,Campylobacter,Collected from several literature in this report (min set to zero)
+3,45,6,13.8694279635122,287.039358509118,log10_norm,63.0957344480194,,,Campylobacter,entered 5% and 95% of the lognormal distribution
+3,39,8,100.0,1000000.0,log10_norm,,,,Campylobacter,
+3,43,7,0.0,10.0,log10_norm,,,,Campylobacter,
+34,42,1,0.01,10000.0,log10_norm,32.0,,,Cryptosporidium,calculated from raw (T3.2)*removal(T5.2)
+34,39,2,0.0,1000.0,log10_norm,,,,Cryptosporidium,
+34,43,3,2.0,480.0,log10_norm,,,,Cryptosporidium,"""High detectable concentration""""Impaced rivers and streames"""
+34,43,4,2.0,240.0,log10_norm,,,,Cryptosporidium," ""High detectable concentration""""Wilderness rivers and streams"" "
+34,44,5,0.0,0.19,log10_norm,0.06,,,Cryptosporidium,Collected from several literature in this report (min set to zero)
+34,45,6,4.52008261942372e-05,0.0880751977503127,log10_norm,0.0019952623149688,,,Cryptosporidium,entered 5% and 95% of the lognormal distribution
+34,39,8,1.0,10000.0,log10_norm,,,,Cryptosporidium,
+34,43,7,0.0,1.0,log10_norm,,,,Cryptosporidium,

@@ -1,0 +1,40 @@
+col0,col1,col2,col3,col4
+case16,33.04,50.37945037,case6,case27; case28; case37; 
+case27,41.85,55.41473092,case16,No forward transmission
+case28,42.73,65.60236012,case16,case69; 
+case37,47.38,58.29605166,case16,case48; 
+case48,55.3,71.9503489,case37,case78; case81; case91; 
+case69,62.6,76.46062173,case28,case112; 
+case78,64.33,86.27523428,case48,case93; case154; case172; 
+case81,65.97,83.51637639,case48,case122; case148; 
+case91,68.95,85.73970503,case48,case151; case167; 
+case93,69.25,92.76842093,case78,case182; case223; 
+case112,73.46,98.32672412,case69,case160; case213; case291; 
+case122,75.56,98.44483953,case81,case199; case293; 
+case148,80.52,100.1314031,case81,case263; case314; 
+case151,80.89,96.42761488,case91,case255; 
+case154,81.08,92.61157139,case78,No forward transmission
+case160,82.17,100.5326511,case112,case220; case253; case319; 
+case167,82.74,94.38997626,case91,case193; case238; 
+case172,83.27,102.8567705,case78,case337; case341; case368; 
+case182,85.57,97.9346751,case93,case282; 
+case193,86.83,99.1685337,case167,No forward transmission
+case199,87.49,100.7132876,case122,case286; case321; 
+case213,88.53,101.6396634,case112,case343; 
+case220,89.31,101.7082298,case160,case346; 
+case223,89.77,98.14604221,case93,No forward transmission
+case238,91.39,107.6255156,case167,No forward transmission
+case253,92.99,108.9583446,case160,No contacts yet
+case255,93.43,115.7008498,case151,No contacts yet
+case263,93.89,118.3378954,case148,No contacts yet
+case282,94.93,110.3297927,case182,No forward transmission
+case286,95.13,116.8284567,case199,No contacts yet
+case291,95.33,118.2845952,case112,No contacts yet
+case293,95.45,112.5840722,case122,No contacts yet
+case314,97.13,110.1180347,case148,No contacts yet
+case319,97.53,110.2949981,case160,No contacts yet
+case337,98.44,111.5980718,case172,No contacts yet
+case341,98.55,108.1967941,case172,No contacts yet
+case343,98.64,106.8098618,case213,No contacts yet
+case346,98.7,113.8232066,case220,No contacts yet
+case368,99.86,112.4082462,case172,No contacts yet

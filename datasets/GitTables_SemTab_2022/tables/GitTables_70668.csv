@@ -1,0 +1,37 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11
+1010,commands,mission,1.0,1,1,,3,0,{'toolbox': 'fly'},"['fly-forward', 'turn', 'diamonds']",[]
+1020,commands-2,mission,2.0,2,2,,3,0,{'toolbox': 'shoot'},"['shooting', 'wormhole', 'shooting-wormholes']",[]
+1030,repeat,mission,3.0,3,3,,3,0,{'toolbox': 'repeat'},"['single-repeat', 'multiple-repeats', 'repeat-practice']",[]
+1040,while,mission,4.0,4,4,,3,0,{'toolbox': 'while'},"['single-while', 'multiple-whiles', 'while-practice']",[]
+1050,loops,mission,5.0,5,5,,3,0,{'toolbox': 'loops'},"['repeat-while-1', 'repeat-while-2', 'loops-practice']",[]
+1060,if,mission,6.0,6,6,,3,0,{'toolbox': 'loops-if'},"['if-intro', 'if-practice', 'if-puzzles']",[]
+1070,comparing,mission,7.0,7,7,,3,0,{'toolbox': 'loops-if-position'},"['comparing-intro', 'comparing-practice', 'comparing-puzzles']",[]
+1080,if-else,mission,8.0,8,8,,3,0,{'toolbox': 'loops-if-else'},"['if-else-intro', 'if-else-practice', 'if-else-puzzles']",[]
+1090,loops-if,mission,9.0,9,9,,3,0,{'toolbox': 'loops-if-else'},"['loops-if-practice-1', 'loops-if-practice-2', 'loops-if-practice-3']",[]
+1011,fly-forward,phase,1.1,1,1,1010.0,0,1,{},[],['three-steps-forward']
+1012,turn,phase,1.2,1,2,1010.0,0,4,{},[],"['turning-right', 'turning-left', 'turning-right-and-left', 'turning-left-and-right']"
+1013,diamonds,phase,1.3,1,3,1010.0,0,5,{},[],"['diamond-on-right', 'beware-of-asteroid', 'plus', 'diamond-path', 'surrounded-diamond']"
+1021,shooting,phase,2.1,2,1,1020.0,0,2,{},[],"['shot', 'shooting']"
+1022,wormhole,phase,2.2,2,2,1020.0,0,1,{},[],['wormhole-demo']
+1023,shooting-wormholes,phase,2.3,2,3,1020.0,0,4,{},[],"['tunnel', 'dont-forget-shot', '2diamonds-2meteorids', 'last-shot']"
+1031,single-repeat,phase,3.1,3,1,1030.0,0,2,{},[],"['ladder', 'diamonds-in-meteoroid-cloud']"
+1032,multiple-repeats,phase,3.2,3,2,1030.0,0,5,{},[],"['big-left-turn', 'big-right-turn', 'blocked-wormhole', 'triangle', 'n']"
+1033,repeat-practice,phase,3.3,3,3,1030.0,0,4,{},[],"['steal-the-nose', 'find-the-path', 'stairs', 'clean-your-path']"
+1041,single-while,phase,4.1,4,1,1040.0,0,2,{},[],"['zig-zag', 'direct-flight-ahead']"
+1042,multiple-whiles,phase,4.2,4,2,1040.0,0,4,{},[],"['yellow-is-not-red', 'yellow-hint', 'stop-on-red', 'direction-change']"
+1043,while-practice,phase,4.3,4,3,1040.0,0,1,{},[],['diamond-in-house']
+1051,repeat-while-1,phase,5.1,5,1,1050.0,0,4,{},[],"['diamond-cross', 'stripes', 'big-slalom', 'double-bend']"
+1052,repeat-while-2,phase,5.2,5,2,1050.0,0,5,{},[],"['collect-diamonds', 'color-slalom', 'zig-zag-plus', 'four-vs', 'rectangle']"
+1053,loops-practice,phase,5.3,5,3,1050.0,0,2,{},[],"['arrow', 'double-track']"
+1061,if-intro,phase,6.1,6,1,1060.0,0,3,{},[],"['on-yellow-to-left', 'diamonds-with-signals', 'follow-colors']"
+1062,if-practice,phase,6.2,6,2,1060.0,0,3,{},[],"['two-diamonds', 'red-shooting', 'yellow-squares']"
+1063,if-puzzles,phase,6.3,6,3,1060.0,0,1,{},[],['belgian-flag']
+1071,comparing-intro,phase,7.1,7,1,1070.0,0,4,{},[],"['chessboard', 'edge-to-edge', 'meteoroids-and-wormholes', 'maneuvers-on-left']"
+1072,comparing-practice,phase,7.2,7,2,1070.0,0,3,{},[],"['free-column', 'diamond-lines', 'letter-h']"
+1073,comparing-puzzles,phase,7.3,7,3,1070.0,0,2,{},[],"['wave', 'slalom-position-testing']"
+1081,if-else-intro,phase,8.1,8,1,1080.0,0,3,{},[],"['letter-e', 'narrow-passage', 'color-navigation']"
+1082,if-else-practice,phase,8.2,8,2,1080.0,0,3,{},[],"['bouncing-from-edge', 'diamonds-on-yellow', 'triple-steps']"
+1083,if-else-puzzles,phase,8.3,8,3,1080.0,0,1,{},[],['colorful-flowers']
+1091,loops-if-practice-1,phase,9.1,9,1,1090.0,0,6,{},[],"['five-diamonds', 'mirror', 'plan-your-shooting', 'diagonal-lines', 'wormhole-cloud', 'edge-wormholes']"
+1092,loops-if-practice-2,phase,9.2,9,2,1090.0,0,5,{},[],"['two-color-tracks', 'diamond-ring', 'cross-2', 'diagonal-diamonds', 'six-diamonds']"
+1093,loops-if-practice-3,phase,9.3,9,3,1090.0,0,5,{},[],"['triple-slalom', 'turning-in-square', 'letter-d', 'meteoroids-on-left', 'two-bit-instructions']"

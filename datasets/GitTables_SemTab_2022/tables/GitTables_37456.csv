@@ -1,0 +1,27 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19
+iAB_RBC_283,ENO,Enolase,2pg_c <=> h2o_c + pep_c,Glycolysis/Gluconeogenesis,Eno1_AT1,{Eno1_AT1},{-1},"{1,1}",{2pg_c},"{h2o_c,pep_c}",-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,FBA,Fructose-bisphosphate aldolase,fdp_c <=> g3p_c + dhap_c,Glycolysis/Gluconeogenesis,Aldoc_AT1 or Aldoa_AT2 or Aldoa_AT1 or Aldoa_AT3,"{Aldoa_AT1,Aldoc_AT1,Aldoa_AT3,Aldoa_AT2}",{-1},"{1,1}",{fdp_c},"{g3p_c,dhap_c}",-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,GAPD,Glyceraldehyde-3-phosphate dehydrogenase,nad_c + pi_c + g3p_c <=> h_c + nadh_c + 13dpg_c,Glycolysis/Gluconeogenesis,Gapdh_AT1,{Gapdh_AT1},"{-1,-1,-1}","{1,1,1}","{nad_c,pi_c,g3p_c}","{h_c,nadh_c,13dpg_c}",-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,HEX1,Hexokinase (D-glucose:ATP),glc__D_c + atp_c --> g6p_c + h_c + adp_c,Glycolysis/Gluconeogenesis,Hk2_AT1 or Hk1_AT3 or Hk1_AT1 or Hk1_AT2 or Hk3_AT1 or Flj22761_AT1 or Hk1_AT4 or Hk1_AT5,"{Hk1_AT1,Hk3_AT1,Hk1_AT2,Hk1_AT3,Hk1_AT5,Flj22761_AT1,Hk2_AT1,Hk1_AT4}","{-1,-1}","{1,1,1}","{glc__D_c,atp_c}","{g6p_c,h_c,adp_c}",0.0,1000.0,0,mmol*gDW-1*hr-1,f,,t,,f
+iAB_RBC_283,LDH_L,L-lactate dehydrogenase,nad_c + lac__L_c <=> nadh_c + pyr_c + h_c,Glycolysis/Gluconeogenesis,Ldhb_AT1 or Ldha_AT1,"{Ldhb_AT1,Ldha_AT1}","{-1,-1}","{1,1,1}","{nad_c,lac__L_c}","{nadh_c,pyr_c,h_c}",-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,PFK,Phosphofructokinase,f6p_c + atp_c --> fdp_c + h_c + adp_c,Glycolysis/Gluconeogenesis,Pfkl_AT2 or Pfkm_AT1 or Pfkl_AT1,"{Pfkm_AT1,Pfkl_AT2,Pfkl_AT1}","{-1,-1}","{1,1,1}","{f6p_c,atp_c}","{fdp_c,h_c,adp_c}",0.0,1000.0,0,mmol*gDW-1*hr-1,f,,t,,f
+iAB_RBC_283,PGI,Glucose-6-phosphate isomerase,g6p_c <=> f6p_c,Glycolysis/Gluconeogenesis,Gpi_AT1,{Gpi_AT1},{-1},{1},{g6p_c},{f6p_c},-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,PGK,Phosphoglycerate kinase,3pg_c + atp_c <=> 13dpg_c + adp_c,Glycolysis/Gluconeogenesis,Pgk1_AT1,{Pgk1_AT1},"{-1,-1}","{1,1}","{3pg_c,atp_c}","{13dpg_c,adp_c}",-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,PGM,Phosphoglycerate mutase,2pg_c <=> 3pg_c,Glycolysis/Gluconeogenesis,Bpgm_AT1 or Bpgm_AT2,"{Bpgm_AT2,Bpgm_AT1}",{-1},{1},{2pg_c},{3pg_c},-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,PYK,Pyruvate kinase,adp_c + h_c + pep_c --> pyr_c + atp_c,Glycolysis/Gluconeogenesis,Pkm2_AT1 or Pklr_AT2 or Pklr_AT1 or Pkm2_AT3 or Pkm2_AT2,"{Pklr_AT2,Pkm2_AT3,Pkm2_AT1,Pkm2_AT2,Pklr_AT1}","{-1,-1,-1}","{1,1}","{adp_c,h_c,pep_c}","{pyr_c,atp_c}",0.0,1000.0,0,mmol*gDW-1*hr-1,f,,t,,f
+iAB_RBC_283,TPI,Triose-phosphate isomerase,dhap_c <=> g3p_c,Glycolysis/Gluconeogenesis,Tpi1_AT1,{Tpi1_AT1},{-1},{1},{dhap_c},{g3p_c},-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,DM_nadh,Demand NADH,nadh_c --> nad_c + h_c,,,{},{-1},"{1,1}",{nadh_c},"{nad_c,h_c}",0.0,1000.0,0,mmol*gDW-1*hr-1,f,,t,,f
+iAB_RBC_283,ADK1,Adenylate kinase,amp_c + atp_c <=> 2.0 adp_c,Nucleotides,Ak1_AT1,{Ak1_AT1},"{-1,-1}",{2},"{amp_c,atp_c}",{adp_c},-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,ATPh,ATP Hydrolysis,atp_c + h2o_c --> pi_c + h_c + adp_c,,,{},"{-1,-1}","{1,1,1}","{h2o_c,atp_c}","{pi_c,h_c,adp_c}",0.0,1000.0,0,mmol*gDW-1*hr-1,f,,t,,f
+iAB_RBC_283,GLCt1,Glucose transport  uniport ,glc__D_e <=> glc__D_c,"Transport, Extracellular",Slc2a3_1_e or Slc2a1_1_e or Slc2a4_1_e,"{Slc2a4_1_e,Slc2a3_1_e,Slc2a1_1_e}",{-1},{1},{glc__D_e},{glc__D_c},-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,H2Ot,H2O transport via diffusion,h2o_e <=> h2o_c,"Transport, Extracellular",Slc5a1_1_e,{Slc5a1_1_e},{-1},{1},{h2o_e},{h2o_c},-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,L_LACt2r,L lactate reversible transport via proton symport,lac__L_e + h_e <=> h_c + lac__L_c,"Transport, Extracellular",Slc16a1_AT1,{Slc16a1_AT1},"{-1,-1}","{1,1}","{lac__L_e,h_e}","{h_c,lac__L_c}",-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,PYRt2,Pyruvate transport in via proton symport,h_e + pyr_e <=> pyr_c + h_c,"Transport, Extracellular",Slc16a1_AT1,{Slc16a1_AT1},"{-1,-1}","{1,1}","{h_e,pyr_e}","{pyr_c,h_c}",-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,Ht_1,Proton diffusion,h_c <=> h_e,"Transport, Extracellular",,{},{-1},{1},{h_c},{h_e},-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,AMPt,AMPt,amp_e <=> amp_c,"Transport, Extracellular",,{},{-1},{1},{amp_e},{amp_c},-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,EX_glc__D_e,D-Glucose exchange,--> glc__D_e,Extracellular exchange,,{},{},{1},{},{glc__D_e},0.0,1.12,0,mmol*gDW-1*hr-1,t,,t,,f
+iAB_RBC_283,EX_h2o_e,H2O exchange,h2o_e <=> ,Extracellular exchange,,{},{-1},{},{h2o_e},{},-6.456802827,10.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,EX_lac__L_e,L-Lactate exchange,lac__L_e --> ,Extracellular exchange,,{},{-1},{},{lac__L_e},{},0.0,3.675592633,0,mmol*gDW-1*hr-1,f,,t,,f
+iAB_RBC_283,EX_pyr_e,Pyruvate exchange,pyr_e --> ,Extracellular exchange,,{},{-1},{},{pyr_e},{},0.0,3.675598867,0,mmol*gDW-1*hr-1,f,,t,,f
+iAB_RBC_283,EX_h_e,H+ exchange,h_e <=> ,Extracellular exchange,,{},{-1},{},{h_e},{},-0.90045,10.0,0,mmol*gDW-1*hr-1,t,,t,,t
+iAB_RBC_283,EX_amp_e,AMP exchange,amp_e <=> ,Extracellular exchange,,{},{-1},{},{amp_e},{},-1000.0,1000.0,0,mmol*gDW-1*hr-1,t,,t,,t

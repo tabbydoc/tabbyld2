@@ -1,0 +1,7 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+stock.stock_location_company,NOEMIS,stock.stock_location_locations,view,True,,,none,,,manual
+stock.stock_location_stock,SD Dépôt,stock.stock_location_company,internal,True,Stock Disponible Dépôt,,none,,,manual
+stock.stock_location_output,Sortie,stock.stock_location_company,internal,True,Sortie vers client,,customer,,,transparent
+stock.stock_rc_dpt,Réception,stock.stock_location_company,internal,True,Réception Dépôt,,fixed,stock.stock_location_stock,in,transparent
+stock.stock_spare_parts,Prêt – Pièces Détachées,stock.stock_location_company,internal,True,,,none,,,manual
+stock.stock_after_sale,SAV,stock.stock_location_company,internal,True,,,none,,,manual

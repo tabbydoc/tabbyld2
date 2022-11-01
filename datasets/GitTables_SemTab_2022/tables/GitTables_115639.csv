@@ -1,0 +1,9 @@
+col0,col1,col2,col3,col4,col5
+1,35314,39,not sure why this is getting downvoted -- it is correct! Double check it in your compiler if you don't believe him!,2008-09-06T08:07:10.730,1
+2,35314,8,"Yeah, I didn't believe it until I created a console app - but good lord!  Why would they give you the rope to hang yourself!  I hated that about VB.NET - the OrElse and AndAlso keywords!",2008-09-06T08:09:52.330,3
+4,35195,0,"I don't see an accepted answer now, I wonder how that got unaccepted. Incidentally, I would have marked an accepted answer based on the answers available at the time. Also, accepted doesn't mean Best :)",2008-09-06T08:42:16.980,380
+9,47239,0,"Jonathan: Wow!  Thank you for all of that, you did an amazing amount of work!",2008-09-06T12:26:30.060,4550
+10,45651,6,It will help if you give some details of which database you are using as techniques vary.,2008-09-06T13:38:23.647,242
+12,47428,3,"One of the things that make a url user-friendly is 'discover-ability', meaning you can take a guess at url's simply from the address bar. http://i.love.pets.com/search/cats+dogs could easily lead to http://i.love.pets.com/search/pug+puppies etc",2008-09-06T13:51:47.843,4642
+14,47481,0,"I agree, both CodeRush and RefactorPro are visually impressive (most of which can be turned off BTW), but for navigating and refactoring Resharper is much better in my opinion of using both products.",2008-09-06T14:15:46.897,4642
+15,47373,0,"Just wanted to mention that this is an excellent solution if you consider the problem to be linear (i.e. treating `A1B2` as a single number). I still think the problem is multi-dimensional, but I guess we'll just have to wait for the author to clarify :)",2008-09-06T14:30:40.217,2495

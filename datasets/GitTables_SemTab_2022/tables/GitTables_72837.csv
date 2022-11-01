@@ -1,0 +1,37 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+__export__.sgavar_file_1_548dfa6f,False,300,Order de recepción,Transferir,,sga_adaia_integration.model_stock_picking,,INR,0
+__export__.sgavar_file_2_5484226f,False,139,Confirmación de recepción,Transferir,,sga_adaia_integration.model_stock_picking,,INR,1
+__export__.sgavar_file_3_f45afa6f,False,326,Orden de expedición,Transferir,,sga_adaia_integration.model_stock_picking,,OUT,0
+__export__.sgavar_file_4_48d6546f,False,303,Confirmación de expedición,Transferir,,sga_adaia_integration.model_stock_picking,,OUT,1
+__export__.sgavar_file_5_f66f584a,False,110,"Orden de recepción, líneas",Operación de empaquetado,,sga_adaia_integration.model_stock_move_line,,ORL,0
+__export__.sgavar_file_6_9scz97xz,False,167,"Confirmación de recepción, líneas",Operación de empaquetado,,sga_adaia_integration.model_stock_move_line,,CRL,0
+__export__.sgavar_file_7_6f93f9af,False,152,"Orden de expedición, líneas",Operación de empaquetado,,sga_adaia_integration.model_stock_move_line,,OEL,0
+__export__.sgavar_file_8_00a1f0af,False,146,"Confirmación de expedición, líneas",Operación de empaquetado,,sga_adaia_integration.model_stock_move_line,,CEL,0
+__export__.sgavar_file_9_1s52a8w9,False,521,Creación de clientes,Contacto,,sga_adaia_integration.model_res_partner,,TE0,0
+__export__.sgavar_file_10_1a9s7f6a,False,521,Modificación de clientes,Contacto,,sga_adaia_integration.model_res_partner,,TE0,1
+__export__.sgavar_file_11_9af1e24r,False,521,Eliminación de clientes,Contacto,,sga_adaia_integration.model_res_partner,,TE0,2
+__export__.sgavar_file_12_1s52afw1,False,203,Creación Producto,Producto,,stock_available_global.model_product_product,,AR0,0
+__export__.sgavar_file_13_sa3w1was,False,203,Modificación Producto,Producto,,stock_available_global.model_product_product,,AR0,1
+__export__.sgavar_file_14_a2s4fe9s,False,203,Eliminación Producto,Producto,,stock_available_global.model_product_product,,AR0,2
+__export__.sgavar_file_15_9s52a8w1,False,123,Creación plantilla,Plantilla de producto,,stock_available_global.model_product_template,,PRT,0
+__export__.sgavar_file_16_2ba3dd3b,False,123,Modificación Plantilla,Plantilla de producto,,stock_available_global.model_product_template,,PRT,1
+__export__.sgavar_file_17_b0653669,False,123,Eliminación Plantilla,Plantilla de producto,,stock_available_global.model_product_template,,PRT,2
+__export__.sgavar_file_18_3356a2ac,False,40,Nuevo barcode,Producto,,stock_available_global.model_product_product,,TRA,0
+__export__.sgavar_file_19_0d32276a,False,40,Modificar barcode,Producto,,stock_available_global.model_product_product,,TRA,1
+__export__.sgavar_file_20_acf18ac9,False,40,Eliminar barcode,Producto,,stock_available_global.model_product_product,,TRA,2
+__export__.sgavar_file_21_446dd168,False,250,Stock del producto en ubicación,Quants,,stock_move_reassign_availability.model_stock_quant,,TUB,0
+__export__.sgavar_file_22_4248892b,False,292,"Confirmación de expedición, contenidos",Operación de empaquetado,,sga_adaia_integration.model_stock_move_line,,CEN,0
+__export__.sgavar_file_23_b3ed6114,False,0,Quants por producto,Producto,,stock_available_global.model_product_product,,TRU,0
+__export__.sgavar_file_24_6sfg829s,False,326,Stock Batch Picking,stock.batch.picking,,sga_adaia_integration.model_stock_batch_picking,,SBP,0
+__export__.sgavar_file_25_z02s9t8y,False,152,"Stock Batch Picking, líneas",Operación de empaquetado,,sga_adaia_integration.model_stock_move_line,,SBL,0
+__export__.sgavar_file_26_9a4he3z2,False,303,Stock Batch Picking Confirmation,stock.batch.picking,,sga_adaia_integration.model_stock_batch_picking,,SBP,1
+__export__.sgavar_file_27_3ao6r92t,False,146,"Stock Batch Picking Confirmation, líneas",Operación de empaquetado,,sga_adaia_integration.model_stock_move_line,,SBC,0
+__export__.sgavar_file_34_4099139e,False,300,Batch de recepción,stock.batch.picking,,sga_adaia_integration.model_stock_batch_picking,,INS,0
+__export__.sgavar_file_35_1e0d23ee,False,139,Confirmación de recepción batch,stock.batch.picking,,sga_adaia_integration.model_stock_batch_picking,,INS,1
+__export__.sgavar_file_36_1897a3c6,False,110,"Orden de recepción, líneas",Operación de empaquetado,,sga_adaia_integration.model_stock_move_line,,OSL,0
+__export__.sgavar_file_37_25d6085a,False,0,"Batch por picks, recepción",stock.batch.picking,,sga_adaia_integration.model_stock_batch_picking,,BPP,0
+__export__.sgavar_file_38_4eefb65f,False,0,"Batch por picks, confirmation",stock.batch.picking,,sga_adaia_integration.model_stock_batch_picking,,BPP,1
+__export__.sgavar_file_39_94b325e8,False,0,Movimiento de Stock,Movimiento de Stock,,sga_ulma_integration.model_stock_move,,MVL,0
+__export__.sgavar_file_41_262f912d,False,0,"Batch por picks, salida",stock.batch.picking,,sga_adaia_integration.model_stock_batch_picking,,BPO,0
+__export__.sgavar_file_42_a2c28e95,False,0,"Movimiento de Stock, Salida",Movimiento de Stock,,sga_ulma_integration.model_stock_move,,MLO,0
+__export__.sgavar_file_44_d9a664dc,False,152,"Orden de salida, salida",Operación de empaquetado,,sga_adaia_integration.model_stock_move_line,,OLO,0

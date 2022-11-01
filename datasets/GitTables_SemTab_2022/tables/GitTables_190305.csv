@@ -1,0 +1,222 @@
+col0,col1,col2,col3
+4,Afghanistan,Asia,1
+8,Albania,Europe,2
+12,Algeria,Africa,3
+24,Angola,Africa,3
+28,Antigua and Barbuda,America,4
+32,Argentina,America,4
+51,Armenia,Asia,1
+533,Aruba,America,4
+36,Australia,Australia,5
+40,Austria,Europe,2
+31,Azerbaijan,Asia,1
+44,Bahamas,America,4
+48,Bahrain,Asia,1
+50,Bangladesh,Asia,1
+52,Barbados,America,4
+112,Belarus,Europe,2
+56,Belgium,Europe,2
+84,Belize,America,4
+204,Benin,Africa,3
+68,Bolivia (Plurinational State of),America,4
+1000,Bonaire,America,4
+70,Bosnia and Herzegovina,Europe,2
+72,Botswana,Africa,3
+76,Brazil,America,4
+92,British Virgin Islands,America,4
+96,Brunei Darussalam,Asia,1
+100,Bulgaria,Europe,2
+854,Burkina Faso,Africa,3
+108,Burundi,Africa,3
+132,Cabo Verde,Africa,3
+116,Cambodia,Asia,1
+120,Cameroon,Africa,3
+124,Canada,America,4
+136,Cayman Islands,America,4
+140,Central African Rep.,Africa,3
+148,Chad,Africa,3
+152,Chile,America,4
+156,China,Asia,1
+344,"China, Hong Kong SAR",Asia,1
+1001,"China, Macao SAR",Asia,1
+170,Colombia,America,4
+174,Comoros,Africa,3
+178,Congo,Africa,3
+188,Costa Rica,America,4
+191,Croatia,Europe,2
+192,Cuba,America,4
+1002,Cura,America,4
+196,Cyprus,Asia,1
+203,Czech Rep.,Europe,2
+1003,Dem. Rep. of the Congo,Africa,3
+208,Denmark,Europe,2
+262,Djibouti,Africa,3
+214,Dominican Rep.,America,4
+218,Ecuador,America,4
+818,Egypt,Africa,3
+222,El Salvador,America,4
+232,Eritrea,Africa,3
+233,Estonia,Europe,2
+231,Ethiopia,Africa,3
+242,Fiji,Australia,5
+246,Finland,Europe,2
+250,France,Europe,2
+266,Gabon,Africa,3
+270,Gambia,Africa,3
+265,Georgia,Asia,1
+276,Germany,Europe,2
+288,Ghana,Africa,3
+300,Greece,Europe,2
+308,Grenada,America,4
+320,Guatemala,America,4
+324,Guinea,Africa,3
+624,Guinea-Bissau,Africa,3
+328,Guyana,America,4
+332,Haiti,America,4
+340,Honduras,America,4
+348,Hungary,Europe,2
+352,Iceland,Europe,2
+356,India,Asia,1
+360,Indonesia,Asia,1
+364,Iran (Islamic Rep. of),Asia,1
+368,Iraq,Asia,1
+372,Ireland,Europe,2
+376,Israel,Asia,1
+380,Italy,Europe,2
+1004,Ivory Coast,Africa,3
+388,Jamaica,America,4
+392,Japan,Asia,1
+400,Jordan,Asia,1
+398,Kazakhstan,Asia,1
+404,Kenya,Africa,3
+414,Kuwait,Asia,1
+417,Kyrgyzstan,Asia,1
+418,Lao People's Dem. Rep.,Asia,1
+428,Latvia,Europe,2
+422,Lebanon,Asia,1
+426,Lesotho,Africa,3
+430,Liberia,Africa,3
+434,Libya,Africa,3
+438,Liechtenstein,Europe,2
+440,Lithuania,Europe,2
+442,Luxembourg,Europe,2
+450,Madagascar,Africa,3
+454,Malawi,Africa,3
+458,Malaysia,Asia,1
+466,Mali,Africa,3
+470,Malta,Europe,2
+478,Mauritania,Africa,3
+480,Mauritius,Africa,3
+484,Mexico,America,4
+583,Micronesia (Federated States of),Australia,5
+492,Monaco,Europe,2
+496,Mongolia,Asia,1
+499,Montenegro,Europe,2
+500,Montserrat,America,4
+504,Morocco,Africa,3
+508,Mozambique,Africa,3
+104,Myanmar,Asia,1
+516,Namibia,Africa,3
+520,Nauru,Australia,5
+524,Nepal,Asia,1
+528,Netherlands,Europe,2
+554,New Zealand,Australia,5
+558,Nicaragua,America,4
+562,Niger,Africa,3
+566,Nigeria,Africa,3
+578,Norway,Europe,2
+512,Oman,Asia,1
+586,Pakistan,Asia,1
+585,Palau,Australia,5
+591,Panama,America,4
+598,Papua New Guinea,Australia,5
+600,Paraguay,America,4
+604,Peru,America,4
+608,Philippines,Asia,1
+616,Poland,Europe,2
+620,Portugal,Europe,2
+634,Qatar,Asia,1
+410,Rep. of Korea,Asia,1
+498,Rep. of Moldova,Europe,2
+642,Romania,Europe,2
+643,Russian Federation,Europe,2
+646,Rwanda,Africa,3
+659,Saint Kitts and Nevis,America,4
+662,Saint Lucia,America,4
+670,Saint Vincent and the Grenadines,America,4
+682,Saudi Arabia,Asia,1
+686,Senegal,Africa,3
+688,Serbia and Kosovo (S/RES/1244 (1999)),Europe,2
+694,Sierra Leone,Africa,3
+702,Singapore,Asia,1
+1005,Sint Maarten (Dutch part),America,4
+703,Slovakia,Europe,2
+705,Slovenia,Europe,2
+90,Solomon Islands,Australia,5
+706,Somalia,Africa,3
+710,South Africa,Africa,3
+728,South Sudan,Africa,3
+724,Spain,Europe,2
+144,Sri Lanka,Asia,1
+1006,State of Palestine,Asia,1
+729,Sudan,Africa,3
+740,Suriname,America,4
+748,Swaziland,Africa,3
+752,Sweden,Europe,2
+756,Switzerland,Europe,2
+760,Syrian Arab Rep.,Asia,1
+762,Tajikistan,Asia,1
+764,Thailand,Asia,1
+807,The former Yugoslav Republic of Macedonia,Europe,2
+626,Timor-Leste,Asia,1
+768,Togo,Africa,3
+776,Tonga,Australia,5
+780,Trinidad and Tobago,America,4
+788,Tunisia,Africa,3
+792,Turkey,Asia,1
+795,Turkmenistan,Asia,1
+796,Turks and Caicos Islands,America,4
+800,Uganda,Africa,3
+804,Ukraine,Europe,2
+784,United Arab Emirates,Asia,1
+826,United Kingdom,Europe,2
+834,United Rep. of Tanzania,Africa,3
+840,United States of America,America,4
+858,Uruguay,America,4
+860,Uzbekistan,Asia,1
+548,Vanuatu,Australia,5
+862,Venezuela (Bolivarian Republic of),America,4
+704,Viet Nam,Asia,1
+887,Yemen,Asia,1
+894,Zambia,Africa,3
+716,Zimbabwe,Africa,3
+20,Andorra,Europe,2
+660,Anguilla,America,4
+60,Bermuda,America,4
+64,Bhutan,Asia,1
+184,Cook Islands,Australia,5
+408,Dem. People's Rep. of Korea,Asia,1
+212,Dominica,America,4
+226,Equatorial Guinea,Africa,3
+1007,French Guiana,America,4
+258,French Polynesia,Australia,5
+1008,Gibraltar,Europe,2
+1009,Guadeloupe,America,4
+1010,Holy See (the),Europe,2
+296,Kiribati,Australia,5
+462,Maldives,Asia,1
+584,Marshall Islands,Australia,5
+540,New Caledonia,Australia,5
+570,Niue,Australia,5
+1011,Norfolk Island,Australia,5
+1012,Palestinian,Asia,1
+882,Samoa,Australia,5
+674,San Marino,Europe,2
+678,Sao Tome and Principe,Africa,3
+690,Seychelles,Africa,3
+1013,Tibetan,Asia,1
+798,Tuvalu,Australia,5
+1014,Wallis and Futuna Islands ,Australia,5
+732,Western Sahara,Africa,3
+384,Côte d'Ivoire,Africa,3
+1015,Curaçao,America,4

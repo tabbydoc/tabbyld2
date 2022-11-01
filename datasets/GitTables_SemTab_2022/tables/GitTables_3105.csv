@@ -1,0 +1,42 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+Swahili,Swahili,swah1253,Swahili,swh,Africa,-6.5,39.0,Atlantic-Congo,1
+Iraqw,Iraqw,iraq1241,Iraqw,irk,Africa,-4.0,35.5,Afro-Asiatic,2
+Gawwada,Gawwada,gaww1239,Ale-Gawwada,gwd,Africa,5.5,37.25,Afro-Asiatic,3
+Hausa,Hausa,haus1257,Hausa,hau,Africa,12.0,7.0,Afro-Asiatic,4
+Kanuri,Kanuri,cent2050,Central Kanuri,knc,Africa,12.0,13.0,Saharan,5
+TarifiytBerber,Tarifiyt Berber,tari1263,Tarifiyt-Beni-Iznasen-Eastern Middle Atlas Berber,rif,Africa,34.5,-4.0,Afro-Asiatic,6
+SeychellesCreole,Seychelles Creole,sese1246,Seselwa Creole French,crs,Africa,-4.75,55.5,Indo-European,7
+Romanian,Romanian,roma1327,Romanian,ron,Eurasia,46.0,25.0,Indo-European,8
+SeliceRomani,Selice Romani,west2376,West Slovakian Romani,,Eurasia,48.091,17.9609,Indo-European,9
+LowerSorbian,Lower Sorbian,lowe1385,Lower Sorbian,dsb,Eurasia,51.75,14.3333,Indo-European,10
+OldHighGerman,Old High German,oldh1241,Old High German (ca. 750-1050),,Eurasia,50.55,9.68333,Indo-European,11
+Dutch,Dutch,dutc1256,Dutch,nld,Eurasia,52.5,6.0,Indo-European,12
+English,English,stan1293,English,eng,Eurasia,52.0,0.0,Indo-European,13
+KildinSaami,Kildin Saami,kild1236,Kildin Saami,sjd,Eurasia,67.0,37.0,Uralic,14
+Bezhta,Bezhta,bezh1248,Bezhta,kap,Eurasia,42.0833,46.1667,Nakh-Daghestanian,15
+Archi,Archi,arch1244,Archi,aqc,Eurasia,42.0,46.8333,Nakh-Daghestanian,16
+Manange,Manange,mana1288,Manange,nmm,Eurasia,28.0,84.25,Sino-Tibetan,17
+Ket,Ket,kett1243,Ket,ket,Eurasia,64.0,87.0,Yeniseian,18
+Sakha,Sakha,yaku1245,Sakha,,Eurasia,62.0,130.0,Turkic,19
+Oroqen,Oroqen,oroq1238,Oroqen,orh,Eurasia,51.2829,126.111,Tungusic,20
+Japanese,Japanese,nucl1643,Japanese,jpn,Eurasia,37.0,140.0,Japonic,21
+MandarinChinese,Mandarin Chinese,mand1415,Mandarin Chinese,cmn,Eurasia,34.0,110.0,Sino-Tibetan,22
+Thai,Thai,thai1261,Thai,tha,Eurasia,16.0,101.0,Tai-Kadai,23
+Vietnamese,Vietnamese,viet1252,Vietnamese,vie,Eurasia,10.5,106.5,Austroasiatic,24
+WhiteHmong,White Hmong,hmon1333,Hmong Daw,mww,Eurasia,26.0,105.0,Hmong-Mien,25
+CeqWong,Ceq Wong,chew1245,Chewong,cwg,Eurasia,3.8807,102.456,Austroasiatic,26
+Indonesian,Indonesian,indo1316,Indonesian,ind,Papunesia,0.0,106.0,Austronesian,27
+Malagasy,Malagasy,plat1254,Plateau Malagasy,plt,Africa,-20.0,47.0,Austronesian,28
+Takia,Takia,taki1248,Takia,tbc,Papunesia,-4.66667,146.0,Austronesian,29
+Hawaiian,Hawaiian,hawa1245,Hawaiian,haw,Papunesia,19.5833,-155.5,Austronesian,30
+Gurindji,Gurindji,guri1247,Gurindji,gue,Australia,-17.6667,130.667,Pama-Nyungan,31
+Yaqui,Yaqui,yaqu1251,Yaqui,yaq,North America,27.5,-110.25,Uto-Aztecan,32
+ZinacantanTzotzil,Zinacantán Tzotzil,tzot1259,Tzotzil,tzz,North America,16.8333,-92.8333,Mayan,33
+Qeqchi,Q'eqchi',kekc1242,Kekchí,kek,North America,16.0,-89.8333,Mayan,34
+Otomi,Otomi,mezq1235,Mezquital Otomi,ote,North America,20.1667,-98.8333,Otomanguean,35
+Saramaccan,Saramaccan,sara1340,Saramaccan,srm,South America,4.5,-55.5,Indo-European,36
+ImbaburaQuechua,Imbabura Quechua,imba1240,Imbabura Highland Quichua,qvi,South America,0.333333,-78.0,Quechuan,37
+Kalina,Kali'na,gali1262,Galibi Carib,car,South America,5.5,-56.0,Cariban,38
+Hup,Hup,hupd1244,Hup,jup,South America,0.166667,-69.25,Naduhup,39
+Wichi,Wichí,wich1264,Wichí Lhamtés Güisnay,mzh,South America,-22.5,-62.5833,Matacoan,40
+Mapudungun,Mapudungun,mapu1245,Mapudungun,arn,South America,-38.0,-72.0,Araucanian,41

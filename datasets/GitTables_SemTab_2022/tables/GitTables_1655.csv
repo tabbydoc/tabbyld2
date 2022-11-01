@@ -1,0 +1,43 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+1,Page,,,,,,,,,State Diagram Example
+2,MinimalTextBlock,Default,1.0,,,,,,,N
+3,MinimalTextBlock,Default,1.0,,,,,,,İTÜ NLP API
+4,Rounded Rectangle Container,Flowchart Shapes,1.0,,39.0,,,,,
+5,Text,Default,1.0,4.0,39.0,,,,,"Tutorials (Hold Shift + ⌘ or Ctrl, then click)"
+6,Button,UI Mockups,1.0,4.0,39.0,,,,,Watch Lucidchart basic tutorials
+7,Text,Default,1.0,4.0,39.0,,,,,Description
+8,Text,Default,1.0,4.0,39.0,,,,,"A state diagram is a type of behavioral diagram used to track an object's possible states if an event were to occur. Used in computer science, these diagrams represent objects with circles and transitions with lines. 
+
+Use this template to describe your system's behaviors and gather insights, such as an object's flow from its current state to the next state, which is illustrated by the transitions.
+ To customize this template, click on any shape and type the information you would like to include. Add, remove, and arrange shapes as needed."
+9,Button,UI Mockups,1.0,4.0,39.0,,,,,"Create your own (Hold Shift + ⌘ or Ctrl, then click)"
+10,User Image,User Images,1.0,4.0,39.0,,,,,
+11,User Image,User Images,1.0,,,,,,,
+12,User Image,User Images,1.0,,,,,,,
+13,User Image,User Images,1.0,,,,,,,
+14,Process,Flowchart Shapes,1.0,,,,,,,New Data Sources Can be Added
+15,Preparation,Flowchart Shapes,1.0,,,,,,,Streaming Data Formatter For Twitter 
+16,Preparation,Flowchart Shapes,1.0,,,,,,,Streaming Data Formatter For Hürriyet 
+17,Preparation,Flowchart Shapes,1.0,,,,,,,Configuration File
+18,User Image,User Images,1.0,,,,,,,
+19,Process,Flowchart Shapes,1.0,,,,,,,Cybersecurity Event Detection
+20,User Image,User Images,1.0,,,,,,,
+21,User Image,User Images,1.0,,,,,,,
+22,MinimalTextBlock,Default,1.0,,,,,,,Database
+23,MinimalTextBlock,Default,1.0,,,,,,,User Interface
+24,MinimalTextBlock,Default,1.0,,,,,,,Security Analyst
+25,Line,,1.0,,,11.0,15.0,None,Arrow,Tweets
+26,Line,,1.0,,,14.0,18.0,None,Arrow,
+27,Line,,1.0,,,14.0,2.0,None,Arrow,
+28,Line,,1.0,,,12.0,16.0,None,Arrow,News
+29,Line,,1.0,,,16.0,18.0,None,Arrow,Formatted Text
+30,Line,,1.0,,,17.0,11.0,None,Arrow,
+31,Line,,1.0,,,17.0,12.0,None,Arrow,
+32,Line,,1.0,,,17.0,14.0,None,Arrow,
+33,Line,,1.0,,,15.0,18.0,None,Arrow,Formatted Text
+34,Line,,1.0,,,18.0,,None,Arrow,
+35,Line,,1.0,,,13.0,18.0,Arrow,Arrow,Normalization
+36,Line,,1.0,,,19.0,22.0,Arrow,None,Texts
+37,Line,,1.0,,,19.0,20.0,None,Arrow,
+38,Line,,1.0,,,21.0,23.0,Arrow,None,
+39,Group 1,,1.0,,,,,,,

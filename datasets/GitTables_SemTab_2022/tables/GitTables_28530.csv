@@ -1,0 +1,40 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1,D0,GENERAL,,endpoint,http://localhost:8070/profile/,2020-04-01 15:12:15,2020-04-01 15:12:15
+2,D0,RESTCLIENT,,restclient.connection-timeout,10000,2020-04-01 15:12:16,2020-04-01 15:12:16
+3,D0,RESTCLIENT,,restclient.connection-request-timeout,10000,2020-04-01 15:12:16,2020-04-01 15:12:16
+4,D0,RESTCLIENT,,restclient.read-timeout,8000,2020-04-01 15:12:16,2020-04-01 15:12:16
+5,D0,RABBITMQ,,spring.rabbitmq.username,guest,2020-04-01 15:12:16,2020-04-01 15:12:16
+6,D0,RABBITMQ,,spring.rabbitmq.password,guest,2020-04-01 15:12:16,2020-04-01 15:12:16
+7,D0,RABBITMQ,,spring.rabbitmq.host,172.20.10.4,2020-04-01 15:12:16,2020-04-01 15:12:16
+8,D0,RABBITMQ,,spring.rabbitmq.port,5672,2020-04-01 15:12:16,2020-04-01 15:12:16
+9,D0,RABBITMQ,,spring.rabbitmq.virtual-host,/,2020-04-01 15:12:16,2020-04-01 15:12:16
+10,D0,RABBITMQ,,spring.rabbitmq.listener.simple.acknowledge-mode,manual,2020-04-01 15:12:16,2020-04-01 15:12:16
+11,D0,SWAGGER,,swagger.enabled,true,2020-04-01 15:12:16,2020-04-01 15:12:16
+12,D0,SWAGGER,,swagger.version,1.0,2020-04-01 15:12:16,2020-04-01 15:12:16
+13,D0,SWAGGER,,enable.swagger.security,true,2020-04-01 15:12:16,2020-04-01 15:12:16
+14,D0,SWAGGER,,swagger.username,username,2020-04-01 15:12:16,2020-04-01 15:12:16
+15,D0,SWAGGER,,swagger.password,password,2020-04-01 15:12:16,2020-04-01 15:12:16
+16,D0,GENERAL,,spring.thymeleaf.prefix,classpath:/META-INF/resources/templates/,2020-04-01 15:12:16,2020-04-01 15:12:16
+17,D0,GENERAL,,spring.resources.static-locations,classpath:/META-INF/resources/static/,2020-04-01 15:12:16,2020-04-01 15:12:16
+18,D0,REPORT,,quartz.enable-schedule-job-one,true,2020-04-01 15:12:16,2020-04-01 15:12:16
+19,D0,REPORT,,quartz.schedule-job-one-cron,0/2 * * * * ?,2020-04-01 15:12:16,2020-04-01 15:12:16
+20,D0,REPORT,,quartz.enable-schedule-job-two,true,2020-04-01 15:12:16,2020-04-01 15:12:16
+21,D0,REPORT,,quartz.schedule-job-two-cron,0/4 * * * * ?,2020-04-01 15:12:16,2020-04-01 15:12:16
+22,D0,REPORT,,quartz.enable-schedule-job-three,true,2020-04-01 15:12:16,2020-04-01 15:12:16
+23,D0,REPORT,,quartz.schedule-job-three-cron,0/8 * * * * ?,2020-04-01 15:12:16,2020-04-01 15:12:16
+24,D0,HOUSEKEEP,,quartz.enable-delete-housekeep-summary-record-job,true,2020-04-01 15:12:16,2020-04-01 15:12:16
+25,D0,HOUSEKEEP,,quartz.housekeep-summary-record-retention-period,36,2020-04-01 15:12:16,2020-04-01 15:12:16
+26,D0,HOUSEKEEP,,quartz.delete-housekeep-summary-record-job-cron,0/2 * * * * ?,2020-04-01 15:12:16,2020-04-01 15:12:16
+27,D0,QUARTZ,Configuration of scheduler,org.quartz.scheduler.instanceName,DefaultQuartzScheduler,2020-04-01 15:12:16,2020-04-01 15:12:16
+28,D0,QUARTZ,Configuration of scheduler,org.quartz.scheduler.instanceId,AUTO,2020-04-01 15:12:16,2020-04-01 15:12:16
+29,D0,QUARTZ,Configuration of jobStore,org.quartz.jobStore.class,org.quartz.impl.jdbcjobstore.JobStoreTX,2020-04-01 15:12:16,2020-04-01 15:12:16
+30,D0,QUARTZ,Configuration of jobStore,org.quartz.jobStore.driverDelegateClass,org.quartz.impl.jdbcjobstore.StdJDBCDelegate,2020-04-01 15:12:16,2020-04-01 15:12:16
+31,D0,QUARTZ,Configuration of jobStore,org.quartz.jobStore.tablePrefix,qrtz_,2020-04-01 15:12:16,2020-04-01 15:12:16
+32,D0,QUARTZ,Configuration of jobStore,org.quartz.jobStore.isClustered,true,2020-04-01 15:12:16,2020-04-01 15:12:16
+33,D0,QUARTZ,Configuration of jobStore,org.quartz.jobStore.clusterCheckinInterval,10000,2020-04-01 15:12:16,2020-04-01 15:12:16
+34,D0,QUARTZ,Configuration of jobStore,org.quartz.jobStore.useProperties,false,2020-04-01 15:12:16,2020-04-01 15:12:16
+35,D0,QUARTZ,Configuration of jobStore,org.quartz.jobStore.misfireThreshold,100,2020-04-01 15:12:16,2020-04-01 15:12:16
+36,D0,QUARTZ,Configuration of scheduler's tread pool,org.quartz.threadPool.class,org.quartz.simpl.SimpleThreadPool,2020-04-01 15:12:16,2020-04-01 15:12:16
+37,D0,QUARTZ,Configuration of scheduler's tread pool,org.quartz.threadPool.threadCount,10,2020-04-01 15:12:16,2020-04-01 15:12:16
+38,D0,QUARTZ,Configuration of scheduler's tread pool,org.quartz.threadPool.threadPriority,5,2020-04-01 15:12:16,2020-04-01 15:12:16
+39,D0,QUARTZ,Configuration of scheduler's tread pool,org.quartz.threadPool.threadsInheritContextClassLoaderOfInitializingThread,true,2020-04-01 15:12:16,2020-04-01 15:12:16

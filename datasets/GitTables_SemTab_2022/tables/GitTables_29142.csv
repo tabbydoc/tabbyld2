@@ -1,0 +1,23 @@
+col0,col1,col2
+Ligand,,
+pH,,
+Data,collection,a
+Beamline,,
+Wavelength,(Å),
+Space,group,
+Unit,cell,parameters
+"a, b, c (Å) ",,
+"α, β, γ (°) ",,
+Total reflections ,,
+Unique reflections ,,
+Mean,I/σ(I),
+Completeness,(%),
+R,merge,
+R,pim,
+CC,1/2,c
+Refinement,d,
+No.,of,atoms
+Ramachandran,plot,(%)
+Favored,,
+Allowed,,
+Outliers,,

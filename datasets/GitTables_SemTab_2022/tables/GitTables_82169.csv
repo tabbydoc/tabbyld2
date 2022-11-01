@@ -1,0 +1,41 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+GO:0019222,regulation of metabolic process,35.730%,-4.652,-1.477,3.792,-5.1831,0.826,0.0,19222,0
+GO:0032501,multicellular organismal process,41.143%,1.705,-5.571,3.853,-2.5229,0.97,0.0,32501,0
+GO:0032502,developmental process,33.982%,-1.981,-4.947,3.77,-10.301,0.966,0.0,32502,0
+GO:0043009,chordate embryonic development,3.260%,5.177,0.602,2.753,-2.7423,0.694,0.0,43009,0
+GO:0009792,embryo development ending in birth or egg hatching,3.278%,,,2.755,-2.6716,0.694,0.801,43009,1
+GO:0048598,embryonic morphogenesis,3.301%,,,2.758,-2.342,0.694,0.802,43009,1
+GO:0019219,regulation of nucleobase-containing compound metabolic process,23.912%,-4.99,3.515,3.618,-5.0958,0.491,0.135,19219,0
+GO:2001141,regulation of RNA biosynthetic process,21.160%,,,3.564,-3.4828,0.437,0.762,19219,1
+GO:1903506,regulation of nucleic acid-templated transcription,21.073%,,,3.563,-3.4828,0.436,0.785,19219,1
+GO:0097659,nucleic acid-templated transcription,21.991%,,,3.581,-2.2733,0.516,0.746,19219,1
+GO:0080090,regulation of primary metabolic process,33.566%,,,3.765,-4.4789,0.597,0.524,19219,1
+GO:2000112,regulation of cellular macromolecule biosynthetic process,23.220%,,,3.605,-3.3595,0.473,0.722,19219,1
+GO:0009889,regulation of biosynthetic process,25.216%,,,3.641,-3.2211,0.538,0.536,19219,1
+GO:0010468,regulation of gene expression,25.084%,,,3.638,-4.0835,0.591,0.535,19219,1
+GO:0031323,regulation of cellular metabolic process,33.837%,,,3.768,-4.4559,0.591,0.608,19219,1
+GO:0031326,regulation of cellular biosynthetic process,24.939%,,,3.636,-3.3526,0.485,0.723,19219,1
+GO:0006355,"regulation of transcription, DNA-templated",20.929%,,,3.56,-3.9431,0.434,0.681,19219,1
+GO:0051252,regulation of RNA metabolic process,21.864%,,,3.579,-3.8416,0.477,0.706,19219,1
+GO:0006351,"transcription, DNA-templated",21.881%,,,3.579,-2.6271,0.501,0.766,19219,1
+GO:0010556,regulation of macromolecule biosynthetic process,23.855%,,,3.616,-2.8996,0.479,0.73,19219,1
+GO:0060255,regulation of macromolecule metabolic process,33.630%,,,3.766,-3.9431,0.589,0.609,19219,1
+GO:0051171,regulation of nitrogen compound metabolic process,25.470%,,,3.645,-3.4547,0.586,0.538,19219,1
+GO:0007420,brain development,3.895%,4.137,1.603,2.83,-1.3757,0.731,0.264,7420,0
+GO:0048856,anatomical structure development,31.558%,5.25,2.921,3.738,-8.4168,0.663,0.324,48856,0
+GO:0048468,cell development,11.056%,,,3.283,-1.9281,0.691,0.607,48856,1
+GO:0030154,cell differentiation,22.095%,,,3.583,-4.8508,0.668,0.535,48856,1
+GO:0007275,multicellular organism development,28.938%,,,3.7,-7.4225,0.649,0.595,48856,1
+GO:0048731,system development,25.695%,,,3.649,-4.3851,0.643,0.607,48856,1
+GO:0048869,cellular developmental process,23.093%,,,3.602,-5.0894,0.675,0.544,48856,1
+GO:0009790,embryo development,5.505%,4.377,5.059,2.98,-4.0438,0.722,0.352,9790,0
+GO:0009888,tissue development,10.912%,5.106,4.392,3.277,-2.1427,0.705,0.423,9888,0
+GO:0007399,nervous system development,12.770%,4.39,3.147,3.345,-4.0701,0.679,0.444,7399,0
+GO:0048513,animal organ development,18.719%,,,3.511,-2.9066,0.658,0.541,7399,1
+GO:0050793,regulation of developmental process,12.949%,5.701,2.066,3.351,-1.3152,0.651,0.446,50793,0
+GO:0009653,anatomical structure morphogenesis,13.872%,5.639,3.611,3.381,-3.7077,0.693,0.456,9653,0
+GO:1901362,organic cyclic compound biosynthetic process,26.549%,-4.686,4.035,3.663,-1.5031,0.613,0.475,1901362,0
+GO:0019438,aromatic compound biosynthetic process,25.793%,-4.883,4.68,3.65,-1.857,0.604,0.494,19438,0
+GO:0032774,RNA biosynthetic process,22.649%,-4.238,5.737,3.594,-2.4597,0.525,0.497,32774,0
+GO:0034654,nucleobase-containing compound biosynthetic process,25.378%,,,3.643,-1.7375,0.537,0.705,32774,1
+GO:0018130,heterocycle biosynthetic process,25.770%,-4.377,5.087,3.65,-1.6676,0.603,0.499,18130,0

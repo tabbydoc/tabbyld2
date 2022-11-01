@@ -1,0 +1,13 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18
+publication_id,fields.publication,,,0,,string,link,{ 'hrefTemplate': ',,,,,,,,,,
+pubmed_id,fields.publication,,,1,,string,link,"{ 'hrefTemplate': 'http://www.ncbi.nlm.nih.gov/pubmed?cmd=Search&term={pubmed_id}%5BPMID%5D', 'target': '_blank' }",,,Pubmed ID,Pubmed ID,,,,[l;d],,
+pubmed_central_id,fields.publication,,,2,,string,link,"{ 'hrefTemplate': 'http://www.ncbi.nlm.nih.gov/pmc/articles/PMC{pubmed_central_id}/', 'target': '_blank' }",,,Pubmed Central ID,Pubmed Central ID,,,,[l;d],,
+authors,fields.publication,,,3,,string,full_string,,,,Authors cited,Authors Cited,,,,[l;d],,
+title,fields.publication,,,4,,string,link,{ 'hrefTemplate': ',,,,,,,,,,
+journal,fields.publication,,,5,,string,,,,,Journal,Journal,,,,[l;d],,
+volume,fields.publication,,,6,,string,,,,,Volume,Volume,,,,[l;d],,
+year_published,fields.publication,,,7,,string,,,,,Year published,Year Published,,,,[l;d],,
+pages,fields.publication,,,8,,string,,,,,Pages,Pages,,,,[l;d],,
+attached_file_id,fields.publication,attached_file,attached_file_id,10,,string,link,{ 'hrefTemplate': ',,,,,,,,,,
+attached_filename,fields.publication,attached_file,filename,11,,string,link,{ 'hrefTemplate': '/db/publication/{publication_id}/attached_file' },,,Attached file name,Attached File,,,,[l;d],,
+screen_facility_id,fields.publication,screen,facility_id,12,,string,link,{ 'hrefTemplate': ',,,,,,,,,,

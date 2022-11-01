@@ -1,0 +1,111 @@
+col0,col1,col2,col3,col4,col5,col6
+1_agua,water,948,WATER,Agua,1,43
+2_amarillo,yellow,1424,YELLOW,Amarillo,2,43
+3_amarrar,fasten,1094,FASTEN,Amarrar,3,43
+4_arbol,tree,906,TREE,Árbol,4,44
+5_arena,sand,671,SAND,Arena,5,44
+6_ave,bird,937,BIRD,Ave,6,44
+7_bailar,dance (v.),1879,DANCE,Bailar,7,45
+8_beber,drink (v.),1401,DRINK,Beber,8,45
+9_blanco,white,1335,WHITE,Blanco,9,45
+10_boca,mouth,674,MOUTH,Boca,10,45
+11_bosque,forest,420,FOREST,Bosque,11,46
+12_bueno,good,1035,GOOD,Bueno,12,46
+13_cabello,hair,1040,HAIR,Cabello,13,46
+14_cabeza,head,1256,HEAD,Cabeza,14,47
+15_caer,fall (v.),1280,FALL,Caer,15,47
+16_caliente,"hot, warm",2272,HOT OR WARM,Caliente,16,47
+17_caminar,walk (v.),1443,WALK,Caminar,17,47
+18_camino,path,2252,PATH,Camino,18,48
+19_cantar,sing (v.),1261,SING,Cantar,19,48
+20_carne,meat,634,MEAT,Carne,20,48
+21_ceniza,ash,646,ASH,Ceniza,21,48
+22_cinco,five,493,FIVE,Cinco,22,49
+23_cola,tail,1220,TAIL,Cola,23,49
+24_comer,eat (v.),1336,EAT,Comer,24,50
+25_con,with,1340,WITH,Con,25,50
+26_cortar,cut (v.),1432,CUT,Cortar,26,50
+27_corteza,bark (of tree),1204,BARK,Corteza,27,50
+28_cuatro,four,1500,FOUR,Cuatro,28,50
+29_cuello,neck,1333,NECK,Cuello,29,51
+30_dar,give (v.),1447,GIVE,Dar,30,51
+31_decir,say (v.),1458,SAY,Decir,31,51
+32_diente,tooth,1380,TOOTH,Diente,32,51
+33_dormir,sleep (v.),1585,SLEEP,Dormir,33,51
+34_dos,two,1498,TWO,Dos,34,51
+35_el,he,1211,HE,Él,35,52
+36_en,at,1461,AT,En,36,52
+37_este,this,1214,THIS,Este,37,52
+38_flor,flower,239,FLOWER,Flor,38,52
+39_frio,cold (temperature),1287,COLD,Frío,39,52
+40_fuego,fire,221,FIRE,Fuego,40,53
+41_golpear,hit (v.),1433,HIT,Golpear,41,53
+42_grande,big,1202,BIG,Grande,42,53
+43_gusano,worm,1219,WORM,Gusano,43,53
+44_hablar,talk (v.),2708,TALK,Hablar,44,53
+45_hermana,sister,1263,SISTER,Hermana,45,54
+46_higado,liver,1224,LIVER,Hígado,46,54
+47_hoja,leaf,628,LEAF,Hoja,47,55
+48_hombre,man,1554,MAN,Hombre,48,55
+49_hueso,bone,1394,BONE,Hueso,49,55
+50_humo,smoke (substance),778,SMOKE (EXHAUST),Humo,50,56
+51_largo,large,1203,LONG,Largo,51,56
+52_lavar,wash (v.),1453,WASH,Lavar,52,57
+53_lejos,far,1406,FAR,Lejos,53,57
+54_lengua,tongue,1205,TONGUE,Lengua,54,57
+55_luna,moon,1313,MOON,Luna,55,57
+56_llorar,cry (v.),1839,CRY,Llorar,56,57
+57_madre,mother,1216,MOTHER,Madre,57,58
+58_malo,bad,1292,BAD,Malo,58,58
+59_mano,hand,1277,HAND,Mano,59,58
+60_matar,kill (v.),1417,KILL,Matar,60,58
+61_montana,mountain,639,MOUNTAIN,Montaña,61,59
+62_morder,bite (v.),1403,BITE,Morder,62,59
+63_mujer,woman,962,WOMAN,Mujer,63,59
+64_nariz,nose,1221,NOSE,Nariz,64,59
+65_negro,black,163,BLACK,Negro,65,60
+66_nino,child,2099,CHILD,Niño,66,60
+67_no,no,1269,NO,No,67,60
+68_noche,night,1233,NIGHT,Noche,68,61
+69_nosotros,we,1212,WE,Nosotros,69,61
+70_nube,cloud,1489,CLOUD,Nube,70,61
+71_nuevo,new,1231,NEW,Nuevo,71,61
+72_oir,hear (v.),1408,HEAR,Oír,72,62
+73_ojo,eye,1248,EYE,Ojo,73,62
+74_oler,smell (v.),2124,SMELL,Oler,74,62
+75_oreja,ear,1247,EAR,Oreja,75,63
+76_padre,father,1217,FATHER,Padre,76,63
+77_pequeno,small,1246,SMALL,Pequeño,77,63
+78_perro,dog,2009,DOG,Perro,78,63
+79_pesado,heavy,1210,HEAVY,Pesado,79,64
+80_pez,fish (animal),227,FISH,Pez,80,64
+81_pie,foot,1301,FOOT,Pie,81,64
+82_piedra,stone,857,STONE,Piedra,82,64
+83_pierna,leg,1297,LEG,Pierna,83,64
+84_piojo,flea,232,FLEA,Piojo,84,65
+85_pluma,feather,1201,FEATHER,Pluma,85,65
+86_pocos,few,1242,FEW,Pocos,86,65
+87_que,what,1236,WHAT,Qué,87,65
+88_reir,laugh (v.),1355,LAUGH,Reír,88,66
+89_rojo,red,156,RED,Rojo,89,66
+90_ropa,clothes,1895,CLOTHES,Ropa,90,66
+91_saber,know something (v.),1410,KNOW (SOMETHING),Saber,91,67
+92_sal,salt,1274,SALT,Sal,92,67
+93_sangre,blood,946,BLOOD,Sangre,93,67
+94_seco,dry,1398,DRY,Seco,94,68
+95_serpiente,snake,730,SNAKE,Serpiente,95,68
+96_sol,sun,1343,SUN,Sol,96,68
+97_tetas,breast,1402,BREAST,Tetas,97,69
+98_tierra,earth,1228,EARTH (SOIL),Tierra,98,69
+99_tres,three,492,THREE,Tres,99,69
+100_tripas,guts,1334,GUTS,Tripas,100,70
+101_tu,thou,1215,THOU,Tú,101,70
+102_uno,one,1493,ONE,Uno,102,70
+103_ustedes,you (plural),1213,YOU,Ustedes,103,71
+104_venir,come (v.),1446,COME,Venir,104,71
+105_ver,see (v.),1409,SEE,Ver,105,71
+106_verde,green,1425,GREEN,Verde,106,71
+107_viejo,old,1229,OLD,Viejo,107,72
+108_viento,wind,960,WIND,Viento,108,72
+109_vientre,stomach,819,STOMACH,Vientre,109,72
+110_yo,I,1209,I,Yo,110,72

@@ -1,0 +1,48 @@
+col0,col1,col2,col3,col4,col5,col6
+id,identificación única,,id,id,,int
+REGION,Región de USA en la que habita el individuo,"['Noreste','Centro-Oeste','Sur','Oeste']",discreta,entorno,presente,category
+SEX,Sexo,"['Masculino','Femenino']",discreta,sujeto,presente,category
+AHEIGHT,Altura (cm),,contínua,sujeto,constante,float
+AWEIGHTP,Peso (Kg),,contínua,sujeto,constante,float
+BMI,Índice de masa corporal,,contínua,sujeto,constante,float
+AGE_P,Edad,,contínua,sujeto,presente,float
+RACERPI2,Etnia,"['Blanco','Afroamericano','AIAN','Asiática','No definido','Multiple']",discreta,sujeto,constante,category
+R_MARITL,Estado civil,"['Casado','Viudo','Separado','Soltero','En Pareja']",discreta,entorno,presente,category
+DOINGLWA,¿Trabaja actualmente?,"['No','Sí']",discreta,entorno,presente,bool
+WRKLYR4,¿Trabajó en los últimos 12 meses?,"['No','Sí']",discreta,entorno,12 meses,bool
+HYPYR1,¿Ha sufrido hipertemsión en los últimos 12 meses?,"['No','Sí']",discreta,antecedentes,12 meses,bool
+HYPMED2,¿Toma actualmente medicamento para la presión (recetada por un médico)?,"['No','Sí']",discreta,medicamentos,presente,bool
+CHLYR,¿Ha tenido colesterol alto en los últimos 12 meses?,"['No','Sí']",discreta,antecedentes,12 meses,bool
+CHLMDNW2,¿Toma actualmente medicamento para reducir el colesterol (recetado por un médico)?,"['No','Sí']",discreta,medicamentos,presente,bool
+ANGEV,¿Algna vez fue diagnosticado con angina pectoris?,"['No','Sí']",discreta,enfermedades crónicas,constante,bool
+MIEV,¿Alguna vez tuvo un infarto?,"['No','Sí']",discreta,antecedentes,constante,bool
+HRTEV,¿Alguna vez fue diagnosticado con una enfermedad del corazón?,"['No','Sí']",discreta,enfermedades crónicas,constante,bool
+STREV,¿Alguna vez sufrió un derrame cerebral?,"['No','Sí']",discreta,antecedentes,constante,bool
+EPHEV,¿Alguna vez fue diagnosticado con efisema?,"['No','Sí']",discreta,enfermedades crónicas,constante,bool
+COPDEV,¿Alguna vez fue diagnosticado con EPOC?,"['No','Sí']",discreta,enfermedades crónicas,constante,bool
+ASP,Toma aspirina actualmente?,"['No','Sí']",discreta,medicamentos,presente,bool
+AASSTILL,¿Tiene asma?,"['No','Sí']",discreta,enfermedades crónicas,presente,bool
+ULCYR,¿Ha tenido una úlcera en los últimos 12 meses?,"['No','Sí']",discreta,antecedentes,12 meses,bool
+DIBEV1,¿Ha sido diagnosticado alguna vez con diabetes o prediabetes?,"['No','Sí']",discreta,enfermedades crónicas,constante,bool
+DIBPILL1,¿Toma actualmente medicamento para la diabetes?,"['No','Sí']",discreta,medicamentos,presente,bool
+INSLN1,¿Toma actualmente insulina?,"['No','Sí']",discreta,medicamentos,presente,bool
+AHAYFYR,¿Ha tenido rinitis alérgica en los últimos 12 meses?,"['No','Sí']",discreta,enfermedades crónicas,12 meses,bool
+SINYR,¿Ha sido diagnosticado con sinusitis en los últimos 12 meses?,"['No','Sí']",discreta,antecedentes,12 meses,bool
+CBRCHYR,¿Ha sido diagnosticado con bronquitis crónicaen los últimos 12 meses?,"['No','Sí']",discreta,enfermedades crónicas,12 meses,bool
+KIDWKYR,¿Ha sido diagnosticado con algún tipo de falla renal en los últimos 12 meses?,"['No','Sí']",discreta,enfermedades crónicas,12 meses,bool
+LIVYR,¿Ha sido diagnosticado con algún tipo de falla hepática en los últimos 12 meses?,"['No','Sí']",discreta,enfermedades crónicas,12 meses,bool
+ARTH1,"¿Ha sido diagnosticado alguna vez con alguna forma de artritis, artritis reumatoide, gota, lupus o fibromialgia?","['No','Sí']",discreta,enfermedades crónicas,constante,bool
+PAINECK,¿Ha sufrido dolor de cuello durante más de 24 horas seguidas en los últimos 3 meses?,"['No','Sí']",discreta,enfermedades crónicas,3 meses,bool
+PAINLB,¿Ha sufrido dolor de cintura durante más de 24 horas seguidas en los últimos 3 meses?,"['No','Sí']",discreta,enfermedades crónicas,3 meses,bool
+PAINFACE,¿Ha sufrido dolor de en la cara o la mandíbula durante más de 24 horas seguidas en los últimos 3 meses?,"['No','Sí']",discreta,enfermedades crónicas,3 meses,bool
+FLA1AR,¿Posee alguna limitación física?,"['No','Sí']",discreta,sujeto,presente,bool
+CIGSDAY,Números de cigarrillo que fuma al día (todo tipo de cigarros),,contínua,hábitos,presente,float
+VIG,¿Cuántos minutos a la semana realiza de ejercicio vigoroso?,,contínua,hábitos,presente,float
+MOD,¿Cuántos minutos a la semana realiza de ejercicio moderado?,,contínua,hábitos,presente,float
+ALC,En promedio ¿Cuántos vasos de alcohol bebe a la semana?,,contínua,hábitos,12 meses,float
+APOX,¿Ha tenido varicela?,"['No','Sí']",discreta,antecedentes,constante,bool
+AHEP,¿Ha tenido hepatitis?,"['No','Sí']",discreta,antecedentes,constante,bool
+LIVEV,¿Ha sido diagnosticado alguna vez con una enfermedad hepática crónica?,"['No','Sí']",discreta,antecedentes,constante,bool
+ASICPUSE,¿Con qué frecuencia utiliza una computadora?,"['Nunca o casi nunca','A veces','Casi todos los días','Todos los días']",discreta,hábitos,constante,category
+ASISLEEP,En promedio y en un periodo de 24 horas ¿Cuántas horas duerme?,,contínua,hábitos,24 horas,float
+target,¿Ha tenido migrañas o cefaleas severas en los últimos 3 meses?,"['No','Sí']",discreta,target,3 meses,bool

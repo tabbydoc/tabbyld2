@@ -1,0 +1,48 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1 / A,ref_id,Unique reference identification number for biomass equation source. Links to Reference table.,character,,,,
+2 / B,equation_id,Unique equation identification number given arbitrarely. Links to Site_Species table.,character,,,,
+3 / C,equation_allometry,Equation to calculate biomass (includes coeficients given in original publication),character,,,,
+4 / D,equation_form,"Algebraic form of the biomass equation (as function of DBH, HT, WD or others)",character,,,,
+5 / E,dependent_variable,Tree component characterized by the equation,character,,,,
+6 / F,independent_variable,Parameters included in biomass model (HT: tree height (m); DBH: diameter breast heigh (1.3 m); DBA: diameter at base; WD: wood density),character,,"mm, cm, inch",,
+7 / G,equation_taxa,"Species, genus, family, or plant group for which the allometry was developed (sometimes used as proxy species to calculate AGB when a specific-species equation is not available)",character (string),,,,
+8 / H,allometry_specificity,"Specific taxonomic level for which the biomass equation was developed (species, genus, family or plant group)",character,,,,
+9 / I,equation_categ,"Allometric equation category base on extend of original prediction model: ""fa_spec"" family specific model; ""genus_spe"" genus specific; ""site_spec"" and ""sp_site_spec""equations built on ForestGEO sites; ""sp_spec"" predition models focus on a specific species; ""generic"" equation applicable to a broader regional scale",character,fa_spec; generic; genus_spec; site_spec; sp_site_spe; sp_spec,,,
+10 / J,geographic_area,Broad geographic location from which trees were sampled to develop the original equation,character,,,,
+11 / K,original_coord,Latitude and longitude as given in original publication,character,,,,
+12 / L,lat,"Latitude expressed in decimal degrees. Positive latitudes are north of the equator, negative latitudes are south of the equator. Used NOAA for conversion: https://www.ngs.noaa.gov/NCAT/",numeric,,,XX-XX,Change before publication
+13 / M,long,"Longitude expressed in decimal degrees. Positive longitudes are east of Prime Meridian, negative longitudes are west of the Prime Meridian. Used NOAA for conversion: https://www.ngs.noaa.gov/NCAT/",numeric,,,XX-XX,Change before publication
+14 / N,elev_m,Elevation in meters above sea level (sometimes a range is given). Data from original publication or estimated by using an online tool to get elevation from coordinates (https://www.maps.ie/coordinates.html),numeric,,meters,XX-XX,Change before publication
+15 / O,geography.notes,"Notes pertaining to lat, long, location, or topography",character,,,,
+16 / P,mat_C,Mean annual temperature in Celsius degrees as original publication or predicted using the latitude and longitude in the WorldClim database.,numeric,,celsius degrees,XX-XX,Change before publication
+17 / Q,min.temp_C,Mean temperature of the coldest month,numeric,,celsius degrees,XX-XX,Change before publication
+18 / R,max.temp_C,Mean temperature of the warmest month,numeric,,celsius degrees,XX-XX,Change before publication
+19 / S,map_mm,Mean annual precipitation in milimeters (multiply by 25.4 to convert from inch to mm) or predicted using the latitude and longitude in the WorldClim database.,numeric,,mm,XX-XX,Change before publication
+20 / T,frost_free_period_days,Frost free period (days) as reported or inferred from original publicacion,numeric,,,,
+21 / U,climate.notes,Climate details not included in equation table,character,,,,
+22 / V,stand_age_range_yr,Stand age (or range) as reported or inferred from original publication,numeric,,,,
+23 / W,stand_age_history,Qualitative description of the stand history reported or inferred from original publication,character,,,,
+24 / X,stand_basal_area_m2_ha,Stand basal as reported in original publication (m2 x ha),,,,,tentative field
+25 / Y,stand_trees_ha,Number of trees per hectare (average or absolute) as reported in original publication,,,,,tentative field
+26 / Z,forest_description,"Brief drescription of stand, summarized from original publication, including species composition",character,,,,
+27 / AA,ecosystem_type,"General clasification on terrestrial ecosystem (tropical forest, temperate forest, boreal forest, mountain forest, desert, grassland)",character,,,,
+28 / AB,koppen,"Koppen climate classification, estimated using the package 'kgc"" (based on lat/long) or by visual estimates from a Koppen zones map, specially for generic equations.",character,CFA= etc,,,COMPLETE CODES BEFORE PUBLICATION
+29 / AC,dbh_min_cm,Minimun DBH (cm) sampled to develop the equation,numeric,,cm,0-31,Change before publication
+30 / AD,dbh_max_cm,Maximun DBH (cm) sampled to develop the equation,numeric,,cm,0-614,Change before publication
+31 / AE,sample_size,Number of trees sampled to develop the equation,integer,,,4 to 2635,Change before publication
+32 / AF,collection_year,Year(s) of measurement if in publication,integer,,,,
+33 / AG,dbh_units_original,DBH unit used in original publication,character,cm: centimeters; inch: inches; mm: milimeters,"cm, inch, mm",,
+34 / AH,dbh_unit_cf,Conversion factor applied to convert DBH unit used in original publication into an equivalent expressed in cm. Multiply by number given in table.,numeric,,,,
+35 / AI,output_units_original,Mass or length unit used in original publication,character,g= grams; kg= kilograms; lbs= pounds; metric_ton= metric ton; Mg= megagrams; m= meters,"g, kg, Mg, m",,
+36 /AJ,output_units_cf,Conversion factor applied to convert unit used in original publication (mass or length) into an equivalent expressed in kg or m. Multiply by number given in table.,numeric,,,,
+37 / AK,allometry_development_method,"Method used to develop the allometry. Traditionally, this is done by harvesting whole trees, drying, and weighing (""harvest"").  However, we anticipate that many future allometries will be developed using ground-based LiDAR (""lidar"").",character,harvest; lidar,,,
+38 / AL,regression_model,Regression model used in original publication,character,,,,
+39 / AM,r_squared,Original R-squared value given in publication for fitted regression,numeric,,,,
+40 / AN,other_equations_tested,Comparable models if reported in publication (given equation form),character,NRA - Not Readily Available,,,
+41 / AO,log_biomass,Whether the regression fit is done with biomass as the response variable (i.e log(biomass) base 10),numeric,0 - false; 1 - true,,,
+42 / AP,bias_corrected,Indicates if a correction factor (CF) or a relative standard error (RSE) was included in model,numeric,0 - false; 1 - true,,,
+43 / AQ,bias_correction_factor,Correction factor for a bias introduced by logarithmic transformation of the data; pulled from original publication. NA indicates that bias correction is icluded in model (and no CF was provided).,numeric,,,,
+44 / AR,notes_fitting_model,Other details on statistical methods,character,,,,
+45 / AS,original_equation_id,Unique identification or clues given in original publications,character,,,,
+46 / AT,original_data_availability,Indicates whether or not the original source data is available,character,"NRA - Not Readily Available, Yes=data accesible",,,
+47 / AU,equation.notes,Notes or error message to indicate any pitfall that could spoil the AGB estimate based on equation,character,,,,

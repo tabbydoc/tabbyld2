@@ -1,0 +1,34 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27
+date_created,fields.library,,,1,Admin,,True,"The date the entity was originally recorded in Screensaver, blank if before 2009",Date Recorded,True,,,[d],,date,,,,TRUE,,,,,,,,[readEverythingAdmin]
+short_name,fields.library,,,2,,,True,The abbreviated name for the library,Short Name,True,,,[l;d;e],[c],string,link,{ 'hrefTemplate': ',,,,,,,,,,
+library_name,fields.library,,,3,,,True,The full name of the library,Library Name,True,,,[d;e],[c],string,link,{ 'hrefTemplate': ',,,,,,,,,,
+experimental_well_count,fields.library,,,4,,,True,The number of experimental wells in the library (click link to browse experimental wells),Experimental Well Count,True,,,[l;d],,integer,link,{ 'hrefTemplate': ',,,,,,,,,,
+provider,fields.library,,,5,,,True,The vendor or source that provided the library,Provider,True,,,[l;d;e],[c;u],string,,,,,,,TRUE,,,,,
+screen_type,fields.library,,,6,,,True,Screen type,Screen Type,True,,screen.type,[l;d;e],[c;u],string,,,select,,,,TRUE,,,,,
+plate_size,fields.library,,,7,,,True,The library plate size,Plate Size,True,,plate.size,[l;d;e],[c],string,,,select,,,384.0,TRUE,,,,,
+solvent,fields.library,,,8,,,True,Solvent used in the library wells,Solvent,True,,library.solvent,[d;e],[c;u],string,,,select,,,,TRUE,,,,,
+library_type,fields.library,,,9,,,True,"The type of library, e.g., 'Commercial', 'Known Bioactives', 'siRNA', etc.",Library Type,True,,library.type,[l;d;e],[c;u],string,,,select,,,,TRUE,,,,,
+is_pool,fields.library,,,10,,,True,Whether wells contains pools of reagents or single reagents,Pool,True,,,[l;d;e],[c;u],boolean,,,,,,,,,,,,
+screening_status,fields.library,,,11,,,True,Screening status,Screening Status,True,,library.screening_status,[l;d;e],[c;u],string,,,select,,,,TRUE,,,,,
+start_plate,fields.library,,,12,,,True,The plate number for the first plate in the library,Start Plate,True,,,[l;d;e],[c],integer,,{ 'orderSeparator': '' },,,,,TRUE,1.0,10000000.0,,,
+end_plate,fields.library,,,13,,,True,The plate number for the last plate in the library,End Plate,True,,,[l;d;e],[c],integer,,{ 'orderSeparator': '' },,,,,TRUE,1.0,10000000.0,,,
+plate_count,fields.library,custom,,14,,,True,The number of plates in the library,Plate Count,True,,,[l;d],,integer,link,{ 'hrefTemplate': ',,,,,,,,,,
+description,fields.library,,,15,,,True,A description of the library,Description,True,,,[d;e],[c;u],string,,,textarea,,,,,,,,,
+owner,fields.library,custom,,16,Internal,TODO: remove,True,"The user that owns the library, if applicable",Owner,True,,,[],[c;u],string,,,,TRUE,,,,,,,,[readEverythingAdmin]
+copies,fields.library,custom,,199,,,True,The copies that have been made of this library,Copies,True,,,[d],,list,link,{ 'hrefTemplate': ',,,,,,,,,,
+screening_copies,fields.library,custom,,199,,,True,"Copies designated as ""library_screening_plates""",Screening Copies,True,,,,,list,,,,TRUE,,,,,,,,[readEverythingAdmin]
+date_loaded,fields.library,,,98,Admin,,True,The date the library data was loaded,Date Loaded,True,,,,,date,,,,TRUE,,,,,,,,[readEverythingAdmin]
+date_publicly_available,fields.library,,,99,Admin,,True,The date the library data was made publicly available,Date Publicly Available,True,,,,,date,,,,TRUE,,,,,,,,[readEverythingAdmin]
+date_screenable,fields.library,,,97,Admin,,True,The earliest date on which a copy of this library was plated,Date First Plated,True,,,[d],,date,,,,TRUE,,,,,,,,[readEverythingAdmin]
+version_number,fields.library,,,30,Internal,,True,Number of the latest version of the library.,Version Number,True,,,[d],,integer,link,{ 'hrefTemplate': ',,,,,,,,,,
+comment_array,fields.library,,,20,Internal,,True,Comments,Comments,False,,,[none],,list,comment_array,,,,,,,,,,,[readEverythingAdmin]
+concentration_types,fields.library,,,999,Internal,,True,Concentration types used for the wells (mg/ml or molar),Concentration Types,True,,,[none],,list,,,,,,,,,,,,
+molar_concentrations,fields.library,custom,,999,internal,,True,Molar concentration values of wells for this library,Molar Concentrations,True,,,[none],,list,,,,,,,,,,,,
+mg_ml_concentrations,fields.library,custom,,999,internal,,True,mg/ml concentration values of wells for this library,mg/ml Concentrations,True,,,[none],,list,,,,,,,,,,,,
+library_id,fields.library,,,999,internal,,True,Internal library ID,Internal Library ID,True,,,[none],,string,link,{ 'hrefTemplate': ',,,,,,,,,,
+is_released,fields.library,,,999,internal,"If a library is not released, it will not be visible to screeners, if it is released, it is viewable to all and any well content updates will be commited as a ""preview"" which must be applied before it is visible.",True,True if the library is released (may be viewed by screeners),Is Released,True,,,[d],[c;u],boolean,,,,TRUE,,,,,,,,
+preview_log_id,fields.library,custom,,999,internal,,True,"Preview log, if exists, for a pending load",Preview Log ID,True,,,[api],,string,link,{ 'hrefTemplate': ',,,,,,,,,,
+preview_log_key,fields.library,custom,,999,internal,,True,"Preview log, if exists, for a pending library content load operation",Preview Log,True,,,[api],,string,link,{ 'hrefTemplate': ',,,,,,,,,,
+is_archived,fields.library,,,101,internal,,True,True if this library is retired from use and is kept for archival purposes,Is Archived,True,,,[d],[u],boolean,,,,TRUE,,,,,,,,
+screens_screening,fields.library,custom,,31,Admin,,True,Screens that have recorded library screening visits for this library (NOTE: slow query performance),Screens Screening,True,,,[none],,list,link,{ 'hrefTemplate': ',,,,,,,,,,
+screens_data_loaded,fields.library,custom,,32,Admin,,True,Screens that have recorded result data for this library (NOTE: slow query performance),Screens with Data Loaded,True,,,[none],,list,link,{ 'hrefTemplate': ',,,,,,,,,,

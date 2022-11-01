@@ -1,0 +1,21 @@
+col0,col1,col2,col3,col4,col5,col6
+0,Authority Name,Name of the Public Authority,text,1,110,0
+1,Fiscal Year End Date,Date of Fiscal Year end for the authority,calendar_date,1,49,0
+2,Has Employees,N indicates that the authority reported having no staff. All the remaining fields are blank when authorities report having no staff.,text,1,1,347480
+3,Last Name,Last name of the employee,text,1,54476,125
+4,Middle Initial,Middle initial of the employee,text,1,44,336316
+5,First Name,First name of the employee,text,1,20198,126
+6,Title,Title of the employee,text,1,3612,121
+7,Group,"Indicates whether the employee’s position is either operational, administrative and clerical, technical and engineering, professional, managerial, or executive.",text,1,6,121
+8,Department,Department (if any) that the employee works in. This field is blank if the authority didn’t enter any information.,text,1,327,336197
+9,Pay Type,Full time (FT) or part time (PT),text,1,2,121
+10,Exempt Indicator,Y/N field to indicate whether the employee is exempt or non-exempt under the Fair Labor Standards Act (FLSA).,text,1,2,121
+11,Base Annualized Salary,"The annual base salary associated with a particular job title or position. For hourly or part-time staff, annualized salary would be the actual wages paid to the individual for the reporting period.",number,1,74665,3295
+12,Actual Salary Paid,The actual salary or wages paid to the individual for the reporting period. This amount could be less than the annualized salary if the individual was employed in the position for less than the full year.,number,1,176511,11580
+13,Overtime Paid,"Extra cash payments to the individual for hours worked in excess of normal work week hours, as authorized by the authority’s policies, an employment contract or a collective bargaining agreement. Overtime would include holiday pay.",number,1,159713,145824
+14,Performance Bonus,"A cash payment to the individual that does not become part of the base annualized salary. This payment must be linked to the individual meeting clearly defined and measurable performance goals established and approved by the Board of Directors prior to the start of the fiscal year, or detailed in a performance contract approved by the Board. These performance goals should reflect accomplishments that exceed the expected job standards of the position. The amount of the bonus payment should be calculated based on a formula defined in the authority’s performance bonus policy. A performance bonus would include a bonus earned in a prior year but deferred until the reporting year, provided that the payment is consistent with the policy governing other bonuses.",number,1,248,347229
+15,Extra Pay,"Payments made to the individual for unused accrued vacation or personal time, commissions, longevity, as incentives for such purposes as excellent attendance or maintaining proper standing with professional licensure requirements; cash payments to the individual in lieu of an authority’s contribution to the individual’s pension fund or health insurance coverage; or other financial awards to the individual not based on performance goals. The terms and type of extra pay to be awarded to an individual should be defined in collectively bargained or employment contracts.",number,1,9420,330357
+16,Other Compensation,"Allowances, reimbursement for authorized expenses, or all other forms of taxable income not included in one of the above categories. This could include adjustments to previously paid compensation to correct payment errors.",number,1,198460,43200
+17,Total Compensation,"Total payments made to the individual during the year including any overtime, bonus, extra, or other compensation amounts. This field is the sum of the Actual Salary Paid, Overtime Paid, Performance Bonus, Extra Pay and Other Compensation fields.",number,1,309907,2089
+18,Paid By Another Entity,Y/N field that indicates whether the individual is paid by another entity to perform the work of the Authority.,text,1,2,121
+19,Paid by State or Local Government,"‘Y’ indicates that the individual was paid by a State or local government to perform the work of the Authority, and is blank otherwise. This field is completed only when the Paid by Another Entity field is ‘Y’.",text,1,2,344967

@@ -1,0 +1,21 @@
+col0,col1,col2,col3,col4
+BLAKE,2008,Jean-Philippe Aumasson Luca Henzen Willi Meier Raphael C.-W. Phan,ChaCha20,Website Specification
+BLAKE2,2012,Jean-Philippe Aumasson Samuel Neves Zooko Wilcox-O'Hearn Christian Winnerlein,BLAKE,"Website Specification .mw-parser-output cite.citation{font-style:inherit}.mw-parser-output .citation q{quotes:""\""""""\""""""'""""'""}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:linear-gradient(transparent,transparent),url(""//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg"")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:linear-gradient(transparent,transparent),url(""//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg"")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:linear-gradient(transparent,transparent),url(""//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg"")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-subscription,.mw-parser-output .cs1-registration{color:"
+BLAKE3,2020,Jack O'Connor Jean-Philippe Aumasson Samuel Neves Zooko Wilcox-O'Hearn,BLAKE2,Website Specification
+GOST R 34.11-94,1994,FAPSI and VNIIstandart,GOST 28147-89,RFC 5831
+HAVAL,1992,Yuliang Zheng Josef Pieprzyk Jennifer Seberry,,Website Specification
+KangarooTwelve,2016,Guido Bertoni Joan Daemen Michaël Peeters Gilles Van Assche,Keccak,Website Specification
+MD2,1989,Ronald Rivest,,RFC 1319
+MD4,1990,Ronald Rivest,,RFC 1320
+MD5,1992,Ronald Rivest,MD4,RFC 1321
+MD6,2008,Ronald Rivest,,Website Specification
+RIPEMD,1992,The RIPE Consortium[1],MD4,
+RIPEMD-128 RIPEMD-256 RIPEMD-160 RIPEMD-320,1996,Hans Dobbertin Antoon Bosselaers Bart Preneel,RIPEMD,Website Specification
+SHA-0,1993,NSA,,SHA-0
+SHA-1,1995,NSA,SHA-0,Specification
+SHA-256 SHA-384 SHA-512,2002,NSA,,Specification
+SHA-224,2004,NSA,,Specification
+SHA-3 (Keccak),2008,Guido Bertoni Joan Daemen Michaël Peeters Gilles Van Assche,RadioGatún,Website Specification
+Streebog,2012,"FSB, InfoTeCS JSC",,RFC 6986
+Tiger,1995,Ross Anderson Eli Biham,,Website Specification
+Whirlpool,2004,Vincent Rijmen Paulo Barreto,,Website

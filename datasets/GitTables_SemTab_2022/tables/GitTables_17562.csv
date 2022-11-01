@@ -1,0 +1,12 @@
+col0,col1,col2,col3,col4
+Carp,Carp,core,1.50,
+POSIX,POSIX,core,1.84,
+Config-Simple-4.58,Config::Simple,install,4.58,https://cpan.metacpan.org/authors/id/S/SH/SHERZODR/Config-Simple-4.58.tar.gz
+ExtUtils-Config-0.008,ExtUtils::Config,install,0.008,https://cpan.metacpan.org/authors/id/L/LE/LEONT/ExtUtils-Config-0.008.tar.gz
+ExtUtils-Helpers-0.026,ExtUtils::Helpers,install,0.026,https://cpan.metacpan.org/authors/id/L/LE/LEONT/ExtUtils-Helpers-0.026.tar.gz
+ExtUtils-InstallPaths-0.012,ExtUtils::InstallPaths,install,0.012,https://cpan.metacpan.org/authors/id/L/LE/LEONT/ExtUtils-InstallPaths-0.012.tar.gz
+Log-Log4perl-1.49,Log::Log4perl,install,1.49,https://cpan.metacpan.org/authors/id/M/MS/MSCHILLI/Log-Log4perl-1.49.tar.gz
+Module-Build-Tiny-0.039,Module::Build::Tiny,install,0.039,https://cpan.metacpan.org/authors/id/L/LE/LEONT/Module-Build-Tiny-0.039.tar.gz
+MooseX-Singleton-0.30,MooseX::Singleton,install,0.30,https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-Singleton-0.30.tar.gz
+Moose-2.2012,Moose,install,2.2012,https://cpan.metacpan.org/authors/id/E/ET/ETHER/Moose-2.2012.tar.gz
+BioPerl-1.7.7,Bio::Perl,install,1.7.7,https://cpan.metacpan.org/authors/id/C/CJ/CJFIELDS/BioPerl-1.7.7.tar.gz

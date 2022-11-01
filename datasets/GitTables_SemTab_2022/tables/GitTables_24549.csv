@@ -1,0 +1,19 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+0,Dimension cities,city_id,"BIGINT IDENTITY(0,1)",NNNNNNN,VARIABLE,Primary Key Index number for each row,03
+1,Dimension cities,city,TEXT,,VARIABLE,"city name, comes from staging_events",Barcelona
+2,Dimension cities,country,TEXT,,VARIABLE,"country name, comes from staging_events",Venezuela
+3,Dimension cities,latitude,TEXT,NN.NT,VARIABLE,"city latitude, comes from staging_events",12.5N
+4,Dimension cities,longitude,TEXT,NN.NT,VARIABLE,"city longitude, comes from staging_events",12.5E
+5,Dimension cities,major_city,BOOLEAN,true/false,5,Boolean that identifies if city is major or not from staging_events,true
+6,Dimension time,dt,DATE,YYYY-MM-DD,10,"date of temperature measure, comes from staging_events",2018-02-07
+7,Dimension time,day,SMALLINT,NN,2,"day of temperature measure, comes from column dt",07
+8,Dimension time,month,SMALLINT,NN,2,"month of temperature measure, comes from column dt",02
+9,Dimension time,week,SMALLINT,NN,2,"week of temperature measure, comes from column dt",02
+10,Dimension time,weekday,SMALLINT,NN,2,"week day number of temperature measure, comes from column dt",02
+11,Dimension time,year,SMALLINT,NNNN,4,"year of temperature measure, comes from column dt",2018
+12,Fact readings_by_city,by_city_id,"BIGINT IDENTITY(0,1)",NNNNNN,VARIABLE,Primary Key Index number for each row,2
+13,Fact readings_by_city,city_id,NUMERIC,NNNNNN,VARIABLE,Foreign Key Index number from cities table,4525
+14,Fact readings_by_city,avg_temp,"NUMERIC(7,3)",NNNN.NNN,7,temperature reading comes from staging_events,25.025
+15,Fact readings_by_city,avg_temp_uncertainty,"NUMERIC(7,3)",NNNN.NNN,7,temperature uncertainty reading comes from staging_events,1.025
+16,Fact readings_by_city,date,DATE,YYYY-MM-DD,7,"date of temperature measure, comes from staging_events",2018-02-07
+17,Fact readings_by_city,major_city,BOLEAN,,5,Boolean that identifies if city is major or not from staging_events,true

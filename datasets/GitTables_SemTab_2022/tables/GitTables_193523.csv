@@ -1,0 +1,25 @@
+col0,col1,col2,col3
+BRAND_ORGANIC,BRAND,Increase organic traffic,
+BRAND_RECALL,BRAND,Increase brand recall,
+BRAND_TRIALSIGNUP,BRAND,Increase trial sign ups,"<p>Elevate the company brand to increase awareness and engagement to ultimately increase trial sign ups</p>
+<strong>Key Results:</strong>
+<ul>
+<li>Create unified communications calendar across content, social and press to increase trial sign ups 25% QoQ</li>
+<li>Increase media placements QoQ from 5 to 10</li>
+<li>Optimize blog to rank for 5 specific search terms to increase organic traffic by 25% QoQ</li>
+</ul>"
+CRET_APPSTORE,CUST_RET,Improve our app store ranking,"Increase our ranking in Apple store and Google Play
+<strong>Key Results:</strong>
+<ul>
+<li>Raise to op 3 in xxx category in Apple store and Google Play by Q4</li>
+<li>Raise by 3 places in zzzz, yyyy and wwww categories </li>
+</ul>"
+CRET_CHURN,CUST_RET,Reduce churn,
+CRET_NPS,CUST_RET,Improve our NPS,
+CRET_COMM,CUST_RET,Grow our online community ,Increase our community forum activity to improve customer retention
+CAQU_TRIALSUBS,CUST_AQU,Increase subscription after trial sign ups,
+CAQU_LATA,CUST_AQU,Expand to Latin-America,
+INNO_NEWREVCH,INNOVATE,Implement a PoF for a new revenue channel,
+INNO_FEATURE,INNOVATE,Invent a mind blowing product feature,
+TALENT_BEST,TALENT,Best workplace next year,
+TALENT_INPS,TALENT,Increase our internal NPS,

@@ -1,0 +1,21 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27,col28,col29,col30,col31
+403958466973,2020-03-05 05:03:34.208,True,Norma Fisher,,False,2020-02-26 22:55:12,,"80160 Clayton Isle Apt. 513
+East Linda, ND 59217",00137005556T2r1CAB,,en-US,1,False,Norma Fisher,,False,370297696174.0,,,True,end-user,False,False,,False,requested,Pacific Time (US & Canada),False,2020-02-26 22:55:12,https://fivetran1813.zendesk.com/api/v2/users/403958466973.json,True
+403969371634,2020-03-05 05:03:34.208,True,Jorge Sullivan,,False,2020-02-26 22:41:37,,"714 Mann Plaza Suite 839
+Seanfurt, OK 32234",,2020-02-26 22:41:37,en-US,1,False,Jorge Sullivan,,False,,,,True,end-user,False,False,,False,requested,Pacific Time (US & Canada),False,2020-02-26 22:41:37,https://fivetran1813.zendesk.com/api/v2/users/403969371634.json,True
+403957746773,2020-03-05 05:03:34.208,True,Elizabeth Woods,,False,2020-02-26 22:35:14,,"09471 Erika Curve
+North Megan, UT 71358",,,en-US,1,False,Elizabeth Woods,,False,370319191913.0,,,True,end-user,False,False,,False,requested,Pacific Time (US & Canada),False,2020-02-26 22:35:15,https://fivetran1813.zendesk.com/api/v2/users/403957746773.json,True
+403970285734,2020-03-05 05:03:34.208,True,Susan Wagner,,False,2020-02-26 23:07:41,,"339 Riley Mission Suite 515
+South Brendamouth, ID 32356",,,en-US,1,False,Susan Wagner,,False,370326203233.0,,,True,end-user,False,False,,False,requested,Pacific Time (US & Canada),False,2020-02-26 23:07:41,https://fivetran1813.zendesk.com/api/v2/users/403970285734.json,True
+403969943274,2020-03-05 05:03:34.208,True,Peter Montgomery,,False,2020-02-26 22:57:51,,"35256 Craig Drive Apt. 098
+North Davidborough, OK 16189",,,en-US,1,False,Peter Montgomery,,False,370326203233.0,,,True,end-user,False,False,,False,requested,Pacific Time (US & Canada),False,2020-02-26 22:57:52,https://fivetran1813.zendesk.com/api/v2/users/403969943274.json,True
+403959084893,2020-03-05 05:03:34.208,True,Theodore Mcgrath,,False,2020-02-26 23:14:08,,"09032 Timothy Stream Apt. 086
+Port Jordanbury, SD 39961",,,en-US,1,False,Theodore Mcgrath,,False,370326207973.0,,,True,end-user,False,False,,False,requested,Pacific Time (US & Canada),False,2020-02-26 23:14:08,https://fivetran1813.zendesk.com/api/v2/users/403959084893.json,True
+403969141074,2020-03-05 05:03:34.208,True,Stephanie Collins,,False,2020-02-26 22:34:41,,"87091 Gonzalez Knolls
+Masseyshire, UT 88665",,,en-US,1,False,Stephanie Collins,,False,370319212353.0,,,True,end-user,False,False,,False,requested,Pacific Time (US & Canada),False,2020-02-26 22:34:41,https://fivetran1813.zendesk.com/api/v2/users/403969141074.json,True
+403957960093,2020-03-05 05:03:34.208,True,Stephanie Sutton,,False,2020-02-26 22:41:37,,"225 Wilson Mills
+North Thomas, OK 67164",,,en-US,1,False,Stephanie Sutton,,False,370331279213.0,,,True,end-user,False,False,,False,requested,Pacific Time (US & Canada),False,2020-02-26 22:41:38,https://fivetran1813.zendesk.com/api/v2/users/403957960093.json,True
+403969141094,2020-03-05 05:03:34.208,True,Brian Hamilton,,False,2020-02-26 22:34:41,,"PSC 5642, Box 8071
+APO AA 97365",,,en-US,1,False,Brian Hamilton,,False,370319212353.0,,,True,end-user,False,False,,False,requested,Pacific Time (US & Canada),False,2020-02-26 22:34:41,https://fivetran1813.zendesk.com/api/v2/users/403969141094.json,True
+403959218893,2020-03-05 05:03:34.208,True,Susan Levy,,False,2020-02-26 23:18:06,,"37594 Garza Roads Apt. 466
+North Brookemouth, IA 29742",,,en-US,1,False,Susan Levy,,False,370326130213.0,,,True,end-user,False,False,,False,requested,Pacific Time (US & Canada),False,2020-02-26 23:18:06,https://fivetran1813.zendesk.com/api/v2/users/403959218893.json,True

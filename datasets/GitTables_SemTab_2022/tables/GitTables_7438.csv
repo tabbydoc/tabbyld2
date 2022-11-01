@@ -1,0 +1,12 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16
+AX_DD_INV,12,1,,EUR,,,,1.0,TODAY[20d],False,False,False,,,,Permet de prélever les factures ventilées en fonction de la date d'échéance.
+AX_DD_SCH,12,1,,EUR,,,,3.0,TODAY[10d],False,False,False,,,,Permet de prélever les échéanciers en fonction de la date d'échéance
+AX_DOUBT,16,1,,,,,,,,False,False,False,,,,Permet de passer toutes les créances non payées depuis un certain temps (paramétrable dans les sociétés) sur un compte de créances douteuses.
+AX_EXP_PURCHASE_MOVE,18,1,,,,,,,,False,False,False,9.0,TODAY[1d],TODAY[30d],Permet d'exporter les écritures d'achat vers un logiciel de compta.
+AX_EXP_REFUND_MOVE,18,1,,,,,,,,False,False,False,7.0,TODAY[1d],TODAY[30d],Permet d'exporter les écritures d'avoir vers un logiciel de compta.
+AX_EXP_REIMB,11,1,,EUR,1.0,2.0,,,,False,False,False,,,,Permet d'exporter les remboursements au statut validé
+AX_EXP_SALES_MOVE,18,1,,,,,,,,False,False,False,6.0,TODAY[1d],TODAY[30d],Permet d'exporter les écritures de vente vers un logiciel de compta.
+AX_EXP_TREASURY_MOVE,18,1,,,,,,,,False,False,False,8.0,TODAY[1d],TODAY[30d],Permet d'exporter les écritures de trésorerie vers un logiciel de compta.
+AX_GEN_REIMB,11,1,,EUR,1.0,1.0,,,,False,False,False,,,,"Permet de créer les remboursements au statut validé si les seuil son respecter, au statut A valider sinon."
+AX_IMP_REIMB_REJ,11,1,,EUR,2.0,,,,,False,False,False,,,,Permet d'importer les rejets de virement (remboursement)
+AX_REM,14,1,,,,,1.0,,,True,True,True,,,,Permet de relancer toutes les créances impayées selon la méthode de relance

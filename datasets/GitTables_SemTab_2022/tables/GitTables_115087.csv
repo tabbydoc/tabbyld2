@@ -1,0 +1,26 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+Name,Year released,Market,Code name,Model,Device ID,Execution units,Core clock (MHz),DVMT (MB),Bandwidth (GB/s),Direct3D,OpenGL,Intel Clear Video HD
+HD Graphics,2010,Desktop,Ironlake (Clarkdale),Celeron G1101,0042,12,533,1720,17,10.1 FL10_0,2.1 ES 2.0,No
+HD Graphics,2010,Desktop,Ironlake (Clarkdale),,0042,12,533,1720,17,10.1 FL10_0,2.1 ES 2.0,No
+HD Graphics,2010,Desktop,Ironlake (Clarkdale),Core i3-5x0,0042,12,733,1720,21.3,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Desktop,Ironlake (Clarkdale),Core i5-6x0,0042,12,733,1720,21.3,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Desktop,Ironlake (Clarkdale),Core i5-655K,0042,12,733,1720,21.3,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Desktop,Ironlake (Clarkdale),Core i5-661,0042,12,900,1720,21.3,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Celeron U3xxx,0046,12,166–500,1720,12.8,10.1 FL10_0,2.1 ES 2.0,No
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Pentium U5xxx,0046,12,166–500,1720,12.8,10.1 FL10_0,2.1 ES 2.0,No
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Core i3-3x0UM,0046,12,166–500,1720,12.8,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Core i5-5x0UM,0046,12,166–500,1720,12.8,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Core i5-2520M,0046,12,166–500,1720,12.8,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Core i7-6x0UE,0046,12,166–500,1720,12.8,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Core i7-6x0UM,0046,12,166–500,1720,12.8,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Core i7-620LE,0046,12,266–566,1720,17.1,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Core i7-6x0LM,0046,12,266–566,1720,17.1,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Celeron P4xxx,0046,12,500–667,1720,17.1,10.1 FL10_0,2.1 ES 2.0,No
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Pentium P6xxx,0046,12,500–667,1720,17.1,10.1 FL10_0,2.1 ES 2.0,No
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Core i3-330E,0046,12,500–667,1720,17.1,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Core i3-3x0M,0046,12,500–667,1720,17.1,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Core i5-4x0M,0046,12,500–766,1720,17.1,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Core i5-520E,0046,12,500–766,1720,17.1,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Core i5-5x0M,0046,12,500–766,1720,17.1,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Core i7-610E,0046,12,500–766,1720,17.1,10.1 FL10_0,2.1 ES 2.0,Yes
+HD Graphics,2010,Laptop,Ironlake (Arrandale),Core i7-6x0M,0046,12,500–766,1720,17.1,10.1 FL10_0,2.1 ES 2.0,Yes

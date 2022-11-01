@@ -1,0 +1,39 @@
+col0,col1,col2,col3,col4,col5,col6
+f0f9a242-5c29-4750-8f7a-c11d00635c33,Anubhav_SiteColumns Feature1,{76884860-9a21-4251-ad42-1b1ede2f7993},Anubhav_SC1,Text,,anubhav_sitecolumns.wsp
+a2428e6d-8fbc-428d-8abb-6332cc5c4d3c,AnubhavContentTypeER SiteColumns,{C2A8588A-F8A2-4324-BE39-4962E2E75895},NumberOfMoons,Number,The number of moons that turn around the planet.,anubhavcontenttypeer.wsp
+a2428e6d-8fbc-428d-8abb-6332cc5c4d3c,AnubhavContentTypeER SiteColumns,{85F781F8-0AB3-433e-B828-DC0DD39AE695},Distance,Number,The distance from the sun.,anubhavcontenttypeer.wsp
+a2428e6d-8fbc-428d-8abb-6332cc5c4d3c,AnubhavContentTypeER SiteColumns,{0E273391-2749-4c17-BCFD-009E2DC98F2F},OrbitalPeriod,Number,The time necessary to turn around the sun calculated in earth days.,anubhavcontenttypeer.wsp
+a2428e6d-8fbc-428d-8abb-6332cc5c4d3c,AnubhavContentTypeER SiteColumns,{7A86784F-65B3-4b48-8EAF-C77FFED7BB61},MinimumTemperature,Number,Minimum temperature in °C at the surface of the planet.,anubhavcontenttypeer.wsp
+a2428e6d-8fbc-428d-8abb-6332cc5c4d3c,AnubhavContentTypeER SiteColumns,{9677F5F2-4CA6-4d88-9DE1-3518DE4E2A01},MaximumTemperature,Number,Maximum temperature in °C at the surface of the planet.,anubhavcontenttypeer.wsp
+a2428e6d-8fbc-428d-8abb-6332cc5c4d3c,AnubhavContentTypeER SiteColumns,{19fbd7b5-c7c6-4fd4-969f-51e86a222f6e},SiteColumn2,Text,,anubhavcontenttypeer.wsp
+E2AB4BDE-5634-4A2D-AA9B-F949C222D045,Aviva Featured Links Site Columns,{2C8DD47D-4A6E-4EA4-A2FC-7086B80D8E04},ImageURL,URL,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{fc25fb21-363d-491c-b1e1-e77bd094ed19},In_x0020_Focus_x0020_1,Boolean,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{70340c1f-c420-4c86-8c5b-b7e99cb1c811},InFocus_x0020_Image,Image,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{23247d4e-d945-4824-90ea-fef38f290b4f},In_x0020_Focus_x0020_2,Boolean,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{dc4f176a-282e-4177-aab2-fc55dac0ce3c},In_x0020_Focus_x0020_3,Boolean,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{ba0f2c6a-a398-472d-9fe7-7961c9c9d0eb},Aviva_x0020_Category,MultiChoice,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{3B779A56-0876-4dce-A83B-AF6B9CC09369},Editing_x0020_Correction,Boolean,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{120A5971-9966-4a40-83A5-BAF937070DA1},Translate_x0020_In_x0020_Variation,Choice,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{536F760A-F408-4f42-ABAC-73E03CF467F1},Publish_x0020_In_x0020_Variation,Choice,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{448CF60D-9339-462a-A982-D713B4CA760B},Aviva_x0020_Professions,MultiChoice,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{E8DE8585-6717-4f54-89D5-92964F58DB57},EmployeePromise,Choice,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{E08932E5-91D0-4be6-B3CF-1BB8989975E1},Translation_x0020_Instructions,Text,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{C9E19D29-3A19-4095-AC35-90041B1D34C8},Aviva_x0020_Article_x0020_Type,Choice,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{4f607d8b-26b1-4488-bc1f-b8179e9720ea},English_x0020_Translation,Choice,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{cc7541a0-157d-42c1-ba89-e1fa3fbcc7ec},Chinese_x0020_Translation,Choice,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{c200dfa8-0343-4d21-a4bd-73472f619bb6},French_x0020_Translation,Choice,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{270f73c0-f331-486d-a7d1-60ba5b189546},French_x0020_Canadian_x0020_Translation,Choice,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{56017620-8499-44f7-b3af-6beba4b0b80c},Polish_x0020_Translation,Choice,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{224882a5-a980-4a39-9eb6-dfc83a975a78},Italian_x0020_Translation,Choice,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{a4823fed-291f-41ad-ae84-691da79269a2},Spanish_x0020_Translation,Choice,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{cbce7208-80b2-40e1-9891-64bb1e5a7297},Team_x0020_Hyperlink,URL,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{e47da757-3c96-4adf-853a-2188698d97ac},BlogURL,Link,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{4F5A546A-3A27-4f78-84E8-9C450FB3E7EC},ArticleUrl,Note,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{EBFE9271-C1C8-4fea-A358-04EAD0CD934B},DiscussionBody,Note,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{10C3D125-4E4F-4B01-A607-B4C7B04C024E},EnableRatings,Boolean,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{cb91ce54-a8ab-49d6-83b6-598f6133cebc},AdvertBody,HTML,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{A0DB3A7A-3840-40b9-8820-78A0F883F427},DiscussionCreatedEmail,Text,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{F1C2271D-D663-4395-926B-F554FD3CF95D},DiscussionCreatedAccount,Text,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{69d6de41-9449-4893-a727-23d7298cef9d},LinkImage,URL,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{eeb2adeb-3963-4af2-b760-4734bba4496d},Article_x0020_Date_x0020_and_x0020_Time,DateTime,,contoso.solution.web.wsp
+D7EA8042-5EBD-46f5-AFCA-E2B792CF4953,Contoso Publishing Page Layouts Feature,{886D7821-36E9-45f7-8905-92FF707CEF43},Pinned,Boolean,,contoso.solution.web.wsp

@@ -1,0 +1,55 @@
+col0,col1,col2,col3
+15,getVesselList," ""A feature from the Vessel module""",3
+16,getVesselById," ""A feature from the Vessel module""",3
+17,createVessel," ""A feature from the Vessel module""",3
+18,updateVessel," ""A feature from the Vessel module""",3
+19,accessApplication,Access to the application,2
+20,monitorVessels,Monitor Vessels,4
+21,requestVesselPosition,Request the position of a vessel,4
+22,accessApplication,Access to the application,1
+23,createAllowedTransfer,Create Allowed Transfer,1
+24,createFishingSeason,Create Fishing Season,1
+25,createFishingStop,Create Fishing Stop,1
+26,createMultiSpecies,Create Multi Species,1
+27,createQuota,Create Quota,1
+28,createQuotaIndicator,Create Quota Indicator,1
+29,createQuotaShared,Create Quota Shared,1
+30,createRegulation,Create Regulation,1
+31,createStock,Create Stock,1
+32,createStockDefContact,Create Stock Definition Contact,1
+33,createStockDefIndicator,Create Stock Definition Indicator,1
+34,createStockDefinitions,Create Stock Definitions,1
+35,createStockSeasonAssociation,Create Stock Season Association,1
+36,createYearlyStockParent,Create Yearly Stock Parent,1
+37,deleteAllowedTransfer,Delete Allowed Transfer,1
+38,deleteFishingSeason,Delete Fishing Season,1
+39,deleteFishingStop,Delete Fishing Stop,1
+40,deleteMultiSpecies,Delete Multi Species,1
+41,deleteQuota,Delete Quota,1
+42,deleteQuotaIndicator,Delete Quota Indicator,1
+43,deleteQuotasShared,Delete Quota Shared,1
+44,deleteRegulation,Delete Regulation,1
+45,deleteStock,Delete Stock,1
+46,deleteStockDefContact,Delete Stock Definition Contact,1
+47,deleteStockDefIndicator,Delete Stock Definition Indicator,1
+48,deleteStockDefinitions,Delete Stock Definitions,1
+49,deleteStockSeasonAssociation,Delete Stock Season Association,1
+50,deleteYearlyStockParent,Delete Yearly Stock Parent,1
+51,processQuotaExchange,Process Quota Exchange,1
+52,processQuotaTransfer,Process Quota Transfer,1
+53,reviseQuota,Revise Quota,1
+54,updateAllowedTransfer,Update Allowed Transfer,1
+55,updateFishingSeason,Update Fishing Season,1
+56,updateFishingStop,Update Fishing Stop,1
+57,updateQuota,Update Quota,1
+58,updateQuotaExchangeEvent,Update Quota Exchange Event,1
+59,updateQuotaIndicator,Update Quota Indicator,1
+60,updateQuotaRevision,Update Quota Revision,1
+61,updateQuotaShared,Update Quota Shared,1
+62,updateQuotaTransferEvent,Update Quota Transfer Event,1
+63,updateRegulation,Update Regulation,1
+64,updateStock,Update Stock,1
+65,updateStockDefContact,Update Stock Definition Contact,1
+66,updateStockDefIndicator,Update Stock Definition Indicator,1
+67,updateStockDefinitions,Update Stock Definitions,1
+68,updateYearlyStockParent,Update Yearly Stock Parent,1

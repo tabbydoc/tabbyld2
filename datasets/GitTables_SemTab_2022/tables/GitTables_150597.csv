@@ -1,0 +1,35 @@
+col0,col1,col2,col3,col4,col5
+1,연금,\ui\icon\craft\alchemy.dds,t,t,99
+2,건축,\ui\icon\craft\build.dds,f,t,100
+3,요리,\ui\icon\craft\cook.dds,t,t,101
+4,공예,\ui\icon\craft\handicraft.dds,t,t,102
+5,축산,\ui\icon\craft\animal.dds,t,t,103
+6,농사,\ui\icon\craft\farm.dds,t,t,104
+7,낚시,\ui\icon\craft\fish.dds,f,f,105
+8,벌채,\ui\icon\craft\felling.dds,f,t,106
+9,채집,\ui\icon\craft\collect.dds,t,t,107
+10,기계,\ui\icon\craft\machine.dds,t,t,108
+11,금속,\ui\icon\craft\metal.dds,t,t,109
+12,인쇄,\ui\icon\craft\print.dds,t,t,110
+13,채광,\ui\icon\craft\ore.dds,f,t,111
+14,석공,\ui\icon\craft\stone.dds,t,t,112
+15,재봉,\ui\icon\craft\cloth.dds,t,t,113
+16,가죽,\ui\icon\craft\tanning.dds,t,t,114
+17,무기,\ui\icon\craft\blacksmith.dds,t,t,115
+18,목공,\ui\icon\craft\woodwork.dds,t,t,116
+19,퀘스트,\ui\icon\craft\language.dds,f,f,-1
+20,절도,\ui\icon\craft\crime.dds,f,t,117
+21,누이안어,\ui\icon\craft\language.dds,f,t,-1
+22,엘프어,\ui\icon\craft\language.dds,f,t,-1
+23,드워프어,\ui\icon\craft\language.dds,f,f,-1
+24,페어리어,\ui\icon\craft\language.dds,f,f,-1
+25,하리하란어,\ui\icon\craft\language.dds,f,t,-1
+26,페레어,\ui\icon\craft\language.dds,f,t,-1
+27,워본어,\ui\icon\craft\language.dds,f,f,-1
+28,리턴드어,\ui\icon\craft\language.dds,f,f,-1
+29,서대륙 공용어,\ui\icon\craft\language.dds,f,t,-1
+30,동대륙 공용어,\ui\icon\craft\language.dds,f,t,-1
+31,장사,\ui\icon\craft\trade.dds,t,t,118
+32,기념 행사,\ui\icon\craft\event.dds,f,f,-1
+33,작곡,\ui\icon\craft\music.dds,f,f,138
+34,탐험,\ui\icon\craft\exploration.dds,f,f,-1

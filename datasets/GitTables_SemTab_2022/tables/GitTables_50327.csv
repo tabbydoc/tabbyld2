@@ -1,0 +1,47 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1,Q17157019,False,Perisynaptic schwann cells,67.0,cell type,Q189118,Schwann cells
+5,Q177105,False,glia,95.0,cell type,Q189118,Glia cells
+12,Q4387286,False,radial glial cell,38.0,cell type,Q189118,Astrocyte progenitor cells
+16,Q1151519,False,embryonic stem cell,97.0,cell type,Q189118,Embryonic stem cells
+31,Q49000020,False,Adaptive NK cells,32.0,[],,NK cells
+47,Q4387286,False,radial glial cell,94.0,cell type,Q189118,Radial glia cells
+49,Q5376385,False,Endoplasmic Reticulum Stress in Beta Cells,19.0,[],,Beta cells
+51,Q1815955,False,microfold cell,100.0,cell type,Q189118,Microfold cells
+52,Q70068158,False,perineuronal satellite cells,35.0,[],,Satellite cells
+59,Q1956694,False,myoblast,94.0,cell type,Q189118,Myoblasts
+62,Q2995031,False,alpha cell,95.0,cell type,Q189118,Alpha cells
+65,Q7631123,False,Subependymoma,32.0,[],,Ependymal cells
+66,Q1047227,False,cardiomyocyte,73.0,cell type,Q189118,Myocytes
+68,Q224930,False,natural killer T cell,80.0,cell type,Q189118,T cells
+69,Q3866857,False,gamma motor neuron,93.0,cell type,Q189118,Motor neurons
+75,Q2631550,False,follicular dendritic cells,76.0,cell type,Q189118,Follicular cells
+76,Q2621407,False,delta cell,95.0,cell type,Q189118,Delta cells
+82,Q66592466,False,Foveolar cell of stomach,68.0,cell type,Q189118,Foveolar cells
+84,Q1513812,False,Pneumocyte,95.0,cell type,Q189118,Pneumocytes
+89,Q66568836,False,epithelial cell of distal tubule,71.0,cell type,Q189118,Distal tubule cells
+90,Q16247997,False,Intercalated cells of the amygdala,34.5,[],,Intercalated cells
+94,Q281579,False,germ cell,95.0,cell type,Q189118,Germ cells
+97,Q70203021,False,cumulus cells,64.0,cell type,Q189118,Granulosa cells
+110,Q5311600,False,Ductal cells,50.0,[],,Ductal cells
+113,Q428914,False,myocyte,50.0,cell type,Q189118,Multinuclear myocytes
+119,Q1577202,False,bundle of His,38.5,[],,His bundle cells
+125,Q1570264,False,Merkel cell,50.0,[],,Merkel cells
+130,Q109186,False,swelling,21.5,[],,Transient cells
+132,Q50573418,False,Spermatogenesis-Blocking Agents,23.5,[],,Spermatocyte and Spermatozoa
+133,Q50573418,False,Spermatogenesis-Blocking Agents,23.5,[],,Spermatocytes and Spermatozoa
+136,Q188417,False,neutrophil,69.0,cell type,Q189118,Granulocytes
+143,Q76787944,False,"Gonadotropins, Pituitary",28.5,[],,Anterior pituitary gland cells
+146,Q2367166,False,theca,34.5,[],,Theca cells
+151,Q98603523,False,choroid plexus epithelial cell,76.0,cell type,Q189118,Choroid plexus cells
+153,Q70219504,False,acinar cells,50.0,[],,Acinar cells
+154,Q6731828,False,Magnocellular neurosecretory cell,53.0,cell type,Q189118,Neuroendocrine cells
+167,Q519516,False,epiblast,36.5,[],,Epiblast cells
+168,Q1968774,False,PP cell,83.0,cell type,Q189118,Gamma (PP) cells
+178,Q48997538,False,Peritubular myoid cell,49.0,[],,Peritubular myoid cells
+181,Q5249153,False,Decidual cells,50.0,[],,Decidual cells
+190,Q4532277,False,Epsilon cell,48.0,[],,Epsilon cells
+191,Q7069936,False,Nuocyte,46.5,[],,Nuocytes
+198,Q66568528,False,plasma cell,100.0,cell type,Q189118,Plasma cells
+202,Q568290,False,enterochromaffin cell,50.0,[],,Enterochromaffin cells
+206,Q7840744,False,Trichocyte,47.5,[],,Trichocytes
+214,Q70204009,False,luteal cells,50.0,[],,Luteal cells

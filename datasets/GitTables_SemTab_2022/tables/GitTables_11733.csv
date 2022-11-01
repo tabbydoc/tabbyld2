@@ -1,0 +1,11 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14
+0,Found,Rent,HDB,538 Upper Cross Street,"USS Stephens
+FPO AP 13804",732 sq ft (As declared),sqm,2000.0,S$,,psm,14501.0,https://www.edgeprop.sg/index.php?option=com_analytica&task=search&p=538 UPPER CROSS STREET&mode=0&type=h&schematic=1,https://www.edgeprop.sg/index.php?option=com_analytica&task=edgevalue&type=Rent&propertytype=&block=&storey=&stack=&area2=&area=68&rooms=3-Room&transtype=Rent&assetid=14501
+1,Not Found : We could not derive Edge Fair Value due to the lack of recent comparable transactions,Sale,HDB,,"14562 William Canyon
+Lake Vanessaborough, MI 96393",67,,,,,,,,
+2,Found,Rent,Apartment,PARC HAVEN,"302 Matthew Glen
+New Sandraburgh, NJ 89797",600 sq ft (As declared),sqft,2100.0,S$,,psf,1439.0,https://www.edgeprop.sg/index.php?option=com_analytica&task=search&p=PARC HAVEN&mode=0&type=r&schematic=1,https://www.edgeprop.sg/index.php?option=com_analytica&task=edgevalue&type=Rent&propertytype=&block=&storey=&stack=&area2=&area=600&rooms=1&transtype=Rent&assetid=1439
+3,Found,Sale,Condominium,NV RESIDENCES,"564 Ann Bridge Suite 150
+Dennisfort, RI 38233",797 sq ft (As declared),sqft,750000.0,S$,941.0,psf,1353.0,https://www.edgeprop.sg/index.php?option=com_analytica&task=search&p=NV RESIDENCES&mode=0&type=r&schematic=1,https://www.edgeprop.sg/index.php?option=com_analytica&task=edgevalue&type=Sale&propertytype=&block=&storey=&stack=&area2=&area=797&rooms=2&transtype=Sale&assetid=1353
+4,Found,Sale,Apartment,REGIS MANSIONS,"466 Aaron Fields
+Ernestbury, NV 50131","1,200 sq ft (As declared)",sqft,1180000.0,S$,983.0,psf,1589.0,https://www.edgeprop.sg/index.php?option=com_analytica&task=search&p=REGIS MANSION&mode=0&type=r&schematic=1,https://www.edgeprop.sg/index.php?option=com_analytica&task=edgevalue&type=Sale&propertytype=&block=&storey=&stack=&area2=&area=1200&rooms=3&transtype=Sale&assetid=1589

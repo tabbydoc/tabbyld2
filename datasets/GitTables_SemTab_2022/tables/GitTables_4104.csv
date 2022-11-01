@@ -1,0 +1,31 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+T000000000,Issue with customer id,Issue with customer id~ customer email address was missing,3,STU0000037,STU0000010,3,1,2017/07/15,,
+T000000001,Issue concerning client shipment,Issue concerning client shipment- due to new customer id,1,STU0000020,STU0000021,1,1,2017/09/17,,
+T000000002,Error concerning internal id,Error concerning internal id. product id is wrong,3,STU0000043,STU0000004,3,2,2017/07/26,2017/10/16,
+T000000003,Failure on customer id,Failure on customer id~ product id is wrong,2,STU0000026,STU0000007,1,2,2017/09/13,2017/11/24,
+T000000004,Problem with client shipment,Problem with client shipment: shipped with outdated form,0,STU0000002,STU0000039,2,1,2017/07/14,,
+T000000005,Issue of internal id,Issue of internal id: product does not exist,4,STU0000027,STU0000047,3,1,2017/07/20,,
+T000000006,Failure on internal transaction,Failure on internal transaction- XML failed to print,3,STU0000020,STU0000013,3,1,2017/07/23,,
+T000000007,Issue on client id,Issue on client id~ address line duplicated on form,0,STU0000034,STU0000012,2,1,2017/07/13,,
+T000000008,Problem on customer order,Problem on customer order~ duplicate line on shipping package,2,STU0000007,STU0000019,2,1,2017/09/28,,
+T000000009,Issue on customer estimate,Issue on customer estimate? customer email address was missing,4,STU0000037,STU0000010,1,2,2017/07/29,2017/11/19,
+T000000010,Failure of customer shipment,Failure of customer shipment- due to new customer id,3,STU0000036,STU0000005,3,3,2017/09/22,2017/11/14,2017/11/24
+T000000011,Issue of client estimate,Issue of client estimate: change order was not processed,2,STU0000043,STU0000001,3,3,2017/08/23,2017/10/23,2017/12/20
+T000000012,Failure with internal shipment,Failure with internal shipment- customer email address was missing,4,STU0000013,STU0000037,1,1,2017/09/10,,
+T000000013,Error with client billing,Error with client billing- XML failed to print,4,STU0000037,STU0000049,3,1,2017/08/22,,
+T000000014,Problem with client transaction,Problem with client transaction? new material code is required,3,STU0000039,STU0000008,3,3,2017/07/20,2017/10/20,2017/11/22
+T000000015,Error of customer id,Error of customer id- provided phone number has been disconnected,2,STU0000012,STU0000010,2,2,2017/07/14,2017/10/16,
+T000000016,Issue concerning internal order,Issue concerning internal order~ package was shipped to incorrect site,4,STU0000035,STU0000016,1,2,2017/08/18,2017/10/22,
+T000000017,Error on customer shipment,Error on customer shipment: invoice was never sent,4,STU0000031,STU0000047,1,3,2017/09/11,2017/10/26,2017/12/23
+T000000018,Failure concerning customer shipment,Failure concerning customer shipment: customer email address was missing,0,STU0000041,STU0000030,1,2,2017/09/29,2017/10/25,
+T000000019,Error of customer estimate,Error of customer estimate- product does not exist,2,STU0000020,STU0000009,1,1,2017/08/24,,
+T000000020,Problem on client estimate,Problem on client estimate: package was shipped to incorrect site,4,STU0000021,STU0000018,1,2,2017/09/24,2017/11/25,
+T000000021,Problem concerning client billing,Problem concerning client billing. customer email address was missing,3,STU0000016,STU0000014,3,3,2017/08/12,2017/10/15,2017/11/27
+T000000022,Error on internal order,Error on internal order- product was not delivered,3,STU0000047,STU0000035,2,2,2017/09/24,2017/10/11,
+T000000023,Error of internal transaction,Error of internal transaction. new material code is required,1,STU0000010,STU0000013,2,3,2017/08/20,2017/11/25,2017/11/16
+T000000024,Failure on client id,Failure on client id? change order was not processed,0,STU0000033,STU0000047,1,2,2017/08/19,2017/11/23,
+T000000025,Error concerning customer id,Error concerning customer id~ due to new customer id,3,STU0000043,STU0000048,2,2,2017/07/18,2017/11/21,
+T000000026,Problem on internal estimate,Problem on internal estimate. due to new customer id,2,STU0000013,STU0000032,2,2,2017/09/27,2017/10/11,
+T000000027,Error concerning internal billing,Error concerning internal billing? package was shipped to incorrect site,0,STU0000015,STU0000008,2,1,2017/09/15,,
+T000000028,Problem of internal order,Problem of internal order? provided phone number has been disconnected,2,STU0000044,STU0000041,1,2,2017/08/19,2017/10/24,
+T000000029,Failure with client transaction,Failure with client transaction~ duplicate line on shipping package,3,STU0000037,STU0000047,3,2,2017/07/11,2017/10/29,

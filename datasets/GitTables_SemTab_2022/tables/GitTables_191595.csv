@@ -1,0 +1,18 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17
+ Graphics , Launch , PowerVR core , Market , Chipset , Code name , Device id. , Core renderclock (MHz) , Pixel pipelines , Shader model(vertex/pixel) ,Direct3D , OpenGL , OpenCL , Memory bandwidth (GB/s) , DVMT (MB) , MPEG-2 , VC-1 , AVC 
+ GMA 500 , 2008 , SGX535 , CE , CE3100 , Canmore , 2E5B , rowspan=2 Dunno , 2 , 3.0 , 9.0c , 2.0 ,  , 4.2 , 256 , Full , Full , Full 
+ GMA 500 , 2009 , SGX535 , CE , Atom CE4100 , Sodaville , 2E5B , 2 , 3.0 , 9.0c , 2.0 ,  , 4.2 , 256 , Full , Full , Full ,
+ GMA 500 , 2009 , SGX535 , CE , Atom CE4110 , Sodaville , 2E5B , 200 , 2 , 3.0 , 9.0c , 2.0 ,  , 4.2 , 256 , Full , Full , Full 
+ GMA 500 , 2009 , SGX535 , CE , Atom CE4130 , Sodaville , 2E5B , 200 , 2 , 3.0 , 9.0c , 2.0 ,  , 4.2 , 256 , Full , Full , Full 
+ GMA 500 , 2009 , SGX535 , CE , Atom CE4150 , Sodaville , 2E5B , 400 , 2 , 3.0 , 9.0c , 2.0 ,  , 4.2 , 256 , Full , Full , Full 
+ GMA 500 , 2009 , SGX535 , CE , Atom CE4170 , Sodaville , 2E5B , 400 , 2 , 3.0 , 9.0c , 2.0 ,  , 4.2 , 256 , Full , Full , Full 
+ GMA 500 ,2010 , SGX535 , CE , Atom CE4200 , Groveland , 2E5B , Dunno , 2 , 3.0 , 9.0c , 2.0 ,  , 4.2 , 256 , Full , Full , Full 
+ GMA 500 , 2008 , SGX535 , MID , UL11L , Poulsbo (Menlow) , 81088109 , 100 , 2 , 3.0 , 9.0c , 2.0 ,  , 4.2 , 256 , Full , Full , Full 
+ GMA 500 , 2008 , SGX535 , MID ,US15L , Poulsbo (Menlow) , 81088109 , 200 , 2 , 3.0 , 9.0c , 2.0 ,  , 4.2 , 256 , Full , Full , Full 
+ GMA 500 , 2008 , SGX535 , MID ,US15W , Poulsbo (Menlow) , 81088109 , 200 , 2 , 3.0 , 9.0c , 2.0 ,  , 4.2 , 256 , Full , Full , Full 
+GMA 600 , 2010 , SGX535 , MID , AtomZ6xx , Lincroft (Moorestown) , 4102 , 400 , 2 , 3.0 , 9.0c , 2.0 , ,6.4 ,759 , Full , Full , Full 
+GMA ,2012 ,SGX540 , Smartphone , AtomZ24xx , Penwell (Medfield) , Dunno , 400 , 4 ,  ,  , ES2.0 ,  ,6.4 , 1024 , Full , Full , Full 
+GMA 3600 , 2011 , SGX545 , NettopNetbook , AtomD2500AtomN2600 , Cedarview (CedarTrail) , 0BE00BE10BE20BE3 , 400 , 4 , 3.0 , 9.0c , 3.0 ,  , 8.56.4 , 1024 , Full , Full , Full 
+GMA 3650 , 2011 , SGX545 , NettopNetbook , AtomD2700AtomN2800 , Cedarview (CedarTrail) , 0BE00BE10BE20BE3 , 640 , 4 , 3.0 , 9.0c , 3.0 ,  , 8.5 , 1024 , Full , Full , Full 
+GMA ,2012 , SGX545 , Tablet , AtomZ2760 , Cloverview (CloverTrail) , 08C708C808C908CA08CB08CC08CD08CE08CF , 533 , 4 , 3.0 , 9.0c , 2.0 ,  , 6.4 , 2048 , Full , Full , Full 
+GMA ,2012 ,SGX544 MP2, Tablet , AtomZ2520AtomZ2560AtomZ2580 , Cloverview (CloverTrail+) , ?  , 300Mhz400MHz533MHz , ?  ,  ?  , 9.0 L3  ,"  2.0ES, 2.0?  ",  1.1  ,  ?  ,  ? , Full , Full  , Full  

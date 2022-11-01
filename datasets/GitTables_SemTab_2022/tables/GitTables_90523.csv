@@ -1,0 +1,7 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+cgrates.org,Stat_1_1,FLTR_STAT_1_1,2014-07-29T15:00:00Z,100,1s,0,*acd;*tcd;*pdd,,false,true,30.0,*none
+cgrates.org,Stat_2,FLTR_STAT_2,2014-07-29T15:00:00Z,100,1s,0,*acd;*tcd;*asr,,false,true,30.0,*none
+cgrates.org,Stat_3,FLTR_STAT_3,2014-07-29T15:00:00Z,100,1s,0,*acd;*tcd;*asr,,false,true,30.0,*none
+cgrates.org,Stat_Supplier1,*string:~*req.StatID:Stat_Supplier1,2014-07-29T15:00:00Z,100,1s,0,*sum,,,,,
+cgrates.org,Stat_Supplier2,*string:~*req.StatID:Stat_Supplier2,2014-07-29T15:00:00Z,100,1s,0,*sum,,,,,
+cgrates.org,Stat_Supplier3,*string:~*req.StatID:Stat_Supplier3,2014-07-29T15:00:00Z,100,1s,0,*sum,,,,,

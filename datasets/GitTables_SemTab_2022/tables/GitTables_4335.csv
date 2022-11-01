@@ -1,0 +1,7 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18
+Definition,0,file_id,manufacturer,1,,product,1.0,,serial_number,1.0,,type,1.0,,,,,
+Data,0,file_id,manufacturer,1,,product,988.0,,serial_number,123456.0,,type,2.0,,,,,
+Definition,0,user_profile,weight,1,,gender,1.0,,age,1.0,,height,1.0,,language,1.0,,
+Data,0,user_profile,weight,90,kg,gender,1.0,,age,28.0,years,height,1.9,m,language,0.0,,
+Definition,0,hrm_profile,hrm_ant_id,1,,,,,,,,,,,,,,
+Data,0,hrm_profile,hrm_ant_id,100,,,,,,,,,,,,,,

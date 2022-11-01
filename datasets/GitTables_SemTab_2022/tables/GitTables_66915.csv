@@ -1,0 +1,17 @@
+col0,col1,col2,col3,col4,col5
+1,park clean up,We're going to be picking up trash at [park name] to reduce the littering in the area.,90001,environment-volunteer,
+2,environment conference,Volunteer at the annual environment conference! Helpers are needed to set up and facilitate the event.,90001,environment-volunteer,
+3,environment march,Climate change must be addressed! Come and let your voice be heard.,90001,environment,activism
+4,book drive,Do you have any used books? Please donate them to [library name]! A box will be set up in the lobby for drop-off.,90001,education,donations
+5,school fundraiser event,We're students from [school name] and will be selling [stuff]. Please drop by and support our school.,90001,education,fundraiser
+6,blm protest,Let your voice be heard! Let's fight for racial justice together.,90001,blm,activism
+7,bake sale for [blm?],We're organizing a bake sale at [location] to raise money for the BLM movement. All proceeds will be donated to [org name]. Please email [email address] if you'd like to help out.,90001,blm-volunteer,fundraiser
+8,pride parade,Come show your support the LGBTQ+ community!,90001,LGBTQ+,activism
+9,craft market for lgbtq org,We're organizing a craft market to raise money for our organization which focuses on LGBTQ+ advocacy. Send an email to [email address] if you'd like to sell or just drop by to see what we're offering!,90001,LGBTQ+-volunteer,
+10,Canned food drive,Donations will be donated to [organization name]. Come and drop off some cans! Volunteers are needed too.,90001,volunteer,donations
+11,Retirement home volunteering,We are organizing a holiday event for our residents at [retirement home]. A small group of volunteers is needed to help us setup and facilitate. Please send and email to [email] for more details and to RSVP.,90001,volunteer,
+12,volunteers for marathon,We need volunteers for the [marathon name] Marathon. Volunteers will be tasked with handling registration and distributing water at checkpoints. Donations are accepted!,90001,volunteer,donations
+13,community blood drive,We're organizing a blood drive that will be donated to [hospital name]. Please drop by and donate some of your blood! Volunteers are needed also. Contact [email] for more details. ,90001,volunteer,healthcare-item donation
+14,toy donation,We're collecting children's toys to donate to the local children's hospital. We'll have a large secure donation box in front of [location name] for drop off.,90001,volunteer,healthcare-item donation
+15,phone banking,Volunteers will be tasked with reaching out to voters and collect voter data. Please note that we are a nonpartisan organization aimed solely at increasing voter turnout.,90001,volunteer,civics
+16,voter registration,Come help register people to vote! Just 1 hour of training is needed. Please contact [email] for more details.,90001,volunteer,civics

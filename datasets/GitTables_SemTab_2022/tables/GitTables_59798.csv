@@ -1,0 +1,17 @@
+col0,col1,col2
+Hive.1,edw.customer_profile,customer_id
+Hive.1,edw.customer_profile,name
+Hive.1,edw.customer_profile,country
+Hive.1,edw.customer_profile,total_transaction_count
+Hive.1,edw.customer_profile,total_transaction_amt
+Hive.1,edw.customer_profile,total_logins
+Oracle.DB.2,site.txn,txn_id
+Oracle.DB.2,site.txn,customer_id
+Oracle.DB.2,site.txn,txn_amt
+Oracle.DB.2,site.txn,txn_date
+Oracle.DB.1,site.user,user_id
+Oracle.DB.1,site.user,user_name
+Oracle.DB.1,site.user,user_address_country
+Kafka.1,user.activity,activity_id
+Kafka.1,user.activity,activity_type
+Kafka.1,user.activity,activity_date

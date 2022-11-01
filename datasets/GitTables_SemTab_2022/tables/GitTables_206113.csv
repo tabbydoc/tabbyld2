@@ -1,0 +1,175 @@
+col0,col1,col2
+ggm0001,Geographi graeci minores,geography
+stoa0033a,"pseudo-Aristotle (de mundo, de spiritu)",philosophy
+stoa0121,Eutropius,history
+stoa0146d,Hegemonius,dialogue
+tlg0003,Thucydides,history
+tlg0006,Euripides,tragedies
+tlg0007,Plutarch,history
+tlg0008,Athenaeus of Naucratis,dialogue
+tlg0010,Isocrates,speeches
+tlg0014,Demosthenes,speeches
+tlg0015,Herodian, history
+tlg0016,Herodotus,history
+tlg0018,Philo Judaeus,philosophy
+tlg0019,Aristophanes,comedy
+tlg0028,Antiphon (orator),speeches
+tlg0031,New Testament,religious
+tlg0032,Xenophon,history
+tlg0033,Pindar,poetry
+tlg0057,Galen,medical
+tlg0059,Plato,philosophy
+tlg0060,Diodorus Siculus,history
+tlg0062,Lucian of Samosata,satire
+tlg0064,Hanno,geography
+tlg0065,Scylax,geography
+tlg0066,Ps. Dicaearchus,philosophy
+tlg0067,Agatharchides,geography
+tlg0070,Isidorus Characenus,geography
+tlg0071,Pseudo Arrianus,geography
+tlg0074,Arrian,history
+tlg0075,Pseudo-Arrianus,geography
+tlg0077,tlg0077,geography
+tlg0082,Apollonius Dyscolus,grammar
+tlg0083,Dionysius of Byzantium,geography
+tlg0085,Aeschylus,tragedies
+tlg0086,Aristotle,philosophy
+tlg0087,Aelius Herodianus,grammar
+tlg0088,Aristoxenus,music
+tlg0090,Agathemerus,geography
+tlg0092,tlg0092,geography
+tlg0093,Theophrastus,philosophy
+tlg0094,Pseudo-Plutarch,geography
+tlg0096,Aesop,fables
+tlg0099,Strabo,geography
+tlg0358,Nichomachus of Gerasa,math
+tlg0361,Cleonides,music
+tlg0362,Carmina Delphis Inventa,poetry
+tlg0363,Claudius Ptolemaeus,geography
+tlg0525,Pausanias,geography
+tlg0527,Septuaginta,religious
+tlg0530,pseudo-Galen,medical
+tlg0540,Lysias,speeches
+tlg0543,Polybius,history
+tlg0544,Sextus Empiricus,philosophy
+tlg0548,Apollodorus,mythology
+tlg0551,Appian of Alexandria,history
+tlg0553,Artemidorus,prophecy
+tlg0554,Chariton of Aphrodisios,novel
+tlg0555,Clement of Alexandria,philosophy
+tlg0561,Longus,novel
+tlg0563,Maximus of Tyre,philosophy
+tlg0565,Soranus of Ephesus,medical
+tlg0591,Antisthenes,philosophy
+tlg0592,Hermogenes,philosophy
+tlg0593,Gorgias of Leontini,speeches
+tlg0610,Alcidamas,speeches
+tlg0612,Dio Chrysostom,speeches
+tlg0614,Babrius,fables
+tlg0615,Aspasius,philosophy
+tlg0616,Polyaenus Macedo,strategy
+tlg0627,Hippocrates,medical
+tlg0640,Alciphron,letters
+tlg0643,Anonymus Londinensis,medical
+tlg0644,Aristophanes of Byzantium,zoological
+tlg0645,Justinus Martyr,dialogue
+tlg0646,Pseudo-Justinus Martyr,letters
+tlg0658,Heliodorus of Emesa,novel
+tlg0671,Philumenus,medical
+tlg0708,Ammonius Grammaticus,grammar
+tlg0731,Adamantius Judaeus,physiognomy
+tlg0732,Alexander of Aphrodisias,philosophy
+tlg0751,pseudo-Hippocrates,medical
+tlg1126,Anubion,astronomy
+tlg1205,Athenagoras,theological
+tlg1210,Autolycus,math
+tlg1216,Barnabas,letters
+tlg1252,Certamen Homeri et Hesiodi,poetry
+tlg1271,Clemens Romanus,letters
+tlg1272,Cleomedes,astronomy
+tlg1311,tlg1311,religious
+tlg1337,Dorotheus of Sidon,astronomy
+tlg1389,Valerius Harpocration,grammar
+tlg1409,Heraclides Ponticus,excerpts
+tlg1419,Hermas,theological
+tlg1431,Hipparchus,astronomy
+tlg1443,Ignatius Antiochenus,letters
+tlg1447,Irenaeus,theological
+tlg1463,Liber Enoch,religious
+tlg1484,Martyrium Polycarpi,theological
+tlg1487,Maximus Astrologus,astronomy
+tlg1551,Oracula Sibyllina,prophecy
+tlg1595,Philodemus,music
+tlg1600,Philostratus of Lemnos,art history
+tlg1622,Polycarp,letters
+tlg1701,Testamentum Abrahamae,religious
+tlg1724,Theon Smyrnaeus,math
+tlg1725,Theophilus Antiochenus,theological
+tlg1765,Vitae Aesopi,biography
+tlg1766,Tatianus,speeches
+tlg1799,Euclid,math
+tlg2000,Plotinus,philosophy
+tlg2001,Themistius,philosophy
+tlg2018,Eusebius,theological
+tlg2021,Epiphanius,theological
+tlg2022,Gregorius Nazianzenus,theological
+tlg2023,Iamblichus,philosophy
+tlg2029,tlg2029,geography
+tlg2034,Porphyrius,philosophy
+tlg2035,Athanasius of Alexandria,speeches
+tlg2036,Dexippus,philosophy
+tlg2039,Diophantus Alexandrinus,math
+tlg2041,Marcellus,unknown
+tlg2042,Origenes,theological
+tlg2048,Salaminius Hermias Sozomenus,history
+tlg2050,Eunapius,biography
+tlg2057,Socrates Scholasticus,history
+tlg2058,Philostorgius,history
+tlg2115,Hippolytus,theological
+tlg2135,Alypius,music
+tlg2136,Bacchius Geron,music
+tlg2137,Gaudentius,music
+tlg2138,Canticum Euripidis,unknown
+tlg2139,Epitaphium Sicili,music
+tlg2200,Libanius,speeches
+tlg2233,Pseudo-Polemon,physiognomy
+tlg2371,Chronicon Paschale,history
+tlg2703,Anna Comnena,history
+tlg2733,Evagrius Scholasticus,history
+tlg2768,Gelasius,history
+tlg2806,Marcus Diaconus,biography
+tlg2959,Methodius,theological
+tlg3118,Syntipas,fables
+tlg3129,Theophylacti,theological
+tlg3135,Joannes Zonaras,history
+tlg3156,Anonymi Exegesis in Hesiodi Theogoniam,scholia
+tlg4003,Marcianus of Heraclea,geography
+tlg4013,Simplicius,philosophy
+tlg4015,Joannes Philoponus,philosophy
+tlg4016,Ammonius,philosophy
+tlg4017,Syrianus,philosophy
+tlg4018,Asclepius,philosophy
+tlg4019,Olympiodorus,philosophy
+tlg4020,Elias,philosophy
+tlg4021,David the Invincible,philosophy
+tlg4024,Agathias Scholasticus,history
+tlg4027,Anonymi in Aristotelis Categorias,philosophy
+tlg4030,Sophonias,philosophy
+tlg4031,Eustratius,philosophy
+tlg4033,Anonymi In Aristotelis Ethica Nicomachea,philosophy
+tlg4034,Michael Ephesius,philosophy
+tlg4036,Proclus Diadochus,philosophy
+tlg4075,Marinus,math
+tlg4084,Zosimus,history
+tlg4089,Theodoret Bishop of Cyrus,history
+tlg4090,Cyrillus Alexandrinus,theological
+tlg4102,Catenae (Novum Testamentum),religious
+tlg4170,Vitae Pindari et varia de Pindaro,biography
+tlg4193,Anonymi in Aristotelis Sophisticos Elenchos,philosophy
+tlg5022,Scholia in Euclidem,math
+tlg5023,Scholia Euripidem,scholia
+tlg5026,Scholia in Homerum,scholia
+tlg5034,Pindar Scholia,scholia
+tlg9004,Anonymi In Aristotelis Librum Alterum Analyticorum Posteriorum,philosophy
+tlg9006,Gregory II,speeches
+tlg9019,Stephanus of Alexandria,philosophy

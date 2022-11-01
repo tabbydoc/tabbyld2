@@ -1,0 +1,293 @@
+col0,col1,col2,col3
+Afghanistan,38,afghanistan,AF
+Albania,2.9,albania,AL
+Algeria,43.1,algeria,DZ
+American Samoa,0.1,american-samoa,AS
+Andorra,0.1,andorra,AD
+Angola,31.8,angola,AO
+Antigua and Barbuda,0.1,antigua-and-barbuda,AG
+Argentina,44.9,argentina,AR
+Armenia,3,armenia,AM
+Aruba,0.1,aruba,AW
+Australia,25.4,australia,AU
+Austria,8.9,austria,AT
+Azerbaijan,10,azerbaijan,AZ
+"Bahamas, The",0.4,,
+Bahrain,1.6,bahrain,BH
+Bangladesh,163,bangladesh,BD
+Barbados,0.3,barbados,BB
+Belarus,9.5,belarus,BY
+Belgium,11.5,belgium,BE
+Belize,0.4,belize,BZ
+Benin,11.8,benin,BJ
+Bermuda,0.1,bermuda,BM
+Bhutan,0.8,bhutan,BT
+Bolivia,11.5,bolivia,BO
+Bosnia and Herzegovina,3.3,bosnia-and-herzegovina,BA
+Botswana,2.3,botswana,BW
+Brazil,211,brazil,BR
+Brunei Darussalam,0.4,brunei,BN
+Bulgaria,7,bulgaria,BG
+Burkina Faso,20.3,burkina-faso,BF
+Burundi,11.5,burundi,BI
+Cabo Verde,0.5,,
+Cambodia,16.5,cambodia,KH
+Cameroon,25.9,cameroon,CM
+Canada,37.6,canada,CA
+Cayman Islands,0.1,cayman-islands,KY
+Central African Republic,4.7,central-african-republic,CF
+Chad,15.9,chad,TD
+Channel Islands,0.2,,
+Chile,19,chile,CL
+China,1397.7,china,CN
+"Hong Kong SAR, China",7.5,,
+"Macao SAR, China",0.6,,
+Colombia,50.3,colombia,CO
+Comoros,0.9,comoros,KM
+"Congo, Dem. Rep.",86.8,,
+"Congo, Rep.",5.4,,
+Costa Rica,5,costa-rica,CR
+Cote d'Ivoire,25.7,,
+Croatia,4.1,croatia,HR
+Cuba,11.3,cuba,CU
+Curacao,0.2,,
+Cyprus,1.2,cyprus,CY
+Czech Republic,10.7,czech-republic,CZ
+Denmark,5.8,denmark,DK
+Djibouti,1,djibouti,DJ
+Dominica,0.1,dominica,DM
+Dominican Republic,10.7,dominican-republic,DO
+Ecuador,17.4,ecuador,EC
+"Egypt, Arab Rep.",100.4,,
+El Salvador,6.5,el-salvador,SV
+Equatorial Guinea,1.4,equatorial-guinea,GQ
+Eritrea,..,eritrea,ER
+Estonia,1.3,estonia,EE
+Eswatini,1.1,,
+Ethiopia,112.1,ethiopia,ET
+Faroe Islands,0,faroe-islands,FO
+Fiji,0.9,fiji,FJ
+Finland,5.5,finland,FI
+France,67.1,france,FR
+French Polynesia,0.3,french-polynesia,PF
+Gabon,2.2,gabon,GA
+"Gambia, The",2.3,,
+Georgia,3.7,georgia,GE
+Germany,83.1,germany,DE
+Ghana,30.4,ghana,GH
+Greece,10.7,greece,GR
+Greenland,0.1,greenland,GL
+Grenada,0.1,grenada,GD
+Guam,0.2,guam,GU
+Guatemala,16.6,guatemala,GT
+Guinea,12.8,guinea,GN
+Guinea-Bissau,1.9,guinea-bissau,GW
+Guyana,0.8,guyana,GY
+Haiti,11.3,haiti,HT
+Honduras,9.7,honduras,HN
+Hungary,9.8,hungary,HU
+Iceland,0.4,iceland,IS
+India,1366.4,india,IN
+Indonesia,270.6,indonesia,ID
+"Iran, Islamic Rep.",82.9,,
+Iraq,39.3,iraq,IQ
+Ireland,4.9,ireland,IE
+Isle of Man,0.1,isle-of-man,IM
+Israel,9.1,israel,IL
+Italy,60.3,italy,IT
+Jamaica,2.9,jamaica,JM
+Japan,126.3,japan,JP
+Jordan,10.1,jordan,JO
+Kazakhstan,18.5,kazakhstan,KZ
+Kenya,52.6,kenya,KE
+Kiribati,0.1,kiribati,KI
+"Korea, Dem. Peopleâ€™s Rep.",25.7,,
+"Korea, Rep.",51.7,,
+Kosovo,1.8,,
+Kuwait,4.2,kuwait,KW
+Kyrgyz Republic,6.5,,
+Lao PDR,7.2,lao-pdr,LA
+Latvia,1.9,latvia,LV
+Lebanon,6.9,lebanon,LB
+Lesotho,2.1,lesotho,LS
+Liberia,4.9,liberia,LR
+Libya,6.8,libya,LY
+Liechtenstein,0,liechtenstein,LI
+Lithuania,2.8,lithuania,LT
+Luxembourg,0.6,luxembourg,LU
+Madagascar,27,madagascar,MG
+Malawi,18.6,malawi,MW
+Malaysia,31.9,malaysia,MY
+Maldives,0.5,maldives,MV
+Mali,19.7,mali,ML
+Malta,0.5,malta,MT
+Marshall Islands,0.1,marshall-islands,MH
+Mauritania,4.5,mauritania,MR
+Mauritius,1.3,mauritius,MU
+Mexico,127.6,mexico,MX
+"Micronesia, Fed. Sts.",0.1,,
+Moldova,2.7,moldova,MD
+Monaco,0,monaco,MC
+Mongolia,3.2,mongolia,MN
+Montenegro,0.6,montenegro,ME
+Morocco,36.5,morocco,MA
+Mozambique,30.4,mozambique,MZ
+Myanmar,54,myanmar,MM
+Namibia,2.5,namibia,
+Nepal,28.6,nepal,NP
+Netherlands,17.3,netherlands,NL
+New Caledonia,0.3,new-caledonia,NC
+New Zealand,4.9,new-zealand,NZ
+Nicaragua,6.5,nicaragua,NI
+Niger,23.3,niger,NE
+Nigeria,201,nigeria,NG
+North Macedonia,2.1,,
+Northern Mariana Islands,0.1,northern-mariana-islands,MP
+Norway,5.3,norway,NO
+Oman,5,oman,OM
+Pakistan,216.6,pakistan,PK
+Palau,0,palau,PW
+Panama,4.2,panama,PA
+Papua New Guinea,8.8,papua-new-guinea,PG
+Paraguay,7,paraguay,PY
+Peru,32.5,peru,PE
+Philippines,108.1,philippines,PH
+Poland,38,poland,PL
+Portugal,10.3,portugal,PT
+Puerto Rico,3.2,puerto-rico,PR
+Qatar,2.8,qatar,QA
+Romania,19.4,romania,RO
+Russian Federation,144.4,russia,RU
+Rwanda,12.6,rwanda,RW
+Samoa,0.2,samoa,WS
+San Marino,0,san-marino,SM
+Sao Tome and Principe,0.2,sao-tome-and-principe,ST
+Saudi Arabia,34.3,saudi-arabia,SA
+Senegal,16.3,senegal,SN
+Serbia,6.9,serbia,RS
+Seychelles,0.1,seychelles,SC
+Sierra Leone,7.8,sierra-leone,SL
+Singapore,5.7,singapore,SG
+Sint Maarten (Dutch part),0,,
+Slovak Republic,5.5,,
+Slovenia,2.1,slovenia,SI
+Solomon Islands,0.7,solomon-islands,SB
+Somalia,15.4,somalia,SO
+South Africa,58.6,south-africa,ZA
+South Sudan,11.1,south-sudan,SS
+Spain,47.1,spain,ES
+Sri Lanka,21.8,sri-lanka,LK
+St. Kitts and Nevis,0.1,,
+St. Lucia,0.2,,
+St. Martin (French part),0,,
+St. Vincent and the Grenadines,0.1,,
+Sudan,42.8,sudan,SD
+Suriname,0.6,suriname,SR
+Sweden,10.3,sweden,SE
+Switzerland,8.6,switzerland,CH
+Syrian Arab Republic,17.1,,
+Tajikistan,9.3,tajikistan,TJ
+Tanzania,58,,
+Thailand,69.6,thailand,TH
+Timor-Leste,1.3,timor-leste,TL
+Togo,8.1,togo,TG
+Tonga,0.1,tonga,TO
+Trinidad and Tobago,1.4,trinidad-and-tobago,TT
+Tunisia,11.7,tunisia,TN
+Turkey,83.4,turkey,TR
+Turkmenistan,5.9,turkmenistan,TM
+Turks and Caicos Islands,0,turks-and-caicos-islands,TC
+Tuvalu,0,tuvalu,TV
+Uganda,44.3,uganda,UG
+Ukraine,44.4,ukraine,UA
+United Arab Emirates,9.8,united-arab-emirates,AE
+United Kingdom,66.8,united-kingdom,GB
+United States of America,328.2,united-states,US
+Uruguay,3.5,uruguay,UY
+Uzbekistan,33.6,uzbekistan,UZ
+Vanuatu,0.3,vanuatu,VU
+"Venezuela, RB",28.5,,
+Vietnam,96.5,,
+Virgin Islands (U.S.),0.1,,
+West Bank and Gaza,4.7,,
+"Yemen, Rep.",29.2,,
+Zambia,17.9,zambia,ZM
+Zimbabwe,14.6,zimbabwe,ZW
+World,7673.5,,
+East Asia & Pacific,2340.6,,
+Europe & Central Asia,921.1,,
+Latin America & Caribbean,646.4,,
+Middle East & North Africa,456.7,,
+North America,365.9,,
+South Asia,1835.8,,
+Sub-Saharan Africa,1107,,
+Low income,668.5,,
+Lower middle income,2913.4,,
+Upper middle income,2855.9,,
+High income,1235.9,,
+Bahamas,,bahamas,BS
+Congo (Kinshasa),,congo-kinshasa,CD
+Wallis and Futuna Islands,,wallis-and-futuna-islands,WF
+Jersey,,jersey,JE
+"Macao, SAR China",,macao-sar-china,MO
+Saint Helena,,saint-helena,SH
+British Virgin Islands,,british-virgin-islands,VG
+"Iran, Islamic Republic of",,iran,IR
+Egypt,,egypt,EG
+Tokelau,,tokelau,TK
+ALA Aland Islands,,ala-aland-islands,AX
+"Tanzania, United Republic of",,tanzania,TZ
+Kyrgyzstan,,kyrgyzstan,KG
+French Guiana,,french-guiana,GF
+Saint-Martin (French part),,saint-martin-french-part,MF
+Cook Islands,,cook-islands,CK
+Saint-Barthélemy,,saint-barthélemy,BL
+Falkland Islands (Malvinas),,falkland-islands-malvinas,FK
+Gibraltar,,gibraltar,GI
+Holy See (Vatican City State),,holy-see-vatican-city-state,VA
+Réunion,,réunion,RE
+Saint Lucia,,saint-lucia,LC
+Republic of Kosovo,,kosovo,XK
+Western Sahara,,western-sahara,EH
+Guernsey,,guernsey,GG
+"Macedonia, Republic of",,macedonia,MK
+Viet Nam,,vietnam,VN
+"Taiwan, Republic of China",,taiwan,TW
+Nauru,,nauru,NR
+Slovakia,,slovakia,SK
+Bouvet Island,,bouvet-island,BV
+Guadeloupe,,guadeloupe,GP
+Antarctica,,antarctica,AQ
+Pitcairn,,pitcairn,PN
+Côte d'Ivoire,,cote-divoire,CI
+Cape Verde,,cape-verde,CV
+Martinique,,martinique,MQ
+Korea (South),,korea-south,KR
+French Southern Territories,,french-southern-territories,TF
+Montserrat,,montserrat,MS
+US Minor Outlying Islands,,us-minor-outlying-islands,UM
+Svalbard and Jan Mayen Islands,,svalbard-and-jan-mayen-islands,SJ
+Saint Pierre and Miquelon,,saint-pierre-and-miquelon,PM
+Niue,,niue,NU
+British Indian Ocean Territory,,british-indian-ocean-territory,IO
+"Hong Kong, SAR China",,hong-kong-sar-china,HK
+Mayotte,,mayotte,YT
+Anguilla,,anguilla,AI
+Christmas Island,,christmas-island,CX
+Venezuela (Bolivarian Republic),,venezuela,VE
+"Micronesia, Federated States of",,micronesia,FM
+Saint Vincent and Grenadines,,saint-vincent-and-the-grenadines,VC
+South Georgia and the South Sandwich Islands,,south-georgia-and-the-south-sandwich-islands,GS
+Gambia,,gambia,GM
+Heard and Mcdonald Islands,,heard-and-mcdonald-islands,HM
+Palestinian Territory,,palestine,PS
+Yemen,,yemen,YE
+Netherlands Antilles,,netherlands-antilles,AN
+Congo (Brazzaville),,congo-brazzaville,CG
+Cocos (Keeling) Islands,,cocos-keeling-islands,CC
+Swaziland,,swaziland,SZ
+Korea (North),,korea-north,KP
+Syrian Arab Republic (Syria),,syria,SY
+"Virgin Islands, US",,virgin-islands,VI
+Norfolk Island,,norfolk-island,NF
+Saint Kitts and Nevis,,saint-kitts-and-nevis,KN

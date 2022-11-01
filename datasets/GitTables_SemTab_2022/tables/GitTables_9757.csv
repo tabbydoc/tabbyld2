@@ -1,0 +1,37 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+seq10,99.8,94.1,99.7,86.7,,,SRR6399569,P1,825.0,PF07961,MBA1-like protein,
+seq11,86.3,85.8,81.6,79.0,69.2,,SRR6399569,P1,,PF07961,MBA1-like protein,
+seq12,84.6,93.4,94.2,82.2,67.3,69.1,SRR6399596,P1,,PF00076,RRM_1,RNA recognition motif 
+seq13,82.1,78.4,82.1,75.0,68.8,70.8,SRR6399614,P1,,PF01480,PWI domain ,
+seq14,85.8,85.8,85.6,72.6,,,SRR6399671,P1,,PF00293,Nudix family,
+seq15,93.4,93.6,,76.5,76.6,76.1,SRR6399681,P3,,PF00076,RRM_1,RNA recognition motif 
+seq16,99.8,83.6,100.0,,,,SRR6399682,P5,,,,Transmembrane_protein
+seq17,89.8,89.8,89.8,89.4,89.4,88.4,SRR6399684,P1,,MULTI,DEAD/H helicases,
+seq18,99.8,99.8,99.7,90.5,81.5,82.5,SRR6399685,P3,,PF06957,COPI,
+seq19,99.9,99.9,,84.2,,77.5,SRR6399753,U1,,PF04424,MINDY_DUB,
+seq1,89.4,91.4,86.1,82.9,75.7,78.4,SRR6399464,P1,,MULTI,Metallo-beta-lactamase protein fold,
+seq20,98.6,98.6,98.6,,83.2,81.7,SRR6399789,P1,,PF02731,SKIP/SNW domain,
+seq22,99.8,99.8,99.8,89.2,,,SRR6399802,P5,,MULTI,DEAD/H helicases,
+seq23,89.3,89.4,89.4,82.1,,70.3,SRR6399803,P3,,MULTI,mannosyltransferase,
+seq24,99.7,100.0,100.0,88.7,80.6,80.5,SRR6399808,P1,,,,WD40
+seq25,100.0,93.0,100.0,89.1,77.8,78.8,SRR6399870,P1,,PF12253,Chromatin assembly factor 1 subunit A,
+seq26,99.8,99.9,99.9,89.6,79.7,81.3,SRR6399877,U2,,MULTI,UNK,
+seq27,100.0,100.0,,84.3,,,SRR6399879,P3,,PF00149,Calcineurin-like phosphoesterase,
+seq28,100.0,100.0,100.0,87.7,80.2,83.6,SRR6399879,P3,,PF03643,Vps26,
+seq2,100.0,99.9,99.9,88.6,79.3,80.3,SRR6399512,P8,,PF03372,Endonuclease/Exonuclease/phosphatase family,
+seq30,94.8,94.3,,78.3,76.0,75.7,SRR6399888,P1,,PF06732,Pescadillo_N,Pescadillo homolog
+seq31,98.1,90.3,93.0,71.4,83.5,83.5,SRR6399888,P1,,PF01699,Sodium/calcium exchanger protein,
+seq32,99.8,98.5,99.8,86.2,,,SRR6399888,P1,,PF02089,Palmitoyl protein thioesterase,
+seq33,99.4,99.4,99.4,81.3,,,SRR6399888,P1,,PF00271,DEAD/H helicases,
+seq35,97.5,97.6,,84.1,76.0,75.1,SRR6399939,P3,,PF03099,Cofactor transferase family,
+seq36,96.3,96.4,96.4,76.9,59.0,61.4,SRR6399953,P1,,PF00443,Ubiquitin carboxyl-terminal hydrolase,
+seq38,82.2,82.2,81.3,48.8,,,SRR6399953,P1,,PF16035,Chalcone isomerase like ,
+seq39,100.0,100.0,99.7,84.9,73.3,72.6,SRR6399953,P1,,PF00096,zf-C2H2,
+seq3,96.9,96.9,96.9,85.5,74.8,75.3,SRR6399520,P1,,PF08581,Tup N-terminal ,
+seq40,99.8,99.5,,88.9,,,SRR6399953,P1,,MULTI,GTP-binding elongation factor family. EF-G/EF-2 subfamily,
+seq4,98.6,94.7,92.2,88.4,74.8,76.2,SRR6399520,P1,,PF04118,Dopey, N-terminal 
+seq5,99.7,99.5,,89.1,79.1,79.9,SRR6399527,P1,,PF01496,V-ATPase,
+seq6,82.0,,80.5,,,,SRR6399527,P1,,PF02349,MSG,
+seq7,99.9,99.6,99.8,83.9,,,SRR6399562,P1,,,,Transmembrane_protein
+seq8,96.9,96.9,96.8,84.3,72.8,75.0,SRR6399569,P1,,PF00447,Heat shock factor,
+seq9,99.8,99.8,99.7,90.0,81.9,82.8,SRR6399569,P1,,PF00109,3-oxoacyBeta-ketoacyl synthase, N-terminal domainl-[acyl-carrier-protein] synthase

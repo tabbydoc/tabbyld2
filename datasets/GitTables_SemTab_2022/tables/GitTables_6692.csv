@@ -1,0 +1,17 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16
+1,Greenbill_Logo_38.png,,,,,,,/ux/images/Greenbill_Logo_38.png,,9ci,,,,,,0
+2,Greenbill_Logo_38.png,,,,,,,/ux/images/Greenbill_Logo_38.png,,9ci,,,,,,0
+3,companyLogo.png,,,,,,,companyLogo.png,,9ci,,,,,,0
+10,service-qb.ftl,,Invoice,,,,,/templates/invoice/service-qb.ftl,,9ci,,,,,,0
+11,product-qb.ftl,,Invoice,,,,,/templates/invoice/product-qb.ftl,,9ci,,,,,,0
+12,professional-qb.ftl,,Invoice,,,,,/templates/invoice/professional-qb.ftl,,9ci,,,,,,0
+13,email-tan.ftl,,Invoice,,,,,/templates/invoice/email-tan.ftl,,9ci,,,,,,0
+14,greenbar.ftl,,Invoice,,,,,/templates/invoice/greenbar.ftl,,9ci,,,,,,0
+16,invoice2.ftl,,Invoice,,,,,/templates/freemarker/invoice2.ftl,,9ci,,,,,,0
+17,Gentle Reminder,,,,,,,,,9ci,11.0,ftl,application/freemarker,,Reminder:  Your invoice is past due.,0
+18,Standard Reminder,,,,,,,,,9ci,10.0,ftl,application/freemarker,,Second Reminder:  Overdue invoice.,0
+19,Serious Reminder 1,,,,,,,,,9ci,12.0,ftl,application/freemarker,,Third Notice:  Your invoice is seriously past due.,0
+20,Serious Reminder 2,,,,,,,,,9ci,13.0,ftl,application/freemarker,,Fourth Warning:  Your invoice is critically past due!,0
+21,Call reminder script,,,,,,,,,9ci,14.0,ftl,application/freemarker,,Call reminder script,0
+22,Third party,,,,,,,,,9ci,15.0,ftl,application/freemarker,,Final Warning:  Third party collections notice,0
+117,invoice3.ftl,,Invoice,,,,,/templates/freemarker/invoice3.ftl,,9ci,,,,,,0

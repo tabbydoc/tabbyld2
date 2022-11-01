@@ -1,0 +1,187 @@
+col0,col1,col2,col3
+1,1,Pilot,7.5
+2,1,Diversity Day,8.3
+3,1,Health Care,7.8
+4,1,The Alliance,8.0
+5,1,Basketball,8.4
+6,1,Hot Girl,7.7
+7,2,The Dundies,8.7
+8,2,Sexual Harassment,8.2
+9,2,Office Olympics,8.4
+10,2,The Fire,8.4
+11,2,Halloween,8.1
+12,2,The Fight,8.1
+13,2,The Client,8.6
+14,2,Performance Review,8.2
+15,2,Email Surveillance,8.4
+16,2,Christmas Party,8.9
+17,2,Booze Cruise,8.6
+18,2,The Injury,9.1
+19,2,The Secret,8.3
+20,2,The Carpet,7.8
+21,2,Boys and Girls,8.1
+22,2,Valentine's Day,8.3
+23,2,Dwight's Speech,8.5
+24,2,Take Your Daughter to Work Day,8.3
+25,2,Michael's Birthday,8.1
+26,2,Drug Testing,8.4
+27,2,Conflict Resolution,8.7
+28,2,Casino Night,9.4
+29,3,Gay Witch Hunt,9.0
+30,3,The Convention,8.2
+31,3,The Coup,8.5
+32,3,Grief Counseling,8.0
+33,3,Initiation,8.1
+34,3,Diwali,7.9
+35,3,Branch Closing,8.6
+36,3,The Merger,8.7
+37,3,The Convict,8.3
+38,3,A Benihana Christmas,8.8
+39,3,Back from Vacation,8.6
+40,3,Traveling Salesmen,8.6
+41,3,The Return,8.8
+42,3,Ben Franklin,8.1
+43,3,Phyllis' Wedding,8.2
+44,3,Business School,8.9
+45,3,Cocktails,8.5
+46,3,The Negotiation,9.0
+47,3,Safety Training,8.8
+48,3,Product Recall,8.7
+49,3,Women's Appreciation,8.8
+50,3,Beach Games,9.2
+51,3,The Job,9.3
+52,4,Fun Run,8.8
+53,4,Dunder Mifflin Infinity,8.3
+54,4,Launch Party,8.4
+55,4,Money,8.7
+56,4,Local Ad,8.8
+57,4,Branch Wars,8.5
+58,4,Survivor Man,8.2
+59,4,The Deposition,8.7
+60,4,Dinner Party,9.5
+61,4,Chair Model,8.0
+62,4,Night Out,8.6
+63,4,Did I Stutter?,8.3
+64,4,Job Fair,7.8
+65,4,Goodbye Toby,9.4
+66,5,Weight Loss,8.8
+67,5,Business Ethics,8.2
+68,5,Baby Shower,8.0
+69,5,Crime Aid,8.1
+70,5,Employee Transfer,8.0
+71,5,Customer Survey,8.5
+72,5,Business Trip,8.2
+73,5,Frame Toby,8.6
+74,5,The Surplus,8.8
+75,5,Moroccan Christmas,8.4
+76,5,The Duel,8.7
+77,5,Prince Family Paper,8.0
+78,5,Stress Relief,9.7
+79,5,Lecture Circuit: Part 1,8.2
+80,5,Lecture Circuit: Part 2,8.2
+81,5,Blood Drive,8.0
+82,5,Golden Ticket,8.7
+83,5,New Boss,8.3
+84,5,Two Weeks,8.4
+85,5,Dream Team,8.3
+86,5,Michael Scott Paper Company,8.7
+87,5,Heavy Competition,8.7
+88,5,Broke,9.3
+89,5,Casual Friday,8.3
+90,5,Cafe Disco,8.8
+91,5,Company Picnic,9.0
+92,6,Gossip,8.8
+93,6,The Meeting,8.1
+94,6,The Promotion,8.0
+95,6,Niagara,9.4
+96,6,Mafia,9.5
+97,6,The Lover,7.6
+98,6,Koi Pond,8.6
+99,6,Double Date,8.2
+100,6,Murder,8.1
+101,6,Shareholder Meeting,8.7
+102,6,Scott's Tots,8.2
+103,6,Secret Santa,8.3
+104,6,The Banker,8.5
+105,6,Sabre,6.8
+106,6,The Manager and the Salesman,7.6
+107,6,The Delivery,8.1
+108,6,St. Patrick's Day,8.4
+109,6,New Leads,8.5
+110,6,Happy Hour,7.7
+111,6,Secretary's Day,7.7
+112,6,Body Language,8.6
+113,6,The Cover-Up,7.8
+114,6,The Chump,7.9
+115,6,Whistleblower,8.1
+116,7,Nepotism,7.7
+117,7,Counseling,8.0
+118,7,Andy's Play,8.4
+119,7,Sex Ed,8.2
+120,7,The Sting,8.2
+121,7,Costume Contest,7.8
+122,7,Christening,7.8
+123,7,Viewing Party,8.2
+124,7,WUPHF.com,7.4
+125,7,China,7.8
+126,7,Classy Christmas,7.7
+127,7,Ultimatum,8.2
+128,7,The Seminar,9.0
+129,7,The Search,8.3
+130,7,PDA,7.6
+131,7,Threat Level Midnight,8.5
+132,7,Todd Packer,8.4
+133,7,Garage Sale,9.4
+134,7,Training Day,7.4
+135,7,Michael's Last Dundies,9.4
+136,7,Goodbye Michael,7.8
+137,7,The Inner Circle,9.0
+138,7,Dwight K. Schrute (Acting) Manager,9.8
+139,7,Search Committee,7.6
+140,8,The List,8.7
+141,8,The Incentive,8.8
+142,8,Lotto,8.1
+143,8,Garden Party,8.1
+144,8,Spooked,7.2
+145,8,Doomsday,8.1
+146,8,Pam's Replacement,7.5
+147,8,Gettysburg,7.6
+148,8,Mrs. California,7.7
+149,8,Christmas Wishes,6.8
+150,8,Trivia,7.7
+151,8,Pool Party,7.9
+152,8,Jury Duty,7.9
+153,8,Special Project,8.0
+154,8,Tallahassee,7.4
+155,8,After Hours,7.7
+156,8,Test the Store,7.8
+157,8,Last Day in Florida,8.1
+158,8,Get the Girl,7.8
+159,8,Welcome Party,7.8
+160,8,Angry Andy,6.5
+161,8,Fundraiser,7.0
+162,8,Turf War,7.0
+163,8,Free Family Portrait Studio,7.0
+164,9,New Guys,7.6
+165,9,Roy's Wedding,7.7
+166,9,Andy's Ancestry,7.6
+167,9,Work Bus,7.1
+168,9,Here Comes Treble,7.3
+169,9,The Boat,7.8
+170,9,The Whale,7.0
+171,9,The Target,7.7
+172,9,Dwight Christmas,7.6
+173,9,Lice,7.8
+174,9,Suit Warehouse,8.4
+175,9,Customer Loyalty,7.6
+176,9,Junior Salesman,7.8
+177,9,Vandalism,7.9
+178,9,Couples Discount,7.5
+179,9,Moving On,7.4
+180,9,The Farm,7.2
+181,9,Promos,8.1
+182,9,Stairmageddon,7.5
+183,9,Paper Airplane,8.0
+184,9,Livin' the Dream,8.0
+185,9,A.A.R.M.,8.0
+186,9,Finale,9.1

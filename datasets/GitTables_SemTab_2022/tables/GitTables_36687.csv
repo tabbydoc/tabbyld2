@@ -1,0 +1,31 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24
+activity_id,fields.activity,,,0,,,,True,Activity ID,Activity ID,True,,,[l;d],,string,link,{ 'hrefTemplate': ',,,,,,
+date_of_activity,fields.activity,,,1,,,,True,The date the activity was performed,Date Performed,True,,,[l;d],[c;u],date,link,{ 'hrefTemplate': ',,,,,,
+classification,fields.activity,,,2,,,,True,The class of the activity,Activity Class,True,,activity.class,[l;d],[c],string,,,select,,,TRUE,,
+type,fields.activity,,,3,,,,True,The type of the activity,Type,True,,activity.type.*,[l;d],[c;u],string,link,,select,,,TRUE,,
+serviced_user,fields.activity,custom,,4,,User,,True,User the service activity was performed for,Serviced User,True,,,[l;d],,string,link,{ 'hrefTemplate': ',,,,,,
+serviced_user_id,fields.activity,custom,,5,,User,,True,screensaver_user_id of the user the service activity was performed for,Serviced User ID,True,,,,[c;u],string,link,{ 'hrefTemplate': ',,,,,,
+serviced_username,fields.activity,custom,,6,,User,,True,Username of the user the service activity was performed for,Serviced Username,True,,,,[c;u],string,link,{ 'hrefTemplate': ',,,,,,
+screen_facility_id,fields.activity,screen,facility_id,7,,Screen,,True,Screen Facility ID,Screen,True,,,[l;d],[c;u],string,link,{ 'hrefTemplate': ',,,,,,
+performed_by_user_id,fields.activity,custom,,8,,,,True,The person that performed the activity,Performed by User ID,True,,,,[c;u],string,link,{ 'hrefTemplate': ',,,,,,
+performed_by_username,fields.activity,custom,,9,,,,True,The person that performed the activity,Performed By Username,True,,,,[c;u],string,link,{ 'hrefTemplate': ',,,,,,
+performed_by_name,fields.activity,custom,,10,,,,True,The person that performed the activity,Performed By,True,,,[l;d],,string,link,{ 'hrefTemplate': ',,,,,,
+funding_support,fields.activity,,,11,,,,True,Funding Support,Funding Support,True,,funding_support,[l;d],[c;u],string,,,select,TRUE,,FALSE,,[readEverythingAdmin]
+comments,fields.activity,,,12,,,,True,Comments,Comments,True,,,[l;d],[c;u],string,,,textarea,TRUE,,FALSE,,[readEverythingAdmin]
+created_by_username,fields.activity,custom,,50,,,,True,The admin who created the activity,Created By Username,True,,,,,string,link,{ 'hrefTemplate': ',,,,,,
+created_by_name,fields.activity,custom,,51,,,,True,The admin who created the activity,Created By,True,,,[d],,string,link,{ 'hrefTemplate': ',,,,,,
+date_created,fields.activity,,,52,,,,True,The date the activity was recorded,Date Recorded,True,,,[d],,date,,,,TRUE,,FALSE,,
+screen_type,fields.activity,screen,screen_type,101,fields.screen/screen_type,,,True,Screen Type,Screen Type,True,,screen.type,[],[],string,,{ 'optgroup':'screen' },select,,,FALSE,,
+screen_title,fields.activity,screen,title,102,fields.screen/title,,,True,Screen Title,Screen Title,True,,,[],[],string,,{ 'optgroup':'screen' },,,,FALSE,,
+screen_lab_name,fields.activity,custom,,103,fields.screen/lab_name,,,True,Screen Lab,Screen Lab,True,,,[],[],string,link,{ 'hrefTemplate': ',,,,,,
+screen_lab_head_id,fields.activity,custom,,104,fields.screen/lab_head_id,,,True,Screen Lab Head ID,Screen Lab Head ID,True,,,[],[],string,link,{ 'hrefTemplate': ',,,,,,
+screen_lab_affiliation,fields.activity,custom,,105,fields.screen/lab_affiliation,,,True,Screen Lab Affiliation,Screen Lab Affiliation,True,,,[],[],string,,{ 'optgroup':'screen' },,,,FALSE,,
+screen_lead_screener_id,fields.activity,custom,,106,fields.screen/lead_screener_id,,,True,Screen Lead Screener ID,Screen Lead Screener ID,True,,,[],,string,link,{ 'hrefTemplate': ',,,,,,
+screen_lead_screener_name,fields.activity,custom,,107,fields.screen/lead_screener_name,,,True,Screen Lead Screener,Screen Lead Screener,True,,,[],[],string,link,{ 'hrefTemplate': ',,,,,,
+screen_funding_supports,fields.activity,custom,,108,fields.screen/funding_supports,,,True,Screen Funding Supports,Screen Funding Supports,True,,funding_support,[],[],list,,{ 'optgroup':'screen' },multiselect3,TRUE,,FALSE,,[readEverythingAdmin]
+screen_status,fields.activity,screen,status,109,fields.screen/status,,,True,Screen Status,Screen Status,True,,screen.status,[],[],string,,{ 'optgroup':'screen' },select,TRUE,,FALSE,,
+screen_status_date,fields.activity,screen,status_date,110,fields.screen/status_date,,,True,Screen Status Date,Screen Status Date,True,,,[],[],date,,{ 'optgroup':'screen' },,TRUE,,FALSE,,
+screen_date_of_last_activity,fields.activity,custom,,111,,Screen,,True,Screen Date of Last Activity,Screen Date of Last Activity,True,,,,,date,,{ 'optgroup':'screen' },,TRUE,,FALSE,,
+screen_comments,fields.activity,screen,comments,112,,Screen,,True,Screen Comments,Screen Comments,True,,,,,string,,{ 'optgroup':'screen' },,TRUE,,FALSE,,[readEverythingAdmin]
+apilog_uri,fields.activity,,,113,,Internal,,True,ApiLog URI,ApiLog URI,True,,,,,string,link,{ 'hrefTemplate': ',,,,,,
+cherry_pick_request_id,fields.activity,custom,,114,,Internal,,True,The Cherry Pick Request ID for the associated activity if relevant,Cherry Pick Request ID,True,,,,,string,link,{ 'hrefTemplate': ',,,,,,

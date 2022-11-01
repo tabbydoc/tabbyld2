@@ -1,0 +1,60 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13
+3976,female,,WT,10.13.2004,,06:00,9-6-04,,,,,cage 1 3976 9-6-7-04 bins.xls,hour_summary
+3976,female,,WT,10.14.2004,,06:00,9-5-04,,,,,3976 9-5-6-04 bins.xls,hour_summary
+3976,female,,WT,10.26.2004,,06:00,10-27-04,,,,,cage 1 3976 10-27-28-04 bins.xls,hour_summary
+3976,female,,WT,10.27.2004,,06:00,10-26-04,,,,,cage 1 3976 10-26-27-04 bins.xls,hour_summary
+3976,female,,WT,09.05.2004,,06:00,10-14-04,,,,,cage 1 3976 10-14-15-04 new set file bins.xls,hour_summary
+3976,female,,WT,09.06.2004,,06:00,10-13-04,,,,,cage 1 3976 10-13-14-04 bins.xls,hour_summary
+3977,female,,HD,10.13.2004,,06:00,9-6-04,,,,,cage 3 3977 9-6-7-04 bins.xls,hour_summary
+3977,female,,HD,10.14.2004,,06:00,9-5-04,,,,,3977 9-5-6-04 bins.xls,hour_summary
+3977,female,,HD,10.26.2004,,06:00,10-27-04,,,,,cage 3 3977 10-27-28-04 bins.xls,hour_summary
+3977,female,,HD,10.27.2004,,06:00,10-26-04,,,,,cage 3 3977 10-26-27-04 bins.xls,hour_summary
+3977,female,,HD,09.05.2004,,06:00,10-14-04,,,,,cage 3 3977 10-14-15-04 new set file bins.xls,hour_summary
+3977,female,,HD,09.06.2004,,06:00,10-13-04,,,,,cage 3 3977 10-13-14-04 bins.xls,hour_summary
+4768,female,,WT,10.26.2004,,06:00,12-1-04,,,,,cage 2 4768 12-1-2-04 bins.xls,hour_summary
+4768,female,,WT,10.27.2004,,06:00,11-30-04,,,,,cage 2 4768 11-30-12-1-04 bins.xls,hour_summary
+4768,female,,WT,11.30.2004,,06:00,10-27-04,,,,,cage 2 4768 10-28-29-04 bins.xls,hour_summary
+4768,female,,WT,12.01.2004,,06:00,10-26-04,,,,,cage 2 4768 10-26-27-04 bins.xls,hour_summary
+4769,female,,HD,10.26.2004,,06:00,12-1-04,,,,,cage 4 4769 12-1-2-04 bins.xls,hour_summary
+4769,female,,HD,10.27.2004,,06:00,11-30-04,,,,,cage 4 4769 11-30-12-1-04 bins.xls,hour_summary
+4769,female,,HD,11.30.2004,,06:00,10-27-04,,,,,cage 4 4769 10-27-28-04 bins.xls,hour_summary
+4769,female,,HD,12.01.2004,,06:00,10-26-04,,,,,cage 4 4769 10-26-27-04 bins.xls,hour_summary
+4770,female,,WT,11.01.2004,,06:00,12-6-04,,,,,cage 1 4770 12-6-7-04 bins.xls,hour_summary
+4770,female,,WT,11.02.2004,,06:00,12-5-04,,,,,cage 1 4770 12-5-6-04 bins.xls,hour_summary
+4770,female,,WT,12.05.2004,,06:00,11-2-04,,,,,cage1 4770 11-2-3-04 bins.xls,hour_summary
+4770,female,,WT,12.06.2004,,06:00,11-1-04,,,,,cage 1 4770 11-1-2-04 bins.xls,hour_summary
+4771,female,,HD,11.01.2004,,06:00,12-6-04,,,,,cage 3 4771 12-6-7-04 bins.xls,hour_summary
+4771,female,,HD,11.02.2004,,06:00,12-5-04,,,,,cage 3 4771 12-5-6-04 bins.xls,hour_summary
+4771,female,,HD,12.05.2004,,06:00,11-2-04,,,,,cage3 4771 11-2-3-04 bins.xls,hour_summary
+4771,female,,HD,12.06.2004,,06:00,11-1-04,,,,,cage 3 4771 11-1-2-04 bins.xls,hour_summary
+4989,female,,WT,11.05.2004,,06:00,12-9-04,,,,,cage2 4989 12-9-10-04 bins.xls,hour_summary
+4989,female,,WT,11.06.2004,,06:00,12-11-04,,,,,cage2 4989 12-11-12-04 bins.xls,hour_summary
+4989,female,,WT,12.11.2004,,06:00,11-6-04,,,,,cage2 4989 11-6-7-04 26 hour bins.xls,hour_summary
+4989,female,,WT,12.09.2004,,06:00,11-5-04,,,,,cage2 4989 11-5-6-04 bins.xls,hour_summary
+4990,female,,HD,11.05.2004,,06:00,12-9-04,,,,,cage4 4990 12-9-10-04 bins.xls,hour_summary
+4990,female,,HD,12.11.2004,,06:00,12-11-04,,,,,cage4 4990 12-11-12-04 bins.xls,hour_summary
+4990,female,,HD,12.09.2004,,06:00,11-5-04,,,,,cage4 4990 11-5-6-04 bins.xls,hour_summary
+4992,female,,WT,11.08.2004,,06:00,12-14-04,,,,,cage2 4992 12-14-15-04 bins.xls,hour_summary
+4992,female,,WT,11.09.2004,,06:00,12-13-04,,,,,cage2 4992 12-13-14-04 bins.xls,hour_summary
+4992,female,,WT,12.13.2004,,06:00,11-9-04,,,,,cage2 4992 11-9-10-04 bins.xls,hour_summary
+4992,female,,WT,12.14.2004,,06:00,11-8-04,,,,,cage2 4992 11-8-9-04 bins.xls,hour_summary
+4993,female,,HD,11.08.2004,,06:00,12-14-04,,,,,cage4 4993 12-14-15-04 bins.xls,hour_summary
+4993,female,,HD,11.09.2004,,06:00,12-13-04,,,,,cage4 4993 12-13-14-04 bins.xls,hour_summary
+4993,female,,HD,12.13.2004,,06:00,11-9-04,,,,,cage4 4993 11-9-10-04 bins.xls,hour_summary
+4993,female,,HD,12.14.2004,,06:00,11-8-04,,,,,cage4 4993 11-8-9-04 bins.xls,hour_summary
+5210,female,,HD,11.23.2004,,06:00,12-28-04,,,,,cage1 5210 12-28-29-04 bins.xls,hour_summary
+5210,female,,HD,11.24.2004,,06:00,12-27-04,,,,,cage1 5210 12-27-28-04 bins.xls,hour_summary
+5210,female,,HD,12.27.2004,,06:00,11-24-04,,,,,cage1 5210 11-24-25-04 bins.xls,hour_summary
+5210,female,,HD,12.28.2004,,06:00,11-23-04,,,,,cage1 5210 11-23-24-04 bins.xls,hour_summary
+5211,female,,WT,11.23.2004,,06:00,12-28-04,,,,,cage3 5211 12-28-29-04 bins.xls,hour_summary
+5211,female,,WT,11.24.2004,,06:00,12-27-04,,,,,cage3 5211 12-27-28-04 bins.xls,hour_summary
+5211,female,,WT,12.27.2004,,06:00,11-24-04,,,,,cage3 5211 11-24-25-04 bins.xls,hour_summary
+5211,female,,WT,12.28.2004,,06:00,11-23-04,,,,,cage3 5211 11-23-24-04 bins.xls,hour_summary
+5891,female,,HD,12.23.2004,,06:00,2-2-05,,,,,cage1 5891 2-2-3-05 bins.xls,hour_summary
+5891,female,,HD,12.24.2004,,06:00,2-1-05,,,,,cage1 5891 2-1-2-05 bins.xls,hour_summary
+5891,female,,HD,02.01.2005,,06:00,12-24-04,,,,,cage2 5891 12-24-25-04 bins.xls,hour_summary
+5891,female,,HD,02.02.2005,,06:00,12-23-04,,,,,cage 4 5891 12-23-24-04 bins.xls,hour_summary
+5892,female,,WT,12.23.2004,,06:00,2-2-05,,,,,cage3 5892 2-2-3-05 bins.xls,hour_summary
+5892,female,,WT,12.24.2004,,06:00,2-1-05,,,,,cage3 5892 2-1-2-05 bins.xls,hour_summary
+5892,female,,WT,02.01.2005,,06:00,12-24-04,,,,,cage4 5892 12-24-25-04 bins.xls,hour_summary
+5892,female,,WT,02.02.2005,,06:00,12-23-04,,,,,cage 2 5892 12-23-24-04 bins.xls,hour_summary

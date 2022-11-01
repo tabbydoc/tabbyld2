@@ -1,0 +1,73 @@
+col0,col1,col2,col3,col4,col5
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,9,Needs elicitation
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,10,Design specification
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,11,Project Implementation
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,13,Bug-fixes
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,13,Bug-fixes
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,14,Day-to-day project management
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,15,Standard Operating Procedures (SOPs)
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,16,Enhancement
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,18,Testing
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,20,Views
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,21,Reports
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,22,Randomisation systems
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,24,Sample tracking & storage systems
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,27,Data-entry
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,28,Adverse event reporting
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,34,Offsite Backups
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,41,Analysis
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,42,Design
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,43,Implementation
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,44,Maintenance
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,45,User support
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,46,Using XML based code generation tools
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,47,Policies & Procedures
+1,Birmingham Clinical Trials Unit (BCTU),5,Analyst Programmer,53,"Contract to Invoice process (Contract, Booking, Billing Run, Invoice Approval) "
+2,Cancer Research UK Clinical Trials Unit,2,Data Manager,26,"Entering patients on the trial, via randomisation wizard"
+2,Cancer Research UK Clinical Trials Unit,2,Data Manager,27,Data-entry
+2,Cancer Research UK Clinical Trials Unit,2,Data Manager,29,Collation of treatment records
+2,Cancer Research UK Clinical Trials Unit,2,Data Manager,31,Managing participating clinicians (data warehouse)
+2,Cancer Research UK Clinical Trials Unit,2,Data Manager,32,Managing participating centres (data warehouse)
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,6,Presentation of vehicles on sale days
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,8,"DBA (eg. User / role Management, Maintenance Plans etc) "
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,9,Needs elicitation
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,10,Design specification
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,11,Project Implementation
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,14,Day-to-day project management
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,15,Standard Operating Procedures (SOPs)
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,16,Enhancement
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,18,Testing
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,19,"Data collection systems (Case Report Forms, lab results, patient questionaires etc)"
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,20,Views
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,21,Reports
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,22,Randomisation systems
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,23,Integration & maintenance of the Data Warehouse system
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,25,Maintenance of 'Control of Substances Hazardous to Health (COSHH)' database
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,28,Adverse event reporting
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,41,Analysis
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,42,Design
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,43,Implementation
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,44,Maintenance
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,45,User support
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,47,Policies & Procedures
+2,Cancer Research UK Clinical Trials Unit,5,Analyst Programmer,48,Code review
+3,Synstar Computer Services,1,Track-side Engineer,33,Installation & support of servers and desktop PCs
+3,Synstar Computer Services,1,Track-side Engineer,35,Monitoring of UNIX fail-over cluster
+3,Synstar Computer Services,1,Track-side Engineer,36,Configuration of wireless devices
+3,Synstar Computer Services,1,Track-side Engineer,37,"Installation & service of terminals, printers, barcode scanners etc"
+4,Suresite LTD,6,Laravel Developer,48,Code review
+4,Suresite LTD,6,Laravel Developer,49,Site Action to manage customer issues with history and context links to the CDM application
+4,Suresite LTD,6,Laravel Developer,50,"Manage Customers (Address, Bank Accounts, Contacts, Opening Hours) "
+4,Suresite LTD,6,Laravel Developer,51,"Manage Suppliers (Address, Bank Accounts, Contacts) "
+4,Suresite LTD,6,Laravel Developer,52,"Manage Product and Items (Supplier Products and Price Lists for various currencies, Item Bundles and Prices for various currencies) "
+4,Suresite LTD,6,Laravel Developer,54,"Finance Config (Tax Codes and Rates, Financial Products, Currency X-Change Rates) "
+4,Suresite LTD,6,Laravel Developer,55,Factory pattern to derive a dynamic menu 
+4,Suresite LTD,6,Laravel Developer,56,User defined Lookup to enable the business to change the values in picklists 
+4,Suresite LTD,6,Laravel Developer,57,"Modal window for info, forms and approval "
+6,National Car Auctions,3,Auction Driver,1,General tidiness of the yard
+6,National Car Auctions,3,Auction Driver,2,Route planning
+6,National Car Auctions,3,Auction Driver,3,Speaking to customers
+6,National Car Auctions,3,Auction Driver,4,Vehicle condition checks
+6,National Car Auctions,3,Auction Driver,5,Vehicle loading
+6,National Car Auctions,3,Auction Driver,20,Views
+6,National Car Auctions,3,Auction Driver,31,Managing participating clinicians (data warehouse)

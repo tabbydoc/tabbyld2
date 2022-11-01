@@ -1,0 +1,95 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+1,1,Music,42,Female,5.0,,57.14285714285714,1
+2,1,No Music,66,Female,5.0,,57.14285714285714,2
+3,2,Music,46,Female,4.0,,23.91304347826086,1
+4,2,No Music,57,Female,4.0,,23.91304347826086,2
+5,3,Music,40,Male,4.0,Nice Music,17.5,1
+6,3,No Music,47,Male,4.0,Nice Music,17.5,2
+7,4,Music,37,transexual,3.0,ye bruv very good cuz,-2.702702702702694,1
+8,4,No Music,36,transexual,3.0,ye bruv very good cuz,-2.702702702702694,2
+9,5,Music,36,Female,2.0,,-2.7777777777777857,1
+10,5,No Music,35,Female,2.0,,-2.7777777777777857,2
+11,6,Music,29,Female,5.0,Differemt Music,-6.896551724137936,1
+12,6,No Music,27,Female,5.0,Differemt Music,-6.896551724137936,2
+13,7,Music,28,Female,3.0,,-7.142857142857139,1
+14,7,No Music,26,Female,3.0,,-7.142857142857139,2
+15,8,Music,64,Male,3.0,,-7.8125,1
+16,8,No Music,59,Male,3.0,,-7.8125,2
+17,9,Music,48,Female,4.0,,-12.5,1
+18,9,No Music,42,Female,4.0,,-12.5,2
+19,10,Music,46,Male,1.0,use s3rl - mtc,-13.043478260869565,1
+20,10,No Music,40,Male,1.0,use s3rl - mtc,-13.043478260869565,2
+21,11,Music,43,Female,3.0,,-16.279069767441854,1
+22,11,No Music,36,Female,3.0,,-16.279069767441854,2
+23,12,Music,60,Female,5.0,,-18.33333333333333,1
+24,12,No Music,49,Female,5.0,,-18.33333333333333,2
+25,13,Music,75,Female,4.0,,-20.0,1
+26,13,No Music,60,Female,4.0,,-20.0,2
+27,14,Music,60,Female,1.0,,-21.66666666666667,1
+28,14,No Music,47,Female,1.0,,-21.66666666666667,2
+29,15,Music,50,Female,4.0,,-24.0,1
+30,15,No Music,38,Female,4.0,,-24.0,2
+31,16,Music,52,Male,5.0,,-26.92307692307693,1
+32,16,No Music,38,Male,5.0,,-26.92307692307693,2
+33,17,Music,48,Male,4.0,Good 1 m8,-27.083333333333343,1
+34,17,No Music,35,Male,4.0,Good 1 m8,-27.083333333333343,2
+35,18,Music,65,Male,3.0,,-32.30769230769231,1
+36,18,No Music,44,Male,3.0,,-32.30769230769231,2
+37,19,Music,60,Female,4.0,Better second time,-35.0,1
+38,19,No Music,39,Female,4.0,Better second time,-35.0,2
+39,20,Music,60,Female,3.0,order,-38.33333333333333,1
+40,20,No Music,37,Female,3.0,order,-38.33333333333333,2
+41,21,Music,57,Male,1.0,Better second time,-40.35087719298246,1
+42,21,No Music,34,Male,1.0,Better second time,-40.35087719298246,2
+43,22,Music,60,Female,1.0,Start & ending on a number,-43.333333333333336,1
+44,22,No Music,34,Female,1.0,Start & ending on a number,-43.333333333333336,2
+45,23,Music,66,Male,2.0,,-43.939393939393945,1
+46,23,No Music,37,Male,2.0,,-43.939393939393945,2
+47,24,Music,68,Male,4.0,Good Job,-44.11764705882353,1
+48,24,No Music,38,Male,4.0,Good Job,-44.11764705882353,2
+49,25,Music,60,Female,1.0,Choose Music,-44.99999999999999,1
+50,25,No Music,33,Female,1.0,Choose Music,-44.99999999999999,2
+51,26,Music,58,Male,3.0,Confused,-46.55172413793104,1
+52,26,No Music,31,Male,3.0,Confused,-46.55172413793104,2
+53,27,Music,61,Male,1.0,More Trials,-50.819672131147534,1
+54,27,No Music,30,Male,1.0,More Trials,-50.819672131147534,2
+55,28,No Music,31,Male,2.0,Weird Music,22.58064516129032,1
+56,28,Music,38,Male,2.0,Weird Music,22.58064516129032,2
+57,29,No Music,44,Female,2.0,Variation in music,27.272727272727263,1
+58,29,Music,56,Female,2.0,Variation in music,27.272727272727263,2
+59,30,No Music,46,Female,2.0,-,-36.95652173913043,1
+60,30,Music,29,Female,2.0,-,-36.95652173913043,2
+61,31,No Music,65,Male,2.0,-,-4.615384615384613,1
+62,31,Music,62,Male,2.0,-,-4.615384615384613,2
+63,32,No Music,77,Male,2.0,Experiment/10,-49.35064935064936,1
+64,32,Music,39,Male,2.0,Experiment/10,-49.35064935064936,2
+65,33,No Music,45,Male,2.5,Clearer Instructions,17.777777777777786,1
+66,33,Music,53,Male,2.5,Clearer Instructions,17.777777777777786,2
+67,34,No Music,45,Male,3.8,-,-33.33333333333334,1
+68,34,Music,30,Male,3.8,-,-33.33333333333334,2
+69,35,No Music,36,Female,4.0,Variation in music,-13.888888888888886,1
+70,35,Music,31,Female,4.0,Variation in music,-13.888888888888886,2
+71,36,No Music,40,Female,4.0,-,-10.0,1
+72,36,Music,36,Female,4.0,-,-10.0,2
+73,37,No Music,41,Female,4.0,Practice affects it,-14.63414634146342,1
+74,37,Music,35,Female,4.0,Practice affects it,-14.63414634146342,2
+75,38,No Music,43,Male,4.0,Danker Music,-11.627906976744184,1
+76,38,Music,38,Male,4.0,Danker Music,-11.627906976744184,2
+77,39,No Music,44,Male,4.0,Turn down volume,29.545454545454533,1
+78,39,Music,57,Male,4.0,Turn down volume,29.545454545454533,2
+79,40,No Music,88,Female,4.0,Good Job,-52.27272727272727,1
+80,40,Music,42,Female,4.0,Good Job,-52.27272727272727,2
+81,41,No Music,30,Male,4.5,-,-26.66666666666667,1
+82,41,Music,22,Male,4.5,-,-26.66666666666667,2
+83,42,No Music,58,Male,4.5,Turn down volume,-39.6551724137931,1
+84,42,Music,35,Male,4.5,Turn down volume,-39.6551724137931,2
+85,43,No Music,26,Female,5.0,Fun Experiment,0.0,1
+86,43,Music,26,Female,5.0,Fun Experiment,0.0,2
+87,44,No Music,51,Female,5.0,Fun Experiment,-9.803921568627443,1
+88,44,Music,46,Female,5.0,Fun Experiment,-9.803921568627443,2
+89,45,No Music,55,Male,5.0,Bronze 5,-9.090909090909092,1
+90,45,Music,50,Male,5.0,Bronze 5,-9.090909090909092,2
+91,46,No Music,60,Male,5.0,Good Music,-11.666666666666671,1
+92,46,Music,53,Male,5.0,Good Music,-11.666666666666671,2
+93,47,No Music,60,Female,5.0,Flipping Page,-65.0,1
+94,47,Music,21,Female,5.0,Flipping Page,-65.0,2

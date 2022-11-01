@@ -1,0 +1,44 @@
+col0,col1,col2,col3,col4
+App-About,Informationen,Informations,Informazioni,Information
+App-Lang,Sprache,Langue,Lingua,Language
+App-Share,Teilen,Partager,Condividere,Share
+App-Warning,"Sie verwenden einen veralteten Browser. Um die website in vollem Umfang nutzen zu können, empfehlen wir Ihnen, einen neueren Browser zu installieren.","Vous utilisez un navigateur trop ancien. Pour utiliser toute les possibilités de ce site web, nous vous conseillons d'installer un navigateur plus récent.","Si sta utilizzando un browser non completamente supportato. Per sfruttare appieno le funzionalità di questo sito web, consigliamo di installare un browser più recente",You are using an outdated browser. Please upgrade your browser to improve your experience.
+Finish-Email,E-mail,e-mail,e-mail,E-mail
+Finish-Like,Like,Like,Mi piace,Like
+Finish-Restart,Neustart ,Nouvelle partie,Nuova partita,New Game
+Finish-Text,Teilen Sie Ihr Endergebnis von __score__,Partagez votre résultat de __score__,Condivida il suo risultato finale di __score__,Share your score of __score__
+Finish-Tweet,Tweet,Tweet,Tweet,Tweet
+Game-Close,Beenden,Fermer,Chiudere,Close
+Game-Confirm,Bestätige Schätzung,Confirme ton estimation,Confermare,Confirm guess
+Game-Guess,Rate,Devine,Stimare la posizione ,Make a guess
+Game-Start,Start,Start,Start,Start
+Head-BAR,Schweizerisches Bundesarchiv,Archives fédérales suisses,Archivio federale svizzero,Swiss Federal Archives
+Head-CH,Bundesverwaltung admin.ch,Administration fédérale admin.ch,Amministrazione federale admin.ch,Federal Administration admin.ch
+Head-EDI,Eidg. Departement des Innern,Département fédéral de l'intérieur,Dipartimento federale dell'interno,Federal Department of Home Affairs
+Photo-Copyright,Schweizerisches Bundesarchiv,Archives fédérales suisses,Archivio federale svizzero,Swiss Federal Archives
+Photo-Counter,Foto,Photo,Foto,Photo
+Photo-Restart,Neustart,Nouvelle partie,Nuova partita,Restart game
+Photo-Text,Wo wurde das Foto aufgenommen? Klick in die Karte.,Où a été prise la photographie? Clique sur la carte.,Dove è stata scattata la foto? Cliccare sulla mappa.,Where do you think has the photo been taken? Click anywhere on the map.
+Result-1,Mehr Glück beim nächsten Mal....,Plus de chance la prochaine fois...,Sarà più fortunato la prossima volta ...,Better luck next time...
+Result-2,Gut gemacht.,Bien joué.,Perfetto.,Well done.
+Result-3,Exzellent!,Excellent!,Eccellente !,Excellent!
+Result-Continue,Weiter,Continue,Continuare,Continue
+Result-From,von der korrekten Position und erhalte,de la position correcte et obtiens,dalla posizione esatta. Ottiene,from the correct location and got
+Result-Points,Punkte.,points.,punti.,points.
+Result-Score,Letztes Ergebnis,Dernier résultat,Risultato finale,Last round score:
+Result-Total,Total,Total,Totale,Total
+Share-Message,Ich habe __score__ Punkte auf SwissGuesser gemacht! Schaffst du mehr?,J'ai réalisé un total de __score__ points sur SwissGuesser! Es-tu capable de faire mieux?,Ho ottenuto un risultato di __score__ points su SwissGuesser! Riesci a superarmi?,I just scored __score__ playing SwissGuesser! Can you top it?
+Start-Copyright,Copyright und Datenschutzerklärung,Conditions d'utilisation,Copyright e protezione dei diritti d'autore,Copyright and Data protection
+Start-Credit,Umgesetzt mit,Réalisé avec,Realizzato con,Realized with
+Start-Loading,"Bitte warten, laden ...",Veuillez patienter pendant le chargement...,Attendere il caricamento ...,"Please wait, loading ..."
+Start-Text,"Eine der grössten Fotosammlung des <a href=""http://www.bar.admin.ch"">Schweizerischen Bundesarchivs</a> ist die
+Fotosammlung Erster Weltkrieg, die 5'125 digitalisierte Glasplattennegative zum
+Aktivdienst der Schweizer Armee <a href=""https://www.swiss-archives.ch/archivplansuche.aspx?ID=1439228"">während des Ersten Weltkriegs umfasst</a>. 
+
+Erkennen Sie die Orte, an denen die Soldaten damals ihre Übungen und Manöver abhielten?","Une des plus grandes collections de photographies des <a href=""http://www.bar.admin.ch"">Archives fédérales suisses</a> est celle de la 1ère guerre mondiale: celle-ci comprend 5125 négatifs sur plaques de verre digitalisés concernant le Service Actif de l'armée suisse <a href=""https://www.swiss-archives.ch/archivplansuche.aspx?ID=1439228"">pendant la 1ère guerre mondiale</a>.","La collezione di foto della prima guerra mondiale, una delle più grandi degli <a href=""http://www.bar.admin.ch"">Archivi federali svizzeri</a>, comprende 5125 negativi su supporto di vetro e successivamente digitalizzati. Le foto sono relative al Servizio Attivo dell'esercito svizzero <a href=""https://www.swiss-archives.ch/archivplansuche.aspx?ID=1439228"">durante la prima guerra mondiale</a>.","The photo collection of WW I is one of the largest of the <a href=""http://www.bar.admin.ch"">Swiss Federal Archives</a>. It contains more than 5125 negatives on glass plates which are successively digitized. They document the active service of the Swiss Army <a href=""https://www.swiss-archives.ch/archivplansuche.aspx?ID=1439228"">during the first World War</a>
+Can you guess where the pictures were taken?"
+Start-Title,"SwissGuesser: Fotosammlung
+Erster Weltkrieg",SwissGuesser: collection de photographies de la 1ère guerre mondiale,SwissGuesser: collezione di fotografie della prima guerra mondiale,"SwissGuesser: photo collection from
+World War I"
+Toggle-Map,Karte,Carte,Mappa,Map
+Toggle-Photo,Foto,Photo,Foto,Photo

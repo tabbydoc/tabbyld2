@@ -1,0 +1,48 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11
+2020-01-27,United States,USA,,,,,,,,,
+2020-01-27,United States,USA,,,,,,,,,
+2020-01-26,China,CHN,F,,F,34.0,days,Serious,Mild,Yes,Beijing Ditan Hospital / P1
+2020-01-26,China,CHN,,,,19.0,days,Moderate,Mild,Yes,Beijing Ditan Hospital / P2
+2020-01-26,China,CHN,,,,57.0,days,Moderate,Mild,Yes,Beijing Ditan Hospital / P3
+2020-01-26,China,CHN,,,,37.0,days,Moderate,,Yes,Beijing Ditan Hospital / P4
+2020-01-26,China,CHN,M,,M,24.0,days,Moderate,,Yes,Beijing Ditan Hospital / P5
+2020-01-26,China,CHN,,,,24.0,days,Serious,,Yes,Beijing Ditan Hospital / P6
+2020-01-16,Qatar,QAT,40-44/F,40.0,F,84.0,days,,Moderate,Yes,Patient ID
+2020-01-16,Qatar,QAT,35-39/F,35.0,F,110.0,days,None,None,Yes,Patient ID
+2020-01-16,Qatar,QAT,35-39/M,35.0,M,59.0,days,,None,Yes,Patient ID
+2020-01-16,Qatar,QAT,30-34/M,30.0,M,81.0,days,Serious,Serious,Yes,Patient ID
+2020-01-16,Qatar,QAT,35-39/M,35.0,M,84.0,days,,None,Yes,Patient ID
+2020-01-13,Brazil,BRA,29/F,29.0,F,281.0,days,Mild,Mild,Yes,Reinfection with Brazilian variant (B.1.1.28 subclade). In Manaus.
+2020-01-10,UK,GBR,78/M,78.0,M,250.0,days,Mild,Serious,,Reinfection with UK variant (B.1.1.7)
+2020-01-08,Brazil,BRA,45/F,45.0,F,147.0,days,Mild,Mild (more intense),Yes,Reinfection with E484K mutation
+2020-12-22,Israel,ISR,74/M,74.0,M,90.0,days,Symptomatic,Symptomatic,No,Nursing home resident
+2020-12-17,Mexico,MEX,M,,M,64.0,days,Symptomatic,Symptomatic,,Patient from Guerrero (gender not explicitly confirmed)
+2020-12-16,Brazil,BRA,41/F,41.0,F,145.0,days,Symptomatic,Symptomatic,Yes,"HCW from Fernandópolis, Sao Paulo"
+2020-12-11,Peru,PER,6/F,6.0,F,97.0,days,Mild,Mild,,6yo in Lima. First confirmed case.
+2020-12-09,Brazil,BRA,37/F,37.0,F,116.0,days,Mild,Mild,Yes,"HCW living in Natal, Rio Grande do Norte (counted there), works in Paraiba"
+2020-11-21,South Korea,KOR,21/F,21.0,F,10.0,days,Mild,Mild,Yes,"SK first case, 3 episodes"
+2020-11-10,Belgium,BEL,39/F,39.0,F,185.0,days,Mild (long),Mild (milder),Yes,"HCW, hospital outbreak"
+2020-10-16,Sweden,SWE,53/F,53.0,F,120.0,days,Mild,Mild (milder),Yes,Sahlgrenska Uni Hospital/researcher Johan Ringlander
+2020-10-14,Spain,ESP,62/M,62.0,M,147.0,days,Mild,Serious,Yes,
+2020-10-12,Netherlands,NLD,89/F,89.0,F,54.0,days,Moderate,Serious,No,1st death. Initial report August 24
+2020-09-30,Belgium,BEL,30/M,30.0,M,143.0,days,Mild,Mild,Yes,Antwerp GP
+2020-09-30,Belgium,BEL,25/F,25.0,F,115.0,days,Mild,Mild,Yes,
+2020-09-29,Qatar,QAT,20s/M,20.0,M,45.0,days,,,Yes,Qatar study of all cases
+2020-09-29,Qatar,QAT,40s/M,40.0,M,70.0,days,,,Yes,Qatar study of all cases
+2020-09-29,Qatar,QAT,40s/F,40.0,F,87.0,days,,,Yes,Qatar study of all cases
+2020-09-29,Qatar,QAT,20s/M,20.0,M,54.0,days,,,Yes,Qatar study of all cases
+2020-09-26,United States,USA,60s,60.0,,118.0,days,Serious,Mild,Yes,Seattle area nursing home (Swedish Medical Center)
+2020-09-23,India,IND,27/M,27.0,M,60.0,days,Mild,Mild (more intense),Yes,Mumbai HCW
+2020-09-23,India,IND,31/M,31.0,M,59.0,days,None,Mild,Yes,Mumbai HCW
+2020-09-23,India,IND,27/M,27.0,M,13.0,days,None,Mild,Yes,Mumbai HCW
+2020-09-23,India,IND,24/F,24.0,F,48.0,days,Mild,Mild (more intense),Yes,Mumbai HCW
+2020-09-23,United States,USA,42/M,42.0,M,51.0,days,Mild,Serious,Yes,Military HCW at DoD hospital Virginia
+2020-09-15,India,IND,28/F,28.0,F,101.0,days,None,None,Yes,North India (HCWs)
+2020-09-15,India,IND,25/M,25.0,M,100.0,days,None,None,Yes,North India (HCWs)
+2020-08-30,Ecuador,ECU,46/M,46.0,M,47.0,days,Mild,Moderate,Yes,Quito
+2020-08-28,United States,USA,25/M,25.0,M,31.0,days,Mild,Serious,Yes,"Reno, NV"
+2020-08-26,Netherlands,NLD,60s/M,60.0,M,12.0,days,Mild,Serious,Yes,Tilburg
+2020-08-26,Netherlands,NLD,80s/M,80.0,M,23.0,days,Mild,Mild,Yes,Tilburg
+2020-08-26,Netherlands,NLD,60+,60.0,,60.0,days,,,Yes,
+2020-08-24,Belgium,BEL,51/F,51.0,F,93.0,days,Mild,Mild (less intense),Yes,Leuven
+2020-08-24,Hong Kong,HKG,33/M,33.0,M,123.0,days,Mild,None,Yes,-

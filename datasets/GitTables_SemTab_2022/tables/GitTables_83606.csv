@@ -1,0 +1,97 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13
+Oberbayern,Ingolstadt,,,Stadt,9161,131002,121314,53,56,1013,1258,166,476
+Oberbayern,München,,,Stadt,9162,1429584,1259677,457,503,680,1072,4,5
+Oberbayern,Rosenheim,,9187.0,Stadt,9163,60889,60226,27,30,1140,1276,139,193
+Oberbayern,Altötting,,,Landkreis,9171,107465,109227,68,60,764,787,240,221
+Oberbayern,Berchtesgadener Land,,,Landkreis,9172,102976,102587,74,57,555,751,188,199
+Oberbayern,Bad Tölz-Wolfratshausen,,,Landkreis,9173,123340,120633,69,58,608,732,198,210
+Oberbayern,Dachau,,,Landkreis,9174,146279,134382,54,61,771,715,241,419
+Oberbayern,Ebersberg,,,Landkreis,9175,134873,123895,54,56,665,763,285,345
+Oberbayern,Eichstätt,,,Landkreis,9176,127189,123233,64,58,581,589,438,401
+Oberbayern,Erding,,,Landkreis,9177,131839,123094,58,57,634,689,165,484
+Oberbayern,Freising,,,Landkreis,9178,170357,160655,69,74,774,801,197,713
+Oberbayern,Fürstenfeldbruck,,,Landkreis,9179,210278,199783,68,70,893,911,635,886
+Oberbayern,Garmisch-Partenkirchen,,,Landkreis,9180,85931,87351,61,53,472,611,170,291
+Oberbayern,Landsberg am Lech,Landsberg,,Landkreis,9181,116118,112080,58,57,559,842,145,278
+Oberbayern,Miesbach,,,Landkreis,9182,96773,94970,49,44,596,611,248,350
+Oberbayern,Mühldorf am Inn,Mühldorf,,Landkreis,9183,110296,110930,65,62,732,770,219,247
+Oberbayern,München,,,Landkreis,9184,332800,309080,117,131,791,843,760,1
+Oberbayern,Neuburg-Schrobenhausen,,,Landkreis,9185,93505,91181,45,49,814,747,567,620
+Oberbayern,Pfaffenhofen an der Ilm,Pfaffenhofen,,Landkreis,9186,121594,115809,59,53,629,655,401,364
+Oberbayern,Rosenheim,,9163.0,Landkreis,9187,251850,247057,151,134,550,710,533,627
+Oberbayern,Starnberg,,,Landkreis,9188,131873,129091,50,55,602,606,352,567
+Oberbayern,Traunstein,,,Landkreis,9189,171978,170906,126,109,574,700,457,333
+Oberbayern,Weilheim-Schongau,,,Landkreis,9190,131190,131034,64,66,894,923,226,376
+Niederbayern,Landshut,,9274.0,Stadt,9261,67509,61368,22,26,916,1391,163,228
+Niederbayern,Passau,,9275.0,Stadt,9262,49952,50651,30,28,1061,1168,413,356
+Niederbayern,Straubing,,9278.0,Stadt,9263,46027,44633,27,25,1156,1269,211,227
+Niederbayern,Deggendorf,,,Landkreis,9271,115699,117492,81,73,742,750,245,235
+Niederbayern,Freyung-Grafenau,,,Landkreis,9272,77927,81582,86,63,400,511,83,149
+Niederbayern,Kelheim,,,Landkreis,9273,116495,113237,61,60,749,679,92,130
+Niederbayern,Landshut,,9261.0,Landkreis,9274,151819,148101,95,83,561,591,228,307
+Niederbayern,Passau,,9262.0,Landkreis,9275,186284,189142,147,127,606,645,580,432
+Niederbayern,Regen,,,Landkreis,9276,76265,81416,63,56,599,606,99,93
+Niederbayern,Rottal-Inn,,,Landkreis,9277,118164,119598,76,64,687,724,252,314
+Niederbayern,Straubing-Bogen,,9263.0,Landkreis,9278,97967,97797,68,49,479,449,245,353
+Niederbayern,Dingolfing-Landau,,,Landkreis,9279,93450,91906,61,50,564,691,173,330
+Oberpfalz,Amberg,,9371.0,Stadt,9361,41535,44618,21,20,1246,1060,160,159
+Oberpfalz,Regensburg,,9375.0,Stadt,9362,142292,129859,56,60,953,1272,419,534
+Oberpfalz,Weiden in der Oberpfalz,Weiden,9374.0,Stadt,9363,41817,42672,27,26,1078,1439,96,247
+Oberpfalz,Amberg-Sulzbach,,9361.0,Landkreis,9371,103045,108159,50,40,537,568,103,269
+Oberpfalz,Cham,,,Landkreis,9372,125844,130871,123,94,413,660,183,288
+Oberpfalz,Neumarkt in der Oberpfalz,Neumarkt,,Landkreis,9373,128975,128613,61,56,623,761,280,530
+Oberpfalz,Neustadt an der Waldnaab,Neustadt,9363.0,Landkreis,9374,95184,100081,70,44,473,563,157,203
+Oberpfalz,Regensburg,,9362.0,Landkreis,9375,187205,182193,85,71,898,643,136,188
+Oberpfalz,Schwandorf,,,Landkreis,9376,143614,144748,92,73,717,731,238,400
+Oberpfalz,Tirschenreuth,,,Landkreis,9377,73250,77729,64,46,471,699,149,173
+Oberfranken,Bamberg,,9471.0,Stadt,9461,71952,70081,33,36,1153,1298,267,183
+Oberfranken,Bayreuth,,9472.0,Stadt,9462,71601,73997,36,35,901,1054,347,317
+Oberfranken,Coburg,,9473.0,Stadt,9463,41062,41950,23,23,666,1121,277,80
+Oberfranken,Hof,,9475.0,Stadt,9464,44325,48723,27,24,1380,1039,111,180
+Oberfranken,Bamberg,,9461.0,Landkreis,9471,144695,144825,84,76,651,696,232,229
+Oberfranken,Bayreuth,,9462.0,Landkreis,9472,104615,108724,68,49,540,673,161,227
+Oberfranken,Coburg,,9463.0,Landkreis,9473,86715,91325,59,41,667,719,116,118
+Oberfranken,Forchheim,,,Landkreis,9474,113900,113543,56,45,835,913,175,239
+Oberfranken,Hof,,9464.0,Landkreis,9475,96608,105715,73,48,566,703,175,191
+Oberfranken,Kronach,,,Landkreis,9476,67998,73678,68,52,525,615,81,48
+Oberfranken,Kulmbach,,,Landkreis,9477,72541,77141,46,38,731,897,179,200
+Oberfranken,Lichtenfels,,,Landkreis,9478,66540,70057,46,35,659,824,143,135
+Oberfranken,Wunsiedel im Fichtelgebirge,Wunsiedel,,Landkreis,9479,73403,81631,57,40,689,859,143,160
+Mittelfranken,Ansbach,,9571.0,Stadt,9561,40010,40624,22,19,1083,1103,103,58
+Mittelfranken,Erlangen,,,Stadt,9562,106423,103197,43,42,970,1275,196,292
+Mittelfranken,Fürth,,,Stadt,9563,121519,113422,56,49,821,1121,452,567
+Mittelfranken,Nürnberg,,,Stadt,9564,501072,499237,200,190,876,1169,1,1
+Mittelfranken,Schwabach,,,Stadt,9565,39941,38791,15,15,1470,1554,89,155
+Mittelfranken,Ansbach,,9561.0,Landkreis,9571,179419,183755,110,91,569,675,192,319
+Mittelfranken,Erlangen-Höchstadt,,,Landkreis,9572,132830,130489,58,57,826,774,732,275
+Mittelfranken,Fürth,,,Landkreis,9573,113847,114024,46,43,814,759,149,256
+Mittelfranken,Nürnberger Land,,,Landkreis,9574,165918,168389,78,66,731,792,254,345
+Mittelfranken,Neustadt/Aisch-Bad Windsheim,,,Landkreis,9575,97808,99979,58,49,692,650,251,201
+Mittelfranken,Roth,,,Landkreis,9576,123890,125708,62,51,822,633,118,444
+Mittelfranken,Weißenburg-Gunzenhausen,,,Landkreis,9577,92518,94660,49,35,814,731,231,164
+Unterfranken,Aschaffenburg,,,Stadt,9661,68167,68642,26,27,1035,1385,155,195
+Unterfranken,Schweinfurt,,9678.0,Stadt,9662,51610,54273,27,31,1119,1292,334,228
+Unterfranken,Würzburg,,9679.0,Stadt,9663,124219,133906,46,49,1047,1369,201,277
+Unterfranken,Aschaffenburg,,,Landkreis,9671,172776,174974,82,72,690,722,257,211
+Unterfranken,Bad Kissingen,,,Landkreis,9672,102901,107988,77,51,590,664,253,385
+Unterfranken,Rhön-Grabfeld,,,Landkreis,9673,79676,86094,60,47,508,620,162,180
+Unterfranken,Haßberge,,,Landkreis,9674,84152,87607,55,45,575,618,294,193
+Unterfranken,Kitzingen,,,Landkreis,9675,88492,89501,61,42,622,735,134,173
+Unterfranken,Miltenberg,,,Landkreis,9676,127941,131376,62,56,617,838,394,431
+Unterfranken,Main-Spessart,,,Landkreis,9677,125915,131218,90,71,586,704,389,200
+Unterfranken,Schweinfurt,,9662.0,Landkreis,9678,113747,115924,60,52,535,576,169,154
+Unterfranken,Würzburg,,9663.0,Landkreis,9679,159253,159978,77,70,658,595,67,206
+Schwaben,Augsburg,,,Stadt,9761,281111,262676,101,93,995,1229,439,738
+Schwaben,Kaufbeuren,,9777.0,Stadt,9762,42014,42183,22,21,1137,1170,160,167
+Schwaben,Kempten,,9780.0,Stadt,9763,65624,61360,39,35,794,1319,205,403
+Schwaben,Memmingen,,9778.0,Stadt,9764,42201,41107,28,25,1187,1299,188,288
+Schwaben,Aichach-Friedberg,,,Landkreis,9771,129294,127446,49,56,767,774,358,594
+Schwaben,Augsburg,,,Landkreis,9772,242697,241381,104,109,918,911,273,572
+Schwaben,Dillingen an der Donau,,,Landkreis,9773,93478,95512,44,40,732,884,105,205
+Schwaben,Günzburg,,,Landkreis,9774,121828,122450,60,65,841,793,223,209
+Schwaben,Neu-Ulm,,,Landkreis,9775,167847,163387,70,69,1056,967,636,527
+Schwaben,Lindau (Bodensee),Lindau,,Landkreis,9776,79387,79467,40,34,660,665,145,123
+Schwaben,Ostallgäu,,9762.0,Landkreis,9777,135894,134766,92,79,549,665,427,337
+Schwaben,Unterallgäu,,9764.0,Landkreis,9778,138712,135708,72,70,604,571,144,229
+Schwaben,Donau-Ries,,,Landkreis,9779,130203,130969,75,61,656,843,238,308
+Schwaben,Oberallgäu,,9763.0,Landkreis,9780,150981,150507,83,77,591,619,205,548

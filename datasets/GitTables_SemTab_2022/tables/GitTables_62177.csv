@@ -1,0 +1,10 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27,col28,col29,col30
+Definition,0,file_id,type,1,,manufacturer,1,,product,1.0,,serial_number,1.0,,time_created,1.0,,,,,,,,,,,,,,
+Data,0,file_id,type,5,,manufacturer,15,,garmin_product,22.0,,serial_number,1234.0,,time_created,621463080.0,,,,,,,,,,,,,,
+Definition,0,workout,wkt_name,10,,num_valid_steps,1,,,,,,,,,,,,,,,,,,,,,,,
+Data,0,workout,wkt_name,Example 1,,num_valid_steps,4,,,,,,,,,,,,,,,,,,,,,,,
+Definition,0,workout_step,message_index,1,,wkt_step_name,4,,duration_type,1.0,,duration_value,1.0,,target_type,1.0,,target_value,1.0,,custom_target_value_low,1.0,,custom_target_value_high,1.0,,intensity,1.0,,
+Data,0,workout_step,message_index,0,,wkt_step_name,_A_,,duration_type,0.0,,duration_time,60.0,s,target_type,1.0,,target_hr_zone,0.0,,custom_target_heart_rate_low,50.0,% or bpm,custom_target_heart_rate_high,60.0,% or bpm,intensity,2.0,,
+Data,0,workout_step,message_index,1,,wkt_step_name,B1_,,duration_type,1.0,,duration_distance,500.0,m,target_type,4.0,,target_power_zone,0.0,,custom_target_power_low,1300.0,% or watts,custom_target_power_high,1310.0,% or watts,intensity,0.0,,
+Data,0,workout_step,message_index,2,,wkt_step_name,B2_,,duration_type,1.0,,duration_distance,500.0,m,target_type,4.0,,target_power_zone,0.0,,custom_target_power_low,1260.0,% or watts,custom_target_power_high,1270.0,% or watts,intensity,0.0,,
+Data,0,workout_step,message_index,3,,wkt_step_name,_C_,,duration_type,2.0,,duration_hr,225.0,% or bpm,target_type,4.0,,target_power_zone,0.0,,custom_target_power_low,1220.0,% or watts,custom_target_power_high,1230.0,% or watts,intensity,3.0,,

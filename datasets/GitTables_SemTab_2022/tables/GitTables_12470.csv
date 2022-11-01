@@ -1,0 +1,30 @@
+col0,col1,col2,col3,col4,col5,col6
+ Bebop , no , no , no , no , no , no 
+ BibBase , no , no , no , no , no ," DBLP, Zotero, BibSonomy, Mendeley "
+ BibDesk , yes , yes , no , yes , no ," ACM portal, Jstor, DBLP, Google Scholar, Web of Science, any Z39.50 or Entrez, and others "
+ Biblioscape , no , no , no , yes , no , Import from integrated web browser 
+ BibSonomy , yes , yes , yes , yes , no , various 
+ Bibus , no , no , no , yes , no , none 
+ Bookends , yes , no , no , yes , no ," Web of Science, Amazon, Google Scholar, Z39.50 "
+ Citavi , yes , yes , yes , yes , no ," WorldCat/OCLC, Ovid, EBSCO, ProQuest, Web of Science, Z39.50 (4500+ online resources), SRU. Further catalogs are added upon request. Browser plugins (Firefox, Chrome, Internet Explorer) support DOI lookup, ISBN lookup, PubMed ID lookup, PMCID lookup, arXiv ID lookup, COinS and import from Wikipedia. "
+ CiteULike , yes , yes , yes , yes , no , various  
+ colwiz , yes , yes , yes , yes , no ," Over 30 repositories, Import from integrated web browser "
+ EndNote , yes , no , yes , yes , no , various any Z39.50  
+ JabRef , yes , yes , yes , yes , yes ," ACM Portal, CrossRef, DBLP, DOAJ, DOI, GVK, Google Scholar, INSPIRE-HEP, Medline, MathSciNet, SAO/NASA Astrophysics Data System, Springer, and zbMATH "
+ KBibTeX , yes , yes , yes , yes , no ," BibSonomy, CiteBase, CSB, DBLP, Google Scholar, ScienceDirect, INSPIRE-HEP, Z MATH, Z39.50 "
+ Mendeley , yes , yes , yes , yes , no , various  
+ Paperpile , yes , no , no , yes , no , Google Scholar 
+ Pybliographer , no , no , no , yes , no , none 
+ Qiqqa , yes , no , yes , yes , no ," GoogleScholar, JSTOR "
+ ReadCube (now Papers) , color= , no , yes , yes , no ," Microsoft Academic, Google Scholar "
+ refbase , yes , no , no , yes , no , DOI lookup 
+ RefDB , yes , no , no , yes , no , any Z39.50 
+ Reference Manager , no , no , no , yes , no , various 
+ Referencer , dunno , dunno , dunno , dunno , no , dunno 
+ RefME , dunno , dunno , dunno , dunno , dunno , dunno 
+ RefWorks , no , no , no , yes , no , various 
+ SciRef , no , no , no , no , no , no 
+ Sente , yes , yes , yes , yes , no ," Z39.50, SRU, Web of Knowledge "
+ Wikindx , no , no , no , yes , no , via plug-ins 
+ WizFolio , yes , no , yes , yes , no , various 
+ Zotero , yes , yes , yes , yes , yes , various 

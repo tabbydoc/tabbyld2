@@ -1,0 +1,41 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1,A,0,2023-09-08,France,New Zealand,"Stade de France, Saint-Denis",FRA
+2,A,1,2023-09-09,Italy,Africa 1,"Stade Geoffroy Guichard, Saint-Etienne",FRA
+3,B,0,2023-09-09,Ireland,Europe 2,"Matmut Atlantique, Bordeaux",FRA
+4,C,0,2023-09-09,Australia,Europe 1,"Stade de France, Saint-Denis",FRA
+5,D,0,2023-09-09,England,Argentina,"Stade Vélodrome, Marseille",FRA
+6,B,1,2023-09-10,South Africa,Scotland,"Stade Vélodrome, Marseille",FRA
+7,C,1,2023-09-10,Wales,Fiji,"Matmut Atlantique, Bordeaux",FRA
+8,D,1,2023-09-10,Japan,Americas 2,"Stadium, Toulouse",FRA
+9,A,2,2023-09-14,France,Americas 1,"Stade Pierre-Mauroy, Lille",FRA
+10,A,3,2023-09-15,New Zealand,Africa 1,"Stadium, Toulouse",FRA
+11,B,2,2023-09-16,Ireland,Asia/Pacific 1,"Stade de la Beaujoire, Nantes",FRA
+12,C,2,2023-09-16,Wales,Final Qualifier Winner,"Allianz Riviera, Nice",FRA
+13,D,2,2023-09-16,Oceania 1,Americas 2,"Matmut Atlantique, Bordeaux",FRA
+14,B,3,2023-09-17,South Africa,Europe 2,"Matmut Atlantique, Bordeaux",FRA
+15,C,3,2023-09-17,Australia,Fiji,"Stade Geoffroy Guichard, Saint-Etienne",FRA
+16,D,3,2023-09-17,England,Japan,"Allianz Riviera, Nice",FRA
+17,A,4,2023-09-20,Italy,Americas 1,"Allianz Riviera, Nice",FRA
+18,A,5,2023-09-21,France,Africa 1,"Stade Vélodrome, Marseille",FRA
+19,D,4,2023-09-22,Argentina,Oceania 1,"Stade Geoffroy Guichard, Saint-Etienne",FRA
+20,B,4,2023-09-23,South Africa,Ireland,"Stade de France, Saint-Denis",FRA
+21,C,4,2023-09-23,Europe 1,Final Qualifier Winner,"Stadium, Toulouse",FRA
+22,D,5,2023-09-23,England,Americas 2,"Stade Pierre-Mauroy, Lille",FRA
+23,B,5,2023-09-24,Scotland,Asia/Pacific 1,"Allianz Riviera, Nice",FRA
+24,C,5,2023-09-24,Wales,Australia,"Groupama Stadium, Décines-Charpieu",FRA
+25,A,6,2023-09-27,Americas 1,Africa 1,"Groupama Stadium, Décines-Charpieu",FRA
+26,D,6,2023-09-28,Japan,Oceania 1,"Stadium, Toulouse",FRA
+27,A,7,2023-09-29,New Zealand,Italy,"Groupama Stadium, Décines-Charpieu",FRA
+28,B,6,2023-09-30,Scotland,Europe 2,"Stade Pierre-Mauroy, Lille",FRA
+29,C,6,2023-09-30,Fiji,Europe 1,"Matmut Atlantique, Bordeaux",FRA
+30,D,7,2023-09-30,Argentina,Americas 2,"Stade de la Beaujoire, Nantes",FRA
+31,B,7,2023-10-01,South Africa,Asia/Pacific 1,"Stade Vélodrome, Marseille",FRA
+32,C,7,2023-10-01,Australia,Final Qualifier Winner,"Stade Geoffroy Guichard, Saint-Etienne",FRA
+33,A,8,2023-10-05,New Zealand,Americas 1,"Groupama Stadium, Décines-Charpieu",FRA
+34,A,9,2023-10-06,France,Italy,"Groupama Stadium, Décines-Charpieu",FRA
+35,B,8,2023-10-07,Ireland,Scotland,"Stade de France, Saint-Denis",FRA
+36,C,8,2023-10-07,Wales,Europe 1,"Stade de la Beaujoire, Nantes",FRA
+37,D,8,2023-10-07,England,Oceania 1,"Stade Pierre-Mauroy, Lille",FRA
+38,B,9,2023-10-08,Asia/Pacific 1,Europe 2,"Stade Pierre-Mauroy, Lille",FRA
+39,C,9,2023-10-08,Fiji,Final Qualifier Winner,"Stadium, Toulouse",FRA
+40,D,9,2023-10-08,Japan,Argentina,"Stade de la Beaujoire, Nantes",FRA

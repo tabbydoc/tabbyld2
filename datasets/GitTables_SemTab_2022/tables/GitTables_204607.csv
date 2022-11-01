@@ -1,0 +1,45 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+CD4ML,Continuous Delivery for Machine Learning,Danilo Sato & ..,GL - Tier 1,+++,,19 September 2019,https://martinfowler.com/articles/cd4ml.html
+Rs4ML,Rules of Machine Learning: Best Practices for ML Engineering,Martin Zinkovich,GL - Tier 1,+++,,-,https://developers.google.com/machine-learning/guides/rules-of-ml
+MLTD,Hidden Technical Debt in Machine Learning Systems,"Sculley, David, et al. """,AL,+++,,2014,https://research.google/pubs/pub43146/
+MSCS,Software Engineering for Machine Learning: A Case Study,Saleema Amershi et al,AL,+++,,May 2019,https://doi.org/10.1109/ICSE-SEIP.2019.00042
+SD4DL,Software development best practices in a deep learning environment,Per John,GL - Tier 3,+,,19 April 2019,https://towardsdatascience.com/software-development-best-practices-in-a-deep-learning-environment-a1769e9859b1
+DMP,Data management challenges in production machine learning,Neoklis Polyzotis,GL - Tier 1,+++,,-,https://storage.googleapis.com/pub-tools-public-publication-data/pdf/45a9dcf23dbdfa24dbced358f825636c58518afa.pdf
+VML,Versioning for end-to-end machine learning pipelines,Van Der Weide,AL,+,,June 2018,https://doi.org/10.1145/3076246.3076248
+MLOps,ML Ops: Machine Learning as an engineered disciplined,Towards Data Sc.,GL - Tier 3,+/++,,3 January 2019,https://towardsdatascience.com/ml-ops-machine-learning-as-an-engineering-discipline-b86ca4874a3f
+MLArch,Preparing and Architecting for Machine Learning,Gartner / SAP,GL - Tier 2,+/++,-,17 January 2017,https://www.gartner.com/binaries/content/assets/events/keywords/catalyst/catus8/preparing_and_architecting_for_machine_learning.pdf
+MLTS,What’s your ML Test Score? A rubric for ML production systems,Eric Breck et al.,AL,+++,,-,
+SLRML,Preliminary Systematic Literature Review of Machine Learning System Development Process,Yasuhiro Watanabe et al.,AL,+,,12 October 2019,https://arxiv.org/abs/1910.05528
+MLLG,Machine Learning Logistics,Ted Dunning,GL - TIier 1,+ / ++,,September 2017,https://mapr.com/ebook/machine-learning-logistics/
+MLGov,Model Governance Reducing the Anarchy of Production,Vinay Sridhar,AL,+,,13 July 2018,https://www.usenix.org/conference/atc18/presentation/sridhar
+OPML,Operational Machine Learning,Nisha Talagala,GL - Tier 2,+,,30 April 2018,https://www.kdnuggets.com/2018/04/operational-machine-learning-successful-mlops.html
+CTPML,Continuous Training for Production ML in the TensorFlow Extended (TFX) Platform,Denis Baylor,AL,+++,,20 May 2019,https://www.usenix.org/system/files/opml19papers-baylor.pdf
+DLB,The curse of big data labeling and three ways to solve it ,AWS Admin,GL - Tier 2,+,,06 November 2018,https://aws.amazon.com/blogs/apn/the-curse-of-big-data-labeling-and-three-ways-to-solve-it/
+DLML,The ultimate guide to data labeling for ML,Cloudfactory,GL - Tier 3,+,,-,https://www.cloudfactory.com/data-labeling-guide
+DCML,A Survey on Data Collection for Machine Learning A Big Data - AI Integration Perspective,Yuhi Rog,AL,+++,,8 October 2019,https://arxiv.org/pdf/1811.03402.pdf
+DOML,How to organize data labelling for ML,Altexsoft,GL - Tier 3,+,,-,https://www.altexsoft.com/blog/datascience/how-to-organize-data-labeling-for-machine-learning-approaches-and-tools/
+DQML,Data quality model,ISO,GL - Tier 1,+++,,,"More info in the paper: A Data Quality in Use model for BigData, Table 2"
+MLFAIR,Fairness Indicators,Google,GL - Tier 1,+++,,11 December 2019,https://ai.googleblog.com/2019/12/fairness-indicators-scalable.html
+MLRES,Responsible AI practices,Google,GL - Tier 1,+++,,-,https://ai.google/responsibilities/responsible-ai-practices/
+DSTEAM,Team Data Science Process Documentation,Microsoft,GL - Tier 2,+,,-,https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/
+MLTEAM,How do teams work together on automated ML projects,Microsoft,GL - Tier 3,+,,9 April 2019,https://azure.microsoft.com/en-us/blog/how-do-teams-work-together-on-an-automated-machine-learning-project/
+MLPROD,Machine learning: Moving from experiments to production,Roman Seyffarth,GL - TIer 3,+,,19 Mar 2019,https://blog.codecentric.de/en/2019/03/machine-learning-experiments-production/
+BPMLI,Best Practices in Machine Learning Infrastructure,Algorithmia,GL - Tier 2,+,,5 July 2019,https://algorithmia.com/blog/best-practices-in-machine-learning-infrastructure
+MMLP,Managing Machine Learning Projects,V.M.Megler / Amazon,GL - TIer 2,+,,1 February 2019,https://d1.awsstatic.com/whitepapers/aws-managing-ml-projects.pdf
+BPDL,10 Best Practices for Deep Learning,James Le,GL - Tier 3,+,,December 2019,https://nanonets.com/blog/10-best-practices-deep-learning/
+TDBML,Testing and Debugging in Machine Learning,Google ,GL - Tier 2,++,,-, https://developers.google.com/machine-learning/testing-debugging/pipeline/production
+MDLOPS,ModelOps: Cloud-based lifecycle management for reliable and trusted AI,IBM Research,AL,+,,June 2019,
+PMLPP,Principled Machine Learning: Practices and Tools for Efficient Collaboration,David Herron,GL - Tier 3,+,,June 2019,https://dev.to/robogeek/principled-machine-learning-4eho
+TFX,TFX: A tensorflow-based Production-Scale ML Platform,Google,AL,+++,,17 August 2017,https://dl.acm.org/doi/pdf/10.1145/3097983.3098021?download=true
+BMS,Building Maintainable Software - Ten Guidelines for Future-Proof Code,"Joost Visser, Sylvan Rigal, Gijs Wijnholds, Pascal van Eck, Rob van der Leek",GL - Tier 1,+++,,2016,https://books.google.nl/books?id=-QVQDAAAQBAJ&lpg=PR2&ots=76WJ7VLkGL&lr&pg=PP1
+TTAID,Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims,"OpenAI, Google, Intel, many universities",GL - Tier 1,+++,,April 2020,https://arxiv.org/abs/2004.07213
+AIHLEG,Ethics Guidelines for Trustworthy AI,AI high-level expert group,GL - Tier 1,+++,,April 2019,https://ec.europa.eu/digital-single-market/en/news/ethics-guidelines-trustworthy-ai
+MCARD,Model Cards for Model Reporting,Mitchell et al,AL,+++,,Jan 2019,https://dl.acm.org/doi/abs/10.1145/3287560.3287596
+GOOAML,An Overview of Google\`s Work on AutoML and Future Directions,Jeff Dean (Google),GL,,,June 2019,https://slideslive.com/38917526/an-overview-of-googles-work-on-automl-and-future-directions
+SLAML,Six Levels of Auto ML,Bojan Tunguz,GL,,,Jan 2020,https://medium.com/@tunguz/six-levels-of-auto-ml-a277aa1f0f38
+4LAML,The Four Maturity Levels of Automated Machine Learning: Towards Domain Specific AutoML,Zelros AI,GL,,?,Sep 2019,https://medium.com/@Zelros/the-four-maturity-levels-of-automated-machine-learning-towards-domain-specific-automl-d6e6cfdbbcf1
+SEDS,Software Engineering Decision Support - A New Paradigm for Learning Software Organizations,Günther Ruhe,AL,,,2003,https://doi.org/10.1007/978-3-540-40052-3_10
+MOIEA,Multiobjective Optimization - Interactive and Evolutionary Approaches,Branke et al,AL,+++,,2008,https://doi.org/10.1007/978-3-540-88908-3
+GDMMA,Group Decision Making - Methodology and Applications,Günter Fandel,AL,,,1990,https://doi.org/10.1007/978-3-642-75935-2_24
+CAIAG,Closing the AI Accountability Gap: Defining an End-to-End Framework for Internal Algorithmic Auditing,Raji et al,AL,+++,,2020,https://doi.org/10.1145/3351095.3372873
+IMLG,Interpretable Machine Learning,Christoph Molnar,GL - Tier 1,,,2020,https://christophm.github.io/interpretable-ml-book/

@@ -1,0 +1,14 @@
+col0,col1,col2,col3,col4,col5
+/Animal,AnimalID,,,string,ID of the animal used for this experiment
+,Species,,,string,Species of the animal
+,Sex,,,string,Sex of the animal
+,Birthdate,,,date,Birthdate of the animal
+,Litter,,,string,ID of the litter
+,Seizures,,,string,Occurrence of seizures (observed / not observed)
+/Animal/Surgery,Surgeon,,,string,Name of the surgeon
+,Date,,,date,Date of surgery conduction
+,Weight,,g,float,Weight of the animal
+,Quality,,,string,Quality of the surgery (good / ok / bad)
+,Anaesthetic,,,string,Type of anaesthetic
+,Painkiller,,,string,"Name of painkiller, if used"
+,Link,,,url,URL or folder containing surgery protocol

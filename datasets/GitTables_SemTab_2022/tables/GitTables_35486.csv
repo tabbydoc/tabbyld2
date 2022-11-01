@@ -1,0 +1,34 @@
+col0,col1,col2,col3,col4
+lab_specific_safety_training_completed,userchecklist.name,0,Lab Specific Safety Training Completed,group: Forms
+current_small_molecule_user_agreement_active,userchecklist.name,1,Current Small Molecule User Agreement active,group: Forms
+current_rnai_user_agreement_active,userchecklist.name,2,Current RNAi User Agreement active,group: Forms
+old_data_sharing_agreement_signed,userchecklist.name,3,Old data sharing agreement signed,group: Forms
+non_hms_biosafety_training_form_on_file,userchecklist.name,4,Non-HMS Biosafety Training Form on File,group: Forms
+screener_given_a_copy_of_what_every_new_screener_needs_to_know,userchecklist.name,5,Screener given a copy of 'What Every New Screener Needs to Know',group: Forms
+marcus_library_mta_signed,userchecklist.name,6,Marcus Library MTA Signed,group: Forms
+marcus_iccbl_user_agreement_signed,userchecklist.name,7,Marcus - ICCBL user agreement signed,group: Forms
+mlp_molecular_libraries_program_library_user_agreement_signed,userchecklist.name,8,MLP (Molecular Libraries Program) library user agreement signed,group: Forms
+gsk_kinase_inhibitors_library_user_agreement_signed,userchecklist.name,9,GSK kinase inhibitors library user agreement signed,group: Forms
+roche_kinase_inhibitors_library_user_agreement_signed,userchecklist.name,10,Roche kinase inhibitors library user agreement signed,group: Forms
+id_submitted_for_c_607_access,userchecklist.name,11,ID submitted for C-607 access,group: Imaging
+image_xpress_micro_training,userchecklist.name,12,Image Xpress Micro Training,group: Imaging
+cellworx_training,userchecklist.name,13,CellWoRx training,group: Imaging
+opera_training,userchecklist.name,14,Opera Training,group: Imaging
+image_analysis_training,userchecklist.name,15,Image Analysis training,group: Imaging
+iccb_l_nsrb_image_file_server_access_set_up,userchecklist.name,16,ICCB-L/NSRB image file server access set up,group: Imaging
+historical_iccb_l_nsrb_server_account_set_up_general_account,userchecklist.name,17,Historical - ICCB-L/NSRB server account set up (general account),group: Legacy
+historical_iccb_server_account_requested,userchecklist.name,18,Historical - ICCB server account requested,group: Legacy
+2009_small_molecule_user_level_one_1_agreement_signed,userchecklist.name,19,2009 Small Molecule User Level ONE (1) agreement signed,group: Legacy
+2009_small_molecule_user_level_two_2_agreement_signed,userchecklist.name,20,2009 Small Molecule User Level TWO (2) agreement signed,group: Legacy
+2009_small_molecule_user_level_three_3_agreement_signed,userchecklist.name,21,2009 Small Molecule User Level THREE (3) agreement signed,group: Legacy
+added_to_iccb_l_users_email_list,userchecklist.name,22,Added to ICCB-L Users email list,group: Mailing Lists & Wikis
+added_to_rnai_email_list,userchecklist.name,23,Added to RNAi email list,group: Mailing Lists & Wikis
+added_to_imaging_email_list,userchecklist.name,24,Added to Imaging email list,group: Mailing Lists & Wikis
+added_to_qpcr_email_list,userchecklist.name,25,Added to QPCR email list,group: Mailing Lists & Wikis
+rnai_wiki_access_set_up,userchecklist.name,26,RNAi wiki access set up,group: Mailing Lists & Wikis
+qpcr_wiki_access_set_up,userchecklist.name,27,QPCR wiki access set up,group: Mailing Lists & Wikis
+id_submitted_for_access_to_screening_room,userchecklist.name,28,ID submitted for access to screening room,group: Mailing Lists & Wikis
+added_to_mouse_imager_email_list,userchecklist.name,29,Added to mouse imager email list,group: Mailing Lists & Wikis
+ivis_wiki_access,userchecklist.name,30,IVIS wiki access,group: Mailing Lists & Wikis
+invited_user_ecommons_account_requested,userchecklist.name,31,Invited user eCommons account requested,group: Non-Harvard Screeners
+temporary_id_requested,userchecklist.name,32,Temporary ID requested,group: Non-Harvard Screeners

@@ -1,0 +1,11 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+strikes,strike,strike,306300,NOUN,ROOT,False,0
+down,down,down,92197,ADP,prt,True,0
+part,part,part,226929,NOUN,dobj,True,0
+of,of,of,211535,ADP,prep,True,0
+Arizona,Arizona,arizona,19830,PROPN,compound,False,0
+Voter,Voter,voter,361414,PROPN,compound,False,1
+ID,ID,id,146280,PROPN,compound,False,0
+law,law,law,169329,NOUN,compound,False,1
+Yahoo,Yahoo,yahoo,145532,PROPN,pobj,False,0
+News,news,news,199421,NOUN,ROOT,False,0

@@ -1,0 +1,67 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+332,ENSG00000089685,BIRC5,blood,rs2071214,10,No report,
+332,ENSG00000089685,BIRC5,skin,rs2071214,40,No report,
+1111,ENSG00000149554,CHEK1,blood,rs506504,10,Benign,
+1111,ENSG00000149554,CHEK1,skin,rs506504,40,Benign,
+1956,ENSG00000146648,EGFR,blood,rs2227983,4,Lung cancer,Likely-Benign
+1956,ENSG00000146648,EGFR,blood,rs748219780,1,no report,
+1956,ENSG00000146648,EGFR,skin,rs2227983,16,Lung cancer,
+1956,ENSG00000146648,EGFR,skin,rs748219780,4,no report,
+2064,ENSG00000141736,ERBB2,blood,rs1058808,7,Not specific,
+2064,ENSG00000141736,ERBB2,blood,rs1136201,3,ERBB2 POLYMORPHISM,Benign
+2064,ENSG00000141736,ERBB2,blood,rs368094521,1,Not specific,Likely-Benign
+2064,ENSG00000141736,ERBB2,blood,rs4252633,1,Not specific,
+2064,ENSG00000141736,ERBB2,skin,rs1058808,29,Not specific,
+2064,ENSG00000141736,ERBB2,skin,rs1136201,11,Not specific,
+2064,ENSG00000141736,ERBB2,skin,rs368094521,4,Not specific,
+2064,ENSG00000141736,ERBB2,skin,rs4252633,4,Not specific,
+2597,ENSG00000111640,GAPDH,blood,rs754017958,1,no report,
+2597,ENSG00000111640,GAPDH,skin,rs1360612471,2,no report,
+2597,ENSG00000111640,GAPDH,skin,rs754017958,3,no report,
+2597,ENSG00000111640,GAPDH,skin,rs757090796,2,no report,
+2597,ENSG00000111640,GAPDH,skin,rs915103365,2,no report,
+3791,ENSG00000128052,KDR,blood,rs2305948,1,Not specific,
+3791,ENSG00000128052,KDR,blood,rs34038364,1,Hirschsprung disease 1,Uncertain-Significance
+3791,ENSG00000128052,KDR,blood,rs34231037,2,"Hemangioma, capillary infantile", risk factor
+3791,ENSG00000128052,KDR,blood,rs1870377,3,Not specific,
+3791,ENSG00000128052,KDR,skin,rs2305948,4,Not specific,
+3791,ENSG00000128052,KDR,skin,rs34038364,4,Hirschsprung disease 1,
+3791,ENSG00000128052,KDR,skin,rs34231037,7,"Hemangioma, capillary infantile",risk factor
+3791,ENSG00000128052,KDR,skin,rs1870377,11,not specific,
+4233,ENSG00000105976,MET,skin,novel,1,,
+4233,ENSG00000105976,MET,skin,rs56391007,3,https://www.ncbi.nlm.nih.gov/snp/rs56391007,
+4233,ENSG00000105976,MET,blood,rs56391007,1,https://www.ncbi.nlm.nih.gov/snp/rs56391007,
+5156,ENSG00000134853,PDGFRA,blood,rs35597368,1,https://www.ncbi.nlm.nih.gov/snp/rs35597368,
+5156,ENSG00000134853,PDGFRA,skin,rs35597368,4,https://www.ncbi.nlm.nih.gov/snp/rs35597368,
+5290,ENSG00000121879,PIK3CA,skin,novel,3,,
+5290,ENSG00000121879,PIK3CA,skin,rs2230461,7,Not Specific,Benign
+5290,ENSG00000121879,PIK3CA,skin,,2,,
+5290,ENSG00000121879,PIK3CA,blood,rs2230461,2,Not SPecific,Benign
+5430,ENSG00000181222,POLR2A,blood,rs4344809,20,no report,
+5430,ENSG00000181222,POLR2A,skin,novel,6,,
+5430,ENSG00000181222,POLR2A,skin,rs4344809,80,no report,
+5430,ENSG00000181222,POLR2A,blood,novel,2,,
+5430,ENSG00000284832,POLR2A,blood,rs4344809,20,no report,
+5430,ENSG00000284832,POLR2A,skin,novel,6,,
+5430,ENSG00000284832,POLR2A,skin,rs4344809,80,no report,
+5430,ENSG00000284832,POLR2A,blood,novel,2,,
+5591,ENSG00000253729,PRKDC,blood,rs4278157,1,Immunodeficiency 26 with or without neurologic abnormalities,Benign
+5591,ENSG00000253729,PRKDC,blood,rs545202367,1,no report,
+5591,ENSG00000253729,PRKDC,blood,rs7830743,3,Not specific,Benign
+5591,ENSG00000253729,PRKDC,blood,rs11411516,10,no report,
+5591,ENSG00000253729,PRKDC,blood,rs8178046,1,benign,Immunodeficiency 26 with or without neurologic abnormalities
+5591,ENSG00000253729,PRKDC,blood,rs8178228,1,benign,Immunodeficiency 26 with or without neurologic abnormalities
+5591,ENSG00000253729,PRKDC,skin,novel,1,,
+5591,ENSG00000253729,PRKDC,skin,rs11411516,40,no report,
+5591,ENSG00000253729,PRKDC,skin,rs4278157,7,Immunodeficiency 26 with or without neurologic abnormalities,Benign
+5591,ENSG00000253729,PRKDC,skin,rs545202367,4,no report,
+5591,ENSG00000253729,PRKDC,skin,rs7830743,12,Not specific,Benign
+5591,ENSG00000253729,PRKDC,skin,rs8178033,4,benign,Immunodeficiency 26 with or without neurologic abnormalities
+5591,ENSG00000253729,PRKDC,skin,rs8178046,3,benign,Immunodeficiency 26 with or without neurologic abnormalities
+5591,ENSG00000253729,PRKDC,skin,rs8178228,4,benign,
+5591,ENSG00000253729,PRKDC,blood,rs8178033,1,benign,Immunodeficiency 26 with or without neurologic abnormalities
+6241,ENSG00000171848,RRM2,blood,rs1130609,10,no report,
+6241,ENSG00000171848,RRM2,skin,rs1130609,41,no report,
+8729,ENSG00000107862,GBF1,skin,rs11191274,3,Immunodeficiency 26 with or without neurologic abnormalities,benign
+348738,ENSG00000171848,RRM2,blood,rs7423163,3,no report,
+348738,ENSG00000171848,RRM2,skin,rs7423163,11,no report,

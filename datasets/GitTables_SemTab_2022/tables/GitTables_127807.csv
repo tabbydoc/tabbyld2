@@ -1,0 +1,42 @@
+col0,col1,col2,col3
+Priority_Group,,Integer,"1: Covid Facing, 2: Long term resident, 3: first responder, 4: other congregate, 5: home based healthcare, 6: non covid healthcare, 7: 65+, 8: 2+ medical conditions, 9: low income residents, 10: 75+ accompanying, 11: None already got the first"
+patient_first_name,,First name,
+patient_middle_initial,,Middle initial,
+patient_last_name,,Last Name,
+patient_race,I choose not to answer,,
+patient_ethnicity,I choose not to answer,,
+patient_date_of_birth_2i,,Birth Month,Full month name with capitol first letter
+patient_date_of_birth_3i,,Birth Day,1 digit number for under 10
+patient_date_of_birth_1i,,Birth Year,4 digit year
+patient_sex,,Sex,Male/Female
+patient_email,,email,
+patient_phone_number,,phone number,
+patient_phone_number_type,Mobile,,
+patient_address,,Street address,
+locality,,City,
+administrative_area_level_1,Massachusetts,,
+postal_code,,Zip code,
+patient_insurance_type,Private Insurance,insurance type,
+patient_insurance_company_name,Blue Cross Blue Shield,,
+patient_member_id_for_insurance,,insurance ID,
+patient_insured_first_name,,Policy Holders First Name,
+patient_insured_last_name,,Policy Holders Last name,
+patient_insured_date_of_birth_2i,,Policy Holders birth month,Full month name with capitol first letter
+patient_insured_date_of_birth_3i,,Policy Holders birth day,1 digit number if under 10
+patient_insured_date_of_birth_1i,,Policy Holders birth year,4 digit year
+patient_relation_to_patient_for_consent,,Policy holders relation to patient,Self/Spouse
+7,,Are you feeling sick today,yes/no
+8,,"Have you ever received a dose of COVID-19 vaccine? If yes, which vaccine product? Pfizer  Moderna Another product",yes/no
+9,,"Have you ever had a severe allergic reaction (e.g., anaphylaxis) to something? For example, a reaction for which you were treated with epinephrine or EpiPen®, or for which you had to go to the hospital?",yes/no
+patient_patient_question_answers_attributes_2_additional_info,,Additional info for question 9 if yes,
+10,,Have you received passive antibody therapy (monoclonal antibodies or convalescent serum) as treatment for COVID-19?,yes/no
+11,,Have you received another vaccine in the last 14 days?,yes/no
+12,,Have you had a positive test for COVID-19 or has a doctor ever told you that you had COVID-19?,yes/no
+13,,Do you have a weakened immune system caused by something such as HIV infection or cancer or do you take immunosuppressive drugs or therapies?,yes/no
+14,,Do you have a bleeding disorder or are you taking a blood thinner?,yes/no
+15,,Are you pregnant or breastfeeding?,yes/no
+16,,Was the severe allergic reaction after receiving a COVID-19 vaccine? ,yes/no
+17,,Was the severe allergic reaction after receiving another vaccine or another injectable medication?,yes/no
+covid_vaccine_number,,,first/second
+first_vaccine_brand,,,pfizer/moderna leave blank if it is your first
+patient_patient_question_answers_attributes_1_additional_info,,,pfizer/moderna leave blank if it is your first

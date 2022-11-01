@@ -1,0 +1,29 @@
+col0,col1,col2,col3,col4
+Cvedetails,https://www.cvedetails.com,"""https://www.cvedetails.com/vulnerability-feed.php?vendor_id=0&product_id=0&version_id=0&hasexp=1&orderby=2&cvssscoremin=0",Vulnerabilities.With Exploits,1
+Cvedetails,https://www.cvedetails.com,https://www.cvedetails.com/vulnerability-feed.php?vendor_id=0&product_id=0&version_id=0&opcsrf=1&orderby=2&cvssscoremin=0,Vulnerabilities (CSRF),1
+Cvedetails,https://www.cvedetails.com,https://www.cvedetails.com/vulnerability-feed.php?vendor_id=0&product_id=0&version_id=0&opsqli=1&orderby=2&cvssscoremin=0,Vulnerabilities (SQL Injection),1
+Cvedetails,https://www.cvedetails.com,https://www.cvedetails.com/vulnerability-feed.php?vendor_id=0&product_id=0&version_id=0&opmemc=1&orderby=2&cvssscoremin=0,Vulnerabilities (Memory Corruption),1
+Cvedetails,https://www.cvedetails.com,https://www.cvedetails.com/vulnerability-feed.php?vendor_id=0&product_id=0&version_id=0&opginf=1&orderby=2&cvssscoremin=0,Vulnerabilities (Gain Information),1
+Cvedetails,https://www.cvedetails.com,https://www.cvedetails.com/vulnerability-feed.php?vendor_id=0&product_id=0&version_id=0&opec=1&orderby=2&cvssscoremin=0,Vulnerabilities (Execute Code),1
+Cvedetails,https://www.cvedetails.com,https://www.cvedetails.com/vulnerability-feed.php?vendor_id=0&product_id=0&version_id=0&opfileinc=1&orderby=2&cvssscoremin=0,Vulnerabilities (File Inclusion),1
+Cvedetails,https://www.cvedetails.com,https://www.cvedetails.com/vulnerability-feed.php?vendor_id=0&product_id=0&version_id=0&opxss=1&orderby=2&cvssscoremin=0,Vulnerabilities (Cross Site Scripting (XSS)),1
+Cvedetails,https://www.cvedetails.com,https://www.cvedetails.com/vulnerability-feed.php?vendor_id=0&product_id=0&version_id=0&ophttprs=1&orderby=2&cvssscoremin=0,Vulnerabilities (Http Response Splitting),1
+Cvedetails,https://www.cvedetails.com,https://www.cvedetails.com/vulnerability-feed.php?vendor_id=0&product_id=0&version_id=0&opdos=1&orderby=2&cvssscoremin=0,Vulnerabilities (Denial Of Service),1
+Cvedetails,https://www.cvedetails.com,https://www.cvedetails.com/vulnerability-feed.php?vendor_id=0&product_id=0&version_id=0&opov=1&orderby=2&cvssscoremin=0,Vulnerabilities (Overflow),1
+Cvedetails,https://www.cvedetails.com,https://www.cvedetails.com/vulnerability-feed.php?vendor_id=0&product_id=0&version_id=0&opgpriv=1&orderby=2&cvssscoremin=0,Vulnerabilities (Gain Privilege),1
+Cvedetails,https://www.cvedetails.com,https://www.cvedetails.com/vulnerability-feed.php?vendor_id=0&product_id=0&version_id=0&opdirt=1&orderby=2&cvssscoremin=0,Vulnerabilities (Directory Traversal),1
+Cvedetails,https://www.cvedetails.com,https://www.cvedetails.com/vulnerability-feed.php?vendor_id=0&product_id=0&version_id=0&opbyp=1&orderby=2&cvssscoremin=0,Vulnerabilities (Bypass),1
+Exploit-DB.com,Exploit-DB.com,https://www.exploit-db.com/rss.xml,Exploit-DB.com,1
+OS:  Arch,https://linuxsecurity.com,https://linuxsecurity.com/advisories/archlinux?format=feed&type=rss,OS:  Arch,1
+OS: CentOS,https://linuxsecurity.com,https://linuxsecurity.com/advisories/centos?format=feed&type=rss,OS:  CentOS,1
+OS: Debian,https://linuxsecurity.com,https://linuxsecurity.com/advisories/debian?format=feed&type=rss,OS: Debian,1
+OS: Debian LTS,https://linuxsecurity.com,https://linuxsecurity.com/advisories/deblts?format=feed&type=rss,OS: Debian LTS,1
+OS: Fedora ,https://linuxsecurity.com,https://linuxsecurity.com/advisories/fedora?format=feed&type=rss,OS: Fedora,1
+OS: Gentoo,https://linuxsecurity.com,https://linuxsecurity.com/advisories/gentoo?format=feed&type=rss,OS: Gentoo,1
+OS: Mangia,https://linuxsecurity.com,https://linuxsecurity.com/advisories/mageia?format=feed&type=rss,OS: Mangia,1
+OS: RedHat,https://linuxsecurity.com,https://linuxsecurity.com/advisories/red-hat?format=feed&type=rss,OS: RedHat,1
+OS: Scientific,https://linuxsecurity.com,https://linuxsecurity.com/advisories/scilinux?format=feed&type=rss,OS: Scientific,1
+OS: Slackware,https://linuxsecurity.com,https://linuxsecurity.com/advisories/slackware?format=feed&type=rss,OS: Slackware,1
+OS: Ubuntu,https://linuxsecurity.com,https://linuxsecurity.com/advisories/ubuntu?format=feed&type=rss,OS: Ubuntu,1
+OS: OpenSuse,https://linuxsecurity.com,https://linuxsecurity.com/advisories/opensuse?format=feed&type=rss,OS: OpenSuse,1
+OS: Suse,https://linuxsecurity.com,https://linuxsecurity.com/advisories/suse?format=feed&type=rss,OS: Suse,1

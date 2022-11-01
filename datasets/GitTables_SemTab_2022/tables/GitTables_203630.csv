@@ -1,0 +1,69 @@
+col0,col1,col2,col3
+culture_growth_condition,culture_medium,ID_reference,[24347]
+culture_growth_condition,culture_medium,media_link,['https://www.dsmz.de/microorganisms/medium/pdf/DSMZ_Medium92.pdf']
+culture_growth_condition,culture_medium,medium_composition,['<br> Trypticase soy broth                        30.0      g<br> Yeast extract                                3.0      g<br> Agar                                        15.0      g<br> Distilled water                           1000.0     ml<p>Adjust pH to 7.0 - 7.2.']
+culture_growth_condition,culture_medium,medium_growth,[True]
+culture_growth_condition,culture_medium,medium_name,"['TRYPTICASE SOY YEAST EXTRACT MEDIUM (DSMZ Medium 92), 28°C']"
+culture_growth_condition,culture_temp,ID_reference,[24347]
+culture_growth_condition,culture_temp,ability,['positive']
+culture_growth_condition,culture_temp,temp,[28]
+culture_growth_condition,culture_temp,temperature_range,['mesophilic']
+culture_growth_condition,culture_temp,test_type,['optimum']
+environment_sampling_isolation_source,origin,ID_reference,[24347]
+environment_sampling_isolation_source,origin,continent,['Asia']
+environment_sampling_isolation_source,origin,country,['Indian Ocean']
+environment_sampling_isolation_source,origin,enrichment_cult_composition,
+environment_sampling_isolation_source,origin,enrichment_cult_duration,
+environment_sampling_isolation_source,origin,enrichment_cult_name,
+environment_sampling_isolation_source,origin,enrichment_cult_temp,
+environment_sampling_isolation_source,origin,geo_loc_name,"[""(81° 04.978' E, 1° 53.375' N, 4481 m depth)""]"
+environment_sampling_isolation_source,origin,isolation_date,
+environment_sampling_isolation_source,origin,latitude,[1.8896]
+environment_sampling_isolation_source,origin,longitude,[81.083]
+environment_sampling_isolation_source,origin,procedure_origin,
+environment_sampling_isolation_source,origin,sample_date,
+environment_sampling_isolation_source,origin,sample_type,['deep sea sediment']
+molecular_biology,GC_content,GC_content,['42.4']
+molecular_biology,GC_content,GC_method,['high pressure liquid chromatography (HPLC)']
+molecular_biology,GC_content,ID_reference,[24347]
+molecular_biology,sequence,DB_sequence,['INSDC']
+molecular_biology,sequence,ID_reference,[24347]
+molecular_biology,sequence,NCBI_Gi,[1011764626]
+molecular_biology,sequence,NCBI_tax_ID,[1817405]
+molecular_biology,sequence,Sequence_accession_title,"['Abyssicoccus albus strain LIPI11-2-Ac043 16S ribosomal RNA gene, partial sequence']"
+molecular_biology,sequence,seq_acc_num,['KT935587']
+molecular_biology,sequence,sequence_length,[1576]
+references,strains,ID_reference,"[24347, 20215]"
+references,strains,reference,"['Leibniz Institut DSMZ-Deutsche Sammlung von Mikroorganismen und Zellkulturen GmbH; Curators of the DSMZ; DSM 29158', 'D.Gleim, M.Kracht, N.Weiss et. al.: Prokaryotic Nomenclature Up-to-date - compilation of all names of Bacteria and Archaea, validly published according to the Bacteriological Code since 1. Jan. 1980, and validly published nomenclatural changes since. ']"
+strain_availability,strain_history,ID_reference,[24347]
+strain_availability,strain_history,history,"['<- W.-J. Li, YIM; YIM M12140 <- J. Zhao']"
+strain_availability,strains,ID_reference,[24347]
+strain_availability,strains,strain_number,"['DSM 29158, CCTCC AB 2014213']"
+taxonomy_name,strains,ID_reference,[24347]
+taxonomy_name,strains,class,['Bacilli']
+taxonomy_name,strains,designation,['YIM M12140']
+taxonomy_name,strains,domain,['Bacteria']
+taxonomy_name,strains,family,['Staphylococcaceae']
+taxonomy_name,strains,full_scientific_name,['Abyssicoccus albus Jiang et al. 2016']
+taxonomy_name,strains,genus,['Abyssicoccus']
+taxonomy_name,strains,is_type_strain,[True]
+taxonomy_name,strains,ordo,['Bacillales']
+taxonomy_name,strains,phylum,['Firmicutes']
+taxonomy_name,strains,species,['Abyssicoccus albus']
+taxonomy_name,strains,species_epithet,['albus']
+taxonomy_name,strains,subspecies_epithet,
+taxonomy_name,strains_tax_PNU,ID_reference,[20215]
+taxonomy_name,strains_tax_PNU,class,['Bacilli']
+taxonomy_name,strains_tax_PNU,domain,['Bacteria']
+taxonomy_name,strains_tax_PNU,family,['Staphylococcaceae']
+taxonomy_name,strains_tax_PNU,full_scientific_name,['Abyssicoccus albus Jiang et al. 2016']
+taxonomy_name,strains_tax_PNU,genus,['Abyssicoccus']
+taxonomy_name,strains_tax_PNU,is_type_strain,[True]
+taxonomy_name,strains_tax_PNU,ordo,
+taxonomy_name,strains_tax_PNU,phylum,['Firmicutes']
+taxonomy_name,strains_tax_PNU,species,['Abyssicoccus albus']
+taxonomy_name,strains_tax_PNU,species_epithet,['albus']
+taxonomy_name,strains_tax_PNU,status_fam,
+taxonomy_name,strains_tax_PNU,status_gen,['gen. nov. (VL) ']
+taxonomy_name,strains_tax_PNU,status_spec,['sp. nov. (VL)']
+taxonomy_name,strains_tax_PNU,subspecies_epithet,

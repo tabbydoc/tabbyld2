@@ -1,0 +1,118 @@
+col0,col1,col2
+melissajacobson@hotmail.com,SWEnet: Module Submission Request Approved for user <UserName>,"""<Name>, Modules you've submitted or are listed as an author of will be listed in the My Modules section of the My Account page (<SiteURL>/MyAccount.aspx).  <CustomMessage> Thank you The SWEnet Editors""
+
+Your request for permission to submit modules has been approved.
+
+You may submit modules by clicking on the Upload Module"" link on the left side of every page when you log in or visiting <SiteURL>/editModule.aspx."
+shannon51@yahoo.com,SWEnet: Module Submission Request Denied for user <UserName>,"<Name>,
+
+Sorry, but your request for permission to submit modules has been denied.
+
+You may continue to use the site as a general user.
+
+<CustomMessage>
+
+Thank you,
+
+The SWEnet Editors"
+vmatthews@sanchez.com,SWEnet: Module <ModuleTitle> Approved,"<Name>,
+
+Your module, <ModuleTitle>, has been approved.  You can view it here: <SiteURL>/viewModule.aspx?moduleID=<ModuleID>.
+
+<CustomMessage>
+
+Thank you,
+
+The SWEnet Editors"
+nathanjackson@cabrera-garcia.com,SWEnet: Module <ModuleTitle> Denied,"<Name>,
+
+Your module, <ModuleTitle>, has been denied.
+
+<CustomMessage>
+
+Thank you,
+
+The SWEnet Editors
+"
+montoyacynthia@guzman.com,SWEnet: Module <ModuleTitle> Denied,"<Name>,
+
+Your module, <ModuleTitle>, has been denied and removed from the system.
+
+<CustomMessage>
+
+Thank you,
+
+The SWEnet Editors"
+hdavis@jacobs.com,SWEnet: User Role Changed by Administrator,"<Name>,
+
+Your user role has been changed to <Role>.
+
+Thank you,
+
+The SWEnet Administrators"
+zclark@giles.net,SWEnet: Password reset,"<Name>,
+
+Your new password is: <Password>.  You may change this password in
+the EditUserInfo page (accessible from the MyAccount page).
+
+If you did not request a password reset, we would advise that you
+change your Secret Question and answer.
+
+Thank you,
+
+The SWEnet Administrators"
+huffchad@gmail.com,SWEnet: User <UserName> Awaiting Submitter Status,"Editors,
+
+<Name> has requested submitter status and is awaiting approval.  Approved submitters will be able to upload and edit modules of their own.
+
+You can accept or reject this request at the Editor's Page (<SiteURL>/EditorsPage.aspx).
+
+NOTE: It is advised that you approve a submitter only if you know who that person is.
+
+Thank you,
+
+The SWEnet Administrators"
+ryan08@yahoo.com,SWEnet: Module <ModuleTitle> Awaiting Approval,"Editors,
+
+The module <ModuleTitle> has been submitted or edited by <Name> and is awaiting approval.  A module must be approved before it can be viewed and assessed by others.
+
+You can approve or reject this module at the Editor's Page (<SiteURL>/EditorsPage.aspx).
+
+Thank you,
+
+The SWEnet Administrators"
+lyonspeter@howard-dennis.org,SWEnet: User <UserName> Awaiting Faculty Confirmation,"Editors,
+
+<Name> has requested to be confirmed as legitimate faculty.  Registered faculty will be able to access materials protected from public view.
+
+You can accept or reject this request at the Editor's Page (<SiteURL>/EditorsPage.aspx).
+
+<Name> has provided the following evidence of faculty standing:
+
+<CustomMessage>
+
+Thank you,
+
+The SWEnet Administrators"
+tammybrown@moore.com,SWEnet: Faculty Status Request Approved For User <UserName>,"<Name>,
+
+Your request to be recognized as faculty on SWEnet has been approved.
+
+You may now view faculty-exclusive materials within the submitted modules.
+
+<CustomMessage>
+
+Thank you,
+
+The SWEnet Editors"
+alexandermaldonado@hotmail.com,SWEnet: Faculty Status Request Denied For User <UserName>,"<Name>,
+
+Sorry, but your request for faculty staning on SWEnet has been denied.
+
+You may continue to use the site as a general user.
+
+<CustomMessage>
+
+Thank you,
+
+The SWEnet Editors"

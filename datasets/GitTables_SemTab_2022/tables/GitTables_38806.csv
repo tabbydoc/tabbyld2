@@ -1,0 +1,21 @@
+col0,col1,col2,col3,col4
+__export__.account_journal_21,Gastos de personal,01,Purchase,__export__.ir_sequence_41
+__export__.account_journal_22,"Gastos por trabajo, suministros y servicios",02,Purchase,__export__.ir_sequence_42
+__export__.account_journal_23,Arrendamientos,03,Purchase,__export__.ir_sequence_43
+__export__.account_journal_24,Gastos de Activos Fijos,04,Purchase,__export__.ir_sequence_44
+__export__.account_journal_25,Gastos de Representación,05,Purchase,__export__.ir_sequence_45
+__export__.account_journal_26,Otras Deducciones Admitidas,06,Purchase,__export__.ir_sequence_46
+__export__.account_journal_27,Gastos Financieros,07,Purchase,__export__.ir_sequence_47
+__export__.account_journal_28,Gastos Extraordinarios,08,Purchase,__export__.ir_sequence_48
+__export__.account_journal_29,Compras y Gastos que forman parte del Costo de Venta,09,Purchase,__export__.ir_sequence_49
+__export__.account_journal_30,Adquisiciones de Activos,10,Purchase,__export__.ir_sequence_50
+__export__.account_journal_12,Facturas que generan crédito fiscal y/o sustentan costos y gasto,101,Sale,__export__.ir_sequence_32
+__export__.account_journal_13,Facturas a consumidores finales (sin valor de crédito fiscal),102,Sale,__export__.ir_sequence_33
+__export__.account_journal_14,Notas de credito factura,103,Sale Refund,__export__.ir_sequence_34
+__export__.account_journal_15,Nota de debito factura,104,Sale,__export__.ir_sequence_35
+__export__.account_journal_31,Gastos de Seguro,11,Purchase,__export__.ir_sequence_51
+__export__.account_journal_16,Registro de proveedores informales,111,Purchase,__export__.ir_sequence_36
+__export__.account_journal_17,Registro de gastos menores,113,Purchase,__export__.ir_sequence_37
+__export__.account_journal_18,Registro regímenes especiales de tributación,114,Sale,__export__.ir_sequence_38
+__export__.account_journal_19,Comprobantes gubernamentales ,115,Sale,__export__.ir_sequence_39
+__export__.account_journal_20,Banco Popular 54789122,BAN1,Bank and Checks,__export__.ir_sequence_40

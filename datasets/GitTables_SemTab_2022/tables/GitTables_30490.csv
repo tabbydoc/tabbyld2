@@ -1,0 +1,12 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+FAMI,,Mijn Familie,Ma Famille,http://vocab.belgif.be/be-theme/FAMI,,,
+TAXE,,Mijn Belastingen,Mes Impôts,http://vocab.belgif.be/be-theme/TAXE,,,
+SECU,,Mijn Veiligheid,Ma Sécurité,,,http://vocab.belgif.be/be-theme/JUST,
+HEAL,,Mijn Gezondheid,Ma Santé,http://vocab.belgif.be/be-theme/HEAL,,,
+WORK,,Mijn Werk,Mon Emploi,http://vocab.belgif.be/be-theme/WORK,,,
+MOBI,,Mijn Mobiliteit,Ma Mobilité,http://vocab.belgif.be/be-theme/MOBI,,,
+JUST,,Justitie,Justice,,,http://vocab.belgif.be/be-theme/JUST,
+ECON,,Economie,Economie,,,http://publications.europa.eu/resource/authority/data-theme/ECON,http://vocab.belgif.be/be-theme/ECON
+HOUS,,Mijn Huisvesting,Mon Logement,http://vocab.belgif.be/be-theme/HOUS,,,
+ENVI,,Mijn Leefmilieu,Mon Environnement,http://vocab.belgif.be/be-theme/ENVI,,,
+FINA,,Financiën, Finance,,,http://publications.europa.eu/resource/authority/data-theme/ECON,http://vocab.belgif.be/be-theme/ECON

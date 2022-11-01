@@ -1,0 +1,71 @@
+col0,col1,col2,col3,col4,col5,col6
+1,Energy,10.0,Energy,1010.0,Energy Equipment & Services,101010.0
+2,Energy,10.0,Energy,1010.0,"Oil, Gas & Consumable Fuels",101020.0
+4,Materials,15.0,Materials,1510.0,Chemicals,151010.0
+5,Materials,15.0,Materials,1510.0,Construction Materials,151020.0
+6,Materials,15.0,Materials,1510.0,Containers & Packaging,151030.0
+7,Materials,15.0,Materials,1510.0,Metals & Mining,151040.0
+8,Materials,15.0,Materials,1510.0,Paper & Forest Products,151050.0
+9,Industrials,20.0,Capital Goods,2010.0,Aerospace & Defense,201010.0
+10,Industrials,20.0,Capital Goods,2010.0,Building Products,201020.0
+11,Industrials,20.0,Capital Goods,2010.0,Construction & Engineering,201030.0
+12,Industrials,20.0,Capital Goods,2010.0,Electrical Equipment,201040.0
+13,Industrials,20.0,Capital Goods,2010.0,Industrial Conglomerates,201050.0
+14,Industrials,20.0,Capital Goods,2010.0,Machinery,201060.0
+15,Industrials,20.0,Capital Goods,2010.0,Trading Companies & Distributors,201070.0
+16,Industrials,20.0,Commercial & Professional Services,2020.0,Commercial Services & Supplies,202010.0
+17,Industrials,20.0,Commercial & Professional Services,2020.0,Professional Services,202020.0
+18,Industrials,20.0,Transportation,2030.0,Air Freight & Logistics,203010.0
+19,Industrials,20.0,Transportation,2030.0,Airlines,203020.0
+20,Industrials,20.0,Transportation,2030.0,Marine,203030.0
+21,Industrials,20.0,Transportation,2030.0,Road & Rail,203040.0
+22,Industrials,20.0,Transportation,2030.0,Transportation Infrastructure,203050.0
+23,Consumer Discretionary,25.0,Automobiles & Components,2510.0,Auto Components,251010.0
+24,Consumer Discretionary,25.0,Automobiles & Components,2510.0,Automobiles,251020.0
+25,Consumer Discretionary,25.0,Consumer Durables & Apparel,2520.0,Household Durables,252010.0
+26,Consumer Discretionary,25.0,Consumer Durables & Apparel,2520.0,Leisure Products,252020.0
+27,Consumer Discretionary,25.0,Consumer Durables & Apparel,2520.0,"Textiles, Apparel & Luxury Goods",252030.0
+28,Consumer Discretionary,25.0,Consumer Services,2530.0,"Hotels, Restaurants & Leisure",253010.0
+29,Consumer Discretionary,25.0,Consumer Services,2530.0,Diversified Consumer Services,253020.0
+30,Consumer Discretionary,25.0,Media,2540.0,Media,254010.0
+31,Consumer Discretionary,25.0,Retailing,2550.0,Distributors,255010.0
+32,Consumer Discretionary,25.0,Retailing,2550.0,Internet & Direct Marketing Retail,255020.0
+33,Consumer Discretionary,25.0,Retailing,2550.0,Multiline Retail,255030.0
+34,Consumer Discretionary,25.0,Retailing,2550.0,Specialty Retail,255040.0
+35,Consumer Staples,30.0,Food & Staples Retailing,3010.0,Food & Staples Retailing,301010.0
+36,Consumer Staples,30.0,"Food, Beverage & Tobacco",3020.0,Beverages,302010.0
+37,Consumer Staples,30.0,"Food, Beverage & Tobacco",3020.0,Food Products,302020.0
+38,Consumer Staples,30.0,"Food, Beverage & Tobacco",3020.0,Tobacco,302030.0
+39,Consumer Staples,30.0,Household & Personal Products,3030.0,Household Products,303010.0
+40,Consumer Staples,30.0,Household & Personal Products,3030.0,Personal Products,303020.0
+41,Health Care,35.0,Health Care Equipment & Services,3510.0,Health Care Equipment & Supplies,351010.0
+42,Health Care,35.0,Health Care Equipment & Services,3510.0,Health Care Providers & Services,351020.0
+43,Health Care,35.0,Health Care Equipment & Services,3510.0,Health Care Technology,351030.0
+44,Health Care,35.0,"Pharmaceuticals, Biotechnology & Life Sciences",3520.0,Biotechnology,352010.0
+45,Health Care,35.0,"Pharmaceuticals, Biotechnology & Life Sciences",3520.0,Pharmaceuticals,352020.0
+46,Health Care,35.0,"Pharmaceuticals, Biotechnology & Life Sciences",3520.0,Life Sciences Tools & Services,352030.0
+47,Financials,40.0,Banks,4010.0,Banks,401010.0
+48,Financials,40.0,Banks,4010.0,Thrifts & Mortgage Finance,401020.0
+49,Financials,40.0,Diversified Financials,4020.0,Diversified Financial Services,402010.0
+50,Financials,40.0,Diversified Financials,4020.0,Consumer Finance,402020.0
+51,Financials,40.0,Diversified Financials,4020.0,Capital Markets,402030.0
+52,Financials,40.0,Diversified Financials,4020.0,Mortgage Real Estate Investment Trusts (REITs),402040.0
+53,Financials,40.0,Insurance,4030.0,Insurance,403010.0
+54,Information Technology,45.0,Software & Services,4510.0,Internet Software & Services,451010.0
+55,Information Technology,45.0,Software & Services,4510.0,IT Services,451020.0
+56,Information Technology,45.0,Software & Services,4510.0,Software,451030.0
+57,Information Technology,45.0,Technology Hardware & Equipment,4520.0,Communications Equipment,452010.0
+58,Information Technology,45.0,Technology Hardware & Equipment,4520.0,"Technology Hardware, Storage & Peripherals",452020.0
+59,Information Technology,45.0,Technology Hardware & Equipment,4520.0,"Electronic Equipment, Instruments & Components",452030.0
+60,Information Technology,45.0,Semiconductors & Semiconductor Equipment,4530.0,Semiconductors & Semiconductor Equipment,453010.0
+61,Telecommunication Services,50.0,Telecommunication Services,5010.0,Diversified Telecommunication Services,501010.0
+62,Telecommunication Services,50.0,Telecommunication Services,5010.0,Wireless Telecommunication Services,501020.0
+63,Utilities,55.0,Utilities,5510.0,Electric Utilities,551010.0
+64,Utilities,55.0,Utilities,5510.0,Gas Utilities,551020.0
+65,Utilities,55.0,Utilities,5510.0,Multi-Utilities,551030.0
+66,Utilities,55.0,Utilities,5510.0,Water Utilities,551040.0
+67,Utilities,55.0,Utilities,5510.0,Independent Power and Renewable Electricity Producers,551050.0
+68,Real Estate,60.0,Real Estate,6010.0,Equity Real Estate Investment Trusts (REITs),601010.0
+69,Real Estate,60.0,Real Estate,6010.0,Real Estate Management & Development,601020.0
+70,,,,,Charity/Non-Profit,
+71,,,,,Public Entities,

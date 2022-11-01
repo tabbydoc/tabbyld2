@@ -1,0 +1,90 @@
+col0,col1,col2,col3
+1009,[COVID ID1009 V1] Amoxicillin,1127,1009
+1103,[COVID ID1103 V1] antibiotics in SCYLLA,1228,1103
+1010,[COVID ID1010 V1] Ceftriaxone,1128,1010
+1008,[COVID ID1008 V1] Fluoroquinolones,1126,1008
+1007,[COVID ID1007 V1] Azithromycin,1125,1007
+1105,[COVID ID1105 V1] antidiabetics in SCYLLA,1230,1105
+1065,[COVID ID1065 V1] DPP-4 inhibitors,753,1065
+1067,[COVID ID1067 V1] GLP1 inhibitors,756,1067
+1064,[COVID ID1064 V1] metformin,752,1064
+1066,[COVID ID1066 V1] SGLT2 inhibitors,755,1066
+1052,[COVID ID1052 V1] ACE inhibitors,742,1052
+1053,[COVID ID1053 V1] Angiotensin receptor blockers (ARBs),743,1053
+1104,[COVID ID1104 V1] concomitant cardiovascular prevention therapies in SCYLLA,1229,1104
+1077,[COVID ID1077 V1] Losartan,828,1077
+1054,[COVID ID1054 V1] Non-Dihydropyridine Calcium Channel Blocker (ndCCB),760,1054
+1055,[COVID ID1055 V1] Thiazide or thiazide-like diuretics,746,1055
+1041,[COVID ID1041 V1] acenocoumarol,1133,1041
+1047,[COVID ID1047 V1] alteplase,1139,1047
+1102,[COVID ID1102 V1] antithrombotics in SCYLLA,1227,1102
+1042,[COVID ID1042 V1] apixaban,1134,1042
+1045,[COVID ID1045 V1] aspirin,1137,1045
+1043,[COVID ID1043 V1] bemiparin,1135,1043
+1044,[COVID ID1044 V1] clopidogrel,1136,1044
+1039,[COVID ID1039 V1] dabigatran,863,1039
+1038,[COVID ID1038 V1] edoxaban,737,1038
+1037,[COVID ID1037 V1] enoxaparin,862,1037
+1036,[COVID ID1036 V1] heparin,736,1036
+1046,[COVID ID1046 V1] prasugrel,1138,1046
+1040,[COVID ID1040 V1] rivaroxaban,864,1040
+1035,[COVID ID1035 V1] warfarin,735,1035
+1100,[COVID ID1100 V1] antivirals in SCYLLA,1225,1100
+1006,[COVID ID1006 V1] Chloroquine,858,1006
+1082,[COVID ID1082 V1] emtricitabine,882,1082
+1029,[COVID ID1029 V1] favipiravir,1120,1029
+1024,[COVID ID1024 V1] HIV Protease inhibitors,722,1024
+1001,[COVID ID1001 V1] Hydroxychloroquine,731,1001
+1004,[COVID ID1004 V1] Hydroxychloroquine + Amoxicillin,707,1004
+1002,[COVID ID1002 V1] Hydroxychloroquine + Azithromycin,706,1002
+1005,[COVID ID1005 V1] Hydroxychloroquine + ceftriaxone,708,1005
+1003,[COVID ID1003 V1] Hydroxychloroquine + Fluoroquinolones,705,1003
+1028,[COVID ID1028 V1] Interferon alfa 2a,1132,1028
+1027,[COVID ID1027 V1] Interferon beta 1a,727,1027
+1026,[COVID ID1026 V1] Interferon beta 1b,726,1026
+1034,[COVID ID1034 V1] itraconazole,861,1034
+1033,[COVID ID1033 V1] Ivermectin,732,1033
+1032,[COVID ID1032 V1] oseltamivir,860,1032
+1059,[COVID ID1059 V1] raloxifene,1123,1059
+1030,[COVID ID1030 V1] Remdesivir,730,1030
+1031,[COVID ID1031 V1] ribavirin,859,1031
+1025,[COVID ID1025 V1] ritonavir/lopinavir,1131,1025
+1080,[COVID ID1080 V1] abiraterone,871,1080
+1070,"[COVID ID1070 V1] Alpha-1 blockers (Doxazosin, prazosin, terazosin, tasulosin, silodosin, alfuzosin)",758,1070
+1048,"[COVID ID1048 V1] Antifibrinolytics (tranexamic acid, aminocaproic acid)",739,1048
+1106,[COVID ID1106 V1] concomitant therapies in SCYLLA,1231,1106
+1075,[COVID ID1075 V1] BCG vaccine,901,1075
+1081,[COVID ID1081 V1] bicalutamide,874,1081
+1076,[COVID ID1076 V1] Colchicine,827,1076
+1073,[COVID ID1073 V1] doxazosin,1143,1073
+1071,[COVID ID1071 V1] prazosin,857,1071
+1074,[COVID ID1074 V1] tamsulosin,1144,1074
+1072,[COVID ID1072 V1] terazosin,1142,1072
+1049,[COVID ID1049 V1] tranexamic acid,1140,1049
+1063,[COVID ID1063 V1] Statins,751,1063
+1019,[COVID ID1019 V1] adalimumab,717,1019
+1023,[COVID ID1023 V1] Anakinra,721,1023
+1101,[COVID ID1101 V1] immune-based therapies in SCYLLA,1226,1101
+1016,[COVID ID1016 V1] baricitinib,714,1016
+1060,[COVID ID1060 V1] Bevacizumab,748,1060
+1078,[COVID ID1078 V1] cholecalciferol,1124,1078
+1057,[COVID ID1057 V1] dexamethasone,1122,1057
+1062,[COVID ID1062 V1] eculizumab,750,1062
+1020,[COVID ID1020 V1] etanercept,718,1020
+1069,[COVID ID1069 V1] famotidine,856,1069
+1061,[COVID ID1061 V1] Fingolimod,749,1061
+1068,[COVID ID1068 V1] H2 receptor antagonist,757,1068
+1056,[COVID ID1056 V1] Hydrocortisone,747,1056
+1079,[COVID ID1079 V1] Ibrutinib,844,1079
+1011,"[COVID ID1011 V1] IL6 inhibitors (tocilizumab, sarilumab, siltuximab)",709,1011
+1021,[COVID ID1021 V1] infliximab,719,1021
+1015,"[COVID ID1015 V1] JAK inhibitors (ruxolitinib, tofacitinib, oclacitinib, baricitinib, fedratinib, upadacitinib)",713,1015
+1058,[COVID ID1058 V1] prednisone or prednisolone,1141,1058
+1050,[COVID ID1050 V1] Ruxolitinib,740,1050
+1014,[COVID ID1014 V1] sarilumab,712,1014
+1013,[COVID ID1013 V1] siltuximab,711,1013
+1083,[COVID ID1083 V1] tacrolimus,1116,1083
+1018,"[COVID ID1018 V1] TNF inhibitors (infliximab, golimumab, etanercept, certolizumab pegol, adalimumab)",716,1018
+1012,[COVID ID1012 V1] tocilizumab,710,1012
+1017,[COVID ID1017 V1] tofacitinib,715,1017
+1022,[COVID ID1022 V1] ustekinumab,1129,1022

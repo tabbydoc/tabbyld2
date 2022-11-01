@@ -1,0 +1,23 @@
+col0,col1,col2,col3
+bacnet_prefix,Str,Prefix,BACNet prefix from VOLTTRON devices JSON file
+bacnet_reference_point_name,Str,Reference Point Name,BACNet reference point name from VOLTTRON registry_config CSV file
+bacnet_volttron_point_name,Str,Volttron Point Name,BACNet volttron point name from VOLTTRON registry_config CSV file
+bacnet_index,Str,Index,BACNet index from VOLTTRON registry_config CSV file
+bacnet_notes,Str,Notes,BACNet notes from VOLTTRON registry_config CSV file
+bacnet_units,Str,Units,BACNet units from VOLTTRON registry_config CSV file
+bacnet_property,Str,Property,BACNet property from VOLTTRON registry_config CSV file
+bacnet_writable,Str,Writable,BACNet writable from VOLTTRON registry_config CSV file
+bacnet_unit_details,Str,Unit Details,BACNet unit details from VOLTTRON registry_config CSV file
+bacnet_bacnet_object_type,Str,BACnet Object Type, BACNet object type from VOLTTRON registry_config CSV file
+bacnet_write_priority,Str,Write Priority,BACNet write priority from VOLTTRON registry_config CSV file
+bacnet_device_address,Uri,device_address,BACNet device address from VOLTTRON devices JSON file
+bacnet_device_id,Number,device_id,BACNet device id from VOLTTRON devices JSON file
+bacnet_driver_type,Str,driver_type,BACNet driver type from VOLTTRON devices JSON file
+bacnet_registry_config,Uri,registry_config,BACNet registry config from VOLTTRON devices JSON file
+bacnet_timezone,Str,timezone,BACNet timezone from VOLTTRON devices JSON file
+bacnet_device_description,Str,Device Description, BACNet Device Description from rest API JSON file
+bacnet_description,Str,Description,BACNet Description from rest API JSON file
+bacnet_device_name,Str,Device Name,BACNet Device Name from rest API JSON file
+bacnet_objectName,Str,Object Name,BACNet Object Name from rest API JSON file
+bacnet_presentValue,Str,Present Value,BACNet Present Value from rest API JSON file
+bacnet_stateText,Str,State Text,BACNet State Text from rest API JSON file

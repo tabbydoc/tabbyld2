@@ -1,0 +1,39 @@
+col0,col1,col2,col3,col4,col5
+349,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setBaseStroke(Stroke, boolean) ?",no,yes
+1147,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setBaseStroke(Stroke, boolean) ?",no,yes
+1189,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setBaseToolTipGenerator(CategoryToolTipGenerator, boolean) ?",no,yes
+2144,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setBaseItemLabelGenerator(CategoryItemLabelGenerator, //            boolean) ?",no,yes
+2210,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setSeriesToolTipGenerator(int, CategoryToolTipGenerator, //            boolean) ?",no,yes
+2342,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,// FIXME: calculate xx0,no,yes
+2424,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,//TODO private boolean fillZoomRectangle = true;,no,yes
+2533,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setBasePaint(int, Paint, boolean)?",no,yes
+2607,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,// FIXME //this.image = SerialUtilities.readImage(stream);,no,yes
+2610,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME //SerialUtilities.writeImage(this.image, stream);",no,yes
+2926,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,// FIXME,no,yes
+3349,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,// images considered equal only if they're the SAME object // TODO: is there a way to do a better test?,no,yes
+3450,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,// FIXME: calculate xxLeft and xxRight,no,yes
+3512,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setSeriesOutlineStroke(int, Stroke, boolean) ?",no,yes
+3532,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setSeriesOutlinePaint(int, Paint, boolean)?",no,yes
+3535,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setBaseItemLabelPaint(Paint, boolean) ?",no,yes
+3566,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setBaseOutlineStroke(Stroke, boolean) ?",no,yes
+3608,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setSeriesShape(int, Shape, boolean) ?",no,yes
+3621,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setSeriesPaint(int, Paint, boolean)?",no,yes
+3623,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setBasePaint(int, Paint, boolean)?",no,yes
+3629,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setSeriesStroke(int, Stroke, boolean) ?",no,yes
+3633,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setSeriesPaint(int, Paint, boolean)?",no,yes
+3634,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setBaseShape(Shape, boolean) ?",no,yes
+3635,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setBaseOutlinePaint(Paint, boolean)?",no,yes
+3638,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setSeriesItemLabelGenerator(int, CategoryItemLabelGenerator, //            boolean)",no,yes
+3644,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setBaseItemLabelFont(Font, boolean) ?",no,yes
+3647,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setSeriesItemLabelPaint(int, Paint, boolean) ?",no,yes
+3649,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setSeriesItemLabelFont(int, Font, boolean) ?",no,yes
+3702,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,// TODO getSeriesShape(n).getBounds().height / 2;,no,yes
+3708,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,// TODO getSeriesShape(n).getBounds().width / 2;,no,yes
+3752,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setSeriesOutlinePaint(int, Paint, boolean)?",no,yes
+3766,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setBaseOutlinePaint(Paint, boolean)?",no,yes
+3777,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setSeriesShape(int, Shape, boolean) ?",no,yes
+3781,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setBaseOutlineStroke(Stroke, boolean) ?",no,yes
+3783,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setSeriesStroke(int, Stroke, boolean) ?",no,yes
+3787,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setSeriesOutlineStroke(int, Stroke, boolean) ?",no,yes
+3791,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,"// FIXME: add setBaseShape(Shape, boolean) ?",no,yes
+3800,jfreechart-1.0.19,WITHOUT_CLASSIFICATION,// FIXME:,no,yes

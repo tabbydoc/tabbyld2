@@ -1,0 +1,55 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+92012-01,Boulogne-Billancourt/Édouard Vaillant/81,81 avenue Édouard Vaillant,83409,Boulogne-Billancourt,"48.8344135, 2.2464756",Voirie,6,0,0
+92012-12,Boulogne-Billancourt/Henri Martin/2,2 rue Henri Martin,77244,Boulogne-Billancourt,"48.8365078, 2.2524132",Voirie,6,0,0
+92012-34,Boulogne-Billancourt/Meudon/40,40 rue de Meudon,23696,Boulogne-Billancourt,"48.8281027, 2.2422542",Voirie,6,0,0
+92022-03,Chaville/Pavé des Gardes/33,33 route du Pavé des Gardes,84590,Chaville,"48.80551, 2.184925",Voirie,6,0,0
+92022-04,Chaville/Roger Salengro/705,705 Avenue Roger Salengro,67639,Chaville,"48.8149125, 2.1935315",Voirie,6,0,0
+92040-05,Issy-les-Moulineaux/Verdun/135,135 avenue de Verdun,04930,Issy-les-Moulineaux,"48.81855, 2.25291",Voirie,6,0,0
+92040-08,Issy-les-Moulineaux/Îles/21,21 Boulevard des Îles,99813,Issy-les-Moulineaux,"48.8226736, 2.2498224",Voirie,6,0,0
+92040-11,Issy-les-Moulineaux/Promenade du Verger/166,166 promenade du Verger,41930,Issy-les-Moulineaux,"48.81731, 2.27009",Voirie,6,0,0
+92040-17,Issy-les-Moulineaux/Bara/28,28 Rue Bara,09891,Issy-les-Moulineaux,"48.8326967, 2.2682505",Voirie,6,0,0
+92040-19,Issy-les-Moulineaux/Champ Chardon/44,44 Rue de Champ Chardon,25783,Issy-les-Moulineaux,"48.821914, 2.252089",Voirie,6,0,0
+92048-01,Meudon/Ponceau/2,2 rue Ponceau,85488,Meudon,"48.8124566, 2.2378816",Voirie,4,0,0
+92048-05,Meudon/Terre Neuve/3,3 bis rue Terre Neuve,60341,Meudon,"48.8077664, 2.2350182",Voirie,6,0,0
+92048-07,Meudon/Jeanne Braconnier/3,3 rue Jeanne Braconnier,80571,Meudon-la-Forêt,"48.7886841, 2.2114032",Voirie,6,0,0
+92048-08,Meudon/Maréchal Juin/18,18 avenue du Maréchal Juin,31790,Meudon-la-Forêt,"48.788083, 2.216266",Voirie,6,0,0
+92072-13,Sèvres/Wolfenbüttel/1,1 Rue de Wolfenbüttel,60619,Sèvres,"48.812502, 2.213332",Voirie,6,0,0
+92075-05,Vanves/Jean Jaurès/101,101 rue Jean Jaurès,68955,Vanves,"48.8258129, 2.2906328",Voirie,6,0,0
+92077-01,Ville-d'Avray/Charles de Gaulle/1,1 place Charles de Gaulle,21392,Ville-d'Avray,"48.826, 2.18935",Voirie,6,0,1
+92012-18,Boulogne-Billancourt/Sèvres/80,80 rue de Sèvres,93500,Boulogne-Billancourt,"48.83162, 2.230167",Voirie,6,0,0
+92012-50,Boulogne-Billancourt/Alphonse Le Gallo/35,35 quai Alphonse Le Gallo,44235,Boulogne-Billancourt,"48.83545, 2.225633",Voirie,6,0,0
+92040-10,Issy-les-Moulineaux/Garibaldi/18,18 Boulevard Garibaldi,86380,Issy-les-Moulineaux,"48.8215502, 2.2613183",Voirie,6,0,0
+92040-14,Issy-les-Moulineaux/Joseph Frantz/46,46 Rue Joseph Frantz,18179,Issy-les-Moulineaux,"48.8310957, 2.2665501",Voirie,6,0,0
+92040-15,Issy-les-Moulineaux/Gallieni/72,72 boulevard Gallieni,62954,Issy-les-Moulineaux,"48.827482, 2.267632",Voirie,6,0,0
+92040-21,Issy-les-Moulineaux/Bachaga Boualam/1,1 place du Bachaga Boualam,73366,Issy-les-Moulineaux,"48.81961, 2.265943",Voirie,6,0,0
+92048-09,Meudon/De Gaulle/19,19 avenue du Général de Gaulle,07993,Meudon,"48.787686, 2.2277686",Voirie,6,0,0
+92072-14,Sèvres/Cristallerie/2,2 Avenue de la Cristallerie,71731,Sèvres,"48.82682, 2.22331",Voirie,6,0,0
+92075-06,Vanves/Antoine Fratacci/34,34 Rue Antoine Fratacci,11303,Vanves,"48.82101, 2.28876",Voirie,6,0,0
+92012-07,Boulogne-Billancourt/Abel Gance/6,6 place Abel Gance,68353,Boulogne-Billancourt,"48.833663, 2.258714",Voirie,6,0,0
+92012-13,Boulogne-Billancourt/Gallieni/114,114 rue Gallieni,45508,Boulogne-Billancourt,"48.836581, 2.239424",Voirie,6,0,1
+92012-16,Boulogne-Billancourt/Jean Jaurès/245,245 boulevard Jean Jaurès,00823,Boulogne-Billancourt,"48.82851, 2.246519",Voirie,6,0,0
+92022-02,Chaville/Anatole France/28,28 Rue Anatole France,10985,Chaville,"48.8038815, 2.1883009",Voirie,6,0,0
+92040-07,Issy-les-Moulineaux/Gallieni/84,84 boulevard Gallieni,14130,Issy-les-Moulineaux,"48.82497, 2.267735",Voirie,6,0,0
+92040-13,Issy-les-Moulineaux/Ernest Renan/9,9 rue Ernest Renan,56564,Issy-les-Moulineaux,"48.8295855, 2.2836035",Voirie,6,0,0
+92040-16,Issy-les-Moulineaux/René Jacques/1,1 Rue René Jacques,80132,Issy-les-Moulineaux,"48.8238961, 2.2621859",Voirie,4,1,0
+92040-20,Issy-les-Moulineaux/De Gaulle/88,88 avenue du Général de Gaulle,46680,Issy-les-Moulineaux,"48.8187533, 2.2778594",Voirie,6,0,0
+92048-02,Meudon/Paris/6,6 rue de Paris,75247,Meudon,"48.8169462, 2.2480148",Voirie,6,0,0
+92072-04,Sèvres/Grande Rue/123,123 Grande Rue,59690,Sèvres,"48.821593, 2.2050638",Voirie,6,0,0
+92075-02,Vanves/Pruvot/7,7 Rue Pruvot,44515,Vanves,"48.8222061, 2.283721",Voirie,7,0,0
+92075-04,Vanves/Jean Bleuzen/77,77 Rue Jean Bleuzen,50054,Vanves,"48.82338, 2.296546",Voirie,6,0,1
+92012-11,Boulogne-Billancourt/Jean Jaurès/61,61 Boulevard Jean Jaurès,67662,Boulogne-Billancourt,"48.83975, 2.2400622",Voirie,6,0,0
+92012-30,Boulogne-Billancourt/Reine/12,12 bis Route de la Reine,47956,Boulogne-Billancourt,"48.8388074, 2.2505008",Voirie,6,0,0
+92040-01,Issy-les-Moulineaux/Camille Desmoulins/31,31 Rue Camille Desmoulins,83937,Issy-les-Moulineaux,"48.8294072, 2.2644545",Voirie,6,0,0
+92040-18,Issy-les-Moulineaux/Guynemer/16,16 rue Guynemer,16078,Issy-les-Moulineaux,"48.83073, 2.278246",Voirie,6,0,0
+92040-22,Issy-les-Moulineaux/Égalité/57,57 Rue de l'Égalité,18341,Issy-les-Moulineaux,"48.8167, 2.260423",Voirie,6,0,0
+92048-03,Meudon/Marcel Allégot/12,12 rue Marcel Allégot,42036,Meudon,"48.82148, 2.22769",Voirie,6,0,0
+92048-04,Meudon/Verrerie/10,10 rue de la Verrerie,03479,Meudon,"48.8204172, 2.23413",Voirie,6,0,1
+92072-06,Sèvres/Riocreux/1,1 Rue Riocreux,24434,Sèvres,"48.8261, 2.20015",Voirie,6,0,0
+92075-01,Vanves/René Sahors/9,9 rue René Sahors,96675,Vanves,"48.82097, 2.29165",Voirie,6,0,0
+92075-03,Vanves/Larmeroux/12,12 rue Larmeroux,16898,Vanves,"48.8169686, 2.2810709",Voirie,5,0,0
+92012-08,Boulogne-Billancourt/André Morizet/121,121 avenue André Morizet,03017,Boulogne-Billancourt,"48.840169, 2.229398",Voirie,6,0,0
+92012-15,Boulogne-Billancourt/République/24,24 Boulevard de la République,44788,Boulogne-Billancourt,"48.831826, 2.254098",Voirie,6,0,0
+92040-03,Issy-les-Moulineaux/Leclerc/46,46 Rue du Général Leclerc,80124,Issy-les-Moulineaux,"48.824901, 2.2752102",Voirie,6,0,1
+92040-06,Issy-les-Moulineaux/Guynemer/50,50 Rue Guynemer,25842,Issy-les-Moulineaux,"48.8284904, 2.2748136",Voirie,6,0,0
+92040-12,Issy-les-Moulineaux/Jean Jaurès/22,22 Avenue Jean Jaurès,06286,Issy-les-Moulineaux,"48.8229419, 2.2755104",Voirie,6,0,0
+92077-02,Ville-d'Avray/Versailles/211,211 Rue de Versailles,54743,Ville-d'Avray,"48.81805, 2.164893",Voirie,5,0,0

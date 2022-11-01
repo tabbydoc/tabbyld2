@@ -1,0 +1,66 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+Alabama,State,US-AL,AL,1.0,AL,AL,Ala.,Ala.,
+Alaska,State,US-AK,AK,2.0,AK,AK,Alaska,Alaska,Alas.
+Arizona,State,US-AZ,AZ,4.0,AZ,AZ,Ariz.,Ariz.,Az.
+Arkansas,State,US-AR,AR,5.0,AR,AR,Ark.,Ark.,
+California,State,US-CA,CA,6.0,CA,CF,Calif.,Calif.,"Ca., Cal., Cali."
+Colorado,State,US-CO,CO,8.0,CO,CL,Colo.,Colo.,Col.
+Connecticut,State,US-CT,CT,9.0,CT,CT,Conn.,Conn.,Ct.
+Delaware,State,US-DE,DE,10.0,DE,DL,Del.,Del.,De.
+District of Columbia,Federal district,US-DC,DC,11.0,DC,DC,D.C.,D.C.,Wash._D.C.
+Florida,State,US-FL,FL,12.0,FL,FL,Fla.,Fla.,"Fl., Flor."
+Georgia,State,US-GA,GA,13.0,GA,GA,Ga.,Ga.,
+Hawaii,State,US-HI,HI,15.0,HI,HA,Hawaii,Hawaii,H.I.
+Idaho,State,US-ID,ID,16.0,ID,ID,Idaho,Idaho,"Id., Ida."
+Illinois,State,US-IL,IL,17.0,IL,IL,Ill.,Ill.,"Il., Ills., Ill's"
+Indiana,State,US-IN,IN,18.0,IN,IN,Ind.,Ind.,In.
+Iowa,State,US-IA,IA,19.0,IA,IA,Iowa,Iowa,"Ia., Ioa."
+Kansas,State,US-KS,KS,20.0,KS,KA,Kans.,Kan.,"Ks., Ka."
+Kentucky,State (Commonwealth),US-KY,KY,21.0,KY,KY,Ky.,Ky.,"Ken., Kent."
+Louisiana,State,US-LA,LA,22.0,LA,LA,La.,La.,
+Maine,State,US-ME,ME,23.0,ME,ME,Maine,Maine,Me.
+Maryland,State,US-MD,MD,24.0,MD,MD,Md.,Md.,
+Massachusetts,State (Commonwealth),US-MA,MA,25.0,MA,MS,Mass.,Mass.,
+Michigan,State,US-MI,MI,26.0,MI,MC,Mich.,Mich.,
+Minnesota,State,US-MN,MN,27.0,MN,MN,Minn.,Minn.,Mn.
+Mississippi,State,US-MS,MS,28.0,MS,MI,Miss.,Miss.,
+Missouri,State,US-MO,MO,29.0,MO,MO,Mo.,Mo.,
+Montana,State,US-MT,MT,30.0,MT,MT,Mont.,Mont.,
+Nebraska,State,US-NE,NE,31.0,NE,NB,Nebr.,Neb.,
+Nevada,State,US-NV,NV,32.0,NV,NV,Nev.,Nev.,Nv.
+New Hampshire,State,US-NH,NH,33.0,NH,NH,N.H.,N.H.,
+New Jersey,State,US-NJ,NJ,34.0,NJ,NJ,N.J.,N.J.,
+New Mexico,State,US-NM,NM,35.0,NM,NM,N._Mex.,N.M.,New_M.
+New York,State,US-NY,NY,36.0,NY,NY,N.Y.,N.Y.,N._York
+North Carolina,State,US-NC,NC,37.0,NC,NC,N.C.,N.C.,N._Car.
+North Dakota,State,US-ND,ND,38.0,ND,ND,N._Dak.,N.D.,NoDak
+Ohio,State,US-OH,OH,39.0,OH,OH,Ohio,Ohio,"O., Oh."
+Oklahoma,State,US-OK,OK,40.0,OK,OK,Okla.,Okla.,Ok.
+Oregon,State,US-OR,OR,41.0,OR,OR,Oreg.,Ore.,Or.
+Pennsylvania,State (Commonwealth),US-PA,PA,42.0,PA,PA,Pa.,Pa.,"Penn., Penna."
+Rhode Island,State,US-RI,RI,44.0,RI,RI,R.I.,R.I.,R.I._P.P.
+South Carolina,State,US-SC,SC,45.0,SC,SC,S.C.,S.C.,S._Car.
+South Dakota,State,US-SD,SD,46.0,SD,SD,S._Dak.,S.D.,SoDak
+Tennessee,State,US-TN,TN,47.0,TN,TN,Tenn.,Tenn.,Tn.
+Texas,State,US-TX,TX,48.0,TX,TX,Tex.,Texas,Tx.
+Utah,State,US-UT,UT,49.0,UT,UT,Utah,Utah,Ut.
+Vermont,State,US-VT,VT,50.0,VT,VT,Vt.,Vt.,
+Virginia,State (Commonwealth),US-VA,VA,51.0,VA,VA,Va.,Va.,Virg.
+Washington,State,US-WA,WA,53.0,WA,WN,Wash.,Wash.,"Wa., Wn."
+West Virginia,State,US-WV,WV,54.0,WV,WV,W._Va.,W.Va.,"W.V., W._Virg."
+Wisconsin,State,US-WI,WI,55.0,WI,WS,Wis.,Wis.,"Wi., Wisc."
+Wyoming,State,US-WY,WY,56.0,WY,WY,Wyo.,Wyo.,Wy.
+Baker Island,island,UM-81,,81.0,,,,,
+Howland Island,island,UM-84,,84.0,,,,,
+Jarvis Island,island,UM-86,,86.0,,,,,
+Johnston Atoll,atoll,UM-67,,67.0,,,,,
+Kingman Reef,atoll,UM-89,,89.0,,,,,
+Midway Islands,atoll,UM-71,,71.0,,,,,
+Navassa Island,island,UM-76,,76.0,,,,,
+Palmyra Atoll,atoll,UM-95,,95.0,,,,,
+Wake Island,atoll,UM-79,,79.0,,,,,
+U.S. Armed Forces _ Americas,US military mail code,,,,AA,,,,
+U.S. Armed Forces _ Europe,US military mail code,,,,AE,,,,
+U.S. Armed Forces _ Pacific,US military mail code,,,,AP,,,,
+Panama Canal Zone,Obsolete postal code,,,,CZ,,,,
+Trust Territory of the Pacific Islands,Obsolete postal code,,,,TT,,,,

@@ -1,0 +1,107 @@
+col0,col1,col2,col3,col4,col5
+Alabama,AL,Adults,10.90%,0.53,1
+Alaska,AK,Adults,8.40%,0.88,2
+Arizona,AZ,Adults,9.80%,0.31,4
+Arkansas,AR,Adults,9.60%,0.73,5
+California,CA,Adults,7.90%,0.38,6
+Colorado,CO,Adults,9.30%,0.37,8
+Connecticut,CT,Adults,10.70%,0.43,9
+Delaware,DE,Adults,10.60%,0.71,10
+District of Columbia,DC,Adults,9.40%,0.63,11
+Florida,FL,Adults,7.50%,0.39,12
+Georgia,GA,Adults,8.40%,0.47,13
+Guam,GU,Adults,7.40%,0.96,66
+Hawaii,HI,Adults,9.80%,0.49,15
+Idaho,ID,Adults,9.00%,0.55,16
+Illinois,IL,Adults,8.20%,0.46,17
+Indiana,IN,Adults,10.00%,0.36,18
+Iowa,IA,Adults,9.30%,0.41,19
+Kansas,KS,Adults,9.10%,0.25,20
+Kentucky,KY,Adults,10.70%,0.56,21
+Louisiana,LA,Adults,9.00%,0.57,22
+Maine,ME,Adults,11.20%,0.49,23
+Maryland,MD,Adults,9.40%,0.41,24
+Massachusetts,MA,Adults,11.50%,0.68,25
+Michigan,MI,Adults,10.80%,0.4,26
+Minnesota,MN,Adults,7.30%,0.26,27
+Mississippi,MS,Adults,8.30%,0.53,28
+Missouri,MO,Adults,9.40%,0.47,29
+Montana,MT,Adults,9.10%,0.52,30
+Nebraska,NE,Adults,8.20%,0.35,31
+Nevada,NV,Adults,10.40%,0.76,32
+New Hampshire,NH,Adults,13.20%,0.69,33
+New Jersey,NJ,Adults,8.60%,0.45,34
+New Mexico,NM,Adults,10.50%,0.56,35
+New York,NY,Adults,9.20%,0.36,36
+North Carolina,NC,Adults,9.20%,0.54,37
+North Dakota,ND,Adults,8.60%,0.49,38
+Ohio,OH,Adults,9.90%,0.43,39
+Oklahoma,OK,Adults,9.60%,0.46,40
+Oregon,OR,Adults,10.90%,0.49,41
+Pennsylvania,PA,Adults,10.10%,0.52,42
+Puerto Rico,PR,Adults,12.10%,0.64,72
+Rhode Island,RI,Adults,12.30%,0.67,44
+South Carolina,SC,Adults,9.20%,0.4,45
+South Dakota,SD,Adults,7.30%,0.56,46
+Tennessee,TN,Adults,10%,0.6,47
+Texas,TX,Adults,7.30%,0.49,48
+Utah,UT,Adults,8.90%,0.36,49
+Vermont,VT,Adults,11.80%,0.58,50
+Virginia,VA,Adults,8.90%,0.41,51
+Washington,WA,Adults,10.50%,0.37,53
+West Virginia,WV,Adults,12.70%,0.56,54
+Wisconsin,WI,Adults,9.50%,0.54,55
+Wyoming,WY,Adults,9.10%,0.55,56
+Alabama,AL,Children,No data,No data,1
+Alaska,AK,Children,No data,No data,2
+Arizona,AZ,Children,No data,No data,4
+Arkansas,AR,Children,No data,No data,5
+California,CA,Children,6.20%,0.69,6
+Colorado,CO,Children,No data,No data,8
+Connecticut,CT,Children,12.90%,1.18,9
+Delaware,DE,Children,No data,No data,10
+District of Columbia,DC,Children,11.40%,1.32,11
+Florida,FL,Children,7.30%,0.77,12
+Georgia,GA,Children,9.10%,1.09,13
+Guam,GU,Children,No data,No data,66
+Hawaii,HI,Children,9.80%,0.99,15
+Idaho,ID,Children,No data,No data,16
+Illinois,IL,Children,5.70%,0.78,17
+Indiana,IN,Children,6.90%,0.53,18
+Iowa,IA,Children,No data,No data,19
+Kansas,KS,Children,9.40%,0.63,20
+Kentucky,KY,Children,No data,No data,21
+Louisiana,LA,Children,No data,No data,22
+Maine,ME,Children,8.00%,0.89,23
+Maryland,MD,Children,No data,No data,24
+Massachusetts,MA,Children,15.80%,3.05,25
+Michigan,MI,Children,8.80%,0.71,26
+Minnesota,MN,Children,4.50%,0.43,27
+Mississippi,MS,Children,11.40%,1.48,28
+Missouri,MO,Children,9.70%,1.07,29
+Montana,MT,Children,8.60%,1.21,30
+Nebraska,NE,Children,6.10%,0.67,31
+Nevada,NV,Children,7.80%,1.51,32
+New Hampshire,NH,Children,No data,No data,33
+New Jersey,NJ,Children,8.30%,0.83,34
+New Mexico,NM,Children,9.30%,1.28,35
+New York,NY,Children,8.90%,1.01,36
+North Carolina,NC,Children,No data,No data,37
+North Dakota,ND,Children,No data,No data,38
+Ohio,OH,Children,8.60%,0.83,39
+Oklahoma,OK,Children,No data,No data,40
+Oregon,OR,Children,5.80%,0.79,41
+Pennsylvania,PA,Children,8.90%,0.96,42
+Puerto Rico,PR,Children,15.50%,1.82,72
+Rhode Island,RI,Children,10.30%,1.34,44
+South Carolina,SC,Children,No data,No data,45
+South Dakota,SD,Children,No data,No data,46
+Tennessee,TN,Children,No data,No data,47
+Texas,TX,Children,No data,No data,48
+Utah,UT,Children,6.10%,0.53,49
+Vermont,VT,Children,7.30%,0.85,50
+Virginia,VA,Children,No data,No data,51
+Washington,WA,Children,No data,No data,53
+West Virginia,WV,Children,No data,No data,54
+Wisconsin,WI,Children,No data,No data,55
+Wyoming,WY,Children,No data,No data,56

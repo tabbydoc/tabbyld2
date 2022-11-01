@@ -1,0 +1,11 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+0,21616398,409784,2,36642065,Comment,Alexis C.,2014-05-22 22:01:51.957,,44,"Or less cumbersome, `Arrays.stream(strArray).forEach(System.out::println);`"
+1,21616398,409784,2,40622086,Comment,Boris the Spider,2014-09-20 09:11:49.203,,7,This is clumsy. It should be `System.out::println` which is a Java 8 method reference. You code produces an unnecessary lambda.
+2,21616398,409784,2,59284899,Comment,Justin,2016-03-04 23:16:07.493,,1,Just skip the `Arrays.asList` and do `Arrays.stream(strArray).forEach(System.out::println)`
+3,21616398,409784,2,60134092,Comment,Yassin Hajaj,2016-03-27 20:23:16.013,,0,"@AlexisC. Even better, `Stream.of`"
+4,21616398,409784,2,60134143,Comment,Alexis C.,2016-03-27 20:25:25.777,,0,@YassinHajaj Why better?
+5,21616398,409784,2,60134189,Comment,Yassin Hajaj,2016-03-27 20:27:10.240,,1,@AlexisC. Because it can also be used with other objects than arrays.
+6,21616398,409784,2,60134251,Comment,Alexis C.,2016-03-27 20:30:14.300,,0,"@YassinHajaj Yes, but the question specifically ask for an array. If you have an array, it's better to use `Arrays.stream` than `Stream.of`."
+7,21616398,409784,2,60134273,Comment,Yassin Hajaj,2016-03-27 20:31:11.713,,0,@AlexisC. Is it better in terms of performance or just within the scope of this question?
+8,21616398,409784,2,60134466,Comment,Alexis C.,2016-03-27 20:41:00.993,,1,"@YassinHajaj Both. For instance if you want to have a range stream over the array the idiomatic way using `Stream.of` would be to do `.skip(n).limit(m)`. The current implementation does not return a SIZED stream whereas `Arrays.stream(T[], int, int)` does, leading to better splitting performances if you want to perform operations in parallel. Also if you have an `int[]`, you may accidentally use `Stream.of` which will return a `Stream<int[]>` with a single element, while `Arrays.stream` will give you an `IntStream` directly."
+9,21616398,409784,2,84746423,Comment,Alex,2018-02-19 17:35:33.680,,0,Why use a `Stream` if you want to get a string? Especially if the `Arrays` class has a `toString` method?

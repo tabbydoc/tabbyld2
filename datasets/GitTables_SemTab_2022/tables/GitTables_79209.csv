@@ -1,0 +1,81 @@
+col0,col1,col2,col3,col4,col5
+aku_main,main,akur1238,,decl,y
+apa_main,main,apal1257,"src:koehn1986apalai[109] claim that split-S is only found in the second person, but this is inaccurate.",decl,y
+apa_rem,remote past,apal1257,,decl,y
+apa_imp,imperative,apal1257,,imp,y
+apa_npstcont,non-past continuative,apal1257,"src:koehn1986apalai[100], with morph:apa_inf. No person marking with intransitive verbs.",,y
+apa_sup,supine,apal1257,"src:koehn1986apalai[77--78], with morph:apa_sup. No person marking with intransitive verbs.",,n
+apa_pstcont,past continuative,apal1257,"With morph:apa_sup, evolved from the cons:apa_sup. Probably shows Set II prefixes in transitive verbs, but no examples found.",,y
+apa_pstcpl,past completive,apal1257,src:koehn1986apalai[100]. Uninflected form with t-V-se. Occurs very frequently.,,y
+bak_main,main,baka1277,,decl,y
+bak_new,gnomic,baka1277,"Innovated construction, see src:meira2003bakairi.",decl,y
+car_main,main,cari1279,,decl,y
+pc_main,main,cari1283,,decl,y
+pan_pstpfv,past perfective,enap1235,,decl,y
+pan_pstpfv1,past perfective variant 1,enap1235,This construction is a variant of cons:pan_pstpfv with innovative 1>2 marking.,decl,y
+pan_pstpfv2,past perfective variant 2,enap1235,"This construction is a variant of cons:pan_pstpfv with innovative 1>2 marking, as reported by src:gildea1989panare[117] for the Colorado River Valley dialect documented by Jana Price.",decl,y
+pan_new,non-pastperfective,enap1235,,decl,y
+pan_imp,imperative,enap1235,,imp,y
+pan_advz,non-finite,enap1235,,,n
+kar_main,main,gali1262,,decl,y
+kar_imp,imperative,gali1262,,imp,y
+kar_psthab,past habitual,gali1262,"Person marking is identical to the normal cons:kar_main, except for third person, where morph:kar_3i and obj:t(ɨ)- are found.
+morph:kar_3i occurs as a 3>3 marker, obj:t(ɨ)- occurs with intransitive verbs and can be used with transitive verbs to express a passive meaning: ex:kar-45",decl,y
+kar_nmlz,nominalized,gali1262,src:hoff1968carib[133--157],,y
+kar_exp,experiental,gali1262,,decl,y
+hix_main,main,hixk1239,,decl,y
+hix_imp,imperative,hixk1239,,imp,y
+hix_nmlz,nominalized,hixk1239,src:hixkaryanaderby1985[230--234],,n
+ikp_main,main,ikpe1245,,decl,y
+ikp_imp,imperative,ikpe1245,,imp,y
+kap_old,original Set I,kapo1251,"This is essentially the Proto-lg:kapon paradigm. Akawaio and Ingarikó show variation in several scenarios (see cons:kap_old1, cons:kap_old2); Ingarikó has lost morph:ing_12 in the 2>1 function entirely.",decl,y
+kap_old1,Set I (Ingarikó),kapo1251,"This is the innovative Set I construction in the Ingarikó dialect; it differs from cons:kap_old by its 2>1, 1>2 and 1>3 forms.",decl,y
+kap_old2,Set I (Akawaio),kapo1251,"This is the innovative Set I construction in the Akawaio dialect; it differs from cons:kap_old by its 2>1, and 1>2 forms.",decl,y
+ing_new,innovated,kapo1251,,decl,y
+ing_imp,imperative,kapo1251,This is the inherited imperative construction; there is also an innovative Set II construction psrc:cruz2005fonologia[285ff].,imp,y
+ing_nmlz,nominalized,kapo1251,,,n
+kax_imp,imperative,kaxu1237,,imp,y
+kax_rem,remote past,kaxu1237,Differs from the cons:kax_main in allowing a third person prefix morph:kax_3i.,decl,y
+kax_main,main,kaxu1237,,decl,y
+kax_prog,progressive,kaxu1237,"An innovative progressive construction with obj:-rɨ (INTR), obj:-roko (TR).",decl,y
+kui_main,main,kuik1246,,decl,y
+kui_imp,imperative,kuik1246,,imp,y
+mac_main,main,macu1259,,decl,y
+mac_imp,imperative,macu1259,"There is also another, innovated imperative construction. It is unclear whether the obj:a- occurring in intransitive imperatives is morph:mac_2s or morph:mac_2p (although it’s likely the latter).",imp,y
+mac_new_imp,new imperative,macu1259,Polite / futute imperative forms innovated from earlier declarative constructions.,imp,y
+mak_main,main,maqu1238,,decl,y
+mak_rem,remote past,maqu1238,,decl,y
+mak_imp,imperative,maqu1238,Only Sp verbs take second person prefixes psrc:maquiritaricaceres2011[130].,imp,y
+ara_main,mixed Set I/II,para1310,"This is an innovative construction, derived from the cons:ara_old, with the exception of third person markers.",decl,y
+ara_old,old,para1310,,decl,y
+ara_int,intermediate past,para1310,"Person marking is identical to the cons:ara_main, except for third person, where morph:ara_3int is found. Notably, this marker cannot co-occur with the TAM marker obj:-te, which does occur with the other person prefixes psrc:alves2017arara[155].
+Although the description indicates that all third person scenarios are marked with obj:mon(i)-, it seems like Sp verbs do not receive the marker.
+There is only one example of an Sp verb in the intermediate past with a third person argument, and it shows the idiosyncratic marker obj:ju-: ex:ara-43
+All other examples of intransitive verbs with third person arguments in the intermediate past are with Sa verbs.",decl,y
+ara_rem,remote past,para1310,"Person marking is identical to the cons:ara_main, except for third person, where morph:ara_3rem is found. Notably, this marker cannot co-occur with the TAM marker obj:-ne, which does occur with the other person prefixes psrc:alves2017arara[154].
+There are no examples of Sp verbs in the remote past, and, similarly to the cons:ara_int, it is unclear whether they would take morph:ara_3rem or the Sp marker morph:ara_3i.",decl,y
+ara_imp,imperative,para1310,,imp,y
+pem_new,innovated,pemo1248,,decl,y
+pem_old,inherited,pemo1248,"This is what remains of the Set I construction. As in other Pemongan languages, it is functionally restricted, in lg:pemon it prominently occurs in questions (and answers to these questions). Local and inverse scenarios rarely occur, mostly direct and third person scenarios are found. Forms with cogset:12 now have a prohibitive meaning, as in lg:macushi. I have not found any examples for 2>1 scenarios. 1S is zero-marked (remnants of rc:u- are present), so one would expect 2>1 to be, too.",decl,y
+pem_imp,imperative,pemo1248,,,y
+pem_nonf,non-finite,pemo1248,,,n
+tri_main,main,trio1238,,decl,y
+tri_pstpfv,past-perfective,trio1238,This is the lg:trio past-perfective clause. It only differs from other main clauses in that cogset:3ky was added to third person forms.,decl,y
+tri_irr,non-factual,trio1238,,decl,y
+tri_imp,imperative,trio1238,,imp,y
+tri_habpst,habitual past,trio1238,"V-initial Sp verbs show a generic morph:tri_3i, Sa verbs don't. Suffix: -se and allomorphs psrc:triomeira1999[329--332].",decl,y
+tri_sup,supine,trio1238,"V-initial Sp verbs show a generic morph:tri_3i, Sa verbs don't. Suffix: -se and allomorphs psrc:triomeira1999[329--332].",,n
+tri_rem,remote past,trio1238,"Uninflected form t-X-se, psrc:triomeira1999[333--335].",,n
+tri_neg,negative,trio1238,"src:triomeira1999[335--337], Set II but with 3P.NEG obj:in-, suffix obj:-sewa",,n
+tri_adv,adverbial,trio1238,"Posteriority obj:-tuuwə, cause obj:-təkərə psrc:triomeira1999[337--339]. Set II, with cogset:wnmlz.",,n
+wmr_main,main,waim1253,"Lexically conditioned split-S; but sparse data.
+The Sp markers morph:wmr_1p and morph:wmr_2p have only been found with the verbs obj:kɨta ‘to shout’ and obj:jwapo ‘to dance’, respectively.",decl,y
+wmr_imp,imperative,waim1253,,imp,y
+wai_main,main,waiw1244,,decl,y
+wai_imp,imperative,waiw1244,,imp,y
+wai_nmlz,nominalized,waiw1244,,,n
+way_main,main,waya1269,"Lexically conditioned split-S, but the 1+2 markers have a slightly different lexical distribution than those of other persons.",decl,y
+way_imp,imperative,waya1269,Only Sp verbs take second person prefixes psrc:wayanatavares2005[226].,imp,y
+way_cert,certain,waya1269,,decl,y
+way_rem,remote past,waya1269,,decl,y
+yuk_imm,immediate past,yukp1241,,decl,y

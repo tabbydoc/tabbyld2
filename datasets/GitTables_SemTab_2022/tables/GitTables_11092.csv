@@ -1,0 +1,23 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+passed,Tue Jun 23 20:48:46 NOVT 2020,Tue Jun 23 20:48:49 NOVT 2020,3244,,Negative tests,,tests.NegativeTests,testWrongGender,Некорректный gender в запросе /users [1],
+failed,Tue Jun 23 20:49:21 NOVT 2020,Tue Jun 23 20:49:21 NOVT 2020,122,,Functional tests,,tests.FunctionalTests,testUserResponse1,Корректность registrationDate,"Дата не может быть в будущем, и не должна быть старее сервиса"
+passed,Tue Jun 23 20:48:50 NOVT 2020,Tue Jun 23 20:48:50 NOVT 2020,132,,Negative tests,,tests.NegativeTests,testWrongUserNumber,Некорректный номер в запросе /user/id [4],
+passed,Tue Jun 23 20:48:50 NOVT 2020,Tue Jun 23 20:48:51 NOVT 2020,429,,Smoke tests,,tests.SmokeTests,testHostAvailability,Проверяем что host жив,Просто дергаем и ждем 200
+failed,Tue Jun 23 20:49:22 NOVT 2020,Tue Jun 23 20:49:23 NOVT 2020,608,,Format tests,,tests.FormatTests,testResponseConformsToSchema,Проверяем[1] /api/test/user/0 ⇢ user_schema.json,
+passed,Tue Jun 23 20:48:50 NOVT 2020,Tue Jun 23 20:48:50 NOVT 2020,107,,Negative tests,,tests.NegativeTests,testWrongUserNumber,Некорректный номер в запросе /user/id [3],
+passed,Tue Jun 23 20:48:50 NOVT 2020,Tue Jun 23 20:48:50 NOVT 2020,52,,Negative tests,,tests.NegativeTests,testWrongUserNumber,Некорректный номер в запросе /user/id [5],
+failed,Tue Jun 23 20:49:21 NOVT 2020,Tue Jun 23 20:49:22 NOVT 2020,371,,Functional tests,,tests.FunctionalTests,testUserResponse2,Проверка корректности age в профиле,Допустимые значения 14..150
+failed,Tue Jun 23 20:49:22 NOVT 2020,Tue Jun 23 20:49:22 NOVT 2020,460,,Functional tests,,tests.FunctionalTests,testUserResponse4,Проверка корректности gender пользователя,Допускаются только значения male/female
+failed,Tue Jun 23 20:48:50 NOVT 2020,Tue Jun 23 20:48:50 NOVT 2020,65,,Negative tests,,tests.NegativeTests,testWrongUserNumber,Некорректный номер в запросе /user/id [1],
+passed,Tue Jun 23 20:48:49 NOVT 2020,Tue Jun 23 20:48:49 NOVT 2020,121,,Negative tests,,tests.NegativeTests,testWrongGender,Некорректный gender в запросе /users [2],
+failed,Tue Jun 23 20:48:50 NOVT 2020,Tue Jun 23 20:48:50 NOVT 2020,76,,Negative tests,,tests.NegativeTests,testWrongUserNumber,Некорректный номер в запросе /user/id [2],
+passed,Tue Jun 23 20:48:50 NOVT 2020,Tue Jun 23 20:48:50 NOVT 2020,97,,Negative tests,,tests.NegativeTests,testWrongUserNumber,Некорректный номер в запросе /user/id [7],
+passed,Tue Jun 23 20:48:50 NOVT 2020,Tue Jun 23 20:48:50 NOVT 2020,123,,Negative tests,,tests.NegativeTests,testWrongGender,Некорректный gender в запросе /users [4],
+failed,Tue Jun 23 20:49:22 NOVT 2020,Tue Jun 23 20:49:22 NOVT 2020,139,,Functional tests,,tests.FunctionalTests,testUserResponse3,Идентификатор пользователя в запросе и ответе должны совпадать,___
+passed,Tue Jun 23 20:48:50 NOVT 2020,Tue Jun 23 20:48:50 NOVT 2020,75,,Negative tests,,tests.NegativeTests,testWrongUserNumber,Некорректный номер в запросе /user/id [6],
+passed,Tue Jun 23 20:49:23 NOVT 2020,Tue Jun 23 20:49:23 NOVT 2020,44,,Format tests,,tests.FormatTests,testResponseConformsToSchema,Проверяем[5] /api/test/users ⇢ error_schema.json,
+failed,Tue Jun 23 20:49:23 NOVT 2020,Tue Jun 23 20:49:23 NOVT 2020,45,,Format tests,,tests.FormatTests,testResponseConformsToSchema,Проверяем[2] /api/test/user/300 ⇢ user_schema.json,
+failed,Tue Jun 23 20:48:51 NOVT 2020,Tue Jun 23 20:48:51 NOVT 2020,129,,Functional tests,,tests.FunctionalTests,testUsersGetting,Корректность гендерной фильтрации,"Проверим, что никакой из id не возвращается для обоих полов"
+passed,Tue Jun 23 20:49:23 NOVT 2020,Tue Jun 23 20:49:23 NOVT 2020,165,,Format tests,,tests.FormatTests,testResponseConformsToSchema,Проверяем[4] /api/test/user/ ⇢ error_schema.json,
+passed,Tue Jun 23 20:48:50 NOVT 2020,Tue Jun 23 20:48:50 NOVT 2020,95,,Negative tests,,tests.NegativeTests,testWrongGender,Некорректный gender в запросе /users [3],
+failed,Tue Jun 23 20:49:23 NOVT 2020,Tue Jun 23 20:49:23 NOVT 2020,58,,Format tests,,tests.FormatTests,testResponseConformsToSchema,Проверяем[3] /api/test/users?gender=male ⇢ users_schema.json,

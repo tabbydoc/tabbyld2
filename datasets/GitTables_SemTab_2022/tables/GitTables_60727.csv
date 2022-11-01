@@ -1,0 +1,7 @@
+col0,col1,col2
+3,ql-menu-configurations,"{""qlMenuPosConfigs"":[{""languageCode"":""en"",""topMenuRefId"":null,""topHeaderMenuRefId"":8,""footerMenuRefId"":9},{""languageCode"":""bg"",""topMenuRefId"":null,""topHeaderMenuRefId"":19,""footerMenuRefId"":18},{""languageCode"":""ro"",""topMenuRefId"":null,""topHeaderMenuRefId"":21,""footerMenuRefId"":20}]}"
+4,admin_email,trajche.manev@gmail.com
+5,terms-and-conditions-page-id,1
+6,site-name,Quis Listing
+14,base-url,http://localhost:8181
+15,publish_request_admin,trajche.manev@gmail.com

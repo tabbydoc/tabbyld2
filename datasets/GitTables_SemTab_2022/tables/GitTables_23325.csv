@@ -1,0 +1,45 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+blind_breakthrough_5x5_CHEAT,0,WHITE,imprandom,1,0,10,0,(MOVE 1 2 1 3 ),True
+blind_breakthrough_5x5_CHEAT,0,BLACK,cheat,1,16,7,387,NOOP,False
+blind_breakthrough_5x5_CHEAT,1,WHITE,imprandom,1,0,11,0,NOOP,True
+blind_breakthrough_5x5_CHEAT,1,BLACK,cheat,1,16,18,1235,(MOVE 4 4 4 3 ),False
+blind_breakthrough_5x5_CHEAT,2,WHITE,imprandom,1,0,18,0,(MOVE 3 2 4 3 ),True
+blind_breakthrough_5x5_CHEAT,2,BLACK,cheat,1,16,7,199,NOOP,False
+blind_breakthrough_5x5_CHEAT,3,WHITE,imprandom,1,0,18,0,NOOP,True
+blind_breakthrough_5x5_CHEAT,3,BLACK,cheat,1,16,21,1512,(MOVE 3 4 3 3 ),False
+blind_breakthrough_5x5_CHEAT,4,WHITE,imprandom,1,0,35,0,(MOVE 4 3 5 4 ),True
+blind_breakthrough_5x5_CHEAT,4,BLACK,cheat,1,16,11,171,NOOP,False
+blind_breakthrough_5x5_CHEAT,5,WHITE,imprandom,1,0,26,0,NOOP,True
+blind_breakthrough_5x5_CHEAT,5,BLACK,cheat,1,16,14,1106,(MOVE 4 5 4 4 ),False
+blind_breakthrough_5x5_CHEAT,6,WHITE,imprandom,1,0,46,0,(MOVE 5 2 5 3 ),True
+blind_breakthrough_5x5_CHEAT,6,BLACK,cheat,1,16,3,195,NOOP,False
+blind_breakthrough_5x5_CHEAT,7,WHITE,imprandom,1,0,31,0,NOOP,True
+blind_breakthrough_5x5_CHEAT,7,BLACK,cheat,1,16,18,1033,(MOVE 4 4 5 3 ),False
+blind_breakthrough_5x5_CHEAT,8,WHITE,imprandom,1,0,46,0,(MOVE 4 2 5 3 ),True
+blind_breakthrough_5x5_CHEAT,8,BLACK,cheat,1,16,7,146,NOOP,False
+blind_breakthrough_5x5_CHEAT,9,WHITE,imprandom,1,0,50,0,NOOP,True
+blind_breakthrough_5x5_CHEAT,9,BLACK,cheat,1,16,17,602,(MOVE 2 4 2 3 ),False
+blind_breakthrough_5x5_CHEAT,10,WHITE,imprandom,1,0,50,0,(MOVE 3 1 3 2 ),True
+blind_breakthrough_5x5_CHEAT,10,BLACK,cheat,1,16,6,159,NOOP,False
+blind_breakthrough_5x5_CHEAT,11,WHITE,imprandom,1,0,62,0,NOOP,True
+blind_breakthrough_5x5_CHEAT,11,BLACK,cheat,1,16,14,398,(MOVE 3 5 3 4 ),False
+blind_breakthrough_5x5_CHEAT,12,WHITE,imprandom,1,0,69,0,(MOVE 1 1 1 2 ),True
+blind_breakthrough_5x5_CHEAT,12,BLACK,cheat,1,16,8,126,NOOP,False
+blind_breakthrough_5x5_CHEAT,13,WHITE,imprandom,1,0,83,0,NOOP,True
+blind_breakthrough_5x5_CHEAT,13,BLACK,cheat,1,16,9,361,(MOVE 2 3 3 2 ),False
+blind_breakthrough_5x5_CHEAT,14,WHITE,imprandom,1,0,86,0,(MOVE 4 1 3 2 ),True
+blind_breakthrough_5x5_CHEAT,14,BLACK,cheat,1,16,7,93,NOOP,False
+blind_breakthrough_5x5_CHEAT,15,WHITE,imprandom,1,0,89,0,NOOP,True
+blind_breakthrough_5x5_CHEAT,15,BLACK,cheat,1,16,20,158,(MOVE 2 5 2 4 ),False
+blind_breakthrough_5x5_CHEAT,16,BLACK,cheat,1,16,16,75,NOOP,False
+blind_breakthrough_5x5_CHEAT,16,WHITE,imprandom,1,0,108,0,(MOVE 2 2 3 3 ),True
+blind_breakthrough_5x5_CHEAT,17,WHITE,imprandom,1,0,105,0,NOOP,True
+blind_breakthrough_5x5_CHEAT,17,BLACK,cheat,1,16,18,156,(MOVE 2 4 3 3 ),False
+blind_breakthrough_5x5_CHEAT,18,BLACK,cheat,1,16,7,44,NOOP,False
+blind_breakthrough_5x5_CHEAT,18,WHITE,imprandom,1,0,110,0,(MOVE 2 1 2 2 ),True
+blind_breakthrough_5x5_CHEAT,19,BLACK,cheat,1,16,10,36,(MOVE 3 3 2 2 ),False
+blind_breakthrough_5x5_CHEAT,19,WHITE,imprandom,1,0,111,0,NOOP,True
+blind_breakthrough_5x5_CHEAT,20,BLACK,cheat,1,16,15,26,NOOP,False
+blind_breakthrough_5x5_CHEAT,20,WHITE,imprandom,1,0,129,0,(MOVE 3 2 3 3 ),True
+blind_breakthrough_5x5_CHEAT,21,BLACK,cheat,1,16,18,10,(MOVE 2 2 2 1 ),False
+blind_breakthrough_5x5_CHEAT,21,WHITE,imprandom,1,0,127,0,NOOP,True

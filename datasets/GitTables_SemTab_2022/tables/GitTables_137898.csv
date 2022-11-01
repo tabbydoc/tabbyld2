@@ -1,0 +1,13 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13
+deployments.repository_odoo_80,deployments.github,odoo,git,8,,8.0,,,odoo/odoo.git,git,origin,ssh,
+deployments.pentaho,deployments.github,pentaho,git,7,openerp_addon,version70,,,WillowIT/Pentaho-reports-for-OpenERP,git,origin,ssh,
+deployments.magento,deployments.github,magento,git,7,,pjb,True,,galtys/magento_integration,git,origin,ssh,
+deployments.credative_addons,deployments.github,credative_addons,git,7,,master,,,galtys/credativ-addons.git,git,origin,ssh,
+deployments.galtys_addons,deployments.github,galtys_addons,git,7,,master,,,galtys/galtys-addons,git,origin,ssh,
+deployments.pj_bridgman,deployments.codebasehq,pj_bridgman.git,git,7,,master,,,galtys/pjb/pj_bridgman.git,git,origin,ssh,
+deployments.galtys_70usa,deployments.launchpad,galtys_70usa,bzr,7,,,,openobject-addons/galtys_70usa,~openerp-community/openobject-addons/galtys_70usa,galtys,,bzr+ssh,
+deployments.web70wide,deployments.launchpad,web70wide,bzr,7,,,,openerp-web/galtys_70wide,~openerp-community/openerp-web/galtys_70wide,galtys,,bzr+ssh,
+deployments.server70,deployments.launchpad,server70,bzr,7,,,,openobject-server/galtys_70,~openerp-community/openobject-server/galtys_70,galtys,,bzr+ssh,
+deployments.pjb70,deployments.launchpad,pjb70,bzr,7,,,,openobject-addons/galtys_70pjb,~openerp-community/openobject-addons/galtys_70pjb,galtys,,bzr+ssh,
+deployments.deployments,deployments.codebasehq,deployments,git,8,,master,True,deployments,galtys/galtys/deployments.git,git,origin,ssh,
+deployments.hosts_master_data,deployments.codebasehq,hosts_master_data,git,8,,master,,hosts_master_data,galtys/galtys/hosts_master_data.git,git,origin,ssh,

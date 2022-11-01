@@ -1,0 +1,37 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+__export__.sgavar_file_1_548dfa6f,False,403,Order de recepción,,Transferir,mrp_bom_phantom_fix.model_stock_picking,,INR,INR/0,0
+__export__.sgavar_file_2_5484226f,False,306,Confirmación de recepción,,Transferir,mrp_bom_phantom_fix.model_stock_picking,,INR,INR/1,1
+__export__.sgavar_file_3_f45afa6f,False,326,Orden de expedición,,Transferir,mrp_bom_phantom_fix.model_stock_picking,,OUT,OUT/0,0
+__export__.sgavar_file_4_48d6546f,False,679,Confirmación de expedición,,Transferir,mrp_bom_phantom_fix.model_stock_picking,,OUT,OUT/1,1
+__export__.sgavar_file_5_f66f584a,False,110,"Orden de recepción, líneas",,Operación de empaquetado,mrp.model_stock_move_line,,ORL,ORL/0,0
+__export__.sgavar_file_6_9scz97xz,False,167,"Confirmación de recepción, líneas",,Operación de empaquetado,mrp.model_stock_move_line,,CRL,CRL/0,0
+__export__.sgavar_file_7_6f93f9af,False,152,"Orden de expedición, líneas",,Operación de empaquetado,mrp.model_stock_move_line,,OEL,OEL/0,0
+__export__.sgavar_file_8_00a1f0af,False,146,"Confirmación de expedición, líneas",,Operación de empaquetado,mrp.model_stock_move_line,,CEL,CEL/0,0
+__export__.sgavar_file_9_1s52a8w9,False,521,Creación de clientes,,Contacto,rappel.model_res_partner,,TE0,TE0/0,0
+__export__.sgavar_file_10_1a9s7f6a,False,521,Modificación de clientes,,Contacto,rappel.model_res_partner,,TE0,TE0/1,1
+__export__.sgavar_file_11_9af1e24r,False,521,Eliminación de clientes,,Contacto,rappel.model_res_partner,,TE0,TE0/2,2
+__export__.sgavar_file_12_1s52afw1,False,203,Creación Producto,,Producto,mrp.model_product_product,,AR0,AR0/0,0
+__export__.sgavar_file_13_sa3w1was,False,203,Modificación Producto,,Producto,mrp.model_product_product,,AR0,AR0/1,1
+__export__.sgavar_file_14_a2s4fe9s,False,203,Eliminación Producto,,Producto,mrp.model_product_product,,AR0,AR0/2,2
+__export__.sgavar_file_15_9s52a8w1,False,123,Creación plantilla,,Plantilla de producto,mrp.model_product_template,,PRT,PRT/0,0
+__export__.sgavar_file_16_2ba3dd3b,False,123,Modificación Plantilla,,Plantilla de producto,mrp.model_product_template,,PRT,PRT/1,1
+__export__.sgavar_file_17_b0653669,False,123,Eliminación Plantilla,,Plantilla de producto,mrp.model_product_template,,PRT,PRT/2,2
+__export__.sgavar_file_18_3356a2ac,False,40,Nuevo barcode,,Producto,mrp.model_product_product,,TRA,TRA/0,0
+__export__.sgavar_file_19_0d32276a,False,40,Modificar barcode,,Producto,mrp.model_product_product,,TRA,TRA/1,1
+__export__.sgavar_file_20_acf18ac9,False,40,Eliminar barcode,,Producto,mrp.model_product_product,,TRA,TRA/2,2
+__export__.sgavar_file_21_446dd168,False,345,Stock del producto en ubicación,,Quants,stock.model_stock_quant,,TUB,TUB/0,0
+__export__.sgavar_file_22_4248892b,False,292,"Confirmación de expedición, contenidos",,Operación de empaquetado,mrp.model_stock_move_line,,CEN,CEN/0,0
+__export__.sgavar_file_23_b3ed6114,False,0,Quants por producto,,Producto,mrp.model_product_product,,TRU,TRU/0,0
+__export__.sgavar_file_24_6sfg829s,False,0,Stock Batch Picking,,Stock Batch Picking,stock_picking_group.model_stock_batch_picking,,SBP,SBP/0,0
+__export__.sgavar_file_25_z02s9t8y,False,152,"Stock Batch Picking, líneas",,Stock Move Line,mrp.model_stock_move_line,,SBL,SBL/0,0
+__export__.sgavar_file_26_9a4he3z2,False,679,Stock Batch Picking Confirmation,,Stock Batch Picking,stock_picking_group.model_stock_batch_picking,,SBP,SBP/1,1
+__export__.sgavar_file_27_3ao6r92t,False,152,"Stock Batch Picking Confirmation, líneas",,Stock Move Line,mrp.model_stock_move_line,,SBC,SBC/0,0
+__export__.sgavar_file_28_4099139e,False,300,Batch de recepción," """"",stock.batch.picking,stock_picking_group.model_stock_batch_picking,,INS,INS/0,0
+__export__.sgavar_file_29_1e0d23ee,False,139,Confirmación de recepción batch,,stock.batch.picking,stock_picking_group.model_stock_batch_picking,,INS,INS/1,1
+__export__.sgavar_file_30_1897a3c6,False,110,"Líneas de recepción, batch",,stock.move.line,mrp.model_stock_move_line,,OSL,OSL/0,0
+__export__.sgavar_file_31_25d6085a,False,0,"Batch por picks, recepción",,stock.batch.picking,stock_picking_group.model_stock_batch_picking,,BPP,BPP/0,0
+__export__.sgavar_file_32_4eefb65f,False,0,"Batch por picks, confirmation",,stock.batch.picking,stock_picking_group.model_stock_batch_picking,,BPP,BPP/1,1
+__export__.sgavar_file_33_94b325e8,False,0,Movimiento de Stock,,Movimiento de Stock,mrp.model_stock_move,,MVL,MVL/0,0
+__export__.sgavar_file_34_262f912d,False,0,"Batch por picks, salida",,stock.batch.picking,stock_picking_group.model_stock_batch_picking,,BPO,BPO/0,0
+__export__.sgavar_file_35_a2c28e95,False,0,"Movimiento de Stock, Salida",,Movimiento de Stock,mrp.model_stock_move,,MLO,MLO/0,0
+__export__.sgavar_file_36_d9a664dc,False,152,"Orden de salida, salida",,Operación de empaquetado,mrp.model_stock_move_line,,OLO,OLO/0,0

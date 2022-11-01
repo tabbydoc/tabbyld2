@@ -1,0 +1,63 @@
+col0,col1,col2,col3,col4,col5,col6
+,,,,,,
+STOPS Data,,,,,,
+,StopID,Unique Stop ID,,,,12.0
+,AgencyDescription,Agency Name,,,,100.0
+,StopDate,Date/Time of Stop,,,,24.0
+,Purpose,Initial Purpose of Stop,refStopsCodeNumber,StopPurpose,,5.0
+,Action,Enforcement Action Taken,refStopsCodeNumber,Action,,5.0
+,DriverArrest,Was Driver Arrested,,,"0= No, 1= Yes",3.0
+,PassengerArrest,Was Passenger Arrested,,,"0= No, 1= Yes",3.0
+,EncounterForce,Did Officer Encounter Physical Resistance,,,"0= No, 1= Yes",3.0
+,EngageForce,Did Officer Engage in the use of Force,,,"0= No, 1= Yes",3.0
+,OfficerInjury,Did Injuries Occur to Officer,,,"0= No, 1= Yes",3.0
+,DriverInjury,Did Injuries Occur to Driver,,,"0= No, 1= Yes",3.0
+,PassengerInjury,Did Injuries Occur to Passenger,,,"0= No, 1= Yes",3.0
+,OfficerId,Unique Officer ID,,,,10.0
+,StopLocation,County of Stop,refCommonCode,County,,15.0
+,StopCity,City of Stop,,,,20.0
+,,,,,,
+PERSON Data,,,,,,
+,PersonID,Unique Person ID,,,,12.0
+,StopID,Unique Stop ID,,,,12.0
+,Type,Driver or Passenger,refCommonCode,PersonType,,1.0
+,Age,Age of Person,,,,5.0
+,Gender,Gender,refCommonCode,Gender,,1.0
+,Ethnicity,Ethnicity,refCommonCode,Ethnicity,,1.0
+,Race,Race,refCommonCode,Race,,1.0
+,,,,,,
+SEARCH Data,,,,,,
+,SearchID,Unique Search ID,,,,12.0
+,StopID,Unique Stop ID,,,,12.0
+,PersonID,Unique Person ID,,,,12.0
+,Type,Type of Search,refStopsCodeNumber,SearchType,,5.0
+,VehicleSearch,Was Vehicle Searched,,,"0= No, 1= Yes",3.0
+,DriverSearch,Was Driver Searched,,,"0= No, 1= Yes",3.0
+,PassengerSearch,Was Passenger Searched,,,"0= No, 1= Yes",3.0
+,PropertySearch,Were Personal Effects Searched,,,"0= No, 1= Yes",3.0
+,VehicleSeized,Was Vehicle Seized,,,"0= No, 1= Yes",3.0
+,PersonalPropertySeized,Was Personal Property Seized,,,"0= No, 1= Yes",3.0
+,OtherPropertySeized,Was Other Property Seized,,,"0= No, 1= Yes",3.0
+,,,,,,
+CONTRABAND Data,,,,,,
+,ContrabandID,Unique Contraband ID,,,,12.0
+,SearchID,Unique Search ID,,,,12.0
+,PersonID,Unique Person ID,,,,12.0
+,StopID,Unique Stop ID,,,,12.0
+,Ounces,Ounces of Drugs,,,,41.0
+,Pounds,Pounds of Drugs,,,,41.0
+,Pints,Pints of Alcohol,,,,41.0
+,Gallons,Gallons of Alcohol,,,,41.0
+,Dosages,Dosages of Drugs,,,,41.0
+,Grams,Grams of Drugs,,,,41.0
+,Kilos,Kilos of Drugs,,,,41.0
+,Money,Dollar Amount of Money,,,,41.0
+,Weapons,Number of Weapons,,,,41.0
+,DollarAmt,Dollar Amount of Other Contraband,,,,41.0
+,,,,,,
+SEARCHBASIS Data,,,,,,
+,SearchBasisID,Unique Search Basis ID,,,,12.0
+,SearchID,Unique Search ID,,,,12.0
+,PersonID,Unique Person ID,,,,12.0
+,StopID,Unique Stop ID,,,,12.0
+,Basis,Basis of Search,refCommonCode,SearchBasis,,10.0

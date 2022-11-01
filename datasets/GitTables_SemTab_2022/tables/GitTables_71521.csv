@@ -1,0 +1,59 @@
+col0,col1,col2,col3,col4,col5,col6
+0.0,100.0,99.563,GCA_002976375,2011/0565,bovis,Mycobacterium tuberculosis variant bovis
+0.0,100.0,99.563,GCA_002976355,2006/0077,bovis,Mycobacterium tuberculosis variant bovis
+0.0,100.0,99.563,GCA_002026285,D11-00843,bovis,Mycobacterium tuberculosis variant bovis
+99.375,0.0,0.0,GCA_000649675,B2 7505,bovis,Mycobacterium tuberculosis variant bovis B2 7505
+0.0,100.0,99.417,GCA_002976295,2008/0665,bovis,Mycobacterium tuberculosis variant bovis
+0.0,100.0,99.854,GCA_002976335,BMR25/85,bovis,Mycobacterium tuberculosis variant bovis
+0.0,100.0,0.0,GCA_002026325,D11-03130,bovis,Mycobacterium tuberculosis variant bovis
+0.0,100.0,99.854,GCA_001078615,1595,bovis,Mycobacterium tuberculosis variant bovis
+99.375,0.0,0.0,GCA_000751615,H37RvMA,H37Rv,Mycobacterium tuberculosis H37RvMA
+99.375,0.0,0.0,GCA_000827085,H37RvSiena,H37Rv,Mycobacterium tuberculosis H37RvSiena
+99.375,0.0,0.0,GCA_000667805,H37Rv,H37Rv,Mycobacterium tuberculosis H37Rv
+99.375,0.0,0.0,GCA_000746805,H37RvAE,H37Rv,Mycobacterium tuberculosis H37RvAE
+99.375,0.0,0.0,GCA_000751475,H37RvLP,H37Rv,Mycobacterium tuberculosis H37RvLP
+99.375,0.0,0.0,GCA_000195955,H37Rv,H37Rv,Mycobacterium tuberculosis H37Rv
+99.375,0.0,0.0,GCA_000263135,H37RvCO,H37Rv,Mycobacterium tuberculosis H37RvCO
+99.375,0.0,0.0,GCA_000277735,H37Rv,H37Rv,Mycobacterium tuberculosis H37Rv
+100.0,100.0,100.0,GCA_000666605,MAL010112,africanum,Mycobacterium tuberculosis variant africanum MAL010112
+100.0,100.0,100.0,GCA_000253355,GM041182,africanum,Mycobacterium tuberculosis variant africanum GM041182
+100.0,100.0,100.0,GCA_000666705,MAL010128,africanum,Mycobacterium tuberculosis variant africanum MAL010128
+100.0,100.0,100.0,GCA_000667325,MAL020173,africanum,Mycobacterium tuberculosis variant africanum MAL020173
+100.0,100.0,100.0,GCA_000666765,MAL010131,africanum,Mycobacterium tuberculosis variant africanum MAL010131
+100.0,100.0,100.0,GCA_000666585,MAL010111,africanum,Mycobacterium tuberculosis variant africanum MAL010111
+100.0,100.0,100.0,GCA_000666445,MAL010102,africanum,Mycobacterium tuberculosis variant africanum MAL010102
+100.0,100.0,100.0,GCA_000666125,MAL020148,africanum,Mycobacterium tuberculosis variant africanum
+0.0,100.0,99.551,GCA_001941665,Allgaeu,caprae,Mycobacterium tuberculosis variant caprae
+0.0,100.0,0.0,GCA_001369315,MB2,caprae,Mycobacterium tuberculosis variant caprae
+0.0,100.0,0.0,GCA_002982225,ATCC BAA-824,caprae,Mycobacterium tuberculosis variant caprae
+99.375,100.0,0.0,GCA_002982275,ATCC BAA-688,pinnipedii,Mycobacterium tuberculosis variant pinnipedii
+99.375,0.0,100.0,GCA_003027795,MP2,pinnipedii,Mycobacterium tuberculosis variant pinnipedii
+99.375,0.0,100.0,GCA_003027895,MP1,pinnipedii,Mycobacterium tuberculosis variant pinnipedii
+99.375,0.0,0.0,GCA_000008585,CDC1551,CDC,Mycobacterium tuberculosis CDC1551
+99.375,0.0,0.0,GCA_000270365,CCDC5180,CDC,Mycobacterium tuberculosis CCDC5180
+99.375,0.0,0.0,GCA_000400615,CCDC5079,CDC,Mycobacterium tuberculosis CCDC5079
+99.375,0.0,0.0,GCA_000572195,CCDC5180,CDC,Mycobacterium tuberculosis CCDC5180
+99.375,0.0,0.0,GCA_000190335,CDC1551A,CDC,Mycobacterium tuberculosis CDC1551A
+99.375,0.0,0.0,GCA_000669715,cdc1551,CDC,Mycobacterium tuberculosis CDC1551
+99.375,0.0,0.0,GCA_000270345,CCDC5079,CDC,Mycobacterium tuberculosis CCDC5079
+0.0,100.0,0.0,GCA_000338715,Korea 1168P,BCG,Mycobacterium tuberculosis variant bovis BCG str. Korea 1168P
+0.0,100.0,0.0,GCA_001287165,Pasteur,BCG,Mycobacterium tuberculosis variant bovis BCG
+0.0,100.0,0.0,GCA_000463275,Sweden,BCG,Mycobacterium tuberculosis variant bovis BCG str. Sweden
+0.0,100.0,0.0,GCA_001287045,Moreau,BCG,Mycobacterium tuberculosis variant bovis BCG
+0.0,100.0,0.0,GCA_000463255,Prague,BCG,Mycobacterium tuberculosis variant bovis BCG str. Prague
+0.0,100.0,0.0,GCA_000463215,Moreau,BCG,Mycobacterium tuberculosis variant bovis BCG str. Moreau
+0.0,100.0,0.0,GCA_000463195,Glaxo,BCG,Mycobacterium tuberculosis variant bovis BCG str. Glaxo
+0.0,100.0,0.0,GCA_001287205,Russia,BCG,Mycobacterium tuberculosis variant bovis BCG
+99.375,0.0,0.0,GCA_000016145,H37Ra; ATCC 25177,H37Ra,Mycobacterium tuberculosis H37Ra
+99.375,0.0,0.0,GCA_001938725,H37Ra,H37Ra,Mycobacterium tuberculosis H37Ra
+99.375,0.0,0.0,GCA_000169515,H37Ra,H37Ra,Mycobacterium tuberculosis H37Ra
+99.375,0.0,0.0,GCA_002886775,GG-121-10,mtb,Mycobacterium tuberculosis
+99.375,0.0,0.0,GCA_003287185,H112,mtb,Mycobacterium tuberculosis
+95.0,0.0,0.0,GCA_000364825,Beijing/NITR203,mtb,Mycobacterium tuberculosis str. Beijing/NITR203
+99.375,0.0,0.0,GCA_002116835,Beijing-like/50148,mtb,Mycobacterium tuberculosis
+99.375,0.0,0.0,GCA_001895785,M0018684-2,mtb,Mycobacterium tuberculosis
+99.375,0.0,0.0,GCA_000389925,CAS/NITR204,mtb,Mycobacterium tuberculosis CAS/NITR204
+98.125,0.0,0.0,GCA_001544985,37004,mtb,Mycobacterium tuberculosis
+99.375,0.0,0.0,GCA_002357935,HN-205,mtb,Mycobacterium tuberculosis
+99.375,0.0,0.0,GCA_006385035,ASM638503v1,orygis,Mycobacterium orygis
+99.375,0.0,0.0,GCA_000353205,Morygis1.0,orygis,Mycobacterium orygis

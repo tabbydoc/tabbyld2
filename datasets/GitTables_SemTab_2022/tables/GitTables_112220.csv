@@ -1,0 +1,182 @@
+col0,col1,col2,col3,col4,col5
+1,AAS,Asian American Studies,department,,11
+2,ABE,Agriculture and Biological Engineering,department,,10
+3,ACCY,Accountancy,department,,10
+4,ACE,Agriculture and Consumer Economics,department,,15
+5,ACES,"Agriculture, Consumer and Environmental Sciences",department,,10
+6,ADV,Advertising,department,,10
+7,AE,Aerospace Engineering,department,,10
+8,AFAS,Air Force Aerospace Studies,department,,10
+9,AFRO,African American Studies,department,,10
+10,AFST,African Studies,department,,10
+11,AGCM,Agricultural Communications,department,,10
+12,AGED,Agricultural Education,department,,10
+13,AIS,American Indian Studies,department,,10
+14,ANSC,Animal Sciences,department,,10
+15,ANTH,Anthropology,department,,10
+16,ARAB,Arabic,department,,10
+17,ARCH,Architecture,department,,10
+18,ART,Art,department,,10
+19,ARTD,Art-Design,department,,10
+20,ARTE,Art-Education,department,,10
+21,ARTF,Art-Foundation,department,,10
+22,ARTH,Art-History,department,,10
+23,ARTS,Art-Studio,department,,10
+24,ASTR,Astronomy,department,,10
+25,ATMS,Atmospheric Sciences,department,,10
+26,AVI,Aviation,department,,10
+27,BADM,Business Administration,department,,10
+28,BIOC,Biochemistry,department,,10
+29,BIOE,Bioengineering,department,,10
+30,BMNA,Bamana,department,,10
+31,BTW,Business and Technical Writing,department,,10
+32,BUS,Business,department,,10
+33,CAS,Center for Advanced Study,department,,10
+34,CATL,Catalan,department,,10
+35,CEE,Civil and Environmental Engineering,department,,10
+36,CHBE,Chemical and Biomolecular Engineering,department,,10
+37,CHEM,Chemistry,department,,10
+38,CHIN,Chinese,department,,10
+39,CHLH,Community Health,department,,10
+40,CHP,Campus Honors Program Course,department,,10
+41,CI,Curriculum and Instruction,department,,10
+42,CINE,Cinema Studies,department,,10
+43,CLCV,Classical Civilization,department,,10
+44,CMN,Communication (CMN),department,,10
+45,CPSC,Crop Sciences,department,,10
+46,CS,Computer Science,department,,10
+47,CW,Creative Writing,department,,10
+48,CWL,Comparative and World Literature,department,,10
+49,CZCH,Czech,department,,10
+50,DANC,Dance,department,,10
+51,EALC,East Asian Language and Culture,department,,10
+52,ECE,Electrical and Computer Engineering,department,,10
+53,ECON,Economics,department,,10
+54,EIL,English as an Intertation Language,department,,10
+55,ENG,Engineering,department,,10
+56,ENGL,English,department,,10
+57,ENVS,Environmental Studies,department,,10
+58,EOL,Education Organization and Leadership,department,,10
+59,EPS,Education Policy Studies,department,,10
+60,EPSY,Educational Psychology,department,,10
+61,ESL,English as a Second Language,department,,10
+62,EURO,European Union Studies,department,,10
+63,FAA,Fine and Applied Arts,department,,10
+64,FIN,Finance,department,,10
+65,FR,French,department,,10
+66,FSHN,Food Science and Human Nutrition,department,,10
+67,GE,General Engineering,department,,10
+68,GEOG,Geography,department,,10
+69,GEOL,Geology,department,,10
+70,GER,German,department,,10
+71,GLBL,Global Studies,department,,10
+72,GRK,Greek,department,,10
+73,GS,General Studies,department,,10
+74,GWS,Gender and Women's Studies,department,,10
+75,HCD,Human and Community Development,department,,10
+76,HDFS,Human Development and Family Studies,department,,10
+77,HEBR,"Hebrew, Modern and Classical",department,,10
+78,HIST,History,department,,10
+79,HNDI,Hindi,department,,10
+80,HORT,Horticulture,department,,10
+81,HRE,Human Resource Education,department,,10
+82,IB,Integrative Biology,department,,10
+83,IE,Industrial Engineering,department,,10
+84,INFO,Informatics,department,,10
+85,ITAL,Italian,department,,10
+86,JAPN,Japanese,department,,10
+87,JOUR,Journalism,department,,10
+88,KIN,Kinesiology,department,,10
+89,KOR,Korean,department,,10
+90,LA,Landscape Architecture,department,,10
+91,LAS,Liberal Arts and Sciences,department,,10
+92,LAST,Latin American and Caribbean Studies,department,,10
+93,LAT,Latin,department,,10
+94,LAW,Law,department,,10
+95,LGLA,Lingala,department,,10
+96,LING,Linguistics,department,,10
+97,LIR,Labor and Industrial Relations,department,,10
+98,LIS,Library and Information Science,department,,10
+99,LLS,Latina/Latino Studies,department,,10
+100,MATH,Mathematics,department,,10
+101,MBA,MBA Program Administration,department,,10
+102,MCB,Molecular and Cell Biology,department,,10
+103,MDIA,Media,department,,10
+104,MDVL,Medieval Studies,department,,10
+105,ME,Mechanical Engieering,department,,10
+106,MFGE,Manufacturing Engineering,department,,10
+107,MICR,Microbiology,department,,10
+108,MILS,Military Science,department,,10
+109,MS,Media Studies,department,,10
+110,MSE,Materials Science and Engineering,department,,10
+111,MUS,Music,department,,10
+112,NPRE,"Nuclear, Plasma, and Radiological Engineering",department,,10
+113,NRES,Natural Resources and Environmental Sciences,department,,10
+114,NS,Naval Science,department,,10
+115,NUTR,Nutritional Sciences,department,,10
+116,PATH,Pathobiology,department,,10
+117,PERS,Persian,department,,10
+118,PHIL,Philosophy,department,,10
+119,PHYS,Physics,department,,10
+120,PLPA,Plant Pathology,department,,10
+121,POL,Polish,department,,10
+122,PORT,Portuguese,department,,10
+123,PS,Political Science,department,,10
+124,PSYC,Psychology,department,,10
+125,REES,"Russian, East European and Eurasian Studies",department,,10
+126,REHB,Rehabilitation Counseling,department,,10
+127,RHET,Rhetoric and Composition,department,,10
+128,RLST,Religious Studies,department,,10
+129,RSOC,Rural Sociology,department,,10
+130,RST,"Recreation, Sport, and Tourism",department,,10
+131,RUSS,Russian,department,,10
+132,SAME,South Asian and Middle Easter Studies,department,,10
+133,SCAN,Scandinavian,department,,10
+134,SCR,Serbo-Croation,department,,10
+135,SHS,Speech and Hearing Science,department,,10
+136,SLAV,Slavic,department,,10
+137,SNSK,Sanskrit,department,,10
+138,SOC,Sociology,department,,10
+139,SOCW,Social Work,department,,10
+140,SPAN,Spanish ,department,,10
+141,SPED,Special Education,department,,10
+142,STAT,Statistics,department,,10
+143,SWAH,Swahili,department,,10
+144,TAM,Theoretical and Applied Mechanics,department,,10
+145,THEA,Theater,department,,10
+146,TSM,Technical Systems Management,department,,10
+147,TURK,Turkish,department,,10
+148,UKR,Ukrainian,department,,10
+149,UP,Urban and Regional Planning,department,,10
+150,VB,Veterinary Biosciences,department,,10
+151,VCM,Veterinary Clinical Medicine,department,,10
+152,VM,Veterinary Medicine Courses,department,,10
+153,WLOF,Wolof,department,,10
+154,YDSH,Yiddish,department,,10
+155,ZULU,Zulu,department,,10
+156,AHS,Applied Health Sciences Courses,department,,10
+157,BIOP,Biophysics,department,,10
+158,CB,Comparative Biosciences,department,,10
+159,EDUC,Education,department,,10
+160,ESE,"Earth, Society, and Environment",department,,10
+161,GRKM,Modern Greek,department,,10
+162,HDES,Human Dimensions of Environmental Systems,department,,10
+163,JS,Jewish Studies,department,,10
+164,LER,Labor and Employment Relations,department,,10
+165,MACS,Media and Cinema Studies,department,,10
+166,MUSE,Museum Studies,department,,10
+167,PSM,ProfessionalSc Science Master's Program,department,,10
+168,TRST,Translation Studies,department,,10
+169,WRIT,Writing Studies,department,,10
+170,BASQ,Basque,department,,10
+171,BULG,Bulgarian,department,,10
+172,IHLT,I-Health,department,,10
+173,ENSU,Environmental Sustainability,department,,10
+174,HRD,Human Resource Development,department,,10
+175,TE,Technology Entrepreneurship,department,,10
+176,BCS,Bosnian-Croatian-Serbian,department,,11
+177,COMM,Communications (COMM),department,,10
+178,SPCM,Speech Communication,department,,10
+179,ESES,"Earth Systems, Environment and Society",department,,10
+180,GCL,Grand Challenge Learning,department,,10
+181,SLCL,"School of Literatures, Cultures and Linguistics",department,,10

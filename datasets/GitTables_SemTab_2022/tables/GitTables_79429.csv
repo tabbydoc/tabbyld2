@@ -1,0 +1,108 @@
+col0,col1,col2,col3
+126,Persons tested for SARS-CoV-2 with at least 365d prior observation,206.0,True
+128,Persons tested positive for SARS-CoV-2 with at least 365d prior observation,204.0,True
+130,Persons tested with a COVID-19 diagnosis record or a SARS-CoV-2 positive test with at least 365d prior observation,202.0,True
+132,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with at least 365d prior observation,200.0,True
+134,Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test with at least 365d prior observation,197.0,True
+136,Persons hospitalized and requiring intensive services with a COVID-19 diagnosis record or a SARS-CoV-2 positive test with at least 365d prior observation,305.0,True
+138,Persons hospitalized with a SARS-CoV-2 positive test with at least 365d prior observation,191.0,True
+140,Persons hospitalized and requiring intensive services with a SARS-CoV-2 positive test with at least 365d prior observation,306.0,True
+127,Persons tested for SARS-CoV-2 with no required prior observation,205.0,True
+129,Persons tested positive for SARS-CoV-2 with no required prior observation,203.0,True
+131,Persons tested with a COVID-19 diagnosis record or a SARS-CoV-2 positive test with no required prior observation,201.0,True
+133,Persons with a COVID-19 diagnosis or a SARS-CoV-2 positive test with no required prior observation,199.0,True
+135,Persons hospitalized with a COVID-19 diagnosis record or a SARS-CoV-2 positive test with no required prior observation,198.0,True
+137,Persons hospitalized and requiring intensive services with a COVID-19 diagnosis record or a SARS-CoV-2 positive test with no required prior observation,308.0,True
+139,Persons hospitalized with a SARS-CoV-2 positive test with no required prior observation,194.0,True
+141,Persons hospitalized and requiring intensive services with a SARS-CoV-2 positive test with no required prior observation,309.0,True
+111,Persons with Influenza diagnosis or positive test 2017-2018 with at least 365d prior observation,211.0,True
+113,Persons hospitalized with influenza diagnosis or positive test 2017-2018 with at least 365d prior observation,212.0,True
+115,Persons hospitalized with influenza diagnosis or positive test and requiring intensive services 2017-2018 with at least 365d prior observation,307.0,True
+112,Persons with Influenza diagnosis or positive test 2017-2018 with no required prior observation,210.0,True
+114,Persons hospitalized with influenza diagnosis or positive test 2017-2018 with no required prior observation,209.0,True
+116,Persons hospitalized with influenza diagnosis or positive test and requiring intensive services 2017-2018 with no required prior observation,310.0,True
+100,Prevalent Type 2 Diabetes Mellitus,311.0,True
+101,Prevalent hypertension,227.0,True
+119,Prevalent chronic obstructive pulmonary disease (COPD) without asthma,219.0,True
+120,Prevalent Asthma without COPD,218.0,True
+102,Prevalent chronic kidney disease,228.0,True
+103,Prevalent end stage renal disease,232.0,True
+104,Prevalent heart disease,231.0,True
+105,Prevalent malignant neoplasm excluding non-melanoma skin cancer,222.0,True
+199,Pregnant women,233.0,True
+106,Prevalent Human immunodeficiency virus infection,229.0,True
+107,Prevalent Hepatitis C,230.0,True
+108,Prevalent obesity,224.0,True
+109,Prevalent Dementia,226.0,True
+125,Prevalent pre-existing condition of COVID risk factor,213.0,True
+118,Prevalent Autoimmune condition,220.0,True
+200,Flu-like symptom episodes,290.0,True
+203,Prevalent chronic kidney disease broad,312.0,True
+204,Prevalent end stage renal disease broad,313.0,True
+121,Prevalent Asthma or Chronic obstructive pulmonary disease (COPD),217.0,True
+122,Asthma/COPD Step 1,216.0,True
+123,Asthma/COPD Step 2,215.0,True
+124,Asthma/COPD Step 3,214.0,True
+110,Gestational diabetes,225.0,True
+142,Eclampsia and pre-eclampsia,289.0,True
+143,Fever,288.0,True
+144,Cough,287.0,True
+145,Myalgia,286.0,True
+146,Malaise or fatigue,285.0,True
+147,Dyspnea,284.0,True
+148,Anosmia OR Hyposmia OR Dysgeusia,283.0,True
+149,Persons with additional testing for SARS-Cov-2 (prior test >=1d before test),282.0,True
+150,Persons with additional testing for SARS-Cov-2 (prior test >=5d before test),281.0,True
+151,Hospitalization episodes,280.0,True
+152,Pneumonia during hospitalization,279.0,True
+153,Acute Respiratory Distress syndrome (ARDS) during hospitalization,278.0,True
+154,Acute kidney injury (AKI) diagnosis during hospitalization,276.0,True
+155,Sepsis during hospitalization,277.0,True
+157,Pulmonary Embolism events,274.0,True
+158,Deep vein thrombosis events,273.0,True
+159,Heart failure during hospitalization,272.0,True
+160,Cardiac arrhythmia during hospitalization,248.0,True
+161,Bradycardia or heart block during hospitalization,271.0,True
+162,Supraventricular arrythymia during hospitalization,270.0,True
+163,ventricular arrhythmia or cardiac arrest during hospitalization,269.0,True
+165,Stillbirth,268.0,True
+166,Livebirth Delivery,267.0,True
+167,Livebirth Preterm Delivery,264.0,True
+168,Livebirth Post term Delivery,265.0,True
+169,Livebirth excluding preterm and post term delivery,266.0,True
+170,Abortion,263.0,True
+171,Premature Rupture of Membranes,262.0,True
+172,Fetal growth restriction,261.0,True
+173,Cesarean section,260.0,True
+174,Hospitalization for Asthma,259.0,True
+175,Hospitalization for COPD,258.0,True
+176,Pneumonia episodes,257.0,True
+177,intensive services during hospitalization,316.0,True
+178,mechanical ventilation during hospitalization,318.0,True
+179,tracheostomy during hospitalization,317.0,True
+180,ECMO during hospitalization,253.0,True
+181,dialysis during hospitalization,252.0,True
+182,Persons with chest pain or angina,251.0,True
+183,Angina during hospitalization,250.0,True
+184,Persons with hepatic failure,249.0,True
+185,Acute pancreatitis events,247.0,True
+186,Total cardiovascular disease events,246.0,True
+187,Gastrointestinal bleeding events,245.0,True
+188,Cardiovascular-related mortality,244.0,True
+189,Transient ischemic attack events,243.0,True
+190,Stroke (ischemic or hemorrhagic) events,242.0,True
+191,Ischemic stroke events,241.0,True
+192,Hemorrhagic stroke (intracerebral bleeding) events,240.0,True
+193,Acute myocardial infarction events,239.0,True
+194,Bleeding during hospitalization,238.0,True
+195,Incident depression with no prior treatment and no mania/psychoses,237.0,True
+196,Hospitalization for psychosis,236.0,True
+197,Suicide and suicidal ideation,235.0,True
+198,Multi-system inflammatory syndrome (Kawasaki disease or toxic shock syndrome),234.0,True
+201,Acute kidney injury (AKI) using diagnosis codes and change in measurements during hospitlization,,False
+202,Discharge from hospitalization,,False
+117,Prevalent tuberculosis,221.0,True
+205,Prevalent Human immunodeficiency virus infection broad,314.0,True
+206,Prevalent tuberculosis broad,315.0,True
+156,Venous thromboembolic (pulmonary embolism and deep vein thrombosis) events,275.0,True
+164,Death,96.0,True

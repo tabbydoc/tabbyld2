@@ -1,0 +1,101 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11
+0,Anchorage,AK,"Anchorage, AK",59,49,77,23,15,84,44,160
+1,Chandler,AZ,"Chandler, AZ",101,83,30,67,49,39,0,88
+2,Gilbert,AZ,"Gilbert, AZ",100,83,30,66,49,39,0,85
+3,Glendale,AZ,"Glendale, AZ",100,83,29,66,49,38,0,79
+4,Mesa,AZ,"Mesa, AZ",100,83,30,66,49,39,0,85
+5,Phoenix,AZ,"Phoenix, AZ",102,84,28,67,50,38,1,74
+6,Scottsdale,AZ,"Scottsdale, AZ",101,83,29,67,50,38,0,89
+7,Tucson,AZ,"Tucson, AZ",93,76,37,64,45,39,1,93
+8,Anaheim,CA,"Anaheim, CA",82,66,60,66,52,56,0,83
+9,Bakersfield,CA,"Bakersfield, CA",95,65,32,62,42,58,0,106
+10,Fresno,CA,"Fresno, CA",97,66,30,60,43,64,0,104
+11,Long Beach,CA,"Long Beach, CA",78,65,67,65,53,59,0,73
+12,Los Angeles,CA,"Los Angeles, CA",82,65,60,66,51,54,0,66
+13,Oakland,CA,"Oakland, CA",73,56,73,58,46,72,0,97
+14,Sacramento,CA,"Sacramento, CA",93,60,47,58,42,73,0,105
+15,San Diego,CA,"San Diego, CA",76,65,71,64,52,62,0,104
+16,San Francisco,CA,"San Francisco, CA",72,56,74,58,46,72,0,100
+17,San Jose,CA,"San Jose, CA",81,57,61,60,43,70,0,96
+18,Santa Ana,CA,"Santa Ana, CA",82,65,61,66,51,57,0,91
+19,Aurora,CO,"Aurora, CO",85,59,43,43,24,61,64,167
+20,Colorado Springs,CO,"Colorado Springs, CO",76,53,52,39,20,63,81,202
+21,Denver,CO,"Denver, CO",83,58,42,42,23,62,67,191
+22,Washington,DC,"Washington, DC",85,67,71,45,32,72,12,198
+23,Fort Lauderdale,FL,"Fort Lauderdale, FL",87,82,72,75,67,72,0,289
+24,Jacksonville,FL,"Jacksonville, FL",91,76,73,68,51,72,0,218
+25,Miami,FL,"Miami, FL",86,82,71,75,68,73,0,277
+26,Orlando,FL,"Orlando, FL",91,76,75,72,56,72,0,227
+27,St. Petersburg,FL,"St. Petersburg, FL",67,54,76,28,20,92,95,220
+28,Tallahassee,FL,"Tallahassee, FL",90,73,76,65,48,76,0,180
+29,Tampa,FL,"Tampa, FL",90,78,72,71,56,72,0,219
+30,Atlanta,GA,"Atlanta, GA",89,70,68,55,39,74,1,196
+31,Augusta,GA,"Augusta, GA",88,73,53,59,45,72,1,107
+32,Honolulu,HI,"Honolulu, HI",81,75,74,76,69,75,0,249
+33,Des Moines,IA,"Des Moines, IA",81,63,79,34,20,79,37,186
+34,Boise,ID,"Boise, ID",91,69,71,85,64,71,0,276
+35,Chicago,IL,"Chicago, IL",76,66,76,33,24,80,45,235
+36,Indianapolis,IN,"Indianapolis, IN",81,64,79,39,26,79,34,205
+37,Wichita,KS,"Wichita, KS",90,70,62,47,30,66,10,157
+38,Lexington,KY,"Lexington, KY",83,64,77,44,30,80,33,235
+39,Louisville,KY,"Louisville, KY",85,65,75,44,30,79,18,207
+40,Baton Rouge,LA,"Baton Rouge, LA",91,73,77,63,47,80,0,203
+41,New Orleans,LA,"New Orleans, LA",89,79,72,64,53,75,0,193
+42,Shreveport,LA,"Shreveport, LA",94,73,66,59,43,78,0,168
+43,Boston,MA,"Boston, MA",80,63,72,37,25,75,35,201
+44,Baltimore,MD,"Baltimore, MD",83,67,73,43,31,73,16,205
+45,Detroit,MI,"Detroit, MI",78,64,73,33,23,82,53,216
+46,Minneapolis,MN,"Minneapolis, MN",78,61,74,25,13,87,61,179
+47,Kansas City,MO,"Kansas City, MO",84,66,76,42,27,72,21,190
+48,St. Louis,MO,"St. Louis, MO",93,78,66,93,66,24,0,51
+49,Charlotte,NC,"Charlotte, NC",88,68,70,53,37,73,0,190
+50,Durham,NC,"Durham, NC",88,68,72,52,36,74,0,194
+51,Greensboro,NC,"Greensboro, NC",87,67,72,51,35,74,3,195
+52,Raleigh,NC,"Raleigh, NC",87,69,74,53,37,73,0,203
+53,Winston Salem,NC,"Winston Salem, NC",87,66,71,51,35,73,4,185
+54,Lincoln,NE,"Lincoln, NE",83,64,73,38,23,74,29,170
+55,Omaha,NE,"Omaha, NE",82,63,76,36,21,76,36,198
+56,Newark,NJ,"Newark, NJ",81,67,71,40,28,74,18,210
+57,Albuquerque,NM,"Albuquerque, NM",85,65,40,48,31,52,20,132
+58,Henderson,NV,"Henderson, NV",99,81,20,59,44,39,2,62
+59,Las Vegas,NV,"Las Vegas, NV",95,77,22,55,41,41,3,58
+60,Reno,NV,"Reno, NV",82,55,30,42,26,68,48,115
+61,Buffalo,NY,"Buffalo, NY",77,62,74,33,22,83,83,247
+62,New York,NY,"New York, NY",81,68,70,40,29,73,18,204
+63,Rochester,NY,"Rochester, NY",76,61,77,33,22,83,65,235
+64,Syracuse,NY,"Syracuse, NY",76,58,80,32,20,85,86,245
+65,Akron,OH,"Akron, OH",80,60,77,36,22,85,64,253
+66,Cincinnati,OH,"Cincinnati, OH",83,64,76,42,28,79,27,217
+67,Cleveland,OH,"Cleveland, OH",77,64,75,35,25,83,58,235
+68,Columbus,OH,"Columbus, OH",81,64,74,39,26,79,45,231
+69,Oklahoma City,OK,"Oklahoma City, OK",91,71,62,52,35,64,8,164
+70,Tulsa,OK,"Tulsa, OK",89,70,69,51,35,68,4,181
+71,Portland,OR,"Portland, OR",79,54,65,47,36,82,10,180
+72,Philadelphia,PA,"Philadelphia, PA",84,67,71,42,29,74,15,196
+73,Pittsburgh,PA,"Pittsburgh, PA",82,60,74,38,24,84,53,234
+74,Providence,RI,"Providence, RI",79,62,77,38,26,75,25,190
+75,Chattanooga,TN,"Chattanooga, TN",86,65,76,51,35,78,8,208
+76,Knoxville,TN,"Knoxville, TN",87,65,71,50,34,77,6,208
+77,Memphis,TN,"Memphis, TN",88,70,75,52,38,77,3,185
+78,Nashville,TN,"Nashville, TN",87,68,74,50,35,76,11,223
+79,Arlington,TX,"Arlington, TX",94,75,60,59,43,67,0,171
+80,Austin,TX,"Austin, TX",94,74,64,63,46,69,1,197
+81,Corpus Christi,TX,"Corpus Christi, TX",92,78,69,68,54,74,0,145
+82,Dallas,TX,"Dallas, TX",94,76,59,58,43,68,0,183
+83,El Paso,TX,"El Paso, TX",91,74,36,59,42,38,4,108
+84,Fort Worth,TX,"Fort Worth, TX",93,74,60,58,42,66,0,167
+85,Houston,TX,"Houston, TX",92,76,72,65,50,76,0,224
+86,Irving,TX,"Irving, TX",94,76,58,58,43,67,0,171
+87,Laredo,TX,"Laredo, TX",98,79,53,72,54,59,0,118
+88,Lubbock,TX,"Lubbock, TX",91,70,48,57,37,47,7,125
+89,Plano,TX,"Plano, TX",93,75,60,57,42,69,1,176
+90,San Antonio,TX,"San Antonio, TX",94,75,63,65,48,67,0,195
+91,Salt Lake City,UT,"Salt Lake City, UT",81,59,38,38,25,75,57,129
+92,Chesapeake,VA,"Chesapeake, VA",84,72,75,50,38,75,2,195
+93,Norfolk,VA,"Norfolk, VA",84,72,75,50,38,75,2,195
+94,Richmond,VA,"Richmond, VA",88,68,70,49,33,74,7,203
+95,Virginia Beach,VA,"Virginia Beach, VA",82,73,76,49,39,75,0,186
+96,Seattle,WA,"Seattle, WA",75,53,71,46,36,84,10,164
+97,Spokane,WA,"Spokane, WA",81,56,43,36,24,85,60,159
+98,Madison,WI,"Madison, WI",77,59,83,29,16,86,45,200
+99,Milwaukee,WI,"Milwaukee, WI",76,62,77,30,20,83,46,191

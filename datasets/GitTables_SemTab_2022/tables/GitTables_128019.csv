@@ -1,0 +1,34 @@
+col0,col1,col2,col3,col4,col5,col6
+service:bt,Bug Tracker,,LINK,fa fa-bug,functional,fa fa-suitcase
+service:bt:jira,JIRA,service:bt,LINK,,,
+service:bt:jira:4,JIRA 4,service:bt:jira,LINK,,,
+service:bt:jira:6,JIRA 6,service:bt:jira,LINK,,,
+service:build,Build,,LINK,fa fa-cogs,technical,fa fa-industry
+service:build:jenkins,Jenkins,service:build,LINK,,,
+service:build:jenkins:bpr,Jenkins BPR,service:build:jenkins,LINK,,,
+service:kpi,KPI Collection,,LINK,fa fa-dashboard,technical,fa fa-industry
+service:kpi:sonar,SonarQube,service:kpi,LINK,,,
+service:kpi:sonar:bpr,SonarQube DIG,service:kpi:sonar,LINK,,,
+service:id,Identity management,,CREATE,fa fa-key,functional,fa fa-suitcase
+service:id:ldap,LDAP,service:id,CREATE,,,
+service:id:ldap:dig,OpenLDAP,service:id:ldap,CREATE,,,
+service:km,Knowledge Management,,LINK,fa fa-group,functional,fa fa-suitcase
+service:km:confluence,Confluence,service:km,LINK,,,
+service:km:confluence:dig,Confluence Corporate,service:km:confluence,LINK,,,
+service:security,Security,,LINK,fas fa-shield-alt,technical,fa fa-industry
+service:security:fortify,Fortify,service:security,LINK,,,
+service:security:fortify:dig,Fortify DIG,service:security:fortify,LINK,,,
+service:vm,Virtualization,,LINK,fas fa-cloud,technical,fa fa-industry
+service:vm:vcloud,vCloud,service:vm,LINK,,,
+service:vm:vcloud:sample,vCloud - Sample organization,service:vm:vcloud,LINK,,,
+service:scm,Source,,LINK,fas fa-code-branch,technical,fa fa-industry
+service:scm:git,git,service:scm,,fab fa-git,LINK,
+service:scm:git:dig,git DIG,service:scm:git,LINK,fab fa-git,,
+service:scm:svn,svn,service:scm,LINK,,,
+service:scm:svn:dig,svn DIG,service:scm:svn,LINK,,,
+service:req,Requirement,,LINK,fa fa-check-square-o,functional,fa fa-suitcase
+service:req:squash,Squash,service:req,LINK,,,
+service:req:squash:dig,Squash DIG,service:req:squash,LINK,,,
+service:storage,Storage,,LINK,fa fa-database,functional,fa fa-suitcase
+service:storage:owncloud,ownCloud,service:storage,LINK,,,
+service:storage:owncloud:dig,ownCloud DIG,service:storage:owncloud,LINK,,,

@@ -1,0 +1,49 @@
+col0,col1,col2,col3,col4,col5,col6
+1,Mechanical Turk,,Sometimes,Greatly help,Possible,Possible
+3,Containerization and Cloud Computing,,Sometimes,Greatly help,Possible,Possible
+4,Web Development,,Sometimes,Greatly help,Not hard,Very hard
+4,Python or R package building,,Not at all,Not at all,Possible,Not hard
+4,Database,,Rarely,Not at all,Very hard,Not hard
+4,Mechanical Turk,,Rarely,Not at all,Possible,Not hard
+5,Web Development,,Sometimes,Slightly help,Possible,Not hard
+5,Containerization and Cloud Computing,,Rarely,Greatly help,Possible,Possible
+5,Other,,Often,Moderately help,Possible,Not hard
+6,Containerization and Cloud Computing,,Often,Not at all,Possible,Very hard
+6,Software refactoring,,Not at all,Critical to research,Very hard,Possible
+6,Database,,Often,Greatly help,Not hard,Not hard
+6,Mechanical Turk,,Rarely,Greatly help,Possible,Not hard
+7,Web Front-end,,Sometimes,Moderately help,Not hard,Possible
+8,Python or R package building,,Rarely,Critical to research,Possible,Possible
+8,Mechanical Turk,,Rarely,Greatly help,Not hard,Very hard
+9,Web Front-end,,Rarely,Slightly help,Possible,Possible
+9,Web Development,,Often,Greatly help,Possible,Possible
+9,Mechanical Turk,,Sometimes,Slightly help,Possible,Possible
+10,Database,,Sometimes,Slightly help,Possible,Possible
+10,Mechanical Turk,,Often,Greatly help,Not hard,Not hard
+11,Python or R package building,,Sometimes,Moderately help,Not hard,Very hard
+12,Software refactoring,,Not at all,Slightly help,Very hard,Very hard
+12,Database,,Not at all,Slightly help,Possible,Not hard
+13,Containerization and Cloud Computing,,Often,Greatly help,Very hard,Possible
+14,Software refactoring,,Often,Slightly help,Very hard,Possible
+14,Mechanical Turk,,Rarely,Not at all,Very hard,Possible
+15,Web Front-end,,Often,Critical to research,Possible,Very hard
+15,Mechanical Turk,,Rarely,Slightly help,Possible,Possible
+16,Web Development,,Sometimes,Moderately help,Possible,Not hard
+16,Software refactoring,,Often,Slightly help,Not hard,Possible
+17,Containerization and Cloud Computing,,Sometimes,Critical to research,Possible,Very hard
+18,Containerization and Cloud Computing,,Sometimes,Moderately help,Not hard,Very hard
+19,Web Front-end,,Rarely,Unspecified,Very hard,Very hard
+19,Web Development,,Rarely,Unspecified,Very hard,Very hard
+19,Python or R package building,,Rarely,Slightly help,Very hard,Very hard
+20,Database,,Rarely,Slightly help,Very hard,Very hard
+21,Containerization and Cloud Computing,,Not at all,Moderately help,Possible,Not hard
+21,Python or R package building,,Sometimes,Critical to research,Possible,Not hard
+22,Containerization and Cloud Computing,,Often,Greatly help,Possible,Not hard
+22,Python or R package building,,Often,Slightly help,Very hard,Very hard
+22,Software refactoring,,Sometimes,Critical to research,Possible,Possible
+23,Containerization and Cloud Computing,,Sometimes,Slightly help,Possible,Possible
+23,Mechanical Turk,,Often,Critical to research,Possible,Possible
+24,Python or R package building,,Rarely,Unspecified,Unspecified,Unspecified
+25,Other,none,Unspecified,Unspecified,Unspecified,Unspecified
+26,Other,none of the above,Unspecified,Unspecified,Unspecified,Unspecified
+27,Other,Spark and Hadoop tools programming,Rarely,Moderately help,Very hard,Very hard

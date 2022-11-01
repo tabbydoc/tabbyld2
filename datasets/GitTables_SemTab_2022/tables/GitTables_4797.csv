@@ -1,0 +1,41 @@
+col0,col1,col2,col3
+1,1,add_logentry,Can add log entry
+2,1,change_logentry,Can change log entry
+3,1,delete_logentry,Can delete log entry
+4,1,view_logentry,Can view log entry
+5,2,add_permission,Can add permission
+6,2,change_permission,Can change permission
+7,2,delete_permission,Can delete permission
+8,2,view_permission,Can view permission
+9,3,add_group,Can add group
+10,3,change_group,Can change group
+11,3,delete_group,Can delete group
+12,3,view_group,Can view group
+13,4,add_user,Can add user
+14,4,change_user,Can change user
+15,4,delete_user,Can delete user
+16,4,view_user,Can view user
+17,5,add_contenttype,Can add content type
+18,5,change_contenttype,Can change content type
+19,5,delete_contenttype,Can delete content type
+20,5,view_contenttype,Can view content type
+21,6,add_session,Can add session
+22,6,change_session,Can change session
+23,6,delete_session,Can delete session
+24,6,view_session,Can view session
+25,7,add_operations,Can add operations
+26,7,change_operations,Can change operations
+27,7,delete_operations,Can delete operations
+28,7,view_operations,Can view operations
+29,8,add_participants,Can add participants
+30,8,change_participants,Can change participants
+31,8,delete_participants,Can delete participants
+32,8,view_participants,Can view participants
+33,9,add_transcript,Can add transcript
+34,9,change_transcript,Can change transcript
+35,9,delete_transcript,Can delete transcript
+36,9,view_transcript,Can view transcript
+37,10,add_meeting,Can add meeting
+38,10,change_meeting,Can change meeting
+39,10,delete_meeting,Can delete meeting
+40,10,view_meeting,Can view meeting

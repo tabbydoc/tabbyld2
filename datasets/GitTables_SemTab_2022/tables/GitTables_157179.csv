@@ -1,0 +1,89 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+P001,[Holy See],Exempt Dioceses,S0931,S0932,S0933,,,,"mapped approximately, based on all dioceses not incorporated into a province during any given timeslice"
+P002,Acerenza,,S0836,,,,,,
+P003,Aix,,S0769,,,,,,
+P004,Amalfi,,S0837,,,,,,
+P005,Aquileia,,S0799,S0840,S0602,,,,
+P006,Arles,,S0800,,,,,,
+P007,Armagh,,S0770,,,,,,
+P008,Auch,,S0771,,,,,,
+P009,Avignon,,,,,,1475.0,,does not appear on maps
+P011,Bari,,S0839,S0841,,,,,
+P012,Benevento,,S0801,S0803,,,,,
+P013,Besançon,,S0772,,,,,,
+P014,Bordeaux,,S0773,,,,,,
+P015,Bourges,,S0774,,,,,,
+P016,Braga,,S0804,S0806,S0807,,,,
+P017,Bremen,,S0808,,,,,,
+P018,Brindisi,,S0843,,,,1050.0,,Unrecognized as an archdiocese until the 16th century
+P019,Cagliari,,S0540,,,,,,
+P020,Canterbury,,S0775,S0558,,,,,
+P021,Capua,,S0845,,,,,,
+P022,Cashel,Lismore,S0776,,,,,,
+P023,Köln,Cologne,S0785,,,,,,
+P024,Conza,,S0846,,,,,,
+P025,Cosenza,,S0847,,,,1090.0,,
+P026,Dublin,,S0768,,,,,,
+P027,Embrun,,S0777,,,,,,
+P028,Esztergom,,S0786,,,,,,
+P030,Firenze,Florence,S0849,,,,1420.0,,
+P031,Genova,Genoa,S0811,S0812,,,,,
+P032,Gniezno,,S0787,S0928,,,,,"Vilnius (1409-1501), Lebus (1124-1501), Wroclaw (Breslau) and Gniezno (1000-1501), Poznan and Plock (1075-1501), Samogitia(1440-1501), Chełm (1375-1501)"
+P033,Grado,Venezia,S0813,S0814,,,,,"In 1451, Grado is suppressed and the seat of the archbishopric is transferred to Venezia"
+P034,Granada,,S0908,,,,1492.0,,does not appear on maps
+P035,Halyč ,,S0938,,,,1375.0,1414.0,"missing Kiev, Wlodzimierz, Zytomierz (unmapped) "
+P036,Kalocsa,,S0911,,,,,,
+P038,Lisboa,Lisbon,S0850,,,,1393.0,,
+P039,Lund,,S0818,S0925,,,1124.0,,
+P040,Lviv,,S0939,,,,,,"missing territory from unmapped dioceses of Kiev, Wlodzimierz, Zytomierz"
+P041,Lyon,,S0835,,,,,,
+P042,Magdeburg,,S0788,,,,,,
+P043,Mainz,,S0789,S0930,,,,,Paderborn (999-1429); (1444-1501)
+P044,Manfredonia,,S0851,,,,1258.0,,
+P046,Messina,,S0852,,,,,,
+P047,Milano,Milan,S0853,,,,,,
+P048,Monreale,,S0857,,,,1086.0,,
+P049,Napoli,Naples,S0858,,,,,,
+P050,Narbonne,,S0778,S0791,,,,,
+P051,Nicosia,,S0790,,,,1196.0,,All Dioceses (1196-1571)
+P052,Nidaros,Trondheim,S0817,S0848,,,1152.0,,
+P053,Oristano,,S0860,,,,,,
+P054,Otranto,,S0861,,,,,,Santa Giusta (1093-1503)
+P055,Palermo,,S0792,,,,,,Agrigento (1088-1501); Mazara (1093-1501)
+P056,Pisa,,S0862,S0863,S0864,,,,
+P057,Prague,,S0793,,,,1344.0,,
+P058,Ragusa,Dubrovnik,S0907,S0561,,,,,
+P059,Ravenna,,S0820,,,,,,
+P060,Reggio-Calabria,,S0865,,,,,,
+P061,Reims,,S0779,,,,,,Noyon (1146-1501) and Arras (1093-1501)
+P062,Riga,,S0866,S0926,,,1255.0,,
+P063,Roma,Rome,,,,,,,"Not mapped, since it doesn't function as an ordinary province [see Exempt Dioceses]"
+P065,Rouen,,S0867,,,,,,
+P066,Salerno,,S0868,,,,,,
+P067,Salzburg,,S0794,S0797,,,,,
+P068,Santa Severina,,S0869,,,,,,
+P069,Santiago,,S0821,S0819,S0822,,,,
+P070,Sens,,S0781,,,,,,
+P071,Sevilla,Seville,S0795,S0615,S0616,,,,
+P072,Siena,,S0588,,,,1459.0,,
+P073,Sorrento,,S0873,,,,,,
+P074,Split,,S0874,S0875,,,,,
+P075,Taranto,,S0877,,,,,,
+P076,Tarentaise,,S0878,,,,,,
+P077,Tarragona,,S0825,S0910,S0824,S0809,,,
+P078,Toledo,,S0829,S0830,S0831,,,,
+P079,Torres,,S0879,S0880,,,,,
+P080,Toulouse,,S0883,,,,,,
+P081,Tours,,S0782,,,,,,
+P082,Trani,,S0885,S0886,,,,,
+P083,Trier,,S0796,,,,,,
+P085,Tuam,,S0887,,,,,,
+P086,Uppsala,,S0798,,,,,,"Uppsala (1123-1588), Vasteras (1100-1527), Strangnas (1129-1527), Linkoping (1100-1527), Skara (1014-1527), Vaxjo (1170-1527), Abo (1276-1522)"
+P087,Rossano,,S0842,,,,,,
+P089,Vienne,,S0783,,,,,,
+P091,York,,S0784,S0923,,,,,Carlisle (1133-1501)
+P092,Zadar,Zara,S0889,,,,,,
+P093,Zaragoza,,S0834,S0876,,,1318.0,,
+P094,Scotland,,S0890,,,,,,"the “ecclesia Scoticana” did not have a metropolitan until 1472, with the elevation of St Andrew’s, followed by the elevation of Glasgow in 1492"
+P095,Bar,Antibari,S0906,,,,,,
+P096,Candia,,S0934,,,,1213.0,1669.0,"11 suffragan dioceses, currently unmapped (no information)"

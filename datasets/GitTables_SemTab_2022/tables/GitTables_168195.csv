@@ -1,0 +1,80 @@
+col0,col1,col2,col3,col4,col5
+238,MCOP,Monroe County Police,P,,http://www2.monroecounty.gov/sheriff-index.php
+239,CTYP,Rochester City Police,P,,http://www.cityofrochester.gov/police/
+240,EROP,East Rochester Police,P,,http://eastrochester.org/departments/police/police.php
+241,EROF,East Rochester Fire,F,,http://www.erfd.org
+242,GREP,Greece Police,P,,http://greeceny.gov/police/home
+243,NYSP,New York State Police,P,,http://www.troopers.ny.gov/
+244,RTOC,Regional Traffic Operations Center,C,,http://www.monroecounty.gov/dot-rtoc.php
+245,CTYF,Rochester City Fire,F,,http://www.cityofrochester.gov/article.aspx?id=8589936630
+246,OGDP,Ogden Police,P,,http://www.ogdencity.com/en/public_safety/microsite_Police.aspx
+247,GATP,Gates Police,P,,http://www.townofgates.org/index.php?option=com_content&view=category&layout=blog&id=8&Itemid=38
+248,FAIP,Fairport Police,P,,http://www.fairport.ny.us/POLICE_DEPARTMENT.cfm
+249,IROP,Irondequoit Police,P,,http://www.irondequoit.org/content/view/131/273/
+250,BRIF,Brighton Fire,F,,http://www.brightonfd.org/
+251,BRIE,Brighton Ambulance,E,,http://www.brightonambulance.org/
+252,BRIP,Brighton Police,P,,http://www.townofbrighton.org/index.aspx?nid=221
+253,HILF,Hilton Fire,F,,http://www.hiltonfd.org/
+254,BROP,Brockport Police,P,,http://www.brockportpolice.org/
+255,CHIF,Chili Fire,F,,http://www.chilifire.org/home.php
+256,RMEE,Rural/Metro of Rochester,E,,http://www.ruralmetroeast.com/locations/new-york/rochester.html
+257,RROF,Ridge Road Fire,F,,http://www.rrfd.org/
+258,MONE,Monroe Ambulance,E,,http://www.monroeambulance.com/
+259,GATE,Gates Ambulance,E,,http://www.gatesems.org/
+260,GATF,Gates Fire,F,,http://www.gatesfd.org/
+261,WEBP,Webster Police,P,,http://ci.webster.ny.us/index.aspx?nid=86
+262,BBAF,Bushnell's Basin Fire,F,,http://www.bushnellsbasinfd.org/
+263,CHUF,Churchville Fire,F,,http://www.churchvillefire.com/
+264,HENF,Henrietta Fire,F,,http://www.henriettafire.com/
+265,FAIF,Fairport Fire,F,,http://www.fairportfd.org/
+266,CHIE,Chili Ambulance,E,,http://chiliambulance.org/
+267,SPEE,Spencerport Ambulance,E,,http://www.spencerportambulance.org/
+268,SPEF,Spencerport Fire,F,,http://www.spencerportfire.org/news/index/layoutfile/home
+269,PPLF,Point Pleasant Fire,F,,http://www.pointpleasantfd.org/
+270,RCUF,Ridge Culver Fire,F,,http://www.ridgeculverfire.com/
+271,NGRF,North Greece Fire,F,,http://northgreecefd.com/
+272,PENF,Penfield Fire,F,,http://www.penfieldfire.org/
+273,OTHF,,F,,
+274,SPAF,Saint Paul Fire District,F,,http://www.stpaulfd.com/
+275,UHIF,Union Hill Association Fire,F,,http://www.uhfd.org
+276,BROF,Brockport Fire,F,,http://brockportfire.org/
+277,WEBF,Webster Fire,F,,http://www.websterfire.com
+278,HENE,Henrietta Ambulance,E,,http://henriettaambulance.org/
+279,BARF,Barnard Fire,F,,http://www.barnardfire.org/
+280,CHUE,Churchville Ambulance,E,,http://www.churchvillefire.org/
+281,HSOP,"Humane Society Police, or Animal Control",P,,http://www.cityofrochester.gov/animalcontrol/
+282,PITE,Pittsford Ambulance,E,,http://www.pittsfordambulance.org/
+283,EGYF,Egypt Fire,F,,http://www.egyptfd.org/
+284,WWBF,West Webster Fire,F,,http://westwebsterfd.org/
+285,RUSF,Rush Fire,F,,http://www.rushfd.org/
+286,PITF,Pittsford Fire,F,,http://www.pittsfordfd.org/
+287,MENF,Mendon Fire,F,,http://www.mendonfd.us/
+288,HAMF,Hamlin Fire,F,,http://www.hamlinfire.com
+289,LAUF,Laurelton Fire,F,,http://www.laureltonfd.org/
+290,HAME,Hamlin Ambulance,E,,http://www.hamlinambulance.org/
+291,AIRF,Rochester Airport Fire,F,,http://iaff1636.com/
+292,GREE,Greece Ambulance,E,,http://www.greeceambulance.com/
+293,LAKF,Lakeshore Fire,F,,http://www.lsfd.us/
+294,RITE,Rochester Institute of Technology Ambulance,E,,http://ambulance.rit.edu/
+295,WWBE,West Webster Ambulance,E,,http://westwebsterfd.org/
+296,WLKF,Walker Fire,F,,http://www.walkerfd.org/
+297,MUMF,Mumford Fire,F,,http://www.mumfordfd.org/
+298,IROE,Irondequoit Ambulance,E,,http://www.irondequoitambulance.com/
+299,MORF,Morton Fire,F,,http://www.hamlinny.org/Fire_Dept/morton_fire_dept.html
+300,PERE,Perinton Ambulance,E,,http://www.perintonambulance.org/
+301,HFLF,Honeoye Falls Ambulance,F,,http://www.honeoyefallsfd.com/
+302,SCOF,Scottsville Fire,F,,http://www.scottsvillefd.org/
+303,CLIF,Clifton Fire,F,,http://www.cliftonfire.org/index.php
+304,RUSE,Rush Ambulance,E,,http://www.rushfd.org/
+305,PENE,Penfield Ambulance,E,,http://www.penfieldambulance.org/
+306,HFLE,Honeoye Falls Fire,E,,http://www.honeoyefallsfd.com/
+307,EROE,East Rochester Ambulance,E,,http://www.erambulance.org/
+308,OTHP,,P,,
+309,UHIE,Union Hill Association Ambulance,E,,http://www.uhfd.org
+310,HILE,Hilton Ambulance,E,,http://www.hiltonfd.org/
+311,SBRF,Sea Breeze Fire,F,,http://www.seabreezefd.org/home.php
+312,MCFB,Monroe County Fire Bureau,B,,http://www.monroecounty.gov/safety-fire.php
+313,BROE,Brockport Ambulance,E,,http://www.brockportambulance.org/
+314,OTHE,,E,,
+315,SCOE,Scottsville Ambulance,E,,http://www.scottsvillefd.org/
+316,BERE,Bergen EMS,E,,http://bergenfiredept.com/

@@ -1,0 +1,6 @@
+col0,col1,col2,col3,col4,col5
+service:vm:aws:access-key-id,service:vm:aws,"{""pattern"":""\\w{16,128}""}",True,TEXT,
+service:vm:aws:secret-access-key,service:vm:aws,"{""pattern"":"".{20,}""}",True,TEXT,true
+service:vm:aws:account,service:vm:aws,,True,TEXT,
+service:vm:aws:region,service:vm:aws,,,TEXT,
+service:vm:aws:id,service:vm:aws,"{""pattern"":""[a-z]-\\w{8,17}""}",True,TEXT,

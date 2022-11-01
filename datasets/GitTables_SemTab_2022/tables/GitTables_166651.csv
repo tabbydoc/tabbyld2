@@ -1,0 +1,211 @@
+col0,col1,col2,col3,col4
+0,Firelink Dagger,0,1000000,-
+1,Firelink Spear,0,1020000,-
+2,Firelink Sword,0,1070000,-
+3,Firelink Rapier,0,1090000,-
+4,Greatwood Club,0,2010000,-
+5,Irithyll Lance,0,2020000,-
+6,Fume Sword,0,2030000,-
+7,Machete,0,6000000,-
+8,Demon's Axe,0,6020000,-
+9,,0,6040000,-
+10,Moonlight Sword,0,6050000,-
+11,Pontiff Knight Greatsword,0,4030000,-
+12,Smelter Hammer,0,4040000,-
+13,Drake Fist,0,4050000,-
+14,Irithyll Warpick,0,5000000,-
+15,Tailbone Club,0,5010000,-
+16,Irithyll Mace,0,5050000,-
+17,Wooden Mallet,0,3020000,-
+18,Hallowed Sword,0,3000000,-
+19,Sunlight Greatsword,0,7000000,-
+20,Hallowed Greatsword,0,7010000,-
+21,Velka's Rapier,0,7080000,-
+22,Pursuer's Ultra Greatsword,0,7050000,-
+23,Bloodletter,0,7120000,-
+24,Locust Arm,0,16050000,-
+25,Beast Cutter,0,8000000,-
+26,Beasthunter Saif,0,8010000,-
+27,Boom Hammer,0,8020000,-
+28,Burial Blade,0,8110000,-
+29,Burial Scythe,0,8060000,-
+30,Chikage,0,8250000,-
+31,Church Pick,0,8170000,-
+32,Hunter Axe,0,9000000,-
+33,Kirkhammer,0,9010000,-
+34,Twinspears of the Forlorn,0,9200000,-
+35,Nil Blade,0,9130000,-
+36,Sanguinus,0,10000000,-
+37,Tonitrus,0,10010000,-
+38,Blades of Mercy,0,10030000,-
+39,Balder Side Sword,0,10090000,-
+40,Black Dragon Greataxe,0,12000000,-
+41,Black Dragon Greatsword,0,12050000,-
+42,Black Dragon Sword,0,11010000,-
+43,Blind,0,16000000,-
+44,Blueblood Sword,0,16100000,-
+45,Bramd,0,14010000,-
+46,Channeler's Trident,0,14060000,-
+47,Marvelous Zweihander,0,14150000,-
+48,Abyssal Greatsword,0,13600000,-
+49,Crystal Straight Sword,0,14040000,-
+50,Demon's Great Axe,0,13060000,-
+51,Demon's Great Hammer,0,13170000,-
+52,Demon's Machete,0,13160000,-
+53,Demon's Spear,0,13220000,-
+54,Dozer Axe,0,13240000,-
+55,Dragon Bone Fist,0,13050000,-
+56,Dragon Bone Smasher,0,13400000,-
+57,Dragon Greatsword,0,20000000,-
+58,Dragon King Greataxe,0,20180000,-
+59,Drake Sword,0,20210000,-
+60,Abyssal Blade,0,20220000,-
+61,Sage's Stiletto,0,20230000,-
+62,Giant's Halberd,0,20070000,-
+63,Golem Axe,0,21170000,-
+64,Grant,0,21190000,-
+65,Gravelord Sword,0,20120000,-
+66,Great Lord Greatsword,0,22100000,-
+67,Greatsword of Artorias,0,22120000,-
+68,Guillotine Axe,0,22130000,-
+69,Hands of God,0,23000000,-
+70,Rune Sword,268435456,58000000,-
+71,Scraping Spear,268435456,58001000,-
+72,Server,268435456,58002000,-
+73,Silver Knight Spear,268435456,58003000,-
+74,Silver Knight Straight Sword,268435456,19000000,-
+75,Stone Greatsword,268435456,19001000,-
+76,Titanite Catch Pole,268435456,19002000,-
+77,Istarelle,268435456,19003000,-
+78,Kris Blade,268435456,23000000,-
+79,Priscilla's Scythe,268435456,23001000,-
+80,Makoto,268435456,88000000,-
+81,Man Serpent Greatsword,268435456,88001000,-
+82,Moonlight Butterfly Horn,268435456,88002000,-
+83,Morion Great Blade,268435456,88003000,-
+84,Needle of Eternal Agony,268435456,73000000,-
+85,Obsidian Greatsword,268435456,73001000,-
+86,Penetrating Sword,268435456,73002000,-
+87,Phosophrescent Pole,268435456,73003000,-
+88,Quelaag's Fury Sword,268435456,70000000,-
+89,Meat Cleaver,268435456,70001000,-
+90,Spiral Greatsword,268435456,70002000,-
+91,Beast Claw,268435456,70003000,-
+92,Rakuyo,268435456,19500000,-
+93,Ladle,268435456,19501000,-
+94,Crypt Blacksword,268435456,19502000,-
+95,Smelter Sword,268435456,19503000,-
+96,Blue Flame,268435456,22000000,-
+97,Ash Demon Hammer,268435456,22001000,-
+98,Elder Ghru Tree,268435456,22002000,-
+99,Giant Crab Arm,268435456,22003000,-
+100,Hunter's Log,268435456,24500000,-
+101,Serpentine Twindaggers,268435456,24501000,-
+102,Shiv,268435456,24502000,-
+103,Serpentine Hatchet,268435456,24503000,-
+104,Serpentine Axe,268435456,76501000,-
+105,Thrall Harpe,268435456,76502000,-
+106,Smouldering Curved Sword,268435456,26500000,-
+107,Smouldering Dagger,268435456,57500000,-
+108,Smouldering Spear,268435456,47500000,-
+109,Thrall Pick,268435456,61500000,-
+110,Worker Machete,268435456,61501000,-
+111,Rampart Golem Lance,268435456,61503000,-
+112,Bewitched Alonne Sword,536870912,20000,-
+113,Bone Scythe,536870912,20060,-
+114,Dragonrider Halberd,536870912,20110,-
+115,Key to the Embedded,536870912,20160,-
+116,King's Ultra Greatsword,536870912,20170,-
+117,Pilgrim's Spontoon,536870912,20210,-
+118,Sacred Chime Hammer,536870912,20230,-
+119,Scythe of Nahr Alma,536870912,20241,-
+120,Scythe of Want,536870912,20250,-
+121,Crab Claw,536870912,20280,-
+122,Engraved Dagger,536870912,20310,-
+123,Lothric Candlestick,536870912,20400,-
+124,Sword of Avowal,536870912,20830,-
+125,Bone Rapier,536870912,20480,-
+126,Smouldering Blade,536870912,20490,-
+127,Irithyll Greatsword,536870912,20540,-
+128,Missionary Axe,536870912,20560,-
+129,Writhing Hammer,536870912,20670,-
+130,Hammer of the Great Tree,536870912,10040,-
+131,Lothric's Scythe,536870912,10060,-
+132,Ancient Dragon Halberd,1073741824,151,-
+133,Censuring Palm,1073741824,191,-
+134,Quarterstaff,1073741824,260,-
+135,Corvian Longstaff,1073741824,261,-
+136,Witchtree Limb,1073741824,270,-
+137,Murky Warstaff,1073741824,271,-
+138,Longstaff of Rosaria,1073741824,276,-
+139,Staff of Serpents,1073741824,240,-
+140,Archdeacon's Longstaff,1073741824,500,-
+141,Heretic's Warstaff,1073741824,292,-
+142,Witch's Staff,1073741824,300,-
+143,Black Flame,1073741824,310,-
+144,Holy Flame,1073741824,293,-
+145,Sorcerous Flame,1073741824,296,-
+146,Fool's Flame,1073741824,294,-
+147,Chaos Flame,1073741824,377,-
+148,Jester's Talisman,1073741824,460,-
+149,,1073741824,452,-
+150,,1073741824,336,-
+151,,1073741824,330,-
+152,Abyssal Flame,1073741824,340,-
+153,Insanity Catalyst,1073741824,371,-
+154,Talisman of Beasts,1073741824,350,-
+155,Manus Catalyst,1073741824,117,-
+156,Tin Banishment Catalyst,1073741824,370,-
+157,Velka's Talisman,1073741824,455,-
+158,Consumed King's Staff,1073741824,280,-
+159,Rotten Talisman,1073741824,520,-
+160,Smouldering Talisman,1073741824,100,-
+161,Flynn's Bow,1073741824,400,-
+162,Scholar's Bow,1073741824,2009,-
+163,Ciaran's Tracers,1073741824,2010,-
+164,Cleric's Parma,1073741824,2013,-
+165,Immortal Dragon Greatshield,1073741824,2102,-
+166,Loch Shield,1073741824,2103,-
+167,Cart Wheel,1073741824,2107,-
+168,Black Dragon Shield,1073741824,2119,-
+169,Crystalline Shield,1073741824,2127,-
+170,Gargoyle Shield,1073741824,2132,-
+171,Giant Shield,1073741824,2135,-
+172,Greatshield of Artorias,1073741824,2141,-
+173,Bulwark Shield,1073741824,2143,-
+174,Dragonkin Shield,1073741824,1300000,-
+175,Twinfang Greatshield,1073741824,1301000,-
+176,Quicksilver Shield,1073741824,1303000,-
+177,Rune Shield,1073741824,1308000,-
+178,Adjudicator's Shield,1073741824,1310000,-
+179,Crystal Ring Shield,1073741824,1350000,-
+180,Sanctus,1073741824,1354000,-
+181,Shield of the Hunted,1073741824,1355000,-
+182,Smouldering Shield,1073741824,1374000,-
+183,Master Key,1073741824,1375000,-
+184,Transposing Kiln,1073741824,2400000,-
+185,Bone Fragment,1073741824,2402000,-
+186,Lizard Hide,1073741824,2420000,-
+187,Resonating Crystal,1073741824,2431000,-
+188,Blood of Might,1073741824,2435000,-
+189,,1073741824,2453000,-
+190,,1073741824,2640000,-
+191,,1073741824,3490000,-
+192,,1073741824,3501000,-
+193,Shockwave,1073741824,3508000,-
+194,Soul Geyser,1073741824,3521000,-
+195,Abyssal Edge,1073741824,3530000,-
+196,Crystal Storm,1073741824,3540000,-
+197,Unleash Magic,1073741824,3550000,-
+198,Soul Wave,1073741824,3554000,-
+199,Blizzard,1073741824,3581000,-
+200,,1073741824,3780000,-
+201,Orbs of Judgment,0,400000,-
+202,,0,400100,-
+203,Blinding Light,0,400200,-
+204,Whisper of Despair,0,400500,-
+205,Repel,0,402000,-
+206,Numbness,0,402300,-
+207,Deep Barb,0,404000,-
+208,Surging Deep,0,404100,-
+209,Dark Bead,0,404600,-

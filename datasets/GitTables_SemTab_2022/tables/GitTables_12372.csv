@@ -1,0 +1,25 @@
+col0,col1,col2,col3
+id_cadl1_1,CAD Line 1,,0
+id_cadl1_2,CAD Line 2,,0
+id_cadl1_3,CAD Line 3,,0
+id_cadl2_1_1,CAD Type 1.1,id_cadl1_1,0
+id_cadl2_1_2,CAD Type 1.2,id_cadl1_1,0
+id_cadl2_1_3,CAD Type 1.3,id_cadl1_1,0
+id_cadl2_2_1,CAD Type 2.1,id_cadl1_2,0
+id_cadl2_2_2,CAD Type 2.2,id_cadl1_2,0
+id_cadl2_2_3,CAD Type 2.3,id_cadl1_2,0
+id_cadl2_3_1,CAD Type 3.1,id_cadl1_3,0
+id_cadl2_3_2,CAD Type 3.2,id_cadl1_3,0
+id_cadl2_3_3,CAD Type 3.3,id_cadl1_3,0
+id_cadl3_1_1_1,CAD Family 1.1.1,id_cadl2_1_1,0
+id_cadl3_1_1_2,CAD Family 1.1.2,id_cadl2_1_1,0
+id_cadl3_1_2_1,CAD Family 1.2.1,id_cadl2_1_2,0
+id_cadl3_1_2_2,CAD Family 1.2.2,id_cadl2_1_2,0
+id_cadl3_2_1_1,CAD Family 2.1.1,id_cadl2_2_1,0
+id_cadl3_2_1_2,CAD Family 2.1.2,id_cadl2_2_1,0
+id_cadl3_2_2_1,CAD Family 2.2.1,id_cadl2_2_2,0
+id_cadl3_2_2_2,CAD Family 2.2.2,id_cadl2_2_2,0
+id_cadl3_3_1_1,CAD Family 3.1.1,id_cadl2_3_1,0
+id_cadl3_3_1_2,CAD Family 3.1.2,id_cadl2_3_1,0
+id_cadl3_3_2_1,CAD Family 3.2.1,id_cadl2_3_2,0
+id_cadl3_3_2_2,CAD Family 3.2.2,id_cadl2_3_2,0

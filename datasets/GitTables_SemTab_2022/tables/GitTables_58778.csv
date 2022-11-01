@@ -1,0 +1,57 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1,Generic parameters for enemies -- 敵用の汎用パラメータ,1.0,0,0,-,-1,-
+2,Enemies - Generic - 0.2,0.2,0,0,-,6352,-
+3,Enemies - Generic - 0.25,0.25,0,0,-,6352,-
+4,Enemies - Generic - 0.3,0.3,0,0,-,6352,-
+5,Enemies - Generic - 0.35,0.35,0,0,-,6352,-
+6,Enemies - Generic - 0.4,0.4,0,0,-,6352,-
+7,Enemies - Generic - 0.45,0.45,0,0,-,6352,-
+8,Enemies - Generic - 0.5,0.5,0,0,-,6352,-
+9,Enemies - Generic - 0.55,0.55,0,0,-,6352,-
+10,Generic: 1.0 x -- 汎用：1.0倍,0.6,0,0,-,6352,-
+11,Enemies - Generic - 0.65,0.65,0,0,-,6352,-
+12,Enemies - Generic - 0.7,0.7,0,0,-,6352,-
+13,Enemies - Generic - 0.75,0.75,0,0,-,6352,-
+14,Enemies - Generic - 0.8,0.8,0,0,-,6352,-
+15,Versatile: 1.5 x -- 汎用：1.5倍,0.85,0,0,-,6352,-
+16,Enemies - Generic - 0.9,0.9,0,0,-,6352,-
+17,Enemies - Generic - 0.95,0.95,0,0,-,6352,-
+18,Enemies - Generic - 1.0,1.0,0,0,-,6352,-
+20,Generic: 2.0 X -- 汎用：2.0倍,1.5,0,0,-,6352,-
+25,General Purpose: 2.5 x -- 汎用：2.5倍,2.0,0,0,-,6352,-
+30,Generic: 3.0 x -- 汎用：3.0倍,2.5,0,0,-,6353,-
+35,Enemies - Generic - 3,3.0,0,0,-,6354,-
+50,,0.15,0,0,-,6360,-
+100,Attack: one hand: weak -- 攻撃：片手：弱,1.0,0,0,-,6352,-
+101,Attack: one hand: weak: Minimum warranty -- 攻撃：片手：弱：最低保障,1.0,20,0,-,6352,-
+110,Attack: one hand: Strong -- 攻撃：片手：強,1.0,0,0,-,6352,-
+111,Attack: one hand: strong: Minimum security -- 攻撃：片手：強：最低保障,1.0,20,0,-,6352,-
+120,Attack: one hand: Strong Max Infuser -- 攻撃：片手：強MAX溜め,1.5,0,0,-,6353,-
+121,Attack: one hand: Strong max Infuser: Minimum security -- 攻撃：片手：強MAX溜め：最低保障,1.5,20,0,-,6353,-
+130,,0.5,0,0,-,6352,-
+131,,0.5,20,0,-,6352,-
+150,,1.0,80,0,-,6352,-
+160,,1.0,80,0,-,6352,-
+170,,1.5,80,0,-,6352,-
+180,,0.5,80,0,-,6352,-
+200,Player - Light Roll,0.1,10,1,-,6352,-
+201,Player - Med Roll,0.15,15,1,-,6352,-
+202,Player - Heavy Roll,0.2,20,1,-,6352,-
+203,Player - Backstep,0.25,25,1,-,6352,-
+204,Player - Quickstep,0.3,30,1,-,6352,-
+205,Player - Walk,0.35,35,1,-,6352,-
+206,Player - Run,0.4,40,1,-,6352,-
+207,Player - Sprint,0.45,45,1,-,6352,-
+208,Player - ⁯Idle,0.5,50,1,-,6352,-
+209,Player - Turn,0.55,55,1,-,6352,-
+210,Player - Encumbered,0.6,60,1,-,6352,-
+211,Player - Jump,0.65,65,1,-,6352,-
+212,Player - Draw/Sheath,0.7,70,1,-,6353,-
+213,Player - Spell Tool (Cast),0.75,75,1,-,6353,-
+214,Player - Use Item,0.8,80,1,-,6353,-
+215,Player - Use Object,0.85,85,1,-,6353,-
+216,Player - Gesture,0.9,90,1,-,6353,-
+217,Player - Attacked,0.95,95,1,-,6353,-
+218,Player - Deflected,1.0,100,1,-,6353,-
+10000,,0.0,0,0,-,0,-
+20000,,0.0,0,0,-,0,-

@@ -1,0 +1,41 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21
+-12,9T,,132.0,2008-05-20T09:44:49.000,9ci Tolerances,CM,132.0,2009-03-23T17:38:48.000,015101,,False,,2,,,9T,True,True,0,,34.0
+-11,PAP,,1.0,2006-01-05T14:47:43.000,,PA,1.0,2007-10-30T11:00:36.000,11010-003,A-TBD,False,,-400,,,PA,False,True,0,,20.0
+-10,testRefNumFailDM,,1.0,2006-01-05T14:47:43.000,,DM,1.0,2007-10-30T11:00:36.000,11010-003,A-TBD,False,-5.0,-400,,,DM,False,True,0,32.0,40.0
+-9,mtcDM,,1.0,2006-01-05T14:47:43.000,,DM,1.0,2007-10-30T11:00:36.000,11010-003,A-TBD,False,40.0,-200,,,DM,False,True,0,32.0,40.0
+-8,mtcCM,,1.0,2006-01-05T14:47:43.000,,CM,1.0,2007-10-30T11:00:36.000,20110-000,501-Susp,False,30.0,-100,,,CM,False,True,0,42.0,30.0
+-7,testCorReasonToleranceCredit,,107.0,2008-06-30T17:57:55.000,,CM,107.0,2008-06-30T17:58:39.000,,,False,,1,44.0,,testCorReasonToleranceCredit,False,True,0,,33.0
+-6,testCorReasonToleranceDebit,,107.0,2008-06-30T17:57:25.000,,DM,107.0,2008-06-30T17:58:32.000,,,False,,1,34.0,,testCorReasonToleranceDebit,False,True,0,,43.0
+-5,tsDM,,1.0,2006-01-05T14:47:43.000,,DM,1.0,2007-10-30T11:00:36.000,11010-003,501-Susp,True,,-200,,,tsDM,False,True,0,,42.0
+-4,tsCM,,1.0,2006-01-05T14:47:43.000,,CM,1.0,2007-10-30T11:00:36.000,20110-000,A-TBD,True,,-100,,,tsCM,False,True,0,,32.0
+-3,testArDocDao.insertArdoc,,107.0,2007-10-16T17:27:09.000,Used in ArDocDaoIntTest.testInsertArdoc(),DM,107.0,2007-10-16T17:28:44.000,20110-000,501-Susp,False,,-300,,,test123,False,True,0,-5.0,40.0
+-2,testArTranTypeDao.2,,107.0,2007-10-16T17:27:09.000,Used in ArTranTypeDaoIntTest.testGetNewTranTypeSequenceNumber,DM,107.0,2007-10-16T17:28:44.000,20110-000,501-Susp,False,,-200,,,testDM,False,True,0,-4.0,40.0
+-1,testArTranTypeDao.1,,107.0,2007-10-16T17:27:09.000,Used in ArTranTypeDaoIntTest.testGetNewTranTypeSequenceNumber,CM,107.0,2007-10-16T17:28:44.000,20110-000,501-Susp,False,,-100,,,testCM,False,True,0,-5.0,30.0
+10,IN,,1.0,2006-01-05T14:47:43.000,Invoice,IN,1.0,2007-10-30T11:00:40.000,11010-003,41110-003,False,,1,,,IN,False,True,0,,10.0
+20,PA,,1.0,2006-01-05T14:47:43.000,Payment,PA,1.0,2007-10-30T11:00:36.000,20110-000,10050-000,False,,1,,,PA,False,True,0,,20.0
+21,ACH,,1.0,2006-01-05T14:47:43.000,ACH/eCheck,PA,1.0,2007-10-30T11:00:36.000,20110-000,10050-000,False,,1,,,PA,False,True,0,,20.0
+22,CC,,1.0,2006-01-05T14:47:43.000,Credit Card,PA,1.0,2007-10-30T11:00:36.000,20110-000,10050-000,False,,1,,,PA,False,True,0,,20.0
+23,PAL,,1.0,2006-01-05T14:47:43.000,Pay Pal,PA,1.0,2007-10-30T11:00:36.000,20110-000,10050-000,False,,1,,,PA,False,True,0,,20.0
+24,PAQB,,1.0,2006-01-05T14:47:43.000,Quickbooks,PA,1.0,2007-10-30T11:00:36.000,20110-000,10050-000,False,,1,,,PA,False,True,0,,20.0
+25,PAM,,1.0,2006-01-05T14:47:43.000,Payment miscellaneous,PA,1.0,2007-10-30T11:00:36.000,20110-000,10050-000,False,,1,,,PAM,False,True,0,,25.0
+30,CM,,1.0,2006-01-05T14:47:43.000,Credit Memo,CM,1.0,2007-10-30T11:00:36.000,20110-000,501-Susp,False,,1,,,CM,False,True,0,42.0,30.0
+31,WOC,,1.0,2006-01-05T14:47:43.000,Write-off credit,CM,1.0,2007-10-30T11:00:36.000,11010-003,41090-003,False,,1,44.0,,WOC,True,True,0,,33.0
+32,oCM,,1.0,2006-01-05T14:47:43.000,Opposing credit,CM,1.0,2007-10-30T11:00:36.000,20110-000,A-TBD,True,,1,,,oCM,False,False,0,,32.0
+33,cCM,,1.0,2006-01-05T14:47:43.000,Closing Credit,CM,1.0,2007-10-30T11:00:36.000,20110-000,A-TBD,False,,1,44.0,,cCM,False,True,0,,33.0
+34,RWOC,,1.0,2006-01-05T14:47:43.000,Reversing Write-off credit,CM,1.0,2007-10-30T11:00:36.000,11010-003,41090-003,False,,1,,,RWOC,True,False,0,,34.0
+35,OA,,107.0,2007-10-16T17:27:09.000,On Account,CM,107.0,2007-10-16T17:28:44.000,20110-000,501-Susp,False,,1,,,OA,False,True,0,42.0,30.0
+40,DM,,1.0,2006-01-05T14:47:43.000,Debit Memo,DM,1.0,2007-10-30T11:00:36.000,11010-003,A-TBD,False,,1,,,DM,False,True,0,32.0,40.0
+41,WOD,,1.0,2006-01-05T14:47:43.000,Write-off debit,DM,1.0,2007-10-30T11:00:36.000,11010-003,41090-003,False,,1,34.0,,WOD,True,True,0,,43.0
+42,oDM,,1.0,2006-01-05T14:47:43.000,Opposing debit,DM,1.0,2007-10-30T11:00:36.000,11010-003,501-Susp,True,,1,,,oDM,False,False,0,,42.0
+43,cDM,,1.0,2006-01-05T14:47:43.000,Closing Debit,DM,1.0,2007-10-30T11:00:36.000,11010-003,501-Susp,False,,1,34.0,,cDM,False,True,0,,43.0
+44,RWOD,,1.0,2006-01-05T14:47:43.000,Reversing Write-off debit,DM,1.0,2007-10-30T11:00:36.000,11010-003,41090-003,False,,1,,,RWOD,True,False,0,,44.0
+45,FC,,1.0,2006-01-05T14:47:43.000,Finance Charge,DM,1.0,2007-10-30T11:00:36.000,11010-003,A-TBD,False,,1,,,FC,False,True,0,32.0,40.0
+46,RD,,,,Refound Debit,DM,,,,,False,,1,,,,False,True,0,,
+50,DD,,1.0,2006-01-05T14:47:43.000,Deduction,DD,1.0,2007-10-30T11:00:36.000,11010-003,B-TBD,False,,1,,,DD,False,True,0,32.0,50.0
+60,WOCBD,,,,write off credit bad debt,,,,,,False,,1,,,,False,True,0,,31.0
+61,WODBD,,,, write off debit bad debt,,,,,,False,,1,,,,False,True,0,,41.0
+1000,OP,,,,Overpay Credit,CM,,,,,False,,1,,,CM,False,True,0,42.0,30.0
+1001,PAI,,,,Payment Awaiting Invoice,CM,,,,,False,,1,,,PAI,False,True,0,42.0,30.0
+1100,XFROUT,,,,Transfer Out,DM,,,11720,,False,,1,34.0,,XFROUT,False,True,0,,43.0
+1300,NSF,,,,,DM,,,11010-003,41090-003,False,,1,,,NSF,False,True,0,32.0,
+1400,XFRIN,,,,Transfer In,CM,,,11720,,False,,1,44.0,,XFRIN,False,True,0,,33.0

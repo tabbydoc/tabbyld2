@@ -1,0 +1,9 @@
+col0,col1,col2,col3,col4,col5,col6
+service:id:group,True,,False,TEXT,service:id,
+service:id:ou,True,CREATE,False,TEXT,service:id,
+service:id:parent-group,False,CREATE,False,TEXT,service:id,
+service:id:uid-pattern,False,,False,TEXT,service:id,
+service:id:sql:base-dn,False,,False,TEXT,service:id:sql,
+service:id:sql:salt-length,False,,False,INTEGER,service:id:sql,64.0
+service:id:sql:hash-iteration,False,,False,INTEGER,service:id:sql,10.0
+service:id:sql:key-length,False,,False,INTEGER,service:id:sql,256.0

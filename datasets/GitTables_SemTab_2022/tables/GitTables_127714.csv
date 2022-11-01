@@ -1,0 +1,54 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+0,acc_now_delinq,The number of accounts on which the borrower is now delinquent. ,29.0,42535.0,float64,float64,0.0
+2,addr_state,The state provided by the borrower in the loan application ,0.0,42535.0,object,object,0.0
+4,annual_inc,The self-reported annual income provided by the borrower during registration. ,4.0,42535.0,float64,float64,0.0
+6,application_type,Indicates whether the loan is an individual application or a joint application with two co-borrowers ,0.0,42535.0,object,,
+10,chargeoff_within_12_mths,Number of charge-offs within 12 months ,145.0,42535.0,float64,,
+11,collection_recovery_fee,post charge off collection fee ,0.0,42535.0,float64,float64,0.0
+12,collections_12_mths_ex_med,Number of collections in 12 months excluding medical collections ,145.0,42535.0,float64,,
+13,delinq_2yrs,The number of 30+ days past-due incidences of delinquency in the borrower's credit file for the past 2 years ,29.0,42535.0,float64,float64,0.0
+14,delinq_amnt,The past-due amount owed for the accounts on which the borrower is now delinquent. ,29.0,42535.0,float64,float64,0.0
+16,dti,"A ratio calculated using the borrower’s total monthly debt payments on the total debt obligations, excluding mortgage and the requested LC loan, divided by the borrower’s self-reported monthly income. ",0.0,42535.0,float64,float64,0.0
+18,earliest_cr_line,The month the borrower's earliest reported credit line was opened ,29.0,42535.0,object,object,0.0
+19,emp_length,Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years.  ,1112.0,42535.0,object,object,1112.0
+20,emp_title,The job title supplied by the Borrower when applying for the loan.* ,2626.0,42535.0,object,object,2612.0
+23,funded_amnt,The total amount committed to that loan at that point in time. ,0.0,42535.0,float64,float64,0.0
+24,funded_amnt_inv,The total amount committed by investors for that loan at that point in time. ,0.0,42535.0,float64,float64,0.0
+25,grade,LC assigned loan grade ,0.0,42535.0,object,object,0.0
+26,home_ownership,"The home ownership status provided by the borrower during registration or obtained from the credit report. Our values are: RENT, OWN, MORTGAGE, OTHER ",0.0,42535.0,object,int64,0.0
+27,id,A unique LC assigned ID for the loan listing. ,0.0,42535.0,object,int64,0.0
+29,initial_list_status,"The initial listing status of the loan. Possible values are – W, F ",0.0,42535.0,object,,
+32,inq_last_6mths,The number of inquiries in past 6 months (excluding auto and mortgage inquiries) ,29.0,42535.0,float64,float64,0.0
+33,installment,The monthly payment owed by the borrower if the loan originates. ,0.0,42535.0,float64,float64,0.0
+34,int_rate,Interest Rate on the loan ,0.0,42535.0,object,float64,0.0
+35,issue_d,The month which the loan was funded ,0.0,42535.0,object,object,0.0
+36,last_credit_pull_d,The most recent month LC pulled credit for this loan ,4.0,42535.0,object,object,0.0
+39,last_pymnt_amnt,Last total payment amount received ,0.0,42535.0,float64,float64,0.0
+40,last_pymnt_d,Last month payment was received ,83.0,42535.0,object,object,83.0
+41,loan_amnt,"The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value. ",0.0,42535.0,float64,float64,0.0
+42,loan_status,Current status of the loan ,0.0,42535.0,object,object,0.0
+44,member_id,A unique LC assigned Id for the borrower member. ,0.0,42535.0,float64,float64,0.0
+73,open_acc,The number of open credit lines in the borrower's credit file. ,29.0,42535.0,float64,float64,0.0
+80,out_prncp,Remaining outstanding principal for total amount funded ,0.0,42535.0,float64,float64,0.0
+81,out_prncp_inv,Remaining outstanding principal for portion of total amount funded by investors ,0.0,42535.0,float64,float64,0.0
+84,policy_code,"publicly available policy_code=1
+new products not publicly available policy_code=2 ",0.0,42535.0,float64,,
+85,pub_rec,Number of derogatory public records ,29.0,42535.0,float64,int64,0.0
+86,pub_rec_bankruptcies,Number of public record bankruptcies ,1365.0,42535.0,float64,float64,1334.0
+87,purpose,A category provided by the borrower for the loan request.  ,0.0,42535.0,object,object,0.0
+88,pymnt_plan,Indicates if a payment plan has been put in place for the loan ,0.0,42535.0,object,,
+89,recoveries,post charge off gross recovery ,0.0,42535.0,float64,float64,0.0
+90,revol_bal,Total credit revolving balance ,0.0,42535.0,float64,float64,0.0
+91,revol_util,"Revolving line utilization rate, or the amount of credit the borrower is using relative to all available revolving credit. ",90.0,42535.0,object,float64,0.0
+92,sub_grade,LC assigned loan subgrade ,0.0,42535.0,object,object,0.0
+93,tax_liens,Number of tax liens ,105.0,42535.0,float64,,
+94,term,The number of payments on the loan. Values are in months and can be either 36 or 60. ,0.0,42535.0,object,int64,0.0
+95,title,The loan title provided by the borrower ,13.0,42535.0,object,object,13.0
+99,total_acc,The total number of credit lines currently in the borrower's credit file ,29.0,42535.0,float64,int64,0.0
+105,total_pymnt,Payments received to date for total amount funded ,0.0,42535.0,float64,float64,0.0
+106,total_pymnt_inv,Payments received to date for portion of total amount funded by investors ,0.0,42535.0,float64,float64,0.0
+107,total_rec_int,Interest received to date ,0.0,42535.0,float64,float64,0.0
+108,total_rec_late_fee,Late fees received to date ,0.0,42535.0,float64,float64,0.0
+109,total_rec_prncp,Principal received to date ,0.0,42535.0,float64,float64,0.0
+112,verification_status,"Indicates if income was verified by LC, not verified, or if the income source was verified ",0.0,42535.0,object,object,0.0
+114,zip_code,The first 3 numbers of the zip code provided by the borrower in the loan application. ,0.0,42535.0,object,object,0.0

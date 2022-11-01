@@ -1,0 +1,133 @@
+col0,col1,col2
+Sample Name,SAMD00017616,SAMD00017616
+External Id,SAMD00017616,SAMD00017616
+INSDC center name,The University of Tokyo Graduate School of Pharmaceutical Sciences Laboratory of Molecular Biology,SAMD00017616
+INSDC first public,2018-08-03T00:00:00Z,SAMD00017616
+INSDC last update,2018-08-03T09:04:00Z,SAMD00017616
+INSDC status,live,SAMD00017616
+NCBI submission model,Generic,SAMD00017616
+NCBI submission package,Generic.1.0,SAMD00017616
+Sample Description,total RNA in 12.5 dpc stage of mouse NPCs (Nestin-d4Venus-positive).,SAMD00017616
+breed,Outbred,SAMD00017616
+dev stage,12.5 dpc,SAMD00017616
+genotype,Tg (Nestin-d4venus),SAMD00017616
+host body site,Neocortexhttp://purl.obolibrary.org/obo/UBERON_0001950,SAMD00017616
+organism,Mus musculushttp://purl.obolibrary.org/obo/NCBITaxon_10090,SAMD00017616
+sample name,12.5_dpc_RNAseq [Hiseq2000],SAMD00017616
+strain,ICR,SAMD00017616
+title,12.5_dpc_RNAseq [Hiseq2000],SAMD00017616
+Sample Name,SAMD00017621,SAMD00017621
+External Id,SAMD00017621,SAMD00017621
+INSDC center name,The University of Tokyo Graduate School of Pharmaceutical Sciences Laboratory of Molecular Biology,SAMD00017621
+INSDC first public,2018-08-03T00:00:00Z,SAMD00017621
+INSDC last update,2018-08-03T09:04:00Z,SAMD00017621
+INSDC status,live,SAMD00017621
+NCBI submission model,Generic,SAMD00017621
+NCBI submission package,Generic.1.0,SAMD00017621
+Sample Description,total RNA in 14.5 dpc stage of mouse NPCs (Nestin-d4Venus-positive).,SAMD00017621
+breed,Outbred,SAMD00017621
+dev stage,14.5 dpc,SAMD00017621
+genotype,Tg (Nestin-d4venus),SAMD00017621
+host body site,Neocortexhttp://purl.obolibrary.org/obo/UBERON_0001950,SAMD00017621
+organism,Mus musculushttp://purl.obolibrary.org/obo/NCBITaxon_10090,SAMD00017621
+sample name,14.5_dpc_RNAseq [Hiseq2000],SAMD00017621
+strain,ICR,SAMD00017621
+title,14.5_dpc_RNAseq [Hiseq2000],SAMD00017621
+Sample Name,SAMD00017626,SAMD00017626
+External Id,SAMD00017626,SAMD00017626
+INSDC center name,The University of Tokyo Graduate School of Pharmaceutical Sciences Laboratory of Molecular Biology,SAMD00017626
+INSDC first public,2018-08-03T00:00:00Z,SAMD00017626
+INSDC last update,2018-08-03T09:04:00Z,SAMD00017626
+INSDC status,live,SAMD00017626
+NCBI submission model,Generic,SAMD00017626
+NCBI submission package,Generic.1.0,SAMD00017626
+Sample Description,total RNA in 16.5 dpc stage of mouse NPCs (Nestin-d4Venus-positive).,SAMD00017626
+breed,Outbred,SAMD00017626
+dev stage,16.5 dpc,SAMD00017626
+genotype,Tg (Nestin-d4venus),SAMD00017626
+host body site,Neocortexhttp://purl.obolibrary.org/obo/UBERON_0001950,SAMD00017626
+organism,Mus musculushttp://purl.obolibrary.org/obo/NCBITaxon_10090,SAMD00017626
+sample name,16.5_dpc_RNAseq [Hiseq2000],SAMD00017626
+strain,ICR,SAMD00017626
+title,16.5_dpc_RNAseq [Hiseq2000],SAMD00017626
+Sample Name,SAMD00017630,SAMD00017630
+External Id,SAMD00017630,SAMD00017630
+INSDC center name,The University of Tokyo Graduate School of Pharmaceutical Sciences Laboratory of Molecular Biology,SAMD00017630
+INSDC first public,2018-08-03T00:00:00Z,SAMD00017630
+INSDC last update,2018-08-03T09:04:00Z,SAMD00017630
+INSDC status,live,SAMD00017630
+NCBI submission model,Generic,SAMD00017630
+NCBI submission package,Generic.1.0,SAMD00017630
+Sample Description,total RNA in 18.5 dpc stage of mouse NPCs (Nestin-d4Venus-positive).,SAMD00017630
+breed,Outbred,SAMD00017630
+dev stage,18.5 dpc,SAMD00017630
+genotype,Tg (Nestin-d4venus),SAMD00017630
+host body site,Neocortexhttp://purl.obolibrary.org/obo/UBERON_0001950,SAMD00017630
+organism,Mus musculushttp://purl.obolibrary.org/obo/NCBITaxon_10090,SAMD00017630
+sample name,18.5_dpc_RNAseq [Hiseq2000],SAMD00017630
+strain,ICR,SAMD00017630
+title,18.5_dpc_RNAseq [Hiseq2000],SAMD00017630
+Sample Name,SAMD00043267,SAMD00043267
+External Id,SAMD00043267,SAMD00043267
+INSDC center name,"Laboratory of Molecular Biology, Graduate School of Pharmaceutical Sciences, The University of Tokyo",SAMD00043267
+INSDC first public,2018-08-03T00:00:00Z,SAMD00043267
+INSDC last update,2018-08-03T09:04:00Z,SAMD00043267
+INSDC status,live,SAMD00043267
+NCBI submission model,Generic,SAMD00043267
+NCBI submission package,Generic.1.0,SAMD00043267
+Sample Description,RNA extracted from mouse NPCs (FAC-sorted) in 12.0 dpc stage.,SAMD00043267
+dev stage,12.0 dpc,SAMD00043267
+genotype,wild typehttp://www.ebi.ac.uk/efo/EFO_0005168,SAMD00043267
+host body site,Neocortexhttp://purl.obolibrary.org/obo/UBERON_0001950,SAMD00043267
+organism,Mus musculushttp://purl.obolibrary.org/obo/NCBITaxon_10090,SAMD00043267
+sample name,2732_E12_0 [RNAseq],SAMD00043267
+strain,ICR,SAMD00043267
+title,2732_E12_0 [RNAseq],SAMD00043267
+Sample Name,SAMD00043268,SAMD00043268
+External Id,SAMD00043268,SAMD00043268
+INSDC center name,"Laboratory of Molecular Biology, Graduate School of Pharmaceutical Sciences, The University of Tokyo",SAMD00043268
+INSDC first public,2018-08-03T00:00:00Z,SAMD00043268
+INSDC last update,2018-08-03T09:04:00Z,SAMD00043268
+INSDC status,live,SAMD00043268
+NCBI submission model,Generic,SAMD00043268
+NCBI submission package,Generic.1.0,SAMD00043268
+Sample Description,RNA extracted from mouse NPCs (FAC-sorted) in 14 dpc stage.,SAMD00043268
+dev stage,14 dpc,SAMD00043268
+genotype,wild typehttp://www.ebi.ac.uk/efo/EFO_0005168,SAMD00043268
+host body site,Neocortexhttp://purl.obolibrary.org/obo/UBERON_0001950,SAMD00043268
+organism,Mus musculushttp://purl.obolibrary.org/obo/NCBITaxon_10090,SAMD00043268
+sample name,2732_E14 [RNAseq],SAMD00043268
+strain,ICR,SAMD00043268
+title,2732_E14 [RNAseq],SAMD00043268
+Sample Name,SAMD00043269,SAMD00043269
+External Id,SAMD00043269,SAMD00043269
+INSDC center name,"Laboratory of Molecular Biology, Graduate School of Pharmaceutical Sciences, The University of Tokyo",SAMD00043269
+INSDC first public,2018-08-03T00:00:00Z,SAMD00043269
+INSDC last update,2018-08-03T09:04:00Z,SAMD00043269
+INSDC status,live,SAMD00043269
+NCBI submission model,Generic,SAMD00043269
+NCBI submission package,Generic.1.0,SAMD00043269
+Sample Description,RNA extracted from mouse NPCs (FAC-sorted) in 16 dpc stage.,SAMD00043269
+dev stage,16 dpc,SAMD00043269
+genotype,wild typehttp://www.ebi.ac.uk/efo/EFO_0005168,SAMD00043269
+host body site,Neocortexhttp://purl.obolibrary.org/obo/UBERON_0001950,SAMD00043269
+organism,Mus musculushttp://purl.obolibrary.org/obo/NCBITaxon_10090,SAMD00043269
+sample name,2732_E16 [RNAseq],SAMD00043269
+strain,ICR,SAMD00043269
+title,2732_E16 [RNAseq],SAMD00043269
+Sample Name,SAMD00043270,SAMD00043270
+External Id,SAMD00043270,SAMD00043270
+INSDC center name,"Laboratory of Molecular Biology, Graduate School of Pharmaceutical Sciences, The University of Tokyo",SAMD00043270
+INSDC first public,2018-08-03T00:00:00Z,SAMD00043270
+INSDC last update,2018-08-03T09:04:00Z,SAMD00043270
+INSDC status,live,SAMD00043270
+NCBI submission model,Generic,SAMD00043270
+NCBI submission package,Generic.1.0,SAMD00043270
+Sample Description,RNA extracted from mouse NPCs (FAC-sorted) in 18 dpc stage.,SAMD00043270
+dev stage,18 dpc,SAMD00043270
+genotype,wild typehttp://www.ebi.ac.uk/efo/EFO_0005168,SAMD00043270
+host body site,Neocortexhttp://purl.obolibrary.org/obo/UBERON_0001950,SAMD00043270
+organism,Mus musculushttp://purl.obolibrary.org/obo/NCBITaxon_10090,SAMD00043270
+sample name,2732_E18 [RNAseq],SAMD00043270
+strain,ICR,SAMD00043270
+title,2732_E18 [RNAseq],SAMD00043270

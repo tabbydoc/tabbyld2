@@ -1,0 +1,11 @@
+col0,col1,col2,col3,col4,col5
+Budget,Office&'-'&EmployeeID,BudgetKey,Y,1.0,
+OrderDetails,Autonumber(OrderID&'-'&LineNo),OrderLineKey,Y,1.0,
+OrderDetails,"money( ( Quantity * UnitPrice  )  * 
+( 1 - Discount), '$",,,,
+OrderDetails,"num( Discount, '",,,,
+Orders,"date ( AddMonths( OrderDate, 93 ) )",Order Date,Y,,"The sample data is old, so we add months to make it current."
+OrdersMappingTest,"applymap('EmployeesOfficesMap', EmployeeID, 'NO MATCH')",EmployeeOffice,Y,,
+Products,UnitPrice,Catalogue Price,Y,,
+Shipments,Autonumber(OrderID&'-'&LineNo),OrderLineKey,Y,1.0,
+Shippers,CompanyName,Shipper Name,Y,,

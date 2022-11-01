@@ -1,0 +1,12 @@
+col0,col1,col2,col3,col4,col5
+z0bug.bank_company_1,IT15A0123412345100000123456,z0bug.partner_mycompany,,iban,
+z0bug.bank_company_2,IT74B0246801011000000024680,z0bug.partner_mycompany,,iban,
+z0bug.bank_partner_1,IT73C0102001011010101987654,z0bug.res_partner_1,,iban,
+z0bug.bank_partner_2,IT82B0200802002200000000022,z0bug.res_partner_2,,iban,
+z0bug.bank_partner_4,IT78Z0558401700000000071746,z0bug.res_partner_4,,iban,
+z0bug.bank_partner_5,IT75E0205505055000000055555,z0bug.res_partner_5,,iban,
+z0bug.bank_partner_6,IT61F0300116016000006060606,z0bug.res_partner_6,,iban,
+z0bug.bank_partner_7,CH9300762011623852957,z0bug.res_partner_7,,iban,
+z0bug.bank_partner_8,IT29H1800808010080000008888,z0bug.res_partner_8,,iban,
+z0bug.bank_partner_13,DE89370400440532013000,z0bug.res_partner_13,,iban,
+z0bug.bank_partner_16,IT41P1601616000100000161616,z0bug.res_partner_16,,iban,

@@ -1,0 +1,7 @@
+col0,col1,col2,col3,col4,col5,col6
+UIN,Numéro d'identification unique,Identifiant national fourni au demandeur,fra,True,superadmin,now()
+PRID,ID de pré-enregistrement,Identifiant attribué après le pré-enregistrement,fra,True,superadmin,now()
+RID,ID d'enregistrement,Identifiant attribué après l'enregistrement,fra,True,superadmin,now()
+VID,ID virtuel,Identifiant virtuel temporaire utilisé en remplacement du Numéro d'identification unique,fra,True,superadmin,now()
+Token ID,ID jeton,ID secondaire utilisé par les fournisseurs de services,fra,True,superadmin,now()
+MID,Mobile ID,Identifiant mobile utilisé par acceder aux services en ligne,fra,True,superadmin,now()

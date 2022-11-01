@@ -1,0 +1,387 @@
+col0,col1,col2,col3
+309,10,C,Ciudad Autónoma de Buenos Aires
+310,10,B,Buenos Aires
+311,10,K,Catamarca
+312,10,H,Chaco
+313,10,U,Chubut
+314,10,X,Córdoba
+315,10,W,Corrientes
+316,10,E,Entre Ríos
+317,10,P,Formosa
+318,10,Y,Jujuy
+319,10,L,La Pampa
+320,10,F,La Rioja
+321,10,M,Mendoza
+322,10,N,Misiones
+323,10,Q,Neuquén
+324,10,R,Río Negro
+325,10,A,Salta
+326,10,J,San Juan
+327,10,D,San Luis
+328,10,Z,Santa Cruz
+329,10,S,Santa Fe
+330,10,G,Santiago del Estero
+331,10,V,Tierra del Fuego
+332,10,T,Tucumán
+208,13,ACT,Australian Capital Territory
+209,13,NSW,New South Wales
+210,13,NT,Northern Territory
+211,13,QLD,Queensland
+212,13,SA,South Australia
+213,13,TAS,Tasmania
+214,13,VIC,Victoria
+215,13,WA,Western Australia
+95,14,WIE,Wien
+96,14,NO,Niederösterreich
+97,14,OO,Oberösterreich
+98,14,SB,Salzburg
+99,14,KN,Kärnten
+100,14,ST,Steiermark
+101,14,TI,Tirol
+102,14,BL,Burgenland
+103,14,VB,Voralberg
+66,38,AB,Alberta
+67,38,BC,British Columbia
+68,38,MB,Manitoba
+69,38,NL,Newfoundland and Labrador
+70,38,NB,New Brunswick
+71,38,NS,Nova Scotia
+72,38,NT,Northwest Territories
+73,38,NU,Nunavut
+74,38,ON,Ontario
+75,38,PE,Prince Edward Island
+76,38,QC,Quebec
+77,38,SK,Saskatchewan
+78,38,YT,Yukon Territory
+79,80,NDS,Niedersachsen
+80,80,BAW,Baden-Württemberg
+81,80,BAY,Bayern
+82,80,BER,Berlin
+83,80,BRG,Brandenburg
+84,80,BRE,Bremen
+85,80,HAM,Hamburg
+86,80,HES,Hessen
+87,80,MEC,Mecklenburg-Vorpommern
+88,80,NRW,Nordrhein-Westfalen
+89,80,RHE,Rheinland-Pfalz
+90,80,SAR,Saarland
+91,80,SAS,Sachsen
+92,80,SAC,Sachsen-Anhalt
+93,80,SCN,Schleswig-Holstein
+94,80,THE,Thüringen
+273,99,AP,Andhra Pradesh
+274,99,AR,Arunachal Pradesh
+275,99,AS,Assam
+276,99,BR,Bihar
+277,99,CG,Chhattisgarh
+278,99,GA,Goa
+279,99,GJ,Gujarat
+280,99,HR,Haryana
+281,99,HP,Himachal Pradesh
+282,99,JK,Jammu & Kashmir
+283,99,JH,Jharkhand
+284,99,KA,Karnataka
+285,99,KL,Kerala
+286,99,MP,Madhya Pradesh
+287,99,MH,Maharashtra
+288,99,MN,Manipur
+289,99,ML,Meghalaya
+290,99,MZ,Mizoram
+291,99,NL,Nagaland
+292,99,OR,Orissa
+293,99,PB,Punjab
+294,99,RJ,Rajasthan
+295,99,SK,Sikkim
+296,99,TN,Tamil Nadu
+297,99,TR,Tripura
+298,99,UK,Uttarakhand
+299,99,UP,Uttar Pradesh
+300,99,WB,West Bengal
+301,99,AN,Andaman and Nicobar Islands
+302,99,CH,Chandigarh
+303,99,DN,Dadra and Nagar Haveli
+304,99,DD,Daman & Diu
+305,99,LD,Lakshadweep
+306,99,DL,Delhi
+307,99,PY,Pondicherry
+308,99,TS,Telangana
+241,100,BA,Bali
+242,100,BB,Bangka Belitung
+243,100,BT,Banten
+244,100,BE,Bengkulu
+245,100,DA,Daista Aceh
+246,100,JK,Jakarta
+247,100,SU,Sumatera Utara
+248,100,SB,Sumatera Barat
+249,100,SI,Riau
+250,100,JA,Jambi
+251,100,SS,Sumatera Selatan
+252,100,LA,Lampung
+253,100,JB,Jawa Barat
+254,100,JT,Jawa Tengah
+255,100,DY,Daista Yogyakarta
+256,100,JT,Jawa Timur
+257,100,KB,Kalimantan Barat
+258,100,KT,Kalimantan Tengah
+259,100,KI,Kalimantan Timur
+260,100,KS,Kalimantan Selatan
+261,100,NB,Nusa Tenggara Barat
+262,100,NT,Nusa Tenggara Timur
+263,100,SN,Sulawesi Selatan
+264,100,ST,Sulawesi Tengah
+265,100,SA,Sulawesi Utara
+266,100,SG,Sulawesi Tenggara
+267,100,MA,Maluku
+268,100,MU,Maluku Utara
+269,100,IJ,Irian Jaya Timur
+270,100,IT,Irian Jaya Tengah
+271,100,IB,Irian Jawa Barat
+272,100,GO,Gorontalo
+182,103,CW,Carlow
+183,103,CN,Cavan
+184,103,CE,Clare
+185,103,C,Cork
+186,103,DL,Donegal
+187,103,D,Dublin
+188,103,G,Galway
+189,103,KY,Kerry
+190,103,KE,Kildare
+191,103,KK,Kilkenny
+192,103,LS,Laois
+193,103,LM,Leitrim
+194,103,LK,Limerick
+195,103,LD,Longford
+196,103,LH,Louth
+197,103,MO,Mayo
+198,103,MH,Meath
+199,103,MN,Monaghan
+200,103,OY,Offaly
+201,103,RN,Roscommon
+202,103,SO,Sligo
+203,103,TA,Tipperary
+204,103,WD,Waterford
+205,103,WH,Westmeath
+206,103,WX,Wexford
+207,103,WW,Wicklow
+216,129,JHR,Johor
+217,129,KDH,Kedah
+218,129,KTN,Kelantan
+219,129,MLK,Melaka
+220,129,NSN,Negeri Sembilan
+221,129,PHG,Pahang
+222,129,PNG,Pulau Pinang
+223,129,PRK,Perak
+224,129,PLS,Perlis
+225,129,SGR,Selangor
+226,129,TRG,Terengganu
+227,129,SBH,Sabah
+228,129,SRW,Sarawak
+229,129,KUL,Kuala Lumpur
+230,129,LBN,Labuan
+231,129,PJY,Putrajaya
+333,138,AGU,Aguascalientes
+334,138,BCN,Baja California
+335,138,BCS,Baja California Sur
+336,138,CAM,Campeche
+337,138,COA,Coahuila
+338,138,COL,Colima
+339,138,CHP,Chiapas
+340,138,CHH,Chihuahua
+341,138,DUR,Durango
+342,138,GUA,Guanajuato
+343,138,GRO,Guerrero
+344,138,HID,Hidalgo
+345,138,JAL,Jalisco
+346,138,CMX,Ciudad de México
+347,138,MEX,México
+348,138,MIC,Michoacán
+349,138,MOR,Morelos
+350,138,NAY,Nayarit
+351,138,NLE,Nuevo León
+352,138,OAX,Oaxaca
+353,138,PUE,Puebla
+354,138,QUE,Querétaro
+355,138,ROO,Quintana Roo
+356,138,SLP,San Luis Potosí
+357,138,SIN,Sinaloa
+358,138,SON,Sonora
+359,138,TAB,Tabasco
+360,138,TAM,Tamaulipas
+361,138,TLA,Tlaxcala
+362,138,VER,Veracruz
+363,138,YUC,Yucatán
+364,138,ZAC,Zacatecas
+372,146,07,Ayeyarwady
+373,146,02,Bago
+374,146,14,Chin
+375,146,11,Kachin
+376,146,12,Kayah
+377,146,13,Kayin
+378,146,03,Magway
+379,146,04,Mandalay
+380,146,15,Mon
+381,146,16,Rakhine
+382,146,17,Shan
+383,146,01,Sagaing
+384,146,05,Tanintharyi
+385,146,06,Yangon
+386,146,18,Naypyidaw Union
+232,197,EC,Eastern Cape
+233,197,FS,Free State
+234,197,GT,Gauteng
+235,197,NL,KwaZulu-Natal
+236,197,LP,Limpopo
+237,197,MP,Mpumalanga
+238,197,NC,Northern Cape
+239,197,NW,North-West
+240,197,WC,Western Cape
+130,199,ACOR,A Coruña
+131,199,ALAV,Alava
+132,199,ALBA,Albacete
+133,199,ALIC,Alicante
+134,199,ALME,Almeria
+135,199,ASTU,Asturias
+136,199,AVIL,Avila
+137,199,BADA,Badajoz
+138,199,BALE,Baleares
+139,199,BARC,Barcelona
+140,199,BURG,Burgos
+141,199,CACE,Caceres
+142,199,CADI,Cadiz
+143,199,CANT,Cantabria
+144,199,CAST,Castellon
+145,199,CEUT,Ceuta
+146,199,CIUD,Ciudad Real
+147,199,CORD,Cordoba
+148,199,CUEN,Cuenca
+149,199,GIRO,Girona
+150,199,GRAN,Granada
+151,199,GUAD,Guadalajara
+152,199,GUIP,Guipuzcoa
+153,199,HUEL,Huelva
+154,199,HUES,Huesca
+155,199,JAEN,Jaen
+156,199,LAR,La Rioja
+157,199,LAS,Las Palmas
+158,199,LEON,Leon
+159,199,LLEI,Lleida
+160,199,LUGO,Lugo
+161,199,MADR,Madrid
+162,199,MALA,Malaga
+163,199,MELI,Melilla
+164,199,MURC,Murcia
+165,199,NAVA,Navarra
+166,199,OURE,Ourense
+167,199,PALE,Palencia
+168,199,PONT,Pontevedra
+169,199,SALA,Salamanca
+170,199,SANT,Santa Cruz de Tenerife
+171,199,SEGO,Segovia
+172,199,SEVI,Sevilla
+173,199,SORI,Soria
+174,199,TARR,Tarragona
+175,199,TERU,Teruel
+176,199,TOLE,Toledo
+177,199,VALE,Valencia
+178,199,VALL,Valladolid
+179,199,VIZC,Vizcaya
+180,199,ZAMO,Zamora
+181,199,ZARA,Zaragoza
+104,206,AG,Aargau
+105,206,AI,Appenzell Innerrhoden
+106,206,AR,Appenzell Ausserrhoden
+107,206,BE,Bern
+108,206,BL,Basel-Landschaft
+109,206,BS,Basel-Stadt
+110,206,FR,Fribourg
+111,206,GE,Geneva
+112,206,GL,Glarus
+113,206,GR,Graubünden
+114,206,JU,Jura
+115,206,LU,Luzern
+116,206,NE,Neuchâtel
+117,206,NW,Nidwalden
+118,206,OW,Obwalden
+119,206,SG,St. Gallen
+120,206,SH,Schaffhausen
+121,206,SO,Solothurn
+122,206,SZ,Schwyz
+123,206,TG,Thurgau
+124,206,TI,Ticino
+125,206,UR,Uri
+126,206,VD,Vaud
+127,206,VS,Valais
+128,206,ZG,Zug
+129,206,ZH,Zürich
+365,224,AZ,Abu Dhabi
+366,224,AJ,Ajman
+367,224,FU,Fujairah
+368,224,SH,Sharjah
+369,224,DU,Dubai
+370,224,RK,Ras al-Khaimah
+371,224,UQ,Umm al-Quwain
+1,226,AL,Alabama
+2,226,AK,Alaska
+3,226,AS,American Samoa
+4,226,AZ,Arizona
+5,226,AR,Arkansas
+6,226,AF,Armed Forces Africa
+7,226,AA,Armed Forces Americas
+8,226,AC,Armed Forces Canada
+9,226,AE,Armed Forces Europe
+10,226,AM,Armed Forces Middle East
+11,226,AP,Armed Forces Pacific
+12,226,CA,California
+13,226,CO,Colorado
+14,226,CT,Connecticut
+15,226,DE,Delaware
+16,226,DC,District of Columbia
+17,226,FM,Federated States Of Micronesia
+18,226,FL,Florida
+19,226,GA,Georgia
+20,226,GU,Guam
+21,226,HI,Hawaii
+22,226,ID,Idaho
+23,226,IL,Illinois
+24,226,IN,Indiana
+25,226,IA,Iowa
+26,226,KS,Kansas
+27,226,KY,Kentucky
+28,226,LA,Louisiana
+29,226,ME,Maine
+30,226,MH,Marshall Islands
+31,226,MD,Maryland
+32,226,MA,Massachusetts
+33,226,MI,Michigan
+34,226,MN,Minnesota
+35,226,MS,Mississippi
+36,226,MO,Missouri
+37,226,MT,Montana
+38,226,NE,Nebraska
+39,226,NV,Nevada
+40,226,NH,New Hampshire
+41,226,NJ,New Jersey
+42,226,NM,New Mexico
+43,226,NY,New York
+44,226,NC,North Carolina
+45,226,ND,North Dakota
+46,226,MP,Northern Mariana Islands
+47,226,OH,Ohio
+48,226,OK,Oklahoma
+49,226,OR,Oregon
+50,226,PW,Palau
+51,226,PA,Pennsylvania
+52,226,PR,Puerto Rico
+53,226,RI,Rhode Island
+54,226,SC,South Carolina
+55,226,SD,South Dakota
+56,226,TN,Tennessee
+57,226,TX,Texas
+58,226,UT,Utah
+59,226,VT,Vermont
+60,226,VI,Virgin Islands
+61,226,VA,Virginia
+62,226,WA,Washington
+63,226,WV,West Virginia
+64,226,WI,Wisconsin
+65,226,WY,Wyoming

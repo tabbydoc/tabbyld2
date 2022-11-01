@@ -1,0 +1,99 @@
+col0,col1,col2,col3,col4
+153223,K04000001,All categories: Sex,All categories: Age 16 and over,All categories: Residence Type
+118177,K04000001,All categories: Sex,All categories: Age 16 and over,Lives in a household
+35046,K04000001,All categories: Sex,All categories: Age 16 and over,Lives in a communal establishment
+47799,K04000001,All categories: Sex,Age 16 to 24,All categories: Residence Type
+28618,K04000001,All categories: Sex,Age 16 to 24,Lives in a household
+19181,K04000001,All categories: Sex,Age 16 to 24,Lives in a communal establishment
+53848,K04000001,All categories: Sex,Age 25 to 34,All categories: Residence Type
+41233,K04000001,All categories: Sex,Age 25 to 34,Lives in a household
+12615,K04000001,All categories: Sex,Age 25 to 34,Lives in a communal establishment
+42680,K04000001,All categories: Sex,Age 35 to 49,All categories: Residence Type
+39788,K04000001,All categories: Sex,Age 35 to 49,Lives in a household
+2892,K04000001,All categories: Sex,Age 35 to 49,Lives in a communal establishment
+8896,K04000001,All categories: Sex,Age 50 and over,All categories: Residence Type
+8538,K04000001,All categories: Sex,Age 50 and over,Lives in a household
+358,K04000001,All categories: Sex,Age 50 and over,Lives in a communal establishment
+138392,K04000001,Males,All categories: Age 16 and over,All categories: Residence Type
+106435,K04000001,Males,All categories: Age 16 and over,Lives in a household
+31957,K04000001,Males,All categories: Age 16 and over,Lives in a communal establishment
+43269,K04000001,Males,Age 16 to 24,All categories: Residence Type
+25639,K04000001,Males,Age 16 to 24,Lives in a household
+17630,K04000001,Males,Age 16 to 24,Lives in a communal establishment
+47784,K04000001,Males,Age 25 to 34,All categories: Residence Type
+36389,K04000001,Males,Age 25 to 34,Lives in a household
+11395,K04000001,Males,Age 25 to 34,Lives in a communal establishment
+39219,K04000001,Males,Age 35 to 49,All categories: Residence Type
+36540,K04000001,Males,Age 35 to 49,Lives in a household
+2679,K04000001,Males,Age 35 to 49,Lives in a communal establishment
+8120,K04000001,Males,Age 50 and over,All categories: Residence Type
+7867,K04000001,Males,Age 50 and over,Lives in a household
+253,K04000001,Males,Age 50 and over,Lives in a communal establishment
+14831,K04000001,Females,All categories: Age 16 and over,All categories: Residence Type
+11742,K04000001,Females,All categories: Age 16 and over,Lives in a household
+3089,K04000001,Females,All categories: Age 16 and over,Lives in a communal establishment
+4530,K04000001,Females,Age 16 to 24,All categories: Residence Type
+2979,K04000001,Females,Age 16 to 24,Lives in a household
+1551,K04000001,Females,Age 16 to 24,Lives in a communal establishment
+6064,K04000001,Females,Age 25 to 34,All categories: Residence Type
+4844,K04000001,Females,Age 25 to 34,Lives in a household
+1220,K04000001,Females,Age 25 to 34,Lives in a communal establishment
+3461,K04000001,Females,Age 35 to 49,All categories: Residence Type
+3248,K04000001,Females,Age 35 to 49,Lives in a household
+213,K04000001,Females,Age 35 to 49,Lives in a communal establishment
+776,K04000001,Females,Age 50 and over,All categories: Residence Type
+671,K04000001,Females,Age 50 and over,Lives in a household
+105,K04000001,Females,Age 50 and over,Lives in a communal establishment
+146348,E92000001,All categories: Sex,All categories: Age 16 and over,All categories: Residence Type
+112447,E92000001,All categories: Sex,All categories: Age 16 and over,Lives in a household
+33901,E92000001,All categories: Sex,All categories: Age 16 and over,Lives in a communal establishment
+45149,E92000001,All categories: Sex,Age 16 to 24,All categories: Residence Type
+26614,E92000001,All categories: Sex,Age 16 to 24,Lives in a household
+18535,E92000001,All categories: Sex,Age 16 to 24,Lives in a communal establishment
+51604,E92000001,All categories: Sex,Age 25 to 34,All categories: Residence Type
+39425,E92000001,All categories: Sex,Age 25 to 34,Lives in a household
+12179,E92000001,All categories: Sex,Age 25 to 34,Lives in a communal establishment
+41105,E92000001,All categories: Sex,Age 35 to 49,All categories: Residence Type
+38264,E92000001,All categories: Sex,Age 35 to 49,Lives in a household
+2841,E92000001,All categories: Sex,Age 35 to 49,Lives in a communal establishment
+8490,E92000001,All categories: Sex,Age 50 and over,All categories: Residence Type
+8144,E92000001,All categories: Sex,Age 50 and over,Lives in a household
+346,E92000001,All categories: Sex,Age 50 and over,Lives in a communal establishment
+132026,E92000001,Males,All categories: Age 16 and over,All categories: Residence Type
+101145,E92000001,Males,All categories: Age 16 and over,Lives in a household
+30881,E92000001,Males,All categories: Age 16 and over,Lives in a communal establishment
+40844,E92000001,Males,Age 16 to 24,All categories: Residence Type
+23830,E92000001,Males,Age 16 to 24,Lives in a household
+17014,E92000001,Males,Age 16 to 24,Lives in a communal establishment
+45720,E92000001,Males,Age 25 to 34,All categories: Residence Type
+34724,E92000001,Males,Age 25 to 34,Lives in a household
+10996,E92000001,Males,Age 25 to 34,Lives in a communal establishment
+37724,E92000001,Males,Age 35 to 49,All categories: Residence Type
+35095,E92000001,Males,Age 35 to 49,Lives in a household
+2629,E92000001,Males,Age 35 to 49,Lives in a communal establishment
+7738,E92000001,Males,Age 50 and over,All categories: Residence Type
+7496,E92000001,Males,Age 50 and over,Lives in a household
+242,E92000001,Males,Age 50 and over,Lives in a communal establishment
+14322,E92000001,Females,All categories: Age 16 and over,All categories: Residence Type
+11302,E92000001,Females,All categories: Age 16 and over,Lives in a household
+3020,E92000001,Females,All categories: Age 16 and over,Lives in a communal establishment
+4305,E92000001,Females,Age 16 to 24,All categories: Residence Type
+2784,E92000001,Females,Age 16 to 24,Lives in a household
+1521,E92000001,Females,Age 16 to 24,Lives in a communal establishment
+5884,E92000001,Females,Age 25 to 34,All categories: Residence Type
+4701,E92000001,Females,Age 25 to 34,Lives in a household
+1183,E92000001,Females,Age 25 to 34,Lives in a communal establishment
+3381,E92000001,Females,Age 35 to 49,All categories: Residence Type
+3169,E92000001,Females,Age 35 to 49,Lives in a household
+212,E92000001,Females,Age 35 to 49,Lives in a communal establishment
+752,E92000001,Females,Age 50 and over,All categories: Residence Type
+648,E92000001,Females,Age 50 and over,Lives in a household
+104,E92000001,Females,Age 50 and over,Lives in a communal establishment
+6875,W92000004,All categories: Sex,All categories: Age 16 and over,All categories: Residence Type
+5730,W92000004,All categories: Sex,All categories: Age 16 and over,Lives in a household
+1145,W92000004,All categories: Sex,All categories: Age 16 and over,Lives in a communal establishment
+2650,W92000004,All categories: Sex,Age 16 to 24,All categories: Residence Type
+2004,W92000004,All categories: Sex,Age 16 to 24,Lives in a household
+646,W92000004,All categories: Sex,Age 16 to 24,Lives in a communal establishment
+2244,W92000004,All categories: Sex,Age 25 to 34,All categories: Residence Type
+1808,W92000004,All categories: Sex,Age 25 to 34,Lives in a household

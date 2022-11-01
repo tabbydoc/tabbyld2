@@ -1,0 +1,56 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18
+2019-04-22 22:00:00,2019-04-22 22:00:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,60,27.53,1007,83,26,29
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 22:00:00,2019-04-22 22:00:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,60,27.53,1007,83,26,29
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 22:00:00,2019-04-22 22:00:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,60,27.53,1007,83,26,29
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 22:00:00,2019-04-22 22:00:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,60,27.53,1007,83,26,29
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 22:00:00,2019-04-22 22:00:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,60,27.53,1007,83,26,29
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 22:00:00,2019-04-22 22:00:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,60,27.53,1007,83,26,29
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 22:00:00,2019-04-22 22:00:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,60,27.53,1007,83,26,29
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 22:00:00,2019-04-22 22:00:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,60,27.53,1007,83,26,29
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,temp,pressure,humidity,temp_min,temp_max,
+2019-04-22 22:30:00,2019-04-22 22:30:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,27.2,1008,83,25.56,29,
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 23:02:25,2019-04-22 23:02:25,14,51.51,-0.13,2643743,London,10000,801,Clouds,few clouds,02d,6.2,90,23.62,1003,40,20.56,26.11
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 23:02:25,2019-04-22 23:02:25,14,51.51,-0.13,2643743,London,10000,801,Clouds,few clouds,02d,6.2,90,23.62,1003,40,20.56,26.11
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 23:02:25,2019-04-22 23:02:25,14,51.51,-0.13,2643743,London,10000,801,Clouds,few clouds,02d,6.2,90,23.62,1003,40,20.56,26.11
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,temp,pressure,humidity,temp_min,temp_max,
+2019-04-22 22:30:00,2019-04-22 22:30:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,27.2,1008,83,25.56,29,
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,temp,pressure,humidity,temp_min,temp_max,
+2019-04-22 22:30:00,2019-04-22 22:30:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,27.2,1008,83,25.56,29,
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 23:02:25,2019-04-22 23:02:25,14,51.51,-0.13,2643743,London,10000,801,Clouds,few clouds,02d,6.2,90,23.62,1003,40,20.56,26.11
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,temp,pressure,humidity,temp_min,temp_max,
+2019-04-22 22:30:00,2019-04-22 22:30:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,27.2,1008,83,25.56,29,
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,temp,pressure,humidity,temp_min,temp_max,
+2019-04-22 22:30:00,2019-04-22 22:30:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,27.2,1008,83,25.56,29,
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,temp,pressure,humidity,temp_min,temp_max,
+2019-04-22 22:30:00,2019-04-22 22:30:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,27.2,1008,83,25.56,29,
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,temp,pressure,humidity,temp_min,temp_max,
+2019-04-22 22:30:00,2019-04-22 22:30:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,27.2,1008,83,25.56,29,
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 23:02:25,2019-04-22 23:02:25,14,51.51,-0.13,2643743,London,10000,801,Clouds,few clouds,02d,6.2,90,23.62,1003,40,20.56,26.11
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,temp,pressure,humidity,temp_min,temp_max,
+2019-04-22 22:30:00,2019-04-22 22:30:00,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,27.2,1008,83,25.56,29,
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 23:30:51,2019-04-22 23:30:51,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,60,27.06,1007,83,25,29
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 23:36:27,2019-04-22 23:36:27,1,30.79,-83.79,4183849,Boston,16093,800,Clear,clear sky,01d,2.1,340,23.36,1023,35,22,25
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 23:36:27,2019-04-22 23:36:27,1,30.79,-83.79,4183849,Boston,16093,800,Clear,clear sky,01d,2.1,340,23.36,1023,35,22,25
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 23:36:27,2019-04-22 23:36:27,1,30.79,-83.79,4183849,Boston,16093,800,Clear,clear sky,01d,2.1,340,23.36,1023,35,22,25
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 23:36:27,2019-04-22 23:36:27,1,30.79,-83.79,4183849,Boston,16093,800,Clear,clear sky,01d,2.1,340,23.36,1023,35,22,25
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 23:36:27,2019-04-22 23:36:27,1,30.79,-83.79,4183849,Boston,16093,800,Clear,clear sky,01d,2.1,340,23.36,1023,35,22,25
+,time,cloudness,coord_x,coord_y,id,name,visibility,weather_id,weather_main,weather_description,weather_icon,wind_speed,wind_deg,temp,pressure,humidity,temp_min,temp_max
+2019-04-22 23:30:51,2019-04-22 23:30:51,75,1.29,103.85,1880252,Singapore,10000,803,Clouds,broken clouds,04n,1,60,27.33,1007,83,25,29

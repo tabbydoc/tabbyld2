@@ -1,0 +1,71 @@
+col0,col1,col2,col3,col4
+Accessibility / standards compliance,1.0,,0.0,TRUE
+AGILE ,2.0,Development Methodologies,19.0,TRUE
+Analysis / Design Methodologies,3.0,,0.0,TRUE
+ASP.NET ,4.0,Server-side Languages,53.0,TRUE
+Atom ,5.0,Integrated Development Environments ,25.0,TRUE
+AXE,6.0,Accessibility / standards compliance,1.0,TRUE
+"Backup (full,differential,transactional)",7.0,Database ,18.0,TRUE
+Bootstrap (v4) ,8.0,Client-side Frameworks,12.0,TRUE
+Build Tools,9.0,,0.0,TRUE
+C,,,,
+Client-side Development ,11.0,,0.0,TRUE
+Client-side Frameworks,12.0,,0.0,TRUE
+Client-side Languages,13.0,,0.0,TRUE
+Client-side tools,14.0,,0.0,TRUE
+Composer ,15.0,Server Administration ,50.0,TRUE
+Connection Management ,16.0,Database ,18.0,TRUE
+CSS3 ,17.0,Markup & Styling,32.0,TRUE
+Database ,18.0,,0.0,TRUE
+Development Methodologies,19.0,,0.0,TRUE
+Emmet ,20.0,Miscellaneous ,35.0,TRUE
+GIT,21.0,Version Control ,61.0,TRUE
+Hashicorp Vagrant ,22.0,Virtualisation ,63.0,TRUE
+HTML5,23.0,,0.0,TRUE
+HTML5 ,24.0,Markup & Styling,32.0,TRUE
+Integrated Development Environments ,25.0,,0.0,TRUE
+Jquery,26.0,Client-side Languages,13.0,TRUE
+JS (including AJAX & JSON) ,27.0,Client-side Languages,13.0,TRUE
+LAMP stack configuration ,28.0,Server-side Languages,53.0,TRUE
+Laravel ,29.0,Server-side Languages,53.0,TRUE
+Laravel Homestead,30.0,Virtualisation ,63.0,TRUE
+Laravel Mix ,31.0,Build Tools,9.0,TRUE
+Markup & Styling,32.0,,0.0,TRUE
+Microdata,33.0,Accessibility / standards compliance,1.0,TRUE
+Microsoft SQL Server,34.0,Database ,18.0,TRUE
+Miscellaneous ,35.0,,0.0,TRUE
+MySQL,36.0,Database ,18.0,TRUE
+MySQL Workbench,37.0,Database ,18.0,TRUE
+Navicat,38.0,Database ,18.0,TRUE
+Node,39.0,Build Tools,9.0,TRUE
+Oracle Virtualbox ,40.0,Virtualisation ,63.0,TRUE
+PHP ,41.0,Server-side Languages,53.0,TRUE
+PHP Storm,42.0,Integrated Development Environments ,25.0,TRUE
+Policies & procedures ,43.0,Accessibility / standards compliance,1.0,TRUE
+Replication ,44.0,Database ,18.0,TRUE
+Reporting & Logging ,45.0,Database ,18.0,TRUE
+Responsive Web Design,46.0,Accessibility / standards compliance,1.0,TRUE
+SASS,47.0,Build Tools,9.0,TRUE
+Semantic HTML',48.0,Standards / Validation,56.0,TRUE
+SEO,49.0,,0.0,TRUE
+Server Administration ,50.0,,0.0,TRUE
+Server-side Development,51.0,,0.0,TRUE
+Server-side Frameworks,52.0,,0.0,TRUE
+Server-side Languages,53.0,,0.0,TRUE
+Server-side Tools,54.0,,0.0,TRUE
+SQL Server Management Studio (SSMS),55.0,Database ,18.0,TRUE
+Standards / Validation,56.0,,0.0,TRUE
+Storage configuration & monitoring ,57.0,Database ,18.0,TRUE
+Triggers ,58.0,Database ,18.0,TRUE
+User & Role Management ,59.0,Database ,18.0,TRUE
+Vb.net ,60.0,Server-side Languages,53.0,TRUE
+Version Control ,61.0,,0.0,TRUE
+Views ,62.0,Database ,18.0,TRUE
+Virtualisation ,63.0,,0.0,TRUE
+Visual Studio Code ,64.0,Integrated Development Environments ,25.0,TRUE
+Vue,65.0,Client-side Frameworks,12.0,TRUE
+Vuetify,66.0,Client-side Frameworks,12.0,TRUE
+W3C,67.0,Accessibility / standards compliance,1.0,TRUE
+WAI/ARIA,68.0,Accessibility / standards compliance,1.0,TRUE
+Waterfall ,69.0,Development Methodologies,19.0,TRUE
+Yarn ,70.0,Build Tools,9.0,TRUE

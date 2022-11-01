@@ -1,0 +1,41 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14
+Arabic,,ar,,,,,,,,,,,,rtl
+Bulgarian,,bg,,,,,,,,,,,,
+Chinese,中文,zn,zho,zh_CN.utf8,UTF-8,m/d/y,H:i,m/d/y H:i,%e %b %Y,%H:%M,%e %b %Y %H:%M,.,",",ltr
+Croatian,,hr,,,,,,,,,,,,
+Czech,,cz,,,,,,,,,,,,
+Danish,Dansk,da,dan,da_DK.utf8,UTF-8,Y-m-d,H:i,Y-m-d H:i,%e %b %Y,%H:%M,%e %b %Y %H:%M,",",.,ltr
+Dutch,Nederlands,nl,nld,nl_NL.utf8,UTF-8,d-m-Y,H:i,d-m-Y H:i,%e %b %Y,%H:%M,%e %b %Y %H:%M,",",.,ltr
+English,English,en,eng,en_US.utf8,UTF-8,m/d/y,h:i A,m/d/y h:i A,%b %e %Y,%I:%M %P,%b %e %Y %I:%M %P,.,",",ltr
+Estonian,,et,,,,,,,,,,,,
+Finnish,Suomi,fi,fin,fi_FI.utf8,UTF-8,Y-m-d,H:i,Y-m-d H:i,%e %b %Y,%H:%M,%e %b %Y %H:%M,",",,ltr
+French,Française,fr,fre,fr_FR.utf8,UTF-8,d/m/Y,H:i,d/m/Y H:i,%e %b %Y,%H:%M,%e %b %Y %H:%M,",", ,ltr
+German,Deutsch,de,deu,de_DE.utf8,UTF-8,Y-m-d,H:i,Y-m-d H:i,%e %b %Y,%H:%M,%e %b %Y %H:%M,",",",",ltr
+Greek,,el,,,,,,,,,,,,
+Hebrew,,he,,,,,,,,,,,,rtl
+Hindi,,hi,,,,,,,,,,,,
+Hungarian,Hungarian,hu,hun,hu_HU.utf8,UTF-8,Y-m-d,H:i,Y-m-d H:i,%e %b %Y,%H:%M,%e %b %Y %H:%M,.,,ltr
+Icelandic,,is,,,,,,,,,,,,
+Indonesian,Indonesia,id,ind,id_ID.utf8,UTF-8,d-m-Y,H:i,d-m-Y H:i,%e %b %Y,%H:%M,%e %b %Y %H:%M,",",,ltr
+Italian,Italiano,it,ita,it_IT.utf8,UTF-8,d/m/Y,H:i,d/m/Y H:i,%e %b %Y,%H:%M,%e %b %Y %H:%M,.,",",ltr
+Japanese,,ja,,,,,,,,,,,,
+Korean,,ko,,,,,,,,,,,,
+Lao,,lo,,,,,,,,,,,,
+Latvian,,lv,,,,,,,,,,,,
+Lithuanian,,lt,,,,,,,,,,,,
+Macedonian,,mk,,,,,,,,,,,,
+Norwegian,Norsk (Bokmål),nb,,,,,,,,,,,,
+Persian,,fa,,,,,,,,,,,,
+Polish,Polski,pl,pol,pl_PL.utf8,UTF-8,d.m.Y,H:i,d.m.Y H:i,%e %b %Y,%H:%M,%e %b %Y %H:%M,",", ,ltr
+Portuguese,,pt,,,,,,,,,,,,
+Romanian,,ro,,,,,,,,,,,,
+Russian,русский,ru,rus,ru_RU.utf8,UTF-8,d.m.Y,h:i A,d.m.Y h:i A,%e %b %Y,%H:%M,%e %b %Y %H:%M,",",.,ltr
+Serbian,,sr,,,,,,,,,,,,
+Slovak,,sk,,,,,,,,,,,,
+Slovenian,,sl,,,,,,,,,,,,
+Spanish,Español,es,spa,es_ES.utf8,UTF-8,d/m/Y,H:i,d/m/Y H:i,%e %b %Y,%H:%M,%e %b %Y %H:%M,",",.,ltr
+Swedish,Svenska,sv,swe,sv_SE.utf8,UTF-8,Y-m-d,H:i,Y-m-d H:i,%e %b %Y,%H:%M,%e %b %Y %H:%M,",", ,ltr
+Thai,ไทย,th,tha,th_TH.utf8,UTF-8,d/m/Y,H:i,d/m/Y H:i,%e %b %Y,%H:%M,%e %b %Y %H:%M,.,",",ltr
+Turkish,Türk,tr,tur,tr_TR.utf8,UTF-8,d.m.Y,H:i,d.m.Y H:i,%e %b %Y,%H:%M,%e %b %Y %H:%M,",", ,ltr
+Ukrainian,,uk,,,,,,,,,,,,
+Vietnamese,,vi,,,,,,,,,,,,

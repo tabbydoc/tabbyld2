@@ -1,0 +1,7 @@
+col0,col1,col2,col3,col4
+Z,,Cassa Risparmio Fossano,CRIFIT2F,${def_country_id}
+Z,,Unicredit,UNCRITMM,${def_country_id}
+Z,,Intesa San Paolo,BCITITMM,${def_country_id}
+Z,,Monte Paschi Siena,PASCITMM,${def_country_id}
+TD,,CR PT-LU,CRFIIT3P,${def_country_id}
+Z,,Intesa San Paolo Ag.7 MI,BCITITMM300,${def_country_id}

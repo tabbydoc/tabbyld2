@@ -1,0 +1,103 @@
+col0,col1
+Succinate,metabolite
+Aspartate,metabolite
+Citric acid,metabolite
+Pyruvate,metabolite
+5-Phosphoribosylamine,metabolite
+Glutamine,metabolite
+Oxaloacetate,metabolite
+Asparagine,metabolite
+Phenylalanine,metabolite
+L-Tryptophan,metabolite
+Threonine,metabolite
+Serine,metabolite
+L-methionine,metabolite
+L-Tyrosine,metabolite
+L-Lysine,metabolite
+L-Leucine,metabolite
+Glycine,metabolite
+Proline,metabolite
+Valine,metabolite
+Lysine,metabolite
+Arginine,metabolite
+Phosphoserine,metabolite
+Beta-alanine,metabolite
+Citrulline,metabolite
+L-Homoserine,metabolite
+Anthranilic acid,metabolite
+Ornithine,metabolite
+L-Ornithine,metabolite
+a-Aminoadipic acid,metabolite
+Glyceraldehyde 3-phosphate,metabolite
+Cystathionine,metabolite
+2-oxo-4-methylvaleric acid,metabolite
+Dihydroxyacetone phosphate,metabolite
+3-methyl-2-oxo-butanoic acid,metabolite
+N-acetyl-glycine,metabolite
+Choline,metabolite
+Creatine,metabolite
+Aminoacetone,metabolite
+sarcosine,metabolite
+Guanidineacetic acid,metabolite
+Glyoxylic acid,metabolite
+Arachidonic acid,metabolite
+6-Phosphogluconic acid,metabolite
+Benzoic acid,metabolite
+d-Xylose,metabolite
+Xylitol,metabolite
+Glutamate,metabolite
+Nicotinic acid,metabolite
+Delta-hydroxylysine,metabolite
+Uric acid,metabolite
+Hexadecanoic acid,metabolite
+Glycerol,metabolite
+Lactate,metabolite
+Oxalic acid,metabolite
+3-Hydroxybutyric acid,metabolite
+Urea,metabolite
+2-Piperidinecarboxylic acid,metabolite
+D-Fructose,metabolite
+D-Glucuronic acid,metabolite
+Cholesterol,metabolite
+Glucose 6-phosphate,metabolite
+glycol,metabolite
+6-Dehydrotestosterone glucuronide,metabolite
+Ribitol,metabolite
+Myo-Inositol,metabolite
+Glycolaldehyde,metabolite
+Hypoxanthine,metabolite
+Carnosine,metabolite
+Galactonic acid,metabolite
+d-Galactose,metabolite
+1H-Indole-3-acetic acid,metabolite
+5-Hydroxylysine,metabolite
+Epinephrine,metabolite
+Cysteine,metabolite
+Sphingosine 1-phosphate,metabolite
+Cadaverine,metabolite
+Androstenedione,metabolite
+18-Hydroxycorticosterone,metabolite
+Sphingosine,metabolite
+Hydroxyacetic acid,metabolite
+Progesterone,metabolite
+Calcidiol,metabolite
+Uracil,metabolite
+Guanine,metabolite
+5-Hydroxyindoleacetic acid,metabolite
+Thiamine,metabolite
+Hypotaurine,metabolite
+Isopentenyl pyrophosphate,metabolite
+2-Butenedioic acid,metabolite
+Nicotine,metabolite
+Nicotinuric acid,metabolite
+Cystine,metabolite
+"Alanine, Aspartate And Glutamate Metabolism",pathway
+Aminoacyl-tRNA Biosynthesis,pathway
+Aspartate Metabolism,pathway
+Biosynthesis Of Amino Acids,pathway
+Canavan Disease,pathway
+"Glycine, Serine And Threonine Metabolism",pathway
+Hypoacetylaspartia,pathway
+Metabolic Pathways,pathway
+Nicotinate And Nicotinamide Metabolism,pathway
+Protein Digestion And Absorption,pathway

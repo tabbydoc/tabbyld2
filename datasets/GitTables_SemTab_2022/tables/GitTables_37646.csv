@@ -1,0 +1,125 @@
+col0,col1,col2
+_mask,&Mask,&Маска
+_gobjects,Graphic objects,Графические объекты
+_parenttype,Parent type,Базовый тип
+_gclass,Graphic class,Графический класс
+_gtype,Graphic type,Графический тип
+_viewname,View Name,Имя вида
+_navigation,&Navigation,&Навигация
+_scaleup,Scale &Up,У&величить
+_scaledown,Scale &Down,У&меньшить
+_layername,Layer Name,Имя слоя
+_views,Views,Виды
+_layers,Layers,Слои
+_moveleft,Move &Left,На&лево
+_movetop,Move &Top,В&верх
+_moveright,Move &Right,На&право
+_movebottom,Move &Bottom,Вни&з
+_rotatecw,Rotate &Clockwise,Вращать &по часовой стрелке
+_rotateccw,Rotate &Anticlockwise,Вращать п&ротив часовой стрелки
+_types,&Types,&Типы
+_scales,&Scales,&Масштабы
+_colors,&Colors,&Цвета
+_map,&Map,&Карта
+_binary,&Binary,&Двоичный
+_replication,&Replication,&Репликация
+_style,Drawing Style,Стиль рисования
+_scalemin,Scale Min,Масштаб мин
+_scalemax,Scale Max,Масштаб макс
+_left,Left,Левая
+_top,Top,Верх
+_right,Right,Правая
+_bottom,Bottom,Низ
+_type,Type,Тип
+_caption,Caption,Надпись
+_glib,Map,Карта
+_gobj,Graphic Object,Графический объект
+_geomtype,Geometric type,Геометрический тип
+_parentname,Parent,Базовый тип
+_gobjtype,Type,Тип
+_scalemaxdescr,Maximal scale to show objects on the map.,Максимальный масштаб отображения объетов на карте.
+_scalemindescr,Minimal scale to show objects on the map.,Минимальный масштаб отображения объетов на карте.
+_bounds,Bounds,Границы
+_name_descr,Name,Имя
+_bounds_descr,Bounds of the graphics object.,Границы графического объекта.
+_styledescr,Drawing style of the graphics object.,Стиль отрисовки графического объекта.
+_gobjtypedescr,Type of the graphic object.,Тип графического объекта.
+_gobjname,Name,Имя
+_gobjcaption,Caption,Надпись
+_gobjcaptiondescr,Caption for the graphic object.,Надпись для графического объекта.
+_gobjnamedescr,Name of the graphic object.,Имя графического объекта.
+_gobjstyle,Drawing style,Стиль отрисовки
+_gobjstyledescr,Drawing style for the graphic object.,Стиль отрисовки графического объекта.
+_gtypestyle,Drawing style,Стиль отрисовки
+_gtypestyledescr,Drawing style for all objects of the type.,Стиль отрисовки объектов этого типа.
+_parenttypedescr,Parent graphic type.,Базовый графический тип.
+_gtypenamedescr,Name of the graphic type.,Имя графического типа.
+_gtypename,Name,Имя
+_geomtypedescr,Geometric type.,Геометрический тип.
+_glibname,Name,Имя
+_glibnamedescr,Name of the graphic library.,Имя графической библиотеки.
+_glibstyle,Drawing style,Стиль отрисовки
+_glibstyledescr,Drawing style for the graphic library bounds.,Стиль отрисовки для границ графической библиотеки.
+_gibbounds,Bounds,Границы
+_gibboundsdescr,Bounds of the graphic library.,Границы графической библиотеки.
+_objectsnotfound,No object found.,Объекты не найдены.
+_optionsprops,Options,Параметры
+_gobject,Graphic object,Графический объект
+_addobject,&Add graphic object,&Добавить графический объект
+_bottombound,Bottom,Нижняя граница
+_topbound,Top,Верхняя граница
+_leftbound,Left,Левая граница
+_rightbound,Right,Правая граница
+_glibbounds,Bounds,Границы
+_glibdefaultstyle,Default Style,Стиль по умолчанию
+_glibdefaultstyledescr,Default drawing style.,Стиль отрисовки объектов по умолчанию.
+_mirror,Mirror,Зеркальный поворот
+_mirrordescr,Mirror map turn.,Зеркальный поворот карты.
+_background,Background,Фон
+_removeitems,Do you really want to delete the selected items,Вы действительно хотите удалить выделенные элементы?
+_connection,&Connection,&Соединение
+_openfile,&File,&Файл
+_openconnection,&Connection,&Соединение
+_notuniquename,The name is not unique,Не уникальное имя
+_bgimage,Background image,Фоновый рисунок
+_allimages,All supported graphics formats,Все файлы рисунков
+_stat,&Statistics,&Статистика
+_endediting,&End editing,&Завершить редактирование
+_createobject,Would you like to create the object?,Создать объект?
+_glibdefaultname,Map,Карта
+_filepathdesc,Image file path.,Графический файл.
+_removetype,&Remove,&Удалить
+_addtype,&Add graphic type,&Добавить графический тип
+_removetypeconf,Would you like to remove graphic type,Удалить графический тип
+_removetypeallconf,The graphic type '{0}' is not empty. Do you really want to delete it with all its subtypes ({1}) and objects ({2})?,Графический тип '{0}' содержит элементы. Вы действительно хотите удалить его со всеми подтипами ({1}) и объектами ({2}) ?
+_ntypes,Types,Типы
+_nranges,Ranges,Диапазоны
+_nobjects,Objects,Объекты
+_ntypesdescr,The number of graphic types.,Количество графических типов.
+_nrangesdescr,The number of ranges.,Количество диапазонов.
+_nobjectsdescr,The number of graphic objects.,Количество графических объектов.
+_nbgimages,Background images,Фоновые рисунки
+_nbgimagesdescr,The number of background images.,Коливочество фоновых рисунков.
+_ncolorsdescr,The number of custom colors.,Количество пользовательских цветов.
+_ncolors,Custom colors,Пользовательские цвета
+_nviews,Views,Виды
+_nviewsdescr,The number of views.,Количество видов.
+_nlayers,Masks,Маски
+_nlayersdescr,The number of masks.,Количество масок.
+_allvectorfiles,All supported vector graphics,Все поддерживаемые векторные форматы
+_move,Mo&ve,&Переместить
+_up,&Up,&Наверх
+_down,&Down,&Вниз
+_editselectedobject,&Edit selected object,&Редактировать выделенный объект
+_addpointsmode,Adding points mode,Режим добавления точек
+_newmap,New map parameters,Параметры новой карты
+_id,Id,Номер
+_gobjiddescr,Graphic object identifier.,Номер графического объекта.
+_typeiddescr,Graphic type identifier.,Номер графического типа.
+_boundtables,Bound tables,Связываемые таблицы
+_boundtablesdescr,Custom tables which could be bound to the objects of the type.,Пользовательские таблицы связываемые  с объектами этого типа.
+_UpdateSelectedLayer,Do you really want to update the selected layer?,Вы действительно хотите обновить выделенный слой?
+_searching,Searching,Поиск
+_customColors,Custom colors,Пользовательские цвета
+_unselect,Clear selection,Cнять выделение
+_useDefaultValues,Use default values,Использовать значения по умолчанию

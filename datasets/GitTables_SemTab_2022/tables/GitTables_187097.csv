@@ -1,0 +1,61 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+0,0,Baltimore,Baltimore Orioles,Oriole Park at Camden Yards,"6246 Caitlin Lodge
+Williamburgh, DC 63532","('39.2839823', '-76.6224914986542')",-76.6224914986542,39.2839823
+1,1,Boston,Boston Red Sox,Fenway Park,"808 Herring Key
+North Anitaview, KS 43484","('42.34648975', '-71.0972244184537')",-71.0972244184537,42.34648975
+2,2,Chicago,Chicago White Sox,Guaranteed Rate Field,"8727 Benjamin Prairie Apt. 805
+East Deborahmouth, IA 60619","('41.82982395', '-87.6336247432872')",-87.6336247432872,41.82982395
+3,3,Cleveland,Cleveland Indians,Progressive Field,"278 Amy View Suite 011
+Lawsonshire, MA 50054","('41.4960144', '-81.6842002221565')",-81.6842002221565,41.4960144
+4,4,Detroit,Detroit Tigers,Comerica Park,"50220 Blackwell Fields
+South Deannaport, MS 07347","('42.33915895', '-83.0496353454506')",-83.0496353454506,42.33915895
+5,5,Houston,Houston Astros,Minute Maid Park,"1607 Munoz River
+Emilyshire, NH 54532","('29.75723205', '-95.3552339149114')",-95.3552339149114,29.75723205
+6,6,Kansas City,Kansas City Royals,Kauffman Stadium,"3615 David Keys Apt. 269
+West Stephenside, UT 65516","('39.05144525', '-94.4804713102027')",-94.4804713102027,39.05144525
+7,7,Anaheim,Los Angeles Angels,Angel Stadium,"640 Mary Common
+Michaelville, AZ 20721","('33.8002599', '-117.881742627598')",-117.881742627598,33.8002599
+8,8,Minneapolis,Minnesota Twins,Target Field,"PSC 4006, Box 5282
+APO AE 23388","('44.9817039', '-93.2778457595517')",-93.2778457595517,44.9817039
+9,9,Bronx,New York Yankees,Yankee Stadium,"395 Timothy Road
+Williamsbury, LA 43567","('40.82958275', '-73.926521184919')",-73.926521184919,40.82958275
+10,10,Oakland,Oakland Athletics,Oakland Coliseum,"3267 Walter Dam
+Cunninghamtown, OR 01239","('37.7522639', '-122.1979556')",-122.1979556,37.7522639
+11,11,Seattle,Seattle Mariners,T-Mobile Park,"00580 Brandon Creek
+Port Eric, MS 03966","('47.5914138', '-122.332022531685')",-122.332022531685,47.5914138
+12,12,St. Petersburg,Tampa Bay Rays,Tropicana Field,"325 Amanda Cliffs Apt. 695
+South Paulabury, MS 29996","('27.7680752', '-82.6532767848705')",-82.6532767848705,27.7680752
+13,13,Arlington,Texas Rangers,Globe Life Park in Arlington,"PSC 3769, Box 1448
+APO AA 71586","('32.7513904', '-97.0834764998413')",-97.0834764998413,32.7513904
+14,14,Toronto,Toronto Blue Jays,Rogers Centre,"40956 Amanda Walk Apt. 260
+Simonfurt, CT 93980","('43.6416641', '-79.3891988236638')",-79.3891988236638,43.6416641
+15,15,Phoenix,Arizona Diamondbacks,Chase Field,"25762 Gill Creek Suite 525
+Mccoyton, KS 23687","('33.44548555', '-112.066692832931')",-112.066692832931,33.44548555
+16,16,Atlanta,Atlanta Braves,SunTrust Park,"6048 Johnson Loop Suite 635
+East Daniel, GA 04593","('33.83735535', '-84.3816622483595')",-84.3816622483595,33.83735535
+17,17,Chicago,Chicago Cubs,Wrigley Field,"1168 Gary Fords Apt. 308
+Port Trevor, RI 96954","('41.9481283', '-87.6563605621672')",-87.6563605621672,41.9481283
+18,18,Cincinnati,Cincinnati Reds,Great American Ball Park,"164 Matthew Parkway Suite 826
+Jimmyfurt, MS 62271","('39.09724845', '-84.5066238892508')",-84.5066238892508,39.09724845
+19,19,Denver,Colorado Rockies,Coors Field,"1220 Heidi Rue Apt. 998
+West Haleyburgh, CO 05222","('39.7560314', '-104.992928555315')",-104.992928555315,39.7560314
+20,20,Los Angeles,Los Angeles Dodgers,Dodger Stadium,"751 Wood Square Suite 732
+Port Melissaburgh, SD 22365","('34.07455235', '-118.240048057792')",-118.240048057792,34.07455235
+21,21,Miami,Miami Marlins,Marlins Park,"376 Smith Dale Suite 279
+South Sarahland, OR 53609","('25.7782474', '-80.219805007442')",-80.219805007442,25.7782474
+22,22,Milwaukee,Milwaukee Brewers,Miller Park,"79148 Pierce Lock Suite 423
+Erikberg, CA 09478","('43.0280604', '-87.9720970118964')",-87.9720970118964,43.0280604
+23,23,New York,New York Mets,Citi Field,"147 Lisa Hill Apt. 512
+Port Elizabethshire, ID 01425","('40.75727785', '-73.8458788494242')",-73.8458788494242,40.75727785
+24,24,Philadelphia,Philadelphia Phillies,Citizens Bank Park,"971 Hansen Well Suite 103
+South Mary, KY 29941","('39.90588575', '-75.1654110174725')",-75.1654110174725,39.90588575
+25,25,Pittsburgh,Pittsburgh Pirates,PNC Park,"511 Berry Fork Suite 623
+Sharonfort, WY 47577","('40.4469258', '-80.005606266122')",-80.005606266122,40.4469258
+26,26,San Diego,San Diego Padres,Petco Park,"65873 Chen Knolls
+Ramirezfurt, WI 94134","('32.70718815', '-117.156877452906')",-117.156877452906,32.70718815
+27,27,San Francisco,San Francisco Giants,Oracle Park,"Unit 1741 Box 7253
+DPO AP 25003","('37.7781634', '-122.387559')",-122.387559,37.7781634
+28,28,St. Louis,St. Louis Cardinals,Busch Stadium,"USNV Porter
+FPO AE 89774","('38.62252705', '-90.1939328538991')",-90.1939328538991,38.62252705
+29,29,Washington,Washington Nationals,Nationals Park,"8799 Emma Parkway Suite 735
+North Thomasfurt, IN 57039","('38.87272835', '-77.0083720980512')",-77.0083720980512,38.87272835

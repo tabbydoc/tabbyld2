@@ -1,0 +1,16 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+account.check_journal,CHQ,Chèque,Bank and Checks,True,True,True,base.main_company,account.sequence_check_journal,account.account_account_512102,account.account_account_512102
+account.cash_journal,CAI,CAISSE,Cash,True,True,True,base.main_company,account.sequence_cash_journal,account.account_account_512101,account.account_account_512101
+account.refund_expenses_journal,AVACH,Journal des avoirs d'achats,Purchase Refund,True,True,True,base.main_company,account.sequence_refund_purchase_journal,,
+account.expenses_journal,ACH,Journal des achats,Purchase,True,False,True,base.main_company,account.sequence_purchase_invoice,,
+account.miscellaneous_journal,OD,Journal des operations diverses,General,True,True,True,base.main_company,account.sequence_miscellaneous_journal,,
+account.opening_journal,AN,Journal d'ouverture,Opening/Closing Situation,True,True,True,base.main_company,account.sequence_opening_journal,account.account_account_120000,account.account_account_129000
+account.sales_journal,VTE,Journal des ventes,Sale,True,True,True,base.main_company,account.sequence_sale_journal,,
+account.refund_sales_journal,AVVTE,Journal des avoirs de ventes,Sale Refund,True,True,True,base.main_company,account.sequence_refund_sales_journal,,
+account.bank_journal_cbce,CBCE,CARTE BANCAIRE CAISSE EPARGNE,Bank and Checks,True,True,True,base.main_company,account.sequence_cash_journal_cbce,account.account_account_512102,account.account_account_512102
+account.bank_journal_cad,CAD,CREDIT AGRICOLE DOLLARS,Bank and Checks,True,True,True,base.main_company,account.sequence_cash_journal_cad,account.account_account_512400,account.account_account_512400
+account.bank_journal_ca,CA,CREDIT AGRICOLE FR76 1680 6051 0066 0612 8337 586,Bank and Checks,True,False,False,base.main_company,account.sequence_cash_journal_ca,account.account_account_512104,account.account_account_512104
+account.bank_journal_ce,CE,CEPAL FR76 1871 5002 0008 0009 0141 922,Bank and Checks,True,False,False,base.main_company,account.sequence_cash_journal_ce,account.account_account_512103,account.account_account_512103
+account.expenses_journal_fgx,FGX,Journal Frais Généraux,Purchase,True,False,True,base.main_company,account.sequence_cash_journal_frx,,
+account.account_journal_gra,GRA,GRATUIT,Cash,False,False,False,base.main_company,account.sequence_cash_journal_gra,account.account_account_512102,account.account_account_512102
+stock.stock_journal,STK,Journal de Stock,General,True,True,True,base.main_company,stock.stock_journal_sequence,,

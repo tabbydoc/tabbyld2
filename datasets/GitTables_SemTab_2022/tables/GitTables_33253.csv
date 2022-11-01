@@ -1,0 +1,40 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+ Apache Avro , Apache Software Foundation , n/a , no , Apache Avro™ Specification , yes , partial , n/a , yes (built-in) ," C, C",
+ Apache Parquet , Apache Software Foundation , n/a , no ," Apache&nbsp,Parquet ", yes , no , no , n/a ," Java, Python, C++ ", no 
+ ASN.1 ," ISO, IEC, ITU-T ", n/a , yes ," ISO/IEC 8824, X.680 series of ITU-T Recommendations "," yes(BER, DER, PER, OER, or custom via ECN) "," yes(XER, JER, GSER, or custom via ECN) ", partial , yes (built-in) , n/a , yes (OER) 
+ Bencode ," Bram Cohen (creator)BitTorrent, Inc. (maintainer) ", n/a ,  De facto standard via BitTorrent Enhancement Proposal (BEP) , Part of BitTorrent protocol specification , Partially(numbers and delimiters are ASCII) , no , no , no , no , no 
+ Binn , Bernardo Ramos , n/a , no , Binn Specification , yes , no , no , no , no , yes 
+ BSON , MongoDB , JSON , no , BSON Specification , yes , no , no , no , no , no 
+ CBOR ," Carsten Bormann, P. Hoffman ", JSON (loosely) , yes , RFC 7049 , yes , no , yesthrough tagging , yes(CDDL) , no , no 
+ Comma-separated values (CSV) , RFC author:Yakov Shafranovich , n/a , partial(myriad informal variants used) , RFC 4180(among others) , no , yes , no , no , no , no 
+ Common Data Representation (CDR) , Object Management Group , n/a , yes , General Inter-ORB Protocol , yes , no , yes , yes ," ADA, C, C++, Java, Cobol, Lisp, Python, Ruby, Smalltalk ", n/a 
+ D-Bus Message Protocol , freedesktop.org , n/a , yes , D-Bus Specification , yes , no , no , partial(Signature strings) , yes(see D-Bus) , n/a 
+ Extensible Data Notation (EDN) , Cognitect , JSON (loosely) , yes , EDN Specification , no , yes , no , no , no , n/a 
+ Efficient XML Interchange (EXI) , W3C ," XML, Efficient XML ", Yes , Efficient XML Interchange (EXI) Format 1.0 , Yes , yes(XML) ," Yes(XPointer, XPath) ", Yes(XML Schema) ," Yes(DOM, SAX, StAX, XQuery, XPath) ", n/a 
+ FlatBuffers , Google , n/a , no , flatbuffers github page Specification , yes , yes(Apache Arrow) , partial(internal to the buffer) , yes  ," C++, Java, C",
+ Fast Infoset ," ISO, IEC, ITU-T ", XML , yes , ITU-T X.891 and ISO/IEC 24824-1:2007 , yes , no ," yes(XPointer, XPath) ", yes(XML schema) ," yes(DOM, SAX, XQuery, XPath) ", n/a 
+ FHIR , Health Level 7 , REST basics , Yes , Fast Healthcare Interoperability Resources , Yes , Yes , Yes , Yes ," Hapi for FHIR JSON, XML, Turtle ", no 
+ Ion , Amazon , JSON , no , The Amazon Ion Specification , yes , yes , no , Yes  (Ion Schema) , no , n/a 
+ Java serialization , Oracle Corporation , n/a , yes , Java Object Serialization , yes , no , yes , no , yes , n/a 
+ JSON , Douglas Crockford , JavaScript syntax , yes ,"STD 90/RFC 8259(ancillary:RFC 6901,RFC 6902), ECMA-404, ISO/IEC 21778:2017 "," no, but see BSON, Smile, UBJSON ", yes ," yes(JSON Pointer (RFC 6901),alternately:JSONPath, JPath, JSPON, json:select()), JSON-LD "," partial(JSON Schema Proposal, ASN.1 with JER, Kwalify, Rx, Itemscript Schema), JSON-LD "," partial(Clarinet, JSONQuery, JSONPath), JSON-LD ", no 
+ MessagePack , Sadayuki Furuhashi , JSON (loosely) , no , MessagePack format specification , yes , no , no , no , no , yes 
+ Netstring , Dan Bernstein , n/a , no , netstrings.txt , Partially(delimiters are ASCII) , yes , no , no , no , yes 
+ OGDL , Rolf Veen , dunno , no , Specification , yes(Binary Specification) , yes , yes(Path Specification) , yes(Schema WD) ,  , n/a 
+ OPC-UA Binary , OPC Foundation , n/a , no , opcfoundation.org , yes , no , yes , no , no , n/a 
+ OpenDDL , Eric Lengyel ," C, PHP ", no , OpenDDL.org , no , yes , yes , no , yes(OpenDDL Library) , n/a 
+ PHP serialization format , PHP Group , n/a , yes , no , yes , yes , yes , no , yes , n/a 
+ Pickle (Python) , Guido van Rossum , Python ,  De facto standard via Python Enhancement Proposals (PEPs) ,  PEP 3154 -- Pickle protocol version 4 , yes , no , no , no , yes() , no 
+ Property list , NeXT (creator)Apple (maintainer) , dunno , partial , Public DTD for XML format , yes , yes , no , dunno ," Cocoa, CoreFoundation, OpenStep, GnuStep ", no 
+ Protocol Buffers (protobuf) , Google , n/a , no , Developer Guide: Encoding , yes , partial , no , yes (built-in) ," C++, Java, C",
+ Ethereum Recursive Length Prefix (RLP) , Ethereum , n/a , no , Specification , yes , no , no , no ," Erlang, Go, Java, Javascript, Kotlin, Objective-C, Python, Swift, PHP ", yes 
+ S-expression , John McCarthy (original)Ron Rivest (internet draft) ," Lisp, Netstring ", partial(largely de facto) ," ""S-Expressions"" Internet Draft "," yes(""Canonical representation"") "," yes(""Advanced transport representation"") ", no , no ,  , n/a 
+ Smile , Tatu Saloranta , JSON , no , Smile Format Specification , yes , no , no ," partial(JSON Schema Proposal, other JSON schemas/IDLs) "," partial(via JSON APIs implemented with Smile backend, on Jackson, Python) ", n/a 
+ SOAP , W3C , XML , yes , W3C Recommendation:SOAP/1.1SOAP/1.2 ," partial(Efficient XML Interchange, Binary XML, Fast Infoset, MTOM, XSD base64 data) ", yes ," yes(built-in id/ref, XPointer, XPath) "," yes(WSDL, XML schema) "," yes(DOM, SAX, XQuery, XPath) ", n/a 
+ Structured Data eXchange Format , Max Wildgrube , n/a , yes , RFC 3072 , yes , no , no , no ,  , n/a 
+ Apache Thrift , Facebook (creator)Apache (maintainer) , n/a , no , Original whitepaper , yes , partial , no , yes (built-in)  ," C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C",
+ UBJSON ," The Buzz Media, LLC "," JSON, BSON ", no ,  , yes , no , no , no , no , n/a 
+ eXternal Data Representation (XDR) , Sun Microsystems (creator)IETF (maintainer) , n/a , yes ,STD 67/RFC 4506 , yes , no , yes , yes , yes , n/a 
+ XML , W3C , SGML , yes , W3C Recommendation:1.0 (Fifth Edition)1.1 (Second Edition) ," partial(Efficient XML Interchange, Binary XML, Fast Infoset, XSD base64 data) ", yes ," yes(XPointer, XPath) "," yes(XML schema, RELAX NG) "," yes(DOM, SAX, XQuery, XPath) ", n/a 
+ XML-RPC , Dave Winer , XML , no , XML-RPC Specification , no , yes , no , no , no , no 
+ YAML ," Clark Evans,Ingy döt Net,and Oren Ben-Kiki "," C, Java, Perl, Python, Ruby, Email, HTML, MIME, URI, XML, SAX, SOAP, JSON ", no , Version 1.2 , no , yes , yes ," partial(Kwalify, Rx, built-in language type-defs) ", no , no 
+ Name , Creator-maintainer , Based on , Standardized? , Specification , Binary? , Human-readable? , Supports reference? , Schema-IDL? , Standard API , Supports Zero-copy operations 

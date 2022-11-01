@@ -1,0 +1,45 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+5f491486144ab7288afca459,Junho 2021 Fase 2,season,2021-06-01,2021-07-01,active,3,5dced40d9d6eb50010416ca4,False
+5f49156e144ab7708efca495,Corpus Christi 2021 Fase 2,event,2021-06-02,2021-06-06,active,5,5dced40d9d6eb50010416ca4,False
+5f5c5622e5b2df6e17e54b6d,Julho Fase 2,season,2021-07-01,2021-08-01,active,2,5dced40d9d6eb50010416ca4,False
+5dee47708e9f440010d8cb79,Agosto Fase 2 2020,season,2021-08-01,2021-09-01,active,2,5dced40d9d6eb50010416ca4,False
+5dee4bb98e9f440010d8cfba,Feriado Fase 2 Independência 2021,event,2021-09-03,2021-09-07,active,4,5dced40d9d6eb50010416ca4,False
+604fa5c299f210ba4a39f461,Dummy Season 3,season,2021-06-01,2021-07-01,active,10,5de54e337ba5e300103cfd44,False
+604fa5e199f210939e39f46a,Dummy Season 4,season,2021-07-01,2021-08-01,active,10,5de54e337ba5e300103cfd44,False
+604fa5fe99f2107d0239f473,Dummy Season 5,season,2021-08-01,2021-09-01,active,10,5de54e337ba5e300103cfd44,False
+5f6bb9db4056b03613eca07a,Junho 2021 Ingleses,season,2021-06-01,2021-07-01,active,2,5f6bac0f4056b0809fec905d,False
+5f6bc28d4056b0ce19eca2dd,Corpus Christi 2021 Ingleses,event,2021-06-02,2021-06-06,active,5,5f6bac0f4056b0809fec905d,False
+6046274d52172673f903bcf2,Julho 2021 Ingleses,season,2021-07-01,2021-08-01,active,2,5f6bac0f4056b0809fec905d,False
+604662718549524473820b32,Agosto 2021 Ingleses,season,2021-08-01,2021-09-01,active,2,5f6bac0f4056b0809fec905d,False
+60467acc521726171d03df69,Iron Man 2021 Ingleses,event,2021-09-16,2021-09-22,active,4,5f6bac0f4056b0809fec905d,False
+5feccd047338d304e45db075,Junho 2021 Lagoa,season,2021-06-01,2021-07-01,active,2,5feccc267338d35f5d5db049,False
+5fece77e7338d3b85a5dc46a,Corpus Christi 2021 Lagoa,event,2021-06-02,2021-06-06,active,4,5feccc267338d35f5d5db049,False
+5feccd287338d392ff5db07e,Julho 2021 Lagoa,season,2021-07-01,2021-08-01,active,3,5feccc267338d35f5d5db049,False
+5feccd577338d364af5db097,Agosto 2021 Lagoa,season,2021-08-01,2021-09-01,active,2,5feccc267338d35f5d5db049,False
+5fece7ae665fdac1159463e2,Independência 2021 Lagoa,event,2021-09-03,2021-09-07,active,4,5feccc267338d35f5d5db049,False
+5feccee07338d3ed6c5db21c,Junho 2021 Canasvieiras,season,2021-06-01,2021-07-01,active,2,5fecce37665fdaa3de944cf4,False
+5fecd9c3665fda51f8945dea,Corpus Christi 2021 Canasvieiras,event,2021-06-02,2021-06-06,active,4,5fecce37665fdaa3de944cf4,False
+5feccf057338d35eda5db27a,Julho 2021 Canasvieiras,season,2021-07-01,2021-08-01,active,3,5fecce37665fdaa3de944cf4,False
+5feccf247338d385995db2cd,Agosto 2021 Canasvieiras,season,2021-08-01,2021-09-01,active,2,5fecce37665fdaa3de944cf4,False
+5fece52b7338d32ed05dc39d,Independência 2021 Canasvieiras,event,2021-09-03,2021-09-07,active,4,5fecce37665fdaa3de944cf4,False
+602a7be53582193d0dc6e5ba,Junho 2021 Centro,season,2021-06-01,2021-07-01,active,2,602a75c8eec9e72ddb4dc6d4,False
+602aa7a7358219b0d5c6ed35,Corpus Christi 2021 Centro,event,2021-06-02,2021-06-06,active,5,602a75c8eec9e72ddb4dc6d4,False
+602a87c435821926d3c6e7de,Julho 2021 Centro,season,2021-07-01,2021-08-01,active,2,602a75c8eec9e72ddb4dc6d4,False
+602a87e7358219de45c6e7e9,Agosto 2021 Centro,season,2021-08-01,2021-09-01,active,2,602a75c8eec9e72ddb4dc6d4,False
+602aa82deec9e733724dd0c5,Independência 2021 Centro,event,2021-09-03,2021-09-07,active,4,602a75c8eec9e72ddb4dc6d4,False
+602aab313582194089c6ef21,Junho 2021 Campeche,season,2021-06-01,2021-07-01,active,2,602a77423582199fd0c6e506,False
+602aae8935821900a0c6f264,Corpus Christi 2021 Campeche,event,2021-06-02,2021-06-06,active,5,602a77423582199fd0c6e506,False
+602aab733582191e7ac6ef76,Julho 2021 Campeche,season,2021-07-01,2021-08-01,active,2,602a77423582199fd0c6e506,False
+602aab4b358219b270c6ef54,Agosto 2021 Campeche,season,2021-08-01,2021-09-01,active,2,602a77423582199fd0c6e506,False
+602aaeac3582197409c6f2a1,Independência 2021 Campeche,event,2021-09-03,2021-09-07,active,4,602a77423582199fd0c6e506,False
+6037a2d8bfab2974abf3ebf3,Junho 2021 São Joaquim,season,2021-06-01,2021-07-01,active,2,6037a185bfab296e4af3ebcc,False
+6037d0f1bfab291c91f3f7da,Corpus Christi São Joaquim,event,2021-06-02,2021-06-06,active,5,6037a185bfab296e4af3ebcc,False
+6037a2fabfab29d328f3ec03,Julho 2021 São Joaquim,season,2021-07-01,2021-08-01,active,3,6037a185bfab296e4af3ebcc,False
+6037a31bbfab29b472f3ec0f,Agosto 2021 São Joaquim,season,2021-08-01,2021-09-01,active,2,6037a185bfab296e4af3ebcc,False
+6037d1283cadf82c8c431135,Independência São Joaquim,event,2021-09-03,2021-09-07,active,4,6037a185bfab296e4af3ebcc,False
+6053569a4c7bec8a47957586,Junho 2021 Fase 1,season,2021-06-01,2021-07-01,active,2,6053541d2df7e5c0a22512fd,False
+605356c34c7bec02939575e1,Corpus Christi 2021 Fase 1,event,2021-06-02,2021-06-06,active,5,6053541d2df7e5c0a22512fd,False
+605356ff2df7e57a812515b7,Julho 2021 Fase 1,season,2021-07-01,2021-08-01,active,3,6053541d2df7e5c0a22512fd,False
+6053573c2df7e52a252516c9,Agosto 2021 Fase 1,season,2021-08-01,2021-09-01,active,2,6053541d2df7e5c0a22512fd,False
+605357a02df7e5245b251739,Feriado Independencia 2021 Fase 1,event,2021-09-03,2021-09-07,active,4,6053541d2df7e5c0a22512fd,False
+605357fddcf1917b7d791834,Iron Man Ingleses 2021 Fase 1,event,2021-09-16,2021-09-22,active,3,6053541d2df7e5c0a22512fd,False

@@ -1,0 +1,22 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16
+Graphics,Launch,Market,Code name,Chipset,Device ID,Core render clock (MHz),Execution units,Shader model (vertex/pixel),Direct3D,OpenGL,OpenCL,Memory bandwidth (GB/s),DVMT (MB),MPEG-2,VC-1,AVC
+GMA 3000,2006,Desktop,Lakeport,946GZ,2972,667,8,3.0 (SW) / 2.0,9.0c FL9_1,1.5 2.1 2.1 ES 2.0,No,10.6,256,MC,No,No
+GMA 3000,2006,Desktop,Broadwater,Q963,2992,667,8,3.0 (SW) / 2.0,9.0c FL9_1,1.5 2.1 2.1 ES 2.0,No,10.6,256,MC,No,No
+GMA 3000,2006,Desktop,Broadwater,Q965,2992,667,8,3.0 (SW) / 2.0,9.0c FL9_1,1.5 2.1 2.1 ES 2.0,No,12.8,256,MC,No,No
+GMA X3000,2006,Desktop,Broadwater,G965,29A2,667,8,3.0,9.0c FL9_1,1.5 2.1 2.1 ES 2.0,No,12.8,384,Full,MC + (LF − WMV9 only),No
+GMA X3500,2007,Desktop,Bearlake,G35,2982,667,8,4.0,10.0 FL10_0,1.5 2.1 2.1 ES 2.0,No,12.8,384,Full,MC + LF,No
+GMA X3100,2007,Mobile,Crestline,GL960,2A02 2A12,400,8,4.0,10.0 FL10_0,1.5 2.1 2.1 ES 2.0,No,8.5,384,Full,MC + (LF − WMV9 only),No
+GMA X3100,2007,Mobile,Crestline,GLE960,2A02 2A12,400,8,4.0,10.0 FL10_0,1.5 2.1 2.1 ES 2.0,No,8.5,384,Full,MC + (LF − WMV9 only),No
+GMA X3100,2007,Mobile,Crestline,GM965,2A02 2A12,500,8,4.0,10.0 FL10_0,1.5 2.1 2.1 ES 2.0,No,10.7,384,Full,MC + (LF − WMV9 only),No
+GMA X3100,2007,Mobile,Crestline,GME965,2A02 2A12,500,8,4.0,10.0 FL10_0,1.5 2.1 2.1 ES 2.0,No,10.7,384,Full,MC + (LF − WMV9 only),No
+GMA 4500,2008,Desktop,Eaglelake,B43,2E42 2E92,533,10,4.0,10.0 FL10_0,2.1 ES 2.0,No,12.8 (DDR2) 17 (DDR3),1720,Full,MC + LF,MC + LF
+GMA 4500,2008,Desktop,Eaglelake,Q43,2E12,533,10,4.0,10.0 FL10_0,2.1 ES 2.0,No,12.8 (DDR2) 17 (DDR3),1720,Full,MC + LF,MC + LF
+GMA 4500,2008,Desktop,Eaglelake,Q45,2E12,533,10,4.0,10.0 FL10_0,2.1 ES 2.0,No,12.8 (DDR2) 17 (DDR3),1720,Full,MC + LF,MC + LF
+GMA X4500,2008,Desktop,Eaglelake,G41,2E32,800,10,4.0,10.0 FL10_0,2.1 ES 2.0,No,12.8 (DDR2) 17 (DDR3),1720,Full,MC + LF,MC + LF
+GMA X4500,2008,Desktop,Eaglelake,G43,2E22,800,10,4.0,10.0 FL10_0,2.1 ES 2.0,No,12.8 (DDR2) 17 (DDR3),1720,Full,MC + LF,MC + LF
+GMA X4500HD,2008,Desktop,Eaglelake,G45,2E22,800,10,4.0,10.0 FL10_0,2.1 ES 2.0,No,12.8 (DDR2) 17 (DDR3),1720,Full,Full,Full
+GMA 4500MHD,2008,Mobile,Cantiga,GL40,2A42,400,10,4.0,10.0 FL10_0,2.1 ES 2.0,No,12.8 (DDR2) 17 (DDR3),1720,Full,Full,Full
+GMA 4500MHD,2008,Mobile,Cantiga,GS40,2A42,400,10,4.0,10.0 FL10_0,2.1 ES 2.0,No,12.8 (DDR2) 17 (DDR3),1720,Full,Full,Full
+GMA 4500MHD,2008,Mobile,Cantiga,GM45,2A42,533,10,4.0,10.0 FL10_0,2.1 ES 2.0,No,12.8 (DDR2) 17 (DDR3),1720,Full,Full,Full
+GMA 4500MHD,2008,Mobile,Cantiga,GS45,2A42,533,10,4.0,10.0 FL10_0,2.1 ES 2.0,No,12.8 (DDR2) 17 (DDR3),1720,Full,Full,Full
+GMA 4500MHD,2008,Mobile,Cantiga,GM47,2A42,640,10,4.0,10.0 FL10_0,2.1 ES 2.0,No,12.8 (DDR2) 17 (DDR3),1720,Full,Full,Full

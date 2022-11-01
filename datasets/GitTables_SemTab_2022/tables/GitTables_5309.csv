@@ -1,0 +1,35 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+1,LMST01010390,IOMBMOCSWVAYQU-ZLHZNRRGSA-N,727.4771,0.94,[M+NH4]+,0:0,Fasciculic acid C,Cholesterol and derivatives,,OT
+2,LMST01010313,GJQWMFNAGHAFDW-DNHZKMRASA-N,393.3091,3.5,[M+Na]+,0:0,19-norcholestenone,Cholesterol and derivatives,,OT
+3,LMST01040193,BGCSDXFDUOTODX-NMDKGTOKSA-N,507.2721,3.52,[M+H]+,0:0,geodisterol-O-sulfite,Stigmasterols and C24-ethyl derivatives,,OT
+4,LMST01010179,FADCOUQPHXGWQS-ZCDXYYCTSA-N,417.3369,4.03,[M+H]+,0:0,"2,22,25-trideoxyecdysone",Cholesterol and derivatives,,OT
+5,LMST01010389,SWRXIGFQDQTNKP-WEYFBGBOSA-N,654.449,4.4,[M+NH4]+,0:0,Fasciculic acid B,Cholesterol and derivatives,,OT
+6,LMST01040190,JFWKHVJJUMJZAN-RKDCWTDHSA-N,495.3073,5.17,[M+H]+,0:0,Norselic acid E,Stigmasterols and C24-ethyl derivatives,,OT
+7,LMST01010309,KIWJAFCOUILVDK-LVXDJYSUSA-N,437.3146,5.53,[M+Na]+,0:0,"20S-Hydroxycholest-1-en-3,16-dione",Cholesterol and derivatives,,OT
+8,LMST01010282,AQZKOFZGLJSRLJ-PXBBAZSNSA-N,421.3407,5.53,[M+Na]+,0:0,22-methylenecholesterol,Cholesterol and derivatives,,OT
+9,LMST01040190,JFWKHVJJUMJZAN-RKDCWTDHSA-N,495.3055,5.87,[M+H]+,0:0,Norselic acid E,Stigmasterols and C24-ethyl derivatives,,OT
+10,LMST01010282,AQZKOFZGLJSRLJ-PXBBAZSNSA-N,421.3529,6.03,[M+Na]+,0:0,22-methylenecholesterol,Cholesterol and derivatives,,OT
+11,LMST01010385,PMBSWZWCNKVWLV-OLVLZXMISA-N,465.3441,7.78,[M+Na]+,0:0,3beta-acetoxy-cholest-5-en-7-one,Cholesterol and derivatives,,OT
+12,LMST01010332,MLVSYGCURCOSKP-ZVXDAELJSA-N,449.3723,7.79,[M+Na]+,0:0,"4,4,14alpha-trimethyl-5alpha-cholest-9(11),24-dien-3beta-ol",Cholesterol and derivatives,,OT
+13,LMST01040191,KTOLWQCZNYCQTO-SHAFGOBASA-N,457.3313,8.39,[M+H]+,0:0,Norselic acid B,Stigmasterols and C24-ethyl derivatives,,OT
+14,LMST01040191,KTOLWQCZNYCQTO-SHAFGOBASA-N,474.3587,8.39,[M+NH4]+,0:0,Norselic acid B,Stigmasterols and C24-ethyl derivatives,,OT
+15,LMST01040188,FMNHMKJQPJAHCG-HMZQBNBCSA-N,447.383,9.82,[M+H]+,0:0,"24-ethyl-5alpha-cholest-25-en-3alpha,12alpha,16alpha-triol",Stigmasterols and C24-ethyl derivatives,,OT
+16,LMST01040175,XNQNXOGLSLUYAX-BGHDTONKSA-N,461.363,10.23,[M+H]+,0:0,"(20S,24S)-24-ethylthornasterol",Stigmasterols and C24-ethyl derivatives,,OT
+17,LMST01010284,VJZMDHUFPFDPDV-IEQUMJIWSA-N,401.342,10.3,[M+H]+,0:0,"(22,23-dinor)-24-vinyl-cholest-5-en-3beta,24-diol",Cholesterol and derivatives,,OT
+18,LMST01040175,XNQNXOGLSLUYAX-BGHDTONKSA-N,461.3634,10.65,[M+H]+,0:0,"(20S,24S)-24-ethylthornasterol",Stigmasterols and C24-ethyl derivatives,,OT
+19,LMST01040175,XNQNXOGLSLUYAX-BGHDTONKSA-N,461.3639,11.07,[M+H]+,0:0,"(20S,24S)-24-ethylthornasterol",Stigmasterols and C24-ethyl derivatives,,OT
+20,LMST01040175,XNQNXOGLSLUYAX-BGHDTONKSA-N,461.3632,11.34,[M+H]+,0:0,"(20S,24S)-24-ethylthornasterol",Stigmasterols and C24-ethyl derivatives,,OT
+21,LMST01040151,XUBCLKHKJZCPFZ-UMKPQZCOSA-N,429.3737,11.51,[M+H]+,0:0,"(3beta,24R,24'R)-fucosterol epoxide",Stigmasterols and C24-ethyl derivatives,,OT
+22,LMST01010111,FBGLZDYMEULGSX-IDZQOQCMSA-N,550.3491,11.54,[M+NH4]+,0:0,Cucurbitacin J,Cholesterol and derivatives,,OT
+23,LMST01010152,JHIWIFRQJXLNEU-CEDIQTLQSA-N,446.3739,11.79,[M+NH4]+,0:0,4alpha-carboxy-zymosterol,Cholesterol and derivatives,,OT
+24,LMST01040237,IMWBKGMKWXIXEQ-CMDGGOBGSA-N,411.3625,11.9,[M+H]+,0:0,"(3beta,5alpha,22E,24S)-Stigmasta-7,22,25-trien-3-ol",Stigmasterols and C24-ethyl derivatives,,OT
+25,LMST01040188,FMNHMKJQPJAHCG-HMZQBNBCSA-N,447.3841,13.31,[M+H]+,0:0,"24-ethyl-5alpha-cholest-25-en-3alpha,12alpha,16alpha-triol",Stigmasterols and C24-ethyl derivatives,,OT
+26,LMST01040188,FMNHMKJQPJAHCG-HMZQBNBCSA-N,447.3838,14.07,[M+H]+,0:0,"24-ethyl-5alpha-cholest-25-en-3alpha,12alpha,16alpha-triol",Stigmasterols and C24-ethyl derivatives,,OT
+27,LMST01040207,WHXVFRBDLSVIIH-LPYDJFAASA-N,860.735,20.63,[M+NH4]+,0:0,18:0-Glc-Sitosterol,Stigmasterols and C24-ethyl derivatives,,OT
+28,LMST01040208,TXFNGAZZISRWSA-MPAWTUJRSA-N,888.7665,21.05,[M+NH4]+,0:0,20:0-Glc-Sitosterol,Stigmasterols and C24-ethyl derivatives,,OT
+29,LMST01040213,JEZPHDPYUQKBJL-VZQAWUDDSA-N,914.782,21.11,[M+NH4]+,0:0,22:0-Glc-Stigmasterol,Stigmasterols and C24-ethyl derivatives,,OT
+30,LMST01040227,PIUNFZUNIRWTOH-XAFSFVTLSA-N,826.6427,21.12,[M+NH4]+,0:0,16:2-Glc-Stigmasterol,Stigmasterols and C24-ethyl derivatives,,OT
+31,LMST01040209,LCBWKXCFZKVXRJ-ZBZKKPOCSA-N,916.7981,21.39,[M+NH4]+,0:0,22:0-Glc-Sitosterol,Stigmasterols and C24-ethyl derivatives,,OT
+32,LMST01040209,LCBWKXCFZKVXRJ-ZBZKKPOCSA-N,916.7976,21.69,[M+NH4]+,0:0,22:0-Glc-Sitosterol,Stigmasterols and C24-ethyl derivatives,,OT
+33,LMST01040209,LCBWKXCFZKVXRJ-ZBZKKPOCSA-N,916.7975,21.79,[M+NH4]+,0:0,22:0-Glc-Sitosterol,Stigmasterols and C24-ethyl derivatives,,OT
+34,LMST01040211,QTIVSMODIJHIEC-SPURYESYSA-N,858.72,22.31,[M+NH4]+,0:0,18:0-Glc-Stigmasterol,Stigmasterols and C24-ethyl derivatives,,OT

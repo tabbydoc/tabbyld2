@@ -1,0 +1,71 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2667,83,2691,apply online,apply online,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2668,83,2691,send online protocol,apply online,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2669,83,2690,send documents by post,send documents by post,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2670,83,2706,documents received,documents received,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2671,83,2707,check documents,check documents,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2672,83,2688,evaluate,sufficient cp in mathematics,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2672,83,2704,evaluate,less than cp in mathematics,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2672,83,2708,evaluate,evaluate,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2673,83,2705,invite to an aptitude test,take oral exam,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2675,83,2705,take aptitude test,take oral exam,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2676,83,2708,rank students according to gpa and the test results,evaluate,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2679,83,2705,pay for aptitude test,take oral exam,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2683,83,2692,acceptance,provisional acceptance confirmed,True,False
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2683,83,2693,acceptance,provisional acceptance cancelled,True,False
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2683,83,2694,acceptance,send letter of acceptance,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2683,83,2695,acceptance,send letter of provisional acceptance,True,False
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2683,83,2696,acceptance,accepted,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2683,83,2698,acceptance,accepted provisionally,True,False
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2684,83,2697,send letter of rejection,rejected,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2684,83,2709,send letter of rejection,send letter of rejection,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2667,84,2716,apply online,add certificate of bachelor degree,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2667,84,2718,apply online,german,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2667,84,2722,apply online,add certificate of german language,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2667,84,2730,apply online,complete application,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2667,84,2732,apply online,fill out application form,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2668,84,2720,send online protocol,send application,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2669,84,2720,send documents by post,send application,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2669,84,2727,send documents by post,document,True,False
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2670,84,2719,documents received,receive application,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2670,84,2727,documents received,document,True,False
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2671,84,2710,check documents,complete and in time,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2671,84,2715,check documents,check application complete,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2671,84,2717,check documents,check application in time,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2671,84,2727,check documents,document,True,False
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2672,84,2711,evaluate,hand application over to examining board,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2672,84,2712,evaluate,check if bachelor is sufficient,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2672,84,2713,evaluate,set additional requirements,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2672,84,2714,evaluate,check if bachelors grade within top %,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2673,84,2725,invite to an aptitude test,invite for talk,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2674,84,2730,keep in the applicant pool,complete application,True,False
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2674,84,2732,keep in the applicant pool,fill out application form,True,False
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2675,84,2726,take aptitude test,talk to applicant,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2675,84,2727,take aptitude test,document,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2676,84,2728,rank students according to gpa and the test results,rank with other applicants,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2683,84,2723,acceptance,receive acceptance,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2683,84,2724,acceptance,immatriculate,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2683,84,2729,acceptance,send acceptance,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2684,84,2721,send letter of rejection,receive rejection,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2684,84,2729,send letter of rejection,send acceptance,True,False
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,82,2684,84,2731,send letter of rejection,send rejection,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2688,89,2895,sufficient cp in mathematics,bridging courses > cp,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2690,89,2885,send documents by post,send documents by post,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2691,89,2886,apply online,apply online,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2694,89,2888,send letter of acceptance,send letter of acceptance,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2696,89,2883,accepted,rejected,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2697,89,2883,rejected,rejected,True,False
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2697,89,2893,rejected,rejected,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2699,89,2894,wait for bachelors certificate,check bachelors degree,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2700,89,2894,certificate received,check bachelors degree,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2701,89,2894,send bachelors certificate,check bachelors degree,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2702,89,2894,certificate received,check bachelors degree,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2703,89,2894,check certificate,check bachelors degree,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2704,89,2896,less than cp in mathematics,bridging courses < cp,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2705,89,2891,take oral exam,conduct interview,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2705,89,2892,take oral exam,go to interview,False,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2706,89,2884,documents received,documents received,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2706,89,2899,documents received,documents received,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2707,89,2897,check documents,check documents,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2708,89,2887,evaluate,evaluate,True,True
+UA_Union_GoldAll_Base_0_Keywords_NoSpam_NoStem,83,2709,89,2889,send letter of rejection,send letter of rejection,True,True

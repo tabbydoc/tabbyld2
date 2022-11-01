@@ -1,0 +1,42 @@
+col0,col1,col2,col3,col4,col5,col6
+1,¿Qué tipo de paisaje se observa?,1,,,5,Tipo de paisaje
+2,¿A qué corresponde el área resaltada?,2,,,5,Coberturas sin bosque
+3,¿Cómo es la topografía de la zona?,3,,,5,Tipo de relieve-Posición topográfica
+4,¿El área encierra vegetación perenne?,4,,,5,si/no
+5,¿Qué indicios de antropización se ven?,5,,,5,Coberturas sin bosque
+6,"¿Qué tipo de vegetación podría ser el área delimitada, mirando esta imagen en cercanías de un Glaci",6,,,5,Cobertura de bosque Bajo-Coberturas de bosque Alto
+7,¿Qué altura se puede estimarse de esta vegetación?,7,,,5,Rangos de altura
+8,¿Qué especie encierra el área limitada?,8,,,5,Coberturas de bosque Alto-Cobertura de bosque Bajo
+9,¿Se pueden distinguir cicatrices de incendios?,1,,,2,si/no
+10,¿Cuántas cicatrices se pueden ver a simple vista?,2,,,2,Números
+11,¿Qué antigüedad tendrían estos incendios?,3,,,2,Otra
+12,¿Qué especies se pueden apreciar a simple vista?,4,,,2,Coberturas de bosque Alto-Cobertura de bosque Bajo
+13,¿Qué especies se pueden apreciar a simple vista en esta imagen?,5,,,2,Coberturas de bosque Alto-Cobertura de bosque Bajo
+14,¿Qué indica la cobertura de color rosado saturado?,6,,,2,Coberturas sin bosque
+15,La cobertura incógnita se encuentra en,7,,,2,Pendiente
+16,¿Cuál es la exposición en la que está?,8,,,2,Puntos Cardinales
+17,¿Qué características tiene el espacio que ocupa la cobertura?,9,,,2,Posición topográfica-Concavidad-Altitudes
+18,¿De qué cobertura se trata?,10,,,2,Coberturas de bosque Alto-Cobertura de bosque Bajo
+19,¿En qué zona estamos?,1,,,0,Tipo de paisaje-Tipo de relieve
+20,¿Qué indicios de que es zona de Ecotono se ven?,2,,,0,Coberturas sin bosque
+21,¿Qué indicios de antropización se ven?,3,,,0,Coberturas sin bosque- Rasgos de incendio
+22,¿Edad aproximada de la plantación?,4,,,0,Edades
+23,¿Qué vegetación predomina en la zona?,5,,,0,Coberturas sin bosque-Coberturas de bosque Alto
+24,¿Qué indica que hay una pandiente?,6,,,0,Rasgos de topografía
+25,¿Hacia dónde mira la pendiente?,7,,,0,Puntos Cardinales
+26,¿Hay otra especie de árboles,8,,,0,
+27,¿De que especie se trata?,9,,,0,Coberturas de bosque Alto
+28,¿Cuál es la altura estimada de la regeneración?,10,,,0,Números
+29,Según el tono...¿Podría ser vegetación?,1,,,1,si/no
+30,¿Qué características se pueden apreciar a esta escala?,2,,,1,"Provincias, Tipo de relieve"
+31,Los tonos dentro de la cobertura son...,3,,,1,Otra
+32,¿Cuál es la posición topográfica de la cobertura delimitada?,4,,,1,Posición topográfica-Tipo de relieve
+33,"¿En esta imagen de invierno, qué es lo que cubre el área delimitada?",5,,,1,Coberturas sin bosque
+34,¿Por qué no se ve oscuro como en la imagen de invierno?,6,,,1,Otra
+35,¿A qué categoría correspondería el área delimitada?,7,,,1,Coberturas sin bosque
+36,¿Qué tipo de paisaje se observa?,1,,,6,Tipo de paisaje-Rasgos de topografía
+37,¿Qué especies pueden distinguirse aquí?,2,,,6,Cobertura de bosque Bajo
+38,¿Qué indicios de antropización se ven?,3,,,6,Coberturas sin bosque
+39,¿Qué cobertura es la que se delimita?,4,,,6,Rasgos de antropización-Coberturas de bosque Alto
+40,"¿Hay otra especie de árboles, además de los de la forestación?",5,,,6,si/no
+41,¿Cuál es la especie que se camufla en falso color con la forestación?,6,,,6,Coberturas de bosque Alto

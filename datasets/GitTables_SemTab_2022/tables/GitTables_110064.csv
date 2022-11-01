@@ -1,0 +1,182 @@
+col0,col1,col2,col3,col4,col5,col6
+0,,0,0,0,0,0
+100,,0,0,0,0,0
+1000,,0,0,0,0,0
+1070,Skeleton,0,0,0,0,0
+1071,Skeleton,3,5,3,3,3
+1090,Pus of Man,0,0,0,0,0
+1100,Hollow Soldier,0,0,0,0,0
+1101,Hollow Soldier,0,0,0,0,0
+1102,Hollow Soldier,0,0,0,0,0
+1105,Hollow Soldier,0,0,0,0,0
+1106,Hollow Soldier,0,0,0,0,0
+1109,Hollow Soldier,5,5,0,5,5
+1130,Rotten Slug,0,0,0,0,0
+1139,Rotten Slug,5,5,0,5,5
+1170,Carthus Swordsman,0,0,0,0,0
+1180,Carthus Swordsman - Shotel,0,0,0,0,0
+1190,Cathedral Knight,0,0,0,0,0
+1200,Hollow Slave,0,0,0,0,0
+1201,Hollow Slave,3,5,3,3,3
+1210,Ghru,0,0,0,0,0
+1211,Ghru,0,0,0,0,0
+1220,Corpse-grub,0,0,0,0,0
+1229,Corpse-grub,5,5,0,5,5
+1230,Cathedral Evangelist,0,0,0,0,0
+1240,Peasant Hollow,0,0,0,0,0
+1241,Peasant Hollow,0,0,0,0,0
+1250,Cathedral Grave Warden,0,0,0,0,0
+1260,Hollow Manservant,0,0,0,0,0
+1280,Lothric Knight,0,0,0,0,0
+1281,Lothric Knight,0,0,0,0,0
+1282,Lothric Knight,0,0,0,0,0
+1283,Lothric Knight,3,4,3,3,3
+1290,Winged Knight,0,0,0,0,0
+1300,Black Knight,0,0,0,0,0
+1310,Boreal Outrider Knight,0,0,0,0,0
+1320,Crystal Sage,0,0,0,0,0
+1321,Crystal Sage,0,0,0,0,0
+1340,Archive Scholar,0,0,0,0,0
+1350,Irithyllian Slave,0,0,0,0,0
+1360,Lycanthrope,0,0,0,0,0
+1370,Lycanthrope Hunter,0,0,0,0,0
+1380,Serpent-man Summoner,0,0,0,0,0
+1390,Serpent-man,0,0,0,0,0
+1391,Giant Serpent-man,0,0,0,0,0
+1399,Giant Serpent-man,5,5,0,5,5
+1400,Fire Keeper,0,0,0,0,0
+1410,Silver Knight,0,0,0,0,0
+1430,,0,0,0,0,0
+1440,Devout of the Deep,0,0,0,0,0
+1441,Devout of the Deep,0,0,0,0,0
+1442,Devout of the Deep,0,0,0,0,0
+1445,Devout of the Deep,0,0,0,0,0
+1446,Devout of the Deep,0,0,0,0,0
+1449,Devout of the Deep,5,5,0,5,5
+1450,Ludleth of Courland,0,0,0,0,0
+1470,Bonewheel Skeleton,0,0,0,0,0
+1480,Pontiff Knight (Illusion),0,0,0,0,0
+1490,Pontiff Knight (Illusion),0,0,0,0,0
+2020,Undead Dog,0,0,0,0,0
+2021,Small Undead Dog,0,0,0,0,0
+2029,Small Undead Dog,5,5,0,5,5
+2030,Pontiff Knight,0,0,0,0,0
+2040,Monstrosity of Sin,0,0,0,0,0
+2060,Writhing Infested Corpse,0,0,0,0,0
+2070,Wretch,0,0,0,0,0
+2080,Undead Dog,0,0,0,0,0
+2090,Oceiros,0,0,0,0,0
+2100,Sewer Centipede,0,0,0,0,0
+2110,Hound-rat,0,0,0,0,0
+2120,Mimic,0,0,0,0,0
+2130,Writhing Rotten Flesh,0,0,0,0,0
+2131,Writhing Rotten Flesh,0,0,0,0,0
+2132,Writhing Rotten Flesh,0,0,0,0,0
+2140,Basilisk,0,0,0,0,0
+2150,Crystal Lizard,0,0,0,0,0
+2160,Londor Pilgrim,0,0,0,0,0
+2170,Company Captain Yorshka,0,0,0,0,0
+2180,Rosaria Maggot,0,0,0,0,0
+2190,Gargoyle,0,0,0,0,0
+2191,Gargoyle,0,0,0,0,0
+2200,Carthus Sandworm,0,0,0,0,0
+2209,Carthus Sandworm,5,5,0,5,5
+2210,Corvian,0,2,0,0,0
+2230,Jailer,0,0,0,0,0
+2239,Jailer,5,5,0,5,5
+2240,Vordt,0,0,0,0,0
+2250,Sulyvahn's Beast,0,0,0,0,0
+2260,Sulyvahn's Beast,0,0,0,0,0
+2270,Giant Crab,0,2,0,0,0
+2271,Lesser Crab,0,0,0,0,0
+2279,Lesser Crab,5,5,0,5,5
+2280,Giant Rat,0,0,0,0,0
+2290,Irithyll Dog,0,0,0,0,0
+3020,Giant Slave,0,0,0,0,0
+3021,Giant Slave,0,0,0,0,0
+3040,Abyss Watchers,0,0,0,0,0
+3050,Old Demon King,0,0,0,0,0
+3060,,0,0,0,0,0
+3070,Demon Cleric,0,0,0,0,0
+3071,Demon Cleric,0,0,0,0,0
+3080,Pilgrim Butterfly,0,0,0,0,0
+3090,Caged Hollow,0,0,0,0,0
+3100,Giant Crystal Lizard,0,0,0,0,0
+3110,Deep Acursed,0,0,0,0,0
+3120,Elder Ghru,0,0,0,0,0
+3140,Ancient Wyvern,0,0,0,0,0
+3141,Ancient Wyvern,0,0,0,0,0
+3160,Dragonslayer Armour,0,0,0,0,0
+3170,Darkwraith,0,0,0,0,0
+3190,Blacksmith Andre,0,0,0,0,0
+3200,Shrine Handmaid,0,0,0,0,0
+3210,Poisonhorn Bug,0,0,0,0,0
+3220,Rock Lizard,0,0,0,0,0
+3230,Demon Statue,0,0,0,0,0
+3250,High Priestess Emma,0,0,0,0,0
+5010,Nameless King,0,0,0,0,0
+5019,Nameless King,5,5,0,5,5
+5020,Demon Prince,3,4,3,3,3
+5021,Demon Prince,3,3,3,3,3
+5022,Demon Prince,3,3,3,3,3
+5030,King of the Storm,0,0,0,0,0
+5110,Iudex Gundyr,0,4,0,0,0
+5140,Pontiff Sulyvahn,0,0,0,0,0
+5150,Aldrich,0,0,0,0,0
+5160,Wolnir,0,0,0,0,0
+5180,Curse-rotted Greatwood,0,0,0,0,0
+5200,,0,0,0,0,0
+5210,,0,0,0,0,0
+5220,Deacon of the Deep,0,0,0,0,0
+5221,Fat Deacon,0,0,0,0,0
+5222,Tall Deacon,0,0,0,0,0
+5223,Thin Deacon,0,0,0,0,0
+5225,Fat Deacon,0,0,0,0,0
+5226,Tall Deacon,0,0,0,0,0
+5227,Thin Deacon,0,0,0,0,0
+5229,Thin Deacon,5,5,0,5,5
+5240,Irithyll Fire Witch,0,0,0,0,0
+5250,Lorian,0,0,0,0,0
+5251,Lothric,0,0,0,0,0
+5259,Lothric,5,5,0,5,5
+5260,Yhorm,0,0,0,0,0
+5270,Dancer,0,0,0,0,0
+5280,Soul of Cinder,0,0,0,0,0
+6000,Farron Follower,1,1,1,1,1
+6010,Father Ariandel,1,1,1,1,1
+6020,Sister Friede,1,1,1,1,1
+6030,Gravetender Greatwolf,1,1,1,1,1
+6040,Wolf,1,1,1,1,1
+6050,Skittish Wolf,1,1,1,1,1
+6060,Tree Woman,1,1,1,1,1
+6070,Corvian Knight,1,1,1,1,1
+6080,Giant Fly,1,1,1,1,1
+6081,Giant Fly,1,1,1,1,1
+6089,Giant Fly,5,5,1,5,5
+6090,,1,1,1,1,1
+6100,Millwood Knight,1,1,1,1,1
+6110,,1,1,1,1,1
+6120,,1,1,1,1,1
+6121,,1,1,1,1,1
+6130,Great Crab,1,5,1,1,1
+6200,Slave Knight Gael,3,3,3,3,3
+6201,Slave Knight Gael,3,3,3,3,3
+6210,Midir - Bridge,3,4,3,3,3
+6211,Midir,3,3,3,3,3
+6230,Murkman,3,3,3,3,3
+6231,Murkman,5,5,5,5,5
+6232,Murkman,3,4,3,3,3
+6239,Murkman,5,5,3,5,5
+6240,Pilgrim Pulpa,3,3,3,3,3
+6250,Angel,3,3,3,3,3
+6260,Ringed Knight,3,3,3,3,3
+6270,Hollow Vagabond,3,3,3,3,3
+6280,Judicator,3,3,3,3,3
+6281,Judicator,3,3,3,3,3
+6290,Hollow Cleric,3,3,3,3,3
+6300,Mad Pilgrim,3,3,3,3,3
+6310,Filianore,3,3,3,3,3
+6320,Harald Knight,3,3,3,3,3
+6330,Big Locust,3,3,3,3,3
+6331,Small Locust,3,3,3,3,3
+6339,Small Locust,5,5,3,5,5

@@ -1,0 +1,83 @@
+col0,col1,col2,col3,col4,col5
+2, en   , Susan      ,1, F      , US
+2, en   , Dave       ,2, M      , US
+2, en   , Elizabeth  ,4, F      , UK
+2, en   , Simon      ,5, M      , UK
+2, en   , Catherine  ,6, F      , UK
+2, en   , Allison    ,7, F      , US
+2, en   , Steven     ,8, M      , US
+2, en   , Alan       ,9, M      , Australian
+2, en   , Grace      ,10, F      , Australian
+2, en   , Veena      ,11, F      , Indian
+2, es   , Carmen     ,1, F      , Castilian
+2, es   , Juan       ,2, M      , Castilian
+2, es   , Francisca  ,3, F      , Chilean
+2, es   , Diego      ,4, M      , Argentine
+2, es   , Esperanza  ,5, F      , Mexican
+2, es   , Jorge      ,6, M      , Castilian
+2, es   , Carlos     ,7, M      , American
+2, es   , Soledad    ,8, F      , American
+2, es   , Leonor     ,9, F      , Castilian
+2, es   , Ximena     ,10, F      , American
+2, de   , Stefan     ,2, M,
+2, de   , Katrin     ,3, F,
+2, fr   , Bernard    ,2, M      , European
+2, fr   , Jolie      ,3, F      , European
+2, fr   , Florence   ,4, F      , European
+2, fr   , Charlotte  ,5, F      , Canadian
+2, fr   , Olivier    ,6, M      , Canadian
+2, ca   , Montserrat ,1, F,
+2, ca   , Jordi      ,2, M,
+2, ca   , Empar      ,3, F      , Valencian
+2, pt   , Gabriela   ,1, F      , Brasilian
+2, pt   , Amalia     ,2, F      , European
+2, pt   , Eusebio    ,3, M      , European
+2, pt   , Fernanda   ,4, F      , Brazilian
+2, pt   , Felipe     ,5, M      , Brazilian
+2, it   , Paola      ,1, F,
+2, it   , Silvana    ,2, F,
+2, it   , Valentia   ,3, F,
+2, it   , Luca       ,5, M,
+2, it   , Marcello   ,6, M,
+2, it   , Roberto    ,7, M,
+2, it   , Matteo     ,8, M,
+2, it   , Giulia     ,9, F,
+2, it   , Federica   ,10, F,
+2, el   , Afroditi   ,1, F,
+2, el   , Nikos      ,3, M,
+2, sv   , Annika     ,1, F,
+2, sv   , Sven       ,2, M,
+2, zh   , Linlin     ,1, F      , Mandarin
+2, zh   , Lisheng    ,2, F      , Mandarin
+2, nl   , Willem     ,1, M,
+2, nl   , Saskia     ,2, F,
+2, pl   , Zosia      ,1, F,
+2, pl   , Krzysztof  ,2, M,
+2, gl   , Carmela    ,1, F,
+2, tr   , Kerem      ,1, M,
+2, tr   , Zeynep     ,2, F,
+2, tr   , Selin      ,3, F,
+2, da   , Frida      ,1, F,
+2, da   , Magnus     ,2, M,
+2, no   , Vilde      ,1, F,
+2, no   , Henrik     ,2, M,
+2, ru   , Olga       ,1, F,
+2, ru   , Dmitri     ,2, M,
+2, fi   , Milla      ,1, F,
+2, fi   , Marko      ,2, M,
+2, ar   , Tarik      ,1, M,
+2, ar   , Laila      ,2, F,
+2, ro   , Ioana      ,1, F,
+2, eo   , Ludoviko   ,1, M,
+3, en   , Kate       ,1, F      , US
+3, en   , Paul       ,2, M      , US
+3, en   , Julie      ,3, F      , US
+3, en   , Bridget    ,4, F      , UK
+3, es   , Violeta    ,1, F,
+3, zh   , Lily       ,1, F      , Mandarin
+3, zh   , Hui        ,3, F      , Mandarin
+3, zh   , Liang      ,4, M      , Mandarin
+3, ja   , Show       ,2, M,
+3, ja   , Misaki     ,3, F,
+3, ko   , Yumi       ,1, F,
+3, ko   , Junwoo     ,2, M,

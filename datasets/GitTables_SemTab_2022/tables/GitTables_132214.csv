@@ -1,0 +1,129 @@
+col0,col1,col2
+1.0,Asterionellopsis glacialis,149139.0
+2.0,Ceratium,109506.0
+3.0,Chaetoceros,148985.0
+4.0,Corethron hystrix,179596.0
+5.0,Cylindrotheca,149003.0
+6.0,Dactyliosolen fragilissimus,149310.0
+7.0,Dactyliosolen blavyanus,179786.0
+8.0,Dictyocha,157258.0
+9.0,Dinobryon,157240.0
+10.0,Ditylum brightwellii,149023.0
+11.0,Ephemera,291403.0
+12.0,Eucampia cornuta,248058.0
+13.0,Guinardia delicatula,149112.0
+14.0,Guinardia flaccida,149132.0
+15.0,Leptocylindrus,149038.0
+16.0,Pleurosigma,149181.0
+17.0,Pseudo-nitzschia,291409.0
+18.0,Rhizosolenia,149069.0
+19.0,Skeletonema,149073.0
+20.0,Thalassionema,149092.0
+21.0,Thalassiosira,148912.0
+22.0,bad,
+23.0,detritus,
+25.0,mix,
+27.0,cryptophyta,17638.0
+28.0,Dinophysis,109462.0
+29.0,Euglena,8012.0
+30.0,flagellate,
+31.0,Gyrodinium,109476.0
+33.0,Lauderia annulata,149135.0
+34.0,Licmophora,149342.0
+35.0,Phaeocystis,115088.0
+36.0,Prorocentrum,109566.0
+37.0,Pyramimonas,134529.0
+39.0,Stephanopyxis,149630.0
+40.0,other,
+41.0,Cerataulina pelagica,149619.0
+42.0,Coscinodiscus,148917.0
+43.0,Gonyaulax,109519.0
+44.0,Odontella,148963.0
+45.0,Guinardia striata,149113.0
+46.0,Paralia sulcata,149055.0
+48.0,Hemiaulus,-999.0
+49.0,Chaetoceros didymus,149122.0
+50.0,Leptocylindrus mediterraneus,149230.0
+51.0,Parvicorbicula socialis,105588.0
+52.0,Delphineis,149179.0
+53.0,amoeba,605376.0
+56.0,Euplotes sp,
+57.0,Laboea strobila,101264.0
+58.0,Leegaardiella ovalis,101206.0
+62.0,Strombidium capitatum,101282.0
+63.0,Strombidium conicum,101289.0
+64.0,Strombidium inclinatum,428332.0
+67.0,Strombidium oculatum,101320.0
+68.0,Strombidium wulffi,101344.0
+69.0,Tiarina fusus,247943.0
+70.0,Tintinnida,425497.0
+71.0,Tontonia appendiculariformis,101345.0
+72.0,Tontonia gracillima,101347.0
+73.0,Akashiwo,231787.0
+75.0,Bacillaria,149148.0
+77.0,Cochlodinium,109474.0
+78.0,Chrysochromulina,115090.0
+79.0,Emiliania huxleyi,115104.0
+80.0,Heterocapsa rotundata,110152.0
+81.0,Heterocapsa triquetra,110153.0
+82.0,Karenia,231788.0
+84.0,Protoperidinium,109553.0
+86.0,Pseudochattonella farcimen,531467.0
+87.0,Pyramimonas longicauda,160513.0
+88.0,flagellate sp1,
+90.0,flagellate sp3,
+92.0,bead,
+93.0,bubble,
+94.0,pollen,
+97.0,camera spot,
+26.0,Corymbellus,162518.0
+108.0,Dinophyceae,19542.0
+32.0,Chrysochromulina lanceolata,388470.0
+107.0,Bacillariophyceae,148899.0
+55.0,Didinium,341301.0
+59.0,Mesodinium,179320.0
+60.0,Pleuronema,
+61.0,Strobilidium,101185.0
+65.0,Strombidium sp1,101195.0
+66.0,Strombidium sp2,101195.0
+74.0,Amphidinium,109473.0
+76.0,Biddulphia,148967.0
+83.0,Katodinium or Torodinium,109410.0
+85.0,Proterythropsis sp,231794.0
+98.0,Balanion,292899.0
+100.0,Eutintinnus,183543.0
+101.0,Favella,172431.0
+102.0,Helicostomella subulata,240437.0
+103.0,Stenosemella sp1,178825.0
+104.0,Stenosemella pacifica,417165.0
+105.0,Tintinnidium mucicola,247944.0
+89.0,Calciopappus,235858.0
+112.0,Syracosphaera pulchra,235979.0
+110.0,Apedinella,248096.0
+111.0,Alexandrium,109470.0
+109.0,Vicicitus globosus,146203.0
+106.0,Tintinnopsis,163780.0
+91.0,pennate morphotype1,
+113.0,Ophiaster,115081.0
+54.0,Ciliate mix,1348.0
+47.0,mix elongated,148899.0
+24.0,pennate,148899.0
+114.0,Acanthoica quattrospina,235802.0
+115.0,Radiozoa,582421.0
+116.0,Bacteriastrum,149118.0
+96.0,zooplankton,2.0
+117.0,Chaetoceros peruvianis,
+118.0,Chaetoceros debilis,
+119.0,Chaetoceros curvusetus,149221.0
+120.0,Chaetoceros socialis,149123.0
+121.0,Chaetoceros subtilis,156621.0
+122.0,Chaetoceros danicus,149120.0
+123.0,Chaetoceros concavicornis,156607.0
+124.0,Oxytoxum,109528.0
+,Proterythropsis,
+,ciliate,
+,Calciosolenia brasiliensis,
+,Stenosemella morphotype1,
+,flagellate morphotype3,
+,square unknown,
+,fecal pellet,

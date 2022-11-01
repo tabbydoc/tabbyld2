@@ -1,0 +1,111 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+R26,R31,竹圍,Zhuwei,R,Norma Fisher,"80715 Amy Dale Apt. 759
+Emilyshire, SC 81906",25.13694,121.459479
+R27,R32,紅樹林,Hongshulin,R,Jorge Sullivan,"6109 Holly Estate Apt. 376
+Johnsonshire, WI 87296",25.154042,121.458872
+R28,R33,淡水,Tamsui,R,Elizabeth Woods,"1427 Odonnell Rapids
+North Troyport, NH 07035",25.167818,121.445561
+G01,G1,新店,Xindian,G,Susan Wagner,"81206 Stewart Forest Apt. 089
+East Davidborough, ME 37198",24.957855,121.537584
+G02,G2,新店區公所,Xindian District Office,G,Peter Montgomery,"76104 Marsh Crescent
+Dennishaven, SD 85034",24.967393,121.54131
+G03,G3,七張,Qizhang,G,Theodore Mcgrath,"0003 Grant Lakes
+Port Karafort, SD 60619",24.975169,121.542942
+G03A,G1A,小碧潭,Xiaobitan,G,Stephanie Collins,"236 Smith Drive Suite 555
+West Kimberlyton, KY 21978",24.971907,121.530339
+G04,G4,大坪林,Dapinglin,G,Stephanie Sutton,"6824 Timothy Garden Apt. 428
+West Richardmouth, MT 14742",24.982899,121.541352
+O01,O19,南勢角,Nanshijiao,O,Brian Hamilton,"5517 Holly Meadow Apt. 452
+Lake Anne, SC 11894",24.990045,121.509237
+O02,O18,景安,Jingan,O,Susan Levy,"30601 Hawkins Highway
+Morashire, TX 28976",24.993905,121.505113
+O03,O17,永安市場,Yongan Market,O,Sean Green,"49263 Wilson View Apt. 873
+South Raymondborough, AZ 28798",25.002876,121.511231
+O04,O16,頂溪,Dingxi,O,Kimberly Smith,"76582 Vanessa Oval
+New Richard, NE 68819",25.013821,121.515485
+O13,O7,台北橋,Taipei Bridge,O,Jennifer Summers,"7389 Alec Squares Suite 508
+Port Jonathan, FL 50177",25.063274,121.500762
+O14,O6,菜寮,Cailiao,O,April Snyder,"18013 Billy Bridge Suite 522
+Schmitthaven, NC 66355",25.060274,121.492156
+O15,O5,三重,Sanchong,O,Dana Nguyen,"891 Bullock Ford
+Amandachester, NJ 51431",25.055791,121.484725
+O16,O4,先嗇宮,Xianse Temple,O,Cheryl Bradley,"02489 Cook Park
+Sherriport, MT 50853",25.046493,121.471916
+O17,O3,頭前庄,Touqianzhuang,O,Walter Pratt,"23450 Timothy Divide
+Wuland, UT 20341",25.039705,121.461746
+O18,O2,新莊,Xinzhuang,O,Bobby Flores,"0976 Williams Mountains Apt. 009
+Lake Mario, OH 85565",25.036125,121.452468
+O19,O1,輔大,Fu Jen University,O,Tasha Rodriguez,"1097 Santos Springs Suite 264
+New Michelleborough, WY 51884",25.032718,121.43547
+O20,O60,丹鳳,Danfeng,O,Michelle Kelley,"5100 Scott Burg
+East Clayton, SC 66353",25.0288671,121.4227079
+O21,O59,迴龍,Huilong,O,Kimberly Maynard,"412 Snow Manors Apt. 161
+South Kimtown, NV 57004",25.021862,121.41127
+O50,O47,三重國小,Sanchong Elementary School,O,Laurie Wallace,"5415 David Square
+West Michaeltown, IN 48447",25.070319,121.496904
+O51,O46,三和國中,Sanhe Junior High School,O,Janice Johnston,"03104 Norris Rapids
+Port Donald, DE 62982",25.076859,121.486347
+O52,O45,徐匯中學,St. Ignatius High School,O,Collin Lopez,"03557 Phillips Wells Suite 291
+New Beverlyburgh, FL 16915",25.080728,121.479673
+O53,O44,三民高中,Sanmin Senior High School,O,Mary Alvarez,"332 Watson Shore Apt. 290
+Millerland, MT 39742",25.085456,121.473389
+O54,O43,蘆洲,Luzhou,O,Peter Mcdowell,"645 John Roads
+Danahaven, MS 54060",25.091554,121.464471
+BL01,BL36,頂埔,Dingpu,BL,Sarah Villanueva,"3547 Stephanie Underpass Apt. 418
+Port Jacqueline, HI 55774",24.96012,121.4205
+BL02,BL37,永寧,Yongning,BL,Kimberly Myers,"5825 Welch Corners
+Fischerport, UT 59363",24.966726,121.436072
+BL03,BL38,土城,Tucheng,BL,Desiree Cain,"41489 Roger Terrace
+Davisfort, IN 71770",24.973094,121.444362
+BL04,BL39,海山,Haishan,BL,Stephanie Lawrence,"014 Aaron Locks Suite 714
+Justinborough, CO 05147",24.985339,121.448786
+BL05,BL40,亞東醫院,Far Eastern Hospital,BL,Lauren Hayes,"8518 Pamela Track Apt. 164
+Aprilshire, SC 28062",24.998037,121.452514
+BL06,BL1,府中,Fuzhong,BL,Whitney Stark,"864 Ramos Port Apt. 211
+Moralesmouth, OH 88090",25.008619,121.459409
+BL07,BL2,板橋,Banqiao,BL,Angela Salazar,"637 Neal Island Suite 074
+Lake Tyler, RI 28775",25.013618,121.462302
+BL08,BL3,新埔,Xinpu,BL,Mr. Ryan Sanchez,"0811 Smith Canyon Apt. 904
+Jessicabury, WV 75585",25.023738,121.468361
+BL09,BL4,江子翠,Jianzicui,BL,Autumn Robinson,"7562 Fisher Spur
+Hernandezberg, MD 17438",25.03001,121.47239
+Y07,Y6,大坪林,Dapinglin,Y,Faith Cabrera,"5667 Blair Underpass
+South Shelby, VT 07027",24.982899,121.541352
+Y08,Y7,十四張,Shisizhang,Y,Charles Wolfe,"PSC 0312, Box 5023
+APO AP 39498",24.9829302,121.5340099
+Y09,Y8,秀朗橋,Xiulang Bridge,Y,Kenneth Kent,"6708 Carpenter Overpass Suite 735
+Bobbyton, MI 01008",24.9905493,121.5250505
+Y10,Y9,景平,Jingping,Y,Melanie Johnson,"16396 Shawn Junction
+New Nicolemouth, ND 60236",24.9919681,121.5165532
+Y11,Y10,景安,Jingan,Y,Lisa Johnston,"PSC 4080, Box 3513
+APO AP 45818",24.993905,121.505113
+Y12,Y11,中和,Zhonghe,Y,Jacob Hooper,"4486 Olson Well
+North Kevin, CA 01707",25.0019806,121.4960519
+Y13,Y12,橋和,Qiaohe,Y,Alex Woodward,"67771 Christopher Courts Apt. 637
+Port Ronaldfurt, HI 33233",25.0044131,121.4904608
+Y14,Y13,中原,Zhongyuan,Y,Caleb Clark,"5561 Bishop Turnpike
+Lake Kenneth, NY 79756",25.0084104,121.4841593
+Y15,Y14,板新,Banxin,Y,Taylor Johnson,"3019 Gerald Mall Apt. 340
+Trevinoville, SD 36216",25.0144914,121.4722124
+Y16,Y15,板橋,Banqiao,Y,Brian Green,"84331 Leonard Fort Suite 749
+East Lisa, NY 43477",25.015156,121.464825
+Y17,Y16,新埔民生,Xinpu Minsheng,Y,Matthew Bell,"62281 Kathy Tunnel
+Hudsonborough, VA 17819",25.026125,121.466839
+Y18,Y17,頭前庄,Touqianzhuang,Y,Jonathan Williams,"9927 Christina Burg Suite 774
+East Angelaburgh, NM 97149",25.039735,121.461655
+Y19,Y18,幸福,Xingfu,Y,William Gonzalez,"142 Warner View Suite 460
+North Leslie, IA 45480",25.050282,121.460216
+Y20,Y19,新北產業園區,New Taipei Industrial Park,Y,Nicholas Massey,"5240 Berry Centers
+West Andrew, AR 03720",25.0615483,121.4599257
+A2,A2,三重,Sanchong,A,Caroline Chambers,"51056 Patricia Forge
+Grahamstad, HI 85576",25.0552963,121.4813901
+A3,A3,新北產業園區,New Taipei Industrial Park,A,Amy Lowe,"0648 Malone Port Apt. 662
+New Devonhaven, VA 92199",25.061716,121.4567028
+A4,A4,新莊副都心,Xinzhuang Fuduxin,A,Gloria King,"23028 Jennifer Meadow Apt. 972
+West Matthewfurt, SC 05261",25.0591305,121.4434732
+A5,A5,泰山,Taishan,A,Jessica Thompson,"2738 Martin Terrace Suite 547
+Smithhaven, LA 72649",25.0532726,121.4373407
+A6,A6,泰山貴和,Taishan Guihe,A,Jason Carroll,"984 Stephen Stravenue
+South Michaelton, KY 97488",25.0334752,121.4201443
+A9,A9,林口,Linkou,A,Emily Howard,"Unit 4943 Box 8856
+DPO AA 27891",25.0665023,121.3590943

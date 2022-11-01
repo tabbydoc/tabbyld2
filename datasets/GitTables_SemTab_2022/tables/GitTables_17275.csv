@@ -1,0 +1,69 @@
+col0,col1,col2,col3,col4,col5
+"8967 Lawson Fort
+Lake Nicoleburgh, NY 75246",2,Norma Fisher, Model Number, R, 107
+"4466 Brown Row
+East Justin, MA 07779",1,Jorge Sullivan, Firmware Version, R, -
+"USCGC Butler
+FPO AA 79401",1,Elizabeth Woods, DYNAMIXEL ID, RW, 1
+"6097 Ellis Courts
+Osbornetown, PA 81424",1,Susan Wagner, Communication Speed, RW, 34
+"85367 Nicole Ridge Suite 951
+Kristinaberg, MS 39010",1,Peter Montgomery, Response Delay Time, RW, 250
+"PSC 1830, Box 6753
+APO AA 47235",2,Theodore Mcgrath, Clockwise Angle Limit, RW, 0
+"07408 Jerry Trail
+Hunterville, NE 74689",2,Stephanie Collins, Counter-Clockwise Angle Limit, RW, 4095
+"61162 Lacey Meadows
+Johnsonmouth, KS 10795",1,Stephanie Sutton, Dual Mode Setting, RW, 0
+"0552 Maria Fort
+Chadberg, AL 27343",1,Brian Hamilton, Maximum Internal Temperature Limit, RW, 80
+"045 Sarah Fort
+East Shawn, MI 93231",1,Susan Levy, Minimum Input Voltage Limit, RW, 60
+"USNS Johnson
+FPO AE 47980",1,Sean Green, Maximum Input Voltage Limit, RW, 240
+"8529 Curtis Prairie Suite 262
+Port Jeffrey, IA 31520",2,Kimberly Smith, Maximun Torque, RW, 1023
+"6029 Phillip Squares Apt. 264
+Yangberg, NE 39564",1,Jennifer Summers, Select Types of Status Return, RW, 2
+"75806 Smith Stream
+Scottstad, NJ 12435",1,April Snyder, LED for Alarm, RW, 36
+"USS Hill
+FPO AP 79871",1,Dana Nguyen, Shutdown Error Information, RW, 36
+"2662 Susan Junctions Apt. 571
+Fischerport, UT 59363",1,Cheryl Bradley, Motor Torque On/Off, RW, 0
+"41489 Roger Terrace
+Davisfort, IN 71770",1,Walter Pratt, Status LED On/Off, RW, 0
+"014 Aaron Locks Suite 714
+Justinborough, CO 05147",1,Bobby Flores, CW Compliance Margin, RW, 1
+"8518 Pamela Track Apt. 164
+Aprilshire, SC 28062",1,Tasha Rodriguez, CCW Compliance Margin, RW, 1
+"864 Ramos Port Apt. 211
+Moralesmouth, OH 88090",1,Michelle Kelley, CW Compliance Slope, RW, 32
+"637 Neal Island Suite 074
+Lake Tyler, RI 28775",1,Kimberly Maynard, CCW Compliance Slope, RW, 32
+"0811 Smith Canyon Apt. 904
+Jessicabury, WV 75585",2,Laurie Wallace, Target Position, RW, -
+"7562 Fisher Spur
+Hernandezberg, MD 17438",2,Janice Johnston, Moving Speed, RW, -
+"5667 Blair Underpass
+South Shelby, VT 07027",2,Collin Lopez, Torque Limit, RW, Max Torque
+"PSC 0312, Box 5023
+APO AP 39498",2,Mary Alvarez, Present Position, R, -
+"6708 Carpenter Overpass Suite 735
+Bobbyton, MI 01008",2,Peter Mcdowell, Present Speed, R, -
+"16396 Shawn Junction
+New Nicolemouth, ND 60236",2,Sarah Villanueva, Present Load, R, -
+"PSC 4080, Box 3513
+APO AP 45818",1,Kimberly Myers, Present Voltage, R, -
+"4486 Olson Well
+North Kevin, CA 01707",1,Desiree Cain, Present Temperature, R, -
+"67771 Christopher Courts Apt. 637
+Port Ronaldfurt, HI 33233",1,Stephanie Lawrence, If Instruction is registered, R, 0
+"5561 Bishop Turnpike
+Lake Kenneth, NY 79756",1,Lauren Hayes, Movement Status, R, 0
+"3019 Gerald Mall Apt. 340
+Trevinoville, SD 36216",1,Whitney Stark, Locking EEPROM, RW, 0
+"84331 Leonard Fort Suite 749
+East Lisa, NY 43477",2,Angela Salazar, Minimum Current Threshold, RW, 0
+"62281 Kathy Tunnel
+Hudsonborough, VA 17819",2,Mr. Ryan Sanchez, Consuming Current, R, -

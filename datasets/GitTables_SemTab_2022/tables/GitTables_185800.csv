@@ -1,0 +1,33 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13
+C01_A01,CCCCCCCCN1CCN(CCCC)C1.NCCS(O)(O)O,17,0.5730337078651685,"N,N,N-triethyldodecan-1-aminium",tetrafluoroborate,974.96,1108.4,718.63,1045.3,35.67,6.04,1.0,Aminium
+C02_A02,CCCCCCCCCCN1CCN(CC)C1.NCCS(O)(O)O,17,0.5730337078651685,"N,N,N-triethyldodecan-1-aminium",dicyanamide,995.6,1103.04,769.82,1045.13,29.33,5.54,1.0,Aminium
+C01_A01,NCC1CCN(CCCCCCS)CC1.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,15,0.6419753086419753,1-butyl-1-methylpiperidinium,methanesulfonate,690.35,1588.86,658.78,1420.76,4.79,11.83,1.0,Piperidinium
+C02_A02,NCC1CCCN(CCCCCCS)C1.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,15,0.5638297872340425,1-butyl-1-methylpiperidinium,diethylphosphate,692.82,1590.73,618.29,1423.17,12.05,11.77,1.0,Piperidinium
+C03_A03,NCCCCCCN1CCC(CN)CC1.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,15,0.68,1-butyl-1-methylpiperidinium,iodide,724.04,1575.81,622.7,1412.82,16.27,11.54,1.0,Piperidinium
+C01_A01,CN1CCN(CCCCCCCCCCP)C1.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,17,0.5578947368421052,"N,N,N-triethyldodecan-1-aminium",L-cysteinate,1085.27,1514.25,750.1,1285.36,44.68,17.81,1.0,Aminium
+C02_A02,CCCCCCCCCCCCN1CCN(C)C1.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,18,0.5730337078651685,"N,N,N-triethyldodecan-1-aminium",trifluoroacetate,1193.36,1492.26,775.38,1278.2,53.91,16.75,1.0,Aminium
+C01_A01,C[NH+]1CCN(CC2CCCCC2)C1O.OC(O)C(F)(F)F,14,0.5044247787610621,"N,N,N-triethyldodecan-1-aminium",hydrogensulfate,437.97,1122.35,467.62,1318.21,6.34,14.86,1.1,Aminium
+C03_A03,CC1CCCC(CN2CC[NH+](C)C2)C1.OS(O)(O)C(F)(F)F,14,0.5490196078431373,"N,N,N-triethyldodecan-1-aminium",nitrate,494.35,1298.48,496.02,1338.99,0.34,3.03,1.1,Aminium
+C04_A04,C[NH+]1CCN(CC2CCCCC2S)C1.OS(O)(O)C(F)(F)F,14,0.5,"N,N,N-triethyldodecan-1-aminium",L-valinate,391.99,1381.77,471.81,1431.48,16.92,3.47,1.1,Aminium
+C01_A01,CCCCN1CCC(N(C)S)CC1.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,13,0.5102040816326531,1-butyl-1-methylpiperidinium,L-valinate,546.26,1764.83,591.43,1426.61,7.64,23.71,1.1,Piperidinium
+C04_A04,CCC(CC)CN1CCCC(C)C1.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,13,0.6666666666666666,1-butyl-1-methylpiperidinium,L-cysteinate,777.37,1628.99,633.65,1329.44,22.68,22.53,1.1,Piperidinium
+C06_A06,CCCCCCC(CCCC)N1CCN(C)C1.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,17,0.5047619047619047,"N,N,N-triethyldodecan-1-aminium",L-serinate,1175.36,1537.38,769.82,1239.94,52.68,23.99,1.1,Aminium
+C07_A07,CCCC1CCN(CCC)CC1.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,12,0.6849315068493149,1-butyl-1-methylpiperidinium,tetrafluoroborate,743.81,1665.59,580.88,1346.21,28.05,23.72,1.1,Piperidinium
+C08_A08,CNCCCCN1CCN(C)C1C.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,13,0.5204081632653061,1-butyl-1-methylpiperidinium,L-threoninate,539.71,1840.18,639.73,1387.38,15.63,32.64,1.1,Piperidinium
+C09_A09,CCCCCN1CCCCC1C.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,12,0.6944444444444444,1-butyl-1-methylpiperidinium,octyl sulfate,802.26,1669.54,609.5,1349.29,31.63,23.73,1.1,Piperidinium
+C01_A01,CCCCN1CCC(NC)CC1.OC1CCCCC1,12,0.6363636363636364,1-butyl-1-methylpiperidinium,tetrafluoroborate,594.1,963.68,489.49,1021.94,21.37,5.7,1.1,Piperidinium
+C01_A01,CCCC(CC)CCCCCN1CCCC(C)C1.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,18,0.6588235294117647,"N,N,N-triethyldodecan-1-aminium",methylsulfate,1071.58,1493.05,812.84,1224.19,31.83,21.96,1.1,Aminium
+C06_A06,CCCC(C)C(CCCCN)CN1CCN(C)C1.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,18,0.5377358490566038,"N,N,N-triethyldodecan-1-aminium",propionate,983.02,1507.45,786.89,1284.87,24.92,17.32,1.1,Aminium
+C08_A08,CC(C)CCCCN1CCC(N(C)CCCN)CC1.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,19,0.5531914893617021,1-butyl-1-methylpiperidinium,dicyanamide,975.87,1487.44,803.42,1289.76,21.46,15.33,1.1,Piperidinium
+C09_A09,COCCCCCCCCCCN1CCN(C)C1.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,18,0.5612244897959183,"N,N,N-triethyldodecan-1-aminium",L-lysinate,1078.34,1514.84,777.96,1275.65,38.61,18.75,1.1,Aminium
+C10_A10,CCCCCCC(CCCN1CCN(C)C1)NO.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,18,0.5,"N,N,N-triethyldodecan-1-aminium",p-toluenesulfonate,859.66,1647.9,832.58,1314.0,3.25,25.41,1.1,Aminium
+C11_A11,CCC(CCCCCN1CCN(C)C1C)ONC.OS(O)(NS(O)(O)C(F)(F)F)C(F)(F)F,18,0.4912280701754386,"N,N,N-triethyldodecan-1-aminium",nitrate,599.83,1830.81,728.94,1304.09,17.71,40.39,1.1,Aminium
+C01_A01,CCC[NH+]1C=CN(Cc2ccccc2)C1.CCCCCCCCOS(=O)(=O)[O-],15,0.8232758620689655,1-benzyl-3-methyl-1H-imidazolium,octyl sulfate,980.0,1028.76,761.02,1081.21,28.77,4.85,1.2,Imidazolium
+C03_A03,CCCC(CCCP)CCC[NH+]1CCCC(C)C1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,18,0.6153846153846154,"N,N,N-triethyldodecan-1-aminium",bis(trifluoromethylsulfonyl)imide,781.96,1208.65,750.8,1264.4,4.15,4.41,1.2,Aminium
+C01_A01,CCCCCCCCCCn1cc[n+](CN)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,17,0.8072289156626506,1-butyl-3-methylimidazolium,bis(trifluoromethylsulfonyl)imide,621.67,1385.55,602.92,1343.89,3.11,3.1,1.2,Imidazolium
+C04_A04,CCCCn1cc[n+](CP)c1.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,11,0.8535031847133758,1-butyl-3-methylimidazolium,bis(trifluoromethylsulfonyl)imide,634.27,1383.61,605.25,1385.28,4.79,0.12,1.2,Imidazolium
+C05_A05,CCCCC[n+]1ccccc1C.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,12,0.8074534161490683,1-ethyl-2-methylpyridinium,bis(trifluoromethylsulfonyl)imide,626.39,1395.58,609.53,1454.36,2.77,4.04,1.2,Pyridinium
+C01_A01,PCCCC[n+]1ccccc1.O=C([O-])C(F)(F)F,11,0.8981481481481481,1-butylpyridinium,trifluoroacetate,436.06,1203.69,433.43,1215.41,0.61,0.96,1.2,Pyridinium
+C03_A03,CCCCC(CCCCCn1cc[n+](C)c1)NC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,18,0.8217821782178217,1-methyl-3-octyl-1H-imidazol-3-ium,bis(trifluoromethylsulfonyl)imide,805.55,1247.81,782.28,1268.55,2.97,1.63,1.2,Imidazolium
+C06_A06,CCCCCC(CCCCn1cc[n+](C)c1)NC.O=S(=O)([N-]S(=O)(=O)C(F)(F)F)C(F)(F)F,18,0.8019323671497585,1-methyl-3-octyl-1H-imidazol-3-ium,bis(trifluoromethylsulfonyl)imide,804.76,1249.16,782.77,1265.75,2.81,1.31,1.2,Imidazolium
+C01_A01,CC(CCS)Cn1cc[n+](C)c1.[O-]c1ccccc1,12,0.8589743589743589,1-butyl-3-methylimidazolium,phenolate,376.8,1183.93,484.15,1088.49,22.17,8.77,1.2,Imidazolium

@@ -1,0 +1,9 @@
+col0,col1,col2
+,testPriceRangeSet${testId},double
+,testStringRangeSet${testId},string
+,testDateRangeSet${testId},date
+INSERT_UPDATE SolrSearchConfig,description[unique=true],pageSize
+,testSearchConfig${testId},20
+,testIndexConfig${testId},100
+INSERT_UPDATE SolrServerConfig,name[unique=true],mode(code)
+,testServerConfig${testId},standalone

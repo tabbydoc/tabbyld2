@@ -1,0 +1,28 @@
+col0,col1,col2,col3,col4
+XLXN2A-046,has detection,EDR: Defence Evasion [ID(223:ad85efkjhef892jowkesfn32rmklb922c11497be:429697) ,detected by,Blockatron
+VALAPONT,has detection,EDR: Indicator of Compromise [ID(223:ba5b398d82a14f6258dfcf35b81aca69:257704),detected by,Blockatron
+XLXN2A-047,has detection,EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:128851) ,detected by,Blockatron
+FR-APW-1404,has detection,EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257702) ,detected by,Blockatron
+PC-PSMIT-49873,has detection,EDR: Malware [ID(223:f9a49ad9afe72309rujoied0871aa940f:171805) ,detected by,Blockatron
+PC-NLIGO-49321,has detection,EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25770)) ,detected by,Blockatron
+,,,,
+Device Name,edge_1,Detection,edge_2,Application
+XLXN2A-046,has detection,Detection: Malware [ID(223:b9ebcwioj23afef81707ceb4735006:343593) ,detected by,Blockatron
+VALAPONT,has detection,EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1234851),detected by,Blockatron
+XLXN2A-047,has detection,EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1289871) ,detected by,Blockatron
+FR-APW-1404,has detection,EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:257222702) ,detected by,Blockatron
+PC-PSMIT-49873,has detection,EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:1281120)) ,detected by,Blockatron
+PC-NLIGO-49321,has detection,EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:9735971) ,detected by,Blockatron
+,,,,
+Device,edge_1,Detection,edge_2,Application
+XLXN2A-047,has detection,EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:12829451) ,detected by,Blockatron
+FR-APW-1404,has detection,EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:2521120)) ,detected by,Blockatron
+PC-PSMIT-49873,has detection,EDR: Defense Evasion [ID(223:62ff6a3a651a460293jndl37e47b6c3:183746702) ,detected by,Blockatron
+,,,,
+Device,edge_1,Detection,edge_2,Application
+XLXN2A-047,has detection,EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:18753271) ,detected by,Blockatron
+FR-APW-1404,has detection,EDR: Process Execution [ID(223:b9ebc13238ujwedn07ceb4735006:25234920)) ,detected by,Blockatron
+,,,,
+Device,edge_1,Detection,edge_2,Application
+XLXN2A-047,has detection,EDR: Adware [ID(223:019eihf092i2w3a7435e84f159de3bd4:1765271) ,detected by,Blockatron
+FR-APW-1404,has detection,EDR: Brute Forcing [ID(223:b9ebc13238ujwedn07ceb4735006:25234920)) ,detected by,Blockatron

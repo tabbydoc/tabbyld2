@@ -1,0 +1,56 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+1,1,is the same as,, ,,, ,,1,opposite to,2,no
+1,2,is the same as,2.0,is the same as,3.0,, ,,1,the same as,3,yes
+1,3,is the same as,2.0,is the same as,3.0,, ,,1,the same as,3,yes
+1,4,is opposite to,2.0,is opposite to,3.0,, ,,3,the same as,2,no
+1,5,is the same as,2.0,is the same as,3.0,, ,,3,the same as,1,yes
+1,6,is the same as,3.0,is the same as,1.0,, ,,2,opposite to,3,no
+1,7,is opposite to,2.0,is opposite to,3.0,, ,,3,the same as,1,yes
+1,8,is opposite to,3.0,is opposite to,1.0,, ,,1,the same as,3,no
+1,9,is opposite to,3.0,is opposite to,1.0,, ,,2,the same as,1,no
+1,10,is opposite to,2.0,is the same as,3.0,, ,,3,opposite to,1,yes
+1,11,is opposite to,3.0,is the same as,1.0,, ,,1,opposite to,3,no
+1,12,is the same as,2.0,is the same as,3.0,3.0,is the same as,4.0,4,opposite to,2,no
+1,13,is opposite to,2.0,is opposite to,3.0,3.0,is opposite to,4.0,4,opposite to,1,yes
+1,14,is the same as,2.0,is opposite to,3.0,3.0,is opposite to,4.0,4,the same as,1,yes
+1,15,is opposite to,2.0,is opposite to,3.0,3.0,is the same as,4.0,2,opposite to,3,yes
+2,16,is different to,, ,,, ,,2,the same as,1,no
+2,17,is the same as,2.0,is the same as,3.0,, ,,3,the same as,1,yes
+2,18,is different to,2.0,is different to,3.0,, ,,2,the same as,3,no
+2,19,is different to,2.0,is different to,3.0,, ,,1,the same as,3,no
+2,20,is the same as,3.0,is the same as,1.0,, ,,2,the same as,3,yes
+2,21,is the same as,3.0,is the same as,1.0,, ,,2,the same as,3,no
+2,22,is different to,2.0,is different to,3.0,, ,,1,the same as,2,no
+2,23,is different to,3.0,is different to,1.0,, ,,2,different to,1,yes
+2,24,is different to,2.0,is the same as,3.0,, ,,3,the same as,1,no
+2,25,is the same as,2.0,is different to,3.0,, ,,1,different to,2,yes
+2,26,is the same as,2.0,is the same as,3.0,3.0,is the same as,4.0,2,the same as,3,yes
+2,27,is different to,2.0,is different to,3.0,3.0,is different to,4.0,2,different to,1,yes
+2,28,is the same as,2.0,is the same as,3.0,3.0,is different to,4.0,2,the same as,3,yes
+2,29,is different to,2.0,is the same as,3.0,3.0,is the same as,4.0,1,different to,3,yes
+3,30,is more than,, ,,, ,,2,more than,1,no
+3,31,is more than,2.0,is more than,3.0,, ,,1,more than,2,yes
+3,32,is more than,2.0,is more than,3.0,, ,,2,less than,3,no
+3,33,is less than,2.0,is less than,3.0,, ,,1,less than,3,yes
+3,34,is less than,2.0,is less than,3.0,, ,,2,more than,3,no
+3,35,is more than,3.0,is more than,1.0,, ,,1,more than,3,no
+3,36,is more than,3.0,is more than,1.0,, ,,3,more than,2,yes
+3,37,is less than,3.0,is less than,1.0,, ,,3,more than,1,yes
+3,38,is more than,2.0,is more than,3.0,3.0,is more than,4.0,1,more than,3,yes
+3,39,is less than,2.0,is less than,3.0,3.0,is less than,4.0,3,less than,2,no
+3,40,is more than,3.0,is more than,2.0,4.0,is more than,3.0,4,less than,1,no
+3,41,is more than,3.0,is more than,1.0,4.0,is more than,3.0,4,less than,2,no
+3,42,is less than,3.0,is less than,1.0,4.0,is less than,2.0,4,less than,2,yes
+4,43,comes after,, ,,, ,,1,after,2,yes
+4,44,comes before,2.0,comes before,3.0,, ,,3,before,2,no
+4,45,comes before,2.0,comes before,3.0,, ,,3,before,1,no
+4,46,comes after,2.0,comes after,3.0,, ,,2,after,1,no
+4,47,comes after,2.0,comes after,3.0,, ,,3,before,1,yes
+4,48,comes before,3.0,comes before,1.0,, ,,3,after,2,no
+4,49,comes after,3.0,comes after,1.0,, ,,3,after,1,yes
+4,50,comes after,3.0,comes after,1.0,, ,,2,before,3,yes
+4,51,comes before,2.0,comes before,3.0,3.0,comes before,4.0,4,before,2,no
+4,52,comes after,2.0,comes after,3.0,3.0,comes after,4.0,2,before,4,no
+4,53,comes before,3.0,comes before,2.0,4.0,comes before,3.0,2,after,4,yes
+4,54,comes after,3.0,comes after,1.0,4.0,comes after,3.0,1,before,4,yes
+4,55,comes after,3.0,comes after,1.0,4.0,comes after,3.0,2,before,4,yes

@@ -1,0 +1,126 @@
+col0,col1,col2,col3,col4,col5
+a_earnhour,income,,,,"1979 - 1993, 1995m9 - present"
+a_weekpay,income,,,,"1979 - 1993, 1995m9 - present"
+age,demographics,All years,,All years,All years
+agechild,demographics,1999m11 - present,,,1999m11 - present
+basicwgt,weights,All years,,All years,All years
+cbsafips,geography,2004m5 - present,,,2004m5 - present
+cbsasize,geography,2004m5 - present,,,2004m5 - present
+citistat,demographics,1994 - present,,,1994 - present
+citizen,demographics,1994 - present,,,1994 - present
+cmpwgt,weights,1998 - present,,,1998 - present
+countyfips,geography,2004m5 - present,,,2004m5 - present
+cow1,employment,1994 - present,,,1994 - present
+cow2,employment,1994 - present,,,1994 - present
+dind03,indocc,2003 - present,,,2003 - present
+discwork,employment,1989 - present,,,1989 - present
+division,geography,1978 - present,,,1979 - present
+dlfstat,employment,1994 - present,,,1994 - present
+docc03,indocc,2003 - present,,,2003 - present
+earnhour,income,,,1973 - 1981,1979 - present
+educ,education,All years,,All years,All years
+emp,employment,All years,,All years,All years
+emphrs,employment,1994 - present,,,1994 - present
+famid,id,1984 - present,,,1984 - present
+faminc,income,1989 - present,,,1989 - present
+famtype,id,1984 - present,,,1984 - present
+famwgt,weights,1984 - present,,,1984 - present
+famrel,demographics,1994 - present,,,1994 - present
+female,demographics,All years,,All years,All years
+finalwgt,weights,All years,,All years,All years
+ftptstat,employment,1994 - present,,,1994 - present
+gradeatn,education,1992 - present,,,1992 - present
+gradecom,education,1976 - 1991,,1973 - 1981,1979 - 1991
+gradehi,education,1976 - 1991,,1973 - 1981,1979 - 1991
+hhid,id,1984 - present,,,1984 - present
+hhtype,id,1984 - present,,,1984 - present
+hhwgt,weights,1989 - present,,,1989 - present
+hispanic,demographics,All years,,All years,All years
+hourslw1,hours,1994 - present,,,1994 - present
+hourslw2,hours,1994 - present,,,1994 - present
+hourslwt,hours,All years,,All years,All years
+hoursu1,hours,1994 - present,,,1994 - present
+hoursu1i,hours,,,,1994 - present
+hoursu2,hours,1994 - present,,,1994 - present
+hoursuint,hours,1994 - present,,,1994 - present
+hoursumay,hours,,,1973 - 1981,
+hoursuorg,hours,,,,1979 - present
+hoursut,hours,1994 - present,,,1994 - present
+hoursvary,hours,1994 - present,,,1994 - present
+hrhhid,id,All years,,All years,All years
+hrhhid2,id,2004m5 - present,,,2004m5 - present
+hrsample,id,1994 - 2004m4,,,1994 - 2004m4
+hrsersuf,id,1994 - 2004m4,,,1994 - 2004m4
+huhhnum,id,1994 - 2004m4,,,1994 - 2004m4
+ind02,indocc,2003 - 2008,,,2003 - 2008
+ind07,indocc,2009 - 2013,,,2009 - 2013
+ind12,indocc,2014 - 2019,,,2014 - 2019
+ind17,indocc,2020 - present,,,2020 - present
+ind70,indocc,1976 - 1982,,1973 - 1981,1979 - 1982
+ind80,indocc,1983 - 1991,,,1983 - 1991
+ind90,indocc,1992 - 2002,,,1992 - 2002
+lfstat,employment,All years,,All years,All years
+lookdur,employment,All years,,All years,All years
+manuf,indocc,All years,,All years,All years
+married,demographics,All years,,All years,All years
+metstat,geography,"1976 - 1995m6, 1995m8 - present",,1973 - 1981,"1979 - 1995m6, 1995m8 - present"
+mind03,indocc,2003 - present,,,2003 - present
+mind16,indocc,All years,,All years,All years
+minsamp,id,All years,,All years,All years
+mocc03,indocc,2003 - present,,,2003 - present
+mocc10,indocc,All years,,All years,All years
+month,id,All years,,All years,All years
+multjobs,employment,1994 - present,,,1994 - present
+nilf,employment,All years,,All years,All years
+numjobs,employment,1994 - present,,,1994 - present
+occ00,indocc,2003 - 2010m12,,,2003 - 2010m12
+occ10,indocc,2011m1 - 2019m12,,,2011m1 - 2019m12
+occ18,indocc,2020m1 - present,,,2020m1 - present
+occ70,indocc,1976 - 1982,,1973 - 1981,1979 - 1982
+occ80,indocc,1983 - 1991,,,1983 - 1991
+occ90,indocc,1992 - 2002,,,1992 - 2002
+occcode,indocc,All years,,All years,All years
+orgwgt,weights,,,,1979 - present
+otcamt,income,,,,1994 - present
+otcrec,income,,,,1994 - present
+ownchild,demographics,"1984 - 1993, 1999m11 - present",,,"1984 - 1993, 1999m11 - present"
+paidhre,income,,1973 - 1981,,1979 - present
+personid,id,1998 - present,,,1998 - present
+proxy,id,1994 - present,,,1994 - present
+ptecon,hours,1989 - present,,,1989 - present
+pubfed,employment,1989 - present,,,1989 - present
+publoc,employment,1989 - present,,,1989 - present
+pubsec,employment,All years,,All years,All years
+pubst,employment,1989 - present,,,1989 - present
+pulineno,id,All years,,All years,All years
+raceorig,demographics,All years,,All years,All years
+region,geography,1978 - present,,,1979 - present
+samejob,employment,1994 - present,,,1994 - present
+schenrl,education,1984 - present,,,1984 - present
+selfemp,employment,All years,,All years,All years
+selfinc,employment,1989 - present,,,1989 - present
+statecensus,geography,1978 - present,,,1979 - present
+statefips,geography,1978 - present,,,1979 - present
+tc_weekpay,income,,,All years,All years
+uncov,employment,1984 - present,,1977 - 1981,1983 - present
+unemp,employment,All years,,All years,All years
+unempdur,employment,1994 - present,,,1994 - present
+unicon_recnum,id,1976 - 1993,,1973 - 1981,1979 - 1993
+union,employment,1984 - present,,1977 - 1981,1983 - present
+unmem,employment,1983 - present,,1973 - 1981,1983 - present
+veteran,demographics,All years,,All years,All years
+wage,income,,All years,,All years
+wage_noadj,income,,All years,,All years
+wageotc,income,,,,1994 - present
+wageotc_noadj,income,,,,1994 - present
+wbhao,demographics,1989 - present,,,1989 - present
+wbhaom,demographics,2003 - present,,,2003 - present
+wbho,demographics,All years,,All years,All years
+wbho_only,demographics,All years,,All years,All years
+wbhom,demographics,2003 - present,,,2003 - present
+wbo_only,demographics,All years,,All years,All years
+weekpay,income,,All years,,All years
+weekpay_noadj,income,,All years,,All years
+whyabsent,employment,1994 - present,,,1994 - present
+whyunemp,employment,1994 - present,,,1994 - present
+year,id,All years,,All years,All years

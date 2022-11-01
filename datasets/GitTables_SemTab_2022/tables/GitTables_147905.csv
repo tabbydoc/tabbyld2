@@ -1,0 +1,40 @@
+col0,col1,col2,col3
+1,Harassment in School,78.0,School
+2,Physical assault in School,35.0,School
+3,Sexual Violence in School,12.0,School
+4,Left School due to Discrimination,15.0,School
+5,Lost job due to gender identity,26.0,Employment
+6,Harassment at Job,90.0,Employment
+7,Fired/Not Hired/Not Promoted,47.0,Employment
+8,Work in Underground Economy,16.0,Employment
+9,Unemployment,14.0,Employment
+10,Denied Home,19.0,Housing
+11,Homeless at some point,19.0,Housing
+12,Homeless currently,2.0,Housing
+13,Own House,32.0,Housing
+14,Refused Medical Care,19.0,Healthcare
+15,Medical care Postponement,50.0,Healthcare
+16,Harassed in public,53.0,Public Accommodation 
+17,Unequal treatment by Govt. employee,22.0,Public Accommodation 
+18,Police Harassment ,29.0,Public Accommodation 
+19,Harassed by Judge/Court official,12.0,Public Accommodation 
+20,All IDs updated,21.0,ID Documentation
+21,ID without current gender expression,41.0,ID Documentation
+22,Harassed for unmatching ID gender,40.0,ID Documentation
+23,Family Rejection,57.0,Family Acceptance
+24,Never worked un Underground economy,84.0,Employment
+25,Graduate Degree,20.0,Education
+26,College Degree,27.0,Education
+27,Some College,40.0,Education
+28,Some Disability,30.0,Healthcare
+29,Registered voter,89.0,Civic Participation 
+30,Served in Armed Forces,20.0,Civic Participation 
+31,Expelled due to gender expression,6.0,School
+32,Underemployment,44.0,Employment
+33,Lack of provider knowledge,50.0,Healthcare
+34,HIV Infection,2.64,Healthcare
+35,Attempted Suicide,41.0,Healthcare
+36,Misused Drugs due to mistreatment,25.0,Healthcare
+37,Maintained Family bond,43.0,Family Acceptance
+38,Domestic Violence ,19.0,Family Acceptance
+39,Evicted from Home,11.0,Housing

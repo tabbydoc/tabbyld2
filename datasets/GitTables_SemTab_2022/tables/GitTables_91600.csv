@@ -1,0 +1,63 @@
+col0,col1,col2,col3,col4,col5
+Sample 1,TVF.2004.Loc4.D10.Rep1.414474,125955,soil,Alaskan fire chronosequence - Tanana Valley,QDB_1030
+Sample 2,sp1565.486407,291052,marine,Metagenome and transcriptome of filtered sea water samples from mesocosms under different CO2 partial pressure. CO2 pressures were increased in multiple mesocosms and samples within each were taken during an elongated period of time.,QDB_1235
+Sample 3,sp0193.486346,250350,marine,Metagenome and transcriptome of filtered sea water samples from mesocosms under different CO2 partial pressure. CO2 pressures were increased in multiple mesocosms and samples within each were taken during an elongated period of time.,QDB_1235
+Sample 4,SE.20100928.GY.NF008.BC.093.a.673660,137862,marine sediment,"Jansson_Gulf_Oil_Spill_Sediments
+",QDB_1197
+Sample 5,E3E04.826190,131117,organismal,Bird Egg Shells from Spain,QDB_1632
+Sample 6,sp1017.486420,218280,marine,Metagenome and transcriptome of filtered sea water samples from mesocosms under different CO2 partial pressure. CO2 pressures were increased in multiple mesocosms and samples within each were taken during an elongated period of time.,QDB_1235
+Sample 7,ANT04.S2M1.607431,225448,marine sediment,Polluted Polar Coastal Sediments,QDB_1198
+Sample 8,UQ288.591065,105828,soil,New Zealand Terrestrial Antarctic Biocomplexity survey (NZTABS),QDB_1035
+Sample 9,sp0759.486364,241854,marine,Metagenome and transcriptome of filtered sea water samples from mesocosms under different CO2 partial pressure. CO2 pressures were increased in multiple mesocosms and samples within each were taken during an elongated period of time.,QDB_1235
+Sample 10,nest.WY.2008.3.712186.739059,222978,organismal,Spatial and Temporal Variation in Nest and Egg Bacteria of Wild Birds,QDB_1098
+Sample 11,SE.20101009.GY.ALTFF002.BC.225.415346,114409,marine sediment,Gulf_Oil_Spill_Sediment,QDB_1046
+Sample 12,1204BCDNA.486523,204339,ocean surface water,"Marine heterotrophic bacterial diversity and activity at time series station L4, western English Channel between 2009 and 2010",QDB_1240
+Sample 13,Zambon.Leftpalm.983763,22201,human skin,Personal Genome Project,QDB_1189
+Sample 14,H55Kc.735962,17778,indoor,Home Life: Factors structuring the bacterial diversity found within and between homes,QDB_1772
+Sample 15,Myr.tri.Seat.4.03H10.653706,15152,gut,Convergence of gut microbiomes in myrmecophagous mammals,QDB_1056
+Sample 16,10.8.12.rk.st.0800.1123130,12276,feces,Knight_ABTX_r4_comp,QDB_2045
+Sample 17,EM086.441698,10931,human gut,"Composition, variability, and temporal stability of the intestinal microbiota of the elderly.",QDB_0486
+Sample 18,C.3037.01.S1.405123,11435,human gut,Linking Long-Term Dietary Patterns with Gut Microbial Enterotypes,QDB_1011
+Sample 19,NA.15.T0.830848,14937,Fecal sample taken from individual NA.15,"Ercolini_whole_grain_feces
+",QDB_1481
+Sample 20,soil1.T3U1.536591,18661,microbial 16S timeseries of corpse decomposition on sterile and untreated soil,Mouse_Decomp_Forensics_2011,QDB_0714
+Sample 21,SSBE21Aug08.618423,17068,freshwater,Temperate Bog Lakes,QDB_1288
+Sample 22,Turkey.Stool.983766,26289,human gut,Personal Genome Project,QDB_1189
+Sample 23,TBH12Aug08.618303,33843,freshwater,Temperate Bog Lakes,QDB_1288
+Sample 24,P.Dois.Rios.SB.414865,78598,marine sediment,Rio de aneiro Coastline,QDB_1039
+Sample 25,H60Do.735986,2941,indoor,Home Life: Factors structuring the bacterial diversity found within and between homes,QDB_1772
+Sample 26,SPM1x040108.142616,1741,Feces,The effect of diet on the human gut microbiome: a metagenomic analysis in humanized gnotobiotic mice.,QDB_0457
+Sample 27,L08A095.799873,5871,rhizosphere microbiome,Diversity and heritability of the maize rhizosphere microbiome under field conditions,QDB_1792
+Sample 28,F31Forr.140586,1702,right forearm,Bacterial Community Variation in Human Body Habitats Across Space and Time,QDB_0449
+Sample 29,B.2004.01.S1.405609,3087,human gut,Linking Long-Term Dietary Patterns with Gut Microbial Enterotypes,QDB_1010
+Sample 30,PM8x30308.142380,2067,mouse gut microbiome,The effect of diet on the human gut microbiome: a metagenomic analysis in humanized gnotobiotic mice.,QDB_0456
+Sample 31,TS152.2.299097,1981,human gut,A core gut microbiome in obese and lean twins,QDB_0077
+Sample 32,SPM1x030408.142594,1395,Feces,The effect of diet on the human gut microbiome: a metagenomic analysis in humanized gnotobiotic mice.,QDB_0457
+Sample 33,S00305.543918,1202,human oral,A longitudinal 16 S rDNA based study of the human oral microbiome in adolescent twins,QDB_1026
+Sample 34,must.18.1128116,3635,Grape must samples from across California,Microbial biogeography of grape must,QDB_2019
+Sample 35,F32Hair.140769,1173,hair on head,Bacterial Community Variation in Human Body Habitats Across Space and Time,QDB_0449
+Sample 36,CBE09Aug07.617917,4512,freshwater,Temperate Bog Lakes,QDB_1288
+Sample 37,TS1.2.299121,998,human gut,A core gut microbiome in obese and lean twins,QDB_0077
+Sample 38,HI.20.35e.2.281673,524,soil,"16S soil survey, spatial and temporal variation across four ecosystems",QDB_0619
+Sample 39,FL.3.26a.1.281867,711,soil,"16S soil survey, spatial and temporal variation across four ecosystems",QDB_0619
+Sample 40,cf1170.632724,567,human gut,"Pregnant women sampled in 1st and 3rd trimesters, their children and a germ free mouse exp.",QDB_0867
+Sample 41,FL.3.32a.3.281781,998,soil,"16S soil survey, spatial and temporal variation across four ecosystems",QDB_0619
+Sample 42,M11Nstl.140810,774,left nostril,Bacterial Community Variation in Human Body Habitats Across Space and Time,QDB_0449
+Sample 43,21.ill.mucosa.WT.676371,952,rat illeal lumen,Rosenbaum_Ankylosing_spondylitis_rats,QDB_1089
+Sample 44,Calh5.385340,692,soil,Examining_the_global_distribution_of_dominant_archaeal_populations_in_soil,QDB_0928
+Sample 45,CU3258.141544,790,prairie dog flea metagnome,Bacterial_communities_of_disease_vectors_sampled_across_time_space_and_species,QDB_0316
+Sample 46,50.col.lumen.TG.676359,976,rat illeal lumen,Rosenbaum_Ankylosing_spondylitis_rats,QDB_1089
+Sample 47,fut2negative.day56.70.Regular.1004900,825,mouse gut,Kashyap_fut2_16S,QDB_1452
+Sample 48,cf1126.633182,653,human gut,"Pregnant women sampled in 1st and 3rd trimesters, their children and a germ free mouse exp.",QDB_0867
+Sample 49,6b3f4f4e221ccf8bbfc57e52791ed288,27,freshwater lake,Isolation of freshwater bacterioplankton,CHA_1283
+Sample 50,42265f3f55dd9c4c9b4feaee53b1f4fc,20,mangrove soil,16S rRNA analysis of mangrove soil,CHA_0029
+Sample 51,mf2188.633126,12,human gut,"Pregnant women sampled in 1st and 3rd trimesters, their children and a germ free mouse exp.",QDB_0867
+Sample 52,9f400082bffeb4494d4497ef084ffe94,12,VC dechlorinating enrichment culture,Title: Populations Implicated in the Anaerobic Reductive Dechlorination of Vinyl Chloride in Highly Enriched Communities from AuSable River Sediment Material,CHA_2243
+Sample 53,B26.737560,36,insect,A cross-taxon analysis of insect-associated bacterial diversity,QDB_1737
+Sample 54,75f78e4c6e0dc6e4a62f570c1bc9a339,12,3010m depth from Ionian Km3 Station in the Mediterranean Sea,"Metagenomics of the deep mediterranean, a warm bathypelagic habitat",CHA_1353
+Sample 55,b76ecf3dd46fcab94418c68c6fcd8ada,37,ulcerative colitis biopsy,Bacterial diversity of human ulcerative colitis biopsies,CHA_0301
+Sample 56,920cce1ef960ffc7343eb5628636a37e,46,arable soil,"Analysis of denitrification genes and comparison of nosZ, cnorB and 16S rDNA from culturable denitrifiers in potato cropping systems",CHA_0142
+Sample 57,bb08145b2a3724c42967dc2dbdab5c3b,12,seawater,The diversity of bacteria within Poole Harbour seawater,CHA_2182
+Sample 58,ME10May08EB1R1.486639,20,freshwater,Medota Lake Eleven year timeseries,QDB_1242
+Sample 59,4d366f8db0835339ed3c686415599480,13,dead zebra carcass,Complete genome sequence of Bacillus cereus E33L,CHA_0567
+Sample 60,WT07L.478428,31,mouse gut microbiome,The antibacterial lectin RegIII_ promotes the spatial segregation of microbiota and host in the intestine,QDB_0742

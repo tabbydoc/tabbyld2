@@ -1,0 +1,114 @@
+col0,col1,col2,col3,col4,col5
+0,,datos.gov.co,center,0,7266
+d,0,departamentos,depto,d,7266
+dbog,d,Bogotá D.C.,depto,dbog,2238
+dval,d,Valle del Cauca,depto,dval,680
+dant,d,Antioquia,depto,dant,530
+dboy,d,Boyacá,depto,dboy,436
+dcun,d,Cundinamarca,depto,dcun,428
+dtol,d,Tolima,depto,dtol,317
+dnor,d,Norte de Santander,depto,dnor,309
+dris,d,Risaralda,depto,dris,261
+dmet,d,Meta,depto,dmet,230
+dsan,d,Santander,depto,dsan,221
+datl,d,Atlántico,depto,datl,211
+dcal,d,Caldas,depto,dcal,170
+dnar,d,Nariño,depto,dnar,147
+dcas,d,Casanare,depto,dcas,131
+dqui,d,Quindío,depto,dqui,129
+dcau,d,Cauca,depto,dcau,97
+dhui,d,Huila,depto,dhui,80
+dsuc,d,Sucre,depto,dsuc,79
+dces,d,Cesar,depto,dces,58
+dmag,d,Magdalena,depto,dmag,46
+dcór,d,Córdoba,depto,dcór,42
+dara,d,Arauca,depto,dara,40
+dput,d,Putumayo,depto,dput,39
+darc,d,"Archipiélago de San Andrés, Providencia y Santa Catalina",depto,darc,39
+dgua,d,Guaviare,depto,dgua,37
+dama,d,Amazonas,depto,dama,37
+dla ,d,La Guajira,depto,dla ,37
+dbol,d,Bolívar,depto,dbol,36
+dcaq,d,Caquetá,depto,dcaq,32
+dvic,d,Vichada,depto,dvic,9
+dcho,d,Chocó,depto,dcho,9
+dbog,d,Bogotá D.C,depto,dbog,2
+dgua,d,Guainía,depto,dgua,2
+c,0,categorias,category,d,7266
+cat_4,c,Educación,category,cat_4,874
+cat_2,c,Salud y Protección Social,category,cat_2,795
+cat_7,c,Función pública,category,cat_7,670
+cat_18,c,Agricultura y Desarrollo Rural,category,cat_18,435
+cat_5,c,Inclusión Social y Reconciliación,category,cat_5,335
+cat_16,c,Seguridad y Defensa,category,cat_16,334
+cat_10,c,"Comercio, Industria y Turismo",category,cat_10,321
+cat_17,c,"Ciencia, Tecnología e Innovación",category,cat_17,308
+cat_22,c,Transporte,category,cat_22,296
+cat_11,c,,category,cat_11,271
+cat_1,c,Ambiente y Desarrollo Sostenible,category,cat_1,268
+cat_21,c,Economía y Finanzas,category,cat_21,239
+cat_13,c,Ordenamiento Territorial,category,cat_13,237
+cat_26,c,Hacienda y Crédito Público,category,cat_26,235
+cat_8,c,Estadísticas Nacionales,category,cat_8,218
+cat_25,c,Cultura,category,cat_25,207
+cat_6,c,Minas y Energía,category,cat_6,182
+cat_15,c,"Vivienda, Ciudad y Territorio",category,cat_15,181
+cat_19,c,Organismos de Control,category,cat_19,179
+cat_28,c,Participación ciudadana,category,cat_28,154
+cat_12,c,Mapas Nacionales,category,cat_12,144
+cat_27,c,Justicia y Derecho,category,cat_27,131
+cat_14,c,Gastos Gubernamentales,category,cat_14,117
+cat_20,c,Deporte y Recreación,category,cat_20,57
+cat_24,c,Presupuestos Gubernamentales,category,cat_24,35
+cat_9,c,Trabajo,category,cat_9,32
+cat_3,c,Resultados Electorales,category,cat_3,10
+cat_23,c,cobertura:Nacional,category,cat_23,1
+y,0,year,year,d,7266
+2017,y,2017,year,2017,2783
+2016,y,2016,year,2016,2550
+2018,y,2018,year,2018,1933
+s,0,orden,orden,d,7266
+ote,s,Territorial,orden,ote,4670
+ona,s,Nacional,orden,ona,2463
+oin,s,Internacional,orden,oin,26
+o,0,organization,organization,d,7266
+org1,o,Alcaldía Municipal de Santiago de Cali,organization,org1,279
+org2,o,Dirección General de la Policía Nacional,organization,org2,226
+org3,o,Alcaldía Municipal de Chía,organization,org3,204
+org4,o,Ministerio de Tecnologías de La Información y Las Comunicaciones,organization,org4,130
+org5,o,Gobernación del Valle del Cauca,organization,org5,117
+org6,o,Instituto Colombiano para la Evaluación de la Educación,organization,org6,115
+org7,o,E.S.P. Empresa de Acueducto y Alcantarillado de Pereira S.A.,organization,org7,108
+org9,o,Superintendencia de la Economía Solidaria,organization,org9,102
+org10,o,Alcaldía Municipal de Tunja,organization,org10,98
+org11,o,Ministerio de Agricultura y Desarrollo Rural,organization,org11,89
+org12,o,Gobernación del Meta,organization,org12,89
+org13,o,Gobernación del Risaralda,organization,org13,69
+org15,o,Instituto Caro y Cuervo,organization,org15,65
+org14,o,Ministerio de Salud y Protección Social,organization,org14,65
+org16,o,Superintendencia de Servicios Públicos Domiciliarios,organization,org16,63
+org17,o,Alcaldía Municipal de Gramalote,organization,org17,60
+org18,o,Instituto Nacional de Vigilancia de Medicamentos y Alimentos,organization,org18,60
+org19,o,Alcaldía Municipal de Medellín,organization,org19,58
+org20,o,Gobernación del Norte de Santander,organization,org20,57
+m,0,municipio,municipio,d,7266
+dbog_bogo,m,Bogotá D.C.,municipio,dbog_bogo,2238
+dval_cali,m,Cali,municipio,dval_cali,449
+dris_pere,m,Pereira,municipio,dris_pere,210
+dcun_chía,m,Chía,municipio,dcun_chía,204
+dboy_tunj,m,Tunja,municipio,dboy_tunj,191
+dant_mede,m,Medellín,municipio,dant_mede,143
+dmet_vill,m,Villavicencio,municipio,dmet_vill,108
+dcal_mani,m,Manizales,municipio,dcal_mani,104
+dsan_buca,m,Bucaramanga,municipio,dsan_buca,98
+dnor_cúcu,m,Cúcuta,municipio,dnor_cúcu,76
+dnar_past,m,Pasto,municipio,dnar_past,75
+dcau_popa,m,Popayán,municipio,dcau_popa,66
+dsuc_sinc,m,Sincelejo,municipio,dsuc_sinc,63
+dnor_gram,m,Gramalote,municipio,dnor_gram,60
+dqui_arme,m,Armenia,municipio,dqui_arme,58
+dhui_neiv,m,Neiva,municipio,dhui_neiv,57
+dant_copa,m,Copacabana,municipio,dant_copa,56
+dval_tulu,m,Tuluá,municipio,dval_tulu,54
+dcas_yopa,m,Yopal,municipio,dcas_yopa,51
+datl_barr,m,Barranquilla,municipio,datl_barr,46

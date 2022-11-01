@@ -1,0 +1,12 @@
+col0,col1,col2,col3
+Changes:,,,
+root/battlegroundsPremiumDbfId,:,IntNode	Added,
+root/health,:,IntNode	Added,
+root/targetingArrowText,:,TextNode	Added,
+root/techLevel,:,IntNode	Added,
+root/collectionText,:,TextNode	Removed,
+root/durability,:,IntNode	Removed,
+root/overload,:,IntNode	Removed,
+root/referencedTags,:,ArrayNode	Removed,
+{,,,
+};,,,

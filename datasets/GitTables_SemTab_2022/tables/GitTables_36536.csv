@@ -1,0 +1,23 @@
+col0,col1,col2,col3
+CODI,Internal ID,source:pkey,"Primary Key, tagging as proposed in Osmsync's Wiki page."
+X_ETRS89,"X coordinates, ETRS89 format",,Not imported
+Y_ETRS89,"Y coordinates, ETRS89 format",,Not imported
+LATITUD_WGS84,"Latitude coordinates, WGS84 format",lat,Geometry information. No tagging will be used.
+LONGITUD_WGS84,"Longitude coordinates, WGS84 format",lon,Geometry information. No tagging will be used.
+TIPUS_ELEMENT,Object's type (viari/zona),,Not imported
+ESPAI VERD,Name of Green space where the tree is located,,Not imported
+ADRECA,Address,,Not imported
+ALCADA,"Tree's height. It does not use meters, but categories",height,"height is calculated according to this field, following this documentation (p. 22)."
+CAT_ESPECIE_ID,Species' ID,,Not imported
+NOM_CIENTIFIC,scientific name of the species (popularly known as the Latin name),species,
+NOM_CASTELLA,Name in Spanish,species:es,
+NOM_CATALA,Name in Catalan,species:ca,
+CATEGORIA_ARBRAT,Tree's category. Internal classification according to height and diameter.,circumference,"Not directly imported, but used to calculate circumference, following this documentation (p. 19)."
+AMPLADA_VORERA,Sidewalk's width,,Not imported.
+DATA_PLANTACIO,Date in which the tree was planted,planted_date,
+TIPUS_AIGUA,Water type,,Not imported.
+TIPUS_REG,Watering mechanism,,Not imported.
+TIPUS_SUPERFICIE,Surface type,,Not imported.
+TIPUS_SUPORT,Support type,,Not imported.
+COBERTURA_ESCOCELL,Whether the Tree pit is covered or not,,"Not currently imported due to lack of specific tagging, but it would be a nice have to feature."
+MIDA_ESCOCELL,Tree pit Size,,"Not currently imported due to lack of specific tagging, but it would be a nice have to feature."

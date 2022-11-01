@@ -1,0 +1,13 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11
+146098,mpartner-default-auth,mpolicy-default-auth,photo,mock,1.1,face,,admin,now(),admin,now()
+146099,mpartner-default-auth,mpolicy-default-auth,iris,mock,1.1,iris,,admin,now(),admin,now()
+146100,mpartner-default-auth,mpolicy-default-auth,fingerprint,mock,1.1,finger,,admin,now(),admin,now()
+146101,mpartner-default-print,mpolicy-default-qrcode,photo,mock,1.1,face,,admin,now(),admin,now()
+146102,mpartner-default-print,mpolicy-default-qrcode,iris,mock,1.1,iris,,admin,now(),admin,now()
+146103,mpartner-default-print,mpolicy-default-qrcode,fingerprint,mock,1.1,finger,,admin,now(),admin,now()
+146104,mpartner-default-print,mpolicy-default-euin,photo,mock,1.1,face,,admin,now(),admin,now()
+146105,mpartner-default-print,mpolicy-default-euin,iris,mock,1.1,iris,,admin,now(),admin,now()
+146106,mpartner-default-print,mpolicy-default-euin,fingerprint,mock,1.1,finger,,admin,now(),admin,now()
+146107,mpartner-default-print,mpolicy-default-reprint,photo,mock,1.1,face,,admin,now(),admin,now()
+146108,mpartner-default-print,mpolicy-default-reprint,iris,mock,1.1,iris,,admin,now(),admin,now()
+146109,mpartner-default-print,mpolicy-default-reprint,fingerprint,mock,1.1,finger,,admin,now(),admin,now()

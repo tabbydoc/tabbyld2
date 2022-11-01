@@ -1,0 +1,250 @@
+col0,col1,col2
+AD,Andorra la Vella,468.0
+AE,Abu Dhabi,83600.0
+AF,Kabul,652230.0
+AG,Saint John's,442.0
+AI,The Valley,91.0
+AL,Tirana,28748.0
+AM,Yerevan,29743.0
+AO,Luanda,1246700.0
+AQ,-,14000000.0
+AR,Buenos Aires,2780400.0
+AS,Pago Pago,199.0
+AT,Vienna,83871.0
+AU,Canberra,7741220.0
+AW,Oranjestad,180.0
+AX,Mariehamn,1552.0
+AZ,Baku,86600.0
+BA,Sarajevo,51197.0
+BB,Bridgetown,430.0
+BD,Dhaka,143998.0
+BE,Brussels,30528.0
+BF,Ouagadougou,274200.0
+BG,Sofia,110879.0
+BH,Manama,760.0
+BI,Bujumbura,27830.0
+BJ,Porto-Novo,112622.0
+BL,Gustavia,21.0
+BM,Hamilton,54.0
+BN,Bandar Seri Begawan,5765.0
+BO,Sucre,1098581.0
+BQ,Kralendijk,328.0
+BR,Brasileia,8514877.0
+BS,Nassau,13880.0
+BT,Thimphu,38394.0
+BV,-,49.0
+BW,Gaborone,581730.0
+BY,Minsk,207600.0
+BZ,Belmopan,22966.0
+CA,Ottawa,9984670.0
+CC,West Island,14.0
+CD,Kinshasa,2344858.0
+CF,Bangui,622984.0
+CG,Brazzaville,342000.0
+CH,Bern,41277.0
+CI,Yamoussoukro,322463.0
+CK,Avarua,236.0
+CL,Santiago,756102.0
+CM,Yaounde,475440.0
+CN,Beijing,9596961.0
+CO,Bogota,1138910.0
+CR,San Jose,51100.0
+CU,Havana,110860.0
+CV,Praia,4033.0
+CW,Willemstad,444.0
+CX,Flying Fish Cove,135.0
+CY,Nicosia,9251.0
+CZ,Prague,78867.0
+DE,Berlin,357022.0
+DJ,Djibouti,23200.0
+DK,Copenhagen,43094.0
+DM,Roseau,751.0
+DO,Santo Domingo,48670.0
+DZ,Algiers,2381741.0
+EC,Quito,283561.0
+EE,Tallinn,45228.0
+EG,Cairo,1001450.0
+EH,Laayoune / El Aaiun,266000.0
+ER,Asmara,117600.0
+ES,Madrid,505370.0
+ET,Addis Ababa,1104300.0
+FI,Helsinki,338145.0
+FJ,Suva,18274.0
+FK,Stanley,12173.0
+FM,Palikir,702.0
+FO,Torshavn,1393.0
+FR,Paris,643801.0
+GA,Libreville,267667.0
+GB,London,243610.0
+GD,Saint George's,344.0
+GE,Tbilisi,69700.0
+GF,Cayenne,86504.0
+GG,Saint Peter Port,78.0
+GH,Accra,238533.0
+GI,Gibraltar,6.0
+GL,Nuuk,2166086.0
+GM,Banjul,11295.0
+GN,Conakry,245857.0
+GP,Basse-terre,1630.0
+GQ,Malabo,28051.0
+GR,Athens,131957.0
+GS,Grytviken,3903.0
+GT,Guatemala City,108889.0
+GU,Hagatna,544.0
+GW,Bissau,36125.0
+GY,Georgetown,214969.0
+HK,-,1104.0
+HM,-,412.0
+HN,Tegucigalpa,112090.0
+HR,Zagreb,56594.0
+HT,Port-au-prince,27750.0
+HU,Budapest,93028.0
+ID,Jakarta,1904569.0
+IE,Dublin,70273.0
+IL,Jerusalem,20770.0
+IM,Douglas,572.0
+IN,New Delhi,3287263.0
+IO,Diego Garcia,54400.0
+IQ,Baghdad,438317.0
+IR,Tehran,1648195.0
+IS,Reykjavik,103000.0
+IT,Roma,301340.0
+JE,Saint Helier,116.0
+JM,Kingston,10991.0
+JO,Amman,89342.0
+JP,Tokyo,377915.0
+KE,Nairobi,580367.0
+KG,Bishkek,199951.0
+KH,Phnom Penh,181035.0
+KI,Tarawa,811.0
+KM,Moroni,2235.0
+KN,Basseterre,261.0
+KP,Pyongyang,120538.0
+KR,Seoul,99720.0
+KW,Kuwait,17818.0
+KY,George Town,264.0
+KZ,Astana,2724900.0
+LA,Vientiane,236800.0
+LB,Beirut,10400.0
+LC,Castries,616.0
+LI,Vaduz,160.0
+LK,Sri Jayewardenepura Kotte,65610.0
+LR,Monrovia,111369.0
+LS,Maseru,30355.0
+LT,Vilnius,65300.0
+LU,Luxembourg,2586.0
+LV,Riga,64589.0
+LY,Tripoli,1759540.0
+MA,Rabat,446550.0
+MC,Monaco,2.0
+MD,Chisinau,33851.0
+ME,Podgorica,13812.0
+MF,Marigot,54.0
+MG,Antananarivo,587041.0
+MH,Majuro,181.0
+MK,Skopje,25713.0
+ML,Bamako,1240192.0
+MM,Pyinmana,676578.0
+MN,Ulaanbaatar,1564116.0
+MO,-,31.3
+MP,Saipan,464.0
+MQ,Fort-de-france,1128.0
+MR,Nouakchott,1030700.0
+MS,Plymouth,102.0
+MT,Valletta,316.0
+MU,Port Louis,2040.0
+MV,Male,298.0
+MW,Lilongwe,118484.0
+MX,Mexico City,1964375.0
+MY,Kuala Lumpur,329847.0
+MZ,Maputo,799380.0
+,Windhoek,824292.0
+NC,Noumea,18575.0
+NE,Niamey,1186408.0
+NF,Kingston,36.0
+NG,Abuja,923768.0
+NI,Managua,130370.0
+NL,Amsterdam,41543.0
+NO,Oslo,323802.0
+NP,Kathmandu,147181.0
+NR,Yaren,21.0
+NU,Alofi,260.0
+NZ,Wellington,267710.0
+OM,Muscat,309500.0
+PA,Panama,75420.0
+PE,Lima,1285216.0
+PF,Papeete,4167.0
+PG,Port Moresby,462840.0
+PH,Manila,300000.0
+PK,Islamabad,796095.0
+PL,Warsaw,312685.0
+PM,Saint-pierre,242.0
+PN,Adamstown,47.0
+PR,San Juan,13790.0
+PS,-,5860.0
+PT,Lisbon,92090.0
+PW,Melekeok - Palau State Capital,459.0
+PY,Asuncion,406752.0
+QA,Doha,11586.0
+RE,Saint-denis,2512.0
+RO,Bucharest,238391.0
+RS,Belgrade,77474.0
+RU,Moscow,17098242.0
+RW,Kigali,26338.0
+SA,Riyadh,2149690.0
+SB,Honiara,28896.0
+SC,Victoria,455.0
+SD,Khartoum,1861484.0
+SE,Stockholm,450295.0
+SG,Singapore,697.0
+SH,Jamestown,122.0
+SI,Ljubljana,20273.0
+SJ,Longyearbyen,62045.0
+SK,Bratislava,49035.0
+SL,Freetown,71740.0
+SM,San Marino,61.0
+SN,Dakar,196722.0
+SO,Mogadishu,637657.0
+SR,Paramaribo,163820.0
+SS,Juba,644329.0
+ST,Sao Tome,964.0
+SV,San Salvador,21041.0
+SX,Philipsburg,34.0
+SY,Damascus,185180.0
+SZ,Mbabane,17364.0
+TC,Cockburn Town,948.0
+TD,N'djamena,1284000.0
+TF,Port-aux-francais,439781.0
+TG,Lome,56785.0
+TH,Bangkok,513120.0
+TJ,Dushanbe,143100.0
+TK,-,12.0
+TL,Dili,14874.0
+TM,Ashgabat,488100.0
+TN,Tunis,163610.0
+TO,Nuku'alofa,747.0
+TR,Ankara,783562.0
+TT,Port of Spain,5128.0
+TV,Funafuti,26.0
+TW,Taipei,35980.0
+TZ,Dodoma,947300.0
+UA,Kiev,603550.0
+UG,Kampala,241038.0
+UM,-,34.2
+US,"Washington, D.C.",9826675.0
+UY,Montevideo,176215.0
+UZ,Tashkent,447400.0
+VA,Vatican City,0.44
+VC,Kingstown,389.0
+VE,Caracas,912050.0
+VG,Road Town,151.0
+VI,Charlotte Amalie,1910.0
+VN,Ha Noi,331210.0
+VU,Port-vila,12189.0
+WF,Mata'utu,142.0
+WS,Apia,2831.0
+YE,Sanaa,527968.0
+YT,Mamoudzou,374.0
+ZA,Cape Town,1219090.0
+ZM,Lusaka,752618.0
+ZW,Harare,390757.0

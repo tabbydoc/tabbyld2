@@ -1,0 +1,28 @@
+col0,col1,col2,col3
+ ABAP Objects , class name definition «inheriting from parentclass». «interfaces: interfaces.» method_and_field_declarations endclass.class name implementation. method_implementations endclass. , interface name. members endinterface. , n/a 
+ APL (Dyalog) ," :Class name «:parentclass» «,interfaces»members:EndClass ", :Interface namemembers:EndInterface , :Namespace namemembers:EndNamespace 
+ C++ (STL) ," class name« : public parentclassesThis language supports multiple inheritance. A class can have more than one parent class» { members }, ",  , namespace name { members } 
+ C,,,
+ D ," class name« : «parentclass»«, interfaces»» { members } ", interface name« : parentinterfaces» { members } ," module name,  members "
+ eC , class name« : base class» { «default member values assignments» «members» } ,  ," namespace name, "
+ Java , class name« extends parentclass»« implements interfaces» { members } , interface name« extends parentinterfaces» { members } ," package name, members "
+ PHP , class name« extends parentclass»« implements interfaces» { members } , interface name« extends parentinterfaces» { members } ," namespace name, members "
+ Objective-C ," @interface name« : parentclass»Not providing a parent class makes the class a root class. In practice, this is almost never done. One should generally use the conventional base class of the framework one is using, which is NSObject for Cocoa and GNUstep, or Object otherwise.«< protocols >» { instance_fields } method_and_property_declarations @end  @implementation name method_implementations @endUsually the @interface portion is placed into a header file, and the @interface portion is placed into a separate source code file. ", @protocol name«< parentprotocols >» members @end , Prefixes to class and protocol names conventionally used as a kind of namespace 
+ Swift ," class name« : «parentclass»«, protocols»» { members } ", protocol name« : parentprotocols» { members } ,  
+ Python , class name«(parentclasses)»:Tab members ,In Python interfaces are classes which methods have pass as their bodies ," __all__ = [ member1,member2,... ] "
+ Visual Basic .NET , Class name« Inherits parentclass»« Implements interfaces»members End Class , Interface name« Inherits parentinterfaces»members End Interface , Namespace namemembers End Namespace 
+ Xojo , Class name« Inherits parentclass»« Implements interfaces»members End Class , Interface name« Inherits parentinterfaces»members End Interface , Module namemembers End Module 
+ Eiffel , class name« inherit parentclasses»membersend , colspan=2 n/a ,
+ Perl ," package name, «@ISA = qw(parentclasses),» members 1, ",  ," package name, members "
+ Raku , class name «is parentclass «is parentclass ...»» «does role «does role ...»» { members } , role name «does role «does role ...»» { members } , module name { members } 
+ Ruby , class name« < parentclass»  members  end ,  , module name  members  end 
+ Windows PowerShell , colspan=3 n/a ,,
+ OCaml , class name «parameters» = object «(self)» «inherit parentclass «parameters» «inherit parentclass «parameters» ...»» members end ,  , module name  members 
+ F,,,
+ Smalltalk ,The class is an Object. Just send a message to the superclass (st-80) or the destination namespace (Visualworks). ,  ,The namespace is an Object.Just send a message to the parent namespace. 
+JavaScript (ES6) ,class name «extends parentclass» { members }  , , 
+ Object Pascal (Delphi) ," ClassName = Class «(ClassParent, Interfaces)» private // Private members(include Methods and Fields) public // Public members protected // Protected members published // Published members end, ",  ," package name, members "
+ Scala ,  class ConcreteClass(constructor params) extends ParentClass with Trait1 with Trait2 with Trait2 { // members }  ,  trait TraitName extends OtherTrait1 with OtherTrait2 with OtherTrait3 { // members }  ,  package name  
+ COBOL , CLASS-ID. name« INHERITS« FROM» parentclasses». FACTORY« IMPLEMENTS interfaces». class-members END FACTORY. OBJECT« IMPLEMENTS interfaces». instance-members END OBJECT. END CLASS name. , INTERFACE-ID. name« INHERITS« FROM» interfaces». members END INTERFACE name. , n/a 
+ Cobra , class name «inherits parentclass» «implements interfaces»Tab members , interface name «inherits parentinterfaces»Tab members , namespace nameTab members 
+ ISLISP , (defclass name (base-class) ((x :initform 0 :accessor get-x :initarg  x)) (:abstractp nil)) , , 

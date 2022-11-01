@@ -1,0 +1,37 @@
+col0,col1,col2
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sociodemography and Administration\Sociodemography\,phv00265808,race
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sociodemography and Administration\Sociodemography\,phv00265809,ethnicity
+"\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sociodemography and Administration\Subject IDs, Consents, and Subject Aliases\",phv00253677,SUBJECT_ID
+"\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sociodemography and Administration\Subject IDs, Consents, and Subject Aliases\",phv00253678,CONSENT
+"\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sociodemography and Administration\Subject IDs, Consents, and Subject Aliases\",phv00328568,SUBJECT_SOURCE
+"\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sociodemography and Administration\Subject IDs, Consents, and Subject Aliases\",phv00328569,SOURCE_SUBJECT_ID
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sociodemography and Administration\Pedigree\,phv00328570,FAMILY_ID
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sociodemography and Administration\Pedigree\,phv00328571,SUBJECT_ID
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sociodemography and Administration\Pedigree\,phv00328572,MOTHER
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sociodemography and Administration\Pedigree\,phv00328573,FATHER
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sociodemography and Administration\Pedigree\,phv00328574,SEX
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sociodemography and Administration\Subject Sample Mapping and Sample Use\,phv00253680,SUBJECT_ID
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sociodemography and Administration\Subject Sample Mapping and Sample Use\,phv00253681,SAMPLE_ID
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sociodemography and Administration\Other IDs\,phv00265803,SUBJECT_ID
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Physical Observations\,phv00265805,age
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Physical Observations\,phv00265806,age_diagnosis
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Physical Observations\,phv00265807,sex
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Physical Observations\,phv00265810,height
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Physical Observations\,phv00265811,weight
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Physical Observations\,phv00265812,hypertension
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Physical Observations\,phv00265813,diabetes
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Physical Observations\,phv00265814,heart_failure
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Physical Observations\,phv00265815,myocardial_infarction
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Laboratory Measurements\,phv00265816,valvular_heart_disease
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Laboratory Measurements\,phv00265817,valvular_heart_disease_specify
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Laboratory Measurements\,phv00265818,LA_size_echo
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Laboratory Measurements\,phv00265819,LVEF_echo
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sample Attributes\,phv00253683,SAMPLE_ID
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sample Attributes\,phv00253684,BODY_SITE
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sample Attributes\,phv00253685,ANALYTE_TYPE
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sample Attributes\,phv00253686,IS_TUMOR
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sample Attributes\,phv00328575,SEQUENCING_CENTER
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sample Attributes\,phv00328576,Funding_Source
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sample Attributes\,phv00328577,TOPMed_Phase
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sample Attributes\,phv00328578,TOPMed_Project
+\NHLBI TOPMed: The Vanderbilt Atrial Fibrillation Registry\Sample Attributes\,phv00328579,Study_Name

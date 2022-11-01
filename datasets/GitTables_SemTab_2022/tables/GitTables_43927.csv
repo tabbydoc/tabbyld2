@@ -1,0 +1,27 @@
+col0,col1,col2,col3,col4,col5,col6
+1,TV044_001,1,Plaquettes d'industrie,1,2200.0,0
+2,TV044_002,1,Plaquettes forestières,1,2760.0,0
+3,TV044_003,1,"Granulés, briquettes",1,4600.0,0
+4,TV044_004,1,bûches,5,1680.0,0
+5,TV044_005,2,Gaznaturel,2,11628.0,0
+6,TV044_006,2,Gaznaturel,4,1.0,0
+7,TV044_007,3,Gaz propane,1,13800.0,0
+8,TV044_008,3,Gaz propane,3,69.0,0
+9,TV044_009,3,Gaz propane,2,11628.0,0
+10,TV044_010,3,Gaz butane,1,12780.0,0
+11,TV044_011,3,Gaz butane,3,69.0,0
+12,TV044_012,3,Gaz butane,2,11628.0,0
+13,TV044_013,4,"Pétrole, gazole, fioul domestique",3,997.0,0
+14,TV044_014,5,Houille,1,7222.0,0
+15,TV044_015,5,Coke de houille,1,7778.0,0
+16,TV044_016,5,Agglomérés et briquettes de lignite,1,8869.0,0
+17,TV044_017,5,Lignite et produits de récupération,1,4722.0,0
+18,TV044_018,6,Electricité,4,1.0,0
+19,TV044_019,1,Résultat Etude Thermique,6,1.0,0
+20,TV044_020,2,Résultat Etude Thermique,6,1.0,0
+21,TV044_021,3,Résultat Etude Thermique,6,1.0,0
+22,TV044_022,4,Résultat Etude Thermique,6,1.0,0
+23,TV044_023,5,Résultat Etude Thermique,6,1.0,0
+24,TV044_024,7,,6,1.0,0
+25,TV044_025,7,Vapeur,1,-1.0,0
+26,TV044_026,7,Eau chaude,3,-1.0,0

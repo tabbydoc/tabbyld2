@@ -1,0 +1,44 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+Crop,Cropping type,,croppingType,croppingType,selectInput,n,n
+Crop,Crop common name,Monocrop,cropCommonNameMono,cropCommonNameMono,selectizeInput,n,n
+Crop,,Monocrop,cropCommonNameMono_other,cropCommonNameMono_other,textInput,n,n
+Crop,Variety name,Monocrop,cultivarNameMono,cultivarNameMono,selectizeInput,n,n
+Crop,Previous crop or fallow,,prevCropName,prevCropName,selectizeInput,n,n
+Crop,,,prevCropName_other,prevCropName_other,textInput,n,n
+Crop,Select crops,Intercrop,cropsSelected,cropsSelected,selectizeInput,n,y
+Design,Information on experimental unit,,info_experiment_unit,info_experiment_unit,selectizeInput,n,n
+Design,Width,plot,expt_plot_width,expt_plot_width,textInput,n,n
+Design,Unit,plot,expt_plot_width_unit,expt_plot_width_unit,selectizeInput,n,n
+Design,Length,plot,expt_plot_length,expt_plot_length,textInput,n,n
+Design,Unit,plot,expt_plot_length_unit,expt_plot_length_unit,selectizeInput,n,n
+Design,Width,field,expt_field_width,expt_field_width,textInput,n,n
+Design,Unit,field,expt_field_width_unit,expt_field_width_unit,selectizeInput,n,n
+Design,Length,field,expt_field_length,expt_field_length,textInput,n,n
+Design,Unit,field,expt_field_length_unit,expt_field_length_unit,selectizeInput,n,n
+Design,Diameter,pot,pot_diameter,pot_diameter,textInput,n,n
+Design,Unit,pot,pot_diameter_unit,pot_diameter_unit,selectizeInput,n,n
+Design,Depth,pot,pot_depth,pot_depth,textInput,n,n
+Design,Unit,pot,pot_depth_unit,pot_depth_unit,selectizeInput,n,n
+Design,Select experimental design,,designFieldbook_agrofims,designFieldbook_agrofims,selectizeInput,n,n
+Experiment,ID,,uniqueId,uniqueId,textInput,n,n
+Experiment,Experiment ID,,experimentId,experimentId,textInput,n,n
+Experiment,Experiment name,,experimentName,experimentName,textInput,n,n
+Experiment,Experiment project name,,experimentProjectName,experimentProjectName,textInput,n,n
+Experiment,Experiment start date,,fbDesign_project_start_date,fbDesign_project_start_date,dateInput,n,n
+Experiment,Experiment end date,,fbDesign_project_end_date,fbDesign_project_end_date,dateInput,n,n
+Experiment,Type of experiment,,designFieldbook_typeExperiment,designFieldbook_typeExperiment,selectizeInput,n,n
+Experiment,Other,,designFieldbook_typeExperiment_other,designFieldbook_typeExperiment_other,selectInput,y,n
+Experiment,Experiment objective,,experimentObj,experimentObj,textAreaInput,n,n
+Experiment,Grant number,,experiment_grantNumber,experiment_grantNumber,textInput,n,n
+Experiment,Grant Id,,experiment_grantId,experiment_grantId,textInput,n,n
+Personnel,Number of personnel,,npersons,npersons,selectInput,n,y
+Site,Higher-level landform,,fbDesign_inHighLevel,fbDesign_inHighLevel,selectizeInput,n,n
+Site,Vegetation surrounding the experiment site,,fbDesign_inSiteVegetation,fbDesign_inSiteVegetation,selectizeInput,n,n
+Site,Site description notes,,inSiteDescNotes,inSiteDescNotes,textAreaInput,n,n
+Site,Country Name,,fbDesign_countryTrial,fbDesign_countryTrial,selectizeInput,n,n
+Site,Village name,,designFieldbook_sites,designFieldbook_sites,selectizeInput,n,n
+Site,Soil classification system,,soil_class_system,soil_class_system,selectizeInput,n,n
+Site,,,soil_class_fao,soil_class_fao,selectizeInput,n,n
+Site,,,soil_class_usda,soil_class_usda,selectizeInput,n,n
+Site,,,soil_class_system_other,soil_class_system_other,textInput,n,n
+Site,,,fbDesign_inSiteVegetation_other,fbDesign_inSiteVegetation_other,selectizeInput,n,n

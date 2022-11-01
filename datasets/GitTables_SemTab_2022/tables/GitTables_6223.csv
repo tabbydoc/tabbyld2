@@ -1,0 +1,91 @@
+col0,col1,col2
+Transcription-Adk,Transcription (Adenylate kinase),Transcription
+Transcription-Apt,Transcription (Adenine phosphoribosyltransferase ),Transcription
+Transcription-Cmk,Transcription (Cytidylate kinase),Transcription
+Transcription-Eno,Transcription (Enolase),Transcription
+Transcription-Fba,Transcription (Fructose-biphosphate aldolase),Transcription
+Transcription-Gap,Transcription (Glyceraldehyde-3-phosphate-dehydrogenase),Transcription
+Transcription-Gk,Transcription (Guanylate kinase),Transcription
+Transcription-Hpt,Transcription (Hypoxanthine-guanine phosphoribosyltransferase),Transcription
+Transcription-LacA,Transcription (Probable ribose-5-phosphate isomerase B ),Transcription
+Transcription-Ldh,Transcription (L-lactate dehydrogenase),Transcription
+Transcription-Nox,Transcription (Probable NADH oxidase),Transcription
+Transcription-PeptAbcTransporter,Transcription (Peptide ABC transporter),Transcription
+Transcription-Pfk,Transcription (6-phosphofructokinase /Phosphohexokinase),Transcription
+Transcription-PgiB,Transcription (Glucose-6-phosphate isomerase ),Transcription
+Transcription-Pgk,Transcription (Phosphoglycerate kinase),Transcription
+Transcription-Pgm,Transcription (2 3-bisphosphoglycerate-independent phosphoglycerate mutase ),Transcription
+Transcription-PiAbcTransporter,Transcription (Phosphate ABC transporter),Transcription
+Transcription-Ppa,Transcription (Inorganic pyrophosphatase ),Transcription
+Transcription-Prs,Transcription (Ribose-phosphate pyrophosphokinase ),Transcription
+Transcription-Pts,Transcription (PTS EIIABC (glucose)),Transcription
+Transcription-Pyk,Transcription (Pyruvate kinase),Transcription
+Transcription-PyrH,Transcription (Uridylate kinase ),Transcription
+Transcription-Ribosome,Transcription (Ribosome),Transcription
+Transcription-RnaPolymerase,Transcription (RNA polymerase),Transcription
+Transcription-Rnase,Transcription (RNase),Transcription
+Transcription-Rpe,Transcription (Probable ribulose-phosphate 3-epimerase),Transcription
+Transcription-Tim,Transcription (Triosephosphate isomerase ),Transcription
+Transcription-TklB,Transcription (Transketolase ),Transcription
+Transcription-Udk,Transcription (Uridine kinase),Transcription
+Transcription-Upp,Transcription (Uracil phosphoribosyltransferase ),Transcription
+Translation-Adk,Translation (Adenylate kinase),Translation
+Translation-Apt,Translation (Adenine phosphoribosyltransferase ),Translation
+Translation-Cmk,Translation (Cytidylate kinase),Translation
+Translation-Eno,Translation (Enolase),Translation
+Translation-Fba,Translation (Fructose-biphosphate aldolase),Translation
+Translation-Gap,Translation (Glyceraldehyde-3-phosphate-dehydrogenase),Translation
+Translation-Gk,Translation (Guanylate kinase),Translation
+Translation-Hpt,Translation (Hypoxanthine-guanine phosphoribosyltransferase),Translation
+Translation-LacA,Translation (Probable ribose-5-phosphate isomerase B ),Translation
+Translation-Ldh,Translation (L-lactate dehydrogenase),Translation
+Translation-Nox,Translation (Probable NADH oxidase),Translation
+Translation-PeptAbcTransporter,Translation (Peptide ABC transporter),Translation
+Translation-Pfk,Translation (6-phosphofructokinase /Phosphohexokinase),Translation
+Translation-PgiB,Translation (Glucose-6-phosphate isomerase ),Translation
+Translation-Pgk,Translation (Phosphoglycerate kinase),Translation
+Translation-Pgm,Translation (2 3-bisphosphoglycerate-independent phosphoglycerate mutase ),Translation
+Translation-PiAbcTransporter,Translation (Phosphate ABC transporter),Translation
+Translation-Ppa,Translation (Inorganic pyrophosphatase ),Translation
+Translation-Prs,Translation (Ribose-phosphate pyrophosphokinase ),Translation
+Translation-Pts,Translation (PTS EIIABC (glucose)),Translation
+Translation-Pyk,Translation (Pyruvate kinase),Translation
+Translation-PyrH,Translation (Uridylate kinase ),Translation
+Translation-Ribosome,Translation (Ribosome),Translation
+Translation-RnaPolymerase,Translation (RNA polymerase),Translation
+Translation-Rnase,Translation (RNase),Translation
+Translation-Rpe,Translation (Probable ribulose-phosphate 3-epimerase),Translation
+Translation-Tim,Translation (Triosephosphate isomerase ),Translation
+Translation-TklB,Translation (Transketolase ),Translation
+Translation-Udk,Translation (Uridine kinase),Translation
+Translation-Upp,Translation (Uracil phosphoribosyltransferase ),Translation
+RnaDegradation-Adk,RNA degradation (Adenylate kinase),RnaDegradation
+RnaDegradation-Apt,RNA degradation (Adenine phosphoribosyltransferase ),RnaDegradation
+RnaDegradation-Cmk,RNA degradation (Cytidylate kinase),RnaDegradation
+RnaDegradation-Eno,RNA degradation (Enolase),RnaDegradation
+RnaDegradation-Fba,RNA degradation (Fructose-biphosphate aldolase),RnaDegradation
+RnaDegradation-Gap,RNA degradation (Glyceraldehyde-3-phosphate-dehydrogenase),RnaDegradation
+RnaDegradation-Gk,RNA degradation (Guanylate kinase),RnaDegradation
+RnaDegradation-Hpt,RNA degradation (Hypoxanthine-guanine phosphoribosyltransferase),RnaDegradation
+RnaDegradation-LacA,RNA degradation (Probable ribose-5-phosphate isomerase B ),RnaDegradation
+RnaDegradation-Ldh,RNA degradation (L-lactate dehydrogenase),RnaDegradation
+RnaDegradation-Nox,RNA degradation (Probable NADH oxidase),RnaDegradation
+RnaDegradation-PeptAbcTransporter,RNA degradation (Peptide ABC transporter),RnaDegradation
+RnaDegradation-Pfk,RNA degradation (6-phosphofructokinase /Phosphohexokinase),RnaDegradation
+RnaDegradation-PgiB,RNA degradation (Glucose-6-phosphate isomerase ),RnaDegradation
+RnaDegradation-Pgk,RNA degradation (Phosphoglycerate kinase),RnaDegradation
+RnaDegradation-Pgm,RNA degradation (2 3-bisphosphoglycerate-independent phosphoglycerate mutase ),RnaDegradation
+RnaDegradation-PiAbcTransporter,RNA degradation (Phosphate ABC transporter),RnaDegradation
+RnaDegradation-Ppa,RNA degradation (Inorganic pyrophosphatase ),RnaDegradation
+RnaDegradation-Prs,RNA degradation (Ribose-phosphate pyrophosphokinase ),RnaDegradation
+RnaDegradation-Pts,RNA degradation (PTS EIIABC (glucose)),RnaDegradation
+RnaDegradation-Pyk,RNA degradation (Pyruvate kinase),RnaDegradation
+RnaDegradation-PyrH,RNA degradation (Uridylate kinase ),RnaDegradation
+RnaDegradation-Ribosome,RNA degradation (Ribosome),RnaDegradation
+RnaDegradation-RnaPolymerase,RNA degradation (RNA polymerase),RnaDegradation
+RnaDegradation-Rnase,RNA degradation (RNase),RnaDegradation
+RnaDegradation-Rpe,RNA degradation (Probable ribulose-phosphate 3-epimerase),RnaDegradation
+RnaDegradation-Tim,RNA degradation (Triosephosphate isomerase ),RnaDegradation
+RnaDegradation-TklB,RNA degradation (Transketolase ),RnaDegradation
+RnaDegradation-Udk,RNA degradation (Uridine kinase),RnaDegradation
+RnaDegradation-Upp,RNA degradation (Uracil phosphoribosyltransferase ),RnaDegradation

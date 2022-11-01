@@ -1,0 +1,193 @@
+col0,col1,col2,col3,col4
+aalborg,Aalborg,Denmark,7,SCANDINAVIA
+aberdeen,Aberdeen,United Kingdom,3,BASE_GAME
+alban,Saint-Alban-du-Rhône,France,1,FRANCE
+amsterdam,Amsterdam,Netherlands,4,BASE_GAME
+ancona,Ancona,Italy,7,ITALIA
+bari,Bari,Italy,5,ITALIA
+bergen,Bergen,Norway,5,SCANDINAVIA
+berlin,Berlin,Germany,5,BASE_GAME
+bern,Bern,Switzerland,3,BASE_GAME
+bialystok,Białystok,Poland,4,GOING_EAST
+birmingham,Birmingham,United Kingdom,4,BASE_GAME
+bologna,Bologna,Italy,6,ITALIA
+bordeaux,Bordeaux,France,8,FRANCE
+bourges,Bourges,France,4,FRANCE
+bratislava,Bratislava,Slovakia,4,BASE_GAME
+bremen,Bremen,Germany,4,BASE_GAME
+brest,Brest,France,6,FRANCE
+brno,Brno,Czech Republic,4,BASE_GAME
+brussel,Brussel,Belgium,3,BASE_GAME
+budapest,Budapest,Hungary,4,GOING_EAST
+bystrica,Banská Bystrica,Slovakia,4,GOING_EAST
+cagliari,Cagliari,Italy,7,ITALIA
+calais,Calais,France,3,BASE_GAME
+cambridge,Cambridge,United Kingdom,3,BASE_GAME
+cardiff,Cardiff,United Kingdom,3,BASE_GAME
+carlisle,Carlisle,United Kingdom,3,BASE_GAME
+cassino,Cassino,Italy,2,ITALIA
+catania,Catania,Italy,7,ITALIA
+catanzaro,Catanzaro,Italy,4,ITALIA
+civaux,Civaux,France,1,FRANCE
+clermont,Clermont-Ferrand,France,7,FRANCE
+daugavpils,Daugavpils,Latvia,7,BALTIC
+debrecen,Debrecen,Hungary,4,GOING_EAST
+dijon,Dijon,France,3,BASE_GAME
+dortmund,Dortmund,Germany,4,BASE_GAME
+dover,Dover,United Kingdom,3,BASE_GAME
+dresden,Dresden,Germany,4,BASE_GAME
+duisburg,Duisburg,Germany,2,BASE_GAME
+dusseldorf,Düsseldorf,Germany,3,BASE_GAME
+edinburgh,Edinburgh,United Kingdom,3,BASE_GAME
+erfurt,Erfurt,Germany,3,BASE_GAME
+esbjerg,Esbjerg,Denmark,7,SCANDINAVIA
+felixstowe,Felixstowe,United Kingdom,3,BASE_GAME
+firenze,Firenze,Italy,6,ITALIA
+frankfurt,Frankfurt am Main,Germany,4,BASE_GAME
+frederikshv,Frederikshavn,Denmark,1,SCANDINAVIA
+gdansk,Gdańsk,Poland,5,GOING_EAST
+gedser,Gedser,Denmark,2,SCANDINAVIA
+geneve,Genève,Switzerland,4,BASE_GAME
+genova,Genova,Italy,5,ITALIA
+glasgow,Glasgow,United Kingdom,4,BASE_GAME
+golfech,Golfech,France,1,FRANCE
+goteborg,Göteborg,Sweden,8,SCANDINAVIA
+graz,Graz,Austria,4,BASE_GAME
+grimsby,Grimsby,United Kingdom,3,BASE_GAME
+groningen,Groningen,Netherlands,3,BASE_GAME
+hamburg,Hamburg,Germany,3,BASE_GAME
+hannover,Hannover,Germany,4,BASE_GAME
+helsingborg,Helsingborg,Sweden,4,SCANDINAVIA
+helsinki,Helsinki,Finland,11,BALTIC
+hirtshals,Hirtshals,Denmark,1,SCANDINAVIA
+innsbruck,Innsbruck,Austria,3,BASE_GAME
+jonkoping,Jönköping,Sweden,5,SCANDINAVIA
+kaliningrad,Kaliningrad,Russia,7,BALTIC
+kalmar,Kalmar,Sweden,6,SCANDINAVIA
+kapellskar,Kapellskär,Sweden,1,SCANDINAVIA
+karlskrona,Karlskrona,Sweden,4,SCANDINAVIA
+kassel,Kassel,Germany,2,BASE_GAME
+katowice,Katowice,Poland,4,GOING_EAST
+kaunas,Kaunas,Lithuania,7,BALTIC
+kiel,Kiel,Germany,3,BASE_GAME
+klagenfurt,Klagenfurt am Wörthersee,Austria,4,BASE_GAME
+klaipeda,Klaipėda,Lithuania,7,BALTIC
+kobenhavn,København,Denmark,4,SCANDINAVIA
+koln,Köln,Germany,2,BASE_GAME
+kosice,Košice,Slovakia,4,GOING_EAST
+kotka,Kotka,Finland,5,BALTIC
+kouvola,Kouvola,Finland,6,BALTIC
+krakow,Kraków,Poland,4,GOING_EAST
+kristiansand,Kristiansand,Norway,7,SCANDINAVIA
+kunda,Kunda,Estonia,2,BALTIC
+lahti,Lahti,Finland,4,BALTIC
+larochelle,La Rochelle,France,6,FRANCE
+laurent,Saint-Laurent,France,1,FRANCE
+lehavre,Le Havre,France,5,FRANCE
+leipzig,Leipzig,Germany,3,BASE_GAME
+lemans,Le Mans,France,7,FRANCE
+liege,Liège,Belgium,4,BASE_GAME
+liepaja,Liepāja,Latvia,6,BALTIC
+lille,Lille,France,3,BASE_GAME
+limoges,Limoges,France,5,FRANCE
+linkoping,Linköping,Sweden,8,SCANDINAVIA
+linz,Linz,Austria,3,BASE_GAME
+liverpool,Liverpool,United Kingdom,4,BASE_GAME
+livorno,Livorno,Italy,6,ITALIA
+lodz,Łódź,Poland,4,GOING_EAST
+london,London,United Kingdom,4,BASE_GAME
+loviisa,Loviisa,Finland,1,BALTIC
+lublin,Lublin,Poland,4,GOING_EAST
+luga,Luga,Russia,4,BALTIC
+luxembourg,Luxembourg,Luxembourg,3,BASE_GAME
+lyon,Lyon,France,5,BASE_GAME
+magdeburg,Magdeburg,Germany,3,BASE_GAME
+malmo,Malmö,Sweden,5,SCANDINAVIA
+manchester,Manchester,United Kingdom,4,BASE_GAME
+mannheim,Mannheim,Germany,3,BASE_GAME
+marseille,Marseille,France,6,FRANCE
+mazeikiai,Mažeikiai,Lithuania,1,BALTIC
+messina,Messina,Italy,3,ITALIA
+metz,Metz,France,3,BASE_GAME
+milano,Milano,Italy,7,BASE_GAME
+montpellier,Montpellier,France,10,FRANCE
+munchen,München,Germany,4,BASE_GAME
+naantali,Naantali,Finland,2,BALTIC
+nantes,Nantes,France,6,FRANCE
+napoli,Napoli,Italy,9,ITALIA
+narva,Narva,Estonia,2,BALTIC
+newcastle,Newcastle-upon-Tyne,United Kingdom,3,BASE_GAME
+nice,Nice,France,5,FRANCE
+nurnberg,Nürnberg,Germany,4,BASE_GAME
+nynashamn,Nynäshamn,Sweden,1,SCANDINAVIA
+odense,Odense,Denmark,5,SCANDINAVIA
+olbia,Olbia,Italy,7,ITALIA
+olkiluoto,Olkiluoto,Finland,1,BALTIC
+olsztyn,Olsztyn,Poland,5,GOING_EAST
+orebro,Örebro,Sweden,4,SCANDINAVIA
+oslo,Oslo,Norway,8,SCANDINAVIA
+osnabruck,Osnabrück,Germany,4,BASE_GAME
+ostrava,Ostrava,Czech Republic,4,GOING_EAST
+paldiski,Paldiski,Estonia,4,BALTIC
+palermo,Palermo,Italy,5,ITALIA
+paluel,Paluel,France,1,FRANCE
+panevezys,Panevėžys,Lithuania,4,BALTIC
+paris,Paris,France,6,BASE_GAME
+parma,Parma,Italy,4,ITALIA
+parnu,Pärnu,Estonia,6,BALTIC
+pecs,Pécs,Hungary,3,GOING_EAST
+pescara,Pescara,Italy,7,ITALIA
+petersburg,Saint Petersburg,Russia,12,BALTIC
+plymouth,Plymouth,United Kingdom,4,BASE_GAME
+pori,Pori,Finland,5,BALTIC
+poznan,Poznań,Poland,4,BASE_GAME
+prague,Praha,Czech Republic,5,BASE_GAME
+pskov,Pskov,Russia,5,BALTIC
+reims,Reims,France,4,BASE_GAME
+rennes,Rennes,France,5,FRANCE
+rezekne,Rēzekne,Latvia,4,BALTIC
+riga,Rīga,Latvia,8,BALTIC
+roma,Roma,Italy,9,ITALIA
+roscoff,Roscoff,France,2,FRANCE
+rostock,Rostock,Germany,3,BASE_GAME
+rotterdam,Rotterdam,Netherlands,4,BASE_GAME
+salzburg,Salzburg,Austria,5,BASE_GAME
+sangiovanni,Villa San Giovanni,Italy,1,ITALIA
+sassari,Sassari,Italy,7,ITALIA
+sheffield,Sheffield,United Kingdom,4,BASE_GAME
+siauliai,Šiauliai,Lithuania,4,BALTIC
+sodertalje,Södertälje,Sweden,1,SCANDINAVIA
+sosnovy_bor,Sosnovy Bor,Russia,1,BALTIC
+southampton,Southampton,United Kingdom,3,BASE_GAME
+stavanger,Stavanger,Norway,7,SCANDINAVIA
+stockholm,Stockholm,Sweden,6,SCANDINAVIA
+strasbourg,Strasbourg,France,5,BASE_GAME
+stuttgart,Stuttgart,Germany,4,BASE_GAME
+suzzara,Suzzara,Italy,1,ITALIA
+swansea,Swansea,United Kingdom,3,BASE_GAME
+szczecin,Szczecin,Poland,3,BASE_GAME
+szeged,Szeged,Hungary,4,GOING_EAST
+tallinn,Tallinn,Estonia,11,BALTIC
+tampere,Tampere,Finland,6,BALTIC
+taranto,Taranto,Italy,7,ITALIA
+tartu,Tartu,Estonia,7,BALTIC
+terni,Terni,Italy,3,ITALIA
+torino,Torino,Italy,4,BASE_GAME
+toulouse,Toulouse,France,4,FRANCE
+travemunde,Travemünde,Germany,1,BASE_GAME
+trelleborg,Trelleborg,Sweden,2,SCANDINAVIA
+turku,Turku,Finland,6,BALTIC
+uppsala,Uppsala,Sweden,4,SCANDINAVIA
+utena,Utena,Lithuania,6,BALTIC
+valmiera,Valmiera,Latvia,7,BALTIC
+vasteraas,Västerås,Sweden,3,SCANDINAVIA
+vaxjo,Växjö,Sweden,6,SCANDINAVIA
+venezia,Venezia,Italy,3,BASE_GAME
+ventspils,Ventspils,Latvia,6,BALTIC
+verona,Verona,Italy,4,BASE_GAME
+vilnius,Vilnius,Lithuania,7,BALTIC
+vyborg,Vyborg,Russia,4,BALTIC
+warszawa,Warszawa,Poland,4,GOING_EAST
+wien,Wien,Austria,4,BASE_GAME
+wroclaw,Wrocław,Poland,4,BASE_GAME
+zurich,Zürich,Switzerland,3,BASE_GAME

@@ -1,0 +1,37 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16
+37952,NC_000913,"2,025,007",SNP,A→C,yodD,,uncharacterized protein,,,S8R (AGC→CGC),1.0,1.0,,,,
+37953,NC_000913,"2,599,861",DEL,(T)8→7,"dapA, gcvR",,"dihydrodipicolinate synthase/transcriptional repressor, regulatory protein accessory to GcvA",,,intergenic (‑101/‑45),1.0,1.0,1.0,1.0,,
+37954,NC_000913,"2,942,878",MOB,IS4 (+) +13 bp,"gcvA, ygdI",,glycine cleavage system transcriptional activator; autorepressor/DUF903 family verified lipoprotein,,,intergenic (‑311/+28),1.0,1.0,,,,
+37955,NC_000913,"3,554,342",SNP,C→T,malT,,mal regulon transcriptional activator,,,Q420* (CAA→TAA),1.0,,,,,
+37956,NC_000913,"4,182,803",SNP,C→T,rpoB,,"RNA polymerase, beta subunit",,,P520L (CCG→CTG),1.0,1.0,,,,
+37957,NC_000913,"1,413",SNP,T→A,thrA,,Bifunctional aspartokinase/homoserine dehydrogenase 1,,,S359R (AGT→AGA),,,1.0,1.0,,
+37958,NC_000913,"932,321",SNP,C→T,"trxB, lrp",,"thioredoxin reductase, FAD/NAD(P)-binding/leucine-responsive global transcriptional regulator",,,intergenic (‑271/‑274),,,1.0,1.0,,
+26183,NC_000913,"1,978,503",DEL,Δ776 bp,"insB1, insA",,"insB1, insA",,,,1.0,1.0,1.0,1.0,1.0,1.0
+37960,NC_000913,"2,942,635",DEL,(T)7→6,"gcvA, ygdI",,glycine cleavage system transcriptional activator; autorepressor/DUF903 family verified lipoprotein,,,intergenic (‑68/+283),,,1.0,1.0,,
+37961,NC_000913,"3,514,455",SNP,A→G,rpe,,D-ribulose-5-phosphate 3-epimerase,,,I202T (ATC→ACC),,,1.0,1.0,,
+37962,NC_000913,"3,966,676",SNP,G→T,rho,,transcription termination factor,,,R87L (CGC→CTC),,,1.0,1.0,,
+37963,NC_000913,"4,428,871",SNP,T→C,"ytfB, fklB",,OapA family protein/FKBP-type peptidyl-prolyl cis-trans isomerase (rotamase),,,intergenic (‑154/‑64),,,1.0,1.0,,
+37964,NC_000913,"2,815,907",SNP,G→A,gshA,,glutamate-cysteine ligase,,,A178V (GCG→GTG),,1.0,,,,
+37965,NC_000913,"4,248,304",SNP,C→T,lamB,,maltose outer membrane porin (maltoporin),,,Q112* (CAG→TAG),,1.0,,,,
+26191,NC_000913,"1,299,499",DEL,"Δ1,199 bp","ychE, oppA",,UPF0056 family inner membrane protein/oligopeptide ABC transporter periplasmic binding protein,,,intergenic (+254/‑485),1.0,,1.0,,1.0,1.0
+37942,NC_000913,"2,907,452",SNP,C→G,eno,,enolase,,,V164L (GTT→CTT),,,,,1.0,1.0
+37959,NC_000913,"2,307,616",SNP,C→G,yojI,,microcin J25 efflux ABC transporter permease/ATPase,,,D334H (GAT→CAT),,,,1.0,,
+37933,NC_000913,"1,403",SNP,A→G,thrA,,Bifunctional aspartokinase/homoserine dehydrogenase 1,,,Y356C (TAC→TGC),,,,,1.0,1.0
+37934,NC_000913,"450,073",SNP,C→T,cyoB,,cytochrome o ubiquinol oxidase subunit I,,,W190* (TGG→TAG),,,1.0,1.0,1.0,1.0
+37935,NC_000913,"822,421",SNP,C→T,ybhN,,UPF0104 family inner membrane protein,,,L26L (TTG→TTA),,,,,1.0,1.0
+37936,NC_000913,"933,022",SNP,A→G,lrp,,leucine-responsive global transcriptional regulator,,,D143G (GAC→GGC),,,,,1.0,1.0
+37937,NC_000913,"1,818,103",SNP,A→T,chbF,,phospho-chitobiase; general 6-phospho-beta-glucosidase activity,,,V133E (GTA→GAA),1.0,1.0,1.0,1.0,1.0,1.0
+37938,NC_000913,"1,979,486",MOB,IS5 (+) +4 bp,"insA, uspC",,IS1 repressor TnpA/universal stress protein,,,intergenic (‑271/‑264),1.0,1.0,1.0,1.0,1.0,1.0
+37939,NC_000913,"2,173,363",DEL,Δ2 bp,"gatC, gatC",,"pseudogene, galactitol-specific enzyme IIC component of PTS;transport; Transport of small molecules: Carbohydrates, organic acids, alcohols; PTS system galactitol-specific enzyme IIC/pseudogene, galactitol-specific enzyme IIC component of PTS;transport; Transport of small molecules: Carbohydrates, organic acids, alcohols; PTS system galactitol-specific enzyme IIC",,,intergenic (‑1/+1),1.0,1.0,1.0,1.0,1.0,1.0
+37940,NC_000913,"2,492,323",MOB,IS1 (–) +9 bp,frc,,"formyl-CoA transferase, NAD(P)-binding",,,coding (924‑932/1251 nt),,,,,1.0,1.0
+37941,NC_000913,"2,907,364",SNP,A→T,eno,,enolase,,,L193Q (CTG→CAG),1.0,1.0,1.0,1.0,1.0,1.0
+26102,NC_000913,"257,908",DEL,Δ776 bp,[crl],,[crl],,,,1.0,1.0,1.0,1.0,1.0,1.0
+37943,NC_000913,"3,060,146",SNP,C→A,argP,,transcriptional regulator for arginine transport and DNA replication genes; replication initiation inhibitor,,,Q132K (CAG→AAG),,,,,1.0,1.0
+37944,NC_000913,"3,471,274",SNP,C→A,tufA,,translation elongation factor EF-Tu 1,,,G19V (GGC→GTC),,,,,1.0,1.0
+37945,NC_000913,"3,560,455",INS,+G,"glpR, glpR",,"pseudogene, DNA-binding transcriptional repressor;regulator; Energy metabolism, carbon: Anaerobic respiration; repressor of the glp operon/pseudogene, DNA-binding transcriptional repressor;regulator; Energy metabolism, carbon: Anaerobic respiration; repressor of the glp operon",,,intergenic (‑2/+1),1.0,1.0,1.0,1.0,1.0,1.0
+37946,NC_000913,"3,966,174",MOB,IS1 (–) +9 bp,"trxA, rho",,thioredoxin 1/transcription termination factor,,,intergenic (+84/‑235),,,,,1.0,1.0
+37947,NC_000913,"4,296,381",INS,+GC,"gltP, yjcO",,glutamate/aspartate:proton symporter/Sel1 family TPR-like repeat protein,,,intergenic (+587/+55),1.0,1.0,1.0,1.0,1.0,1.0
+37948,NC_000913,"4,430,521",SNP,A→G,cycA,,D-alanine/D-serine/glycine transporter,,,I220V (ATA→GTA),,,,,1.0,1.0
+37949,NC_000913,"1,405",SNP,A→C,thrA,,Bifunctional aspartokinase/homoserine dehydrogenase 1,,,S357R (AGC→CGC),1.0,1.0,,,,
+37950,NC_000913,"121,518",MOB,IS5 (+) +4 bp,aroP,,aromatic amino acid transporter,,,coding (31‑34/1374 nt),1.0,1.0,,,,
+37951,NC_000913,"1,756,445",SNP,G→T,pykF,,pyruvate kinase I,,,E250* (GAA→TAA),1.0,1.0,,,,

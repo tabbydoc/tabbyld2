@@ -1,0 +1,77 @@
+col0,col1,col2
+Q000000981,diagnostic imaging,diagnostic imaging;ultrasound;ultrasonography;ultrasonic diagnosis;echotomography;echography;radionuclide imaging;radioisotope scanning;radiography;X-ray image;X-ray diagnosis;roentgenography;X-ray
+Q000002,abnormalities,abnormalities;anomalies;aplasia;atresia;malformations;defects;deformities;hypoplasia;agenesis;congenital defects;birth defects
+Q000008,administration and dosage,administration & dosage;administration and dosage;administration;dosage
+Q000009,adverse effects,adverse effects;side effects
+Q000031,analogs and derivatives,analogs & derivatives;analogs and derivatives;derivatives;analogs
+Q000032,analysis,analysis;chemical analysis;determination;assay
+Q000033,anatomy and histology,anatomy & histology;anatomy and histology;histology;morphology;anatomy
+Q000037,antagonists and inhibitors,antagonists & inhibitors;antagonists and inhibitors;inhibitors;antagonists
+Q000096,biosynthesis,biosynthesis;bioformation;anabolism
+Q000097,blood,blood
+Q000098,blood supply,blood supply;vasculature;microvasculature
+Q000134,cerebrospinal fluid,cerebrospinal fluid
+Q000138,chemical synthesis,chemical synthesis
+Q000139,chemically induced,chemically induced
+Q000145,classification,classification;taxonomy;systematics;hierarchies;hierarchy
+Q000150,complications,complications;associated disease;sequelae;sequels;coexistent disease;concomitant disease;associated conditions;coexistent conditions;concomitant conditions
+Q000151,congenital,congenital;connatal
+Q000166,cytology,cytology;cellular aspects;cellular morphology;cell morphology;cell structure;cellular structure
+Q000172,deficiency,deficiency
+Q000175,diagnosis,diagnosis;symptoms;signs;findings;screening
+Q000178,diet therapy,diet therapy;nutritional management;dietary management
+Q000187,drug effects,drug effects;pharmacologic effects;effect of drugs
+Q000188,drug therapy,drug therapy;pharmacologic therapy;pharmacotherapy;chemotherapy
+Q000191,economics,economics;fees;salaries;financial management;financing;funding;cost;finances
+Q000193,education,education;teaching;training;curriculum
+Q000196,embryology,embryology;prenatal development;fetal development;embryonic aspects;embryonic development
+Q000201,enzymology,enzymology;enzymes;enzyme activity
+Q000208,ethnology,ethnology;ethnicity;culture
+Q000209,etiology,etiology;causality;causes;pathogenesis
+Q000235,genetics,genetics;heredity
+Q000254,growth and development,growth & development;growth and development;postnatal growth;postnatal development;development;growth
+Q000266,history,history;historical aspects;historical notes
+Q000276,immunology,immunology
+Q000293,injuries,injuries;trauma;wounds
+Q000294,innervation,innervation;nerve supply
+Q000295,instrumentation,instrumentation;instruments;devices;equipment;apparatus;appliances
+Q000302,isolation and purification,isolation & purification;isolation and purification;purification;isolation
+Q000331,legislation and jurisprudence,legislation & jurisprudence;legislation and jurisprudence;court decisions;government regulations;judicial aspects;juridical aspects;statutes;lawsuits;legal aspects;jurisprudence;litigation;medicolegal aspects;ordinances;regulations;civil suits;laws;legislation
+Q000378,metabolism,metabolism;biodegradation;biotransformation;secretion;degradation;incorporation;mobilization;turnover;biochemical pathways;catabolism
+Q000379,methods,methods;techniques;procedures;methodology
+Q000382,microbiology,microbiology;fungi;bacteria
+Q000401,mortality,mortality;survival;death rate
+Q000451,nursing,nursing;nursing care;home care
+Q000453,epidemiology,epidemiology;epidemics;frequency;surveillance;morbidity;occurrence;outbreaks;prevalence;endemics;incidence
+Q000458,organization and administration,organization & administration;organization and administration;organizational management;administrative structure;organization;organizational structure;administrative management;administration
+Q000469,parasitology,parasitology;protozoology;protozoa;helminthology;parasites
+Q000472,pathogenicity,pathogenicity;infectivity;virulence
+Q000473,pathology,pathology;cytopathology;histopathology;biopsy
+Q000493,pharmacokinetics,pharmacokinetics;toxicokinetics;tissue distribution
+Q000494,pharmacology,pharmacology;mode of action;mechanism of action;pharmacologic action;pharmacodynamics
+Q000502,physiology,physiology;function
+Q000503,physiopathology,physiopathology;pathophysiology;dysfunction
+Q000506,poisoning,poisoning;poisonous effects
+Q000517,prevention and control,prevention & control;prophylaxis;preventive therapy;prevention and control;preventive measures;prevention;control
+Q000523,psychology,psychology;cognitive aspects;emotional aspects;psychosomatic aspects;psychiatric aspects;psychogenic aspects;psychosocial aspects;affective aspects;mental aspects
+Q000528,radiation effects,radiation effects
+Q000532,radiotherapy,radiotherapy;radiation therapy;X-ray therapy;radioisotope therapy
+Q000534,rehabilitation,rehabilitation
+Q000556,secondary,secondary;metastatic
+Q000592,standards,standards;guidelines;criteria
+Q000600,supply and distribution,supply & distribution;supply and distribution;supply;distribution
+Q000601,surgery,surgery;operative therapy;invasive procedures;operative procedures;operations;perioperative procedures;intraoperative procedures;peroperative procedures;preoperative procedures
+Q000627,therapeutic use,therapeutic use
+Q000628,therapy,therapy;treatment;disease management
+Q000633,toxicity,toxicity;toxic potential;margin of safety
+Q000635,transmission,transmission
+Q000637,transplantation,transplantation;grafting;grafts
+Q000639,trends,trends;futurology;forecasting
+Q000648,ultrastructure,ultrastructure;subcellular structure;submicroscopic anatomy
+Q000652,urine,urine;urinary levels;urinary aspects
+Q000662,veterinary,veterinary
+Q000706,statistics and numerical data,statistics & numerical data;statistics and numerical data;utilization;use;numerical data;statistics
+Q000737,chemistry,chemistry;chemical structure;chemical content;chemical properties;chemical characterization;chemical composition
+Q000819,agonists,agonists
+Q000821,virology,virology;viruses
+Q000941,ethics,ethics;ethical aspects

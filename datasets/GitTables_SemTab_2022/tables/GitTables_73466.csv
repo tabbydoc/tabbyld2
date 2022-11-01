@@ -1,0 +1,31 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15
+__export__.account_fiscal_position_3,True,False,,2015-07-06 17:41:45,base.user_root,False,,,,,,01-  Aporte especial para la administración de justicia.,,base.user_root,2015-07-06 17:41:45
+__export__.account_fiscal_position_4,True,False,,2015-07-06 17:41:49,base.user_root,False,,,,,,02-  Gravamen a los movimientos financieros,,base.user_root,2015-07-06 17:41:49
+__export__.account_fiscal_position_5,True,False,,2015-07-06 17:41:52,base.user_root,False,,,,,,03-  Impuesto al patrimonio,,base.user_root,2015-07-06 17:41:52
+__export__.account_fiscal_position_6,True,False,,2015-07-06 17:41:55,base.user_root,False,,,,,,04-  Impuesto de renta y complementario régimen especial,,base.user_root,2015-07-06 17:41:55
+__export__.account_fiscal_position_7,True,False,,2015-07-06 17:41:58,base.user_root,False,,,,,,05-  Impuesto de renta y complementario régimen ordinario,,base.user_root,2015-07-06 17:41:58
+__export__.account_fiscal_position_8,True,False,,2015-07-06 17:42:01,base.user_root,False,,,,,,06-  Ingresos y patrimonio,,base.user_root,2015-07-06 17:42:01
+__export__.account_fiscal_position_9,True,False,,2015-07-06 17:42:04,base.user_root,False,,,,,,07-  Retención en la fuente a título de renta,,base.user_root,2015-07-06 17:42:04
+__export__.account_fiscal_position_10,True,False,,2015-07-06 17:42:08,base.user_root,False,,,,,,08-  Retención timbre nacional,,base.user_root,2015-07-06 17:42:08
+__export__.account_fiscal_position_11,True,False,,2015-07-06 17:42:11,base.user_root,False,,,,,,09-  Retención en la fuente en el impuesto sobre las ventas,,base.user_root,2015-07-06 17:42:11
+__export__.account_fiscal_position_12,True,False,,2015-07-06 17:42:14,base.user_root,False,,,,,,10-  Usuario aduanero,,base.user_root,2015-07-06 17:42:14
+__export__.account_fiscal_position_13,True,False,,2015-07-06 17:42:19,base.user_root,False,,,,,,11-  Ventas régimen común,,base.user_root,2015-07-06 17:42:19
+__export__.account_fiscal_position_14,True,False,,2015-07-06 17:42:22,base.user_root,False,,,,,,12-  Ventas régimen simplificado,,base.user_root,2015-07-06 17:42:22
+__export__.account_fiscal_position_15,True,False,,2015-07-06 17:42:25,base.user_root,False,,,,,,13-  Gran contribuyente,,base.user_root,2015-07-06 17:42:25
+__export__.account_fiscal_position_16,True,False,,2015-07-06 17:42:28,base.user_root,False,,,,,,14-  Informante de exogena,,base.user_root,2015-07-06 17:42:28
+__export__.account_fiscal_position_17,True,False,,2015-07-06 17:42:43,base.user_root,False,,,,,,15-  Autorretenedor,,base.user_root,2015-07-06 17:42:43
+__export__.account_fiscal_position_18,True,False,,2015-07-06 17:42:49,base.user_root,False,,,,,,16-  Obligación a facturar por ingresos bienes y/o servicios excluidos,,base.user_root,2015-07-06 17:42:49
+__export__.account_fiscal_position_19,True,False,,2015-07-06 17:42:53,base.user_root,False,,,,,,17-  Profesionales de compra y venta de divisas,,base.user_root,2015-07-06 17:42:53
+__export__.account_fiscal_position_20,True,False,,2015-07-06 17:42:59,base.user_root,False,,,,,,18-  Precios de transferencia,,base.user_root,2015-07-06 17:42:59
+__export__.account_fiscal_position_21,True,False,,2015-07-06 17:43:14,base.user_root,False,,,,,,19-  Productor de bienes y/o servicios exentos (incluye exportadores),,base.user_root,2015-07-06 17:43:14
+__export__.account_fiscal_position_22,True,False,,2015-07-06 17:43:20,base.user_root,False,,,,,,20-  Obtención NIT Dto. 3050 de 1997 (Art. 3o),,base.user_root,2015-07-06 17:43:20
+__export__.account_fiscal_position_23,True,False,,2015-07-06 17:43:23,base.user_root,False,,,,,,21-  Declarar ingreso o salida del país de divisas o moneda legal,,base.user_root,2015-07-06 17:43:23
+__export__.account_fiscal_position_24,True,False,,2015-07-06 17:43:26,base.user_root,False,,,,,,22-  Obligado a declarar a nombre de terceros,,base.user_root,2015-07-06 17:43:26
+__export__.account_fiscal_position_25,True,False,,2015-07-06 17:43:30,base.user_root,False,,,,,,23-  Agente de retención en ventas,,base.user_root,2015-07-06 17:43:30
+__export__.account_fiscal_position_26,True,False,,2015-07-06 17:43:33,base.user_root,False,,,,,,24-  Declaración consolidada precios de transferencia,,base.user_root,2015-07-06 17:43:33
+__export__.account_fiscal_position_27,True,False,,2015-07-06 17:43:36,base.user_root,False,,,,,,26-  Declaración individual precios de transferencia,,base.user_root,2015-07-06 17:43:36
+__export__.account_fiscal_position_28,True,False,,2015-07-06 17:43:39,base.user_root,False,,,,,,27- Derechos de explotación juegos localizados,,base.user_root,2015-07-06 17:43:39
+__export__.account_fiscal_position_29,True,False,,2015-07-06 17:43:42,base.user_root,False,,,,,,28. Derechos de explotación juegos Novedosos,,base.user_root,2015-07-06 17:43:42
+__export__.account_fiscal_position_30,True,False,,2015-07-06 17:43:45,base.user_root,False,,,,,,29. Derechos de explotación juegos Promociónales,,base.user_root,2015-07-06 17:43:45
+__export__.account_fiscal_position_31,True,False,,2015-07-06 17:43:49,base.user_root,False,,,,,,30   Derechos de explotación juegos Rifas,,base.user_root,2015-07-06 17:43:49
+__export__.account_fiscal_position_32,True,False,,2015-07-06 17:43:53,base.user_root,False,,,,,,31. Derechos de explotación juegos gallísticos y caninos,,base.user_root,2015-07-06 17:43:53

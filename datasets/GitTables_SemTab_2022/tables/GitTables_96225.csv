@@ -1,0 +1,14 @@
+col0,col1,col2,col3,col4,col5,col6
+${header_id},01/${_current_year},Gennaio ${_current_year},${_current_year}-01-01,${_current_year}-01-31,z0bug.mycompany,False
+${header_id},02/${_current_year},Febbraio ${_current_year},${_current_year}-02-01,${_current_year}-02-28,z0bug.mycompany,False
+${header_id},03/${_current_year},Marzo ${_current_year},${_current_year}-03-01,${_current_year}-03-31,z0bug.mycompany,False
+${header_id},04/${_current_year},Aprile ${_current_year},${_current_year}-04-01,${_current_year}-04-30,z0bug.mycompany,False
+${header_id},05/${_current_year},Maggio ${_current_year},${_current_year}-05-01,${_current_year}-05-31,z0bug.mycompany,False
+${header_id},06/${_current_year},Giugno ${_current_year},${_current_year}-06-01,${_current_year}-06-30,z0bug.mycompany,False
+${header_id},07/${_current_year},Luglio ${_current_year},${_current_year}-07-01,${_current_year}-07-31,z0bug.mycompany,False
+${header_id},08/${_current_year},Agosto ${_current_year},${_current_year}-08-01,${_current_year}-08-31,z0bug.mycompany,False
+${header_id},09/${_current_year},Settembre ${_current_year},${_current_year}-09-01,${_current_year}-09-30,z0bug.mycompany,False
+${header_id},10/${_current_year},Ottobre ${_current_year},${_current_year}-10-01,${_current_year}-10-31,z0bug.mycompany,False
+${header_id},11/${_current_year},Novembre ${_current_year},${_current_year}-11-01,${_current_year}-11-30,z0bug.mycompany,False
+${header_id},12/${_current_year},Dicembre ${_current_year},${_current_year}-12-01,${_current_year}-12-31,z0bug.mycompany,False
+${header_id},00/${_current_year},Apertura ${_current_year},${_current_year}-01-01,${_current_year}-01-01,z0bug.mycompany,True

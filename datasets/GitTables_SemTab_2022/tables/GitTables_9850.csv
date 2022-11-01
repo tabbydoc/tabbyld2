@@ -1,0 +1,34 @@
+col0,col1,col2,col3,col4
+line:06f0f81,Pol: What happened? I don't remember a thing...,Introduccion,Despertando,3
+line:0c818b5,Pol: Hmmm?,Introduccion,Despertando,4
+line:0143081,Pol: Hey! Who are you? Where are you going?,Introduccion,Despertando,5
+line:00f1b7d,"Yell: Hey, a Tutti went up the hill",Introduccion,Introduccion,14
+line:0e17415,"Yell: It came out of your tray, seemed in a hurry too",Introduccion,Introduccion,16
+line:09106ac,Pol: Really? Hmm...,Introduccion,Introduccion,18
+line:08c1a13,Pol: (I shoud check out where he went),Introduccion,Introduccion,20
+line:01b8985,Pol: (It still sounds like a better plan than working),Introduccion,Introduccion,21
+line:0b5d637,"Yell: Haven't seen much more, sorry pal",Introduccion,Introduccion,25
+line:0b2c653,Pol: (I shoud check out where he went),Introduccion,Introduccion,27
+line:0421c99,???++Yell: fzz fzzz,Introduccion,Introduccion,30
+line:0a24eb9,???++Yell: beep beep,Introduccion,Introduccion,31
+line:0060dc0,"Robot: I'm a robot now, I am going to do some tests",Introduccion,Introduccion,32
+line:0570fcf,Robot: {0},Introduccion,Introduccion,33
+line:0962446,Robot: This is <size={0}>Bigger text</size>,Introduccion,Introduccion,34
+line:07a869f,Robot: {0},Introduccion,Introduccion,35
+line:0914cfe,Robot: And this is <size={0}>{1}</size>,Introduccion,Introduccion,37
+line:0db9f85,"Robot: Bye, bye, I hope I didn't break anything",Introduccion,Introduccion,36
+line:03f7eaa,"Pol: I'm sorry, have you seen...?",Introduccion,Albert,35
+line:040ab77,Albert: What? Seen what? I don't know what you're talking about,Introduccion,Albert,37
+line:047213d,Pol: I mean if you've seen a popsicle,Introduccion,Albert,38
+line:0c682e9,Albert: A popsicle? I don't know much about them popsicles. Except I'm one of those. I think.,Introduccion,Albert,40
+line:02600fd,Albert: You should ask that one over there. It might know something. Or not.,Introduccion,Albert,42
+line:0416979,Pol: Hmm.. thanks.,Introduccion,Albert,44
+line:0b32ab2,"Instagramo: Well, let's see what the people have to say",Introduccion,Instagramo,60
+line:00753fa,Instagramo: That was all,Introduccion,Instagramo,62
+line:0258c5c,Options: Options test Alle voy,Introduccion,Options,67
+line:0c10584,"google, search, result, suggestion, yahoo",Introduccion,Options,68
+line:0a606a2,"japan, cartoon, anime, dragon ball",Introduccion,Options,69
+line:098fd04,default,Introduccion,Options,70
+line:0484e26,You wanna know about Google.,Introduccion,Google,74
+line:025c4fb,You wanna know about Anime.,Introduccion,Anime,78
+line:0e94312,I don't undertand what you want.,Introduccion,DefaultOption,83

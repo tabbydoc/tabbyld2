@@ -1,0 +1,31 @@
+col0,col1,col2,col3,col4
+CR.20.Cecal,Cecal content,Charles River,Mouse 20,15.235158014
+CR.21.Cecal,Cecal content,Charles River,Mouse 21,14.059239776999998
+CR.22.Cecal,Cecal content,Charles River,Mouse 22,13.069616852
+CR.23.Cecal,Cecal content,Charles River,Mouse 23,13.422933893
+Env.10.Cecal,Cecal content,Envigo,Mouse 10,9.903780395
+Env.11.Cecal,Cecal content,Envigo,Mouse 11,14.448600064
+Env.12.Cecal,Cecal content,Envigo,Mouse 12,14.471524316
+Env.13.Cecal,Cecal content,Envigo,Mouse 13,14.585774187
+Jax.40.Cecal,Cecal content,Jackson,Mouse 40,9.845921956
+Jax.41.Cecal,Cecal content,Jackson,Mouse 41,10.357197255
+Jax.42.Cecal,Cecal content,Jackson,Mouse 42,8.700886645
+Jax.43.Cecal,Cecal content,Jackson,Mouse 43,12.175934522
+Tac.30.Cecal,Cecal content,Taconic,Mouse 30,11.093321176
+Tac.31.Cecal,Cecal content,Taconic,Mouse 31,14.845236044
+Tac.32.Cecal,Cecal content,Taconic,Mouse 32,12.079083788999998
+CR.20.Stool,Stool,Charles River,Mouse 20,14.10301114
+CR.21.Stool,Stool,Charles River,Mouse 21,14.354488527
+CR.22.Stool,Stool,Charles River,Mouse 22,15.4594082
+CR.23.Stool,Stool,Charles River,Mouse 23,12.613992338
+Evn.10.Stool,Stool,Envigo,Mouse 10,14.106546079
+Env.11.Stool,Stool,Envigo,Mouse 11,17.081279964
+Env.12.Stool,Stool,Envigo,Mouse 12,14.642842821
+Jax.40.Stool,Stool,Jackson,Mouse 40,9.534649837
+Jax.41.Stool,Stool,Jackson,Mouse 41,7.672992996
+Jax.42.Stool,Stool,Jackson,Mouse 42,10.476839966
+Jax.43.Stool,Stool,Jackson,Mouse 43,9.149309453
+Tac.30.Stool,Stool,Taconic,Mouse 30,10.386239056
+Tac.31.Stool,Stool,Taconic,Mouse 31,14.031692457000002
+Tac.32.Stool,Stool,Taconic,Mouse 32,16.775201729
+Tac.33.Stool,Stool,Taconic,Mouse 33,14.973049787

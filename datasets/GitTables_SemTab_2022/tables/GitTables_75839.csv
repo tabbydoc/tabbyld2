@@ -1,0 +1,75 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+bggCollection,ID,objectid,.,objectid,number,True,False,,,False
+bggCollection,Name,name,name,,text,True,False,,,False
+bggCollection,Type,type,.,subtype,text,True,False,,,False
+bggCollection,Year,yearpublished,yearpublished,,number,True,False,,,False
+bggCollection,Rating,rating,stats/rating,value,number,True,True,,,False
+bggCollection,TimesPlayed,numplays,numplays,,number,True,False,,,False
+bggCollection,Rank,rank,stats/rating/ranks/rank[@name = 'boardgame'],value,number,True,True,,,False
+bggCollection,AvgRating,average,stats/rating/average,value,number,True,True,,,False
+bggCollection,GeekRating,baverage,stats/rating/bayesaverage,value,number,True,True,0.0,,False
+bggCollection,RatingStdDev,stddev,stats/rating/stddev,value,number,True,True,,,False
+bggCollection,RatingVotes,usersrated,stats/rating/usersrated,value,number,True,True,,,False
+bggCollection,MinPlayers,minplayers,stats,minplayers,number,True,True,,,False
+bggCollection,MaxPlayers,maxplayers,stats,maxplayers,number,True,True,,,False
+bggCollection,Playingtime,playingtime,stats,playingtime,number,True,True,,,False
+bggCollection,MinPlaytime,minplaytime,stats,minplaytime,number,True,True,,,False
+bggCollection,MaxPlaytime,maxplaytime,stats,maxplaytime,number,True,True,,,False
+bggCollection,NumOwned,numowned,stats,numowned,number,True,True,,,False
+bggCollection,Owned,own,status,own,logical,True,False,,,False
+bggCollection,Preordered,preordered,status,preordered,logical,True,False,,,False
+bggCollection,PrevOwned,prevowned,status,prevowned,logical,True,False,,,False
+bggCollection,ForTrade,fortrade,status,fortrade,logical,True,False,,,False
+bggCollection,Want,want,status,want,logical,True,False,,,False
+bggCollection,WantToPlay,wanttoplay,status,wanttoplay,logical,True,False,,,False
+bggCollection,WantToBuy,wanttobuy,status,wanttobuy,logical,True,False,,,False
+bggCollection,Wishlist,wishlist,status,wishlist,logical,True,False,,,False
+bggCollection,WishlistPriority,wishlistpriority,status,wishlistpriority,number,True,False,,,False
+bggCollection,ImageURL,image,image,,text,True,False,,,False
+bggCollection,ThumbnailURL,thumbnail,thumbnail,,text,True,False,,,False
+bggGames,ID,objectid,.,id,number,True,False,,,False
+bggGames,Name,name,name[@type = 'primary'],value,text,True,False,,,False
+bggGames,Type,type,.,type,text,True,False,,,False
+bggGames,Year,yearpublished,yearpublished,value,number,True,False,0.0,,False
+bggGames,Rank,rank,statistics/ratings/ranks/rank[@name = 'boardgame'],value,number,True,True,,,False
+bggGames,AvgRating,average,statistics/ratings/average,value,number,True,True,,,False
+bggGames,GeekRating,baverage,statistics/ratings/bayesaverage,value,number,True,True,0.0,,False
+bggGames,RatingStdDev,stddev,statistics/ratings/stddev,value,number,True,True,,,False
+bggGames,RatingVotes,usersrated,statistics/ratings/usersrated,value,number,True,True,,,False
+bggGames,Weight,avgweight,statistics/ratings/averageweight,value,number,True,True,0.0,,False
+bggGames,WeightVotes,weightvotes,statistics/ratings/numweights,value,number,True,True,,,False
+bggGames,MinPlayers,minplayers,minplayers,value,number,True,False,,,False
+bggGames,MaxPlayers,maxplayers,maxplayers,value,number,True,False,,,False
+bggGames,RecPlayers,recplayers,,,text,False,False,,squeeze,True
+bggGames,BestPlayers,bestplayers,,,text,False,False,,squeeze,True
+bggGames,Playingtime,playingtime,playingtime,value,number,True,False,0.0,,False
+bggGames,MinPlaytime,minplaytime,minplaytime,value,number,True,False,0.0,,False
+bggGames,MaxPlaytime,maxplaytime,maxplaytime,value,number,True,False,0.0,,False
+bggGames,MinAge,minage,minage,value,number,True,False,,,False
+bggGames,NumOwned,numowned,statistics/ratings/owned,value,number,True,True,,,False
+bggGames,NumTrading,numtrading,statistics/ratings/trading,value,number,True,True,,,False
+bggGames,NumWanting,numwanting,statistics/ratings/wanting,value,number,True,True,,,False
+bggGames,NumWishing,numwishing,statistics/ratings/wishing,value,number,True,True,,,False
+bggGames,NumComments,numcomments,statistics/ratings/numcomments,value,number,True,True,,,False
+bggGames,ImageURL,image,image,,text,True,False,,,False
+bggGames,ThumbnailURL,thumbnail,thumbnail,,text,True,False,,,False
+bggGames,Description,description,description,,text,True,False,,,False
+bggGames,Designers,designers,link[@type = 'boardgamedesigner'],value,text,False,False,,toString,False
+bggGames,DesignersID,designersid,link[@type = 'boardgamedesigner'],id,number,False,False,,toString,False
+bggGames,Artists,artists,link[@type = 'boardgameartist'],value,text,False,False,,toString,False
+bggGames,ArtistsID,artistsid,link[@type = 'boardgameartist'],id,number,False,False,,toString,False
+bggGames,Categories,category,link[@type = 'boardgamecategory'],value,text,False,False,,toString,False
+bggGames,CategoriesID,categoryid,link[@type = 'boardgamecategory'],id,number,False,False,,toString,False
+bggGames,Mechanics,mechanics,link[@type = 'boardgamemechanic'],value,text,False,False,,toString,False
+bggGames,MechanicsID,mechanicsid,link[@type = 'boardgamemechanic'],id,number,False,False,,toString,False
+bggGames,Publishers,publishers,link[@type = 'boardgamepublisher'],value,text,False,False,,toString,False
+bggGames,PublishersID,publishersid,link[@type = 'boardgamepublisher'],id,number,False,False,,toString,False
+bggGames,Expansions,expansions,link[@type = 'boardgameexpansion'],value,text,False,False,,toString,False
+bggGames,ExpansionsID,expansionsid,link[@type = 'boardgameexpansion'],id,number,False,False,,toString,False
+bggGames,PollPlayers,pollplayers,,,table,False,False,,,True
+bggGames,PollAge,pollage,,,table,False,False,,,True
+bggGames,PollLanguage,polllanguage,,,table,False,False,,,True
+bggSearch,ID,objectid,.,id,number,True,False,,,False
+bggSearch,Name,name,name,value,text,True,False,,,False
+bggSearch,Type,type,.,type,text,True,False,,,False
+bggSearch,Year,yearpublished,yearpublished,value,number,True,False,,,False

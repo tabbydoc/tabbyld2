@@ -1,0 +1,81 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+97bb95f55a,1462080920378,App entered onResume(),App Mode Change,malicious,malicious,5.0,3
+97bb95f55a,1462080939256,Begin: Sending Password to server,Sending Data,malicious,malicious,5.0,3
+97bb95f55a,1462098035560,App Entered onCreate(),App Mode Change,malicious,malicious,5.0,4
+97bb95f55a,1462098035563,App entered onResume(),App Mode Change,malicious,malicious,5.0,4
+97bb95f55a,1462105510549,App Entered onCreate(),App Mode Change,benign,malicious,5.0,5
+97bb95f55a,1462105511627,App entered onResume(),App Mode Change,benign,malicious,5.0,5
+97bb95f55a,1462303213159,Login screen launched(login app) Facebook,Shortcut Tapped,malicious,malicious,5.0,5
+97bb95f55a,1462303213219,App Entered onCreate(),App Mode Change,malicious,malicious,5.0,5
+97bb95f55a,1462303213284,App entered onResume(),App Mode Change,malicious,malicious,5.0,5
+97bb95f55a,1462303224756,App entered onResume(),App Mode Change,malicious,malicious,5.0,5
+97bb95f55a,1462303229210,App entered onPause(),App Mode Change,malicious,malicious,5.0,5
+97bb95f55a,1462303229641,App entered onDestroy(),App Mode Change,malicious,malicious,5.0,5
+97bb95f55a,1462303246068,App Entered onCreate(),App Mode Change,benign,malicious,5.0,6
+97bb95f55a,1462303247394,App entered onResume(),App Mode Change,benign,malicious,5.0,6
+97bb95f55a,1462303256837,App entered onPause(),App Mode Change,benign,malicious,5.0,6
+97bb95f55a,1462303257019,App entered onStop(),App Mode Change,benign,malicious,5.0,6
+97bb95f55a,1462303268158,App entered onResume(),App Mode Change,benign,malicious,5.0,6
+97bb95f55a,1462303269277,Entered to Level view,View Change,benign,malicious,5.0,6
+97bb95f55a,1462303271045,Entered to Game view,View Change,benign,malicious,5.0,6
+97bb95f55a,1462303344491,Entered to Game view,View Change,benign,malicious,5.0,6
+97bb95f55a,1462303452428,Entered to Game view,View Change,benign,malicious,5.0,6
+97bb95f55a,1462303474988,Entered to Level view,View Change,benign,malicious,5.0,6
+97bb95f55a,1462303476548,Entered to Game view,View Change,benign,malicious,5.0,6
+97bb95f55a,1462303523237,Entered to Level view,View Change,benign,malicious,5.0,6
+97bb95f55a,1462680407956,App Entered onCreate(),App Mode Change,benign,malicious,5.0,8
+97bb95f55a,1462680409612,App entered onResume(),App Mode Change,benign,malicious,5.0,8
+97bb95f55a,1462680411268,Entered to Level view,View Change,benign,malicious,5.0,8
+97bb95f55a,1462680412473,Entered to Game view,View Change,benign,malicious,5.0,8
+97bb95f55a,1462680456838,Entered to Game view,View Change,benign,malicious,5.0,8
+97bb95f55a,1462680506600,Entered to Game view,View Change,benign,malicious,5.0,8
+97bb95f55a,1462680551364,Entered to Game view,View Change,benign,malicious,5.0,8
+97bb95f55a,1462680593780,Entered to Game view,View Change,benign,malicious,5.0,8
+97bb95f55a,1462680643603,Entered to Level view,View Change,benign,malicious,5.0,8
+97bb95f55a,1462680657794,App Entered onCreate(),App Mode Change,malicious,malicious,5.0,8
+97bb95f55a,1462680669472,Begin: Sending Password to server,Sending Data,malicious,malicious,5.0,8
+97bb95f55a,1462686606299,App Entered onCreate(),App Mode Change,malicious,malicious,5.0,8
+97bb95f55a,1462686606382,App entered onResume(),App Mode Change,malicious,malicious,5.0,8
+97bb95f55a,1462686623073,Begin: Sending Password to server,Sending Data,malicious,malicious,5.0,8
+97bb95f55a,1462686623153,App entered onPause(),App Mode Change,malicious,malicious,5.0,8
+97bb95f55a,1462686628485,App entered onDestroy(),App Mode Change,malicious,malicious,5.0,8
+97bb95f55a,1463005996789,Login screen launched(login app) Facebook,Shortcut Tapped,malicious,malicious,5.0,9
+97bb95f55a,1463290923933,App entered onResume(),App Mode Change,malicious,malicious,5.0,10
+97bb95f55a,1463320732738,Begin: Sending Password to server,Sending Data,malicious,malicious,5.0,10
+97bb95f55a,1463320734349,App entered onDestroy(),App Mode Change,malicious,malicious,5.0,10
+97bb95f55a,1463420416591,App entered onPause(),App Mode Change,malicious,malicious,5.0,10
+97bb95f55a,1463480040626,Login screen launched(login app) Skype,Shortcut Tapped,malicious,malicious,5.0,10
+97bb95f55a,1463480040628,App Entered onCreate(),App Mode Change,malicious,malicious,5.0,10
+97bb95f55a,1463480049676,App entered onPause(),App Mode Change,malicious,malicious,5.0,10
+97bb95f55a,1463480049707,App entered onDestroy(),App Mode Change,malicious,malicious,5.0,10
+97bb95f55a,1463507863255,App Entered onCreate(),App Mode Change,benign,malicious,5.0,11
+97bb95f55a,1463507864447,App entered onResume(),App Mode Change,benign,malicious,5.0,11
+97bb95f55a,1463507866295,Entered to Level view,View Change,benign,malicious,5.0,11
+97bb95f55a,1463507867639,Entered to Game view,View Change,benign,malicious,5.0,11
+97bb95f55a,1463507908636,Entered to Game view,View Change,benign,malicious,5.0,11
+97bb95f55a,1463507950238,Entered to Game view,View Change,benign,malicious,5.0,11
+97bb95f55a,1463507983055,Entered to Game view,View Change,benign,malicious,5.0,11
+97bb95f55a,1463508015632,Entered to Game view,View Change,benign,malicious,5.0,11
+97bb95f55a,1463508048059,Entered to Level view,View Change,benign,malicious,5.0,11
+97bb95f55a,1463549205115,Login screen launched(login app) Skype,Shortcut Tapped,malicious,malicious,5.0,11
+97bb95f55a,1463549205121,App Entered onCreate(),App Mode Change,malicious,malicious,5.0,11
+97bb95f55a,1463549214719,Begin: Sending Password to server,Sending Data,malicious,malicious,5.0,11
+97bb95f55a,1463549214783,Begin: Sending Password to server,Sending Data,malicious,malicious,5.0,11
+97bb95f55a,1463549215025,Successful send to server(duration [msec] size[bytes]) 242 27,Sending Data,malicious,malicious,5.0,11
+97bb95f55a,1463549220070,App entered onDestroy(),App Mode Change,malicious,malicious,5.0,11
+97bb95f55a,1463565186705,App Entered onCreate(),App Mode Change,benign,malicious,5.0,12
+97bb95f55a,1463565188239,App entered onResume(),App Mode Change,benign,malicious,5.0,12
+97bb95f55a,1463565193360,Entered to Level view,View Change,benign,malicious,5.0,12
+97bb95f55a,1463565194512,Entered to Game view,View Change,benign,malicious,5.0,12
+97bb95f55a,1463565231480,Entered to Game view,View Change,benign,malicious,5.0,12
+97bb95f55a,1463565295918,Entered to Game view,View Change,benign,malicious,5.0,12
+97bb95f55a,1463565371300,Entered to Game view,View Change,benign,malicious,5.0,12
+97bb95f55a,1463565422668,Entered to Game view,View Change,benign,malicious,5.0,12
+97bb95f55a,1463565457769,Entered to Game view,View Change,benign,malicious,5.0,12
+97bb95f55a,1463565513644,Entered to Game view,View Change,benign,malicious,5.0,12
+97bb95f55a,1463565533503,Entered to Level view,View Change,benign,malicious,5.0,12
+97bb95f55a,1463565546710,Login screen launched(login app) Skype,Shortcut Tapped,malicious,malicious,5.0,12
+97bb95f55a,1463565546711,App Entered onCreate(),App Mode Change,malicious,malicious,5.0,12
+97bb95f55a,1463565557284,Begin: Sending Password to server,Sending Data,malicious,malicious,5.0,12
+97bb95f55a,1463565591784,Begin: Sending Password to server,Sending Data,malicious,malicious,5.0,12
+97bb95f55a,1463565596193,App entered onDestroy(),App Mode Change,malicious,malicious,5.0,12

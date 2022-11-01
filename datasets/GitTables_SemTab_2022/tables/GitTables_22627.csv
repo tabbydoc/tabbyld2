@@ -1,0 +1,41 @@
+col0,col1,col2,col3,col4
+outcome,"What is the outcome you will be modeling?
+- This will not only affect the model itself but also the folder hierarchy for where outputs will be stored","ptb = pre-term birth, [20, 37) weeks                                                              vptb = very pre-term birth, [20, 32) weeks                                                  mptb = middle pre-term birth, [32, 37) weeks      lptb = late pre-term birth, [34, 37) weeks",ptb,
+geography,What area would you like to model?,"Pre-defined census regions:
+- south
+- west
+- midwest
+- northeast
+Pre-defined census divisions:
+- newengland
+- midatlantic
+- southatlantic
+- esc
+- wsc
+- enc
+- wnc
+- pac
+- mountain
+National (all available geographies):
+- all",all,
+model_type,What model type are you running?,inla,inla,
+family,What family/distribution are you running?,poisson = Poisson model                                                 nbinomial = Negative binomial model,poisson,
+formula,"What is the INLA formula you plan to use for your model? For predefined options, please refer to ‘Model_Formulas.xlsx’ listing various formulas",See model reference ‘Model_Formulas.xlsx’,"ptb ~ year_c + black + f(ID, model = 'iid')",
+year_start,What is the model year start?,Between 2007 - 2016,2007,
+year_end,What is the model year end?,Between 2007 - 2016,2016,
+race_eth,"Which races/ethnicities would you like to model? List with ' + ' separating each, note the spaces before & after the ""+""","1 = Hispanic
+2 = Non-Hispanic White                                                 3 = Non-Hispanic Black                                                      4 = Non-Hispanic Al/AN (American Indian, Alaska Native)                                                                         5 = Non-Hispanic A/PI (Asian/Pacific Islander)",,
+recode_binary,Recode race/eth into a binary variable? ,"Nonbinary = Do not recode into binary var
+Black = Recode as black, not black
+Hispanic = Recode as hispanic, not hispanic",Nonbinary,"Be careful, some models restrict to black and white only, so want to make sure that ""black"" in the models that don't restrict race does what we want it to"
+create_sf_obj,"Should a new spatial object (sf) be created for the model area? (TRUE) Or if one exists, can that one be used? (FALSE)","TRUE
+FALSE",0,
+projection,What projection would you like to use for your model area? Provide CRS as EPSG coe or character with proj4string,102003 (Albers Equal Area),102003,
+k,How many neighbors would you like the KNN adjacency matrix to use?,Numeric input,6,
+create_knn_obj,"Should a new adjacency matrix object (knn) be created for the model area? (TRUE) Or if one exists, can that one be used? (FALSE)","TRUE
+FALSE",0,
+predictors,"What predictors are you using in your model? List with ' + ' separating each, note the spaces before & after the ""+""","Any possible predictors, including both fixed and random effects. A fixed effect is just the name of the variable, while a random effect takes the form of: f(idvar, model = 'modeltype'). Depending on the model type, other arguments may be required, such as a 'bym' model type, one with spatial structure, requiring a spatial matrix ('graph = 'filename.adj'","year_c + black + f(ID, model = 'iid')",
+random_slope,"If your model has a random slope, add that part of the formula here, otherwise, use FALSE if no random slope","FALSE
+Random slope formula",0,
+random_intercept,"If your model has a random intercept, add that part of the formula here, otherwise, use FALSE if no random intercept","FALSE
+Random intercept formula","f(ID, model = 'iid')",

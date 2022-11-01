@@ -1,0 +1,28 @@
+col0,col1,col2,col3,col4
+1,1.1,Tek Direk Montajı,1,admin
+2,1.1d,Tek Direk Demontajı,1,admin
+3,1.2,İkiz Direk Montajı,1,admin
+4,1.2d,İkiz Direk Demontajı,1,admin
+5,1.3,Payandalı Direk Montajı,1,admin
+6,1.3d,Payandalı Direk Demontajı,1,admin
+7,1.4,Lente Yapımı,1,admin
+8,1.5,Direğe veya Duvara Fider Çıkılması,1,admin
+9,1.5d,Fider Demontajı,1,admin
+10,1.6,Abone Tesis Fider Montajı,1,admin
+11,1.6d,Abone Tesis Fider Demontajı,1,admin
+12,2.1,Direkli Güz. Her Kapasitede ve Tipte Kablo Çekimi,1,admin
+13,2.1d,Direkli Güz. Her Kapasitede ve Tipte Kablo Demontajı,1,admin
+14,2.1h,Direkli Güz. Her Kapasitede ve Tipte Kablo Hurda demontajı,1,admin
+15,2.2,Blokata(Duvarda) Her Kapasitede ve Tipte Kablo Çekimi,1,admin
+16,2.2d,Blokata(Duvarda) Her Kapasitede ve Tipte Kablo Demontajı,1,admin
+17,2.2h,Blokata(Duvarda) Her Kapasitede ve Tipte Kablo Hurda Demondajı,1,admin
+18,2.3,Yeraltında Her Kapasite ve Tipte Kablo Çekimi,1,admin
+19,2.3d,Yeraltında Her Kapasite ve Tipte Kablonun Demontajı,1,admin
+20,2.3h,Yeraltında Her Kapasite ve Tipte Kablonun Hurda Demontajı,1,admin
+21,2.4,Yeraltina Döşenmiş Mevcut HDPE boru içerisinden cable jet ile F/O Kablo çekilmesi,1,admin
+22,2.4d,Yeraltina Döşenmiş Mevcut HDPE boru içerisinden cable jet ile F/O Kablo Demontajı,1,admin
+23,2.4h,Blokta Dağıtım Kablosu Hurda Demontajı,1,admin
+24,2.5,Kazser Yöntemi ile Kanalı Açılmış Güzergahta Kablo Döşenmesi (bakır kablo),1,admin
+25,2.5d,Kazser Yöntemi ile Kanalı Açılmış Güzergahta Kablo Demontajı (bakır kablo),1,admin
+26,2.5h	,,1,admin
+27,2.6,Kablonun Prefabrik Beton Menhol Duvarına Tutturulması,1,admin

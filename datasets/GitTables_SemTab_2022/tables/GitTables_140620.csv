@@ -1,0 +1,91 @@
+col0,col1,col2,col3,col4
+1,amblyopia,",",4.0,1
+2,blurred vision,",",,1
+3,difficulty watching TV,",",4.0,1
+4,difficulty with night driving,",",4.0,1
+5,difficulty with reading,",",,1
+6,difficulty with road signs,",",4.0,1
+7,first post-op cataract follow up,",",4.0,1
+8,follow up visit,",",,1
+9,glare,",",,1
+10,glare with headlights,",",4.0,1
+11,gradual deterioration of vision,",",,1
+12,history of Strabismus,",",4.0,1
+13,new referral to cataract service,",",4.0,1
+14,pseudophakia,",",,1
+15,reduced vision,",",4.0,1
+16,sudden loss of vision,",",8.0,1
+17,trauma,",",4.0,1
+18,mild,",",,2
+19,moderate,",",,2
+20,severe,",",,2
+21,detected by diabetic screening,",",4.0,3
+22,gradual onset,",",,3
+23,noticed by optometrist,",",,3
+24,noticed by parent,",",,3
+25,sudden onset,",",,3
+26,both eyes,",",,4
+27,left eye,",",,4
+28,left more than right,",",,4
+29,right eye,",",,4
+30,right more than left,",",,4
+31,1 day,",",,5
+32,1 month,",",,5
+33,1 week,",",,5
+34,2 weeks,",",,5
+35,2-3 days,",",,5
+36,6 months,",",,5
+37,one year,",",4.0,5
+38,two years,",",4.0,5
+39,Fluorescein angiography,",",,6
+40,OCT,",",,6
+41,field test,",",,6
+42,refraction,",",,6
+43,ultrasound,",",,6
+44,Cataract: Corneal disease limiting postoperative outcome,",",4.0,7
+45,"Cataract: Early cataract, not for surgery at present",",",4.0,7
+46,Cataract: Glaucoma disease limiting postoperative outcome,",",4.0,7
+47,Cataract: Macular disease limiting postoperative outcome,",",4.0,7
+48,"Cataract: No significant cataract, surgery not required",",",4.0,7
+49,Optician: Review refraction with own optician,",",,7
+50,YAG laser capsulotomy was performed with no complications,",",4.0,7
+51,booked for first eye,",",4.0,7
+52,booked for second eye,",",4.0,7
+53,booked for surgery,",",,7
+54,copy of clinical details provided for Optician,",",,7
+55,discharge,",",,7
+56,"discharge, to be reviewed as necessary via A&E or the GP",",",,7
+57,glasses prescribed,",",,7
+58,good outcome from surgery listed for second eye,",",4.0,7
+59,offer of surgery declined by patient,",",,7
+60,personal information leaflet provided to patient,",",,7
+61,removal of suture is done,",",4.0,7
+62,satisfactory post operative progress,",",,7
+63,wean off topical medication,",",,7
+64,blepharitis,",",,8
+65,blepharochalasis,",",4.0,8
+66,blepharospasm,",",,8
+67,conjunctivitis,",",,8
+68,crusting of lashes,",",,8
+69,difficult access,",",,8
+70,discharge,",",,8
+71,dry eyes,",",,8
+72,ectropion,",",,8
+73,entropion,",",,8
+74,injected lid margins,",",,8
+75,lower lid ectropion,",",,8
+76,none,",",,8
+77,poor tear film,",",,8
+78,punctal ectropian,",",,8
+79,squint,",",,8
+80,discharged and glasses not required,",",,9
+81,discharged with glasses,",",,9
+82,discharged with prescription for glasses,",",,9
+83,good outcome from the first eye surgery and is booked for second eye,",",,9
+84,listed for left cataract surgery under LA,",",,9
+85,listed for right cataract surgery under LA,",",,9
+86,new glasses prescribed,",",,9
+87,patient declined surgery,",",,9
+88,patient managing well and not keen for surgery,",",,9
+89,removal of suture at next visit,",",,9
+90,wean off the medication,",",,9

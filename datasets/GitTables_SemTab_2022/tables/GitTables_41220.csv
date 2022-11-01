@@ -1,0 +1,20 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23
+default_chart_a_tax_1,10% Honorarios por Servicios Independientes,,R-ISR 10%,purchase,percent,-0.1,False,1,,default_chart_a_account_712,default_chart_a_account_712,1,-1,default_chart_a_tax_code_43,,-1,-1,default_chart_a_tax_code_43,,default_chart_a,False,False,True
+default_chart_a_tax_2,ITBIS Exento en compras,,C-EXENTA,purchase,percent,0.0,False,1,,,,1,1,,,1,1,,,default_chart_a,True,True,False
+default_chart_a_tax_3,ITBIS 8% Ventas,,V-ITBIS 8%,sale,percent,0.08,False,1,,,,1,1,,,1,1,,,default_chart_a,True,False,False
+default_chart_a_tax_4,ITBIS 8% Compras,,C-ITBIS 8%,purchase,percent,0.08,False,1,,,,1,1,,,1,1,,,default_chart_a,True,False,False
+default_chart_a_tax_5,ITBIS 11% Ventas,,V-ITBIS 11%,sale,percent,0.11,False,1,,,,1,1,,,1,1,,,default_chart_a,True,False,False
+default_chart_a_tax_6,ITBIS 11% Compras,,C-ITBIS 11%,purchase,percent,0.11,False,1,,,,1,1,,,1,1,,,default_chart_a,True,False,False
+default_chart_a_tax_7,ITBIS Exento en ventas,,V-EXENTA,sale,percent,0.18,False,1,,,,1,1,default_chart_a_tax_code_25,,-1,1,default_chart_a_tax_code_25,,default_chart_a,True,True,False
+default_chart_a_tax_8,ITBIS 18% Compras,,C-ITBIS 18%,purchase,percent,0.18,False,1,,default_chart_a_account_53,default_chart_a_account_53,1,-1,,default_chart_a_tax_code_34,1,1,,default_chart_a_tax_code_34,default_chart_a,True,False,False
+default_chart_a_tax_9,ITBIS 18% Compras Servicios,,CS-ITBIS 18%,purchase,percent,0.18,False,1,,default_chart_a_account_57,default_chart_a_account_57,1,-1,,default_chart_a_tax_code_35,1,1,,default_chart_a_tax_code_35,default_chart_a,True,False,False
+default_chart_a_tax_10,ITBIS 18% Compras Importaciones,,IMP-ITBIS 18%,purchase,percent,0.18,False,1,,default_chart_a_account_56,default_chart_a_account_56,-1,-1,,default_chart_a_tax_code_36,1,1,,default_chart_a_tax_code_36,default_chart_a,True,False,False
+default_chart_a_tax_12,2% Otras Retenciones (Norma 07-2007),,R-ISR 2%,purchase,percent,-0.02,False,1,,,,1,1,,,1,1,,,default_chart_a,False,False,True
+default_chart_a_tax_13,18% ITBIS Retenido,,R-ITBIS 18%,purchase,percent,-0.18,False,1,,default_chart_a_account_163,default_chart_a_account_163,1,-1,default_chart_a_tax_code_38,default_chart_a_tax_code_39,-1,-1,,default_chart_a_tax_code_39,default_chart_a,True,False,True
+default_chart_a_tax_14,ITBIS 18% Ventas,,V-ITBIS 18%,sale,percent,0.18,False,10,,default_chart_a_account_71,default_chart_a_account_71,1,1,default_chart_a_tax_code_27,default_chart_a_tax_code_31,-1,-1,default_chart_a_tax_code_27,default_chart_a_tax_code_31,default_chart_a,True,False,False
+default_chart_a_tax_15,ITBIS 18% Compras Includo,True,C-ITBIS 18% Incluido,purchase,percent,0.18,False,1,,default_chart_a_account_53,default_chart_a_account_53,1,-1,,default_chart_a_tax_code_34,1,1,,default_chart_a_tax_code_34,default_chart_a,True,False,False
+default_chart_a_tax_16,ITBIS 18% Compras Servicios Incluido,True,CS-ITBIS 18% Incluido,purchase,percent,0.18,False,1,,default_chart_a_account_57,,1,-1,,default_chart_a_tax_code_35,1,1,,default_chart_a_tax_code_35,default_chart_a,True,False,False
+default_chart_a_tax_19,ISC Telecomunicacones,,TELE-ISC,purchase,percent,0.1,False,1,,default_chart_a_account_529,,1,1,,,1,1,,,default_chart_a,False,False,False
+default_chart_a_tax_20,CDT Telecomunicacones,,TELE-CDT,purchase,percent,0.02,False,1,,default_chart_a_account_529,,1,1,,,1,1,,,default_chart_a,False,False,False
+default_chart_a_tax_23,10% Retencion por alquileres,,R-Alquileres 10%,purchase,percent,-0.1,False,1,,default_chart_a_account_712,default_chart_a_account_712,1,1,default_chart_a_tax_code_42,,-1,-1,default_chart_a_tax_code_42,,default_chart_a,False,False,True
+default_chart_a_tax_24,2% ITBIS Retencion (Norma No. 8-04),,R-ITBIS/8-04 ,purchase,percent,0.2,False,1,,default_chart_a_account_55,default_chart_a_account_55,1,1,,default_chart_a_tax_code_37,-1,-1,,default_chart_a_tax_code_37,default_chart_a,True,False,False

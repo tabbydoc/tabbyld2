@@ -1,0 +1,186 @@
+col0,col1,col2,col3,col4
+lab,include,,,many
+subid,include,,,many
+method,include,,,many
+ra,include,,,many
+age_days,include,,numeric,many
+trial_order,include,,numeric,many
+session_error,include,,,many
+session_error_type,include,,,many
+notes,include,,,many
+second_session,include,,,many
+lang_group,include,,,many
+lang1,include,,,many
+lang1_exposure,include,,,many
+lang2,include,,,many
+lang2_exposure,include,,,many
+lang3,include,,,many
+lang3_exposure,include,,,many
+caregiver_seat,include,,,many
+macarthur_ladder,include,,numeric,many
+participant_gender,sub,gender,,many
+race_ethinicty,sub,race_ethnicity,,many
+parenta_gender,include,,,many
+parenta_education,include,,,many
+parenta_education_info,exclude,,,babylab_nijmegen_participants.ssv
+parentb_gender,include,,,many
+parentb_education,include,,,many
+parentb_education_info,exclude,,,babylab_nijmegen_participants.ssv
+preterm,include,,,many
+days_preterm,include,,numeric,many
+prev_earinfection,include,,,many
+curr_earinfection,include,,,many
+hearing_vision,include,,,many
+hearing_vision_info,include,,,many
+cognitive_developmental,include,,,many
+cognitive_developmental_info,include,,,many
+sib1_age,include,,,many
+sib1_gender,include,,,many
+sib2_age,include,,,many
+sib2_gender,include,,,many
+sib3_age,include,,,many
+sib3_gender,include,,,many
+sib4_age,include,,,many
+sib4_gender,include,,,many
+tod,include,,,many
+season,include,,,many
+ra/only_offline_coding,exclude,,,Babylab_parisdescares2_participants_6-9.xlsx
+lang4,include,,,many
+lang4_exposure,include,,,many
+bilingual_nae,include,,,many
+bilingual_parenta_nae,include,,,many
+bilingual_parentb_nae,include,,,many
+bilingual_interview_lang,include,,,many
+beard,include,,,many
+ratype,include,,,many
+childcare,include,,,many
+visits,include,,,many
+household_size,include,,,many
+last_feed_min,include,,,many
+last_sleep_min,include,,,many
+termtime,include,,,many
+popnum,include,,,many
+popkm2,include,,,many
+race_ethnicity,include,,,many
+parent_a_gender,sub,parenta_gender,,many
+parent_a_education,sub,parenta_education,,many
+parent_a_education_id,exclude,,,babylab_plymouth Participants.xlsx
+parent_b_gender,sub,parentb_gender,,many
+parent_b_education,sub,parentb_education,,many
+parent_b_education_id,exclude,,,babylab_plymouth Participants.xlsx
+days_early,sub,days_preterm,,babylab_plymouth Participants.xlsx
+prev_ear_infection,sub,prev_earinfection,,many
+current_ear_infection,sub,curr_earinfection,,many
+sibling1_age,sub,sib1_age,,many
+sibling1_gender,sub,sib1_gender,,babylab_plymouth Participants.xlsx
+sibling2_age,sub,sib2_age,,babylab_plymouth Participants.xlsx
+sibling2_gender,sub,sib2_gender,,babylab_plymouth Participants.xlsx
+sibling3_age,sub,sib3_age,,babylab_plymouth Participants.xlsx
+sibling3_gender,sub,sib3_gender,,babylab_plymouth Participants.xlsx
+sibling4_age,sub,sib4_age,,babylab_plymouth Participants.xlsx
+sibling4_gender,sub,sib4_gender,,babylab_plymouth Participants.xlsx
+dob,exclude,,,babylab-lancaster-8mo-participants.csv
+date_of_test,exclude,,,many
+x46,exclude,,,babylab-leiden Participants.csv
+x_1,exclude,,,many
+x48,exclude,,,many
+x49,exclude,,,many
+x50,exclude,,,many
+x51,exclude,,,babyling_oslo_6-9months_participantdata.ssv
+x52,exclude,,,babyling_oslo_6-9months_participantdata.ssv
+x53,exclude,,,babyling_oslo_6-9months_participantdata.ssv
+x54,exclude,,,babyling_oslo_6-9months_participantdata.ssv
+x55,exclude,,,babyling_oslo_6-9months_participantdata.ssv
+x56,exclude,,,many
+x57,exclude,,,many
+x58,exclude,,,babyling_oslo_6-9months_participantdata.ssv
+x59,exclude,,,babyling_oslo_6-9months_participantdata.ssv
+macarthur,sub,macarthur_ladder,,many
+gender,include,,,many
+sibling_1_gender,sub,sib1_gender,,ethos-rennes_ParticipantsData.xlsx
+sibling_2_age,sub,sib2_age,,ethos-rennes_ParticipantsData.xlsx
+sibling_2_gender,sub,sib2_gender,,ethos-rennes_ParticipantsData.xlsx
+sibling_3_age,sub,sib3_age,,ethos-rennes_ParticipantsData.xlsx
+sibling_3_gender,sub,sib3_gender,,ethos-rennes_ParticipantsData.xlsx
+sibling_4_age,sub,sib4_age,,ethos-rennes_ParticipantsData.xlsx
+sibling_4_gender,sub,sib4_gender,,ethos-rennes_ParticipantsData.xlsx
+last_feed,sub,last_feed_min,,ethos-rennes_ParticipantsData.xlsx
+last_sleep,sub,last_sleep_min,,ethos-rennes_ParticipantsData.xlsx
+temp,exclude,,,ICCL-BC_Participant Data.xlsx
+x1,exclude,,,irl-concordia_Monolingual_Participant_Info.csv
+birthday,exclude,,,isl_notredame_Participants Data.csv
+parenta_education_exact,exclude,,,many
+parentb_education_exact,exclude,,,many
+lang_parenta,exclude,,,langlab-ucla -  ManyBabies 1 Individual Lab Participants Data.xlsx
+lang_parentb,exclude,,,langlab-ucla -  ManyBabies 1 Individual Lab Participants Data.xlsx
+lang_interview,exclude,,,langlab-ucla -  ManyBabies 1 Individual Lab Participants Data.xlsx
+zipcode,exclude,,,langlab-ucla -  ManyBabies 1 Individual Lab Participants Data.xlsx
+median_income_zipcode,exclude,,,langlab-ucla -  ManyBabies 1 Individual Lab Participants Data.xlsx
+partcipant_gender,sub,gender,,LLL_Liv_Participants.csv
+cognitive_development,sub,cognitive_developmental,,many
+cogntitive_developmental_info,sub,cognitive_developmental_info,,LLL_Liv_Participants.csv
+name,exclude,,,lscp-psl_manybabies_Participants.csv
+time,exclude,,,lscp-psl_manybabies_Participants.csv
+date,exclude,,,lscp-psl_manybabies_Participants.csv
+childcare_french,exclude,,,lscp-psl_manybabies_Participants.csv
+orderrun(of_experiments),exclude,,,Manchester_MB_info.xlsx
+subdid,sub,subid,,MB1.participant.babylab-reading.csv
+conitive_developmental,sub,cognitive_developmental,,MB1.participant.babylab-reading.csv
+cognitive-developmental_info,sub,cognitive_developmental_info,,MB1.participant.babylab-reading.csv
+bilingual_interview_lag,exclude,,,MB1.participant.babylab-reading.csv
+http://sedac.ciesin.columbia.edu/mapping/popest/gpw-v4/,exclude,,,midevlab-bicocca_ParticipantData.xlsx
+x60,exclude,,,musdev-utm_ParticipantData.csv
+x61,exclude,,,musdev-utm_ParticipantData.csv
+prev_earinfections,sub,prev_earinfection,,many
+current_earinfections,sub,curr_earinfection,,many
+hearing_screen_hospital,exclude,,,many
+hearing_screen_appt,exclude,,,many
+bilingual_interiew_lang,exclude,,,many
+parebta_gender,sub,parenta_gender,,uds-saarland_participants.ssv
+hear_vision,sub,hearing_vision,,uds-saarland_participants.ssv
+hear_vision_info,sub,hearing_vision_info,,uds-saarland_participants.ssv
+cognitive_development_info,sub,cognitive_developmental_info,,uds-saarland_participants.ssv
+sib5_age,exclude,,,utk-infantlangaugelab_12-15mos_participants.xlsx
+sib5_gender,exclude,,,utk-infantlangaugelab_12-15mos_participants.xlsx
+participant,sub,gender,,weescience-edinburgh_ParticipantInfo.xlsx
+lang_1,sub,lang1,,many
+lang_1_exposure,sub,lang1_exposure,,many
+lang_2,sub,lang2,,many
+hearing/vision,sub,hearing_vision,,many
+hearing/vision_info,sub,hearing_vision_info,,many
+cognitive/developmental,sub,cognitive_developmental,,many
+cognitive/developmental_info,sub,cognitive_developmental_info,,many
+sibling_1_age,sub,sib1_age,,many
+race/ethnicity,sub,race_ethnicity,,many
+birth_date,exclude,,,many
+birth_order,exclude,,,many
+birth_problems,exclude,,,many
+caregiver,exclude,,,many
+date_tested,exclude,,,many
+experiment_headphone,exclude,,,many
+family_age,exclude,,,many
+hours,exclude,,,many
+id,exclude,,,many
+longer_time_caregiver,exclude,,,many
+parent_a_age,exclude,,,many
+parent_a_doctorate,exclude,,,many
+parent_a_master's_degree,exclude,,,many
+parent_a_native_lang,exclude,,,many
+parent_a_race/ethnicity,exclude,,,many
+parent_a_relationship,exclude,,,many
+parent_b_age,exclude,,,many
+parent_b_doctorate,exclude,,,many
+parent_b_master's_degree,exclude,,,many
+parent_b_native_lang,exclude,,,many
+parent_b_race/ethnicity,exclude,,,many
+parent_b_relationship,exclude,,,many
+parent_b_second_degree,exclude,,,many
+"season,,,",sub,season,,babylab_nijmegen_participants.csv
+start_of_attendance_at_the_childcare,exclude,,,many
+total_cdi,exclude,,,many
+understand,exclude,,,many
+understand_and_say,exclude,,,many
+x44,exclude,,,ManyBabies 1 Participant Data LMU.csv
+x45,exclude,,,ManyBabies 1 Participant Data LMU.csv
+x47,exclude,,,ManyBabies 1 Participant Data LMU.csv
+gestation_week,exclude,,,many

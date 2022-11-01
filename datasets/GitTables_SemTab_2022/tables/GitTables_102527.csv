@@ -1,0 +1,55 @@
+col0,col1,col2,col3,col4
+project_metadata,Identifier,"""DOI, or give it a 6 number code""",E+6 number code,n
+project_metadata,Proj_name,"""give your project a unique name/title""",Please make it short and findable,y
+project_metadata,Title,"""title, spaces allowed here""",Free text,n
+project_metadata,Creator,"""People who created the data""","Name, first name",y
+project_metadata,Contributors,"""full name of other contributors, please enter details on contributor roles in the description field (people who helped but would not appear on the publication).""","Name, first name (https://orcid.org/xxxx-xxxx-xxxx-xxxx);Name, first name (https://orcid.org/xxxx-xxxx-xxxx-xxxx);""",n
+project_metadata,Creator_email,"""e-mail of the experimentators, comma is separating emails""",e-mail address of the corresponding author,n
+project_metadata,Publisher,"""Corporate/Institutional or personal name""",,n
+project_metadata,Publication year,"""year the data was published""","NA if data not published yet, use 4 digit years",n
+project_metadata,Production year,year the data was produced,XXXX,n
+project_metadata,Subject area,automatic,Behavioural neurobiology,n
+project_metadata,Resource,automatic,dataset,n
+project_metadata,Rights,licence ,"CC0, CC-BY",y
+project_metadata,rights holder,"person(s), institution detaining rights","Name, first name or institution, address",y
+project_metadata,Description_comments,"""free text comment for this experiment""",,n
+project_metadata,funder information,"Information about funder, give project number if possible",,n
+project_metadata,video_acquisition,"""name of the software used for the video acquisition, indicate version number.""","10F_videocage, HCS3, HSC4",n
+project_metadata,video_analysis,"""name of the software used for the video analysis, indicate version number.""",HCS3,y
+project_metadata,group_by,"""variable of the animal metadata, which is used to create groups""","genotype, treatment, age_category, use ""+"" if more than one",y
+project_metadata,confound_by,"""variable of the animal metadata, which is not used to create groups but which is important for the data sampling""","gender,""",n
+project_metadata,source_data,"""where is the data? Either this_github, https:/ or USB_stick ""","""this_github"" if data is put on the data folder of your clone, ""https:/"" if somewhere else on the web, ""USB_stick"" if a path to your computer or external drive, path to the data will then be entered in the master R file under STICK variable.",y
+project_metadata,Folder_path,"""path to the Folder of the experiment (containing all data and metadata), path relative to the folder containing the project_metadata.csv file""",,y
+project_metadata,raw_data_folder,"""path to folder containing the data, relative to Folder_path. ""","""HCS_3_output""",y
+project_metadata,video_folder,"""path to folder containing the videos, relative to Folder_path. Use an name which is explicit about the software used to produce it. Note that multiple folder may exist if the videos were analysed using different software, but this cell can contain only one value.""",Video,n
+project_metadata,animal_metadata,"""path to file containing the metadata for each experiment""",default: metadata/ -Proj_name-_metadata.csv ,y
+project_metadata,lab_metadata,"""path to file containing the metadata for each lab""",default: metadata/Lab_metadata.csv,y
+Lab_metadata,Lab_ID,"""give it a 5 number code""",L+5 number code,y
+Lab_metadata,light_on,"""time of day when the light is on in the room (ZT0 time), format is HH:mm:ss""",HH:mm:ss,y
+Lab_metadata,light_off,"""time of day when the light is off , format is HH:mm:ss""",HH:mm:ss,y
+Lab_metadata,temperature,"""temperature in the room, in degree celcius, range:  21 - 23",,n
+Lab_metadata,cage_type,"""cage type used for that experiment (2,3,4)""","2,3,4",n
+Lab_metadata,address,"""Gives the address of the lab where the experiment is performed""",,n
+Lab_metadata,north_position,"""give position of the north in degrees clockwise, 0 being the direction of the rack over the small side""",,n
+Lab_metadata,daylight_intensity_lux,"""measure light intensity 1 h after light on""",,n
+Lab_metadata,daylight_spectrum,"""what is the color spectrum of the daylight""",,n
+Lab_metadata,nightlight_intensity_lux,"""measure light intensity 1 h after light off""",,n
+Lab_metadata,nightlight_change curve,"""How is the light intensity changing at light off""","sharp, linear over 10s, exponential over 5s,""",n
+Experiment_metadata,animal_ID,"""animal ID as entered in the mouse book""",,y
+Experiment_metadata,animal_birthdate,"""Birth date of the animal""",Read from mouse book,n
+Experiment_metadata,treatment,"""Indicate groups distinguished by a different treatment""","PBS Vs drug, sleep deprived vs control,"" (Read from mouse book?)",y
+Experiment_metadata,genotype,"""Indicate animal genotype, use MGI number if possible""",Read from mouse book,y
+Experiment_metadata,other_category,"“if your category does not fit in genotype or treament, add it here","please indicate the type of category in the name (age_category_1,…)",n
+Experiment_metadata,date,"""date of the experiment start""",use YYYY-MM-DD format,y
+Experiment_metadata,test cage,"""position of cage in setup""","1,2,3,4 in HCS",n
+Experiment_metadata,real time start,"""indicate the real time of start of the experiment""","""HH:MM:SS""",y
+Experiment_metadata,Lab_ID,"""indicate the ID of the lab, corresponding to the ID given in the Lab_metadata file""",This allows to have enter lab information only once,y
+Experiment_metadata,Exclude_data,"IF “exclude” data will be excluded from the analysis, useful when an experiment run for much less time than the others.",“exclude”,
+Experiment_metadata,comment,"""comments on the data for example: cage not positioned correctly""",Free text,
+Experiment_metadata,experiment_folder_name,"""name of folder containing all the data""",,
+Experiment_metadata,Behavior_sequence,"""path to file containing the behavior sequence""","Path : ""Projects_metadata$Folder_path""/""Projects_metadata$raw_data_folder""/""Experiment_metadata$experiment_folder_name""/""Experiment_metadata$Behavior_sequence"" should work",
+Experiment_metadata,Onemin_summary,"""path to file containing the minute summary data""",,
+Experiment_metadata,Onehour_summary,"""path to file containing the hour summary data""",,
+Experiment_metadata,primary_behav_sequence,"""path to file containing the primary sequence data, the mbr file in HCS""",,
+Experiment_metadata,primary_position_time,"""path to file containing the primary position data through time""",,
+Experiment_metadata,primary_datafile,"""label for which file is used as the primary file (what was found as most raw), available values: ","hour_summary, min_summary, mbr",

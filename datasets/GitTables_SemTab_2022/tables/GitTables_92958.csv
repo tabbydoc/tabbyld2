@@ -1,0 +1,31 @@
+col0,col1,col2
+list1,Home,Home
+list2,Tests,Tests
+list3,EEG,EEG
+list4,Consent,Toestemming
+list5,Account,Account
+list6,Log Out,Uitloggen
+list7,About,Over ons
+list8,Participate,Deelname
+list9,App,App
+list10,Contact,Contact
+list11,Register,Registreren
+list12,Log In,Inloggen
+list13,More Information, Meer Informatie
+list14,Admin,Admin
+list15,Recommend Study,Studie Aanbevelen
+info1,Your participation ID is:,Uw deelname-ID is:
+info2,Copy and paste this into the QuantActions TapCounter App:, Kopieer en plak dit in de QuantActions TapCounter App:
+info3,When the app is launched, Wanneer de App is geopend
+info4,click on the plus sign, klik op het plus teken
+info5,then Participate, dan Participate
+info6,and Paste, en Paste
+info1a,To complete the registration use one of these methods:,Gebruik een van de volgende methoden om de registratie te voltooien:
+info2a,Open the TapCounter App and press the menu button,Open de TapCounter App en druk op de menuknop
+info3a,Open the QR-Code scanner by clicking on, Open de QR-codescanner door te klikken op
+info4a,Point the camera at the following QR code:,Richt de camera op de volgende QR-code:
+method_1,Method 1, Methode 1
+method_2,Method 2, Methode 2
+copy,Copy participation ID, Kopieer deelname-ID
+info_banner,We need your help. <a href=/rec_system>Tell</a> your friends about our research and earn 5 EUR for each successful signup OR click <a href=/rec_system> here</a> if you were recommended by a friend. ,We hebben uw hulp nodig. <a href=/rec_system>Vertel</a> uw vrienden over ons onderzoek en verdien 5 EUR voor elke succesvolle inschrijving OF <a href=/rec_system> klik</a> hier als u bent  doorverwezen door een vriend.
+info_banner_2,We need your help. <a href=/rec_system>Tell</a> your friends about our research OR click <a href=/rec_system> here</a> if you were recommended by a friend. ,We hebben uw hulp nodig. <a href=/rec_system>Vertel</a> uw vrienden over ons onderzoek OF <a href=/rec_system> klik</a> hier als u bent  doorverwezen door een vriend.

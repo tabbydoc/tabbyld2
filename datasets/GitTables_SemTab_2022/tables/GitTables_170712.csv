@@ -1,0 +1,37 @@
+col0,col1,col2
+call_number,integer,A unique 9-digit number assigned by the 911 Dispatch Center (DEM) to this call. These number are used for both Police and Fire calls.
+unit_id,string,Unit Identifier. For example E01 for Engine 1 or T01 for Truck 1.
+incident_number,integer,A unique 8-digit number assigned by DEM to this Fire incident.
+call_type,string,Type of call the incident falls into. See the list below.
+call_date,date,Date the call is received at the 911 Dispatch Center. Used for reporting purposes.
+watch_date,date,Watch date when the call is received. Watch date starts at 0800 each morning and ends at 0800 the next day.
+received_timestamp,timestamp,Date and time of call is received at the 911 Dispatch Center.
+entry_timestamp,timestamp,Date and time the 911 operator submits the entry of the initical call information into the CAD system
+dispatch_timestamp,timestamp,Date and time the 911 operator dispatches this unit to the call.
+response_timestamp,timestamp,Date and time this unit acknowledges the dispatch and records that the unit is en route to the location of the call.
+on_scene_timestamp,timestamp,Date and time the unit records arriving to the location of the incident
+transport_timestamp,timestamp,"If this unit is an ambulance, date and time the unit begins the transport unit arrives to hospital"
+hospital_timestamp,timestamp,"If this unit is an ambulance, date and time the unit arrives to the hospital."
+call_final_disposition,string,"Disposition of the call (Code). For example TH2: Transport to Hospital - Code 2, FIR: Resolved by Fire Department"
+available_timestamp,timestamp,Date and time this unit is not longer assigned to this call and it is available for another dispatch.
+address,string,Address of midblock point associated with incident (obfuscated address to protect caller privacy)
+city,string,City of incident
+zipcode_of_incident,,Zipcode of incident
+battalion,string,Emergency Response District (There are 9 Fire Emergency Response Districts)
+station_area,string,Fire Station First Response Area associated with the address of the incident
+box,string,"Fire box associated with the address of the incident. A box is the smallest area used to divide the City. Each box is associated with a unique unit dispatch order. The City is divided into more than 2,400 boxes."
+original_priority,string,Initial call priority (Code 2: Non-Emergency or Code 3:Emergency).
+priority,string,Call priority (Code 2: Non-Emergency or Code 3:Emergency).
+final_priority,integer,Final call priority (Code 2: Non-Emergency or Code 3:Emergency).
+als_unit,boolean,Does this unit includes ALS (Advance Life Support) resources? Is there a paramedic in this unit?
+call_type_group,string,"Call types are divided into four main groups: Fire, Alarm, Potential Life Threatening and Non Life Threatening."
+number_of_alarms,integer,Number of alarms associated with the incident. This is a number between 1 and 5.
+unit_type,string,Unit type
+unit_sequence_in_call_dispatch,integer,A number that indicates the order this unit was assigned to this call
+fire_prevention_district,string,Bureau of Fire Prevention District associated with this address
+supervisor_district,string,Supervisor District associated with this address
+neighborhood_district,string,"Neighborhood District associated with this address, boundaries available here: https://data.sfgov.org/d/p5b7-5n3h"
+location,string,"Latitude and longitude of address obfuscated either to the midblock, intersection or call box"
+row_id,string,Unique identifier used for managing data updates. It is the concatenation of Call Number and Unit ID separated by a dash
+latitude,float,Latitude of the address
+longitude,float,Longitude of the address

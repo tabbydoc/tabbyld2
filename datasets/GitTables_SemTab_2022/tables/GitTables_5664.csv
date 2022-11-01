@@ -1,0 +1,12 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13
+True,1,REG01,Alfred,Exco,IT / Portfolio Manager,aeco@the-agile-factory.com,41123456483.0,41123456483.0,001,test_aexco,REGULAR,,DEV
+True,2,,John,Dm,Delivery manager,jdm@the-agile-factory.com,41123456789.0,,,test_jdm,REGULAR,,OPS
+True,3,REG03,Robert0,Pm0,Project manager,rpm@the-agile-factory.com,41433456789.0,,,test_rpm,REGULAR,1.0,DEV
+True,4,REG04,Suzan,Pmo,,spmo@the-agile-factory.com,41433456659.0,,,test_spmo,REGULAR,9.0,IT
+True,5,REG05,Mary,Marketing,,mdirector@the-agile-factory.com,41123456483.0,,,to_make_it_work,REGULAR,1.0,OFFERS
+True,6,REG06,Bill,VP,VP Marketing,bvp@the-agile-factory.com,41123456483.0,,,bvp,REGULAR,,MARKETING
+True,7,REG07,James,Dev,Developper,jdev@the-agile-factory.com,41123456483.0,,,test_jdev,REGULAR,1.0,DEV
+True,8,REG08,Gael,Archi,Enterprise Architect,garchi@the-agile-factory.com,,,,test_garchi,REGULAR,1.0,DEV
+True,9,REG09,Sam,All,Key User,sall@the-agile-factory.com,,,,test_sall,REGULAR,,IT
+True,10,REG11,Johann,Kohler,Key User,johann.kohler@the-agile-factory.com,,,,test_jkohler,REGULAR,,IT
+True,11,REG12,Jean,Bon123,Charcuterie,jean.bon@taf.com,791234567.0,321234567.0,ID12,,EXTERNAL,10.0,SALES

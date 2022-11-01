@@ -1,0 +1,101 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+9,9,,False,,,,,Immature neurons
+10,10,,False,,,,,Cortical interneurons
+11,11,,False,,,,,Neural stem/precursor cells
+13,13,,False,,,,,Oligodendrocyte progenitor cells
+19,19,,False,,,,,Proximal tubule cells
+24,24,,False,,,,,Human myeloid-derived suppressor cells
+25,25,,False,,,,,Mouse myeloid-derived suppressor cells
+28,28,,False,,,,,Myeloid dendritic cells
+29,29,,False,,,,,T cell naive
+32,32,,False,,,,,Plasmacytoid dendritic cells
+34,34,,False,,,,,T follicular helper cells
+39,39,,False,,,,,Cardiomyocytes
+41,41,,False,,,,,Osteoclasts and osteoblasts
+44,44,,False,,,,,Glutaminergic neurons
+46,46,,False,,,,,Meningeal cells
+48,48,,False,,,,,Erythroid-like and erythroid precursor cells
+55,55,,False,,,,,Crypt base columnar cells
+57,57,,False,,,,,T memory cells
+60,60,,False,,,,,Clara cells
+67,67,,False,,,,,Peripheral blood mononuclear cells
+70,70,,False,,,,,Juxtaglomerular cells
+71,71,,False,,,,,Cardiac stem and precursor cells
+73,73,,False,,,,,Thymocytes
+74,74,,False,,,,,Urothelial cells
+79,79,,False,,,,,Tuft cells
+80,80,,False,,,,,Paneth cells
+83,83,,False,,,,,Parietal cells
+85,85,,False,,,,,Basal cells
+86,86,,False,,,,,Bergmann glia
+87,87,,False,,,,,Oval cells
+88,88,,False,,,,,Loop of Henle cells
+91,91,,False,,,,,Mesangial cells
+92,92,,False,,,,,Principal cells
+93,93,,False,,,,,Kidney progenitor cells
+96,96,,False,,,,,Large luteal cells
+99,99,,False,,,,,Trophoblast cells
+102,102,,False,,,,,Adipocyte progenitor cells
+103,103,,False,,,,,Osteoclast precursor cells
+106,106,,False,,,,,Hemangioblasts
+107,107,,False,,,,,Endothelial cells (blood brain barrier)
+109,109,,False,,,,,Pancreatic progenitor cells
+111,111,,False,,,,,Cholangiocytes
+114,114,,False,,,,,Mononuclear myocytes
+115,115,,False,,,,,Vascular smooth muscle cells
+116,116,,False,,,,,Airway smooth muscle cells
+117,117,,False,,,,,Pulmonary vascular smooth muscle cells
+118,118,,False,,,,,Purkinje fiber cells
+120,120,,False,,,,,Bone marrow stromal cells
+122,122,,False,,,,,Hepatoblasts
+126,126,,False,,,,,Mesothelial cells
+127,127,,False,,,,,Myoepithelial cells
+131,131,,False,,,,,Mammary epithelial cells
+135,135,,False,,,,,Unknown kidney cell type 1
+137,137,,False,,,,,Endothelial cells (brain)
+138,138,,False,,,,,Retinal epithelial cells
+139,139,,False,,,,,Retinal progenitor cells
+141,141,,False,,,,,Peri-islet Schwann cells
+142,142,,False,,,,,Undefined placental cells
+144,144,,False,,,,,Trigeminal neurons
+145,145,,False,,,,,Undefined pancreas cells 1
+147,147,,False,,,,,Endothelial cells (lungs)
+148,148,,False,,,,,Fibroblasts (lungs)
+150,150,,False,,,,,Airway goblet cells
+152,152,,False,,,,,Fibroblasts (pancreas)
+155,155,,False,,,,,Neuroblasts
+156,156,,False,,,,,Endothelial cells (mammary)
+157,157,,False,,,,,Immature neuronal cells
+158,158,,False,,,,,Fibroblasts (Uterus)
+159,159,,False,,,,,Endothelial cells (heart)
+160,160,,False,,,,,Luminal epithelial cells
+161,161,,False,,,,,Pulmonary alveolar type I cells
+162,162,,False,,,,,Pulmonary alveolar type II cells
+163,163,,False,,,,,Endothelial cells (aorta)
+164,164,,False,,,,,Enteric neurons
+166,166,,False,,,,,Cajal-Retzius cells
+169,169,,False,,,,,Red pulp macrophages
+170,170,,False,,,,,Fibroblasts (spinal cord)
+171,171,,False,,,,,Fibroblasts (brain)
+172,172,,False,,,,,Fibroblasts (bone)
+173,173,,False,,,,,Fibroblasts (kidney)
+174,174,,False,,,,,Small luteal cells
+175,175,,False,,,,,Fibroblasts (lymph nodes)
+176,176,,False,,,,,Fibroblasts (colon)
+179,179,,False,,,,,Undefined liver cells
+180,180,,False,,,,,Salivary mucous cells
+182,182,,False,,,,,Ionocytes
+183,183,,False,,,,,Ciliated cells
+185,185,,False,,,,,Enteric glia cells
+188,188,,False,,,,,Crypt cells
+189,189,,False,,,,,Airway epithelial cells
+193,193,,False,,,,,Reticulocytes
+199,199,,False,,,,,Noradrenergic neurons
+201,201,,False,,,,,Glycinergic neurons
+203,203,,False,,,,,Tanycytes
+204,204,,False,,,,,Gamma delta T cells
+205,205,,False,,,,,Pinealocytes
+207,207,,False,,,,,Satellite glial cells
+208,208,,False,,,,,Sebocytes
+212,212,,False,,,,,Trophoblast stem cells
+213,213,,False,,,,,Trophoblast progenitor cells

@@ -1,0 +1,145 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11
+1,"87755 Timothy Squares
+Simmonsport, WA 90561",Norma Fisher,Raumisttemparatur HK1,°C,int16be,1,0.1,0,value.temperature,,
+1,"PSC 2961, Box 1133
+APO AE 50939",Jorge Sullivan,Raumsolltemperatur HK1,°C,int16be,1,0.1,0,value.temperature,,
+1,"847 Kramer Station Apt. 615
+West Brenda, NE 25659",Elizabeth Woods,Raumfeuchte HK1,%,int16be,1,0.1,0,value.humidity,,
+1,"087 David Locks
+Jaredton, IL 82213",Susan Wagner,Raumisttemparatur HK2,°C,int16be,1,0.1,0,value.temperature,,
+1,"6582 Vanessa Oval
+New Richard, NE 68819",Peter Montgomery,Raumsolltemperatur HK2,°C,int16be,1,0.1,0,value.temperature,,
+1,"7389 Alec Squares Suite 508
+Port Jonathan, FL 50177",Theodore Mcgrath,Raumfeuchte HK2,%,int16be,1,0.1,0,value.humidity,,
+1,"18013 Billy Bridge Suite 522
+Schmitthaven, NC 66355",Stephanie Collins,Aussentemperatur,°C,int16be,1,0.1,0,value.temperature,,
+1,"891 Bullock Ford
+Amandachester, NJ 51431",Stephanie Sutton,Istwert HK1,°C,int16be,1,0.1,0,value.temperature,,
+1,"02489 Cook Park
+Sherriport, MT 50853",Brian Hamilton,Sollwert HK1,°C,int16be,1,0.1,0,value.temperature,,
+1,"23450 Timothy Divide
+Wuland, UT 20341",Susan Levy,Istwert HK2,°C,int16be,1,0.1,0,value.temperature,,
+1,"0976 Williams Mountains Apt. 009
+Lake Mario, OH 85565",Sean Green,Sollwert HK2,°C,int16be,1,0.1,0,value.temperature,,
+1,"1097 Santos Springs Suite 264
+New Michelleborough, WY 51884",Kimberly Smith,Vorlauftemperatur,°C,int16be,1,0.1,0,value.temperature,,
+1,"5100 Scott Burg
+East Clayton, SC 66353",Jennifer Summers,Rücklauftemperatur,°C,int16be,1,0.1,0,value.temperature,,
+1,"412 Snow Manors Apt. 161
+South Kimtown, NV 57004",April Snyder,Druck Heizkreis,bar,int16be,1,0.1,0,value.pressure,,
+1,"5415 David Square
+West Michaeltown, IN 48447",Dana Nguyen,Volumenstrom,l/min,int16be,1,0.1,0,value.valve,,
+1,"03104 Norris Rapids
+Port Donald, DE 62982",Cheryl Bradley,Warmwasser - Isttemperatur,°C,int16be,1,0.1,0,value.temperature,,
+1,"03557 Phillips Wells Suite 291
+New Beverlyburgh, FL 16915",Walter Pratt,Warmwasser - Solltemperatur,°C,int16be,1,0.1,0,value.temperature,,
+1,"332 Watson Shore Apt. 290
+Millerland, MT 39742",Bobby Flores,Zuluft Ist - Lüfterdrehzahl,Hz,uint16be,1,1.0,0,value,,
+1,"645 John Roads
+Danahaven, MS 54060",Tasha Rodriguez,Zuluft Soll - Volumenstrom,m³/h,uint16be,1,1.0,0,value.valve,,
+1,"3547 Stephanie Underpass Apt. 418
+Port Jacqueline, HI 55774",Michelle Kelley,Abluft Ist - Lüfterdrehzahl,Hz,uint16be,1,1.0,0,value,,
+1,"5825 Welch Corners
+Fischerport, UT 59363",Kimberly Maynard,Abluft Soll - Volumenstrom,m³/h,uint16be,1,1.0,0,value.valve,,
+1,"41489 Roger Terrace
+Davisfort, IN 71770",Laurie Wallace,Abluftfeuchte,%,uint16be,1,1.0,0,value.humidity,,
+1,"014 Aaron Locks Suite 714
+Justinborough, CO 05147",Janice Johnston,Ablufttemperatur,°C,int16be,1,0.1,0,value.temperature,,
+1,"8518 Pamela Track Apt. 164
+Aprilshire, SC 28062",Collin Lopez,Ablufttaupunkt,°C,int16be,1,0.1,0,value.temperature,,
+1,"864 Ramos Port Apt. 211
+Moralesmouth, OH 88090",Mary Alvarez,Taupunkttemperatur HK1,°C,int16be,1,0.1,0,value.temperature,,
+1,"637 Neal Island Suite 074
+Lake Tyler, RI 28775",Peter Mcdowell,Taupunkttemperatur HK2,°C,int16be,1,0.1,0,value.temperature,,
+1,"0811 Smith Canyon Apt. 904
+Jessicabury, WV 75585",Sarah Villanueva,Kollektortemperatur,°C,int16be,1,0.1,0,value.temperature,,
+1,"7562 Fisher Spur
+Hernandezberg, MD 17438",Kimberly Myers,Heissgastemperatur,°C,int16be,1,0.1,0,value.temperature,,
+1,"5667 Blair Underpass
+South Shelby, VT 07027",Desiree Cain,Hochdruck,bar,int16be,1,0.01,0,value.pressure,,
+1,"PSC 0312, Box 5023
+APO AP 39498",Stephanie Lawrence,Niederdruck,bar,int16be,1,0.01,0,value.pressure,,
+1,"6708 Carpenter Overpass Suite 735
+Bobbyton, MI 01008",Lauren Hayes,Verdichterstarts,,uint16be,1,1.0,0,value,,
+1,"16396 Shawn Junction
+New Nicolemouth, ND 60236",Whitney Stark,Verdichterdrehzahl,Hz,int16be,1,1.0,0,value.valve,,
+1,"PSC 4080, Box 3513
+APO AP 45818",Angela Salazar,Mischwassermenge,l,int16be,1,0.1,0,value,,
+1,"4486 Olson Well
+North Kevin, CA 01707",Mr. Ryan Sanchez,Betriebsstatus,,uint16be,1,1.0,0,indicator,,
+1,"67771 Christopher Courts Apt. 637
+Port Ronaldfurt, HI 33233",Autumn Robinson,Fehlerstatus,,uint16be,1,1.0,0,indicator,,
+1,"5561 Bishop Turnpike
+Lake Kenneth, NY 79756",Faith Cabrera,BUS-Status,,int16be,1,1.0,0,indicator,,
+1,"3019 Gerald Mall Apt. 340
+Trevinoville, SD 36216",Charles Wolfe,Abtauen eingeleitet,,uint16be,1,1.0,0,indicator,,
+1,"84331 Leonard Fort Suite 749
+East Lisa, NY 43477",Kenneth Kent,Betriebsstatus 2,,uint16be,1,1.0,0,indicator,,
+1,"62281 Kathy Tunnel
+Hudsonborough, VA 17819",Melanie Johnson,Wärmemenge-Heizen - Tag,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"9927 Christina Burg Suite 774
+East Angelaburgh, NM 97149",Lisa Johnston,WM-Heizen - Summe,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"142 Warner View Suite 460
+North Leslie, IA 45480",Jacob Hooper,WM-Heizen - Summe,MWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"5240 Berry Centers
+West Andrew, AR 03720",Alex Woodward,Wärmemenge-Warmwasser - Tag,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"51056 Patricia Forge
+Grahamstad, HI 85576",Caleb Clark,Wärmemenge-Warmwasser - Summe,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"0648 Malone Port Apt. 662
+New Devonhaven, VA 92199",Taylor Johnson,Wärmemenge-Warmwasser - Summe,MWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"23028 Jennifer Meadow Apt. 972
+West Matthewfurt, SC 05261",Brian Green,WM-NE-Heizen - Summe,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"2738 Martin Terrace Suite 547
+Smithhaven, LA 72649",Matthew Bell,WM-NE-Heizen - Summe,MWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"984 Stephen Stravenue
+South Michaelton, KY 97488",Jonathan Williams,Wärmemenge-NE-Warmwasser - Summe,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"Unit 4943 Box 8856
+DPO AA 27891",William Gonzalez,Wärmemenge-NE-Warmwasser - Summe,MWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"98522 Mathis Viaduct Apt. 909
+West Michael, LA 42837",Nicholas Massey,Wärmemenge-WRG - Tag,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"620 Ashley Mills Apt. 507
+Julieborough, OH 56059",Caroline Chambers,Wärmemenge-WRG - Summe,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"212 Shelly Roads
+Fischerview, LA 02288",Amy Lowe,Wärmemenge-WRG - Summe,MWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"8885 Lee Tunnel Suite 208
+Port Donna, OK 50851",Gloria King,Wärmemenge Solar HZ - Tag,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"693 Michael Estate
+Lake Michael, NM 03009",Jessica Thompson,Wärmemenge Solar HZ - Summe,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"342 Miller Mission
+Lake Jennifer, NY 92905",Jason Carroll,Wärmemenge Solar HZ - Summe,MWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"71664 Kim Throughway
+Chelsealand, AK 65056",Emily Howard,Wärmemenge Solar WW - Tag,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"66660 Gomez Port Apt. 945
+South Thomashaven, AZ 11181",Danielle Castro,Wärmemenge Solar WW - Summe,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"0131 Williams Ville Apt. 562
+Richardberg, FL 53480",Patrick Rogers,Wärmemenge Solar WW - Summe,MWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"22708 Madison Spurs
+Herringstad, OR 11353",Douglas Allen,Wärmemenge Kühlen - Summe,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"3454 Holmes Motorway
+Port Rachel, FL 05560",Heather Roberts,Wärmemenge Kühlen - Summe,MWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"805 James Turnpike
+Carrmouth, GA 93500",Travis Schultz,P-Heizung - Tag,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"8081 Smith Trail
+North Ronaldstad, NV 44515",Michelle Hughes,P-Heizung - Summe,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"125 Ian Crossroad Apt. 593
+South Deannaport, MS 07347",Matthew Smith,P-Heizung - Summe,MWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"1607 Munoz River
+Emilyshire, NH 54532",George Allen,P-Warmwasser - Tag,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"3615 David Keys Apt. 269
+West Stephenside, UT 65516",Jamie Hutchinson,P-Warmwasser - Summe,kWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"640 Mary Common
+Michaelville, AZ 20721",Jennifer Morales,P-Warmwasser - Summe,MWh,uint16be,1,1.0,0,value.power.consumption,,
+1,"PSC 4006, Box 5282
+APO AE 23388",Jennifer Bates,Verdichter - Heizen,h,uint16be,1,1.0,0,value,,
+1,"395 Timothy Road
+Williamsbury, LA 43567",Jeremy Green,Verdichter - Kühlen,h,uint16be,1,1.0,0,value,,
+1,"3267 Walter Dam
+Cunninghamtown, OR 01239",Joseph Freeman,Verdichter - Warmwasser,h,uint16be,1,1.0,0,value,,
+1,"00580 Brandon Creek
+Port Eric, MS 03966",Nicole Henson,Elektr. Nacherwärmung - Heizen,h,uint16be,1,1.0,0,value,,
+1,"325 Amanda Cliffs Apt. 695
+South Paulabury, MS 29996",Eric Owens PhD,Elektr. Nacherwärung - Warmwasser,h,uint16be,1,1.0,0,value,,
+1,"PSC 3769, Box 1448
+APO AA 71586",Robin Lopez,SG Ready Betriebszustand,,uint16be,1,1.0,0,indicator,,
+1,"40956 Amanda Walk Apt. 260
+Simonfurt, CT 93980",Miss Angela Swanson DVM,Reglerkennung,,uint16be,1,1.0,0,value,,

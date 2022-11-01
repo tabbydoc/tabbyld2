@@ -1,0 +1,15 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27,col28,col29,col30,col31,col32,col33,col34,col35
+Extension,,,,0,*,,,,,BC Practitioner Qualification Issue Date,The issue date of the practitioner's qualification.,,,,,,,,,,,,,,,,,,Extension,0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}",,
+Extension.id,,,,0,1,,,,"string {[]} {[]}
+",Unique id for inter-element referencing,Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.,,,,,,,,,,,,,,,,,,Element.id,0,1,,,,
+Extension.extension,,,,0,0,,,,"Extension {[]} {[]}
+",Extension,An Extension,,,,,,,,,,,,,,,"value:url}
+",Extensions are always sliced by (at least) url,,open,Element.extension,0,*,,"ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}",
+Extension.url,,,,1,1,,,,"uri {[]} {[]}
+",identifies the meaning of the extension,Source of the definition for the extension code - a logical name or a URL.,"The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.",,,,"<valueUri xmlns=""http://hl7.org/fhir"" value=""http://hl7.org/fhir/ca-bc/provider/StructureDefinition/bc-practitioner-qualification-issue-date-extension""/>",,,,,,,,,,,,,Extension.url,1,1,,,,
+Extension.value[x],,,,0,1,,,,"dateTime {[]} {[]}
+",Value of extension,Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).,,,,,,,,,,,,,,,,,,Extension.value[x],0,1,,"ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+",,

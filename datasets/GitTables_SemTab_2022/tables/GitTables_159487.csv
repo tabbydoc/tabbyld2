@@ -1,0 +1,6 @@
+col0,col1,col2,col3,col4,col5,col6
+tag_customer_id.csv,0.9,13,14, mixed,4.0,4.0
+tag_document_date.csv,1.0,9,10, date,,
+tag_document_id.csv,1.0,11,12, mixed,2.0,8.0
+tag_sub_total.csv,0.9,7,8, decimal,8.0,2.0
+tag_total.csv,1.0,3,4, decimal,8.0,2.0

@@ -1,0 +1,38 @@
+col0,col1,col2,col3,col4,col5,col6
+FILE_NAME,,The file name of the job bulletin from which each record came,String,,No,
+JOB_CLASS_TITLE,A,"The title of the particular class (e.g., Systems Analyst, Carpenter)",String,Any job title matching in in supplied job bulletins,No,
+JOB_CLASS_NO,B,The 4-digit code that corresponds to the job class.,String,Any four character numeric string matching one in supplied job bulletins,No,"Some classes have three non-zero digits — e.g., 0162. These will take the form 0"
+REQUIREMENT_SET_ID,D1,"A main requirement that has to be filled. These are identified with numbers in the job bulletin. Relationships between requirement sets are specified by an ""AND|OR"" conjunction (data element E1 on the data annotation chart)",Integer,Any positive integer,No,
+REQUIREMENT_SUBSET_ID,D2,"A secondary requirement that has to be filled, nested under a REQUIREMENT_SET_ID. These are identified with letters in the job bulletin. Relationships between requirement sub-sets are specified by an ""AND|OR"" conjunction (Data element E2 on the data annotation chart)",String,Any letter or combination of letters.,No,"A-Z represents 1-26. In the case of 27th, 28th, ... sub-requirement, use AA, BB, ..."
+JOB_DUTIES,C,"A summary of what someone does in the particular job
+",String,,No,
+EDUCATION_YEARS,F,Years required in a particular education program,Float,Any positive float representing years or a fraction of years,Yes,"Any job description that mentions months should be converted to years. For instance, 6 months should appear as .5 years"
+SCHOOL_TYPE,G,"School Type: School type required (e.g. college or university, high school)",String,"COLLEGE OR UNIVERSITY, HIGH SCHOOL, APPRENTICESHIP",Yes,"Allowable value list is most likely incomplete and should be updated once you analyze the bulletins. For these purposes ""apprenticeship"" or certificates should be considered school type."
+EDUCATION_MAJOR,H,Major or concentration required,String,,Yes,"A list of many sufficient majors should appear as a single string separated by a ""|""  For instance, ""ECONOMICS|STATISTICS"" would represent ""Economics"" or ""Statistics"". If the school type is an apprenticeship, this should include whatever the apprenticeship must be in (e.g. carpenter, cabinetmaker)"
+EXPERIENCE_LENGTH,I,Years required in a particular job class or external role.,Float,,Yes,Some classes may specify months rather than years. These should be transformed to years (e.g. 6 months should be entered as .5)
+FULL_TIME_PART_TIME,J,"Whether the required experience is full-time, part",String,"FULL_TIME, PART_TIME",Yes,Allowable value list is most likely incomplete and should be updated once you analyze the bulletins
+EXP_JOB_CLASS_TITLE,K1,Job class title of Internal City job that one must hold to satisfy a requirement (e.g. Management Assistant),String,"Any City recognized job class, as determined by supplied job bulletins",Yes,
+EXP_JOB_CLASS_ALT_RESP,K1b,"For job bulletins that allow an alternate class to K1, the duties/responsibilities of the alternate class",String,,Yes,"In some cases, a job bulletin will ask for a specific class but also allow you to be a different City class that performs a similar function. This field will capture that function."
+EXP_JOB_CLASS_FUNCTION,K2,"Job experience of City or non-City specific jobs (e.g. the development, analysis, implementation or major modification of new or existing computer-based information systems or relational databases)",String,,Yes,
+COURSE_COUNT,L,The number of courses in a specified field required,Integer,,Yes,
+COURSE_LENGTH,M,The semester or quarter unit count needed. ,String,,,
+COURSE_SUBJECT,N,The necessary subject(s) of required courses,String,,Yes,"A list of many sufficient majors should appear as a single string separated by a ""|""  For instance, ""ECONOMICS|STATISTICS"" would represent ""Economics"" or ""Statistics"""
+MISC_COURSE_DETAILS,O,An unstructured string of miscellaneous course-specific requirements not captured in elements O–Q.,String,,Yes,"As an example, the class of Systems Analyst includes the following sub-requirement that must be satisfied to meeting the third requirement set:
+
+""At least three of the courses must be from the core courses required in the program, and one course may be from either the required core courses or the prescribed elective courses of the program.  A course in systems analysis and design is especially desired, but not required.""
+
+You need not further structure sub-requirements that do not neatly align to other defined features in this data dictionary. They should appear in this feature as an unstructured string.
+
+"
+DRIVERS_LICENSE_REQ,P1,"Whether a driver’s license is required, possibly required, or not required (note: the job class will most likely not explicitly say if a license is not required)",String,"P, R",Yes,"P (or possible) refers to any class that says ""Some positions may require a valid California driver's license"" or anything to that extent. R (or required) explicitly says a driver's license is required"
+DRIV_LIC_TYPE,P2,The specific driver’s license type required,String,"B, C",Yes,Allowable value list is most likely incomplete and should be updated once you analyze the bulletins
+ADDTL_LIC,Q,Additional licenses specified in the job bulletin other than Driver's License (covered in Elementa P1 and P2),String,,Yes,
+EXAM_TYPE,R,Classifications have different rules around whether one has to already have Civil Service status to apply or whether experience has to be in a particular department. ,String,"OPEN, INT_DEPT_PROM, DEPT_PROM, OPEN_INT_PROM",No,"Code explanation:
+
+OPEN: Exam open to anyone (pending other requirements)
+INT_DEPT_PROM: Interdepartmental Promotional
+DEPT_PROM: Departmental Promotional
+OPEN_INT_PROM: Open or Competitive Interdepartmental Promotional"
+ENTRY_SALARY_GEN,S1,"The base overall salary range (e.g. $49,000-$72,000). Some classifications may have multiple ranges as there are sometimes several sub-titles of a job class. This should only include the first listed salary range.",String,$,,
+ENTRY_SALARY_DWP,S2,"For job classes that are available in the City at large AND the DWP agency specifically, a second DWP salary range will be provided. This field will capture the first DWP-specific salary range.",String,$,,
+OPEN_DATE,T,The date the job bulletin opened,Date,,,

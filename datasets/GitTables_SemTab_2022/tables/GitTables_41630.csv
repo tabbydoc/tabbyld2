@@ -1,0 +1,165 @@
+col0,col1,col2,col3,col4,col5
+1,Meter per Squaresecond,m/s\u00B2,1.0,0.0,1
+2,Inch per Squaresecond,in/s\u00B2,0.0254,0.0,1
+3,Foot per Squaresecond,ft/s\u00B2,0.3048,0.0,1
+4,Gravity,g,9.80665,0.0,1
+5,Degree,\u00B0,0.0174532925199432,0.0,2
+6,Radian,rad,1.0,0.0,2
+7,Grad,grad,0.9,0.0,2
+8,Square Kilometer,km\u00B2,1000000.0,0.0,3
+9,Hectare,ha,100000.0,0.0,3
+10,Acre,ac,4046.8564224,0.0,3
+11,Ares,a,100.0,0.0,3
+12,Square Meter,m\u00B2,1.0,0.0,3
+13,Square Centimeter,cm\u00B2,0.0001,0.0,3
+14,Square Millimeter,mm\u00B2,1e-06,0.0,3
+15,Square Micrometer,\u00B5m\u00B2,1e-12,0.0,3
+16,Square Nanometer,nm\u00B2,0.0,0.0,3
+17,Square Angstrom,\u212B\u00B2,0.0,0.0,3
+18,Square Picometer,pm\u00B2,0.0,0.0,3
+19,Square Femtometer,fm\u00B2,0.0,0.0,3
+20,Square Inch,in\u00B2,0.00064516,0.0,3
+21,Square Foot,ft\u00B2,0.09290304,0.0,3
+22,Bit,b,1.0,0.0,4
+23,Kilobit,kbit,1000.0,0.0,4
+24,Megabit,Mbit,1000000.0,0.0,4
+25,Gigabit,Gbit,1000000000.0,0.0,4
+26,Terabit,Tbit,1000000000000.0,0.0,4
+27,Kibibit,Kibit,1024.0,0.0,4
+28,Mebibit,Mibit,1048576.0,0.0,4
+29,Gibibit,Gibit,1073741824.0,0.0,4
+30,Tebibit,Tibit,1099511627776.0,0.0,4
+31,Byte,B,8.0,0.0,4
+32,Kilobyte,kB,8000.0,0.0,4
+33,Megabyte,MB,8000000.0,0.0,4
+34,Gigabyte,GB,8000000000.0,0.0,4
+35,Terabyte,TB,8000000000000.0,0.0,4
+36,Kibibyte,KiB,8192.0,0.0,4
+37,Mebibyte,MiB,8388608.0,0.0,4
+38,Gibibyte,GiB,8589934592.0,0.0,4
+39,Tebibyte,TiB,8796093022208.0,0.0,4
+40,Elementary Charge,e-,0.0,0.0,5
+41,Coulomb,C,1.0,0.0,5
+42,Millicoulomb,mC,0.001,0.0,5
+43,Microcoulomb,\u00B5C,1e-06,0.0,5
+44,Nanocoulomb,nC,1e-09,0.0,5
+45,Picocoulomb,pC,1e-12,0.0,5
+46,Kiloampere,kA,1000.0,0.0,6
+47,Ampere,A,1.0,0.0,6
+48,Milliampere,mA,0.001,0.0,6
+49,Microampere,\u00B5A,1e-06,0.0,6
+50,Nanoampere,nA,1e-09,0.0,6
+51,Picoampere,pA,1e-12,0.0,6
+52,Millijoule,mJ,0.001,0.0,7
+53,Joule,J,1.0,0.0,7
+54,Kilojoule,kJ,1000.0,0.0,7
+55,Megajoule,MJ,1000000.0,0.0,7
+56,Calory,cal,4.1868,0.0,7
+57,Kilocalory,kcal,4186.8,0.0,7
+58,Watt Second,W*s,1.0,0.0,7
+59,Watt Hour,W*h,3600.0,0.0,7
+60,Kilowatt Second,kW*s,1000.0,0.0,7
+61,Kilowatt Hour,kW*h,3600000.0,0.0,7
+62,Kilonewton,kN,1000.0,0.0,8
+63,Newton,N,1.0,0.0,8
+64,Kilogram Force,kp,9.80665,0.0,8
+65,Pound Force,lbf,4.4482216153,0.0,8
+66,Kilometer,km,1000.0,0.0,9
+67,Hectometer,hm,100.0,0.0,9
+68,Meter,m,1.0,0.0,9
+69,Decimeter,dm,0.1,0.0,9
+70,Centimeter,cm,0.01,0.0,9
+71,Millimeter,mm,0.001,0.0,9
+72,Micrometer,\u00B5m,1e-06,0.0,9
+73,Nanometer,nm,1e-09,0.0,9
+74,Angstrom,\u212B,1e-10,0.0,9
+75,Picometer,pm,1e-12,0.0,9
+76,Femtometer,fm,1e-15,0.0,9
+77,Inches,in,0.0254,0.0,9
+78,Miles,mi,1609.344,0.0,9
+79,Nautical Miles,nmi,1852.0,0.0,9
+80,Feet,ft,0.3048,0.0,9
+81,Yard,yd,0.9144,0.0,9
+82,Light Year,l.y.,9460730000000000.0,0.0,9
+83,Parsec,pc,3.085678e+16,0.0,9
+84,Pixel,px,0.000264583,0.0,9
+85,Point,pt,0.0003527778,0.0,9
+86,Pica,p,0.0042333333,0.0,9
+87,Quad,em,0.0042175176,0.0,9
+88,Candela per Square Meter,cd/m\u00B2,1.0,0.0,10
+89,Candela per Square Cenitmeter,cd/cm\u00B2,10000.0,0.0,10
+90,Candela per Square Inch,cd/in\u00B2,1550.0031,0.0,10
+91,Candela per Square Foot,cd/ft\u00B2,10.7639104167,0.0,10
+92,Lambert,L,3183.09886183,0.0,10
+93,Footlambert,fL,3.4262590996,0.0,10
+94,Lux,lm/m\u00B2,1.0,0.0,11
+95,Phot,lm/cm\u00B2,10000.0,0.0,11
+96,Footcandle,lm/ft\u00B2,10.7639104167,0.0,11
+97,Lumen per Square Inch,lm/in\u00B2,1550.0031,0.0,11
+98,Ton,t,1000.0,0.0,12
+99,Kilogram,kg,1.0,0.0,12
+100,Gram,g,0.001,0.0,12
+101,Milligram,mg,1e-06,0.0,12
+102,Microgram,\u00B5g,1e-09,0.0,12
+103,Nanogram,ng,1e-12,0.0,12
+104,Picogram,pg,1e-15,0.0,12
+105,Femtogram,fg,0.0,0.0,12
+106,Ounce,oz,0.028,0.0,12
+107,Pound,lb,0.45359237,0.0,12
+108,Millipascal,mPa,0.001,0.0,13
+109,Pascal,Pa,1.0,0.0,13
+110,Hectopascal,hPa,100.0,0.0,13
+111,Kilopascal,kPa,1000.0,0.0,13
+112,Bar,bar,100000.0,0.0,13
+113,Millibar,mbar,100.0,0.0,13
+114,Torr,Torr,133.322368421,0.0,13
+115,Pound per Square Inch,psi,6894.757293178,0.0,13
+116,Pound per Square Foot,psf,47.88026,0.0,13
+117,Atmosphere,atm,101325.0,0.0,13
+118,Percentage,%,1.0,0.0,14
+119,Per mille,\u2030,10.0,0.0,14
+120,Basis Point,\u2031,100.0,0.0,14
+121,Millimeter per Second,mm/s,0.001,0.0,15
+122,Meter per Second,m/s,1.0,0.0,15
+123,Kilometer per Hour,km/h,0.2777777778,0.0,15
+124,Miles per Hour,mph,0.4472271914,0.0,15
+125,Knot,kt,0.51444444444444,0.0,15
+126,Mach,M,0.00293866995797,0.0,15
+127,Kelvin,K,1.0,0.0,16
+128,Celsius,\u00B0C,1.0,273.15,16
+129,Fahrenheit,\u00B0F,0.555555555555555,459.67,16
+130,Kelvin per Second,K/s,1.0,0.0,17
+131,Kelvin per Minute,K/min,0.166666667,0.0,17
+132,Kelvin per Hour,K/h,0.0002777778,0.0,17
+133,Week,w,604800.0,0.0,18
+134,Day,d,86400.0,0.0,18
+135,Hour,h,3600.0,0.0,18
+136,Minute,m,60.0,0.0,18
+137,Second,s,1.0,0.0,18
+138,Millisecond,ms,0.001,0.0,18
+139,Microsecond,\u00B5s,1e-06,0.0,18
+140,Nanosecond,ns,1e-09,0.0,18
+141,Picosecond,ps,1e-12,0.0,18
+142,Femtosecond,fs,1e-15,0.0,18
+143,Newton Meter,Nm,1.0,0.0,19
+144,Meter Kilogram,m kg,0.101971621,0.0,19
+145,Foot Pound Force,ft lbf,1.3358179483,0.0,19
+146,Inch Pound Force,in lbf,0.112984829,0.0,19
+147,Millivolt,mV,0.001,0.0,20
+148,Volt,V,1.0,0.0,20
+149,Kilovolt,kV,1000.0,0.0,20
+150,Megavolt,MV,1000000.0,0.0,20
+151,Cubic Millimeter,mm\u00B3,1e-09,0.0,21
+152,Milliliter,ml,1e-06,0.0,21
+153,Liter,l,0.001,0.0,21
+154,Cubic Meter,m\u00B3,1.0,0.0,21
+155,Gallon,gal,0.0037854118,0.0,21
+156,Cubic Foot,ft\u00B3,0.0283168466,0.0,21
+157,Cubic Inch,in\u00B3,1.63871e-05,0.0,21
+158,Milliwatt,mW,0.001,0.0,22
+159,Watt,W,1.0,0.0,22
+160,Kilowatt,kW,1000.0,0.0,22
+161,Megawatt,MW,1000000.0,0.0,22
+162,Gigawatt,GW,1000000000.0,0.0,22
+163,Horsepower,hp,735.49875,0.0,22
+164,Joule per Second,J/s,1.0,0.0,22

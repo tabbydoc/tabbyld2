@@ -1,0 +1,118 @@
+col0,col1,col2,col3,col4,col5
+0,TV,Reserved.,,,
+1,TV,Cause,7.7.1,Fixed,1
+2,TV,International Mobile Subscriber Identity (IMSI),7.7.2,Fixed,8
+3,TV,Routeing Area Identity (RAI),7.7.3,Fixed,6
+4,TV,Temporary Logical Link Identity (TLLI),7.7.4,Fixed,4
+5,TV,Packet TMSI (P-TMSI),7.7.5,Fixed,4
+8,TV,Reordering Required,7.7.6,Fixed,1
+9,TV,Authentication Triplet,7.7.7,Fixed,28
+11,TV,MAP Cause,7.7.8,Fixed,1
+12,TV,P-TMSI Signature,7.7.9,Fixed,3
+13,TV,MS Validated,7.7.10,Fixed,1
+14,TV,Recovery,7.7.11,Fixed,1
+15,TV,Selection Mode,7.7.12,Fixed,1
+16,TV,Tunnel Endpoint Identifier Data I,7.7.13,Fixed,4
+17,TV,Tunnel Endpoint Identifier Control Plane,7.7.14,Fixed,4
+18,TV,Tunnel Endpoint Identifier Data II,7.7.15,Fixed,5
+19,TV,Teardown Ind,7.7.16,Fixed,1
+20,TV,NSAPI,7.7.17,Fixed,1
+21,TV,RANAP Cause,7.7.18,Fixed,1
+22,TV,RAB Context,7.7.19,Fixed,9
+23,TV,Radio Priority SMS,7.7.20,Fixed,1
+24,TV,Radio Priority,7.7.21,Fixed,1
+25,TV,Packet Flow Id,7.7.22,Fixed,2
+26,TV,Charging Characteristics,7.7.23,Fixed,2
+27,TV,Trace Reference,7.7.24,Fixed,2
+28,TV,Trace Type,7.7.25,Fixed,2
+29,TV,MS Not Reachable Reason,7.7.25A,Fixed,1
+127,TV,Charging ID,7.7.26,Fixed,4
+128,TLV,End User Address,7.7.27,Variable,Not Applicable
+129,TLV,MM Context,7.7.28,Variable,Not Applicable
+130,TLV,PDP Context,7.7.29,Variable,Not Applicable
+131,TLV,Access Point Name,7.7.30,Variable,Not Applicable
+132,TLV,Protocol Configuration Options,7.7.31,Variable,Not Applicable
+133,TLV,GSN Address,7.7.32,Variable,Not Applicable
+134,TLV,MS International PSTN/ISDN Number (MSISDN),7.7.33,Variable,Not Applicable
+135,TLV,Quality of Service Profile,7.7.34,Variable,Not Applicable
+136,TLV,Authentication Quintuplet,7.7.35,Variable,Not Applicable
+137,TLV,Traffic Flow Template,7.7.36,Variable,Not Applicable
+138,TLV,Target Identification,7.7.37,Variable,Not Applicable
+139,TLV,UTRAN Transparent Container,7.7.38,Variable,Not Applicable
+140,TLV,RAB Setup Information,7.7.39,Variable,Not Applicable
+141,TLV,Extension Header Type List,7.7.40,Variable,Not Applicable
+142,TLV,Trigger Id,7.7.41,Variable,Not Applicable
+143,TLV,OMC Identity,7.7.42,Variable,Not Applicable
+144,TLV,RAN Transparent Container,7.7.43,Variable,Not Applicable
+145,TLV,PDP Context Prioritization,7.7.45,Fixed,0
+146,TLV,Additional RAB Setup Information,7.7.45A,Variable,Not Applicable
+147,TLV,SGSN Number,7.7.47,Variable,Not Applicable
+148,TLV,Common Flags,7.7.48,Fixed,1
+149,TLV,APN Restriction,7.7.49,Fixed,1
+150,TLV,Radio Priority LCS,7.7.25B,Fixed,1
+151,TLV,RAT Type,7.7.50,Fixed,1
+152,TLV,User Location Information,7.7.51,Variable,Not Applicable
+153,TLV,MS Time Zone,7.7.52,Fixed,1
+154,TLV,IMEI(SV),7.7.53,Fixed,8
+155,TLV,CAMEL Charging Information Container,7.7.54,Variable,Not Applicable
+156,TLV,MBMS UE Context,7.7.55,Variable,Not Applicable
+157,TLV,Temporary Mobile Group Identity (TMGI),7.7.56,Fixed,6
+158,TLV,RIM Routing Address,7.7.57,Variable,Not Applicable
+159,TLV,MBMS Protocol Configuration Options,7.7.58,Variable,Not Applicable
+160,TLV,MBMS Service Area,7.7.60,Variable,Not Applicable
+161,TLV,Source RNC PDCP context info,7.7.61,Variable,Not Applicable
+162,TLV,Additional Trace Info,7.7.62,Fixed,9
+163,TLV,Hop Counter,7.7.63,Fixed,1
+164,TLV,Selected PLMN ID,7.7.64,Fixed,3
+165,TLV,MBMS Session Identifier,7.7.65,Fixed,1
+166,TLV,MBMS 2G/3G Indicator,7.7.66,Fixed,1
+167,TLV,Enhanced NSAPI,7.7.67,Fixed,1
+168,TLV,MBMS Session Duration,7.7.59,Fixed,3
+169,TLV,Additional MBMS Trace Info,7.7.68,Fixed,8
+170,TLV,MBMS Session Repetition Number,7.7.69,Fixed,1
+171,TLV,MBMS Time To Data Transfer,7.7.70,Fixed,1
+173,TLV,BSS Container,7.7.72,Variable,Not Applicable
+174,TLV,Cell Identification,7.7.73,Fixed,17
+175,TLV,PDU Numbers,7.7.74,Fixed,9
+176,TLV,BSSGP Cause,7.7.75,Fixed,1
+177,TLV,Required MBMS bearer capabilities,7.7.76,Variable,Not Applicable
+178,TLV,RIM Routing Address Discriminator,7.7.77,Fixed,1
+179,TLV,List of set-up PFCs,7.7.78,Variable,Not Applicable
+180,TLV,PS Handover XID Parameters,7.7.79,Variable,Not Applicable
+181,TLV,MS Info Change Reporting Action,7.7.80,Fixed,1
+182,TLV,Direct Tunnel Flags,7.7.81,Variable,Not Applicable
+183,TLV,Correlation-ID,7.7.82,Fixed,1
+184,TLV,Bearer Control Mode,7.7.83,Fixed,1
+185,TLV,MBMS Flow Identifier,7.7.84,Variable,Not Applicable
+186,TLV,MBMS IP Multicast Distribution,7.7.85,Variable,Not Applicable
+187,TLV,MBMS Distribution Acknowledgement,7.7.86,Fixed,1
+188,TLV,Reliable INTER RAT HANDOVER INFO ,7.7.87,Fixed,1
+189,TLV,RFSP Index,7.7.88,Fixed,2
+190,TLV,Fully Qualified Domain Name (FQDN),7.7.90,Variable,Not Applicable
+191,TLV,Evolved Allocation/Retention Priority I,7.7.91,Fixed,1
+192,TLV,Evolved Allocation/Retention Priority II,7.7.92,Fixed,2
+193,TLV,Extended Common Flags,7.7.93,Variable,Not Applicable
+194,TLV,User CSG Information (UCI),7.7.94,Fixed,8
+195,TLV,CSG Information Reporting Action,7.7.95,Variable,Not Applicable
+196,TLV,CSG ID,7.7.96,Fixed,4
+197,TLV,CSG Membership Indication (CMI),7.7.97,Fixed,1
+198,TLV,Aggregate Maximum Bit Rate (AMBR),7.7.98,Fixed,8
+199,TLV,UE Network Capability,7.7.99,Variable,Not Applicable
+200,TLV,UE-AMBR,7.7.100,Variable,Not Applicable
+201,TLV,APN-AMBR with NSAPI,7.7.101,Fixed,9
+202,TLV,GGSN Back-Off Time,7.7.102,Extendable,1
+203,TLV,Signalling Priority Indication,7.7.103,Extendable,1
+204,TLV,Signalling Priority Indication with NSAPI,7.7.104,Extendable,2
+205,TLV,Higher bitrates than 16 Mbps flag,7.7.105,Fixed,1
+207,TLV,Additional MM context for SRVCC,7.7.107,Extendable,Not Applicable
+208,TLV,Additional flags for SRVCC,7.7.108,Extendable,1
+209,TLV,STN-SR,7.7.109,Variable,Not Applicable
+210,TLV,C-MSISDN,7.7.110,Variable,Not Applicable
+211,TLV,Extended RANAP Cause,7.7.111,Extendable,2
+212,TLV,eNodeB ID,7.7.112,Variable,Not Applicable
+213,TLV,Selection Mode with NSAPI,7.7.113,Fixed,2
+214,TLV,ULI Timestamp,7.7.114,Extendable,4
+215,TLV,Local Home Network ID (LHN-ID) with NSAPI,7.7.115,Variable,Not Applicable
+216,TLV,CN Operator Selection Entity ,7.7.116,Extendable,1
+251,TLV,Charging Gateway Address,7.7.44,,04/16/20
+255,TLV,Private Extension,7.7.46,,Not Applicable

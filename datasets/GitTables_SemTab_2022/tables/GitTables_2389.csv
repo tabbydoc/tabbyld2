@@ -1,0 +1,81 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27
+623455,SCREENED OUT,7/10/20,50939,American Indian,11/16/19,Yes,Scott Scott,4724088.0,Norma Fisher,"711 Golden Overpass
+West Andreaville, MA 71317","5517 Holly Meadow Apt. 452
+Lake Anne, SC 11894","332 Watson Shore Apt. 290
+Millerland, MT 39742","4486 Olson Well
+North Kevin, CA 01707",,,,,,,,,,,,,,
+623455,SCREENED OUT,7/10/20,51040,Asian,6/30/10,Yes,Micheal Williams,4724088.0,Jorge Sullivan,"1965 Kelly Field Apt. 094
+Jonesberg, FL 05565","30601 Hawkins Highway
+Morashire, TX 28976","645 John Roads
+Danahaven, MS 54060","67771 Christopher Courts Apt. 637
+Port Ronaldfurt, HI 33233",,,,,,,,,,,,,,
+421421,SCREENED IN,4/20/20,455076,Black/African American,2/21/19,Yes,Andrea Murray,4855379.0,Elizabeth Woods,"848 Melissa Springs Suite 947
+Kellerstad, MD 80819","49263 Wilson View Apt. 873
+South Raymondborough, AZ 28798","3547 Stephanie Underpass Apt. 418
+Port Jacqueline, HI 55774","5561 Bishop Turnpike
+Lake Kenneth, NY 79756",False,,,0.614,zip,False,,,,,,,,
+421421,SCREENED IN,4/20/20,455076,Black/African American,2/21/19,No,Amber Lamb,,Susan Wagner,"30413 Norton Isle Suite 012
+North Lisa, ND 79428","76582 Vanessa Oval
+New Richard, NE 68819","5825 Welch Corners
+Fischerport, UT 59363","3019 Gerald Mall Apt. 340
+Trevinoville, SD 36216",False,,,0.614,zip,False,,,,,,,,
+623455,SCREENED OUT,7/10/20,50939,American Indian,11/16/19,Yes,Julia Wilson,4724088.0,Peter Montgomery,"39916 Mitchell Crescent
+New Andrewburgh, DE 63315","7389 Alec Squares Suite 508
+Port Jonathan, FL 50177","41489 Roger Terrace
+Davisfort, IN 71770","84331 Leonard Fort Suite 749
+East Lisa, NY 43477",False,,,0.61,zip,False,,,,,,,,
+623455,SCREENED OUT,7/10/20,51040,Asian,6/30/10,Yes,Brett Cannon,4724088.0,Theodore Mcgrath,"086 Mary Cliff
+North Deborah, NE 24135","18013 Billy Bridge Suite 522
+Schmitthaven, NC 66355","014 Aaron Locks Suite 714
+Justinborough, CO 05147","62281 Kathy Tunnel
+Hudsonborough, VA 17819",False,,,0.611,zip,False,,,,,,,,
+123123,SCREENED IN,2/21/20,98765,White,10/21/18,Yes,Thomas Alexander,4715396.0,Stephanie Collins,"91634 Strong Mountains Apt. 302
+West Alyssa, PA 58475","891 Bullock Ford
+Amandachester, NJ 51431","8518 Pamela Track Apt. 164
+Aprilshire, SC 28062","9927 Christina Burg Suite 774
+East Angelaburgh, NM 97149",False,39.142494,-84.529044,0.53,street,True,39061007200.0,0.0961709706144256,0.9954278249510125,41616.0,0.0956892468024632,0.2226432970156324,0.1453576864535768,0.3538353414703725
+123123,SCREENED IN,2/21/20,98765,White,10/21/18,Yes,Jeffery Fischer,4715396.0,Stephanie Sutton,"6984 Price Shoals
+Erictown, WA 10865","02489 Cook Park
+Sherriport, MT 50853","864 Ramos Port Apt. 211
+Moralesmouth, OH 88090","142 Warner View Suite 460
+North Leslie, IA 45480",False,39.142494,-84.529044,0.53,street,True,39061007200.0,0.0961709706144256,0.9954278249510125,41616.0,0.0956892468024632,0.2226432970156324,0.1453576864535768,0.3538353414703725
+123123,SCREENED IN,2/21/20,98765,White,10/21/18,Yes,Amanda White,4868386.0,Brian Hamilton,"423 Bell Heights
+Brittanyberg, ME 51359","23450 Timothy Divide
+Wuland, UT 20341","637 Neal Island Suite 074
+Lake Tyler, RI 28775","5240 Berry Centers
+West Andrew, AR 03720",False,39.142494,-84.529044,0.53,street,True,39061007200.0,0.0961709706144256,0.9954278249510125,41616.0,0.0956892468024632,0.2226432970156324,0.1453576864535768,0.3538353414703725
+123123,SCREENED IN,2/21/20,98765,White,10/21/18,Yes,Carl Pitts DVM,4868386.0,Susan Levy,"93523 Dana Lane
+Johnsonshire, WI 87296","0976 Williams Mountains Apt. 009
+Lake Mario, OH 85565","0811 Smith Canyon Apt. 904
+Jessicabury, WV 75585","51056 Patricia Forge
+Grahamstad, HI 85576",False,39.142494,-84.529044,0.53,street,True,39061007200.0,0.0961709706144256,0.9954278249510125,41616.0,0.0956892468024632,0.2226432970156324,0.1453576864535768,0.3538353414703725
+123123,SCREENED IN,2/21/20,98764,Multi-Racial,10/21/18,Yes,Jeffrey Hawkins,4715396.0,Sean Green,"1427 Odonnell Rapids
+North Troyport, NH 07035","1097 Santos Springs Suite 264
+New Michelleborough, WY 51884","7562 Fisher Spur
+Hernandezberg, MD 17438","0648 Malone Port Apt. 662
+New Devonhaven, VA 92199",False,39.142494,-84.529044,0.53,street,True,39061007200.0,0.0961709706144256,0.9954278249510125,41616.0,0.0956892468024632,0.2226432970156324,0.1453576864535768,0.3538353414703725
+123123,SCREENED IN,2/21/20,98764,Multi-Racial,10/21/18,Yes,Joshua Harris,4715396.0,Kimberly Smith,"81206 Stewart Forest Apt. 089
+East Davidborough, ME 37198","5100 Scott Burg
+East Clayton, SC 66353","5667 Blair Underpass
+South Shelby, VT 07027","23028 Jennifer Meadow Apt. 972
+West Matthewfurt, SC 05261",False,39.142494,-84.529044,0.53,street,True,39061007200.0,0.0961709706144256,0.9954278249510125,41616.0,0.0956892468024632,0.2226432970156324,0.1453576864535768,0.3538353414703725
+123123,SCREENED IN,2/21/20,98764,Multi-Racial,10/21/18,Yes,Jeremy Jacobs,4868386.0,Jennifer Summers,"76104 Marsh Crescent
+Dennishaven, SD 85034","412 Snow Manors Apt. 161
+South Kimtown, NV 57004","PSC 0312, Box 5023
+APO AP 39498","2738 Martin Terrace Suite 547
+Smithhaven, LA 72649",False,39.142494,-84.529044,0.53,street,True,39061007200.0,0.0961709706144256,0.9954278249510125,41616.0,0.0956892468024632,0.2226432970156324,0.1453576864535768,0.3538353414703725
+123123,SCREENED IN,2/21/20,98764,Multi-Racial,10/21/18,Yes,Debbie Hall,4868386.0,April Snyder,"0003 Grant Lakes
+Port Karafort, SD 60619","5415 David Square
+West Michaeltown, IN 48447","6708 Carpenter Overpass Suite 735
+Bobbyton, MI 01008","984 Stephen Stravenue
+South Michaelton, KY 97488",False,39.142494,-84.529044,0.53,street,True,39061007200.0,0.0961709706144256,0.9954278249510125,41616.0,0.0956892468024632,0.2226432970156324,0.1453576864535768,0.3538353414703725
+421421,SCREENED IN,4/20/20,455076,Black/African American,2/21/19,Yes,Richard Garcia,4855379.0,Dana Nguyen,"236 Smith Drive Suite 555
+West Kimberlyton, KY 21978","03104 Norris Rapids
+Port Donald, DE 62982","16396 Shawn Junction
+New Nicolemouth, ND 60236","Unit 4943 Box 8856
+DPO AA 27891",False,39.121981,-84.524028,0.61,street,True,39061002600.0,0.1865021770682148,0.9573770491803278,22254.0,0.1012896292315959,0.5994089199355186,0.1663641863278886,0.5134300156596661
+421421,SCREENED IN,4/20/20,455076,Black/African American,2/21/19,No,Danielle Mitchell,,Cheryl Bradley,"6824 Timothy Garden Apt. 428
+West Richardmouth, MT 14742","03557 Phillips Wells Suite 291
+New Beverlyburgh, FL 16915","PSC 4080, Box 3513
+APO AP 45818","98522 Mathis Viaduct Apt. 909
+West Michael, LA 42837",False,39.121981,-84.524028,0.61,street,True,39061002600.0,0.1865021770682148,0.9573770491803278,22254.0,0.1012896292315959,0.5994089199355186,0.1663641863278886,0.5134300156596661

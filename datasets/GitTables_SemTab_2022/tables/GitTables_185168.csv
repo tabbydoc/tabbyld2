@@ -1,0 +1,45 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21
+0,2009-02-04,2,1000,Dahaf,Yediot,25,4.0,19.0,3.0,0,23,0,6,10,16.0,5.0,3,2,4,http://imra.org.il/story.php3?id=42699,http://www.bhirot2009.co.il/home.yecms/poll/77
+1,2009-02-04,2,1000,Teleseker,Maariv,26,3.0,19.0,3.0,2,23,0,5,10,17.0,6.0,4,2,4,http://imra.org.il/story.php3?id=42699,= 124 GIL
+2,2009-02-04,2,582,Maagar,Makor Rishon,27,2.0,18.0,3.0,1,24,2,6,10,13.0,5.0,3,3,3,http://imra.org.il/story.php3?id=42699,ARAB PARTIES UNKNOWN
+3,2009-02-04,1,1000,Dialog,Haaretz,27,4.0,18.0,2.0,0,25,0,6,9,14.0,7.0,3,2,3,http://imra.org.il/story.php3?id=42699,
+4,2009-02-06,1,500,Midgam,Ch1,28,3.0,19.0,3.0,0,23,0,5,10,16.0,5.0,4,2,4,,
+5,2009-02-06,1,800,Dialog,Ch10,27,4.0,19.0,2.0,0,25,0,6,9,14.0,6.0,3,2,3,,
+6,2009-02-04,1,500,ShvakimPanorama,Reshet B,25,4.0,16.0,4.0,2,21,0,7,11,16.0,5.0,3,2,4,http://imra.org.il/story.php3?id=42699,SIZE UNKNOWN
+7,2009-02-03,2,972,Gal Hadash,Yisrael Hayom,30,3.0,17.0,2.0,0,24,0,5,9,16.0,6.0,3,0,5,http://imra.org.il/story.php3?id=42694,
+8,2009-02-05,1,1498,Panels,Knesset/Ch2,26,4.0,18.0,3.0,0,25,0,5,10,14.0,6.0,3,2,4,http://imra.org.il/story.php3?id=42699,
+9,2009-02-04,1,645,Smith,JPost,26,3.5,17.5,3.5,0,23,0,5,10,15.5,5.5,4,2,4,http://imra.org.il/story.php3?id=42699,ARABS UNKNOWN
+10,2009-02-02,1,700,Teleseker,Maariv,27,4.0,17.0,3.0,0,23,0,5,10,17.0,6.0,0,4,4,http://imra.org.il/story.php3?id=42694,
+11,2009-02-01,3,1894,Maagar,Ch2,26,2.0,19.0,3.0,1,23,2,6,10,13.0,6.0,2,3,4,http://imra.org.il/story.php3?id=42682,http://www.bhirot2009.co.il/home.yecms/poll/73 W/CORRECTIONS ETC=+1 SHAS=-1
+12,2009-01-30,4,671,Maagar,UNKNOWN,31,2.0,17.0,3.0,0,23,1,6,11,12.0,4.0,3,3,4,http://imra.org.il/story.php3?id=42690,ARAB PARTIES UNKNOWN DATE RANGE SPANS SHABBAT
+13,2009-02-02,1,992,Panels,Ch2,27,4.0,17.0,3.0,0,24,0,5,11,14.0,6.0,4,2,3,http://imra.org.il/story.php3?id=42636,DATE UNKNOWN http://www.mako.co.il/news-elections-2009/polls/Article-5ff8df83e263f11004.htm
+14,2009-02-02,1,500,Midgam,Ch1,28,3.0,18.0,4.0,0,23,0,5,10,17.0,4.0,2,2,4,http://imra.org.il/story.php3?id=42636,DATE/SIZE UNKNOWN
+15,2009-01-29,1,600,Teleseker,Maariv,28,3.0,16.0,4.0,0,23,0,5,10,17.0,6.0,4,0,4,http://imra.org.il/story.php3?id=42601,
+16,2009-01-28,1,500,ShvakimPanorama,Reshet B,29,3.0,16.0,3.0,2,20,0,7,11,16.0,4.0,3,3,3,http://imra.org.il/story.php3?id=42601,SIZE UNKNOWN
+17,2009-01-29,1,1067,Panels,Ch2,29,4.0,16.0,3.0,0,23,2,5,10,13.0,5.0,4,2,4,,
+18,2009-01-28,1,670,Dialog,Ch10/Haaretz,28,4.0,15.0,3.0,2,25,0,5,10,14.0,5.0,4,2,3,http://imra.org.il/story.php3?id=42601,DATE UNCERTAIN http://imra.org.il/story.php3?id=42568
+19,2009-01-27,1,529,Maagar,Ch2,34,2.0,16.0,3.0,0,22,0,5,10,13.0,5.0,3,3,4,http://imra.org.il/story.php3?id=42682,CORRECTED DATE/SIZE
+20,2009-01-26,1,844,Panels,Ch2,29,5.0,16.0,0.0,0,22,0,6,11,15.0,6.0,4,2,4,,
+21,2009-01-25,1,500,Midgam,Ch1,30,3.0,16.0,3.0,0,22,0,5,10,17.0,5.0,3,3,3,,
+22,2009-01-23,1,500,ShvakimPanorama,Reshet B,29,3.0,14.0,3.0,0,20,0,7,11,17.0,6.0,3,4,3,,
+23,2009-01-22,1,600,Teleseker,Maariv,28,2.0,16.0,4.0,0,24,0,6,9,16.0,6.0,3,2,4,http://imra.org.il/story.php3?id=42483,DATE UNCERTAIN
+24,2009-01-22,1,500,Dahaf,Yediot,29,3.0,14.0,2.0,0,25,0,6,10,17.0,5.0,3,2,4,http://imra.org.il/story.php3?id=42483,DATE UNCERTAIN
+25,2009-01-21,1,623,Gal Hadash,Yisrael Hayom,35,2.0,12.0,2.0,0,25,0,5,9,15.0,6.0,3,2,4,http://imra.org.il/story.php3?id=42483,
+26,2009-01-22,1,1003,Panels,Ch2,30,4.0,15.0,2.0,0,24,0,5,10,15.0,6.0,4,2,3,,
+27,2009-01-20,1,522,Maagar,Ch2,30,2.0,16.0,2.0,0,22,2,5,11,14.0,7.0,2,3,4,http://imra.org.il/story.php3?id=42682,CORRECTED DATE/SIZE
+28,2009-01-19,1,1061,Panels,Ch2,30,4.0,15.0,2.0,0,24,2,5,10,14.0,5.0,3,2,4,,
+29,2009-01-18,1,512,Maagar,Ch2,31,3.0,13.0,3.0,0,23,0,5,12,15.0,6.0,3,2,4,http://imra.org.il/story.php3?id=42682,CORRECTED SIZE
+30,2009-01-18,1,500,Dialog,Ch10,29,4.0,14.0,2.0,0,26,2,5,10,14.0,6.0,3,2,3,,
+31,2009-01-13,1,561,Dialog,Haaretz,29,3.0,12.0,3.0,0,25,2,6,9,16.0,7.0,3,2,3,http://imra.org.il/story.php3?id=42348,http://www.haaretz.co.il/news/politics/1.1241488
+32,2009-01-15,1,800,Teleseker,Maariv,28,3.0,14.0,3.0,0,26,0,5,9,17.0,5.0,4,2,4,http://imra.org.il/story.php3?id=42348,
+33,2009-01-14,1,500,ShvakimPanorama,Reshet B,28,3.0,15.0,3.0,0,21,3,7,10,15.0,5.0,4,3,3,http://imra.org.il/story.php3?id=42348,SIZE UNKNOWN
+34,2009-01-15,1,1050,Panels,Ch2,29,4.0,13.0,2.0,0,27,2,5,8,15.0,5.0,3,2,4,,
+35,2009-01-13,1,506,Maagar,Ch2,28,2.0,14.0,3.0,0,26,0,5,10,16.0,6.0,4,3,3,http://imra.org.il/story.php3?id=42682,CORRECTED DATE/SIZE
+36,2009-01-12,1,960,Panels,Ch2,33,4.0,13.0,0.0,0,28,2,5,8,13.0,5.0,2,3,4,,
+37,2009-01-09,1,500,ShvakimPanorama,Reshet B,31,0.0,14.0,4.0,0,22,0,7,10,16.0,6.0,4,3,3,,
+38,2009-01-08,1,800,Teleseker,Maariv,29,0.0,13.0,4.0,0,27,0,6,9,17.0,5.0,4,2,4,http://imra.org.il/story.php3?id=42224,ARABS UNKNOWN
+39,2009-01-08,1,500,Gal Hadash,Yisrael Hayom,33,3.0,10.0,0.0,0,27,0,5,10,15.0,7.0,4,3,3,,
+40,2009-01-08,1,1018,Panels,Knesset,31,4.0,12.0,2.0,0,27,2,4,9,15.0,5.0,2,3,4,,
+41,2009-01-07,1,500,Dialog,Ch10,31,3.0,10.0,0.0,0,27,0,5,11,16.0,7.0,3,3,4,,
+42,2009-01-06,1,514,Maagar,Ch2,32,2.0,10.0,4.0,0,25,0,5,10,17.0,6.0,3,3,3,http://imra.org.il/story.php3?id=42682,CORRECTED DATE/SIZE
+43,2009-01-05,1,913,Panels,Ch2,31,4.0,13.0,2.0,0,28,0,4,9,15.0,5.0,3,3,3,,

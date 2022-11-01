@@ -1,0 +1,38 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+1,exponential,1.65e-05,,,guinea pig,spores,inhalation,death,9
+2,beta-Poisson,,0.328,5430.0,C57BL/6 mice and diabetic rat,CFU,"intranasal,intraperitoneal",death,22
+3,beta-Poisson,,0.144,890.0,human,CFU,oral (in milk),infection,2
+4,beta-Poisson,,0.357,493000000.0,C57BL/1OScN mice,PFU,intraperitoneal,death,41
+5,exponential,0.000218,,,pig,CFU,oral (in food),shedding in feces,4
+6,beta-Poisson,,0.155,2110000.0,human,CFU,oral (in milk),positive stool isolation,10
+7,exponential,0.0473,,,monkeys,CFU,inhalation,death,6
+8,exponential,0.0599,,,guinea pig,CFU,inhalation,infection,28
+9,exponential,1.15e-05,,,C57B1/6J mice,CFU,oral,death,13
+10,beta-Poisson,,0.253,277.0,C57Bl/6J mice,CFU,oral,infection,12
+11,beta-Poisson,,0.0422,1780000000.0,pooled,CFU,oral,stillbirths,36
+12,exponential,0.000693,,,deer,CFU,oral,infection,30
+13,beta-Poisson,,0.19,18500.0,white rabbit,CFU,contact lens,corneal ulceration,21
+14,exponential,0.000105,,,Swiss webster mice (5day old),CFU,injected in eyelids,death,14
+15,beta-Poisson,,0.777,21.3,Pooled data,CFU,,morbidity,34
+16,beta-Poisson,,0.175,1110000.0,human,CFU,"oral, in milk",disease,16
+17,beta-Poisson,,0.318,37100.0,human,CFU,"oral, with eggnog",positive stool culture,24
+18,beta-Poisson,,0.389,16800.0,human,CFU,"oral, with eggnog",infection,23
+19,beta-Poisson,,0.21,49.8,mice,CFU,intraperitoneal,death,27
+20,exponential,3.97e-06,,,human,CFU,oral,infection,25
+21,beta-Poisson,,0.265,1480.0,human,CFU,oral (in milk),positive stool isolation,11
+22,exponential,7.64e-08,,,human,CFU/cm2,subcutaneous,infection,33
+23,beta-Poisson,,0.25,243.0,human,CFU,oral (with NaHCO3),infection,17
+24,exponential,0.00163,,,mice,CFU,intranasal,death,20
+25,exponential,0.607,,,human,TCID50,inhalation,infection,5
+26,beta-Poisson,,1.06,922.0,human,PFU,oral,infection,35
+27,exponential,0.00374,,,pig,PFU,oral,infection,3
+28,beta-Poisson,,0.581,945000.0,human,TCID50,intranasal,infection,29
+29,exponential,2.95,,,guinea pig,PFU,subcutaneous,death,18
+30,exponential,0.491,,,human,PD50 (mouse paralytic doses),oral (capsule),alimentary infection,19
+31,beta-Poisson,,0.221,1.81,human,TCID50 doses,intranasal,infection,15
+32,beta-Poisson,,0.253,6.17,human,FFU,oral,infection,37
+33,exponential,0.00246,,,mice hACE-2 and A/J,PFU,intranasal,death,7
+34,exponential,0.0572,,,human,oocysts,oral,infection,26
+35,beta-Poisson,,0.101,341.0,human,Cysts,oral,infection,31
+36,exponential,0.0199,,,human,Cysts,oral,infection,32
+37,exponential,3.42e-07,,,mice,no of trophozoites,intravenous,death,1

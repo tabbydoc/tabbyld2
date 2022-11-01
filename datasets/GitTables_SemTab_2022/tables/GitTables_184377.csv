@@ -1,0 +1,56 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19
+sku,1,static,,,text,SKU,,1,1,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+name,1,text,,,text,Name,,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+description,1,text,,,textarea,Description,,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+weight,1,decimal,,,text,Weight,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+maximum_scan_size,1,decimal,,,text,Maximum scan size,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+color_scanning,1,int,,,select,Color scanning,,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+power_requirements,1,text,,,text,Power requirements,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+maximum_print_size,1,int,,,select,Maximum print size,,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+sensor_type,1,int,,,select,Sensor type,,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+total_megapixels,1,text,,,text,Total megapixels,,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+optical_zoom,1,decimal,,,text,Optical zoom,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+image_stabilizer,1,int,,,select,Image stabilizer,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+camera_type,1,int,,,select,Camera type,,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+thd,1,decimal,,,text,Total Harmonic Distortion (THD),,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+snr,1,decimal,,,text,Signal-to-Noise Ratio (SNR),,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+headphone_connectivity,1,int,,,select,Headphone connectivity,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+maximum_video_resolution,1,int,,,select,Maximum video resolution,,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+maximum_frame_rate,1,decimal,,,text,Maximum frame rate,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+multifunctional_functions,1,text,,,text,All-in-one functions,,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+response_time,1,decimal,,,text,Response time (ms),,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+display_srgb,1,int,,,select,Display sRGB,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+display_color,1,int,,,select,Color,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+display_diagonal,1,decimal,,,text,Display diagonal,,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+release_date,1,text,,,date,Release date,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+viewing_area,1,decimal,,,text,Effective viewing area,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+price,1,decimal,,,price,Price,,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+picture,1,varchar,,,media_image,Picture,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+pdf_description,1,varchar,,,text,PDF description,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+container_material,1,int,,,select,Container material,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+main_color,1,int,,,select,Main color,,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+secondary_color,1,int,,,select,Secondary color,,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+clothing_size,1,int,,,select,Clothing size,,1,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+tshirt_materials,1,int,,,select,T-Shirt material,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+tshirt_style,1,text,,,text,T-Shirt style,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+camera_brand,1,int,,,select,Brand,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+camera_model_name,1,text,,,text,Model name,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+short_description,1,text,,,textarea,Short description,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+max_image_resolution,1,text,,,text,Maximum image resolution,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+image_resolutions,1,text,,,text,Still image resolution(s),,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+supported_aspect_ratios,1,text,,,text,Supported aspect ratios,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+supported_image_format,1,text,,,text,Supported image format,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+lens_mount_interface,1,text,,,text,Lens mount interface,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+focus,1,text,,,text,Focus,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+focus_adjustement,1,text,,,text,Focus adjustment,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+auto_focus_modes,1,text,,,text,Auto focus modes,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+auto_focus_points,1,decimal,,,text,Auto focus points,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+auto_focus_lock,1,int,,,select,Auto focus lock,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+auto_focus_assist_beam,1,int,,,select,Auto focus beam,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+iso_sensitivity,1,text,,,text,Iso sensitivity,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+light_exposure_modes,1,text,,,text,Light exposure modes,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+light_exposure_corrections,1,text,,,text,Light exposure corrections,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+light_metering,1,text,,,text,Light metering,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+auto_exposure,1,int,,,select,Auto exposure,,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+iso_sensitivity_max,1,decimal,,,text,ISO sensitivity (max),,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1
+iso_sensitivity_min,1,decimal,,,text,ISO sensitivity (min),,0,0,1,1,1,1,1,1,1,1,"simple,configurable,virtual",1

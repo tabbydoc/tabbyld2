@@ -1,0 +1,52 @@
+col0,col1,col2,col3,col4
+SITE_ID,,station id,Six character station identifier,Six character site identifier
+SITE_NAME,,extended station name,Extended name of the station,Site extended name
+TEAM_MEMBER_NAME,,name,First name Last/Family name,First Last/Family
+TEAM_MEMBER_ROLE,controlled voc,role,Team member's role,"see Vocabulary sheet, one of the TEAM_ROLE items"
+TEAM_MEMBER_EMAIL,,email,,
+TEAM_MEMBER_INSTITUTION,,institution,,
+LOCATION_LAT,,latitude,In decimal degrees with a minimum of 4 decimal digits and using datum WGS84 ellipsoid,In decimal degrees with a minimum of 4 decimal digits and using datum WGS84 ellipsoid
+LOCATION_LONG,,longitude,In decimal degrees with a minimum of 4 decimal digits and using datum WGS84 ellipsoid,In decimal degrees with a minimum of 4 decimal digits and using datum WGS84 ellipsoid
+LOCATION_ELEV,,elevation,Elevation of the site above sea level,Elevation of the site above sea level
+INSTOM_MODEL,controlled voc,instrument model,,"see Vocabulary sheet, one of the INST_MODEL options. Needed to communicate which IRGA and Sonic are used (important for associated sites)"
+INSTOM_VARIABLE_H_V_R,,measured variable,,"This variable arrive with three numeric indexes ""H_V_R"" (e.g. TA_1_1_1) where the alphabetic part is a contolled vocabulary (see  VAR_CODE). Use only the alphabetic part to record which variables are measured at the site."
+VAR_CODE,controlled voc,measured variable,Code of a variable measured by an instrument,Code of a variable measured by an instrument
+SA,,average stand age,,Average stand age
+SA_MAX,,maximum stand age,,Maximum stand age
+SPP_O,multiple,overstory dominant species,Overstory dominant species expressed as scientific name,Overstory dominant species expressed as scientific name
+SPP_O_PERC,multiple,overstory dominant species percent,,Overstory dominant species percent
+SPP_U,multiple,understory dominant species,Understory dominant species expressed as scientific name,Understory dominant species expressed as scientific name
+SPP_U_PERC,multiple,understory dominant species percent,,Understory dominant species percent
+IGBP,controlled voc,IGBP land cover,,see Vocabulary sheet IGBP
+HEIGHTC,,average canopy height,,Average canopy height
+TERRAIN,controlled voc,terrain topography,,see Vocabulary sheet TERRAIN
+ASPECT,controlled voc,exposure direction,,see Vocabulary sheet ASPECT
+DM_AGRICULTURE,controlled voc,crop management,Crop management such as harvest or crop residue management,Crop management such as harvest or crop residue management. See also vocabulary sheet
+DM_ENCROACH,controlled voc,encroachment,Encroachment such as invasive species or woody enroachment,Encroachment such as invasive species or woody enroachment. See also vocabulary sheet
+DM_EXT_WEATHER,controlled voc,extreme weather,"Extreme weather such as hurricane, frost, or drought","Extreme weather such as hurricane, frost, or drought. See also vocabulary sheet"
+DM_FERT_M,controlled voc,mineral fertilization,Mineral fertilization including liming,Mineral fertilization including liming. See also vocabulary sheet
+DM_FERT_O,controlled voc,organic fertilization,,Organic fertilization. See also vocabulary sheet
+DM_FIRE,controlled voc,fires,Fires including underburn,Fires including underburn. See also vocabulary sheet
+DM_FORESTRY,controlled voc,forestry management,Forestry management such as clearcutting or thinning,Forestry management such as clearcutting or thinning. See also vocabulary sheet
+DM_GRAZE,controlled voc,grazing,,Grazing. See also vocabulary sheet
+DM_INS_PATH,controlled voc,insects / pathogens / diseases,"Substantial insect, pathogen attack, or disease event","Substantial insect, pathogen attack, or disease event. See also vocabulary sheet"
+DM_PESTICIDE,controlled voc,pesticides / insecticides / fungicides,"Application of pesticide, insecticide, or fungicide","Application of pesticide, insecticide, or fungicide. See also vocabulary sheet"
+DM_PLANTING,controlled voc,planting,Planting of live plants or seeds,Planting of live plants or seeds. See also vocabulary sheet
+DM_TILL,controlled voc,tillage,Tillage or site preparation including scarification and plowing,Tillage or site preparation including scarification and plowing. See also vocabulary sheet
+DM_WATER,controlled voc,water management,"Water management such as irrigation, flooding or drainage","Water management such as irrigation, flooding or drainage. See also vocabulary sheet"
+DM_GENERAL,controlled voc,other disturbance or management,General disturbance or management event not covered by other disturbance or management type,General disturbance or management event not covered by other disturbance or management type. See also vocabulary sheet
+SOIL_TEX_SAND,,"sand content, percentage",,Sand content in percentage
+SOIL_TEX_SILT,,"silt content, percentage",,Silt content in percentage
+SOIL_TEX_CLAY,,"clay content, percentage",,Clay content in percentage
+SOIL_DEPTH,,"soil depth, meters",,in meters
+SOIL_CN_RATIO,,carbon/nitrogen ratio in the soil,,Ratio Carbon/Nitrogen
+MAT,,"annual average air temperature, °C",Climatological long-term mean annual average air temperature in degrees Celcius,Climatological long-term mean annual average air temperature in degrees C
+MAP,,"annual average precipitation,mm",Climatological long-term mean annual average precipitation in mm,Climatological long-term mean annual average precipitation in mm
+LAI_O,,overstory Leaf Area Index,,Overstory Leaf Area Index
+LAI_O_DEC,,deciduous overstory Leaf Area Index,,Deciduous overstory Leaf Area Index
+LAI_O_EVG,,evergreen overstory Leaf Area Index,,Evergreen overstory Leaf Area Index
+LAI_TOT,,total Leaf Area Index,,Leaf Area Index (total)
+AG_BIOMASS_TREE,,"trees biomass, g/m^2",Maximum value of biomass of trees in the year in g dry mass (DM) m-2,Maximum value of biomass of trees in the year in g dry mass (DM) m-2
+AG_BIOMASS_SHRUB,,"shrubs biomass, g/m^2",Maximum value of biomass of shrubs in the year in g dry mass (DM) m-2,Maximum value of biomass of shrubs in the year in g dry mass (DM) m-2
+AG_BIOMASS_GRASS,,"grassland vegetation biomass, g/m^2",Maximum value of biomass of grassland vegetation in g dry mass (DM) m-2,Maximum value of biomass of grassland vegetation in g dry mass (DM) m-2
+AG_BIOMASS_CROP,,"crops vegetation biomass, g/m^2",Maximum value of biomass of crops vegetation in the year in g dry mass (DM) m-2,Maximum value of biomass of crops vegetation in the year in g dry mass (DM) m-2

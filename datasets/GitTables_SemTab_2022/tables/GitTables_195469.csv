@@ -1,0 +1,193 @@
+col0,col1,col2,col3,col4,col5,col6
+1,Armenia,ARM,ASI,RoW Asia and Pacific,44.0,WA
+2,Afghanistan,AFG,ASI,RoW Asia and Pacific,44.0,WA
+3,Albania,ALB,EUR,RoW Europe,46.0,WE
+4,Algeria,DZA,AFR,RoW Africa,47.0,WF
+7,Angola,AGO,AFR,RoW Africa,47.0,WF
+8,Antigua and Barbuda,ATG,LAM,RoW America,45.0,WL
+9,Argentina,ARG,LAM,RoW America,45.0,WL
+10,Australia,AUS,OCE,Australia,37.0,AU
+11,Austria,AUT,EU,Austria,1.0,AT
+12,Bahamas,BHS,LAM,RoW America,45.0,WL
+13,Bahrain,BHR,ASI,RoW Middle East,48.0,WM
+14,Barbados,BRB,LAM,RoW America,45.0,WL
+15,Belgium-Luxembourg,BLX,EU,,,
+16,Bangladesh,BGD,ASI,RoW Asia and Pacific,44.0,WA
+19,Bolivia (Plurinational State of),BOL,LAM,RoW America,45.0,WL
+20,Botswana,BWA,AFR,RoW Africa,47.0,WF
+21,Brazil,BRA,LAM,Brazil,33.0,BR
+23,Belize,BLZ,LAM,RoW America,45.0,WL
+25,Solomon Islands,SLB,OCE,RoW Asia and Pacific,44.0,WA
+26,Brunei Darussalam,BRN,ASI,RoW Asia and Pacific,44.0,WA
+27,Bulgaria,BGR,EU,Bulgaria,3.0,BG
+28,Myanmar,MMR,ASI,RoW Asia and Pacific,44.0,WA
+29,Burundi,BDI,AFR,RoW Africa,47.0,WF
+32,Cameroon,CMR,AFR,RoW Africa,47.0,WF
+33,Canada,CAN,NAM,Canada,31.0,CA
+35,Cabo Verde,CPV,AFR,RoW Africa,47.0,WF
+37,Central African Republic,CAF,AFR,RoW Africa,47.0,WF
+38,Sri Lanka,LKA,ASI,RoW Asia and Pacific,44.0,WA
+39,Chad,TCD,AFR,RoW Africa,47.0,WF
+40,Chile,CHL,LAM,RoW America,45.0,WL
+41,"China, mainland",CHN,ASI,China,30.0,CN
+44,Colombia,COL,LAM,RoW America,45.0,WL
+46,Congo,COG,AFR,RoW Africa,47.0,WF
+48,Costa Rica,CRI,LAM,RoW America,45.0,WL
+49,Cuba,CUB,LAM,RoW America,45.0,WL
+50,Cyprus,CYP,EU,Cyprus,4.0,CY
+51,Czechoslovakia,CSK,EU,,,
+52,Azerbaijan,AZE,ASI,RoW Asia and Pacific,44.0,WA
+53,Benin,BEN,AFR,RoW Africa,47.0,WF
+54,Denmark,DNK,EU,Denmark,7.0,DK
+55,Dominica,DMA,LAM,RoW America,45.0,WL
+56,Dominican Republic,DOM,LAM,RoW America,45.0,WL
+57,Belarus,BLR,EUR,RoW Europe,46.0,WE
+58,Ecuador,ECU,LAM,RoW America,45.0,WL
+59,Egypt,EGY,AFR,RoW Middle East,48.0,WM
+60,El Salvador,SLV,LAM,RoW America,45.0,WL
+63,Estonia,EST,EU,Estonia,8.0,EE
+66,Fiji,FJI,OCE,RoW Asia and Pacific,44.0,WA
+67,Finland,FIN,EU,Finland,10.0,FI
+68,France,FRA,EU,France,11.0,FR
+70,French Polynesia,PYF,OCE,RoW Asia and Pacific,44.0,WA
+72,Djibouti,DJI,AFR,RoW Africa,47.0,WF
+73,Georgia,GEO,ASI,RoW Asia and Pacific,44.0,WA
+74,Gabon,GAB,AFR,RoW Africa,47.0,WF
+75,Gambia,GMB,AFR,RoW Africa,47.0,WF
+79,Germany,DEU,EU,Germany,6.0,DE
+80,Bosnia and Herzegovina,BIH,EUR,RoW Europe,46.0,WE
+81,Ghana,GHA,AFR,RoW Africa,47.0,WF
+83,Kiribati,KIR,OCE,RoW Asia and Pacific,44.0,WA
+84,Greece,GRC,EU,Greece,12.0,GR
+86,Grenada,GRD,LAM,RoW America,45.0,WL
+89,Guatemala,GTM,LAM,RoW America,45.0,WL
+90,Guinea,GIN,AFR,RoW Africa,47.0,WF
+91,Guyana,GUY,LAM,RoW America,45.0,WL
+93,Haiti,HTI,LAM,RoW America,45.0,WL
+95,Honduras,HND,LAM,RoW America,45.0,WL
+96,"China, Hong Kong SAR",HKG,ASI,RoW Asia and Pacific,44.0,WA
+97,Hungary,HUN,EU,Hungary,13.0,HU
+98,Croatia,HRV,EU,RoW Europe,46.0,WE
+99,Iceland,ISL,EUR,RoW Europe,46.0,WE
+100,India,IND,ASI,India,34.0,IN
+101,Indonesia,IDN,ASI,Indonesia,42.0,ID
+102,Iran (Islamic Republic of),IRN,ASI,RoW Middle East,48.0,WM
+103,Iraq,IRQ,ASI,RoW Middle East,48.0,WM
+104,Ireland,IRL,EU,Ireland,14.0,IE
+105,Israel,ISR,ASI,RoW Middle East,48.0,WM
+106,Italy,ITA,EU,Italy,15.0,IT
+107,C te d'Ivoire,CIV,AFR,RoW Africa,47.0,WF
+108,Kazakhstan,KAZ,ASI,RoW Asia and Pacific,44.0,WA
+109,Jamaica,JAM,LAM,RoW America,45.0,WL
+110,Japan,JPN,ASI,Japan,29.0,JP
+112,Jordan,JOR,ASI,RoW Middle East,48.0,WM
+113,Kyrgyzstan,KGZ,ASI,RoW Asia and Pacific,44.0,WA
+114,Kenya,KEN,AFR,RoW Africa,47.0,WF
+115,Cambodia,KHM,ASI,RoW Asia and Pacific,44.0,WA
+116,Democratic People's Republic of Korea,PRK,ASI,RoW Asia and Pacific,44.0,WA
+117,Republic of Korea,KOR,ASI,South Korea,32.0,KR
+118,Kuwait,KWT,ASI,RoW Middle East,48.0,WM
+119,Latvia,LVA,EU,Latvia,18.0,LV
+120,Lao People's Democratic Republic,LAO,ASI,RoW Asia and Pacific,44.0,WA
+121,Lebanon,LBN,ASI,RoW Middle East,48.0,WM
+122,Lesotho,LSO,AFR,RoW Africa,47.0,WF
+123,Liberia,LBR,AFR,RoW Africa,47.0,WF
+124,Libya,LBY,AFR,RoW Africa,47.0,WF
+126,Lithuania,LTU,EU,Lithuania,16.0,LT
+128,"China, Macao SAR",MAC,ASI,RoW Asia and Pacific,44.0,WA
+129,Madagascar,MDG,AFR,RoW Africa,47.0,WF
+130,Malawi,MWI,AFR,RoW Africa,47.0,WF
+131,Malaysia,MYS,ASI,RoW Asia and Pacific,44.0,WA
+132,Maldives,MDV,ASI,RoW Asia and Pacific,44.0,WA
+133,Mali,MLI,AFR,RoW Africa,47.0,WF
+134,Malta,MLT,EU,Malta,19.0,MT
+136,Mauritania,MRT,AFR,RoW Africa,47.0,WF
+137,Mauritius,MUS,AFR,RoW Africa,47.0,WF
+138,Mexico,MEX,LAM,Mexico,35.0,MX
+141,Mongolia,MNG,ASI,RoW Asia and Pacific,44.0,WA
+143,Morocco,MAR,AFR,RoW Africa,47.0,WF
+144,Mozambique,MOZ,AFR,RoW Africa,47.0,WF
+146,Republic of Moldova,MDA,EUR,RoW Europe,46.0,WE
+147,Namibia,NAM,AFR,RoW Africa,47.0,WF
+149,Nepal,NPL,ASI,RoW Asia and Pacific,44.0,WA
+150,Netherlands,NLD,EU,Netherlands,20.0,NL
+151,Netherlands Antilles,ANT,LAM,RoW America,45.0,WL
+153,New Caledonia,NCL,OCE,RoW Asia and Pacific,44.0,WA
+154,The former Yugoslav Republic of Macedonia,MKD,EUR,RoW Europe,46.0,WE
+155,Vanuatu,VUT,OCE,RoW Asia and Pacific,44.0,WA
+156,New Zealand,NZL,OCE,RoW Asia and Pacific,44.0,WA
+157,Nicaragua,NIC,LAM,RoW America,45.0,WL
+158,Niger,NER,AFR,RoW Africa,47.0,WF
+159,Nigeria,NGA,AFR,RoW Africa,47.0,WF
+162,Norway,NOR,EUR,Norway,41.0,NO
+165,Pakistan,PAK,ASI,RoW Asia and Pacific,44.0,WA
+166,Panama,PAN,LAM,RoW America,45.0,WL
+167,Czech Republic,CZE,EU,Czech Republic,5.0,CZ
+168,Papua New Guinea,PNG,OCE,RoW Asia and Pacific,44.0,WA
+169,Paraguay,PRY,LAM,RoW America,45.0,WL
+170,Peru,PER,LAM,RoW America,45.0,WL
+171,Philippines,PHL,ASI,RoW Asia and Pacific,44.0,WA
+173,Poland,POL,EU,Poland,21.0,PL
+174,Portugal,PRT,EU,Portugal,22.0,PT
+175,Guinea-Bissau,GNB,AFR,RoW Africa,47.0,WF
+176,Timor-Leste,TLS,ASI,RoW Asia and Pacific,44.0,WA
+177,Puerto Rico,PRI,LAM,RoW America,45.0,WL
+178,Eritrea,ERI,AFR,RoW Africa,47.0,WF
+179,Qatar,QAT,ASI,RoW Middle East,48.0,WM
+181,Zimbabwe,ZWE,AFR,RoW Africa,47.0,WF
+183,Romania,ROU,EU,Romania,23.0,RO
+184,Rwanda,RWA,AFR,RoW Africa,47.0,WF
+185,Russian Federation,RUS,ASI,Russian Federation,35.0,RU
+186,Serbia and Montenegro,SCG,EUR,,,
+188,Saint Kitts and Nevis,KNA,LAM,RoW America,45.0,WL
+189,Saint Lucia,LCA,LAM,RoW America,45.0,WL
+191,Saint Vincent and the Grenadines,VCT,LAM,RoW America,45.0,WL
+193,Sao Tome and Principe,STP,AFR,RoW Africa,47.0,WF
+194,Saudi Arabia,SAU,ASI,RoW Middle East,48.0,WM
+195,Senegal,SEN,AFR,RoW Africa,47.0,WF
+197,Sierra Leone,SLE,AFR,RoW Africa,47.0,WF
+198,Slovenia,SVN,EU,Slovenia,25.0,SI
+199,Slovakia,SVK,EU,Slovak Republic,26.0,SK
+200,Singapore,SGP,ASI,RoW Asia and Pacific,44.0,WA
+201,Somalia,SOM,AFR,RoW Africa,47.0,WF
+202,South Africa,ZAF,AFR,South Africa,43.0,ZA
+203,Spain,ESP,EU,Spain,9.0,ES
+207,Suriname,SUR,LAM,RoW America,45.0,WL
+208,Tajikistan,TJK,ASI,RoW Asia and Pacific,44.0,WA
+209,Swaziland,SWZ,AFR,RoW Africa,47.0,WF
+210,Sweden,SWE,EU,Sweden,24.0,SE
+211,Switzerland,CHE,EUR,Switzerland,38.0,CH
+212,Syrian Arab Republic,SYR,ASI,RoW Middle East,48.0,WM
+213,Turkmenistan,TKM,ASI,RoW Asia and Pacific,44.0,WA
+214,"China, Taiwan Province of",TWN,ASI,RoW Asia and Pacific,44.0,WA
+215,United Republic of Tanzania,TZA,AFR,RoW Africa,47.0,WF
+216,Thailand,THA,ASI,RoW Asia and Pacific,44.0,WA
+217,Togo,TGO,AFR,RoW Africa,47.0,WF
+220,Trinidad and Tobago,TTO,LAM,RoW America,45.0,WL
+221,Oman,OMN,ASI,RoW Middle East,48.0,WM
+222,Tunisia,TUN,AFR,RoW Africa,47.0,WF
+223,Turkey,TUR,EUR,Turkey,39.0,TR
+225,United Arab Emirates,ARE,ASI,RoW Middle East,48.0,WM
+226,Uganda,UGA,AFR,RoW Africa,47.0,WF
+228,USSR,SUN,ASI,,,
+229,United Kingdom,GBR,EU,United Kingdom,27.0,GB
+230,Ukraine,UKR,EUR,RoW Europe,46.0,WE
+231,United States of America,USA,NAM,United States,28.0,US
+233,Burkina Faso,BFA,AFR,RoW Africa,47.0,WF
+234,Uruguay,URY,LAM,RoW America,45.0,WL
+235,Uzbekistan,UZB,ASI,RoW Asia and Pacific,44.0,WA
+236,Venezuela (Bolivarian Republic of),VEN,LAM,RoW America,45.0,WL
+237,Viet Nam,VNM,ASI,RoW Asia and Pacific,44.0,WA
+238,Ethiopia,ETH,AFR,RoW Africa,47.0,WF
+244,Samoa,WSM,OCE,RoW Asia and Pacific,44.0,WA
+248,Yugoslav SFR,YUG,EUR,,,
+249,Yemen,YEM,ASI,RoW Middle East,48.0,WM
+250,Democratic Republic of the Congo,COD,AFR,RoW Africa,47.0,WF
+251,Zambia,ZMB,AFR,RoW Africa,47.0,WF
+255,Belgium,BEL,EU,Belgium,2.0,BE
+256,Luxembourg,LUX,EU,Luxembourg,17.0,LU
+272,Serbia,SRB,EUR,RoW Europe,46.0,WE
+273,Montenegro,MNE,EUR,RoW Europe,46.0,WE
+276,Sudan,SDN,AFR,RoW Africa,47.0,WF
+277,South Sudan,SSD,AFR,RoW Africa,47.0,WF
+999,RoW,ROW,ROW,,,

@@ -1,0 +1,15 @@
+col0,col1,col2,col3,col4,col5
+1,62,aranzebia spawned,1,IndunEventNpcSpawned,2
+2,62,aranzebia killed,1,IndunEventNpcKilled,11
+3,62,reset aranzebia,1,IndunEventNoAliveChInRoom,5
+4,64,aranzebia spawned,2,IndunEventNpcSpawned,7
+5,64,aranzebia killed,2,IndunEventNpcKilled,12
+6,64,reset aranzebia,2,IndunEventNoAliveChInRoom,10
+7,62,exit spawned,1,IndunEventDoodadSpawned,11
+8,64,exit spawned,2,IndunEventDoodadSpawned,12
+9,66,room_05_spawn,3,IndunEventNpcSpawned,13
+10,66,room_05_killed,3,IndunEventNpcKilled,14
+11,66,room_05_noalive,3,IndunEventNoAliveChInRoom,26
+15,66,room_10_spawn,4,IndunEventNpcSpawned,22
+16,66,room_10_killed,4,IndunEventNpcKilled,25
+17,66,room_10_noalive,4,IndunEventNoAliveChInRoom,27

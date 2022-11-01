@@ -1,0 +1,26 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+ FamilyMemberHistory.age[x],Age,0..1 This element is affected by the following invariants: fhs-1,,,,,Age,
+ FamilyMemberHistory.born[x],date,0..1 This element is affected by the following invariants: fhs-1,,,,,date,
+ FamilyMemberHistory.condition,BackboneElement,0..*,,,,,,
+ FamilyMemberHistory.condition.code,CodeableConcept,1..1,"Identification of the Condition or diagnosis.For example codes, see Condition/Problem/Diagnosis Codes",,http://hl7-fhir.github.io/valueset-condition-code.html,405535005, http://snomed.info/sct,"{""code"":""405535005"", ""system"":"" http://snomed.info/sct""}"
+ FamilyMemberHistory.condition.extension,Extension,0..*,,,,,,
+ FamilyMemberHistory.condition.id,string,0..1,,,,,,
+ FamilyMemberHistory.condition.modifierExtension,Extension,0..*,,,,,,
+ FamilyMemberHistory.condition.note,Annotation,0..1,,,,,,
+ FamilyMemberHistory.condition.onset[x],Range,0..1,,,,,,
+ FamilyMemberHistory.condition.outcome,CodeableConcept,0..1,"The result of the condition for the patient; e.g. death, permanent disability, temporary disability, etc.For example codes, see Condition Outcome Codes",,http://hl7-fhir.github.io/valueset-condition-outcome.html,405535005, http://snomed.info/sct,"{""code"":""405535005"",""system"":"" http://snomed.info/sct""}"
+ FamilyMemberHistory.contained,Resource,0..*,,,,,,
+ FamilyMemberHistory.date,dateTime,0..1,,,,,,
+ FamilyMemberHistory.deceased[x],boolean,0..1,,,,,,
+ FamilyMemberHistory.gender,code,0..1,The gender of a person used for administrative purposes.The codes SHALL be taken from AdministrativeGender,,http://hl7-fhir.github.io/valueset-administrative-gender.html,male,http://hl7.org/fhir/administrative-gender,"{""code"":""male"",""customed"":""gender""}"
+ FamilyMemberHistory.id,id,0..1,,,,,,
+ FamilyMemberHistory.identifier,Identifier,0..*,,,,,,
+ FamilyMemberHistory.implicitRules,uri,0..1,,,,,,
+ FamilyMemberHistory.meta,Meta,0..1,,,,,,
+ FamilyMemberHistory.modifierExtension,Extension,0..*,,,,,,
+ FamilyMemberHistory.name,string,0..1,,,,,,
+ FamilyMemberHistory.note,Annotation,0..1,,,,,,
+ FamilyMemberHistory.patient,Reference(Patient),1..1,,Patient,,,,
+ FamilyMemberHistory.relationship,CodeableConcept,1..1,"The nature of the relationship between the patient and the related person being described in the family member history.For example codes, see FamilyMember",,http://hl7-fhir.github.io/v3/FamilyMember/vs.html,DAUADOPT,http://hl7.org/fhir/v3/RoleCode,"{""code"":""DAUADOPT"",""system"":""http://hl7.org/fhir/v3/RoleCode""}"
+ FamilyMemberHistory.status,code,1..1,A code that identifies the status of the family history record.The codes SHALL be taken from FamilyHistoryStatus,,http://hl7-fhir.github.io/valueset-history-status.html,completed,http://hl7.org/fhir/history-status,"{""code"":""completed"",""customed"":""status""}"
+ FamilyMemberHistory.text,Narrative,0..1 This element is affected by the following invariants: dom-1,,,,,,

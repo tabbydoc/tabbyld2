@@ -1,0 +1,80 @@
+col0,col1,col2,col3,col4,col5
+fi_report_64,64,2,,负债和所有者（或股东）权益总计,58.0
+fi_report_63,63,2,fi_report_64,所有者（或股东）权益合计,57.0
+fi_report_62,62,2,fi_report_63,  未分配利润,56.0
+fi_report_61,61,2,fi_report_63,  盈余公积,55.0
+fi_report_60,60,2,fi_report_63,  减：库存股,54.0
+fi_report_59,59,2,fi_report_63,  资本公积,53.0
+fi_report_58,58,2,fi_report_63,  实收资本（或股本）,52.0
+fi_report_57,57,2,,所有者（或股东）权益：,
+fi_report_56,56,2,fi_report_64,负债合计,51.0
+fi_report_55,55,2,fi_report_56,非流动负债合计,50.0
+fi_report_54,54,2,fi_report_55,  其他非流动负债,49.0
+fi_report_53,53,2,fi_report_55,  递延所得税负债,48.0
+fi_report_52,52,2,fi_report_55,  预计负债,47.0
+fi_report_51,51,2,fi_report_55,  专项应付款,46.0
+fi_report_50,50,2,fi_report_55,  长期应付款,45.0
+fi_report_49,49,2,fi_report_55,  应付债券,44.0
+fi_report_48,48,2,fi_report_55,  长期借款,43.0
+fi_report_47,47,2,,非流动负债：,
+fi_report_46,46,2,fi_report_56,流动负债合计,42.0
+fi_report_45,45,2,fi_report_46,  其他流动负债,41.0
+fi_report_44,44,2,fi_report_46,  一年内到期的非流动负债,40.0
+fi_report_43,43,2,fi_report_46,  其他应付款,39.0
+fi_report_42,42,2,fi_report_46,  应付股利,38.0
+fi_report_41,41,2,fi_report_46,  应付利息,37.0
+fi_report_40,40,2,fi_report_46,  应交税费,36.0
+fi_report_39,39,2,fi_report_46,  应付职工薪酬,35.0
+fi_report_38,38,2,fi_report_46,  预收款项,34.0
+fi_report_37,37,2,fi_report_46,  应付账款,33.0
+fi_report_36,36,2,fi_report_46,  应付票据,32.0
+fi_report_35,35,2,fi_report_46,  交易性金融负债,31.0
+fi_report_34,34,2,fi_report_46,  短期借款,30.0
+fi_report_33,33,2,,流动负债：,
+fi_report_32,32,1,,资产总计,29.0
+fi_report_31,31,1,fi_report_32,,
+fi_report_30,30,1,fi_report_32,非流动资产合计,28.0
+fi_report_29,29,1,fi_report_30,  其他非流动资产,27.0
+fi_report_28,28,1,fi_report_30,  递延所得税资产,26.0
+fi_report_27,27,1,fi_report_30,  长期待摊费用,25.0
+fi_report_26,26,1,fi_report_30,  商誉,24.0
+fi_report_25,25,1,fi_report_30,  开发支出,23.0
+fi_report_24,24,1,fi_report_30,  无形资产,22.0
+fi_report_23,23,1,fi_report_30,  固定资产清理,21.0
+fi_report_22,22,1,fi_report_30,  工程物资,20.0
+fi_report_21,21,1,fi_report_30,  在建工程,19.0
+fi_report_20,20,1,fi_report_30,  固定资产,18.0
+fi_report_19,19,1,fi_report_30,  投资性房地产,17.0
+fi_report_18,18,1,fi_report_30,  长期股权投资,16.0
+fi_report_17,17,1,fi_report_30,  长期应收款,15.0
+fi_report_16,16,1,fi_report_30,  持有至到期投资,14.0
+fi_report_15,15,1,fi_report_30,  可供出售金融资产,13.0
+fi_report_14,14,1,,非流动资产：,
+fi_report_13,13,1,fi_report_32,流动资产合计,12.0
+fi_report_12,12,1,fi_report_13,  其他流动资产,11.0
+fi_report_11,11,1,fi_report_13,  一年内到期的非流动资产,10.0
+fi_report_10,10,1,fi_report_13,  存货,9.0
+fi_report_9,9,1,fi_report_13,  其他应收款,8.0
+fi_report_8,8,1,fi_report_13,  应收股利,7.0
+fi_report_7,7,1,fi_report_13,  应收利息,6.0
+fi_report_6,6,1,fi_report_13,  预付款项,5.0
+fi_report_5,5,1,fi_report_13,  应收账款,4.0
+fi_report_4,4,1,fi_report_13,  应收票据,3.0
+fi_report_3,3,1,fi_report_13,  交易性金融资产,2.0
+fi_report_2,2,1,fi_report_13,  货币资金,1.0
+fi_report_1,1,1,,流动资产：,
+fi_report_79,79,3,fi_report_62,四、净利润（净亏损以“-”号填列）,15.0
+fi_report_78,78,3,fi_report_79,  减：所得税费用,14.0
+fi_report_77,77,3,fi_report_79,三、利润总额（亏损以“-”号填列）,13.0
+fi_report_76,76,3,fi_report_77,  减：营业外支出,12.0
+fi_report_75,75,3,fi_report_77,  加：营业外收入,11.0
+fi_report_74,74,3,fi_report_77,二、营业利润（亏损以“-”号填列）,10.0
+fi_report_73,73,3,fi_report_74,      公允价值变动收益（损失以“-”号填列）,9.0
+fi_report_72,72,3,fi_report_74,  加：投资收益（损失以“-”号填列）,8.0
+fi_report_71,71,3,fi_report_74,      资产减值损失,7.0
+fi_report_70,70,3,fi_report_74,      财务费用,6.0
+fi_report_69,69,3,fi_report_74,      管理费用,5.0
+fi_report_68,68,3,fi_report_74,      销售费用,4.0
+fi_report_67,67,3,fi_report_74,      营业税金及附加,3.0
+fi_report_66,66,3,fi_report_74,  减：营业成本,2.0
+fi_report_65,65,3,fi_report_74,一、营业收入,1.0

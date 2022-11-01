@@ -1,0 +1,32 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23
+76854,NC_000913,"2,316,758",SNP,T→C,rcsB,,response regulator in two-component regulatory system with RcsC and YojN,,,V195A (GTC→GCC),,1.0,1.0,1.0,,,,,,,,,
+26183,NC_000913,"1,978,503",DEL,Δ776 bp,"insB1, insA",,"insB1, insA",,,,1.0,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+39115,NC_000913,"4,296,189",SNP,A→G,"gltP, yjcO",,glutamate/aspartate:proton symporter/Sel1 family TPR-like repeat protein,,,intergenic (+396/+248),,0.4,,,0.4,,,,,,0.32,,
+39116,NC_000913,"4,296,190",SNP,A→C,"gltP, yjcO",,glutamate/aspartate:proton symporter/Sel1 family TPR-like repeat protein,,,intergenic (+397/+247),,0.42,,,0.4,,,,,,0.32,,
+77005,NC_000913,"1,598,904",SNP,T→C,lsrK,,autoinducer-2 (AI-2) kinase,,,S436G (AGT→GGT),,0.56,,,,,,,,,,,
+76942,NC_000913,"3,267,595",SNP,A→G,tdcR,,L-threonine dehydratase operon activator protein,,,*73* (TAA→TGA),,,,,,,,,,,,1.0,
+26191,NC_000913,"1,299,499",DEL,"Δ1,199 bp","ychE, oppA",,UPF0056 family inner membrane protein/oligopeptide ABC transporter periplasmic binding protein,,,intergenic (+254/‑485),1.0,,,1.0,1.0,,1.0,1.0,1.0,1.0,1.0,,1.0
+39445,NC_000913,"2,132,787",SNP,A→C,wcaA,,putative glycosyl transferase,,,I204S (ATC→AGC),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+76887,NC_000913,"67,887",INS,+G,araA,,L-arabinose isomerase,,,coding (451/1503 nt),,,,,,,,0.72,,,,,
+76888,NC_000913,"67,887",INS,+T,araA,,L-arabinose isomerase,,,coding (451/1503 nt),,,,,,,,0.72,,,,,
+38171,NC_000913,"3,815,858",DEL,Δ82 bp,"[rph], [rph]",,"[rph], [rph]",,,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+38199,NC_000913,"4,184,542",SNP,C→A,rpoB,,"RNA polymerase, beta subunit",,,P1100Q (CCG→CAG),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+76987,NC_000913,"67,890",INS,+TG,araA,,L-arabinose isomerase,,,coding (448/1503 nt),,,,,,,,,1.0,,,,
+76902,NC_000913,"2,023,805",DEL,(CTTTA)2→1,"fliR, rcsA",,flagellar export pore protein/transcriptional regulator of colanic acid capsular biosynthesis,,,intergenic (+127/‑159),,,,,,,,0.68,1.0,1.0,,,
+38503,NC_000913,"4,001,644",DEL,Δ5 bp,corA,,magnesium/nickel/cobalt transporter,,,coding (220‑224/951 nt),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+76904,NC_000913,"2,316,679",SNP,A→G,rcsB,,response regulator in two-component regulatory system with RcsC and YojN,,,T169A (ACC→GCC),,,,,,,,1.0,1.0,1.0,,,
+76908,NC_000913,"2,967,531",SNP,A→G,ptsP,,"PEP-protein phosphotransferase enzyme I, GAF domain containing protein",,,L301P (CTG→CCG),,,,,,,,,1.0,,,,
+76912,NC_000913,"3,527,589",SNP,C→T,yrfF,,"putative RcsCDB-response attenuator, inner membrane protein",,,Q375* (CAG→TAG),,,,,,,,1.0,1.0,1.0,,,
+76849,NC_000913,"700,948",SNP,A→C,nagC,,N-acetylglucosamine-inducible nag divergent operon transcriptional repressor,,,I216S (ATT→AGT),,,,,,,,,,,1.0,1.0,1.0
+76850,NC_000913,"2,509,469",SNP,G→A,"glk, yfeO",,glucokinase/putative ion channel protein,,,intergenic (‑45/‑159),,,,,,,,,,,1.0,1.0,1.0
+76851,NC_000913,"2,977,578",SNP,T→G,galR,,"galactose-inducible d-galactose regulon transcriptional repressor, autorepressor",,,S328A (TCA→GCA),,,,,,,,,,,1.0,1.0,1.0
+76916,NC_000913,"4,186,261",SNP,G→A,rpoC,,"RNA polymerase, beta prime subunit",,,A305T (GCC→ACC),,,,,,,,0.34,,,,,
+76853,NC_000913,"2,316,391",SNP,T→C,rcsB,,response regulator in two-component regulatory system with RcsC and YojN,,,Y73H (TAC→CAC),,1.0,1.0,1.0,,,,,,,,,
+26102,NC_000913,"257,908",DEL,Δ776 bp,[crl],,[crl],,,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+76855,NC_000913,"3,308,102",SNP,G→A,nlpI,,lipoprotein involved in osmotic sensitivity and filamentation,,,A274V (GCA→GTA),,0.88,1.0,1.0,,,,,,,,,
+76856,NC_000913,"3,527,656",DEL,Δ5 bp,yrfF,,"putative RcsCDB-response attenuator, inner membrane protein",,,coding (1190‑1194/2136 nt),,1.0,1.0,1.0,,,,,,,,,
+76857,NC_000913,"3,992,523",DEL,(CGGGC)2→1,cyaA,,adenylate cyclase,,,coding (1372‑1376/2547 nt),,1.0,1.0,1.0,,,,,,,,,
+76858,NC_000913,"4,103,655",DEL,Δ1 bp,cpxA,,sensory histidine kinase in two-component regulatory system with CpxR,,,coding (1320/1374 nt),,1.0,1.0,1.0,,,,,,,,,
+76859,NC_000913,"2,509,495",SNP,C→G,"glk, yfeO",,glucokinase/putative ion channel protein,,,intergenic (‑71/‑133),,,,,1.0,1.0,1.0,,,,,,
+76860,NC_000913,"3,088,093",SNP,T→A,"metK, galP",,S-adenosylmethionine synthetase/D-galactose transporter,,,intergenic (+235/‑189),,,,,1.0,1.0,1.0,,,,,,
+76852,NC_000913,"3,769,672",DEL,(A)8→7,yibV,,"pseudogene, putative cryptic Rhs immunity protein",,,pseudogene (1/111 nt),,,,,,,,,,,1.0,1.0,1.0

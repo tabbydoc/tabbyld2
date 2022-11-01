@@ -1,0 +1,158 @@
+col0,col1,col2,col3,col4
+albania,alb,al,albanian lek,all
+algeria,dza,dz,algerian dinar,dzd
+angola,ago,ao,angola kwanza,aoa
+argentina,arg,ar,argentine peso,ars
+aruba,abw,aw,aruban guilder,awg
+australia,aus,au,australian    dollar,aud
+austria,aut,at,austrian    schilling,ats
+azerbaijan,aze,az,azerbaijanian    manat,azn
+bahamas,bhs,bs,bahamas dollar,bsd
+bahrain,bhr,bh,bahraini dinar,bhd
+bangladesh,bgd,bd,bangladeshi    taka,bdt
+barbados,brb,bb,barbados dollar,bbd
+belarus,blr,by,belarus ruble,byr
+belgium,bel,be,belgian franc,bef
+belize,blz,bz,belize dollar,bzd
+bermuda,bmu,bm,bermudaian    dollar,bmd
+bhutan,btn,bt,bhutan ngultrum,btn
+bolivia,bol,bo,bolivia boliviano,bob
+bosnia and    herzegovina,bih,ba,bosnia    herzegovina mark,bam
+botswana,bwa,bw,botswana pula,bwp
+brazil,bra,br,brazilian real,brl
+brunei    darussalam,brn,bn,brunei dollar,bnd
+bulgaria,bgr,bg,bulgarian lev,bgn
+burundi,bdi,bi,burundi franc,bif
+canada,can,ca,canadian dollar,cad
+cayman    islands,cym,ky,cayman islands    dollar,kyd
+cfa,&nbsp;,&nbsp;,cfa franc bceao,xaf
+cfp,&nbsp;,&nbsp;,cfp franc,xpf
+chile,chl,cl,chilean peso,clp
+china,chn,cn,chinese yuan,cny
+china    international,chx,cx,&nbsp;,&nbsp;
+colombia,col,co,colombian peso,cop
+comoros,com,km,comoro franc,kmf
+congo    republic of,cod,cd,congolese franc,cdf
+costa    rica,cri,cr,costa rican    colon,crc
+croatia,hrv,hr,croatian kuna,hrk
+cuba,cub,cu,cuban peso,cup
+cyprus,cyp,cy,cyprus pound,cyp
+czech    republic,cze,cz,czech koruna,czk
+denmark,dnk,dk,danish krone,dkk
+dominican    republic,dom,do,dominican peso,dop
+east    caribbean,&nbsp;,&nbsp;,east caribbean    dollar,xcd
+ecuador,ecu,ec,ecuadorian    sucre,ecs
+egypt,egy,eg,egyptian pound,egp
+el    salvador,slv,sv,el salvador    colon,svc
+estonia,est,ee,estonian kroon,eek
+ethiopia,eth,et,ethiopian birr,etb
+european    currency unit,ecu,&nbsp;,euro,xeu
+european    monetary union,emu,eu,&nbsp;,eur
+fiji,fji,fj,fiji dollar,fjd
+finland,fin,fi,finnish markka,fim
+france,fra,fr,french franc,frf
+gambia,gmb,gm,gambian dalasi,gmd
+georgia,geo,ge,georgian lari,gel
+germany,deu,de,deutsche mark,dem
+ghana,gha,gh,ghanaian cedi,ghs
+greece,grc,gr,greek drachma,grd
+guatemala,gtm,gt,guatemalan    quetzal,gtq
+guinea,gin,gn,guinean franc,gnf
+haiti,hti,ht,haitian gourde,htg
+honduras,hnd,hn,honduran    lempira,hnl
+hong kong,hkg,hk,hong kong    dollar,hkd
+hungary,hun,hu,hungarian    forint,huf
+iceland,isl,is,icelandic krona,isk
+india,ind,in,indian rupee,inr
+indonesia,idn,id,indonesian    rupiah,idr
+iran,irn,ir,iranian rial,irr
+ireland,irl,ie,irish pound,iep
+israel,isr,il,new israeli    sheqel,ils
+italy,ita,it,italian lira,itl
+jamaica,jam,jm,jamaican dollar,jmd
+japan,jpn,jp,japanese yen,jpy
+jordan,jor,jo,jordanian dinar,jod
+kazakhstan,kaz,kz,kazakhstani    tenge,kzt
+kenya,ken,ke,kenyan shilling,kes
+korea    republic of,kor,kr,korean won,krw
+kuwait,kwt,kw,kuwaiti dinar,kwd
+kyrgyzstan,kgz,kg,kyrgyzstani som,kgs
+latvia,lva,lv,latvia lat,lvl
+lebanon,lbn,lb,lebanese pound,lbp
+lesotho,lso,ls,lesotho loti,lsl
+lithuania,ltu,lt,lithuania lita,ltl
+luxembourg,lux,lu,luxembourg    franc,luf
+macao,mac,mo,macanese pataca,mop
+macedonia,mkd,mk,macedonian    denar,mkd
+madagascar,mdg,mg,malagasy ariary,mga
+malawi,mwi,mw,malawian kwacha,mwk
+malaysia,mys,my,malaysian    ringgit,myr
+maldives,mdv,mv,maldivian    rufiyaa,mvr
+malta,mlt,mt,maltese lira,mtl
+mauritania,mrt,mr,mauritanian    ouguiya,mro
+mauritius,mus,mu,mauritian rupee,mur
+mexico,mex,mx,mexican peso,mxn
+moldova,mda,md,moldovan leu,mdl
+mongolia,mng,mn,mongolian    tugrik,mnt
+morocco,mar,ma,moroccan dirham,mad
+mozambique,moz,mz,mozambique metical,mzn
+namibia,nam,na,namibian dollar,nad
+nepal,npl,np,nepalese rupee,npr
+netherlands,nld,nl,netherlands    guilder,nlg
+netherlands    antilles,ant,an,netherlands    antillian guilder&nbsp;,ang
+new    zealand,nzl,nz,new zealand    dollar,nzd
+nicaragua,nic,ni,nicaragua gold    cordoba,nio
+nigeria,nga,ng,nigerian naira,ngn
+norway,nor,no,norwegian krone,nok
+oman,omn,om,omani rial,omr
+pakistan,pak,pk,pakistani rupee,pkr
+panama,pan,pa,panamanian    balboa,pab
+papua new    guinea,png,pg,papua new    guinean kina,pgk
+paraguay,pry,py,paraguayan    guarani,pyg
+peru,per,pe,peruvian nuevo    sol,pen
+philippines,phl,ph,philippine peso,php
+poland,pol,pl,polish zloty,pln
+portugal,prt,pt,portuguese    escudo,pte
+qatar,qat,qa,qatari rial,qar
+romania,rou,ro,new romanian    leu,ron
+russian    federation,rus,ru,russian ruble,rub
+rwanda,rwa,rw,rwandan franc,rwf
+samoa,wsm,ws,samoan tala,wst
+saudi    arabia,sau,sa,saudi arabian    riyal,sar
+serbia,srb,rs,serbian dinar,rsd
+seychelles,syc,sc,seychelles    rupee,scr
+sierra    leone,sle,sl,sierra leonean    leone,sll
+singapore,sgp,sg,singapore    dollar,sgd
+slovakia,svk,sk,slovak koruna,skk
+slovenia,svn,si,slovenian tolar,sit
+solomon    islands,slb,sb,solomon islands    dollar,sbd
+south    africa,zaf,za,south african    rand,zar
+spain,esp,es,spanish peseta,esp
+special drawing rights,&nbsp;,&nbsp;,special drawing rights,xdr
+sri lanka,lka,lk,sri lanka rupee,lkr
+sudan,sdn,sd,sudanese pound,sdg
+surinam,sur,sr,surinam dollar,srd
+swaziland,swz,sz,swaziland    lilangeni,szl
+sweden,swe,se,swedish krona,sek
+switzerland,che,ch,swiss franc,chf
+taiwan    province of china,twn,tw,new taiwan    dollar,twd
+tanzania,tza,tz,tanzanian    shilling,tzs
+thailand,tha,th,thai baht,thb
+tonga,ton,to,tongan pa'anga,top
+trinidad    and tobago,tto,tt,trinidad &amp;    tobago dollar,ttd
+tunisia,tun,tn,tunisian dinar,tnd
+turkey,tur,tr,turkish lira,trl
+uganda,uga,ug,ugandan    shilling,ugx
+ukraine,ukr,ua,ukrainian    hryvnia,uah
+united    arab emirates,are,ae,united arab    emirates dirham,aed
+united    kingdom,gbr,gb,british pound    sterling,gbp
+united    states,usa,us,us dollar,usd
+uruguay,ury,uy,uruguayan new    peso,uyu
+uzbekistan,uzb,uz,uzbekistan som,uzs
+vanuatu,vut,vu,vanuatu vatu,vuv
+venezuela,ven,ve,venezuelan    bolivar fuerte,vef
+viet nam,vnm,vn,vietnamese dong,vnd
+west    africa,&nbsp;,&nbsp;,west african    franc,xof
+yemen,yem,ye,yemeni rial,yer
+zambia,zmb,zm,zambian kwacha,zmk
+zimbabwe,zwe,zw,zimbabwe dollar,zwl

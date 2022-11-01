@@ -1,0 +1,9 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+1,site1,1,(SELECT id FROM publisher WHERE name = 'pub1'),1,1,True,site1.com,,,
+2,site2,1,(SELECT id FROM publisher WHERE name = 'pub2'),1,0,True,site1.com,,,
+3,site3,1,(SELECT id FROM publisher WHERE name = 'pub3'),1,1,True,site1.com,,,
+4,inactive_site,1,(SELECT id FROM publisher WHERE name = 'pub1'),0,1,True,inactive.com,,,
+11,app1,2,(SELECT id FROM publisher WHERE name = 'pub1'),1,0,True,,com.app1,store.com,1.1
+12,app2,2,(SELECT id FROM publisher WHERE name = 'pub2'),1,0,True,,com.app2,store.com,2.2
+13,app3,2,(SELECT id FROM publisher WHERE name = 'pub3'),1,1,True,,com.app3,store.com,3.3
+14,inactive_app,2,(SELECT id FROM publisher WHERE name = 'pub3'),0,0,True,,com.inactive,store.com,4.4

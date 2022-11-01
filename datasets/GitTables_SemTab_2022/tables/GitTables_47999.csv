@@ -1,0 +1,47 @@
+col0,col1,col2,col3,col4
+trialNumTask,behavioral,int64,0,"Trial Number, from 0-197."
+trialID,behavioral,object,p8,"The trial id (p=pofa, i=iaps)."
+DotLoc,behavioral,object,LeftS,"Location and valience of the DotLoc (RightS = right-side, sad)."
+LEmotion,behavioral,object,Sad,The valience of the left-side stimulus.
+LStim,behavioral,object,p0036.jpg,The left-side stimulus.
+LDescription,behavioral,object,36,The description of the left-side stimulus.
+REmotion,behavioral,object,Neutral,The valience of the right-side stimulus.
+RStim,behavioral,object,p0041.jpg,The right-side stimulus.
+RDescription,behavioral,object,41,The description of the right-side stimulus.
+trialType,behavioral,object,pofa,The type of trial ran. Either iaps or pofa.
+isCongruent,behavioral,bool,True,Are the DotLoc and stimulus in congruent locations.
+event,behavioral,object,Fixation,"Trial event (practice, task)."
+KeyRespRt,behavioral,int64,666,Response time (trial-level; msec).
+KeyRespAcc,behavioral,int64,1,Accuracy (trial-level).
+mRT,behavioral,int64,722,Median response time (session-level; msec).
+sAcc,behavioral,int64,1,Session accuracy (0-198).
+dotLocOnset,behavioral,int64,4594,DotLoc onset time (msec).
+stimOnset,behavioral,int64,1555,Stimulus onset time (msec).
+diffDotLoc,behavioral,int64,94,Difference between DotLoc estimated and true onset time (trial-level; msec).
+diffStim,behavioral,int64,55,Difference between stimulus estimated and true onset time (trial-level).
+mDiffDotLoc,behavioral,int64,62,Median difference between DotLoc estimated and true onset time (subject-level; msec).
+mDiffStim,behavioral,int64,32,Median difference between stimulus estimated and true onset time (subject-level).
+sampleNum,eyetracking,int64,0,Sample number in trial.
+sampleTime,eyetracking,int64,93,Time since trial start (msec).
+x,eyetracking,int64,-141,Gaze x-coordinates.
+y,eyetracking,int64,1779,Gaze y-coordinates.
+gpuFullName,device,object,NVIDIA GeForce GTX 780M,Returns the GPU onboard the computer. Uses WebGL API.
+gpuType,device,object,dedicated,Category identifying the GPU as either separate from the CPU or intergrated. Uses WebGL API. Data parsed from gpuFullName.
+browserFullName,device,object,Chrome 59,The browser brand and version. Derived from User-Agent request header.
+browserBrand,device,object,Chrome,Browser Brand. Data parsed from browserFullName.
+browserVersion,device,int64,59,Browser Version. Data parsed from browserFullName.
+osFullName,device,object,Mac OS X 10.9.5,Operating system used. Data parsed from osFullName.
+osBrand,device,object,macOS,Operating system used. Data parsed from osFullName
+osVersion,device,object,10.9.5,The operating system and version used. Uses User-Agent request header.
+heap.used,device,object,26MB,The total bytes used by JavaScript on the task. Uses window.performance.memory from Google.
+heap.limit,device,object,2190MB,Maximum size a JavaScript heap accessable by the task. Uses window.performance.memory from Google.
+isWebcamUsed,device,bool,True,Whether or not the webcam was initiated.
+WebcamMessage,device,object,Success,String indicating the success or failure of accessing the webcam and the reason for it (i.e. getUserMediaFailed).
+webcamSize,device,object,0x0,Returns the width and height of the webcam. Uses the HTMLVideoElement API.
+luminance,device,float64,0.3921568627450979,"The perceived brightness distribution or ""luminosity"" within an image, normalized from 0 (black) to 1 (white)."
+monitorSize,device,object,2560x1440,Returns the width and height of the screen. Uses Window.screen.height [and width] from Web API.
+windowSize,device,object,2560x1440,Returns the width and height of the browser window. Uses Window.innerHeight [and innerHeight] from Web API.
+devicePixelRatio,device,int64,1,The ratio between physical pixels and device independent pixels in the current display. Uses Window.devicePixelRatio from Web API.
+isPageVisible,device,bool,True,Returns whether or not the task has been minimized or a new tab has been open and is visible. Uses the Page Visibility API.
+isFullscreen,device,bool,True,Uses the following calculation to determine if fullscreen (window.innerHeight < (.85*window.screen.height)) && (window.innerWidth < (.85*window.screen.width)).
+scaling,device,float64,0.8907142857142857,Precentage screen was scaled from default. This is to allow all elements in task to fit in smaller screens (width=1366).

@@ -1,0 +1,8 @@
+col0,col1,col2,col3,col4,col5
+getNextPvId(),,,Black or African American,Race_PID,2
+getNextPvId(),,,Not Reported,Race_PID,6
+getNextPvId(),,,Unknown,Race_PID,8
+getNextPvId(),,,Asian,Race_PID,4
+getNextPvId(),,,American Indian or Alaska Native,Race_PID,3
+getNextPvId(),,,White,Race_PID,1
+getNextPvId(),,,Native Hawaiian or Other Pacific Islander,Race_PID,5

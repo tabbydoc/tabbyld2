@@ -1,0 +1,40 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1,Mean surface runoff rate,kg m**-2 s**-1,mean_surface_runoff_rate,msror,235020,,x
+2,Mean sub-surface runoff rate,kg m**-2 s**-1,mean_sub_surface_runoff_rate,mssror,235021,,x
+3,Mean snow evaporation rate,kg m**-2 s**-1,mean_snow_evaporation_rate,mser,235023,,x
+4,Mean snowmelt rate,kg m**-2 s**-1,mean_snowmelt_rate,msmr,235024,,x
+5,Mean large-scale precipitation fraction,Proportion,mean_large_scale_precipitation_fraction,mlspf,235026,,x
+6,Mean surface downward UV radiation flux,W m**-2,mean_surface_downward_uv_radiation_flux,msdwuvrf,235027,,x
+7,Mean large-scale precipitation rate,kg m**-2 s**-1,mean_large_scale_precipitation_rate,mlspr,235029,,x
+8,Mean convective precipitation rate,kg m**-2 s**-1,mean_convective_precipitation_rate,mcpr,235030,,x
+9,Mean snowfall rate,kg m**-2 s**-1,mean_snowfall_rate,msr,235031,,x
+10,Mean boundary layer dissipation,W m**-2,mean_boundary_layer_dissipation,mbld,235032,,x
+11,Mean surface sensible heat flux,W m**-2,mean_surface_sensible_heat_flux,msshf,235033,,x
+12,Mean surface latent heat flux,W m**-2,mean_surface_latent_heat_flux,mslhf,235034,,x
+13,Mean surface downward short-wave radiation flux,W m**-2,mean_surface_downward_short_wave_radiation_flux,msdwswrf,235035,,x
+14,Mean surface downward long-wave radiation flux,W m**-2,mean_surface_downward_long_wave_radiation_flux,msdwlwrf,235036,,x
+15,Mean surface net short-wave radiation flux,W m**-2,mean_surface_net_short_wave_radiation_flux,msnswrf,235037,,x
+16,Mean surface net long-wave radiation flux,W m**-2,mean_surface_net_long_wave_radiation_flux,msnlwrf,235038,,x
+17,Mean top net short-wave radiation flux,W m**-2,mean_top_net_short_wave_radiation_flux,mtnswrf,235039,,x
+18,Mean top net long-wave radiation flux,W m**-2,mean_top_net_long_wave_radiation_flux,mtnlwrf,235040,,x
+19,Mean eastward turbulent surface stress,N m**-2,mean_eastward_turbulent_surface_stress,metss,235041,,x
+20,Mean northward turbulent surface stress,N m**-2,mean_northward_turbulent_surface_stress,mntss,235042,,x
+21,Mean evaporation rate,kg m**-2 s**-1,mean_evaporation_rate,mer,235043,,x
+22,Mean eastward gravity wave surface stress,N m**-2,mean_eastward_gravity_wave_surface_stress,megwss,235045,,x
+23,Mean northward gravity wave surface stress,N m**-2,mean_northward_gravity_wave_surface_stress,mngwss,235046,,x
+24,Mean gravity wave dissipation,W m**-2,mean_gravity_wave_dissipation,mgwd,235047,,x
+25,Mean runoff rate,kg m**-2 s**-1,mean_runoff_rate,mror,235048,,x
+26,"Mean top net short-wave radiation flux, clear sky",W m**-2,mean_top_net_short_wave_radiation_flux_clear_sky,mtnswrfcs,235049,,x
+27,"Mean top net long-wave radiation flux, clear sky",W m**-2,mean_top_net_long_wave_radiation_flux_clear_sky,mtnlwrfcs,235050,,x
+28,"Mean surface net short-wave radiation flux, clear sky",W m**-2,mean_surface_net_short_wave_radiation_flux_clear_sky,msnswrfcs,235051,,x
+29,"Mean surface net long-wave radiation flux, clear sky",W m**-2,mean_surface_net_long_wave_radiation_flux_clear_sky,msnlwrfcs,235052,,x
+30,Mean top downward short-wave radiation flux,W m**-2,mean_top_downward_short_wave_radiation_flux,mtdwswrf,235053,,x
+31,Mean vertically integrated moisture divergence,kg m**-2 s**-1,mean_vertically_integrated_moisture_divergence,mvimd,235054,,x
+32,Mean total precipitation rate,kg m**-2 s**-1,mean_total_precipitation_rate,mtpr,235055,,x
+33,Mean convective snowfall rate,kg m**-2 s**-1,mean_convective_snowfall_rate,mcsr,235056,,x
+34,Mean large-scale snowfall rate,kg m**-2 s**-1,mean_large_scale_snowfall_rate,mlssr,235057,,x
+35,Mean surface direct short-wave radiation flux,W m**-2,mean_surface_direct_short_wave_radiation_flux,msdrswrf,235058,,x
+36,"Mean surface direct short-wave radiation flux, clear sky",W m**-2,mean_surface_direct_short_wave_radiation_flux_clear_sky,msdrswrfcs,235059,,x
+37,"Mean surface downward short-wave radiation flux, clear sky",W m**-2,mean_surface_downward_short_wave_radiation_flux_clear_sky,msdwswrfcs,235068,,x
+38,"Mean surface downward long-wave radiation flux, clear sky",W m**-2,mean_surface_downward_long_wave_radiation_flux_clear_sky,msdwlwrfcs,235069,,x
+39,Mean potential evaporation rate,kg m**-2 s**-1,mean_potential_evaporation_rate,mper,235070,,x

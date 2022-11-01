@@ -1,0 +1,8 @@
+col0,col1,col2
+2020-05-02T18:15:00Z,http://environment.data.gov.uk/flood-monitoring/id/measures/2432TH-level-stage-i-15_min-mASD,0.921
+2020-05-02T18:15:00Z,http://environment.data.gov.uk/flood-monitoring/id/measures/2432TH-level-downstage-i-15_min-mASD,0.926
+2020-05-03T07:00:00Z,http://environment.data.gov.uk/flood-monitoring/id/measures/5003-level-groundwater-i-1_h-mBDAT,41.03
+2020-05-07T09:15:00Z,http://environment.data.gov.uk/flood-monitoring/id/measures/E1320-rainfall-tipping_bucket_raingauge-t-15_min-mm,0.0
+2020-05-30T04:30:00Z,http://environment.data.gov.uk/flood-monitoring/id/measures/E1660-level-downstage-i-15_min-mASD,0.266
+2020-05-30T04:30:00Z,http://environment.data.gov.uk/flood-monitoring/id/measures/E1660-level-stage-i-15_min-mASD,0.166
+2020-05-30T04:30:00Z,http://environment.data.gov.uk/flood-monitoring/id/measures/E1660-flow-stage-i-15_min-m3_s,0.261

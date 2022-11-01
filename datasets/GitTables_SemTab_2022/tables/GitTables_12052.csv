@@ -1,0 +1,70 @@
+col0,col1,col2,col3
+doc_agricola0,Plan de produccion,AGR,True
+doc_agricola1,Cronograma de cultivo,AGR,True
+doc_agricola2,Titulo de adjudicacion,AGR,True
+doc_agricola3,Declaratoria de permanencia,AGR,True
+doc_agricola4,Carta agraria,AGR,True
+doc_agricola5,Carta aval IMDERURAL,AGR,True
+doc_agricola6,Certificado de vacunacion,AGR,True
+doc_agricola7,Constancia de no poseer animales INSAI,AGR,True
+doc_agricola8,Registro de hierro,AGR,True
+doc_agricola9,Constancia de productor,AGR,True
+doc_agricola10,Proforma materiales,AGR,True
+doc_agricola11,Proforma Insumos,AGR,True
+doc_agricola12,Proforma maquinarias,AGR,True
+doc_agricola13,Proforma equipos,AGR,True
+doc_agricola14,Proforma animales,AGR,True
+doc_turismo0,Presupuesto de la obra para infraestructura,T,True
+doc_turismo1,Análisis de precios unitarios de la obra para infraestructura,T,True
+doc_turismo2,Facturas pro-forma para infraestructura,T,True
+doc_turismo3,Cronograma de ejecución física de la obra para infraestructura,T,True
+doc_turismo4,Facturas pro-forma para equipamiento,T,True
+doc_turismo5,Documento de opción a compra para equipamiento,T,True
+doc_turismo6,Exposición de motivos para equipamiento,T,True
+doc_turismo7,Facturas pro-forma para mobiliaro,T,True
+doc_turismo8,Documento de opción a compra para mobiliaro,T,True
+doc_turismo9,Exposición de motivos para mobiliaro,T,True
+doc_turismo10,Facturas pro-forma para maquinarias y equipos,T,True
+doc_turismo11,Documento de opción a compra para maquinarias y equipos,T,True
+doc_turismo12,Exposición de motivos para maquinarias y equipos,T,True
+doc_turismo13,Facturas pro-forma para insumos,T,True
+doc_turismo14,Exposición de motivos para insumos,T,True
+doc_turismo15,Facturas pro-forma para unidad de Transporte,T,True
+doc_turismo16,Presupuesto de la repotenciación para unidad de Transporte,T,True
+doc_turismo17,Copia del certificado del vehículo para unidad de Transporte,T,True
+doc_turismo18,Copia del documento de propiedad para unidad de Transporte,T,True
+doc_artesanal0,Proformas de la materia o insumo,A,True
+doc_artesanal1,Proformas de maquinarias o equipos,A,True
+doc_artesanal2,Presupuesto de infraestructura,A,True
+doc_artesanal3,Breve descripción de infraestructura,A,True
+doc_artesanal4,Plano de infraestructura,A,True
+doc_CyT0,Facturas pro-forma para Materia prima e Insumos,CYT,True
+doc_CyT1,Cotización para Materia prima e Insumos,CYT,True
+doc_CyT2,Exposición de motivos para Materia prima e Insumos,CYT,True
+doc_CyT3,Facturas pro-forma para Adquisición y repotenciación de maquinaria,CYT,True
+doc_CyT4,Documento de opción a compra para Adquisición y repotenciación de maquinaria,CYT,True
+doc_CyT5,Presupuesto de repotenciación para Adquisición y repotenciación de maquinaria,CYT,True
+doc_CyT6,Exposición de motivos para Adquisición y repotenciación de maquinaria,CYT,True
+doc_CyT7,Presupuesto para Infraestructura,CYT,True
+doc_CyT8,Breve descripción de la obra para Infraestructura,CYT,True
+doc_CyT9,Plano de la obra para Infraestructura,CYT,True
+doc_pyme0,Facturas proforma para materia prima e insumo,PYME,True
+doc_pyme1,Exposición de motivos para materia prima e insumo,PYME,True
+doc_pyme2,Presupuesto para infraestructura,PYME,True
+doc_pyme3,Cédula de identidad de quien realizará la obra para infraestructura,PYME,True
+doc_pyme4,Breve descripción de la obra para infraestructura,PYME,True
+doc_pyme5,Plano de la obra para infraestructura,PYME,True
+doc_pyme6,Certificado de Vehículo (transporte),PYME,True
+doc_pyme7,Avalúo de Vehículo (transporte),PYME,True
+doc_pyme8,R.C.V del vehiculo (transporte),PYME,True
+doc_pymi0,Facturas proforma para materia prima e insumo,PYMI,True
+doc_pymi1,Exposición de motivos para materia prima e insumo,PYMI,True
+doc_pymi2,Presupuesto para infraestructura,PYMI,True
+doc_pymi3,Cédula de identidad de quien realizará la obra para infraestructura,PYMI,True
+doc_pymi4,Breve descripción de la obra para infraestructura,PYMI,True
+doc_pymi5,Plano de la obra para infraestructura,PYMI,True
+doc_pymi6,Certificado de Vehículo (transporte),PYMI,True
+doc_pymi7,Avalúo de Vehículo (transporte),PYMI,True
+doc_pymi8,R.C.V del vehiculo (transporte),PYMI,True
+doc_microempresa0,Facturas proforma para materia prima e insumo,MEMP,True
+doc_microempresa1,Exposición de motivos para materia prima e insumo,MEMP,True

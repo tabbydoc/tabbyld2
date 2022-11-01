@@ -1,0 +1,38 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+Sart-up,TrustLook,Unknown mobile threats detection,Feb 2016,Enterprise Software,Seed,22.0,10M to 25M,11 to 50,"C/C++, Java, Python, Linux",1.0
+Sart-up,Flow,Global supply chain e-commerce platform,Mar 2016,E-commerce,Seed,2.5,2M to 5M,1 to 10,"Node.js, React, Redux, Scala",2.0
+Sart-up,Notarize,Notary on-demand,Feb 2016,E-commerce,Seed,2.5,2M to 5M,1 to 10,Web RTC,3.0
+Sart-up,Onstream,Universal controller for residential properties,May 2016,Enterprise Software,Seed,2.0,2M to 5M,,,4.0
+Sart-up,Zenysis,Data analytics,Mar 2016,Enterprise Software,Seed,2.0,2M to 5M,1 to 10,"NumPy, Javascript, Python, Node.js, React, SQL",5.0
+Sart-up,Nirmidas Biotech,Diagnostic fluoresence,Feb 2016,Healthcare,Seed,2.0,2M to 5M,1 to 10,,6.0
+Sart-up,String,Autonomous finance cloud computing,Jan 2016,Enterprise Software,Seed,1.7,650K to 2M,1 to 10,"Java, Python, SQL",7.0
+Sart-up,Qordoba,Saas for global digital content management,Feb 2016,Enterprise Software,Seed,1.5,650K to 2M,11 to 50,"Java, Python, Angular, Scala, Hadoop, Apache",8.0
+Sart-up,Travelytix,Resurrecting the in-room hotel phone experience,Mar 2016,Mobile,Seed,0.75,650K to 2M,1 to 10,"JIRA, Skype, InVision",9.0
+Sart-up,Kinonation,Cloud based global video-on-demand distribution,Jan 2016,E-commerce,Seed,0.7,650K to 2M,1 to 10,"Ruby on Rails, Redis",10.0
+Sart-up,BlitzChat,Slack for live sports,Apr 2016,Mobile,Seed,0.695,650K to 2M,1 to 10,,11.0
+Sart-up,MDops,Siri for the physician,Feb 2016,Mobile,Seed,0.62,10K to 650K,1 to 10,,12.0
+Sart-up,MyLucke,On-demand private parking,Mar 2016,E-commerce,Seed,0.61,10K to 650K,1 to 10,"Twilio, MailChimp, Mixpanel, Hootsuite",13.0
+Sart-up,Paybook,Automating finance data entry,Apr 2016,Enterprise Software,Seed,0.475,10K to 650K,11 to 50,"Javascript, Node.js, Angular, PHP, MongoDB",14.0
+Sart-up,Podiuum,"Video platform for conversion, content and context",Mar 2016,Enterprise Software,Seed,0.4,10K to 650K,1 to 10,"Oracle, HTML",15.0
+Sart-up,Radical Choices,Improving mental wellness and resilience,Feb 2016,Mobile,Seed,0.4,10K to 650K,1 to 10,,16.0
+Sart-up,HomeWised,One-stop home maintenance applicaiton,Apr 2016,E-commerce,Seed,0.39,10K to 650K,11 to 50,"Java, Javascript, jQuery, PHP, SQL, Apache",17.0
+Sart-up,Jibo,Interactive social emotive robots,Mar 2016,E-commerce,Seed,0.365,10K to 650K,11 to 50,,18.0
+Performers,Pluralsight,On-demand developer training resources,Apr 2016,Education,Series B,165.0,Over 100M,11 to 50,"Java, Python, Node, React, SQL",19.0
+Performers,Veracode,Global supply chain e-commerce platform,Mar 2016,E-commerce,Series C,114.0,Over 100M,201 to 500,"Javascript, Python, SQL, Apache",20.0
+Performers,Main Street Hub,CRM tool,Mar 2015,Enterprise Software,Series A,57.0,25M to 100M,201 to 500,"Javascript, PHP, Wordpress, SendGrid, Marketo, Ngenix",21.0
+Performers,Gainsight,CRM tool,Aug 2015,Enterprise Software,Series C,54.0,25M to 100M,201 to 500,"Zendesk, SendGrid, Marketo, Get Satisfaction",22.0
+Performers,NuoDB,Data analytics,Feb 2015,Enterprise Software,Series C,51.0,25M to 100M,11 to 50,"Linux, C++, SQL, JIRA",23.0
+Performers,FirstFuel Software,Diagnostic fluoresence,Feb 2016,Enterprise Software,Series C,44.0,25M to 100M,51 to 200,"PHP, Wordpress, Apache, Piwik, Hubspot",24.0
+Performers,Kenandy,CRM sales platform,Dec 2015,Enterprise Software,Series B,44.0,25M to 100M,51 to 200,"SAP, Oracle, Apex",25.0
+Performers,Avegant,Virtual retinal display for mobile applications,Aug 2015,Mobile,Series B,37.0,25M to 100M,11 to 50,"Python, Java, C",
+Performers,Sonian,Cloud-based data analytics,Apr 2015,Enterprise Software,Series C,28.0,25M to 100M,51 to 200,"Ruby on Rails, Sensu, Chef Servers",27.0
+Performers,Pager,Care by physicians at home,Mar 2015,Healthcare,Series A,24.0,10M to 25M,11 to 50,"HTML5, CSS, Javascript, Node, SQL",28.0
+Trenders,SPIDR Tech,Data-driven policing,May 2016,Enterprise Software,Seed,0.1,10K to 650K,1 to 10,"Javascript, jQuery, Ruby on Rails, HTML, CSS, SQL",29.0
+Trenders,Monica + Andy,Online store for baby apparel,Apr 2016,E-commerce,Seed,1.2,650K to 2M,1 to 10,"Javascript, PHP, CSS, Apache",30.0
+Trenders,Weav Music,Apative real-time music experience,Apr 2016,Mobile,Seed,1.2,650K to 2M,1 to 10,C++,31.0
+Trenders,Forkable,Automated lunch services,Aug 2015,E-commerce,Seed,0.814,650K to 2M,201 to 500,"Ruby on Rails, Javascript, HTML, CSS, Angular",32.0
+Trenders,Medium,Online publishing platform,Apr 2016,Enterprise Software,Series C,50.0,25M to 100M,11 to 50,"Java, Ruby, Node, Mongo, Redis, SQL",33.0
+Trenders,Preo,Uber for food/drinks at restaurants,Apr 2016,Mobile,Acquired,0.6,10K to 650K,1 to 10,"Javascript, Java, Python, HTML, CSS, SQL",34.0
+Trenders,StyleSeat,Uber for beauty and wellness,Jul 2015,Mobile,Series B,25.0,25M to 100M,11 to 50,"Javascript, Python, HTML, CSS, Django, Angular, Hadoop",35.0
+Trenders,StackShare,Online resource for Software developers,Jul 2015,Enterprise Software,Seed,0.1,10K to 650K,1 to 10,"Javascript, HTML, Ruby, Ruby on Rails, SQL",36.0
+Trenders,Spring,Shopping platform tailored to mobile applications,Apr 2015,Mobile,Series B,25.0,25M to 100M,51 to 200,"Go, C, PostgreSQL, AngularJS",37.0

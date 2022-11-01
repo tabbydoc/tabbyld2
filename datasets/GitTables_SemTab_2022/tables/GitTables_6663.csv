@@ -1,0 +1,19 @@
+col0,col1,col2,col3,col4,col5
+Required,Required,Required,Optional,Optional,Optional
+Provide entries for each Column Name from the data matrix in the data file.,"Provide variable units of measurement. Insert ""N/A"" when units aren't applicable. Data should be represented with units of measurement approved by the International System of Units (SI). Non-SI units are accepted for use and should be defined and referenced.","A complete unambiguous description. Information may include: formulas used to calculate entry; definitions of coding systems (e.g. missing values, quality flags, etc.); detection limits; timestamp calculation; measurement of uncertainty, etc.",Longer human-readable column name. Sometimes this may be identical to Definition or even Name.,Column or row header,"text, numeric, or date"
+MethodID_Location,," Unique user-determined ID for a method described in MethodDescription_Location. Corresponds to Data File header row section ""MethodID_Location"" ",MethodID_Location,Column header,text
+MethodDescription_Location,,Free text field. May contain description of deployment structure or environment.,MethodDescription_Location,Column header,text
+Latitude,Decimal degrees WGS84,Latitude in decimal degrees WGS84,Latitude,Column header,numeric
+Longitude,Decimal degrees WGS84,Longitude in decimal degrees WGS84,Longitude,Column header,numeric
+Depth,meters,Depth at which the sensor is deployed,Depth,Column header,numeric
+Depth_Reference,,Reference for depth value,Depth_Reference,Column header,text
+Elevation,meters above mean sea level NAVD88,Elevation at which the sensor is deployed,Elevation,Column header,numeric
+Elevation_Reference,,Reference for elevation value,Elevation_Reference,Column header,text
+DateTime_Start,YYYY-MM-DD HH:MM:SS,May indicate start date and time of a location. YYYY-MM-DD HH:MM:SS,DateTime_Start,Column header,date
+DateTime_End,YYYY-MM-DD HH:MM:SS,May indicate end date and time of a location. YYYY-MM-DD HH:MM:SS,DateTime_End,Column header,date
+UTC_Offset,,UTC offset of DateTime_Start and DateTime_End. Required if either are listed.,UTC_Offset,Column header,text
+Deployment_Environment,,Water body type or local environmental context in which sensor was deployed (controlled vocabulary https://www.ebi.ac.uk/ols/ontologies/envo),Deployment_Environment,Column header,text
+Deployment_Configuration,,Description of sensor deployment context (Chosen from the following controlled vocabulary: Well; Piezometer; Open water column; Buried in sediment or soil; Surface of sediment or soil; Engineered flow-through structure.),Deployment_Configuration,Column header,text
+Water_Name,,Full name of water body,Water_Name,Column header,text
+Site_Name,,Site name,Site_Name,Column header,text
+Site_ID,,Site ID,Site_ID,Column header,text

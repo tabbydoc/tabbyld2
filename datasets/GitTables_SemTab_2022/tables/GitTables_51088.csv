@@ -1,0 +1,31 @@
+col0,col1,col2,col3,col4,col5,col6
+UIDA001,Harvard University,4,Cambridge,20324,B,5076
+UIDA002,Massachusetts Institute of Technology,4,Cambridge,11376,B,168
+UIDA003,Stanford University,1,Stanford,16914,B-,8180
+UIDA004,Vanderbilt University,3,Nashville,12686,C+,333
+UIDA005,California Institute of Technology,1,Pasadena,2240,B,124
+UIDA006,Princeton University,4,Princeton,8181,B+,600
+UIDA007,Yale University,4,New Haven,12385,C,345
+UIDA008,Columbia University,4,New York,32429,B-,36
+UIDA009,"University of California, Berkeley",1,Berkeley,41910,C,1232
+UIDA010,University of Chicago,2,Chicago,14467,B-,217
+UIDA011,Cornell University,4,Ithaca,21904,B,745
+UIDA012,University of Pennsylvania,4,Philadelphia,24806,B-,302
+UIDA013,Johns Hopkins University,3,Baltimore,23917,B-,140
+UIDA014,"University of California, Los Angeles",1,Los Angeles,44947,B,419
+UIDA015,"University of California, San Diego",1,San Diego,35821,B-,1976
+UIDA016,New York University,4,New York,50027,B+,230
+UIDA017,Dartmouth University,4,Hanover,6350,B,237
+UIDA018,University of Wisconsin Madison,4,Madison,31710,B-,936
+UIDA019,University of Illinois at Urbana Champaign,2,Urbana Champaign,44087,B-,1783
+UIDA020,Duke University,3,Durham,14832,C+,8600
+UIDA021,Northwestern University,2,Evanston,21000,B,231
+UIDA022,"University of Michigan, Ann Arbor",2,Ann Arbor,44718,B-,3207
+UIDA023,University of North Carolina at Chapel Hill,3,Chapel Hill,29000,C+,729
+UIDA024,Washington University in St. Louis,2,St. Louis,15155,B,169
+UIDA025,University of Utah,1,Salt Lake City,32760,B-,1535
+UIDA026,University of Washington - Seattle,1,Seattle,46081,B-,634
+UIDA027,"University of California, Santa Barbara",1,Santa Barbara,24346,C+,989
+UIDA028,"Purdue University, West Lafayette",2,West Lafayette,41573,B,2468
+UIDA029,Carnegie Mellon University,4,Pittsburgh,13961,B-,149
+UIDA030,University of Southern California,1,Los Angeles,44000,B,226

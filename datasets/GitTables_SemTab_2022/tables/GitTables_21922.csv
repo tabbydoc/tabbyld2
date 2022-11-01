@@ -1,0 +1,57 @@
+col0,col1,col2,col3
+,,,Name
+,Description from CI,,
+,Description to CI,,
+,,,Note
+,,,Color
+,,,active
+,,inactive,
+,,,valid
+visualize CI Typ,,,
+,,Relationstype name (CMDB intern),
+Description of the relation of the 'from'-CI,,,
+Description of the relation of the 'receiving'-CI,,,
+,,Note to describe the type of relation between CIs,
+,,Color for use in visualization,
+,Visualize relation?,,
+,Relations of CI: ,,
+,,,ID
+,,Relation Type,
+,,,Visualize
+,,Create new Relation,
+,,no Items found,
+Select Relation,,,
+,,Search CI,
+,,Options,
+,,,Optional
+,,,
+,Abort?,,
+,,,Attribute
+,,Add Selection,
+,Create Relation to,,
+,,,CI Types
+,,,Relation
+,,,
+,,switch,
+,,,Direction
+,,Searchstring,
+,,Searchresult,
+,Number of results:,,
+Relation created successfully!,,,
+Couldn't create Relation!,,,
+Relation deleted successfully!,,,
+Couldn't delete Relation!,,,
+,User is not permitted to change CI!,,
+,CI reached maximum number of relations for given type!,,
+,Linked CI reached maximum number of relations for given type!,,
+,For given ci-type has no relation been assigned!,,
+"The Visualisation may be too big to display, would you like to continue?",,,
+,,The Relation is too big for the server to process!,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

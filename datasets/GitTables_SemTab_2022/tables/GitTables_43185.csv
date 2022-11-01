@@ -1,0 +1,19 @@
+col0,col1,col2,col3
+ID,Province ID,-,numeric
+province,Name of the province,-,cs_id
+region,Name of island / region,-,factor
+case_chg,Change in number of cases from Mar to Jun 2020 (cumulative) ,https://kawalcovid19.id,numeric
+rate_chg,"Change in rate of cases from Mar to Jun 2020 (Rate = number of cases in 100.000 population, cumulative)",https://kawalcovid19.id,numeric
+pop,Number of population (in 100.000),Statistics Indonesia,numeric
+job_loss,Job losses (Number of workers who loss their jobs),Ministry on Manpower and Transmigration,numeric
+unemp,"Unemployment rate (%, Feb 2020)",Statistics Indonesia,numeric
+mob_retail,Mobility changes (change compared to baseline days) - Retail and recreation,https://www.google.com/covid19/mobility/,numeric
+mob_groc,Mobility changes (change compared to baseline days) - Grocery & pharmacy,https://www.google.com/covid19/mobility/,numeric
+mob_parks,Mobility changes (change compared to baseline days) - Parks,https://www.google.com/covid19/mobility/,numeric
+mob_trans,Mobility changes (change compared to baseline days) - Transit stations,https://www.google.com/covid19/mobility/,numeric
+mob_work,Mobility changes (change compared to baseline days) - Workplaces,https://www.google.com/covid19/mobility/,numeric
+mob_all,Mobility changes (change compared to baseline days) - Average,https://www.google.com/covid19/mobility/,numeric
+THS_share_gdp,"Share of Transportation & logistics, Hotels & Restaurants, Services to GDP (%, in 2019)",Statistics Indonesia,numeric
+gdp_q1_yoy,"Real GDP growth in Q1-2020 (%, yoy)",Statistics Indonesia,numeric
+gdp_q2_yoy,"Real GDP growth in Q2-2020 (%, yoy)",Statistics Indonesia,numeric
+gdp_q2_qtq,"Real GDP growth in Q2-2020 (%, qtq)",Statistics Indonesia,numeric

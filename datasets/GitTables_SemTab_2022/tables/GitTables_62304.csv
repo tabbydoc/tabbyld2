@@ -1,0 +1,6 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+trigger_priority_normal,Set a priority as normal,1,"[""update_type""]","[""is""]","[""Create""]",,,,"[""priority""]","[[""normal""]]"
+trigger_notify_auto_reply,Auto reply,2,"[""update_type"",""role"",""status""]","[""is"",""is"",""is_not""]","[""Create"",""end_user"",""solved""]",,,,"[""notification_user""]","[[""requester_id"",""title of auto reply"",""body of auto reply""]]"
+trigger_notify_comment,Send an E-mail when an agent creates a public comment ,3,"[""update_type"",""role"",""comment_is_public"",""requester_id""]","[""is"",""is"",""is"",""is_not""]","[""Change"",""agent"",""true"",""current_user""]",,,,"[""notification_user"",""status""]","[[""requester_id"",""title of commet"",""body of comment""],[""solved""]]"
+trigger_classification_category_payment,Set field_category as Payment,4,"[""ticket_form_id""]","[""is""]","[""form_payment_for_user""]","[""update_type"",""update_type""]","[""is"",""is""]","[""Create"",""Change""]","[""field_category""]","[[""Payment""]]"
+trigger_classification_category_opinion,Set field_category as Opinion,5,"[""ticket_form_id""]","[""is""]","[""form_opinion_for_user""]","[""update_type"",""update_type""]","[""is"",""is""]","[""Create"",""Change""]","[""field_category""]","[[""Opinion""]]"

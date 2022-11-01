@@ -1,0 +1,12 @@
+col0,col1,col2,col3,col4
+New Page [Records Hub],,/records/,New Page,
+www.vets.gov/types-of-veteran-id-cards/,,/records/get-veteran-id-cards/,"Not live, Types page",
+www.vets.gov/types-of-veteran-id-cards/vic,,/records/get-veteran-id-cards/vic/,"Not live, VIC content page",
+VIC application???,,/records/get-veteran-id-cards/vic/apply,"not live, VIC application",
+New Page [Request Military Records],,/records/get-military-service-records/,New Page,
+www.vets.gov/download-va-letters/,,/records/download-va-letters/,Content Page,
+www.vets.gov/download-va-letters/letters/,,/records/download-va-letters/letters/,Tool,
+www.vets.gov/discharge-upgrade-instructions/,,/records/discharge-upgrade/,NO CHANGE,Revert back to Vets URL
+www.vets.gov/discharge-upgrade-instructions/questions/,,/records/discharge-upgrade/questionaire,NO CHANGE,Revert back to Vets URL
+www.vets.gov/veteran-id-card/,,/records/get-veteran-id-cards/,Not live,
+www.vets.gov/veteran-id-card/apply/,,/records/get-veteran-id-cards/,Not live,

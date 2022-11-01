@@ -1,0 +1,109 @@
+col0,col1,col2,col3,col4
+Alabama,AL,PADD3,0.0,0.0
+Alaska,AK,PADD5,1.0,1.0
+Arizona,AZ,PADD5,0.0,0.0
+Arkansas,AR,PADD3,0.0,0.0
+California,CA,PADD5,1.0,1.0
+Colorado,CO,PADD4,1.0,1.0
+Connecticut,CT,PADD1,0.0,0.0
+Delaware,DE,PADD1,0.0,1.0
+District of Columbia,DC,PADD1,0.0,0.0
+Eastern Canada,EC,CAN,1.0,1.0
+Florida,FL,PADD1,0.0,0.0
+Georgia,GA,PADD1,0.0,0.0
+Hawaii,HI,PADD5,0.0,0.0
+Idaho,ID,PADD4,0.0,0.0
+Illinois,IL,PADD2,0.0,1.0
+Indiana,IN,PADD2,0.0,1.0
+Iowa,IA,PADD2,0.0,0.0
+Kansas,KS,PADD2,1.0,1.0
+Kentucky,KY,PADD2,0.0,1.0
+Louisiana,LA,PADD3,1.0,1.0
+Maine,ME,PADD1,0.0,0.0
+Maryland,MD,PADD1,0.0,0.0
+Massachusetts,MA,PADD1,0.0,0.0
+Mexico,MX,MEX,1.0,1.0
+Michigan,MI,PADD2,0.0,0.0
+Minnesota,MN,PADD2,0.0,1.0
+Mississippi,MS,PADD3,0.0,1.0
+Missouri,MO,PADD2,0.0,0.0
+Montana,MT,PADD4,0.0,1.0
+Nebraska,NE,PADD2,0.0,0.0
+Nevada,NV,PADD5,0.0,0.0
+New Hampshire,NH,PADD1,0.0,0.0
+New Jersey,NJ,PADD1,0.0,1.0
+New Mexico,NM,PADD3,1.0,1.0
+New York,NY,PADD1,0.0,0.0
+North Carolina,NC,PADD1,0.0,0.0
+North Dakota,ND,PADD2,1.0,1.0
+Ohio,OH,PADD2,0.0,1.0
+Oklahoma,OK,PADD2,1.0,1.0
+Oregon,OR,PADD5,0.0,0.0
+Pennsylvania,PA,PADD1,0.0,1.0
+Rest of World,RW,ONA,1.0,1.0
+Rhode Island,RI,PADD1,0.0,0.0
+South Carolina,SC,PADD1,0.0,0.0
+South Dakota,SD,PADD2,0.0,0.0
+Tennessee,TN,PADD2,0.0,1.0
+Texas,TX,PADD3,1.0,1.0
+Utah,UT,PADD4,0.0,0.0
+Vermont,VT,PADD1,0.0,0.0
+Virginia,VA,PADD1,0.0,0.0
+Washington,WA,PADD5,0.0,1.0
+West Virginia,WV,PADD1,0.0,0.0
+Western Canada,WC,CAN,1.0,1.0
+Wisconsin,WI,PADD2,0.0,0.0
+Wyoming,WY,PADD4,1.0,1.0
+Alabama Rail Terminal,AL_R,PADD3,,
+Alaska Rail Terminal,AK_R,PADD5,,
+Arizona Rail Terminal,AZ_R,PADD5,,
+Arkansas Rail Terminal,AR_R,PADD3,,
+California Rail Terminal,CA_R,PADD5,,
+Colorado Rail Terminal,CO_R,PADD4,,
+Connecticut Rail Terminal,CT_R,PADD1,,
+Delaware Rail Terminal,DE_R,PADD1,,
+District of Columbia Rail Terminal,DC_R,PADD1,,
+Eastern Canada Rail Terminal,EC_R,CAN,,
+Florida Rail Terminal,FL_R,PADD1,,
+Georgia Rail Terminal,GA_R,PADD1,,
+Hawaii Rail Terminal,HI_R,PADD5,,
+Idaho Rail Terminal,ID_R,PADD4,,
+Illinois Rail Terminal,IL_R,PADD2,,
+Indiana Rail Terminal,IN_R,PADD2,,
+Iowa Rail Terminal,IA_R,PADD2,,
+Kansas Rail Terminal,KS_R,PADD2,,
+Kentucky Rail Terminal,KY_R,PADD2,,
+Louisiana Rail Terminal,LA_R,PADD3,,
+Maine Rail Terminal,ME_R,PADD1,,
+Maryland Rail Terminal,MD_R,PADD1,,
+Massachusetts Rail Terminal,MA_R,PADD1,,
+Michigan Rail Terminal,MI_R,PADD2,,
+Minnesota Rail Terminal,MN_R,PADD2,,
+Mississippi Rail Terminal,MS_R,PADD3,,
+Missouri Rail Terminal,MO_R,PADD2,,
+Montana Rail Terminal,MT_R,PADD4,,
+Nebraska Rail Terminal,NE_R,PADD2,,
+Nevada Rail Terminal,NV_R,PADD5,,
+New Hampshire Rail Terminal,NH_R,PADD1,,
+New Jersey Rail Terminal,NJ_R,PADD1,,
+New Mexico Rail Terminal,NM_R,PADD3,,
+New York Rail Terminal,NY_R,PADD1,,
+North Carolina Rail Terminal,NC_R,PADD1,,
+North Dakota Rail Terminal,ND_R,PADD2,,
+Ohio Rail Terminal,OH_R,PADD2,,
+Oklahoma Rail Terminal,OK_R,PADD2,,
+Oregon Rail Terminal,OR_R,PADD5,,
+Pennsylvania Rail Terminal,PA_R,PADD1,,
+Rhode Island Rail Terminal,RI_R,PADD1,,
+South Carolina Rail Terminal,SC_R,PADD1,,
+South Dakota Rail Terminal,SD_R,PADD2,,
+Tennessee Rail Terminal,TN_R,PADD2,,
+Texas Rail Terminal,TX_R,PADD3,,
+Utah Rail Terminal,UT_R,PADD4,,
+Vermont Rail Terminal,VT_R,PADD1,,
+Virginia Rail Terminal,VA_R,PADD1,,
+Washington Rail Terminal,WA_R,PADD5,,
+West Virginia Rail Terminal,WV_R,PADD1,,
+Western Canada Rail Terminal,WC_R,CAN,,
+Wisconsin Rail Terminal,WI_R,PADD2,,
+Wyoming Rail Terminal,WY_R,PADD4,,

@@ -1,0 +1,61 @@
+col0,col1,col2,col3,col4,col5
+AL,1,Alabama,state,32.318231,-86.902298
+AK,2,Alaska,state,63.588753,-154.493062
+AZ,4,Arizona,state,34.048928,-111.093731
+AR,5,Arkansas,state,35.20105,-91.831833
+CA,6,California,state,36.778261,-119.417932
+CO,8,Colorado,state,39.550051,-105.782067
+CT,9,Connecticut,state,41.603221,-73.087749
+DE,10,Delaware,state,38.910832,-75.52767
+DC,11,District of Columbia,federal district,38.905985,-77.033418
+FL,12,Florida,state,27.664827,-81.515754
+GA,13,Georgia,state,32.157435,-82.907123
+HI,15,Hawaii,state,19.898682,-155.665857
+ID,16,Idaho,state,44.068202,-114.742041
+IL,17,Illinois,state,40.633125,-89.398528
+IN,18,Indiana,state,40.551217,-85.602364
+IA,19,Iowa,state,41.878003,-93.097702
+KS,20,Kansas,state,39.011902,-98.484246
+KY,21,Kentucky,state,37.839333,-84.270018
+LA,22,Louisiana,state,31.244823,-92.145024
+ME,23,Maine,state,45.253783,-69.445469
+MD,24,Maryland,state,39.045755,-76.641271
+MA,25,Massachusetts,state,42.407211,-71.382437
+MI,26,Michigan,state,44.314844,-85.602364
+MN,27,Minnesota,state,46.729553,-94.6859
+MS,28,Mississippi,state,32.354668,-89.398528
+MO,29,Missouri,state,37.964253,-91.831833
+MT,30,Montana,state,46.879682,-110.362566
+NE,31,Nebraska,state,41.492537,-99.901813
+NV,32,Nevada,state,38.80261,-116.419389
+NH,33,New Hampshire,state,43.193852,-71.572395
+NJ,34,New Jersey,state,40.058324,-74.405661
+NM,35,New Mexico,state,34.97273,-105.032363
+NY,36,New York,state,43.299428,-74.217933
+NC,37,North Carolina,state,35.759573,-79.0193
+ND,38,North Dakota,state,47.551493,-101.002012
+OH,39,Ohio,state,40.417287,-82.907123
+OK,40,Oklahoma,state,35.007752,-97.092877
+OR,41,Oregon,state,43.804133,-120.554201
+PA,42,Pennsylvania,state,41.203322,-77.194525
+RI,44,Rhode Island,state,41.580095,-71.477429
+SC,45,South Carolina,state,33.836081,-81.163725
+SD,46,South Dakota,state,43.969515,-99.901813
+TN,47,Tennessee,state,35.517491,-86.580447
+TX,48,Texas,state,31.968599,-99.901813
+UT,49,Utah,state,39.32098,-111.093731
+VT,50,Vermont,state,44.558803,-72.577841
+VA,51,Virginia,state,37.431573,-78.656894
+WA,53,Washington,state,47.751074,-120.740139
+WV,54,West Virginia,state,38.597626,-80.454903
+WI,55,Wisconsin,state,43.78444,-88.787868
+WY,56,Wyoming,state,43.075968,-107.290284
+AS,60,American Samoa,territory,-14.2709723,-170.1322174
+GU,66,Guam,territory,13.4443045,144.7937317
+MP,69,Northern Mariana Islands,territory,17.3308296,145.3846893
+PR,72,Puerto Rico,territory,18.220833,-66.590149
+VI,78,Virgin Islands,territory,18.3357658,-64.8963318
+PW,70,Palau,associated state,7.5149798,134.5825195
+FM,64,Micronesia,associated state,7.4255538,150.5508118
+MH,68,Marshall Islands,associated state,7.131474,171.1844788
+US,US,US Area,area,,

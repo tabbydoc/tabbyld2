@@ -1,0 +1,28 @@
+col0,col1,col2
+Taxon.group,Taxon group of consumer,"Amphibians,Birds,Fish,Annelids,Arthropods,Chaetognaths,Cnidarians,Ctenophores,Echinoderms,Molluscs,Nematods,Nemertians,Onychophorans,Platyhelminthians,Mammals,Reptiles"
+Consumer.identity,Identity of the focal consumer,Genus.species
+Citation,Citation identifiyer,"LastName_Year (eg Segui_2015a, Segui_2015b)"
+Survey ID,ID for replicate survey within a study,integer
+SpaceTime.replicate,"NA if only 1 survey was performed, otherwise whether survey represents spatial or temporal replicate","NA,Space,Time,TimeSeries,MultipleTimeSeries"
+Survey.population.split,"Whole-, sub-population or individual (eg. male/female, breeding/non-breeding, age, size, etc.)","Whole population,Sub-population, Individual"
+Subpopulation type,"(open list) Male, Female, Adult, Juvenile, Breeding, Non-breeding","NA,Male,Female,Adult,Juvenile,Breeding,Non-breeding"
+Empty.stomachs.count,,
+Total.stomachs.count,,
+Percent.feeding.given,,
+Diet.richness.minimum,,
+Diet.resolution.finest,highest resolution recorded in prey data (eg. species),"Phylum,Class,Order,Family,Genus,Species"
+Time.averaging,how much time do diet/abundance data represent. Rounded down to the next order of magnitude),"Decades,Years,Months,Days,Hours,Minutes,Seconds"
+Space.averaging,"how much space to diet/abundance data represent - magnitude in square meters: round down to the next order of magnitude (think about in terms of what spatial scale a predator is foraging at, eg. snail vs. lion)","1000km, 100km, 10km, 1000m, 100m, 10m, 1m, 1cm, 1mm"
+Ecosystem,,"Marine,Lotic,Lentic,Terrestrial"
+Feeding.data.type,Method by which consumption was inferred (no percent diet or poop data allowed),"Gut content,Direct observation"
+Rate.limiting.step,your best guess as to whether the diet data corresponds to the post-capture rate limiting step,"Yes,No,No clue"
+Latitude,Report latitude as decimal degrees to 2 decimal places,https://www.fcc.gov/media/radio/dms-decimal
+Temperature,Of environment at time of survey (Degrees celsius).  Use mid-point if range provided.,
+Handling.times.available,in the same paper (incl. digestion times),"Yes, No"
+Abundances.available,in the same paper (of prey and/or consumers),"Yes, No"
+Year,Year (or the mid-point of a range of years) in which survey was conducted,YYYY
+Month,Month (or the mid-point of a range of months) in which survey was conducted,MM
+Day,Day (or the mid-point of a range of days) in which survey was conducted,DD
+Hour,"Hour (or the mid-point of a range of hours) in which survey was conducted (Day = 12, Night = 24)",HH
+Second,Second (or the mid-point of a range of seconds) in which survey was conducted,SS
+Notes,"anything else that's useful (e.g., % of non-countable diet items)",

@@ -1,0 +1,246 @@
+col0,col1,col2,col3,col4
+AF,Afganistan,AFG,4,True
+AX,Åland Islands,ALA,248,True
+AL,Albania,ALB,8,True
+DZ,Algeria,DZA,12,True
+AS,American Samoa,ASM,16,True
+AD,Andorra,AND,20,True
+AO,Angola,AGO,24,True
+AI,Anguilla,AIA,660,True
+AG,Antigua & Barbuda,ATG,28,True
+AR,Argentina,ARG,32,True
+AM,Armenia,ARM,51,True
+AW,Aruba,ABW,533,True
+AU,Australia,AUS,36,True
+AT,Austria,AUT,40,True
+AZ,Azerbaijan,AZE,31,True
+BS,Bahamas,BHS,44,True
+BH,Bahrain,BHR,48,True
+BD,Bangladesh,BGD,50,True
+BB,Barbados,BRB,52,True
+BY,Belarus,BLR,112,True
+BE,Belgium,BEL,56,True
+BZ,Belize,BLZ,84,True
+BJ,Benin,BEN,204,True
+BM,Bermuda,BMU,60,True
+BT,Bhutan,BTN,64,True
+BO,Bolivia,BOL,68,True
+BQ,"Bonaire, Saint Eustatius and Saba",BES,535,True
+BA,Bosnia-Herzegovina,BIH,70,True
+BW,Botswana,BWA,72,True
+BR,Brazil,BRA,76,True
+IO,British Indian Ocean Territory,IOT,86,True
+VG,British Virgin Islands,VGB,92,True
+BN,Brunei Darussalam,BRN,96,True
+BG,Bulgaria,BGR,100,True
+BF,Burkina Faso,BFA,854,True
+BI,Burundi,BDI,108,True
+KH,Cambodia,KHM,116,True
+CM,Cameroon,CMR,120,True
+CA,Canada,CAN,124,True
+CV,Cape Verde Islands,CPV,132,True
+KY,Cayman Islands,CYM,136,True
+CF,Central African Republic,CAF,140,True
+TD,Chad,TCD,148,True
+CL,Chile,CHL,152,True
+CN,China,CHN,156,True
+CX,Christmas Island,CXR,162,True
+CC,Cocos (Keeling) Islands,CCK,166,True
+CO,Colombia,COL,170,True
+KM,Comoros,COM,174,True
+CG,Congo (Brazzaville),COG,178,True
+CD,Congo (Kinshasa),ZAR,180,True
+CK,Cook Islands,COK,184,True
+CR,Costa Rica,CRI,188,True
+HR,Croatia,HRV,191,True
+CU,Cuba,CUB,192,True
+CW,Curaçao,CUW,531,True
+CY,Cyprus,CYP,196,True
+CZ,Czech Republic,CZE,203,True
+DK,Denmark,DNK,208,True
+DJ,Djibouti,DJI,262,True
+DM,Dominica,DMA,212,True
+DO,Dominican Republic,DOM,214,True
+TL,East Timor,TLS,626,True
+EC,Ecuador,ECU,218,True
+EG,Egypt,EGY,818,True
+SV,El Salvador,SLV,222,True
+GQ,Equatorial Guinea,GNQ,226,True
+ER,Eritrea,ERI,232,True
+EE,Estonia,EST,233,True
+ET,Ethiopia,ETH,231,True
+FO,Faeroe Islands,FRO,234,True
+FK,Falkland Islands,FLK,238,True
+FJ,Fiji,FJI,242,True
+FI,Finland,FIN,246,True
+FR,France,FRA,250,True
+GF,French Guiana,GUF,254,True
+PF,French Polynesia,PYF,258,True
+TF,French Southern Territories,ATF,260,True
+GA,Gabon,GAB,266,True
+GM,Gambia,GMB,270,True
+GE,Georgia,GEO,268,True
+DE,Germany,DEU,276,True
+GH,Ghana,GHA,288,True
+GI,Gibralter,GIB,292,True
+GR,Greece,GRC,300,True
+GL,Greenland,GRL,304,True
+GD,Grenada,GRD,308,True
+GP,Guadeloupe,GLP,312,True
+GU,Guam,GUM,316,True
+GT,Guatemala,GTM,320,True
+GG,Guernsey,GGY,831,True
+GN,Guinea,GIN,324,True
+GW,Guinea-Bissau,GNB,624,True
+GY,Guyana,GUY,328,True
+HT,Haiti,HTI,332,True
+VA,Holy See,VAT,336,True
+HN,Honduras,HND,340,True
+HK,Hong Kong,HKG,344,True
+HU,Hungary,HUN,348,True
+IS,Iceland,ISL,352,True
+IN,India,IND,356,True
+ID,Indonesia,IDN,360,True
+IR,Iran,IRN,364,True
+IQ,Iraq,IRQ,368,True
+IE,Ireland,IRL,372,True
+IM,Isle of Man,IMN,833,True
+IL,Israel,ISR,376,True
+IT,Italy,ITA,380,True
+CI,Ivory Coast,CIV,384,True
+JM,Jamaica,JAM,388,True
+JP,Japan,JPN,392,True
+JE,Jersey,JEY,832,True
+JO,Jordan,JOR,400,True
+KZ,Kazakhstan,KAZ,398,True
+KE,Kenya,KEN,404,True
+KI,Kiribati,KIR,296,True
+KW,Kuwait,KWT,414,True
+KG,Kyrgyzstan,KGZ,417,True
+LA,Laos,LAO,418,True
+LV,Latvia,LVA,428,True
+LB,Lebanon,LBN,422,True
+LS,Lesotho,LSO,426,True
+LR,Liberia,LBR,430,True
+LY,Libya,LBY,434,True
+LI,Liechtenstein,LIE,438,True
+LT,Lithuania,LTU,440,True
+LU,Luxembourg,LUX,442,True
+MO,Macau,MAC,446,True
+MK,Macedonia,MKD,807,True
+MG,Madagascar,MDG,450,True
+MW,Malawi,MWI,454,True
+MY,Malaysia,MYS,458,True
+MV,Maldives,MDV,462,True
+ML,Mali,MLI,466,True
+MT,Malta,MLT,470,True
+MH,Marshall Islands,MHL,584,True
+MQ,Martinique,MTQ,474,True
+MR,Mauritania,MRT,478,True
+MU,Mauritius,MUS,480,True
+YT,Mayotte,MYT,175,True
+MX,Mexico,MEX,484,True
+FM,Micronesia,FSM,583,True
+MD,Moldova,MDA,498,True
+MC,Monaco,MCO,492,True
+MN,Mongolia,MNG,496,True
+ME,Montenegro,MNE,499,True
+MS,Montserrat,MSR,500,True
+MA,Morocco,MAR,504,True
+MZ,Mozambique,MOZ,508,True
+MM,Myanmar,MMR,104,True
+,Namibia,NAM,516,True
+NR,Nauru,NRU,520,True
+NP,Nepal,NPL,524,True
+AN,Netherlands Antilles,ANT,530,True
+NL,Netherlands,NLD,528,True
+NC,New Caledonia,NCL,540,True
+NZ,New Zealand,NZL,554,True
+NI,Nicaragua,NIC,558,True
+NE,Niger,NER,562,True
+NG,Nigeria,NGA,566,True
+NU,Niue,NIU,570,True
+NF,Norfolk Island,NFK,574,True
+KP,North Korea,PRK,408,True
+MP,Northern Mariana Islands,MNP,580,True
+NO,Norway,NOR,578,True
+OM,Oman,OMN,512,True
+PK,Pakistan,PAK,586,True
+PW,Palau,PLW,585,True
+PS,Palestinian Territories,PSE,275,True
+PA,Panama,PAN,591,True
+PG,Papua New Guinea,PNG,598,True
+PY,Paraguay,PRY,600,True
+PE,Peru,PER,604,True
+PH,Philippines,PHL,608,True
+PN,Pitcairn Islands,PCN,612,True
+PL,Poland,POL,616,True
+PT,Portugal,PRT,620,True
+PR,Puerto Rico,PRI,630,True
+QA,Qatar,QAT,634,True
+RO,Romania,ROU,642,True
+RU,Russia,RUS,643,True
+RW,Rwanda,RWA,646,True
+RE,Réunion,REU,638,True
+BL,Saint Barthélemy,BLM,652,True
+KN,Saint Christopher & Nevis,KNA,659,True
+SH,Saint Helena,SHN,654,True
+LC,Saint Lucia,LCA,662,True
+MF,Saint Martin,MAF,663,True
+PM,Saint Pierre & Miquelon,SPM,666,True
+VC,Saint Vincent & The Grenadines,VCT,670,True
+WS,Samoa,WSM,882,True
+SM,San Marino,SMR,674,True
+ST,Sao Tome & Principe,STP,678,True
+SA,Saudi Arabia,SAU,682,True
+SN,Senegal,SEN,686,True
+RS,Serbia,SRB,688,True
+SC,Seychelles,SYC,690,True
+SL,Sierra Leone,SLE,694,True
+SG,Singapore,SGP,702,True
+SX,Sint Maarten,SXM,534,True
+SK,Slovakia,SVK,703,True
+SI,Slovenia,SVN,705,True
+SB,Solomon Islands,SLB,90,True
+SO,Somalia,SOM,706,True
+ZA,South Africa,ZAF,710,True
+GS,South Georgia & The South Sandwish Islands,SGS,239,True
+KR,South Korea,KOR,418,True
+SS,South Sudan,SSD,0,True
+ES,Spain,ESP,724,True
+LK,Sri Lanka,LKA,144,True
+SD,Sudan,SDN,736,True
+SR,Suriname,SUR,740,True
+SZ,Swaziland,SWZ,748,True
+SE,Sweden,SWE,752,True
+CH,Switzerland,CHE,756,True
+SY,Syria,SYR,760,True
+TW,Taiwan,TWN,158,True
+TJ,Tajikistan,TJK,762,True
+TZ,Tanzania,TZA,834,True
+TH,Thailand,THA,764,True
+TG,Togo,TGO,768,True
+TK,Tokelau,TKL,772,True
+TO,Tonga,TON,776,True
+TT,Trinidad & Tobago,TTO,780,True
+TN,Tunisia,TUN,788,True
+TR,Turkey,TUR,792,True
+TM,Turkmenistan,TKM,795,True
+TC,Turks & Caicos Islands,TCA,796,True
+TV,Tuvalu,TUV,798,True
+UG,Uganda,UGA,800,True
+UA,Ukraine,UKR,804,True
+AE,United Arab Emirates,ARE,784,True
+GB,United Kingdom,GBR,826,True
+US,United States,USA,840,True
+VI,United States Virgin Islands,VIR,850,True
+UY,Uruguay,URY,858,True
+UZ,Uzbekistan,UZB,860,True
+VU,Vanuatu,VUT,548,True
+VE,Venezuela,VEN,862,True
+VN,Vietnam,VNM,704,True
+WF,Wallis & Futuna,WLF,876,True
+EH,Western Sahara,ESH,732,True
+YE,Yemen,YEM,887,True
+ZM,Zambia,ZMB,894,True
+ZW,Zimbabwe,ZWE,716,True

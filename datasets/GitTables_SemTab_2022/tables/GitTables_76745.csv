@@ -1,0 +1,54 @@
+col0,col1,col2,col3,col4,col5
+0,Vessels,Fishing Vessels related information,Vessel,,2
+1,Vessel Groups,Fishing Vessel Groups related information,Vessel Group,,2
+2,Reports,Consolidated Reports,Report,,2
+3,AUT Quotas,Fishing Quotas from AUT,Quota,LevelCode=AUT,1
+4,BEL Quotas,Fishing Quotas from BEL,Quota,LevelCode=BEL,1
+5,CYP Quotas,Fishing Quotas from CYP,Quota,LevelCode=CYP,1
+6,CZE Quotas,Fishing Quotas from CZE,Quota,LevelCode=CZE,1
+7,DEU Quotas,Fishing Quotas from DEU,Quota,LevelCode=DEU,1
+8,DNK Quotas,Fishing Quotas from DNK,Quota,LevelCode=DNK,1
+9,ESP Quotas,Fishing Quotas from ESP,Quota,LevelCode=ESP,1
+10,EST Quotas,Fishing Quotas from EST,Quota,LevelCode=EST,1
+11,FIN Quotas,Fishing Quotas from FIN,Quota,LevelCode=FIN,1
+12,FRA Quotas,Fishing Quotas from FRA,Quota,LevelCode=FRA,1
+13,GBR Quotas,Fishing Quotas from GBR,Quota,LevelCode=GBR,1
+14,GRC Quotas,Fishing Quotas from GRC,Quota,LevelCode=GRC,1
+15,HUN Quotas,Fishing Quotas from HUN,Quota,LevelCode=HUN,1
+16,IRL Quotas,Fishing Quotas from IRL,Quota,LevelCode=IRL,1
+17,ITA Quotas,Fishing Quotas from ITA,Quota,LevelCode=ITA,1
+18,LTU Quotas,Fishing Quotas from LTU,Quota,LevelCode=LTU,1
+19,LUX Quotas,Fishing Quotas from LUX,Quota,LevelCode=LUX,1
+20,LVA Quotas,Fishing Quotas from LVA,Quota,LevelCode=LVA,1
+21,MLT Quotas,Fishing Quotas from MLT,Quota,LevelCode=MLT,1
+22,NLD Quotas,Fishing Quotas from NLD,Quota,LevelCode=NLD,1
+23,POL Quotas,Fishing Quotas from POL,Quota,LevelCode=POL,1
+24,PRT Quotas,Fishing Quotas from PRT,Quota,LevelCode=PRT,1
+25,SVK Quotas,Fishing Quotas from SVK,Quota,LevelCode=SVK,1
+26,SVN Quotas,Fishing Quotas from SVN,Quota,LevelCode=SVN,1
+27,SWE Quotas,Fishing Quotas from SWE,Quota,LevelCode=SWE,1
+28,Fishing Stop on AUT Quotas,Fishing Stop on Quotas from AUT,Fishing Stop,LevelCode=AUT:EventSubCode=NFS:EventActorCode=MS,1
+29,Fishing Stop on BEL Quotas,Fishing Stop on Quotas from BEL,Fishing Stop,LevelCode=BEL:EventSubCode=NFS:EventActorCode=MS,1
+30,Fishing Stop on CYP Quotas,Fishing Stop on Quotas from CYP,Fishing Stop,LevelCode=CYP:EventSubCode=NFS:EventActorCode=MS,1
+31,Fishing Stop on CZE Quotas,Fishing Stop on Quotas from CZE,Fishing Stop,LevelCode=CZE:EventSubCode=NFS:EventActorCode=MS,1
+32,Fishing Stop on DEU Quotas,Fishing Stop on Quotas from DEU,Fishing Stop,LevelCode=DEU:EventSubCode=NFS:EventActorCode=MS,1
+33,Fishing Stop on DNK Quotas,Fishing Stop on Quotas from DNK,Fishing Stop,LevelCode=DNK:EventSubCode=NFS:EventActorCode=MS,1
+34,Fishing Stop on ESP Quotas,Fishing Stop on Quotas from ESP,Fishing Stop,LevelCode=ESP:EventSubCode=NFS:EventActorCode=MS,1
+35,Fishing Stop on EST Quotas,Fishing Stop on Quotas from EST,Fishing Stop,LevelCode=EST:EventSubCode=NFS:EventActorCode=MS,1
+36,Fishing Stop on FIN Quotas,Fishing Stop on Quotas from FIN,Fishing Stop,LevelCode=FIN:EventSubCode=NFS:EventActorCode=MS,1
+37,Fishing Stop on FRA Quotas,Fishing Stop on Quotas from FRA,Fishing Stop,LevelCode=FRA:EventSubCode=NFS:EventActorCode=MS,1
+38,Fishing Stop on GBR Quotas,Fishing Stop on Quotas from GBR,Fishing Stop,LevelCode=GBR:EventSubCode=NFS:EventActorCode=MS,1
+39,Fishing Stop on GRC Quotas,Fishing Stop on Quotas from GRC,Fishing Stop,LevelCode=GRC:EventSubCode=NFS:EventActorCode=MS,1
+40,Fishing Stop on HUN Quotas,Fishing Stop on Quotas from HUN,Fishing Stop,LevelCode=HUN:EventSubCode=NFS:EventActorCode=MS,1
+41,Fishing Stop on IRL Quotas,Fishing Stop on Quotas from IRL,Fishing Stop,LevelCode=IRL:EventSubCode=NFS:EventActorCode=MS,1
+42,Fishing Stop on ITA Quotas,Fishing Stop on Quotas from ITA,Fishing Stop,LevelCode=ITA:EventSubCode=NFS:EventActorCode=MS,1
+43,Fishing Stop on LTU Quotas,Fishing Stop on Quotas from LTU,Fishing Stop,LevelCode=LTU:EventSubCode=NFS:EventActorCode=MS,1
+44,Fishing Stop on LUX Quotas,Fishing Stop on Quotas from LUX,Fishing Stop,LevelCode=LUX:EventSubCode=NFS:EventActorCode=MS,1
+45,Fishing Stop on LVA Quotas,Fishing Stop on Quotas from LVA,Fishing Stop,LevelCode=LVA:EventSubCode=NFS:EventActorCode=MS,1
+46,Fishing Stop on MLT Quotas,Fishing Stop on Quotas from MLT,Fishing Stop,LevelCode=MLT:EventSubCode=NFS:EventActorCode=MS,1
+47,Fishing Stop on NLD Quotas,Fishing Stop on Quotas from NLD,Fishing Stop,LevelCode=NLD:EventSubCode=NFS:EventActorCode=MS,1
+48,Fishing Stop on POL Quotas,Fishing Stop on Quotas from POL,Fishing Stop,LevelCode=POL:EventSubCode=NFS:EventActorCode=MS,1
+49,Fishing Stop on PRT Quotas,Fishing Stop on Quotas from PRT,Fishing Stop,LevelCode=PRT:EventSubCode=NFS:EventActorCode=MS,1
+50,Fishing Stop on SVK Quotas,Fishing Stop on Quotas from SVK,Fishing Stop,LevelCode=SVK:EventSubCode=NFS:EventActorCode=MS,1
+51,Fishing Stop on SVN Quotas,Fishing Stop on Quotas from SVN,Fishing Stop,LevelCode=SVN:EventSubCode=NFS:EventActorCode=MS,1
+52,Fishing Stop on SWE Quotas,Fishing Stop on Quotas from SWE,Fishing Stop,LevelCode=SWE:EventSubCode=NFS:EventActorCode=MS,1

@@ -1,0 +1,39 @@
+col0,col1,col2,col3,col4
+account.sequence_statement,Account Bank Statement,base.main_company,St. %(month)s/%(day)s/,
+account.cash_sequence_statement,Account Cash Statement,base.main_company,CAISSE. %(month)s/%(day)s/,
+account.sequence_bank_journal,Account Default Bank Journal,base.main_company,BNQ/%(year)s/,
+account.sequence_cash_journal,Account Default Cash Journal,base.main_company,ESP/%(year)s/,
+account.sequence_check_journal,Account Default Checks Journal,base.main_company,CHQ/%(year)s/,
+account.sequence_refund_purchase_journal,Account Default Expenses Credit Notes Journal,base.main_company,AF%(y)s%(month)s,
+account.sequence_purchase_journal,Account Default Expenses Journal,base.main_company,FF%(y)s%(month)s,
+account.sequence_miscellaneous_journal,Account Default Miscellaneous Journal,base.main_company,OD/%(year)s/,
+account.sequence_opening_journal,Account Default Opening Entries Journal,base.main_company,AN/%(year)s/,
+account.sequence_refund_sales_journal,Account Default Sales Credit Note Journal,base.main_company,AV%(y)s%(month)s,
+account.sequence_reconcile_seq,Account reconcile sequence,base.main_company,A,
+analytic.seq_analytic_account_base,Analytic account sequence,base.main_company,AA,
+account_voucher.seq_bank_pay_voucher,Bank Payment,base.main_company,%(year)s/,
+account_voucher.seq_bank_rec_voucher,Bank Receipt,base.main_company,%(year)s/,
+account_voucher.seq_cash_pay_voucher,Cash Payment,base.main_company,%(year)s/,
+account_voucher.seq_cash_rec_voucher,Cash Receipt,base.main_company,%(year)s/,
+account_check_writing.sequence_check_number,Check Number,base.main_company,,
+account_voucher.seq_contra_voucher,Contra Entry,base.main_company,%(year)s/,
+stock.sequence_tracking,Packs,,,
+account_payment.seq_payment_line,Payment Line,base.main_company,,6.0
+account_payment.seq_payment_order,Payment order,base.main_company,%(year)s/,6.0
+stock.seq_picking_in,Picking IN,,BR/,6.0
+stock.seq_picking_internal,Picking INT,,INT/,6.0
+stock.seq_picking_out,Picking OUT,,BL/,6.0
+account_voucher.seq_jou_pur_voucher,Purchase Entry,base.main_company,%(year)s/,
+purchase.seq_purchase_order,Purchase Order,,CA,
+account_voucher.seq_jou_sale_voucher,Sales Entry,base.main_company,%(year)s/,
+sale.seq_sale_order,Sales Order,,CV,6.0
+account.sequence_sale_journal,Séquence facture,base.main_company,FV%(y)s%(month)s,6.0
+stock.sequence_production_lots,Serial Numbers,,,
+stock.stock_journal_sequence,Stock Journal Sequence,base.main_company,STK/%(year)s/,
+procurement.sequence_mrp_op,Stock orderpoint,base.main_company,APPRO/,
+account.sequence_cash_journal_cbce,Carte bancaire,base.main_company,CB/%(year)s/,6.0
+account.sequence_cash_journal_cad,CREDIT AGRICOLE DOLLARS,base.main_company,CAD/%(year)s/,6.0
+account.sequence_cash_journal_ce,CEPAL FR76 1871 5002 0008 0009 0141 922,base.main_company,CE%(y)s,4.0
+account.sequence_cash_journal_ca,CREDIT AGRICOLE FR76 1680 6051 0066 0612 8337 586,base.main_company,CA%(y)s,4.0
+account.sequence_cash_journal_frx,journal frais généraux,base.main_company,FGX/%(year)s/,4.0
+account.sequence_cash_journal_gra,GRATUIT,base.main_company,GRA/%(year)s/,4.0

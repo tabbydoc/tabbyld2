@@ -1,0 +1,10 @@
+col0,col1,col2,col3
+,,,
+AWS,Agricultural Water Supply,AWS - Agricultural Water Supply,
+CA,Compact Administration,CA - Compact Administration,Supply helps Colorado meet its compact obligations
+DR,Drought Reserve,DR - Drought Reserve,
+EF,Environmental Flows,EF - Environmental Flows,"For example, to meet instream flow right"
+MRP,Minimum Reservoir Pool,MRP - Minimum Reservoir Pool,Maintaining reservoir level for environment and recreation
+O,Other,O - Other,"If specified, will consider adding new types for future updates"
+RF,Recreational Flows,RF - Recreational Flows,"For example, for RICD"
+SR,Stream Restoration,SR - Stream Restoration,?? Is this for flush flow? How different from Environmental Flow?

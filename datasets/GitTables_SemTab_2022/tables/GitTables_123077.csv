@@ -1,0 +1,83 @@
+col0,col1,col2
+1,Instrument not defined,Self explanatory.
+2,Automated clearing house credit,A credit transaction made through the automated clearing house system.
+3,Automated clearing house debit,A debit transaction made through the automated clearing house system.
+4,ACH demand debit reversal,A request to reverse an ACH debit transaction to a demand deposit account.
+5,ACH demand credit reversal,A request to reverse a credit transaction to a demand deposit account.
+6,ACH demand credit,A credit transaction made through the ACH system to a demand deposit account.
+7,ACH demand debit,A debit transaction made through the ACH system to a demand deposit account.
+8,Hold,Indicates that the bank should hold the payment for collection by the beneficiary or other instructions.
+9,National or regional clearing,Indicates that the payment should be made using the national or regional clearing.
+10,In cash,Self explanatory.
+11,ACH savings credit reversal,A request to reverse an ACH credit transaction to a savings account.
+12,ACH savings debit reversal,A request to reverse an ACH debit transaction to a savings account.
+13,ACH savings credit,A credit transaction made through the ACH system to a savings account.
+14,ACH savings debit,A debit transaction made through the ACH system to a savings account.
+15,Bookentry credit,A credit transaction initiated from the buyer's account to the seller's account at the save financial institution.
+16,Bookentry debit,A debit transaction initiated from the seller's account to the seller's account at the same financial institution.
+17,ACH demand cash concentration/disbursement (CCD) credit,A credit transaction made through the ACH system to a demand deposit account using the CCD payment format.
+18,ACH demand cash concentration/disbursement (CCD) debit,A debit transaction made through the ACH system to a demand deposit account using the CCD payment format.
+19,ACH demand corporate trade payment (CTP) credit,A credit transaction made through the ACH system to a demand deposit account using the CTP payment format.
+20,Cheque,Self explanatory.
+21,Banker's draft,Issue of a banker's draft in payment of the funds.
+22,Certified banker's draft,Self explanatory.
+23,Bank cheque (issued by a banking or similar establishment),Self explanatory.
+24,Bill of exchange awaiting acceptance,Bill drawn by the creditor on the debtor but not yet accepted by the debtor.
+25,Certified cheque,Self explanatory.
+26,Local cheque,Indicates that the cheque is given local to the recipient.
+27,ACH demand corporate trade payment (CTP) debit,A debit transaction made through the ACH system to a demand deposit account using the CTP payment format.
+28,ACH demand corporate trade exchange (CTX) credit,A credit transaction made through the ACH system to a demand deposit account using the CTX payment format.
+29,ACH demand corporate trade exchange (CTX) debit,A debit transaction made through the ACH system to a demand account using the CTX payment format.
+30,Credit transfer,Self explanatory.
+31,Debit transfer,Self explanatory.
+32,ACH demand cash concentration/disbursement plus (CCD+) credit,A credit transaction made through the ACH system to a demand deposit account using the CCD+ payment format.
+33,ACH demand cash concentration/disbursement plus (CCD+) debit,A debit transaction made through the ACH system to a demand deposit account using the CCD+ payment format.
+34,ACH prearranged payment and deposit (PPD),A consumer credit transaction made through the ACH system to a demand deposit or savings account.
+35,ACH savings cash concentration/disbursement (CCD) credit,A credit transaction made through the ACH system to a demand deposit or savings account.
+36,ACH savings cash concentration/disbursement (CCD) debit,A debit transaction made through the ACH system to a savings account using the CCD payment format.
+37,ACH savings corporate trade payment (CTP) credit,A credit transaction made through the ACH system to a savings account using the CTP payment format.
+38,ACH savings corporate trade payment (CTP) debit,A debit transaction made through the ACH system to a savings account using the CTP payment format.
+39,ACH savings corporate trade exchange (CTX) credit,A credit transaction made through the ACH system to a savings account using the CTX payment format.
+40,ACH savings corporate trade exchange (CTX) debit,A debit transaction made through the ACH system to a savings account using the CTX payment format.
+41,ACH savings cash concentration/disbursement plus (CCD+) credit,A credit transaction made through the ACH system to a savings account using the CCD+ payment format.
+42,Payment to bank account,Self explanatory.
+43,ACH savings cash concentration/disbursement plus (CCD+)debit,A debit transaction made through the ACH system to a savings account using the CCD+ payment format.
+44,Accepted bill of exchange,Bill drawn by the creditor on the debtor and accepted by the debtor.
+45,Referenced home-banking credit transfer,A referenced credit transfer initiated through home-banking.
+46,Interbank debit transfer,A debit transfer via interbank means.
+47,Home-banking debit transfer,A debit transfer initiated through home-banking.
+48,Bank card,Payment by means of a card issued by a bank or other financial institution.
+49,Direct debit,"The amount is to be, or has been, directly debited to the customer's bank account."
+50,Payment by postgiro,Self explanatory.
+51,"FR, norme 6 97-Telereglement CFONB (French Organisation for Banking Standards)  - Option A",Self explanatory
+52,Urgent commercial payment,Self explanatory.
+53,Urgent Treasury Payment,Self explanatory.
+54,Credit card,Payment made by means of credit card.
+55,Debit card,Payment made by means of debit card.
+56,Bankgiro,"Payment will be, or has been, made by bankgiro."
+57,Standing agreement,The payment means have been previously agreed between seller and buyer and thus are not stated again.
+58,SEPA credit transfer,Credit transfer inside the Single Euro Payment Area (SEPA) system.
+59,SEPA direct debit,Direct debit inside the Single Euro Payment Area (SEPA) system.
+60,Promissory note,Self explanatory.
+61,Promissory note signed by the debtor,Self explanatory.
+62,Promissory note signed by the debtor and endorsed by a bank,Self explanatory.
+63,Promissory note signed by the debtor and endorsed by a third party,Self explanatory.
+64,Promissory note signed by a bank,Self explanatory.
+65,Promissory note signed by a bank and endorsed by another bank,Self explanatory.
+66,Promissory note signed by a third party,Self explanatory.
+67,Promissory note signed by a third party and endorsed by a bank,Self explanatory.
+68,Online payment service,Payment will be made or has been made by an online payment service.
+70,Bill drawn by the creditor on the debtor,Self explanatory.
+74,Bill drawn by the creditor on a bank,Description to be provided.
+75,Bill drawn by the creditor endorsed by another bank,Description to be provided.
+76,Bill drawn by the creditor on a bank and endorsed by a third party,Description to be provided.
+77,Bill drawn by the creditor on a third party,Description to be provided.
+78,Bill drawn by creditor on third party accepted and endorsed by bank,Description to be provided.
+91,Not transferable banker's draft,Issue a bankers draft not endorsable.
+92,Not transferable local cheque,Issue a cheque not endorsable in payment of the funds.
+93,Reference giro,Ordering customer tells the bank to use the payment system 'Reference giro'. Used in the Finnish national banking system.
+94,Urgent giro,Ordering customer tells the bank to use the bank service 'Urgent Giro' when transferring the payment. Used in Finnish national banking system.
+95,Free format giro,Ordering customer tells the ordering bank to use the bank service 'Free Format Giro' when transferring the payment. Used in Finnish national banking system.
+96,Requested method for payment was not used,If the requested method for payment was or could not be used this code indicates that.
+97,Clearing between partners,Amounts which two partners owe to each other to be compensated in order to avoid useless payments.
+ZZZ,Mutually Defined,Cash - Contanti.
