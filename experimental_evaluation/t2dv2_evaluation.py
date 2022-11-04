@@ -7,7 +7,7 @@ import tabbyld2.parser as pr
 import tabbyld2.utility as utl
 import tabbyld2.pipeline as pl
 from datetime import datetime
-from experimental_evaluation.evaluation_model import TableEvaluation, BaseEvaluation, AdditionalEvaluation
+from experimental_evaluation.evaluation_model import TableEvaluation, MainEvaluation, AdditionalEvaluation
 from tabbyld2.config import ResultPath, EvaluationPath
 from tabbyld2.column_classifier import ColumnType
 from tabbyld2.tabular_data_model import TableModel
@@ -17,41 +17,6 @@ class T2Dv2TableEvaluation(TableEvaluation):
     """
     Experimental evaluations for table from T2Dv2 dataset.
     """
-    def evaluate_columns_classification(self):
-        """
-        Evaluate atomic classification of table columns (categorical or literal).
-        """
-        # Get number of classified columns
-        classified_columns = 0
-        for column in self.table.columns:
-            if column.column_type is not None:
-                classified_columns += 1
-        # Get class checked data for tables from T2Dv2 dataset
-        checked_data = pd.DataFrame(pd.read_csv(EvaluationPath.T2DV2 + EvaluationPath.T2DV2_CLASS_CHECKED,
-                                                sep=",", header=None, index_col=False))
-        # Get number of correctly classified columns
-        categorical_column_number, literal_column_number, rows = 0, 0, []
-        for key, items in checked_data.items():
-            if key == 0:
-                for i in range(len(items)):
-                    if items[i] == self.table.table_name:
-                        rows.append(i)
-                literal_column_number = len(self.table.columns) - len(rows)
-            if key == 1:
-                for i in range(len(items)):
-                    for row_index in rows:
-                        if i == row_index:
-                            for k in range(len(self.table.columns)):
-                                if k == int(items[i]):
-                                    if self.table.columns[k].column_type == ColumnType.SUBJECT_COLUMN or \
-                                            self.table.columns[k].column_type == ColumnType.CATEGORICAL_COLUMN:
-                                        categorical_column_number += 1
-        correctly_classified_columns = categorical_column_number + literal_column_number
-        # Calculate evaluations
-        self._column_classification_evaluation = BaseEvaluation()
-        self._column_classification_evaluation._precision = correctly_classified_columns / classified_columns if classified_columns != 0 else 0
-        self._column_classification_evaluation._recall = correctly_classified_columns / len(self.table.columns) if len(self.table.columns) != 0 else 0
-        self._column_classification_evaluation.calculate_f1_score()
 
     def evaluate_subject_column_identification(self):
         """
@@ -81,7 +46,7 @@ class T2Dv2TableEvaluation(TableEvaluation):
                                         if items[i] and self.table.columns[k].column_type == ColumnType.SUBJECT_COLUMN:
                                             exist_subject_column = True
         # Calculate evaluations
-        self._subject_column_identification_evaluation = BaseEvaluation()
+        self._subject_column_identification_evaluation = MainEvaluation()
         self._subject_column_identification_evaluation._precision = 1.0 if exist_subject_column else 0.0
         exist_subject_column = False
         for column in self.table.columns:
@@ -128,7 +93,7 @@ class T2Dv2TableEvaluation(TableEvaluation):
                                                             print("INS: " + urllib.parse.unquote(instances[j]) +
                                                                   " != ANN: NULL")
                     # Calculate evaluations
-                    self._cell_entity_annotation_evaluation = BaseEvaluation()
+                    self._cell_entity_annotation_evaluation = MainEvaluation()
                     self._cell_entity_annotation_evaluation._precision = correctly_annotated_cells / annotated_cells if annotated_cells != 0 else 0
                     self._cell_entity_annotation_evaluation._recall = correctly_annotated_cells / cell_number if cell_number != 0 else 0
                     self._cell_entity_annotation_evaluation.calculate_f1_score()
@@ -219,7 +184,7 @@ def evaluate_t2dv2_dataset():
 
                     # Get column classification evaluation
                     t2dv2_table_evaluation = T2Dv2TableEvaluation(table)
-                    t2dv2_table_evaluation.evaluate_columns_classification()
+                    t2dv2_table_evaluation.evaluate_columns_classification(EvaluationPath.T2DV2 + EvaluationPath.T2DV2_CLASS_CHECKED)
                     # Get subject column identification evaluation
                     t2dv2_table_evaluation.evaluate_subject_column_identification()
                     # Save preprocessing evaluation results to json files

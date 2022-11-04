@@ -1,56 +1,12 @@
 import os
 import json
-import pandas as pd
 import tabbyld2.parser as pr
 import tabbyld2.utility as utl
 import tabbyld2.pipeline as pl
 from datetime import datetime
-from experimental_evaluation.evaluation_model import TableEvaluation, BaseEvaluation
+from experimental_evaluation.evaluation_model import TableEvaluation
 from tabbyld2.config import ResultPath, EvaluationPath
-from tabbyld2.column_classifier import ColumnType
 from tabbyld2.tabular_data_model import TableModel
-
-
-class ToughTablesEvaluation(TableEvaluation):
-    """
-    Experimental evaluations for table from Tough_Tables dataset.
-    """
-
-    def evaluate_columns_classification(self):
-        """
-        Evaluate atomic classification of table columns (categorical or literal).
-        """
-        # Get number of classified columns
-        classified_columns = 0
-        for column in self.table.columns:
-            if column.column_type is not None:
-                classified_columns += 1
-        # Get class checked data for tables from Tough_Tables dataset
-        checked_data = pd.DataFrame(pd.read_csv(EvaluationPath.TOUGH_TABLES_GT + EvaluationPath.TOUGH_TABLES_CLASS_CHECKED,
-                                                sep=",", header=None, index_col=False))
-        # Get number of correctly classified columns
-        categorical_column_number, literal_column_number, rows = 0, 0, []
-        for key, items in checked_data.items():
-            if key == 0:
-                for i in range(len(items)):
-                    if items[i] == self.table.table_name:
-                        rows.append(i)
-                literal_column_number = len(self.table.columns) - len(rows)
-            if key == 1:
-                for i in range(len(items)):
-                    for row_index in rows:
-                        if i == row_index:
-                            for k in range(len(self.table.columns)):
-                                if k == int(items[i]):
-                                    if self.table.columns[k].column_type == ColumnType.SUBJECT_COLUMN or \
-                                            self.table.columns[k].column_type == ColumnType.CATEGORICAL_COLUMN:
-                                        categorical_column_number += 1
-        correctly_classified_columns = categorical_column_number + literal_column_number
-        # Calculate evaluations
-        self._column_classification_evaluation = BaseEvaluation()
-        self._column_classification_evaluation._precision = correctly_classified_columns / classified_columns if classified_columns != 0 else 0
-        self._column_classification_evaluation._recall = correctly_classified_columns / len(self.table.columns) if len(self.table.columns) != 0 else 0
-        self._column_classification_evaluation.calculate_f1_score()
 
 
 def evaluate_tough_tables_dataset():
@@ -76,8 +32,9 @@ def evaluate_tough_tables_dataset():
                     # Preprocessing table
                     table = pl.pipeline_preprocessing(table, file)
                     # Get column classification evaluation
-                    tough_tables_evaluation = ToughTablesEvaluation(table)
-                    tough_tables_evaluation.evaluate_columns_classification()
+                    tough_tables_evaluation = TableEvaluation(table)
+                    tough_tables_evaluation.evaluate_columns_classification(EvaluationPath.TOUGH_TABLES_GT +
+                                                                            EvaluationPath.TOUGH_TABLES_CLASS_CHECKED)
                     # Save preprocessing evaluation results to json files
                     path = EvaluationPath.EVALUATION_PATH + utl.remove_suffix_in_filename(file) + "/"
                     utl.write_json_file(path, EvaluationPath.COLUMNS_CLASSIFICATION_EVALUATION,
