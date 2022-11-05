@@ -1,0 +1,6 @@
+col0,col1,col2,col3,col4,col5,col6
+0,[2020],"[{""skill_id"":""2000""}]",[],1024,1122,"[{""cases_pool_id"":""2000543"",""permission_set_id"":""2048""},{""cases_pool_id"":""2000555"",""permission_set_id"":""2048""}]"
+1,"[2020,2019]","[{""skill_id"":""54321""},{""skill_id"":""2000""}]",[],1024,2233,"[{""cases_pool_id"":""2000543"",""permission_set_id"":""2028""},{""cases_pool_id"":""2000544"",""permission_set_id"":""2009""},{""cases_pool_id"":""2000543"",""permission_set_id"":""2048""},{""cases_pool_id"":""2000543"",""permission_set_id"":""2051""}]"
+2,[2018],[],"[{""proficiency"":0,""skill_id"":""1990""}]",1024,1122,"[{""cases_pool_id"":""2000543"",""permission_set_id"":""2048""},{""cases_pool_id"":""2000555"",""permission_set_id"":""2048""}]"
+3,[],"[{""skill_id"":""2010""}]","[{""skill_id"":""1990""}]",1024,2233,"[{""cases_pool_id"":""2000543"",""permission_set_id"":""2048""},{""cases_pool_id"":""2000543"",""permission_set_id"":""2051""}]"
+4,[],"[{""skill_id"":""2017""}]","[{""proficiency"":0,""skill_id"":""1990""},{""proficiency"":0,""skill_id"":""1989""}]",1024,1122,"[{""cases_pool_id"":""2000543"",""permission_set_id"":""2048""},{""cases_pool_id"":""2000555"",""permission_set_id"":""2048""}]"

@@ -1,0 +1,117 @@
+col0,col1,col2,col3
+Interventions,PUT,/interventions/{interventionId}/reassign,Reassigning an intervention
+Threads,PUT,/content_threads/{threadId}/ignore,Archiving a thread
+Folders,GET,/folders/{folderId},Getting a folder from its id
+Folders,PUT,/folders/{folderId},Updating a folder
+Folders,DELETE,/folders/{folderId},Deleting a folder
+Reply Assistant Groups,GET,/reply_assistant/groups,Getting​ a​ll​ reply assistant groups
+Reply Assistant Groups,POST,/reply_assistant/groups,Creating a reply assistant group
+Roles,GET,/roles/{roleId},Getting a role from its id
+Roles,PUT,/roles/{roleId},Updating a role
+Threads,GET,/content_threads,Getting all threads
+Threads,GET,/content_threads/{threadId},Getting a thread from its id
+Contents,PUT,/contents/{contentId}/update_categories,Categorizing a content
+CustomFields,GET,/custom_fields,Getting all custom fields
+CustomFields,POST,/custom_fields,Creating a custom field
+Intervention Comments,GET,/intervention_comments/{interventionCommentId},Getting an intervention comment from its id
+Intervention Comments,DELETE,/intervention_comments/{interventionCommentId},Deleting an intervention comment
+Reply Assistant Versions,GET,/reply_assistant/versions/{replyAssistantVersionId},Getting a reply assistant version from its id
+Reply Assistant Versions,PUT,/reply_assistant/versions/{replyAssistantVersionId},Updating a reply assistant version
+Reply Assistant Versions,DELETE,/reply_assistant/versions/{replyAssistantVersionId},Deleting a reply assistant version
+Agent Status,GET,/status/{agentId},Get a connected agent status
+Agent Status,PUT,/status/{agentId},Changing an agent's status
+Teams,GET,/teams/{teamId},Getting a team from its id
+Teams,PUT,/teams/{teamId},Updating a team
+Teams,DELETE,/teams/{teamId},Deleting a team
+Threads,GET,/content_threads/{threadId}/open,Open a thread
+Contents,GET,/contents/{contentId},Getting a content from its id
+Reply Assistant Entries,GET,/reply_assistant/entries,Getting​ a​ll​ reply assistant e​ntries
+Reply Assistant Entries,POST,/reply_assistant/entries,Creating an entry
+Reply Assistant Entries,GET,/reply_assistant/entries/{replyAssistantEntryId},Getting a reply assistant entry from its id
+Reply Assistant Entries,PUT,/reply_assistant/entries/{replyAssistantEntryId},Updating a reply assistant entry
+Reply Assistant Entries,DELETE,/reply_assistant/entries/{replyAssistantEntryId},Deleting a reply assistant entry
+Roles,GET,/roles,Getting all roles
+Roles,POST,/roles,Creating a role
+Tasks,PUT,/tasks/{taskId}/transfer,Transferring a task
+Communities,GET,/communities/{communityId},Getting a community from its id
+Contents,PUT,/contents/{contentId}/ignore,Ignoring a content
+Reply Assistant Versions,GET,/reply_assistant/versions,Getting​ a​ll​ reply assistant versions
+Reply Assistant Versions,POST,/reply_assistant/versions,Creating a reply assistant version
+Time Sheets,GET,/time_sheets,Getting all time sheets
+Time Sheets,POST,/time_sheets,Creating a time sheet
+Interventions,GET,/interventions,Getting all interventions
+Interventions,POST,/interventions,Creating an intervention
+Interventions,PUT,/interventions/{interventionId}/close,Closing an intervention
+Channels,GET,/channels/{channelId},Getting a channel from its id
+Channels,PUT,/channels/{channelId},Updating a channel
+Threads,PUT,/content_threads/{threadId}/close,Close a thread
+Agent Status,GET,/status,Get all connected agents status
+Tags,GET,/tags/{tagId},Getting a tag from its id
+Tags,PUT,/tags/{tagId},Updating a tag
+Tags,DELETE,/tags/{tagId},Deleting a tag
+Attachments,GET,/attachments/{attachmentId},Getting an attachment from its id
+Channels,GET,/channels,Getting all channels
+Sources,GET,/content_sources/{sourceId},Getting a source from its id
+Sources,PUT,/content_sources/{sourceId},Updating a source
+Events,GET,/events,Getting all events
+Events,GET,/events/{eventId},Getting an event from its id
+Presence Status,GET,/presence_status,Getting all presence statuses
+Presence Status,POST,/presence_status,Creating a presence status
+Timezones,GET,/timezones,Getting all timezones
+Webhooks,GET,/webhooks/{webhookId},Getting a webhook from its id
+Webhooks,PUT,/webhooks/{webhookId},Updating a webhook
+Webhooks,DELETE,/webhooks/{webhookId},Deleting a webhook
+Identities,GET,/identities,Getting all identities
+Identity Groups,GET,/identity_groups,Getting all identity groups
+Intervention Comments,GET,/intervention_comments,Getting all intervention comments
+Intervention Comments,POST,/intervention_comments,Creating an intervention comment
+Interventions,PUT,/interventions/{interventionId}/update_categories,Categorizing an intervention
+Identity Groups,GET,/identity_groups/{identityGroupId},Getting an identity group from its id
+Identity Groups,PUT,/identity_groups/{identityGroupId},Updating an identity group
+Tags,GET,/tags,Getting all tags
+Tags,POST,/tags,Creating a tag
+Categories,GET,/categories/{categoryId},Getting a category from its id
+Categories,PUT,/categories/{categoryId},Updating a category
+Categories,DELETE,/categories/{categoryId},Deleting a category
+Threads,PUT,/content_threads/{threadId}/update_categories,Categorizing a thread
+CustomFields,GET,/custom_fields/{customFieldId},Getting a custom field from its id
+CustomFields,PUT,/custom_fields/{customFieldId},Updating a custom field
+CustomFields,DELETE,/custom_fields/{customFieldId},Deleting a custom field
+Settings,GET,/settings,Getting all settings
+Settings,PUT,/settings,Updating settings
+Tasks,DELETE,/tasks/{taskId}/move,Move a task to another queue
+Users,POST,/users/invite,Inviting a user
+Webhooks,GET,/webhooks,Getting all webhooks
+Webhooks,POST,/webhooks,Creating a webhook
+Sources,GET,/content_sources,Getting all sources
+Folders,GET,/folders,Getting all folders
+Folders,POST,/folders,Creating a folder
+Identities,GET,/identities/{identityId},Getting an identity from its id
+Presence Status,GET,/presence_status/{presenceStatusId},Getting a presence status from its id
+Presence Status,PUT,/presence_status/{presenceStatusId},Updating a presence status
+Presence Status,DELETE,/presence_status/{presenceStatusId},Deleting a presence status
+Reply Assistant Groups,GET,/reply_assistant/groups/{replyAssistantGroupId},Getting a reply assistant group from its id
+Reply Assistant Groups,PUT,/reply_assistant/groups/{replyAssistantGroupId},Updating a reply assistant group
+Reply Assistant Groups,DELETE,/reply_assistant/groups/{replyAssistantGroupId},Deleting a reply assistant group
+Time Sheets,GET,/time_sheets/{timeSheetId},Getting a time sheet from its id
+Time Sheets,PUT,/time_sheets/{timeSheetId},Updating a time sheet
+Time Sheets,DELETE,/time_sheets/{timeSheetId},Deleting a time sheet
+Communities,GET,/communities,Getting all communities
+Interventions,GET,/interventions/{interventionId},Getting an intervention from its id
+Tasks,GET,/tasks,Getting all tasks
+Users,GET,/users/{userId},Getting a user from its id
+Users,PUT,/users/{userId},Updating a user
+Users,DELETE,/users/{userId},Deleting a user
+Attachments,GET,/attachments,Getting all attachments
+Attachments,POST,/attachments,Creating an attachment
+Contents,GET,/contents,Contents
+Contents,POST,/contents,Creating a content
+Interventions,DELETE,/interventions/{interventionId}/cancel,Cancelling an intervention
+Locales,GET,/locales,Getting all locales
+Users,GET,/users,Getting all users
+Users,POST,/users,Creating a user
+Categories,GET,/categories,Getting all categories
+Categories,POST,/categories,Creating a category
+Tasks,GET,/tasks/{taskId},Getting a task from its id
+Teams,GET,/teams,Getting all teams
+Teams,POST,/teams,Creating a team

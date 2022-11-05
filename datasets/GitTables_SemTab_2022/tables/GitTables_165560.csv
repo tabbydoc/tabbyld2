@@ -1,0 +1,41 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15
+1,Primary,Morden,51.384056076368,525476.791,166541.084,Phone: 020 8770 6770,SM4 6NY,020 8770 6770, , ,2,Glastonbury Road,Abbey Primary School,-0.19824151152735,Abbey Primary School
+2,Primary,Sutton,51.372584085086,525941.936,165276.052,Phone: 020 8644 6492,SM1 3DA,020 8644 6492, , ,3,All Saints' Road,All Saints Benhilton Primary,-0.19200884858167,All Saints Benhilton Primary
+3,Primary,Carshalton,51.364793780521,528276.889,164467.324,Phone: 020 8401 0075,SM5 3DW,020 8401 0075, , ,4,Rotherfield Road,All Saints Carshalton Primary,-0.15877338325975,All Saints Carshalton Primary
+4,Primary,Roundshaw,51.352161138858,530324.737,163113.481,Phone: 020 8669 3978,SM6 9JN,020 8669 3978, , ,5,Mollison Drive,Amy Johnson,-0.12986990563468,Amy Johnson
+5,Primary,Belmont,51.34658179459,525166.42,162363.748,Phone: 020 8642 5138,SM2 6JE,020 8642 5138, , ,6,Avenue Road,Avenue,-0.2041684675423,Avenue
+6,Primary,Wallington,51.358533001028,529712.554,163806.921,Phone: 020 8647 5377,SM6 9QU,020 8647 5377, , ,7,Sandy Lane South,Bandon Hill,-0.13840343695763,Bandon Hill
+7,Primary,Carshalton,51.352264702518,527186.636,163045.949,Phone: 020 8643 4428,SM5 4LA,020 8643 4428, , ,8,Harbury Road,Barrow Hedges,-0.17493325149489,Barrow Hedges
+8,Primary,Wallington,51.368670151496,529231.323,164922.712,Phone: 020 8647 7813,SM6 7LF,020 8647 7813, , ,9,Croydon Road,Beddington,-0.14490597302522,Beddington
+9,Primary,Beddington,51.372771141219,529979.847,165398.035,Phone: 020 8688 1390,CR0 4UA,020 8688 1390, , ,10,Derry Road,Beddington Park,-0.13398552690402,Beddington Park
+10,Primary,North Cheam,51.379693978526,524330.331,166027.672,Phone: 020 8644 8616,SM3 9LY,020 8644 8616, , ,11,Ridge Road,Brookfield,-0.21488732892901,Brookfield
+11,Primary,Carshalton,51.368964141224,527700.179,164916.916,Phone: 020 8647 7324,SM5 2NS,020 8647 7324, , ,12,Camden Road,Camden,-0.16689147630953,Camden
+15,Primary,Worcester Park,51.376089326817,522693.074,165586.991,Phone: 020 8337 4152,KT4 8SS,020 8337 4152, , ,16,Balmoral Road,Cheam Common Infants,-0.238552875605,Cheam Common Infants
+16,Primary,Worcester Park,51.375694664292,522728.943,165543.94,Phone: 020 8337 1844,KT4 8TU,020 8337 1844, , ,17,Kingsmead Avenue,Cheam Common Junior,-0.23805263668151,Cheam Common Junior
+17,Primary,Cheam,51.365503221685,524142.485,164444.124,Phone: 020 8644 9055,SM3 8PW,020 8644 9055, , ,18,Stoughton Avenue,Cheam Fields,-0.21813768005898,Cheam Fields
+19,Primary,North Cheam,51.374670256308,524379.737,165469.894,Phone: 020 8644 7415,SM3 9UU,020 8644 7415, , ,20,Molesey Drive,Cheam Park Farm Infants,-0.2143728654727,Cheam Park Farm Infants
+20,Primary,North Cheam,51.371690148443,524426.23,165139.435,Phone: 020 8644 8969,SM3 9UE,020 8644 8969, , ,21,Kingston Avenue,Cheam Park Farm Junior,-0.21382082512565,Cheam Park Farm Junior
+21,Primary,Mitcham,51.381360621744,528224.717,166309.434,Phone: 020 8255 6199,CR4 4JH,020 8255 6199, , ,22,Orchard Avenue,Culvers House,-0.15885835572269,Culvers House
+22,Primary,Sutton,51.354149054766,526152.045,163229.979,Phone: 020 8643 1174,SM2 5JL,020 8643 1174, , ,23,Devonshire Avenue,Devonshire,-0.18971711268839,Devonshire
+23,Primary,Worcester Park,51.380227999262,523181.969,166059.259,Phone: 020 8330 1144,KT4 8PG,020 8330 1144, , ,24,Dorchester Road,Dorchester,-0.23136856655569,Dorchester
+24,Primary,Wallington,51.355761560338,529939.183,163504.293,Phone: 020 8642 4266,SM6 9DP,020 8642 4266, , ,25,Redford Avenue,Foresters,-0.13526082120387,Foresters
+26,Primary,Carshalton,51.388471776971,526941.137,167068.623,Phone: 020 8648 4989,SM5 1JP,020 8648 4989, , ,27,Green Wrythe Lane,Green Wrythe,-0.17702147568563,Green Wrythe
+28,Primary,Wallington,51.378511523319,528359.933,165995.807,Phone: 020 8647 7974,SM6 7AX,020 8647 7974, , ,29,Hackbridge Road,Hackbridge,-0.15702967549767,Hackbridge
+29,Primary,Wallington,51.362371695999,530314.566,164249.383,Phone: 020 8688 3563,SM6 8JT,020 8688 3563, , ,30,The Chase,Highview,-0.12960012424533,Highview
+30,Primary,Wallington,51.36775790927,529107.8,164818.081,Phone: 020 8647 7496,SM6 8BZ,020 8647 7496, , ,31,Bute Road,Holy Trinity C of E Junior,-0.14671740562561,Holy Trinity C of E Junior
+31,Primary,Sutton,51.364031137624,526250.561,164331.987,Phone: 020 8642 0144,SM1 4AW,020 8642 0144, , ,32,Greyhound Road,Manor Park,-0.1879122896245,Manor Park
+32,Primary,Carshalton,51.376345427974,527313.122,165728.576,Phone: 020 8669 2514,SM5 2SE,020 8669 2514, , ,33,Muschamp Road,Muschamp,-0.17215822546624,Muschamp
+33,Primary,Stoneleigh,51.364645321585,522819.101,164316.682,Phone: 020 8394 1308,KT17 2HQ,020 8394 1308, , ,34,Chadacre Road,Nonsuch,-0.23718159600434,Nonsuch
+36,Primary,Sutton,51.36330375514,525370.744,164229.386,Phone: 020 8643 3688,SM1 2SF,020 8643 3688, , ,37,Robin Hood Lane,Federation of Robin Hood Infants School and Thomas Wall Nursery School,-0.20057938929648,Federation of Robin Hood Infants School and Thomas Wall Nursery School
+37,Primary,Sutton,51.365434105872,525691.482,164474.309,Phone: 020 8642 4292,SM1 1RL,020 8642 4292, , ,38,Thorncroft Road,Robin Hood Junior,-0.1958883409735,Robin Hood Junior
+38,Primary,Carshalton,51.373779198891,527261.547,165441.744,Phone: 020 8669 7588,SM5 2SG,020 8669 7588, , ,39,"Rushy Meadow Lane, Fellowes Road",Rushy Meadow,-0.17300147089221,Rushy Meadow
+41,Primary,Cheam,51.377549242412,523849.391,165777.344,Phone: 020 8337 4566,SM3 9DL,020 8337 4566, , ,42,London Road,St Cecilias RC,-0.22188149361482,St Cecilias RC
+42,Primary,Cheam,51.356454493352,524086.567,163435.934,Phone: 020 8642 5463,SM3 8DF,020 8642 5463, , ,43,Anne Boleyn's Walk,St Dunstans C of E,-0.21929193352253,St Dunstans C of E
+43,Primary,Wallington,51.356519021874,530473.206,163602.185,Phone: 020 8669 6306,SM6 9HY,020 8669 6306, , ,44,Mollison Drive,St Elpheges Federation Schools,-0.12756000716097,St Elpheges Federation Schools
+44,Primary,Carshalton,51.367224661612,527622.462,164721.42,Phone: 020 8647 5711,SM5 2PT,020 8647 5711, , ,45,West Street,St Mary R C Infants,-0.16807742861221,St Mary R C Infants
+45,Primary,Carshalton,51.364569104984,527713.991,164428.221,Phone: 020 8647 4342,SM5 2PB,020 8647 4342, , ,46,Shorts Road,St Marys RC Junior,-0.16686856204868,St Marys RC Junior
+48,Primary,Carshalton,51.354810469534,527956.381,163348.432,Phone: 020 8647 9322,SM5 3JL,020 8647 9322, , ,49,Stanley Park Road,Stanley Park Infants,-0.16377686748897,Stanley Park Infants
+49,Primary,Carshalton,51.355308096346,527937.391,163403.328,Phone: 020 8647 7497,SM5 3JL,020 8647 7497, , ,50,Stanley Park Road,Stanley Park Junior,-0.1640297111618,Stanley Park Junior
+54,Primary,Carshalton,51.384332399119,526768.966,166603.753,Phone: 020 8644 5665,SM5 1SW,020 8644 5665, , ,54,Tweeddale Road,Tweeddale,-0.17966030747355,Tweeddale
+55,Primary,Carshalton,51.369540087761,527825.505,164984.137,Phone: 020 8644 5665,SM5 2JE,020 8644 5665, , ,55,Denmark Road,Victor Seymour Infants,-0.16506794175652,Victor Seymour Infants
+59,Primary,Sutton,51.372642500832,525132.076,165262.646,Phone: 020 8644 8453,SM1 2NT,020 8644 8453, , ,59,Anton Crescent,Westbourne,-0.20364238279172,Westbourne

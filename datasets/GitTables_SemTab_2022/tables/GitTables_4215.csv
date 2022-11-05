@@ -1,0 +1,19 @@
+col0,col1,col2,col3
+HarvestYear,unitless,Year crop was harvested,Int
+Crop,unitless,"Crop identifier {SW = spring wheat, GB = garbonzo beans, SB = spring barley, WW = winter wheat, SC = spring canola}",String
+SampleID,unitless,"Sample ID given based on other descriptive attributes, but not consistency",String
+Latitude,dd,Latitude of georeference point near where sample was collected,Float
+Longitude,dd,Longnitude of georeference point near where sample was collected,Float
+ID2,unitless,Number ID of georeference point near sample collection,Int
+GrainWeight,g,Mass of grain after sample dried in greenhouse and threshed,Float
+Area,m^2,Area that crop was harvested from,Float
+Yield_g_m2,g/m^2,Calculated yield of sample,Float
+Yield_lb_ac,lb/ac,Calculated yield of sample,Float
+Yield_bu_ac,bu/ac,Calculated yield of sample,Float
+TestWeight,g,"Weight of grain subsample analyzed for protein, moisture, starch, gluten, oil",Float
+OilDM,%,Percent oil in sample (after removing moisture?),Float
+Protein,%,Percent of protein in sample (dry mass?),Float
+Moisture,%,Percent of moisture in sample,Float
+Starch,%,Percent of starch in dry mass,Float
+WGlutDM,%,Percent of Gluten (after accouting for moisture?),Float
+Notes,unitless,"Notes, aggregated from all steps of processing",String

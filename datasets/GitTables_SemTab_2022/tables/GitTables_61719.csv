@@ -1,0 +1,29 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13
+whirlwind,CSS Whirlwind,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Corvette,Civilian,0,3,"Corporate owned, Large cargo ship",False
+discovery,ESS Discovery,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Corvette,Civilian,0,0,"Government owned, Science vessel",False
+memory,ESS Memory,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Corvette,Civilian,0,2,Goverment owned,False
+ravager,OSS Ravager,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Corvette,Civilian,0,1,Corporate owned,False
+vulture,OSS Vulture,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Corvette,Civilian,0,2,"Corporate owned, Cargo ship",False
+centurion,CSS Centurion,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Cruiser,Civilian,0,0,Corporate owned,False
+cyclone,CSS Cyclone,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Cruiser,Civilian,0,4,"Corporate owned, Transport ship",False
+polaris,ESS Polaris,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Cruiser,Civilian,0,2,"Corporate owned, Large transport ship",False
+spectrum,ESS Spectrum,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Cruiser,Civilian,0,0,"Corporate owned, Large transport ship",False
+immortal,OSS Immortal,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Cruiser,Civilian,0,3,"Corporate owned, Worker transport ship",False
+starfall,OSS Starfall,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Cruiser,Civilian,0,2,"Corporate owned, Prison ship",False
+aurora,ESS Aurora,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Battlecruiser,Military,69,2,"EOC Starfleet, Flagship",False
+halo,ESS Halo,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Battlecruiser,Military,51,0,EOC Starfleet,False
+burro,OSS Burro,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Cargoship,Military,0,0,"EOC Starfleet, Cargoship",False
+odysseus,ESS Odysseus,Present and accounted for,5254,,,,0101000020110F000071416E1D82344B4140FB654BF3CA51C1,Corvette,Military,3,2,"EOC Starfleet, ESS Starcaller in hangarbay",True
+taurus,CSS Taurus,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Corvette,Military,10,2,EOC Starfleet,False
+bluecoat,ESS Bluecoat,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Corvette,Military,0,2,EOC Starfleet,False
+envoy,ESS Envoy,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Corvette,Military,4,1,EOC Starfleet,False
+valkyrie,ESS Valkyrie,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Corvette,Military,9,1,EOC Starfleet,False
+harbinger,ESS Harbinger,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Cruiser,Military,16,6,EOC Starfleet,False
+inferno,ESS Inferno,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Cruiser,Military,27,2,EOC Starfleet,False
+valor,ESS Valor,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Cruiser,Military,20,4,EOC Starfleet,False
+warrior,ESS Warrior,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Cruiser,Military,18,0,EOC Starfleet,False
+aries,ESS Aries,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Scoutship,Military,0,1,EOC Starfleet,False
+arthas,ESS Arthas,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Scoutship,Military,0,0,EOC Starfleet,False
+prophet,CSS Prophet,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Scoutship,Civilian,0,0,Faith of the High Science,False
+karma,OSS Karma,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Scoutship,Civilian,0,0,Unregistered,False
+marauder,OSS Marauder,Present and accounted for,5236,,,,0101000020110F000009E118F1906341412C1293A78C064EC1,Scoutship,Civilian,0,0,Corporate owned,False

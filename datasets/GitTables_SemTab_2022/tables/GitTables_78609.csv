@@ -1,0 +1,34 @@
+col0,col1,col2,col3,col4,col5
+1,23,New Jersey,Devils,NJD,/api/v1/teams/1
+4,16,Philadelphia,Flyers,PHI,/api/v1/teams/4
+26,14,Los Angeles,Kings,LAK,/api/v1/teams/26
+14,31,Tampa Bay,Lightning,TBL,/api/v1/teams/14
+6,6,Boston,Bruins,BOS,/api/v1/teams/6
+3,10,NY Rangers,Rangers,NYR,/api/v1/teams/3
+5,17,Pittsburgh,Penguins,PIT,/api/v1/teams/5
+17,12,Detroit,Red Wings,DET,/api/v1/teams/17
+28,29,San Jose,Sharks,SJS,/api/v1/teams/28
+18,34,Nashville,Predators,NSH,/api/v1/teams/18
+23,20,Vancouver,Canucks,VAN,/api/v1/teams/23
+16,11,Chicago,Blackhawks,CHI,/api/v1/teams/16
+9,30,Ottawa,Senators,OTT,/api/v1/teams/9
+8,1,Montreal,Canadiens,MTL,/api/v1/teams/8
+30,37,Minnesota,Wild,MIN,/api/v1/teams/30
+15,24,Washington,Capitals,WSH,/api/v1/teams/15
+19,18,St Louis,Blues,STL,/api/v1/teams/19
+24,32,Anaheim,Ducks,ANA,/api/v1/teams/24
+27,28,Phoenix,Coyotes,PHX,/api/v1/teams/27
+2,22,NY Islanders,Islanders,NYI,/api/v1/teams/2
+20,21,Calgary,Flames,CGY,/api/v1/teams/20
+21,27,Colorado,Avalanche,COL,/api/v1/teams/21
+25,15,Dallas,Stars,DAL,/api/v1/teams/25
+13,33,Florida,Panthers,FLA,/api/v1/teams/13
+10,5,Toronto,Maple Leafs,TOR,/api/v1/teams/10
+29,36,Columbus,Blue Jackets,CBJ,/api/v1/teams/29
+52,35,Winnipeg,Jets,WPG,/api/v1/teams/52
+54,38,Vegas,Golden Knights,VGK,/api/v1/teams/54
+12,26,Carolina,Hurricanes,CAR,/api/v1/teams/12
+7,19,Buffalo,Sabres,BUF,/api/v1/teams/7
+22,25,Edmonton,Oilers,EDM,/api/v1/teams/22
+53,28,Arizona,Coyotes,ARI,/api/v1/teams/53
+11,35,Atlanta,Thrashers,ATL,/api/v1/teams/11

@@ -1,0 +1,31 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23
+43392,NC_000913,"4,296,286",SNP,C→T,"gltP, yjcO",,glutamate/aspartate:proton symporter/Sel1 family TPR-like repeat protein,,,intergenic (+492/+150),0.22,,,,0.24,,,,,,0.23,,
+44290,NC_000913,"1,896,966",MOB,IS186 (+) +4 bp,sdaA,,L-serine dehydratase 1,,,coding (35‑38/1365 nt),,,,,,,,,,,,1.0,
+43395,NC_000913,"4,296,380",INS,+CG,"gltP, yjcO",,glutamate/aspartate:proton symporter/Sel1 family TPR-like repeat protein,,,intergenic (+586/+56),1.0,1.0,,,1.0,1.0,,,,1.0,1.0,,
+44292,NC_000913,"4,116,407",SNP,C→A,glpK,,glycerol kinase,,,M272I (ATG→ATT),,,,,1.0,1.0,1.0,1.0,1.0,1.0,0.94,1.0,1.0
+44293,NC_000913,"4,183,258",SNP,G→A,rpoB,,"RNA polymerase, beta subunit",,,E672K (GAA→AAA),,,,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+44294,NC_000913,"528,897",MOB,IS5 (+) +4 bp,ybbD,,pseudogene,,,pseudogene (258‑261/491 nt),,,,,0.35,0.42,,,,,,,
+26183,NC_000913,"1,978,503",DEL,Δ776 bp,"insB1, insA",,"insB1, insA",,,,1.0,1.0,1.0,1.0,1.0,,1.0,1.0,1.0,,,1.0,1.0
+44299,NC_000913,"3,558,995",DEL,"Δ1,040 bp","[rtcR], [glpR]",,"[rtcR], [glpR]",,,,,,,,,,1.0,,1.0,,,,
+44174,NC_000913,"3,815,809",DEL,Δ1 bp,"pyrE, rph",,"orotate phosphoribosyltransferase/ribonuclease PH (defective),enzyme, Degradation of RNA, RNase PH",,,intergenic (‑41/+25),,,,,,,,,,0.55,0.62,,
+26191,NC_000913,"1,299,499",DEL,"Δ1,199 bp","ychE, oppA",,UPF0056 family inner membrane protein/oligopeptide ABC transporter periplasmic binding protein,,,intergenic (+254/‑485),,1.0,1.0,1.0,,,,,,1.0,,,1.0
+40592,NC_000913,"3,815,859",DEL,Δ82 bp,"[rph], [rph]",,"[rph], [rph]",,,,,,,,0.83,0.9,1.0,1.0,1.0,,,,
+44306,NC_000913,"3,560,460",SNP,A→T,glpR,,"pseudogene, DNA-binding transcriptional repressor,regulator, Energy metabolism, carbon: Anaerobic respiration, repressor of the glp operon",,,pseudogene (146/150 nt),,0.2,,,,,,,,,,,
+44291,NC_000913,"3,815,909",DEL,Δ10 bp,rph,,"ribonuclease PH (defective),enzyme, Degradation of RNA, RNase PH",,,pseudogene (632‑641/669 nt),,,,,,,,,,,,1.0,
+44308,NC_000913,"388,531",SNP,C→G,tauD,,"taurine dioxygenase, 2-oxoglutarate-dependent",,,A246G (GCG→GGG),,,,1.0,,,,,,,,,
+44309,NC_000913,"444,755",SNP,G→T,yajQ,,"phage Phi6 host factor, ATP/GTP binding protein",,,E25* (GAA→TAA),0.55,0.6,,1.0,,,,,,,,,
+44310,NC_000913,"572,356",MOB,IS2 (–) +5 bp,"ybcM, ylcH",,"DLP12 prophage, putative DNA-binding transcriptional regulator/uncharacterized protein, DLP12 prophage",,,intergenic (+105/‑8),0.69,0.54,,1.0,,,,,,,,,
+44311,NC_000913,"3,560,329",SNP,G→T,glpR,,"pseudogene, DNA-binding transcriptional repressor,regulator, Energy metabolism, carbon: Anaerobic respiration, repressor of the glp operon",,,pseudogene (125/606 nt),0.61,0.5,,1.0,,,,,,,,,
+44312,NC_000913,"4,116,706",SNP,T→G,glpK,,glycerol kinase,,,K173Q (AAA→CAA),1.0,1.0,1.0,1.0,,,,,,,,,
+44313,NC_000913,"4,606,215",INS,(G)8→9,leuP,,tRNA-Leu,,,noncoding (72/87 nt),,,,1.0,,,,,,,,,
+43354,NC_000913,"1,529,218",SNP,C→T,rhsE,,"pseudogene, Rhs family",,,pseudogene (1317/2037 nt),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+44317,NC_000913,"2,966,765",SNP,G→A,ptsP,,"PEP-protein phosphotransferase enzyme I, GAF domain containing protein",,,P557L (CCG→CTG),,,1.0,,,,,,,,,,
+43299,NC_000913,"3,815,810",DEL,Δ1 bp,"pyrE, rph",,"orotate phosphoribosyltransferase/ribonuclease PH (defective),enzyme, Degradation of RNA, RNase PH",,,intergenic (‑42/+24),,,1.0,1.0,,,,,,,,,1.0
+44338,NC_000913,"3,560,071",DEL,Δ2 bp,glpR,,"pseudogene, DNA-binding transcriptional repressor,regulator, Energy metabolism, carbon: Anaerobic respiration, repressor of the glp operon",,,pseudogene (382‑383/606 nt),,,1.0,,,,,,,,,,
+44307,NC_000913,"2,245,130",SNP,A→T,cirA,,"colicin IA outer membrane receptor and translocator, ferric iron-catecholate transporter",,,I547N (ATC→AAC),,,,,,,,,,,,,1.0
+43384,NC_000913,"2,173,361",DEL,Δ2 bp,gatC,,"pseudogene, galactitol-specific enzyme IIC component of PTS,transport, Transport of small molecules: Carbohydrates, organic acids, alcohols, PTS system galactitol-specific enzyme IIC",,,pseudogene (1‑2/442 nt),1.0,1.0,,,1.0,1.0,,,,1.0,1.0,,
+43387,NC_000913,"3,950,469",SNP,T→G,"ilvL, ilvX",,ilvG operon leader peptide/uncharacterized protein,,,intergenic (+49/‑38),0.23,0.23,,,,,,,,,,,
+43388,NC_000913,"4,187,507",SNP,A→C,rpoC,,"RNA polymerase, beta prime subunit",,,N720H (AAC→CAC),1.0,1.0,1.0,1.0,,,,,,,,,
+43389,NC_000913,"4,296,190",SNP,A→G,"gltP, yjcO",,glutamate/aspartate:proton symporter/Sel1 family TPR-like repeat protein,,,intergenic (+396/+246),,,,,,0.2,,,,0.29,0.21,,
+43390,NC_000913,"4,296,191",SNP,A→C,"gltP, yjcO",,glutamate/aspartate:proton symporter/Sel1 family TPR-like repeat protein,,,intergenic (+397/+245),,,,,,0.26,,,,0.34,0.21,,
+43391,NC_000913,"4,296,268",SNP,T→C,"gltP, yjcO",,glutamate/aspartate:proton symporter/Sel1 family TPR-like repeat protein,,,intergenic (+474/+168),0.29,0.29,,,0.33,0.25,,,,0.23,0.27,,

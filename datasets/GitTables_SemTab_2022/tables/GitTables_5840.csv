@@ -1,0 +1,20 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15
+1,1,2,robust single,mutual reachability,2,6,0.517241379310345,0.741538461538462,2,robust single,mutual reachability,4,0.401826484018265,0.596923076923077,False
+2,2,3,robust single,mutual reachability,2,7,0.451428571428571,0.704615384615385,2,robust single,mutual reachability,7,0.451428571428571,0.704615384615385,True
+3,3,4,robust single,mutual reachability,2,12,0.345454545454545,0.667692307692308,2,robust single,mutual reachability,12,0.345454545454545,0.667692307692308,True
+4,4,5,robust single,mutual reachability,2,12,0.345454545454545,0.667692307692308,2,robust single,mutual reachability,12,0.345454545454545,0.667692307692308,True
+5,5,6,robust single,mutual reachability,0,26,0.338461538461538,0.338461538461538,0,robust single,mutual reachability,26,0.338461538461538,0.338461538461538,True
+6,6,7,robust single,mutual reachability,0,26,0.338461538461538,0.338461538461538,0,robust single,mutual reachability,26,0.338461538461538,0.338461538461538,True
+7,7,8,robust single,mutual reachability,0,26,0.338461538461538,0.338461538461538,0,robust single,mutual reachability,26,0.338461538461538,0.338461538461538,True
+8,8,9,robust single,mutual reachability,0,26,0.338461538461538,0.338461538461538,0,robust single,mutual reachability,26,0.338461538461538,0.338461538461538,True
+9,9,10,robust single,mutual reachability,0,26,0.338461538461538,0.338461538461538,0,robust single,mutual reachability,26,0.338461538461538,0.338461538461538,True
+10,10,11,robust single,mutual reachability,0,26,0.338461538461538,0.338461538461538,0,robust single,mutual reachability,26,0.338461538461538,0.338461538461538,True
+11,11,12,robust single,mutual reachability,0,26,0.338461538461538,0.338461538461538,0,robust single,mutual reachability,26,0.338461538461538,0.338461538461538,True
+12,12,13,robust single,mutual reachability,0,26,0.338461538461538,0.338461538461538,0,robust single,mutual reachability,26,0.338461538461538,0.338461538461538,True
+13,13,14,robust single,mutual reachability,0,26,0.338461538461538,0.338461538461538,0,robust single,mutual reachability,26,0.338461538461538,0.338461538461538,True
+14,14,15,robust single,mutual reachability,0,26,0.338461538461538,0.338461538461538,0,robust single,mutual reachability,26,0.338461538461538,0.338461538461538,True
+15,15,16,robust single,mutual reachability,0,26,0.338461538461538,0.338461538461538,0,robust single,mutual reachability,26,0.338461538461538,0.338461538461538,True
+16,16,17,robust single,mutual reachability,0,26,0.338461538461538,0.338461538461538,0,robust single,mutual reachability,26,0.338461538461538,0.338461538461538,True
+17,17,18,robust single,mutual reachability,0,26,0.338461538461538,0.338461538461538,0,robust single,mutual reachability,26,0.338461538461538,0.338461538461538,True
+18,18,19,robust single,mutual reachability,0,26,0.338461538461538,0.338461538461538,0,robust single,mutual reachability,26,0.338461538461538,0.338461538461538,True
+19,19,20,robust single,mutual reachability,0,26,0.338461538461538,0.338461538461538,0,robust single,mutual reachability,26,0.338461538461538,0.338461538461538,True

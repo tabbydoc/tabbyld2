@@ -1,0 +1,54 @@
+col0,col1,col2,col3
+1,X,rude or X-rated term (not displayed in educational software),
+2,abbr,abbreviation,
+3,arch,archaism,
+4,chn,children's language,
+5,col,colloquialism,
+6,derog,derogatory,
+8,fam,familiar language,
+9,fem,"female term, language, or name","{""jmdict"":{""v"":""female term or language""},""jmnedict"":{""v"":""female given name or forename""}}"
+11,hon,honorific or respectful (sonkeigo) language,
+12,hum,humble (kenjougo) language,
+13,id,idiomatic expression,
+14,m-sl,manga slang,
+15,male,"male term, language, or name","{""jmdict"":{""v"":""male term or language""},""jmnedict"":{""e"":""masc"",""v"":""male given name or forename""}}"
+17,obs,obsolete term,
+18,obsc,obscure term,
+19,pol,polite (teineigo) language,
+20,rare,rare,
+21,sl,slang,
+22,uk,word usually written using kana alone,
+24,vulg,vulgar expression or word,
+25,sens,sensitive,
+26,poet,poetical term,
+27,on-mim,onomatopoeic or mimetic word,
+28,joc,"jocular, humorous term",
+81,proverb,proverb,
+82,aphorism,aphorism (pithy saying),"{""jmdict"":0}"
+83,quote,quotation,
+84,yoji,yojijukugo,
+85,net-sl,Internet slang,
+86,dated,dated term,
+87,hist,historical term,
+88,litf,literary or formal term,
+160,fict,fiction,"{""jmnedict"":1}"
+161,myth,mythology,"{""jmnedict"":1}"
+162,leg,legend,"{""jmnedict"":1}"
+170,relig,religion,"{""jmnedict"":1}"
+171,serv,service,"{""jmnedict"":1}"
+172,ev,event,"{""jmnedict"":1}"
+173,obj,object,"{""jmnedict"":1}"
+174,char,character,"{""jmnedict"":1}"
+175,creat,creature,"{""jmnedict"":1}"
+176,dei,deity,"{""jmnedict"":1}"
+177,oth,other,"{""jmnedict"":1}"
+181,surname,family or surname,"{""jmnedict"":1}"
+182,place,place name,"{""jmnedict"":1}"
+183,unclass,unclassified name,"{""jmnedict"":1}"
+184,company,company name,"{""jmnedict"":1}"
+185,product,product name,"{""jmnedict"":1}"
+188,person,full name of a particular person,"{""jmnedict"":1}"
+189,given,"given name or forename, gender not specified","{""jmnedict"":1}"
+190,station,railway station,"{""jmnedict"":1}"
+191,organization,organization name,"{""jmnedict"":1}"
+192,work,"work of art, literature, music, etc. name","{""jmnedict"":1}"

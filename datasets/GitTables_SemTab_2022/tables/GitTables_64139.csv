@@ -1,0 +1,31 @@
+col0,col1,col2,col3,col4
+projects/PROJECT_ID/locations/us/entryGroups/glossary/entries/education,projects/PROJECT_ID/locations/us/tagTemplates/glossary_term_specification,,glossaryName,GDPR Business Glossary
+,,,qualifiedName,gdpr_business_glossary__term__education
+,,,summary,Educational stages are subdivisions of formal learning
+,,,examples,"Elementary school, Middle school, High school"
+,,,abbreviation,
+,,,usage,
+,,,guid,term_education@958e-1ec6c.v2fpsqn
+projects/PROJECT_ID/locations/us/entryGroups/glossary/entries/name,projects/PROJECT_ID/locations/us/tagTemplates/glossary_term_specification,,glossaryName,GDPR Business Glossary
+,,,qualifiedName,gdpr_business_glossary__term__name
+,,,summary,A word or set of words by which a person or thing is known
+,,,examples,"Alice, Bob, Luke"
+,,,abbreviation,
+,,,usage,
+,,,guid,term_name@958e-1ec6c.v2fpsqn
+//bigquery.googleapis.com/projects/PROJECT_ID/datasets/DATASET_ID/tables/TABLE_ID,projects/PROJECT_ID/locations/us/tagTemplates/semantic_education,ctm_es,glossaryTermDescription,"Educational stages are subdivisions of formal learning, typically covering early childhood education, primary education, secondary education and tertiary education."
+,,ctm_es,expression,
+,,ctm_es,status,VALIDATED_3
+,,ctm_es,confidence,5
+,,ctm_es,createdBy,Ricardo Mendes
+,,ctm_es,steward,Ricardo Mendes
+,,ctm_es,source,
+,,ctm_es,relationshipGuid,term_education@958e-1ec6c.v2fpsqn__ctm_es_column
+//bigquery.googleapis.com/projects/PROJECT_ID/datasets/DATASET_ID/tables/TABLE_ID,projects/PROJECT_ID/locations/us/tagTemplates/semantic_name,ctm_nm,glossaryTermDescription,"A word or set of words by which a person, animal, place, or thing is known, addressed, or referred to."
+,,ctm_nm,expression,
+,,ctm_nm,status,VALIDATED_3
+,,ctm_nm,confidence,5
+,,ctm_nm,createdBy,Ricardo Mendes
+,,ctm_nm,steward,Ricardo Mendes
+,,ctm_nm,source,
+,,ctm_nm,relationshipGuid,term_name@958e-1ec6c.v2fpsqn__ctm_nm_column

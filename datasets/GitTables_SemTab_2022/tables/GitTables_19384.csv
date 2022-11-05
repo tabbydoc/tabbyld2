@@ -1,0 +1,266 @@
+col0,col1,col2,col3
+180580,,Felidae,cats
+180581,552363.0,Lynx,lynxes
+180582,180581.0,rufus,Bobcat
+180583,180582.0,rufus,bobcat
+180584,180581.0,lynx,Eurasian Lynx
+180585,180581.0,canadensis,Canada lynx
+180586,552363.0,Felis,small cats
+180589,180586.0,silvestris,wild cat
+180592,552364.0,Panthera,roaring cats
+180593,180592.0,onca,Jaguar
+183789,180586.0,bieti,Chinese desert cat
+183791,180586.0,manul,Pallas' cat
+183798,180586.0,catus,Domestic Cat
+183800,180586.0,nigripes,Black-footed Cat
+183801,180586.0,margarita,Sand Cat
+183802,180586.0,chaus,Jungle Cat
+183803,180592.0,leo,Lion
+183804,180592.0,pardus,Leopard
+183805,180592.0,tigris,Tiger
+183806,183805.0,tigris,Bengal tiger
+183808,552364.0,Neofelis,
+183809,183808.0,nebulosa,Clouded Leopard
+183810,552364.0,Uncia,
+183811,183810.0,uncia,Snow leopard
+183812,552363.0,Acinonyx,
+183813,183812.0,jubatus,Cheetah
+203550,180582.0,escuinapae,Mexican bobcat
+552363,180580.0,Felinae,
+552364,180580.0,Pantherinae,
+552371,552363.0,Leopardus,American spotted cats
+552375,552363.0,Puma,pumas
+552453,552363.0,Prionailurus,
+552456,552363.0,Leptailurus,
+552459,552363.0,Caracal,
+552469,552371.0,wiedii,Margay
+552470,552371.0,pardalis,Ocelot
+552479,552375.0,concolor,Puma
+552763,552453.0,bengalensis,Leopard Cat
+552766,552456.0,serval,Serval
+552770,552453.0,viverrinus,Fishing Cat
+552774,552453.0,rubiginosus,Rusty-Spotted Cat
+552775,552459.0,caracal,Caracal
+552780,552479.0,concolor,puma
+552782,552479.0,costaricensis,Costa Rican puma
+552793,552470.0,albescens,
+552795,552470.0,nelsoni,
+552796,552470.0,sonoriensis,
+552797,552469.0,nicaraguae,
+552798,552469.0,pirrensis,
+552799,552469.0,wiedii,margay
+552806,552469.0,cooperi,
+621778,552363.0,Catopuma,
+621780,552363.0,Pardofelis,
+621781,552363.0,Profelis,
+621866,621778.0,badia,Bay Cat
+621867,621778.0,temminckii,Temminck's golden cat
+621868,552371.0,tigrinus,tiger cat
+621869,180581.0,pardinus,Spanish lynx
+621872,621780.0,marmorata,Marbled Cat
+621873,552453.0,planiceps,Flat-headed Cat
+621874,621781.0,aurata,African Golden Cat
+622026,183803.0,persica,Asiatic lion
+622028,552763.0,bengalensis,leopard cat
+622050,183801.0,scheffeli,
+622051,552470.0,pardalis,
+622056,552766.0,serval,
+622059,183803.0,leo,Atlas lion
+622091,552469.0,oaxacensis,Oaxaca Long-tailed Tiger Cat
+622093,552479.0,couguar,eastern cougar
+726250,552371.0,braccatus,Pantanal Cat
+726251,552371.0,colocolo,Colocolo
+726252,552371.0,geoffroyi,Geoffroy's Cat
+726253,552371.0,guigna,Kodkod
+726254,552371.0,jacobitus,Andean Mountain Cat
+726255,552371.0,pajeros,Pampas cat
+726256,552453.0,iriomotensis,Iriomote Cat
+726257,552375.0,yagouaroundi,Jaguarundi
+726288,183813.0,jubatus,
+726289,183813.0,hecki,
+726290,183813.0,raineyi,
+726291,183813.0,soemmeringii,
+726293,183813.0,venaticus,
+726294,552775.0,caracal,
+726295,552775.0,algira,
+726296,552775.0,damarensis,
+726297,552775.0,limpopoensis,
+726298,552775.0,lucani,
+726299,552775.0,nubica,
+726300,552775.0,poecilotis,
+726301,552775.0,schmitzi,
+726302,621867.0,temminckii,
+726303,621867.0,dominicanorum,
+726304,621867.0,tristis,
+726305,183802.0,chaus,
+726306,183802.0,affinis,
+726307,183802.0,fulvidina,
+726308,183802.0,furax,
+726309,183802.0,kelaarti,
+726310,183802.0,kutas,
+726311,183802.0,maimanah,
+726312,183802.0,nilotica,
+726313,183802.0,oxiana,
+726314,183802.0,prateri,
+726315,183791.0,manul,
+726316,183791.0,ferruginea,
+726317,183791.0,nigripecta,
+726318,183801.0,margarita,
+726319,183801.0,airensis,
+726320,183801.0,harrisoni,
+726321,183801.0,meinertzhageni,
+726322,183801.0,thinobia,
+726323,183800.0,nigripes,
+726324,183800.0,thomasi,
+726325,180589.0,silvestris,
+726326,180589.0,cafra,
+726327,180589.0,caucasica,
+726328,180589.0,caudata,
+726329,180589.0,chutuchta,
+726330,180589.0,cretensis,
+726331,180589.0,foxi,
+726332,180589.0,gordoni,
+726333,180589.0,grampia,
+726334,180589.0,griselda,
+726335,180589.0,haussa,
+726336,180589.0,iraki,
+726337,180589.0,jordansi,
+726338,180589.0,lybica,
+726339,180589.0,mellandi,
+726340,180589.0,nesterovi,
+726341,180589.0,ocreata,
+726342,180589.0,ornata,
+726343,180589.0,reyi,
+726344,180589.0,rubida,
+726345,180589.0,tristrami,
+726346,180589.0,ugandae,
+726347,180589.0,vellerosa,
+726348,726250.0,braccatus,
+726349,726250.0,munoai,
+726350,726251.0,colocolo,
+726351,726251.0,wolffsohni,
+726352,726252.0,geoffroyi,
+726353,726252.0,euxanthus,
+726354,726252.0,leucobaptus,
+726355,726252.0,paraguae,
+726356,726252.0,salinarum,
+726357,726253.0,guigna,
+726358,726253.0,tigrillo,
+726359,726255.0,pajeros,
+726360,726255.0,budini,
+726361,726255.0,garleppi,
+726362,726255.0,steinbachi,
+726363,726255.0,thomasi,
+726364,552470.0,aequatorialis,
+726365,552470.0,melanurus,
+726366,552470.0,mitis,
+726367,552470.0,pseudopardalis,
+726368,552470.0,pusaeus,
+726369,552470.0,steinbachi,
+726370,621868.0,tigrinus,
+726372,621868.0,oncilla,
+726373,621868.0,pardinoides,
+726374,552469.0,amazonicus,
+726375,552469.0,boliviae,
+726376,552469.0,glauculus,
+726377,552469.0,salvinius,
+726378,552469.0,vigens,
+726379,552469.0,yucatanicus,Yucatan Long-tailed Tiger Cat
+726380,552766.0,beirae,
+726381,552766.0,brachyurus,
+726382,552766.0,constantinus,North African Serval
+726383,552766.0,faradjius,
+726384,552766.0,ferrarii,
+726385,552766.0,hamiltoni,
+726386,552766.0,hindei,
+726387,552766.0,kempi,
+726388,552766.0,kivuensis,
+726389,552766.0,lipostictus,
+726390,552766.0,lonnbergi,
+726391,552766.0,mababiensis,
+726392,552766.0,pantastictus,
+726393,552766.0,phillipsi,
+726394,552766.0,pococki,
+726395,552766.0,robertsi,
+726396,552766.0,togoensis,
+726397,180585.0,canadensis,
+726398,180585.0,mollipilosus,
+726399,180585.0,subsolanus,
+726400,180584.0,lynx,
+726401,180584.0,isabellinus,
+726402,180584.0,kozlovi,
+726403,180584.0,sardiniae,
+726404,180584.0,stroganovi,
+726405,180582.0,baileyi,
+726406,180582.0,californicus,
+726407,180582.0,fasciatus,
+726408,180582.0,floridanus,
+726409,180582.0,gigas,
+726410,180582.0,oaxacensis,
+726411,180582.0,pallescens,
+726412,180582.0,peninsularis,
+726413,180582.0,superiorensis,
+726414,180582.0,texensis,
+726415,621872.0,marmorata,
+726416,621872.0,charltonii,
+726417,552763.0,alleni,
+726418,552763.0,borneoensis,
+726419,552763.0,chinensis,
+726420,552763.0,euptilurus,
+726421,552763.0,heaneyi,
+726422,552763.0,horsfieldii,
+726423,552763.0,javanensis,
+726424,552763.0,rabori,
+726425,552763.0,sumatranus,
+726426,552763.0,trevelyani,
+726427,552774.0,rubiginosus,
+726428,552774.0,phillipsi,
+726429,621874.0,aurata,
+726430,621874.0,cottoni,
+726431,552479.0,anthonyi,
+726432,552479.0,cabrerae,
+726433,552479.0,puma,
+726434,726257.0,yagouaroundi,
+726435,726257.0,ameghinoi,
+726436,726257.0,cacomitli,
+726437,726257.0,eyra,
+726438,726257.0,fossata,
+726439,726257.0,melantho,
+726440,726257.0,panamensis,
+726441,726257.0,tolteca,
+726442,183809.0,nebulosa,
+726443,183809.0,brachyura,
+726445,183809.0,macrosceloides,
+726446,183803.0,azandica,
+726447,183803.0,bleyenberghi,
+726450,183803.0,krugeri,
+726452,183803.0,melanochaita,South African Cape Lion
+726454,183803.0,senegalensis,
+726455,180593.0,onca,East Brazilian Jaguar
+726456,180593.0,arizonensis,Arizona Jaguar
+726457,180593.0,centralis,Central American Jaguar
+726458,180593.0,goldmani,Yucatan Peninsula Jaguar
+726459,180593.0,hernandesii,West Mexican Jaguar
+726460,180593.0,palustris,
+726461,180593.0,paraguensis,Paraguay Jaguar
+726462,180593.0,peruviana,Peruvian Jaguar
+726464,183804.0,pardus,
+726465,183804.0,delacouri,
+726466,183804.0,fusca,
+726467,183804.0,japonensis,
+726468,183804.0,kotiya,
+726469,183804.0,melas,
+726470,183804.0,nimr,
+726471,183804.0,orientalis,
+726472,183805.0,altaica,Amur tiger
+726473,183805.0,amoyensis,South China tiger
+726474,183805.0,balica,Balinese tiger
+726475,183805.0,corbetti,Corbett's tiger
+726476,183805.0,sondaica,Javan tiger
+726477,183805.0,sumatrae,Sumatran tiger
+726478,183805.0,virgata,Caspian tiger
+933419,183808.0,diardi,
+933421,552371.0,guttulus,
+933424,183803.0,nubica,
+933425,180593.0,veraecrucis,Northeastern Jaguar
+933431,183804.0,saxicolor,

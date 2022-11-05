@@ -1,0 +1,41 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11
+1,White,2014,2014,0,Income In The Past 12 Months Below Poverty Level,621886,5619.505049379349,Washington,04000US53,washington,0.5512470039285765
+1,White,2015,2015,0,Income In The Past 12 Months Below Poverty Level,621592,5879.477612849631,Washington,04000US53,washington,0.5591118139076356
+1,White,2013,2013,0,Income In The Past 12 Months Below Poverty Level,609656,5666.696127374398,Washington,04000US53,washington,0.5537414076237811
+1,White,2016,2016,0,Income In The Past 12 Months Below Poverty Level,604991,5705.181942760459,Washington,04000US53,washington,0.5625761348863765
+1,White,2017,2017,0,Income In The Past 12 Months Below Poverty Level,585304,5557.79596602826,Washington,04000US53,washington,0.5594902393374488
+9,Hispanic,2014,2014,0,Income In The Past 12 Months Below Poverty Level,211780,3463.584415024413,Washington,04000US53,washington,0.187724262150931
+9,Hispanic,2013,2013,0,Income In The Past 12 Months Below Poverty Level,207765,3598.600005557717,Washington,04000US53,washington,0.1887098356367441
+9,Hispanic,2015,2015,0,Income In The Past 12 Months Below Poverty Level,203237,3390.615283396216,Washington,04000US53,washington,0.182808349726422
+9,Hispanic,2016,2016,0,Income In The Past 12 Months Below Poverty Level,192138,3347.4318514347683,Washington,04000US53,washington,0.1786675395250485
+9,Hispanic,2017,2017,0,Income In The Past 12 Months Below Poverty Level,186188,3350.805574783473,Washington,04000US53,washington,0.1779765193502195
+6,Other,2013,2013,0,Income In The Past 12 Months Below Poverty Level,81581,2571.148770491509,Washington,04000US53,washington,0.0740987996105273
+6,Other,2014,2014,0,Income In The Past 12 Months Below Poverty Level,77561,2345.815636404532,Washington,04000US53,washington,0.0687509750528301
+6,Other,2015,2015,0,Income In The Past 12 Months Below Poverty Level,71103,2204.2831034148044,Washington,04000US53,washington,0.0639559828702342
+6,Other,2017,2017,0,Income In The Past 12 Months Below Poverty Level,65735,2158.029656886114,Washington,04000US53,washington,0.0628358782493323
+6,Other,2016,2016,0,Income In The Past 12 Months Below Poverty Level,64135,2169.314638313216,Washington,04000US53,washington,0.0596386068733878
+4,Asian,2014,2014,0,Income In The Past 12 Months Below Poverty Level,63387,1978.950479420847,Washington,04000US53,washington,0.0561869761307067
+4,Asian,2015,2015,0,Income In The Past 12 Months Below Poverty Level,63202,1901.7647067920889,Washington,04000US53,washington,0.0568491628955816
+4,Asian,2016,2016,0,Income In The Past 12 Months Below Poverty Level,61899,1900.053157151136,Washington,04000US53,washington,0.0575593689382682
+2,Black,2014,2014,0,Income In The Past 12 Months Below Poverty Level,61271,1915.4075284387916,Washington,04000US53,washington,0.0543113290501921
+7,Two Or More,2016,2016,0,Income In The Past 12 Months Below Poverty Level,60488,1977.258455538881,Washington,04000US53,washington,0.0562472916903014
+4,Asian,2017,2017,0,Income In The Past 12 Months Below Poverty Level,60422,1834.8226072293744,Washington,04000US53,washington,0.0577571983810931
+2,Black,2015,2015,0,Income In The Past 12 Months Below Poverty Level,60210,1943.6378263452275,Washington,04000US53,washington,0.0541579079450487
+7,Two Or More,2015,2015,0,Income In The Past 12 Months Below Poverty Level,60210,1927.5222437108216,Washington,04000US53,washington,0.0541579079450487
+7,Two Or More,2017,2017,0,Income In The Past 12 Months Below Poverty Level,60153,1969.527100600548,Washington,04000US53,washington,0.057500062133294
+4,Asian,2013,2013,0,Income In The Past 12 Months Below Poverty Level,59658,1885.7030519145903,Washington,04000US53,washington,0.0541864672799407
+2,Black,2016,2016,0,Income In The Past 12 Months Below Poverty Level,59551,1917.646213460658,Washington,04000US53,washington,0.0553759831280442
+7,Two Or More,2014,2014,0,Income In The Past 12 Months Below Poverty Level,58821,1834.5135595029,Washington,04000US53,washington,0.052139620473982
+2,Black,2013,2013,0,Income In The Past 12 Months Below Poverty Level,58479,1938.9827229761488,Washington,04000US53,washington,0.0531155992501198
+2,Black,2017,2017,0,Income In The Past 12 Months Below Poverty Level,57248,1931.6267755443853,Washington,04000US53,washington,0.0547231818364307
+7,Two Or More,2013,2013,0,Income In The Past 12 Months Below Poverty Level,53263,1780.4842038052457,Washington,04000US53,washington,0.0483779846245513
+3,Native American,2014,2014,0,Income In The Past 12 Months Below Poverty Level,25702,1012.9141128447168,Washington,04000US53,washington,0.0227825525819398
+3,Native American,2016,2016,0,Income In The Past 12 Months Below Poverty Level,24246,960.542555017736,Washington,04000US53,washington,0.0225461551766143
+3,Native American,2015,2015,0,Income In The Past 12 Months Below Poverty Level,24176,939.0899850387076,Washington,04000US53,washington,0.0217459156698139
+3,Native American,2013,2013,0,Income In The Past 12 Months Below Poverty Level,24001,971.1184273815422,Washington,04000US53,washington,0.0217997485867085
+3,Native American,2017,2017,0,Income In The Past 12 Months Below Poverty Level,23170,953.0267572319256,Washington,04000US53,washington,0.0221481295966688
+5,Pacific Islander,2015,2015,0,Income In The Past 12 Months Below Poverty Level,8019,709.648504542918,Washington,04000US53,washington,0.007212959040215
+5,Pacific Islander,2016,2016,0,Income In The Past 12 Months Below Poverty Level,7946,688.6080162182255,Washington,04000US53,washington,0.0073889197819589
+5,Pacific Islander,2017,2017,0,Income In The Past 12 Months Below Poverty Level,7918,657.9057683285654,Washington,04000US53,washington,0.0075687911155124
+5,Pacific Islander,2014,2014,0,Income In The Past 12 Months Below Poverty Level,7736,622.3214603402329,Washington,04000US53,washington,0.0068572806308414
+5,Pacific Islander,2013,2013,0,Income In The Past 12 Months Below Poverty Level,6573,623.2262831428084,Washington,04000US53,washington,0.0059701573876269

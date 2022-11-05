@@ -1,0 +1,19 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19
+5845.0,:hibernate_sequences:TABLE_BASED_SEQUENCE,default,10.0,,,,,,,,,,,,,,,,
+5846.0,:DEPOSITOR:ENTITY,,,Doe,0.0,Max,1.0,,,,,,,,,,,,
+5847.0,:ENTITY:ACCOUNT,,,,0.0,,2.0,INSTANT_ACCESS_ACCOUNT,,,,,,,,,,,
+5848.0,:ACCOUNT_ENTRY:ENTITY,,,,,,3.0,DEBIT,150.0,money transfer,ACC,2017/09/28 13:16:02:739 +0200,2.0,,,,,,
+5849.0,:ENTITY:ACCOUNT,,,,0.0,,4.0,GIRO_ACCOUNT,,,,,,1000.0,,,,,
+5850.0,:ACCOUNT_ENTRY:ENTITY,,,,,,5.0,DEBIT,100.0,deposit,ACC,2017/09/28 13:16:02:739 +0200,4.0,,,,,,
+5851.0,:ACCOUNT_ENTRY:ENTITY,,,,,,6.0,CREDIT,150.0,money transfer,ACC,2017/09/28 13:16:02:739 +0200,4.0,,,,,,
+5852.0,:CONTACT_DETAIL:ENTITY,,,,,,7.0,MOBILE,,,,,,,1.0,+1 11 1111 1111,,,
+5853.0,:CONTACT_DETAIL:ENTITY,,,,,,8.0,EMAIL,,,,,,,1.0,john.doe@acme.com,,,
+5854.0,:CONTACT_DETAIL:ENTITY,,,,,,9.0,TELEPHONE,,,,,,,1.0,+1 22 2222 2222,,,
+,,,,,,,,,,,,,,,,,5847.0,5846.0,depositor
+,,,,,,,,,,,,,,,,,5849.0,5846.0,depositor
+,,,,,,,,,,,,,,,,,5846.0,5852.0,contactDetails
+,,,,,,,,,,,,,,,,,5846.0,5853.0,contactDetails
+,,,,,,,,,,,,,,,,,5846.0,5854.0,contactDetails
+,,,,,,,,,,,,,,,,,5847.0,5848.0,entries
+,,,,,,,,,,,,,,,,,5849.0,5850.0,entries
+,,,,,,,,,,,,,,,,,5849.0,5851.0,entries

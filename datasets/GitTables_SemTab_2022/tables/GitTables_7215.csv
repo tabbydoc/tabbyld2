@@ -1,0 +1,20 @@
+col0,col1,col2
+author,Llactalab,Autor
+emaps,6.3,Versión eMAPS
+segment_id,seg_id,Atributo con el código de segmento en la capa geográfica
+segment_length_attribute,emaps_len,Atributo con la longitud del segmento en la capa geográfica
+segment_slope_attribute,emaps_slo,Atributo con la pendiente en la capa geográfica
+area_id,cod_zona,Atributo con el código de área de estudio en la capa geográfica 
+area_name_attribute,nombre_zon,Atributo con el nombre de área de estudio en la capa geográfica
+evaluation_type_question,M_003,Código de pregunta en el que se especifica el tipo de registro
+evaluation_type_option,A,"Tipo de registro que será considerado para el scoring: A=Evaluación, B=Validación, C=Entrenamiento"
+evaluation_code_question,M_002,Código de pregunta en el que se especifica el proyecto
+evaluation_code,tutorial,Código del proyecto que se va a evaluar
+area_id_question,Q_000,Código de pregunta en el que se especifica el código de área de estudio
+segment_id_question,Q_001,Código de pregunta en el que se especifica el código de segmento a evaluar
+segment_exist_question,Q_002,Código de pregunta en el que se especifica si existe el segmento a evaluar
+parcel_id_question,Q_015,Código de pregunta en el que se especifica el código del lote a evaluar
+parcel_build_question,Q_017,Código de pregunta en el que se especifica si el lote tiene construcción
+csv_id,_id,Atributo con el que se identifica cada registro 
+csv_index,_index,Atributo con el que se identifica cada registro 
+parcel_parent_index,_parent_index,Atributo con el que se identifica el segmento al que pertenece cada lote

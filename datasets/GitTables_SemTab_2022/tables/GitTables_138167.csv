@@ -1,0 +1,62 @@
+col0,col1,col2,col3,col4,col5,col6
+amip-TIP,"same as ""amip"" run, but surface elevations of the Tibetan-Iranian Plateau and Himalayas reduced to 500m",1979,2014,GMMIP,3,36
+ism-amip-std,offline ice sheet forced by ISMIP6-specified AGCM AMIP output,1979,2014,ISMIP6,3,36
+ism-lig127k-std,offline ice sheet forced by ISMIP6-specified AGCM last interglacial output,,,ISMIP6,3,20000
+modelSST-futArcSIC,Atmosphere time slice with present day coupled model SST and future Arctic SIC,2000,2001,PAMIP,3,1
+modelSST-pdSIC,Atmosphere time slice present day control with coupled model SST,2000,2001,PAMIP,3,1
+omip2,OMIP experiment forced by JRA55-do atmospheric data set and initialized with observed physical and biogeochemical ocean data,,,OMIP,3,366
+omip2-spunup,OMIP experiment forced by JRA55-do atmospheric data set and initialized from at least a 2000-year spin up of the coupled physical-biogeochemical model,,,OMIP,3,366
+pa-futAntSIC-ext,Partially-coupled extended simulation with future Antarctic SIC,2000,2099,PAMIP,3,100
+pa-futArcSIC-ext,Partially-coupled extended simulation with future Arctic SIC,2000,2099,PAMIP,3,100
+pa-pdSIC-ext,Partially-coupled extended simulation constrained by present day SIC,2000,2099,PAMIP,3,100
+pdSST-futArcSICSIT,Atmosphere time slice with present day SST and future Arctic SIC and sea ice thickness,2000,2001,PAMIP,3,1
+pdSST-futBKSeasSIC,Atmosphere time slice with present day SST and future Barents and Kara Seas SIC,2000,2001,PAMIP,3,1
+pdSST-futOkhotskSIC,Atmosphere time slice with present day SST and future Sea of Okhotsk SIC,2000,2001,PAMIP,3,1
+pdSST-pdSICSIT,Atmosphere time slice constrained by present day conditions including sea ice thickness,2000,2001,PAMIP,3,1
+piClim-2xDMS,"pre-industrial climatological SSTs and forcing, but with doubled emissions of DMS",,,AerChemMIP,3,30
+piClim-2xNOx,"pre-industrial climatological SSTs and forcing, but with doubled production of NOx due to lightning",,,AerChemMIP,3,30
+piClim-2xVOC,"pre-industrial climatological SSTs and forcing, but with doubled emissions of biogenic VOCs",,,AerChemMIP,3,30
+piClim-2xfire,"pre-industrial climatological SSTs and forcing, but with doubled emissions from fires",,,AerChemMIP,3,30
+piClim-NH3,"pre-industrial climatological SSTs and forcing, but with 2014 ammonia emissions",,,AerChemMIP,3,30
+piClim-NOx,"pre-industrial climatological SSTs and forcing, but with 2014 NOx emissions",,,AerChemMIP,3,30
+piClim-OC,"pre-industrial climatological SSTs and forcing, but with 2014 organic carbon emissions",,,AerChemMIP,3,30
+piClim-SO2,"pre-industrial climatological SSTs and forcing, but with 2014 SO2 emissions",,,AerChemMIP,3,30
+piClim-VOC,"pre-industrial climatological SSTs and forcing, but with 2014 VOC emissions",,,AerChemMIP,3,30
+ssp245-aer,aerosol-only SSP2-4.5 run,2021,2100,DAMIP,3,80
+ssp245-nat,natural-only SSP2-4.5 run,2021,2100,DAMIP,3,80
+volc-cluster-21C,volcanic cluster experiment under 21st century SSP2-4.5 scenario,2015,2100,VolMIP,3,86
+volc-cluster-mill,19th century volcanic cluster initialized from past1000,1790,1858,VolMIP,3,69
+volc-long-hlS,Idealized Southern Hemisphere high-latitude eruption emitting 28.1 Tg of SO2,,,VolMIP,3,20
+hist-volc,historical volcanic-only run,1850,2020,DAMIP,3,171
+volc-pinatubo-slab,Pinatubo experiment with slab ocean,,,VolMIP,3,3
+hist-sol,historical solar-only run,1850,2020,DAMIP,3,171
+hist-all-aer2,historical ALL-forcing run with alternate estimates of aerosol forcing,1850,2020,DAMIP,3,171
+amip-TIP-nosh,"same as ""amip"" run, but sensible heat not allowed for elevations of the Tibetan-Iranian Plateau and Himalayas above 500m",1979,2014,GMMIP,3,36
+amip-climSIC,AMIP with climatological SIC,1979,2014,PAMIP,3,36
+amip-climSST,AMIP with climatological SST,1979,2014,PAMIP,3,36
+amip-hld,"same as ""amip"" run, but surface elevations of the East African Highlands in Africa, Sierra Madre in N. America and Andes in S. America reduced to 500m",1979,2014,GMMIP,3,36
+control-slab,control with slab ocean,,,VolMIP,3,30
+dcppC-atl-pacemaker,pacemaker Atlantic experiment,"1910, 1920 or 1950",2014,DCPP,3,65
+dcppC-atl-spg,predictability of 1990s warming of Atlantic sub-polar gyre,A year in the range 1992-1999,5 - 10 years after start year,DCPP,3,5
+dcppC-forecast-addAgung,2015 forecast with added Agung forcing,2014,5 - 10 years after start year,DCPP,3,5
+dcppC-forecast-addElChichon,2015 forecast with added El Chichon forcing,2014,5 - 10 years after start year,DCPP,3,5
+dcppC-pac-pacemaker,pacemaker Pacific experiment,"1910, 1920 or 1950",2014,DCPP,3,65
+esm-1pct-brch-2000PgC,zero emissions simulation branched from 1% run after 2000 PgC cumulative emission,,,C4MIP,3,100
+esm-1pct-brch-750PgC,zero emissions simulation branched from 1% run after 750 PgC cumulative emission,,,C4MIP,3,100
+esm-1pctCO2,emissions driven 1% run,,,C4MIP,3,150
+esm-bell-1000PgC,emissions driven 1000PgC bell-curve,,,C4MIP,3,200
+esm-bell-2000PgC,emissions driven 2000PgC bell-curve,,,C4MIP,3,200
+esm-bell-750PgC,emissions driven 750PgC bell-curve,,,C4MIP,3,200
+esm-ssp585-ocn-alk-stop,emission-driven SSP5-8.5 scenario with alkalinization terminated in year 2070,2070,2100,CDRMIP,3,31
+esm-yr2010CO2-CO2pulse,instantaneous 100 Gt C addition to an industrial era atmosphere,2015,2115,CDRMIP,3,101
+esm-yr2010CO2-cdr-pulse,instantaneous 100 Gt C removal from industrial era atmosphere,2015,2115,CDRMIP,3,101
+esm-yr2010CO2-control,historical emissions followed by fixed 2010 emissions (both model-diagnosed),1850,2115,CDRMIP,3,266
+esm-yr2010CO2-noemit,branches from esm-yr2010CO2-control with zero emissions,2015,2115,CDRMIP,3,101
+highresSST-4xCO2,highresSST-present SST with 4xCO2 concentrations,1979,2014,HighResMIP,3,36
+highresSST-LAI,common LAI dataset within the highresSST-present experiment,1979,2014,HighResMIP,3,36
+highresSST-future,forced atmosphere experiment for 2015-2050 using SST/sea-ice derived from CMIP5 RCP8.5 simulations and a scenario as close to RCP8.5 as possible within CMIP6,2015,2050,HighResMIP,3,36
+highresSST-p4K,uniform 4K warming of highresSST-present SST,1979,2014,HighResMIP,3,36
+highresSST-smoothed,smoothed SST version of highresSST-present,1979,2014,HighResMIP,3,36
+hist-CO2,historical CO2-only run,1850,2020,DAMIP,3,171
+hist-all-nat2,historical ALL-forcing run with alternate estimates of natural forcing,1850,2020,DAMIP,3,171
+yr2010CO2,concentration-driven fixed 2010 forcing,2010,2115,CDRMIP,3,106

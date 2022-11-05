@@ -1,0 +1,32 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+login,unique identifier for the user (username),String,FALSE,True,False,5.0,100.0
+email,primary email address of user,String,FALSE,True,False,5.0,100.0
+secondEmail,secondary email address of user typically used for account recovery,String,TRUE,True,False,5.0,100.0
+firstName,given name of the user (givenName),String,FALSE (default),False,False,1.0,50.0
+lastName,family name of the user (familyName),String,FALSE (default),False,False,1.0,50.0
+middleName,middle name(s) of the user,String,TRUE,False,False,,
+honorificPrefix,"honorific prefix(es) of the user, or title in most Western languages",String,TRUE,False,False,,
+honorificSuffix,honorific suffix(es) of the user,String,TRUE,False,False,,
+title,"user's title, such as ""Vice President",String,TRUE,False,False,,
+displayName,"name of the user, suitable for display to end users",String,TRUE,False,False,,
+nickName,casual way to address the user in real life,String,TRUE,False,False,,
+profileUrl,url of user's online profile (e.g. a web page),String,TRUE,False,False,,
+primaryPhone,primary phone number of user such as home number,String,TRUE,False,False,0.0,100.0
+mobilePhone,mobile phone number of user,String,TRUE,False,False,0.0,100.0
+streetAddress,full street address component of user's address,String,TRUE,False,False,,
+city,city or locality component of user's address (locality),String,TRUE,False,False,,
+state,state or region component of user's address (region),String,TRUE,False,False,,
+zipCode,zipcode or postal code component of user's address (postalCode),String,TRUE,False,False,,
+countryCode,country name component of user's address (country),String,TRUE,False,False,,
+postalAddress,mailing address component of user's address,String,TRUE,False,False,,
+preferredLanguage,user's preferred written or spoken languages,String,TRUE,False,False,,
+locale,"user's default location for purposes of localizing items such as currency, date time format, numerical representations, etc.",String,TRUE,False,False,,
+timezone,user's time zone,String,TRUE,False,False,,
+userType,"used to describe the organization to user relationship such as ""Employee"" or ""Contractor""",String,TRUE,False,False,,
+employeeNumber,organization or company assigned unique identifier for the user,String,TRUE,False,False,,
+costCenter,name of a cost center assigned to user,String,TRUE,False,False,,
+organization,name of user's organization,String,TRUE,False,False,,
+division,name of user's division,String,TRUE,False,False,,
+department,name of user's department,String,TRUE,False,False,,
+managerId,id of a user's manager,String,TRUE,False,False,,
+manager,displayName of the user's manager,String,TRUE,False,False,,

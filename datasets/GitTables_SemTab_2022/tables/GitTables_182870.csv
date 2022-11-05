@@ -1,0 +1,70 @@
+col0,col1,col2,col3,col4
+1,AcreFeet,1,AcreFeet,1.0
+2,Active,1,,1.0
+3,AdiposeClip,1,AdiposeClip,4.0
+4,BayPump1,1,BayPump1,4.0
+5,BayPump2,1,BayPump2,4.0
+6,BayPump3,1,BayPump3,4.0
+7,BayPump4,1,BayPump4,4.0
+8,BayPump5,1,BayPump5,4.0
+9,BuildingCode,1,Describe in which building fish are processed,4.0
+10,BuildingDescription,1,,1.0
+11,BuildingRowID,1,Unique record identifier for Building table,4.0
+12,CatchRowID,1,Unique record identifier,4.0
+13,Class,1,,
+14,CodeDescription,1,,1.0
+15,CodeListName,1,,
+16,CodeRowID,1,Unique record identifier,4.0
+17,Comments,1,Comments,4.0
+18,CommonName,1,,1.0
+19,CoordinateUnits,1,,
+20,Count,1,Count of fish (or other organisms) of a given species,1.0
+21,CWTRowID,0,CWTRowID,4.0
+22,Description,1,,1.0
+23,Easting,1,,1.0
+24,FacilityCode,1,,
+25,Family,1,,
+26,ForkLength,1,Basic catch variable: Length of fish(es) measured from tip of head to fork of tail,1.0
+27,FromDate,1,,1.0
+28,Genus,1,,
+29,GroupingCode,1,,1.0
+30,HoldingTankFlow,1,HoldingTankFlow,4.0
+31,LengthFrequency,1,LengthFrequency,4.0
+32,LengthRowID,1,Unique record identifier,4.0
+33,Location,1,,1.0
+34,MinutesPumping,1,MinutesPumping,1.0
+35,NormalizedCode,1,,
+36,Northing,1,,1.0
+37,Order,1,,
+38,OrganismCode,1,Alphanumeric code for a species of fish present in the catch.,3.0
+39,OrganismRowID,1,Unique record identifier,4.0
+40,Phylum,1,,
+41,PrimaryBypass,0,Number of primary bypass open,1.0
+42,PrimaryDepth,1,PrimaryDepth,1.0
+43,PrimaryFlow,1,PrimaryFlow,1.0
+44,s_Generation,1,,
+45,s_Lineage,1,,
+46,SampleDate,1,Date of the sampling event.,4.0
+47,SampleMethod,1,SampleMethod,2.0
+48,Sampler,1,Sampler,4.0
+49,SampleRowID,1,Unique record identifier for table Sample,4.0
+50,SampleTime,1,Time of sampling event.,1.0
+51,SampleTimeLength,1,SampleTimeLength,1.0
+52,SecondaryDepth,0,Water depth in secondary bypass,1.0
+53,SecondaryFlow,1,SecondaryFlow,4.0
+54,Sex,1,Sex of a given organism,2.0
+55,SignificantDecimal,1,,1.0
+56,Species,1,,
+57,StationRowID,1,Unique record identifier,4.0
+58,StudyCode,1,Alpha code to distinguish among special sudies,3.0
+59,StudyRowID,1,Unique record identifier,4.0
+60,TagCode,1,TagCode,4.0
+61,ToDate,1,,1.0
+62,UnitRowID,1,Unique record identifier,4.0
+63,Units,1,,
+64,UserName,1,Logon name of user who entered or edited the data,2.0
+65,ValueCode,1,,1.0
+66,VariableName,1,,1.0
+67,VariableRowID,1,Unique record identifier,2.0
+68,VariableType,1,,4.0
+69,WaterTemperature,1,WaterTemperature,1.0

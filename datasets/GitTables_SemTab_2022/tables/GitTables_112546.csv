@@ -1,0 +1,7 @@
+col0,col1,col2,col3,col4,col5,col6
+removed,,,,,,
+Aliases: (statements 14 -17),,,,,,
+playingDay_alias    content:  playing_day of the player = 'Monday',,,,,,
+ApplicationPeriod   content:  scheduled_application of the player is between 'first_application_period' and 'third_application_period',,,,,,
+"numberPL_countryVL   content:  number of players where country_vl of current player exists in ('Italy', 'France', 'USA')",,,,,,
+ScheduleTime_Appl_vl  content: scheduled_time of the player = 'nine oclock' or scheduled_application of the player is less than 'second_application_period',,,,,,

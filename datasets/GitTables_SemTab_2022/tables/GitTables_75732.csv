@@ -1,0 +1,12 @@
+col0,col1,col2
+target_values,object,"[""0"",""1"",""2"",""3"",""4"",""5"",""6"",""7"",""8"",""9""]"
+tasktype,object,"{""tt_id"":""1"",""name"":""Supervised Classification""}"
+source_data,object,"{""data_id"":""554"",""name"":""mnist_784"",""type"":""Dataset""}"
+visibility,datatype,public
+estimation_procedure,object,"{""name"":""10-fold Crossvalidation"",""proc_id"":""1"",""type"":""Estimation Procedure""}"
+evaluation_measures,datatype,predictive_accuracy
+task_id,datatype,3573
+target_feature,datatype,class
+suggest,object,"{""output"":""Task 3573"",""input"":[""Supervised Classification"",""10-fold Crossvalidation"",""predictive_accuracy"",""mnist_784"",""class""],""payload"":{""description"":""Supervised Classification 10-fold Crossvalidation predictive_accuracy mnist_784 class"",""task_id"":""3573"",""type"":""task""}}"
+runs,datatype,122
+tags,object,"[{""uploader"":""17"",""tag"":""study_1""},{""uploader"":""1"",""tag"":""under100k""}]"

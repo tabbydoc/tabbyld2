@@ -1,0 +1,11 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+http://purl.org/ejp-rd/cde/v020/example-rdf/genderQuality,genderQuality,,,,,,,,,
+http://purl.org/ejp-rd/cde/v020/example-rdf/genderOutput,genderOutput,,,,,,,,,
+http://purl.org/ejp-rd/cde/v020/example-rdf/person1,person1,,,,,,,,,
+http://purl.obolibrary.org/obo/NCIT_C17357,obo:Gender,,,,,,,,,
+http://purl.org/ejp-rd/cde/v020/example-rdf/role2,role2,,,,,,,,,
+http://purl.org/ejp-rd/cde/v020/example-rdf/genderProcess,dd7c4e:genderProcess,,,,,,,,,
+http://purl.bioontology.org/ontology/SNOMEDCT/703118005,snomedct:703118005,,,,,,,,,
+http://purl.obolibrary.org/obo/OBI_0000093,obo:patient role,,,,,,,,,
+http://semanticscience.org/resource/SIO_000340,sio:realizable entity,,,,,,,,,
+http://purl.obolibrary.org/obo/NCBITaxon_9606,obo:Homo sapiens,,,,,,,,,

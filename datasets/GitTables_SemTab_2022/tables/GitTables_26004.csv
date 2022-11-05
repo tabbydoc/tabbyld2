@@ -1,0 +1,55 @@
+col0,col1,col2,col3
+adPolicyId,,URI,The id of the AdPolicy associated with this content
+added,,DateTime,The date and time that this object was created
+addedByUserId,,URI,The id of the user that created this object
+adminTags,,String[],The administrative workflow tags for this object
+approved,,Boolean,Whether this content is approved for playback
+author,,String,The creator of this content
+authorLocalized,,Map,A map that contains localized versions of this object's author value
+availabilityState,,AvailabilityState,The computed availability of the media for playback
+availabilityTags,,String[],The playback availability tags for this media
+availabilityWindows,,AvailabilityWindow[],An array of distinct time frames that identify the playback availability for this media
+availableDate,,DateTime,The date that this content becomes available for playback
+categories,,CategoryInfo[],"The Category objects that this object is associated with, represented as CategoryInfo objects"
+categoryIds,,URI[],The id values of the Category objects that this object is associated with
+chapters,,Chapter[],Chapter information for this content
+content,,MediaFile[],The content MediaFile objects that this object is associated with
+copyright,,String,The copyright holder of this content
+copyrightLocalized,,Map,A map that contains localized versions of this object's copyright value
+copyrightUrl,,String,The URL of a copyright statement or terms of use
+copyrightUrlLocalized,,Map,A map that contains localized versions of this object's copyrightUrl value
+countries,,String[],The list of ISO 3166 country codes that geo-targeting restrictions apply to
+credits,,Credit[],The creative credits for this content
+defaultThumbnailUrl,,String,The streamingUrl of the default thumbnail for this Media
+description,,String,A description of this content
+descriptionLocalized,,Map,A map that contains localized versions of this object's description value
+excludeCountries,,Boolean,Whether the specified countries are excluded from playing this content
+expirationDate,,DateTime,The date that this content expires and is no longer available for playback
+fileSourceMediaId,,URI,Reserved for future use.
+guid,,String,An alternate identifier for this object that is unique within the owning account.
+id,,URI,The globally unique URI of this object
+keywords,,String,A list of internal keywords that describe this content
+keywordsLocalized,,Map,A map that contains localized versions of this object's keywords value
+link,,String,A link to additional information related to this content
+linkLocalized,,Map,A map that contains localized versions of this object's link value
+locked,,Boolean,Whether this object currently allows updates
+originalMediaIds,,URI[],The id values of the source Media objects that were shared to create this Media
+originalOwnerIds,,URI[],The id values of the accounts that shared this Media
+ownerId,,URI,The id of the account that owns this object
+pid,,String,The globally unique public identifier for this media
+programId,,URI,The ID of the Program that represents this media. The GUID URI is recommended
+provider,,String,The title of the Provider that represents the account that shared this Media
+providerId,,URI,The id of the Provider that represents the account that shared this Media
+pubDate,,DateTime,The original release date or airdate of this Media object's content
+publicUrl,,String,The public URL for this media
+ratings,,Rating[],The advisory ratings associated with this content
+restrictionId,,URI,The id of the Restriction associated with this content
+seriesId,,URI,The ID of the Program that represents the series to which this media belongs. The GUID URI is recommended
+text,,String,Text associated with this content
+textLocalized,,Map,A map that contains localized versions of this object's text value
+thumbnails,,MediaFile[],The thumbnail MediaFile objects that this object is associated with
+title,,String,The name of this object
+titleLocalized,,Map,A map that contains localized versions of this object's title value
+updated,,DateTime,The date and time this object was last modified
+updatedByUserId,,URI,The id of the user that last modified this object
+version,,Long,"This object's modification version, used for optimistic locking"

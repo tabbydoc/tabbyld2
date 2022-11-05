@@ -1,0 +1,26 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13
+1,,63.0,ahu equip,,,,,,,8.0,discharge air temp sensor point,Discharge_Air_Temperature_Sensor,Numeric
+2,,63.0,ahu equip,,,,,,,9.0,return air temp sensor point,Return_Air_Temperature_Sensor,Numeric
+3,,63.0,ahu equip,,,,,,,11.0,mixed air temp sensor point,Mixed_Air_Temperature_Sensor,Numeric
+4,,63.0,ahu equip,5.0,discharge continuous fan motor equip,,,,,66.0,discharge air pressure sensor point,Discharge_Air_Static_Pressure_Sensor,Numeric
+5,,63.0,ahu equip,8.0,return continuous fan motor equip,,,,,67.0,return air pressure sensor point,0,Numeric
+6,singleStage,22.0,heatingCoil equip,,,,,,,13.0,stage:1 cmd point,0,Boolean
+7,singleStage,23.0,coolingCoil equip,,,,,,,13.0,stage:1 cmd point,0,Boolean
+8,singleStage,38.0,heatingCoolingCoil equip,,,,,,,13.0,stage:1 cmd point,0,Boolean
+9,multiStage,22.0,heatingCoil equip,,,,,numStages,N,62.0,stage:N cmd point,0,Boolean
+10,multiStage,23.0,coolingCoil equip,,,,,numStages,N,62.0,stage:N cmd point,0,Boolean
+11,multiStage,38.0,heatingCoolingCoil equip,,,,,numStages,N,62.0,stage:N cmd point,0,Boolean
+12,continuous,22.0,heatingCoil equip,,,,,,,63.0,modulating position cmd point,0,Numeric
+13,continuous,23.0,coolingCoil equip,,,,,,,63.0,modulating position cmd point,0,Numeric
+14,continuous,38.0,heatingCoolingCoil equip,,,,,,,63.0,modulating position cmd point,0,Numeric
+15,,13.0,singleSpeed fan motor equip,,,,,,,12.0,run cmd point,Run_Request_Command,Boolean
+16,,14.0,continuous fan motor equip,,,,,,,12.0,run cmd point,Run_Request_Command,Boolean
+17,,14.0,continuous fan motor equip,,,,,,,37.0,enable cmd point,Enable_Command,Boolean
+18,,14.0,continuous fan motor equip,,,,,,,68.0,speed cmd point,0,Numeric
+19,,14.0,continuous fan motor equip,,,,,,,69.0,run sensor point,Status,Boolean
+20,,63.0,ahu equip,,,,,,,30.0,outside air temp sensor point,Outside_Air_Temperature_Sensor,Numeric
+21,,,,,,,,,,,,,
+22,,,,,,,,,,,,,
+23,,,,,,,,,,,,,
+24,,,,,,,,,,,,,
+25,,,,,,,,,,,,,

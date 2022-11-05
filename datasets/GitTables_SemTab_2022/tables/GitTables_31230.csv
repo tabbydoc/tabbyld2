@@ -1,0 +1,232 @@
+col0,col1,col2,col3
+Afghanistan,AF,9,93
+Albania,AL,3,355
+Algeria,DZ,2,213
+American Samoa,AS,1,1684
+Andorra,AD,3,376
+Angola,AO,2,244
+Anguilla,AI,1,1264
+Antarctica,AQ,6,6721
+Antigua and Barbuda,AG,1,1268
+Argentina,AR,5,54
+Armenia,AM,3,374
+Aruba,AW,2,297
+Ascension,AC,2,247
+Australia,AU,6,61
+Austria,AT,4,43
+Azerbaijan,AZ,9,994
+Bahamas,BS,1,1242
+Bahrain,BH,9,973
+Bangladesh,BD,8,880
+Barbados,BB,1,1246
+Belarus,BY,3,375
+Belgium,BE,3,32
+Belize,BZ,5,501
+Benin,BJ,2,229
+Bermuda,BM,1,1441
+Bhutan,BT,9,975
+Bolivia,BO,5,591
+Bosnia and Herzegovina,BA,3,387
+Botswana,BW,2,267
+Brazil,BR,5,55
+Brunei,BN,6,673
+Bulgaria,BG,3,359
+Burkina Faso,BF,2,226
+Burundi,BI,2,257
+Cambodia,KH,8,855
+Cameroon,CM,2,237
+Canada,CA,1,1
+Cape Verde,CV,2,238
+Cayman Islands,KY,1,1345
+Central African Republic,CF,2,236
+Chad,TD,2,235
+Chile,CL,5,56
+China,CN,8,86
+Christmas Island,CX,6,618
+Cocos (Keeling) Islands,CC,6,618
+Colombia,CO,5,57
+Comoros,KM,2,269
+Congo,CG,2,(243|242)
+Cook Islands,CK,6,682
+Costa Rica,CR,5,506
+Côte d'Ivoire,CI,2,225
+Croatia,HR,3,385
+Cuba,CU,5,53
+Cyprus,CY,3,357
+Czech Republic,CZ,4,420
+Denmark,DK,4,45
+Diego Garcia,DG,2,246
+Djibouti,DJ,2,253
+Dominica,DM,1,1767
+Dominican Republic,DO,1,(1809|1829)
+East Timor,TL,6,670
+Ecuador,EC,5,593
+Egypt,EG,2,20
+El Salvador,SV,5,503
+Equatorial Guinea,GQ,2,240
+Eritrea,ER,2,291
+Estonia,EE,3,372
+Ethiopia,ET,2,251
+Faeroe Islands,FO,5,500
+Falkland Islands,FK,2,298
+Fiji,FJ,6,679
+Finland,FI,3,358
+France,FR,3,33
+French Guiana,GF,5,594
+French Polynesia,PF,6,689
+Gabon,GA,2,241
+Gambia,GM,2,220
+Georgia,GE,9,995
+Germany,DE,4,49
+Ghana,GH,2,233
+Gibraltar,GI,3,350
+Greece,GR,3,30
+Greenland,GL,2,299
+Grenada,GD,1,1473
+Guadeloupe,GP,5,590
+Guam,GU,1,1671
+Guatemala,GT,5,502
+Guinea,GN,2,224
+Guinea-Bissau,GW,2,245
+Guyana,GY,5,592
+Haiti,HT,5,509
+Honduras,HN,5,504
+Hong Kong,HK,8,852
+Hungary,HU,3,36
+Iceland,IS,3,354
+India,IN,9,91
+Indonesia,ID,6,62
+Iran,IR,9,98
+Iraq,IQ,9,964
+Ireland,IE,3,353
+Israel,IL,9,972
+Italy,IT,3,39
+Jamaica,JM,1,1876
+Japan,JP,8,81
+Jordan,JO,9,962
+Kazakhstan,KZ,7,77
+Kenya,KE,2,254
+Kiribati,KI,6,686
+Korea (North),KP,8,850
+Korea (South),KR,8,82
+Kuwait,KW,9,965
+Kyrgyzstan,KG,9,996
+Laos,LA,8,856
+Latvia,LV,3,371
+Lebanon,LB,9,961
+Lesotho,LS,2,266
+Liberia,LR,2,231
+Libya,LY,2,218
+Liechtenstein,LI,4,423
+Lithuania,LT,3,370
+Luxembourg ,LU,3,352
+Macau,MO,8,853
+Macedonia,MK,3,389
+Madagascar,MG,2,261
+Malawi,MW,2,265
+Malaysia,MY,6,60
+Maldives,MV,9,960
+Mali,ML,2,223
+Malta,MT,3,356
+Marshall Islands,MH,6,692
+Martinique,MQ,5,596
+Mauritania,MR,2,222
+Mauritius,MU,2,230
+Mayotte,YT,5,52
+Mexico,MX,6,691
+Micronesia,FM,3,373
+Moldova,MD,3,377
+Monaco,MC,9,976
+Mongolia,MN,3,382
+Montserrat,MS,1,1664
+Morocco,MA,2,212
+Mozambique,MZ,2,258
+Myanmar,MM,9,95
+Namibia,,2,264
+Nauru,NR,6,674
+Nepal,NP,9,977
+Netherlands,NL,3,31
+Netherlands Antilles,AN,5,599
+New Caledonia,NC,6,687
+New Zealand,NZ,6,64
+Nicaragua,NI,5,505
+Niger,NE,2,227
+Nigeria,NG,2,234
+Niue,NU,6,683
+Norfolk Island,NF,6,6723
+Northern Marianas,MP,1,1670
+Norway,NO,4,47
+Oman,OM,9,968
+Pakistan,PK,9,92
+Palau,PW,6,680
+Palestinian Settlements,PS,9,970
+Panama,PA,5,507
+Papua New Guinea,PG,6,675
+Paraguay,PY,5,595
+Peru,PE,5,51
+Philippines,PH,6,63
+Poland,PL,4,48
+Portugal,PT,3,351
+Puerto Rico,PR,1,(1787|1939)
+Qatar,QA,9,974
+Réunion,RE,2,262
+Romania,RO,4,40
+Russia,RU,7,7
+Rwanda,RW,2,250
+Saint Helena,SH,2,290
+Saint Kitts and Nevis,KN,1,1869
+Saint Lucia,LC,1,1758
+Saint Pierre and Miquelon,PM,5,508
+Saint Vincent and Grenadines,VC,1,1784
+Samoa,WS,6,685
+San Marino,SM,3,378
+São Tomé and Príncipe,ST,2,239
+Saudi Arabia,SA,9,966
+Senegal,SN,2,221
+Serbia,RS,3,381
+Seychelles,SC,2,248
+Sierra Leone,SL,2,232
+Singapore,SG,6,65
+Slovakia,SK,4,421
+Slovenia,SI,3,386
+Solomon Islands,SB,6,677
+Somalia,SO,2,252
+South Africa,ZA,2,27
+Spain,ES,3,34
+Sri Lanka,LK,9,94
+Sudan,SD,2,249
+Suriname,SR,5,597
+Swaziland,SZ,2,268
+Sweden,SE,4,46
+Switzerland,CH,4,41
+Syria,SY,9,963
+Taiwan,TW,8,886
+Tajikistan,TJ,9,992
+Tanzania,TZ,2,255
+Thailand,TH,6,66
+Togo,TG,2,228
+Tokelau,TK,6,690
+Tonga,TO,6,676
+Trinidad and Tobago,TT,1,1868
+Tunisia,TN,2,216
+Turkey,TR,9,90
+Turkmenistan,TM,9,993
+Turks and Caicos Islands,TC,1,1649
+Tuvalu,TV,6,688
+Uganda,UG,2,256
+Ukraine,UA,3,380
+United Arab Emirates,AE,9,971
+United Kingdom,GB,4,44
+United States,US,1,1
+Uruguay,UY,5,598
+US Virgin Islands,VI,1,1340
+Uzbekistan,UZ,9,998
+Vanuatu,VU,6,678
+Venezuela,VE,5,58
+Vietnam,VN,8,84
+Virgin Islands,VG,1,1284
+Wake Island,WK,8,808
+Wallis and Futuna,WF,6,681
+Yemen,YE,9,967
+Zambia,ZM,2,260
+Zimbabwe,ZW,2,263

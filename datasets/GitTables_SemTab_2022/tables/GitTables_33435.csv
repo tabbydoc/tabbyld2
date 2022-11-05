@@ -1,0 +1,52 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24
+w83997120,83997120,way,residential,Vikingen,city_block,kvarter,,,,,,,,,,,,,,,,,62927,Vikingen
+w231083004,231083004,way,residential,Havamal,city_block,kvarter,,,,,,,,,,,,,,,,,89759,Havamal
+w93571333,93571333,way,retail,Sankt Botulf,city_block,kvarter,,,,,,,,,,,,,,,,,7252,Sankt Botulf
+w93571337,93571337,way,retail,Sankt Laurentius,city_block,kvarter,,,,,,,,,,,,,,,,,4423,Sankt Laurentius
+w93571341,93571341,way,retail,Svartbröder,city_block,kvarter,,,,,,,,,,,,,,,,,18000,Svartbröder
+w93572377,93572377,way,retail,Sankt Clemens,city_block,kvarter,,,,,,,,,,,,,,,,,18775,Sankt Clemens
+w93572380,93572380,way,residential,Drotten,city_block,kvarter,,,,,,,,,,,,,,,,,10222,Drotten
+w93573051,93573051,way,retail,Apotekaren,city_block,kvarter,,,,,,,,,,,,,,,,,7841,Apotekaren
+w93574353,93574353,way,retail,Sankt Mårten,city_block,kvarter,,,,,,,,,,,,,,,,,12910,Sankt Mårten
+w93574355,93574355,way,retail,Maria Minor,city_block,kvarter,,,,,,,,,,,,,,,,,5450,Maria Minor
+w93574364,93574364,way,retail,Glambeck,city_block,kvarter,,,,,,,,,,,,,,,,,6230,Glambeck
+w96693698,96693698,way,retail,Färgaren,city_block,kvarter,,,,,,,,,,,,,,,,,12629,Färgaren
+w93474494,93474494,way,residential,Sankt Thomas,city_block,kvarter,,,,,,,,,,,,,,,,,21929,Sankt Thomas
+w93475416,93475416,way,residential,Agardh,city_block,kvarter,,,,,,,,,,,,,,,,,10039,Agardh
+w93475418,93475418,way,residential,Garvaren,city_block,kvarter,,,,,,,,,,,,,,,,,13438,Garvaren
+w113961216,113961216,way,residential,Dövstumskolan,city_block,kvarter,,,,,,,,,,,,,,,,,65981,Dövstumskolan
+w115145270,115145270,way,,Botanicum,city_block,kvarter,,,,,,,,,,,,,,,,,87769,Botanicum
+w93470446,93470446,way,residential,Föreningen,city_block,kvarter,,,,,,,,,,,,,,,,,8181,Föreningen
+w93573052,93573052,way,residential,Altona,city_block,kvarter,,,,,,,,,,,,,,,,,10650,Altona
+w93573056,93573056,way,residential,Glädjen,city_block,kvarter,,,,,,,,,,,,,,,,,13107,Glädjen
+w89540654,89540654,way,residential,Thomander,city_block,kvarter,,,,,,,,,,,,,,,,,21552,Thomander
+w93571525,93571525,way,residential,Paradis,city_block,kvarter,,,,,,,,,,,,,,,,,23112,Paradis
+w37588554,37588554,way,residential,Statsministern,city_block,kvarter,,,,,,,,,,,,,,,,,66018,Statsministern
+w111624031,111624031,way,residential,Excellensen,city_block,kvarter,,,,,,,,,,,,,,,,,12950,Excellensen
+w111625495,111625495,way,residential,Riksdagen,city_block,kvarter,,,,,,,,,,,,,,,,,28220,Riksdagen
+w308192063,308192063,way,residential,Styrelsen,city_block,kvarter,,,,,,,,,,,,,,,,,5960,Styrelsen
+w93473491,93473491,way,residential,Tegnér,city_block,kvarter,,,,,,,,,,,,,,,,,3615,Tegnér
+w93474492,93474492,way,residential,Studenten,city_block,kvarter,,,,,,,,,,,,,,,,,8722,Studenten
+w93475419,93475419,way,residential,Sigrid,city_block,kvarter,,,,,,,,,,,,,,,,,2077,Sigrid
+w93475961,93475961,way,residential,Maria Magle,city_block,kvarter,,,,,,,,,,,,,,,,,9465,Maria Magle
+w93475964,93475964,way,residential,Själabodarna,city_block,kvarter,,,,,,,,,,,,,,,,,8154,Själabodarna
+w93571018,93571018,way,residential,Sankt Mikael,city_block,kvarter,,,,,,,,,,,,,,,,,14358,Sankt Mikael
+w93470442,93470442,way,residential,Kulturen,city_block,kvarter,,,,,,,,,,,,,,,,,15896,Kulturen
+w93604679,93604679,way,residential,Hyphoff,city_block,kvarter,,,,,,,,,,,,,,,,,34835,Hyphoff
+w148742475,148742475,way,residential,Gyllenkrok,city_block,kvarter,,,,,,,,,,,,,,,,,20859,Gyllenkrok
+w148742481,148742481,way,residential,Södertull,city_block,kvarter,,,,,,,,,,,,,,,,,19589,Södertull
+w93604681,93604681,way,residential,Saxo,city_block,kvarter,,,,,,,,,,,,,,,,,32074,Saxo
+w121716599,121716599,way,residential,Absalon,city_block,kvarter,,,,,,,,,,,,,,,,,4535,Absalon
+w93571884,93571884,way,residential,Sankt Måns,city_block,kvarter,,,,,,,,,,,,,,,,,12652,Sankt Måns
+w93571885,93571885,way,residential,Billegården,city_block,kvarter,,,,,,,,,,,,,,,,,30798,Billegården
+w93572379,93572379,way,residential,Myntet,city_block,kvarter,,,,,,,,,,,,,,,,,17658,Myntet
+w93573058,93573058,way,retail,Fiskaren,city_block,kvarter,,,,,,,,,,,,,,,,,6487,Fiskaren
+w93573062,93573062,way,retail,Sankt Jakob,city_block,kvarter,,,,,,,,,,,,,,,,,11755,Sankt Jakob
+w93573064,93573064,way,retail,Gråbröder,city_block,kvarter,,,,,,,,,,,,,,,,,32254,Gråbröder
+w93573135,93573135,way,retail,Carl Holmberg,city_block,kvarter,,,,,,,,,,,,,,,,,11288,Carl Holmberg
+w97559712,97559712,way,retail,Bytarebacken,city_block,kvarter,,,,,,,,,,,,,,,,,17000,Bytarebacken
+w93572378,93572378,way,residential,Rosengården,city_block,kvarter,,,,,,,,,,,,,,,,,5162,Rosengården
+w93598157,93598157,way,residential,Gasverket,city_block,kvarter,,,,,,,,,,,,,,,,,32419,Gasverket
+w93998617,93998617,way,residential,Västertull,city_block,kvarter,,,,,,,,,,,,,,,,,4644,Västertull
+w138300065,138300065,way,residential,Klosterkyrkan,city_block,kvarter,,,,,,,,,,,,,,,,,9869,Klosterkyrkan
+w334482082,334482082,way,residential,Armaturen,city_block,,,,,,,,,,,,,,,,,,9127,Armaturen

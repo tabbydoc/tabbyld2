@@ -1,0 +1,44 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+30299073,97,1505277832,2147483647,B,2300,constructive algorithms-divide and conquer,vjudge3,Java 8,498,3788800
+30298994,97,1505277272,2147483647,B,2300,constructive algorithms-divide and conquer,vjudge2,Java 8,496,4198400
+30298990,97,1505277222,2147483647,B,2300,constructive algorithms-divide and conquer,DemonSong,Java 8,498,4198400
+13500105,97,1444333249,2147483647,B,2300,constructive algorithms-divide and conquer,hsnprsd,Java 7,1278,0
+10426669,97,1427226917,2147483647,B,2300,constructive algorithms-divide and conquer,AStepanov,Java 8,436,0
+8614987,97,1415454708,2147483647,B,2300,constructive algorithms-divide and conquer,vjudge2,Java 6,404,0
+8614973,97,1415454616,2147483647,B,2300,constructive algorithms-divide and conquer,meijun,Java 6,374,0
+2753482,97,1355296172,2147483647,A,2400,brute force-implementation,qiandichen,Java 6,156,102400
+2753353,97,1355291741,2147483647,A,2400,brute force-implementation,qiandichen,Java 6,140,0
+2753073,97,1355282537,2147483647,A,2400,brute force-implementation,qiandichen,Java 7,156,0
+586124,97,1312536019,1804819,B,2300,constructive algorithms-divide and conquer,lyc90,Java 6,1700,35635200
+586025,97,1312531230,1800030,B,2300,constructive algorithms-divide and conquer,lyc90,Java 6,750,35737600
+577562,97,1312372830,1641630,B,2300,constructive algorithms-divide and conquer,S.Yesipenko,Java 6,330,43417600
+552403,97,1311169794,438594,A,2400,brute force-implementation,shilov,Java 6,160,43008000
+550682,97,1311011324,280124,D,2600,bitmasks-brute force-implementation,Nox,Java 6,1950,43315200
+548720,97,1310829605,98405,B,2300,constructive algorithms-divide and conquer,Nox,Java 6,340,43417600
+548709,97,1310828477,97277,D,2600,bitmasks-brute force-implementation,yaro,Java 6,1220,43622400
+548423,97,1310815249,84049,C,2300,binary search-graphs-math-shortest paths,yaro,Java 6,90,43008000
+548383,97,1310813672,82472,C,2300,binary search-graphs-math-shortest paths,yaro,Java 6,110,43008000
+548326,97,1310810417,79217,B,2300,constructive algorithms-divide and conquer,yaro,Java 6,300,43622400
+548305,97,1310809187,77987,A,2400,brute force-implementation,yaro,Java 6,110,43008000
+548284,97,1310807443,76243,B,2300,constructive algorithms-divide and conquer,_jte_,Java 6,300,43520000
+548156,97,1310794907,63707,A,2400,brute force-implementation,Petr,Java 6,110,43212800
+547975,97,1310762220,31020,B,2300,constructive algorithms-divide and conquer,tirmen,Java 6,280,43520000
+547769,97,1310751679,20479,B,2300,constructive algorithms-divide and conquer,niyaznigmatul,Java 6,300,43315200
+547737,97,1310750490,19290,A,2400,brute force-implementation,uwi,Java 6,160,35328000
+547732,97,1310750289,19089,B,2300,constructive algorithms-divide and conquer,uwi,Java 6,890,43520000
+547706,97,1310749413,18213,A,2400,brute force-implementation,Egor,Java 6,190,43417600
+547702,97,1310749272,18072,C,2300,binary search-graphs-math-shortest paths,uwi,Java 6,130,43110400
+547683,97,1310748840,17640,A,2400,brute force-implementation,niyaznigmatul,Java 6,110,43008000
+547631,97,1310747473,16273,B,2300,constructive algorithms-divide and conquer,wata,Java 6,810,43520000
+547559,97,1310744910,13710,B,2300,constructive algorithms-divide and conquer,Narg,Java 6,440,59801600
+547452,97,1310738228,7028,B,2300,constructive algorithms-divide and conquer,Narg,Java 6,390,65638400
+547380,97,1310737905,6705,B,2300,constructive algorithms-divide and conquer,chavit,Java 6,1060,35635200
+547359,97,1310737800,6600,A,2400,brute force-implementation,ivan.metelsky,Java 6,230,35328000
+547334,97,1310737677,6477,C,2300,binary search-graphs-math-shortest paths,Egor,Java 6,250,43008000
+546995,97,1310735300,4100,C,2300,binary search-graphs-math-shortest paths,ivan.metelsky,Java 6,130,35328000
+546841,97,1310734196,2996,B,2300,constructive algorithms-divide and conquer,Sammarize,Java 6,340,43417600
+546818,97,1310733989,2789,C,2300,binary search-graphs-math-shortest paths,wata,Java 6,230,43110400
+546724,97,1310733004,1804,B,2300,constructive algorithms-divide and conquer,ivan.metelsky,Java 6,660,43417600
+546717,97,1310732961,1761,C,2300,binary search-graphs-math-shortest paths,Petr,Java 6,1720,34918400
+546706,97,1310732880,1680,A,2400,brute force-implementation,uwi,Java 6,160,35328000
+546653,97,1310731828,628,B,2300,constructive algorithms-divide and conquer,Petr,Java 6,310,43315200

@@ -1,0 +1,74 @@
+col0,col1,col2,col3,col4,col5,col6
+80,26,2008-08-01T13:57:07Z,,26,SQLStatement.execute() - multiple queries in one statement,"<p>I've written a database generation script in <a href=""http://en.wikipedia.org/wiki/SQL"">SQL</a> and want to execute it in my <a href=""http://en.wikipedia.org/wiki/Adobe_Integrated_Runtime"">Adobe AIR</a> application:</p>
+
+<pre><code>Create Table tRole (
+      roleID integer Primary Key
+      ,roleName varchar(40)
+);
+Create Table tFile (
+    fileID integer Primary Key
+    ,fileName varchar(50)
+    ,fileDescription varchar(500)
+    ,thumbnailID integer
+    ,fileFormatID integer
+    ,categoryID integer
+    ,isFavorite boolean
+    ,dateAdded date
+    ,globalAccessCount integer
+    ,lastAccessTime date
+    ,downloadComplete boolean
+    ,isNew boolean
+    ,isSpotlight boolean
+    ,duration varchar(30)
+);
+Create Table tCategory (
+    categoryID integer Primary Key
+    ,categoryName varchar(50)
+    ,parent_categoryID integer
+);
+...
+</code></pre>
+
+<p>I execute this in Adobe AIR using the following methods:</p>
+
+<pre><code>public static function RunSqlFromFile(fileName:String):void {
+    var file:File = File.applicationDirectory.resolvePath(fileName);
+    var stream:FileStream = new FileStream();
+    stream.open(file, FileMode.READ)
+    var strSql:String = stream.readUTFBytes(stream.bytesAvailable);
+    NonQuery(strSql);
+}
+
+public static function NonQuery(strSQL:String):void
+{
+    var sqlConnection:SQLConnection = new SQLConnection();
+    sqlConnection.open(File.applicationStorageDirectory.resolvePath(DBPATH);
+    var sqlStatement:SQLStatement = new SQLStatement();
+    sqlStatement.text = strSQL;
+    sqlStatement.sqlConnection = sqlConnection;
+    try
+    {
+        sqlStatement.execute();
+    }
+    catch (error:SQLError)
+    {
+        Alert.show(error.toString());
+    }
+}
+</code></pre>
+
+<p>No errors are generated, however only <code>tRole</code> exists. It seems that it only looks at the first query (up to the semicolon- if I remove it, the query fails). Is there a way to call multiple queries in one statement?</p>
+"
+90,58,2008-08-01T14:41:24Z,2012-12-26T03:45:49Z,144,Good branching and merging tutorials for TortoiseSVN?,"<p>Are there any really good tutorials explaining <a href=""http://svnbook.red-bean.com/en/1.8/svn.branchmerge.html"" rel=""nofollow"">branching and merging</a> with Apache Subversion? </p>
+
+<p>All the better if it's specific to TortoiseSVN client.</p>
+"
+120,83,2008-08-01T15:50:08Z,,21,ASP.NET Site Maps,"<p>Has anyone got experience creating <strong>SQL-based ASP.NET</strong> site-map providers?</p>
+
+<p>I've got the default XML file <code>web.sitemap</code> working properly with my Menu and <strong>SiteMapPath</strong> controls, but I'll need a way for the users of my site to create and modify pages dynamically.</p>
+
+<p>I need to tie page viewing permissions into the standard <code>ASP.NET</code> membership system as well.</p>
+"
+180,2089740,2008-08-01T18:42:19Z,,53,Function for creating color wheels,"<p>This is something I've pseudo-solved many times and never interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact interact quite found a solution. That's stuck with me. The problem is to come up with a way to generate <code>N</code> colors, that are as distinguishable as possible where <code>N</code> is a parameter.</p>
+"
+260,91,2008-08-01T23:22:08Z,,49,Adding scripting functionality to .NET applications,<p>I have a little game written in C

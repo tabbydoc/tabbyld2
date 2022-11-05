@@ -1,0 +1,19 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15
+,,"894 Davis Union
+Stewartbury, HI 25324",agent000,,,,,3.728805065155029,,,LOAD_DONE,,,,
+0.0,1.0,"471 Erika Curve
+North Megan, UT 71358",agent000,,2.0,2.0,0.0,0.058972299999823,0.0012726819999999,0.0572682980000536,RUN_DONE,,,,"{""id"": 0, ""minibatch"": [""20200601_213236.jpg"", ""20200601_213247 - Copy.jpg""], ""location"": ""."", ""dataset_name"": ""dataset_param_config"", ""dataset_pos"": 0, ""dequeue_count"": 1}"
+1.0,1.0,"339 Riley Mission Suite 515
+South Brendamouth, ID 32356",agent000,,2.0,2.0,0.0,0.0587450000002718,0.0013266739999999,0.057001997000043,RUN_DONE,,,,"{""id"": 1, ""minibatch"": [""20200601_213247.jpg"", ""Cursive_Writing_on_Notebook_paper.jpg""], ""location"": ""."", ""dataset_name"": ""dataset_param_config"", ""dataset_pos"": 0, ""dequeue_count"": 1}"
+2.0,1.0,"35256 Craig Drive Apt. 098
+North Davidborough, OK 16189",agent000,,2.0,2.0,0.0,0.3493423079999047,0.093363351,0.0834753429999182,RUN_DONE,,,,"{""id"": 2, ""minibatch"": [""T46336_1.jpg"", ""T4636_2.jpg""], ""location"": ""."", ""dataset_name"": ""dataset_param_config"", ""dataset_pos"": 0, ""dequeue_count"": 1}"
+3.0,1.0,"09032 Timothy Stream Apt. 086
+Port Jordanbury, SD 39961",agent001,,2.0,2.0,0.0,0.5316807200001676,0.093410642,0.0706371209998906,RUN_DONE,,,,"{""id"": 3, ""minibatch"": [""TC31930_1.jpg"", ""TC31930_2.jpg""], ""location"": ""."", ""dataset_name"": ""dataset_param_config"", ""dataset_pos"": 0, ""dequeue_count"": 1}"
+4.0,1.0,"87091 Gonzalez Knolls
+Masseyshire, UT 88665",agent001,,2.0,2.0,0.0,0.0590558009998858,0.001092563,0.0563738959999682,RUN_DONE,,,,"{""id"": 4, ""minibatch"": [""YJE00U.jpg"", ""bike.jpg""], ""location"": ""."", ""dataset_name"": ""dataset_param_config"", ""dataset_pos"": 0, ""dequeue_count"": 1}"
+5.0,1.0,"225 Wilson Mills
+North Thomas, OK 67164",agent001,,2.0,2.0,0.0,0.0633934080001381,0.001091989,0.0567777969999951,RUN_DONE,,,,"{""id"": 5, ""minibatch"": [""hc1427.jpg"", ""hsv39.jpg""], ""location"": ""."", ""dataset_name"": ""dataset_param_config"", ""dataset_pos"": 0, ""dequeue_count"": 1}"
+6.0,1.0,"PSC 5642, Box 8071
+APO AA 97365",agent001,,1.0,1.0,0.0,0.0597493020000001,0.000973463,0.0576666990000376,RUN_DONE,,,,"{""id"": 6, ""minibatch"": [""mcl650.jpg""], ""location"": ""."", ""dataset_name"": ""dataset_param_config"", ""dataset_pos"": 0, ""dequeue_count"": 1}"
+7.0,1.0,"37594 Garza Roads Apt. 466
+North Brookemouth, IA 29742",agent000,,2.0,2.0,0.0,0.0621236060001137,0.0013551150000001,0.0561161950004134,RUN_DONE,,,,"{""id"": 7, ""minibatch"": [""20200601_213247.jpg"", ""T4636_2.jpg""], ""location"": ""2020/07/28"", ""dataset_name"": ""dataset_param_config"", ""dataset_pos"": 0, ""dequeue_count"": 1}"

@@ -1,0 +1,39 @@
+col0,col1,col2
+BC-3 mothers all visits database FINAL,Household,id
+BC-3 mothers all visits database FINAL,Participant,id
+BC-3 mothers all visits database FINAL,Observation,uniqueid
+BC-3 mothers all visits database FINAL,Sample,uniqueid
+BC3_Household_Survey_Data,Household,id
+BC3_Household_Survey_Data,Participant,id
+BC-3 mothers delivery database FINAL_long,Household,id
+BC-3 mothers delivery database FINAL_long,Participant,id
+BC-3 mothers delivery database FINAL_long,Observation,uniqueid
+BC-3 mothers delivery database FINAL_long,Sample,uniqueid
+Individual level database FINAL,Household,id
+Individual level database FINAL,Participant,id
+Individual level database FINAL,Observation,uniqueid
+Individual level database FINAL,Sample,uniqueid
+BC-3 mothers expanded database FINAL,Household,id
+BC-3 mothers expanded database FINAL,Participant,id
+BC-3 mothers expanded database FINAL,Observation,uniqueid
+BC-3 mothers expanded database FINAL,Sample,uniqueid
+BC-3 enrollment database FINAL,Household,id
+BC-3 enrollment database FINAL,Participant,id
+BC-3 enrollment database FINAL,Observation,uniqueid
+BC-3 enrollment database FINAL,Sample,uniqueid
+BC-3 screening database FINAL,Household,id
+BC-3 screening database FINAL,Participant,id
+BC-3 children individual level database FINAL,Observation,uniqueid
+BC-3 children individual level database FINAL,Sample,uniqueid
+BC-3 children individual level database FINAL,Household,motherid
+BC-3 children individual level database FINAL,Participant,motherid
+BC-3 childs all visit database FINAL,Observation,uniqueid
+BC-3 childs all visit database FINAL,Sample,uniqueid
+BC-3 childs all visit database FINAL,Household,motherid
+BC-3 childs all visit database FINAL,Participant,motherid
+BC-3 childs deaths FINAL,Observation,uniqueid
+BC-3 childs deaths FINAL,Household,motherid
+BC-3 childs deaths FINAL,Participant,motherid
+BC-3 childs hospitalizations FINAL,Observation,uniqueid
+BC-3 childs hospitalizations FINAL,Household,motherid
+BC-3 childs hospitalizations FINAL,Participant,motherid

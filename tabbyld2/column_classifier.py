@@ -317,6 +317,7 @@ class AbstractTableColumnClassifier(ABC):
 
 
 class TableColumnClassifier(AbstractTableColumnClassifier):
+
     def __init__(self, table_model: TableModel = None):
         self._table_model = table_model
 
@@ -334,15 +335,13 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
         """
         # If float
         if is_float(value):
-            label = LiteralLabel.FLOAT
+            return LiteralLabel.FLOAT
         # If positive integer
         if re.search(r"^[1-9]\d*$", value):
-            label = LiteralLabel.POSITIVE_INTEGER
+            return LiteralLabel.POSITIVE_INTEGER
         # If negative integer
         if re.search(r"^[-][1-9]\d*$", value):
-            label = LiteralLabel.NEGATIVE_INTEGER
-
-        return label
+            return LiteralLabel.NEGATIVE_INTEGER
 
     @staticmethod
     def determine_entity_mention(entity_mention: str) -> str:
@@ -352,41 +351,39 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
         :return: specific label
         """
         if entity_mention == "":
-            label = LiteralLabel.EMPTY
+            return LiteralLabel.EMPTY
         else:
-            label = NamedEntityLabel.NONE
             if len(entity_mention) == 1 or len(entity_mention) == 2:
-                label = LiteralLabel.SYMBOL
+                return LiteralLabel.SYMBOL
             if dateparser.parse(entity_mention):
-                label = LiteralLabel.DATE
+                return LiteralLabel.DATE
             if re.search(r"^'true|false|True|False|TRUE|FALSE'&", entity_mention):
-                label = LiteralLabel.BOOLEAN
+                return LiteralLabel.BOOLEAN
             if re.search(r"^\d{6}$", entity_mention) or re.search(r"^\d{5}(?:[-\s]\d{4})?$", entity_mention):
-                label = LiteralLabel.MAIL
+                return LiteralLabel.MAIL
             if re.search(r"^[0-9]{4}-[0-9]{3}[0-9xX]$", entity_mention):
-                label = LiteralLabel.ISSN
+                return LiteralLabel.ISSN
             if re.search(r"^(?:ISBN(?:: ?| ))?((?:97[89])?\d{9}[\dx])+$", entity_mention):
-                label = LiteralLabel.ISBN
+                return LiteralLabel.ISBN
             if re.search(r"((25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(25[0-5]|2[0-4]\d|[01]?\d\d?)", entity_mention):
-                label = LiteralLabel.IP_ADDRESS_V4
+                return LiteralLabel.IP_ADDRESS_V4
             if re.search(r"^([456][0-9]{3})-?([0-9]{4})-?([0-9]{4})-?([0-9]{4})$", entity_mention):
-                label = LiteralLabel.BANK_CARD
+                return LiteralLabel.BANK_CARD
             if re.search(r"#[0-9A-Fa-f]{6}", entity_mention):
-                label = LiteralLabel.COLOR
+                return LiteralLabel.COLOR
             if re.search(r"[\w.-]+@[\w.-]+\.?[\w]+?", entity_mention):
-                label = LiteralLabel.EMAIL
+                return LiteralLabel.EMAIL
             if re.search(r"^(-?\d+(\.\d+)?),\s*(-?\d+(\.\d+)?)$", entity_mention):
-                label = LiteralLabel.COORDINATES
+                return LiteralLabel.COORDINATES
             if re.search(r"^((?:\+\d{2}[-\.\s]??|\d{4}[-\.\s]??)?(?:\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{"
                          r"3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4}))$", entity_mention):
-                label = LiteralLabel.PHONE
+                return LiteralLabel.PHONE
             if re.search(r"([+-]?\d+(\.\d+)*)\s?°([CcFf])", entity_mention):
-                label = LiteralLabel.TEMPERATURE
+                return LiteralLabel.TEMPERATURE
             if re.search(r"((http|https)\:\/\/)?[a-zA-Z0-9\.\/\?\:@\-_=#]+\.([a-zA-Z]){2,"
                          r"6}([a-zA-Z0-9\.\&\/\?\:@\-_=#])*", entity_mention):
-                label = LiteralLabel.URL
-
-        return label
+                return LiteralLabel.URL
+        return NamedEntityLabel.NONE
 
     def recognize_named_entities(self) -> None:
         stanza.download("en")
@@ -420,50 +417,30 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
 
     def classify_columns(self) -> None:
         # Counting categorical and literal cells
-        categorical_number = defaultdict(int)
-        literal_number = defaultdict(int)
+        categorical_number, literal_number = defaultdict(int), defaultdict(int)
         for column in self.table_model.columns:
             for cell in column.cells:
-                if categorical_number[column.header_name] == 0:
-                    categorical_number[column.header_name] = 0
-                if literal_number[column.header_name] == 0:
-                    literal_number[column.header_name] = 0
-                if cell.label in NamedEntityLabel.NAMED_ENTITY_TAGS:
-                    categorical_number[column.header_name] += 1
-                if cell.label in LiteralLabel.LITERAL_TAGS:
-                    literal_number[column.header_name] += 1
+                categorical_number[column.header_name] += 1 if cell.label in NamedEntityLabel.NAMED_ENTITY_TAGS else 0
+                literal_number[column.header_name] += 1 if cell.label in LiteralLabel.LITERAL_TAGS else 0
         # Determining column types based on classified cells
         for key_c, value_c in categorical_number.items():
             for key_l, value_l in literal_number.items():
                 if key_c == key_l:
                     for column in self.table_model.columns:
                         if column.header_name == key_c:
-                            if value_c >= value_l:
-                                column._column_type = ColumnType.CATEGORICAL_COLUMN
-                            else:
-                                column._column_type = ColumnType.LITERAL_COLUMN
+                            column._column_type = ColumnType.CATEGORICAL_COLUMN if value_c >= value_l else ColumnType.LITERAL_COLUMN
 
     def get_empty_cell_fraction(self, column_index: int = None) -> float:
-        empty_cell_number = 0
-        for cell in self.table_model.column(column_index):
-            if not cell:
-                empty_cell_number += 1
-
-        return empty_cell_number / self.table_model.rows_number
+        return sum(1 if not cell else 0 for cell in self.table_model.column(column_index)) / self.table_model.rows_number
 
     def get_cell_fraction_with_acronyms(self, column_index: int = None) -> float:
-        cell_number_with_acronyms = 0
-        for cell in self.table_model.column(column_index):
-            if cell is not None and re.search(r"\b[A-ZА-Я.]{2,}\b", cell):
-                cell_number_with_acronyms += 1
-
-        return cell_number_with_acronyms / self.table_model.rows_number
+        cn = sum(1 if cell is not None and re.search(r"\b[A-ZА-Я.]{2,}\b", cell) else 0 for cell in self.table_model.column(column_index))
+        return cn / self.table_model.rows_number
 
     def get_unique_content_cell_fraction(self, column_index: int = None) -> float:
         col = collections.Counter()
         for cell in self.table_model.column(column_index):
             col[cell] += 1
-
         return len(col) / self.table_model.rows_number
 
     def get_distance_from_first_ne_column(self, column_index: int = None) -> int:
@@ -472,25 +449,14 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
             if column.column_type == ColumnType.CATEGORICAL_COLUMN:
                 break
             categorical_column_index += 1
-        column_number = 0
-        for i in range(categorical_column_index, self.table_model.columns_number):
-            if i < column_index:
-                column_number += 1
-
-        return column_number
+        return sum(1 if i < column_index else 0 for i in range(categorical_column_index, self.table_model.columns_number))
 
     def get_average_word_number(self, column_index: int = None, threshold_factor: int = 0) -> float:
-        total_word_number = 0
-        for cell in self.table_model.column(column_index):
-            if cell:
-                total_word_number += len(cell.split())
-        score = total_word_number / self.table_model.rows_number  # Get a non-normalized score
-
+        score = sum(len(cell.split()) if cell else 0 for cell in self.table_model.column(column_index)) / self.table_model.rows_number
         return score / threshold_factor if score <= threshold_factor else 0
 
     def determine_prepositions_in_column_header_name(self, column_index: int = None) -> int:
-        result = 0
-        column_number = 0
+        result, column_number = 0, 0
         for column in self.table_model.columns:
             if column_number == column_index:
                 if column.header_name.lower() in SimplePreposition.SIMPLE_PREPOSITIONS or \
@@ -499,7 +465,6 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
                         column.header_name.lower() in CompoundPreposition.COMPOUND_PREPOSITIONS:
                     result = 1
             column_number += 1
-
         return result
 
     def define_subject_column(self, column_index: int = None):
@@ -515,8 +480,7 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
                     column._column_type = ColumnType.SUBJECT_COLUMN
                 i += 1
         else:
-            column_index = 0
-            sub_col = {}
+            column_index, sub_col = 0, {}
             for column in self.table_model.columns:
                 if column.column_type == ColumnType.CATEGORICAL_COLUMN:
                     # Calculate heuristics

@@ -1,0 +1,32 @@
+col0,col1,col2,col3,col4
+AUSTRIA,AT,FMA,Financial Market Authority (FMA),https://www.fma.gv.at/en/search-company-database/?cname=&place%20=&bic=&category=165&per_page=10&submitted=1
+BELGIUM,BE,NBB,National Bank of Belgium (NBB),https://www.nbb.be/fr/supervision-financiere/controle-prudentiel/domaines-de-controle/etablissements-de-credit/listes-7
+BULGARIA,BG,BNB,Financial Supervision Commission (FSC),http://www.bnb.bg/RegistersAndServices/RSCIRegisters/BS_CI_REG_BANKSLIST_EN
+CROATIA,HR,HNB,Hrvatska Narodna Banka (HNB),https://www.hnb.hr/en/core-functions/supervision/list-of-credit-institutions
+CYPRUS,CY,CBC,Central Bank of Cyprus (CBC),https://www.centralbank.cy/en/licensing-supervision/banks/register-of-credit-institutions-operating-in-cyprus
+CZECH REPUBLIC (THE),CZ,CNB,Czech National Bank (CNB),https://apl.cnb.cz/apljerrsdad/JERRS.WEB15.BASIC_LISTINGS_RESPONSE_3?p_lang=en&p_DATUM=28.02.2018&p_hie=HI&p_rec_per_page=25&p_ses_idx=1
+DENMARK,DK,FSA,finanstilsynet (FSA),https://virksomhedsregister.finanstilsynet.dk/
+ESTONIA,EE,FI,FINANTSINSPEKTSIOON (FSA),https://www.fi.ee/en/supervised-entities
+FINLAND,FI,FINFSA,Finanssivalvonta (FIN-FSA),https://www.finanssivalvonta.fi/en/registers/supervised-entities/
+FRANCE,FR,ACPR,Autorite de Controle Prudentiel (ACPR) Regafi,https://www.regafi.fr/spip.php?page=results&type=advanced&id_secteur=3&lang=en&denomination=&siren=&cib=&bic=&nom=&siren_agent=&num=&cat=01-TBR07&retrait=0
+GERMANY,DE,BAFIN,Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin),https://portal.mvp.bafin.de/database/InstInfo/
+GREECE,GR,BOG,Bank Of Greece,https://www.bankofgreece.gr/BogDocumentEn/1_CreditInstitutions.xlsx
+HUNGARY,HU,CBH,Magyar Nemzeti Bank (MNB),https://intezmenykereso.mnb.hu/en/Home/Index
+ICELAND,IS,FME,Narodna Banka Slovenska (NBS),https://en.fme.is/supervision/supervised-entities/
+IRELAND,IE,CBI,Central Bank of Ireland (CBI),http://registers.centralbank.ie/FirmSearchPage.aspx
+ITALY,IT,BI,Banca d'Italia,https://infostat.bancaditalia.it/GIAVAInquiry-public/ng/
+LATVIA,LV,FCMC,Finansu un Kapital Tirgus Komisija (FKTK),https://www.fktk.lv/
+LIECHTENSTEIN,LI,FMA,Finanzmarktaufsicht Liechtenstein (FMA),http://register.fma-li.li/index.php?id=142
+LITHUANIA,LT,BL,Bank of Lithuania (LB),https://www.lb.lt/en/sfi-financial-market-participants?ff=1&market=1&%20type%5B%5D=3&business_form%5B%5D=82
+LUXEMBOURG,LU,CSSF,Commission de Surveillance du Secteur Financier (CSSF),https://supervisedentities.apps.cssf.lu/index.html?language=fr
+MALTA,MT,FSA,Malta Financial Services Authority (MFSA),https://www.mfsa.com.mt/financial-services-register/
+NETHERLANDS (THE),NL,DNB,De Nederlandsche Bank (DNB),https://www.dnb.nl/en/supervision/public-register/index.jsp
+NORWAY,NO,FSA,Finanstilsynet (FSA),https://www.finanstilsynet.no/en/finanstilsynets-registry/
+POLAND,PL,FSA,Komisja Nadzoru Finansowego (KNF),https://erup.knf.gov.pl/View/
+PORTUGAL,PT,BP,Banco De Portugal,https://www.bportugal.pt/en/entidades-autorizadas/67/all
+ROMANIA,RO,NBR,Banca Nationala a Romaniei (BNR),http://www.bnro.ro/files/d/RegistreBNR/InstitCredit/ban1_raport.html
+SLOVAKIA,SK,NBS,Narodna Banka Slovenska (NBS),https://subjekty.nbs.sk/?aa=select_categ&bb=20&cc=&qq=
+SLOVENIA,SI,BS,Banka Slovenije (BSI),https://www.bsi.si/en/financial-stability/institutions-under-supervision
+SPAIN,ES,BE,Banco de Espana (BDE),http://app.bde.es/ren/app/Search?CFG=ConsultaEntidadesCon.xml&TipoFormato=XSL&Paginate=OPEN&TIPO=BP&DONDE=11&LEI=&ORDEN=2&RADIO=0
+SWEDEN,SE,FINA,Finansinspektionen (FI),https://www.fi.se/en/our-registers/company-register/?huvudkategori=Bank&cat=BANK&area=
+UNITED KINGDOM,GB,FCA,Financial Conduct Authority (FCA),https://register.fca.org.uk/

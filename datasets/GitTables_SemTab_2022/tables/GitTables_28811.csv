@@ -1,0 +1,12 @@
+col0,col1,col2,col3,col4,col5
+Well1,0,Aggregate,Well,1234567,WDID
+Well1,0,Aggregate,Well,2345678,WDID
+Well1,0,Aggregate,Well,9101448,Receipt
+Well2,0,Aggregate,Well,1629,Receipt
+Well2,0,Aggregate,Well,3456789,WDID
+Well2,0,Aggregate,Well,4567890,WDID
+Well3,0,Aggregate,Well,1122334,WDID
+Well3,0,Aggregate,Well,1630,Receipt
+Well3,0,Aggregate,Well,2169,Receipt
+Well3,0,Aggregate,Well,2233445,WDID
+Well3,0,Aggregate,Well,3344556,WDID

@@ -1,0 +1,81 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+dc_a_f,1.0,FACTURAS A,dl_a,FACTURA,invoice,FA-A ,argentina
+dc_a_nd,2.0,NOTAS DE DEBITO A,dl_a,NOTA DE DEBITO,debit_note,ND-A ,argentina
+dc_a_nc,3.0,NOTAS DE CREDITO A,dl_a,NOTA DE CREDITO,credit_note,NC-A ,argentina
+dc_a_r,4.0,RECIBOS A,dl_a,RECIBO,receipt_invoice,RE-A ,argentina
+dc_a_nvc,5.0,NOTAS DE VENTA AL CONTADO A,dl_a,,,,argentina
+dc_b_f,6.0,FACTURAS B,dl_b,FACTURA,invoice,FA-B ,argentina
+dc_b_nd,7.0,NOTAS DE DEBITO B,dl_b,NOTA DE DEBITO,debit_note,ND-B ,argentina
+dc_b_nc,8.0,NOTAS DE CREDITO B,dl_b,NOTA DE CREDITO,credit_note,NC-B ,argentina
+dc_b_r,9.0,RECIBOS B,dl_b,,receipt_invoice,RE-B ,argentina
+dc_b_nvc,10.0,NOTAS DE VENTA AL CONTADO B,dl_b,,,,argentina
+dc_c_f,11.0,FACTURAS C,dl_c,FACTURA,invoice,FA-C ,argentina
+dc_c_nd,12.0,NOTAS DE DEBITO C,dl_c,NOTA DE DEBITO,debit_note,ND-C ,argentina
+dc_c_nc,13.0,NOTAS DE CREDITO C,dl_c,NOTA DE CREDITO,credit_note,NC-C ,argentina
+dc_aduana,14.0,DOCUMENTO ADUANERO,,,,,argentina
+dc_c_r,15.0,RECIBOS C,dl_c,RECIBO,receipt_invoice,RE-C ,argentina
+dc_c_nvc,16.0,NOTAS DE VENTA AL CONTADO C,dl_c,,,,argentina
+dc_e_f,19.0,FACTURAS DE EXPORTACION,dl_e,FACTURA,invoice,FA-E ,argentina
+dc_e_nd,20.0,NOTAS DE DEBITO POR OPERACIONES CON EL EXTERIOR,dl_e,NOTA DE DEBITO,debit_note,ND-E ,argentina
+dc_e_nc,21.0,NOTAS DE CREDITO POR OPERACIONES CON EL EXTERIOR,dl_e,NOTA DE CREDITO,credit_note,NC-E ,argentina
+dc_e_fs,22.0,FACTURAS - PERMISO EXPORTACION SIMPLIFICADO - DTO. 855/97,,,,,argentina
+dc_usados,30.0,COMPROBANTES DE COMPRA DE BIENES USADOS,,,,,argentina
+dc_mandato,31.0,MANDATO - CONSIGNACION,,,,,argentina
+dc_reciclado,32.0,COMPROBANTES PARA RECICLAR MATERIALES,,,,,argentina
+dc_a_rg1415,34.0,COMPROBANTES A DEL APARTADO A  INCISO F  R G  N  1415,dl_a,,,,argentina
+dc_b_rg1415,35.0,"COMPROBANTES B DEL ANEXO I, APARTADO A, INC. F), RG N° 1415",dl_b,,,,argentina
+dc_c_rg1415,36.0,"COMPROBANTES C DEL Anexo I, Apartado A, INC.F), R.G. N° 1415",dl_c,,,,argentina
+dc_nd_rg1415,37.0,NOTAS DE DEBITO O DOCUMENTO EQUIVALENTE QUE CUMPLAN CON LA R.G. N° 1415,,,,,argentina
+dc_nc_rg1415,38.0,NOTAS DE CREDITO O DOCMENTO EQUIVALENTE QUE CUMPLAN CON LA R.G. N° 1415,,,,,argentina
+dc_a_o_rg1415,39.0,OTROS COMPROBANTES A QUE CUMPLEN CON LA R G  1415,dl_a,,,,argentina
+dc_b_o_rg1415,40.0,OTROS COMPROBANTES B QUE CUMPLAN CON LA R.G. N° 1415,dl_b,,,,argentina
+dc_c_o_rg1415,41.0,OTROS COMPROBANTES C QUE CUMPLAN CON LA R.G. N° 1415,dl_c,,,,argentina
+dc_a_rf,50.0,RECIBO FACTURA A  REGIMEN DE FACTURA DE CREDITO,dl_a,,,,argentina
+dc_m_f,51.0,FACTURAS M,dl_m,FACTURA,invoice,FA-M ,argentina
+dc_m_nd,52.0,NOTAS DE DEBITO M,dl_m,NOTA DE DEBITO,debit_note,ND-C ,argentina
+dc_m_nc,53.0,NOTAS DE CREDITO M,dl_m,NOTA DE CREDITO,credit_note,NC-C ,argentina
+dc_m_r,54.0,RECIBOS M,dl_m,RECIBO,receipt_invoice,RE-M ,argentina
+dc_m_nvc,55.0,NOTAS DE VENTA AL CONTADO M,dl_m,,,,argentina
+dc_m_rg1415,56.0,COMPROBANTES M DEL ANEXO I  APARTADO A  INC F   R G  N  1415,dl_m,,,,argentina
+dc_m_o_rg1415,57.0,OTROS COMPROBANTES M QUE CUMPLAN CON LA R G  N  1415,dl_m,,,,argentina
+dc_m_cvl,58.0,CUENTAS DE VENTA Y LIQUIDO PRODUCTO M,dl_m,,,,argentina
+dc_m_l,59.0,LIQUIDACIONES M,dl_m,,,,argentina
+dc_a_cvl,60.0,CUENTAS DE VENTA Y LIQUIDO PRODUCTO A,dl_a,,,,argentina
+dc_b_cvl,61.0,CUENTAS DE VENTA Y LIQUIDO PRODUCTO B,dl_b,,,,argentina
+dc_a_l,63.0,LIQUIDACIONES A,dl_a,,,,argentina
+dc_b_l,64.0,LIQUIDACIONES B,dl_b,,,,argentina
+dc_nc,65.0,"NOTAS DE CREDITO DE COMPROBANTES CON COD. 34, 39, 58, 59, 60, 63, 96, 97,",,,,,argentina
+dc_desp_imp,66.0,DESPACHO DE IMPORTACION,,,in_document,,argentina
+dc_imp_serv,67.0,IMPORTACION DE SERVICIOS,,,in_document,,argentina
+dc_c_l,68.0,LIQUIDACION C,dl_c,,,,argentina
+dc_rfc,70.0,RECIBOS FACTURA DE CREDITO,,,,,argentina
+dc_cfcp,71.0,CREDITO FISCAL POR CONTRIBUCIONES PATRONALES,,,,,argentina
+dc_f1116,73.0,FORMULARIO 1116 RT,,,,,argentina
+dc_cptag,74.0,CARTA DE PORTE PARA EL TRANSPORTE AUTOMOTOR PARA GRANOS,,,,,argentina
+dc_cptfg,75.0,CARTA DE PORTE PARA EL TRANSPORTE FERROVIARIO PARA GRANOS,,,,,argentina
+dc_zeta,80.0,COMPROBANTE DIARIO DE CIERRE (ZETA),,,,,argentina
+dc_a_t,81.0,TIQUE FACTURA A   CONTROLADORES FISCALES,dl_a,,ticket,,argentina
+dc_b_t,82.0,TIQUE - FACTURA B,dl_b,,ticket,,argentina
+dc_t,83.0,TIQUE,dl_x,,ticket,,argentina
+dc_sp_c,84.0,COMPROBANTE   FACTURA DE SERVICIOS PUBLICOS   INTERESES FINANCIEROS,,,,,argentina
+dc_sp_nc,85.0,NOTA DE CREDITO   SERVICIOS PUBLICOS   NOTA DE CREDITO CONTROLADORES FISCALES,,,,,argentina
+dc_sp_nd,86.0,NOTA DE DEBITO   SERVICIOS PUBLICOS,,,,,argentina
+dc_oc_se,87.0,OTROS COMPROBANTES - SERVICIOS DEL EXTERIOR,,,,,argentina
+dc_oc_c,88.0,"OTROS COMPROBANTES - DOCUMENTOS EXCEPTUADOS / REMITO ELECTRONICO,",,,,,argentina
+dc_oc_nd,89.0,OTROS COMPROBANTES - DOCUMENTOS EXCEPTUADOS - NOTAS DE DEBITO / RESUMEN DE DATOS,,,,,argentina
+dc_oc_nc,90.0,OTROS COMPROBANTES - DOCUMENTOS EXCEPTUADOS - NOTAS DE CREDITO,,,,,argentina
+dc_r_r,91.0,REMITOS R,,,,,argentina
+dc_ac_inc_df,92.0,AJUSTES CONTABLES QUE INCREMENTAN EL DEBITO FISCAL,,,,,argentina
+dc_ac_dis_df,93.0,AJUSTES CONTABLES QUE DISMINUYEN EL DEBITO FISCAL,,,,,argentina
+dc_ac_inc_cf,94.0,AJUSTES CONTABLES QUE INCREMENTAN EL CREDITO FISCAL,,,,,argentina
+dc_ac_dis_cf,95.0,AJUSTES CONTABLES QUE DISMINUYEN EL CREDITO FISCAL,,,,,argentina
+dc_f1116b,96.0,FORMULARIO 1116 B,,,,,argentina
+dc_f1116c,97.0,FORMULARIO 1116 C,,,,,argentina
+dc_oc_ncrg3419,99.0,OTROS COMP  QUE NO CUMPLEN CON LA R G  3419 Y SUS MODIF,,,in_document,,argentina
+dc_aa_dj_pos,101.0,AJUSTE ANUAL PROVENIENTE DE LA  D J  DEL IVA  POSITIVO,,,,,argentina
+dc_aa_dj_neg,102.0,AJUSTE ANUAL PROVENIENTE DE LA  D J  DEL IVA  NEGATIVO,,,,,argentina
+dc_na,103.0,NOTA DE ASIGNACION,,,,,argentina
+dc_nca,104.0,NOTA DE CREDITO DE ASIGNACION,,,,,argentina
+dc_recibo_x,,RECIBOS X,dl_x,RECIBO,,RE-X ,argentina
+dc_remito_x,,REMITOS X,dl_x,REMITO,,RM-X ,argentina
+dc_orden_pago_x,,ORDEN DE PAGO X,dl_x,ORDEN DE PAGO,,OP-X ,argentina

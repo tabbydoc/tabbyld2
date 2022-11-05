@@ -1,0 +1,34 @@
+col0,col1,col2
+,,
+label/title,엣지 오브 크리스마스,Edge of Christmas
+label/pressanykey,아무키나눌러보숑,Press any key to start
+label/server/backend/register/nullfield,정보를 입력해주세요,Please enter the information
+label/server/backend/register/specialcharacter,특수문자는 사용하실 수 없습니다,Special characters cannot be used
+label/server/backend/register/leastcharacter,최소 6자리 이상 입력해주세요.,Please enter at least 6 digits
+label/server/backend/register/trytoregist,회원가입 진행 중,Try to regist user account
+label/server/backend/register/trytoregistnickname,닉네임 생성 중,Try to regist user nickname
+label/server/backend/register/enterid,ID를 입력해주세요,Enter ID
+label/server/backend/register/enterpassword,비밀번호를 입력해주세요,Enter password
+label/server/backend/register/enternickname,닉네임을 입력해주세요,Enter nickname
+label/server/backend/register/register,회원가입,Sign up
+label/server/backend/register/createnickname,닉네임 생성,Create nickname
+label/server/backend/register/invalidinformation,유효하지 않은 정보입니다,Invalid information
+label/server/backend/register/registerfailed,회원가입을 실패하였습니다. 정보를 재확인해주세요.,Registration failed. Please check the information.
+label/server/backend/register/registersuccess,회원가입을 성공하였습니다.,Registration success
+label/server/backend/login/trytologin,로그인 중,Logging in
+label/server/backend/login/badid,잘못된 ID 입니다.,Wrong ID
+label/server/backend/login/badpassword,잘못된 비밀번호입니다.,Wrong password
+label/server/backend/login/badlogin,로그인을 실패하였습니다.,Failed log in
+label/server/backend/login/login,로그인,Sign in
+label/lobby/match/makeroom,방 만들기,Make room
+label/lobby/match/disconnectedfromserver,서버가 연결을 종료하였습니다,The server has closed the connection
+label/lobby/match/connectingtomatchserver,매치 서버 접속 중,Connecting to match server
+label/lobby/match/matching,매칭 중,Matching
+label/lobby/match/matchingsuccess,매칭이 성사되었습니다. 게임이 곧 시작됩니다.,Success matching. The game starts soon.
+label/lobby/match/creatingroom,대기방 생성중,Creating a waiting room
+label/lobby/match/creatingroomfailed,대기방 생성을 실패하였습니다.,Failed to create a waiting room
+,,
+,,
+,,
+,,
+test/string1,시험용 문구,For testing

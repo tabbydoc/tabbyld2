@@ -1,0 +1,48 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18
+Add RP Job ID,Adds Job ID to a new RP,CALCULATION,,job_id,True,True,False,False,"var det_table = FeatureSetByName($datastore, ""Admin_Table"")
+var records = First(det_table)
+
+return records.job_id",,,False,True,False,,,2147483647,"{""type"":""PropertySet"",""propertySetItems"":[]}"
+Add RP Admin State Code,Adds Admin State FIPS Code to a new RP,CALCULATION,,admin_state,True,True,False,False,"var det_table = FeatureSetByName($datastore, ""Admin_Table"")
+var records = First(det_table)
+
+return records.admin_state",,,False,True,False,,,2147483647,"{""type"":""PropertySet"",""propertySetItems"":[]}"
+Add RP Admin State Name,Adds Admin State Name to a new RP,CALCULATION,,admin_state_name,True,True,False,False,"var det_table = FeatureSetByName($datastore, ""Admin_Table"")
+var records = First(det_table)
+
+return records.admin_state_name",,,False,True,False,,,2147483647,"{""type"":""PropertySet"",""propertySetItems"":[]}"
+Add RP Admin County Code,Adds Admin County FIPS Code to a new RP,CALCULATION,,admin_county,True,True,False,False,"var det_table = FeatureSetByName($datastore, ""Admin_Table"")
+var records = First(det_table)
+
+return records.admin_county",,,False,True,False,,,2147483647,"{""type"":""PropertySet"",""propertySetItems"":[]}"
+Add RP Admin County Name,Adds Admin County Name to a new RP,CALCULATION,,admin_county_name,True,True,False,False,"var det_table = FeatureSetByName($datastore, ""Admin_Table"")
+var records = First(det_table)
+
+return records.admin_county_name",,,False,True,False,,,2147483647,"{""type"":""PropertySet"",""propertySetItems"":[]}"
+Add RP State Code,Adds State FIPS Code to a new RP,CALCULATION,,state_code,True,True,False,False,"var det_table = FeatureSetByName($datastore, ""Admin_Table"")
+var records = First(det_table)
+
+return records.state_code",,,False,True,False,,,2147483647,"{""type"":""PropertySet"",""propertySetItems"":[]}"
+Add RP State Name,Adds State Name to a new RP,CALCULATION,,state_name,True,True,False,False,"var det_table = FeatureSetByName($datastore, ""Admin_Table"")
+var records = First(det_table)
+
+return records.state_name",,,False,True,False,,,2147483647,"{""type"":""PropertySet"",""propertySetItems"":[]}"
+Add RP County Code,Adds County FIPS Code to a new RP,CALCULATION,,county_code,True,True,False,False,"var det_table = FeatureSetByName($datastore, ""Admin_Table"")
+var records = First(det_table)
+
+return records.county_code",,,False,True,False,,,2147483647,"{""type"":""PropertySet"",""propertySetItems"":[]}"
+Add RP County Name,Adds County Name to a new RP,CALCULATION,,county_name,True,True,False,False,"var det_table = FeatureSetByName($datastore, ""Admin_Table"")
+var records = First(det_table)
+
+return records.county_name",,,False,True,False,,,2147483647,"{""type"":""PropertySet"",""propertySetItems"":[]}"
+Add RP Farm Number,Adds Farm Number to a new RP,CALCULATION,,farm_number,True,True,False,False,"var det_table = FeatureSetByName($datastore, ""Admin_Table"")
+var records = First(det_table)
+
+return records.farm_number",,,False,True,False,,,2147483647,"{""type"":""PropertySet"",""propertySetItems"":[]}"
+Add RP Tract Number,Adds Tract Number to a new RP,CALCULATION,,tract_number,True,True,False,False,"var det_table = FeatureSetByName($datastore, ""Admin_Table"")
+var records = First(det_table)
+
+return records.tract_number",,,False,True,False,,,2147483647,"{""type"":""PropertySet"",""propertySetItems"":[]}"
+Set Default Hydro,Sets hydro attribute to N/A,CALCULATION,,hydro,True,True,False,False,"return """"N/A""""",,,False,True,False,,,2147483647,"{""type"":""PropertySet"",""propertySetItems"":[]}"
+Set Default Veg,Sets veg attribute to N/A,CALCULATION,,veg,True,True,False,False,"return """"N/A""""",,,False,True,False,,,2147483647,"{""type"":""PropertySet"",""propertySetItems"":[]}"
+Set Default Soil,Sets soil attribute to N/A,CALCULATION,,soil,True,True,False,False,"return """"N/A""""",,,False,True,False,,,2147483647,"{""type"":""PropertySet"",""propertySetItems"":[]}"

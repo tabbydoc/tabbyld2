@@ -1,0 +1,49 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+0,Alabama,AL,"Florida, Georgia, Mississippi, Tennessee",32.806671,-86.79113000000001,62.8,0.3535789213932027
+1,Arizona,AZ,"California, Colorado, Nevada, New Mexico, Utah",33.729759,-111.431221,60.3,0.2897141227857045
+2,Arkansas,AR,"Louisiana, Mississippi, Missouri, Oklahoma, Tennessee, Texas",34.969704,-92.373123,60.4,0.3540489538580249
+3,California,CA,"Arizona, Nevada, Oregon",36.116203000000006,-119.681564,59.4,0.288901364998572
+4,Colorado,CO,"Arizona, Kansas, Nebraska, New Mexico, Oklahoma, Utah, Wyoming",39.059811,-105.311104,45.1,0.3477503853078871
+5,Connecticut,CT,"Massachusetts, New York, Rhode Island",41.597782,-72.755371,49.0,0.4963483650962083
+6,Delaware,DE,"Maryland, New Jersey, Pennsylvania",39.318523,-75.507141,55.3,0.4618594529930775
+7,Florida,FL,"Alabama, Georgia",27.766279,-81.68678299999999,70.7,0.3218276445900873
+8,Georgia,GA,"Alabama, Florida, North Carolina, South Carolina, Tennessee",33.040619,-83.643074,63.5,0.3673937208325827
+9,Idaho,ID,"Montana, Nevada, Oregon, Utah, Washington, Wyoming",44.240459,-114.478828,44.4,0.3604701940414877
+10,Illinois,IL,"Indiana, Iowa, Michigan, Kentucky, Missouri, Wisconsin",40.349457,-88.986137,51.8,0.4129648383353471
+11,Indiana,IN,"Illinois, Kentucky, Michigan, Ohio",39.849426,-86.258278,51.7,0.4193870885776924
+12,Iowa,IA,"Illinois, Minnesota, Missouri, Nebraska, South Dakota, Wisconsin",42.011539,-93.210526,47.8,0.4109079577631485
+13,Kansas,KS,"Colorado, Missouri, Nebraska, Oklahoma",38.5266,-96.726486,54.3,0.3700324343854873
+14,Kentucky,KY,"Illinois, Indiana, Missouri, Ohio, Tennessee, Virginia, West Virginia",37.66814,-84.670067,55.6,0.4064718353859354
+15,Louisiana,LA,"Arkansas, Mississippi, Texas",31.169546,-91.867805,66.4,0.3212973815565128
+16,Maine,ME,New Hampshire,44.693947,-69.381927,41.0,0.5415399431913023
+17,Maryland,MD,"Delaware, Pennsylvania, Virginia, West Virginia",39.063946,-76.80210100000001,54.2,0.4533576081660288
+18,Massachusetts,MA,"Connecticut, New Hampshire, New York, Rhode Island, Vermont",42.230171,-71.530106,47.9,0.5083936010740241
+19,Michigan,MI,"Illinois, Indiana, Minnesota, Ohio, Wisconsin",43.326618,-84.53609499999999,44.4,0.4561063758879674
+20,Minnesota,MN,"Iowa, Michigan, North Dakota, South Dakota, Wisconsin",45.694454,-93.900192,41.2,0.4375685439578478
+21,Mississippi,MS,"Alabama, Arkansas, Louisiana, Tennessee",32.741646,-89.678696,63.4,0.3429566533124699
+22,Missouri,MO,"Arkansas, Illinois, Iowa, Kansas, Kentucky, Nebraska, Oklahoma, Tennessee",38.456085,-92.288368,54.5,0.3846375285641636
+23,Montana,MT,"Idaho, North Dakota, South Dakota, Wyoming",46.921925,-110.454353,42.7,0.3909911827168267
+24,Nebraska,NE,"Colorado, Iowa, Kansas, Missouri, South Dakota, Wyoming",41.12537,-98.268082,48.8,0.3860573619374066
+25,Nevada,NV,"Arizona, California, Idaho, Oregon, Utah",38.313515,-117.055374,49.9,0.3110719406311426
+26,New Hampshire,NH,"Maine, Massachusetts, Vermont",43.452492,-71.563896,43.8,0.5190041733268007
+27,New Jersey,NJ,"Delaware, New York, Pennsylvania",40.298904,-74.521011,52.7,0.4756748411137034
+28,New Mexico,NM,"Arizona, Colorado, Oklahoma, Texas, Utah",34.840515,-106.248482,53.4,0.3115906182986101
+29,New York,NY,"Connecticut, Massachusetts, New Jersey, Pennsylvania, Rhode Island, Vermont",42.165726,-74.948051,45.4,0.4903270246009906
+30,North Carolina,NC,"Georgia, South Carolina, Tennessee, Virginia",35.630066,-79.80641899999999,59.0,0.4076718327342468
+31,North Dakota,ND,"Minnesota, Montana, South Dakota",47.528912,-99.784012,40.4,0.4300273609505148
+32,Ohio,OH,"Indiana, Kentucky, Michigan, Pennsylvania, West Virginia",40.388783,-82.764915,50.7,0.438560930748113
+33,Oklahoma,OK,"Arkansas, Colorado, Kansas, Missouri, New Mexico, Texas",35.565342,-96.928917,59.6,0.3444658530610363
+34,Oregon,OR,"California, Idaho, Nevada, Washington",44.572021,-122.07093799999998,48.4,0.3429837045620194
+35,Pennsylvania,PA,"Delaware, Maryland, New Jersey, New York, Ohio, West Virginia",40.590752,-77.209755,48.8,0.4653337769854996
+36,Rhode Island,RI,"Connecticut, Massachusetts, New York",41.680893,-71.51178,50.1,0.5035617024994278
+37,South Carolina,SC,"Georgia, North Carolina",33.856891999999995,-80.94500699999999,62.4,0.3858756046402801
+38,South Dakota,SD,"Iowa, Minnesota, Montana, Nebraska, North Dakota, Wyoming",44.299782,-99.438828,45.2,0.4069418110931834
+39,Tennessee,TN,"Alabama, Arkansas, Georgia, Kentucky, Mississippi, Missouri, North Carolina, Virginia",35.747845,-86.69234499999999,57.6,0.3812147497770787
+40,Texas,TX,"Arkansas, Louisiana, New Mexico, Oklahoma",31.054487,-97.563461,64.8,0.3033062486006646
+41,Utah,UT,"Arizona, Colorado, Idaho, Nevada, New Mexico, Wyoming",40.150032,-111.862434,48.6,0.3378221673126474
+42,Vermont,VT,"Massachusetts, New Hampshire, New York",44.045876,-72.710686,42.9,0.5181192621775058
+43,Virginia,VA,"Kentucky, Maryland, North Carolina, Tennessee, West Virginia",37.769337,-78.16996800000001,55.1,0.4350490068786487
+44,Washington,WA,"Idaho, Oregon",47.400902,-121.490494,48.3,0.3634757883029731
+45,West Virginia,WV,"Kentucky, Maryland, Ohio, Pennsylvania, Virginia",38.491226,-80.954453,51.8,0.4294013983389753
+46,Wisconsin,WI,"Illinois, Iowa, Michigan, Minnesota",44.268543,-89.616508,43.1,0.4428887093011651
+47,Wyoming,WY,"Colorado, Idaho, Montana, Nebraska, South Dakota, Utah",42.755966,-107.30249,42.0,0.370158674598558

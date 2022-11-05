@@ -1,0 +1,9 @@
+col0,col1,col2,col3
+Changes:,,,
+root/classes,:,ArrayNode	Added,
+root/elite,:,BooleanNode	Added,
+root/multiClassGroup,:,TextNode	Added,
+root/battlegroundsPremiumDbfId,:,IntNode	Removed,
+root/techLevel,:,IntNode	Removed,
+{,,,
+};,,,

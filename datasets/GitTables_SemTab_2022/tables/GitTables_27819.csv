@@ -1,0 +1,43 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13
+Graphics,Launch,Market,Processor,Code name,Device ID,Clock rate (MHz),Core config,Direct3D,OpenGL,OpenCL,Vulkan,eDRAM (MiB),Memory bandwidth (GB/s)
+HD Graphics,2015,Ultramobile,Atom x5-Z8300,Cherryview Braswell (Gen8LP),22B0 22B1 22B2 22B3,200-500,96:12:2,11.2,4.3 4.6 ES 3.2,2.0 1.2,1.1,-,12.8
+HD Graphics,2015,Ultramobile,Atom x5-Z8500,Cherryview Braswell (Gen8LP),22B0 22B1 22B2 22B3,200-600,96:12:2,11.2,4.3 4.6 ES 3.2,2.0 1.2,1.1,-,25.6
+HD Graphics,2015,Ultramobile,Atom x5-E8000 Celeron N3000 Celeron N3050,Cherryview Braswell (Gen8LP),22B0 22B1 22B2 22B3,320-600,96:12:2,11.2,4.3 4.6 ES 3.2,2.0 1.2,1.1,-,25.6
+HD Graphics,2015,Ultramobile,Celeron N3150,Cherryview Braswell (Gen8LP),22B0 22B1 22B2 22B3,320-640,96:12:2,11.2,4.3 4.6 ES 3.2,2.0 1.2,1.1,-,25.6
+HD Graphics,2015,Ultramobile,Atom x7-Z8700,Cherryview Braswell (Gen8LP),22B0 22B1 22B2 22B3,200-600,128:16:2,11.2,4.3 4.6 ES 3.2,2.0 1.2,1.1,-,25.6
+HD Graphics,2015,Ultramobile,Pentium N3700,Cherryview Braswell (Gen8LP),22B0 22B1 22B2 22B3,400-700,128:16:2,11.2,4.3 4.6 ES 3.2,2.0 1.2,1.1,-,25.6
+HD Graphics 400,2016,Ultramobile,Atom x5-Z8350,Cherryview Braswell (Gen8LP),22B0 22B1 22B2 22B3,200-500,96:12:2,11.2,4.3 4.6 ES 3.2,2.0 1.2,1.1,-,25.6
+HD Graphics 400,2016,Ultramobile,Celeron N3010 Celeron N3060,Cherryview Braswell (Gen8LP),22B0 22B1 22B2 22B3,320-600,96:12:2,11.2,4.3 4.6 ES 3.2,2.0 1.2,1.1,-,25.6
+HD Graphics 400,2016,Ultramobile,Celeron N3160,Cherryview Braswell (Gen8LP),22B0 22B1 22B2 22B3,320-640,96:12:2,11.2,4.3 4.6 ES 3.2,2.0 1.2,1.1,-,25.6
+HD Graphics 400,2016,Ultramobile,Celeron J3060 Celeron J3160,Cherryview Braswell (Gen8LP),22B0 22B1 22B2 22B3,320-700,96:12:2,11.2,4.3 4.6 ES 3.2,2.0 1.2,1.1,-,25.6
+HD Graphics 405,2016,Ultramobile,Pentium N3710,Cherryview Braswell (Gen8LP),22B0 22B1 22B2 22B3,400-700,128:16:2,11.2,4.3 4.6 ES 3.2,2.0 1.2,1.1,-,25.6
+HD Graphics 405,2016,Ultramobile,Pentium J3710,Cherryview Braswell (Gen8LP),22B0 22B1 22B2 22B3,400-740,144:18:2,11.2,4.3 4.6 ES 3.2,2.0 1.2,1.1,-,25.6
+HD Graphics,2015,Mobile,Celeron 3205U Celeron 3755U Pentium 3805U,Broadwell (Gen8),1606,100–800,96:12:2 (GT1),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+HD Graphics,2015,Mobile,Celeron 3215U Celeron 3765U Pentium 3825U,Broadwell (Gen8),1606,300–850,96:12:2 (GT1),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+HD Graphics 5300,2014,Ultramobile,Core M-5Y10 Core M-5Y10a,Broadwell (Gen8),161E,100–800,192:24:3 (GT2),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+HD Graphics 5300,2014,Ultramobile,Core M-5Y10c,Broadwell (Gen8),161E,300–800,192:24:3 (GT2),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+HD Graphics 5300,2014,Ultramobile,Core M-5Y70,Broadwell (Gen8),161E,100–850,192:24:3 (GT2),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+HD Graphics 5300,2014,Ultramobile,Core M-5Y31,Broadwell (Gen8),161E,300–850,192:24:3 (GT2),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+HD Graphics 5300,2014,Ultramobile,Core M-5Y51 Core M-5Y71,Broadwell (Gen8),161E,300–900,192:24:3 (GT2),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+HD Graphics 5500,2015,Mobile,Core i3-5005U Core i3-5015U,Broadwell (Gen8),1616,300–850,184:23:3 (GT2),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+HD Graphics 5500,2015,Mobile,Core i3-5010U Core i3-5020U,Broadwell (Gen8),1616,300–900,184:23:3 (GT2),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+HD Graphics 5500,2015,Mobile,Core i5-5200U Core i5-5300U,Broadwell (Gen8),1616,300–900,192:24:3 (GT2),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+HD Graphics 5500,2015,Mobile,Core i7-5500U Core i7-5600U,Broadwell (Gen8),1616,300–950,192:24:3 (GT2),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+HD Graphics 5600,2015,Mobile,Core i7-5700EQ,Broadwell (Gen8),1612,300–1000,192:24:3 (GT2),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+HD Graphics 5600,2015,Mobile,Core i7-5700HQ,Broadwell (Gen8),1612,300–1050,192:24:3 (GT2),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+HD Graphics P5700,2015,Mobile,Xeon E3-1258L v4,Broadwell (Gen8),?,700-1000,192:24:3 (GT2),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+HD Graphics 6000,2015,Mobile,Core i5-5250U,Broadwell (Gen8),1626,300–950,384:48:6 (GT3),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+HD Graphics 6000,2015,Mobile,Core i5-5350U Core i7-5550U Core i7-5650U,Broadwell (Gen8),1626,300–1000,384:48:6 (GT3),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+Iris Graphics 6100,2015,Mobile,Core i3-5157U,Broadwell (Gen8),162B,300–1000,384:48:6 (GT3),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+Iris Graphics 6100,2015,Mobile,Core i5-5257U,Broadwell (Gen8),162B,300–1050,384:48:6 (GT3),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+Iris Graphics 6100,2015,Mobile,Core i5-5287U Core i7-5557U,Broadwell (Gen8),162B,300–1100,384:48:6 (GT3),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,-,25.6
+Iris Pro Graphics 6200,2015,Desktop,Core i5-5575R,Broadwell (Gen8),1622,300–1050,384:48:6 (GT3),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,128,25.6
+Iris Pro Graphics 6200,2015,Desktop,Core i5-5675C Core i5-5675R,Broadwell (Gen8),1622,300–1100,384:48:6 (GT3),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,128,25.6
+Iris Pro Graphics 6200,2015,Desktop,Core i7-5775C Core i7-5775R,Broadwell (Gen8),1622,300–1150,384:48:6 (GT3),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,128,25.6
+Iris Pro Graphics 6200,2015,Mobile,Core i7-5850EQ,Broadwell (Gen8),1622,300–1000,384:48:6 (GT3),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,128,25.6
+Iris Pro Graphics 6200,2015,Mobile,Core i5-5350H,Broadwell (Gen8),1622,300–1050,384:48:6 (GT3),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,128,25.6
+Iris Pro Graphics 6200,2015,Mobile,Core i7-5750HQ Core i7-5850HQ,Broadwell (Gen8),1622,300–1100,384:48:6 (GT3),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,128,25.6
+Iris Pro Graphics 6200,2015,Mobile,Core i7-5950HQ,Broadwell (Gen8),1622,300–1150,384:48:6 (GT3),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,128,25.6
+Iris Pro Graphics P6300,2015,Workstation,Xeon E3-1278L v4,Broadwell (Gen8),162A,800–1000,384:48:6 (GT3),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,128,25.6
+Iris Pro Graphics P6300,2015,Workstation,Xeon E3-1265L v4,Broadwell (Gen8),162A,300–1050,384:48:6 (GT3),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,128,25.6
+Iris Pro Graphics P6300,2015,Workstation,Xeon E3-1285 v4 Xeon E3-1285L v4,Broadwell (Gen8),162A,300–1150,384:48:6 (GT3),12 FL11_1,4.4 4.1 4.6 ES 3.2,2.0 1.2 2.1,1.1,128,25.6

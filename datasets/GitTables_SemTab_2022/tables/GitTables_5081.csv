@@ -1,0 +1,12 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21
+Definition,0,file_id,type,1,,manufacturer,1.0,,product,1.0,,serial_number,1.0,,time_created,1.0,,,,,
+Data,0,file_id,type,9,,manufacturer,15.0,,garmin_product,22.0,,serial_number,1234.0,,time_created,621463080.0,,,,,
+Definition,0,user_profile,message_index,1,,gender,1.0,,age,1.0,,height,1.0,,weight,1.0,,local_id,1.0,,
+Data,0,user_profile,message_index,0,,gender,1.0,,age,47.0,years,height,1.79,m,weight,71.0,kg,local_id,5.0,,
+Data,0,user_profile,message_index,1,,gender,0.0,,age,52.0,years,height,1.55,m,weight,55.0,kg,local_id,6.0,,
+Definition,0,weight_scale,timestamp,1,,weight,1.0,,percent_fat,1.0,,user_profile_index,1.0,,,,,,,,
+Definition,1,device_info,timestamp,1,,battery_voltage,1.0,,cum_operating_time,1.0,,,,,,,,,,,
+Data,0,weight_scale,timestamp,621466680,s,weight,75.8,kg,percent_fat,22.3,%,user_profile_index,0.0,,,,,,,,
+Data,1,device_info,timestamp,621466680,s,battery_voltage,1.5,V,cum_operating_time,45126.0,s,,,,,,,,,,
+Data,0,weight_scale,timestamp,621470280,s,weight,58.2,kg,percent_fat,25.1,%,user_profile_index,1.0,,,,,,,,
+Data,1,device_info,timestamp,621470280,s,battery_voltage,1.5,V,cum_operating_time,45158.0,s,,,,,,,,,,

@@ -1,0 +1,192 @@
+col0,col1,col2
+0, Huntsville, AL
+1, Irondale, AL
+2, Mobile, AL
+3, Montgomery, AL
+4, Anchorage, AK
+5, Chandler, AZ
+6, Phoenix, AZ
+7, Tucson, AZ
+8, Little Rock, AR
+9, Burlingame, CA
+10, Elk Grove, CA
+11, Livermore, CA
+12, Oakland, CA
+13, Palo Alto, CA
+14, Sacramento, CA
+15, San Francisco, CA
+16, San Jose, CA
+17, San Rafael, CA
+18, Carlsbad, CA
+19, Escondido, CA
+20, Mission Viejo, CA
+21, Newport Beach, CA
+22, Rancho Mirage, CA
+23, Riverside, CA
+24, San Diego, CA
+25, Santa Ana, CA
+26, Bakersfield, CA
+27, Fresno, CA
+28, Long Beach, CA
+29, Los Angeles, CA
+30, Norwalk, CA
+31, Oxnard, CA
+32, Pasadena, CA
+33, Santa Barbara, CA
+34, Santa Monica, CA
+35, Boulder, CO
+36, Colorado Springs, CO
+37, Fort Collins, CO
+38, Glenwood Springs, CO
+39, Lakewood, CO
+40, Littleton, CO
+41, Danbury, CT
+42, East Hartford, CT
+43, Fairfield, CT
+44, Greenwich, CT
+45, New London, CT
+46, Wallingford, CT
+47, Watertown, CT
+48, Wilmington, DE
+49, Honolulu, HI
+50, Kahului, HI
+51, Boise, ID
+52, Idaho Falls, ID
+53, Chicago, IL
+54, Glenview, IL
+55, Highland Park, IL
+56, Naperville, IL
+57, Schaumburg, IL
+58, Tinley Park, IL
+59, Westmont, IL
+60, Loves Park, IL
+61, Normal, IL
+62, Peoria, IL
+63, Springfield, IL
+64, Bloomington, IN
+65, Evansville, IN
+66, Fort Wayne, IN
+67, Indianapolis, IN
+68, Lafayette, IN
+69, Merrillville, IN
+70, Mishawaka, IN
+71, Davenport, IA
+72, Iowa City, IA
+73, Johnston, IA
+74, Bangor, ME
+75, Falmouth, ME
+76, Waterville, ME
+77, Boylston, MA
+78, Brookline, MA
+79, Burlington, MA
+80, Fall River, MA
+81, Hyannis, MA
+82, Natick, MA
+83, Norwell, MA
+84, Peabody, MA
+85, Pittsfield, MA
+86, Ann Arbor, MI
+87, Bay City, MI
+88, Birmingham, MI
+89, Farmington Hills, MI
+90, Grand Rapids, MI
+91, Kalamazoo, MI
+92, Lansing, MI
+93, Muskegon, MI
+94, Petoskey, MI
+95, Maplewood, MN
+96, Minneapolis, MN
+97, Rochester, MN
+98, Bozeman, MT
+99, Missoula, MT
+100, Omaha, NE
+101, Henderson, NV
+102, Las Vegas, NV
+103, Reno, NV
+104, Nashua, NH
+105, Stratham, NH
+106, Bernardsville, NJ
+107, Cherry Hill, NJ
+108, Flemington, NJ
+109, Mendham, NJ
+110, Newton, NJ
+111, Pleasantville, NJ
+112, Princeton, NJ
+113, Turnersville, NJ
+114, West Long Branch, NJ
+115, Edison, NJ
+116, Englewood, NJ
+117, Fair Lawn, NJ
+118, Maplewood, NJ
+119, Parsippany, NJ
+120, Secaucus, NJ
+121, Upper Saddle River, NJ
+122, Albuquerque, NM
+123, Binghamton, NY
+124, Bowmansville, NY
+125, Cicero, NY
+126, Ithaca, NY
+127, Latham, NY
+128, Mohegan Lake, NY
+129, Nyack, NY
+130, Oneonta, NY
+131, Rochester, NY
+132, Amityville, NY
+133, Brooklyn, NY
+134, Eastchester, NY
+135, Great Neck, NY
+136, Huntington Station, NY
+137, Lynbrook, NY
+138, New York, NY
+139, Southampton, NY
+140, St. James, NY
+141, Fargo, ND
+142, Bedford, OH
+143, Cincinnati, OH
+144, Cincinnati, OH
+145, Columbus, OH
+146, Cuyahoga Falls, OH
+147, Dayton, OH
+148, Dublin, OH
+149, Middleburg Heights, OH
+150, Sylvania, OH
+151, Beaverton, OR
+152, Bend, OR
+153, Portland, OR
+154, Allentown, PA
+155, Erie, PA
+156, Hollidaysburg, PA
+157, Lancaster, PA
+158, Larksville, PA
+159, Leesport, PA
+160, Mechanicsburg, PA
+161, Monroeville, PA
+162, Sewickley, PA
+163, Conshohocken, PA
+164, Edgemont, PA
+165, Willow Grove, PA
+166, Wynnewood, PA
+167, Warwick, RI
+168, Sioux Falls, SD
+169, Layton, UT
+170, Orem, UT
+171, Salt Lake City, UT
+172, Rutland, VT
+173, South Burlington, VT
+174, Bellevue, WA
+175, Bellingham, WA
+176, Kennewick, WA
+177, Seattle, WA
+178, Spokane, WA
+179, Tacoma, WA
+180, Yakima, WA
+181, Lynnwood, WA
+182, Tukwila, WA
+183, Appleton, WI
+184, Brown Deer, WI
+185, Eau Claire, WI
+186, LaCrosse, WI
+187, Madison, WI
+188, Milwaukee, WI
+189, Wausau, WI
+190, Casper, WY

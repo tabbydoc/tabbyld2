@@ -1,0 +1,118 @@
+col0,col1,col2,col3,col4,col5,col6
+CarIdxGear, -1=reverse  0=neutral  1..n=current gear by car index, , int,1,0,64
+CarIdxLap, Lap count by car index, , int,1,0,64
+CarIdxLapDistPct, Percentage distance around lap by car index, %, float,1,0,64
+CarIdxOnPitRoad, On pit road between the cones by car index, , bool,1,0,64
+CarIdxRPM, Engine rpm by car index, revs/min, float,1,0,64
+CarIdxSteer, Steering wheel angle by car index, rad, float,1,0,64
+CarIdxTrackSurface, Track surface type by car index, irsdk_TrkLoc, int,1,0,64
+CamCameraNumber, Active camera number, , int,1,0,1
+CamCameraState, State of camera system, irsdk_CameraState, bitfield,1,0,1
+CamCarIdx, Active camera's focus car index, , int,1,0,1
+CamGroupNumber, Active camera group number, , int,1,0,1
+IsInGarage, 1=Car in garage physics running, , bool,1,0,1
+IsReplayPlaying, 0=replay not playing  1=replay playing, , bool,1,0,1
+RaceLaps, Laps completed in race, , int,1,0,1
+ReplayFrameNum, Integer replay frame number (60 per second), , int,1,0,1
+ReplayFrameNumEnd, Integer replay frame number from end of tape, , int,1,0,1
+ReplayPlaySlowMotion, 0=not slow motion  1=replay is in slow motion, , bool,1,0,1
+ReplayPlaySpeed, Replay playback speed, , int,1,0,1
+ReplaySessionNum, Replay session number, , int,1,0,1
+ReplaySessionTime, Seconds since replay session start, s, double,1,0,1
+SessionFlags, Session flags, irsdk_Flags, bitfield,1,0,1
+Brake, 0=brake released to 1=max pedal force, %, float,1,1,1
+Clutch, 0=disengaged to 1=fully engaged, %, float,1,1,1
+DriverMarker, Driver activated flag, , bool,1,1,1
+EngineWarnings, Bitfield for warning lights, irsdk_EngineWarnings, bitfield,1,1,1
+FuelLevel, Liters of fuel remaining, l, float,1,1,1
+FuelLevelPct, Percent fuel remaining, %, float,1,1,1
+FuelPress, Engine fuel pressure, bar, float,1,1,1
+Gear, -1=reverse  0=neutral  1..n=current gear, , int,1,1,1
+IsOnTrack, 1=Car on track physics running, , bool,1,1,1
+Lap, Lap count, , int,1,1,1
+LapBestLap, Players best lap number, , int,1,1,1
+LapBestLapTime, Players best lap time, s, float,1,1,1
+LapCurrentLapTime, Estimate of players current lap time as shown in F3 box, s, float,1,1,1
+LapDeltaToBestLap, Delta time for best lap, s, float,1,1,1
+LapDeltaToBestLap_DD, Normalized delta time for best lap, %, float,1,1,1
+LapDeltaToBestLap_OK, Delta time for best lap is valid, , bool,1,1,1
+LapDeltaToOptimalLap, Delta time for optimal lap, s, float,1,1,1
+LapDeltaToOptimalLap_DD, Normalized delta time for optimal lap, %, float,1,1,1
+LapDeltaToOptimalLap_OK, Delta time for optimal lap is valid, , bool,1,1,1
+LapDeltaToSessionBestLap, Delta time for session best lap, s, float,1,1,1
+LapDeltaToSessionBestLap_DD, Normalized delta time for session best lap, %, float,1,1,1
+LapDeltaToSessionBestLap_OK, Delta time for session best lap is valid, , bool,1,1,1
+LapDeltaToSessionOptimalLap, Delta time for session optimal lap, s, float,1,1,1
+LapDeltaToSessionOptimalLap_DD, Normalized delta time for session optimal lap, %, float,1,1,1
+LapDeltaToSessionOptimalLap_OK, Delta time for session optimal lap is valid, , bool,1,1,1
+LapDist, Meters traveled from S/F this lap, m, float,1,1,1
+LapDistPct, Percentage distance around lap, %, float,1,1,1
+LapLastLapTime, Players last lap time, s, float,1,1,1
+LatAccel, Lateral acceleration (including gravity), m/s^2, float,1,1,1
+LFshockDefl, LF shock deflection, m, float,1,1,1
+LongAccel, Longitudinal acceleration (including gravity), m/s^2, float,1,1,1
+LRshockDefl, LR shock deflection, m, float,1,1,1
+ManifoldPress, Engine manifold pressure, bar, float,1,1,1
+OilLevel, Engine oil level, l, float,1,1,1
+OilPress, Engine oil pressure, bar, float,1,1,1
+OilTemp, Engine oil temperature, C, float,1,1,1
+OnPitRoad, Is the player car on pit road between the cones, , bool,1,1,1
+Pitch, Pitch orientation, rad, float,1,1,1
+PitchRate, Pitch rate, rad/s, float,1,1,1
+PitOptRepairLeft, Time left for optional repairs if repairs are active, s, float,1,1,1
+PitRepairLeft, Time left for mandatory pit repairs if repairs are active, s, float,1,1,1
+RFshockDefl, RF shock deflection, m, float,1,1,1
+Roll, Roll orientation, rad, float,1,1,1
+RollRate, Roll rate, rad/s, float,1,1,1
+RPM, Engine rpm, revs/min, float,1,1,1
+RRshockDefl, RR shock deflection, m, float,1,1,1
+SessionLapsRemain, Laps left till session ends, , int,1,1,1
+SessionNum, Session number, , int,1,1,1
+SessionState, Session state, irsdk_SessionState, int,1,1,1
+SessionTime, Seconds since session start, s, double,1,1,1
+SessionTimeRemain, Seconds left till session ends, s, double,1,1,1
+SessionUniqueID, Session ID, , int,1,1,1
+ShiftGrindRPM, RPM of shifter grinding noise, RPM, float,1,1,1
+ShiftIndicatorPct, DEPRECATED use DriverCarSLBlinkRPM instead, %, float,1,1,1
+ShiftPowerPct, Friction torque applied to gears when shifting or grinding, %, float,1,1,1
+Speed, GPS vehicle speed, m/s, float,1,1,1
+SteeringWheelAngle, Steering wheel angle, rad, float,1,1,1
+SteeringWheelPctTorque, Force feedback % max torque on steering shaft, %, float,1,1,1
+SteeringWheelTorque, Output torque on steering shaft, N*m, float,1,1,1
+Throttle, 0=off throttle to 1=full throttle, %, float,1,1,1
+VelocityX, X velocity, m/s, float,1,1,1
+VelocityY, Y velocity, m/s, float,1,1,1
+VelocityZ, Z velocity, m/s, float,1,1,1
+VertAccel, Vertical acceleration (including gravity), m/s^2, float,1,1,1
+Voltage, Engine voltage, V, float,1,1,1
+WaterLevel, Engine coolant level, l, float,1,1,1
+WaterTemp, Engine coolant temp, C, float,1,1,1
+Yaw, Yaw orientation, rad, float,1,1,1
+YawRate, Yaw rate, rad/s, float,1,1,1
+Alt, Altitude in meters, m, float,0,1,1
+Lat, Latitude in decimal degrees, deg, double,0,1,1
+LFpressure, LF tire pressure, kPa, float,0,1,1
+LFrideHeight, LF ride height, m, float,0,1,1
+LFspeed, LF wheel speed, m/s, float,0,1,1
+LFtempL, LF tire left surface temperature, C, float,0,1,1
+LFtempM, LF tire middle surface temperature, C, float,0,1,1
+LFtempR, LF tire right surface temperature, C, float,0,1,1
+Lon, Longitude in decimal degrees, deg, double,0,1,1
+LRpressure, LR tire pressure, kPa, float,0,1,1
+LRrideHeight, LR ride height, m, float,0,1,1
+LRspeed, LR wheel speed, m/s, float,0,1,1
+LRtempL, LR tire left surface temperature, C, float,0,1,1
+LRtempM, LR tire middle surface temperature, C, float,0,1,1
+LRtempR, LR tire right surface temperature, C, float,0,1,1
+RFpressure, RF tire pressure, kPa, float,0,1,1
+RFrideHeight, RF ride height, m, float,0,1,1
+RFspeed, RF wheel speed, m/s, float,0,1,1
+RFtempL, RF tire left surface temperature, C, float,0,1,1
+RFtempM, RF tire middle surface temperature, C, float,0,1,1
+RFtempR, RF tire right surface temperature, C, float,0,1,1
+RRpressure, RR tire pressure, kPa, float,0,1,1
+RRrideHeight, RR ride height, m, float,0,1,1
+RRspeed, RR wheel speed, m/s, float,0,1,1
+RRtempL, RR tire left surface temperature, C, float,0,1,1
+RRtempM, RR tire middle surface temperature, C, float,0,1,1
+RRtempR, RR tire right surface temperature, C, float,0,1,1

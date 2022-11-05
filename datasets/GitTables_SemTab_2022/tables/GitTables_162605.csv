@@ -1,0 +1,48 @@
+col0,col1,col2,col3,col4
+mos_pathogenpooling_in,uid,Unique ID within NEON database; an identifier for the record,string,
+mos_pathogenpooling_in,namedLocation,Name of the measurement location in the NEON database,string,
+mos_pathogenpooling_in,domainID,Unique identifier of the NEON domain,string,
+mos_pathogenpooling_in,siteID,NEON site code,string,
+mos_pathogenpooling_in,startCollectDate,Earliest known collection date for this sample,dateTime,
+mos_pathogenpooling_in,endCollectDate,Latest known collection date for this sample,dateTime,
+mos_pathogenpooling_in,testingID,Identifier for the group of specimens for testing,string,
+mos_pathogenpooling_in,testingIDCode,Barcode of a test sample,string,
+mos_pathogenpooling_in,testingVialID,"Identifier for the vial containing specimens for testing (e.g., pathogen testing, chemical analysis, etc.)",string,
+mos_pathogenpooling_in,testingVialIDCode,"Barcode of the vial containing specimens for testing (e.g., pathogen testing, chemical analysis, etc.)",string,
+mos_pathogenpooling_in,poolSize,Number of individuals in the pathogen testing pool,unsigned integer,number
+mos_pathogenpooling_in,dataQF,Data quality flag,string,
+mos_pathogenresults_in,uid,Unique ID within NEON database; an identifier for the record,string,
+mos_pathogenresults_in,namedLocation,Name of the measurement location in the NEON database,string,
+mos_pathogenresults_in,domainID,Unique identifier of the NEON domain,string,
+mos_pathogenresults_in,siteID,NEON site code,string,
+mos_pathogenresults_in,nlcdClass,National Land Cover Database Vegetation Type Name,string,
+mos_pathogenresults_in,decimalLatitude,"The geographic latitude (in decimal degrees, WGS84) of the geographic center of the reference area",real,decimalDegree
+mos_pathogenresults_in,decimalLongitude,"The geographic longitude (in decimal degrees, WGS84) of the geographic center of the reference area",real,decimalDegree
+mos_pathogenresults_in,geodeticDatum,Model used to measure horizontal position on the earth,string,
+mos_pathogenresults_in,coordinateUncertainty,The horizontal distance (in meters) from the given decimalLatitude and decimalLongitude describing the smallest circle containing the whole of the Location. Zero is not a valid value for this term,real,meter
+mos_pathogenresults_in,elevation,Elevation (in meters) above sea level,real,meter
+mos_pathogenresults_in,elevationUncertainty,Uncertainty in elevation values (in meters),real,meter
+mos_pathogenresults_in,startCollectDate,Earliest known collection date for this sample,dateTime,
+mos_pathogenresults_in,endCollectDate,Latest known collection date for this sample,dateTime,
+mos_pathogenresults_in,receivedDate,Date a sample was received,dateTime,
+mos_pathogenresults_in,testedDate,Date test was conducted,dateTime,
+mos_pathogenresults_in,testingVialID,"Identifier for the vial containing specimens for testing (e.g., pathogen testing, chemical analysis, etc.)",string,
+mos_pathogenresults_in,testingVialIDCode,"Barcode of the vial containing specimens for testing (e.g., pathogen testing, chemical analysis, etc.)",string,
+mos_pathogenresults_in,deprecatedVialID,"Identifier on vial label, if different from standard ID",string,
+mos_pathogenresults_in,senderID,Identifier for the facility or technician sending the sample or specimen,string,
+mos_pathogenresults_in,sampleCondition,Condition of a sample,string,
+mos_pathogenresults_in,testProtocolVersion,The protocol version used to test the sample,string,
+mos_pathogenresults_in,testMethod,Method used to conduct test,string,
+mos_pathogenresults_in,testResult,Result of the test,string,
+mos_pathogenresults_in,testPathogenName,The name of the pathogen,string,
+mos_pathogenresults_in,testNumber,Test number in a sequence of tests,unsigned integer,
+mos_pathogenresults_in,finalResult,Whether or not this is the conclusive test result for this sample,string,
+mos_pathogenresults_in,locus,Name of genetic marker sequenced,string,
+mos_pathogenresults_in,percentIdentity,Percent match between sample and reference sequence,unsigned integer,percent
+mos_pathogenresults_in,sequenceDatabase,Name of database where sequence is stored,string,
+mos_pathogenresults_in,sequenceDatabaseID,Identifier for sample in sequence database,string,
+mos_pathogenresults_in,extractDepleted,Whether or not sample extract is depleted,string,
+mos_pathogenresults_in,remarks,Technician notes; free text comments accompanying the record,string,
+mos_pathogenresults_in,testedBy,An identifier for the technician who tested the sample,string,
+mos_pathogenresults_in,laboratoryName,Name of the laboratory or facility that is processing the sample,string,
+mos_pathogenresults_in,dataQF,Data quality flag,string,

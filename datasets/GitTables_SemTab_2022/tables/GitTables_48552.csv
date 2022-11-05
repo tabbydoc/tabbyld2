@@ -1,0 +1,113 @@
+col0,col1,col2,col3
+GEO.id,Id,False,False
+GEO.id2,Id2,False,False
+GEO.display-label,Geography,False,False
+HD01_VD01,Estimate; Total:,False,False
+HD01_VD02,Estimate; Total: - Afghan,False,True
+HD01_VD03,Estimate; Total: - Albanian,False,False
+HD01_VD04,Estimate; Total: - Alsatian,False,False
+HD01_VD05,Estimate; Total: - American,False,False
+HD01_VD06,Estimate; Total: - Arab:,True,True
+HD01_VD07,Estimate; Total: - Arab: - Egyptian,False,False
+HD01_VD08,Estimate; Total: - Arab: - Iraqi,False,False
+HD01_VD09,Estimate; Total: - Arab: - Jordanian,False,False
+HD01_VD10,Estimate; Total: - Arab: - Lebanese,False,False
+HD01_VD11,Estimate; Total: - Arab: - Moroccan,False,False
+HD01_VD12,Estimate; Total: - Arab: - Palestinian,False,False
+HD01_VD13,Estimate; Total: - Arab: - Syrian,False,False
+HD01_VD14,Estimate; Total: - Arab: - Arab,False,False
+HD01_VD15,Estimate; Total: - Arab: - Other Arab,False,False
+HD01_VD16,Estimate; Total: - Armenian,False,True
+HD01_VD17,Estimate; Total: - Assyrian/Chaldean/Syriac,True,True
+HD01_VD18,Estimate; Total: - Australian,False,False
+HD01_VD19,Estimate; Total: - Austrian,False,False
+HD01_VD20,Estimate; Total: - Basque,False,False
+HD01_VD21,Estimate; Total: - Belgian,False,False
+HD01_VD22,Estimate; Total: - Brazilian,False,False
+HD01_VD23,Estimate; Total: - British,False,False
+HD01_VD24,Estimate; Total: - Bulgarian,False,False
+HD01_VD25,Estimate; Total: - Cajun,False,False
+HD01_VD26,Estimate; Total: - Canadian,False,False
+HD01_VD27,Estimate; Total: - Carpatho Rusyn,False,False
+HD01_VD28,Estimate; Total: - Celtic,False,False
+HD01_VD29,Estimate; Total: - Croatian,False,False
+HD01_VD30,Estimate; Total: - Cypriot,False,False
+HD01_VD31,Estimate; Total: - Czech,False,False
+HD01_VD32,Estimate; Total: - Czechoslovakian,False,False
+HD01_VD33,Estimate; Total: - Danish,False,False
+HD01_VD34,Estimate; Total: - Dutch,False,False
+HD01_VD35,Estimate; Total: - Eastern European,False,False
+HD01_VD36,Estimate; Total: - English,False,False
+HD01_VD37,Estimate; Total: - Estonian,False,False
+HD01_VD38,Estimate; Total: - European,False,False
+HD01_VD39,Estimate; Total: - Finnish,False,False
+HD01_VD40,Estimate; Total: - French (except Basque),False,False
+HD01_VD41,Estimate; Total: - French Canadian,False,False
+HD01_VD42,Estimate; Total: - German,False,False
+HD01_VD43,Estimate; Total: - German Russian,False,False
+HD01_VD44,Estimate; Total: - Greek,False,False
+HD01_VD45,Estimate; Total: - Guyanese,False,False
+HD01_VD46,Estimate; Total: - Hungarian,False,False
+HD01_VD47,Estimate; Total: - Icelander,False,False
+HD01_VD48,Estimate; Total: - Iranian,True,True
+HD01_VD49,Estimate; Total: - Irish,False,False
+HD01_VD50,Estimate; Total: - Israeli,True,True
+HD01_VD51,Estimate; Total: - Italian,False,False
+HD01_VD52,Estimate; Total: - Latvian,False,False
+HD01_VD53,Estimate; Total: - Lithuanian,False,False
+HD01_VD54,Estimate; Total: - Luxemburger,False,False
+HD01_VD55,Estimate; Total: - Macedonian,False,False
+HD01_VD56,Estimate; Total: - Maltese,False,False
+HD01_VD57,Estimate; Total: - New Zealander,False,False
+HD01_VD58,Estimate; Total: - Northern European,False,False
+HD01_VD59,Estimate; Total: - Norwegian,False,False
+HD01_VD60,Estimate; Total: - Pennsylvania German,False,False
+HD01_VD61,Estimate; Total: - Polish,False,False
+HD01_VD62,Estimate; Total: - Portuguese,False,False
+HD01_VD63,Estimate; Total: - Romanian,False,False
+HD01_VD64,Estimate; Total: - Russian,False,False
+HD01_VD65,Estimate; Total: - Scandinavian,False,False
+HD01_VD66,Estimate; Total: - Scotch-Irish,False,False
+HD01_VD67,Estimate; Total: - Scottish,False,False
+HD01_VD68,Estimate; Total: - Serbian,False,False
+HD01_VD69,Estimate; Total: - Slavic,False,False
+HD01_VD70,Estimate; Total: - Slovak,False,False
+HD01_VD71,Estimate; Total: - Slovene,False,False
+HD01_VD72,Estimate; Total: - Soviet Union,False,False
+HD01_VD73,Estimate; Total: - Subsaharan African:,False,False
+HD01_VD74,Estimate; Total: - Subsaharan African: - Cape Verdean,False,False
+HD01_VD75,Estimate; Total: - Subsaharan African: - Ethiopian,False,False
+HD01_VD76,Estimate; Total: - Subsaharan African: - Ghanaian,False,False
+HD01_VD77,Estimate; Total: - Subsaharan African: - Kenyan,False,False
+HD01_VD78,Estimate; Total: - Subsaharan African: - Liberian,False,False
+HD01_VD79,Estimate; Total: - Subsaharan African: - Nigerian,False,False
+HD01_VD80,Estimate; Total: - Subsaharan African: - Senegalese,False,False
+HD01_VD81,Estimate; Total: - Subsaharan African: - Sierra Leonean,False,False
+HD01_VD82,Estimate; Total: - Subsaharan African: - Somali,False,True
+HD01_VD83,Estimate; Total: - Subsaharan African: - South African,False,False
+HD01_VD84,Estimate; Total: - Subsaharan African: - Sudanese,False,True
+HD01_VD85,Estimate; Total: - Subsaharan African: - Ugandan,False,False
+HD01_VD86,Estimate; Total: - Subsaharan African: - Zimbabwean,False,False
+HD01_VD87,Estimate; Total: - Subsaharan African: - African,False,False
+HD01_VD88,Estimate; Total: - Subsaharan African: - Other Subsaharan African,False,False
+HD01_VD89,Estimate; Total: - Swedish,False,False
+HD01_VD90,Estimate; Total: - Swiss,False,False
+HD01_VD91,Estimate; Total: - Turkish,False,True
+HD01_VD92,Estimate; Total: - Ukrainian,False,False
+HD01_VD93,Estimate; Total: - Welsh,False,False
+HD01_VD94,Estimate; Total: - West Indian (except Hispanic groups):,False,False
+HD01_VD95,Estimate; Total: - West Indian (except Hispanic groups): - Bahamian,False,False
+HD01_VD96,Estimate; Total: - West Indian (except Hispanic groups): - Barbadian,False,False
+HD01_VD97,Estimate; Total: - West Indian (except Hispanic groups): - Belizean,False,False
+HD01_VD98,Estimate; Total: - West Indian (except Hispanic groups): - Bermudan,False,False
+HD01_VD99,Estimate; Total: - West Indian (except Hispanic groups): - British West Indian,False,False
+HD01_VD100,Estimate; Total: - West Indian (except Hispanic groups): - Dutch West Indian,False,False
+HD01_VD101,Estimate; Total: - West Indian (except Hispanic groups): - Haitian,False,False
+HD01_VD102,Estimate; Total: - West Indian (except Hispanic groups): - Jamaican,False,False
+HD01_VD103,Estimate; Total: - West Indian (except Hispanic groups): - Trinidadian and Tobagonian,False,False
+HD01_VD104,Estimate; Total: - West Indian (except Hispanic groups): - U.S. Virgin Islander,False,False
+HD01_VD105,Estimate; Total: - West Indian (except Hispanic groups): - West Indian,False,False
+HD01_VD106,Estimate; Total: - West Indian (except Hispanic groups): - Other West Indian,False,False
+HD01_VD107,Estimate; Total: - Yugoslavian,False,False
+HD01_VD108,Estimate; Total: - Other groups,False,False
+HD01_VD109,Estimate; Total: - Unclassified or not reported,False,False

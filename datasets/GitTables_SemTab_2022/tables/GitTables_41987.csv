@@ -1,0 +1,141 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+1,Has a Job or a Business,1,Male,1,15 to 24 years,20191,2019-Q1,804
+1,Has a Job or a Business,1,Male,1,15 to 24 years,20192,2019-Q2,859
+1,Has a Job or a Business,1,Male,1,15 to 24 years,20193,2019-Q3,704
+1,Has a Job or a Business,1,Male,1,15 to 24 years,20194,2019-Q4,608
+1,Has a Job or a Business,1,Male,1,15 to 24 years,20201,2020-Q1,814
+1,Has a Job or a Business,1,Male,1,15 to 24 years,20203,2020-Q3,864
+1,Has a Job or a Business,1,Male,1,15 to 24 years,20204,2020-Q4,648
+1,Has a Job or a Business,1,Male,2,25 to 34 years,20191,2019-Q1,1131
+1,Has a Job or a Business,1,Male,2,25 to 34 years,20192,2019-Q2,907
+1,Has a Job or a Business,1,Male,2,25 to 34 years,20193,2019-Q3,1006
+1,Has a Job or a Business,1,Male,2,25 to 34 years,20194,2019-Q4,749
+1,Has a Job or a Business,1,Male,2,25 to 34 years,20201,2020-Q1,1143
+1,Has a Job or a Business,1,Male,2,25 to 34 years,20203,2020-Q3,1456
+1,Has a Job or a Business,1,Male,2,25 to 34 years,20204,2020-Q4,1002
+1,Has a Job or a Business,1,Male,3,35 to 44 years,20191,2019-Q1,1215
+1,Has a Job or a Business,1,Male,3,35 to 44 years,20192,2019-Q2,1091
+1,Has a Job or a Business,1,Male,3,35 to 44 years,20193,2019-Q3,1153
+1,Has a Job or a Business,1,Male,3,35 to 44 years,20194,2019-Q4,854
+1,Has a Job or a Business,1,Male,3,35 to 44 years,20201,2020-Q1,1304
+1,Has a Job or a Business,1,Male,3,35 to 44 years,20203,2020-Q3,1616
+1,Has a Job or a Business,1,Male,3,35 to 44 years,20204,2020-Q4,1119
+1,Has a Job or a Business,1,Male,4,45 to 54 years,20191,2019-Q1,1244
+1,Has a Job or a Business,1,Male,4,45 to 54 years,20192,2019-Q2,1107
+1,Has a Job or a Business,1,Male,4,45 to 54 years,20193,2019-Q3,1294
+1,Has a Job or a Business,1,Male,4,45 to 54 years,20194,2019-Q4,918
+1,Has a Job or a Business,1,Male,4,45 to 54 years,20201,2020-Q1,1399
+1,Has a Job or a Business,1,Male,4,45 to 54 years,20203,2020-Q3,1856
+1,Has a Job or a Business,1,Male,4,45 to 54 years,20204,2020-Q4,1421
+1,Has a Job or a Business,1,Male,5,55 to 64 years,20191,2019-Q1,952
+1,Has a Job or a Business,1,Male,5,55 to 64 years,20192,2019-Q2,1031
+1,Has a Job or a Business,1,Male,5,55 to 64 years,20193,2019-Q3,962
+1,Has a Job or a Business,1,Male,5,55 to 64 years,20194,2019-Q4,819
+1,Has a Job or a Business,1,Male,5,55 to 64 years,20201,2020-Q1,1188
+1,Has a Job or a Business,1,Male,5,55 to 64 years,20203,2020-Q3,1678
+1,Has a Job or a Business,1,Male,5,55 to 64 years,20204,2020-Q4,1270
+1,Has a Job or a Business,2,Female,1,15 to 24 years,20191,2019-Q1,499
+1,Has a Job or a Business,2,Female,1,15 to 24 years,20192,2019-Q2,515
+1,Has a Job or a Business,2,Female,1,15 to 24 years,20193,2019-Q3,520
+1,Has a Job or a Business,2,Female,1,15 to 24 years,20194,2019-Q4,375
+1,Has a Job or a Business,2,Female,1,15 to 24 years,20201,2020-Q1,552
+1,Has a Job or a Business,2,Female,1,15 to 24 years,20203,2020-Q3,656
+1,Has a Job or a Business,2,Female,1,15 to 24 years,20204,2020-Q4,437
+1,Has a Job or a Business,2,Female,2,25 to 34 years,20191,2019-Q1,1003
+1,Has a Job or a Business,2,Female,2,25 to 34 years,20192,2019-Q2,990
+1,Has a Job or a Business,2,Female,2,25 to 34 years,20193,2019-Q3,1274
+1,Has a Job or a Business,2,Female,2,25 to 34 years,20194,2019-Q4,732
+1,Has a Job or a Business,2,Female,2,25 to 34 years,20201,2020-Q1,1214
+1,Has a Job or a Business,2,Female,2,25 to 34 years,20203,2020-Q3,1586
+1,Has a Job or a Business,2,Female,2,25 to 34 years,20204,2020-Q4,1037
+1,Has a Job or a Business,2,Female,3,35 to 44 years,20191,2019-Q1,1184
+1,Has a Job or a Business,2,Female,3,35 to 44 years,20192,2019-Q2,1105
+1,Has a Job or a Business,2,Female,3,35 to 44 years,20193,2019-Q3,1381
+1,Has a Job or a Business,2,Female,3,35 to 44 years,20194,2019-Q4,695
+1,Has a Job or a Business,2,Female,3,35 to 44 years,20201,2020-Q1,1314
+1,Has a Job or a Business,2,Female,3,35 to 44 years,20203,2020-Q3,1784
+1,Has a Job or a Business,2,Female,3,35 to 44 years,20204,2020-Q4,1045
+1,Has a Job or a Business,2,Female,4,45 to 54 years,20191,2019-Q1,1101
+1,Has a Job or a Business,2,Female,4,45 to 54 years,20192,2019-Q2,961
+1,Has a Job or a Business,2,Female,4,45 to 54 years,20193,2019-Q3,1170
+1,Has a Job or a Business,2,Female,4,45 to 54 years,20194,2019-Q4,660
+1,Has a Job or a Business,2,Female,4,45 to 54 years,20201,2020-Q1,1211
+1,Has a Job or a Business,2,Female,4,45 to 54 years,20203,2020-Q3,1823
+1,Has a Job or a Business,2,Female,4,45 to 54 years,20204,2020-Q4,1176
+1,Has a Job or a Business,2,Female,5,55 to 64 years,20191,2019-Q1,599
+1,Has a Job or a Business,2,Female,5,55 to 64 years,20192,2019-Q2,624
+1,Has a Job or a Business,2,Female,5,55 to 64 years,20193,2019-Q3,733
+1,Has a Job or a Business,2,Female,5,55 to 64 years,20194,2019-Q4,477
+1,Has a Job or a Business,2,Female,5,55 to 64 years,20201,2020-Q1,751
+1,Has a Job or a Business,2,Female,5,55 to 64 years,20203,2020-Q3,1138
+1,Has a Job or a Business,2,Female,5,55 to 64 years,20204,2020-Q4,863
+2,No,1,Male,1,15 to 24 years,20191,2019-Q1,16577
+2,No,1,Male,1,15 to 24 years,20192,2019-Q2,16394
+2,No,1,Male,1,15 to 24 years,20193,2019-Q3,15985
+2,No,1,Male,1,15 to 24 years,20194,2019-Q4,16227
+2,No,1,Male,1,15 to 24 years,20201,2020-Q1,17118
+2,No,1,Male,1,15 to 24 years,20203,2020-Q3,12832
+2,No,1,Male,1,15 to 24 years,20204,2020-Q4,15079
+2,No,1,Male,2,25 to 34 years,20191,2019-Q1,2364
+2,No,1,Male,2,25 to 34 years,20192,2019-Q2,2420
+2,No,1,Male,2,25 to 34 years,20193,2019-Q3,2411
+2,No,1,Male,2,25 to 34 years,20194,2019-Q4,2412
+2,No,1,Male,2,25 to 34 years,20201,2020-Q1,2600
+2,No,1,Male,2,25 to 34 years,20203,2020-Q3,2573
+2,No,1,Male,2,25 to 34 years,20204,2020-Q4,2643
+2,No,1,Male,3,35 to 44 years,20191,2019-Q1,1304
+2,No,1,Male,3,35 to 44 years,20192,2019-Q2,1331
+2,No,1,Male,3,35 to 44 years,20193,2019-Q3,1304
+2,No,1,Male,3,35 to 44 years,20194,2019-Q4,1313
+2,No,1,Male,3,35 to 44 years,20201,2020-Q1,1461
+2,No,1,Male,3,35 to 44 years,20203,2020-Q3,1476
+2,No,1,Male,3,35 to 44 years,20204,2020-Q4,1564
+2,No,1,Male,4,45 to 54 years,20191,2019-Q1,1457
+2,No,1,Male,4,45 to 54 years,20192,2019-Q2,1484
+2,No,1,Male,4,45 to 54 years,20193,2019-Q3,1489
+2,No,1,Male,4,45 to 54 years,20194,2019-Q4,1501
+2,No,1,Male,4,45 to 54 years,20201,2020-Q1,1578
+2,No,1,Male,4,45 to 54 years,20203,2020-Q3,1613
+2,No,1,Male,4,45 to 54 years,20204,2020-Q4,1800
+2,No,1,Male,5,55 to 64 years,20191,2019-Q1,3596
+2,No,1,Male,5,55 to 64 years,20192,2019-Q2,3658
+2,No,1,Male,5,55 to 64 years,20193,2019-Q3,3689
+2,No,1,Male,5,55 to 64 years,20194,2019-Q4,3617
+2,No,1,Male,5,55 to 64 years,20201,2020-Q1,3801
+2,No,1,Male,5,55 to 64 years,20203,2020-Q3,3147
+2,No,1,Male,5,55 to 64 years,20204,2020-Q4,3705
+2,No,2,Female,1,15 to 24 years,20191,2019-Q1,24035
+2,No,2,Female,1,15 to 24 years,20192,2019-Q2,23671
+2,No,2,Female,1,15 to 24 years,20193,2019-Q3,23405
+2,No,2,Female,1,15 to 24 years,20194,2019-Q4,23090
+2,No,2,Female,1,15 to 24 years,20201,2020-Q1,23938
+2,No,2,Female,1,15 to 24 years,20203,2020-Q3,17768
+2,No,2,Female,1,15 to 24 years,20204,2020-Q4,20509
+2,No,2,Female,2,25 to 34 years,20191,2019-Q1,12583
+2,No,2,Female,2,25 to 34 years,20192,2019-Q2,12032
+2,No,2,Female,2,25 to 34 years,20193,2019-Q3,11893
+2,No,2,Female,2,25 to 34 years,20194,2019-Q4,11783
+2,No,2,Female,2,25 to 34 years,20201,2020-Q1,12170
+2,No,2,Female,2,25 to 34 years,20203,2020-Q3,9518
+2,No,2,Female,2,25 to 34 years,20204,2020-Q4,10864
+2,No,2,Female,3,35 to 44 years,20191,2019-Q1,11010
+2,No,2,Female,3,35 to 44 years,20192,2019-Q2,10774
+2,No,2,Female,3,35 to 44 years,20193,2019-Q3,10739
+2,No,2,Female,3,35 to 44 years,20194,2019-Q4,10463
+2,No,2,Female,3,35 to 44 years,20201,2020-Q1,10788
+2,No,2,Female,3,35 to 44 years,20203,2020-Q3,8559
+2,No,2,Female,3,35 to 44 years,20204,2020-Q4,9863
+2,No,2,Female,4,45 to 54 years,20191,2019-Q1,10769
+2,No,2,Female,4,45 to 54 years,20192,2019-Q2,10703
+2,No,2,Female,4,45 to 54 years,20193,2019-Q3,10778
+2,No,2,Female,4,45 to 54 years,20194,2019-Q4,10614
+2,No,2,Female,4,45 to 54 years,20201,2020-Q1,11233
+2,No,2,Female,4,45 to 54 years,20203,2020-Q3,8725
+2,No,2,Female,4,45 to 54 years,20204,2020-Q4,10256
+2,No,2,Female,5,55 to 64 years,20191,2019-Q1,11284
+2,No,2,Female,5,55 to 64 years,20192,2019-Q2,11339
+2,No,2,Female,5,55 to 64 years,20193,2019-Q3,11262
+2,No,2,Female,5,55 to 64 years,20194,2019-Q4,11286
+2,No,2,Female,5,55 to 64 years,20201,2020-Q1,11986
+2,No,2,Female,5,55 to 64 years,20203,2020-Q3,9272
+2,No,2,Female,5,55 to 64 years,20204,2020-Q4,10964

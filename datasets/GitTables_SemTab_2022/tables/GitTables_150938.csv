@@ -1,0 +1,71 @@
+col0,col1,col2,col3
+4,Fluorouracil and Folinic acid,colorectal cancer regimen,35804545.0
+5,FOLFOX,colorectal cancer regimen,35806596.0
+6,Capecitabine ,colorectal cancer regimen,35804227.0
+7,FOLFIRI,colorectal cancer regimen,35804761.0
+8,FOLFOX4 and Bevacizumab,colorectal cancer regimen,35804776.0
+9,CapeOx,colorectal cancer regimen,35804755.0
+10,FOLFIRI and Bevacizumab,colorectal cancer regimen,35804770.0
+11,FOLFIRI and Cetuximab,colorectal cancer regimen,35804792.0
+12,AT (Taxotere),breast cancer regimen,35804244.0
+13,AC,breast cancer regimen,35804199.0
+14,CMF,breast cancer regimen,35804224.0
+15,FAC,breast cancer regimen,35804216.0
+16,FEC,breast cancer regimen,35804212.0
+17,Trastuzumab ,breast cancer regimen,35804222.0
+18,AT (Taxol),breast cancer regimen,35804226.0
+19,Capecitabine ,breast cancer regimen,35804227.0
+20,Doxorubicin ,breast cancer regimen,35804134.0
+21,Epirubicin ,breast cancer regimen,35804228.0
+22,Paclitaxel ,breast cancer regimen,35804166.0
+23,Docetaxel ,breast cancer regimen,35804162.0
+24,Vinorelbine ,breast cancer regimen,35804241.0
+25,Eribulin ,breast cancer regimen,35804265.0
+26,THP (Taxotere),breast cancer regimen,35804217.0
+27,TH (Taxol),breast cancer regimen,35804201.0
+28,TH (Taxotere),breast cancer regimen,35804220.0
+29,Capecitabine and Lapatinib,breast cancer regimen,35804311.0
+30,Gemcitabine ,lung cancer regimen,35804135.0
+31,Gefitinib ,lung cancer regimen,35806413.0
+32,Pemetrexed ,lung cancer regimen,35804168.0
+33,Carboplatin and Paclitaxel,lung cancer regimen,35803572.0
+34,Vinorelbine ,lung cancer regimen,35804241.0
+35,Docetaxel ,lung cancer regimen,35804162.0
+36,Carboplatin and Gemcitabine,lung cancer regimen,35804156.0
+37,Cisplatin and Pemetrexed,lung cancer regimen,35806173.0
+38,Cisplatin and Vinorelbine,lung cancer regimen,35804260.0
+39,Erlotinib ,lung cancer regimen,35805229.0
+40,Cisplatin and Docetaxel,lung cancer regimen,35803574.0
+41,Cisplatin and Etoposide,lung cancer regimen,35805329.0
+42,Colectomy,Surgery,
+43,Mastectomy,Surgery,
+44,Lung excision,Surgery,
+45,ANCUnder2000,event,
+46,Tamoxifen ,breast cancer regimen,35804221.0
+47,Toremifene ,breast cancer regimen,35804279.0
+48,Letrozole ,breast cancer regimen,35804273.0
+50,Anastrozole ,breast cancer regimen,35804271.0
+51,Erlotinib ,lung cancer regimen,35805229.0
+52,Afatinib ,lung cancer regimen,35804392.0
+53,Osimertinib ,lung cancer regimen,35804394.0
+54,Crizotinib ,lung cancer regimen,35806424.0
+55,Ceritinib ,lung cancer regimen,35804391.0
+56,Pembrolizumab ,lung cancer regimen,35803678.0
+57,Nivolumab ,lung cancer regimen,35803677.0
+59,Pneumonia,event,
+60,Mental Disorder,event,
+61,ANCUnder500,event,
+62,End of life,event,
+63,RT,event,
+64,colorectal cancer,condition,
+65,breast cancer,condition,
+66,lung cancer,condition,
+116,Meropenem,,
+218,Imipenem,,
+221,Pip-tazo,,
+222,Cefepime,,
+223,Levofloxacin,,
+315,Ceftriaxone,,
+314,Hospital-acquired pneumonia,,
+67,ANCUnder1500,event,
+68,Febrile Neutropenia,event,

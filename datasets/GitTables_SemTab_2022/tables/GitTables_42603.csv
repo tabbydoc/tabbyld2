@@ -1,0 +1,38 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+1,Bacillus anthracis,Bacteria,exponential,1.65e-05,,,guinea pig,spores,inhalation,death,Druett 1953,http://qmrawiki.canr.msu.edu/index.php/Bacillus_anthracis:_Dose_Response_Models
+2,Burkholderia pseudomallei,Bacteria,beta-Poisson,,0.328,5430.0,C57BL/6 mice and diabetic rat,CFU,"intranasal,intraperitoneal",death,"Liu, Koo et al. 2002 and Brett and Woods 1996",http://qmrawiki.canr.msu.edu/index.php/Burkholderia_pseudomallei:_Dose_Response_Models
+3,Campylobacter jejuni and Campylobacter coli,Bacteria,beta-Poisson,,0.144,890.0,human,CFU,oral (in milk),infection,Black et al 1988,http://qmrawiki.canr.msu.edu/index.php/Campylobacter_jejuni_and_Campylobacter_coli:_Dose_Response_Models
+4,Coxiella burnetii,Bacteria,beta-Poisson,,0.357,493000000.0,C57BL/1OScN mice,PFU,intraperitoneal,death,"Williams et al, 1982",http://qmrawiki.canr.msu.edu/index.php/Coxiella_burnetii:_Dose_Response_Models
+5,Escherichia coli enterohemorrhagic (EHEC),Bacteria,exponential,0.000218,,,pig,CFU,oral (in food),shedding in feces,Cornick & Helgerson (2004),http://qmrawiki.canr.msu.edu/index.php/Escherichia_coli_enterohemorrhagic_(EHEC):_Dose_Response_Models
+6,Escherichia coli,Bacteria,beta-Poisson,,0.155,2110000.0,human,CFU,oral (in milk),positive stool isolation,DuPont et al. (1971),http://qmrawiki.canr.msu.edu/index.php/Escherichia_coli:_Dose_Response_Models
+7,Francisella tularensis,Bacteria,exponential,0.0473,,,monkeys,CFU,inhalation,death,"Day and Berendt, 1972",http://qmrawiki.canr.msu.edu/index.php/Francisella_tularensis:_Dose_Response_Models
+8,Legionella pneumophila,Bacteria,exponential,0.0599,,,guinea pig,CFU,inhalation,infection,Muller et al. (1983),http://qmrawiki.canr.msu.edu/index.php/Legionella_pneumophila:_Dose_Response_Models
+9,Listeria monocytogenes (Death as response),Bacteria,exponential,1.15e-05,,,C57B1/6J mice,CFU,oral,death,"Golnazarian, Donnelly et al. 1989",http://qmrawiki.canr.msu.edu/index.php/Listeria_monocytogenes_(Death_as_response):_Dose_Response_Models
+10,Listeria monocytogenes (Infection),Bacteria,beta-Poisson,,0.253,277.0,C57Bl/6J mice,CFU,oral,infection,Golnazarian,http://qmrawiki.canr.msu.edu/index.php/Listeria_monocytogenes_(Infection):_Dose_Response_Models
+11,Listeria monocytogenes (Stillbirths),Bacteria,beta-Poisson,,0.0422,1780000000.0,pooled,CFU,oral,stillbirths,"Smith, Williams2007",http://qmrawiki.canr.msu.edu/index.php/Listeria_monocytogenes_(Stillbirths):_Dose_Response_Models
+12,Mycobacterium avium,Bacteria,exponential,0.000693,,,deer,CFU,oral,infection,O'Brien et al(1976),http://qmrawiki.canr.msu.edu/index.php/Mycobacterium_avium:_Dose_Response_Models
+13,Pseudomonas aeruginosa (Contact lens),Bacteria,beta-Poisson,,0.19,18500.0,white rabbit,CFU,contact lens,corneal ulceration,Lawin-Brussel et al. (1993),http://qmrawiki.canr.msu.edu/index.php/Pseudomonas_aeruginosa_(Contact_lens):_Dose_Response_Models
+14,Pseudomonas aeruginosa (bacterimia),Bacteria,exponential,0.000105,,,Swiss webster mice (5day old),CFU,injected in eyelids,death,"Hazlett, Rosen et al. 1978",http://qmrawiki.canr.msu.edu/index.php/Pseudomonas_aeruginosa_(bacterimia):_Dose_Response_Models
+15,Rickettsia rickettsi,Bacteria,beta-Poisson,,0.777,21.3,Pooled data,CFU,,morbidity,"Saslaw and Carlisle 1966 and Dupont, Hornick et al. 1973",http://qmrawiki.canr.msu.edu/index.php/Rickettsia_rickettsi:_Dose_Response_Models
+16,Salmonella Typhi,Bacteria,beta-Poisson,,0.175,1110000.0,human,CFU,"oral, in milk",disease,"Hornick et al. (1966),Hornick et al. (1970)",http://qmrawiki.canr.msu.edu/index.php/Salmonella_Typhi:_Dose_Response_Models
+17,Salmonella anatum,Bacteria,beta-Poisson,,0.318,37100.0,human,CFU,"oral, with eggnog",positive stool culture,"McCullough and Elsele,1951",http://qmrawiki.canr.msu.edu/index.php/Salmonella_anatum:_Dose_Response_Models
+18,Salmonella meleagridis,Bacteria,beta-Poisson,,0.389,16800.0,human,CFU,"oral, with eggnog",infection,"McCullough and Eisele 1951,2",http://qmrawiki.canr.msu.edu/index.php/Salmonella_meleagridis:_Dose_Response_Models
+19,Salmonella nontyphoid,Bacteria,beta-Poisson,,0.21,49.8,mice,CFU,intraperitoneal,death,"Meynell and Meynell,1958",http://qmrawiki.canr.msu.edu/index.php/Salmonella_nontyphoid:_Dose_Response_Models
+20,Salmonella serotype newport,Bacteria,exponential,3.97e-06,,,human,CFU,oral,infection,"McCullough and Elsele,1951",http://qmrawiki.canr.msu.edu/index.php/Salmonella_serotype_newport:_Dose_Response_Models
+21,Shigella,Bacteria,beta-Poisson,,0.265,1480.0,human,CFU,oral (in milk),positive stool isolation,DuPont et al. (1972b),http://qmrawiki.canr.msu.edu/index.php/Shigella:_Dose_Response_Models
+22,Staphylococcus aureus,Bacteria,exponential,7.64e-08,,,human,CFU/cm2,subcutaneous,infection,Rose and Haas 1999,http://qmrawiki.canr.msu.edu/index.php/Staphylococcus_aureus:_Dose_Response_Models
+23,Vibrio cholerae,Bacteria,beta-Poisson,,0.25,243.0,human,CFU,oral (with NaHCO3),infection,"Hornick et al., (1971)",http://qmrawiki.canr.msu.edu/index.php/Vibrio_cholerae:_Dose_Response_Models
+24,Yersinia pestis,Bacteria,exponential,0.00163,,,mice,CFU,intranasal,death,Lathem et al. 2005,http://qmrawiki.canr.msu.edu/index.php/Yersinia_pestis:_Dose_Response_Models
+25,Adenovirus,Viruses,exponential,0.607,,,human,TCID50,inhalation,infection,"Couch, Cate et al. 1966",http://qmrawiki.canr.msu.edu/index.php/Adenovirus:_Dose_Response_Models
+26,Echovirus,Viruses,beta-Poisson,,1.06,922.0,human,PFU,oral,infection,"Schiff et al.,1984",http://qmrawiki.canr.msu.edu/index.php/Echovirus:_Dose_Response_Models
+27,Enteroviruses,Viruses,exponential,0.00374,,,pig,PFU,oral,infection,"Cliver, 1981",http://qmrawiki.canr.msu.edu/index.php/Enteroviruses:_Dose_Response_Models
+28,Influenza,Viruses,beta-Poisson,,0.581,945000.0,human,TCID50,intranasal,infection,"Murphy et al., 1984 & Murphy et al., 1985",http://qmrawiki.canr.msu.edu/index.php/Influenza:_Dose_Response_Models
+29,Lassa virus,Viruses,exponential,2.95,,,guinea pig,PFU,subcutaneous,death,"Jahrling et al., 1982",http://qmrawiki.canr.msu.edu/index.php/Lassa_virus:_Dose_Response_Models
+30,Poliovirus,Viruses,exponential,0.491,,,human,PD50 (mouse paralytic doses),oral (capsule),alimentary infection,Koprowski,http://qmrawiki.canr.msu.edu/index.php/Poliovirus:_Dose_Response_Models
+31,Rhinovirus,Viruses,beta-Poisson,,0.221,1.81,human,TCID50 doses,intranasal,infection,"Hendley et al., 1972",http://qmrawiki.canr.msu.edu/index.php/Rhinovirus:_Dose_Response_Models
+32,Rotavirus,Viruses,beta-Poisson,,0.253,6.17,human,FFU,oral,infection,"Ward et al, 1986",http://qmrawiki.canr.msu.edu/index.php/Rotavirus:_Dose_Response_Models
+33,SARS,Viruses,exponential,0.00246,,,mice hACE-2 and A/J,PFU,intranasal,death,"DeDiego et al., 2008 &  De Albuquerque et al., 2006",http://qmrawiki.canr.msu.edu/index.php/SARS:_Dose_Response_Models
+34,Cryptosporidium parvum and Cryptosporidium hominis,Protozoa,exponential,0.0572,,,human,oocysts,oral,infection,Messner et al. 2001,http://qmrawiki.canr.msu.edu/index.php/Cryptosporidium_parvum_and_Cryptosporidium_hominis:_Dose_Response_Models
+35,Endamoeba coli,Protozoa,beta-Poisson,,0.101,341.0,human,Cysts,oral,infection,Rendtorff 1954,http://qmrawiki.canr.msu.edu/index.php/Endamoeba_coli:_Dose_Response_Models
+36,Giardia duodenalis,Protozoa,exponential,0.0199,,,human,Cysts,oral,infection,Rendtorff 1954,http://qmrawiki.canr.msu.edu/index.php/Giardia_duodenalis:_Dose_Response_Models
+37,Naegleria fowleri,Protozoa,exponential,3.42e-07,,,mice,no of trophozoites,intravenous,death,Adams et al. 1976 & Haggerty and John 1978,http://qmrawiki.canr.msu.edu/index.php/Naegleria_fowleri:_Dose_Response_Models

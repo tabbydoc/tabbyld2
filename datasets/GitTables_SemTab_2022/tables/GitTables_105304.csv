@@ -1,0 +1,57 @@
+col0,col1,col2,col3,col4
+SACC,sensor accuracy,all,1,Reported accuracy (trueness) of sensor in units of measurement.
+SPRE,sensor precision,all,1,Reported precision (repeatability) of sensor in units of measurement
+B002033,sensor type - salinity,salinity,0,
+B002038,sensor type - water temperature,water temperature,0,
+B002051,sensor type - extremes,air temperature,0,
+B002096,sensor type - air temperature,air temperature,0,
+B002097,sensor type - humidity,humidity,0,
+B002169,sensor type - wind speed,wind speed,0,
+B002185,sensor type - evaporation,evaporation,0,
+B003003,sensor housing - type,all,0,
+B003004,sensor housing - radiation shielding,all,0,
+B003008,sensor housing - ventilation,all,0,
+B003020,sensor housing - material,all,0,
+B003021,sensor housing - heating,all,0,
+B003022,sensor owner,all,0,
+B003023,sensor housing - configuration,all,0,
+BARG,sensor type - barograph,pressure trend,0,
+BARM,sensor type - barometer,pressure,0,
+CALINT,calibration interval,all,1,Maximum number of months recommended between calibrations.
+CALMETH,calibration method,all,0,Method used to calibrate instrument
+CALREF,calibration reference,all,2,"Reference instrument (make, model and serial number) used to perform calibtation"
+CALDEV,calibration chamber,all,2,Calibration chamber (or device) used to perform the calibration
+CALPRTY,calibration party,all,2,Who performed the calibration
+CALRES,calibration result,all,2,Result of the calibration
+CALCERT,calibration certificate,all,2,Certificate number of calibration certificate
+FREQ,sampling frequency,all,1,time period (s) between successive measurements from sensor
+IBS,ice bulb status,humidity,0,
+LDCL,sensor location - distance from center line,wind speed,1,
+LDFB,sensor location - distance from bow,wind speed,1,
+LHAD,sensor location - height above deck,wind speed,1,
+MANU,manufacturer,all,0,
+QCPROC,quality control procedure,all,0,Procedure used to quality control the observation and set quality flag
+SERIAL,serial number,all,2,
+SHVR,sensor housing - ventilation rate,all,1,
+SLOC,sensor location - ship,all,0,
+SMAX,sensor range - max,all,1,Maximum observable value with sensor in reported units of measurement
+SMIN,sensor range - min,all,1,Minimum observable value with sensor in reported units of measurement
+SMOD,sensor model,all,2,
+SOFT,software_version,all,2,
+SPROC,sampling procedure,all,0,how the sample was obtained
+SRES,sensor resolution,all,1,
+SRESP,sensor response time,all,1,Time (s) for sensor to chnage from previous state to current state
+SRR,sensor type - precipitation,precipitation,0,
+SSIDE,sensor side - ship,all,0,
+STAB,sensor stability,all,1,Reported stability of sensor in reported units of measurement per year.
+SWV,sensor type - waves,waves,0,
+SWW,sensor type - present weather,present weather,0,
+STREAT,sample treatment,all,0,treatment of the sample prior to analysis
+TSONDE,telemetry_sonde,sonde,0,
+WGHT,weight,sonde,1,
+STIME,sample times,all,3,time of the samples used to calculate statistics
+INSTDATE,installation date,all,3,Date when sensor was installed
+MNTDATE,maintenance date,all,3,Date when maintenance performed (use MTNCE to summarise activites undertaken)
+MNTMETH,maintenance,all,2,Summary of maintenance performed
+MNTPRTY,maintenance party,all,2,Who performed the maintenance
+MNTINT,maintenance interval,all,1,Maximum number of months recommended between maintenance activities

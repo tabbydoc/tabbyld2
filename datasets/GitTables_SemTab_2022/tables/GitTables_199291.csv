@@ -1,0 +1,47 @@
+col0,col1,col2,col3
+0,cvisb:AdministrativeArea,name,"Name of the adminstrative area, e.g. Sierra Leone"
+1,cvisb:AdministrativeArea,alternateName,"Alternative name of the admin area, for instance in a different language"
+2,cvisb:AdministrativeArea,administrativeType,"Type of administative area, e.g. province (Adm 1), district (Adm 2), chiefdom (Adm 3), village (Adm 4)"
+3,cvisb:AdministrativeArea,administrativeUnit,"level of administative area, e.g. 1: province, 2: district, 3: chiefdom, 4: village for Sierra Leone"
+4,cvisb:AdministrativeArea,identifier,"identifier  / short name for administrative area. Note: where possible, align to governmental codes for the Administrative Area"
+5,cvisb:DataCatalog,updatedBy,Person who updated the data catalog data
+6,cvisb:DataDownload,updatedBy,Person who updated the data download data
+7,cvisb:Dataset,updatedBy,Person who updated the dataset data
+8,cvisb:DerivedSample,sourceSampleID,Sample ID for the primary source of the derived sample
+9,cvisb:DerivedSample,primarySampleDate,"Date of *primary* sample creation/collection (e.g. blood draw, tissue sample, urine/feces collection) (YYYY-MM-DD)"
+10,cvisb:ELISA,sampleID,sampleID associated with the ELISA measurement
+11,cvisb:Experiment,sampleID,Sample ID used in the experiment
+12,cvisb:Experiment,privatePatientID,Private Patient ID used within the experiment. Link to patient metadata properties
+13,cvisb:Experiment,updatedBy,Person who updated the experiment data
+16,cvisb:Patient,alternateIdentifier,"Alternative ID(s) used for patient (including G-number, S-number, or C-numbers, available to consortia members only)"
+17,cvisb:Patient,gID,"Internal G-number used to refer to the patients when they're in the acute treatment phase at KGH. For most samples, should be a single gID; however, some patients have two."
+18,cvisb:Patient,sID,Internal survivor ID used to refer to the patients during follow-up visits. Can include either survivors (S-numbers) or contacts (C-numbers)
+19,cvisb:Patient,updatedBy,Person who updated the patient data
+20,cvisb:Patient,updatedBy,"A list of the changes made to the Patient metadata. Optional, but useful to tag when and/or why specific fields were changed."
+21,cvisb:Patient,_source,Internal tracking of who supplied the patient metadata
+31,cvisb:Patient,relatedToPrivate,A list of related household contacts's private patientIDs
+35,cvisb:Person,givenName,"Given name. In the U.S., the first name of a Person. This can be used along with familyName instead of the name property."
+36,cvisb:Person,additionalName,"An additional name for a Person, can be used for a middle name"
+37,cvisb:Person,familyName,"Family name. In the U.S., the last name of an Person. This can be used along with givenName instead of the name property."
+38,cvisb:Person,name,"Full name of the person-- concatenation of givenName, additionalName, familyName. givenName, additionalName, and familyName are the preferred way of specifying the name."
+39,cvisb:Sample,sampleID,"unique ID for the derived sample; ideally, the combination of sampleType and isolationDate. Should *not* contain non-public IDs."
+40,cvisb:Sample,sampleLabel,"Label for what the sample is called on sample tubes, etc."
+41,cvisb:Sample,alternateIdentifier,Alternate identifers for sample. Can contain private IDs.
+42,cvisb:Sample,name,Descriptive name of the derived sample
+43,cvisb:Sample,description,Short description of the derived sample
+44,cvisb:Sample,privatePatientID,"Unique *private* patient id, e.g. G-number, S-number, C-number"
+45,cvisb:Sample,isolationDate,"Date of sample creation/collection (NOT date of blood draw/tissue collection, unless the sample is that primary sample) (YYYY-MM-DD)"
+46,cvisb:Sample,location,"Current location(s) for the sample, including Lab, number of aliquots, and when the info was last updated"
+47,cvisb:Sample,updatedBy,Person who updated the sample location
+48,cvisb:SampleLocation,lab,Current location of sample
+49,cvisb:SampleLocation,numAliquots,"Number of aliquots for a particular sampleID at a particular lab location. If sample has been used up, numAliquots = 0"
+50,cvisb:SampleLocation,freezerID,Freezer in which the sample is located within the lab.
+51,cvisb:SampleLocation,freezerRack,Rack in the freezer in which the sample is located within the lab.
+52,cvisb:SampleLocation,freezerBox,Box in the rack/freezer in which the sample is located within the lab.
+53,cvisb:SampleLocation,freezerBoxCell,"Cell within the freezer box in which the sample is located within the lab, for example ""C12""."
+54,cvisb:SampleLocation,dateModified,Date of last update (YYYY-MM-DD)
+55,cvisb:SampleLocation,updatedBy,Person who updated the sample location
+56,cvisb:UpdateLog,notes,Text log describing why changes were made.
+57,cvisb:UpdateLog,updatedBy,Who made the update
+58,cvisb:UpdateLog,dateModified,When the update happened
+59,cvisb:UpdateLog,updatedVariables,A list of variables/fields affected by the changes.

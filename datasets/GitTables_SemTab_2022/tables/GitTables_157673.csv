@@ -1,0 +1,26 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27
+AFG,278763,Total fertility rate 15-49,5.3,1,AF,Afghanistan,2015,AF2015DHS,FE_FRTR_W_TFR,11763080,I,1000,0,Total,Total,0,,1,1,FEFRTRWTFR,,2015,DHS,,,,
+AFG,330746,Married women currently using any method of contraception,22.5,1,AF,Afghanistan,2015,AF2015DHS,FP_CUSM_W_ANY,32633010,I,1000,0,Total,Total,0,,1,1,FPCUSMWANY,,2015,DHS,28671.0,28661.0,,
+AFG,330747,Married women currently using any modern method of contraception,19.8,1,AF,Afghanistan,2015,AF2015DHS,FP_CUSM_W_MOD,32633020,I,1000,0,Total,Total,0,,1,1,FPCUSMWMOD,,2015,DHS,28671.0,28661.0,,
+AFG,330853,Unmet need for family planning,24.5,1,AF,Afghanistan,2015,AF2015DHS,FP_NADM_W_UNT,32933030,I,1000,0,Total,Total,0,,1,1,FPNADMWUNT,,2015,DHS,28671.0,28661.0,,
+AFG,447363,Demand for family planning satisfied by modern methods,42.2,1,AF,Afghanistan,2015,AF2015DHS,FP_NADM_W_PDM,32933150,I,1000,0,Total,Total,0,,1,1,FPNADMWPDM,,2015,DHS,13457.0,13144.0,,
+AFG,145552,Median age at first marriage [Women]: 25-49,18.5,1,AF,Afghanistan,2015,AF2015DHS,MA_AAFM_W_M2B,41633090,I,1000,0,Total,Total,0,,1,1,MAAAFMWM2B,,2015,DHS,,,,
+AFG,145570,Median age at first sexual intercourse [Women]: 25-49,18.7,1,AF,Afghanistan,2015,AF2015DHS,SX_AAFS_W_M2B,51703090,I,1000,0,Total,Total,0,,1,1,SXAAFSWM2B,,2015,DHS,,,,
+AFG,203341,Infant mortality rate,45.0,0,AF,Afghanistan,2015,AF2015DHS,CM_ECMR_C_IMR,63206030,I,1000,0,Total,Total,14001,Five years preceding the survey,1,1,CMECMRCIMR,,2015,DHS,,,39.0,51.0
+AFG,203456,Infant mortality rate,50.0,0,AF,Afghanistan,2015,AF2015DHS,CM_ECMR_C_IMR,63206030,I,1000,0,Total,Total,14003,Ten years preceding the survey,1,0,CMECMRCIMR,,2015,DHS,,,45.0,54.0
+AFG,131776,Under-five mortality rate,55.0,0,AF,Afghanistan,2015,AF2015DHS,CM_ECMR_C_U5M,63206050,I,1000,0,Total,Total,14001,Five years preceding the survey,1,1,CMECMRCU5M,,2015,DHS,,,49.0,62.0
+AFG,203334,Under-five mortality rate,62.0,0,AF,Afghanistan,2015,AF2015DHS,CM_ECMR_C_U5M,63206050,I,1000,0,Total,Total,14003,Ten years preceding the survey,1,0,CMECMRCU5M,,2015,DHS,,,56.0,68.0
+AFG,131746,Pregnancy-related mortality ratio,1291.0,0,AF,Afghanistan,2015,AF2015DHS,MM_MMRO_W_PMR,77033020,I,1000,0,Total,Total,0,,1,1,MMMMROWPMR,,2015,DHS,,,1071.0,1512.0
+AFG,467709,Place of delivery: Health facility,51.8,1,AF,Afghanistan,2015,AF2015DHS,RH_DELP_C_DHF,83566070,I,1000,0,Total,Total,14000,Three years preceding the survey,1,0,RHDELPCDHF,,2015,DHS,19021.0,19391.0,,
+AFG,522425,Place of delivery: Health facility,48.1,1,AF,Afghanistan,2015,AF2015DHS,RH_DELP_C_DHF,83566070,I,1000,0,Total,Total,14001,Five years preceding the survey,1,1,RHDELPCDHF,,2015,DHS,31802.0,32712.0,,
+AFG,178566,Received all 8 basic vaccinations,45.7,1,AF,Afghanistan,2015,AF2015DHS,CH_VACC_C_BAS,93906230,I,1000,0,Total,Total,0,,1,1,CHVACCCBAS,,2015,DHS,5708.0,5820.0,,
+AFG,7042,Treatment of diarrhea: Either ORS or RHF,50.1,1,AF,Afghanistan,2015,AF2015DHS,CH_DIAT_C_ORT,94106040,I,1000,0,Total,Total,14000,Three years preceding the survey,1,0,CHDIATCORT,,2015,DHS,5872.0,5290.0,,
+AFG,523922,Treatment of diarrhea: Either ORS or RHF,50.3,1,AF,Afghanistan,2015,AF2015DHS,CH_DIAT_C_ORT,94106040,I,1000,0,Total,Total,14001,Five years preceding the survey,1,1,CHDIATCORT,,2015,DHS,8687.0,7990.0,,
+AFG,278545,Median duration of exclusive breastfeeding,1.8,1,AF,Afghanistan,2015,AF2015DHS,CN_BFDR_C_MDE,104336020,I,1000,0,Total,Total,0,,1,1,CNBFDRCMDE,,2015,DHS,,,,
+AFG,113776,Children under 5 who slept under an insecticide-treated net (ITN),4.6,1,AF,Afghanistan,2015,AF2015DHS,ML_NETC_C_ITN,124836020,I,1000,0,Total,Total,0,,1,1,MLNETCCITN,,2015,DHS,31144.0,32489.0,,
+AFG,57095,Women receiving an HIV test and receiving test results in the last 12 months,0.4,1,AF,Afghanistan,2015,AF2015DHS,HA_CPHT_W_T1R,135563070,I,10000,10000,Total 15-49,Total 15-49,0,,1,1,HACPHTWT1R,,2015,DHS,29461.0,29461.0,,
+AFG,154741,Men receiving an HIV test and receiving test results in the last 12 months,1.7,1,AF,Afghanistan,2015,AF2015DHS,HA_CPHT_M_T1R,135564160,I,10000,10000,Total 15-49,Total 15-49,0,,1,1,HACPHTMT1R,,2015,DHS,10760.0,10760.0,,
+AFG,122784,Physical or sexual violence committed by husband/partner,50.8,1,AF,Afghanistan,2015,AF2015DHS,DV_SPVL_W_POS,197433060,I,10000,10000,Total 15-49,Total 15-49,0,,1,1,DVSPVLWPOS,,2015,DHS,21324.0,21324.0,,
+AFG,458025,Women with secondary or higher education,8.6,1,AF,Afghanistan,2015,AF2015DHS,ED_EDUC_W_SEH,211203100,I,10000,10000,Total 15-49,Total 15-49,0,,1,1,EDEDUCWSEH,,2015,DHS,29461.0,29461.0,,
+AFG,204147,Women who are literate,14.8,1,AF,Afghanistan,2015,AF2015DHS,ED_LITR_W_LIT,211233090,I,10000,10000,Total 15-49,Total 15-49,0,,1,1,EDLITRWLIT,,2015,DHS,29461.0,29461.0,,
+AFG,62404,Households with electricity,71.5,1,AF,Afghanistan,2015,AF2015DHS,HC_ELEC_H_ELC,240301010,I,1000,0,Total,Total,0,,1,1,HCELECHELC,,2015,DHS,24395.0,24395.0,,

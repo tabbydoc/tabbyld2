@@ -1,0 +1,29 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1,Marcá la imagen que tenga las hojas de la Lenga,Type2,1,"Imagenes de producción propia, CIEFAP",1,,1
+2,Marcá las imagenes donde se vean Lengas,Type2,2,"Imagenes de producción propia, CIEFAP",1,,2
+3,¿Se vé como un bosque de Lenga?,Type1,3,"(c) 2015 Bing, Microsoft Corporation, Digital Globe, HERE.""",1,29.0,3
+4,El Guindo es nativo del bosque andino-patagónicos.¿En qué provincias es más frecuente encontrarlo?,Type1,1,,10,100.0,4
+5,¿Cuales de estas imágenes de invierno tienen árboles de Guindo?,Type2,2,,10,,5
+6,¿Cuál de estas imágenes de verano tienen árboles de Guindo?,Type2,3,,10,,6
+7,"Según estas imágenes, ¿En qué parte de las laderas crece el bosque de Guindo con mayor frecuencia?",Type1,4,,10,60.0,7
+8,¿Cuál de estas imágenes corresponde a un bosque alto de Guindo?,Type2,5,,10,,8
+9,¿Cual de estas imágenes corresponden a bosque de Guindo Juvenil?,Type2,6,,10,,9
+10,¿En cuales de estas imágenes se ven indicios de incendios?,Type2,1,,20,,10
+11,¿Qué tipo de cobertura domina en el área afectada por el incendio?,Type1,2,,20,86.0,10
+12,¿Qué tipo de cobertura domina en el área afectada por el incendio?,Type1,3,,20,149.0,10
+13,¿Qué tipo de cobertura domina en el área afectada por el incendio?,Type1,4,,20,85.0,10
+14,¿Cuál de estos incendios es más reciente?,Type2,5,,20,,10
+15,Esta foto es de un incendio reciente. ¿Cómo se vería este lugar en una imagen SPOT (bandas 3-4-2)?,Type1,6,,20,43.0,10
+16,El Roble Pellín es nativo del bosque Andino-Patagónicos.¿En qué provincias es frecuente encontrarlo?,Type1,1,,30,127.0,11
+17,En la imagen se resalta el bosque de Roble. ¿Cómo es el ambiente donde crece?,Type1,2,,30,83.0,12
+18,¿Cuál de estas imágenes corresponde a un bosque de Roble Pellín?,Type2,3,,30,,13
+19,En esta imagen de invierno se resalta un bosque de Roble Pellín. ¿Qué otra especie lo acompaña?,Type1,4,,30,112.0,14
+20,¿Qué otra información sería útil tener para diferenciar Roble Pellín de Lenga y Raulí en esta imagen,Type1,5,,30,53.0,15
+21,¿Qué tipo de humedal es el de esta imagen?,Type1,1,,40,68.0,16
+22,¿Qué tipo de humedal es el de esta imagen?,Type1,2,,40,111.0,16
+23,¿Qué tipo de humedal es el de esta imagen?,Type1,3,,40,99.0,16
+24,¿Cuál de estas imágenes no es un humedal?,Type2,4,,40,,17
+25,¿Qué condiciones se deben cumplir para que un lugar sea un humedal?,Type1,5,,40,122.0,18
+26,¿Qué se debe cumplir para que un humedal sea considerado mallín?,Type1,6,,40,45.0,19
+27,¿Qué se debe cumplir para que un humedal sea considerado turbera?,Type1,7,,40,54.0,19
+28,"¿Qué se debe cumplir para que un humedal sea considerado ""Otros Humedales""?",Type1,8,,40,55.0,19

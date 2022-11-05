@@ -1,0 +1,60 @@
+col0,col1,col2,col3,col4,col5,col6
+1, , KoolChart, , , Object,
+1_2, 1, Width, 660, Chart's width, Number," {""rowEdit"":{""value"":true}}"
+1_3, 1, Height, 600, Chart's height, Number," {""rowEdit"":{""value"":true}}"
+1_18, 1, Title, , Chart's title, Object," {""expand"": false}"
+1_18_1, 1_18, Text, Sales report for 2012, Title's text, String," {""rowEdit"":{""value"":true}}"
+1_18_2, 1_18, Appearance, , Title's appearance, Object, 
+1_18_2_3, 1_18_2, Position, Top, Set title's position, String," {""rowEdit"":{""value"":{""type"":""select"",""options"":[""Top"",""Bottom""]}}}"
+1_18_2_4, 1_18_2, Translate," [0, 0]", Initial translation by pixel, Array," {""rowEdit"":{""value"":true}}"
+1_18_2_5, 1_18_2, SelfTranslate," [0, 0]", Initial translation by each element's length and height, Array," {""rowEdit"":{""value"":true}}"
+1_18_2_6, 1_18_2, SelfWholeTranslate," [0, 0]", Initial translation by one element's length and height, Array," {""rowEdit"":{""value"":true}}"
+1_18_2_7, 1_18_2, FullyVisible, false, Automatically adjust plot area to make room for occluded element or not, Bool," {""rowEdit"":{""value"":{""type"":""checkbox""}}}"
+1_19, 1, Legend, , Chart's legend, Object, 
+1_19_1, 1_19, Appearance, , Title's appearance, Object, 
+1_19_1_2, 1_19_1, Position, Top, Set legend's position, String," {""rowEdit"":{""value"":{""type"":""select"",""options"":[""Top"",""Bottom"",""Left"",""Right""]}}}"
+1_19_1_4, 1_19_1, Translate," [0, 0]", Initial translation by pixel, Array," {""rowEdit"":{""value"":true}}"
+1_19_1_5, 1_19_1, SelfTranslate," [0, 0]", Initial translation by each element's length and height, Array," {""rowEdit"":{""value"":true}}"
+1_19_1_6, 1_19_1, SelfWholeTranslate," [0/2, 0]", Initial translation by one element's length and height, Array," {""rowEdit"":{""value"":true}}"
+1_19_1_7, 1_19_1, FullyVisible, false, Automatically adjust plot area to make room for occluded element or not, Bool," {""rowEdit"":{""value"":{""type"":""checkbox""}}}"
+1_20, 1, PlotArea, , Chart's plot area, Object," {""expand"": false}"
+1_20_1, 1_20, XAxis, , Plot area's X axis, Object, 
+1_20_1_1, 1_20_1, Title, Quarters (long string 1 long string 2), X axis' title, String," {""rowEdit"":{""value"":true}}"
+1_20_1_13, 1_20_1, TitleAppearance, , X axis' title appearance, Object," {""expand"": false}"
+1_20_1_13_11, 1_20_1_13, Position, center, Set X axis' title's position, String," {""rowEdit"":{""value"":{""type"":""select"",""options"":[""left"",""center"",""right""]}}}"
+1_20_1_13_3, 1_20_1_13, RotationAngle, 0, X axis' title's initial angle, Number," {""rowEdit"":{""value"":true}}"
+1_20_1_13_4, 1_20_1_13, Translate," [0, 0]", Initial translation by pixel, Array," {""rowEdit"":{""value"":true}}"
+1_20_1_13_5, 1_20_1_13, SelfTranslate," [0, 0]", Initial translation by each element's length and height, Array," {""rowEdit"":{""value"":true}}"
+1_20_1_13_6, 1_20_1_13, SelfWholeTranslate," [0, 0]", Initial translation by one element's length and height, Array," {""rowEdit"":{""value"":true}}"
+1_20_1_13_7, 1_20_1_13, FullyVisible, false, Automatically adjust plot area to make room for occluded element or not, Bool," {""rowEdit"":{""value"":{""type"":""checkbox""}}}"
+1_20_1_12, 1_20_1, LabelsAppearance, , X axis' label appearance, Object, 
+1_20_1_12_3, 1_20_1_12, RotationAngle, 15, X axis' label's initial angle, Number," {""rowEdit"":{""value"":true}}"
+1_20_1_12_4, 1_20_1_12, Translate," [0, 0]", Initial translation by pixel, Array," {""rowEdit"":{""value"":true}}"
+1_20_1_12_5, 1_20_1_12, SelfTranslate," [1/2, 0]", Initial translation by each element's length and height, Array," {""rowEdit"":{""value"":true}}"
+1_20_1_12_6, 1_20_1_12, SelfWholeTranslate," [0, 0]", Initial translation by one element's length and height, Array," {""rowEdit"":{""value"":true}}"
+1_20_1_12_7, 1_20_1_12, FullyVisible, true, Automatically adjust plot area to make room for occluded element or not, Bool," {""rowEdit"":{""value"":{""type"":""checkbox""}}}"
+1_20_1_16, 1_20_1, Items, , X axis' array of category items, Array, 
+1_20_1_16_1, 1_20_1_16, Category item 0, , Category item, Object, 
+1_20_1_16_1_1, 1_20_1_16_1, Text, Q1 (long string 1 long string 2 long string 3), Category item's text, String," {""rowEdit"":{""value"":true}}"
+1_20_1_16_2, 1_20_1_16, Category item 1, , Category item, Object," {""expand"": false}"
+1_20_1_16_2_1, 1_20_1_16_2, Text, Q2, Category item's text, String," {""rowEdit"":{""value"":true}}"
+1_20_1_16_3, 1_20_1_16, Category item 2, , Category item, Object," {""expand"": false}"
+1_20_1_16_3_1, 1_20_1_16_3, Text, Q3, Category item's text, String," {""rowEdit"":{""value"":true}}"
+1_20_1_16_4, 1_20_1_16, Category item 3, , Category item, Object," {""expand"": false}"
+1_20_1_16_4_1, 1_20_1_16_4, Text, Q4  (long string 1 long string 2), Category item's text, String," {""rowEdit"":{""value"":true}}"
+1_20_2, 1_20, YAxis, , Plot area's Y axis, Object,
+1_20_2_1, 1_20_2, Title, Sales (long string 1 long string 2), Y axis' title, String," {""rowEdit"":{""value"":true}}"
+1_20_2_13, 1_20_2, TitleAppearance, , Y axis' title appearance, Object,
+1_20_2_13_11, 1_20_2_13, Position, Center, Set Y axis' title's position, String," {""rowEdit"":{""value"":{""type"":""select"",""options"":[""Top"",""Center"",""Bottom""]}}}"
+1_20_2_13_3, 1_20_2_13, RotationAngle, 0, Y axis' title's initial angle, Number," {""rowEdit"":{""value"":true}}"
+1_20_2_13_4, 1_20_2_13, Translate," [0, 0]", Initial translation by pixel, Array," {""rowEdit"":{""value"":true}}"
+1_20_2_13_5, 1_20_2_13, SelfTranslate," [0, -3/4]", Initial translation by each element's length and height, Array," {""rowEdit"":{""value"":true}}"
+1_20_2_13_6, 1_20_2_13, SelfWholeTranslate," [0, 0]", Initial translation by one element's length and height, Array," {""rowEdit"":{""value"":true}}"
+1_20_2_13_7, 1_20_2_13, FullyVisible, false, Automatically adjust plot area to make room for occluded element or not, Bool," {""rowEdit"":{""value"":{""type"":""checkbox""}}}"
+1_20_2_12, 1_20_2, LabelsAppearance, , Y axis' label appearance, Object,
+1_20_2_12_2, 1_20_2_12, DataFormatString, {0} M (long string 1 long string 2), Set the format of Y axis' labels, String," {""rowEdit"":{""value"":true}}"
+1_20_2_12_3, 1_20_2_12, RotationAngle, 0, Y axis' label's initial angle, Number," {""rowEdit"":{""value"":true}}"
+1_20_2_12_4, 1_20_2_12, Translate," [0, 0]", Initial translation by pixel, Array," {""rowEdit"":{""value"":true}}"
+1_20_2_12_5, 1_20_2_12, SelfTranslate," [0, 0]", Initial translation by each element's length and height, Array," {""rowEdit"":{""value"":true}}"
+1_20_2_12_6, 1_20_2_12, SelfWholeTranslate," [0, 0]", Initial translation by one element's length and height, Array," {""rowEdit"":{""value"":true}}"
+1_20_2_12_7, 1_20_2_12, FullyVisible, false, Automatically adjust plot area to make room for occluded element or not, Bool," {""rowEdit"":{""value"":{""type"":""checkbox""}}}"

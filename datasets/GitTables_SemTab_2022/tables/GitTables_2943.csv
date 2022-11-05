@@ -1,0 +1,25 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+sample_id,Identifies the sample associated with this annotation,required,string,,,no,,st6_200m_CID
+cruise_id,Identifies the cruise on which collection occurred,required,string,,,no,,KM1128
+station_id,Identifies the station for the location this sample was taken,required,string,,,no,,6
+latitude_dd,The latitude at the station in decimal degrees (-90 to 90),required,float,decimal degrees,,no,,17
+longitude_dd,The longitude at the station in decimal degrees (-180 to 180),required,float,decimal degrees,,no,,-154.4
+depth_m,The depth in meters at which the sample as taken,required,float,meters,,no,,200
+date_y-m-d,The date of sample collection,required,string,,yyyy-mm-dd,no,,2011-10-17
+time_h-m-s,The local time of sample collection. Hour and minutes should be provided. Seconds optional,recommended,string,,hh:mm[:ss],no,,23:30
+minimum_filter_size_microns,Minimum size of the collection filter in microns,required,float,microns,,no,,0.2
+maximum_filter_size_microns,Maximum size of the collection filter in microns,required,float,microns,,no,,3
+protein_id,An identifier that uniquely identifies this protein within this dataset and the FASTA file.,required,string,,,no,The protein identifier in the FASTA file,NODE_+1234.5678
+protein_name,A name identifying this protein,required,string,,,no,,short-chain dehydrogenase/reductase SDR
+spectral_count,The spectral count,required,integer,,,no,,2
+molecular_weight_kDa,The molecular weight in kilo-Daltons of the sample,optional,float,kDa,,no,,45239.7
+ncbi_id,The NCBI identifier.,optional,string,,,no,,479434
+ncbi_name,The name as it corresponds to the preceding NCBI identifier,optional,string,,,no,,Sphaerobacter thermophilus DSM 20745
+kegg_id,The Kegg identifier.,optional,string,,,yes,,
+kegg_description,The Kegg description as it correlates to the preceding Kegg identifier.,optional,string,,,yes,,
+kegg_pathway,The Kegg pathway as it correlates to the preceding Kegg identifier.,optional,string,,,yes,,
+pfams_id,The PFams identifier.,optional,string,,,yes,,PF00886
+pfams_name,The PFams name as it correlates to the preceding PFams identifier.,optional,string,,,yes,,Ribosomal protein S16
+uniprot_id,The Uniprot identifier.,optional,string,,,yes,,A8G695
+enzyme_comm_id,The Enzyme Commission identifer.,optional,string,,,yes,,
+other_identified_proteins,Other protein IDs from the FASTA file ,optional,string,,,yes,A protein identifier in the FASTA file,

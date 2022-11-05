@@ -1,0 +1,12 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14
+sale_orders_amazon_operation,Sales Orders,1,amazon_ept_v10.action_amazon_sales_order_ept,/amazon_ept_v10/static/src/img/kanban/sale.png,0,1,1,0,0,0,0,0,0,0
+products_amazon_operation,Products,2,amazon_ept_v10.action_amazon_product_ept,/amazon_ept_v10/static/src/img/kanban/products.png,0,1,0,1,0,0,0,0,0,0
+invoices_amazon_operation,Invoices,3,amazon_ept_v10.action_invoice_tree_amazon_invoices,/amazon_ept_v10/static/src/img/kanban/invoice.png,0,1,0,0,1,0,0,0,0,0
+refund_order_amazon_operation,Refund Orders,4,amazon_ept_v10.action_amazon_order_refund_ept,/amazon_ept_v10/static/src/img/kanban/refund.png,0,1,0,0,0,0,0,1,0,0
+delivery_orders_amazon_operation,Delivery Orders,5,amazon_ept_v10.action_picking_tree_done_ept,/amazon_ept_v10/static/src/img/kanban/delivery.png,1,0,0,0,0,1,0,0,0,0
+import_export_amazon_operation,Perform Operation,6,amazon_ept_v10.action_wizard_amazon_import_export_operations,/amazon_ept_v10/static/src/img/kanban/perform_operations.png,0,1,0,0,0,0,0,0,0,0
+browse_node_amazon_operation,Browse Nodes,7,amazon_ept_v10.action_amazon_browse_node_ept,/amazon_ept_v10/static/src/img/kanban/categories.png,0,1,0,0,0,0,0,0,0,1
+invoice_workflow_amazon_operation,Invoice Workflow Settings,8,amazon_ept_v10.act_sale_workflow_process_form,/amazon_ept_v10/static/src/img/kanban/setting.png,0,1,0,0,0,0,0,0,0,0
+sales_analysis_amazon_operation,Sales Analysis,9,amazon_ept_v10.action_order_report_all,/amazon_ept_v10/static/src/img/kanban/sales_report.png,0,1,0,0,0,0,0,0,0,0
+amazon_cron_jobs_operation,Amazon Cron,10,base.ir_cron_act,/amazon_ept_v10/static/src/img/kanban/auto_jobs.png,0,1,0,0,0,0,0,0,0,1
+feed_submission_history_amazon_operation,Feed History,11,amazon_ept_v10.action_amazon_feed_submission_history_ept,/amazon_ept_v10/static/src/img/kanban/feed_history.png,0,1,0,0,0,0,0,0,0,0

@@ -1,0 +1,100 @@
+col0,col1,col2,col3
+1,1,Inne,pl
+203,203,Białko,pl
+204,204,Tłuszcz (całkowite lipidy),pl
+205,205,"Węglowodany, przez różnicę",pl
+207,207,Popiół,pl
+208,208,Energia kcal,pl
+209,209,Skrobia,pl
+210,210,Sacharoza,pl
+211,211,Glukoza (dekstroza),pl
+212,212,Fruktoza,pl
+213,213,Laktoza,pl
+214,214,Maltoza,pl
+221,221,Alkohol etylowy,pl
+255,255,Woda,pl
+262,262,Kofeina,pl
+263,263,Teobromina,pl
+268,268,Energia kJ,pl
+269,269,"Cukry, łącznie",pl
+287,287,Galaktoza,pl
+291,291,Błonnik,pl
+301,301,"Wapń, Ca",pl
+303,303,"Żelazo, Fe",pl
+304,304,"Magnez, Mg",pl
+305,305,"Fosfor, P",pl
+306,306,"Potas, K",pl
+307,307,"Sód, Na",pl
+309,309,"Cynk, Zn",pl
+312,312,"Miedź, Cu",pl
+313,313,"Fluor, F",pl
+315,315,"Mangan, Mn",pl
+317,317,"Selen, Se",pl
+318,318,"Witamina A, IU",pl
+319,319,Retinol,pl
+320,320,"Witamina A, RAE",pl
+321,321,"Karoten, beta",pl
+322,322,"Karoten, alfa",pl
+323,323,Witamina E (alfa-tokoferol),pl
+324,324,Witamina D,pl
+325,325,Witamina D2 (ergokalcyferol),pl
+326,326,Witamina D3 (cholekalcyferol),pl
+328,328,Witamina D (D2 + D3),pl
+334,334,"Kryptoksantyna, beta",pl
+337,337,Likopen,pl
+338,338,Luteina zeaksantyna +,pl
+341,341,"Tokoferol, beta",pl
+342,342,"Tokoferol, y",pl
+343,343,Tokoferol delta,pl
+344,344,"Tokotrienol, alfa",pl
+345,345,"Tokotrienolu, beta",pl
+346,346,Tokotrienol gamma,pl
+347,347,"Tokotrienol, delta",pl
+401,401,"Witamina C, kwas askorbinowy łącznie",pl
+404,404,Tiamina,pl
+405,405,Ryboflawina,pl
+406,406,Niacyna,pl
+410,410,Kwas pantotenowy,pl
+415,415,Witamina B6,pl
+417,417,"Folian, łącznie",pl
+418,418,Witamina B12,pl
+421,421,"Cholina, łączna",pl
+428,428,Menachinon-4,pl
+429,429,Dihydrophylloquinone,pl
+430,430,Witamina K (filochinon),pl
+431,431,Kwas foliowy,pl
+432,432,"Folian, żywność",pl
+435,435,"Folian, DFE",pl
+454,454,Betaina,pl
+501,501,Tryptofan,pl
+502,502,Treonina,pl
+503,503,Izoleucyna,pl
+504,504,Leucyna,pl
+505,505,Lizyna,pl
+506,506,Metionina,pl
+507,507,Cystyny,pl
+508,508,Fenyloalanina,pl
+509,509,Tyrozyna,pl
+510,510,Walina,pl
+511,511,Arginina,pl
+512,512,Histydyna,pl
+513,513,Alanina,pl
+514,514,Kwas asparaginowy,pl
+515,515,Kwas glutaminowy,pl
+516,516,Glicyna,pl
+517,517,Prolina,pl
+518,518,Seryna,pl
+521,521,Hydroksyprolina,pl
+573,573,"Witamina E, dodana",pl
+578,578,"Witaminy B12, dodana",pl
+601,601,Cholesterol,pl
+605,605,"Kwasy tłuszczowe, łącznie trans",pl
+606,606,"Kwasy tłuszczowe, łącznie nasycone",pl
+636,636,Fitosterole,pl
+638,638,Stigmasterol,pl
+639,639,Kampesterol,pl
+641,641,Beta-sitosterol,pl
+645,645,"Kwasy tłuszczowe, łącznie jednonienasycone",pl
+646,646,"Kwasy tłuszczowe, łącznie wielonienasycone",pl
+693,693,"Kwasy tłuszczowe, łącznie trans-monoenoic",pl
+695,695,"Kwasy tłuszczowe, łącznie trans-polyenoic",pl

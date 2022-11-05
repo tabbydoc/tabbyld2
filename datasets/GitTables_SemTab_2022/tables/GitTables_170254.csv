@@ -1,0 +1,156 @@
+col0,col1,col2
+Application Service Provider,AR,Application Service Provider
+Booking Management System (BMS) Call Centre Establishment,BM,Booking Management System (BMS) Call Centre Establishment
+Cancer Network,CN,Cancer Network
+Cancer Registry,CR,Cancer Registry
+Care Home Headquarters,CQ,Care Home Headquarters
+Care Trust,CT,Care Trust
+Clinical Commissioning Group (CCG),CC,Clinical Commissioning Group (CCG)
+Clinical Network,CL,Clinical Network
+Commissioning Support Unit (CSU),CA,Commissioning Support Unit (CSU)
+Court,JG,Court
+Dental Practice,DD,Dental Practice
+Education Establishment,ED,Education Establishment
+Executive Agency,EA,Executive Agency
+Executive Agency Programme,AP,Executive Agency Programme
+Government Department,GD,Government Department
+Government Office Region (GOR),GO,Government Office Region (GOR)
+Abeyance and Dispersal GP Practice,AA,Abeyance and Dispersal GP Practice
+GP Practices in England and Wales,PR,GP Practices in England and Wales
+High Level Health Geography,HA,High Level Health Geography
+Immigration Removal Centre,JD,Immigration Removal Centre
+Independent Sector Healthcare Provider (ISHP),PH,Independent Sector Healthcare Provider (ISHP)
+Independent Sector Healthcare Provider Site (ISHPS),PS,Independent Sector Healthcare Provider Site (ISHPS)
+Local Authority,EL,Local Authority
+Local Service Provider (LSP),LO,Local Service Provider (LSP)
+Military Hospital,MH,Military Hospital
+National Application Service Provider,NP,National Application Service Provider
+National Groupings,RO,National Groupings
+NHS Support Agency,NS,NHS Support Agency
+NHS Trust,TR,NHS Trust
+NHS Trust Service,TS,NHS Trust Service
+Non-NHS Organisation,NN,Non-NHS Organisation
+Northern Ireland Health & Social Care Board,,Northern Ireland Health & Social Care Board
+Northern Ireland Health & Social Care Trust,NB,Northern Ireland Health & Social Care Trust
+Northern Ireland Local Commissioning Group,NC,Northern Ireland Local Commissioning Group
+Optical Headquarters,OH,Optical Headquarters
+Other Statutory Authority (OSA),OA,Other Statutory Authority (OSA)
+Pharmacy,PY,Pharmacy
+Pharmacy Headquarters,PX,Pharmacy Headquarters
+Police Constabulary,JE,Police Constabulary
+Police Custody Suite,JF,Police Custody Suite
+Primary Care Trust,PT,Primary Care Trust
+Primary Healthcare Directorate (Isle of Man),ID,Primary Healthcare Directorate (Isle of Man)
+Prison Health Service,PN,Prison Health Service
+School,EE,School
+Secure Children's Home,JC,Secure Children's Home
+Secure Training Centre (STC),JB,Secure Training Centre (STC)
+Sexual Assault Referral Centre (SARC),JH,Sexual Assault Referral Centre (SARC)
+Special Health Authority (SpHA),SA,Special Health Authority (SpHA)
+Welsh Assembly,WA,Welsh Assembly
+Welsh Health Commission,WH,Welsh Health Commission
+Welsh Local Health Board,LH,Welsh Local Health Board
+Young Offenders Institute,JA,Young Offenders Institute
+Community Mental Health Team,CM,Community Mental Health Team
+Hospital,HO,Hospital
+Clinic,CI,Clinic
+Health Authority,HU,Health Authority
+Primary Care Organisation,PC,Primary Care Organisation
+Branch Surgery,BR,Branch Surgery
+Out of Hours,OO,Out of Hours
+Nursing Home,NH,Nursing Home
+General Practice,PR,GP Practices in England and Wales
+General Practice Surgery,PR,GP Practices in England and Wales
+Main Surgery,PR,GP Practices in England and Wales
+GP Contract,PR,GP Practices in England and Wales
+GP Practice,PR,GP Practices in England and Wales
+GP Surgery,PR,GP Practices in England and Wales
+G.P.Surgery,PR,GP Practices in England and Wales
+CCG,CC,Clinical Commissioning Group (CCG)
+PCT Site,PT,Primary Care Trust
+PCT,PT,Primary Care Trust
+NHS Trust Site,SI,NHS Trust Site
+Community,CO,Community
+Community Unit,CO,Community
+Community Health Clinic,CO,Community
+Community Clinic,CO,Community
+Hospice,HP,Hospice
+Hospitals,HO,Hospital
+Hospitals Trust,HO,Hospital
+Centre,CI,Clinic
+Surgery or Clinic,CI,Clinic
+Health Centres,CI,Clinic
+Clinic NHS,CI,Clinic
+Strategic Health Authority,SH,Strategic Health Authority
+Health Board,LH,Welsh Local Health Board
+Health Authority (trading),HU,Health Authority
+Primary Care Centre,PC,Primary Care Organisation
+Clinic Private,PV,Private Clinic
+Private Clinic,PV,Private Clinic
+Hospital Department,HD,Hospital Department
+"Out of Hours, Non Practice",OO,Out of Hours
+Community Mental Health team,CM,Community Mental Health Team
+Unknown,,leave unmapped
+Other,,leave unmapped
+Service,,leave unmapped
+Local Authority Premises,EL,Local Authority
+National Health Service,,leave unmapped
+Trust,TR,NHS Trust
+EMIS,,leave unmapped
+Opticians,,leave unmapped
+Dental,DD,Dental Practice
+Hospital Inpatient,HO,Hospital
+Other Agency,,leave unmapped
+Residential Home,,leave unmapped
+General Dental Practice,DD,Dental Practice
+Registered non-NHS Provider,NN,Non-NHS Organisation
+Directly Managed Unit,,leave unmapped
+Social Services Department,,leave unmapped
+Insurance organisations for patients,,leave unmapped
+Armed forces,,leave unmapped
+County Local Authority,EL,Local Authority
+General Practitioner Fund Holder,,leave unmapped
+Department of Health,,leave unmapped
+Unit,,leave unmapped
+In Practice Systems Practices,,leave unmapped
+Residential Institutes,,leave unmapped
+Unregistered non-NHS Provider,,leave unmapped
+Clinical Admin,,leave unmapped
+Laboratory,,leave unmapped
+University College Hospital,,leave unmapped
+Hospital Visit,HO,Hospital
+GP Branch surgery,BR,Branch Surgery
+Telephone Call,,leave unmapped
+Day care facility,,leave unmapped
+Place Not Specified,,leave unmapped
+Appointment,,leave unmapped
+Diabetic Clinic,,leave unmapped
+Third Party,,leave unmapped
+Clinic Premises,CI,Clinic
+Hospital Outpatient,HO,Hospital
+Hospital Outpatient Consultation,HO,Hospital
+Commissioning Agency,,leave unmapped
+103031 Exp 6/04,,leave unmapped
+Externally Entered,,leave unmapped
+Apollo attached document,,leave unmapped
+Health Authority Trading Organisation,,leave unmapped
+Trading Organisation,,leave unmapped
+Childrens Home,,leave unmapped
+Company,,leave unmapped
+Primary Care Group,,leave unmapped
+Guys & St Thomas',,leave unmapped
+Family Planning Clinic,,leave unmapped
+Place,,leave unmapped
+Drug Manufacturer,,leave unmapped
+Room,,leave unmapped
+HOSPITAL,HO,Hospital
+*HOSPITAL,HO,Hospital
+Accident & Emergency Dept,AE,Accident & Emergency
+Elsewhere other,,leave unmapped
+District Health Authority,HU,Health Authority
+Other Location,,leave unmapped
+UNKNOWN,,leave unmapped
+Admin,,leave unmapped
+Professional Insurance organisations,,leave unmapped
+Self-Help Groups,,leave unmapped
+Gateway,,leave unmapped

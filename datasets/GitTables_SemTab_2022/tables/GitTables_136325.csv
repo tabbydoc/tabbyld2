@@ -1,0 +1,28 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+1317728,RefSeq,NC_000016.10,83899145.0,83915489.0,+,NP_036345.2,"malonyl-CoA decarboxylase, mitochondrial",Homo sapiens,,GCF_000001405.39
+1317728,RefSeq,NG_009079.1,5021.0,21365.0,+,NP_036345.2,"malonyl-CoA decarboxylase, mitochondrial",Homo sapiens,,
+1317728,RefSeq,NM_012213.3,31.0,1512.0,+,NP_036345.2,"malonyl-CoA decarboxylase, mitochondrial",Homo sapiens,,
+1317728,Swiss-Prot,,,,,O95822.3,"Malonyl-CoA decarboxylase, mitochondrial",Homo sapiens,,
+1317728,INSDC,BC052592.1,21.0,1502.0,+,AAH52592.1,malonyl-CoA decarboxylase,Homo sapiens,,
+1317728,INSDC,CH471114.2,9473710.0,9490055.0,+,EAW95513.1,malonyl-CoA decarboxylase,Homo sapiens,,
+1317728,INSDC,CM000267.1,68233796.0,68250141.0,+,EAW95513.1,malonyl-CoA decarboxylase,Homo sapiens,,
+1350887,INSDC,AF090834.1,1.0,1482.0,+,AAD48994.1,malonyl coenzyme A decarboxylase,Homo sapiens,,
+31310050,RefSeq,NC_036895.1,69571526.0,69587854.0,+,XP_523518.3,"malonyl-CoA decarboxylase, mitochondrial",Pan troglodytes,,GCF_002880755.1
+31310050,RefSeq,XM_523518.7,33.0,1514.0,+,XP_523518.3,"malonyl-CoA decarboxylase, mitochondrial",Pan troglodytes,,
+31310050,INSDC,GABC01008719.1,14.0,1495.0,+,JAA02619.1,malonyl-CoA decarboxylase,Pan troglodytes,,
+31841381,RefSeq,NC_018440.2,75187252.0,75203882.0,+,XP_004058114.1,"malonyl-CoA decarboxylase, mitochondrial",Gorilla gorilla gorilla,,GCF_000151905.2
+31841381,RefSeq,XM_004058066.2,32.0,1513.0,+,XP_004058114.1,"malonyl-CoA decarboxylase, mitochondrial",Gorilla gorilla gorilla,,
+29131551,RefSeq,NC_027884.1,83912793.0,83929162.0,+,XP_003820926.1,"LOW QUALITY PROTEIN: malonyl-CoA decarboxylase, mitochondrial",Pan paniscus,,GCF_000258655.2
+29131551,RefSeq,XM_003820878.3,1.0,1485.0,+,XP_003820926.1,"LOW QUALITY PROTEIN: malonyl-CoA decarboxylase, mitochondrial",Pan paniscus,,
+23298017,RefSeq,NC_019817.1,156890532.0,156906303.0,+,XP_003272531.1,"malonyl-CoA decarboxylase, mitochondrial",Nomascus leucogenys,,GCF_000146795.2
+23298017,RefSeq,NW_004087880.1,78621991.0,78637762.0,+,XP_003272531.1,"malonyl-CoA decarboxylase, mitochondrial",Nomascus leucogenys,,GCF_000146795.2
+23298017,RefSeq,XM_003272483.3,16.0,1497.0,+,XP_003272531.1,"malonyl-CoA decarboxylase, mitochondrial",Nomascus leucogenys,,
+51502870,RefSeq,NC_023646.1,69312978.0,69329102.0,+,XP_007992389.1,"malonyl-CoA decarboxylase, mitochondrial",Chlorocebus sabaeus,,GCF_000409795.2
+51502870,RefSeq,NW_006735242.1,39022703.0,39038827.0,+,XP_007992389.1,"malonyl-CoA decarboxylase, mitochondrial",Chlorocebus sabaeus,,GCF_000409795.2
+51502870,RefSeq,XM_007994198.1,1.0,1566.0,+,XP_007992389.1,"malonyl-CoA decarboxylase, mitochondrial",Chlorocebus sabaeus,,
+194450188,RefSeq,NC_037688.1,41541577.0,41557554.0,+,XP_025226707.1,"malonyl-CoA decarboxylase, mitochondrial",Theropithecus gelada,,GCF_003255815.1
+194450188,RefSeq,XM_025370922.1,35.0,1516.0,+,XP_025226707.1,"malonyl-CoA decarboxylase, mitochondrial",Theropithecus gelada,,
+30054552,RefSeq,NC_018171.2,65841607.0,65857578.0,+,XP_003917292.1,"malonyl-CoA decarboxylase, mitochondrial isoform X2",Papio anubis,,GCF_000264685.3
+30054552,RefSeq,XM_003917243.4,13.0,1494.0,+,XP_003917292.1,"malonyl-CoA decarboxylase, mitochondrial isoform X2",Papio anubis,,
+79299821,RefSeq,NW_011999143.1,6240913.0,6257748.0,-,XP_011941035.1,"malonyl-CoA decarboxylase, mitochondrial",Cercocebus atys,,GCF_000955945.1
+79299821,RefSeq,XM_012085645.1,42.0,1523.0,+,XP_011941035.1,"malonyl-CoA decarboxylase, mitochondrial",Cercocebus atys,,

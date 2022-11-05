@@ -1,0 +1,33 @@
+col0,col1,col2,col3,col4,col5,col6
+,,Shrubland: All,,,Biomass Turnover: Coarse Roots -> AG Fast [Type],0.02
+,,Shrubland: All,,,Biomass Turnover: Coarse Roots -> BG Fast [Type],0.02
+,,Shrubland: All,,,Biomass Turnover: Fine Roots -> AG Very Fast [Type],0.2499
+,,Shrubland: All,,,Biomass Turnover: Fine Roots -> BG Very Fast [Type],0.2499
+,,Shrubland: All,,,Biomass Turnover: Foliage -> AG Very Fast [Type],0.4575
+,,Shrubland: All,,,Biomass Turnover: Merchantable -> Snag Stems [Type],0.0
+,,Shrubland: All,,,Biomass Turnover: Other Wood -> AG Fast [Type],0.03
+,,Shrubland: All,,,Biomass Turnover: Other Wood -> Snag Branches [Type],0.01
+,,Shrubland: All,,,Decay: AG Fast -> AG Slow [Type],0.024
+,,Shrubland: All,,,Decay: AG Medium -> AG Slow [Type],0.0062
+,,Shrubland: All,,,Decay: AG Very Fast -> AG Slow [Type],0.064
+,,Shrubland: All,,,Decay: BG Fast -> BG Slow [Type],0.024
+,,Shrubland: All,,,Decay: BG Very Fast -> BG Slow [Type],0.0835
+,,Shrubland: All,,,Decay: Snag Branch -> AG Slow [Type],0.012
+,,Shrubland: All,,,Decay: Snag Stem -> AG Slow [Type],0.0031
+,,Shrubland: All,,,Emission: AG Fast -> Atmosphere [Type],0.117
+,,Shrubland: All,,,Emission: AG Medium -> Atmosphere [Type],0.0305
+,,Shrubland: All,,,Emission: AG Slow -> Atmosphere [Type],0.0146
+,,Shrubland: All,,,Emission: AG Very Fast -> Atmosphere [Type],0.2822
+,,Shrubland: All,,,Emission: BG Fast -> Atmosphere [Type],0.117
+,,Shrubland: All,,,Emission: BG Slow -> Atmosphere [Type],0.0033
+,,Shrubland: All,,,Emission: BG Very Fast -> Atmosphere [Type],0.4077
+,,Shrubland: All,,,Emission: Snag Branch -> Atmosphere [Type],0.0585
+,,Shrubland: All,,,Emission: Snag Stem -> Atmosphere [Type],0.0152
+,,Shrubland: All,,,Transfer: AG Slow -> BG Slow [Type],0.006
+,,Shrubland: All,,,Transfer: Snag Branch -> AG Fast [Type],0.1
+,,Shrubland: All,,,Transfer: Snag Stem -> AG Medium [Type],0.032
+,,Shrubland: All,,,Net Growth: Atmosphere -> Coarse Roots [Type],0.0728
+,,Shrubland: All,,,Net Growth: Atmosphere -> Fine Roots [Type],0.4622
+,,Shrubland: All,,,Net Growth: Atmosphere -> Foliage [Type],0.3922
+,,Shrubland: All,,,Net Growth: Atmosphere -> Merchantable [Type],0.0
+,,Shrubland: All,,,Net Growth: Atmosphere -> Other Wood [Type],0.0728

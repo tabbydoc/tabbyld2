@@ -1,0 +1,22 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11
+1,best.adju,adcause,Death,cause_concept_id,UCD.Kao,UCD-Kao-2,death_type_concept_id,38003570,addate,adcause=5,
+1,best.adju,adcause,Death,cause_concept_id,UCD.Kao,UCD-Kao-4,death_type_concept_id,38003570,addate,adcause=7,
+1,best.adju,adcause,Death,cause_concept_id,UCD.Kao,UCD-Kao-3,death_type_concept_id,38003570,addate,(adcause >= 1 and adcause <=4) or adcause=6,"doesnt include adcause=5, but should logically."
+2,hfaction.cecdeath,ceccvdth,Death,cause_concept_id,UCD.Kao,UCD-Kao-2,death_type_concept_id,38003570,date('2000-01-01') + dthdays * interval '1 day',ceccvdth=2,was hfaction.death.deacard and deathcau instead of  hfaction.cecdeath.cecdthca and ceccvdth
+2,hfaction.cecdeath,ceccvdth,Death,cause_concept_id,UCD.Kao,UCD-Kao-8,death_type_concept_id,38003570,date('2000-01-01') + dthdays * interval '1 day',ceccvdth=3,was hfaction.death.deacard and deathcau instead of  hfaction.cecdeath.cecdthca and ceccvdth
+2,hfaction.cecdeath,ceccvdth,Death,cause_concept_id,UCD.Kao,UCD-Kao-9,death_type_concept_id,38003570,date('2000-01-01') + dthdays * interval '1 day',ceccvdth=98 and cecdthca=1,was hfaction.death.deacard and deathcau instead of  hfaction.cecdeath.cecdthca and ceccvdth
+2,hfaction.cecdeath,cecdthca,Death,cause_concept_id,UCD.Kao,UCD-Kao-4,death_type_concept_id,38003570,date('2000-01-01') + dthdays * interval '1 day',cecdthca=2,was hfaction.death.deacard and deathcau instead of  hfaction.cecdeath.cecdthca and ceccvdth
+2,hfaction.cecdeath,ceccvdth,Death,cause_concept_id,UCD.Kao,UCD-Kao-10,death_type_concept_id,38003570,date('2000-01-01') + dthdays * interval '1 day',cecdthca=3,was hfaction.death.deacard and deathcau instead of  hfaction.cecdeath.cecdthca and ceccvdth
+1,best.xp,no_column,procedure_occurrence,procedure_concept_id,SNOMED,32413006,prodcedure_type_concept_id,44786630,xpdat,xpsta=2,
+1,best.hv,no_column,procedure_occurrence,procedure_concept_id,SNOMED,32485007,prodcedure_type_concept_id,44786630,hvdat,hvadm=2,
+2,hfaction.cecdeath,ceccvdth,Death,cause_concept_id,SNOMED,26636000,death_type_concept_id,38003570,date('2000-01-01') + dthdays * interval '1 day',ceccvdth=1,was hfaction.death.deacard and deathcau instead of  hfaction.cecdeath.cecdthca and ceccvdth
+1,best.eos,no_column,visit_occurrence,visit_concept_id,UCD.Kao,UCD-Kao-5,visit_type_concept_id,44818519,vdate,no_column,
+1,best.br,no_column,visit_occurrence,visit_concept_id,UCD.Kao,UCD-Kao-6,visit_type_concept_id,44818519,vdate,no_column,
+4,topcat.t031,dod1,Death,cause_concept_id,SNOMED,26636000,death_type_concept_id,38003570,date('2000-01-01') + dod1 * interval '1 day',no_column,cause code is filler.FIX
+2,hfaction.studcomp,visitdays,visit_occcurrence,cause_concept_id,UCD.Kao,UCD-Kao-5,visit_type_concept_id,44818519,date('2000-01-01') + visitdays * interval '1 day',no_column,
+5,paradigm.test,t2dth,Death,cause_concept_id,SNOMED,26636000,death_type_concept_id,38003570,date('2000-01-01') + t2dth * interval '1 day',dthcse1 is not null,cause code is filler.FIX
+1,best.adju,adcause,Death,cause_concept_id,UCD.Kao,UCD-Kao-10,death_type_concept_id,38003570,addate,adcause=8,no information re: cause
+2,hfaction.cecdeath,ceccvdth,Death,cause_concept_id,SNOMED,230690007,death_type_concept_id,38003570,date('2000-01-01') + dthdays * interval '1 day',ceccvdth=4,was hfaction.death.deacard and deathcau instead of  hfaction.cecdeath.cecdthca and ceccvdth
+2,hfaction.cecdeath,ceccvdth,Death,cause_concept_id,SNOMED,52136000,death_type_concept_id,38003570,date('2000-01-01') + dthdays * interval '1 day',ceccvdth=5,was hfaction.death.deacard and deathcau instead of  hfaction.cecdeath.cecdthca and ceccvdth
+3,scdheft.endpt_new,lastdt_days,Death,cause_concept_id,SNOMED,26636000,death_type_concept_id,38003570,date('2000-01-01')+lastdt_days*interval '1 day' ,dead=1,cause code is filler.FIX
+6,paradigm.test,t2dth,Death,cause_concept_id,SNOMED,26636000,death_type_concept_id,38003570,date('2000-01-01') + t2dth * interval '1 day',dthcse1 is not null,cause code is filler.FIX

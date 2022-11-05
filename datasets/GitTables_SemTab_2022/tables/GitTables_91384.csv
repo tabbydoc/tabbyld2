@@ -1,0 +1,10 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+2014-11-08,test_base_import_async.testjournal_xmlid,TEST-1,SAJ/2014/005,test_base_import_async.a_recv_xmlid,/,525.0,,base.res_partner_3
+,,,,test_base_import_async.a_sale_xmlid,Ergonomic Mouse,,75.0,base.res_partner_3
+,,,,test_base_import_async.a_sale_xmlid,TypeMatrix Dvorak Keyboard,,450.0,base.res_partner_3
+2014-11-15,test_base_import_async.testjournal_xmlid,TEST-2,SAJ/2014/004,test_base_import_async.a_recv_xmlid,/,500.0,,base.res_partner_2
+,,,,test_base_import_async.a_sale_xmlid,Desktop Lamp,,100.0,base.res_partner_2
+,,,,test_base_import_async.a_sale_xmlid,Desktop Computer Table,,400.0,base.res_partner_2
+2014-11-08,test_base_import_async.testjournal_xmlid,TEST-3,SAJ/2014/003,test_base_import_async.a_recv_xmlid,/,525.0,,base.res_partner_2
+,,,,test_base_import_async.a_sale_xmlid,Ergonomic Mouse,,75.0,base.res_partner_2
+,,,,test_base_import_async.a_sale_xmlid,TypeMatrix Dvorak Keyboard,,450.0,base.res_partner_2

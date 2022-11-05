@@ -1,0 +1,71 @@
+col0,col1,col2,col3,col4,col5
+90,Consumable,1,11330,1,-
+91,Unlimited use,0,11331,2,-
+100,A table that converts a number to an e-s character -- 数値をE～Sの文字へ変換するテーブル,141,11321,1,-
+101,A,101,11322,1,-
+102,B,81,11323,1,-
+103,C,51,11324,1,-
+104,D,21,11325,1,-
+105,E,1,11326,1,-
+106,-,0,11320,2,-
+110,Pledge -- 誓約,0,11320,0,-
+111,Blade of the Darkmoon,1,41001,0,-
+112,Warrior of Sunlight,2,41002,0,-
+113,Mound-makers,3,41003,0,-
+114,Spears of the Church,4,41004,0,-
+115,Rosaria's Fingers,5,41005,0,-
+116,Watchdogs of Farron,6,41006,0,-
+117,Aldrich Faithful,7,41007,0,-
+118,Way of Blue,8,41008,0,-
+119,Blue Sentinels,9,41009,0,-
+120,Dagger,1,60010,0,-
+121,Straight Sword,3,60015,0,-
+122,Greatsword,5,60020,0,-
+123,Ultra Greatsword,7,60025,0,-
+124,Curved Sword,9,60030,0,-
+125,Curved Greatsword,11,60035,0,-
+126,Katana,13,60040,0,-
+127,Thrusting Sword,15,60045,0,-
+128,Axe,17,60050,0,-
+129,Greataxe,19,60055,0,-
+130,Hammer,21,60060,0,-
+131,Great Hammer,23,60065,0,-
+132,Spear,25,60070,0,-
+133,Pike,27,60075,0,-
+134,Halberd,29,60080,0,-
+135,Reaper,31,60085,0,-
+136,Fist,33,60090,0,-
+137,Fist,35,60090,0,-
+138,Claw,37,60100,0,-
+139,Whip,39,60155,0,-
+140,Bow,51,60105,0,-
+141,Greatbow,53,60110,0,-
+142,Crossbow,55,60115,0,-
+143,Staff,57,60120,0,-
+144,Pyromancy Flame,59,60125,0,-
+145,Talisman,61,60130,0,-
+146,Sacred Chime,63,60135,0,-
+147,Small Shield,65,60140,0,-
+148,Shield,67,60145,0,-
+149,Greatshield,69,60150,0,-
+150,Arrow,81,60160,0,-
+151,Greatarrow,83,60165,0,-
+152,Bolt,85,60170,0,-
+153,Torch,87,60175,0,-
+154,Dagger (Paired),101,60011,0,-
+155,Sword (Paired),103,60016,0,-
+156,Ultra Greatsword (Unique),105,60026,0,-
+157,Curved Sword (Paired),107,60031,0,-
+158,Katana (Paired),109,60041,0,-
+159,Axe (Paired),111,60051,0,-
+160,Hammer (Paired),113,60061,0,-
+161,Spear (Paired),115,60071,0,-
+162,Special Straight Sword,117,60017,0,-
+163,Special Thrusting Sword,119,60046,0,-
+164,Reaper,121,60086,0,-
+165,Greatshield (Paired),131,60151,0,-
+166,Ultra Greatsword (Paired),133,60027,0,-
+167,Cleaver,134,60052,0,-
+168,Saw/Cleaver,135,60053,0,-
+169,Great Cleaver,136,60056,0,-
+170,Walking Cane/Whip,137,60062,0,-

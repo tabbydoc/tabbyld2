@@ -1,0 +1,80 @@
+col0,col1,col2,col3,col4,col5,col6
+Candle,178997673,2018-09-12,100,coins,5,accessory_candle_tealight.png
+Carrots,947536544,2018-09-12,500,coins,3,accessory_carrots.png
+Cheese Board,955492320,2018-09-12,1000,diamonds,5,accessory_cheeseboard.png
+Green Beans,1701456880,2018-09-12,500,coins,3,accessory_greenbeans.png
+Peas,294300849,2018-09-12,250,coins,3,accessory_greenpeas.png
+Lemon Wedge,1323732962,2018-09-12,200,coins,5,accessory_lemon.png
+Lettuse Bed,78208783,2018-09-12,1000,coins,5,accessory_lettucebed.png
+Romaine Lettuce,1492700040,2018-09-12,1000,coins,5,accessory_lettucebed_romaine.png
+Lettuce Piece,916206047,2018-09-12,500,coins,5,accessory_lettucepiece.png
+Pepper Mill,1825108830,2018-09-12,5,diamonds,1,accessory_peppermill.png
+Place Mat Blue,1756061374,2018-09-12,500,coins,5,accessory_placemat_carbonblue.png
+Place Mat Red,1271743435,2018-09-12,1000,coins,5,accessory_placemat_carbonred.png
+Place Mat White,1875444470,2018-09-12,1000,coins,5,accessory_placemat_carbonwhite.png
+Creamer Blue,845738803,2018-09-12,5,diamonds,1,accessory_vase_creamer_blue.png
+Creamer Red,810613157,2018-09-12,5,diamonds,1,accessory_vase_creamer_red.png
+Lilies Blue,2114847599,2018-09-12,10,diamonds,1,accessory_vase_lilies_blue.png
+Lilies Red,511920068,2018-09-12,5,diamonds,1,accessory_vase_lilies_red.png
+NameID,1578380925,2018-09-12,5,diamonds,1,accessory_vase_lily_blue.png
+Lily Red,851025750,2018-09-12,5,diamonds,1,accessory_vase_lily_red.png
+Bread,1993277298,2018-09-12,1000,coins,5,appt_bread.png
+Chicken Souvlaki,972071506,2018-09-12,500,coins,2,appt_greek_chickensouvlaki.png
+Dakos,203453353,2018-09-12,250,coins,2,appt_greek_dakos.png
+Faki Soup,726353868,2018-09-12,1000,coins,2,appt_greek_fakisoup.png
+Kalitsounia,981959178,2018-09-12,1000,coins,2,appt_greek_kalitsounia.png
+Kolokythopita,154825319,2018-09-13,1000,coins,5,appt_greek_kolokythopita.png
+Lamb Souvlaki,1007207642,2018-09-13,1000,coins,5,appt_greek_lambsouvlaki.png
+Mussels,708123670,2018-09-13,1000,coins,5,appt_greek_mussels.png
+Toppings Greens,799807424,2018-09-13,1000,coins,5,appt_greek_mussels_add1.png
+Nettle Soup,291675546,2018-09-13,1000,coins,5,appt_greek_nettlesoup.png
+Pita,933594931,2018-09-13,1000,coins,5,appt_greek_pita.png
+Soup Topping,1598407803,2018-09-13,1000,coins,5,appt_greek_soup_add1.png
+Soup Topping,274494528,2018-09-13,1000,coins,5,appt_greek_soup_add2.png
+Souvlaki Greens,1876404237,2018-09-13,1000,coins,5,appt_greek_souvlaki_add1.png
+Spanakopita,675062009,2018-09-13,1000,coins,5,appt_greek_spanakopita.png
+Tirokateri,1779371220,2018-09-13,1000,coins,5,appt_greek_tirokafteri.png
+Soup Topping,146786263,2018-07-05,1000,coins,5,appt_greek_tirokafteri_add1.png
+Soup Topping,32196602,2018-07-05,1000,coins,5,appt_greek_tirokafteri_add2.png
+Lemon Wedge,1904552246,2018-07-05,1000,coins,5,appt_lemon.png
+Lemon Slice,698087364,2018-07-05,1000,coins,5,appt_lemonslice.png
+Beer,1379375933,2018-07-05,1000,coins,5,beverage_beer_ipa.png
+Bellini,358577277,2018-07-05,1000,coins,5,beverage_bellini.png
+Tea 1,1231687019,2018-07-05,1000,coins,5,beverage_tea_bluefloral.png
+Tea 2,1410261927,2018-07-05,1000,coins,5,beverage_tea_bluepolkadots.png
+Tea 3,1969092333,2018-07-05,1000,coins,5,beverage_tea_goldfloral.png
+Tea 4,612382288,2018-07-05,1000,coins,5,beverage_tea_red.png
+Tea 5,483612956,2018-07-05,1000,coins,5,beverage_tea_white.png
+Water,1651316642,2018-07-05,1000,coins,5,beverage_water.png
+Lemon Water,2035516016,2018-07-05,1000,coins,5,beverage_waterlemon.png
+White Wine,1282432465,2018-07-05,1000,coins,5,beverage_wine_white.png
+Cake,1530033285,2018-07-05,1000,coins,5,dessert_cake.png
+Cookie,367175461,2018-07-05,1000,coins,5,dessert_cookie_1.png
+Cookies,1583515441,2018-07-05,1000,coins,5,dessert_cookie_2.png
+Dounut 1,1809920767,2018-07-05,1000,coins,5,dessert_donut_chocolateglaze.png
+Dounut 2,1745727305,2018-07-05,1000,coins,5,dessert_donut_plain.png
+Dounut 3,89326259,2018-07-05,1000,coins,5,dessert_donut_strawberryglaze.png
+Baklava,868064255,2018-07-05,1000,coins,5,dessert_greek_baklava.png
+Karydopita,1627277361,2018-07-05,1000,coins,5,dessert_greek_karydopita.png
+Loukoumades,864524792,2018-07-05,1000,coins,5,dessert_greek_loukoumades.png
+Ice Cream 1,1491110934,2018-07-05,1000,coins,5,dessert_icecream_chocolate.png
+Ice Cream 2,693035675,2018-07-05,1000,coins,5,dessert_icecream_vanilla.png
+Pie 1,453771914,2018-07-05,1000,coins,5,dessert_pie_lemonmeringue.png
+Pie 2,1008262746,2018-07-05,1000,coins,5,dessert_pie_pumpkin.png
+Chicken 1,1097240767,2018-07-05,1000,coins,5,main_chicken_grilled.png
+Chicken 2,372041693,2018-07-05,1000,coins,5,main_chicken_meal.png
+Fish 1,956567107,2018-07-05,1000,coins,5,main_fish_baked.png
+Buttered Pancakes,1916608643,2018-07-05,1000,coins,5,main_pancakes_butter.png
+Pancakes,1516549520,2018-07-05,1000,coins,5,main_pancakes_plain.png
+Pancakes Syrup,1045087441,2018-07-05,1000,coins,5,main_pancakes_syrup.png
+Spaghetti,326366264,2018-07-05,1000,coins,5,main_pasta_spaghetti.png
+Cheese Pizza,538062061,2018-07-05,1000,coins,5,main_pizza_cheese.png
+Pepperoni Pizza,1492988598,2018-07-05,1000,coins,5,main_pizza_pepperoni.png
+Olive Pizza,496665862,2018-07-05,1000,coins,5,main_pizza_pepperoniolives.png
+Plate 1,26685933,2018-07-05,1000,coins,5,plate_greeknavy.png
+Plate 2,947417835,2018-07-05,1000,coins,5,plate_greekwhite.png
+Plate 3,1201984456,2018-07-05,1000,coins,5,plate_navy.png
+Plate 4,1239509777,2018-07-05,1000,coins,5,plate_white.png
+Fork,104750768,2018-07-05,1000,coins,5,setting_fork.png
+Knife,644181273,2018-07-05,1000,coins,5,setting_knife.png
+Spoon,1772543120,2018-07-05,1000,coins,5,setting_spoon.png

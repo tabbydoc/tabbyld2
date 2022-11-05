@@ -1,0 +1,67 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+Link of images and the Product Name pointing to the 404 page,,,Kevin,Franz,,done,,12/28
+Return Fee still Zero,"ORDER ID : 49664
+STEPS TO REPLICATE:
+- I tried to allow one product to become returnable on store-admin
+- I tried to return a bra product & a swimwear",,Kevin,Franz,,pending,cant replicate,
+Image shown to not refelct the ordered product,"ORDER ID : 49665
+Product : Cotton Candy Nursing Bra",,Kevin,Franz,,pending,seems it shows?,
+Price dicrepancy of purchased product to return product,- Products with Bra Bundle Discounts.. Around .01 price discrepancy,,Kevin,Franz,,done,seems it roots from bra bundle with 3 products with x.9 price. no work around since price saved in order_detail table is rounded down to 2 decimal place,
+Qty on datafile do not reflect the numbers of returned product,"ORDER ID : 49665 
+Product : Cotton Candy Nursing Bra
+- I tried to return 3 qty of cotton candy nurisng bra but ony 1 reflected on the datafile.",,Kevin,Franz,,done,,12/21
+Image shown do not reflect the selected product on exchange,"ORDER ID : 49665 
+Product : Cotton Candy Nursing Bra",,Kevin,Franz,,pending,seems it shows?,
+Exchange Product is different on datafile & store-admin,"ORDER ID : 49665
+STEPS TO REPLICATE:
+- I tried to returns all the cotton candy. Those 3 cotton candy will be exchange into 3 different colors and sizes. But in the pdf, only the first selected color was placed on the PDF also in store-admin",,Kevin,Franz,,done,,12/21
+Price on PDF is different on store-admin & summary,"ORDER ID : 49664 & 49737
+- I tried to exchange with payment; the other products was exchanged into same product and the other was exchanged into a higher price. The product that was exchanged into similar products has different price on pdf compare into the store-admin and summary",,Kevin,Franz,,done,,12/21
+Front: Image Is Blurry ,Recommend to use image type '-original' not '-medium_default' for high res image,,Randy,Franz,,done,made it category_default,12/23
+Front: Strikethrough and original price was not showing in 'ACTION' column (3rd Step & last step),,,Randy,Franz,,pending,"happens when exchanging to same product, theres a logic implemented before to use same price if sampe productid",12/28
+Front: No currency sign in price culomn (3rd Step & Last Step),,,Randy,Franz,,done,,12/28
+Return Only : return free is zero,"Order Id: 49720
+
+Return Fee is zero in UI,  PDF, Store admin and Email",,Randy,Franz,,done,"if return only, returnfee is set to 0",12/21
+Customer Dashboard 500 Error,500 error  when viewnig the return details,,Randy,,,,,
+Customer Dashboard  UI,I recomment change the column 'Order Number ' to 'Order ,,,,,,,
+Sending Order Confirmation on Customer,,,Sy,Franz,,done,,12/21
+Incorrect product URL on Image,"current:
+https://testshop.cakematernity.com/cotton-candy-sleep-yoga-bra
+Correct
+https://testshop.cakematernity.com/products/cotton-candy-sleep-yoga-bra",,Sy,Franz,,done,,12/23
+Product images is not base on COLOR,"- 1st page
+- exchange page",,Sy,Franz,8.0,pending,seems its based on color?,
+"Issues on Exchange with Bra Bundle and MAMA101
+Order ID: 49724 
+To Replicate
+- order have 2 or more products echange
+- 1 product exchange size to L same color
+- 1 product exchange different color
+- Discounts:10% off Bra Bundle, MAMA101","- Exchange WIth same product but price not discounted
+- All prices are incorrect on summary page
+- only 2 products but 4 rows in Summary page
+- Have payment eventhough i just exchange it to different size or color
+- Submitted: Incorrect prices in PDF, email & Return List","Ask me to give the images for this request
+",Sy,Franz,,done,"- seems it has discount?
+- maybe it has 2 qty for each product? seems i cant see the order in testshop now
+- maybe theres a returnfee?
+- found some issue related when theres mama101, fixed it now",
+Total amount for the return process on Customer Dashboard is different,- I think return was note not dedected on the total price,,Kevin,,,,,
+Second return has redirection,- We replicated the issue. Pran has already a solution,,Kevin,Franz,,done,,12/21
+Price on Email & PDF is different,"ORDER ID : 49665 (Second Return)
+Price on Email & PDF is different when you try to exchange bras with the same product with different size & color",,Kevin,Franz,,done,,12/28
+"Combination of return and exchange(more expensive)
+",on live 55420,,Paul,Franz,,done,,12/28
+non numeric value error on cart.php and return fee not adding on payment page,,,randy/paul,Franz,,done,seems need to clear cache on some cases,12/21
+Image being shown on step2 always the same color,,,Kevin,Franz,,pending,seems it reflect diff color ?,12/28
+Multiple return on mulitple qty order only show 1 qty,,,Franz,Franz,,done,,12/23
+No data on multiple returns,,,Kevin,Franz,,done,,12/23
+Returnfee edge case,"using 3 qty product
+- exchange 1 into same product
+- return 1
+- exchange 1 into more expensive
+- make returnfee big to make payment",,Franz,Franz,,done,,12/28
+Storeadmin wrong product/action column price,,,Franz,Franz,,done,,01/06
+Store admin refund button email no has no retunfee feature,,,Franz,Franz,,done,,01/06
+use https on returns paypal,,,Franz,Franz,,done,,01/06

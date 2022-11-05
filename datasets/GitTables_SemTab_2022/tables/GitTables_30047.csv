@@ -1,0 +1,39 @@
+col0,col1,col2,col3,col4,col5
+ , Character , String , Boolean , Enumeration , Object/Universal 
+ Ada , Character , String & Bounded_String & Unbounded_String , Boolean ," (item1, item2, ... ) ", tagged null record 
+ ALGOL 68 , char , string & bytes , bool & bits , n/a - User defined , n/a 
+ C (C99) , charwchar_t , n/a , bool ," enum «name» {item1, item2, ... }, ", void * 
+ C++ (STL) , charwchar_t , «std::»string , bool ," enum «name» {item1, item2, ... }, ", void * 
+ Objective-C , unichar , NSString * , BOOL ," enum «name» {item1, item2, ... }, ", id 
+ C,,,,,
+ Java , char , String , boolean ," enum name {item1, item2, ... } ", Object 
+ Go , byterune , string , bool , const (item1 = iotaitem2 ... ) , interface{} 
+ Rust , char , String , bool ," enum name {item1,item2,...} ", n/a 
+ Swift , Character , String , Bool ," enum name { case item1, item2, ... } ", Any 
+ D , char , string , bool ," enum name {item1, item2, ... } ", std.variant.Variant 
+ Common Lisp , character , string , boolean , (member item1 item2 ...) , t 
+ Scheme ,  , ,  , , 
+ ISLISP ,  , ,  , , 
+ Pascal (ISO) , char , n/a , boolean ," (item1, item2, ...) ", n/a 
+ Object Pascal (Delphi) , char , string , boolean ," (item1, item2, ...) ", variant 
+ Visual Basic , n/a , String , Boolean ,Enum nameitem1«= value»item2« = value»...End Enum , Variant 
+ Visual Basic .NET , Char , String , Boolean ,Enum nameitem1«= value»item2« = value»...End Enum , Object 
+ Xojo , n/a , String , Boolean ,Enum nameitem1«= value»item2« = value»...End Enum , Object or Variant 
+ Python , n/a , str , bool , from enum import Enumclass Name(Enum):item1 = valueitem2 = value...,
+ JavaScript , n/a , String , Boolean , , Object 
+ S-Lang ,  , ,  , ,  
+ Fortran , CHARACTER(LEN = *) ," CHARACTER(LEN = :), allocatable  ", LOGICAL(KIND = n) , , CLASS(*) 
+ PHP , n/a , string , bool , , (type declaration omitted) 
+ Perl , n/a ,  , , , UNIVERSAL 
+ Raku , Char , Str , Bool , enum name<item1 item2 ...>enum name <<:item1(value) :item2(value) ..>> , Mu 
+ Ruby , n/a , String , Object , , Object 
+ Scala , Char , String , Boolean ," object name extends Enumeration {val item1, item2, ... = Value} ", Any 
+ Seed7 , char , string , boolean ," const type: name is new enum item1,  item2,  ... end enum, ", 
+ Windows PowerShell ,  ,  , , , 
+ OCaml , char , string , bool , n/a , n/a 
+ F,,,,,
+ Standard ML , char , string , bool , n/a , n/a 
+ Haskell (GHC) , Char , String , Bool , n/a , n/a 
+ Eiffel , CHARACTER , STRING , BOOLEAN , n/a , ANY 
+ COBOL , PIC X , PIC X(string length) or PICX«X...» , PIC 1«(number of digits)» or PIC1«1...» , n/a , OBJECT REFERENCE 
+ Mathematica , n/a , String ,  ,  , n/a 

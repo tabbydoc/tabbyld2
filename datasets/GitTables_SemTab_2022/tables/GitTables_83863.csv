@@ -1,0 +1,67 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+"ASN.1 (BER, PER or OER encoding)",NULL type,"BOOLEAN:
+BER: as 1 byte in binary form;
+PER: as 1 bit;
+OER: as 1 byte","INTEGER:
+BER: variable-length big-endian binary representation (up to 2^(2^1024) bits);
+PER Unaligned: a fixed number of bits if the integer type has a finite range; a variable number of bits otherwise;
+PER Aligned: a fixed number of bits if the integer type has a finite range and the size of the range is less than 65536; a variable number of octets otherwise;
+OER: one, two, or four octets (either signed or unsigned) if the integer type has a finite range that fits in that number of octets; a variable number of octets otherwise","REAL:
+base-10 real values are represented as character strings in ISO 6093 format;
+binary real values are represented in a binary format that includes the mantissa, the base (2, 8, or 16), and the exponent;
+the special values NaN, -INF, +INF, and negative zero are also supported","Multiple valid types (VisibleString, PrintableString, GeneralString, UniversalString, UTF8String)",data specifications SET OF (unordered) and SEQUENCE OF (guaranteed order),user definable type
+Binn,\x00,True: \x01 False: \x02,big-endian 2's complement signed and unsigned 8/16/32/64 bits,single: big-endian binary32 double: big-endian binary64,"UTF-8 encoded, null terminated, preceded by int8 or int32 string length in bytes",Typecode (one byte) + 1-4 bytes size + 1-4 bytes items count + list items,Typecode (one byte) + 1-4 bytes size + 1-4 bytes items count + key/value pairs
+BSON,\x0A (1 byte),True: \x08\x01 False: \x08\x00 (2 bytes),int32: 32-bit little-endian 2's complement or int64: 64-bit little-endian 2's complement,double: little-endian binary64,"UTF-8 encoded, preceded by int32 encoded string length in bytes",BSON embedded document with numeric keys,BSON embedded document
+Concise Binary Object Representation (CBOR),\xf6 (1 byte),True: \xf5 False: \xf4 (1 byte),"Small positive/negative \x00-\x17 & \x20-\x37 (1 byte) 
+8-bit: positive \x18, negative \x38 (+1 byte) 
+16-bit: positive \x19, negative \x39 (+2 bytes) 
+32-bit: positive \x1A, negative \x3A (+4 bytes) 
+64-bit: positive \x1B, negative \x3B (+8 bytes) 
+Negative x encoded as (-x-1) ","IEEE half/single/double \xf9 - \xfb (+2-8 bytes) 
+Decimals and bigfloats (4+ bytes) encoded as \xc4 tag + 2-item array of integer mantissa & exponent","Length and content (1-9 bytes overhead) 
+Bytestring \x40 - \x5f UTF-8 \x60 - \x7f 
+Indefinite partial strings \x5f and \x7f stitched together until \xff.","Length and items \x80 - \x9e 
+Indefinite list \x9f terminated by \xff entry.","Length (in pairs) and items \xa0 - \xbe 
+Indefinite map \xbf terminated by \xff key."
+"Efficient XML Interchange (EXI)[a] 
+(Unpreserved lexical values format)",xsi:nil is not allowed in binary context,1-2 bit integer interpreted as boolean.,"Boolean sign, plus arbitrary length 7-bit octets, parsed until most-significant bit is 0, in little-endian. The schema can set the zero-point to any arbitrary number. 
+Unsigned skips the boolean flag.","Float: integer mantissa and integer exponent. 
+Decimal: boolean sign, integer whole value, integer fractional",Length prefixed Integer-encoded Unicode. Integers may represent enumerations or string table entries instead.,Length prefixed set of items.,Not in protocol.
+FlatBuffers,Encoded as absence of field in parent object,True: one byte \x01 False: \x00,little-endian 2's complement signed and unsigned 8/16/32/64 bits,"floats: little-endian binary32
+doubles: little-endian binary64","UTF-8 encoded, preceded by 32 bit integer length of string in bytes","Vectors of any other type, preceded by 32 bit integer length of number of elements",Tables (schema defined types) or Vectors sorted by key (maps / dictionaries)
+ Ion[17],\x0f[b],"True: \x11 
+False: \x10 ","positive \x2x, negative \x3x 
+Zero is always encoded in tag byte 
+BigInts over 13 bytes (104 bits) have 1+ byte overhead for length","\x44 (32-bit float) \x48 (64-bit float) 
+Zero is always encoded in tag byte","UTF-8: \x8x 
+Other strings: \x9x 
+Arbitrary length and overhead","\xbx 
+Arbitrary length and overhead. Length in octets.","Structs (numbered fields): \xdx 
+Annotations (named fields): \xex"
+MessagePack,\xc0,True: \xc3 False: \xc2,"Single byte ""fixnum"" (values -32..127)
+or
+typecode (one byte) + big-endian (u)int8/16/32/64",Typecode (one byte) + IEEE single/double,Typecode + up to 15 bytes or typecode + length as uint8/16/32 + bytes; encoding is unspecified[18],"As ""fixarray"" (single-byte prefix + up to 15 array items)
+or
+typecode (one byte) + 2–4 bytes length + array items","As ""fixmap"" (single-byte prefix + up to 15 key-value pairs)
+or
+typecode (one byte) + 2–4 bytes length + key-value pairs"
+Netstrings[c],Not in protocol.,Not in protocol.,Not in protocol.,"Length encoded as an ASCII string + ':' + data + ',' 
+Length counts only octets between ':' and ','",Not in protocol.,Not in protocol.,Not in protocol.
+OGDL Binary,,,,,,,
+Property list (binary format),,,,,,,
+Protocol Buffers,,,"Variable encoding length signed 32-bit: varint encoding of ""ZigZag""-encoded value (n << 1) XOR (n >> 31)
+Variable encoding length signed 64-bit: varint encoding of ""ZigZag""-encoded (n << 1) XOR (n >> 63) 
+Constant encoding length 32-bit: 32 bits in little-endian 2's complement 
+Constant encoding length 64-bit: 64 bits in little-endian 2's complement","floats: little-endian binary32
+doubles: little-endian binary64","UTF-8 encoded, preceded by varint-encoded integer length of string in bytes","Repeated value with the same tag
+or, for varint-encoded integers only, values packed contiguously and prefixed by tag and total byte length",
+Recursive Length Prefix,"Not in protocol. 
+\x80 (zero-length string) often used",Not in protocol. Integer 0/1 often used.,"0 - 127: \x00 - \x7f 
+Other values: Strings of big-endian encoded bytes, of arbitrary length, beginning with \x80 - \xbf",Integer encodings may be interpreted as IEEE float.,"Length prefixed, up to 55 bytes: \x80 - \xb7 followed by data. 
+56+ bytes: \xb8 - \xbf followed by 1-8 byte integer length of string followed by data.","Length prefixed, up to 55 bytes: \xc0 - \xf7 followed by data. 
+56+ bytes: \xf8 - \xff followed by 1-8 byte integer length of data followed by data. 
+Length is always in bytes, not in list items.",Not in protocol. May be encoded as lists of key/value pair lists or other formats.
+Smile,\x21,True: \x23 False: \x22,"Single byte ""small"" (values -16..15 encoded using \xc0 - \xdf),
+zigzag-encoded varints (1–11 data bytes), or BigInteger","IEEE single/double, BigDecimal","Length-prefixed ""short"" Strings (up to 64 bytes), marker-terminated ""long"" Strings and (optional) back-references",Arbitrary-length heterogenous arrays with end-marker,Arbitrary-length key/value pairs with end-marker
+Structured Data eXchange Formats (SDXF),,,big-endian signed 24-bit or 32-bit integer,big-endian IEEE double,either UTF-8 or ISO 8859-1 encoded,"list of elements with identical ID and size, preceded by array header with int16 length",chunks can contain other chunks to arbitrary depth
+Thrift,,,,,,,

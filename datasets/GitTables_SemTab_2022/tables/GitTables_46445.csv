@@ -1,0 +1,19 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+ache_one,ache,one;one,e.ta.'kɾã,,etakɾã,e.ta.'kɾã,~[test_variant with various comments],,uno; solo	test comment	test comment 2,,/etakɾã/ [e.ta.'kɾã] ~[test_variant with various comments] (uno; solo) (test comment) (test comment 2){4},ache_s4
+paraguayan_guarani_one,paraguayan_guarani,one,peteĩ,peteĩ,,,,,uno	Test comment 3,,<peteĩ>(uno){Guasch1962:670} (Test comment 3),paraguayan_guarani_sguasch1962[670]
+kaiwa_one,kaiwa,one,petẽˈʔĩ,,,petẽˈʔĩ,,,,NPC: Test procedural comment,[petẽˈʔĩ] (NPC: Test procedural comment),kaiwa_s1
+paraguayan_guarani_one_1,paraguayan_guarani,one_1,peteĩha,peteĩha,,,,,FIRST,,<peteĩha> (FIRST),paraguayan_guarani_s1
+ache_two,ache,two;two,mĩ.'ɾõ1,,bĩɾõ1,mĩ.'ɾõ1,%[testvariant],,dos,,/bĩɾõ1/ [mĩ.'ɾõ1] %[testvariant] (dos){4},ache_s4
+paraguayan_guarani_two,paraguayan_guarani,two,mokõi,mokõi,,,,,dos,PCP: Test procedural comment lands in variants,<mokõi>(dos){Guasch1962:616} (PCP: Test procedural comment lands in variants),paraguayan_guarani_sguasch1962[616]
+old_paraguayan_guarani_two,old_paraguayan_guarani,two,pathá,pathá,,,"%<patá>,%<patxiá>",,peito	Anexo IV: Guérios 1959,,<pathá % patá % patxiá> (peito) {2:107} (Anexo IV: Guérios 1959),old_paraguayan_guarani_s2[107]
+kaiwa_two,kaiwa,two,mõˈkõj̃,,,mõˈkõj̃,,,dos,PCP: Procedural comment before real comment,[mõˈkõj̃] (PCP: Procedural comment before real comment) (dos),kaiwa_s1
+ache_three,ache,three;three,bɾe.'wi pɨ.'ʧa,,bɾewi pɨʧa,bɾe.'wi pɨ.'ʧa,,,trés,,/bɾewi pɨʧa/ [bɾe.'wi pɨ.'ʧa] (trés){4},ache_s4
+paraguayan_guarani_three,paraguayan_guarani,three,mbohapy,mbohapy,,,,,tres,,<mbohapy>(tres){Guasch1962:598},paraguayan_guarani_sguasch1962[598]
+kaiwa_three,kaiwa,three,mbohaˈpɨ,,,mbohaˈpɨ,,,,,[mbohaˈpɨ],kaiwa_s1
+ache_four,ache,four,gwɨ.'ɾa pɨ.'ʧa,,gwɨɾa pɨʧã,gwɨ.'ɾa pɨ.'ʧa,~[testvariant],,cuatro,,/gwɨɾa pɨʧã/ [gwɨ.'ɾa pɨ.'ʧa~testvariant] (cuatro){4},ache_s4
+paraguayan_guarani_four,paraguayan_guarani,four,irundy,irundy,,,,,cuatro,,<irundy>(cuatro){Guasch1962:542},paraguayan_guarani_sguasch1962[542]
+kaiwa_four,kaiwa,four,iɾũndɨ,,,iɾũndɨ,,,,,[iɾũndɨ],kaiwa_s1
+ache_four_1,ache,four_1,i.ɾõ.'ndɨ,,irõdɨ,i.ɾõ.'ndɨ,,,la gente se mi subgrupo,,/irõdɨ/ [i.ɾõ.'ndɨ] (la gente se mi subgrupo){4},ache_s4
+paraguayan_guarani_five,paraguayan_guarani,five;hand,po,po,,,,,"cinco, neol.",,"<po>(cinco, neol.){Guasch1962:113}",paraguayan_guarani_sguasch1962[113]
+ache_five,ache,five,?,,,,,,,,...,ache_s1
+kaiwa_five,kaiwa,five,teʔiowaa,,,teʔiowaa,,,,,[teʔiowaa],kaiwa_s1

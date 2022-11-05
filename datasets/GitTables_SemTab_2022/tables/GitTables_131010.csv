@@ -1,0 +1,51 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+1,,rank 1,synonym 1,common 1,scientific 1,mnemonic 1,E,True
+10,1.0,rank 10,synonym 10,common 10,scientific 10,mnemonic 10,E,True
+11,1.0,rank 11,synonym 11,common 11,scientific 11,mnemonic 11,E,True
+12,1.0,rank 12,synonym 12,common 12,scientific 12,mnemonic 12,E,True
+100,10.0,rank 100,synonym 100,common 100,scientific 100,mnemonic 100,E,True
+101,10.0,rank 101,synonym 101,common 101,scientific 101,mnemonic 101,E,True
+102,10.0,rank 102,synonym 102,common 102,scientific 102,mnemonic 102,E,True
+110,11.0,rank 111,synonym 111,common 111,scientific 111,mnemonic 111,E,True
+111,11.0,rank 112,synonym 112,common 112,scientific 112,mnemonic 112,E,True
+112,11.0,rank 113,synonym 113,common 113,scientific 113,mnemonic 113,E,True
+120,12.0,rank 120,synonym 120,common 120,scientific 120,mnemonic 120,E,True
+121,12.0,rank 121,synonym 121,common 121,scientific 121,mnemonic 121,E,True
+122,12.0,rank 122,synonym 122,common 122,scientific 122,mnemonic 122,E,True
+1000,100.0,rank 1001,synonym 1001,common 1001,scientific 1001,mnemonic 1001,E,True
+1001,100.0,rank 1002,synonym 1002,common 1002,scientific 1002,mnemonic 1002,E,True
+1002,100.0,rank 1003,synonym 1003,common 1003,scientific 1003,mnemonic 1003,E,True
+1010,101.0,rank 1011,synonym 1011,common 1011,scientific 1011,mnemonic 1011,E,True
+1011,101.0,rank 1012,synonym 1012,common 1012,scientific 1012,mnemonic 1012,E,True
+1012,101.0,rank 1013,synonym 1013,common 1013,scientific 1013,mnemonic 1013,E,True
+1020,102.0,rank 1021,synonym 1021,common 1021,scientific 1021,mnemonic 1021,E,True
+1021,102.0,rank 1022,synonym 1022,common 1022,scientific 1022,mnemonic 1022,E,True
+1022,102.0,rank 1023,synonym 1023,common 1023,scientific 1023,mnemonic 1023,E,True
+1100,110.0,rank 1111,synonym 1111,common 1111,scientific 1111,mnemonic 1111,E,True
+1101,110.0,rank 1112,synonym 1112,common 1112,scientific 1112,mnemonic 1112,E,True
+1102,110.0,rank 1113,synonym 1113,common 1113,scientific 1113,mnemonic 1113,E,True
+1110,111.0,rank 1111,synonym 1111,common 1111,scientific 1111,mnemonic 1111,E,True
+1111,111.0,rank 1112,synonym 1112,common 1112,scientific 1112,mnemonic 1112,E,True
+1112,111.0,rank 1113,synonym 1113,common 1113,scientific 1113,mnemonic 1113,E,True
+1120,112.0,rank 1121,synonym 1121,common 1121,scientific 1121,mnemonic 1121,E,True
+1121,112.0,rank 1122,synonym 1122,common 1122,scientific 1122,mnemonic 1122,E,True
+1122,112.0,rank 1123,synonym 1123,common 1123,scientific 1123,mnemonic 1123,E,True
+1200,120.0,rank 1201,synonym 1201,common 1201,scientific 1201,mnemonic 1201,E,True
+1201,120.0,rank 1202,synonym 1202,common 1202,scientific 1202,mnemonic 1202,E,True
+1202,120.0,rank 1203,synonym 1203,common 1203,scientific 1203,mnemonic 1203,E,True
+1210,121.0,rank 1211,synonym 1211,common 1211,scientific 1211,mnemonic 1211,E,True
+1211,121.0,rank 1212,synonym 1212,common 1212,scientific 1212,mnemonic 1212,E,True
+1212,121.0,rank 1213,synonym 1213,common 1213,scientific 1213,mnemonic 1213,E,True
+1220,122.0,rank 1221,synonym 1221,common 1221,scientific 1221,mnemonic 1221,E,True
+1221,122.0,rank 1222,synonym 1222,common 1222,scientific 1222,mnemonic 1222,E,True
+1222,122.0,rank 1223,synonym 1223,common 1223,scientific 1223,mnemonic 1223,E,True
+10000,1000.0,rank 10000,synonym 10000,common 10000,Equals to Only,mnemonic 10000,E,True
+10001,1000.0,rank 10001,synonym 10001,common 10001,scientific 10001,mnemonic 10001,E,True
+100000,10000.0,rank 100000,synonym 100000,common 100000,Contains Name Only,mnemonic 100000,E,True
+1000000,100000.0,rank 1000000,synonym 1000000,common 1000000,Start and Ended,mnemonic 1000000,E,True
+10000000,1000000.0,rank 10000000,synonym 10000000,common 10000000,Start Only,mnemonic 10000000,E,True
+10000001,1000000.0,rank 10000001,synonym 10000001,common 10000001,Only Ended,mnemonic 10000001,E,True
+10000002,1000000.0,rank 10000002,synonym 10000002,common 10000002,Start and contains Name,mnemonic 10000002,E,True
+10000003,1000000.0,rank 10000003,synonym 10000003,common 10000003,Contains Name and Ended,mnemonic 10000003,E,True
+10000004,1000000.0,rank 10000004,synonym 10000004,common 10000004,Start Contains Name and Ended,mnemonic,E,True
+10000005,1000000.0,rank 10000005,synonym 10000005,common 10000005,SN,mnemonic 10000005,E,True

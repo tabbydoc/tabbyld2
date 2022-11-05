@@ -1,0 +1,6 @@
+col0,col1,col2,col3,col4,col5,col6
+nextval('free_text_content_id_seq'),2,Otsikko,Teksti,system,,4c024239-8dab-4ea0-a686-fe373b040f48
+nextval('free_text_content_id_seq'),1,Otsikko 2,Teksti 2,system,,4c024239-8dab-4ea0-a686-fe373b040f49
+nextval('free_text_content_id_seq'),4,Tekstikenttä osion sisällä,bla bla bla,system,RESEARCH,GENERAL
+nextval('free_text_content_id_seq'),4,Globaali tekstikenttä,bla bla bla,system,,4c024239-8dab-4ea0-a686-fe373b040f50
+nextval('free_text_content_id_seq'),2,Otsikko 2,Teksti 2,system,,4c024239-8dab-4ea0-a686-fe373b040f51

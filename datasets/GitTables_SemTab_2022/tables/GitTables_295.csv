@@ -1,0 +1,37 @@
+col0,col1,col2,col3
+Patient_last_name,Patient_last_name,Patient name ,True
+Patient_first_name,Patient_first_name,Patient name ,True
+Patient_middle_name,Patient_middle_name,Patient name ,False
+Patient_suffix,Patient_suffix,,False
+Patient_race,Patient_race,Patient race ,False
+Patient_DOB,Patient_DOB,Patient date of birth,True
+Patient_gender,Patient_gender,Patient sex,True
+Patient_ethnicity,Patient_ethnicity,Patient ethnicity,False
+Patient_street,Patient_street,Patient street address,True
+Patient_street2,Patient_street2,,False
+Patient_city,Patient_city,,True
+Patient_county,Patient_county,Patient residence county,False
+Patient_state,Patient_state,,False
+Patient_zip_code,Patient_zip_code,Patient residence zip code,True
+Patient_phone_number,Patient_phone_number,Patient phone number,True
+Employed_in_healthcare,Employed_in_healthcare,,True
+Resident_congregate_setting,Resident_congregate_setting,Resident in congregate care/living setting,True
+Role,,,False
+Testing_lab_specimen_ID,Testing_lab_specimen_ID,,False
+Test_result_coded,Test_result_coded,Test result ,False
+Specimen_collection_date_time,Specimen_collection_date_time,Test result date,False
+Ordering_provider_ID,Ordering_provider_ID,Ordering provider name; NPI,True
+First_test,First_test,First Test,True
+Symptomatic_for_disease,Symptomatic_for_disease,Symptomatic per CDC,False
+Testing_lab_name,Testing_lab_name,,True
+Testing_lab_ID,Testing_lab_ID,,False
+Ordering_provider_last_name,Ordering_provider_last_name,,True
+Ordering_provider_first_name,Ordering_provider_first_name,,False
+Ordering_provider_street,Ordering_provider_street,Ordering provider address,False
+Ordering_provider_zip_code,Ordering_provider_zip_code,Ordering provider zip code,True
+Ordering_provider_phone,Ordering_provider_phone,Ordering provider phone number,False
+Ordered_test_code,Ordered_test_code,Test ordered ,False
+Specimen_source_site_code,Specimen_source_site_code,Specimen source,False
+Device_type,,Device Identifier,False
+Test_date,Test_date,Test result date,False
+Date_result_released,Date_result_released,Test report date,False

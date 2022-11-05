@@ -1,0 +1,21 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+Gene,Gene that the resource is related to,1,textfield,IDG_GL,Gene,http://druggablegenome.net/Gene,http://purl.bioontology.org/ontology/OMIM/GENESYMBOL,
+Vector_ID,Assigned identifier for vector,1,textfield,,,,http://purl.org/dc/elements/1.1/identifier,
+Empty,State whether vector is empty control,1,radio,,,,,Yes;No
+Promoter,Promoter type used in vector (e.g. CMV),1,textfield,,Promoter,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl,,
+Ga_chimeric,G(alpha) chimeric protein included in vector (for yeast),2,textfield,,,,http://purl.org/dc/elements/1.1/title,
+Chimeric_Uni,UniProt ID of g(alpha) chimeric protein (for yeast),2,textfield,,,,http://data.bioontology.org/ontologies/DTO,
+oGPCR,Orphan GPCR name included (for yeast),2,textfield,,,,http://purl.org/dc/elements/1.1/title,
+oGPCR_Uni,UniProt ID of oGPCR (for yeast),2,textfield,,,,http://data.bioontology.org/ontologies/DTO,
+tTA_TEV,"UniProt ID of oGPCR for PRESTO assay, fused with TEV site and tTA",2,textfield,,,,http://data.bioontology.org/ontologies/DTO,
+Presto_protease,"UniProt ID of protease utilized for PRESTO assay, TEV fusion",2,textfield,,,,http://data.bioontology.org/ontologies/DTO,
+sgRNA_sequence,Sequence of sgRNA contained within construct,1,textfield,,,,http://www.bioassayontology.org/bao,
+Target,UniProt ID of targeted gene to silence,1,textfield,,,,http://data.bioontology.org/ontologies/DTO,
+Tag,"Type of tag included in construct (GFP, lacZ, etc.)",1,textfield,,,,http://www.bioassayontology.org/bao,
+Vector_backbone_id,ID for the backbone of the vector (e.g. pSpCas9(BB)-2A-Puro (PX459) V2.0),2,textfield,,DNA Vector,http://www.bioassayontology.org/bao,,
+Data page link,External link to published data relevant for the current Pharos page,1,textfield,,,,,
+Repository,Physical repository from which resource can be purchased,1,textfield,,,,,
+Repository page link,External link to physical and/or digital repositories containing key metadata and ordering information for the resource,1,textfield,,,,,
+RRID,Genetic construct RRID,1,textfield,,,,,
+Vector name,As registered with repository,1,textfield,,,,,
+Vector_type,Purpose/type of construct associated with gene,1,list,,,,,cDNA;CRISPR;TALON

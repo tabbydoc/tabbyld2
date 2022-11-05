@@ -1,0 +1,15 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27,col28,col29,col30,col31,col32,col33,col34,col35,col36,col37,col38,col39,col40,col41,col42,col43,col44,col45,col46,col47,col48,col49,col50,col51,col52,col53,col54,col55,col56,col57,col58,col59,col60,col61,col62,col63,col64,col65,col66,col67,col68,col69,col70,col71,col72,col73,col74,col75,col76,col77,col78,col79,col80,col81,col82,col83,col84,col85,col86
+edit,999999,Norma Fisher,999999.0,,,0.0,enabled,0.0,,,,sip,,,1234.0,,rfc2833,no,from-internal,,,,,,,,,dynamic,friend,yes,5060.0,yes,,,,,SIP/999999,,999999@device,,,fixed,,999999.0,John Doe,disabled,ogg,,,Adhoc,Adhoc,enabled,1234.0,"8156 Carr Ford Suite 784
+Port Samanthatown, VA 52775",j.doe.pager@foo.bar,attach=no,saycid=no,envelope=no,delete=no,,default,,,,,checked,,,,,999999.0,CHECKED,0.0,ringallv2,20.0,999999-552244,2.0,Ring,TEST,,CHECKED,0.0,0.0,"ext-local,vmu552244,1",,
+edit,654321,Jorge Sullivan,654321.0,,,0.0,enabled,0.0,,,,zap,,5001.0,,,,,from-internal,no,fxo_ks,yes,,800.0,no,7.0,no,,,,,,,,,,ZAP/5001,,654321@device,,,fixed,,654321.0,Jorge Doe,disabled,ogg,,,Adhoc,Adhoc,enabled,1234.0,"753 Padilla Circles
+New Jeffrey, FL 71671",,attach=no,saycid=no,envelope=no,delete=no,,default,checked,,,,,70904.0,,,,654321.0,CHECKED,13.0,hunt,25.0,654321-27346-123456-999999,2.0,default,,,CHECKED,2.0,2.0,"app-blackhole,zapateller,1",,
+add,999999,Elizabeth Woods,999999.0,,,0.0,enabled,0.0,,,,sip,,,1234.0,,rfc2833,no,from-internal,,,,,,,,,dynamic,friend,yes,5060.0,yes,,,,,SIP/999999,,999999@device,0.0.0.0/0.0.0.0,0.0.0.0/0.0.0.0,fixed,,999999.0,John Doe,disabled,ogg,,,Adhoc,Adhoc,enabled,1234.0,"8714 Mann Plaza
+Lisaside, PA 72227",j.doe.pager@foo.bar,attach=no,saycid=no,envelope=no,delete=no,,default,,,,,checked,,,,,999999.0,CHECKED,0.0,ringallv2,20.0,999999-552244,2.0,Ring,TEST,,CHECKED,0.0,0.0,"ext-local,vmu552244,1",,
+add,654321,Susan Wagner,654321.0,,,0.0,enabled,0.0,,,,zap,,5001.0,,,,,from-internal,no,fxo_ks,yes,,800.0,no,7.0,no,,,,,,,,,,ZAP/5001,,654321@device,,,fixed,,654321.0,Jorge Doe,disabled,ogg,,,Adhoc,Adhoc,enabled,1234.0,"96593 White View Apt. 094
+Jonesberg, FL 05565",,attach=no,saycid=no,envelope=no,delete=no,,default,checked,,,,,70904.0,,,,654321.0,CHECKED,13.0,hunt,25.0,654321-27346-123456-999999,2.0,default,,,CHECKED,2.0,2.0,"app-blackhole,zapateller,1",,
+del,999999,Peter Montgomery,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"848 Melissa Springs Suite 947
+Kellerstad, MD 80819",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+del,123456,Theodore Mcgrath,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"30413 Norton Isle Suite 012
+North Lisa, ND 79428",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+del,654321,Stephanie Collins,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"39916 Mitchell Crescent
+New Andrewburgh, DE 63315",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

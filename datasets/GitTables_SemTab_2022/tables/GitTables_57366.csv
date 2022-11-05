@@ -1,0 +1,16 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+000000135,"Office of Economic Planning, Data Processing and Statistics",,https://www.springfield-ma.gov/planning/,5.0,0.0,0.0,Connection problems
+000000135,"Office of Economic Planning, Data Processing and Statistics",,https://unctad.org/en/Pages/GDS/Sovereign-Debt-Portal/Sovereign-Debt-Links-1.aspx,7.0,0.0,0.0,Connection problems
+000000206,Statistics Sweden,https://www.scb.se,https://www.scb.se/en/,0.0,1.0,1.0,Connection problems
+000000209,Statistics Sweden,https://www.scb.se,https://www.scb.se/en/,0.0,1.0,1.0,Connection problems
+ID,Name,URL,Suggested URL,Link position,Has equal domain,Has Simple Suggested URL,Error
+000000136,"Office of Economic Planning, Data Processing and Statistics",http://www.statistica.sm,https://www.springfield-ma.gov/planning/,5.0,0.0,0.0,Connection problems
+000000136,"Office of Economic Planning, Data Processing and Statistics",http://www.statistica.sm,https://unctad.org/en/Pages/GDS/Sovereign-Debt-Portal/Sovereign-Debt-Links-1.aspx,7.0,0.0,0.0,Connection problems
+000000207,Statistics Sweden,,https://www.scb.se/en/,0.0,0.0,1.0,Connection problems
+000000210,Statistics Sweden,https://www.scb.se,https://www.scb.se/en/,0.0,1.0,1.0,Connection problems
+ID,Name,URL,Suggested URL,Link position,Has equal domain,Has Simple Suggested URL,Error
+000000134,"Office of Economic Planning, Data Processing and Statistics",http://www.statistica.sm,https://www.springfield-ma.gov/planning/,5.0,0.0,0.0,Connection problems
+000000134,"Office of Economic Planning, Data Processing and Statistics",http://www.statistica.sm,https://unctad.org/en/Pages/GDS/Sovereign-Debt-Portal/Sovereign-Debt-Links-1.aspx,7.0,0.0,0.0,Connection problems
+000000205,Statistics Sweden,https://www.scb.se,https://www.scb.se/en/,0.0,1.0,1.0,Connection problems
+000000208,Statistics Sweden,,https://www.scb.se/en/,0.0,0.0,1.0,Connection problems
+000000211,Statistics Sweden,https://www.scb.se,https://www.scb.se/en/,0.0,1.0,1.0,Connection problems

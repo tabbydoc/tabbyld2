@@ -1,0 +1,87 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17
+1,Aberfeldy,2,2,2,0,0,2,1,2,2,2,2,2,	PH15 2EB,286580,749680,Aberfeldy 12 Year
+2,Aberlour,3,3,1,0,0,4,3,2,2,3,3,2,	AB38 9PJ,326340,842570,Abelour 10 Year
+3,AnCnoc,1,3,2,0,0,2,0,0,2,2,3,2,	AB5 5LI,352960,839320,AnCnoc 12 Year
+4,Ardbeg,4,1,4,4,0,0,2,0,1,2,1,0,	PA42 7EB,141560,646220,Ardbeg 10 Year
+5,Ardmore,2,2,2,0,0,1,1,1,2,3,1,1,	AB54 4NH,355350,829140,Ardmore 12 Year
+6,ArranIsleOf,2,3,1,1,0,1,1,1,0,1,1,2,KA27 8HJ,194050,649950,Isle of Arran 10 Year
+7,Auchentoshan,0,2,0,0,0,1,1,0,2,2,3,3,G81 4SJ,247670,672610,Auchentoshan 10 Year
+8,Auchroisk,2,3,1,0,0,2,1,2,2,2,2,1,	AB55 3XS,340754,848623,Auchriosk 10 Year
+9,Aultmore,2,2,1,0,0,1,0,0,2,2,2,2,	AB55 3QY,340754,848623,Aultmore 12 Year
+10,Balblair,2,3,2,1,0,0,2,0,2,1,2,1,	IV19 1LB,270820,885770,Balblair 10 Year
+11,Balmenach,4,3,2,0,0,2,1,3,3,0,1,2,	PH26 3PF,307750,827170,Balmenach 12 Year
+12,Balvenie,3,2,1,0,0,3,2,1,0,2,2,2,	AB55 4DH,332680,840840,Balvenie 10 Year
+13,BenNevis,4,2,2,0,0,2,2,0,2,2,2,2,	PH33 6TJ,212600,775710,Ben Nevis 10 Year
+14,Benriach,2,2,1,0,0,2,2,0,0,2,3,2,	IV30 8SJ,323450,858380,Benriach 12 Year
+15,Benrinnes,3,2,2,0,0,3,1,1,2,3,2,2,	AB38 9NN,325800,839920,Benrinnes 15 Year
+16,Benromach,2,2,2,0,0,2,2,1,2,2,2,2,	IV36 3EB,303330,859350,Benromach 5  Year
+17,Bladnoch,1,2,1,0,0,0,1,1,0,2,2,3,	DG8 9AB,242260,554260,Bladnoch 16 Year
+18,BlairAthol,2,2,2,0,0,1,2,2,2,2,2,2,	PH16 5LY,294860,757580,Blair Athol 12 Year
+19,Bowmore,2,2,3,1,0,2,2,1,1,1,1,2,	PA43 7GS,131330,659720,Bowmore 12 Year
+20,Bruichladdich,1,1,2,2,0,2,2,1,2,2,2,2,PA49 7UN,126680,661400,Bruichladdich 10 Year
+21,Bunnahabhain,1,2,1,1,0,1,1,1,1,2,2,3,PA46 7RR,142210,673170,Bunnahabhain 12 Year
+22,Caol Ila,3,1,4,2,1,0,2,0,2,1,1,1,	PA46 7RL,142920,670040,Caol Ila 12 Year
+23,Cardhu,1,3,1,0,0,1,1,0,2,2,2,2,	AB38 7RY,318790,843090,Cardhu 12 Year
+24,Clynelish,3,2,3,3,1,0,2,0,1,1,2,0,	KW9 6LB,290250,904230,Clynelish 14 Year
+25,Craigellechie,2,2,2,0,1,2,2,1,2,2,1,4,AB38 9ST,328920,844920,Crraigellachie 14 Year
+26,Craigganmore,2,3,2,1,0,0,1,0,2,2,2,2,AB37 9AB,316600,836370,Cragganmore 12 Year
+27,Dailuaine,4,2,2,0,0,1,2,2,2,2,2,1,	AB38 7RE,323520,841010,Dailuaine 16 Year
+28,Dalmore,3,2,2,1,0,1,2,2,1,2,3,1,	IV17 0UT,266610,868730,Dalmore 12 Year
+29,Dalwhinnie,2,2,2,0,0,2,1,0,1,2,2,2,	PH19 1AB,263670,785270,Dalwhinnie 15 Year
+30,Deanston,2,2,1,0,0,2,1,1,1,3,2,1,FK16 6AG,271570,701570,Deanston 12 Yer
+31,Dufftown,2,3,1,1,0,0,0,0,1,2,2,2,AB55 4BR,332360,839200,Dufftown 15 Year
+32,Edradour,2,3,1,0,0,2,1,1,4,2,2,2,PH16 5JP,295960,757940,Edradour 10 Year
+33,GlenDeveronMacduff,2,3,1,1,1,1,1,2,0,2,0,1,AB4 3JT,372120,860400,Glen Deveron 10 Year
+34,GlenElgin,2,3,1,0,0,2,1,1,1,1,2,3,IV30 3SL,322640,861040,Glen Elgin 12 Year
+35,GlenGarioch,2,1,3,0,0,0,3,1,0,2,2,2,AB51 0ES,381020,827590,Glen Garioch 12 Year
+36,GlenGrant,1,2,0,0,0,1,0,1,2,1,2,1,AB38 7BS,327610,849570,Glen Grant 10 Year
+37,GlenKeith,2,3,1,0,0,1,2,1,2,1,2,1,AB55 3BU,340754,848623,Glen Keith 10 Year
+38,GlenMoray,1,2,1,0,0,1,2,1,2,2,2,4,IV30 1YE,319820,862320,Glen Moray 12 Year
+39,GlenOrd,3,2,1,0,0,1,2,1,1,2,2,2,IV6 7UJ,251810,850860,Glen Ord 12 Year
+40,GlenScotia,2,2,2,2,0,1,0,1,2,2,1,1,PA28 6DS,172090,621010,Glen Scotia 14 Years
+41,GlenSpey,1,3,1,0,0,0,1,1,1,2,0,2,AB38 7AU,327760,849140,Glen Spey 12 Years
+42,Glenallachie,1,3,1,0,0,1,1,0,1,2,2,2,AB38 9LR,326490,841240,Glenallachie 12 Year
+43,Glendronach,4,2,2,0,0,2,1,4,2,2,2,0,AB54 6DA,361200,844930,Glendroanch 12 Years
+44,Glendullan,3,2,1,0,0,2,1,2,1,2,3,2,AB55 4DJ,333000,840300,Glendullan 12 Year
+45,Glenfarclas,2,4,1,0,0,1,2,3,2,3,2,2,AB37 9BD,320950,838160,Glenfarclas 10 Year
+46,Glenfiddich,1,3,1,0,0,0,0,0,0,2,2,2,AB55 4DH,332680,840840,Glenfiddich 12 Year
+47,Glengoyne,1,2,0,0,0,1,1,1,2,2,3,2,G63 9LB,252810,682750,Glengoyne 10 Year 
+48,Glenkinchie,1,2,1,0,0,1,2,0,0,2,2,2,EH34 5ET,344380,666690,Glenkinchie 10 Year
+49,Glenlivet,2,3,1,0,0,2,2,2,1,2,2,3,AB37 9DB,319560,828780,Glenlivet 12 Year
+50,Glenlossie,1,2,1,0,0,1,2,0,1,2,2,2,IV30 3SS,322640,861040,Glenlossie 10 Year
+51,Glenmorangie,2,2,1,1,0,1,2,0,2,1,2,2,IV19 1PZ,276750,883450,Glenmorange 10 Year
+52,Glenrothes,2,3,1,0,0,1,1,2,1,2,2,0,AB38 7AA,327650,849170,Glenrothes 12 Year
+53,Glenturret,2,3,1,0,0,2,2,2,2,2,1,2,PH7 4HA,285630,723580,Glenturret 10 Year
+54,Highland Park,2,2,3,1,0,2,1,1,1,2,1,1,KW15 1SU,345340,1009260,Highland Park 12 Year
+55,Inchgower,1,3,1,1,0,2,2,0,1,2,1,2,AB56 5AB,342610,863970,Inchgower 14 Year
+56,Isle of Jura,2,1,2,2,0,1,1,0,2,1,1,1,PA60 7XT,152660,667040,Isle of Jura 10 Year
+57,Knockando,2,3,1,0,0,2,2,1,2,1,2,2,AB38 7RT,319470,841570,Knockando 12 Year
+58,Lagavulin,4,1,4,4,1,0,1,2,1,1,1,0,PA42 7DZ,140430,645730,Lagavulin 16 Year
+59,Laphroig,4,2,4,4,1,0,0,1,1,1,0,0,PA42 7DU,138680,645160,Laphroig 12 Year
+60,Linkwood,2,3,1,0,0,1,1,2,0,1,3,2,IV30 3RD,322640,861040,Linkwood 12 Year
+61,Loch Lomond,1,1,1,1,0,1,1,0,1,2,1,2,G83 0TL,239370,680920,Loch Lomond
+62,Longmorn,3,2,1,0,0,1,1,1,3,3,2,3,IV30 3SJ,322640,861040,Longmorn 15 Year
+63,Macallan,4,3,1,0,0,2,1,4,2,2,3,1,AB38 9RX,327710,844480,Macallan 10 Year
+64,Mannochmore,2,1,1,0,0,1,1,1,2,1,2,2,IV30 3SS,322640,861040,Mannochmore 12 Year
+65,Miltonduff,2,4,1,0,0,1,0,0,2,1,1,2,IV30 3TQ,322640,861040,Miltonduff 15 Year
+66,Mortlach,3,2,2,0,0,2,3,3,2,1,2,2,AB55 4AQ,332950,839850,Mortlach 16 Year
+67,Oban,2,2,2,2,0,0,2,0,2,2,2,0,PA34 5NH,185940,730190,Oban 14 Year
+68,Fettercairn,1,2,2,0,1,2,2,1,2,3,1,1,AB30 1YE,370860,772900,Fettercairn 12 Year
+69,OldPulteney,2,1,2,2,1,0,1,1,2,2,2,2,KW1 5BA,336730,950130,Old Pulteney 12 Year
+70,RoyalBrackla,2,3,2,1,1,1,2,1,0,2,3,2,IV12 5QY,286040,851320,Royal Brackla 10 Year
+71,RoyalLochnagar,3,2,2,0,0,2,2,2,2,2,3,1,AB35 5TB,326140,794370,Royal Lochnagar 12 Year
+72,Scapa,2,2,1,1,0,2,1,1,2,2,2,2,KW15 1SE,342850,1008930,Scapa 14 Year
+73,Speyburn,2,4,1,0,0,2,1,0,0,2,1,2,AB38 7AG,326930,851430,Speyburn 10 Year
+74,Speyside,2,2,1,0,0,1,0,1,2,2,2,2,PH21 1NS,278740,800600,Speyside 12 Year
+75,Springbank,2,2,2,2,0,2,2,1,2,1,0,1,PA28 6EJ,172280,620910,Springbank 10 Year
+76,Strathisla,2,2,1,0,0,2,2,2,3,3,3,2,AB55 3BS,340754,848623,Strathisla 12 Year
+77,Strathmill,2,3,1,0,0,0,2,0,2,1,3,2,AB55 5DQ,342650,850500,Strathmill 12 Year
+78,Talisker,4,2,3,3,0,1,3,0,1,2,2,0,IV47 8SR,137950,831770,Talisker 12 Year
+79,Tamdhu,1,2,1,0,0,2,0,1,1,2,2,2,AB38 7RP,319210,841760,Tamdhu 10 Year
+80,Tamnavulin,1,3,2,0,0,0,2,0,2,1,2,3,AB37 9JA,321180,826110,Tamnavulin 12 Year
+81,Teaninich,2,2,2,1,0,0,2,0,0,0,2,2,IV17 0XB,265360,869120,Teaninich 10 Year
+82,Tobermory,1,1,1,0,0,1,0,0,1,2,2,2,PA75 6NR,150450,755070,Tobermory 10 Year
+83,Tomatin,2,3,2,0,0,2,2,1,1,2,0,1,IV13 7YT,279120,829630,Tomatin 12 Year
+84,Tomintoul,0,3,1,0,0,2,2,1,1,2,1,2,AB37 9AQ,315100,825560,Tomintoul 10 Year
+85,Tormore,2,2,1,0,0,1,0,1,2,1,0,0,PH26 3LR,315180,834960,Tormore 12 Year
+86,Tullibardine,2,3,0,0,1,0,2,1,1,2,2,1,PH4 1QG,289690,708850,Tuillibardine 12 Year

@@ -1,0 +1,40 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1,senate,Grand Marshal,f,t,t,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+2,eboard,President of the Union,f,t,t,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+3,senate,Vice Chairperson of the Senate,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+4,senate,Student Government Communications Committee Chairperson,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+5,senate,Student Life Committee Chairperson,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+6,senate,Academic Affairs Committee Chairperson,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+7,senate,Facilities and Services Committee Chairperson,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+8,senate,Community Relations Committee Chairperson,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+9,senate,Senate-Executive Board Liaison,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+10,senate,Internal Reforms Committee Chairperson,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+11,senate,Parliamentarian,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+12,senate,Treasurer,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+13,senate,Secretary,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+14,senate,Class of 2017 Senator,t,f,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+15,senate,Class of 2018 Senator,t,f,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+16,senate,Class of 2019 Senator,t,f,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+17,senate,Class of 2020 Senator,t,f,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+18,senate,Class of 2021 Senator,t,f,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+19,senate,Greek Senator (Panhellenic),t,f,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+20,senate,Greek Senator (IFC),t,f,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+21,senate,Independent Senator,t,f,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+22,senate,Graduate Senator,t,f,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+23,senate,Web Technologies Group Chairperson,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+24,jboard,Judicial Board Chairperson,f,t,t,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+25,uc,Undergraduate President,f,t,t,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+26,gc,Graduate Council President,f,t,t,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+27,senate,Human Resources Interview Committee Chairperson,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+28,senate,Hospitality Services Advisory Committee Chairperson,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+29,senate,Elections Commission Chairperson,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+30,eboard,Union Business Operations Committee Chairperson,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+31,eboard,Union Club Operations Committee Chairperson,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+32,eboard,"Union Marketing, Advertising, and Publicity Committee Chairperson",f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+33,eboard,Union Policies Committee Chairperson,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+34,eboard,Union Programming and Activities Committee Chairperson,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+35,jboard,Student Motor Vehicle Court Chairperson,f,t,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+36,uc,Class of 2018 President,t,f,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+37,uc,Class of 2019 President,t,f,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+38,uc,Class of 2020 President,t,f,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00
+39,uc,Class of 2021 President,t,f,f,2020-11-18 21:16:44.795+00,2020-11-18 21:16:44.795+00

@@ -1,0 +1,76 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19
+1,AcronymID,Text,50.0,1,1,Code,Code,Acronym&nbsp;Code,Code&nbsp;d'acronyme,1,,,Text,1.0,1.0,,,,2004-12-02 14:48:48
+2,LanguageID,Text,,0,0,Language,Langue,Language,Langue,1,,,Select,2.0,4.0,Languages,LanguageID,,2004-11-26 10:14:07
+3,DescriptionE,Text,255.0,1,1,E&nbsp;Description,Description&nbsp;F,English&nbsp;Description,Description&nbsp;anglaise,1,,,Text,3.0,2.0,,,,2004-11-26 10:15:14
+4,DescriptionF,Text,255.0,1,0,,,French&nbsp;Description,Description &nbsp;française,1,,,Text,4.0,3.0,,,,2004-11-26 10:15:27
+5,AcronymTypeID,Number,,0,0,,,Type,Type,1,,,Select,5.0,5.0,AcronymTypes,Description,,2004-11-26 10:15:34
+6,LastUpdate,Date,,0,0,,,Last Update,,1,,,,,,,,,2004-11-26 10:15:42
+7,AcronymTypeID,Number,,0,0,Code,Code,Code,Code,2,,,,,,,,,2004-11-26 10:15:54
+8,DescriptionE,Text,,0,0,E&nbsp;Description,Description&nbsp;F,English&nbsp;Description,Description&nbsp;anglaise,2,,,,,,,,,2004-11-26 10:16:08
+9,DescriptionF,Text,,0,0,,,French&nbsp;Description,Description&nbsp;française,2,,,,,,,,,2004-11-26 10:16:29
+10,htmlStart,Text,,0,0,,,Code Start,Code (commence),2,,,,,,,,,2004-11-26 10:16:38
+11,htmlMid,Text,,0,0,,,Code Between,Code (au milieu),2,,,,,,,,,2004-11-26 10:16:40
+12,htmlEnd,Text,,0,0,,,Code End,Code (termine),2,,,,,,,,,2004-11-26 10:17:20
+13,LastUpdate,Date,,0,0,,,Last Update,Mis à jour,2,,,,,,,,,2004-11-26 10:17:31
+14,CategoryID,Number,4.0,1,1,Code,Code,Code,Code,3,,,PrimaryKey,1.0,1.0,,,,2004-11-26 10:17:38
+15,HeaderE,Text,255.0,1,1,E&nbsp;Description,Description&nbsp;F,English&nbsp;Name,Nom&nbsp;en&nbsp;anglais,3,,,Text,2.0,2.0,,,,2004-11-26 10:18:00
+16,HeaderF,Text,255.0,1,0,,,French&nbsp;Name,Nom&nbsp;en&nbsp;français,3,,,Text,3.0,3.0,,,,2004-11-26 10:18:09
+17,LastUpdate,Date,,0,0,,,Last Update,Mis à jour,3,,,,,,,,,2004-11-26 10:18:17
+18,CityID,Number,4.0,1,1,Code,Code,Code,Code,4,,,,,,,,,2004-11-26 10:18:24
+19,DescriptionE,Text,50.0,1,1,E Description,Description F,English&nbsp;Description,Description&nbsp;anglaise,4,,,,,,,,,2004-11-26 10:18:40
+20,DescriptionF,Text,50.0,1,0,,,French&nbsp;Description,Description&nbsp;française,4,,,,,,,,,2004-11-26 10:18:45
+21,ProvinceStateID,Number,4.0,1,0,,,Province/State,Province/État,4,ProvinceStates,Description,,,,,,,2004-11-26 10:18:51
+22,CountryID,Number,,0,0,,,Code,Code,4,,,,,,,,,2004-11-26 10:18:53
+23,LastUpdate,Date,,0,0,,,Last Update,Mis à jour,4,,,,,,,,,2004-11-26 10:18:55
+24,ColumnID,,,0,0,,,Code,Code,5,,,,,,,,,2004-11-26 10:19:24
+25,ColumName,,,0,0,,,Column Name,Nom de colonne,5,,,,,,,,,2004-11-26 10:19:40
+26,ShowColumn,,,0,0,,,Show,Affiche,5,,,,,,,,,2004-11-26 10:20:04
+27,DescriptionE,,,0,0,,,English&nbsp;Description,Description&nbsp;anglaise,5,,,,,,,,,2004-11-26 10:20:14
+28,DescriptionF,,,0,0,,,French&nbsp;Description,Description&nbsp;française,5,,,,,,,,,2004-11-26 10:20:19
+29,TableID,,,0,0,,,Code,Code,5,,,,,,,,,2004-11-26 10:20:22
+30,LastUpdate,,,0,0,,,Last Update,Mis à jour,5,,,,,,,,,2004-11-26 10:20:25
+31,CompanyID,Text,20.0,1,1,Code,Code,Code,Code,6,,,,,,,,,2004-11-26 10:20:50
+32,NameE,Text,255.0,1,1,E Description,Description F,English Description,Description&nbsp;anglaise,6,,,,,,,,,2004-11-26 10:21:12
+33,NameF,Text,255.0,1,0,,,French Description,Description&nbsp;française,6,,,,,,,,,2004-11-26 10:21:20
+34,LanguageID,Text,,0,0,,,Code,Code,6,,,,,,,,,2004-11-26 10:21:30
+35,CityID,Number,,0,0,,,Code,Code,6,,,,,,,,,2004-11-26 10:21:42
+36,PostalCode,Text,,0,0,,,Postal&nbsp;Code,Code&nbsp;Postal,6,,,,,,,,,2004-11-26 10:21:47
+37,LastUpdate,Date,,0,0,,,Last Update,Mis à jour,6,,,,,,,,,2004-11-26 10:21:59
+38,CountryID,Number,4.0,1,1,Code,Code,Code,Code,7,,,PrimaryKey,1.0,1.0,,,,2004-11-26 10:22:08
+39,DescriptionE,Text,50.0,1,1,E Description,Description F,English&nbsp;Description,Description&nbsp;anglaise,7,,,Text,2.0,2.0,,,,2004-11-26 10:22:24
+40,DescriptionF,Text,50.0,1,0,,,French&nbsp;Description,Description&nbsp;française,7,,,Text,3.0,3.0,,,,2004-11-26 10:22:33
+41,LanguageID,Text,,0,0,,,Code,Code,8,,,,,,,,,2004-11-26 10:22:41
+42,DescriptionE,Text,,0,0,,,English&nbsp;Description,Description&nbsp;anglaise,8,,,Text,1.0,1.0,,,,2004-11-26 10:23:05
+43,DescriptionF,Text,,0,0,,,French&nbsp;Description,Description&nbsp;française,8,,,Text,2.0,2.0,,,,2004-11-26 10:23:25
+44,LastUpdate,Date,,0,0,,,Last Update,Mis à jour,8,,,,,,,,,2004-11-26 10:23:35
+45,ProductID,Text,20.0,1,1,Code,Code,Code,Code,9,,,,,,,,,2004-11-26 10:23:47
+46,NameE,Text,255.0,1,1,E Description,Description F,English&nbsp;Description,Description&nbsp;anglaise,9,,,,,,,,,2004-11-26 10:23:59
+47,NameF,Text,255.0,1,0,,,French&nbsp;Description,Description&nbsp;française,9,,,,,,,,,2004-11-26 10:24:09
+48,LanguageID,Text,,0,0,,,Code,Code,9,,,,,,,,,2004-11-26 10:24:19
+49,ApprovalDate,Date,,0,0,,,Approval&nbsp;Date,Date&nbsp;approuvée,9,,,,,,,,,2004-11-26 10:24:27
+50,CompanyID,Text,,0,0,,,Code,Code,9,,,,,,,,,2004-11-26 10:24:38
+51,SubCategoryID,Number,,0,0,,,Code,Code,9,,,,,,,,,2004-11-26 10:24:46
+52,LastUpdate,Date,,0,0,,,Last Update,Mis à jour,9,,,,,,,,,2004-11-26 10:24:56
+53,ProvinceStateID,Number,,0,0,,,ID,ID,10,,,PrimaryKey,1.0,1.0,,,,2004-11-26 10:25:06
+54,ProvinceStateCode,Text,5.0,1,1,Code,Code,Code,Code,10,,,Text,2.0,2.0,,,,2004-11-26 10:25:42
+55,DescriptionE,Text,50.0,1,1,E Description,Description F,English&nbsp;Description,Description&nbsp;anglaise,10,,,Text,3.0,3.0,,,,2004-11-26 10:25:53
+56,DescriptionF,Text,50.0,1,0,,,French&nbsp;Description,Description&nbsp;française,10,,,Text,4.0,4.0,,,,2004-11-26 10:29:07
+57,CountryID,Number,4.0,1,0,,,Country,Pays,10,Countries,Description,Select,5.0,5.0,Countries,Description,,2004-11-26 10:29:22
+58,LastUpdate,Date,,0,0,,,Last Update,Mis à jour,10,,,,,,,,,2004-11-26 10:29:32
+59,SubCategoryID,Number,4.0,1,1,Code,Code,Code,Code,11,,,PrimaryKey,1.0,1.0,,,,2004-11-26 10:29:41
+60,TopicE,Text,255.0,1,1,E Description,Description F,English&nbsp;Description,Description&nbsp;anglaise,11,,,Text,2.0,2.0,,,,2004-11-26 10:29:56
+61,TopicF,Text,255.0,1,0,,,French&nbsp;Description,Description&nbsp;française,11,,,Text,3.0,3.0,,,,2004-11-26 10:30:06
+62,CategoryID,Number,4.0,1,0,,,Categories,Catégories,11,Categories,Header,Select,4.0,4.0,Categories,Header,,2004-11-26 10:30:14
+63,LastUpdate,Date,,0,0,,,Last Update,Mis&nbsp;à&nbsp;jour,11,,,,,,,,,2004-11-26 10:30:25
+64,TableID,,,0,0,,,Code,Code,12,,,,,,,,,2004-11-26 10:30:35
+65,TableName,,,0,0,,,Table Name,Nom&nbsp;de&nbsp;table,12,,,,,,,,,2004-11-26 10:30:48
+66,ShowTable,,,0,0,,,Show,Afficher,12,,,,,,,,,2004-11-26 10:31:01
+67,DescriptionE,,,0,0,,,English&nbsp;Description,Description&nbsp;anglaise,12,,,,,,,,,2004-11-26 10:31:12
+68,DescriptionF,,,0,0,,,French&nbsp;Description,Description&nbsp;française,12,,,,,,,,,2004-11-26 10:31:21
+69,LastUpdate,,,0,0,,,Last Update,Mis à jour,12,,,,,,,,,2004-11-26 10:31:32
+70,CompanyID,Text,20.0,1,1,Code,Code,Company&nbsp;Code,Code&nbsp;d'entreprise,13,Companies,Name,Select,1.0,1.0,Companies,CompanyID,Name,2004-11-26 10:31:46
+71,AcronymID,Text,20.0,1,1,Acronym,Acronyme,Acronym,Acronyme,13,,,Select,2.0,2.0,Acronyms,AcronymID,,2004-11-26 10:31:58
+72,LastUpdate,Date,,0,0,,,Last Update,Mis à jour,13,,,,,,,,,2004-11-26 10:32:09
+73,LastUpdate,Date,,0,0,,,Last Update,Last Update,7,,,,,,,,,2004-11-29 13:32:23
+74,NoteE,Text,,1,0,,,English&nbsp;Description,Description&nbsp;en&nbsp;anglais,3,,,Text,3.0,3.0,,,,2004-12-23 09:31:41
+75,NoteF,Text,,1,0,,,French&nbsp;Description,Description&nbsp;en&nbsp;français,3,,,Text,4.0,4.0,,,,2004-12-23 09:33:39

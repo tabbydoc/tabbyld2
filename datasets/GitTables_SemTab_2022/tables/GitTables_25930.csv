@@ -1,0 +1,82 @@
+col0,col1,col2,col3
+San José,1,canton_101,state_1
+Escazú,2,canton_102,state_1
+Desamparados,3,canton_103,state_1
+Puriscal,4,canton_104,state_1
+Tarrazu,5,canton_105,state_1
+Aserri,6,canton_106,state_1
+Mora,7,canton_107,state_1
+Goicoechea,8,canton_108,state_1
+Santa Ana,9,canton_109,state_1
+Alajuelita,10,canton_110,state_1
+Vazquez de Coronado,11,canton_111,state_1
+Acosta,12,canton_112,state_1
+Tibas,13,canton_113,state_1
+Moravia,14,canton_114,state_1
+Montes de Oca,15,canton_115,state_1
+Turrubares,16,canton_116,state_1
+Dota,17,canton_117,state_1
+Curridabat,18,canton_118,state_1
+Perez Zeledon,19,canton_119,state_1
+Leon Cortes,20,canton_120,state_1
+Alajuela,1,canton_201,state_2
+San Ramon,2,canton_202,state_2
+Grecia,3,canton_203,state_2
+San Mateo,4,canton_204,state_2
+Atenas,5,canton_205,state_2
+Naranjo,6,canton_206,state_2
+Palmares,7,canton_207,state_2
+Poas,8,canton_208,state_2
+Orotina,9,canton_209,state_2
+San Carlos,10,canton_210,state_2
+Alfaro Ruiz,11,canton_211,state_2
+Valverde Vega,12,canton_212,state_2
+Upala,13,canton_213,state_2
+Los Chiles,14,canton_214,state_2
+Guatuso,15,canton_215,state_2
+Cartago,1,canton_301,state_3
+Paraiso,2,canton_302,state_3
+La Union,3,canton_303,state_3
+Jimenez,4,canton_304,state_3
+Turrialba,5,canton_305,state_3
+Alvarado,6,canton_306,state_3
+Oreamuno,7,canton_307,state_3
+El Guarco,8,canton_308,state_3
+Heredia,1,canton_401,state_4
+Barva,2,canton_402,state_4
+Santo Domingo,3,canton_403,state_4
+Santa Barbara,4,canton_404,state_4
+San Rafael,5,canton_405,state_4
+San Isidro,6,canton_406,state_4
+Belen,7,canton_407,state_4
+Flores,8,canton_408,state_4
+San Pablo,9,canton_409,state_4
+Sarapiqui,10,canton_410,state_4
+Liberia,1,canton_501,state_5
+Nicoya,2,canton_502,state_5
+Santa Cruz,3,canton_503,state_5
+Bagaces,4,canton_504,state_5
+Carrillo,5,canton_505,state_5
+Cañas,6,canton_506,state_5
+Abangares,7,canton_507,state_5
+Tilaran,8,canton_508,state_5
+Nandayure,9,canton_509,state_5
+La Cruz,10,canton_510,state_5
+Hojancha,11,canton_511,state_5
+Puntarenas,1,canton_601,state_6
+Esparza,2,canton_602,state_6
+Buenos Aires,3,canton_603,state_6
+Montes de Oro,4,canton_604,state_6
+Osa,5,canton_605,state_6
+Aguirre,6,canton_606,state_6
+Golfito,7,canton_607,state_6
+Coto Brus,8,canton_608,state_6
+Parrita,9,canton_609,state_6
+Corredores,10,canton_610,state_6
+Garabito,11,canton_611,state_6
+Limon,1,canton_701,state_7
+Pococí,2,canton_702,state_7
+Siquirres,3,canton_703,state_7
+Talamanca,4,canton_704,state_7
+Matina,5,canton_705,state_7
+Guacimo,6,canton_706,state_7

@@ -1,0 +1,9 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+delivery_grid.price_list_line_1_1,0.0,Franco si plus de 10 000 €,fixed,10000.0,0.0,delivery_grid.price_list_1,weight,>=,price
+delivery_grid.price_list_line_1_2,60.0,60 € jusqu'à 1499 €,fixed,1499.99,0.0,delivery_grid.price_list_1,weight,<=,price
+delivery_grid.price_list_line_1_3,120.0,120 € jusqu'à 2999 €,fixed,2999.99,0.0,delivery_grid.price_list_1,weight,<=,price
+delivery_grid.price_list_line_1_4,180.0,180 € jusqu'à 9999 €,fixed,9999.99,0.0,delivery_grid.price_list_1,weight,<=,price
+delivery_grid.price_list_line_2_1,0.0,Franco si plus de 10 000 €,fixed,10000.0,0.0,delivery_grid.price_list_2,weight,>=,price
+delivery_grid.price_list_line_2_2,100.0,100 € jusqu'à 1499 €,fixed,1499.99,0.0,delivery_grid.price_list_2,weight,<=,price
+delivery_grid.price_list_line_2_3,160.0,160 € jusqu'à 2999 €,fixed,2999.99,0.0,delivery_grid.price_list_2,weight,<=,price
+delivery_grid.price_list_line_2_4,220.0,220 € jusqu'à 9999 €,fixed,9999.99,0.0,delivery_grid.price_list_2,weight,<=,price

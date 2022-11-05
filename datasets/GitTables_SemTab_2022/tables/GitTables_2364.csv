@@ -1,0 +1,16 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+cgrates.org,PING1,,,,,,ALL2,,10,,,
+cgrates.org,PING2,*any,*string:~*req.EventName:NonexistingHost,,*weight,,NonexistingHost,,20,False,,20.0
+cgrates.org,PING2,,,,,,ALL2,,10,,,
+cgrates.org,EVENT1,*any,*string:~*req.EventName:Event1,,*weight,,ALL2,,20,False,,30.0
+cgrates.org,EVENT1,,,,,,ALL,,10,,,
+cgrates.org,EVENT2,*any,*string:~*req.EventName:RoundRobin,,*round_robin,,ALL2,,20,False,,20.0
+cgrates.org,EVENT2,,,,,,ALL,,10,,,
+cgrates.org,EVENT3,*any,*string:~*req.EventName:Random,,*random,,ALL2,,20,False,,20.0
+cgrates.org,EVENT3,,,,,,ALL,,10,,,
+cgrates.org,EVENT4,*any,*string:~*req.EventName:Broadcast,,*broadcast_sync,,ALL2,,20,False,,20.0
+cgrates.org,EVENT4,,,,,,ALL,,10,,,
+cgrates.org,EVENT5,*any,*string:~*req.EventName:Internal,,*weight,,SELF,,20,False,,20.0
+cgrates.org,EVENT6,*any,*string:~*opts.*method:DispatcherSv1.GetProfileForEvent,,*weight,,SELF,,20,False,,20.0
+cgrates.org,EVENT7,*any,*string:~*opts.EventType:LoadDispatcher,,*weight,*default_ratio:1,ALL,,20,False,,20.0
+cgrates.org,EVENT7,,,,,,ALL2,,20,,*ratio:1,20.0

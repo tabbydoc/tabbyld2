@@ -1,0 +1,34 @@
+col0,col1,col2,col3
+CO,One-line text comment,,
+HD,The header line,,
+HD,The header line,VN,Format version
+HD,The header line,SO,Sorting order of alignments
+HD,The header line,GO,Grouping of alignments
+PG,Program,,
+PG,Program,ID,Program record identifier
+PG,Program,PN,Program name
+PG,Program,CL,Command line
+PG,Program,PP,Previous @PG-ID
+PG,Program,DS,Description
+PG,Program,VN,Program version
+RG,Read group,,
+RG,Read group,ID,Read group identifier
+RG,Read group,CN,Name of sequencing center producing the read
+RG,Read group,DS,Description
+RG,Read group,DT,Date the run was produced (ISO8601 date or date/time)
+RG,Read group,FO,Flow order
+RG,Read group,KS,The array of nucleotide bases that correspond to the key sequence of each read
+RG,Read group,LB,Library
+RG,Read group,PG,Programs used for processing the read group
+RG,Read group,PI,Predicted median insert size
+RG,Read group,PL,Platform/technology used to produce the reads
+RG,Read group,PM,Platform model
+RG,Read group,PU,"Platform unit, a unique identifier"
+RG,Read group,SM,Sample
+SQ,Reference sequence dictionary,,
+SQ,Reference sequence dictionary,SN,Reference sequence name
+SQ,Reference sequence dictionary,LN,Reference sequence length
+SQ,Reference sequence dictionary,AS,Genome assembly identifier
+SQ,Reference sequence dictionary,M5,MD5 checksum of the sequence in the uppercase
+SQ,Reference sequence dictionary,SP,Species
+SQ,Reference sequence dictionary,UR,URI of the sequence

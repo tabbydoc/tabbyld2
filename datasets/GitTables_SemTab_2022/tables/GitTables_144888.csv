@@ -1,0 +1,19 @@
+col0,col1,col2,col3,col4,col5,col6
+1,Home,,,8,38,1
+2,Search,search,,8,39,2
+3,Add Listing,my-listings/add,,8,40,3
+4,My Listings,my-listings,,8,41,4
+5,Начало,?lang=bg,,19,42,1
+6,Търси,search,,19,43,2
+7,Добави обява,my-listings/add,,19,44,3
+8,Моите обяви,my-listings,,19,45,4
+9,Acasă,?lang=ro,,21,46,1
+10,Căutare,search,,21,47,2
+11,Adăugați o listă,my-listings/add,,21,48,3
+12,Anunțurile mele,my-listings,,21,49,4
+13,Terms and Conditions,,1.0,9,50,1
+14,Contact,contact,,9,51,2
+15,Общи условия,,2.0,18,52,1
+16,Контакт,contact,,18,53,2
+17,Termeni si conditii,,3.0,20,54,1
+18,Contact,contact,,20,55,2

@@ -1,0 +1,101 @@
+col0,col1,col2,col3,col4
+1,21st Century Fox 3,1,2018-06-03 11:01:54Z,False
+2,21st Century Fox 5,1,2021-05-02 11:22:04Z,False
+3,Carrefour 3,1,2018-10-20 22:28:48Z,False
+4,Coca-Cola Company 2,1,2020-09-19 19:14:29Z,False
+5,Erickson,1,2021-01-23 00:58:07Z,False
+6,Boeing 1,2,2019-11-26 11:17:17Z,False
+7,Boeing 5,2,2019-03-13 02:02:24Z,False
+8,Comodo 4,2,2020-10-22 22:28:06Z,False
+9,Danone 4,2,2018-09-11 00:34:05Z,False
+10,Demaco 3,2,2020-08-09 20:10:51Z,False
+11,21st Century Fox 4,3,2019-07-12 03:45:03Z,False
+12,AECOM 1,3,2020-12-29 12:57:25Z,False
+13,CarMax 4,3,2018-08-29 21:46:37Z,False
+14,Comcast 3,3,2020-11-25 19:52:53Z,False
+15,Comodo 6,3,2020-02-04 00:10:01Z,False
+16,DynCorp,3,2018-10-21 13:34:53Z,False
+17,ENEL 2,3,2021-03-04 01:12:00Z,False
+18,ExxonMobil 2,3,2018-07-13 13:53:56Z,False
+19,Zepter 1,3,2020-05-21 13:14:42Z,False
+20,Areon Impex 1,3,2019-11-09 22:43:32Z,True
+21,Amazon.com 2,4,2019-10-19 21:30:39Z,False
+22,Biolife Grup 1,4,2021-05-10 14:32:35Z,False
+23,Coca-Cola Company 1,4,2021-01-25 15:16:54Z,False
+24,Facebook 4,4,2019-07-19 17:46:10Z,False
+25,Leadertech Consulting 3,4,2018-10-13 02:55:19Z,False
+26,Telekom,4,2018-12-26 05:16:01Z,False
+27,Comcast 1,5,2018-07-08 15:51:09Z,False
+28,Comcast 2,5,2020-12-31 10:17:22Z,False
+29,Comodo 2,5,2020-02-10 00:57:12Z,False
+30,Demaco 1,5,2019-02-05 12:05:51Z,False
+31,ENEL 3,5,2020-10-11 00:04:36Z,False
+32,It Smart Group 1,5,2019-04-26 15:19:53Z,False
+33,Metro Cash&Carry 3,5,2019-11-19 12:11:35Z,False
+34,21st Century Fox 1,6,2021-04-18 16:05:52Z,False
+35,AECOM 4,6,2019-09-16 02:15:26Z,False
+36,Areon Impex 3,6,2019-08-19 11:33:23Z,False
+37,Biolife Grup 3,6,2019-02-13 22:02:43Z,False
+38,Boeing 4,6,2019-03-17 20:53:45Z,False
+39,BuzzFeed 3,6,2020-01-17 18:43:50Z,False
+40,CarMax 3,6,2020-07-05 15:10:39Z,False
+41,Carrefour 2,6,2018-09-03 05:28:14Z,False
+42,Comodo 7,6,2021-05-19 13:55:42Z,False
+43,ExxonMobil 1,6,2019-11-27 00:23:15Z,False
+44,Global Print 1,6,2020-08-28 09:29:07Z,False
+45,UPC 3,6,2019-05-01 06:47:28Z,False
+46,Zepter 2,6,2018-06-26 09:01:08Z,False
+47,Zepter 5,6,2018-06-26 22:10:57Z,False
+48,Leadertech Consulting 1,6,2019-09-30 10:44:03Z,True
+49,Boeing 2,7,2019-03-17 02:30:41Z,False
+50,BuzzFeed 2,7,2019-01-28 01:16:05Z,False
+51,Mars 3,7,2020-03-30 22:28:42Z,False
+52,Team Guard SRL 3,7,2018-09-22 15:17:33Z,False
+53,UPC 5,7,2020-04-05 02:25:49Z,False
+54,Danone 2,7,2019-10-12 21:46:23Z,True
+55,ENEL 1,7,2020-07-25 14:09:05Z,True
+56,21st Century Fox 2,8,2020-08-05 08:01:29Z,False
+57,Apple Inc.,8,2020-10-23 16:27:01Z,False
+58,Biolife Grup 2,8,2020-11-12 00:40:57Z,False
+59,Boeing 3,8,2018-10-07 05:54:05Z,False
+60,Carrefour 1,8,2019-08-17 11:20:12Z,False
+61,Comodo 1,8,2018-08-22 17:10:27Z,False
+62,Danone 3,8,2018-08-08 02:11:08Z,False
+63,Demaco 2,8,2021-04-16 06:13:38Z,False
+64,ENEL 4,8,2020-03-31 12:22:48Z,False
+65,Mars 2,8,2020-06-15 15:40:29Z,False
+66,Metro Cash&Carry 2,8,2018-07-21 14:56:29Z,False
+67,UPC 4,8,2020-08-12 13:00:55Z,False
+68,BuzzFeed 1,8,2019-02-10 03:05:26Z,True
+69,CarMax 1,8,2019-07-23 19:03:27Z,True
+70,Mars 1,8,2020-02-10 02:38:47Z,True
+71,Areon Impex 2,9,2019-12-22 17:53:51Z,False
+72,It Smart Group 4,9,2018-07-17 17:45:39Z,False
+73,Vodafone 2,9,2019-05-07 03:00:43Z,False
+74,Zepter 3,9,2019-09-11 15:19:26Z,False
+75,Coca-Cola Company 3,10,2018-08-01 06:12:30Z,False
+76,Comodo 5,10,2018-11-13 02:29:13Z,False
+77,Facebook 2,10,2020-07-21 00:15:20Z,False
+78,Global Print 2,10,2020-05-07 17:31:08Z,False
+79,It Smart Group 2,10,2020-02-23 15:49:22Z,False
+80,Danone 1,10,2018-08-09 01:45:38Z,True
+81,Amazon.com 3,11,2018-06-07 16:46:48Z,False
+82,CarMax 2,11,2020-08-08 06:55:47Z,False
+83,Facebook 1,11,2019-06-18 03:26:13Z,False
+84,Facebook 3,11,2020-10-15 01:01:06Z,False
+85,Metro Cash&Carry 4,11,2020-03-10 10:52:45Z,False
+86,Vodafone 1,11,2019-09-30 08:58:06Z,False
+87,Team Guard SRL 1,11,2021-03-11 15:12:53Z,True
+88,UPC 1,11,2020-01-08 17:56:04Z,True
+89,AECOM 2,12,2018-12-04 16:49:42Z,False
+90,AECOM 3,12,2019-01-04 06:02:39Z,False
+91,AECOM 5,12,2018-10-30 06:10:37Z,False
+92,Amazon.com 1,12,2021-05-06 05:14:57Z,False
+93,Comodo 3,12,2021-01-19 17:56:39Z,False
+94,Comodo 8,12,2020-06-24 09:09:58Z,False
+95,It Smart Group 3,13,2018-08-11 20:34:36Z,False
+96,Leadertech Consulting 2,13,2020-06-06 19:03:12Z,False
+97,Metro Cash&Carry 1,13,2021-03-02 13:40:36Z,False
+98,Team Guard SRL 2,13,2019-10-14 00:10:41Z,False
+99,UPC 2,13,2018-09-11 21:15:18Z,False
+100,Zepter 4,13,2021-04-08 18:50:22Z,False

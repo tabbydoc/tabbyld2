@@ -1,0 +1,16 @@
+col0,col1,col2,col3
+Access Token Manipulation,94bb4596-fffd-497c-979f-b1fe914dddc6,Novice,"{""action"":""list_only"",""command_timeout"":30,""command_to_execute"":""whoami""}"
+Access Token Manipulation,94bb4596-fffd-497c-979f-b1fe914dddc6,Practitioner,"{""action"":""list_and_impersonate"",""command_timeout"":30,""command_to_execute"":""whoami"",""user_to_impersonate"":""NT AUTHORITY\\SYSTEM""}"
+Access Token Manipulation,94bb4596-fffd-497c-979f-b1fe914dddc6,Expert,"{""action"":""list_and_impersonate"",""command_timeout"":30,""command_to_execute"":""net user /add AttackIQ FiredrillPWN && net localgroup administrators AttackIQ /add"",""user_to_impersonate"":""NT AUTHORITY\\SYSTEM""}"
+Commonly Used Port,b2b84e2e-5d65-4a56-b3b0-be0edabe4ec6,Novice,"{""ports_no_standard_protocols"":[""443""],""payload_type"":[""safe"",""malicious""],""timeout"":30,""ports_standard_protocols"":[""21"",""25"",""80""]}"
+Commonly Used Port,b2b84e2e-5d65-4a56-b3b0-be0edabe4ec6,Practitioner,"{""ports_no_standard_protocols"":[""443""],""payload_type"":[""malicious"",""safe""],""timeout"":30,""ports_standard_protocols"":[""80""]}"
+Commonly Used Port,b2b84e2e-5d65-4a56-b3b0-be0edabe4ec6,Expert,"{""ports_no_standard_protocols"":[],""payload_type"":[""safe""],""timeout"":30,""ports_standard_protocols"":[""21"",""80""]}"
+Create Account,b183d1cc-3170-46a9-988a-bf67215202be,Novice,"{""execute_as_user"":true,""username"":""AttackIQ"",""password"":""iamapassword""}"
+Create Account,b183d1cc-3170-46a9-988a-bf67215202be,Practitioner,"{""execute_as_user"":false,""username"":""AttackIQ"",""password"":""@tt@ck1Qfr@m3w0rk""}"
+Create Account,b183d1cc-3170-46a9-988a-bf67215202be,Expert,NOT USED
+DNSMessenger PowerShell Communication,0d9a342f-17d4-46d1-a58a-0d1c2fb974ce,Novice,"{""domain"":""psosversion.attackiq.net"",""timeout"":5000}"
+DNSMessenger PowerShell Communication,0d9a342f-17d4-46d1-a58a-0d1c2fb974ce,Practitioner,NOT USED
+DNSMessenger PowerShell Communication,0d9a342f-17d4-46d1-a58a-0d1c2fb974ce,Expert,NOT USED
+Dump Windows Passwords,6cc3234a-8243-439b-9f3f-8dc1db6af990,Novice,"{""mimikatz_cred_types"":[],""show_all_cred_types"":true,""wce_cred_types"":""lm_ntlm"",""use_custom_parameters"":false,""gsecdump_cred_types"":""sam_ad"",""user_type"":""all"",""pwdump7_cred_types"":[],""undetectable_mimikatz_cred_types"":[],""print_output"":false,""pwd_dumping_tool"":""mimikatz""}"
+Dump Windows Passwords,6cc3234a-8243-439b-9f3f-8dc1db6af990,Practitioner,"{""mimikatz_cred_types"":[],""show_all_cred_types"":true,""wce_cred_types"":""lm_ntlm"",""use_custom_parameters"":false,""gsecdump_cred_types"":""sam_ad"",""user_type"":""all"",""pwdump7_cred_types"":[],""undetectable_mimikatz_cred_types"":[],""print_output"":false,""pwd_dumping_tool"":""undetectable_mimikatz""}"
+Dump Windows Passwords,6cc3234a-8243-439b-9f3f-8dc1db6af990,Expert,NOT USED

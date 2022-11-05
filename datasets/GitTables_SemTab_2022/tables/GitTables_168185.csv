@@ -1,0 +1,89 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+4,57,bu,bl,Buildings,0,11,110,4796338,no
+362,1231,bu,br,Buildings,0,11,113,7940218,no
+475,1771,bu,gr,Buildings,0,11,115,1331808,no
+591,115,wh,-,White/grey bare soil,0,22,220,1614448,no
+592,117,mix,-,Mixed bare soil/vegetation,0,32,320,1723485,no
+1028,510,as,-,Asphalt surfaces,1,14,140,14748323,no
+1134,570,ve,-,Other vegetation,0,34,340,14042716,no
+1139,572,as,-,Asphalt surfaces,1,14,140,1869174,no
+1143,574,mix,-,Mixed bare soil/vegetation,0,32,320,1900702,no
+1354,704,ve,-,Other vegetation,0,34,340,12742919,no
+1686,903,wa,-,Inland waters,1,41,410,11240547,no
+1688,904,wh,-,White/grey bare soil,0,22,220,6452616,no
+1796,977,tr,-,Trees,0,31,310,2173745,no
+1798,980,as,-,Asphalt surfaces,1,14,140,10162590,no
+1904,1054,wa,-,Inland waters,0,41,410,6486769,no
+2123,1201,as,-,Asphalt surfaces,0,14,140,7243637,no
+2132,1208,as,-,Asphalt surfaces,0,14,140,7557411,no
+2133,1209,as,-,Asphalt surfaces,0,14,140,7567791,no
+2140,1214,as,-,Asphalt surfaces,0,14,140,6255045,no
+2227,1270,sw,-,Swimming pools,0,13,130,6060761,no
+2230,1272,wa,-,Inland waters,1,41,410,7558935,no
+2333,1341,mix,-,Mixed bare soil/vegetation,0,32,320,3466998,no
+2335,1344,ve,-,Other vegetation,0,34,340,6905231,no
+2444,1550,mix,-,Mixed bare soil/vegetation,0,32,320,4467264,no
+2445,1552,as,-,Asphalt surfaces,1,14,140,4387558,no
+2545,1699,ve,-,Other vegetation,0,34,340,2420929,no
+2548,1703,mix,-,Mixed bare soil/vegetation,0,32,320,2326457,no
+2654,1841,ve,-,Other vegetation,0,34,340,438601,no
+18,125,bu,br,Buildings,0,11,113,5157359,no
+24,167,bu,bl,Buildings,0,11,110,4522332,no
+37,161,tr,-,Trees,0,31,310,2613038,no
+42,272,bu,bl,Buildings,0,11,110,3142292,no
+54,424,bu,br,Buildings,1,11,113,7849477,no
+80,497,bu,bl,Buildings,1,11,110,14902316,no
+81,510,bu,wh,Buildings,0,11,111,5344213,no
+84,526,bu,bl,Buildings,0,11,110,4583231,no
+107,611,bu,bl,Buildings,0,11,110,4338271,no
+117,643,bu,bl,Buildings,1,11,110,13347048,no
+128,673,bu,re,Buildings,0,11,114,4475400,no
+137,693,bu,wh,Buildings,0,11,111,3758630,no
+141,700,bu,gr,Buildings,0,11,115,3405435,no
+166,803,bu,bl,Buildings,0,11,110,12148574,no
+172,816,bu,re,Buildings,0,11,114,6248639,no
+178,833,bu,ot,Buildings,0,11,116,6972154,no
+189,861,bu,re,Buildings,0,11,114,5273726,no
+202,886,bu,br,Buildings,0,11,113,3602203,no
+213,913,bu,br,Buildings,1,11,113,11022576,no
+217,917,bu,wh,Buildings,0,11,111,5536934,no
+219,922,bu,br,Buildings,1,11,113,10963691,no
+224,931,bu,br,Buildings,1,11,113,10840507,no
+259,991,bu,re,Buildings,0,11,114,3324836,no
+274,1022,bu,br,Buildings,1,11,113,9768358,no
+284,1037,bu,re,Buildings,0,11,114,6771521,no
+293,1054,bu,bl,Buildings,0,11,110,9480821,no
+299,1065,bu,bl,Buildings,1,11,110,9344508,no
+304,1080,bu,br,Buildings,1,11,113,9195868,no
+309,1093,bu,br,Buildings,0,11,113,4814987,no
+337,1140,bu,bl,Buildings,1,11,110,8749945,no
+341,1151,bu,br,Buildings,0,11,113,8711884,no
+343,1153,bu,bl,Buildings,0,11,110,4271912,no
+353,1178,bu,bl,Buildings,1,11,110,8458015,no
+355,1142,tr,-,Trees,0,31,310,8767881,no
+368,1292,bu,br,Buildings,0,11,113,7401670,no
+371,1299,bu,br,Buildings,0,11,113,7420066,no
+377,1335,bu,gr,Buildings,0,11,115,2579753,no
+381,1343,bu,gr,Buildings,0,11,115,3645518,no
+399,1377,wh,-,White/grey bare soil,0,22,220,5335406,no
+409,1384,wa,-,Inland waters,0,41,410,1757978,no
+410,1385,ve,-,Other vegetation,0,34,340,6546871,no
+422,1421,tr,-,Trees,0,31,310,6179916,no
+425,1427,dry,-,Dry vegetation,0,33,330,6113689,no
+435,1443,as,-,Asphalt surfaces,1,14,140,6415791,no
+441,1455,wa,-,Inland waters,1,41,410,5890032,no
+444,1460,wa,-,Inland waters,1,41,410,6026063,no
+465,1594,bu,bl,Buildings,0,11,110,3753794,no
+493,3,sw,-,Swimming pools,0,13,130,5302207,no
+497,7,sw,-,Swimming pools,0,13,130,5284170,no
+503,13,sw,-,Swimming pools,0,13,130,4132759,no
+504,14,sw,-,Swimming pools,0,13,130,2929189,no
+506,16,sw,-,Swimming pools,0,13,130,2646592,no
+507,17,sw,-,Swimming pools,0,13,130,3283393,no
+508,18,sw,-,Swimming pools,0,13,130,3949097,no
+516,26,sw,-,Swimming pools,0,13,130,2798559,no
+531,41,br,-,Brown/red bare soil,0,21,210,3662518,no
+538,51,br,-,Brown/red bare soil,0,21,210,5015091,no
+542,55,as,-,Asphalt surfaces,0,14,140,1876960,no
+556,72,as,-,Asphalt surfaces,1,14,140,5192718,no
+558,74,as,-,Asphalt surfaces,1,14,140,3631629,no

@@ -1,0 +1,7 @@
+col0,col1,col2,col3,col4,col5
+sp2,ServiceParams,SetStatic,@{sp1.ParamExecute == 'yes'},@{sp1.ParamExecute},
+sp3,ServiceParams,SetStatic,@{sp1.ParamTimeout * 2},@{sp1.ParamTimeout},
+sp4,ServiceParams,SetStatic,Some - @{sp1.SpecialParam},@{sp1.SpecialParam},
+sp5,ServiceParams,Compare2Values,true,@{sp2.execute},
+sp6,ServiceParams,Compare2Values,200,@{sp3.timeout},
+sp7,ServiceParams,Compare2Values,Some - Text,@{sp4.comment},

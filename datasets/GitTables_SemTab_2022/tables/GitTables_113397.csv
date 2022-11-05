@@ -1,0 +1,29 @@
+col0,col1,col2
+Default,,
+SARSA,https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/view/5162/5493,"Investigating Contingency Awareness
+Using Atari 2600 Games"
+Best Linear,https://arxiv.org/abs/1207.4708v1,The Arcade Learning Environment: An Evaluation Platform for General Agents
+DQN,https://arxiv.org/abs/1312.5602,Playing Atari with Deep Reinforcement Learning
+DQN-Nature,https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf,"Human-level control through deep reinforcement
+learning"
+Gorilla,https://arxiv.org/abs/1507.04296,Massively Parallel Methods for Deep Reinforcement Learning
+Double DQN,https://arxiv.org/abs/1509.06461v1,Deep Reinforcement Learning with Double Q-learning
+Double DQN-tuned,https://arxiv.org/abs/1509.06461v3,Deep Reinforcement Learning with Double Q-learning
+Prior DQN,https://arxiv.org/abs/1511.05952,Prioritized Experience Replay
+Duel DQN,https://arxiv.org/abs/1511.06581v1,Dueling Network Architectures for Deep Reinforcement Learning
+Duel DQN-tuned,https://arxiv.org/abs/1511.06581v1,Dueling Network Architectures for Deep Reinforcement Learning
+Prior Duel DQN,https://arxiv.org/abs/1511.06581v3,Dueling Network Architectures for Deep Reinforcement Learning
+A3C-LSTM,https://arxiv.org/abs/1602.01783,Asynchronous Methods for Deep Reinforcement Learning
+A3C-FF,https://arxiv.org/abs/1602.01783,Asynchronous Methods for Deep Reinforcement Learning
+Double DQN-Pop-Art,https://arxiv.org/abs/1602.07714v1,Learning functions across many orders of magnitudes
+A3C-CTS,https://arxiv.org/abs/1606.01868,Unifying Count-Based Exploration and Intrinsic Motivation
+TRPO-hash,https://arxiv.org/abs/1611.04717,
+DQN-CTS,https://arxiv.org/abs/1703.01310v1,Count-Based Exploration with Neural Density Models
+DQN-PixelCNN,https://arxiv.org/abs/1703.01310v1,Count-Based Exploration with Neural Density Models
+ES,https://arxiv.org/abs/1703.03864v1,Evolution Strategies as a Scalable Alternative to Reinforcement Learning
+REACTOR,https://openreview.net/pdf?id=rkHVZWZAZ,The Reactor: A fast and sample-efficient Actor-Critic agent for Reinforcement Learning
+REACTOR-ND,https://openreview.net/pdf?id=rkHVZWZAZ,The Reactor: A fast and sample-efficient Actor-Critic agent for Reinforcement Learning
+SARSA-e,https://arxiv.org/abs/1706.08090,Count-Based Exploration in Feature Space for Reinforcement Learning
+Sarsa-f-EB,https://arxiv.org/abs/1706.08090,Count-Based Exploration in Feature Space for Reinforcement Learning
+C51,https://arxiv.org/abs/1707.06887,A Distributional Perspective on Reinforcement Learning
+RAINBOW,https://arxiv.org/abs/1710.02298,Rainbow: Combining Improvements in Deep Reinforcement Learning

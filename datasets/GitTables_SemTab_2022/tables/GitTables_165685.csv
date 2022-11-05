@@ -1,0 +1,55 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+Q15796-2,K,K19,Acetylation,2,PRO,,17074756
+Q15796-2,S,S435,Phosphorylation,2,PRO,"[transforming growth factor beta type II receptor homodimeric complex phosphorylated form (human),PR:000025963,pro_id]",17074756
+Q15796-2,S,S437,Phosphorylation,2,PRO,"[transforming growth factor beta type II receptor homodimeric complex phosphorylated form (human),PR:000025963,pro_id]",17074756
+Q15796-1,K,K19,Acetylation,2,PRO,,17074756
+Q15796-1,S,S2,Phosphorylation,0,HPRD,,20068231
+Q15796-1,S,S110,Phosphorylation,0,HPRD,"[CAMK2A,Q9UQM7,uniprot_ac]",11027280
+Q15796-1,S,S240,Phosphorylation,2,"HPRD,PRO","[CAMK2A,Q9UQM7,uniprot_ac],[calcium/calmodulin-dependent protein kinase type II chain,PR:000003197,pro_id]",11027280
+Q15796-1,S,S245,Phosphorylation,4,"PRO,HPRD","[hMAPK3/iso:1/Phos:1,PR:000026189,pro_id],[MAP2K1/iso:1/Phos:1,PR:000026196,pro_id],[MAPK1,P28482,uniprot_ac]","12193595,10197981"
+Q15796-1,S,S250,Phosphorylation,4,"PRO,HPRD","[MAP2K1/iso:1/Phos:1,PR:000026196,pro_id],[MAPK1,P28482,uniprot_ac],[hMAPK3/iso:1/Phos:1,PR:000026189,pro_id]","10197981,12193595"
+Q15796-1,S,S255,Phosphorylation,3,PRO,"[MAP2K1/iso:1/Phos:1,PR:000026196,pro_id],[hMAPK3/iso:1/Phos:1,PR:000026189,pro_id]","10197981,12193595"
+Q15796-1,S,S260,Phosphorylation,0,HPRD,"[CAMK2A,Q9UQM7,uniprot_ac]",11027280
+Q15796-1,S,S458,Phosphorylation,0,HPRD,,"18691976,18669648,19415658,20068231"
+Q15796-1,S,S460,Phosphorylation,0,HPRD,,20068231
+Q15796-1,S,S464,Phosphorylation,2,HPRD,"[ACVR1B,P36896,uniprot_ac],[TGFBR1,P36897,uniprot_ac]","9892009,9346908"
+Q15796-1,S,S465,Phosphorylation,4,"PRO,HPRD","[transforming growth factor beta type II receptor homodimeric complex phosphorylated form (human),PR:000025963,pro_id],[ACVR1B,P36896,uniprot_ac],[TGFBR1,P36897,uniprot_ac]","11027280,17074756,9892009,9346966,12193595,8980228,9346908"
+Q15796-1,S,S467,Phosphorylation,4,"PRO,HPRD","[transforming growth factor beta type II receptor homodimeric complex phosphorylated form (human),PR:000025963,pro_id],[ACVR1B,P36896,uniprot_ac],[TGFBR1,P36897,uniprot_ac]","9346966,12193595,8980228,11027280,9892009,17074756,9346908"
+Q15796-1,T,T8,Phosphorylation,4,"PRO,HPRD","[hMAPK3/iso:1/Phos:1,PR:000026189,pro_id],[MAPK3,P27361,uniprot_ac]","12193595,19413330,18491316,18691976,19651622,20068231,11027280"
+Q15796-1,T,T220,Phosphorylation,4,"PRO,HPRD","[MAP2K1/iso:1/Phos:1,PR:000026196,pro_id],[hMAPK3/iso:1/Phos:1,PR:000026189,pro_id],[MAPK1,P28482,uniprot_ac]","10197981,12193595"
+Q15796,K,K13,Ubiquitination,1,PSP,,
+Q15796,K,K19,Acetylation,3,"PSP,UniProt",,17074756
+Q15796,K,K20,Acetylation,1,PSP,,
+Q15796,K,K39,Acetylation,1,PSP,,
+Q15796,K,K46,Sumoylation,1,PSP,,
+Q15796,K,K121,Ubiquitination,1,PSP,,
+Q15796,K,K156,Sumoylation,1,PSP,,
+Q15796,K,K157,Ubiquitination,1,PSP,,
+Q15796,K,K420,Acetylation,1,PSP,,
+Q15796,S,S2,Acetylation,1,UniProt,,"19413330,22814378,22223895,20068231"
+Q15796,S,S2,Phosphorylation,1,PSP,,
+Q15796,S,S21,Phosphorylation,1,PSP,,
+Q15796,S,S47,Phosphorylation,1,PSP,,
+Q15796,S,S110,Phosphorylation,4,"neXtProt,PSP,Signor","[WNK1,Q9H4A3,uniprot_ac],[CAMK2A,Q9UQM7,uniprot_ac]","17392271,11027280"
+Q15796,S,S118,Phosphorylation,1,PSP,,
+Q15796,S,S240,Phosphorylation,4,"Signor,RLIMS-P,PSP,UniProt","[CAMK2A,Q9UQM7,uniprot_ac]","11027280,11879191"
+Q15796,S,S245,Phosphorylation,4,"PSP,UniProt,Signor,phospho.ELM,neXtProt,RLIMS-P","[MAPK3,P27361,uniprot_ac],[MAPK1,P28482,uniprot_ac],[MELK,Q14680,uniprot_ac]","12193595,19115199,11027280,20659902,10197981,18032924,23437179,26194464,23077590,25316549,26057631,22880011,23831640"
+Q15796,S,S250,Phosphorylation,4,"Signor,neXtProt,phospho.ELM,PSP,UniProt,RLIMS-P","[MAPK1,P28482,uniprot_ac],[MAPK3,P27361,uniprot_ac]","12193595,11027280,10197981,19115199,18032924,23437179,26194464,23077590,25316549,26057631,22880011,23831640"
+Q15796,S,S255,Phosphorylation,4,"UniProt,phospho.ELM,neXtProt,Signor,RLIMS-P,PSP","[MAPK3,P27361,uniprot_ac],[MAPK1,P28482,uniprot_ac]","12193595,11027280,19115199,18032924,23437179,26194464,23077590,25316549,26057631,22880011,23831640,10197981"
+Q15796,S,S260,Phosphorylation,4,"neXtProt,PSP,Signor","[WNK1,Q9H4A3,uniprot_ac],[CAMK2A,Q9UQM7,uniprot_ac]","17392271,11027280"
+Q15796,S,S317,Phosphorylation,1,PSP,,
+Q15796,S,S417,Phosphorylation,2,PSP,"[PAK2,Q13177,uniprot_ac]",22393057
+Q15796,S,S458,Phosphorylation,2,"phospho.ELM,UniProt,PSP",,"18669648,23186163,20068231"
+Q15796,S,S460,Phosphorylation,2,"UniProt,PSP",,20068231
+Q15796,S,S464,Phosphorylation,4,"phospho.ELM,RLIMS-P,UniProt,PSP,neXtProt","[BMPR1B,O00238,uniprot_ac],[TGFBR1,P36897,uniprot_ac]","9136927,8980228,9346908,11043574,9892009"
+Q15796,S,S465,Phosphorylation,4,"UniProt,phospho.ELM,PSP,neXtProt,Signor,RLIMS-P,PRO","[TGFBR1,P36897,uniprot_ac],[ACVR1C,Q8NER5,uniprot_ac],[BMPR1B,O00238,uniprot_ac],[WNK1,Q9H4A3,uniprot_ac]","23478445,15134444,8980228,9346908,9892009,16709598,9136927,18032924,17099224,23934187,26057631,22880011,9346966,11043574,12660320,23937725,17392271"
+Q15796,S,S467,Phosphorylation,4,"phospho.ELM,PRO,neXtProt,UniProt,PSP,Signor,RLIMS-P","[TGFBR1,P36897,uniprot_ac],[ACVR1C,Q8NER5,uniprot_ac],[BMPR1B,O00238,uniprot_ac]","15134444,8980228,16709598,9346908,9136927,9892009,23478445,18032924,17099224,23934187,26057631,22880011,9346966,12660320,23937725"
+Q15796,T,T8,Phosphorylation,4,"Signor,neXtProt,RLIMS-P,phospho.ELM,PSP,UniProt","[MAPK3,P27361,uniprot_ac],[CDK2,P24941,uniprot_ac]","12193595,19115199,15241418,19201832,17081983,11027280,18691976,23186163,20068231"
+Q15796,T,T172,Phosphorylation,1,PSP,,
+Q15796,T,T197,Phosphorylation,2,PSP,"[GRK2,P25098,uniprot_ac]",16121194
+Q15796,T,T220,Phosphorylation,4,"PSP,phospho.ELM,PRO,UniProt,neXtProt,RLIMS-P,Signor","[MAPK3,P27361,uniprot_ac],[MAPK1,P28482,uniprot_ac]","12193595,10197981,11027280,23546880,25316549,19115199"
+Q15796,T,T324,Phosphorylation,1,PSP,,
+Q15796,Y,Y102,Phosphorylation,1,PSP,,
+Q15796,Y,Y128,Phosphorylation,1,PSP,,
+Q15796,Y,Y165,Phosphorylation,1,PSP,,
+Q15796,,,,4,"eFIP,PRO","[SMAD4,Q13485,uniprot_ac]","9346908,9346966"

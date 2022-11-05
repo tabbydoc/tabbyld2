@@ -1,0 +1,170 @@
+col0,col1,col2,col3,col4
+1,blood,946.0,BLOOD,
+2,fish (noun),227.0,FISH,
+3,mountain,639.0,MOUNTAIN,
+4,star,1430.0,STAR,
+5,bone,1394.0,BONE,
+6,full,1429.0,FULL,
+7,name (noun),1405.0,NAME,
+8,stone,857.0,STONE,
+9,breast (woman’s),1402.0,BREAST,
+10,hand,1277.0,HAND,
+11,new,1231.0,NEW,
+12,sun,1343.0,SUN,
+13,come,1446.0,COME,
+14,hear,1408.0,HEAR,
+15,night (dark time),1233.0,NIGHT,
+16,tongue,1205.0,TONGUE,
+17,die,1494.0,DIE,
+18,horn (animal part),1393.0,HORN (ANATOMY),
+19,nose,1221.0,NOSE,
+20,tooth,1380.0,TOOTH,
+21,dog,2009.0,DOG,
+22,I,1209.0,I,
+23,one,1493.0,ONE,
+24,tree,906.0,TREE,
+25,drink (verb),1401.0,DRINK,
+26,knee,1371.0,KNEE,
+27,path,2252.0,PATH,
+28,two,1498.0,TWO,
+29,ear,1247.0,EAR,
+30,leaf,628.0,LEAF,
+31,person,683.0,PERSON,
+32,water,948.0,WATER,
+33,eye,1248.0,EYE,
+34,liver,1224.0,LIVER,
+35,see,1409.0,SEE,
+36,we,1212.0,WE,
+37,fire,221.0,FIRE,
+38,louse,1392.0,LOUSE,
+39,skin,763.0,SKIN,
+40,you,1215.0,THOU,
+Kinship-father,father,1217.0,FATHER,Kinship
+Kinship-mother,mother,,,Kinship
+Kinship-parent,parent,,,Kinship
+Kinship-son,son,,,Kinship
+Kinship-daughter,daughter,,,Kinship
+Kinship-brother,brother,,,Kinship
+Kinship-sister,sister,,,Kinship
+Kinship-olderbrother,older brother,,,Kinship
+Kinship-youngerbrother,younger brother,,,Kinship
+Kinship-oldersister,older sister,,,Kinship
+Kinship-youngersister,younger sister,,,Kinship
+Kinship-fathersfather,father’s father,,,Kinship
+Kinship-fathersmother,father’s mother,,,Kinship
+Kinship-mothersfather,mother’s father,,,Kinship
+Kinship-mothersmother,mother’s mother,,,Kinship
+Kinship-sonsson,son’s son,,,Kinship
+Kinship-sonsdaughter,son’s daughter,,,Kinship
+Kinship-daughtersson,daughter’s son,,,Kinship
+Kinship-daughtersdaughter,daughter’s daughter,,,Kinship
+Kinship-fathersbrother,father’s brother,,,Kinship
+Kinship-fathersolderbrother,father’s older brother,,,Kinship
+Kinship-fathersyoungerbrother,father’s younger brother,,,Kinship
+Kinship-fatherssister,father’s sister,,,Kinship
+Kinship-fathersoldersister,father’s older sister,,,Kinship
+Kinship-fathersyoungersister,father’s younger sister,,,Kinship
+Kinship-mothersbrother,mother’s brother,,,Kinship
+Kinship-mothersolderbrother,mother’s older brother,,,Kinship
+Kinship-mothersyoungerbrother,mother’s younger brother,,,Kinship
+Kinship-motherssister,mother’s sister,,,Kinship
+Kinship-mothersoldersister,mother’s older sister,,,Kinship
+Kinship-mothersyoungersister,mother’s younger sister,,,Kinship
+Kinship-brothersson,brother’s son,,,Kinship
+Kinship-brothersdaughter,brother’s daughter,,,Kinship
+Kinship-sistersson,sister’s son,,,Kinship
+Kinship-sistersdaughter,sister’s daughter,,,Kinship
+Kinship-husband,husband,,,Kinship
+Kinship-wife,wife,,,Kinship
+Kinship-fathersolderbrotherswife,father’s older brother’s wife,,,Kinship
+Kinship-fathersyoungerbrotherswife,father’s younger brother’s wife,,,Kinship
+Kinship-fatherssistershusband,father’s sister’s husband,,,Kinship
+Kinship-mothersbrotherswife,mother’s brother’s wife,,,Kinship
+Kinship-motherssistershusband,mother’s sister’s husband,,,Kinship
+Kinship-sonswife,son’s wife,,,Kinship
+Kinship-daughtershusband,daughter’s husband,,,Kinship
+Kinship-brotherswifemaleego,brother’s wife (male ego),,,Kinship
+Kinship-brotherswifefemaleego,brother’s wife (female ego),,,Kinship
+Kinship-sistershusbandmaleego,sister’s husband (male ego),,,Kinship
+Kinship-sistershusbandfemaleego,sister’s husband (female ego),,,Kinship
+Kinship-wifesfather,wife’s father,,,Kinship
+Kinship-wifesmother,wife’s mother,,,Kinship
+Kinship-husbandsfather,husband’s father,,,Kinship
+Kinship-husbandsmother,husband’s mother,,,Kinship
+Kinship-husbandsbrother,husband’s brother,,,Kinship
+Kinship-husbandssister,husband’s sister,,,Kinship
+Kinship-wifesbrother,wife’s brother,,,Kinship
+Kinship-wifessister,wife’s sister,,,Kinship
+Kinship-cowife,co-wife,,,Kinship
+Kinship-forefather,forefather,,,Kinship
+Kinship-foremother,foremother,,,Kinship
+Kinship-fathersbrothersson,father’s brother’s son,,,Kinship
+Kinship-fathersbrothersdaughter,father’s brother’s daughter,,,Kinship
+Kinship-fatherssistersson,father’s sister’s son,,,Kinship
+Kinship-fatherssistersdaughter,father’s sister’s daughter,,,Kinship
+Kinship-mothersbrothersson,mother’s brother’s son,,,Kinship
+Kinship-mothersbrothersdaughter,mother’s brother’s daughter,,,Kinship
+Kinship-motherssistersson,mother’s sister’s son,,,Kinship
+Kinship-motherssistersdaughter,mother’s sister’s daughter,,,Kinship
+Kinship-relative,relative,,,Kinship
+Kinship-wifesrelatives,wife’s relative(s),,,Kinship
+Kinship-headofhousehold,head of household,,,Kinship
+Numerals-1,1,1493.0,ONE,Numerals
+Numerals-2,2,1498.0,TWO,Numerals
+Numerals-3,3,492.0,THREE,Numerals
+Numerals-4,4,1500.0,FOUR,Numerals
+Numerals-5,5,493.0,FIVE,Numerals
+Numerals-6,6,1703.0,SIX,Numerals
+Numerals-7,7,1704.0,SEVEN,Numerals
+Numerals-8,8,1705.0,EIGHT,Numerals
+Numerals-9,9,1483.0,NINE,Numerals
+Numerals-10,10,1515.0,TEN,Numerals
+Numerals-11,11,1706.0,ELEVEN,Numerals
+Numerals-12,12,1707.0,TWELVE,Numerals
+Numerals-13,13,1708.0,THIRTEEN,Numerals
+Numerals-14,14,2451.0,FOURTEEN,Numerals
+Numerals-15,15,1709.0,FIFTEEN,Numerals
+Numerals-16,16,2454.0,SIXTEEN,Numerals
+Numerals-17,17,2453.0,SEVENTEEN,Numerals
+Numerals-18,18,1713.0,EIGHTEEN,Numerals
+Numerals-19,19,1714.0,NINETEEN,Numerals
+Numerals-20,20,1710.0,TWENTY,Numerals
+Numerals-21,21,1734.0,TWENTY ONE,Numerals
+Numerals-22,22,3166.0,TWENTY TWO,Numerals
+Numerals-23,23,3165.0,TWENTY THREE,Numerals
+Numerals-24,24,1736.0,TWENTY FOUR,Numerals
+Numerals-25,25,1738.0,TWENTY FIVE,Numerals
+Numerals-26,26,3476.0,TWENTY SIX,Numerals
+Numerals-27,27,3477.0,TWENTY SEVEN,Numerals
+Numerals-28,28,3478.0,TWENTY EIGHT,Numerals
+Numerals-29,29,3479.0,TWENTY NINE,Numerals
+Numerals-30,30,1715.0,THIRTY,Numerals
+Numerals-31,31,3480.0,THIRTY ONE,Numerals
+Numerals-32,32,3481.0,THIRTY TWO,Numerals
+Numerals-33,33,3482.0,THIRTY THREE,Numerals
+Numerals-34,34,3483.0,THIRTY FOUR,Numerals
+Numerals-35,35,3484.0,THIRTY FIVE,Numerals
+Numerals-36,36,3485.0,THIRTY SIX,Numerals
+Numerals-37,37,3486.0,THIRTY SEVEN,Numerals
+Numerals-38,38,3487.0,THIRTY EIGHT,Numerals
+Numerals-39,39,3488.0,THIRTY NINE,Numerals
+Numerals-40,40,1716.0,FORTY,Numerals
+Numerals-41,41,3556.0,FORTY ONE,Numerals
+Numerals-42,42,3557.0,FORTY TWO,Numerals
+Numerals-43,43,3489.0,FORTY THREE,Numerals
+Numerals-44,44,3490.0,FORTY FOUR,Numerals
+Numerals-45,45,3491.0,FORTY FIVE,Numerals
+Numerals-46,46,3558.0,FORTY SIX,Numerals
+Numerals-47,47,3559.0,FORTY SEVEN,Numerals
+Numerals-48,48,3492.0,FORTY EIGHT,Numerals
+Numerals-49,49,3560.0,FORTY NINE,Numerals
+Numerals-50,50,1717.0,FIFTY,Numerals
+Numerals-60,60,1718.0,SIXTY,Numerals
+Numerals-70,70,1721.0,SEVENTY,Numerals
+Numerals-80,80,1722.0,EIGHTY,Numerals
+Numerals-90,90,1724.0,NINETY,Numerals
+Numerals-100,100,1634.0,HUNDRED,Numerals
+Numerals-110,110,3503.0,ONE HUNDRED AND TEN,Numerals
+Numerals-120,120,3504.0,ONE HUNDRED AND TWENTY,Numerals
+Numerals-200,200,2676.0,TWO HUNDRED,Numerals
+Numerals-1000,1000,1843.0,THOUSAND,Numerals

@@ -1,0 +1,65 @@
+col0,col1,col2,col3,col4,col5
+age_group,age group,,,str,misc/age_groups
+crime_type,crime type,,A crime type (brottstyp) as categoized (and with the id strucutre of) Brottsförebyggande rådet.),str,misc/se/bra_crime_types*
+foreignborn,foreign born,,Is the subject born outside Sweden?,str,misc/foreignborn
+gender,gender,,A subjects gender,str,misc/genders
+house_type,house type,,House types as defined by Mäklarstatistik,str,misc/house_types
+measure,measure,,Count or rate for example,str,misc/measures
+periodicity,periodicity,,How long is the period covered by this datapoint,str,misc/periodicities
+period,period,,A period of time,str,periods/*
+month,month,,A gregorian month,str,periods/months
+quarter,quarter,,A quarter of a gregorian calendar year,str,periods/quarters
+region,region,,Any region,str,regions/**/*
+swedish region,Swedish regions,svenska regioner,A Swedish administrative region,str,regions/se/*
+swedish city district,Swedish city districts,svenska stadsdelar,An administrative subdivision of a municipality,str,regions/se/city_districts
+swedish county,Swedish counties,svenska län,"A Swedish county (län), past or present",str,regions/se/counties
+swedish municipality,Swedish municipalities,svenska kommuner,"A Swedish municipality, past or present",str,regions/se/municipalities
+swedish county councils,Swedish county councils,svenska landsting,"A Swedish county council, past or present",str,regions/se/county_councils
+swedish police region,Swedish police regions,svenska polisregioner,A Swedish police region,str,regions/se/police_regions
+country,countries,länder,"A country, past or present",str,regions/nations
+eu country group,EU countries,,"A past or present group of EU countries, such as EU-28",str,regions/eu
+nuts region,NUTS region,NUTS region,A NUTS1/2/3 region,srt,regions/eu/nuts
+country group,country group,,Custom groupings of countries such as ”All nations except Sweden”,str,regions/country_groups
+place_of_birth,countries of birth,,Subjects country (or continent) of birth,str,regions/nations
+date,date,,An ISO 8601 date/time stamp,date,
+value,value,,Value,"int,float",
+year,year,,A gregorian year,int,
+week,week,,"A ISO 8601 week number, week starting on Monday, first week of the year has at least four days",int,
+migration_category,migration category,,"Incoming, outgoing and other migration cateogries as defined by SCB",str,misc/population_changes
+population,population changes,,"Changes in population (births, deaths etc",str,misc/population_changes
+currency,currencies,,"Currencies, following ISO 4217 where possible",str,misc/currencies
+income,incomes,,Different kinds of incomes such as earned income before and after tax,str,misc/incomes
+vehicle_type,vehicle types,,Different types of vehicles,str,misc/vehicle_types
+marital_status,marital statuses,,"Married, divorced etc",str,misc/marital_statuses
+swedish_meteorological_station,Swedish meteorological stations,svenska meteorologiska stationer,"A Swedish meteorological station, as defined by SMHI",,misc/swedish_meteorological_stations
+meteorological_parameter,meteorological parameters,meterorologiska mätvärden,Meteorological parameters such as air temperature and rainfall,,misc/meteorological_parameters
+SNI2007,SNI codes (2007),SNI koder (2007),Swedish SNI classification for professions,str,misc/sni_codes
+asylum decision,asylum decisions,asylbeslut,Asylum decisions as classified by Eurostat,str,misc/asylum_decisions
+swedish hospitals,Swedish hospitals,Svenska sjukhus,Used by ie Väntetider.se,str,misc/se/hospitals
+overcrowding_measurement,Overcrowding measurements,Överbeläggningsmått,Such as overcrowding and dislocated patients. Used by ie Väntetider.se,str,misc/care/overcrowding_measurements
+care_type,Type of care,Vårdtyper,Such as somatic care and psychiatry. Used by ie Väntetider.se,str,misc/care/care_types
+household_origin,Household origins,Ursprung för medlemmar i hushåll,Such as foreign or domestic born. As used by ie Socialstyrelsen,str,misc/household_origins
+parental_allowence_measurement,Parental allowence measurements,Mått på föräldrapenning,"Such as amount, net days and recipients",str,misc/parental_allowence_measurements
+road_type,Road type,Vägtyp,A road type and/or network,str,misc/road_types
+road_number,Road number,Vägnummer,"A numeric roadnumber in a road system, eg 4 for the international e-road “E4”",int,
+road_segment,Road segment,Vägsträcka,A part of a road,str,misc/se/road_segments
+swedish_school,Swedish schools,Svenska skolor,A Swedish school on any level,str,misc/se/schools_*
+swedish_primary_school,Swedish primary schools,Svenska grundskolor,A Swedish primary school,str,misc/se/schools_primary
+swedish_secondary_school,Swedish secondary schools,Svenska gymnasieskolor,A Swedish secondary school,str,misc/se/schools_secondary
+swedish_gymnasieforbund,Svenska gymnasieförbund,Svenska gymnasieförbund,Ett kommunalförbund som står som huvudman för en gymnasieutbildning,str,misc/se/gymnasieforbund
+school_level,School level,Skolnivå,A level of schooling such as ”primary school”,str,misc/schools/school_levels
+teacher_certification,Teacher certification,Lärarbehörighet,For grouping teachers based on certification,str,misc/schools/teacher_certifications
+nursery_school_certification,Nursery school certification,Behörighet och utbildning i för förskolepersonal,,str,misc/schools/teacher_certifications
+nace_code,NACE,NACE,"Classification of economic activities in the European Community, revision 2. ",str,misc/eu/nace_codes
+ownership,Public/private ownership,Offentligt/privat ägande,Different kinds of ownerships (typically public/private),str,misc/ownerships
+european port,European port,Europeisk hamn,"Maritime ports in Europe, with ids based on Eurostat",str,misc/european_ports
+european costal area,European costal area,Europeiskt kustområde,As used by Eurostat,str,misc/european_costal_areas
+economic_sentiment_indicator,Economic sentiment indicator,Indikator för tilltro till ekonomin,A sentiment indicator for how the economy is performing as defined by Eurostat,str,misc/economic_sentiment_indicators
+norwegian region,norwegian regions,Norska regioner,A norwegian administrative region,str,regions/no/*
+norwegian county,norwegian counties,Norska fylken,"A norwegian county (fylke), past or present",str,regions/no/counties
+norwegian municipality,norwegian municipalities,Norska kommuner,"A norwegian municipality, past or present",str,regions/no/municipalities
+municipality_federation_fire,Swedish municipality federations organizing firefighting and civil defence,Svenska kommunalförbund för räddningstjänst,Two or more Swedish municipalities organized in a federation,str,regions/se/federations-fire
+skl_municipality_group_2017,"Swedish municipality groups (SKL, 2017)",SKL:s Kommungruppsindelning 2017,,str,misc/se/skl_municipality_groups
+skl_municipality_primary_group_2017,"Swedish municipality primary groups (SKL, 2017)",Huvudgrupper i SKL:s kommungruppsindelning (2017),,str,misc/se/skl_municipality_primary_groups
+swedish_health_center,Swedish health centers,Svenska vårdcentraler,Id’s picked up from Nationell patientenkät,str,misc/se/health_centers
+swedish_ic_unit,Swedish intensive care unit,Svenska IVA-avdelningar,,str,misc/se/iva_units

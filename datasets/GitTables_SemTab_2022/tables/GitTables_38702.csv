@@ -1,0 +1,79 @@
+col0,col1,col2,col3
+1,Tbilisi,1,Mtatsminda
+2,Tbilisi,2,Vake
+3,Tbilisi,3,Saburtalo
+4,Tbilisi,4,Krtsanisi
+5,Tbilisi,5,Isani
+6,Tbilisi,6,Samgori
+7,Tbilisi,7,Chugureti
+8,Tbilisi,8,Didube
+9,Tbilisi,9,Nadzaladevi
+10,Tbilisi,10,Gldani
+11,Kakheti,11,Sagarejo
+12,Kakheti,12,Gurjaani
+13,Kakheti,13,Signagi
+14,Kakheti,14,Dedoplistskaro
+15,Kakheti,15,Lagodekhi
+16,Kakheti,16,Kvareli
+17,Kakheti,17,Telavi
+18,Kakheti,18,Akhmeta
+19,Mtskheta-Mtianeti,19,Tianeti
+20,Kvemo Kartli,20,Rustavi
+21,Kvemo Kartli,21,Gardabani
+22,Kvemo Kartli,22,Marneuli
+23,Kvemo Kartli,23,Bolnisi
+24,Kvemo Kartli,24,Dmanisi
+25,Kvemo Kartli,25,Tsalka
+26,Kvemo Kartli,26,Tetritskaro
+27,Mtskheta-Mtianeti,27,Mtskheta
+28,Mtskheta-Mtianeti,28,Dusheti
+29,Mtskheta-Mtianeti,29,Kazbegi
+30,Shida Kartli,30,Kaspi
+31,Mtskheta-Mtianeti,31,Akhalgori
+32,Shida Kartli,32,Gori
+33,Shida Kartli,33,Kareli
+34,Shida Kartli,35,Khashuri
+35,Samtskhe-Javakheti,36,Borjomi
+36,Samtskhe-Javakheti,37,Akhaltsikhe
+37,Samtskhe-Javakheti,38,Adigeni
+38,Samtskhe-Javakheti,39,Aspindza
+39,Samtskhe-Javakheti,40,Akhalkalaki
+40,Samtskhe-Javakheti,41,Ninotsminda
+41,Racha-Lechkhumi and Kvemo Svaneti,43,Oni
+42,Racha-Lechkhumi and Kvemo Svaneti,44,Ambrolauri
+43,Racha-Lechkhumi and Kvemo Svaneti,45,Tsageri
+44,Racha-Lechkhumi and Kvemo Svaneti,46,Lentekhi
+45,Samegrelo-Zemo Svaneti,47,Mestia
+46,Imereti,48,Kharagauli
+47,Imereti,49,Terjola
+48,Imereti,50,Sachkhere
+49,Imereti,51,Zestaponi
+50,Imereti,52,Bagdati
+51,Imereti,53,Vani
+52,Imereti,54,Samtredia
+53,Imereti,55,Khoni
+54,Imereti,56,Chiatura
+55,Imereti,57,Tkibuli
+56,Imereti,58,Tskaltubo
+57,Imereti,59,Kutaisi
+58,Guria,60,Ozurgeti
+59,Guria,61,Lanchkhuti
+60,Guria,62,Chokhatauri
+61,Samegrelo-Zemo Svaneti,63,Abasha
+62,Samegrelo-Zemo Svaneti,64,Senaki
+63,Samegrelo-Zemo Svaneti,65,Martvili
+64,Samegrelo-Zemo Svaneti,66,Khobi
+65,Samegrelo-Zemo Svaneti,67,Zugdidi
+66,Samegrelo-Zemo Svaneti,68,Tsalenjikha
+67,Samegrelo-Zemo Svaneti,69,Chkhorotsku
+68,Samegrelo-Zemo Svaneti,70,Poti
+69,Adjara,79,Batumi
+70,Adjara,80,Keda
+71,Adjara,81,Kobuleti
+72,Adjara,82,Shuakhevi
+73,Adjara,83,Khelvachauri
+74,Adjara,84,Khulo
+75,Shida Kartli,85,Liakhvi
+76,,86,
+77,Overseas,87,Overseas
+78,Tbilisi,999,Tbilisi

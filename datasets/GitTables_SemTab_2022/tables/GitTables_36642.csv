@@ -1,0 +1,8 @@
+col0,col1,col2,col3,col4,col5,col6
+nextval('user_settings_id_seq'),1,Profile_1.jpg,,True,,system
+nextval('user_settings_id_seq'),2,Profile_2.jpg,,True,AA213FD51B3801043FBC,system
+nextval('user_settings_id_seq'),3,Profile_3.jpg,,True,,system
+nextval('user_settings_id_seq'),4,Profile_3.jpg,,True,,system
+nextval('user_settings_id_seq'),5,Profile_3.jpg,,True,,system
+nextval('user_settings_id_seq'),6,Profile_3.jpg,,True,,system
+nextval('user_settings_id_seq'),8,Profile_3.jpg,uploaded_background.jpg,True,,system

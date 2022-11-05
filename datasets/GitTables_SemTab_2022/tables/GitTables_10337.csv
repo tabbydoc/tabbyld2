@@ -1,0 +1,10 @@
+col0,col1,col2,col3,col4,col5,col6
+sio2,SimpleInOut,Compare2Values,1,@{sio1.A},,
+sio3,SimpleInOut,Compare2Values,5,@{sio1.in.B},,
+sio4,SimpleInOut,Compare2Values,3,@{sio1.out.C},,
+sio5,SimpleInOut,TestAction,true,2,,
+sio6,SimpleInOut,SetStatic,@{sio5.in.A},,,
+sio7,SimpleInOut,SetStatic,@{sio5.out.A},,,
+sio8,SimpleInOut,SetStatic,@{sio6.in.A},,,
+sio9,SimpleInOut,Compare2Values,2,@{sio8.in.A},,
+sio10,SimpleInOut,Compare2Values,1,@{sio7.in.A},,

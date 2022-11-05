@@ -1,0 +1,30 @@
+col0,col1,col2,col3
+init,wait for begin() call,begin() called,start xbee
+start xbee,begin command mode entry,,await command mode guard 0
+await command mode guard 0,poll timer,guard time elapsed,escape
+escape,send escape sequence,,await command mode guard 1
+await command mode guard 1,poll timer,guard time elapsed,await escape response
+await escape response,poll rx,got ok,enable api mode
+enable api mode,send api mode command,,await api mode response
+await api mode response,poll rx,got ok,exit command mode
+exit command mode,send exit command,,await exit response
+await exit response,poll rx,got ok,init xbee
+init xbee,init xbee api,,await xbee init done
+await xbee init done,poll xbee status,got init done,read apn
+read apn,begin read apn command,,await apn response
+await apn response,poll xbee status,apn == “em”,create socket
+,,apn != “em”,set apn
+set apn,begin set apn command,,create socket
+create socket,begin socket creation,,await socket id
+await socket id,poll xbee status,got socket id,not connected
+not connected,begin socket connection,,connecting socket
+connecting socket,poll rx,got connection,connect mqtt
+connect mqtt,send connect packet,,await connack
+await connack,poll rx,got connack,standby
+standby,wait for pub/sub ,sent publish qos 0,standby
+,,sent subscribe,await suback
+,,got publish qos 0,standby
+,,approach keepalive time,ping
+await suback,poll rx,got suback,standby
+ping,send ping,,await pingack
+await pingack,poll rx,got pingack,standby

@@ -1,0 +1,253 @@
+col0,col1,col2
+AD,Andorra,ca
+AE,United Arab Emirates,"ar-AE,fa,en,hi,ur"
+AF,Afghanistan,"fa-AF,ps,uz-AF,tk"
+AG,Antigua and Barbuda,en-AG
+AI,Anguilla,en-AI
+AL,Albania,"sq,el"
+AM,Armenia,hy
+AO,Angola,pt-AO
+AQ,Antarctica,
+AR,Argentina,"es-AR,en,it,de,fr,gn"
+AS,American Samoa,"en-AS,sm,to"
+AT,Austria,"de-AT,hr,hu,sl"
+AU,Australia,en-AU
+AW,Aruba,"nl-AW,es,en"
+AX,Aland Islands,sv-AX
+AZ,Azerbaijan,"az,ru,hy"
+BA,Bosnia and Herzegovina,"bs,hr-BA,sr-BA"
+BB,Barbados,en-BB
+BD,Bangladesh,"bn-BD,en"
+BE,Belgium,"nl-BE,fr-BE,de-BE"
+BF,Burkina Faso,fr-BF
+BG,Bulgaria,"bg,tr-BG,rom"
+BH,Bahrain,"ar-BH,en,fa,ur"
+BI,Burundi,"fr-BI,rn"
+BJ,Benin,fr-BJ
+BL,Saint Barthelemy,fr
+BM,Bermuda,"en-BM,pt"
+BN,Brunei,"ms-BN,en-BN"
+BO,Bolivia,"es-BO,qu,ay"
+BQ,"Bonaire, Saint Eustatius and Saba","nl,pap,en"
+BR,Brazil,"pt-BR,es,en,fr"
+BS,Bahamas,en-BS
+BT,Bhutan,dz
+BV,Bouvet Island,
+BW,Botswana,"en-BW,tn-BW"
+BY,Belarus,"be,ru"
+BZ,Belize,"en-BZ,es"
+CA,Canada,"en-CA,fr-CA,iu"
+CC,Cocos Islands,"ms-CC,en"
+CD,Democratic Republic of the Congo,"fr-CD,ln,kg"
+CF,Central African Republic,"fr-CF,sg,ln,kg"
+CG,Republic of the Congo,"fr-CG,kg,ln-CG"
+CH,Switzerland,"de-CH,fr-CH,it-CH,rm"
+CI,Ivory Coast,fr-CI
+CK,Cook Islands,"en-CK,mi"
+CL,Chile,es-CL
+CM,Cameroon,"en-CM,fr-CM"
+CN,China,"zh-CN,yue,wuu,dta,ug,za"
+CO,Colombia,es-CO
+CR,Costa Rica,"es-CR,en"
+CU,Cuba,es-CU
+CV,Cape Verde,pt-CV
+CW,Curacao,"nl,pap"
+CX,Christmas Island,"en,zh,ms-CC"
+CY,Cyprus,"el-CY,tr-CY,en"
+CZ,Czechia,"cs,sk"
+DE,Germany,de
+DJ,Djibouti,"fr-DJ,ar,so-DJ,aa"
+DK,Denmark,"da-DK,en,fo,de-DK"
+DM,Dominica,en-DM
+DO,Dominican Republic,es-DO
+DZ,Algeria,ar-DZ
+EC,Ecuador,es-EC
+EE,Estonia,"et,ru"
+EG,Egypt,"ar-EG,en,fr"
+EH,Western Sahara,"ar,mey"
+ER,Eritrea,"aa-ER,ar,tig,kun,ti-ER"
+ES,Spain,"es-ES,ca,gl,eu,oc"
+ET,Ethiopia,"am,en-ET,om-ET,ti-ET,so-ET,sid"
+FI,Finland,"fi-FI,sv-FI,smn"
+FJ,Fiji,"en-FJ,fj"
+FK,Falkland Islands,en-FK
+FM,Micronesia,"en-FM,chk,pon,yap,kos,uli,woe,nkr,kpg"
+FO,Faroe Islands,"fo,da-FO"
+FR,France,"fr-FR,frp,br,co,ca,eu,oc"
+GA,Gabon,fr-GA
+GB,United Kingdom,"en-GB,cy-GB,gd"
+GD,Grenada,en-GD
+GE,Georgia,"ka,ru,hy,az"
+GF,French Guiana,fr-GF
+GG,Guernsey,"en,fr"
+GH,Ghana,"en-GH,ak,ee,tw"
+GI,Gibraltar,"en-GI,es,it,pt"
+GL,Greenland,"kl,da-GL,en"
+GM,Gambia,"en-GM,mnk,wof,wo,ff"
+GN,Guinea,fr-GN
+GP,Guadeloupe,fr-GP
+GQ,Equatorial Guinea,"es-GQ,fr"
+GR,Greece,"el-GR,en,fr"
+GS,South Georgia and the South Sandwich Islands,en
+GT,Guatemala,es-GT
+GU,Guam,"en-GU,ch-GU"
+GW,Guinea-Bissau,"pt-GW,pov"
+GY,Guyana,en-GY
+HK,Hong Kong,"zh-HK,yue,zh,en"
+HM,Heard Island and McDonald Islands,
+HN,Honduras,es-HN
+HR,Croatia,"hr-HR,sr"
+HT,Haiti,"ht,fr-HT"
+HU,Hungary,hu-HU
+ID,Indonesia,"id,en,nl,jv"
+IE,Ireland,"en-IE,ga-IE"
+IL,Israel,"he,ar-IL,en-IL,"
+IM,Isle of Man,"en,gv"
+IN,India,"en-IN,hi,bn,te,mr,ta,ur,gu,kn,ml,or,pa,as,bh,sat,ks,ne,sd,kok,doi,mni,sit,sa,fr,lus,inc"
+IO,British Indian Ocean Territory,en-IO
+IQ,Iraq,"ar-IQ,ku,hy"
+IR,Iran,"fa-IR,ku"
+IS,Iceland,"is,en,de,da,sv,no"
+IT,Italy,"it-IT,de-IT,fr-IT,sc,ca,co,sl"
+JE,Jersey,"en,pt"
+JM,Jamaica,en-JM
+JO,Jordan,"ar-JO,en"
+JP,Japan,ja
+KE,Kenya,"en-KE,sw-KE"
+KG,Kyrgyzstan,"ky,uz,ru"
+KH,Cambodia,"km,fr,en"
+KI,Kiribati,"en-KI,gil"
+KM,Comoros,"ar,fr-KM"
+KN,Saint Kitts and Nevis,en-KN
+KP,North Korea,ko-KP
+KR,South Korea,"ko-KR,en"
+XK,Kosovo,"sq,sr"
+KW,Kuwait,"ar-KW,en"
+KY,Cayman Islands,en-KY
+KZ,Kazakhstan,"kk,ru"
+LA,Laos,"lo,fr,en"
+LB,Lebanon,"ar-LB,fr-LB,en,hy"
+LC,Saint Lucia,en-LC
+LI,Liechtenstein,de-LI
+LK,Sri Lanka,"si,ta,en"
+LR,Liberia,en-LR
+LS,Lesotho,"en-LS,st,zu,xh"
+LT,Lithuania,"lt,ru,pl"
+LU,Luxembourg,"lb,de-LU,fr-LU"
+LV,Latvia,"lv,ru,lt"
+LY,Libya,"ar-LY,it,en"
+MA,Morocco,"ar-MA,ber,fr"
+MC,Monaco,"fr-MC,en,it"
+MD,Moldova,"ro,ru,gag,tr"
+ME,Montenegro,"sr,hu,bs,sq,hr,rom"
+MF,Saint Martin,fr
+MG,Madagascar,"fr-MG,mg"
+MH,Marshall Islands,"mh,en-MH"
+MK,Macedonia,"mk,sq,tr,rmm,sr"
+ML,Mali,"fr-ML,bm"
+MM,Myanmar,my
+MN,Mongolia,"mn,ru"
+MO,Macao,"zh,zh-MO,pt"
+MP,Northern Mariana Islands,"fil,tl,zh,ch-MP,en-MP"
+MQ,Martinique,fr-MQ
+MR,Mauritania,"ar-MR,fuc,snk,fr,mey,wo"
+MS,Montserrat,en-MS
+MT,Malta,"mt,en-MT"
+MU,Mauritius,"en-MU,bho,fr"
+MV,Maldives,"dv,en"
+MW,Malawi,"ny,yao,tum,swk"
+MX,Mexico,es-MX
+MY,Malaysia,"ms-MY,en,zh,ta,te,ml,pa,th"
+MZ,Mozambique,"pt-MZ,vmw"
+,Namibia,"en-NA,af,de,hz,naq"
+NC,New Caledonia,fr-NC
+NE,Niger,"fr-NE,ha,kr,dje"
+NF,Norfolk Island,en-NF
+NG,Nigeria,"en-NG,ha,yo,ig,ff"
+NI,Nicaragua,"es-NI,en"
+NL,Netherlands,"nl-NL,fy-NL"
+NO,Norway,"no,nb,nn,se,fi"
+NP,Nepal,"ne,en"
+NR,Nauru,"na,en-NR"
+NU,Niue,"niu,en-NU"
+NZ,New Zealand,"en-NZ,mi"
+OM,Oman,"ar-OM,en,bal,ur"
+PA,Panama,"es-PA,en"
+PE,Peru,"es-PE,qu,ay"
+PF,French Polynesia,"fr-PF,ty"
+PG,Papua New Guinea,"en-PG,ho,meu,tpi"
+PH,Philippines,"tl,en-PH,fil"
+PK,Pakistan,"ur-PK,en-PK,pa,sd,ps,brh"
+PL,Poland,pl
+PM,Saint Pierre and Miquelon,fr-PM
+PN,Pitcairn,en-PN
+PR,Puerto Rico,"en-PR,es-PR"
+PS,Palestinian Territory,ar-PS
+PT,Portugal,"pt-PT,mwl"
+PW,Palau,"pau,sov,en-PW,tox,ja,fil,zh"
+PY,Paraguay,"es-PY,gn"
+QA,Qatar,"ar-QA,es"
+RE,Reunion,fr-RE
+RO,Romania,"ro,hu,rom"
+RS,Serbia,"sr,hu,bs,rom"
+RU,Russia,"ru,tt,xal,cau,ady,kv,ce,tyv,cv,udm,tut,mns,bua,myv,mdf,chm,ba,inh,tut,kbd,krc,ava,sah,nog"
+RW,Rwanda,"rw,en-RW,fr-RW,sw"
+SA,Saudi Arabia,ar-SA
+SB,Solomon Islands,"en-SB,tpi"
+SC,Seychelles,"en-SC,fr-SC"
+SD,Sudan,"ar-SD,en,fia"
+SS,South Sudan,en
+SE,Sweden,"sv-SE,se,sma,fi-SE"
+SG,Singapore,"cmn,en-SG,ms-SG,ta-SG,zh-SG"
+SH,Saint Helena,en-SH
+SI,Slovenia,"sl,sh"
+SJ,Svalbard and Jan Mayen,"no,ru"
+SK,Slovakia,"sk,hu"
+SL,Sierra Leone,"en-SL,men,tem"
+SM,San Marino,it-SM
+SN,Senegal,"fr-SN,wo,fuc,mnk"
+SO,Somalia,"so-SO,ar-SO,it,en-SO"
+SR,Suriname,"nl-SR,en,srn,hns,jv"
+ST,Sao Tome and Principe,pt-ST
+SV,El Salvador,es-SV
+SX,Sint Maarten,"nl,en"
+SY,Syria,"ar-SY,ku,hy,arc,fr,en"
+SZ,Swaziland,"en-SZ,ss-SZ"
+TC,Turks and Caicos Islands,en-TC
+TD,Chad,"fr-TD,ar-TD,sre"
+TF,French Southern Territories,fr
+TG,Togo,"fr-TG,ee,hna,kbp,dag,ha"
+TH,Thailand,"th,en"
+TJ,Tajikistan,"tg,ru"
+TK,Tokelau,"tkl,en-TK"
+TL,East Timor,"tet,pt-TL,id,en"
+TM,Turkmenistan,"tk,ru,uz"
+TN,Tunisia,"ar-TN,fr"
+TO,Tonga,"to,en-TO"
+TR,Turkey,"tr-TR,ku,diq,az,av"
+TT,Trinidad and Tobago,"en-TT,hns,fr,es,zh"
+TV,Tuvalu,"tvl,en,sm,gil"
+TW,Taiwan,"zh-TW,zh,nan,hak"
+TZ,Tanzania,"sw-TZ,en,ar"
+UA,Ukraine,"uk,ru-UA,rom,pl,hu"
+UG,Uganda,"en-UG,lg,sw,ar"
+UM,United States Minor Outlying Islands,en-UM
+US,United States,"en-US,es-US,haw,fr"
+UY,Uruguay,es-UY
+UZ,Uzbekistan,"uz,ru,tg"
+VA,Vatican,"la,it,fr"
+VC,Saint Vincent and the Grenadines,"en-VC,fr"
+VE,Venezuela,es-VE
+VG,British Virgin Islands,en-VG
+VI,U.S. Virgin Islands,en-VI
+VN,Vietnam,"vi,en,fr,zh,km"
+VU,Vanuatu,"bi,en-VU,fr-VU"
+WF,Wallis and Futuna,"wls,fud,fr-WF"
+WS,Samoa,"sm,en-WS"
+YE,Yemen,ar-YE
+YT,Mayotte,fr-YT
+ZA,South Africa,"zu,xh,af,nso,en-ZA,tn,st,ts,ss,ve,nr"
+ZM,Zambia,"en-ZM,bem,loz,lun,lue,ny,toi"
+ZW,Zimbabwe,"en-ZW,sn,nr,nd"
+CS,Serbia and Montenegro,"cu,hu,sq,sr"
+AN,Netherlands Antilles,"nl-AN,en,es"

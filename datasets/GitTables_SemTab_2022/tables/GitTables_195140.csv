@@ -1,0 +1,62 @@
+col0,col1,col2,col3,col4,col5
+360WangZhanBao,X-Powered-By-360WZB,^X-Powered-By-360WZB,True,https://github.com/EnableSecurity/wafw00f/,360WangZhanBao
+Akamai,ak_bmsc,^Set-Cookie: ak_bmsc=,True,https://community.akamai.com,"Akamai Global Host (aka Edge Server, Edge node)"
+Akamai,AkamaiGHost,^Server: AkamaiGHost,True,https://community.akamai.com,"Akamai Global Host (aka Edge Server, Edge node)"
+Anquanbao,X-Powered-By-Anquanbao,^X-Powered-By-Anquanbao,True,https://github.com/EnableSecurity/wafw00f/,Anquanbao
+Barracuda WAF,BNI__BARRACUDA_LB_COOKIE,^Set-Cookie: BNI__BARRACUDA_LB_COOKIE=,True,https://github.com/EnableSecurity/wafw00f/,Barracuda App Firewall
+Barracuda WAF,BNI_persistence,^Set-Cookie: BNI_persistence=,True,https://github.com/EnableSecurity/wafw00f/,Barracuda App Firewall
+BinarySec,BinarySec,^Server: BinarySec,True,https://github.com/EnableSecurity/wafw00f/,BinarySec
+BinarySec,x-binarysec-via,^x-binarysec-via,True,https://github.com/EnableSecurity/wafw00f/,BinarySec
+BinarySec,x-binarysec-nocache,^x-binarysec-nocache,True,https://github.com/EnableSecurity/wafw00f/,BinarySec
+ChinaCache,ChinaCache,^Powered-By-ChinaCache,True,https://github.com/EnableSecurity/wafw00f/,ChinaCache CDN
+Cisco ACE XML,Server: ACE XML Gateway,^Server: ACE XML Gateway,True,https://github.com/EnableSecurity/wafw00f/,Cisco ACE XML Gateway
+Citrix NetScaler,ns_af,^Set-Cookie: ns_af=,True,https://github.com/EnableSecurity/wafw00f/,Citrix NetScaler
+Citrix NetScaler,citrix_ns_id,^Set-Cookie: citrix_ns_id,True,https://github.com/EnableSecurity/wafw00f/,Citrix NetScaler
+Citrix NetScaler,NSC_,^Set-Cookie: NSC_,True,https://github.com/EnableSecurity/wafw00f/,Citrix NetScaler
+Citrix NetScaler,Cneonction,^Cneonction: close,True,https://github.com/EnableSecurity/wafw00f/,Citrix NetScaler
+Citrix NetScaler,Coection,^NnCoection: close,True,https://github.com/EnableSecurity/wafw00f/,Citrix NetScaler
+Citrix NetScaler,NS-CACHE,^Via: NS-CACHE,True,https://github.com/EnableSecurity/wafw00f/,Citrix NetScaler
+Citrix NetScaler,X-client-ip,^X-client-ip,True,https://github.com/EnableSecurity/wafw00f/,Citrix NetScaler
+Citrix NetScaler,pwcount,^Set-Cookie: pwcount,True,https://github.com/EnableSecurity/wafw00f/,Citrix NetScaler
+Cloudflare,cloudflare-nginx,^Server: cloudflare-nginx,True,https://github.com/EnableSecurity/wafw00f/,Cloud flare
+Cloudflare,__cfduid,^Set-Cookie: __cfduid,True,https://github.com/EnableSecurity/wafw00f/,Cloud flare
+Cloudflare,cloudflare,^Server: cloudflare,True,https://www.cloudflare.com,"Cloud-based CDN, WAF & DDoS prevention"
+DotDefender,X-dotDefender,^X-dotDefender,True,https://github.com/EnableSecurity/wafw00f/,Applicure dotDefender
+F5 Big-IP,BIG-IP-F5,^Set-Cookie: BIG-IP-F5,True,https://support.f5.com,F5 WAF & DDoS prevention
+F5 Big-IP APM,MRHSession,^Set-Cookie: MRHSession,True,https://github.com/EnableSecurity/wafw00f/,F5 BIG-IP APM
+F5 Big-IP APM,BigIP,^Server: BigIP,True,https://github.com/EnableSecurity/wafw00f/,F5 BIG-IP APM
+F5 Big-IP APM,BIG-IP,^Server: BIG-IP,True,https://github.com/EnableSecurity/wafw00f/,F5 BIG-IP APM
+F5 Big-IP APM,BIGIP,^Server: BIGIP,True,https://github.com/EnableSecurity/wafw00f/,F5 BIG-IP APM
+F5 Big-IP APM,F5_ST,^Set-Cookie: F5_ST,True,https://github.com/EnableSecurity/wafw00f/,F5 BIG-IP APM
+F5 Big-IP APM,F5_HT,^Set-Cookie: F5_HT,True,https://github.com/EnableSecurity/wafw00f/,F5 BIG-IP APM
+F5 Big-IP APM,LastMRH_Session,^Set-Cookie: LastMRH_Session,True,https://github.com/EnableSecurity/wafw00f/,F5 BIG-IP APM
+F5 Big-IP APM,MRHSequence,^Set-Cookie: MRHSequence,True,https://github.com/EnableSecurity/wafw00f/,F5 BIG-IP APM
+F5 Big-IP APM,MRHSHint,^Set-Cookie: MRHSHint,True,https://github.com/EnableSecurity/wafw00f/,F5 BIG-IP APM
+F5 Big-IP ASM,Set-Cookie: TS,"^Set-Cookie: TS[a-zA-Z0-9]{3,8}",True,https://github.com/EnableSecurity/wafw00f/,F5 Big-IP ASM
+F5 Big-IP LTM,BIGipServer,^Set-Cookie: BIGipServer,True,https://github.com/EnableSecurity/wafw00f/,F5 Big-IP LTM
+F5 Firepass,uRoamTestCookie,^Set-Cookie: uRoamTestCookie,True,https://github.com/EnableSecurity/wafw00f/,F5 Firepass
+F5 Firepass,MRHCId,^Set-Cookie: MRHCId,True,https://github.com/EnableSecurity/wafw00f/,F5 Firepass
+F5 Firepass,uRoamTestCookie,^Set-Cookie: uRoamTestCookie,True,https://github.com/EnableSecurity/wafw00f/,F5 Firepass
+F5 Firepass,MRHIntranetSession,^Set-Cookie: MRHIntranetSession,True,https://github.com/EnableSecurity/wafw00f/,F5 Firepass
+F5 TrafficShield,F5-TrafficShield,^Server: F5-TrafficShield,True,https://github.com/EnableSecurity/wafw00f/,F5 TrafficShield
+HyperGuard,WODSESSION,^Set-Cookier: WODSESSION=,True,https://github.com/EnableSecurity/wafw00f/,Art of Defence HyperGuard
+IBM DataPower,X-Backside-Transport,^X-Backside-Transport,True,https://github.com/EnableSecurity/wafw00f/,IBM DataPower
+Incapsula CDN,X-CDN: Incapsula,^X-CDN: Incapsula,True,https://www.incapsula.com,"Cloud-based CDN, WAF & DDos prevention"
+Incapsula WAF,incap_ses,^Set-Cookie: incap_ses,True,https://github.com/EnableSecurity/wafw00f/,Incapsula WAF
+Incapsula WAF,Set-Cookie: visid,^Set-Cookie: visid,True,https://github.com/EnableSecurity/wafw00f/,Incapsula WAF
+InfoGuard Airlock,Set-Cookie: AL,^Set-Cookie: AL[_-]?(SESS|LB)=,True,https://github.com/EnableSecurity/wafw00f/,Airlock
+MissionControl,Server: Mission Control Application Shield,^Server: Mission Control Application Shield,True,https://github.com/EnableSecurity/wafw00f/,Mission Control Application Shield
+ModSecurity,mod_security,^Server: mod_security,True,https://github.com/EnableSecurity/wafw00f/,Trustwave ModSecurity
+ModSecurity,Mod_Security,^Server: Mod_Security,True,https://github.com/EnableSecurity/wafw00f/,Trustwave ModSecurity
+ModSecurity,NOYB,^Server: NOYB,True,https://github.com/EnableSecurity/wafw00f/,Trustwave ModSecurity
+NetContinuum,NCI__SessionId,^Set-Cookie: NCI__SessionId=,True,https://github.com/EnableSecurity/wafw00f/,NetContinuum
+NSFocus,NSFocus,^Server: NSFocus,True,https://github.com/EnableSecurity/wafw00f/,NSFocus
+PowerCDN,PowerCDN,^Server: PowerCDN,True,https://github.com/EnableSecurity/wafw00f/,PowerCDN
+Profense,profense,^Server: profense,True,https://github.com/EnableSecurity/wafw00f/,Profense
+Safedog,safedog-flow-item,^Set-Cookie: safedog-flow-item=,True,https://github.com/EnableSecurity/wafw00f/,Safedog
+Safedog,Safedog,^Server: Safedog,True,https://github.com/EnableSecurity/wafw00f/,Safedog
+Teros WAF,st8id,^Set-Cookie: st8id=,True,https://github.com/EnableSecurity/wafw00f/,Teros WAF
+USP Secure Entry Server,Secure Entry Server,^Server: Secure Entry Server,True,https://github.com/EnableSecurity/wafw00f/,USP Secure Entry Server
+West263CDN,WT263CDN,^X-Cache: .+WT263CDN-.+,True,https://github.com/EnableSecurity/wafw00f/,West263CDN
+ZenEdge Cloud,ZENEDGE,^Server: ZENEDGE,True,https://www.zenedge.com,Cloud-based WAF & DDoS prevention
+ZenEdge Cloud,Served-By-Zenedge,^X-Cdn: Served-By-Zenedge,True,https://www.zenedge.com,Cloud-based WAF & DDoS prevention

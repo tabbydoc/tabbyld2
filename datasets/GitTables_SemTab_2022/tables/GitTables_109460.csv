@@ -1,0 +1,7 @@
+col0,col1,col2,col3
+Changes:,,,
+root/battlegroundsPremiumDbfId,:,IntNode	Removed,
+root/rarity,:,TextNode	Removed,
+root/referencedTags,:,ArrayNode	Removed,
+{,,,
+};,,,

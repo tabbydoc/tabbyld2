@@ -1,0 +1,35 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11
+Dublin Core,,http://dublincore.org/,205.0,11.0,,general,,,,,
+DataCite Metadata Schema,,https://schema.datacite.org/meta/kernel-4.1/,111.0,4.0,,general,,,,,
+DDI - Data Documentation Initiative,out of scope,https://ddialliance.org/,94.0,6.0,x,social and behavioral science,,,,,
+ISO 19115,,ftp://ftp.ncddc.noaa.gov/pub/Metadata/Online_ISO_Training/Intro_to_ISO/workbooks/MD_Metadata.pdf,47.0,9.0,x,geospatial,,,,,
+FGDC/CSDGM - Federal Geographic Data Committee Content Standard for Digital Geospatial Metadata,,https://www.fgdc.gov/metadata/csdgm-standard,42.0,2.0,x,geographic,,,,,
+Darwin Core,,https://dwc.tdwg.org/,28.0,5.0,x,biodiversity,,,,,
+EML - Ecological Metadata Language,,https://knb.ecoinformatics.org/external//emlparser/docs/eml-2.1.1/index.html,26.0,4.0,x,ecology,,,,,
+RDF Data Cube Vocabulary,,https://www.w3.org/TR/vocab-data-cube/,20.0,1.0,x,statistical data,,,,,
+ISA-Tab,,https://isa-specs.readthedocs.io/en/latest/index.html,13.0,4.0,x,biological experiments,,,,,
+ABCD - Access to Biological Collection Data,,https://github.com/tdwg/abcd,11.0,3.0,x,"biodiversity, collection data",,,,,
+OAI-ORE - Open Archives Initiative Object Reuse and Exchange,,https://www.openarchives.org/ore/,11.0,1.0,x,general,"4 classes, 8 relationships",no,yes (RDF),last update in 2008,"Environmental Data Initiative Repository, Dryad"
+DCAT - Data Catalog Vocabulary,,https://www.w3.org/TR/vocab-dcat,9.0,0.0,,general (data catalog),,,,,
+DIF - Directory Interchange Format,,https://gcmd.nasa.gov/DocumentBuilder/defaultDif10/guide/index.html,9.0,6.0,x,geospatial,,,,,
+CF (Climate and Forecast) Metadata Conventions,,http://cfconventions.org/,7.0,7.0,x,climate and forecast,,,,,
+MIBBI - Minimum Information for Biological and Biomedical Investigations,deprecated,https://fairsharing.org/collection/MIBBI,6.0,6.0,x,outdated,,,,,
+SDMX - Statistical Data and Metadata Exchange,,https://sdmx.org/,4.0,2.0,x,statistical data,,header,No,last update in 2011,UN Data Catalog
+International Virtual Observatory Alliance Technical Specifications,out of scope,http://ivoa.net/documents/ ,3.0,3.0,x,astronomical data,,,"Partly (Vocabularies defined: http://www.ivoa.net/Documents/UCD1+/20200212/index.html, http://www.ivoa.net/documents/Vocabularies/20200612/index.html)",Yes,"EURO-VO, US VAO"
+PROV,out of scope,https://www.w3.org/TR/prov-overview/,3.0,1.0,,provenance of digital objects,"three core entities: agent, entity and activity",,YES (OWL),2013,
+AVM - Astronomy Visualization Metadata,out of scope,https://www.virtualastronomy.org/avm_metadata.php,1.0,1.0,x,,,,,,
+CIF - Crystallographic Information Framework,"file format, out of scope","https://www.iucr.org/resources/cif, EBNF: https://www.iucr.org/__data/assets/text_file/0009/112131/CIF2-ENBF.txt",1.0,3.0,x,"crystallographic information, minerals (file format)",,,,,
+CSMD-CCLRC Core Scientific Metadata Model,,http://icatproject-contrib.github.io/CSMD/,1.0,2.0,x,"scientific activities, experiment, observations, simulations","27 classes, ",,yes (OWL),last update in 2013,Monash University Research Repository
+Genome Metadata,,https://docs.patricbrc.org/user_guides/organisms_taxon/genome_metadata.html,1.0,0.0,x,genome data,"7 categories, 61 metadata fields",,partly (NCBI ID provided),,PATRIC
+NeXus,"x-ray, out of scope",http://www.nexusformat.org/,,0.0,x,"neutron, x-ray, muon experiments",4 types with different fields,NXentry,No,"last update Sept, 2020",
+Observ-OM,deprecated,https://wiki.gcc.rug.nl/wiki/GccStart,,5.0,x,phenotypic and molecular observation data,,,No,"last update in 2012, dead links","CELL Image Library, JCB Dataviewer"
+OME-XML (Open Microscopy Environment XML),,https://docs.openmicroscopy.org/ome-model/6.2.0/,,2.0,x,biological imaging,,yes (number?),Yes (model in OWL available),last update in 2016,
+PDBx/mmCIF (Protein Data Bank Exchange Dictionary and the Macromolecular Crystallographic Information Framework),,http://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v40.dic/Index/index.html,,2.0,x,"3D structures of proteins, nucleic acids, and complex assemblies",34 category groups with 380 data categories,yes (number?),"partly (e.g., NCBI ID, enriched/linked with GO processes)",last update in Sept 2020,
+Protocol Data Element Definitions,out of scope,https://prsinfo.clinicaltrials.gov/definitions.html,,0.0,x,"no metadata standard, data elements required for submitting clinical trials to  CLincalTrials.gov ",,,,,
+UKEOF,,http://www.ukeof.org.uk/schema/,,1.0,x,ecology (environmental monitoring),"1 simple Type, 21 complex Types, 87 elements",24 (minOccur=0 for 63 elements out of 87 --> 63 are optional),"Partly (URI of controlled vocabularies recommended but not mandatory), provision of controlled vocabulary list: http://onto.nerc.ac.uk/EF/codelist",Yes (last update in 2014),UKEOF Catalogue
+CEDAR,,https://more.metadatacenter.org/tools-training/outreach/cedar-template-model,,,x,"biomedical data, scientific experiments","abstract model, 3 core entities: Templates, TemplateElement, TemplateField",,YES (RDF),last update in 2018,US National Cancer Institute's caDSR
+CIM,deprecated,https://earthsystemcog.org/projects/es-doc-models/cim_versions,,,x,climate modeling,,,No,dead links on website,
+FITS,"file format in astronomy, out of scope",https://fits.gsfc.nasa.gov/fits_primer.html,,,,,,,,,
+Observation and Mesaurements,,https://www.ogc.org/standards/om,,,x,observational data,,,"YES (OWL-Lite, but URL is dead,  http://def.seegrid.csiro.au/ontology/om/om-lite)",last update in 2011,INSPIRE (Infrastructure for Spatial Information in Europe)
+SDAC,"Astronomy, out of scope",http://cds.u-strasbg.fr/doc/catstd.htx ,,,,,,,,,
+SPASE ,"Astrophysics, out of scope",http://www.spase-group.org/data/ ,,,,,,,,,

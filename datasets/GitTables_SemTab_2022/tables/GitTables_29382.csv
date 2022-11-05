@@ -1,0 +1,7 @@
+col0,col1,col2,col3
+{% if forloop.first %}collection,{% endif %},,
+collection.{{ collection_name|to_dash }},,,
+{% for container_name,container_items in containers.items %}collection.{{ collection_name|to_dash }}.{{ container_name|to_dash }},,
+{% for tag_name, container_meta in container_items.items %}collection.{{ collection_name|to_dash }}.{{ container_name|to_dash }}.{{ collection_name|to_dash }}/{{ container_name|to_dash }}:{{ tag_name|to_dash }},{{ container_meta.size }},{{ container_meta.id }}
+{% endfor %},,,
+{% endfor %}{% endfor %},,,

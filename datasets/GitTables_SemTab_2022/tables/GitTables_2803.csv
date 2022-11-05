@@ -1,0 +1,16 @@
+col0,col1,col2
+0;1.0000129820686454,,
+1;1.0000128428995823,,
+2;1.0000117231929113,,
+3;1.0000125869811038,,
+Starting,Compression,...
+pciBusID:,0000:8a:00.0,
+Using,TensorFlow,backend.
+	Swaps:,0,
+	Signals,delivered:,0
+	Exit,status:,0
+pciBusID:,0000:8a:00.0,
+Using,TensorFlow,backend.
+	Swaps:,0,
+	Signals,delivered:,0
+	Exit,status:,0

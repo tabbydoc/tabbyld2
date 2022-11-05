@@ -1,0 +1,56 @@
+col0,col1,col2
+base.group_erp_manager,Access Rights,"base.user_root,base.user_fcr,base.user_gpn,base.user_elanz"
+base.group_system,Settings,"base.user_root,base.user_fcr,base.user_gpn,base.user_elanz"
+base.group_user,Employee,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_pcn,base.user_cda,base.user_elanz"
+base.group_multi_company,Multi Companies,
+base.group_multi_currency,Multi Currencies,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_pcn,base.user_cda,base.user_elanz"
+base.group_no_one,Technical Features,"base.user_root,base.user_fcr,base.user_gpn,base.user_elanz"
+base.group_sale_salesman,User: Own Leads Only,"base.user_root,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_pcn,base.user_cda,base.user_elanz"
+base.group_sale_manager,Manager,"base.user_root,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_elanz"
+base.group_partner_manager,Contact Creation,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_pcn,base.user_cda,base.user_elanz"
+analytic.group_analytic_accounting,Analytic Accounting,
+product.group_product_variant,Product Variant (not supported),base.user_gpn
+product.group_sale_pricelist,Sales Pricelists,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_pcn,base.user_cda,base.user_elanz"
+product.group_purchase_pricelist,Purchase Pricelists,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_pcn,base.user_cda,base.user_elanz"
+product.group_costing_method,Costing Method,base.user_gpn
+product.group_uom,Manage Multiple Units of Measure,base.user_elanz
+product.group_uos,Manage Secondary Unit of Measure,base.user_gpn
+product.group_stock_packaging,Manage Product Packaging,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_pcn,base.user_cda,base.user_elanz"
+product.group_mrp_properties,Manage Properties of Product,"base.user_root,base.user_ccn,base.user_fcr,base.user_gpn"
+share.group_share_user,User,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_cda,base.user_elanz"
+account.group_account_invoice,Invoicing & Payments,"base.user_root,base.user_acy,base.user_fcr,base.user_gpn,base.user_elanz"
+account.group_account_user,Accountant,"base.user_root,base.user_fcr,base.user_gpn,base.user_elanz"
+account.group_account_manager,Financial Manager,"base.user_root,base.user_fcr,base.user_gpn,base.user_elanz"
+account.group_proforma_invoices,Pro-forma Invoices,
+account.group_supplier_inv_check_total,Check Total on supplier invoices,
+portal.group_portal,Portal,
+portal.group_anonymous,Anonymous,
+stock.group_stock_user,User,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_cda,base.user_elanz"
+stock.group_stock_manager,Manager,"base.user_root,base.user_acy,base.user_fcr,base.user_gpn,base.user_cda,base.user_elanz"
+stock.group_production_lot,Manage Serial Numbers,"base.user_root,base.user_ccn,base.user_acy,base.user_gpn,base.user_cda,base.user_elanz"
+stock.group_tracking_lot,Manage Logistic Serial Numbers,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_pcn,base.user_cda,base.user_elanz"
+stock.group_inventory_valuation,Manage Inventory valuation,"base.user_ccn,base.user_acy,base.user_gpn,base.user_elanz"
+stock.group_locations,Manage Multiple Locations and Warehouses,"base.user_acy,base.user_elanz"
+account_payment.group_account_payment,Accounting / Payments,"base.user_root,base.user_acy,base.user_fcr,base.user_gpn,base.user_elanz"
+base.group_sale_salesman_all_leads,User: All Leads,"base.user_root,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_pcn,base.user_cda,base.user_elanz"
+sale.group_invoice_so_lines,Enable Invoicing Sales order lines,
+sale.group_delivery_invoice_address,Addresses in Sales Orders,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_pcn,base.user_cda,base.user_elanz"
+sale.group_mrp_properties,Properties on lines,
+sale.group_discount_per_so_line,Discount on lines,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_pcn,base.user_cda,base.user_elanz"
+sale.group_analytic_accounting,Analytic Accounting for Sales,
+portal_sale.group_payment_options,View Online Payment Options,
+purchase.group_purchase_user,User,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_cda,base.user_elanz"
+purchase.group_purchase_manager,Manager,"base.user_root,base.user_acy,base.user_fcr,base.user_gpn,base.user_elanz"
+purchase.group_analytic_accounting,Analytic Accounting for Purchases,
+sale_stock.group_invoice_deli_orders,Enable Invoicing Delivery orders,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_pcn,base.user_cda,base.user_elanz"
+base.group_survey_user,Survey / User,base.user_root
+crm.group_fund_raising,Manage Fund Raising,
+mrp.group_mrp_user,User,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_cda,base.user_elanz"
+mrp.group_mrp_manager,Manager,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_gpn,base.user_cda,base.user_elanz"
+mrp.group_mrp_routings,Manage Routings,base.user_elanz
+project.group_project_user,User,"base.user_root,base.user_ccn,base.user_acy,base.user_fcr,base.user_sli,base.user_gpn,base.user_cda,base.user_elanz"
+project.group_project_manager,Manager,"base.user_root,base.user_ccn,base.user_sli,base.user_gpn,base.user_elanz"
+project.group_tasks_work_on_tasks,Task's Work on Tasks,
+project.group_time_work_estimation_tasks,Time Estimation on Tasks,
+project.group_delegate_task,Task Delegation,
+base.group_document_user,User,base.user_root

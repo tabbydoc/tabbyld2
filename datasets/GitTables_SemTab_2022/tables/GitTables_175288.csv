@@ -1,0 +1,41 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+saipe,1,id,1.0,,t04601,INTEGER,,State and County Estimates for 2009,
+saipe,2,name,,,c04601002,VARCHAR,33.0,Name,
+saipe,3,county_fips,,,c04601003,INTEGER,5.0,County FIPS,int_caster
+saipe,4,state_fips,,,c04601004,INTEGER,2.0,State FIPS,int_caster
+saipe,5,stusab,,,c04601005,VARCHAR,2.0,State postal abbreviation,
+saipe,6,year,,,c04601006,INTEGER,4.0,Year,
+saipe,7,county_gvid,,,c04601007,VARCHAR,6.0,Link to county,
+saipe,8,income,,,c04601008,INTEGER,8.0,Median Household Income,int_caster
+saipe,9,income_lm,,,c04601009,INTEGER,8.0,90% CI Lower Bound for income,int_caster
+saipe,10,income_um,,,c0460100a,INTEGER,8.0,90% CI Upper Bound for income,int_caster
+saipe,11,count_0_17,,,c0460100b,INTEGER64,10.0,Poverty Estimate Under Age 18,int_caster
+saipe,12,count_0_17_lm,,,c0460100c,INTEGER64,10.0,90% CI Lower Bound for count_0_17,int_caster
+saipe,13,count_0_17_um,,,c0460100d,INTEGER64,10.0,90% CI Upper Bound for count_0_17,int_caster
+saipe,14,count_0_4,,,c0460100e,INTEGER,9.0,Poverty Estimate Ages 0-4,int_caster
+saipe,15,count_0_4_lm,,,c0460100f,INTEGER,9.0,90% CI Lower Bound for count_0_4,int_caster
+saipe,16,count_0_4_um,,,c0460100g,INTEGER,9.0,90% CI Upper Bound for count_0_4,int_caster
+saipe,17,count_5_17_fam,,,c0460100h,INTEGER64,10.0,"Poverty Estimate, Ages 5-17 in Families",int_caster
+saipe,18,count_5_17_fam_lm,,,c0460100i,INTEGER64,10.0,90% CI Lower Bound for count_5_17_fam,int_caster
+saipe,19,count_5_17_fam_um,,,c0460100j,INTEGER64,10.0,90% CI Upper Bound for count_5_17_fam,int_caster
+saipe,20,count_5_17,,,c0460100k,INTEGER64,10.0,Poverty Estimate Ages 5-17,int_caster
+saipe,21,count_5_17_lm,,,c0460100l,INTEGER64,10.0,90% CI Lower Bound for count_5_17,int_caster
+saipe,22,count_5_17_um,,,c0460100m,INTEGER64,10.0,90% CI Upper Bound for count_5_17,int_caster
+saipe,23,count,,,c0460100n,INTEGER64,10.0,Poverty Estimate All Ages,int_caster
+saipe,24,count_lm,,,c0460100o,INTEGER64,10.0,90% CI Lower Bound for count,int_caster
+saipe,25,count_um,,,c0460100p,INTEGER64,10.0,90% CI Upper Bound for count,int_caster
+saipe,26,pct_0_17,,,c0460100q,REAL,,"Poverty Percent, Age 0-17",real_caster
+saipe,27,pct_0_17_lm,,,c0460100r,REAL,,90% CI Lower Bound for pct_0_17,real_caster
+saipe,28,pct_0_17_um,,,c0460100s,REAL,,90% CI Upper Bound for pct_0_17,real_caster
+saipe,29,pct_0_4,,,c0460100t,REAL,,Poverty Percent Ages 0-4,real_caster
+saipe,30,pct_0_4_lm,,,c0460100u,REAL,,90% CI Lower Bound for pct_0_4,real_caster
+saipe,31,pct_0_4_um,,,c0460100v,REAL,,90% CI Upper Bound for pct_0_4,real_caster
+saipe,32,pct_5_17_fam,,,c0460100w,REAL,,"Poverty Percent, Ages 5-17 in Families",real_caster
+saipe,33,pct_5_17_fam_lm,,,c0460100x,REAL,,90% CI Lower Bound for pct_5_17_fam,real_caster
+saipe,34,pct_5_17_fam_um,,,c0460100y,REAL,,90% CI Upper Bound for pct_5_17_fam,real_caster
+saipe,35,pct_5_17,,,c0460100z,REAL,,Poverty Percent Ages 5-17,real_caster
+saipe,36,pct_5_17_lm,,,c0460100A,REAL,,90% CI Lower Bound for pct_5_17_lm,real_caster
+saipe,37,pct_5_17_um,,,c0460100B,REAL,,90% CI Upper Bound for pct_5_17_lm,real_caster
+saipe,38,pct,,,c0460100C,REAL,,Poverty Percent All Ages,real_caster
+saipe,39,pct_lm,,,c0460100D,REAL,,90% CI Lower Bound for pct,real_caster
+saipe,40,pct_um,,,c0460100E,REAL,,90% CI Upper Bound for pct,real_caster

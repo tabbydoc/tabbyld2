@@ -1,0 +1,161 @@
+col0,col1,col2
+93,Broad Institute and Harvard University,other_academic
+105,"Harvard University, Chemistry and Chemical Biology Department",harvard_university
+220,"Harvard University, Department of Stem Cell and Regenerative Biology",harvard_university
+27,"Harvard University, Molecular and Cellular Biology Department",harvard_university
+3,"Harvard University, Organismic and Evolutionary Biology Department",harvard_university
+164,"Harvard University, School of Engineering and Applied Sciences",harvard_university
+120,"Harvard Medical School, BCMP Department",hms
+109,"Harvard Medical School, Cell Biology Department",hms
+113,"Harvard Medical School, Department of Microbiology and Immunobiology",hms
+121,"Harvard Medical School, Genetics Department",hms
+19,"Harvard Medical School, ICCB-L",hms
+123,"Harvard Medical School, Neurobiology Department",hms
+147,"Harvard Medical School, Schepens Eye Research Institute",hms
+108,"Harvard Medical School, Systems Biology Department",hms
+146,McLean Hospital,hms_affiliated_hospital
+189,Riparian Pharma,other_industry
+134,Beth Israel Deaconess Medical Center,hms_affiliated_hospital
+114,Boston Children's Hospital,hms_affiliated_hospital
+115,Brigham and Women's Hospital,hms_affiliated_hospital
+119,Dana Farber Cancer Institute,hms_affiliated_hospital
+103,"Dana Farber Cancer Institute and Harvard Medical School, BCMP Department",hms_affiliated_hospital
+204,Joslin Diabetes Center,hms_affiliated_hospital
+51,Massachusetts Eye and Ear Institute,hms_affiliated_hospital
+110,Massachusetts General Hospital,hms_affiliated_hospital
+26,Harvard School of Public Health,hsph
+217,"Abcam, Inc.",other_industry
+158,Albany Medical College,other_academic
+70,Albert Einstein College of Medicine,other_academic
+58,Argonne National Laboratory,other_academic
+163,Arietis Corporation,other_industry
+219,Blue Therapeutics,other_industry
+42,Boston Biomedical Research Institute,other_industry
+131,Boston College,other_academic
+138,Boston University,other_academic
+38,Boston University Medical Center,other_academic
+34,Brandeis University,other_academic
+160,Brown University,other_academic
+171,"CalAsia Pharmaceuticals, Inc.",other_industry
+144,California Institute of Technology,other_academic
+89,"Cellicon Biotechnologies, Inc.",other_industry
+9,Center for Genomic Research,other_academic
+200,Central Michigan University,other_academic
+83,Clemson University,other_academic
+74,Cleveland Clinic,other_academic
+107,Colorado State University,other_academic
+214,Columbia University Medical Center,other_academic
+135,Cubist Pharmaceuticals,other_industry
+77,Dartmouth Medical School,other_academic
+106,DKFZ German Cancer Research Center,other_academic
+207,Draper,other_industry
+47,Duke University,other_academic
+67,"European Molecular Biology Laboratory (EMBL), Grenoble",other_academic
+205,Forsyth Institute,other_academic
+71,Fox Chase Cancer Center,other_academic
+80,Fred Hutchinson Cancer Research Center,other_academic
+56,Georgetown University School of Medicine,other_academic
+153,"Harvard University, Laboratory for Drug Discovery in Neurodegeneration",harvard_university
+215,"Harvard University, Wyss Institute",harvard_university
+65,Hubrecht Laboratory for Developmental Biology,other_academic
+57,Integral Molecular,other_industry
+165,IRB Barcelona (Spain),other_academic
+222,Karolinska Institute,other_academic
+167,Kings College London,other_academic
+99,L2 Diagnostics,other_industry
+100,Massachusetts Institute of Technology,other_academic
+78,McGill University,other_academic
+68,Medical College of Wisconsin,other_academic
+161,Michigan State University,other_academic
+86,Microbiotix,other_industry
+132,Millenium Pharmaceuticals,other_industry
+88,Mount Sinai School of Medicine,other_academic
+210,Myosyntax,other_industry
+72,National Institute of Allergy and Infectious Disease,other_industry
+127,National Institutes of Health,other_academic
+130,National University of Singapore,other_academic
+186,New England Primate Research Center,other_academic
+85,New York Medical College,other_academic
+41,New York University (NYU),other_academic
+32,Northeastern University,other_academic
+136,Northwestern University,other_academic
+139,Novobiotic Pharmaceuticals,other_industry
+192,Oregon Health & Science University,other_academic
+211,Oregon State University,other_academic
+213,ORIG3N,other_industry
+179,Pennsylvania State University,other_academic
+193,Princeton University,other_academic
+221,"Remedy Plan, Inc.",other_industry
+5,"RiboNovix, Inc.",other_industry
+212,Salk Institute,other_academic
+64,Samuel Lunenfield Research Institute/Mount Sinai Hospital,other_academic
+190,Seahorse Bioscience,other_industry
+173,"Sirga Advanced Biopharma, Inc.",other_industry
+216,South Dakota State University,other_academic
+84,"St. Andrew's University, Scotland",other_academic
+159,Stanford Research Institute,other_academic
+112,Stony Brook University,other_academic
+178,Syros Pharmaceuticals,other_industry
+225,Technical University of Denmark,other_academic
+223,Temple University,other_academic
+156,Tensha Therapeutics,other_industry
+62,Texas A&M University,other_academic
+69,The Molecular Sciences Institute,other_academic
+141,The Ohio State University,other_academic
+79,The Rothberg Institute for Childhood Diseases,other_academic
+7,"The Salk Institute, San Diego California",other_academic
+73,The Scripps Research Institute,other_academic
+152,Thomas Jefferson University,other_academic
+35,Tufts University,other_academic
+10,Tufts University School of Medicine,other_academic
+116,Tufts University School of Veterinary Medicine,other_academic
+12,"University of Alabama, Birmingham",other_academic
+154,"University of Arizona, Tucson",other_academic
+194,University of Bern,other_academic
+13,University of California Berkeley,other_academic
+14,University of California Davis,other_academic
+15,University of California Los Angeles,other_academic
+16,University of California Riverside,other_academic
+28,University of Chicago,other_academic
+203,University of Colorado,other_academic
+102,University of Colorado Health Sciences Center,other_academic
+180,University of Connecticut,other_academic
+201,University of Copenhagen,other_academic
+137,University of Helsinki,other_academic
+145,University of Houston,other_academic
+155,University of Illinois at Chicago,other_academic
+66,University of Illinois at Urbana-Champaign,other_academic
+209,University of Louisiana at Monroe,other_academic
+148,University of Maine,other_academic
+195,"University of Maryland, College Park",other_academic
+111,University of Massachusetts Medical School,other_academic
+150,"University of Massachusetts, Amherst",other_academic
+76,"University of Massachusetts, Dartmouth",other_academic
+208,"University of Massachusetts, Lowell",other_academic
+196,University of Miami,other_academic
+104,University of Michigan,other_academic
+125,University of Minnesota,other_academic
+149,University of Montana,other_academic
+197,University of Nevada - Las Vegas,other_academic
+101,University of Northern Colorado,other_academic
+117,University of Pennsylvania,other_academic
+157,University of Pittsburgh,other_academic
+198,University of Rochester,other_academic
+143,University of Sao Paulo,other_academic
+177,University of Southern California,other_academic
+202,University of Southern Mississippi,other_academic
+218,University of Tennessee,other_academic
+170,"University of Texas, MD Anderson",other_academic
+18,"University of Texas, Medical Branch",other_academic
+20,University of Vermont,other_academic
+98,University of Washington,other_academic
+59,University of Wisconsin,other_academic
+199,Vanderbilt University Medical Center,other_academic
+33,Wadsworth Center,other_industry
+129,Walter Reed Army Institute for Research,other_academic
+181,Warren Alpert Medical School of Brown University,other_academic
+23,Washington University School of Medicine,other_academic
+128,Weill Cornell Medical College,other_academic
+183,Western New England University,other_academic
+61,Yale University,other_academic
+206,Yumanity Therapeutics,other_industry

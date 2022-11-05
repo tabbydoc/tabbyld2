@@ -1,0 +1,6 @@
+col0,col1,col2
+nextval('office_hours_degree_programme_id_seq'),1,1
+nextval('office_hours_degree_programme_id_seq'),1,2
+nextval('office_hours_degree_programme_id_seq'),2,1
+nextval('office_hours_degree_programme_id_seq'),7,3
+nextval('office_hours_degree_programme_id_seq'),7,2

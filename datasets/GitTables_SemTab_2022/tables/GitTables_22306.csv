@@ -1,0 +1,25 @@
+col0,col1,col2
+clientTime,int,"Timestamp of the request to write this CSV line, according to the participant's computer"
+confidence,int,The width of the advisor's marker
+confidenceAddition,int|NA,Amount of confidence added to the advisor's calculated confidence before capping
+confidenceFunction,string|NA,Name of the function used to derive the confidence of the advisor
+confidenceFunctionParams,string|NA,JSON representation of optional parameters specified for confidenceFunction
+confidenceVariation,int,The amount the advisor's confidence can vary on a trial-by-trial basis
+group,int,The group to which the advisor belongs
+hybridDescriptions,string|NA,Pipe-separated list of advisor descriptions encompassed in the hybrid
+hybridIds,string|NA,Pipe-separated list of advisor ids encompassed in the hybrid
+id,int,ID of the advisor
+idDescription,string,Description of the advisor's advice style. Can be considered the advisor's name
+introImage,string|NA,"Whether and how to show the advisor's image alongside their introText. NA=no image; ""speech""=image with text in speech bubble"
+introText,string,Text with which the advisor is introduced to the participant
+name,string,Name displayed to the participant
+pCorFunction,string|NA,String representation of the function used to derive the advisor's p(correct) from the absolute difference between anchor and their advice
+pid,string,8-character alphanumeric hash uniquely identifying a participant within an experiment
+pidHash,string,md5 hash generated from participant's ProlificID and study info allowing one-way verification that a given ProlificID was responsible for the data
+position,int,Position of the advisor in the experimental advisor list
+questionnaire,,Unused
+sameGroup,boolean|NA,Whether the advisor belongs to the same group as the participant
+serverTime,string|NA,Time of the entry according to the server
+studyId,string,Study title
+studyVersion,string,Major.minor.revision version number
+svg,string|NA,The img element src field containing base64-encoded svg file for the advisor portrait

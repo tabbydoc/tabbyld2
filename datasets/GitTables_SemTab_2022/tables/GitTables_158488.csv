@@ -1,0 +1,21 @@
+col0,col1,col2,col3
+Deathmatch,August 2020,A Minecraft plugin that creates a minigame for players to gather resources and battle it out,https://github.com/paramt/deathmatch/releases
+Dream Scheme,July 2020,A web app that generates Dreamesque intro scripts,https://www.param.me/dream-scheme
+Q4T,March 2020,A Telegram bot that allows channel admins to post scheduled quizzes using a list of questions from Google Sheets,https://github.com/paramt/q4t
+Museum of Broken Watches,February 2020,An app that displays the correct time by showing a a picture of one of the 720 watches stopped in time. Based on the [art installation](http://wepplermahovsky.com/MuseumofBrokenWatches.html) by Rhonda Weppler & Trevor Mahovsky., https://play.google.com/store/apps/details?id=appinventor.ai_harsht.MoBW
+URL Checker,October 2019,A GitHub action that tests markdown files for broken links,https://github.com/marketplace/actions/url-checker
+Video Cloud,June 2019,A simple CLI that generates word clouds from YouTube videos,https://www.param.me/videocloud
+Sumo Pit,May 2019,A local multiplayer game where players attempt to knock each other off a moving platform,https://github.com/paramt/sumopit/releases
+Trackarma,March 2019,A python script that tracks and graphs a Redditor's karma over time,https://www.param.me/trackarma
+Meme Adviser,February 2019,A reddit bot that analyzes the market at [r/MemeEconomy](https://www.reddit.com/r/MemeEconomy) and provides insightful information on investments,https://www.param.me/MemeAdviser/
+MemeEconomy Market Evaluator,January 2019,A set of online tools and calculators to analyze the market at [r/MemeEconomy](https://www.reddit.com/r/MemeEconomy),https://www.param.me/meme/
+1 Point,December 2018,A dynamic URL shortener capable of pointing users to different destinations based on various factors,https://1pt.co
+Kevlar Animation,Novemember 2018,A web animation of kevlar's chemical structure,https://www.param.me/kevlar
+Mathu,September 2018,The first place pitch at the Imagine Hackathon: A concept for an AI that adapts and grows to individual students' needs,https://mathu.cf
+Discord Emoji,July 2018,A convenient tool to convert text into emoji markup that discord understands,https://www.param.me/discord-emoji
+Email Status,July 2018,"A site that validates whether a given email address exists, as well as if it's disposable or not",https://www.param.me/email-status
+Webpage Builder,May 2018,An easy-to-use code editor that can generate permanent webpages,https://code.param.me/
+Sanskrit Quotes Calendar,May 2018,"A page that shows a different सुभाषितम् (sanskrit quote) each day, accompanied by an image",https://gq31.gq
+Topcorn,February 2017,An app that lets users play the popular party game Popcorn from anywhere around the world,https://play.google.com/store/apps/details?id=appinventor.ai_700164.Topcorn
+Spell Bind,November 2016,An app that lets users practice different levels of spelling while receiving instant feedback,https://play.google.com/store/apps/details?id=appinventor.ai_700164.SpellBind_all
+Crazy Car,2014,My introduction to the programming world: a game I made after learning ProcessingJS from Khan Academy,https://www.khanacademy.org/computer-programming/crazy-car/4555298169683968

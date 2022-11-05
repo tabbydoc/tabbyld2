@@ -1,0 +1,38 @@
+col0,col1,col2,col3,col4,col5
+Brazil,2020-12-15,2020-12-15,1.0,community_sequencing,https://virological.org/t/genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-manaus-preliminary-findings/586
+Japan,2021-01-12,,0.0,travellers,https://www.niid.go.jp/niid/en/2019-ncov-e/10108-covid19-33-en.html
+Italy,2021-01-17,,0.0,travellers,https://www.business-standard.com/article/current-affairs/italy-bans-flights-from-brazil-after-covid-variant-detected-in-4-passengers-121011700080_1.html
+South Korea,2021-01-10,,0.0,travellers,GISAID
+Germany,2021-01-22,,0.0,travellers,https://www.faz.net/aktuell/rhein-main/nachweis-in-frankfurt-neue-corona-mutation-in-deutschland-17159476.html
+Faroe Islands,2021-01-12,,0.0,travellers,https://local.fo/in-a-first-european-case-brazilian-coronavirus-variant-confirmed-in-the-faroe-islands/
+United States of America,2021-01-25,,0.0,travellers,https://twitter.com/SeanW_PHLNGS/status/1353831578342981632?s=20
+Netherlands,2021-01-29,,,community_sequencing,https://www.rivm.nl/en/news/brazilian-coronavirus-variants-p1-and-p2-found-in-netherlands
+Colombia,2021-01-30,2021-01-31,1.0,community_sequencing,https://twitter.com/INSColombia/status/1356012753656422403?s=20; https://twitter.com/INSColombia/status/1355531730422263809?s=20
+Turkey,2021-02-03,,,community_sequencing,https://www.aa.com.tr/en/health/turkey-2-s-africa-1-brazil-variant-detected/2133077
+France,2021-01-22,,0.0,community_sequencing,https://www.reuters.com/article/health-coronavirus-france-variant/france-registers-four-cases-of-brazilian-coronavirus-variant-says-minister-idUSP6N2I8010
+Peru,2021-02-05,,0.0,community_sequencing,https://noticias.uol.com.br/ultimas-noticias/afp/2021/02/04/peru-confirma-presenca-da-variante-brasileira-do-coronavirus.htm
+Spain, 2021-02-05,,0.0,travellers,https://www.lavanguardia.com/vida/20210205/6226594/detectado-madrid-primer-caso-variante-brasilena-covid-espana.html
+Canada,2021-02-07,,0.0,travellers,https://toronto.ctvnews.ca/toronto-reports-canada-s-first-known-case-of-covid-19-variant-first-seen-in-brazil-1.5299345
+Argentina,2021-02-08,,0.0,travellers,https://g1.globo.com/mundo/noticia/2021/02/08/argentina-detecta-primeiros-casos-de-variantes-brasileiras-do-coronavirus.ghtml
+Portugal,2021-02-10,,0.0,community_sequencing,https://www.reuters.com/article/health-coronavirus-portugal/portugal-detects-first-cases-of-brazilian-covid-19-variant-sic-tv-says-idUSL8N2KG7KT
+Venezuela,2021-02-10,,0.0,community_sequencing,https://www.who.int/publications/m/item/weekly-epidemiological-update---9-february-2021
+Switzerland,2021-02-09,,0.0,community_sequencing,https://www.thelocal.ch/20210209/switzerland-records-first-case-of-brazilian-coronavirus-mutation
+Belgium,2021-01-31,2021-01-31,1.0,community_sequencing,https://twitter.com/GuyBaele/status/1361414538281672704
+India,2021-02-05,,0.0,travellershttps://timesofindia.indiatimes.com/india/south-africa-brazil-mutated-covid-strains-have-reached-india/articleshow/81014842.cms,
+Mexico,2021-02-16,,1.0,community_sequencing,https://www.who.int/publications/m/item/weekly-epidemiological-update---16-february-2021
+Taiwan,2021-02-20,,0.0,travellers,https://www.channelnewsasia.com/news/asia/covid-19-taiwan-confirms-brazil-variant-3-cases-quarantine-14248914
+Ireland,2021-02-19,,0.0,travellers,https://www.thejournal.ie/three-cases-covid-19-variant-brazil-ireland-5360414-Feb2021/
+Finland,2021-02-18,,0.0,travellers,https://valtioneuvosto.fi/en/-/1271139/current-covid-19-situation-in-finland-new-virus-variants-cause-concern
+Sweden,2021-02-25,,1.0,community_sequencing,https://www.foreigner.fi/articulo/coronavirus/sweden-detects-first-brazilian-variant-cases/20210221112458010335.html
+Denmark,2021-03-03,,0.0,travellers,https://www.reuters.com/article/health-coronavirus-denmark-idUSL5N2L14OT
+Aruba,2021-03-23,,,community_sequencing,https://www.who.int/publications/m/item/weekly-epidemiological-update---23-march-2021
+Chile,2021-03-23,,,community_sequencing,https://www.who.int/publications/m/item/weekly-epidemiological-update---23-march-2021
+Guadeloupe,2021-03-23,,,community_sequencing,https://www.who.int/publications/m/item/weekly-epidemiological-update---23-march-2021
+Philippines,2021-03-23,,,community_sequencing,https://www.who.int/publications/m/item/weekly-epidemiological-update---23-march-2021
+Reunion,2021-03-23,,,community_sequencing,https://www.who.int/publications/m/item/weekly-epidemiological-update---23-march-2021
+Romania,2021-03-23,,,community_sequencing,https://www.who.int/publications/m/item/weekly-epidemiological-update---23-march-2021
+Saint Martin,2021-03-23,,,community_sequencing,https://www.who.int/publications/m/item/weekly-epidemiological-update---23-march-2021
+United Kingdom,2021-03-23,,,community_sequencing,https://www.who.int/publications/m/item/weekly-epidemiological-update---23-march-2021
+United Arab Emirates,2021-03-23,,,community_sequencing,https://www.who.int/publications/m/item/weekly-epidemiological-update---23-march-2021
+Uruguay,2021-03-23,,,community_sequencing,https://www.who.int/publications/m/item/weekly-epidemiological-update---23-march-2021
+Panama,2021-04-09,,,community_sequencing,https://www.prensa.com/impresa/panorama/variante-brasilena-se-propaga-en-panama/

@@ -1,0 +1,17 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22
+TG LI OP100,Complete PO with one LI,LI description of TG LI OP100,100,1.0,0.0,0.0,20000.0,0.0,0.0,20000.0,123456.0,987.0,True,2015-03-32,2015-03-32,CHF,False,TG100,,REG06,503100.0,SWORD
+TG LI OP200-1,Complete PO with 2 LI,LI description of TG LI OP200-1,2001,20.0,10.0,5.0,40000.0,20000.0,10000.0,2000.0,789012.0,987.0,True,2015-03-32,,CHF,False,TG200,,REG06,503100.0,SWORD
+TG LI OP200-2,Complete PO with 2 LI,LI description of TG LI OP200-2,2002,1.0,0.0,0.0,15000.0,5000.0,0.0,15000.0,345678.0,987.0,True,2015-03-32,,CHF,False,TG200,,REG06,503100.0,SWORD
+TG LI CA300,PO CAPEX with no quantity,LI description of TG LI CA300,300,,,,50000.0,,,,123456.0,987.0,False,2015-03-32,2015-03-32,CHF,False,TG300,,REG06,503100.0,SWORD
+TG LI CA400,PO CAPEX with no amount,LI description of TG LI CA300,400,10.0,,,10000.0,,,1000.0,123456.0,987.0,False,2015-03-32,2015-03-32,CHF,False,TG400,,REG06,503100.0,SWORD
+TG LI OP500,PO OPEX with no GL and Material code,LI description of TG LI OP500,500,,,,67000.45,23000.45,14000.0,,,,True,2015-03-32,,CHF,False,TG500,,REG06,503100.0,SWORD
+TG LI OP600,Empty ref_id - Should not be loaded,Empty ref_id - Should not be loaded,600,1.0,0.0,0.0,20000.0,0.0,0.0,20000.0,123456.0,987.0,True,2015-03-32,2015-05-32,CHF,False,TG100,,REG06,503100.0,SWORD
+TG LI_CA700,PO in EUR,LI description of TG LI CA700,0,,,,45000.0,20000.0,,,,,False,2015-03-32,,EUR,False,TG700,,REG06,503100.0,SWORD
+TG LI_CA700,Accents in description,blabla,700,4.0,1.0,1.0,80000.0,,,,,987.0,False,2015-03-32,,CHF,False,TG700,,REG06,503100.0,SWORD
+TG LI_CA900,blabla,blabla,900,,,,20000.0,,,,,,False,2015-03-32,,CHF,False,TG900,,REG06,503100.0,SWORD
+TG OP1000,PO with associated PE,PO with associated PE LI description,1000,,,,30000.0,,10000.0,,,,True,2015-03-32,,CHF,False,TG1000,123.0,REG01,503100.0,MICROSOFT
+TG LI 2000,Another PO associated with a PE but in USD,Another PO associated with a PE but in USD LI,2000,,,,4000.0,,,,,456.0,True,2015-03-32,,USD,False,TG2000,123.0,REG04,503500.0,ORACLE
+TG LI 3000,PO with non existing requestor,LI desc 3000,3000,,,,50000.0,,,,,,True,2015-03-32,,CHF,False,TG3000,,REG01,503500.0,ORACLE
+TG LI 4000,PO with not requestor,LI desc 4000,4000,,,,200000000.0,,,,,,True,2015-03-32,,CHF,False,TG4000,,,503500.0,ORACLE
+TG LI OP5000,PO with no supplier,blabla,5000,4.0,2.0,,3000.0,,,,,,True,2015-03-32,,CHF,False,Tg5000,,,,
+TG LI OP6000,PO with wrong CC,LI description,60000,,,,2098879.0,,,,,,True,2015-03-32,,CHF,False,TG6000,,,,

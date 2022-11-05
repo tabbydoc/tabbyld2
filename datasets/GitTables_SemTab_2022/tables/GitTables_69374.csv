@@ -1,0 +1,23 @@
+col0,col1,col2,col3,col4
+275,Ranitidine first exposure no lookback,1,Ranitidine,Ranitidine first exposure no lookback
+276,Cimetidine first exposure no lookback,2,Cimetidine,Cimetidine first exposure no lookback
+277,Famotidine first exposure no lookback,3,Famotidine,Famotidine first exposure no lookback
+278,Nizatidine first exposure no lookback,4,Nizatidine,Nizatidine first exposure no lookback
+279,Roxatidine first exposure no lookback,5,Roxatidine,Roxatidine first exposure no lookback
+280,Ranitidine bismuth citrate first exposure no lookback,6,Ranitidine bismuth citrate,Ranitidine bismuth citrate first exposure no lookback
+281,Lafutidine first exposure no lookback,7,Lafutidine,Lafutidine first exposure no lookback
+297,Niperotidine first exposure no lookback,8,Niperotidine,Niperotidine first exposure no lookback
+299,H2 inhibitors first exposure no lookback,9,H2 Class,H2 inhibitors first exposure no lookback
+282,GERD,10,GERD,GERD
+283,Zollinger Ellison Syndrome,11,Zollinger Ellison Syndrome,Zollinger Ellison Syndrome
+284,Gastric Or Duodenal Ulcer,12,Gastric Or Duodenal Ulcer,Gastric Or Duodenal Ulcer
+286,Chronic Renal Impairment,13,Chronic Renal Impairment,Chronic Renal Impairment
+290,Ranitidine incident use,21,Ranitidine incident use,Ranitidine incident use
+291,Cimetidine incident use,22,Cimetidine incident use,Cimetidine incident use
+292,Famotidine incident use,23,Famotidine incident use,Famotidine incident use
+293,Nizatidine incident use,24,Nizatidine incident use,Nizatidine incident use
+294,Roxatidine incident use,25,Roxatidine incident use,Roxatidine incident use
+295,Ranitidine bismuth citrate incident use,26,Ranitidine bismuth citrate incident use,Ranitidine bismuth citrate incident use
+296,Lafutidine incident use,27,Lafutidine incident use,Lafutidine incident use
+298,Niperotidine incident use,28,Niperotidine incident use,Niperotidine incident use
+300,H2 inhibitors incident use,29,H2 inhibitors incident use,H2 inhibitors incident use

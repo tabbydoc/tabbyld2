@@ -1,0 +1,51 @@
+col0,col1,col2
+country,ISO 3166-1 alpha-3 code identiying the jurisdiction,factor
+year,"Fiscal year, using Comuptstat's June 30 cutoff",factor
+cfo_mean,Mean of cash flow from operations for the respective country year,numeric
+cfo_sd,Standard deviation of cash flow from operations for the respective country year,numeric
+cfo_skew,Skewness of cash flow from operations for the respective country year,numeric
+cfo_kurt,Kurtosis of cash flow from operations for the respective country year,numeric
+cfo_min,Minimum of cash flow from operations for the respective country year,numeric
+cfo_max,Maximum of cash flow from operations for the respective country year,numeric
+cfo_pneg,Percentage of negative cash flow from operations for the respective country year,numeric
+dcfo_acorr,One year auto-correlation of change in cash flow from operations for the respective country year,numeric
+std_oi_pti,Standard deviation of the difference between operating income after depreciation and pretax income for the respective country year,numeric
+pctloss,Share of country year observations with negative earnings before extraordinary items,numeric
+sgaint,Average country year SG&A intensity measured as SG&A expenses over the difference of sales minus earnings before extraordinary items,numeric
+share_int_ind,"Share of firms that are in the Health, Business Services, Chemical Products or Telecomm Sector for each country year",numeric
+level_n,Number of observations of the level model for the respective country year,numeric
+level_const,"Estimate of the intercept in an OLS model regressing total accruals on cfo, estimated for the respective country year",numeric
+level_cfo_est,"Estimate of the CFO coefficient in an OLS model regressing total accruals on cfo, estimated for the respective country year",numeric
+level_const_se,Standard error of level_const_est,numeric
+level_cfo_se,Standard error of level_cfo_est,numeric
+level_r2,"R2 of an OLS model regressing total accruals on cfo, estimated for the respective country year",numeric
+level_adjr2,"Adjusted R2 of an OLS model regressing total accruals on cfo, estimated for the respective country year",numeric
+change_n,Number of observations of the change model for the respective country year,numeric
+change_const,"Estimate of the intercept in an OLS model regressing change in total accruals on change in cfo, estimated for the respective country year",numeric
+change_dcfo_est,"Estimate of the DCFO coefficient in an OLS model regressing change in total accruals on change in cfo, estimated for the respective country year",numeric
+change_const_se,Standard error of change_const_est,numeric
+change_dcfo_se,Standard error of change_dcfo_est,numeric
+change_r2,"R2 of an OLS model regressing change in total accruals on change in cfo, estimated for the respective country year",numeric
+change_adjr2,"Adjusted R2 of an OLS model regressing change in total accruals on change in cfo, estimated for the respective country year",numeric
+dd_n,Number of observations of the Dechow/Dichev model for the respective country year,numeric
+dd_const,"Estimate of the intercept in an Dechow/Dichev model, estimated for the respective country year",numeric
+dd_lagcfo_est,"Estimate of the lagged CFO coefficient in an Dechow/Dichev model, estimated for the respective country year",numeric
+dd_cfo_est,"Estimate of the CFO coefficient in an Dechow/Dichev model, estimated for the respective country year",numeric
+dd_leadcfo_est,"Estimate of the lead CFO coefficient in an Dechow/Dichev model, estimated for the respective country year",numeric
+dd_const_se,Standard error of dd_const_est,numeric
+dd_lagcfo_se,Standard error of dd_lagcfo_est,numeric
+dd_cfo_se,Standard error of dd_cfo_est,numeric
+dd_leadcfo_se,Standard error of dd_leadcfo_est,numeric
+dd_r2,"R2 of an Dechow/Dichev model, estimated for the respective country year",numeric
+dd_adjr2,"Adjusted R2 of an Dechow/Dichev model, estimated for the respective country year",numeric
+dt_adjr2,"Adjusted R2 for country year Dechev and Tang regressions, regressing sales on current lagged and lead expenses",numeric
+level_resid_cfo,"Residual from a model regressing level_cfo_est on cfo_mean, cfo_sd, cfo_range, cfo_skew and cfo_kurt at country level",numeric
+level_resid_adjr2,"Residual from a model regressing level_adjr2 on cfo_mean, cfo_sd, cfo_range, cfo_skew and cfo_kurt at country level",numeric
+change_resid_dcfo,"Residual from a model regressing change_dcfo_est on cfo_mean, cfo_sd, cfo_range, cfo_skew and cfo_kurt at country level",numeric
+change_resid_adjr2,"Residual from a model regressing change_adjr2 on cfo_mean, cfo_sd, cfo_range, cfo_skew and cfo_kurt at country level",numeric
+dd_resid_cfo,"Residual from a model regressing dd_cfo_est on cfo_mean, cfo_sd, cfo_range, cfo_skew and cfo_kurt at country level",numeric
+dd_resid_adjr2,"Residual from a model regressing dd_adjr2 on cfo_mean, cfo_sd, cfo_range, cfo_skew and cfo_kurt at country level",numeric
+rel_msize,Number of listed firms relative to maximum of listed firms over the sample period,numeric
+time,"a time trend indicator, defined as year - 1989",numeric
+cid,country id for Expand (identical to country),cs_id
+yid,year id for Expand (identical to year),ts_id

@@ -1,0 +1,50 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+1,tea - beverage hot sweet drinks caffeine,B001,tea,beverage,hot,sweet,20,drinks
+2,coffee - beverage hot sweet drinks caffeine,B002,coffee,beverage,hot,sweet,30,drinks
+3,coke - beverage cold tangy drinks soda,B003,coke,beverage,cold,tangy,40,drinks
+4,fanta - beverage cold tangy drinks soda,B004,fanta,beverage,cold,tangy,40,drinks
+5,faluda - beverage cold sweet drinks Rose syrup falooda sev  mixed nuts  saffron sugar,B005,faluda,beverage,cold,sweet,100,drinks
+6,badam milk - beverage cold sweet drinks almond milk sugar saffron nuts,B006,badam milk,beverage,cold,sweet,150,drinks
+7,cold coffee - beverage cold sweet drinks caffeine,B007,cold coffee,beverage,cold,sweet,200,drinks
+8,mango milkshake - beverage cold sweet drinks mango milk sugar,B008,mango milkshake,beverage,cold,sweet,150,drinks
+9,jal jeera - beverage cold tangy drinks cumin soda,B009,jal jeera,beverage,cold,tangy,60,drinks
+10,hara bhara kebab - breakfast hot exotic appetizers green peas potatoes,BR001,hara bhara kebab,breakfast,hot,exotic,250,appetizers
+11,crispy veg - breakfast hot spicy appetizers corn babycorn pepper paneer,BR002,crispy veg,breakfast,hot,spicy,300,appetizers
+12,paneer chilli - breakfast hot spicy appetizers paneer pepper garlic chilli,BR003,paneer chilli,breakfast,hot,spicy,300,appetizers
+13,idli  - breakfast hot exotic south batter chutney,BR004,idli ,breakfast,hot,exotic,60,south
+14,dosa - breakfast hot exotic south batter chutney,BR005,dosa,breakfast,hot,exotic,80,south
+15,medu vada - breakfast hot spicy south batter chutney,BR006,medu vada,breakfast,hot,spicy,60,south
+16,grill sandwch - breakfast hot spicy sandwiches tomato potato sauce bread capsicum onion cheese,BR007,grill sandwch,breakfast,hot,spicy,150,sandwiches
+17,toast sandwich - breakfast hot exotic sandwiches tomato potato sauce bread capsicum onion cheese,BR008,toast sandwich,breakfast,hot,exotic,100,sandwiches
+18,roti - chapati hot exotic chap four wheat,C001,roti,chapati,hot,exotic,10,chap
+19,lachha paratha - chapati hot exotic chap flour wheat,C002,lachha paratha,chapati,hot,exotic,25,chap
+20,naan - chapati hot exotic chap Whole wheat flour  honey  butter garlic,C003,naan,chapati,hot,exotic,30,chap
+21,kulcha - chapati hot exotic chap butter flour wheat sessame seeds,C004,kulcha,chapati,hot,exotic,35,chap
+22,rocky road - dessert cold sweet cakes peanut butter chocolate chips milk flour baking powder sugar ,D001,rocky road,dessert,cold,sweet,100,cakes
+23,vanilla ice cream  - dessert cold sweet cream sugar cream milk vanilla syrup,D002,vanilla ice cream ,dessert,cold,sweet,40,cream
+24,brownie - dessert cold sweet cakes chocolate milk syrup sugar baking powder ,D003,brownie,dessert,cold,sweet,150,cakes
+25,gulab janum - dessert cold sweet indsw Milk powder plain flour  baking powder  ghee  milk  sugar  water rose water india bengal syrup,D004,gulab janum,dessert,cold,sweet,25,indsw
+26,strawberry ice cream - dessert cold sweet cream cream strawberry syrup milk sugar,D005,strawberry ice cream,dessert,cold,sweet,40,cream
+27,chocobite ice cream - dessert cold sweet cream chocolate milk syrup sugar chips cream,D006,chocobite ice cream,dessert,cold,sweet,40,cream
+28,black currant ice cream - dessert cold sweet cream orchid syrup chips milk cream sugar,D007,black currant ice cream,dessert,cold,sweet,40,cream
+29,pineapple cake - dessert cold sweet cakes pineapple plain flour chocolate chips milk whip cream,D008,pineapple cake,dessert,cold,sweet,450,cakes
+30,rasgulla - dessert cold sweet indian Chhena sugar cardamom india bengal syrup,D009,rasgulla,dessert,cold,sweet,25,indian
+31,pizza - main course hot exotic fast italian stuff,MC001,pizza,main course,hot,exotic,400,fast
+32,veg lazeez - main course hot tangy veg masala capsicum tomato gravy kofta potatoes garlic chilli,MC002,veg lazeez,main course,hot,tangy,250,veg
+33,"veg makhani - main course hot exotic veg Red kidney beans  peas  cream, garam masala chili powder",MC003,veg makhani,main course,hot,exotic,250,veg
+34,paneer amritsari - main course hot sweet veg masala capsicum tomato gravy kofta potatoes garlic chilli,MC004,paneer amritsari,main course,hot,sweet,250,veg
+35,babycorn mushroon masala - main course hot exotic veg  masala capsicum tomato gravy kofta potatoes garlic chilli mushroom corn ,MC005,babycorn mushroon masala,main course,hot,exotic,300,veg
+36,veg kolhapuri - main course hot spicy veg masala capsicum tomato gravy kofta potatoes garlic chilli,MC006,veg kolhapuri,main course,hot,spicy,250,veg
+37,pasta - main course hot exotic fast italian stuff,MC007,pasta,main course,hot,exotic,250,fast
+38,"jeera rice with dal fry - main course hot spicy rice rice Pigeon peas, garam masala, ginger, red onion, kasuri methi",MC008,jeera rice with dal fry,main course,hot,spicy,100,rice
+39,biryani - main course hot spicy rice rice  peas  garam masala  ginger  onion  potatoes,MC009,biryani,main course,hot,spicy,160,rice
+40,pav bhaji  - main course hot spicy fast Pav bhaji masala  gobi  potatoes  green peas onion,MC010,pav bhaji ,main course,hot,spicy,150,fast
+41,veg pulav - main course hot exotic rice rice  peas ginger onion potatoes,MC011,veg pulav,main course,hot,exotic,170,rice
+42,lemon coriander soup - soup hot tangy soups lemon coriander soup,S001,lemon coriander soup,soup,hot,tangy,135,soups
+43,green pepper soup - soup hot spicy soups pepper soup,S002,green pepper soup,soup,hot,spicy,135,soups
+44,hot and sour soup - soup hot sour soups hot and sour soup  soup hot sour soups,S003,hot and sour soup,soup,hot,sour,135,soups
+45,broccoli corn soup - soup hot exotic soups broccoli corn soup soup hot exotic soups,S004,broccoli corn soup,soup,hot,exotic,135,soups
+46,manchow soup - soup hot spicy soups manchow soup  soup hot spicy soups,S005,manchow soup,soup,hot,spicy,145,soups
+47,french onion soup - soup hot exotic soups french onion soup  soup hot exotic soups,S006,french onion soup,soup,hot,exotic,145,soups
+48,mexican soup - soup hot exotic soups mexican soup  soup hot exotic soups,S007,mexican soup,soup,hot,exotic,150,soups
+49,tomato soup - soup hot tangy soups tomato soup soup hot tangy soups,S008,tomato soup,soup,hot,tangy,130,soups

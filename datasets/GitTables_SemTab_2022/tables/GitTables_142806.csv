@@ -1,0 +1,97 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+A:1,334455,3,male,6,normal,blood,9606
+A:2,334456,3,male,6,normal,blood,9606
+A:3,334457,3,female,6,normal,blood,9606
+A:4,334458,3,female,6,normal,blood,9606
+A:5,334459,3,male,6,normal,blood,9606
+A:6,334460,3,male,6,normal,blood,9606
+A:7,334461,3,male,6,normal,blood,9606
+A:8,334462,3,male,6,normal,blood,9606
+A:9,334463,3,male,6,normal,blood,9606
+A:10,334464,3,male,6,normal,blood,9606
+A:11,334465,3,male,6,normal,blood,9606
+A:12,334466,3,male,6,normal,blood,9606
+B:1,334467,3,male,6,normal,blood,9606
+B:2,334468,3,male,6,normal,blood,9606
+B:3,334469,3,male,6,normal,blood,9606
+B:4,334470,3,male,6,normal,blood,9606
+B:5,334471,3,male,6,normal,blood,9606
+B:6,334472,3,male,6,normal,blood,9606
+B:7,334473,3,female,6,normal,blood,9606
+B:8,334474,3,female,6,normal,blood,9606
+B:9,334475,3,female,6,normal,blood,9606
+B:10,334476,3,female,6,normal,blood,9606
+B:11,334477,3,female,6,normal,blood,9606
+B:12,334478,3,female,6,normal,blood,9606
+C:1,334479,3,female,6,normal,cells,9606
+C:2,334480,3,female,6,normal,cells,9606
+C:3,334481,3,female,6,normal,cells,9606
+C:4,334482,3,female,6,normal,cells,9606
+C:5,334483,3,female,6,normal,cells,9606
+C:6,334484,3,female,6,normal,cells,9606
+C:7,334485,3,female,6,normal,cells,9606
+C:8,334486,3,female,6,normal,cells,9606
+C:9,334487,3,female,6,normal,cells,9606
+C:10,334488,3,female,6,normal,cells,9606
+C:11,334489,3,female,6,normal,cells,9606
+C:12,334490,3,female,6,normal,cells,9606
+D:1,334491,3,female,6,normal,cells,9606
+D:2,334492,3,female,6,normal,cells,9606
+D:3,334493,3,female,6,normal,cells,9606
+D:4,334494,3,female,6,normal,cells,9606
+D:5,334495,3,female,6,normal,cells,9606
+D:6,334496,3,female,6,normal,cells,9606
+D:7,334497,3,female,6,normal,cells,9606
+D:8,334498,3,female,6,normal,cells,9606
+D:9,334499,3,female,6,normal,cells,9606
+D:10,334500,3,female,6,normal,cells,9606
+D:11,334501,3,female,6,normal,cells,9606
+D:12,334502,3,female,6,normal,cells,9606
+E:1,334503,3,female,6,tumour,tissue,9606
+E:2,334504,3,female,6,tumour,tissue,9606
+E:3,334505,3,female,6,tumour,tissue,9606
+E:4,334506,3,female,6,tumour,tissue,9606
+E:5,334507,3,male,6,tumour,tissue,9606
+E:6,334508,3,male,6,tumour,tissue,9606
+E:7,334509,3,male,6,tumour,tissue,9606
+E:8,334510,3,male,6,tumour,tissue,9606
+E:9,334511,3,male,6,tumour,tissue,9606
+E:10,334512,3,male,6,tumour,tissue,9606
+E:11,334513,3,male,6,tumour,tissue,9606
+E:12,334514,3,male,6,tumour,tissue,9606
+F:1,334515,3,male,6,tumour,tissue,9606
+F:2,334516,3,male,6,tumour,tissue,9606
+F:3,334517,3,male,6,tumour,tissue,9606
+F:4,334518,3,male,6,tumour,tissue,9606
+F:5,334519,3,male,6,tumour,tissue,9606
+F:6,334520,3,male,6,tumour,tissue,9606
+F:7,334521,3,male,6,tumour,tissue,9606
+F:8,334522,3,male,6,tumour,tissue,9606
+F:9,334523,3,male,6,tumour,tissue,9606
+F:10,334524,3,male,6,tumour,tissue,9606
+F:11,334525,3,male,6,tumour,tissue,9606
+F:12,334526,3,male,6,tumour,tissue,9606
+G:1,334527,3,male,6,tumour,tissue,9606
+G:2,334528,3,male,6,tumour,tissue,9606
+G:3,334529,3,male,6,tumour,tissue,9606
+G:4,334530,3,male,6,tumour,tissue,9606
+G:5,334531,3,male,6,tumour,tissue,9606
+G:6,334532,3,male,6,tumour,tissue,9606
+G:7,334533,3,male,6,tumour,tissue,9606
+G:8,334534,3,male,6,tumour,tissue,9606
+G:9,334535,3,male,6,tumour,tissue,9606
+G:10,334536,3,male,6,tumour,tissue,9606
+G:11,334537,3,male,6,tumour,lysed cells,9606
+G:12,334538,3,male,6,tumour,lysed cells,9606
+H:1,334539,3,male,6,tumour,lysed cells,9606
+H:2,334540,3,male,6,tumour,lysed cells,9606
+H:3,334541,3,male,6,tumour,lysed cells,9606
+H:4,334542,3,male,6,tumour,lysed cells,9606
+H:5,334543,3,male,6,tumour,lysed cells,9606
+H:6,334544,3,male,6,tumour,lysed cells,9606
+H:7,334545,3,male,6,tumour,lysed cells,9606
+H:8,334546,3,male,6,tumour,lysed cells,9606
+H:9,334547,3,male,6,tumour,lysed cells,9606
+H:10,334548,3,male,6,tumour,lysed cells,9606
+H:11,334549,3,male,6,tumour,lysed cells,9606
+H:12,334550,3,male,6,tumour,lysed cells,9606

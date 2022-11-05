@@ -1,0 +1,56 @@
+col0,col1,col2
+child_pos,,
+child_id_iycf,,
+child_study_id_iycf,,
+child_bf,Has [${child_pos}] ever consumed breastmilk in any of these ways?,1=Yes; 0=No; 999=Do not know
+child_eibf,How long after birth did you first put [${child_pos}] to the breast?,0=Immediately; 1=Hours; 2=Days; 3=Never; 777=No Answer; 999=Don't Know
+child_eibf_hrs,Hours,
+child_eibf_days,Days,
+chhild_addbf,"In the first 3 days after delivery, was [${child_pos}] given anything to drink other than or in addition to breastmilk?","1=Plain water; 2=Sugar water or glucose water; 3=Powdered or fresh animal milk; 4=Infant formula (Dumex, Nestle, etc); 5=No other liquid beside breastmilk; 888=Other (specify)"
+chhild_addbf_oth,Others Specify,
+child_bfyest,"Yesterday during the day or at night, did [${child_pos}] consume breastmilk from you or another woman, or did anyone give [${child_pos}] breastmilk using a spoon, cup or bottle?",1=Yes; 0=No; 999=Do not know
+child_vitdrop,Vitamin drops or other medicines as drops,1=Yes; 0=No; 999=Do not know
+child_vitdrop_freq,How many times yesterday during the day or night did the child consume the item?,
+child_ors,ORS,1=Yes; 0=No; 999=Do not know
+child_ors_freq,How many times yesterday during the day or night did the child consume the item?,
+child_water,Plain water,1=Yes; 0=No; 999=Do not know
+child_water_freq,How many times yesterday during the day or night did the child consume the item?,
+child_juice,Juice or juice drinks,1=Yes; 0=No; 999=Do not know
+child_juice_freq,How many times yesterday during the day or night did the child consume the item?,
+child_broth,Clear broth,1=Yes; 0=No; 999=Do not know
+child_broth_freq,How many times yesterday during the day or night did the child consume the item?,
+child_porridge,Thin porridge,1=Yes; 0=No; 999=Do not know
+child_porridge_freq,How many times yesterday during the day or night did the child consume the item?,
+child_bms,"Infant formula (example: Dumex, Similac, Aptimal, Humana, DG 3, DG 2, DG 1, etc.)",1=Yes; 0=No; 999=Do not know
+child_bms_freq,How many times yesterday during the day or night did the child consume the item?,
+child_milk,"Milk such as tinned, powdered, or fresh animal milk (add locally available brand names of tinned and powdered milk)",1=Yes; 0=No; 999=Do not know
+child_milk_freq,How many times yesterday during the day or night did the child consume the item?,
+child_mproduct,Sour milk or yogurt,1=Yes; 0=No; 999=Do not know
+child_mproduct_freq,How many times yesterday during the day or night did the child consume the item?,
+child_liquid,Other water-based liquids,1=Yes; 0=No; 999=Do not know
+child_liquid_freq,How many times yesterday during the day or night did the child consume the item?,
+info_solid_food,Please tell me everything that [${child_pos}] ate yesterday during the day or night (whether at home or outside the home).,1=Yes; 0=No; 999=Do not know
+child_rice,"Bread, rice, noodles, or other foods made from grains, including thick grain-based porridge?",1=Yes; 0=No; 999=Do not know
+child_potatoes,"White potatoes, white yams, manioc, cassava, or any other foods made from roots?",1=Yes; 0=No; 999=Do not know
+child_pumpkin,"Pumpkin, carrots, squash, or sweet potatoes that are yellow or orange inside?",1=Yes; 0=No; 999=Do not know
+child_beans,"Any foods made from beans, peas, lentils or nuts, including Plumpy ‘nut?",1=Yes; 0=No; 999=Do not know
+child_leafyveg,Any dark green leafy vegetables?,1=Yes; 0=No; 999=Do not know
+child_mango,"Ripe mangoes, ripe papayas or (insert other local vitamin A-rich fruits)?",1=Yes; 0=No; 999=Do not know
+child_fruit,Any other fruits or vegetables?,1=Yes; 0=No; 999=Do not know
+child_organ,"Liver, kidney, heart or other organ meats?",1=Yes; 0=No; 999=Do not know
+child_beef,"Any meat such as beef, pork, lamb, goat, chicken or duck?",1=Yes; 0=No; 999=Do not know
+child_fish,"Fresh or dried fish, shellfish, or seafood?",1=Yes; 0=No; 999=Do not know
+child_insects,"Grubs, snails or insects?",1=Yes; 0=No; 999=Do not know
+child_eggs,Eggs?,1=Yes; 0=No; 999=Do not know
+child_yogurt,"Cheese, yogurt, or other milk products?",1=Yes; 0=No; 999=Do not know
+child_fat,"Any oil, fats or butter, or foods made with any of these?",1=Yes; 0=No; 999=Do not know
+child_plam,"Foods made with red palm oil, red palm nut and red palm nut pulp sauce?",1=Yes; 0=No; 999=Do not know
+child_sweets,"Any sugary foods such as chocolates, sweets, candies, pastries, cakes or biscuits?",1=Yes; 0=No; 999=Do not know
+child_condiments,"Condiments for flavor such as chilies, spices, herbs or fish powder?",1=Yes; 0=No; 999=Do not know
+child_othfood,"Other foods: please write down other foods in this box that the respondent mentioned but are not in the list above. When data are entered into the computer, the other foods will be assigned to one of the 7 categories of foods:",
+child_food_freq,"How many times did [${child_pos}] eat solid, semi-solid or soft foods other than liquids yesterday during the day or at night?",
+child_fortified,"Now I would like to ask you about other foods [${child_pos}] may eat.  I am interested in whether your child had the item even if it was combined with other foods. Yesterday, during the day or night, did [${child_pos}] consume any [list iron fortified solid, semi-solid or soft foods designed specifically for infants and young children available in the local setting]?",1=Yes; 0=No; 999=Do not know
+child_sprinkles,"Yesterday, during the day or night, did [${child_pos}] consume any food to which you added a powder or sprinkles like this?",1=Yes; 0=No; 999=Do not know
+child_supplement,"Yesterday, during the day or night, did [${child_pos}] consume any [list lipid based nutrient supplement (LNS) available in the local setting. If Plumpy’nut is available locally, it should be included in the list]. Show pictures of common types of LNS available in the survey area.",1=Yes; 0=No; 999=Do not know
+child_ironformula,"Yesterday, during the day or night, did [${child_pos}] consume any [list iron fortified infant/toddler formulas available in the local setting]?",1=Yes; 0=No; 999=Do not know
+child_bottle,Did [${child_pos}] drink anything from a bottle with a nipple yesterday or last night?,1=Yes; 0=No; 999=Do not know

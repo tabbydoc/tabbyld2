@@ -1,0 +1,78 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+0,315013,315013,(Met-ocean observations from marine animal tags),,0,Sequence,,,,,numeric,0
+1,315013,301150,WIGOS identifier,,0,Sequence,,,,,numeric,0
+2,301150,1125,WIGOS identifier series,,4,Numeric,0.0,0.0,0,,numeric,0
+3,301150,1126,WIGOS issuer of identifier,,16,Numeric,0.0,0.0,22002,,numeric,4
+4,301150,1127,WIGOS issue number,,16,Numeric,0.0,0.0,0,,numeric,20
+5,301150,1128,WIGOS local identifier (character),,128,CCITT IA5,0.0,0.0,37678,,string,36
+6,315013,1087,WMO marine observing platform extended identifier,WMO number where assigned,23,Numeric,0.0,0.0,37678,,numeric,164
+7,315013,208032,Change width of CCITT IA5 field,change width to 32 characters,0,Operator,,,,,operator,187
+8,315013,1019,Long station or site name,"Platform ID, e.g. ct145-933-BAT2-19 (max 32-chars)",256,CCITT IA5,0.0,0.0,ct145-933-BAT2-19,,string,187
+9,315013,208000,Change width of CCITT IA5 field,Cancel change width,0,Operator,,,,,operator,443
+10,315013,3001,Surface Station Type,11 (Marine Animal),5,Code table,0.0,0.0,11,,numeric,443
+11,315013,22067,Instrument type for water temperature/salinity profile measurement,Set to 995 (attached to marine animal),10,Code table,0.0,0.0,995,,numeric,448
+12,315013,1051,Platform Transmitter ID number,e.g. Argos PTT,96,CCITT IA5,0.0,0.0,123456,,string,458
+13,315013,2148,Data collection and/or location system,,5,Code table,0.0,0.0,1,ARGOS,numeric,554
+14,315013,112000,Delayed replication of 12 descriptors,,0,Replication,,,,,,458
+15,315013,31001,Delayed descriptor replication factor,,8,Numeric,0.0,0.0,1,,numeric,458
+16,315013,8021,Time significance,"set to 26, time of last known position",5,Code table,0.0,0.0,26,,numeric,466
+17,315013,301011,"(Year, month, day)",,0,Sequence,,,,,numeric,471
+18,301011,4001,Year,,12,a,0.0,0.0,2020,,numeric,471
+19,301011,4002,Month,,4,mon,0.0,0.0,6,,numeric,483
+20,301011,4003,Day,,6,d,0.0,0.0,11,,numeric,487
+21,315013,301012,"(Hour, minute)",,0,Sequence,,,,,numeric,493
+22,301012,4004,Hour,,5,h,0.0,0.0,18,,numeric,487
+23,301012,4005,Minute,,6,min,0.0,0.0,30,,numeric,492
+24,315013,301021,(Latitude / longitude (high accurracy)),,0,Sequence,,,,,numeric,498
+25,301021,5001,Latitude (high accuracy),,25,deg,5.0,-9000000.0,41.722,,numeric,498
+26,301021,6001,Longitude (high accuracy),,26,deg,5.0,-18000000.0,-71.4277,,numeric,523
+27,315013,1012,Direction of motion of moving observing platform,,9,degree true,0.0,0.0,272,,numeric,549
+28,315013,1014,Platform drift speed (high precision),,10,m/s,2.0,0.0,1.5,,numeric,558
+29,315013,33022,Quality of buoy satellite transmission,,2,Code table,0.0,0.0,0,Good,numeric,568
+30,315013,33023,Quality of buoy location,,2,Code table,0.0,0.0,0,Good,numeric,558
+31,315013,33027,Location quality class (range of radius of 66% confidence),,3,Code table,0.0,0.0,3,Radius < 250 m,numeric,560
+32,315013,7063,Depth below sea/water surface,,20,m,2.0,0.0,0,Surface,numeric,563
+33,315013,22045,Sea / Water Temperature,,19,K,3.0,0.0,284.34,,numeric,583
+34,315013,8021,Time significance,Set to missing / cancel,5,Code table,0.0,0.0,31,Missing,numeric,602
+35,315013,107000,Delayed replication of 7 descriptors,,0,Replication,,,,,,607
+36,315013,31001,Delayed descriptor replication factor,,8,Numeric,0.0,0.0,1,,numeric,607
+37,315013,301011,"(Year, month, day)",,0,Sequence,,,,,numeric,615
+38,301011,4001,Year,,12,a,0.0,0.0,2020,,numeric,607
+39,301011,4002,Month,,4,mon,0.0,0.0,6,,numeric,619
+40,301011,4003,Day,,6,d,0.0,0.0,11,,numeric,623
+41,315013,301012,"(Hour, minute)",,0,Sequence,,,,,numeric,629
+42,301012,4004,Hour,,5,h,0.0,0.0,18,,numeric,629
+43,301012,4005,Minute,,6,min,0.0,0.0,34,,numeric,634
+44,315013,301021,(Latitude / longitude (high accurracy)),,0,Sequence,,,,,numeric,640
+45,301021,5001,Latitude (high accuracy),,25,deg,5.0,-9000000.0,41.722,,numeric,640
+46,301021,6001,Longitude (high accuracy),,26,deg,5.0,-18000000.0,-71.4277,,numeric,640
+47,315013,1079,Unique identifier for the profile,Profile ID,64,CCITT IA5,0.0,0.0,profile1,,string,666
+48,315013,1023,Observation sequence number,Upcast number,9,Numeric,0.0,0.0,1,,numeric,730
+49,315013,22056,Direction of profile,Set to 0 (ascending / upwards),2,Code table,0.0,0.0,1,Downwards,numeric,739
+50,315013,306035,Temperature and salinity profile,,0,Sequence,,,,,numeric,741
+51,306035,112000,Delayed replication of 12 descriptors,,0,Replication,,,,,,741
+52,306035,31002,Extended delayed descriptor replication factor,,16,Numeric,0.0,0.0,2,,numeric,741
+53,306035,7062,Depth below sea/water surface,In metres,17,m,1.0,0.0,3,,numeric,757
+54,306035,8080,Qualifier for GTSPP quality flag,13 depth at a level,6,Code table,0.0,0.0,13,Water depth at a level,numeric,741
+55,306035,33050,Global GTSPP quality flag,,4,Code table,0.0,0.0,1,Correct,numeric,747
+56,306035,7065,Water pressure,,17,Pa,-3.0,0.0,3000,3 m,numeric,751
+57,306035,8080,Qualifier for GTSPP quality flag,10 pressure at a level,6,Code table,0.0,0.0,10,Water pressure at a level,numeric,768
+58,306035,33050,Global GTSPP quality flag,,4,Code table,0.0,0.0,1,Correct,numeric,774
+59,306035,22043,Sea/water temperature,,15,K,2.0,0.0,284.34,11.2 deg_C,numeric,778
+60,306035,8080,Qualifier for GTSPP quality flag,11 temperature at a level,6,Code table,0.0,0.0,11,Water temperature at a level,numeric,793
+61,306035,33050,Global GTSPP quality flag,,4,Code table,0.0,0.0,1,Correct,numeric,799
+62,306035,22064,Salinity,12 salinity at a level,17,0/00,3.0,0.0,32,,numeric,793
+63,306035,8080,Qualifier for GTSPP quality flag,,6,Code table,0.0,0.0,12,Salinity at a level,numeric,810
+64,306035,33050,Global GTSPP quality flag,,4,Code table,0.0,0.0,1,Correct,numeric,816
+53,306035,7062,Depth below sea/water surface,In metres,17,m,1.0,0.0,3.0,,numeric,820
+54,306035,8080,Qualifier for GTSPP quality flag,13 depth at a level,6,Code table,0.0,0.0,13,Water depth at a level,numeric,837
+55,306035,33050,Global GTSPP quality flag,,4,Code table,0.0,0.0,1,Correct,numeric,843
+56,306035,7065,Water pressure,,17,Pa,-3.0,0.0,6000,6.0 m ( 6 dbar),numeric,847
+57,306035,8080,Qualifier for GTSPP quality flag,10 pressure at a level,6,Code table,0.0,0.0,10,Water pressure at a level,numeric,864
+58,306035,33050,Global GTSPP quality flag,,4,Code table,0.0,0.0,1,Correct,numeric,847
+59,306035,22043,Sea/water temperature,,15,K,2.0,0.0,284.34,11.2 deg_C,numeric,851
+60,306035,8080,Qualifier for GTSPP quality flag,11 temperature at a level,6,Code table,0.0,0.0,11,Water temperature at a level,numeric,866
+61,306035,33050,Global GTSPP quality flag,,4,Code table,0.0,0.0,1,Correct,numeric,872
+62,306035,22064,Salinity,12 salinity at a level,17,0/00,3.0,0.0,32,,numeric,876
+63,306035,8080,Qualifier for GTSPP quality flag,,6,Code table,0.0,0.0,12,Salinity at a level,numeric,893
+64,306035,33050,Global GTSPP quality flag,,4,Code table,0.0,0.0,1,Correct,numeric,899

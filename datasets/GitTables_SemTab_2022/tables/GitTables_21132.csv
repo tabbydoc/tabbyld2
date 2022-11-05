@@ -1,0 +1,22 @@
+col0,col1,col2,col3,col4
+X,nw.node,duplicated_node,Two nodes must not be located at the same point,
+X,nw.link,i_node_mismatch,i_node of the link must be located at the link start point,
+X,nw.link,j_node_mismatch,j_node of the link must be located at the link end point,
+X,nw.link,start_end_same_point,Link start and end must not be at the same point,Loop links are bad because we cannot model the traverse direction unambiguously.
+X,nw.stop,no_link_ref,Stop must have link_id reference to an existing link,
+X,nw.stop,incomplete_link_ref,"If stop has link_id reference, it must have link_dir, location_on_link and distance_from_link values too",
+X,nw.stop_on_route,first_stop_seq_not_1,stop_seq must be 1 for the first stop in order,
+X,nw.stop_on_route,stop_seq_increment_not_1,"stop_seq difference must be 1 to the previous stop in order, if not first stop",
+X,nw.stop_on_route,no_link_ref_on_stop,Stop on route must have a valid link reference (no incomplete_link_ref on stop),
+,nw.stop_on_route,missed_by_links_on_route,"Stop must be accessible by links on route, in correct order by stop_seq (only if route version has links on route)",
+,nw.manual_vianode_on_route,after_stop_seq_mismatch,"after_stop_seq, if not 0, must refer to an existing stop_seq on the route version",
+,nw.link_on_route,gap_before_link,"If not the first link, i_node of the link must be j_node of the previous link (path must not have gaps)",
+,nw.link_on_route,first_link_seq_not_1,link_seq must be 1 for the first link in order,
+,nw.link_on_route,link_seq_increment_not_1,"link_seq difference must be 1 to the previous link in order, if not first link",
+,nw.link_on_route,restricted_reverse_direction,"If link_reversed is true, the referenced link must be two-way",
+,nw.link_on_route,u_turn,"Link must not be the same as the previous link reversed (U-turns not allowed; for real dead-ends, loops must be modelled on the network)",U-turns are very likely if routing fails due to errors in the network while returning a seemingly valid result that is hard to detect visually as an error.
+,nw.link_on_section,gap_before_link,"If not the first link, i_node of the link must be j_node of the previous link (path must not have gaps)",
+,nw.link_on_section,first_link_seq_not_1,link_seq must be 1 for the first link in order,
+,nw.link_on_section,link_seq_increment_not_1,"link_seq difference must be 1 to the previous link in order, if not first link",
+,nw.link_on_section,restricted_reverse_direction,"If link_reversed is true, the referenced link must be two-way",
+,nw.link_on_section,u_turn,"Link must not be the same as the previous link reversed (U-turns not allowed; for real dead-ends, loops must be modelled on the network)",

@@ -1,0 +1,55 @@
+col0,col1,col2
+preferences,Preferences,Preferensi
+clear_recent_sizes,Clear Recent Sizes,Hapus Ukuran Terkini
+toggle_expand,Toggle expand,Alihkan perkembangan
+toggle_background,Toggle background,Alihkan latar belakang
+toggle_border,Toggle border,Alihkan perbatasan
+minimize,Minimize,Perkecil
+zoom,Zoom,Perbesar
+_boxes_cleared,Boxes cleared.,Konten terhapus.
+reset,Reset,Atur ulang
+theme,Theme,Tema
+system_default,System Default,Standar Sistem
+dark,Dark,Gelap
+light,Light,Terang
+language,Language,Bahasa
+about,About,Tentang
+check_for_update,Check for update,Cek pembaruan
+fork_me_on_github,Fork me on GitHub,Lihat di GitHub
+open_source_licenses,Open-source licenses,Lisensi sumber terbuka
+_update_available,Plano version %s is available.,Plano versi %s tersedia.
+_update_unavailable,You already have the latest version.,Tidak ada pembaruan.
+_desc,Calculate how many trim boxes fit in a media box.,Hitung berapa banyak kotak potong dalam kotak media.
+media_size,Media size,Ukuran media
+_media_size,"Source paper size, a direct parent of trim size.","Sumber ukuran kertas, induk langsung dari ukuran potong."
+trim_size,Trim size,Ukuran potong
+_trim_size,Target size of which the paper will be trimmed into.,Ukuran target kertas yang akan dipotong.
+gap,Gap,Jarak
+_gap,Gap is a distance between each papers.,Jarak antar kertas.
+allow_flip,Allow flip,Izinkan putar
+allow_flip_column,Allow flip column,Izinkan putar kolom
+allow_flip_row,Allow flip row,Izinkan putar baris
+_allow_flip,"When activated, trim boxes may be flipped in order to achieve highest number of trim boxes available.","Ketika dinyalakan, kotak potong bisa dimiringkan untuk mencapai jumlah kotak potong tertinggi."
+last_column,Last column,Kolom terakhir
+last_row,Last row,Baris terakhir
+calculate,Calculate,Kalkulasi
+more,More,Lain-lain
+info,Info,Jelaskan
+a_series,A Series,Seri A
+b_series,B Series,Seri B
+c_series,C Series,Seri C
+f_series,F Series,Seri F
+others,Others,Lain-lain
+rotate,Rotate,Putar
+close,Close,Tutup
+close_all,Close all,Tutup semua
+save,Save,Simpan
+_save,Saved as %s.,Tersimpan sebagai %s.
+no_content,No content,Tidak ada konten
+_about,Plano is an efficient paper size calculator app. See GitHub for more information.,Plano adalah aplikasi kalkulator ukuran kertas efisien. Lihat GitHub untuk informasi lebih.
+please_restart,Please restart,Mohon mulai ulang
+_please_restart,Restart app to see effect.,Mulai ulang aplikasi untuk melihat perubahan.
+btn_undo,UNDO,KEMBALIKAN
+btn_download,DOWNLOAD,UNDUH
+btn_show_directory,SHOW DIRECTORY,TUNJUKKAN FOLDER
+btn_close,CLOSE,TUTUP

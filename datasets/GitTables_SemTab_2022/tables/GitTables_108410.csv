@@ -1,0 +1,12 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24
+@Home,3000.0,,Home,,,,,"10800 Torre Ave, Cupertino, CA 95014",Cupertino,,US,96378,CA,600 W Main St,,,Norma Fisher,,,✓,,,Los_Angeles,
+@Office,6000.0,,Office,,,,,"900 N Roop St, Carson City, NV 89701",Carson City,,US,36026,NV,3504 W Cary St,,,Jorge Sullivan,,,✓,,,Las_Vegas,
+@Home.ElecMeter-Main,,,Home ElecMeter-Main,,✓,,,,,,,15854,,,,,Elizabeth Woods,,,,@Home,,Los_Angeles,
+@Office.RTU-1,,,Office RTU-1,,✓,,,,,,,92950,,,,,Susan Wagner,,,,@Office,,Las_Vegas,
+@Office.RTU-2,,,Office RTU-2,,✓,,,,,,,29397,,,,,Peter Montgomery,,,,@Office,,Las_Vegas,
+@Office.RTU-1.ZoneTempSp,,✓,Office RTU-1 ZoneTempSp,,,@Office.RTU-1,,,,,,49267,,,✓,,Theodore Mcgrath,✓,,,@Office,,Los_Angeles,
+@Office.RTU-1.DischargeTemp,,,Office RTU-1 DischargeTemp,✓,,@Office.RTU-1,,,,,,22846,,,✓,,Stephanie Collins,✓,,,@Office,,Los_Angeles,
+@Office.RTU-2.Fan,,,Office RTU-2 Fan,✓,,@Office.RTU-2,✓,,,,,44087,,,✓,,Stephanie Sutton,✓,,,@Office,,Los_Angeles,
+@Office.RTU-2.ReturnTemp,,,Office RTU-2 ReturnTemp,,,@Office.RTU-2,,,,,,56354,,,✓,,Brian Hamilton,✓,,,@Office,,Las_Vegas,
+@Office.RTU-2.ZoneTempSp,,✓,Office RTU-2 ZoneTempSp,,,@Office.RTU-2,,,,,,08652,,,✓,,Susan Levy,✓,,,@Office,,Las_Vegas,
+@Home.ElecMeter-Hvac.kW,,,Home ElecMeter-Hvac kW,,,@Office.ElecMeter-Hvac,,,,,,13687,,,✓,,Sean Green,✓,✓,,@Home,,Las_Vegas,

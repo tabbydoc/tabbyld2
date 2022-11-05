@@ -1,0 +1,49 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22
+1,être,de,-,actualité,-,+,-,-,+,+,Loc,+,-,-,-,+,+,-,+,-,-,-
+2,être,de,-,aloi(bon+mauvais+excellent+Adj),-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,+,-,-,-
+3,être,de,-,augure(bonne+mauvaise+excellente+Adj),-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,-
+4,être,de,-,bon ton,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,-
+5,être,de,-,bonne guerre,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,-
+6,être,à,-,charge,-,-,-,-,+,+,à,+,-,+,-,+,+,-,+,+,+,-
+7,être,de,-,circonstance,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,+,-,-,-
+8,être,dans,-,conteste(E+possible),-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+9,être,dans,-,contredit(E+possible),-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+10,être,de,-,coutume,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,-
+11,être,de,le,dernier cri,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,-
+12,être,-,-,dommage,-,-,-,-,+,+,pour,+,+,-,-,+,+,+,-,-,-,-
+13,être,hors de,-,doute,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+14,être,sans,-,espoir(E+aucun+le moindre),-,-,-,-,+,+,pour,+,-,-,-,+,+,-,-,-,-,-
+15,être,de,toute,évidence,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+16,être,-,-,fair play,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,+
+17,être,de,-,fait,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+18,être,de,-,garde(avant+arrière),-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,+
+19,être,-,-,genre(bon+mauvais),-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,-
+20,être,-,le,goût du jour,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,+,-,-,+
+21,être,de,-,goût(bon+mauvais+excellent+Adj),-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,-
+22,être,-,l,honneur,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,+,-,-,-
+23,être,comme,-,il faut,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,+,-,-,+
+24,être,de,la,importance(première+plus haute),-,-,-,-,+,+,pour,+,+,-,-,+,+,+,-,-,-,-
+25,être,de,-,intérêt(général+public),-,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-
+26,être,de,-,mise,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,+,-,-,-
+27,être,-,la,mode(E+dernière+actuelle),-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,+,-,-,+
+28,être,-,-,monnaie courante,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,-
+29,être,contre,-,nature,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,-
+30,être,dans,la,note,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,+,-,-,+
+31,être,de,-,notoriété publique,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+32,être,dans,l,ombre d'un doute,-,-,-,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-
+33,être,-,-,peine perdue,-,-,-,-,+,+,pour,+,-,-,-,+,+,-,-,-,-,-
+34,être,de,la,première urgence,-,-,-,-,+,+,pour,+,+,-,-,+,+,+,-,-,-,-
+35,être,hors de,-,propos,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,-
+36,être,hors de,-,question,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,-
+37,être,de,-,règle(E+courante+habituelle+Adj),-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,+,-,-,-
+38,être,de,tout,repos Neg,-,-,-,-,+,+,pour,+,-,-,-,+,+,-,-,-,-,-
+39,être,de,-,saison,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,+,-,-,-
+40,être,-,-,sans gêne,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,+
+41,être,-,-,signe(bon+mauvais),-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,-
+42,être,dans,le,ton,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,+,-,-,+
+43,être,de,-,tradition(E+courante+Adj),-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,-
+44,être,de,-,usage(E+courant+Adj),-,+,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,-
+45,être,dans,le,vent,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,+,-,-,+
+46,être,-,-,vieux jeu,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,-,-,-,+
+47,être,en,-,vogue,+,-,-,-,+,+,Loc,+,-,-,-,+,+,-,+,-,-,+
+48,être,en,-,vue,-,-,-,-,+,+,Loc,+,-,-,-,+,+,-,+,-,-,-

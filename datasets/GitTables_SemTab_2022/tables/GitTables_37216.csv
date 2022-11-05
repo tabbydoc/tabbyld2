@@ -1,0 +1,16 @@
+col0,col1,col2,col3
+2021-03-25 15:06,site_admin,Edited Role ,role = 'Updated TEST Role'
+2021-03-25 15:06,site_admin,Renamed Role ,"role = 'Updated TEST Role', old role = 'NEW ROLE'"
+2021-03-25 15:06,site_admin,Created Role ,role = 'Deleted role'
+2021-03-25 15:06,site_admin,Created Role ,role = 'NEW ROLE'
+2021-03-25 15:06,site_admin,Created User test_user,user = 'test_user'
+2021-03-25 15:06,site_admin,Data Export ,"report_id: ALL, export_format: CSV, rawOrLabel: label, fields: ""study_id, date_enrolled, patient_document, signature, first_name, last_name, address, telephone_1, email, dob, age, ethnicity, race, sex, given_birth, num_children, gym, aerobics, eat, drink, specify_mood, meds, height, weight, bmi, comments, demographics_complete, date_visit_b, date_blood_b, alb_b, prealb_b, creat_b, npcr_b, chol_b, transferrin_b, kt_v_b, drywt_b, plasma1_b, plasma2_b, plasma3_b, serum1_b, serum2_b, serum3_b, sga_b, date_supplement_dispensed, baseline_data_complete, date_visit_1, alb_1, prealb_1, creat_1, npcr_1, chol_1, transferrin_1, kt_v_1, drywt_1, no_show_1, compliance_1, hospit_1, cause_hosp_1, admission_date_1, discharge_date_1, discharge_summary_1, death_1, date_death_1, cause_death_1, month_1_data_complete, date_visit_2, alb_2, prealb_2, creat_2, npcr_2, chol_2, transferrin_2, kt_v_2, drywt_2, no_show_2, compliance_2, hospit_2, cause_hosp_2, admission_date_2, discharge_date_2, discharge_summary_2, death_2, date_death_2, cause_death_2, month_2_data_complete, date_visit_3, date_blood_3, alb_3, prealb_3, creat_3, npcr_3, chol_3, transferrin_3, kt_v_3, drywt_3, plasma1_3, plasma2_3, plasma3_3, serum1_3, serum2_3, serum3_3, sga_3, no_show_3, compliance_3, hospit_3, cause_hosp_3, admission_date_3, discharge_date_3, discharge_summary_3, death_3, date_death_3, cause_death_3, month_3_data_complete, complete_study, withdraw_date, withdraw_reason, complete_study_date, study_comments, completion_data_complete"""
+2021-03-25 15:06,site_admin,Deleted Record 1,study_id = '1'
+2021-03-25 15:06,site_admin,Updated Record 1,"first_name = 'NEWname', last_name = 'NEWlast'"
+2021-03-25 15:06,site_admin,Lock/Unlock Record 1,Action: Unlock record Record: 1 Form: Demographics
+2021-03-25 15:06,site_admin,Created Record 1,"date_enrolled = '2021-03-25', signature = '1', first_name = 'first ', last_name = 'last ', address = 'city', telephone_1 = '(415) 555-1234', email = 'www@www.www', dob = '2021-03-25', age = '0', ethnicity = '2', gym(0) = checked, aerobics(0) = checked, eat(0) = checked, drink(0) = checked, specify_mood = '50', meds(2) = checked, height = '182', weight = '182', bmi = '54.9', comments = 'comment', demographics_complete = '2', study_id = '1'"
+2021-03-25 15:06,site_admin,Lock/Unlock Record 1,Action: Lock record Record: 1 Form: Demographics
+2021-03-25 15:06,site_admin,Manage/Design ,Approve production project modifications (automatic)
+2021-03-25 15:06,site_admin,Manage/Design ,Reorder project fields
+2021-03-25 15:06,site_admin,Manage/Design ,Create project field
+2021-03-25 15:06,site_admin,Manage/Design ,Enter draft mode

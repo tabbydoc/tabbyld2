@@ -1,0 +1,84 @@
+col0,col1,col2,col3
+base.state_us_2,Alaska,AK,base.us
+base.state_us_1,Alabama,AL,base.us
+base.state_us_4,Arkansas,AR,base.us
+base.state_us_3,Arizona,AZ,base.us
+base.state_us_5,California,CA,base.us
+base.state_us_6,Colorado,CO,base.us
+base.state_us_7,Connecticut,CT,base.us
+base.state_us_9,District of Columbia,DC,base.us
+base.state_us_8,Delaware,DE,base.us
+base.state_us_10,Florida,FL,base.us
+base.state_us_11,Georgia,GA,base.us
+base.state_us_12,Hawaii,HI,base.us
+base.state_us_16,Iowa,IA,base.us
+base.state_us_13,Idaho,ID,base.us
+base.state_us_14,Illinois,IL,base.us
+base.state_us_15,Indiana,IN,base.us
+base.state_us_17,Kansas,KS,base.us
+base.state_us_18,Kentucky,KY,base.us
+base.state_us_19,Louisiana,LA,base.us
+base.state_us_34,Massachusetts,MA,base.us
+base.state_us_33,Maryland,MD,base.us
+base.state_us_20,Maine,ME,base.us
+base.state_us_35,Michigan,MI,base.us
+base.state_us_36,Minnesota,MN,base.us
+base.state_us_38,Missouri,MO,base.us
+base.state_us_37,Mississippi,MS,base.us
+base.state_us_21,Montana,MT,base.us
+base.state_us_28,North Carolina,NC,base.us
+base.state_us_29,North Dakota,ND,base.us
+base.state_us_22,Nebraska,NE,base.us
+base.state_us_24,New Hampshire,NH,base.us
+base.state_us_25,New Jersey,NJ,base.us
+base.state_us_26,New Mexico,NM,base.us
+base.state_us_23,Nevada,NV,base.us
+base.state_us_27,New York,NY,base.us
+base.state_us_30,Ohio,OH,base.us
+base.state_us_31,Oklahoma,OK,base.us
+base.state_us_32,Oregon,OR,base.us
+base.state_us_39,Pennsylvania,PA,base.us
+base.state_us_40,Rhode Island,RI,base.us
+base.state_us_41,South Carolina,SC,base.us
+base.state_us_42,South Dakota,SD,base.us
+base.state_us_43,Tennessee,TN,base.us
+base.state_us_44,Texas,TX,base.us
+base.state_us_45,Utah,UT,base.us
+base.state_us_47,Virginia,VA,base.us
+base.state_us_46,Vermont,VT,base.us
+base.state_us_48,Washington,WA,base.us
+base.state_us_50,Wisconsin,WI,base.us
+base.state_us_49,West Virginia,WV,base.us
+base.state_us_51,Wyoming,WY,base.us
+base.state_mx_52,Aguascalientes,AGS,base.mx
+base.state_mx_53,Baja California,BCN,base.mx
+base.state_mx_54,Baja California Sur,BCS,base.mx
+base.state_mx_55,Campeche,CAM,base.mx
+base.state_mx_56,Chiapas,CHP,base.mx
+base.state_mx_57,Chihuahua,CHI,base.mx
+base.state_mx_58,Coahuila de Zaragoza,COA,base.mx
+base.state_mx_59,Colima,COL,base.mx
+base.state_mx_60,Distrito Federal,DF,base.mx
+base.state_mx_61,Durango,DUR,base.mx
+base.state_mx_62,Guanajuato,GTO,base.mx
+base.state_mx_63,Guerrero,GRO,base.mx
+base.state_mx_64,Hidalgo,HGO,base.mx
+base.state_mx_65,Jalisco,JAL,base.mx
+base.state_mx_66,Estado de México,MEX,base.mx
+base.state_mx_67,Michoacán de Ocampo,MIC,base.mx
+base.state_mx_68,Morelos,MOR,base.mx
+base.state_mx_69,Nayarit,NAY,base.mx
+base.state_mx_70,Nuevo León,NLE,base.mx
+base.state_mx_71,Oaxaca,OAX,base.mx
+base.state_mx_72,Puebla,PUE,base.mx
+base.state_mx_73,Querétaro,QRO,base.mx
+base.state_mx_74,Quintana Roo,ROO,base.mx
+base.state_mx_75,San Luis Potosí,SLP,base.mx
+base.state_mx_76,Sinaloa,SIN,base.mx
+base.state_mx_77,Sonora,SON,base.mx
+base.state_mx_78,Tabasco,TAB,base.mx
+base.state_mx_79,Tamaulipas,TAM,base.mx
+base.state_mx_80,Tlaxcala,TLX,base.mx
+base.state_mx_81,Veracruz de Ignacio de la Llave,VER,base.mx
+base.state_mx_82,Yucatán,YUC,base.mx
+base.state_mx_83,Zacatecas,ZAC,base.mx

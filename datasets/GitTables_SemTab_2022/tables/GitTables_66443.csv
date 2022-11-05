@@ -1,0 +1,54 @@
+col0,col1,col2,col3,col4,col5
+CPKS1,CpkA initiation,ACPcpk[c] + 3 malcoa[c] + 3 h[c] <=> 3 coa[c] + hex24dACPcpk[c] + 3 co2[c] + 2 h2o[c],SCO6275,True,
+CPKS2,CpkB polyketide elongation 1,hex24dACPcpk[c] + 2 malcoa[c] + 2 h[c] -> 2 coa[c] + h246dectACPcpk[c] + 2 co2[c] + h2o[c],SCO6274,True,
+CPKS3,CpkC polyketide elongation 2 and thioester reductase,h246dectACPcpk[c] + malcoa[c] + nadh[c] -> h2o[c] + hdd2610t[c] + 2 h[c] + co2[c] + nad[c] +coa[c]+ ACPcpk[c],SCO6273,True,
+CPKS4a,CpkG transaminase (with L-Ala),hdd2610t[c] + ala-L[c] <=> 1add26810t5o[c] + pyr[c],SCO6279,True,
+CPKS4b,CpkG transaminase (with L-Glu),hdd2610t[c] + glu-L[c] <=> 1add26810t5o[c] + akg[c],SCO6279,True,
+CPKS5,Flavin dependent epoxidases/dehydrogenases,add26810t5o[c] + fadh2[c] + 2 o2[c] -> cpkepox[c] + fad[c] 3 h2o[c],(SCO6276 or SCO6281 or SCO6272),True,
+CPKSt,Putative transmembrane efflux protein CpkF,cpkepox[c] -> cpkepox[e],SCO6278,True,
+CPKS6,Extracellular spontaneous reaction,cpkepox[e] + accys[e] -> ycpk[e] + h2o[e] + 2 h[e],s0001,True,
+ACCS,N-acetylcysteine synthase (putative acyl-transferase),accoa[c] + cys-L[c]  -> accys[c] + coa[c] + h[c] ,,True,
+ACCt,N-acetylcysteine transport,accys[c] <=> accys[e],,True,
+ACPScpk,acyl-carrier protein synthase (cpk),coa[c] + apoACPcpk[c] -> h[c] +  ACPcpk[c] + pap[c],SCO4744,True,
+ACPSpdscpk,acyl-carrier-protein phosphodiesterase (cpk),ACPcpk[c] + h2o[c] -> apoACPcpk[c] + pan4p[c] + h[c],SCO0046,True,
+XYLAN_DEGe,Xylan degradation (extracellular),xylan[e] + 527 h2o[e] -> 528 xyl_D[e],(SCO5931 or SCO2292 or SCO1883 or SCO0674 or SCO0105),True,
+EX_xylan_e,Xylan exchange,xylan[e]  <=>,,True,
+CELLUL_DEGe,Cellulose degradation (extracellular),cellul[e] + 499 h2o[e] -> 250 celb[e],SCO6548 ,True,
+EX_cellul_e,Cellulose exchange,cellul[e]  <=>,,True,
+CHTNDG,Chitin degradation,chitin[e] + h2o[e] -> acgam[e] + h[e],(SCO7263 or SCO0482 or SCO1429 or SCO1444 or SCO5376 or SCO5954 or SCO6345 or SCO5003 or SCO5673 or SCO2833  or SCO6012 or SCO2503 or SCO7225),True,
+CHDHR,Chorismate dehydratase,chor[c] -> 3cvobz[c] + h2o[c],SCO4506,False,In Sco4
+ADXFUTSNT,Aminodeoxyfutalosine synthase,3cvobz[c] + amet[c] + h2o[c] -> 6adxfut[c] + met-L[c] + hco3[c],SCO4494,False,In Sco4
+ADXFUTDA,Aminodeoxyfutalosine deaminase,6adxfut[c] + h2o[c] -> fut[c] + nh4[c],SCO5662,False,In Sco4
+ADXFUTNS,Aminodeoxyfutalosine nucleosidase,6adxfut[c] + h2o[c] -> dhxfut[c] + ade[c] + h[c],,True,
+FUTH,Futalosine hydrolase,fut[c] + h2o[c] -> dhxfut[c] + hxan[c],SCO4327,False,in iMK1208
+DXFUTOR,Dehypoxanthine futalosine:S-adenosyl-L-methionine oxidoreductase,dhxfut[c] + amet[c] -> cdhxfut[c] + met-L[c] + dad-5[c] + h[c],SCO4550,True,
+DH6NPHS,"1,4-dihydroxy-6-naphthoate synthase",cdhxfut[c] -> dh6na[c] + glyald[c],SCO4326,False,in iMK1208
+DHNAI,"1,4-dihydroxynaphthoate isomerization (hypothetical reaction)",dh6na[c]  -> dhna[c],,False,in iMK1208
+DHNANT4,"1,4-dihydroxy-2-naphthoate nonaprenyltransferase",dhna[c] + h[c] + nndp[c]  -> 2dmmql9[c] + co2[c] + ppi[c] ,(SCO4491 and/or SCO4556),False,in iMK1208
+SCB11,Acyl-transferase (using beta keto-acyl ACP precursor),dhap[c] + 3oiC9ACP[c] -> apoACP[c] + 2o3pp8m3onn[c],SCO6266,True,
+SCB12,Aldol condensation SCB1 precursor (infered as spontaneous),2o3pp8m3onn[c] -> h2o[c] +  mh5odhf3mdp[c],s0001,True,
+SCB13,Butenolide phosphatase reductase (SCB1 precursor) ,mh5odhf3mdp[c] + nadph[c] + h[c] -> mh5othfmdp[c] + nadp[c],SCO6267,True,
+SCB14,SCB1 precursor phosphatase, mh5othfmdp[c] + h2o[c] -> afactor[c] + pi[c],,True,
+SCB15,Beta-keto-acid-CoA/ACP reductase,afactor[c] + nadph{c] + h[c] -> scb1[c] + nadp[c],SCO6264,True,
+SCB1t,SCB1 transport (diffusible molecule),scb1[c] <=> scb1[e],s0001,True,
+SCB21a,Acyl-transferase (using beta keto-acyl CoA precursor),dhap[c] + 3odcoa[c] -> coa[c] + 2o3pop3odn[c],SCO6266,True,
+SCB21b,Acyl-transferase (using beta keto-acyl ACP precursor),dhap[c] + 3oddecACP[c] -> apoACP[c] + 2o3pop3odn[c],SCO6266,True,
+SCB22,Aldol condensation SCB2 precursor (infered as spontaneous),2o3pop3odn[c]-> h2o[c] +  4o5odhmdhp[c],s0001,True,
+SCB23,Butenolide phosphatase reductase (SCB2 precursor) ,4o5odhmdhp[c] + nadph[c] + h[c] -> 4o5othf3mdp[c] + nadp[c],SCO6267,True,
+SCB24,SCB2 precursor phosphatase,4o5othf3mdp[c] + h2o[c] -> 4hm3odhf2o[c] + pi[c],,True,
+SCB25,Beta-keto-acid-CoA/ACP reductase,4hm3odhf2o[c] + nadph{c] + h[c] -> scb2[c] + nadp[c],SCO6264,True,
+SCB2t,SCB2 transport (diffusible molecule),scb2[c] <=> scb2[e],s0001,True,
+SCB31,Acyl-transferase (using beta keto-acyl ACP precursor),dhap[c] + 3oiC10ACP[c]  -> apoACP[c] + 2o3pp8m3onn[c],SCO6266,True,
+SCB32,Aldol condensation SCB3 precursor (infered as spontaneous),2o3pp8m3onn[c] -> h2o[c] +  46mo5o25dhf3mdhp[c],s0001,True,
+SCB33,Butenolide phosphatase reductase (SCB3 precursor) ,46mo5o25dhf3mdhp[c] + nadph[c] + h[c] -> 465mo5othf3mdhp[c] + nadp[c],SCO6267,True,
+SCB34,SCB3 precursor phosphatase,465mo5othf3mdhp[c] + h2o[c] -> 4hm36modhf2o[c] + pi[c],,True,
+SCB35,Beta-keto-acid-CoA/ACP reductase,4hm36modhf2o[c]+ nadph{c] + h[c] -> scb3[c] + nadp[c],SCO6264,True,
+SCB3t,SCB3 transport (diffusible molecule),scb3[c] <=> scb3[e],s0001,True,
+CYOO,cytochrome o oxidase (menaquinol-9: 2 protons),4 h[c] + mql9[c] + 0.5 o2[c] -> h2o[c] +mqn9[c] + 2h[e],(SCO7234 and SCO7235 and SCO7236 and SCO1934 and SCO7120),False,Check genes
+NADH8,NADH dehydrogenase (demethylmenaquinone-9 & 3 protons),2dmmq9[c] + 4 h[c] + nadh[c] -> 2dmmql9[c] + 3 h[e] + nad[c],((SCO4562 or SCO4599) and (SCO4563 or SCO4600) and SCO4564 and (SCO3392 or SCO4565) and SCO4566 and (SCO4567 or SCO6560) and SCO4568 and (SCO4569 or SCO4602) and (SCO4570 or SCO4603) and (SCO4571 or SCO4604) and (SCO4572 or SCO4605) and (SCO4573 or SCO4606 or SCO6954) and (SCO4574 or SCO4607) and (SCO4575 or SCO4608 or SCO6956)),True,
+NADH9,NADH dehydrogenase (demethylmenaquinone-9 & 0 protons),2dmmq9[c] + h[c] + nadh[c] -> 2dmmql9[c] + nad[c],(SCO3092 or SCO7101 or SCO7319 or SCO6496 or SCO0158 or SCO4119),True,
+NADPHQR4,NADPH Quinone Reductase (2-Demethylmenaquinone-8),2dmmq9[c] + h[c] + nadph[c] -> 2dmmql9[c] + nadp[c],SCO3823,True,
+AMMQT9r,S-adenosylmethione:2-demthylmenaquinone methyltransferase (menaquinone 9),2dmmq9[c] + amet[c] <=> ahcys[c] + h[c] + mqn9[c],(SCO4556 or SCO5940),False,check gene and bounds
+FRD3,fumarate reductase (2-demthylmenaquinone-9),2dmmql9[c] + fum[c] -> 2dmmq9c] + succ[c],(SCO0923 and SCO0922 and SCO0924),True,
+G3PD7,glycerol-3-phosphate dehydrogenase (2-demthylmenaquinone-9),2dmmq8[c] + glyc3p[c] -> 2dmmql8[c] + dhap[c],(SCO0670 or SCO1661 or SCO4774 or (SCO7005 and SCO7006)),True,
+GLYCTO4,Glycolate oxidase,2dmmq8[c] + glyclt[c] -> 2dmmql8[c] + glx[c],SCO2925,True,

@@ -1,0 +1,50 @@
+col0,col1,col2,col3,col4,col5,col6
+DVU0847,17,1.3191979896243211e-06,HR2,D,10,"adenylyl-sulphate reductase, alpha subunit (TIGR)"
+DVU0151,17,1.3191979896243211e-06,HR2,D,10,HAMP domain/sigma-54 interaction domain protein (TIGR)
+DVU0597,17,1.3191979896243211e-06,HR2,D,10,regulatory protein LytS (TIGR)
+DVU3227,17,1.3191979896243211e-06,HR2,D,10,"flagellar basal body-associated protein, putative (TIGR)"
+DVU1295,17,1.3191979896243211e-06,HR2,D,10,sulfate adenylyltransferase (TIGR)
+DVH__.495942,17,1.3191979896243211e-06,HR2,D,10,
+DVU2395,17,1.3191979896243211e-06,HR2,D,10,sensor histidine kinase (TIGR)
+DVU1083,17,1.3191979896243211e-06,HR2,D,10,phosphate regulon transcriptional regulator PhoB (TIGR)
+DVU0001,17,1.3191979896243211e-06,HR2,D,10,chromosomal replication initiator protein DnaA (TIGR)
+DVH__.1259554,17,1.3191979896243211e-06,HR2,D,10,
+DVU1283,18,4.3017637230136074e-09,HR2,D,10,UTP-glucose-1-phosphate uridylyltransferase (TIGR)
+DVU0916,18,4.3017637230136074e-09,HR2,D,10,AT-rich DNA-binding protein (TIGR)
+DVU3233,18,4.3017637230136074e-09,HR2,D,10,flagellar biosynthetic protein FlhB (TIGR)
+DVU1017,18,4.3017637230136074e-09,HR2,D,10,"ABC transporter, ATP-binding protein/permease protein (TIGR)"
+DVU2253,18,4.3017637230136074e-09,HR2,D,10,hypothetical protein (TIGR)
+DVU0436,18,4.3017637230136074e-09,HR2,D,10,
+DVU1214,18,4.3017637230136074e-09,HR2,D,10,
+DVU2394,18,4.3017637230136074e-09,HR2,D,10,sigma-54 dependent transcriptional regulator/response regulator (TIGR)
+DVU2305,18,4.3017637230136074e-09,HR2,D,10,conserved hypothetical protein (TIGR)
+DVU3376,18,4.3017637230136074e-09,HR2,D,10,sulfatase family protein (TIGR)
+MMP0166,1,0.0004152843985351,HR2,M,5,MatE family member (drug/sodium antiporters) (NCBI)
+MMP0643,1,0.0004152843985351,HR2,M,5,conserved hypothetical protein (NCBI)
+MMP1362,1,0.0004152843985351,HR2,M,5,"Glycoside hydrolase, family 1:DNA-directed RNA polymerase, beta subunit:ATP/GTP-binding site motif A (P-loop) (NCBI)"
+MMP__.1439720,1,0.0004152843985351,HR2,M,5,
+MMP0146,1,0.0004152843985351,HR2,M,5,conserved hypothetical protein (NCBI)
+DVU1483,1,1.5013496001969882e-09,UE3,D,7,"tail fiber assembly protein, putative (TIGR)"
+DVU1295,1,1.5013496001969882e-09,UE3,D,7,sulfate adenylyltransferase (TIGR)
+DVH__.2053158,1,1.5013496001969882e-09,UE3,D,7,
+DVU0168,1,1.5013496001969882e-09,UE3,D,7,"oligopeptide/dipeptide ABC transporter, permease protein (TIGR)"
+DVU1092,1,1.5013496001969882e-09,UE3,D,7,sodium-dependent symporter family protein (TIGR)
+DVU2776,1,1.5013496001969882e-09,UE3,D,7,"dissimilatory sulfite reductase, gamma subunit (TIGR)"
+DVU2394,1,1.5013496001969882e-09,UE3,D,7,sigma-54 dependent transcriptional regulator/response regulator (TIGR)
+DVU1082,2,2.1981749365185266e-07,UE3,D,6,3- 5 exonuclease domain protein (TIGR)
+DVH__.495942,2,2.1981749365185266e-07,UE3,D,6,
+DVU1632,2,2.1981749365185266e-07,UE3,D,6,"PTS system, IIA component (TIGR)"
+DVU1214,2,2.1981749365185266e-07,UE3,D,6,
+DVU0030,2,2.1981749365185266e-07,UE3,D,6,"transcriptional regulator, GntR family (TIGR)"
+DVU2210,2,2.1981749365185266e-07,UE3,D,6,TPR domain protein (TIGR)
+DVU0846,5,6.583270762305915e-06,UE3,D,5,"adenylylsulphate reductase, beta subunit (TIGR)"
+DVU0597,5,6.583270762305915e-06,UE3,D,5,regulatory protein LytS (TIGR)
+DVU1260,5,6.583270762305915e-06,UE3,D,5,"outer membrane protein P1, putative (TIGR)"
+DVU0184,5,6.583270762305915e-06,UE3,D,5,hypothetical protein (TIGR)
+DVU2451,5,6.583270762305915e-06,UE3,D,5,L-lactate permease family protein (TIGR)
+DVH__.184033,19,2.337607082780746e-05,HA2,D,6,
+DVU0847,19,2.337607082780746e-05,HA2,D,6,"adenylyl-sulphate reductase, alpha subunit (TIGR)"
+DVU0597,19,2.337607082780746e-05,HA2,D,6,regulatory protein LytS (TIGR)
+DVU1295,19,2.337607082780746e-05,HA2,D,6,sulfate adenylyltransferase (TIGR)
+DVU1092,19,2.337607082780746e-05,HA2,D,6,sodium-dependent symporter family protein (TIGR)
+DVU0001,19,2.337607082780746e-05,HA2,D,6,chromosomal replication initiator protein DnaA (TIGR)

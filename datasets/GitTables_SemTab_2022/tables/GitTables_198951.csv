@@ -1,0 +1,22 @@
+col0,col1,col2,col3,col4,col5,col6
+504,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,//TODO: check this....,no,yes,yes
+591,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,// todo : move this to SF per HHH-3517; also see HHH-1907 and ComponentMetamodel,no,yes,yes
+756,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,// TODO: skip formulas?,no,yes,yes
+766,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,"//TODO: eventually, rowIdName[j]",no,yes,yes
+798,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,//	private ComponentTuplizerFactory componentTuplizerFactory; todo : HHH-3517 and HHH-1907,no,yes,yes
+850,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,// TODO : shouldnt inserts be Expectations.NONE?,no,yes,yes
+899,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,"// if a composite key, use ""( (foo = ? and bar = ?) or (foo = ? and bar = ?) )"" for batching //TODO: unnecessary for databases with ANSI-style joins",no,yes,yes
+1080,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,//TODO!,no,yes,yes
+1344,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,//TODO!,no,yes,yes
+1392,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,//TODO!!!,no,yes,yes
+1418,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,//TODO,no,yes,yes
+1438,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,//TODO!!!!!!!,no,yes,yes
+1479,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,//TODO!!!!!!!,no,yes,yes
+2121,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,//TODO:,no,yes,yes
+2379,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,// TODO:,no,yes,yes
+2607,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,// todo : for 4.0 //	private static final Logger log = LoggerFactory.getLogger( SQLStatementLogger.class ); // this is the legacy logging 'category'...,no,yes,yes
+2610,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,//	private ComponentTuplizerFactory componentTuplizerFactory; todo : HHH-3517 and HHH-1907 //	private BytecodeProvider bytecodeProvider;,no,yes,yes
+2878,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,//TODO: we could just return all false...,no,yes,yes
+2884,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,//TODO: we could just return all false...,no,yes,yes
+2949,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,"//if there is a user-specified loader, return that //TODO: filters!?",no,yes,yes
+2959,hibernate-distribution-3.3.2.GA,WITHOUT_CLASSIFICATION,//TODO: something with formulas...,no,yes,yes

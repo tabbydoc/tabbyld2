@@ -1,0 +1,23 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13
+0,Mozzarella,3.0,Dairy,CASE 30lb,5lb BAG,6.0,OZ-wt,480.0,1.0,72.45,1.0,6/25/2017 12:00:00 AM,0.0
+1,Cheddar,8.0,Dairy,CASE 20lb,5lb BAG,4.0,OZ-wt,320.0,1.0,48.45,1.0,6/25/2017 12:00:00 AM,0.0
+2,Pepper Jack,4.0,Dairy,CASE 20lb,5lb BAG,4.0,OZ-wt,320.0,1.0,45.55,1.0,6/25/2017 12:00:00 AM,0.0
+4,Butter,26.0,Dairy,CASE 30lb,1lb,30.0,OZ-wt,480.0,1.0,81.25,1.0,6/25/2017 12:00:00 AM,0.0
+5,Sour Cream,2.0,Dairy,2 x 5lb,5lb BUCKET,2.0,OZ-wt,160.0,95.0,12.5,1.0,6/25/2017 12:00:00 AM,0.0
+8,Eggs,5.0,Dairy,15 DOZEN,TRAY,6.0,EA,180.0,95.0,16.98,1.0,6/25/2017 12:00:00 AM,0.0
+13,Pizza Sauce,8.0,Grocery,6,,,,,,,,,
+19,Mayonnaise,1.0,Grocery,4 GAL,JUG,4.0,EA,4.0,10000.0,23.79,1.0,6/25/2017 12:00:00 AM,0.0
+25,Tomato Juice,30.0,Grocery,12x48oz CANS,CAN,12.0,EA,12.0,100.0,15.79,1.0,6/25/2017 12:00:00 AM,0.0
+36,Olive Oil,3.25,Grocery,6 GAL,JUG,6.0,OZ-fl,768.0,99.0,50.8,1.0,6/25/2017 12:00:00 AM,0.0
+54,Yellow Onions,0.0,Produce,50lb,BAG,1.0,OZ-wt,800.0,85.0,14.0,2.0,6/25/2017 12:00:00 AM,0.0
+56,Potatoes,0.25,Produce,50lb,1/2 CASE,1.0,OZ-wt,800.0,850000.0,11.59,1.0,6/25/2017 12:00:00 AM,0.0
+57,Spinach,1.0,Produce,4x2.5lb,BAG,4.0,OZ-wt,160.0,99.0,15.75,1.0,6/25/2017 12:00:00 AM,0.0
+58,Mixed Greens,1.0,Produce,3lb,BAG,1.0,OZ-wt,48.0,9800.0,6.99,1.0,6/25/2017 12:00:00 AM,0.0
+61,Tomatoes,0.5,Produce,25lb,CASE,1.0,OZ-wt,400.0,97.0,12.75,1.0,6/25/2017 12:00:00 AM,0.0
+66,Pineapple,11.0,Produce,6 COUNT,EACH,6.0,OZ-wt,44.0,100.0,16.99,1.0,6/25/2017 12:00:00 AM,0.0
+71,Garlic Peeled,1.0,Produce,5lbs,JAR,1.0,OZ-wt,114.29,98.0,18.0,1.0,6/25/2017 12:00:00 AM,0.0
+72,Chicken Breast,0.0,Poultry,40lb CASE,CASE,1.0,OZ-wt,640.0,85.0,76.55,1.0,6/25/2017 12:00:00 AM,0.0
+74,Italian Sausage,7.0,Meats,20lb CASE,BAG,4.0,OZ-wt,160.0,91.0,45.5,2.0,6/25/2017 12:00:00 AM,0.0
+75,Bacon Bits,2.0,Meats,10lb CASE,BAG,2.0,OZ-wt,160.0,100.0,51.32,1.0,6/25/2017 12:00:00 AM,0.0
+97,Dried Black Beans,9.0,Grocery,50lbs,Quart,27.414,3.5,1.0,100.0,41.35,1.0,6/25/2017 12:00:00 AM,0.0
+107,Dried Pinto Beans,10.0,Grocery,25lb,Quart,14.47,8,8.0,10000.0,14.3,1.0,6/25/2017 12:00:00 AM,0.0

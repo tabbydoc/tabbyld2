@@ -1,0 +1,36 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13
+59,parse,"To parse a fraction from a string,",12337.0,parse,org.apache.commons.math3.fraction.FractionFormat.parse,409.0,59.0,12337.0,1.0,,javageneric,375.0,
+77,reSeed(),"call to a data generation method, or to a  reSeed() method",20361.0,reSeed,org.apache.commons.math3.random.RandomDataImpl.reSeed,321.0,77.0,20361.0,0.0,,javamethod,298.0,298.0
+166,fit,"For all provided curve fitters, the operating principle is the same.",12107.0,fit,org.apache.commons.math3.fitting.CurveFitter.fit,417.0,166.0,12107.0,0.0,,javageneric,383.0,383.0
+192,computeDistribution(),computeDistribution() opens and closes the input file,19943.0,computeDistribution,org.apache.commons.math3.random.ValueServer.computeDistribution,359.0,192.0,19943.0,1.0,,javamethod,331.0,
+202,nextDouble(),"methods based on the primitive,  nextDouble().",19749.0,nextDouble,org.apache.commons.math3.random.AbstractRandomGenerator.nextDouble,361.0,202.0,19749.0,1.0,,javamethod,332.0,
+363,cumulativeProbability,using the cumulativeProbability methods.,11315.0,cumulativeProbability,org.apache.commons.math3.distribution.AbstractIntegerDistribution.cumulativeProbability,427.0,363.0,11315.0,2.0,,javageneric,388.0,
+365,cumulativeProbability,cumulativeProbability computes P(X <= x),11315.0,cumulativeProbability,org.apache.commons.math3.distribution.AbstractIntegerDistribution.cumulativeProbability,430.0,365.0,11315.0,2.0,,javageneric,389.0,
+368,addElementRolling(double),addElementRolling(double) to basic list accessors.,22858.0,addElementRolling,org.apache.commons.math3.util.DoubleArray.addElementRolling,296.0,368.0,22858.0,0.0,,javamethod,284.0,284.0
+369,inverseCumulativeProbability,inverseCumulativeProbability methods.,11318.0,inverseCumulativeProbability,org.apache.commons.math3.distribution.AbstractIntegerDistribution.inverseCumulativeProbability,432.0,369.0,11318.0,1.0,,javageneric,390.0,
+370,addElementRolling,The addElementRolling method adds an element,22858.0,addElementRolling,org.apache.commons.math3.util.DoubleArray.addElementRolling,433.0,370.0,22858.0,0.0,,javageneric,391.0,391.0
+371,inverseCumulativeProbability,"and a probability, p, inverseCumulativeProbability",11318.0,inverseCumulativeProbability,org.apache.commons.math3.distribution.AbstractIntegerDistribution.inverseCumulativeProbability,436.0,371.0,11318.0,1.0,,javageneric,392.0,
+377,addElementRolling,"When addElementRolling is invoked, the underlying",23039.0,addElementRolling,org.apache.commons.math3.util.ResizableDoubleArray.addElementRolling,438.0,377.0,23039.0,1.0,,javageneric,393.0,
+476,evaluate(),evaluate() methods that take double[] arrays as arguments,20770.0,evaluate,org.apache.commons.math3.stat.descriptive.UnivariateStatistic.evaluate,300.0,476.0,20770.0,0.0,,javamethod,286.0,286.0
+482,increment(),"StorelessUnivariateStatistic, which adds increment(),",20824.0,increment,org.apache.commons.math3.stat.descriptive.StorelessUnivariateStatistic.increment,308.0,482.0,20824.0,0.0,,javamethod,288.0,288.0
+487,getResult(),getResult() and associated methods to support,20821.0,getResult,org.apache.commons.math3.stat.descriptive.StorelessUnivariateStatistic.getResult,311.0,487.0,20821.0,0.0,,javamethod,290.0,290.0
+490,increment(),state information as values are added using the increment(),20824.0,increment,org.apache.commons.math3.stat.descriptive.StorelessUnivariateStatistic.increment,314.0,490.0,20824.0,0.0,,javamethod,292.0,292.0
+537,parse,simply call the parse method:,10642.0,parse,org.apache.commons.math3.complex.ComplexFormat.parse,444.0,537.0,10642.0,0.0,,javageneric,399.0,399.0
+548,addValue,addValue(3);,20766.0,addValue,org.apache.commons.math3.stat.descriptive.SummaryStatistics.addValue,446.0,548.0,20766.0,0.0,,javageneric,400.0,400.0
+588,newSampleData,AbstractMultipleLinearRegression,,,,,,,,,,,
+594,newSampleData,OLSMultipleLinearRegression,,,,,,,,,,,
+600,newSampleData,GLSMultipleLinearRegression,,,,,,,,,,,
+645,applyTo(Vector3D),generic methods: applyTo(Vector3D) and,13243.0,applyTo,org.apache.commons.math3.geometry.euclidean.threed.Rotation.applyTo,466.0,645.0,13243.0,0.0,,javageneric,406.0,406.0
+646,org.apache.commons.math3.stat.correlation,org.apache.commons.math3.stat.correlation package computes covariances,20618.0,correlation,org.apache.commons.math3.stat.correlation.SpearmansCorrelation.correlation,470.0,646.0,20618.0,1.0,,javageneric,407.0,
+661,applyTo(Rotation),provides the methods: applyTo(Rotation) and,13243.0,applyTo,org.apache.commons.math3.geometry.euclidean.threed.Rotation.applyTo,471.0,661.0,13243.0,0.0,,javageneric,408.0,408.0
+719,"gTest(expected, observed)","gTest(expected, observed), which is the tail probability beyond",21727.0,gTest,org.apache.commons.math3.stat.inference.TestUtils.gTest,365.0,719.0,21727.0,0.0,,javamethod,335.0,335.0
+720,"g(expected, observed)","g(expected, observed) in the ChiSquare distribution with degrees",21712.0,g,org.apache.commons.math3.stat.inference.TestUtils.g,368.0,720.0,21712.0,1.0,,javamethod,336.0,
+721,"gTestIntrinsic(expected, observed)","gTestIntrinsic(expected, observed) which is the same tail",21770.0,gTestIntrinsic,org.apache.commons.math3.stat.inference.TestUtils.gTestIntrinsic,369.0,721.0,21770.0,0.0,,javamethod,337.0,337.0
+749,sum((expected[i] - observed[i])^2 / expected[i]),sum((expected[i] - observed[i])^2 / expected[i]),20564.0,sum,org.apache.commons.math3.stat.StatUtils.sum,476.0,749.0,20564.0,1.0,,javageneric,410.0,
+762,sum((counts[i][j] - expected[i][j])^2/expected[i][j]),sum((counts[i][j] - expected[i][j])^2/expected[i][j]),20558.0,sum,org.apache.commons.math3.stat.StatUtils.sum,477.0,762.0,20558.0,0.0,,javageneric,411.0,411.0
+782,gDataSetsComparison,gDataSetsComparison for the test statistic,21720.0,gDataSetsComparison,org.apache.commons.math3.stat.inference.TestUtils.gDataSetsComparison,480.0,782.0,21720.0,1.0,,javageneric,412.0,
+831,solve,"In order to use the root-finding features, first a solver object must",10510.0,solve,org.apache.commons.math3.analysis.solvers.BracketingNthOrderBrentSolver.solve,481.0,831.0,10510.0,0.0,,javageneric,413.0,413.0
+948,solve(),The solve() methods of the DecompositionSolver,16363.0,solve,org.apache.commons.math3.linear.DecompositionSolver.solve,298.0,948.0,16363.0,0.0,,javamethod,285.0,285.0
+970,getV(),"getV(), getD() and getVT() methods of the",16587.0,getV,org.apache.commons.math3.linear.EigenDecomposition.getV,328.0,970.0,16587.0,1.0,,javamethod,303.0,
+972,getVT(),"getV(), getD() and getVT() methods of the",16591.0,getVT,org.apache.commons.math3.linear.EigenDecomposition.getVT,334.0,972.0,16591.0,1.0,,javamethod,308.0,
+977,getV(),getV() methods of the SingularValueDecomposition interface,15762.0,getV,org.apache.commons.math3.linear.SingularValueDecomposition.getV,344.0,977.0,15762.0,0.0,,javamethod,318.0,318.0

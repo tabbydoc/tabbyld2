@@ -1,0 +1,17 @@
+col0,col1,col2,col3,col4
+sme.analysisResultsQF,0,Results fall within calibration ranges,2016-01-01T00:00:00Z,
+sme.analysisResultsQF,1,One or more analytes fall outside of calibration range,2016-01-01T00:00:00Z,
+sme.analysisResultsQF,2,Does not meet minimum extraction efficiency value,2016-01-01T00:00:00Z,
+sme.analysisStandardID,"Supelco 37 component FAME mix, CRM47885 Supelco","Supelco 37 component FAME mix, catalog number CRM47885 Supelco",2013-06-01T00:00:00Z,
+sme.analysisStandardID,Avanti 850370P,Avanti 850370P,2013-06-01T00:00:00Z,
+sme.analysisStandardID,MIDI 1208,"MIDI PLFA calibration mix, catalog number 1208 MIDI Inc",2018-01-01T00:00:00Z,
+sme.analyteStandardQF,0,Observed values of run QA material fall within acceptance criteria,2016-01-01T00:00:00Z,
+sme.analyteStandardQF,1,Observed values of run QA material do not meet acceptance criteria,2016-01-01T00:00:00Z,
+sme.analyteStandardQF,2,Observed values for blanks do not meet acceptance criteria,2016-01-01T00:00:00Z,
+sme.analyteStandardQF,3,Observed values of run QA material and blanks do not meet acceptance criteria,2016-01-01T00:00:00Z,
+sme.instrument,Thermo Scientific Trace ISQ GC-MS,Thermo Scientific Trace ISQ GC-MS,2013-06-01T00:00:00Z,
+sme.instrument,Agilent GC 6890,Agilent GC 6890,2015-06-01T00:00:00Z,
+sme.instrument,Agilent GC 7890B,Agilent GC 7890B,2015-06-01T00:00:00Z,
+sme.testProtocolVersion,EcoCore_PLFA_SOP_v1,EcoCore_PLFA_SOP_v1,2013-06-01T00:00:00Z,2018-01-01T00:00:00Z
+sme.testProtocolVersion,EcoCore_PLFA_SOP_v2,EcoCore_PLFA_SOP_v2,2017-01-01T00:00:00Z,
+sme.testProtocolVersion,Midi_PLFA_SOP_v1,Midi_PLFA_SOP_v1,2018-01-01T00:00:00Z,

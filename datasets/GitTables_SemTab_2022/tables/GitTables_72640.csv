@@ -1,0 +1,194 @@
+col0,col1,col2,col3
+1,sous,... all,2.0
+2,devant,... ees,2.0
+3,pour,... jaoks,2.0
+4,sur,... peal,2.0
+5,dans,... sees,2.0
+6,derrière,... taga,2.0
+7,avec,...ga,2.0
+8,voilà,„vaata seal“,3.0
+9,voici,„vaata siin“,3.0
+10,mais,aga,3.0
+11,merci,aitäh,2.0
+12,fenêtre (n.f.),aken,1.0
+13,gentil / gentille,armas,1.0
+14,aimer,armastama,2.0
+15,ordinateur (n.m.),arvuti,3.0
+16,voiture (n.f.),auto,2.0
+17,ouvrir (j'ouvre / ouvert),avama,3.0
+18,piscine (n.f.),bassein,2.0
+19,bus (n.m.),buss,2.0
+20,directeur (n.m.),direktor,2.0
+21,non,ei,2.0
+22,habiter,elada,2.0
+23,salon (n.m.),elutuba,3.0
+24,mère (n.f.),ema,1.0
+25,mauvais / -e,halb,3.0
+26,gris / grise,hall,3.0
+27,bon / bonne,hea,3.0
+28,bonjour,head päeva,2.0
+29,bonsoir,head õhtut,2.0
+30,bonne nuit,head ööd,2.0
+31,Monsieur,Härra,2.0
+32,beau / belle,ilus,2.0
+33,laid / laide,inetu,2.0
+34,père (n.m.),isa,1.0
+35,et,ja,2.0
+36,oui,jah,2.0
+37,vélo (n.m.),jalgrattas,2.0
+38,courir (je cours / couru),jooksma,3.0
+39,boire (je bois / bu),jooma,2.0
+40,dessiner (je dessine / dessiné),joonistama,3.0
+41,manteau (n.m.),jope,1.0
+42,fromage (n.m.),juust,2.0
+43,fourchette (n.f.),kahvel,2.0
+44,pullover (n.m.),kampsun,1.0
+45,armoire (n.f.),kapp,1.0
+46,plat (n.m.),kauss,2.0
+47,horloge (n.f.),kell,3.0
+48,soulier (n.m.),king,1.0
+49,fermé / fermée,kinni,3.0
+50,cinéma (n.m.),kino,2.0
+51,église (n.f.),kirik,2.0
+52,écrire (j'écris / écrit),kirjutama,3.0
+53,verre (n.m.),klaas,2.0
+54,café (n.m.),kohv,2.0
+55,machine à café (n.f.),kohvimasin,2.0
+56,jaune / jaune,kollane,3.0
+57,bonbon (n.m.),komm,2.0
+58,école (n.f.),kool,2.0
+59,si … alors,kui … siis,3.0
+60,méchant / méchante,kuri,1.0
+61,chaud / chaude,kuum,2.0
+62,mince / mince,kõhn,3.0
+63,dur / dure,kõva,2.0
+64,cuisine (n.f.),köök,2.0
+65,froid / froide,külm,2.0
+66,demander (je demande / demandé),küsima,3.0
+67,ouvert / ouverte,lahti,3.0
+68,table (n.f.),laud,1.0
+69,chanter (je chante / chanté),laulma,3.0
+70,pain (n.m.),leib,2.0
+71,pain complet (n.m.),leib,3.0
+72,avion (n.m.),lennuk,2.0
+73,viande (n.f.),liha,2.0
+74,trop,liiga,2.0
+75,limonade (n.f.),limonaad,2.0
+76,ville (n.f.),linn,2.0
+77,cuillère (n.f.),lusikas,2.0
+78,court / courte,lühike,1.0
+79,je suis,ma olen,1.0
+80,je voudrais,ma tahaksin,2.0
+81,chambre à coucher (n.f.),magamistuba,2.0
+82,jus (n.m.),mahl,2.0
+83,maison (n.f.),maja,2.0
+84,machine (n.f.),masin,2.0
+85,nous sommes,me oleme,1.0
+86,nous ,meie,1.0
+87,métro (n.m.),metroo,2.0
+88,je ,mina,1.0
+89,aller (je vais / allé),minema,2.0
+90,compote (n.f.),moos,2.0
+91,j'ai,mul on ,2.0
+92,sale / sale,must,1.0
+93,noir / noire,must,3.0
+94,vendre (je vends / vendu),müüma,3.0
+95,elles ,nad,1.0
+96,ils,nad,1.0
+97,ils sont,nad on,1.0
+98,elles sont,nad on,1.0
+99,jeune / jeune,noor,2.0
+100,couteau (n.m.),nuga,2.0
+101,au revoir,nägemiseni,2.0
+102,oncle (n.m.),onu,1.0
+103,cousin (n.m.),onupoeg,1.0
+104,cousine (n.f.),onutütar,1.0
+105,orange / orange,oranž,3.0
+106,acheter,ostma,2.0
+107,gros / grosse,paks,3.0
+108,s'il vous plaît,palun,2.0
+109,s'il te plaît,palun,2.0
+110,mettre (je mets / mis),panema,3.0
+111,stylo à bille (n.m.),pastakas,3.0
+112,mou / molle,pehme,2.0
+113,lait (n.m.),piim,2.0
+114,long / longue,pikk,1.0
+115,poire (n.f.),pirn,2.0
+116,crayon (n.m.),pliiats,3.0
+117,fils (n.m.),poeg,2.0
+118,garçon (n.m.),poiss,2.0
+119,Mademoiselle,Preili,2.0
+120,Madame,Proua,2.0
+121,brun / brune,pruun,3.0
+122,bouteille (n.f.),pudel,2.0
+123,propre / propre,puhas,1.0
+124,rouge / rouge,punane,3.0
+125,livre (n.m.),raamat,3.0
+126,argent (n.m.),raha,3.0
+127,riche / riche,rikkas,3.0
+128,vert / verte,roheline,3.0
+129,train (n.m.),rong,2.0
+130,parler (je parle / parlé),rääkima,3.0
+131,tu es,sa oled,1.0
+132,salle (n.f.),saal,2.0
+133,pain (blanc) (n.m.),sai,3.0
+134,là,seal,3.0
+135,il y a,seal on,2.0
+136,c'est,see on,2.0
+137,ceci,see siin,2.0
+138,jupe (n.f.),seelik,1.0
+139,parce que,sest,3.0
+140,ici,siin,3.0
+141,tu ,sina,1.0
+142,bleu / bleue,sinine,3.0
+143,fermer (je ferme / fermé),sulgema,3.0
+144,grand / grande,suur,1.0
+145,ami (n.m.),sõber,2.0
+146,amie (n.f.),sõbranna,2.0
+147,chemise (n.f.),särk,1.0
+148,salle à manger (n.f.),söögituba,3.0
+149,manger,sööma,2.0
+150,il est ,ta on,1.0
+151,elle est ,ta on,1.0
+152,taxi (n.m.),takso,2.0
+153,assiette (n.f.),taldrik,2.0
+154,tasse (n.f.),tass,2.0
+155,vous êtes,te olete,1.0
+156,savoir (je sais / su),teadma,3.0
+157,thé (n.m.),tee,2.0
+158,vous ,teie,1.0
+159,elle,tema,1.0
+160,il,tema,1.0
+161,salut,tere,2.0
+162,bienvenue,tere tulemast,2.0
+163,chaise (n.f.),tool,3.0
+164,tarte (n.f.),tort,2.0
+165,chambre (n.f.),tuba,2.0
+166,venir (je viens / venu),tulema,2.0
+167,tante (n.f.),tädi,1.0
+168,fille (n.f.),tüdruk,2.0
+169,fille (n.f.),tütar,2.0
+170,porte (n.f.),uks,3.0
+171,pardon,vabandust,2.0
+172,pauvre / pauvre,vaene,3.0
+173,blanc / blanche,valge,3.0
+174,vieux / vieille,vana,2.0
+175,salle de bain (n.f.),vannituba,3.0
+176,vin (n.m.),vein,2.0
+177,frère (n.m.),vend,1.0
+178,eau (n.f.),vesi,2.0
+179,saucisse (n.f.),vorst,2.0
+180,ou,või,2.0
+181,peut-être,võib-olla,2.0
+182,tartine (n.f.),võileib,2.0
+183,prendre (je prends / pris),võtma,3.0
+184,très,väga,2.0
+185,petit /petite,väike,1.0
+186,sœur (n.f.),õde,1.0
+187,ballon (n.m.),õhupall,3.0
+188,bière (n.f.),õlu,2.0
+189,professeur (n.m.),õpetaja,2.0
+190,élève (n.m.),õpilane,2.0
+191,pomme (n.f.),õun,2.0
+192,rond / ronde,ümargune,3.0
+ ,,,

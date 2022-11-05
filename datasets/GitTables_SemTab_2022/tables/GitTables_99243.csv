@@ -1,0 +1,11 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16
+Bulk Upload,http://google.com,,200.0,60s,http,get,,,60s,1,True,True,,Authorization=example,bulk_example,False
+JSON Post,https://jsonplaceholder.typicode.com/posts,,200.0,1m,http,post,"{""id"": 1, ""title"": 'foo', ""body"": 'bar', ""userId"": 1}",,15s,2,True,True,,Content-Type=application/json,json_post_example,False
+Google DNS,8.8.8.8,,,60s,tcp,,,53.0,10s,3,True,True,,,google_dns_example,False
+Google DNS UDP,8.8.8.8,,,60s,udp,,,53.0,10s,4,True,True,,,google_dns_udp_example,False
+Statping Demo Page,https://demo.statping.com/health,"(\""online\"": true)",200.0,30s,http,get,,,10s,5,True,True,,,demo_link,False
+Statping MySQL Page,https://mysql.statping.com/health,"(\""online\"": true)",200.0,30s,http,get,,,10s,6,True,True,,,mysql_demo_link,False
+Statping SQLite Page,https://sqlite.statping.com/health,"(\""online\"": true)",200.0,30s,http,get,,,10s,7,True,True,,,sqlite_demo_link,False
+Token Balance,https://status.tokenbalance.com/health,"(\""online\"": true)",200.0,30s,http,get,,,10s,8,True,True,,,token_balance,False
+CloudFlare DNS,1.1.1.1,,,60s,tcp,,,53.0,10s,9,True,True,,,cloudflare_dns_example,False
+Verisign DNS,64.6.64.4,,,60s,tcp,,,53.0,10s,10,True,True,,,verisign_dns_example,False

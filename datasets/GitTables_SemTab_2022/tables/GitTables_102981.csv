@@ -1,0 +1,22 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+Description,Field name,Description of the data field,"Data type (text, numeric, boolean, etc.)","Special details related to data format (number of decimal places, date format, etc.",Field length,Does this field contain a unique ID or primary key?,"Describes values permitted to be included in this field, if applicable","Describes if this field is subject to any public access limitations (public, sensitive, private)","An explanation for the field's selected “accessLevel” including instructions for how to access a restricted file, if applicable, or explanation for why a “non-public” or “restricted public” data asset is not “public,” if applicable. Also note options for making the data public, where appropriate, including obfuscation, aggregation, or anonymization."
+Required,Y,Y,N,N,N,N,N,N,N
+,Neighborhood,Pittsburgh neighborhood information pertains to,Numeric,,12.0,,Pittsburgh Neighborhoods,,
+,GEOID,Census block group code used in the 2010 US Census,Text,,,,,,
+,LogRecNo,A logical  record number created to relate the broadband deployment tables to the Imputations Table,Numeric,,,,,,
+,Provider_Id,Filing number assigned by the FCC,Numeric,,5.0,,,,
+,FRN,FCC Registration Number,Numeric,,10.0,,,,
+,ProviderName,Provider Name,Text,,,,,,
+,DBAName,"Doing business as"" name",Text,,,,,,
+,HoldingCompanyName,Holding Company Name (as filed on Form 477),Text,,,,,,
+,HocoNum,Holding company number (assigned by FCC),Numeric,,6.0,,,,
+,HocoFinal,Holding company name (attribution by FCC),Text,,,,,,
+,StateAbbr,State abbreviation used by the US Postal Service,Text,,2.0,,,,
+,BlockCode,Census block code used in the 2010 US Census,Numeric,,15.0,,,,
+,TechCode,Technology of Transmission used to offer broadband service,Numeric,,2.0,,,,
+,Consumer, 1 = Provider can or does offer consumer/mass market/residential service in the block,Boolean,,1.0,,0/1,,
+,MaxAdDown,Maximum advertised downstream speed/bandwidth offered by the provider in the block for Consumer service,Numeric,,,,,,
+,MaxAdUp,Maximum advertised upstream speed/bandwidth offered by the provider in the block for Consumer service,Numeric,,,,,,
+,Business,1 = Provider can or does offer business/government service in the block,Boolean,,1.0,,0/1,,
+,MaxCIRDown," Maximum contractual downstream bandwidth offered by the provider in the block for Business service (filer directed to report 0 if the contracted service is sold on a ""best efforts"" basis without a guaranteed data-throughput rate)",Numeric,,,,,,
+,MaxCIRUp,"Maximum contractual upstream bandwidth offered by the provider in the block for Business service (filer directed to report 0 if the contracted service is sold on a ""best efforts"" basis without a guaranteed data-throughput rate)",Numeric,,,,,,

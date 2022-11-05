@@ -1,0 +1,126 @@
+col0,col1,col2,col3
+1,American black duck,Anas rubripes,Birds
+2,American bullfrog,Lithobates catesbeiana,Amphibians and Reptiles
+3,American shad,Alosa sapidissima,Fish
+4,Amur goby,Rhinogobius brunneus,Fish
+5,Apple snail,Ampullariidae,Other Invertebrates
+6,Argentine ant,Linepithema humile,Insects and Spiders
+7,Asian clam,Corbicula fluminea,Other Invertebrates
+8,Asian needle ant,Pachycondyla chinensis,Insects and Spiders
+9,Atlantic oyster,Crassostrea virginica,Other Invertebrates
+10,Atlantic ribbed mussel,Geukensia demissa,Other Invertebrates
+11,Atlantic salmon,Salmo salar,Fish
+12,Bighead carp,Hypophthalmichthys nobilis,Fish
+13,Bitterling,Rhodius species,Fish
+14,Black bullhead,Ameiurus melas,Fish
+15,Black carp,Mylopharyngodon piceus,Fish
+16,Black crappie,Pomoxis nigromaculatus,Fish
+17,Black rat,Rattus rattus,Mammals
+18,Bloody red shrimp (red mysid),Hemimysis anomala,Other Invertebrates
+19,Blotched snakehead,Channa maculata,Fish
+20,Bluegill sunfish,Lepomis macrochirus,Fish
+21,Brown bullhead,Ameiurus nebulosus,Fish
+22,Brown/Norway rat,Rattus norvegicus,Mammals
+23,California quail,Callipepla californica,Birds
+24,Channel catfish,Ictalurus Punctatus,Fish
+25,Chinese mitten crab,Eriocheir sinensis,Other Invertebrates
+26,Chinese mystery snail,Cipangopaludina chinensis,Other Invertebrates
+27,Chukar partridge,Alectoris chukar,Birds
+28,Colonial tunicate,Botrylloides violaceus,Other Invertebrates
+29,Common carp,Cyprinus carpio,Fish
+30,Common wall lizard,Podarcis muralis,Amphibians and Reptiles
+31,Compound sea squirt,Didemnum vexillum,Other Invertebrates
+32,Conrad�s false mussel,Mytilopsis leucophaeata ,Other Invertebrates
+33,Drumming katydid,Meconema thalassinum,Insects and Spiders
+34,Eastern cottontail rabbit,Sylvilagus floridanus,Mammals
+35,Eastern fox squirrel,Sciurus niger,Mammals
+36,Eastern grey squirrel ,Sciurus carolinensis,Mammals
+37,Eastern oyster drill,Urosalpinx cinerea,Other Invertebrates
+38,Eastern soft-shell clam,Mya arenaria,Other Invertebrates
+39,Eurasian collard dove,Streptopelia decaocto,Birds
+40,European brown garden snail,Cornu aspersum,Other Invertebrates
+41,European fire ant,Myrmica rubra,Insects and Spiders
+42,European green crab,Carcinus maenas,Other Invertebrates
+43,European house sparrow,Passer domesticus,Birds
+44,European paper wasp,Polistes dominula,Insects and Spiders
+45,European rabbit,Oryctolagus cuniculus,Mammals
+46,European Starling,Sturnus vulgaris,Birds
+47,Fallow deer,Dama dama,Mammals
+48,Fathead minnow,Pimephales promelas,Fish
+49,Feral swine,Sus scrofa,Mammals
+50,Freshwater jellyfish,Craspedacusta sowerbyi,Other Invertebrates
+51,Garden soldier fly,Exaireta spinigera,Insects and Spiders
+52,Giant Asian hornet,Vespa mandarinia,Insects and Spiders
+53,Giant garden slug,Limax maximus,Other Invertebrates
+54,Golden star tunicate,Botryllus schlosseri,Other Invertebrates
+55,Goldfish,Carassius auratus,Fish
+56,Grass carp,Ctenopharyngodon idella,Fish
+57,Green frog,Lithobates clamitans,Amphibians and Reptiles
+58,Green sunfish,Lepomis cyanellus,Fish
+59,Gypsy moth,Lymantria dispar,Insects and Spiders
+60,Harris mud crab,Rhithropanopeus harrisii,Other Invertebrates
+61,House mouse,Mus musculus,Mammals
+62,Impressive fire ant,Myrmica specioides,Insects and Spiders
+63,Japanese bettle,Popillia japonica,Insects and Spiders
+64,Japanese mussel / Asian date mussel,Musculista senhousia,Other Invertebrates
+65,Japanese oyster drill,Ocinebrellus inornatus,Other Invertebrates
+66,Japanese shore crab,Hemigrapsus sanguineus,Other Invertebrates
+67,Land slugs,Arion spp.,Other Invertebrates
+68,Land slugs,Deroceras spp,Other Invertebrates
+69,Large red slug,Arion rufus,Other Invertebrates
+70,Large yellow underwing,Noctua pronuba,Insects and Spiders
+71,Largemouth bass,Micropterus salmoides,Fish
+72,Larger branded snail,Cepaea nemoralis,Other Invertebrates
+73,Little fire ant,Wasmannia auropunctata,Insects and Spiders
+74,Monkey goby,Neogobius fluviatilis,Fish
+75,Muskellunge,Esox masquinongy,Fish
+76,Mute swan,Cygnus olor,Birds
+77,New Zealand green-lipped mussel,Perna species,Other Invertebrates
+78,New Zealand mudsnail,Potamopyrgus antipodarum,Other Invertebrates
+79,Northern pike,Esox lucius,Fish
+80,Northern quahog clam,Mercenaria mercenaria,Other Invertebrates
+81,Northern snakehead,Channa argus,Fish
+82,Nutria,Myocastor coypus,Mammals
+83,Oriental weatherfish,Misgurnus anguillicaudatus,Fish
+84,Praying mantis,Mantis religiosa,Insects and Spiders
+85,Prussian carp,Carassius gibelio,Fish
+86,Pumpkinseed sunfish,Lepomis gibbosus,Fish
+87,Quagga mussel,Dreissena rostriformis bugensis,Other Invertebrates
+88,Rainbow snakehead,Channa bleheri,Fish
+89,Red bellied pacu,Piaractus brachypomus,Fish
+90,Red shiner,Cyprinella lutrensis,Fish
+91,Red swamp crayfish,Procambarus clarkii,Other Invertebrates
+92,Red-eared slider,Trachemys scripta ,Amphibians and Reptiles
+93,Ringed crayfish,Orconectes neglectus,Other Invertebrates
+94,Rock bass,Ambloplites rupestris,Fish
+95,Rock pigeon,Columba livia,Birds
+96,Round goby,Neogobius melanostomus,Fish
+97,Rusty crayfish,Orconectes rusticus,Other Invertebrates
+98,Sea squirts,Molgula manhattensis,Other Invertebrates
+99,Seven-spotted ladybug,Coccinella septempunctata,Insects and Spiders
+100,Silver carp,Hypophthalmichthys molitrix,Fish
+101,Smallmouth bass,Micropterus dolomieu,Fish
+102,Snapping turtle,Chelydra serpentina,Amphibians and Reptiles
+103,Softshell turtle,Apalone species,Amphibians and Reptiles
+104,Spiny waterflea,Bythotrephes longimanus,Other Invertebrates
+105,Spottail shiner,Notropis hudsonius,Fish
+106,Stalked sea squirt,Styela clava,Other Invertebrates
+107,Tench,Tinca tinca,Fish
+108,Tropical stinging ant,Hypoponera punctatissima,Insects and Spiders
+109,Tubenose goby,Proterorhinus semilunaris,Fish
+110,Tui chub,Gila bicolor,Fish
+111,Varnish clam,Nuttallia obsurata,Other Invertebrates
+112,Virginia opossum,Didelphis virginiana,Mammals
+113,Virile crayfish,Orconectes virilis,Other Invertebrates
+114,Walleye,Sander vitreus,Fish
+115,Warmouth,Lepomis gulosus,Fish
+116,Western fence lizard,Sceloporus occidentalis,Amphibians and Reptiles
+117,Western mosquitofish,Gambusia affinis,Fish
+118,White cloud mountain minnow,Tanichthys albonubes,Fish
+119,Wild turkey,Meleagris gallopavo,Birds
+120,Winter moth,Operophtera brumata,Insects and Spiders
+121,Woodlouse spider,Dysdera crocata,Insects and Spiders
+122,Yellow bullhead,Ameiurus natalis,Fish
+123,Yellow perch,Perca flavescens,Fish
+124,Yellow sea squirt,Ciona intestinalis,Other Invertebrates
+125,Zebra mussel,Dreissena polymorpha ,Other Invertebrates

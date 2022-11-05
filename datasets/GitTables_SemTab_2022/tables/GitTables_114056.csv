@@ -1,0 +1,149 @@
+col0,col1,col2,col3
+AEPt,1,short,Stop point (orig)
+AEPt,2,short,Stop point
+ANME,1,cString,GeneMapper analysis method name
+APFN,2,pString,Sequencing Analysis parameters file name
+APrN,1,cString,Analysis Protocol settings name
+APrV,1,cString,Analysis Protocol settings version
+APrX,1,char array,Analysis Protocol XML string
+APXV,1,cString,Analysis Protocol XML schema version
+ARTN,1,long,Analysis return code
+ASPF,1,short,Base caller adaptive processing success flag (legacy)
+ASPt,1,short,Start point (orig)
+ASPt,2,short,Start point
+B1Pt,1,short,Peak 1 location (orig)
+B1Pt,2,short,Peak 1 location
+BCTS,1,pString,Time stamp for last successful basecalling analysis
+BufT,1,short array,Buffer tray heater temperature (degrees C)
+CMNT,N,pString,Comment(s) about sample (optional)
+CpEP,1,byte,Is Capillary Machine?
+CTID,1,cString,"Container identifier (plate barcode, for example)"
+CTNM,1,cString,Container name (usually identical to CTID)
+CTOw,1,cString,Container owner
+CTTL,1,pString,Comment title
+DATA,1,short array,Channel 1 raw data
+DATA,2,short array,Channel 2 raw data
+DATA,3,short array,Channel 3 raw data
+DATA,4,short array,Channel 4 raw data
+DATA,5,short array,"Voltage, measured (decaVoIts)"
+DATA,6,short array,"Current, measured (miIIiAmps)"
+DATA,7,short array,"Power, measured (miIIiWatts)"
+DATA,8,short array,"Temperature, measured (degrees C)"
+DATA,9,short,Channel 1 analyzed data
+DATA,10,short,Channel 2 analyzed data
+DATA,11,short,Channel 3 analyzed data
+DATA,12,short,Channel 4 analyzed data
+DATA,105,short array,Raw data for dye 5 (optional)
+DATA,205,short,Channel 5 analyzed data (optional)
+DCHT,1,short,Detector cell heater temperature (degrees C)
+DSam,1,short,Downsampling factor
+Dye,,,
+DyeB,1,char,"Dye 1 significance S for standard, space for sample"
+DyeB,2,char,"Dye 2 significance S for standard, space for sample"
+DyeB,3,char,"Dye 3 significance S for standard, space for sample"
+DyeB,4,char,"Dye 4 significance S for standard, space for sample"
+DyeB,5,char,"Dye 5 significance S for standard, space for sample (optional)"
+DyeN,1,pString,Dye 1 name
+DyeN,2,pString,Dye 2 name
+DyeN,3,pString,Dye 3 name
+DyeN,4,pString,Dye 4 name
+DyeN,5,pString,Dye 5 name (optional)
+DyeW,1,short,Dye 1 wavelength
+DyeW,2,short,Dye 2 wavelength
+DyeW,3,short,Dye 3 wavelength
+DyeW,4,short,Dye 4 wavelength
+DyeW,5,short,Dye 5 wavelength (optional)
+DySN,1,pString,Dyeset name
+EPVt,1,long,Electrophoresis voltage setting (Volts)
+EVNT,1,pString,Start Run event
+EVNT,2,pString,Stop Run event
+EVNT,3,pString,Start Collection event
+EVNT,4,pString,Stop Collection event
+Feat,1,user,Factura features (optional)
+FTab,1,user,Factura features (optional)
+FVoc,1,user,Factura features (optional)
+FWO_,1,char array,Base order
+GTyp,1,pString,Gel type description
+HCFG,1,cString,Instrument Class
+HCFG,2,cString,InstrumentFamily
+HCFG,3,cString,Official Instrument Name
+HCFG,4,cString,Instrument Parameters
+InSc,1,long,Injection time (seconds)
+InVt,1,long,Injection voltage (Volts)
+LANE,1,short,Lane/Capillary
+LIMS,1,pString,Sample tracking ID
+LNTD,1,short,Length to detector (cm)
+LsrP,1,long,Laser Power setting (microWatts)
+MCHN,1,pString,Instrument name and serial number
+MODF,1,pString,Data collection module file
+MODL,1,char[4],Model number
+NAVG,1,short,Pixels averaged per lane
+NLNE,1,short,Number of capillaries
+NOIS,1,float array,"The estimate of noise for each dye for a successfully analyzed file, only for the KB Basecaller. (optional)"
+OffS,N,user,Range of offscale peaks (optional)
+OfSc,1,long array,List of scans that are marked off scale in Collection. (optional)
+OvrI,N,long array,One value for each dye. List of scan number indices for scans with color data values >32767. Values cannot be greater than 32000. (optional)
+OvrV,N,long array,One value for each dye. List of color data values for the locations listed in the OvrI tag. Number of OvrV tags must be equal to the number of OvrI tags. (optional)
+PANL,1,cString,GeneMapper panel name
+PBAS,1,char,Basecalled sequence (edited)
+PBAS,2,char,Basecalled sequence
+PCON,1,char,Per—base quality values (edited)
+PCON,2,char,Per—base quality values
+PDMF,1,pString,Mobility file (orig)
+PDMF,2,pString,Mobility file
+phAR,1,float,Peak area ratio (equivalent to TRACE_PEAK_AREA_RATIO in phd1 file)
+phCH,1,pString,Primer or terminator chemistry (equivalent to CHEM in phd1 file)
+phDY,1,pString,Dye type (equivalent to DYE in phd1 file)
+phQL,1,short,Maximum quality value (equivalent to QUALITY_LEVELS in phd1 file)
+phTR,1,short,"Read positions of first and last bases in trim region (along with phTR below, equivalent to TRIM in phd1 file)"
+phTR,2,float,Trim probability threshold used (see above)
+PLOC,1,short array,Base locations (edited)
+PLOC,2,short array,Base locations
+PRJT,1,cString,SeqScape project template name (SeqScape® software sample files only) (optional)
+PROJ,4,cString,SeqScape project name (SeqScape® software sample files only) (optional)
+PSZE,1,long,Platesize. The number of sample positions in the container; allowed values 96 and 384
+PTYP,1,cString,"Platetype. Allowed values are 96—Well, 384—Well."
+PXLB,1,long,Pixel bin size
+Rate,1,user,Scan rate
+RevC,1,short,Reverse complement flag
+RGCm,1,cString,Results group comment (optional)
+RGNm,1,cString,Results group name
+RGOw,1,cString,"The name entered as the owner of a results group, in the Results Group editor (optional)"
+RMdN,1,cString,Run Module name (same as MODF)
+RMdV,1,cString,Run Module version
+RMdX,1,char array,Run Module XML string
+RMXV,1,cString,Run Module XML schema version
+RPrN,1,cString,Run Protocol name
+RPrV,1,cString,Run Protocol version
+RUND,1,date,Run start date
+RUND,2,date,Run stop date
+RUND,3,date,Data Collection start date
+RUND,4,date,Data Collection stop date
+RunN,1,cString,Run Name
+RUNT,1,time,Run start time
+RUNT,2,time,Run stop time
+RUNT,3,time,Data Collection start time
+RUNT,4,time,Data Collection stop time
+S/N%,1,short array,Signal level for each dye.
+Satd,1,long array,"Array of longs representing the scan numbers of data points, which are flagged as saturated by data collection (optional)"
+Scal,1,float,Rescaling divisor for color data
+SCAN,1,long,Number of scans
+Scan,1,short,Number of scans (legacy — use SCAN)
+SMED,1,pString,Polymer lot expiration date
+SMLt,1,pString,Polymer lot number
+SMPL,1,pString,Sample name
+SnpS,1,pString,SNP set name (optional)
+SPAC,1,float,Average peak spacing used in last analysis
+SPAC,2,pString,Basecaller BCP/DLL
+SPAC,3,float,Spacing
+SPEC,1,cString,SeqScape specimen name (SeqScape® software sample files only) (optional)
+SpNm,1,pString,Sample name for GeneScan sample files
+StdF,1,pString,Size Standard file name
+STYP,1,cString,GeneMapper Sample Type
+SVER,1,pString,Data collection software version
+SVER,2,pString,Basecaller version
+SVER,3,pString,Data collection firmware version
+SVER,4,pString,"Sample File Format Version, containing the version of the sample file format used to write the file"
+Tmpr,1,long,Run temperature setting (degrees C)
+TUBE,1,pString,Well ID
+User,1,pString,Name of user who created the plate (optional)

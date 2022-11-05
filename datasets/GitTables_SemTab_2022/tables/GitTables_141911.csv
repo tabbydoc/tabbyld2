@@ -1,0 +1,73 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11
+1,getInitials,3,1,dates.txt,2,1,,0,2,0.0,3.57695484161377
+2,getInitials,3,1,dates.txt,3,1,,0,2,0.0,3.83121037483215
+3,getInitials,3,1,dates.txt,4,1,,0,2,0.0,7.37153601646423
+4,getInitials,3,1,dates.txt,5,1,,0,2,0.0,83.5835587978363
+5,getInitials,3,1,emails.txt,2,1,,0,2,0.0,3.44808197021484
+6,getInitials,3,1,emails.txt,3,1,,0,2,0.0,4.11375617980957
+7,getInitials,3,1,emails.txt,4,1,,0,2,0.0,6.55151510238647
+8,getInitials,3,1,emails.txt,5,1,,0,2,0.0,45.3939471244812
+9,getInitials,3,1,general.txt,2,1,,0,2,0.0,3.38056516647339
+10,getInitials,3,1,general.txt,3,1,,0,2,0.0,3.36035847663879
+11,getInitials,3,1,general.txt,4,1,,0,2,0.0,3.19848155975342
+12,getInitials,3,1,general.txt,5,1,,0,2,0.0,3.59768581390381
+13,getInitials,3,1,names.txt,2,1,,0,2,0.0,3.91805291175842
+14,getInitials,3,1,names.txt,3,1,,0,2,0.0,4.15104413032532
+15,getInitials,3,1,names.txt,4,1,,0,2,0.0,10.3113174438477
+16,getInitials,3,1,names.txt,5,1,deletePunctuationString (reduceWord (reduceNamesFirstPlace a) 7),0,2,0.0,108.33291387558
+17,getInitials,3,1,original.txt,2,1,,0,2,0.0,3.19686555862427
+18,getInitials,3,1,original.txt,3,1,,0,2,0.0,3.73222184181213
+19,getInitials,3,1,original.txt,4,1,filter isUpper a,1,1,0.5,5.65020275115967
+20,getInitials,3,1,original.txt,5,1,filter isUpper a,1,1,0.5,14.0498828887939
+21,getInitials,3,1,words.txt,2,1,getCaps a,2,0,1.0,3.29452419281006
+22,getInitials,3,1,words.txt,3,1,getCaps a,2,0,1.0,3.74858808517456
+23,getInitials,3,1,words.txt,4,1,getCaps a,2,0,1.0,8.85892486572266
+24,getInitials,3,1,words.txt,5,1,getCaps a,2,0,1.0,93.1845893859863
+25,getInitials,3,1,dates.txt,2,2,,0,2,0.0,3.45416402816772
+26,getInitials,3,1,dates.txt,3,2,,0,2,0.0,3.68939161300659
+27,getInitials,3,1,dates.txt,4,2,,0,2,0.0,7.1423327922821
+28,getInitials,3,1,dates.txt,5,2,,0,2,0.0,83.7663569450378
+29,getInitials,3,1,emails.txt,2,2,,0,2,0.0,3.27804756164551
+30,getInitials,3,1,emails.txt,3,2,,0,2,0.0,3.74752521514893
+31,getInitials,3,1,emails.txt,4,2,,0,2,0.0,6.79019069671631
+32,getInitials,3,1,emails.txt,5,2,,0,2,0.0,45.6200788021088
+33,getInitials,3,1,general.txt,2,2,,0,2,0.0,3.48867559432983
+34,getInitials,3,1,general.txt,3,2,,0,2,0.0,3.9860827922821
+35,getInitials,3,1,general.txt,4,2,,0,2,0.0,3.35809755325317
+36,getInitials,3,1,general.txt,5,2,,0,2,0.0,3.22922587394714
+37,getInitials,3,1,names.txt,2,2,,0,2,0.0,3.42974829673767
+38,getInitials,3,1,names.txt,3,2,,0,2,0.0,3.61228942871094
+39,getInitials,3,1,names.txt,4,2,deletePunctuationString (reduceNameWithSurnameSecondPlace (reduceNameWithSurnameSecondPlace a)),0,2,0.0,10.124281167984
+40,getInitials,3,1,names.txt,5,2,deletePunctuationString (reduceNameWithSurnameSecondPlace (reduceNameWithSurnameSecondPlace a)),0,2,0.0,107.00768995285
+41,getInitials,3,1,original.txt,2,2,,0,2,0.0,3.13914942741394
+42,getInitials,3,1,original.txt,3,2,,0,2,0.0,4.06444263458252
+43,getInitials,3,1,original.txt,4,2,filter isUpper a,1,1,0.5,5.21177363395691
+44,getInitials,3,1,original.txt,5,2,filter isUpper a,1,1,0.5,16.6143589019775
+45,getInitials,3,1,words.txt,2,2,getCaps a,2,0,1.0,3.38639116287231
+46,getInitials,3,1,words.txt,3,2,getCaps a,2,0,1.0,3.90126156806946
+47,getInitials,3,1,words.txt,4,2,getCaps a,2,0,1.0,8.73536944389343
+48,getInitials,3,1,words.txt,5,2,getCaps a,2,0,1.0,88.8762917518616
+49,getInitials,3,1,dates.txt,2,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.288802623748779
+50,getInitials,3,1,dates.txt,3,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.455622434616089
+51,getInitials,3,1,dates.txt,4,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.288217306137085
+52,getInitials,3,1,dates.txt,5,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.469889640808105
+53,getInitials,3,1,emails.txt,2,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.255683898925781
+54,getInitials,3,1,emails.txt,3,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.419838666915894
+55,getInitials,3,1,emails.txt,4,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.356255054473877
+56,getInitials,3,1,emails.txt,5,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.485057830810547
+57,getInitials,3,1,general.txt,2,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.401258945465088
+58,getInitials,3,1,general.txt,3,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.31859016418457
+59,getInitials,3,1,general.txt,4,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.39215874671936
+60,getInitials,3,1,general.txt,5,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.417247295379639
+61,getInitials,3,1,names.txt,2,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.470829010009766
+62,getInitials,3,1,names.txt,3,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.535892248153687
+63,getInitials,3,1,names.txt,4,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.494136810302734
+64,getInitials,3,1,names.txt,5,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.826054811477661
+65,getInitials,3,1,original.txt,2,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.417959690093994
+66,getInitials,3,1,original.txt,3,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.440637588500977
+67,getInitials,3,1,original.txt,4,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.453693628311157
+68,getInitials,3,1,original.txt,5,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.361811637878418
+69,getInitials,3,1,words.txt,2,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.688805103302002
+70,getInitials,3,1,words.txt,3,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.292705059051514
+71,getInitials,3,1,words.txt,4,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.548658847808838
+72,getInitials,3,1,words.txt,5,3,!lexical error in string/character literal at character '\t'<br> a,0,2,0.0,0.25529408454895

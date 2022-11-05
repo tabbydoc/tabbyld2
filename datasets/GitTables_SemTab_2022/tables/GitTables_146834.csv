@@ -1,0 +1,91 @@
+col0,col1,col2,col3,col4
+L001,0.032,3.83,OTO-101,initial
+L002,0.025,3.6,OTO-102,initial
+L003,0.02,3.62,OTO-103,initial
+L004,0.019,3.54,OTO-104,initial
+L005,0.019,3.37,OTO-105,initial
+L006,0.019,3.58,OTO-201,initial
+L007,0.02,3.3,OTO-202,initial
+L008,0.019,3.81,OTO-203,initial
+L009,0.02,3.76,OTO-204,initial
+L010,0.02,3.36,OTO-205,initial
+L011,0.02,4.35,OTO-301,initial
+L012,0.021,3.97,OTO-302,initial
+L014,0.019,4.19,OTO-304,initial
+L015,0.028,3.89,OTO-305,initial
+L016,0.025,3.99,OTO-401,initial
+L017,0.023,3.41,OTO-402,initial
+L018,0.023,4.01,OTO-403,initial
+L019,0.023,3.77,OTO-404,initial
+L021,0.023,3.88,REP,initial
+L022,0.025,0.09,Filter Blank,initial
+L023,0.026,0.06,Solution Blank,initial
+L047,0.013,0.281,OTB-101,initial
+L048,0.011,0.259,OTB-102,initial
+L049,0.01,0.268,OTB-103,initial
+L050,0.007,0.264,OTB-104,initial
+L051,0.013,0.308,OTB-105,initial
+L052,0.012,0.257,OTB-201,initial
+L053,0.013,0.258,OTB-202,initial
+L054,0.013,0.268,OTB-203,initial
+L055,0.015,0.294,OTB-204,initial
+L056,0.016,0.27,OTB-205,initial
+L057,0.019,0.287,OTB-301,initial
+L058,0.027,0.293,OTB-302,initial
+L059,0.021,0.293,OTB-303,initial
+L060,0.022,0.289,OTB-304,initial
+L061,0.03,0.313,OTB-305,initial
+L062,0.024,0.276,OTB-401,initial
+L063,0.015,0.315,OTB-402,initial
+L064,0.031,0.295,OTB-403,initial
+L065,0.027,0.282,OTB-404,initial
+L066,0.026,0.287,OTB-405,initial
+L067,0.025,0.317,REP,initial
+L068,0.025,0.096,Filter Blank,initial
+L069,0.026,0.059,Solution Blank,initial
+L101,0.027,13.47,OTO-101,post-freeze
+L102,0.024,11.79,OTO-102,post-freeze
+L103,0.023,11.42,OTO-103,post-freeze
+L104,0.023,13.83,OTO-104,post-freeze
+L105,0.022,12.82,OTO-105,post-freeze
+L106,0.022,14.76,OTO-201,post-freeze
+L107,0.024,13.31,OTO-202,post-freeze
+L108,0.024,12.21,OTO-203,post-freeze
+L109,0.024,15.74,OTO-204,post-freeze
+L110,0.023,13.96,OTO-205,post-freeze
+L111,0.024,13.71,OTO-301,post-freeze
+L112,0.023,14.61,OTO-302,post-freeze
+L113,0.016,14.96,OTO-303,post-freeze
+L114,0.03,14.47,OTO-304,post-freeze
+L115,0.024,14.04,OTO-305,post-freeze
+L116,0.024,6.69,OTO-401,post-freeze
+L117,0.025,6.61,OTO-402,post-freeze
+L118,0.024,6.32,OTO-403,post-freeze
+L119,0.023,6.78,OTO-404,post-freeze
+L120,0.024,6.51,OTO-405,post-freeze
+L121,0.023,6.83,REP,post-freeze
+L122,0.031,0.08,Filter Blank,post-freeze
+L123,0.031,0.06,Solution Blank,post-freeze
+L147,0.013,0.696,OTB-101,post-freeze
+L148,0.011,0.772,OTB-102,post-freeze
+L149,0.012,0.766,OTB-103,post-freeze
+L150,0.012,0.74,OTB-104,post-freeze
+L151,0.013,0.766,OTB-105,post-freeze
+L152,0.016,0.844,OTB-201,post-freeze
+L153,0.017,0.753,OTB-202,post-freeze
+L154,0.019,0.827,OTB-203,post-freeze
+L155,0.02,0.763,OTB-204,post-freeze
+L156,0.022,0.721,OTB-205,post-freeze
+L157,0.025,0.896,OTB-301,post-freeze
+L158,0.027,0.864,OTB-302,post-freeze
+L159,0.029,0.921,OTB-303,post-freeze
+L160,0.028,0.964,OTB-304,post-freeze
+L161,0.017,0.821,OTB-305,post-freeze
+L162,0.031,0.301,OTB-401,post-freeze
+L163,0.03,0.29,OTB-402,post-freeze
+L164,0.029,0.301,OTB-403,post-freeze
+L165,0.029,0.297,OTB-404,post-freeze
+L166,0.028,0.293,OTB-405,post-freeze
+L167,0.029,0.288,REP,post-freeze
+L168,0.029,0.074,Filter Blank,post-freeze
+L169,0.03,0.062,Solution Blank,post-freeze

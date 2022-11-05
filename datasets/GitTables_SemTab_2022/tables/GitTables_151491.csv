@@ -1,0 +1,52 @@
+col0,col1,col2,col3
+OK,Ok,Jó,はい
+cancel,Cancel,Mégse,いや
+comingSoon,Coming Soon,Fejlesztés Alatt,開発中
+start,Start Lesson,Lecke Elkezdés,授業を始めよう
+manage,Manage Lessons,Leckék Kezelése,授業を取り締まる
+settings,Settings,Beállítások,設定
+donate,Donate,Adományozás,拠出金
+language,Language,Nyelv,言語
+scale,UI Scale,FF Méret,UIの大きさ
+font,Font,Betűtípus,フォント
+question,Question,Kérdés,質問
+answer,Answer,Válasz,答え
+next,Next,Következő,次
+back,Back,Vissza,戻る
+expectedAnswer,Expected Answer,Helyes Válasz,正しい答え
+givenAnswer,Given Answer,Leírt Válasz,書いた答え
+correctlyAnswered,You have correctly answered,Helyesen válaszolta,正しく書いた答え
+lessonList,List of Lessons,Elérhető leckék,授業の列挙
+createLesson,Create Lesson, Lecke Létrehozása,授業を作る
+deleteLesson,Delete Lesson,Lecke törlése,授業を消す
+createQuestion,Create Question,Új kérdés Létrehozása,質問を作る
+modifyQuestion,Modify Question,Kérdés megváltoztatása,質問を変更する
+deleteQuestion,Delete Question,Kérdés törlése,質問を消す
+questionPlaceholder,Modify Question text here,Kérdés szövegének módosítása itt,質問の文書をここで変化する
+answerTextPlaceholder,Modify Answer Here (free text),Válasz szövegének módosítása itt (korlátlan bevitel),答えの文書をここで変化する
+drawLabel,Draw Answer here:,Rajzolja ide a választ:,答えをここに画いて：
+drawClear,Clear,Törlés,消す
+drawUndo,Undo,Vissza,一線先
+createQuestionDict,Add Word from Dictionary,Szó hozzáadása a szótárból,辞書から言葉を付ける
+appendDictionary,Append Dictionary,Szótár hozzáadása,辞書を付ける
+multiChoiceTooltip,Multi Choice-Answer,Több helyes válasz,択一
+multiChoiceCheckbox,Add new multi-choice answer,Új többválasz hozzáadása,択一答えを付ける
+currentSkill,Current Proficiency,Megjegyzés szintje,記憶力
+questionNotSet,Question is not specified,Kérdés mező nincs kitöltve,質問欄は空っぽ
+answerNotSet,None of the answer fields were specified,Egyetlen Válasz mező sincs kitöltve,答え欄は空っぽ
+none,None,Semmi,なし
+add,Add,Hozzáadás,付ける
+requires,Requires:,Igényli:,必要は：
+selectLesson,Please select a lesson,Válasszon egy leckét,授業を選べてください
+selectQuestions,Please select the questions:,Kérem válassza ki a leckéket,質問を選べてください：
+currentlyEditing,Editing,Módosítva,変化中
+select,Select,Kiválaszt,選ぶ
+save,Save,Mentés,保存
+chooseFilename,Please choose a filename,Kérem Válasszon fájl nevet,ファイル名を選んでください
+saveProgress,Save Progress (skill),Állapot Mentése (hozzáértés),実力（記憶力）を保存する
+androidReadErrorTitle,Could not read directory,Mappa olvasása sikertelen,フォルダを開けるのは不可能
+androidReadErrorMessage,"On Android 6.0 Permission needs to be granted manually for read/write operations. Please go to System Settings->Apps->Langr->Permissions and enable ""Storage""",Android 6.0 feletti verziónál az irás/olvasás engedélyét manuálisan meg kell adni. Kérem engedélyezze ezt meg a Rendeszer Beállítások->Alkalmazások->Langr->Engedély (System Settings->Apps->Langr->Permissions) alatt,Android6.0以上の場合でユーザーはアプリに手動で権限を付与する必要です。これを「System Settings->Apps->Langr->Permissions」にお願いします
+manageDictionaries,Dictionaries,Szótárak,辞書
+addWordFromDictionary,Add word from dictionary,Szótárból keresés,辞書で調べる
+dictionaries,Dictionaries,Szótárak,辞書
+EInkMode,EInk Mode,EInk mód,Einkモード

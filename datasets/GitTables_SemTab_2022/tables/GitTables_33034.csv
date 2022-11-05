@@ -1,0 +1,134 @@
+col0,col1,col2,col3
+Lake Coeur D'Alene,47.533461,-116.809122,ID
+Lake Pend Oreille,48.166667,-116.333333,ID
+Priest Lake,48.566667,-116.866667,ID
+Dworshak,46.515,-116.296,ID
+Magic,43.26,-114.36,ID
+Blackfoot,43.0,-111.72,ID
+Oakley,42.2,-113.92,ID
+Salmon Falls,42.21,-114.73,ID
+Brownlee,44.83,-116.9,ID
+Bear Lake,42.12,-111.3,ID
+Montpelier,42.35,-111.18,ID
+Conconully,48.53807,-119.749,WA
+Lake Chelan,47.841111,-120.046389,WA
+Keechelus,47.3477,-121.3691,WA
+Kachess,47.264167,-121.205833,WA
+Cle Elum,47.282,-121.1075,WA
+Bumping Lake,46.8513,-121.3193,WA
+Rimrock,46.656389,-121.129444,WA
+Ross,48.731667,-121.067222,WA
+Diablo,48.714167,-121.13111,WA
+Wallowa Lake,45.308889,-117.210556,OR
+Wolf Creek,45.05,-118.02,OR
+Willow Creek,45.35,-119.54,OR
+Clear Lake,45.17,-121.69,OR
+Blue River,44.17,-122.33,OR
+Cottage Grove,43.72,-123.05,OR
+Cougar,44.13,-122.24,OR
+Detroit,44.72,-122.25,OR
+Dorena,43.79,-122.95,OR
+Fall Creek,43.95,-122.76,OR
+Fern Ridge,44.12,-123.3,OR
+Foster,44.42,-122.67,OR
+Applegate,42.05,-123.12,OR
+Lost Creek,42.76,-122.67,OR
+Cottonwood,42.24,-120.51,OR
+Abiquiu,36.24,-106.43,NM
+Bluewater Lake,35.29,-108.11,NM
+Brantley Lake,32.54,-104.38,NM
+Cochiti Lake,35.62,-106.32,NM
+Conchas Lake,35.4,-104.19,NM
+Costilla,36.88,-105.28,NM
+Eagle Nest Lake,36.53,-105.23,NM
+El Vado,36.59,-106.73,NM
+Heron,36.67,-106.71,NM
+Lake Avalon,32.49,-104.25,NM
+Lahontan,39.46,-119.07,NV
+Rye Patch,40.47,-118.31,NV
+Big Sand Wash,40.3,-110.22,UT
+Cleveland Lake,39.58,-111.24,UT
+Grantsville,40.54,-112.51,UT
+Gunlock,37.25,-113.78,UT
+Gunnison,39.21,-111.71,UT
+Ken's Lake,38.48,-109.43,UT
+Kolob,37.43,-113.04,UT
+Lower Enterprise,37.53,-113.85,UT
+Miller Flat,39.54,-111.24,UT
+Millsite,39.1,-111.19,UT
+Minersville,38.22,-112.84,UT
+Otter Creek,38.17,-112.02,UT
+Panguitch Lake,37.72,-112.63,UT
+Piute,38.32,-112.19,UT
+Porcupine,41.52,-111.75,UT
+Quail Creek,37.18,-113.38,UT
+Sand Hollow,37.11,-113.37,UT
+Sevier Bridge,39.37,-112.03,UT
+Smith And Morehouse,40.76,-111.1,UT
+Upper Enterprise,37.52,-113.86,UT
+Utah Lake,40.36,-111.89,UT
+Willard Bay,41.4,-112.08,UT
+Woodruff Creek,41.47,-111.32,UT
+Woodruff Narrows,41.5,-111.02,WY
+Bull Lake,43.21,-109.04,WY
+Boysen,43.42,-108.18,WY
+Pilot Butte,43.2,-108.76,WY
+Buffalo Bill,44.5,-109.18,WY
+Keyhole,44.38,-104.78,WY
+Seminoe,42.16,-106.91,WY
+Pathfinder,42.47,-106.85,WY
+Alcova,42.55,-106.72,WY
+Glendo,42.48,-104.95,WY
+Guernsey,42.29,-104.77,WY
+High Savery,41.28,-107.3,WY
+Viva Naughton,41.97,-110.65,WY
+Wheatland ,,,
+Adobe Creek,38.27,-103.24,CO
+Barr Lake,39.95,-104.77,CO
+Boyd Lake,40.43,-105.03,CO
+Carter Lake,40.32,-105.22,CO
+Clear Creek,39.02,-106.25,CO
+Cobb Lake,40.65,-104.97,CO
+Continental,37.89,-107.21,CO
+Crawford,38.69,-107.6,CO
+Cucharas,37.74,-104.61,CO
+Empire,40.27,-104.15,CO
+Fossil Creek,40.49,-105.01,CO
+Green Mtn,39.88,-106.33,CO
+Groundhog,37.79,-108.29,CO
+Homestake,39.37,-106.46,CO
+Horse Creek,38.16,-103.41,CO
+Horsecreek,40.01,-104.58,CO
+Horsetooth,40.6,-105.17,CO
+Jackson Gulch,37.4,-108.27,CO
+Jackson Lake,40.38,-104.08,CO
+John Martin,38.07,-102.94,CO
+Julesburg,40.94,-102.63,CO
+Lake Granby,40.18,-105.87,CO
+Lake Loveland,40.42,-105.08,CO
+Marshall,39.95,-105.22,CO
+Meredith,38.17,-103.73,CO
+Milton,40.23,-104.65,CO
+Mountain Home,37.39,-105.39,CO
+Narraguinnep,37.49,-108.63,CO
+Platoro,37.35,-106.55,CO
+Point Of Rocks,40.78,-103.27,CO
+Prewitt,40.42,-103.38,CO
+Pueblo,38.27,-104.73,CO
+Ralph Price,40.22,-105.37,CO
+Rio Grande,37.72,-107.27,CO
+Riverside,40.32,-104.27,CO
+Ruedi,39.36,-106.82,CO
+Sanchez,37.11,-105.41,CO
+Santa Maria,37.81,-107.1,CO
+Shadow Mountain,40.21,-105.84,CO
+Spinney Mountain,38.97,-105.62,CO
+Stagecoach,40.29,-106.83,CO
+Standley,39.87,-105.12,CO
+Terrace,37.36,-106.29,CO
+Trinidad Lake,37.14,-104.55,CO
+Turquoise Lake,39.25,-106.37,CO
+Twin Lakes,39.08,-106.32,CO
+Union,40.18,-105.03,CO
+Windsor,40.48,-104.9,CO
+Wolford Mountain,40.11,-106.41,CO

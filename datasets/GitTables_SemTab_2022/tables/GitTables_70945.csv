@@ -1,0 +1,9 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22
+__export__.account_tax_9,,,107.55,True,1.0,1.0,,,,,,,,,,,,,,,,
+__export__.account_tax_5,l10n_au_manufacturing.16,l10n_au_manufacturing.08,0.1,True,1.0,-1.0,,,,,,,,,,,,,,,,
+__export__.account_tax_2,l10n_au_manufacturing.12,l10n_au_manufacturing.06,,True,1.0,-1.0,__export__.account_account_48,,,,,,,,,,,,,,,
+__export__.account_tax_3,l10n_au_manufacturing.14,l10n_au_manufacturing.06,,True,1.0,-1.0,__export__.account_account_48,,,,,,,,,,,,,,,
+__export__.account_tax_6,l10n_au_manufacturing.20,l10n_au_manufacturing.08,,True,1.0,-1.0,,,,,,,,,,,,,,,,
+__export__.account_tax_7,l10n_au_manufacturing.16,l10n_au_manufacturing.08,0.1,True,1.0,-1.0,__export__.account_account_48,result = (price_unit * 1.10) * 0.20,,,,,,,,,,,,,,
+__export__.account_tax_1,l10n_au_manufacturing.10,l10n_au_manufacturing.06,0.1,True,1.0,-1.0,__export__.account_account_48,,,,,,,,,,,,,,,
+__export__.account_tax_4,l10n_au_manufacturing.18,l10n_au_manufacturing.08,0.1,True,1.0,-1.0,__export__.account_account_257,,,,,,,,,,,,,,,

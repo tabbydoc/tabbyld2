@@ -1,0 +1,24 @@
+col0,col1,col2,col3,col4
+1,1,Level %@,Lv.%@,Evolves upon reaching a given level (or any higher level).
+2,1,Level %@ (Male),Lv.%@ (♂),Evolves upon reaching a given level (or any higher level).  Only applies to males.
+3,1,Level %@ (Female),Lv.%@ (♀),Evolves upon reaching a given level (or any higher level).  Only applies to females.
+4,2,Level up in %@,%@でレベルアップ,Evolves when leveled up in a certain location.
+5,0,Trade,通信交換,Evolves when traded.
+6,3,Traded holding %@,%@を持たせて交換,Evolves when traded while holding a certain item.
+7,3,Use %@,%@,Evolves when a certain item is applied.
+8,3,Use %@ (Male),%@ (♂),Evolves when a certain item is applied.  Only applies to males.
+9,3,Use %@ (Female),%@ (♀),Evolves when a certain item is applied.  Only applies to females.
+10,3,Level up during the day holding %@,%@を持たせて朝・昼にレベルアップ,Evolves when leveling up during the day and holding a certain item.
+11,3,Level up at night holding %@,%@を持たせて夜にレベルアップ,Evolves when leveled up at night and holding a certain item.
+12,4,Level up knowing %@,%@を覚えさせてレベルアップ,Evolves when leveled up and knowing a certain move.
+13,0,Level up while happy,なつきでレベルアップ,Evolves when leveled up with happiness at 200 or greater.
+14,0,Level up while happy (Daytime),なつきで朝・昼にレベルアップ,Evolves when leveled up during the day with happiness at 200 or greater.
+15,0,Level up while happy (Night),なつきで夜にレベルアップ,Evolves when leveled up at night with happiness at 200 or greater.
+16,0,Level up with high Beauty,『うつくしさ』170以上でレベルアップ,Evolves when leveled up with Beauty at 171 or greater.
+17,0,Shed by other evolution,別の進化際、手持ちに空きがあれば追加,Appears in an empty belt slot after a certain other Pokémon is obtained by evolution.
+18,0,Level up with Attack > Defense,『こうげき』＞『ぼうぎょ』でレベルアップ,Evolves upon reaching a given level (or any higher level).  Only applies if Attack is greater than Defense.
+19,0,Level up with Attack < Defense,『こうげき』＜『ぼうぎょ』でレベルアップ,Evolves upon reaching a given level (or any higher level).  Only applies if Attack is less than Defense.
+20,0,Level up with Attack = Defense,『こうげき』＝『ぼうぎょ』でレベルアップ,Evolves upon reaching a given level (or any higher level).  Only applies if Attack is equal to Defense.
+21,5,Level up with %@ present,手持ちに%@がいる時にレベルアップ,Evolves when leveled up with a certain other Pokémon in the party.
+22,5,Trade for %@,自分と%@の通信交換,Evolves when traded for another certain Pokémon.
+23,0,,なし,This Pokémon cannot be evolved.

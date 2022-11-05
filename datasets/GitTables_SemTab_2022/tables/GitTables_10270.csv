@@ -1,0 +1,45 @@
+col0,col1,col2,col3,col4,col5,col6
+1,Movement of COMMODITY,RELEASE IN NATURE,Biological control,VIII/27,Biologische bestrijding,UITZETTEN IN DE NATUUR
+2,Movement of COMMODITY,RELEASE IN NATURE,"Erosion control/ dune stabilization (windbreaks, hedges, …)",,"Erosiebestrijding/duinstabilisatie (windvang, haag,…)",UITZETTEN IN DE NATUUR
+3,Movement of COMMODITY,RELEASE IN NATURE,Fishery in the wild (including game fishing),VIII/27; X/38,Uitzetten in het wild t.b.v. visserij en hengelsport,UITZETTEN IN DE NATUUR
+4,Movement of COMMODITY,RELEASE IN NATURE,Hunting,X/38,Jacht,UITZETTEN IN DE NATUUR
+5,Movement of COMMODITY,RELEASE IN NATURE,Landscape/flora/fauna improvement in the wild,,Landschaps/flora/fauna verbetering in het wild,UITZETTEN IN DE NATUUR
+6,Movement of COMMODITY,RELEASE IN NATURE,Introduction for conservation purposes or wildlife management,,Introducties voor natuurbescherming of wildbeheer,UITZETTEN IN DE NATUUR
+7,Movement of COMMODITY,RELEASE IN NATURE,"Release in nature for use (other than above, e.g., fur, transport, medical use)",,"Uitzetten in de natuur voor ander gebruik (vb. bont, transport, medicinaal gebruik)",UITZETTEN IN DE NATUUR
+8,Movement of COMMODITY,RELEASE IN NATURE,Other intentional release,,Uitzetten voor andere doeleinden,UITZETTEN IN DE NATUUR
+9,Movement of COMMODITY,ESCAPE from confinement,Agriculture (including Biofuel feedstocks),X/38,Landbouw (incl. energiegewassen),ONTSNAPPING
+10,Movement of COMMODITY,ESCAPE from confinement,Aquaculture / mariculture,VIII/27; IX/4,Aquacultuur/maricultuur,ONTSNAPPING
+11,Movement of COMMODITY,ESCAPE from confinement,Botanical garden/zoo/aquaria (excluding domestic aquaria),XI/28,"Plantentuinen, zoos en aquaria",ONTSNAPPING
+12,Movement of COMMODITY,ESCAPE from confinement,Pet/aquarium/terrarium species (including live food for such species ),"VIII/27, X/38, XI/28","Huisdieren privécollecties, aquaria en terraria",ONTSNAPPING
+13,Movement of COMMODITY,ESCAPE from confinement,Farmed animals (including animals left under limited control),VIII/27,Kweekdieren (incl. dieren onder beperkt toezicht),ONTSNAPPING
+14,Movement of COMMODITY,ESCAPE from confinement,Forestry (including afforestation or reforestation),,Bosbouw (incl. bebossing en herbebossing),ONTSNAPPING
+15,Movement of COMMODITY,ESCAPE from confinement,Fur farms,,Bontfokkerijen,ONTSNAPPING
+16,Movement of COMMODITY,ESCAPE from confinement,Horticulture,,Horticultuur,ONTSNAPPING
+17,Movement of COMMODITY,ESCAPE from confinement,Ornamental purpose other than horticulture,,Andere sierdoeleinden dan horticultuur,ONTSNAPPING
+18,Movement of COMMODITY,ESCAPE from confinement,Research and ex-situ breeding (in facilities),VIII/27,Onderzoek en ex-situ kweek (in faciliteiten),ONTSNAPPING
+19,Movement of COMMODITY,ESCAPE from confinement,Live food and live bait,,Levend aas en voeder,ONTSNAPPING
+20,Movement of COMMODITY,ESCAPE from confinement,Other escape from confinement,,Overige ontsnappingen,ONTSNAPPING
+21,Movement of COMMODITY,TRANSPORT – CONTAMINANT,Contaminant nursery material,,Verontreinigd kweekmateriaal,TRANSPORTBESMETTING
+22,Movement of COMMODITY,TRANSPORT – CONTAMINANT,Contaminated bait,,Verontreinigd aas,TRANSPORTBESMETTING
+23,Movement of COMMODITY,TRANSPORT – CONTAMINANT,Food contaminant (including of live food),VIII/27; XI/28,Verontreinigd voedsel (incl. levend voedsel),TRANSPORTBESMETTING
+24,Movement of COMMODITY,TRANSPORT – CONTAMINANT,"Contaminant on animals (except parasites, species transported by host/vector)",XI/28,Contaminant op dieren (excl. Parasieten),TRANSPORTBESMETTING
+25,Movement of COMMODITY,TRANSPORT – CONTAMINANT,Parasites on animals (including species transported by host and vector),XI/28,Dierparasieten (incl. transport via gastheer/vector),TRANSPORTBESMETTING
+26,Movement of COMMODITY,TRANSPORT – CONTAMINANT,"Contaminant on plants (except parasites, species transported by host/vector)",XI/28,Contaminant op planten (excl. Parasieten),TRANSPORTBESMETTING
+27,Movement of COMMODITY,TRANSPORT – CONTAMINANT,Parasites on plants (including species transported by host and vector),XI/28,Plantparasieten (incl. transport via gastheer/vector),TRANSPORTBESMETTING
+28,Movement of COMMODITY,TRANSPORT – CONTAMINANT,Seed contaminant,VIII/27,Contaminant van zaden,TRANSPORTBESMETTING
+29,Movement of COMMODITY,TRANSPORT – CONTAMINANT,Timber trade,,Houthandel,TRANSPORTBESMETTING
+30,Movement of COMMODITY,TRANSPORT – CONTAMINANT,"Transportation of habitat material (soil, vegetation,…)",,"Transport van grond, vegetatie,…",TRANSPORTBESMETTING
+31,VECTOR,TRANSPORT - STOWAWAY,Angling/fishing equipment,VIII/27,Vis- en hengelmateriaal,TRANSPORT VERSTEKELING
+32,VECTOR,TRANSPORT - STOWAWAY,Container/bulk,VIII/27,Container/bulkgoederen,TRANSPORT VERSTEKELING
+33,VECTOR,TRANSPORT - STOWAWAY,Hitchhikers in or on airplane,"VIII/27, IX/4",Verstekelingen in of op vliegtuigen,TRANSPORT VERSTEKELING
+34,VECTOR,TRANSPORT - STOWAWAY,Hitchhikers on ship/boat (excluding ballast water and hull fouling),,Verstekelingen op schepen en boten,TRANSPORT VERSTEKELING
+35,VECTOR,TRANSPORT - STOWAWAY,Machinery/equipment,VIII/27,Machines en uitrusting,TRANSPORT VERSTEKELING
+36,VECTOR,TRANSPORT - STOWAWAY,People and their luggage/equipment (in particular tourism),VIII/27,Mensen en hun bagage/uitrusting (vnl. toerisme),TRANSPORT VERSTEKELING
+37,VECTOR,TRANSPORT - STOWAWAY,"Organic packing material, in particular wood packaging",,"Organisch verpakkingsmateriaal, vnl. houten verpakkingen",TRANSPORT VERSTEKELING
+38,VECTOR,TRANSPORT - STOWAWAY,Ship/boat ballast water,VIII/27,Ballastwater van schepen en boten,TRANSPORT VERSTEKELING
+39,VECTOR,TRANSPORT - STOWAWAY,Ship/boat hull fouling,"VIII/27, IX/4",Fouling aan de romp van schepen en boten,TRANSPORT VERSTEKELING
+40,VECTOR,TRANSPORT - STOWAWAY,"Vehicles (car, train, …)",,"Voertuigen (wagens, treinen,…)",TRANSPORT VERSTEKELING
+41,VECTOR,TRANSPORT - STOWAWAY,Other means of transport,,Andere vormen van transport,TRANSPORT VERSTEKELING
+42,SPREAD,CORRIDOR,Interconnected waterways/basins/seas,VIII/27,"Verbonden waterwegen, stroombekkend, zeeën",CORRIDOR
+43,SPREAD,CORRIDOR,Tunnels and land bridges,,Tunnels en landbruggen,CORRIDOR
+44,SPREAD,UNAIDED,Natural dispersal across borders of invasive alien species that have been introduced through pathways 1 to 5,,Natuurlijke verspreiding over grenzen,AUTONOME UITBREIDING

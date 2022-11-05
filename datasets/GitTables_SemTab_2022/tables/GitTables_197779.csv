@@ -1,0 +1,6 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+Site 1,http://site1.com,Admin,Group Name,Security ID,Username,Password,1,auto
+Site 2,http://site2.com,Admin,Group Name,Security ID,Username,Password,0,auto
+Site 3,http://site3.com,Admin,Group Name,Security ID,,,T,1.x
+Site 4,http://site4.com,Admin,Group Name,Security ID,Username,Password,1,auto
+Site 5,http://site5.com,Admin,Group Name,Security ID,Username,Password,0,1.3

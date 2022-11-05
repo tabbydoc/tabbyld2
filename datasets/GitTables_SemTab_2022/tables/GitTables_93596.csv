@@ -1,0 +1,41 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+1,Celtic & Irish waters,MarineRegions:iho,MarineRegions,iho,Iho.80,Celtic Sea,include,2351
+1,Celtic & Irish waters,MarineRegions:iho,MarineRegions,iho,iho.33,Irish Sea and St. George's Channel,include,2357
+2,Kattegat Skagerrak Seas,MarineRegions:iho,MarineRegions,iho,Iho.96,Kattegat,include,2374
+2,Kattegat Skagerrak Seas,MarineRegions:iho,MarineRegions,iho,iho.98,Skagerrak,include,2379
+3,German North Sea,MarineRegions:eez,MarineRegions,eez,eez.218,German Exclusive Economic Zone,include,5669
+3,German North Sea,MarineRegions:iho,MarineRegions,iho,iho.57,Baltic Sea,exclude,2401
+4,Danish domestic waters,MarineRegions:eez,MarineRegions,eez,eez.219,Danish Exclusive Economic Zone,include,5674
+5,Dutch waters,MarineRegions:eez,MarineRegions,eez,eez.217,Dutch Exclusive Economic Zone,include,5668
+6,Eastern Newfoundland,MarineRegions:lme,MarineRegions,lme,lme.5,Labrador - Newfoundland,include,8544
+7,English North Sea,MarineRegions:iho,MarineRegions,iho,iho.32,Bristol Channel,include,3141
+7,English North Sea,MarineRegions:iho,MarineRegions,iho,iho.85,English Channel,include,2389
+7,English North Sea,MarineRegions:iho,MarineRegions,iho,iho.88,North Sea,include,2350
+7,English North Sea,MarineRegions:eez,MarineRegions,eez,eez.217,Dutch Exclusive Economic Zone,exclude,5668
+7,English North Sea,MarineRegions:eez,MarineRegions,eez,eez.219,Danish Exclusive Economic Zone,exclude,5674
+7,English North Sea,MarineRegions:eez,MarineRegions,eez,eez.216,Belgian Exclusive Economic Zone,exclude,3293
+7,English North Sea,MarineRegions:eez_iho,MarineRegions,iho,iho.363,Norwegian part of the North Sea,exclude,5686
+7,English North Sea,MarineRegions:eez,MarineRegions,eez,eez.218,German Exclusive Economic Zone,exclude,5669
+8,Baltic Sea,MarineRegions:iho,MarineRegions,iho,iho.57,Baltic Sea,include,2401
+9,Gulf of Maine,World:gulf_of_maine,World,gulf_of_maine,,Gulf of Maine,include,8940
+9,Gulf of Maine,MarineRegions:iho,MarineRegions,iho,iho.19,Bay of Fundy,exclude,4289
+10,Bay of Fundy,MarineRegions:iho,MarineRegions,iho,iho.19,Bay of Fundy,include,4289
+11,Icelandic waters,MarineRegions:eez,MarineRegions,eez,eez.85,Icelandic Exclusive Economic Zone,include,5680
+12,Norwegian waters,MarineRegions:iho,MarineRegions,iho,iho.99,Norwegian Sea,include,2353
+13,Iberian Peninsula,MarineRegions:iho,MarineRegions,iho,iho.79,Bay of Biscay,include,2359
+13,Iberian Peninsula,MarineRegions:eez,MarineRegions,eez,eez.105,Portuguese Exclusive Economic Zone,include,5688
+13,Iberian Peninsula,MarineRegions:eez_iho,MarineRegions,eez_iho,iho.491,Spanish part of the North Atlantic Ocean,include,25366
+13,Iberian Peninsula,MarineRegions:eez_iho,MarineRegions,iho,iho.427,Portuguese (Azores) part of the North Atlantic Ocean,exclude,25318
+13,Iberian Peninsula,MarineRegions:eez_iho,MarineRegions,iho,iho.428,Portuguese (Madeira) part of the North Atlantic Ocean,exclude,25320
+14,Salish Sea,MarineRegions:iho,MarineRegions,iho,iho.74,The Coastal Waters of Southeast Alaska and British Columbia,include,4313
+15,Scottish waters,MarineRegions:iho,MarineRegions,iho,iho.34,Inner Seas off the West Coast of Scotland,include,4283
+15,Scottish waters,MarineRegions:iho,MarineRegions,iho,iho.88,North Sea,include,2350
+15,Scottish waters,MarineRegions:eez,MarineRegions,eez,eez.217,Dutch Exclusive Economic Zone,exclude,5668
+15,Scottish waters,MarineRegions:eez,MarineRegions,eez,eez.219,Danish Exclusive Economic Zone,exclude,5674
+15,Scottish waters,MarineRegions:eez,MarineRegions,eez,eez.216,Belgian Exclusive Economic Zone,exclude,3293
+15,Scottish waters,MarineRegions:eez_iho,MarineRegions,iho,iho.363,Norwegian part of the North Sea,exclude,5686
+15,Scottish waters,MarineRegions:eez,MarineRegions,eez,eez.218,German Exclusive Economic Zone,exclude,5669
+15,Scottish waters,MarineRegions:eez_iho,MarineRegions,iho,iho.537,United Kingdom part of the North Atlantic Ocean,include,25362
+16,West Greenland,MarineRegions:iho,MarineRegions,iho,iho.29,Davis Strait,include,4250
+17,Massachussets,MarineRegions:world_bay_gulf,MarineRegions,world_bay_gulf,world_bay_gulf.228,Massachusetts Bay,include,18882
+17,Massachussets,MarineRegions:world_bay_gulf,MarineRegions,world_bay_gulf,world_bay_gulf.25,Cape Cod Bay,include,17487

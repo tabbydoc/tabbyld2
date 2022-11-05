@@ -1,0 +1,37 @@
+col0,col1,col2,col3,col4
+ChromosomeLengthFile,string,,This is a tab-delimited text file that contains the same names as the chromosomes in your dataset followed by the chromosome length.  This file can generally be pulled down from the NCBI website under the build you are using (hg19 or hg38).  This is used for chunking the imputed data., if :code:`skipChunking:false`
+Build,"option: 
+hg19 or hg38",hg38,This determines whether the software needs to be searching for a “chr” before the chomosome name or not,
+Chromosomes,string,1-22,"This lets the software know which chromosomes you want to use for association analysis.  It must be a range.  If you want to only run analysis on a single chromsome, the start and end will be the same value.  For example:  running chromome 2 only will look like 2-2.",if :code:`GenerateAssociations:true`
+ImputeSuffix,string,,"The full suffix for the software to determine which files in the directory are impuation files. Important, it is assuming the prefix is either a chromosome number (hg19) or the string chr followed by the chromosome number (hg38)",if :code:`GenerateAssociations:true` and :code:`skipChunking:false`
+ImputeDir,string,,Full path to directory where imputed results are located,if :code:`GenerateAssociations:true` 
+OutDir,string,,Full path to directory where final results should be transferred,all
+OutPrefix,string,,string (no whitespace or special characters) to prefix to the output files generated,all
+PhenoFile,string,,"Full path to tab-delimted phenotype file containing sample IDs, phenotypes, and covariates, with whatever string of  headers you choose. NO WHITESPACES in header names.",If ::code:`GenerateNull:true`
+Plink,string,,"Full path to the directory and plink file prefix (dropping the suffix .bed,.bim,.fam) to an LD-pruned set of data to be used to generate GRM relatedness and to select random markers from for the variance ratio value",If :code:`GenerateGRM:true` or :code:`GenerateNull:true`
+Trait,option: binary or quantitative,,"Based upon your association phenotype.  If binary, all values will be 0/1/NA, if quantitivate all phenotype traits to be analyzed will be continuous or have numeric quantitative meaning",if :code:`GenerateNull:true` or :code:`GenerateResults:true`
+Pheno,string,,The exact name (case-sensitive) of the phenotype to be analyzed in your PhenoFile.  Must be present in PhenoFile.,if :code:`GenerateNull:true` or :code:`GenerateResults:true`
+InvNorm,boolean,FALSE,"This applies to the phenotype of interest to be analzyed and whether to perform an inverse normalization.  For binary traits, this should be set to FALSE and for quantitative traits, set this to TRUE.",if :code:`GenerateNull:true`
+Covars,comma-separated list,,A comma-separated list (no whitespaces) of all the covariate names to regress out in the model.  These variables need to be in your PhenoFile.,if :code:`GenerateNull:true` or :code:`GenerateResults:true`
+SampleID,string,,"A string (no whitespaces) that is contained in the header of your PhenoFile.  This is the sampleID names and they must be the same names as listed in the PhenoFile, Imputation Files, and Plink Files.",if :code:`GenerateNull:true`
+Nthreads,int,,"Strongly Recommned to leave this blank!  If left blank, it will auto-decect available resources and scale steps automatically on the back-end.  By specifiying the threads it tells the program to use max Nthreads for parallelization and concurrency.",all
+SparseKin,boolean,TRUE,"If set to true, takes advantage of the sparsity of the GRM, otherwise will not use the sparsity to make assessments",if :code:`GenerateNull:true`
+Markers,int,30,The number of random markers selected from the LD-pruned plink file to estimate the variance ratio component in the null model. Warning!  This number increases time linearly,if :code:`GenerateNull:true`
+Rel,float,0.0625,A float between 0.0-1.0.  This is the threshold in kinship estimate to consider someone related.  Anything below this value will be treated as an unrelated individual in the pairwise comparison and calculation for the sparse GRM.,if :code:`GenerateGRM:true`
+Loco,boolean,TRUE,"Leave-One-Chromosome-Out method.  Warning – Setting this to true, increases the time complexity of the algorithm.",if :code:`GenerateNull:true`and :code:`GenerateAssociations:true`
+CovTransform,boolean,TRUE,Recommended to set to true.  It is a QR decomposition that aids in the covergence of the null model.,if :code:`GenerateNull:true`
+VcfField,option: DS or GT,DS,"This determines what metric to base association upon.  DS = dosages and GT = genotypes.  If you have genotypes only, i.e. chip data withouth dosage calculations, DS cannot be used!",if :code:`GenerateAssociations:true`
+MAF,float,0.05,"Float between 0.0-0.50 that specifies the cutoff to be considered a common snp or a rare snp.  For example, keeping this to the default of 0.05 will assume common snps are defined as those with a minor allele frequency >5% and that rare snps are defined as those with a minor allele frequency ≤ 5%.  THIS IS NOT A FILTER!",if :code:`GenerateResults:true`
+MAC,int,10,A filter applied to the cleaned association results to remove snps that have low minor allele counts.  Default recommendation is to set this to 10.,if :code:`GenerateResults:true`
+IsDropMissingDosages,boolean,FALSE,,if :code:`GenerateAssociations:true`
+InfoFile,string,,"Path to the info file.  This file contains snps information pertaining to chromosome, positions, genotype/imputation status, R2, ER2 values. For formatting of this file please refer to <-----------------→",if :code:`GenerateResults:true`
+SaveChunks,boolean,TRUE,Specifies whether to save the chunked files and the queue list for future use.,if :code:`GenerateAssociations:true` and :code:`skipChunking:false`
+GrmMAF,float,0.01,"The minor allele frequency threshold for a snp to be included in the GRM calculation based on the LD-pruned plink file.  For example, if set to 0.01 this means any snp with a MAF > 0.01 wil be used to calculate relatedness in the GRM.",if :code:`GenerateGRM:true`
+ChunkVariants,int,1000000,The window of base pairs to chunk imputation files.  It is recommended to keep this at the default of 1000000.,if :code:`GenerateNull:true` and :code:`SkipChunking:false`
+SaveAsTar,boolean,FALSE,,all
+ImputationFileList,string,,Ends in _chunkedImputationQueue.txt,if :code:`GenerateAssociations:true` and :code:`skipChunking:true`
+SparseGRM,string,,Ends in .sparseGRM.mtx,if :code:`GenerateGRM:false` and :code:`GenerateNull:true`
+SampleIDFile,string,,Ends in sparseGRM.mtx.sampleIDs.txt,if :code:`GenerateGRM:false` and :code:`GenerateNull:true`
+NullModelFile,string,,Ends in .rda,if :code:`GenerateNull:false` and :code:`GenerateAssociations:true`
+VarianceRatioFile,string,,Ends in .varianceRatio.txt,if :code:`GenerateNull:false` and :code:`GenerateAssociations:true`
+AssociationFile,string,,Ends in _SNPassociationAnalysis.txt,If :code:`GenerateAssociations:false` and :code:`GenerateResults:true`

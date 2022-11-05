@@ -1,0 +1,102 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+Akron OH,Med,483,0,0,0,1,20
+Albany NY,Med,682,0,0,0,1,26
+Albuquerque NM,Med,658,0,0,0,1,39
+Allentown-Bethlehem PA-NJ,Med,656,0,0,0,1,38
+Anchorage AK,Sml,367,1,0,0,0,17
+Atlanta GA,Vlg,1120,0,0,1,0,78
+Austin TX,Lrg,930,0,1,0,0,61
+Bakersfield CA,Med,298,0,0,0,1,34
+Baltimore MD,Lrg,908,0,1,0,0,77
+Baton Rouge LA,Med,1052,0,0,0,1,44
+Beaumont TX,Sml,531,1,0,0,0,15
+Birmingham AL,Med,773,0,0,0,1,45
+Boise ID,Sml,334,1,0,0,0,39
+Boston MA-NH-RI,Vlg,1147,0,0,1,0,56
+Boulder CO,Sml,436,1,0,0,0,17
+Bridgeport-Stamford CT-NY,Med,902,0,0,0,1,59
+Brownsville TX,Sml,565,1,0,0,0,17
+Buffalo NY,Lrg,718,0,1,0,0,20
+Cape Coral FL,Sml,645,1,0,0,0,43
+Charleston-North Charleston SC,Med,647,0,0,0,1,52
+Charlotte NC-SC,Lrg,898,0,1,0,0,59
+Chicago IL-IN,Vlg,1153,0,0,1,0,88
+Cincinnati OH-KY-IN,Lrg,814,0,1,0,0,47
+Cleveland OH,Lrg,642,0,1,0,0,21
+Colorado Springs CO,Med,530,0,0,0,1,32
+Columbia SC,Sml,663,1,0,0,0,34
+Columbus OH,Lrg,847,0,1,0,0,49
+Corpus Christi TX,Sml,287,1,0,0,0,12
+Dallas-Fort Worth-Arlington TX,Vlg,957,0,0,1,0,70
+Dayton OH,Med,507,0,0,0,1,25
+Denver-Aurora CO,Lrg,937,0,1,0,0,72
+Detroit MI,Vlg,859,0,0,1,0,60
+El Paso TX-NM,Med,688,0,0,0,1,31
+Eugene OR,Sml,284,1,0,0,0,18
+Fresno CA,Med,337,0,0,0,1,42
+Grand Rapids MI,Med,501,0,0,0,1,29
+Greensboro NC,Sml,588,1,0,0,0,18
+Hartford CT,Med,781,0,0,0,1,41
+Honolulu HI,Med,928,0,0,0,1,60
+Houston TX,Vlg,1090,0,0,1,0,69
+Indianapolis IN,Lrg,930,0,1,0,0,62
+Indio-Cathedral City-Palm Springs CA,Med,331,0,0,0,1,31
+Jackson MS,Sml,594,1,0,0,0,23
+Jacksonville FL,Lrg,635,0,1,0,0,55
+Kansas City MO-KS,Lrg,584,0,1,0,0,23
+Knoxville TN,Med,792,0,0,0,1,31
+Lancaster-Palmdale CA,Med,317,0,0,0,1,29
+Laredo TX,Sml,418,1,0,0,0,96
+Las Vegas NV,Lrg,906,0,1,0,0,78
+Little Rock AR,Sml,545,1,0,0,0,32
+Los Angeles-Long Beach-Santa Ana CA,Vlg,1300,0,0,1,0,94
+Louisville KY-IN,Lrg,776,0,1,0,0,57
+Madison WI,Sml,436,1,0,0,0,26
+McAllen TX,Med,599,0,0,0,1,30
+Memphis TN-MS-AR,Lrg,833,0,1,0,0,33
+Miami FL,Vlg,993,0,0,1,0,94
+Milwaukee WI,Lrg,585,0,1,0,0,34
+Minneapolis-St. Paul MN,Lrg,695,0,1,0,0,50
+Nashville-Davidson TN,Lrg,1034,0,1,0,0,48
+New Haven CT,Med,717,0,0,0,1,39
+New Orleans LA,Lrg,629,0,1,0,0,44
+New York-Newark NY-NJ-CT,Vlg,1281,0,0,1,0,72
+Oklahoma City OK,Med,803,0,0,0,1,38
+Omaha NE-IA,Med,494,0,0,0,1,44
+Orlando FL,Lrg,984,0,1,0,0,80
+Oxnard CA,Med,543,0,0,0,1,59
+Pensacola FL-AL,Sml,463,1,0,0,0,34
+Philadelphia PA-NJ-DE-MD,Vlg,1018,0,0,1,0,61
+Phoenix-Mesa AZ,Vlg,837,0,0,1,0,71
+Pittsburgh PA,Lrg,826,0,1,0,0,25
+Portland OR-WA,Lrg,937,0,1,0,0,68
+Poughkeepsie-Newburgh NY,Med,531,0,0,0,1,29
+Providence RI-MA,Lrg,611,0,1,0,0,33
+Provo-Orem UT,Sml,514,1,0,0,0,32
+Raleigh-Durham NC,Lrg,502,0,1,0,0,50
+Richmond VA,Med,581,0,0,0,1,33
+Riverside-San Bernardino CA,Lrg,854,0,1,0,0,82
+Rochester NY,Med,590,0,0,0,1,17
+Sacramento CA,Lrg,669,0,1,0,0,81
+Salem OR,Sml,580,1,0,0,0,24
+Salt Lake City UT,Lrg,620,0,1,0,0,58
+San Antonio TX,Lrg,787,0,1,0,0,63
+San Diego CA,Vlg,774,0,0,1,0,75
+San Francisco-Oakland CA,Vlg,1266,0,0,1,0,79
+San Jose CA,Lrg,800,0,1,0,0,77
+San Juan PR,Lrg,625,0,1,0,0,74
+Sarasota-Bradenton FL,Med,444,0,0,0,1,62
+Seattle WA,Vlg,1050,0,0,1,0,64
+Spokane WA-ID,Sml,518,1,0,0,0,13
+Springfield MA-CT,Med,575,0,0,0,1,21
+St. Louis MO-IL,Lrg,686,0,1,0,0,31
+Stockton CA,Sml,293,1,0,0,0,34
+Tampa-St. Petersburg FL,Lrg,791,0,1,0,0,70
+Toledo OH-MI,Med,555,0,0,0,1,22
+Tucson AZ,Med,921,0,0,0,1,61
+Tulsa OK,Med,668,0,0,0,1,25
+Virginia Beach VA,Lrg,877,0,1,0,0,50
+Washington DC-VA-MD,Vlg,1398,0,0,1,0,85
+Wichita KS,Med,405,0,0,0,1,5
+Winston-Salem NC,Sml,435,1,0,0,0,18
+Worcester MA-CT,Sml,677,1,0,0,0,22

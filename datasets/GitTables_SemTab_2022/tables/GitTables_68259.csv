@@ -1,0 +1,34 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1,1,8,9,Crankshaft and Connecting Rods,1,Crankshaft and Connecting Rods,CRANKSHAFT CONNECTING RODS ROD
+2,1,10,13,Crankcase,2,Crankcase,CRANKCASE
+3,1,14,15,Oil Pump and Release Valve,3,Oil Pump and Release Valve,OIL PUMP RELEASE VALVE
+4,1,16,17,Manifold and Tappets,4,Manifold and Tappets,MANIFOLD TAPPETS TAPPET
+5,1,18,21,Cylinder Block and Head TR7RV,5,Cylinder Block and Head TR7RV,CYLINDER BLOCK HEAD TR7RV
+6,1,22,25,Cylinder Block and Head T140V,6,Cylinder Block and Head T140V,CYLINDER BLOCK HEAD T140V
+7,1,26,27,Carburetor TR7RV,8,Amal Carburetor TR7RV,AMAL CARBURETOR TR7RV
+8,1,28,29,Carburetor T140V,9,Amal Carburetor T140V,AMAL CARBURETOR T140V
+9,1,30,31,Timing Cover and Contact Breaker,10,Timing Cover and Contact Breaker,TIMING COVER CONTACT BREAKER
+10,1,32,33,Gearbox Inner Cover and Selectors,11,Gearbox Inner Cover and Selectors,GEARBOX INNER COVER SELECTORS SELECTOR
+11,1,34,35,Gearbox Shafts and Gears,12,Gearbox Shafts and Gears (5-Speed),GEARBOX SHAFTS GEARS GEAR 5-SPEED 5 FIVE SPEED
+12,1,36,37,Gearbox Outer Cover,13,Gearbox Outer Cover,GEARBOX OUTER COVER
+13,1,38,39,Clutch,14,Clutch,Clutch
+14,1,40,41,Chaincase and Chains,15,Chaincase and Chains,CHAINCASE CHAINS CHAIN
+15,1,42,43,Frame,16,Frame,FRAME
+16,1,44,45,Swinging Arm and Suspension Units,17,Swinging Arm and Suspension Units,SWINGING ARM SUSPENSION UNITS
+17,1,46,47,Motor Unit Fittings and Footrests,18,Motor Unit Fittings and Footrests,MOTOR UNIT FITTINGS FOOTRESTS
+18,1,48,49,Exhaust Pipes and Mufflers,19,Exhaust Pipes and Mufflers,EXHAUST PIPES MUFFLERS
+19,1,50,53,Telescopic Front Fork,20,Telescopic Front Fork,TELESCOPIC FRONT FORK
+20,1,54,55,Front Wheel,22,Front Wheel,FRONT WHEEL
+21,1,56,59,Front Brake,23,Front Brake,FRONT BRAKE
+22,1,60,61,Rear Wheel,24,Rear Wheel,REAR WHEEL
+23,1,62,65,Rear Brake,25,Rear Brake,REAR BRAKE
+24,1,66,67,Gas Tank and Twin Seat,25,Gas Tanks and Twin Seat,GAS TANK TWIN SEAT
+25,1,68,69,Air Cleaner and Side Panels,26,Air Cleaner and Side Panels,AIR CLEANER SIDE PANELS
+26,1,70,71,Fenders,27,Fenders,FENDERS
+27,1,72,73,Tail Lamp and Support,28,Tail Lamp and Support,TAIL LAMP SUPPORT
+28,1,74,75,Handlebars and Control Levers,29,Handlebars and Control Levers,HANDLEBARS CONTROL LEVERS
+29,1,76,77,Control Cables,30,Control Cables,CONTROL CABLES
+30,1,78,79,Toolkit,31,Toolkit,TOOLKIT
+31,1,80,81,Speedometer and Tachometer,32,Speedometer and Tachometer,SPEEDOMETER TACHOMETER
+32,1,82,83,Electrical Components,33,Electrical Components,ELECTRICAL COMPONENTS
+33,1,84,87,Headlamp; Battery and Flasher Lamps,34,Headlamp; Battery and Flasher Lamps,HEADLAMP BATTERY FLASHER LAMPS

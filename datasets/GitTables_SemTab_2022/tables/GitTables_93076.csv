@@ -1,0 +1,52 @@
+col0,col1,col2,col3,col4,col5,col6
+AF-CBR,Afghanistan,Afghanistan Central Business Registry,http://acbr.gov.af/,No,Website not yet searchable ,WR 11/10/13
+AF-MOE,Afghanistan,Ministry of Economy,http://moec.gov.af/en,Yes,,WR 15/10/13
+BE-BCE_KBO,Belgium,Banque Carrefour des entreprises / Kruispuntbank van ondernemingen,economie.fgov.be/fr/entreprises/BCE,Yes,,
+CA-CRA_ACR,Canada,Canadian Revenue Agency / Agence du revenu du Canada,http://www.cra-arc.gc.ca/,Yes,CRA_ACR is legal requirement for bilingual use,
+ET-MFA,Ethiopia,Ministry of Foreign Affairs,http://www.mfa.gov.et/,No,Charities are registered but no openly searchable database yet available. ,WR 15/10/13
+FR-RCS,France,Registre de Commerce et des Societies /Trade and Companies Register - Commercial Court Registry,http://www.infogreffe.fr,Yes,,WR 11/10/13
+GH-DSW,Ghana,Department of Social Welfare,,No,,
+ID-PRO,Indonesia,NGOs registered at Provinicial Level,http://www.satulayanan.net/layanan/pendaftaran-lsm-atau-ormas/perizinan-lsm-atau-ormas-baru,No,"Registration for NGO in Indonesia can be done at the provincial level. Because there is regional autonomy, each provincial has different requirements. Website is just one example",WR 22/10/13
+ID-KDN,Indonesia,Ministry Home affairs/ Kementerian Dalam Negeri,http://www.kemendagri.go.id/media/filemanager/2011/02/22/d/a/daf.ormas___lsm_2010.pdf,Yes,NGO registration can also be done through Ministry Home affairs/ Kementerian Dalam Negeri,WR 22/10/13
+ID-KHH,Indonesia,Ministry of Justice & Human Rights/ Kementerian Hukum Dan Hak,http://www.kemenkumham.go.id/,No,Company registration is done through Ministry of Justice & Human Rights/ Kementerian Hukum Dan Hak,WR 22/10/13
+ID-KLN,Indonesia,Ministry of Foreign affairs/ Kementerian Luar Negeri,http://www.kemlu.go.id/,No,International NGO registration is done through Ministry of Foreign affairs/ Kementerian Luar Negeri,WR 22/10/13
+IM-CR,Isle of Man,Isle of Man Companies Registry,http://www.gov.im/ded/companies/companiesregistry.xml?menuid=21615,Yes,,
+IM-GR,Isle of Man,Isle of Man Index of Registered Charities,http://www.gov.im/registries/courts/charities/,Yes,,
+KE-NCB,Kenya,NGO's Coordination Board,http://www.ngobureau.or.ke/,Yes,,
+KE-RCO,Kenya,Registar of Companies,http://www.attorney-general.go.ke/,No,,
+KE-RSO,Kenya,Registrar of Societies,http://www.attorney-general.go.ke/,No,,
+LS-LCN,Lesotho,Lesotho Council of Non Governmental Organisations,http://www.lcn.org.ls/,No,,
+MM-MHA,Myanmar,Ministry of Home Affairs - Central Committee for the Registration and Supervision of Organisations,No website for the ministry (as at 2/10/2013),No,"The MHA assigns a registration number to each NGO - this number is time limited, for example 4 years, after which the registration is reviewed.",
+MW-CNM,Malawi,The Council for Non Governmental Organisations in Malawi,http://www.congoma.mw/index.html,No,,
+MW-MRA,Malawi,Malawi Revenue Authority,http://www.mra.mw/,No,,
+MW-NBM,Malawi,NGO Board of Malawi,http://ngoboardmalawi.mw/directory.php,No,"There is a pdf file with a list of registered NGOs, but these do not appear to be registration numbers. New database is planned",
+MW-RG,Malawi,"Registrar General, Department of Justice",,No,,
+NP-CRO,Nepal,Company Registrar Office,http://www.cro.gov.np/,,,
+NP-SWC,Nepal,NGO registration,http://www.swc.org.np/,Yes,,
+NL-KVK,Netherlands,Kamer van Koophandel,http://www.kvk.nl/,Yes,,
+NO-BRC,Norway,Brønnøysundregistrene,http://www.brreg.no/,Yes,,
+IE-CRO,Ireland,Irish CompaniesRegistration Office,http://www.cro.ie/,Yes,,
+IE-CHY,Ireland,Irish Register of Charities,,No,,
+ZA-CIP,South Africa,Companies and Intellectual Property Commission (CIPC),http://www.cipro.gov.za/,Yes,,
+ZA-NPO,South Africa,Association for Non-Profit Organisations,http://npo.org.za/index.htm,Yes,Links thru to govt site http://www.npo.gov.za/PublicNpo/Npo,
+ZA-PBO,South Africa,SA Revenue Service Tax Exemption Unit / Public Benefit Organisations,http://www.sars.gov.za/home.asp?pid=170,No,,
+SE-BLV,Sweden,Bolagsverket / Swedish Companies Registration Office,http://www.bolagsverket.se/,Yes,,
+UG-NGB,Uganda,"NGO Board, Ministry of Internal Affairs",http://www.mia.go.ug/?page_id=62,No,,
+UG-RSB,Uganda,Registration Services Bureau,http://www.ursb.go.ug/,No,,
+GB-CHC,United Kingdom,Charity Commission,http://www.charity-commission.gov.uk/,Yes,,
+GB-COH,United Kingdom,Companies House,http://www.companieshouse.gov.uk/,Yes,,
+GB-GOVUK,United Kingdom,"UK Government Departments, Agencies & Public Bodies",https://www.gov.uk/government/organisations,Yes,"Use the final segment of the url (below /organisations) as the ""registration number"", converting all ""-"" to ""_"". Keep ""registration number"" portion all lowercase. ",
+GB-NIC,United Kingdom,The Charity Commission for Northern Ireland,http://www.charitycommissionni.org.uk/,Yes,,
+GB-REV,United Kingdom,HM Revenue and Customs,http://www.hmrc.gov.uk/,No,,
+GB-SC,United Kingdom,Scottish Charity Register,http://www.oscr.org.uk/,Yes,,
+US-EIN,United States,Internal Revenue Service / Employer Identification Number,"http://www.irs.gov/businesses/small/article/0,,id=98350,00.html",,,
+US-USAGOV,United States,Index of U.S. Government Departments and Agencies,http://www.usa.gov/directory/federal/index.shtml,Yes,"Use the final segment of the url (below /federal and excluding the extension) as the ""registration number"", converting all ""-"" to ""_"". Keep ""registration number"" portion all lowercase. ",
+US-DOS,United States,Corporation registration is the responsibility of each state (see link),http://www.companieshouse.gov.uk/links/usaLink.shtml,No,Added by WR 15/10/2013,
+ZM-PCR,Zambia,Patents and Companies Registration Agency,http://www.pacra.org.zm/,No,,
+ZM-NRB,Zambia,Non Governmental Organisation Registration Board,,No,Added by WR 15/10/13. Only just set up in Spring 2013 and is currently facing a lot of objection,
+AU-ABN,Australia,Australian Business Register,http://abr.business.gov.au/,Yes,,SF 23/10/2013
+AU-ACNC,Australia,Australian Charities and Not-for-profits Commission,http://www.acnc.gov.au/ACNC/,Yes,,SF 23/10/2013
+,,,,,,
+,,,,,,
+,,,,,,
+,,NB see also http://www.rba.co.uk/sources/registers.htm,,,,

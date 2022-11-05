@@ -1,0 +1,34 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1,AllergyIntolerance,US Core AllergyIntolerance Profile,"clinical-status, patient",patient+clinical-status,,Provenance:target,
+2,CarePlan,US Core CarePlan Profile,"category, date, patient, status","patient+category+status+date, patient+category+status, patient+category, patient+category+date",,Provenance:target,
+3,CareTeam,US Core CareTeam Profile,"patient, status",patient+status,,Provenance:target,
+4,Condition,US Core Condition Profile,"category, clinical-status, patient, onset-date, code","patient+onset-date, patient+category, patient+clinical-status, patient+code",,Provenance:target,
+5,Device,US Core Implantable Device Profile,"patient, type",patient+type,,Provenance:target,
+6,DiagnosticReport,"US Core DiagnosticReport Profile for Report and Note exchange, 
+
+						US Core DiagnosticReport Profile for Laboratory Results Reporting","status, patient, category, code, date","patient+category+date, patient+status, patient+code+date, patient+category, patient+code",,Provenance:target,
+7,DocumentReference,US Core DocumentReference Profile,"_id, status, patient, category, type, date, period","patient+type+period, patient+type, patient+category+date, patient+status, patient+category",,Provenance:target,docref
+8,Encounter,US Core Encounter Profile,"_id, class, date, identifier, patient, status, type","class+patient, patient+status, patient+type, date+patient",,Provenance:target,
+9,Goal,US Core Goal Profile,"lifecycle-status, patient, target-date","patient+lifecycle-status, patient+target-date",,Provenance:target,
+10,Immunization,US Core Immunization Profile,"patient, status, date","patient+date, patient+status",,Provenance:target,
+11,Location,US Core Location Profile,"name, address, address-city, address-state, address-postalcode",,,,
+12,Medication,US Core Medication Profile,,,,,
+13,MedicationRequest,US Core MedicationRequest Profile,"status, intent, patient, encounter, authoredon","patient+intent, patient+intent+encounter, patient+intent+authoredon, patient+intent+status",MedicationRequest:medication,Provenance:target,
+14,Observation,"US Core Smoking Status Observation Profile, 
+
+						US Core Pediatric Weight  for Height Observation Profile, 
+
+						US Core Laboratory Result Observation Profile, 
+
+						US Core Pediatric BMI for Age Observation Profile, 
+
+						US Core Pulse Oximetry Profile, 
+
+						US Core Pediatric Head Occipital-frontal Circumference Percentile Profile","status, category, code, date, patient","patient+category+date, patient+category+status, patient+code+date, patient+category, patient+code",,Provenance:target,
+15,Organization,US Core Organization Profile,"name, address",,,,
+16,Patient,US Core Patient Profile,"_id, birthdate, family, gender, given, identifier, name","birthdate+family, family+gender, birthdate+name, gender+name",,Provenance:target,
+17,Practitioner,US Core Practitioner Profile,"name, identifier",,,,
+18,PractitionerRole,US Core PractitionerRole Profile,"specialty, practitioner",,"PractitionerRole:endpoint, PractitionerRole:practitioner",,
+19,Procedure,US Core Procedure Profile,"status, patient, date, code","patient+date, patient+status, patient+code+date",,Provenance:target,
+20,Provenance,US Core Provenance Profile,,,,,
+21,ValueSet,,,,,,expand

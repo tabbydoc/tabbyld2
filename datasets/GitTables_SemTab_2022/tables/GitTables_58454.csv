@@ -1,0 +1,78 @@
+col0,col1,col2,col3,col4
+1,28,Adverse event reporting,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+2,28,Adverse event reporting,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+3,41,Analysis,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+4,41,Analysis,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+5,13,Bug-fixes,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+6,13,Bug-fixes,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+7,48,Code review,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+8,48,Code review,Suresite LTD - Laravel Developer,5
+9,29,Collation of treatment records,Cancer Research UK  Clinical Trials Unit - Data Manager,3
+10,36,Configuration of wireless devices,Synstar Computer Services - Track-side Engineer,6
+11,53,"Contract to Invoice process (Contract, Booking, Billing Run, Invoice Approval) ",Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+12,19,"Data collection systems (Case Report Forms, lab results, patient questionnaires etc)",Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+13,19,"Data collection systems (Case Report Forms, lab results, patient questionnaires etc)",Bechtel Water Technology – Technical Data Processor,7
+14,27,Data-entry,Cancer Research UK  Clinical Trials Unit - Data Manager,3
+15,27,Data-entry,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+16,38,Database backup,Bechtel Water Technology – Technical Data Processor,7
+17,14,Day-to-day project management,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+18,14,Day-to-day project management,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+19,8,"DBA (eg. User / role Management, Maintenance Plans etc) ",Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+20,42,Design,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+21,42,Design,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+22,10,Design specification,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+23,10,Design specification,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+24,16,Enhancement,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+25,16,Enhancement,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+26,26,"Entering patients on the trial, via randomisation wizard",Cancer Research UK  Clinical Trials Unit - Data Manager,3
+27,55,Factory pattern to derive a dynamic menu ,Suresite LTD - Laravel Developer,5
+28,54,"Finance Config (Tax Codes and Rates, Financial Products, Currency X-Change Rates) ",Suresite LTD - Laravel Developer,5
+29,1,General tidiness of the yard,National Car Auctions - Auction Driver,4
+30,30,Generating data queries and reports,Bechtel Water Technology – Technical Data Processor,7
+31,30,Generating data queries and reports,Bechtel Water Technology – Technical Data Processor,7
+32,43,Implementation,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+33,43,Implementation,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+34,37,"Installation & service of terminals, printers, barcode scanners etc",Synstar Computer Services - Track-side Engineer,6
+35,33,Installation & support of servers and desktop PCs,Synstar Computer Services - Track-side Engineer,6
+36,23,Integration & maintenance of the Data Warehouse system,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+37,44,Maintenance,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+38,44,Maintenance,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+39,25,Maintenance of 'Control of Substances Hazardous to Health (COSHH)' database,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+40,50,"Manage Customers (Address, Bank Accounts, Contacts, Opening Hours) ",Suresite LTD - Laravel Developer,5
+41,52,"Manage Product and Items (Supplier Products and Price Lists for various currencies, Item Bundles and Prices for various currencies) ",Suresite LTD - Laravel Developer,5
+42,51,"Manage Suppliers (Address, Bank Accounts, Contacts) ",Suresite LTD - Laravel Developer,5
+43,32,Managing participating centres (data warehouse),Cancer Research UK  Clinical Trials Unit - Data Manager,3
+44,31,Managing participating clinicians (data warehouse),Cancer Research UK  Clinical Trials Unit - Data Manager,3
+45,31,Maneuvering & parking of vehicles on site,National Car Auctions - Auction Driver,4
+46,57,"Modal window for info, forms and approval ",Suresite LTD - Laravel Developer,5
+47,35,Monitoring of UNIX fail-over cluster,Synstar Computer Services - Track-side Engineer,6
+48,9,Needs elicitation,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+49,9,Needs elicitation,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+50,34,Offsite Backups,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+51,47,Policies & Procedures,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+52,47,Policies & Procedures,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+53,6,Presentation of vehicles on sale days,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+54,11,Project Implementation,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+55,11,Project Implementation,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+56,22,Randomisation systems,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+57,22,Randomisation systems,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+58,21,Reports,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+59,21,Reports,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+60,2,Route planning,National Car Auctions - Auction Driver,4
+61,24,Sample tracking & storage systems,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+62,49,Site Action to manage customer issues with history and context links to the CDM application,Suresite LTD - Laravel Developer,5
+63,3,Speaking to customers,National Car Auctions - Auction Driver,4
+64,15,Standard Operating Procedures (SOPs),Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+65,15,Standard Operating Procedures (SOPs),Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+66,18,Testing,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+67,18,Testing,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+68,56,User defined Lookup to enable the business to change the values in picklists ,Suresite LTD - Laravel Developer,5
+69,45,User support,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+70,45,User support,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2
+71,46,Using XML based code generation tools,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+72,4,Vehicle condition checks,National Car Auctions - Auction Driver,4
+73,5,Vehicle loading,National Car Auctions - Auction Driver,4
+74,20,Views,National Car Auctions - Auction Driver,4
+75,20,Views,Birmingham Clinical Trials Unit (BCTU) - Analyst Programmer,1
+76,20,Writing data queries,Bechtel Water Technology – Technical Data Processor,7
+77,20,Views,Cancer Research UK  Clinical Trials Unit - Analyst Programmer,2

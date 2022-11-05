@@ -1,0 +1,8 @@
+col0,col1,col2,col3,col4
+1,tumir,Tumor,True,"<button type='button' class='btn btn-secondary load' onclick='Shiny.onInputChange(""lastClickId"",this.id);' id='next_examples_for_tumir"
+2,tumor,Tumor,True,"<button type='button' class='btn btn-secondary load' onclick='Shiny.onInputChange(""lastClickId"",this.id);' id='next_examples_for_tumor"
+36,metastasis,Tumor,True,"<button type='button' class='btn btn-secondary load' onclick='Shiny.onInputChange(""lastClickSimilar_termId"",this.id);' id='next_examples_for_metastasis"
+37,metastatic,Tumor,True,"<button type='button' class='btn btn-secondary load' onclick='Shiny.onInputChange(""lastClickSimilar_termId"",this.id);' id='next_examples_for_metastatic"
+35,metastases,Tumor,True,"<button type='button' class='btn btn-secondary load' onclick='Shiny.onInputChange(""lastClickSimilar_termId"",this.id);' id='next_examples_for_metastases"
+38,mets,Tumor,True,"<button type='button' class='btn btn-secondary load' onclick='Shiny.onInputChange(""lastClickSimilar_termId"",this.id);' id='next_examples_for_mets"
+9,cell_carcinoma,Tumor,True,"<button type='button' class='btn btn-secondary load' onclick='Shiny.onInputChange(""lastClickSimilar_termId"",this.id);' id='next_examples_for_cell_carcinoma"

@@ -1,0 +1,15 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27,col28,col29,col30,col31,col32,col33,col34,col35,col36,col37,col38,col39
+// doc & TODOs (next line is defaults),,,,,,,,,avoid if several of the same (sub)type,,,"Note that for ease of use, id fields are auto added as parent fields when they are not yet such (however, to fully control parent field order ex. primary parent is an id field, all parent fields have to have an indexInParents)",,"Is Mixin = !isInstanciable.
+Defaults to true, set to false when :
+you don't want to import a Resource of this precise type,
+such as for reusable, not concrete type (mixin)
+or for concrete types inheriting from a polymorphic storage type","Defaults to true, set to false when :
+You don't want this type to have its own collection / table,
+Such as for concrete types inheriting from a polymorphic storage type","(differs from saying that a given inherited field should not be redefined, which is auto)
+Defaults to true, set to false when :
+No inherited field definition should be redefined",,i.e. reuses but overrides definitions,,,,,,"?
+And path",,,,,,javascript function to apply to parsed value,,,,,"0 if not indexed (default), else ex. 100. Implicit (no need to set it again) on all aliasing fields.",ex. geo:name for both geoco:name and geoci:name fields allows to search in both at once in abstract geoname field. Can also be multiple ex. orgfr:siret is stored in org:id and orgfr:numeroFiscal in org:vatNumber but orges/it:vatNumber is stored in both org:vatNumber and org:id (which should then be readonly to avoid changing it without changing org:vatNumber).,"if true, this field won't be written. Useful with fields that are computed or filled by others with multiple aliasedStorageNames.","if true, will build and execute a lookup query (at least one must have values for all fields that are tagged by its name in queryNames. If found, id fields as well as fields filled with default values will be overriden by existing values.","Enables fulltext search. Resources will only be found once saved since enabling it. If true for string or i18n field, its value will be tokenized and added to the single fulltext index. MUST be set again on aliasing fields."
+,,,,,,,,,,en,,,,true,true,true,,,,,,,,,False,False,True,,,"ex. hashCodeId, generateUuid",,True,True,,,,,false,false
+odisp:Displayable_0,odisp:name,,i18n,,,"fill it in instance models, or replace their :name or store it in it",,,,,,,,false,false,,,,,,,,,,,,,,,,,,,,100,,,,true
+oanc:Ancestor_0,oanc:ancestors,,oanc:Ancestor_0,,True,"auto computed OR can be provided (as URL, one per line or comma separated), in the same data file or additional ones",__computed,,,,,,,false,false,,,,,,,,,,,,,,,,True,,,,,,,,
+START IN THIS CELL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

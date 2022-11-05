@@ -1,0 +1,61 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1,Non-compliant,,,Non-Compliant,,,
+2,Lucentis,,Patient has CNV?,,,,yes/no
+3,Lucentis,2.0,CNV Secondary to AMD?,,,,yes/no
+4,Lucentis,3.0,Visual Acuity,,bestVisualAcuityForEye,,Visual Acuity
+5,Lucentis,4.0,Foveal Damage?,,,,yes/no
+6,Lucentis,5.0,Recent progression?,,,,yes/no
+7,Lucentis,6.0,CNV size <=12?,,,,yes/no
+8,Lucentis,7.0,,Compliant,,,
+9,Lucentis,7.0,,Non-Compliant,,,
+10,Lucentis,6.0,,Non-Compliant,,,
+11,Lucentis,5.0,,Non-Compliant,,,
+12,Lucentis,4.0,,Non-Compliant,,,
+13,Lucentis,3.0,,Non-Compliant,,,
+14,Lucentis,2.0,Patient has Macular oedema?,,,,yes/no
+15,Lucentis,14.0,Diabetic macular oedema?,,,,yes/no
+16,Lucentis,15.0,CRT >=400?,,,,yes/no
+17,Lucentis,16.0,,Non-Compliant,,,
+18,Lucentis,16.0,,Compliant,,,
+19,Lucentis,15.0,Retinal vein occlusion?,,,,yes/no
+20,Lucentis,19.0,CRVO?,,,,yes/no
+21,Lucentis,20.0,,Compliant,,,
+22,Lucentis,20.0,BRVO?,,,,yes/no
+23,Lucentis,22.0,Previously received Ozurdex treatment?,,,,yes/no
+24,Lucentis,23.0,,Compliant,,,
+25,Lucentis,23.0,Suitable for Laser photocoagulation?,,,,yes/no
+26,Lucentis,25.0,,Compliant,,,
+27,Lucentis,25.0,Was it beneficial?,,,,yes/no
+28,Lucentis,27.0,,Compliant,,,
+29,Lucentis,27.0,,Non-Compliant,,,
+30,Lucentis,22.0,,Non-Compliant,,,
+31,Lucentis,19.0,,Non-Compliant,,,
+32,Lucentis,14.0,,Non-Compliant,,,
+33,PDT,,Patient has CNV?,,,,yes/no
+34,PDT,33.0,Secondary to AMD,,,,yes/no
+35,PDT,34.0,Visual Acuity,,,,Visual Acuity
+36,PDT,35.0,,Non-Compliant,,,
+37,PDT,35.0,CNV is classic/predominant classic?,,,,yes/no
+38,PDT,37.0,Foveal Damage?,,,,yes/no
+39,PDT,38.0,Recent progression?,,,,yes/no
+40,PDT,39.0,CNV size <=12?,,,,yes/no
+41,PDT,40.0,,Compliant,,,
+42,PDT,40.0,,Non-Compliant,,,
+43,PDT,39.0,,Non-Compliant,,,
+44,PDT,38.0,,Non-Compliant,,,
+45,PDT,37.0,,Non-Compliant,,,
+46,PDT,34.0,,Non-Compliant,,,
+47,PDT,33.0,,Non-Compliant,,,
+48,Ozurdex,,Patient has Venous occlusion?,,,,yes/no
+49,Ozurdex,48.0,CRVO?,,,,yes/no
+50,Ozurdex,49.0,,Compliant,,,
+51,Ozurdex,49.0,BRVO?,,,,yes/no
+52,Ozurdex,51.0,Previously received Ozurdex treatment?,,,,yes/no
+53,Ozurdex,52.0,,Compliant,,,
+54,Ozurdex,52.0,Suitable for Laser photocoagulation?,,,,yes/no
+55,Ozurdex,54.0,,Compliant,,,
+56,Ozurdex,54.0,Was it beneficial?,,,,yes/no
+57,Ozurdex,56.0,,Compliant,,,
+58,Ozurdex,56.0,,Non-Compliant,,,
+59,Ozurdex,51.0,,Non-Compliant,,,
+60,Ozurdex,48.0,,Non-Compliant,,,

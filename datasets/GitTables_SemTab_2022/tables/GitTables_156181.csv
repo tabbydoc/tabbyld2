@@ -1,0 +1,102 @@
+col0,col1,col2,col3,col4,col5,col6
+ACLED,event_id_cnty,qualifier,string,,,event_id_cnty
+ACLED,event_date_formatted,qualifier,time,P585,,event_date_formatted
+ACLED,year,qualifier,time,P585,,year
+ACLED,event_type,qualifier,string,,,event_type
+ACLED,sub_event_type,qualifier,string,,,sub_event_type
+ACLED,actor1,qualifier,string,,,actor1
+ACLED,assoc_actor_1,qualifier,string,,,assoc_actor_1
+ACLED,inter1,qualifier,string,,,inter1
+ACLED,actor2,qualifier,string,,,actor2
+ACLED,assoc_actor_2,qualifier,string,,,assoc_actor_2
+ACLED,inter2,qualifier,string,,,inter2
+ACLED,interaction,qualifier,string,,,interaction
+ACLED,region,qualifier,string,,,region
+ACLED,country,main value,country,P17,,country
+ACLED,admin1,qualifier,location,P131,,admin1
+ACLED,admin2,qualifier,location,P131,,admin2
+ACLED,admin3,qualifier,location,P131,,admin3
+ACLED,Location_1,qualifier,string,,,Location_1
+ACLED,latitude,qualifier,globe-coordinate,P625,,latitude
+ACLED,longitude,qualifier,globe-coordinate,P625,,longitude
+ACLED,source,qualifier,string,,,source
+ACLED,source_scale,qualifier,string,,,source_scale
+ACLED,notes,qualifier,string,,,notes
+ACLED,fatalities,main value,quantity,P1120,number of deaths,fatalities
+CHIRPS,Country,main value,country,P17,,Country
+CHIRPS,DateTime,qualifier,time,P585,,Date Time
+CHIRPS,Precipitation,main value,quantity,P3036,precipitation height,Precipitation
+CHIRPS,Region,main value,location,P131,,Region
+ERA5,DateTime,qualifier,time,P585,,Date Time
+ERA5,Country,main value,country,P17,,Country
+ERA5,Region,main value,location,P131,,Region
+ERA5,Mean Temperature,main value,quantity,P2076,temperature,Temperature
+MERRA2,DateTime,qualifier,time,P585,,Date Time
+MERRA2,Country,main value,country,P17,,Country
+MERRA2,Region,main value,location,P131,,Region
+MERRA2,Precipitation,main value,quantity,P3036,precipitation height,Precipitation
+TerraClimate,Country,main value,country,P17,,Country
+TerraClimate,DateTime,qualifier,time,P585,,Date Time
+TerraClimate,Actual ET,main value,quantity,,,Actual ET
+TerraClimate,Max Temperature,main value,quantity,P2076,temperature,Max Temperature
+TerraClimate,Min Temperature,main value,quantity,P2076,temperature,Min Temperature
+TerraClimate,Palmer Drought Severity Index,main value,quantity,,,Palmer Drought Severity Index
+TerraClimate,Precipitation,main value,quantity,P3036,precipitation height,Precipitation
+Kimetrica_Ethiopia_Crop_Production,Season,qualifier,string,,,Season
+Kimetrica_Ethiopia_Crop_Production,Year,qualifier,time,P585,,Year
+Kimetrica_Ethiopia_Crop_Production,Country,main value,country,P17,,Country
+Kimetrica_Ethiopia_Crop_Production,Region,qualifier,location,P131,,Region
+Kimetrica_Ethiopia_Crop_Production,Zone,qualifier,location,P131,,admin
+Kimetrica_Ethiopia_Crop_Production,Crop,qualifier,string,,,Crop
+Kimetrica_Ethiopia_Crop_Production,Category,qualifier,string,,,Category
+Kimetrica_Ethiopia_Crop_Production,Number of holders,main value,quantity,,,Number of holders
+Kimetrica_Ethiopia_Crop_Production,Area in hectare,main value,quantity,P2046,area,area
+Kimetrica_Ethiopia_Crop_Production,Production in quintal,main value,quantity,P2197,production rate,Production in quintal
+Kimetrica_Ethiopia_Crop_Production,Yield,main value,quantity,P2197,production rate,production
+DHS_Nutrition,Country,main value,country,P17,,Country
+DHS_Nutrition,Year,qualifier,time,P585,,Year
+DHS_Nutrition,Admin1,qualifier,location,P131,,Admin1
+DHS_Nutrition,Children severely stunted,main value,quantity,,,Children severely stunted
+DHS_Nutrition,Children stunted,main value,quantity,,,Children stunted
+DHS_Nutrition,Children severely wasted,main value,quantity,,,Children severely wasted
+DHS_Nutrition,Children wasted,main value,quantity,,,Children wasted
+FAO_Locust,LONGITUDE,qualifier,globe-coordinate,P625,,LONGITUDE
+FAO_Locust,LATITUDE,qualifier,globe-coordinate,P625,,LATITUDE
+FAO_Locust,STARTDATE,qualifier,time,P580,,START DATE
+FAO_Locust,FINISHDATE,qualifier,time,P582,,END DATE
+FAO_Locust,EXACTDATE,qualifier,string,,,EXACTDATE
+FAO_Locust,LOCNAME,qualifier,string,,,LOCNAME
+FAO_Locust,AREAHA,main value,quantity,P2046,area,area
+FAO_Locust,LOCRELIAB,qualifier,string,,,LOCRELIAB
+FAO_Locust,CONFIRMATN,qualifier,string,,,CONFIRMATN
+FAO_Locust,BREEDING,qualifier,string,,,BREEDING
+FAO_Locust,REPRELIAB,qualifier,string,,,REPRELIAB
+FAO_Locust,CTLPESTIC,qualifier,string,,,CTLPESTIC
+FAO_Locust,CTLARTREA,main value,quantity,P2046,area,area
+FAO_Locust,CTLESTKILL,main value,quantity,,,CTLESTKILL
+FAO_Locust,PARTMONTH,qualifier,string,,,PARTMONTH
+WFP_Food_Prices,date,qualifier,time,P585,,date
+WFP_Food_Prices,cmname,qualifier,string,,,cmname
+WFP_Food_Prices,category,qualifier,string,,,category
+WFP_Food_Prices,price,main value,quantity,P2284,price,price
+WFP_Food_Prices,country,main value,country,P17,,country
+WFP_Food_Prices,admname,qualifier,location,P131,,admin
+WFP_Food_Prices,mktname,qualifier,string,,,mktname
+IHME_Wasting_Data,ADM0_NAME,qualifier,country,P17,,country
+IHME_Wasting_Data,ADM1_NAME,qualifier,location,P131,,admin
+IHME_Wasting_Data,year,qualifier,time,P585,,year
+IHME_Wasting_Data,age_group_name,qualifier,string,,,age_group_name
+IHME_Wasting_Data,sex,qualifier,string,,,sex
+IHME_Wasting_Data,measure,qualifier,string,,,measure
+IHME_Wasting_Data,mean,main value,quantity,,,mean
+IHME_Wasting_Data,upper,main value,quantity,,,upper
+IHME_Wasting_Data,lower,main value,quantity,,,lower
+IHME_Wasting_Data,cirange,main value,quantity,,,cirange
+UNHCR_Refugees,year,qualifier,time,P585,,year
+UNHCR_Refugees,Country of origin,qualifier,country,P495,country of origin,Country of origin
+UNHCR_Refugees,Country of asylum,main value,country,,,Country of asylum
+UNHCR_Refugees,Refugees under UNHCR's mandate,main value,quantity,,,Refugees under UNHCR's mandate
+UNHCR_Refugees,Asylum-seekers,main value,quantity,,,Asylum-seekers
+UNHCR_Refugees,IDPs of concern to UNHCR,main value,quantity,,,IDPs of concern to UNHCR
+UNHCR_Refugees,Stateless persons,main value,quantity,,,Stateless persons
+UNHCR_Refugees,Others of concern,main value,quantity,,,Others of concern

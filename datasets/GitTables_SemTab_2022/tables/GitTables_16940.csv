@@ -1,0 +1,40 @@
+col0,col1,col2
+variable,type,description
+anchorDate,int|NA,Year given as the anchor
+anchorHTML,string|NA,HTML displayed in the anchor date area
+block,int,The number of the experimental block the trial is in
+clientTime,int,"Timestamp of the request to write this CSV line, according to the participant's computer"
+correctAnswer,string,The correct answer to the stimulus
+correctAnswerSide,int|NA,Whether the correct answer side is the left (0) or right (1)
+feedback,boolean|NA,Whether the trial includes feedback
+isAttentionCheck,boolean,Whether the trial is an attention check
+number,int,The number of the trial
+pGroup,int,The participant's group number
+pid,string,8-character alphanumeric hash uniquely identifying a participant within an experiment
+pidHash,string,md5 hash generated from participant's ProlificID and study info allowing one-way verification that a given ProlificID was responsible for the data
+responseAns,string|NA,The label of the submitted response as seen by the participant
+responseAnswer,string|NA,The label of the submitted response as seen by the participant
+responseAnswerSide,int|NA,"The side of the response selected (0=left, 1=right)"
+responseComplete,boolean,Whether the response was completed successfully
+responseConfidence,int|NA,The confidence associated with the response
+responseEstimateLabelLeft,string,"The text of the label the participant sees, should match responseEstimateLeft"
+responseEstimateLabelRight,string,"The text of the right-hand label the participant sees, should match responseEstimateLeft+responseMarkerWidth"
+responseEstimateLeft,int,The left-hand edge of the response marker in years
+responseLabels,string,"Comma-separated list of labels attached to the response options (left, right)"
+responseMarker,int|NA,Width of the marker used in the response
+responseMarkerValue,int,The points to be awarded for a correct response using the selected marker
+responseMarkerWidth,int,The width of the response marker in years
+responseSlider,string|NA,"Whether the slider used in the response was ""before"" (on the left, 0) or ""after"" (right, 1)"
+responseTimeEstimate,int,The time elapsed in milliseconds between the opening of the response window and the collection of the response
+serverTime,string|NA,Time of the entry according to the server
+stimHTML,string,HTML displayed in the stimulus area
+studyId,string,Study title
+studyVersion,string,Major.minor.revision version number
+timeEnd,int,Milliseconds from the beginning of the trial to the end of the trial
+timeFeedbackOff,int|NA,Milliseconds from the beginning of the trial to the end of the trial feedback (NA if no feedback provided)
+timeFeedbackOn,int|NA,Milliseconds from the beginning of the trial to the start of the trial feedback (NA if no feedback provided)
+timeResponseClose,int,Milliseconds from the beginning of the trial to the end of the response phase
+timeResponseOpen,int,Milliseconds from the beginning of the trial to the start of the response phase
+timestampStart,int,"Timestamp of the start of the trial, according to the participant's computer"
+timeStimOff,int,Milliseconds from the beginning of the trial to the stimulus offset
+timeStimOn,int,Milliseconds from the beginning of the trial to the stimulus onset

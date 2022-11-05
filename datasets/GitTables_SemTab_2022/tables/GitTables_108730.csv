@@ -1,0 +1,54 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+m2C,2-O-methylcytosine,2-methoxypyrimidin-4-amine,COc1nc(N)ccn1,COC1=NC(=CCN1C1CC(C(O1)COP(=O)([O-])[O-])O)N,16,19,20
+f,5-formylcytosine,"4-amino-2-oxo-1,2-dihydropyrimidine-5-carbaldehyde",O=Cc1c[nH]c(=O)nc1N,O=Cc1cn(C2CC(C(O2)COP(=O)([O-])[O-])O)c(=O)nc1N,13,16,17
+h,5-(hydroxymethyl)cytosine,4-amino-5-(hydroxymethyl)pyrimidin-2(1H)-one,Nc1nc(=O)[nH]cc1CO,OCc1cn(C2CC(C(O2)COP(=O)([O-])[O-])O)c(=O)nc1N,13,16,17
+e3C,3-ethylcytosine,6-amino-1-ethylpyrimidin-2(1H)-one,CCn1c(N)ccnc1=O,CCN1C(=CCN(C1=O)C1CC(C(O1)COP(=O)([O-])[O-])O)N,17,20,21
+3mC,3-methylcytosine,6-amino-1-methylpyrimidin-2(1H)-one,Cn1c(N)ccnc1=O,OC1CC(OC1COP(=O)([O-])[O-])N1CC=C(N(C1=O)C)N,9,12,1
+c,5-carboxycytosine,"4-amino-2-oxo-1,2-dihydropyrimidine-5-carboxylic acid",[O-]C(=O)c1c[nH]c(=O)nc1N,OC1CC(OC1COP(=O)([O-])[O-])n1cc(C(=O)[O-])c(nc1=O)N,9,12,1
+ɛC,"3,N(4)-ethenocytosine","imidazo[1,2-c]pyrimidin-5(6H)-one",O=c1[nH]ccc2n1ccn2,OC1CC(OC1COP(=O)([O-])[O-])n1ccc2n(c1=O)ccn2,9,12,1
+m,5-methylcytosine,4-amino-5-methylpyrimidin-2(1H)-one,Cc1c[nH]c(=O)nc1N,OC1CC(OC1COP(=O)([O-])[O-])n1cc(C)c(nc1=O)N,9,12,1
+4mC,N(4)-methylcytosine,4-(methylamino)pyrimidin-2(1H)-one,CNc1cc[nH]c(=O)n1,CNc1ccn(c(=O)n1)C1CC(C(O1)COP(=O)([O-])[O-])O,17,20,21
+putThy,alpha-putrescinylthymine,"5-{[(4-aminobutyl)amino]methyl}pyrimidine-2,4(1H,3H)-dione",[NH3+]CCCC[NH2+]Cc1c[nH]c(=O)[nH]c1=O,[NH3+]CCCC[NH2+]Cc1cn(C2OC(C(C2)O)COP(=O)([O-])[O-])c(=O)[nH]c1=O,24,27,21
+diHT,"5,6-dihydrothymine","5,6-dihydrothymine, 5-methyldihydropyrimidine-2,4(1H,3H)-dione",CC1CNC(=O)NC1=O,OC1CC(OC1COP(=O)([O-])[O-])N1CC(C)C(=O)NC1=O,9,12,1
+e,5-formyluracil,"2,4-dioxo-1,2,3,4-tetrahydropyrimidine-5-carbaldehyde",O=Cc1c[nH]c(=O)[nH]c1=O,O=Cc1cn(C2CC(C(O2)COP(=O)([O-])[O-])O)c(=O)[nH]c1=O,13,16,17
+O4-meT,O(4)-methylthymine,4-methoxy-5-methylpyrimidin-2(1H)-one,COc1nc(=O)[nH]cc1C,COc1nc(=O)n(cc1C)C1CC(C(O1)COP(=O)([O-])[O-])O,18,21,22
+3mT,"3,5-dimethyluracil","3,5-dimethylpyrimidine-2,4(1H,3H)-dione",Cn1c(=O)c(C)c[nH]c1=O,OC1CC(OC1COP(=O)([O-])[O-])n1cc(C)c(=O)n(c1=O)C,9,12,1
+6hmA,6-hydroxymethyladenine,(9H-purin-6-ylamino)methanol,OCNc1ncnc2c1nc[nH]2,OCNc1ncnc2c1ncn2C1CC(C(O1)COP(=O)([O-])[O-])O,20,23,24
+ncm6A,N(6)-carbamoylmethyladenine,N(2)-1H-purin-6-ylglycinamide,NC(=O)CNc1ncnc2c1nc[nH]2,NC(=O)CNc1ncnc2c1ncn2C1CC(C(O1)COP(=O)([O-])[O-])O,22,25,26
+6-DMA,"N(6),N(6)-dimethyladenine","N,N-dimethyl-9H-purin-6-amine",CN(c1ncnc2c1nc[nH]2)C,OC1CC(OC1COP(=O)([O-])[O-])n1cnc2c1ncnc2N(C)C,9,12,1
+m2A,"9H-purine-2,6-diamine",,Nc1nc(N)c2c(n1)[nH]cn2,Nc1nc(N)c2c(n1)n(cn2)C1OC(C(C1)O)COP(=O)([O-])[O-],20,23,17
+HAP,N(6)-hydroxyadenine,N-hydroxy-1H-purin-6-amine,ONc1ncnc2c1nc[nH]2,ONc1ncnc2c1ncn2C1CC(C(O1)COP(=O)([O-])[O-])O,19,22,23
+AHAP,2-amino-6-hydroxyaminopurine,"N(6)-hydroxy-3H-purine-2,6-diamine",ONc1nc(N)nc2c1nc[nH]2,ONc1nc(N)nc2c1ncn2C1CC(C(O1)COP(=O)([O-])[O-])O,20,23,24
+1mA,1-methyladenine,1-methyl-1H-purin-6-amine,Cn1cnc2c(c1N)ncn2,OC1CC(OC1COP(=O)([O-])[O-])N1C=NC2=C(N(C=NC12)C)N,9,12,1
+3mA,3-methyladenine,"3-methyl-3H-purin-6-amine, 3-methyladenine",Nc1ncn(c2c1ncn2)C,OC1CC(OC1COP(=O)([O-])[O-])N1C=NC2=C([NH+]=CN(C12)C)N,9,12,1
+4mA,4-methyladenine,"4-methyl-4,7-dihydro-1H-purin-6-amine",NC1=C2N=CNC2(NC=[NH+]1)C,OC1CC(OC1COP(=O)([O-])[O-])N1C=NC2=C(N=CNC12C)N,9,12,1
+7mA,7-methyladenine,7-methyl-7H-purin-6-amine,Cn1cnc2c1c(N)ncn2,OC1CC(OC1COP(=O)([O-])[O-])N1CN(c2c1nc[nH+]c2N)C,9,12,1
+a,6-methyladenine,N-methyl-9H-purin-6-amine,CNc1ncnc2c1nc[nH]2,CNc1ncnc2c1ncn2C1CC(C(O1)COP(=O)([O-])[O-])O,19,22,23
+o,8-oxoguanine,"2-amino-1H-purine-6,8-dione",O=C1N=c2c(=N1)c(=O)[nH]c(n2)N,OC1CC(OC1COP(=O)([O-])[O-])N1C(=O)N=C2C1N=C(N)NC2=O,9,12,1
+CEG,N(2)-carboxyethylguanine,"N-(6-oxo-6,9-dihydro-1H-purin-2-yl)alanine",[O-]C(=O)C(Nc1[nH]c(=O)c2c(n1)[nH]cn2)C,[O-]C(=O)C(Nc1[nH]c(=O)c2c(n1)n(cn2)C1CC(C(O1)COP(=O)([O-])[O-])O)C,24,27,28
+1mG,1-methylguanine,"2-amino-1-methyl-1,9-dihydro-6H-purin-6-one",Cn1c(N)nc2c(c1=O)nc[nH]2,OC1CC(OC1COP(=O)([O-])[O-])n1cnc2c1nc(N)n(c2=O)C,9,12,1
+2mG,N(2)-methylguanine,"2-(methylamino)-1,7-dihydro-6H-purin-6-one",CNc1nc(=O)c2c([nH]1)[nH]cn2,CNc1[nH]c(=O)c2c(n1)n(cn2)C1CC(C(O1)COP(=O)([O-])[O-])O,21,24,25
+m6G,6-O-methylguanine,6-methoxy-7H-purin-2-amine,COc1nc(N)nc2c1[nH]cn2,COc1nc(N)nc2c1ncn2C1CC(C(O1)COP(=O)([O-])[O-])O,20,23,24
+dhpUra,"5-(4,5-dihydroxypentyl)uracil","5-(4,5-dihydroxypentyl)pyrimidine-2,4(1H,3H)-dione",OCC(CCCc1c[nH]c(=O)[nH]c1=O)O,OCC(CCCc1cn(C2CC(C(O2)COP(=O)([O-])[O-])O)c(=O)[nH]c1=O)O,17,20,21
+g,5-hydroxymethyluracil,"5-(hydroxymethyl)pyrimidine-2,4(1H,3H)-dione",OCc1c[nH]c(=O)[nH]c1=O,OCc1cn(C2CC(C(O2)COP(=O)([O-])[O-])O)c(=O)[nH]c1=O,13,16,17
+"N(2),3-ɛG","N(2),3-ethenoguanine","1H-imidazo(2,1-b)purin-4(5H)-one",O=c1[nH]c2nccn2c2c1nc[nH]2,OC1CC(OC1COP(=O)([O-])[O-])[N+]12C=CN=C1NC(=O)c1c2[nH]cn1,9,12,1
+"1,N(2)-ɛG","1,N(2)-ethenoguanine","1,4-dihydro-9H-imidazo[1,2-a]purin-9-one",O=c1n2ccnc2[nH]c2c1nc[nH]2,OC1CC(OC1COP(=O)([O-])[O-])n1cnc2c1[nH]c1nccn1c2=O,9,12,1
+1mC,1-methylcytosine,,Cn1ccc(nc1=O)N,OC1CC(OC1COP(=O)([O-])[O-])[N+]1(C)C=CC(=NC1=O)N,9,12,1
+5gmC,5-(beta-D-glucosylmethyl)cytosine,,OC[C@H]1O[C@@H](OCc2c[nH+]c([n-]c2=[NH2+])[O-])[C@@H]([C@H]([C@@H]1O)O)O,OC[C@H]1O[C@@H](OCc2cn(C3CC(C(O3)COP(=O)([O-])[O-])O)c(=O)[nH]c2=N)[C@@H]([C@H]([C@@H]1O)O)O,20,23,24
+1mT,"1,5-dimethyluracil",,Cc1cn(C)c(=O)[nH]c1=O,OC1CC(OC1COP(=O)([O-])[O-])[N+]1(C)C=C(C)C(=O)NC1=O,9,12,1
+9mA,9-methyladenine,,Nc1ncnc2c1ncn2C,OC1CC(OC1COP(=O)([O-])[O-])[N+]1(C)C=Nc2c1ncnc2N,9,12,1
+ADG,7-amido-7-deazaguanosine,x,OC[C@H]1O[C@H]([C@@H]([C@@H]1O)O)n1cc(c2c1nc(N)[nH]c2=O)C(=O)N,OC[C@H]1O[C@H]([C@@H]([C@@H]1O)O)[N+]1(C=C(c2c1nc(N)[nH]c2=O)C(=O)N)C1CC(C(O1)COP(=O)([O-])[O-])O,36,39,40
+m22G,"N(2),N(2)-dimethylguanosine",x,OC[C@H]1O[C@H]([C@@H]([C@@H]1O)O)n1cnc2c1nc([nH]c2=O)N(C)C,OC[C@H]1O[C@H]([C@@H]([C@@H]1O)O)[N+]1(C=Nc2c1nc([nH]c2=O)N(C)C)C1CC(C(O1)COP(=O)([O-])[O-])O,35,38,39
+dU,2'-deoxyuridine,,OC[C@H]1O[C@H](C[C@@H]1O)n1ccc(=O)[nH]c1=O,OC[C@H]1O[C@H](C[C@@H]1O)[N+]1(C=CC(=O)NC1=O)C1CC(C(O1)COP(=O)([O-])[O-])O,27,30,31
+5caU,uracil-5-carboxylic acid,,[O-]C(=O)c1c[nH]c(=O)[nH]c1=O,OC1CC(OC1COP(=O)([O-])[O-])n1cc(C(=O)[O-])c(=O)[nH]c1=O,9,12,1
+DHdU,"5,6-dihydroxy-2'-deoxyuridine",,OC[C@H]1O[C@H](C[C@@H]1O)n1c(=O)[nH]c(=O)c(c1[O-])O,OC[C@H]1O[C@H](C[C@@H]1O)[N+]1(C2CC(C(O2)COP(=O)([O-])[O-])O)C(=O)NC(=O)C(=C1[O-])O,20,23,24
+5-NedU,5-(2-aminoethyl)-2'-deoxyuridine,,OC[C@H]1O[C@H](C[C@@H]1O)n1cc(CC[NH3+])c(=O)[nH]c1=O,OC[C@H]1O[C@H](C[C@@H]1O)[N+]1(C=C(CC[NH3+])C(=O)NC1=O)C1CC(C(O1)COP(=O)([O-])[O-])O,33,36,37
+dhpdU,"2'-deoxy-5-(4,5-dihydroxypentyl)uridine",,OCC(CCCc1cn([C@@H]2O[C@@H]([C@H](C2)O)CO)c(=O)[nH]c1=O)O,OCC(CCCC1=C[N+](C(=O)NC1=O)([C@@H]1O[C@@H]([C@H](C1)O)CO)C1OC(C(C1)O)COP(=O)([O-])[O-])O,34,37,31
+5-NeOmdU,5-(2-aminoethoxy)methyl-2'-deoxyuridine,,[NH3+]CCOCc1cn([C@@H]2O[C@@H]([C@H](C2)O)CO)c(=O)[nH]c1=O,[NH3+]CCOCC1=C[N+](C(=O)NC1=O)([C@@H]1O[C@@H]([C@H](C1)O)CO)C1OC(C(C1)O)COP(=O)([O-])[O-],36,39,33
+J,(beta-D-glucopyranosyloxymethyl)deoxyuridine 5'-monophosphate,,OC[C@H]1O[C@@H](OCc2cn([C@@H]3O[C@@H]([C@H](C3)O)COP(=O)([O-])[O-])c(=O)[nH]c2=O)[C@@H]([C@H]([C@@H]1O)O)O,OC[C@H]1O[C@@H](OCc2cn([C@@H]3O[C@@H]([C@H](C3)O)COP(=O)([O-])[O-])c(=O)[nH]c2=O)[C@@H]([C@H]([C@@H]1O)O)O,24,27,21
+dI,2'-deoxyinosine,,OC[C@H]1O[C@H](C[C@@H]1O)n1cnc2c1nc[nH]c2=O,OC[C@H]1O[C@H](C[C@@H]1O)[N+]1(C=Nc2c1nc[nH]c2=O)C1CC(C(O1)COP(=O)([O-])[O-])O,29,32,33
+xI,hypoxanthine,,O=c1[nH]cnc2c1[nH]cn2,OC1CC(OC1COP(=O)([O-])[O-])N1CNC2C1NCNC2=O,9,12,1
+3mHyp,3-methylhypoxanthine,,Cn1cnc(=O)c2c1nc[nH]2,OC1CC(OC1COP(=O)([O-])[O-])n1cnc2c1n(C)cnc2=O,9,12,1
+1mHyp,1-methylhypoxanthine,,Cn1cnc2c(c1=O)[nH]cn2,OC1CC(OC1COP(=O)([O-])[O-])N1CNC2C1NCN(C2=O)C,9,12,1
+7mHyp,7-methylhypoxanthine,,Cn1cnc2c1c(=O)[nH]cn2,OC1CC(OC1COP(=O)([O-])[O-])n1c[n+](c2c1nc[nH]c2=O)C,9,12,1
+9mHyp,9-methylhypoxanthine,,O=c1[nH]cnc2c1ncn2C,OC1CC(OC1COP(=O)([O-])[O-])[N+]1(C)C=NC2C1NCNC2,9,12,1

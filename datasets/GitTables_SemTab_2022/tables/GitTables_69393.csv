@@ -1,0 +1,36 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+1,AR,Argentina,44938712,2019,ARG,Latin America & Caribbean,Buenos Aires,-58.4173,-34.6118,Upper middle income,IBRD,22947.1397952874
+2,BD,Bangladesh,163046161,2019,BGD,South Asia,Dhaka,90.4113,23.7055,Lower middle income,IDA,4950.74358140884
+3,BR,Brazil,211049527,2019,BRA,Latin America & Caribbean,Brasilia,-47.9292,-15.7801,Upper middle income,IBRD,15258.8508327006
+4,CD,"Congo, Dem. Rep.",86790567,2019,COD,Sub-Saharan Africa,Kinshasa,15.3222,-4.325,Low income,IDA,1143.4532245044
+5,CN,China,1397715000,2019,CHN,East Asia & Pacific,Beijing,116.286,40.0495,Upper middle income,IBRD,16784.6593497155
+6,CO,Colombia,50339443,2019,COL,Latin America & Caribbean,Bogota,-74.082,4.60987,Upper middle income,IBRD,15643.7314460931
+7,DE,Germany,83132799,2019,DEU,Europe & Central Asia,Berlin,13.4115,52.5235,High income,Not classified,56052.4220698856
+8,DZ,Algeria,43053054,2019,DZA,Middle East & North Africa,Algiers,3.05097,36.7397,Upper middle income,IBRD,11820.0876836807
+9,EG,"Egypt, Arab Rep.",100388073,2019,EGY,Middle East & North Africa,Cairo,31.2461,30.0982,Lower middle income,IBRD,12250.7804142431
+10,ES,Spain,47076781,2019,ESP,Europe & Central Asia,Madrid,-3.70327,40.4167,High income,Not classified,42214.1303934743
+11,ET,Ethiopia,112078730,2019,ETH,Sub-Saharan Africa,Addis Ababa,38.7468,9.02274,Low income,IDA,2311.70438636716
+12,FR,France,67059887,2019,FRA,Europe & Central Asia,Paris,2.35097,48.8566,High income,Not classified,49435.179939609
+13,GB,United Kingdom,66834405,2019,GBR,Europe & Central Asia,London,-0.126236,51.5002,High income,Not classified,48709.701144586
+14,ID,Indonesia,270625568,2019,IDN,East Asia & Pacific,Jakarta,106.83,-6.19752,Lower middle income,IBRD,12301.7528999018
+15,IN,India,1366417754,2019,IND,South Asia,New Delhi,77.225,28.6353,Lower middle income,IBRD,7034.21722432128
+16,IR,"Iran, Islamic Rep.",82913906,2019,IRN,Middle East & North Africa,Tehran,51.4447,35.6878,Upper middle income,IBRD,
+17,IT,Italy,60297396,2019,ITA,Europe & Central Asia,Rome,12.4823,41.8955,High income,Not classified,44196.6931032213
+18,JP,Japan,126264931,2019,JPN,East Asia & Pacific,Tokyo,139.77,35.67,High income,Not classified,43235.7175691122
+19,KE,Kenya,52573973,2019,KEN,Sub-Saharan Africa,Nairobi,36.8126,-1.27975,Lower middle income,Blend,4509.32244225549
+20,KR,"Korea, Rep.",51709098,2019,KOR,East Asia & Pacific,Seoul,126.957,37.5323,High income,Not classified,43028.8963533414
+21,MM,Myanmar,54045420,2019,MMR,East Asia & Pacific,Naypyidaw,95.9562,21.914,Lower middle income,IDA,5355.2701901514
+22,MX,Mexico,127575529,2019,MEX,Latin America & Caribbean,Mexico City,-99.1276,19.427,Upper middle income,IBRD,20410.7065693914
+23,NG,Nigeria,200963599,2019,NGA,Sub-Saharan Africa,Abuja,7.48906,9.05804,Lower middle income,Blend,5348.33979658925
+24,PH,Philippines,108116615,2019,PHL,East Asia & Pacific,Manila,121.035,14.5515,Lower middle income,IBRD,9277.374369233
+25,PK,Pakistan,216565318,2019,PAK,South Asia,Islamabad,72.8,30.5167,Lower middle income,Blend,4884.88138953447
+26,RU,Russian Federation,144373535,2019,RUS,Europe & Central Asia,Moscow,37.6176,55.7558,Upper middle income,IBRD,29181.3632177676
+27,SD,Sudan,42813238,2019,SDN,Sub-Saharan Africa,Khartoum,32.5363,15.5932,Lower middle income,IDA,4122.52668491946
+28,TH,Thailand,69625582,2019,THA,East Asia & Pacific,Bangkok,100.521,13.7308,Upper middle income,IBRD,19228.2946818444
+29,TR,Turkey,83429615,2019,TUR,Europe & Central Asia,Ankara,32.3606,39.7153,Upper middle income,IBRD,27875.1932514847
+30,TZ,Tanzania,58005463,2019,TZA,Sub-Saharan Africa,Dodoma,35.7382,-6.17486,Low income,IDA,2770.68117187672
+31,UA,Ukraine,44385155,2019,UKR,Europe & Central Asia,Kiev,30.5038,50.4536,Lower middle income,IBRD,13341.2105189612
+32,UG,Uganda,44269594,2019,UGA,Sub-Saharan Africa,Kampala,32.5729,0.314269,Low income,IDA,2271.64942402167
+33,US,United States,328239523,2019,USA,North America,Washington D.C.,-77.032,38.8895,High income,Not classified,65118.358332816
+34,VN,Vietnam,96462106,2019,VNM,East Asia & Pacific,Hanoi,105.825,21.0069,Lower middle income,IBRD,8374.44432824534
+35,ZA,South Africa,58558270,2019,ZAF,Sub-Saharan Africa,Pretoria,28.1871,-25.746,Upper middle income,IBRD,12999.1202555973

@@ -1,0 +1,62 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+99.0,SHERRY,F,28,?,?,WA,M.A.,18,Student,White
+100.0,BETH,F,25,?,?,WA,A.A.,14,Farm Wife/Accountant,White
+101.0,ROSEMARY,F,57,?,?,WA,M.A.,18,Elementary Teacher,White
+102.0,JAMIE,F,?,?,?,WA,?,?,Waitress,?
+103.0,TOMA,M,60,Boston/New Mexico,MA/NM,NM,B.A.,16,Graphic Designer,White
+104.0,TOMB,M,70,Irvington,NJ,NM,M.A.,18,Semi-Retired Consultant/Government,White
+105.0,TOMC,M,68,Pine Ridge Reservation,SD,NM,LLB,22,Retired Judge/Legal Arbitrator/Hearing Officer,Native American/White
+106.0,ELAINE,F,48,Albuquerque,NM,NM,B.A./M.S./M.P.A.,24,Unemployed,White
+107.0,TUCKER,F,31,Boston/Santa Fe,MA/NM,CA,M.A.,19,Student,White
+108.0,JENN,F,23,Newton,MA,MA,B.A.,16,Student,White
+109.0,LISBETH,F,?,New York City,NY,MA,Ph.D.,24,Sociology Professor,White
+110.0,BILL,M,52,New York City,NY,MA,Ph.D.,20,Chemistry Professor,White
+111.0,LAURA,F,54,New York City,NY,NJ,Ph.D.,22,Professor,White
+112.0,DON,M,60,New York City,NY,NY,B.B.A.,16,Executive,White
+113.0,LEANNE,F,24,S. Orange,NJ,NY,College,16,Student,White
+114.0,MARY,F,22,?,NJ,NY,B.A.,16,Fashion Design,White
+115.0,RICHARD,M,27,S. Orange,NJ,NJ,B.A.,16,Sales,White
+116.0,KAREN,F,22,?,?,MA,B.A.,16,Bookstore Employee,White
+117.0,SCOTT,M,24,?,OR,MA,B.A.,16,Library Public Service,White
+118.0,PATTY,F,53,Wampum,PA,PA,B.A./B.S.,16,Music Teacher,White
+119.0,STEPHANIE,F,16,Pittsburgh,PA,PA,Some High School,11,Student,White
+120.0,ERIKA,F,17,Pittsburgh,PA,PA,Some High School,11,Student,White
+121.0,MAUREEN,F,?,?,?,?,?,?,?,?
+122.0,GAIL,F,?,?,?,?,?,?,?,?
+123.0,GENEVIEVE,F,80,?,PA,PA,High School,12,?,Other
+124.0,ROGER,M,81,?,PA,PA,B.A.,16,Civil Engineer,Other
+125.0,DALE,M,?,?,?,?,?,?,?,?
+126.0,KEVIN,M,22,Albuquerque,NM,CA,B.A.,16,Student,White
+127.0,LISA,F,20,Albuquerque,NM,NM,Some College,14,Student,White
+128.0,MARIE,F,20,Albuquerque,NM,NM,Business School,13,Service,Chicana
+129.0,DOLORES,F,56,Mercedes,TX,TX,B.S.,16,Active in Local Politics,Chicana
+130.0,SHANE,M,26,Corpus Christi,TX,TX,Post-Grad Medicine,20,Student,Chicano
+131.0,JULIA,F,80,Mercedes,TX,TX,Elementary,5,Homemaker,Chicana
+132.0,KATE,F,20,Corpus Christi,TX,TX,Some College,14,Student,Chicana
+133.0,BEN,M,74,Colorado Springs,CO,NV,B.S.,16,Civil Engineer,White
+134.0,KIRSTEN,F,29,Holland (Michigan),MI,IL,B.S.,16,Education,White
+135.0,AMY,F,?,?,?,?,?,?,?,?
+136.0,DON,M,?,?,?,?,?,?,?,?
+137.0,LORI,F,?,?,?,?,?,?,?,?
+138.0,NICOLE,F,?,?,?,?,?,?,?,?
+139.0,ALICE,F,?,?,?,?,?,?,?,?
+140.0,DEBRA,F,30,Louisville,KY,KY,B.S.,16,Horse Park Employee,White
+141.0,KRISTIN,F,35,Cleveland/San Francisco,OH/CA,CA,M.A.,18,Nutritionist,White
+142.0,PAIGE,F,37,General America,?,CA,Post M.A.,20,Student,White
+143.0,KENDRA,F,15,Tri-Cities,WA,WA,Some High School,10,Student,White
+144.0,SABRINA,F,18,Tri-Cities,WA,WA,Some High School,11,Student,White
+145.0,MARLENA,F,13,Tri-Cities,WA,WA,Some High School,8,Student,White
+146.0,KITTY,F,41,Chicago,IL,WA,Some College,13,Secretary,White
+147.0,CURT,M,56,Detroit,MI,WA,Some College,13,Contract,White
+148.0,GEMINI,F,17,?,?,WA,Some High School,11,Student,Asian-American
+149.0,ALICE,F,49,Great Falls,MT,ID,Professional,?,R.N.,White
+150.0,ANNETTE,F,24,Boise,ID,ID,B.A.,16,Banker/Student,White
+151.0,CAM,M,30,Beloit,WI,WI,B.A./B.S.,16,Network Administrator,White
+152.0,LAJUAN,M,35,Indianapolis,IN,WI,B.A./B.S.,16,Retail Management,Black/African-American
+153.0,PATRICK,M,25,Milwaukee,WI,WI,B.A./B.S.,16,Customer Service,White
+154.0,CORINNA,F,26,Jamesville,WI,WI,Some College,13,Student,Native American
+155.0,REED,M,52,Augusta,GA,LA,M.D.,21,Orthopedist,White
+156.0,DARREN,M,25,Shreveport,LA,LA,B.A.,16,Student/Waiter,White
+157.0,SALLY,F,43,Shreveport,LA,LA,Some College,13,X-ray technologist,White
+,AUD,,,,,,,,,
+,MANY,,,,,,,,,

@@ -1,0 +1,105 @@
+col0,col1,col2,col3,col4,col5
+1,Sarah Bouhaddi,175,France,France v Korea Republic,Win
+1,Minjung Kim,175,Korea Republic,France v Korea Republic,Lose
+2,Almuth Schult,180,Germany,Germany v China PR,Win
+2,Peng Shimeng,182,China PR,Germany v China PR,Lose
+3,Sandra Panos,168,Spain,Spain v South Africa,Win
+3,Andile Dlamini,169,South Africa,Spain v South Africa,Lose
+4,Ingrid Hjelmseth,173,Norway,Norway v Nigeria,Win
+4,Tochukwu Oluehi,168,Nigeria,Norway v Nigeria,Lose
+5,Laura Giulani,175,Italy,Australia v Italy,Win
+5,Lydia Williams,175,Australia,Australia v Italy,Lose
+6,Barbara,171,Brazil,Brazil v Jamaica,Win
+6,Sydney Schneider,178,Jamaica,Brazil v Jamaica,Lose
+7,Karen Bardsley,182,England,England v Scotland,Win
+7,Lee Alexander,169,Scotland,England v Scotland,Lose
+8,Vanina Correa,180,Argentina,Argentina v Japan,Draw
+8,Ayaka Yamashita,170,Japan,Argentina v Japan,Draw
+9,Stephanie Labbe,178,Canada,Canada v Cameroon,Win
+9,Annette Ngo Ndom,171,Cameroon,Canada v Cameroon,Lose
+10,Sari Van Veenendaal,180,Netherlands,Neherlands v New Zealand,Win
+10,Erin Nayler,177,New Zealand,Neherlands v New Zealand,Lose
+11,Hedvig Lindhal,179,Sweden,Chile v Sweden,Win
+11,Claudia Endler,182,Chile,Chile v Sweden,Lose
+12,Alyssa Naeher,175,USA,USA v Thailand,Win
+12,Sunkanya Charoenying,165,Thailand,USA v Thailand,Lose
+13,Chiamaka Nnadozie,180,Nigeria,Nigeria v Korea Republic,Win
+13,Minjung Kim,175,Korea Republic,Nigeria v Korea Republic,Lose
+14,Almuth Schult,180,Germany,Germany v Spain,Win
+14,Sandra Panos,168,Spain,Germany v Spain,Lose
+15,Sarah Bouhaddi,175,France,France v Norway,Win
+15,Ingrid Hjelmseth,173,Norway,France v Norway,Lose
+16,Lydia Williams,175,Australia,Australia v Brazil,Win
+16,Barbara,171,Brazil,Australia v Brazil,Lose
+17,Peng Shimeng,182,China PR,South Africa v China PR,Win
+17,Kaylin Swart,165,South Africa,South Africa v China PR,Lose
+18,Ayaka Yamashita,170,Japan,Japan v Scotland,Win
+18,Lee Alexander,169,Scotland,Japan v Scotland,Lose
+19,Laura Giulani,175,Italy,Jamaica v Italy,Win
+19,Sydney Schneider,178,Jamaica,Jamaica v Italy,Lose
+20,Carly Telford,174,England,England v Argentina,Win
+20,Vanina Correa,180,Argentina,England v Argentina,Lose
+21,Sari Van Veenendaal,180,Netherlands,Netherlands v Cameroon,Win
+21,Annette Ngo Ndom,171,Cameroon,Netherlands v Cameroon,Lose
+22,Stephanie Labbe,178,Canada,Canada  v New Zealand,Win
+22,Erin Nayler,177,New Zealand,Canada v New Zealand,Lose
+23,Hedvig Lindhal,179,Sweden,Sweden v Thailand,Win
+23,Waraporn Boonsing,170,Thailand,Sweden v Thailand,Lose
+24,Alyssa Naeher,175,USA,USA v Chile,Win
+24,Christiane Endler,182,Chile,USA v Chile,Lose
+25,Peng Shimeng,182,China PR,China PR v Spain,Draw
+25,Sandra Panos,168,Spain,China PR v Spain,Draw
+26,Almuth Schult,180,Germany,South Africa v Germany,Win
+26,Andile Dlamini,169,South Africa,South Africa v Germany,Lose
+27,Sarah Bouhaddi,175,France,Nigeria v France,Win
+27,Chiamaka Nnadozie,180,Nigeria,Nigeria v France,Lose
+28,Minjung Kim,175,Korea Republic,Korea Republic v Norway,Win
+28,Ingrid Hjelmseth,173,Norway,Korea Republic v Norway,Lose
+29,Lydia Williams,175,Australia,Jamaica v Australia,Win
+29,Nicole McCLure,172,Nigeria,Jamaica v Australia,Lose
+30,Barbara,171,Brazil,Italy v Brazil,Win
+30,Laura Giulani,175,Italy,Italy v Brazil,Lose
+31,Karen Bardsley,182,England,Japan v England,Win
+31,Ayaka Yamashita,170,Japan,Japan v England,Lose
+32,Lee Alexander,169,Scotland,Scotland v Argentina,Draw
+32,Vanina Correa,180,Argentina,Scotland v Argentina,Draw
+33,Annette Ngo Ndom,171,Cameroon,Cameroon v New Zealand,Win
+33,Erin Nayler,177,New Zealand,Cameroon v New Zealand,Lose
+34,Sari Van Veenendaal,180,Netherlands,Netherlands v Canada,Win
+34,Stephanie Labbe,178,Canada,Netherlands v Canada,Lose
+35,Alyssa Naeher,175,USA,Sweden v USA,Win
+35,Hedvig Lindhal,179,Sweden,Sweden v USA,Lose
+36,Christiane Endler,182,Chile,Thailand v Chile,Win
+36,Waraporn Boonsing,170,Thailand,Thailand v Chile,Lose
+37,Almuth Schult,180,Germany,Germany v Nigeria,Win
+37,Chiamaka Nnadozie,180,Nigeria,Germany v Nigeria,Lose
+38,Ingrid Hjelmseth,173,Norway,Norway v Australia,Win
+38,Lydia Williams,175,Australia,Norway v Australia,Lose
+39,Karen Bardsley,182,England,England v Cameroon,Win
+39,Annette Ngo Ndom,171,Cameroon,England v Cameroon,Lose
+40,Sarah Bouhaddi,175,France,France v Brazil,Win
+40,Barbara,171,Brazil,France v Brazil,Lose
+41,Alyssa Naeher,175,USA,Spain v USA,Win
+41,Sandra Panos,168,Spain,Spain v USA,Lose
+42,Hedvig Lindhal,179,Sweden,Sweden v Canada,Win
+42,Stephanie Labbe,178,Canada,Sweden v Canada,Lose
+43,Laura Giulani,175,Italy,Italy v China PR,Win
+43,Peng Shimeng,182,China PR,Italy v China PR,Lose
+44,Sari Van Veenendaal,180,Netherlands,Netherlands v Japan,Win
+44,Ayaka Yamashita,170,Japan,Netherlands v Japan,Lose
+45,Karen Bardsley,182,England,England v Norway,Win
+45,Ingrid Hjelmseth,173,Norway,England v Norway,Lose
+46,Alyssa Naeher,175,USA,USA v France,Win
+46,Sarah Bouhaddi,175,France,USA v France,Lose
+47,Sari Van Veenendaal,180,Netherlands,Netherlands v Italy,Win
+47,Laura Giulani,175,Italy,Netherlands v Italy,Lose
+48,Hedvig Lindhal,179,Sweden,Germany v Sweden,Win
+48,Almuth Schult,180,Germany,Germany v Sweden,Lose
+49,Alyssa Naeher,175,USA,England v USA,Win
+49,Carly Telford,174,England,England v USA,Lose
+50,Sari Van Veenendaal,180,Netherlands,Netherlands v Sweden,Win
+50,Hedvig Lindhal,179,Sweden,Netherlands v Sweden,Lose
+51,Hedvig Lindhal,179,Sweden,England v Sweden,Win
+51,Carly Telford,174,England,England v Sweden,Lose
+52,Alyssa Naeher,175,USA,USA v Netherlands,Win
+52,Sari Van Veenendaal,180,Netherlands,USA v Netherlands,Lose

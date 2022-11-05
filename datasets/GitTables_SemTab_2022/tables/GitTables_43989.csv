@@ -1,0 +1,25 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15
+Retrieve a token from Token Generator,Y,TsColumnPos,RESTfulAPI,getAdminToken,application/json,POST,,,,"{""email"": ""<@adminUserName>"",""password"": ""<@adminUserPassword>""}",/admin/login,.user.roles..id:<$roles>; .token:<$accessTokenAdmin>;.user.id:<$userId>,200,"{
+  ""data"": {
+    ""user"": {
+      ""id"": 1,
+      ""firstname"": ""auto "",
+      ""lastname"": ""user"",
+      ""username"": ""autoAdmin1"",
+      ""email"": ""autouser313@gmail.com"",
+      ""registrationToken"": null,
+      ""isActive"": true,
+      ""blocked"": null,
+
+    }
+  }
+}",
+create user,Y,TsColumnPos,RESTfulAPI,createUser,application/json,POST,DEPENDS_ON_TEST:getAdminToken,,Authorization: Bearer <@accessTokenAdmin>,"{""confirmed"":false,""blocked"":false,""username"":""zzz_test<@_RAND16>"",""email"":""testuser+<@_TIME_MS_24>@gmail.com"",""password"":""password<@_TIME_MS_24>""}",/content-manager/collection-types/plugins::users-permissions.user,id:<$userId>,201,"_VERIFY.JSON.PART_
+username:1:equalTo(zzz_test<@_RAND16>);
+email:1:equalTo(testuser+<@_TIME_MS_24>@gmail.com);",
+create user  no token,Y,TsColumnPos,RESTfulAPI,createUserNoToken,application/json,POST,,,NO_TOKEN,"{""confirmed"":false,""blocked"":false,""username"":""zzz_test<@_RAND16>"",""email"":""testuser+<@_TIME_MS_24>@gmail.com"",""password"":""password<@_TIME_MS_25>""}",/content-manager/collection-types/plugins::users-permissions.user,,403,"{""statusCode"":403,""error"":""Forbidden"",""message"":""Forbidden""}",
+create user invalid token,Y,TsColumnPos,RESTfulAPI,createUserInvalidToken,application/json,POST,,,INVALID_TOKEN,"{""confirmed"":false,""blocked"":false,""username"":""zzz_test<@_RAND16>"",""email"":""testuser+<@_TIME_MS_24>@gmail.com"",""password"":""password<@_TIME_MS_26>""}",/content-manager/collection-types/plugins::users-permissions.user,,401,"{""statusCode"":401,""error"":""Unauthorized""}",
+update user,Y,TsColumnPos,RESTfulAPI,updateUser,application/json,PUT,,,Authorization: Bearer <@accessTokenAdmin>,"{""username"":""zzz_update<@_RAND16>"",""email"":""testupdate+<@_TIME_MS_24>@gmail.com"",""password"":""password<@_TIME_MS_24>"",""confirmed"":true}",/content-manager/collection-types/plugins::users-permissions.user/<@userId>,,200,"_VERIFY.JSON.PART_
+username:1:equalTo(zzz_update<@_RAND16>);
+email:1:equalTo(testupdate+<@_TIME_MS_24>@gmail.com);",
+delete user,Y,TsColumnPos,RESTfulAPI,deleteUser,,DELETE,,,Authorization: Bearer <@accessTokenAdmin>,,/content-manager/collection-types/plugins::users-permissions.user/<@userId>,,200,,

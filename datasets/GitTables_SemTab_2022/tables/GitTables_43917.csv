@@ -1,0 +1,64 @@
+col0,col1,col2,col3,col4,col5
+agaplan_terms_and_conditions,view,term.term,agaplan_terms_and_conditions.term_form_views,Reports,Rapports
+agaplan_terms_and_conditions,help,"term.rule,condition",0,condition on when to print the term,condition sur le moment d'imprimer le terme
+agaplan_terms_and_conditions,view,res.partner,agaplan_terms_and_conditions.view_partner_term_form,Sales & Purchases,Achats et ventes
+agaplan_terms_and_conditions,field,"term.term,create_date",0,Created on,Créé le
+agaplan_terms_and_conditions,view,term.rule,agaplan_terms_and_conditions.term_rule_form_view,Terms and Conditions rules,Règles de conditions et termes
+agaplan_terms_and_conditions,field,"term.rule,id",0,ID,ID
+agaplan_terms_and_conditions,help,"term.term,pdf",0,The PDF file to attach to the report,Fichier PDF à joindre au rapport
+agaplan_terms_and_conditions,view,term.term,agaplan_terms_and_conditions.term_tree_view,Term,Terme
+agaplan_terms_and_conditions,field,"term.rule,sequence",0,Sequence,Séquence
+agaplan_terms_and_conditions,help,"res.partner,print_terms",0,If true the sales conditions/terms will be printed on the documents,"Si coché, les conditions de vente et termes seront imprimés sur les documents."
+agaplan_terms_and_conditions,view,term.rule,agaplan_terms_and_conditions.term_rule_search_view,Term,Terme
+agaplan_terms_and_conditions,view,term.rule,agaplan_terms_and_conditions.term_rule_search_view,Term rules,Règles de termes
+agaplan_terms_and_conditions,model,"ir.ui.menu,name",agaplan_terms_and_conditions.menu_terms_menuitem,Terms,Termes
+agaplan_terms_and_conditions,field,"term.term,pdf",0,PDF File,Fichier PDF
+agaplan_terms_and_conditions,field,"term.rule,company_id",0,Company,Compagnie
+agaplan_terms_and_conditions,model,"ir.actions.act_window,name",agaplan_terms_and_conditions.action_term_rule,Term rules,Règles de termes
+agaplan_terms_and_conditions,field,"term.rule,write_uid",0,Last Updated by,Dernière mise à jour par
+agaplan_terms_and_conditions,field,"term.term,write_date",0,Last Updated on,Dernière mise à jour
+agaplan_terms_and_conditions,model,"ir.model,name",agaplan_terms_and_conditions.model_term_rule,Rules to define where the linked term is to be used.,Règles pour définir où le terme lié doit êêtre utilisé.
+agaplan_terms_and_conditions,field,"term.term,create_uid",0,Created by,Créé par
+agaplan_terms_and_conditions,view,term.term,agaplan_terms_and_conditions.term_search_view,Insertion Mode,Mode d'insertion
+agaplan_terms_and_conditions,view,term.rule,agaplan_terms_and_conditions.term_rule_form_view,You can use the following keywords in the condition field:,Vous pouvez utiliser ces mots clés dans le champ de la condition:
+agaplan_terms_and_conditions,help,"res.partner,date_terms_signed",0,Date on witch the sales conditions/terms are signed,Date à laquelle les conditions de vente termes ont été signés.
+agaplan_terms_and_conditions,view,term.rule,agaplan_terms_and_conditions.term_rule_search_view,Company,Compagnie
+agaplan_terms_and_conditions,view,term.rule,agaplan_terms_and_conditions.term_rule_search_view,Group By...,Grouper par...
+agaplan_terms_and_conditions,view,term.rule,agaplan_terms_and_conditions.term_rule_form_view,'time': The almighty/omnipresent time module.,time': Le module de temps omniprésent.
+agaplan_terms_and_conditions,selection,"term.term,mode",0,Before report,Avant le rapport
+agaplan_terms_and_conditions,field,"term.term,id",0,ID,ID
+agaplan_terms_and_conditions,help,"res.company,term_rule_ids",0,List of terms for this company.,Liste de termes de cette compagnie
+agaplan_terms_and_conditions,help,"term.term,term_rule_ids",0,reports where the term is used,rapports où le terme est utilisé
+agaplan_terms_and_conditions,field,"term.term,mode",0,Insertion mode,Mode d'insertion
+agaplan_terms_and_conditions,field,"term.rule,report_id",0,Report,Rapport
+agaplan_terms_and_conditions,view,term.rule,agaplan_terms_and_conditions.term_rule_form_view,'date': The current date in '%Y-%m-%d' format.,date': Date courante en format '%Y-%m-%d'.
+agaplan_terms_and_conditions,field,"res.company,term_rule_ids",0,Term rule ids,Ids de règles de termes
+agaplan_terms_and_conditions,field,"res.partner,date_terms_signed",0,Date Terms Signed,Date de la signature des conditions
+agaplan_terms_and_conditions,model,"ir.actions.act_window,name",agaplan_terms_and_conditions.action_term,Terms,Termes
+agaplan_terms_and_conditions,view,res.partner,agaplan_terms_and_conditions.view_partner_term_form,Terms and conditions,Termes et conditions
+agaplan_terms_and_conditions,field,"term.rule,write_date",0,Last Updated on,Dernière mise à jour
+agaplan_terms_and_conditions,model,"ir.ui.menu,name",agaplan_terms_and_conditions.menu_term_rules_menuitem,Term Rules,Règles de termes
+agaplan_terms_and_conditions,field,"ir.actions.report.xml,term_rule_ids",0,Term rule ids,Sociétés
+agaplan_terms_and_conditions,view,term.rule,agaplan_terms_and_conditions.term_rule_form_view,'object': This is a browse record (always a single item) of the model you printed the report from.,object': Record de parcours (toujours un seul article) du modèle duquel vous avez imprimer le rapport.
+agaplan_terms_and_conditions,help,"ir.actions.report.xml,term_rule_ids",0,List of possible terms to be added.,Liste des termes pouvant être ajoutés.
+agaplan_terms_and_conditions,field,"res.partner,print_terms",0,Print Terms,Imprimer les termes
+agaplan_terms_and_conditions,view,term.rule,agaplan_terms_and_conditions.term_rule_form_view,'context': The context used to launch the report.,context': Contexte utilisé pour lancer le rapport.
+agaplan_terms_and_conditions,model,"ir.model,name",agaplan_terms_and_conditions.model_res_partner,Partner,Partenaire
+agaplan_terms_and_conditions,selection,"term.term,mode",0,Every other page,À toutes les deux pages
+agaplan_terms_and_conditions,view,term.rule,agaplan_terms_and_conditions.term_rule_search_view,Report,Rapport
+agaplan_terms_and_conditions,view,term.rule,agaplan_terms_and_conditions.term_rule_form_view,'report': The ir.actions.report.xml object (in browse mode).,'report': The ir.actions.report.xml object (in browse mode).
+agaplan_terms_and_conditions,view,term.term,agaplan_terms_and_conditions.term_search_view,Group by...,Grouper par...
+agaplan_terms_and_conditions,view,term.term,agaplan_terms_and_conditions.term_form_views,Term,Terme
+agaplan_terms_and_conditions,field,"term.rule,condition",0,Condition,Condition
+agaplan_terms_and_conditions,field,"term.rule,create_date",0,Created on,Créé le
+agaplan_terms_and_conditions,field,"term.term,write_uid",0,Last Updated by,Dernière mise à jour par
+agaplan_terms_and_conditions,field,"term.rule,create_uid",0,Created by,Créé par
+agaplan_terms_and_conditions,field,"term.term,term_rule_ids",0,Uses,Usages
+agaplan_terms_and_conditions,model,"ir.model,name",agaplan_terms_and_conditions.model_term_term,Terms and conditions,Termes et conditions
+agaplan_terms_and_conditions,view,term.term,agaplan_terms_and_conditions.term_search_view,Search terms,Recherche de termes
+agaplan_terms_and_conditions,selection,"term.term,mode",0,After report,Après le rapport
+agaplan_terms_and_conditions,view,term.rule,agaplan_terms_and_conditions.term_rule_form_view,data': Any wizard data (also includes 'model' to show the model from which the report was started),data': «données»: Toutes les données de l'assistant (comprend également «modèle» pour montrer le modèle à partir de laquelle le rapport a été lancé)
+agaplan_terms_and_conditions,model,"ir.model,name",agaplan_terms_and_conditions.model_res_company,Companies,Sociétés
+agaplan_terms_and_conditions,field,"term.term,name",0,Name,Nom
+agaplan_terms_and_conditions,view,term.rule,agaplan_terms_and_conditions.term_rule_tree_view,Terms and Conditions rules,Règles de conditions et termes
+agaplan_terms_and_conditions,field,"term.rule,term_id",0,Term,Terme

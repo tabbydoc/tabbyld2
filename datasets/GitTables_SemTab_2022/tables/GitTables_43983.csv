@@ -1,0 +1,63 @@
+col0,col1,col2
+version,marxanconpy,The version number for marxanconpy
+version,MarxanConnect,The version number for Marxan Connect
+spec_dat,,Contains a JSON version of the spec.dat file contents
+filepaths,aa_filepath,Filepath for the Avoidance Area shapefile
+filepaths,bd_filepath,Filepath for the spatial dependencies file (*e.g.* `boundary.dat`)
+filepaths,cf_filepath,Filepath for the planning unit vs conservation features file (*e.g.* `puvspr.dat`)
+filepaths,demo_cu_cm_filepath,Filepath for the demographic connectivity data file scaled to the connectivity units (*i.e.* not the planning units)
+filepaths,demo_cu_file_pu_id,String that represents the column name which corresponds to the planning unit IDs in the demographic connectivity units file
+filepaths,demo_cu_filepath,Filepath for the demographic connectivity units (*i.e.* not the planning units)
+filepaths,demo_pu_cm_filepath,Filepath for the demographic connectivity file scaled to the plannings units 
+filepaths,fa_filepath,Filepath for the focus area shapefile
+filepaths,land_cu_file_hab_id,String that represents the column name which corresponds to the planning unit IDs in the landscape connectivity units file
+filepaths,land_cu_filepath,Filepath for the landscape connectivity units (*i.e.* not the planning units)
+filepaths,land_pu_cm_filepath,Filepath for the landscape connectivity data file scaled to the planning units
+filepaths,land_res_file_hab_id,String that represents the column name which corresponds to the planning unit IDs in the landscape resistance file
+filepaths,land_res_filepath,Filepath for the landscape resistance surface file (not yet implemented)
+filepaths,land_res_mat_filepath,Filepath for the landscape resistance matrix
+filepaths,lp_filepath,Filepath for the local production
+filepaths,map,Filepath for the map output
+filepaths,marxan_dir,Filepath for the Marxan executable
+filepaths,marxan_input,Filepath for the marxan input file (*i.e.* `input.dat`)
+filepaths,projfile,Filepath for the `.MarCon` project file
+filepaths,projfilename,Filename for the `.MarCon` project file
+filepaths,pu_file_pu_id,String that represents the column name which corresponds to the planning unit IDs in the planning unit file
+filepaths,pu_filepath,Filepath for the planning unit shapefile
+filepaths,pucsv,Filepath to save a `.csv` version of all the planning unit specific output
+filepaths,pudat_filepath,Filepath for the marxan formated planning unit file (*i.e.* `pu.dat`)
+filepaths,pushp,Filepath to save a shapefile version of all the planning unit specific output
+filepaths,spec_filepath,Filepath for the marxan formated conservation feature file (*i.e.* `spec.dat`)
+options,aa_status,"The status of the avoidance areas (*i.e.* `Locked in`, `Locked out`, or `Status-quo`)"
+options,bd_filecheck,"Logical, `True` if you want to export the spatial dependencies file (i.e. `boundary.dat`)"
+options,calc_metrics_cu,"Logical, `True` if you want to calculate connectivity metrics scaled to the connectivity units"
+options,calc_metrics_pu,"Logical, `True` if you want to calculate connectivity metrics scaled to the planning units"
+options,cf_export,"""Export"" if you want to export only the connectivity outputs the selected Marxan formated files to the filepaths indicated, or ""Append"" if you want append the connectivity outputs the selected Marxan formated files to the filepaths indicated without overwritting the original files (the new filenames will have the `*_appended.*` format)"
+options,demo_conmat_format,"The format of the demographic connectivity data (*i.e.* `Matrix`, `Edge List`, `Edge List with Time`, `Edge List with Type`)"
+options,demo_conmat_rescale,"`Identical Grids` if no rescaling is necessary, `Rescale Connectivity Matrix` if the connectivity data needs to be rescaled to the planning units. Use rescaling with caution"
+options,demo_conmat_rescale_edge,"If rescaling, how to handle the edges (*i.e.* `Proportional to overlap` or `Assume homogeneous connectivity`)"
+options,demo_conmat_type,"The format of the demographic connectivity data (*i.e.* `Probability`, `Migration`, `Flow`)"
+options,demo_metrics,Third level keys with logicals. `True` if you want to calculate that specific metric. Tertiary level keys are available in `Table 2 <marcon.html
+options,demo_pu_cm_progress,"Logical, `True` if you want to see a progress bar as demographic connectivity data is rescaled"
+options,fa_status,"The status of the avoidance areas (*i.e.* `Locked in`, `Locked out`, or `Status-quo`)"
+options,inputdat_boundary,"Nature (*i.e.* ""Asymmetric"" ""Symmetric"") of the spatial dependencies "
+options,land_conmat_type,"The format of the demographic connectivity data (*i.e.* `Habitat Type + Resistance`, `Resistance Surface`, `Connectivity Matrix`)"
+options,land_hab_buff,Buffer distance (m) under which planning units will be considered connected neighbours in the distance calculations. All distance calculations assume travel in straight lines between the centers of neighbouring planning units.
+options,land_hab_thresh,"Threshold under which habitat connectivity values is considered null. Ranges from 0 to 1. Without a threshold, values for in/out degrees, and betweenness centrality will be homogeneous throughout each habitat type."
+options,land_metrics,Third level keys with logicals. `True` if you want to calculate that specific metric. Tertiary level keys are available in `Table 2 <marcon.html
+options,land_pu_cm_progress,"Logical, `True` if you want to see a progress bar as landscape connectivity data is generated"
+options,land_res_matrixType,`Least-Cost Path` if you want to estimate connectivity using resistance values and the spatial arrangement of habitats or `Euclidean Distance` if you want to estimate connectivity using only the spatial arrangement of habitats 
+options,map_filecheck,"Logical, `True` if you want to export the map as an image file."
+options,marxan,"`Marxan` if you want to use Marxan, or `Marxan with Zones` if you want to use the Marxan with Zones (experimental)"
+options,marxan_bit,"`64-bit` if you want to use the 64-bit version of Marxan which is faster, or `32-bit` if you want to use the 32-bit version of Marxan"
+options,metricsCalculated,"Logical, `True` if connectivity metrics have been calculated at least once"
+options,pucsv_filecheck,"Logical, `True` if you want to export the `.csv` version of all the planning unit specific output"
+options,pudat_filecheck,"Logical, `True` if you want to export the marxan formated planning unit file (*i.e.* `pu.dat`)"
+options,pushp_filecheck,"Logical, `True` if you want to export the shapefile version of all the planning unit specific output"
+connectivityMetrics,best_solution,The `best solution` from the Marxan output
+connectivityMetrics,boundary,The spatial dependencies (*i.e.* `boundary.dat`)
+connectivityMetrics,select_freq,The `selection frequency` from the Marxan output
+connectivityMetrics,spec_demo_pu,The connectivity metrics calculated from the demographic connectivity data scaled to the planning units. Tertiary level keys are available in `Table 2 <marcon.html
+connectivityMetrics,spec_land_pu,The connectivity metrics calculated from the landscape connectivity data scaled to the planning units. Tertiary level keys are available in `Table 2 <marcon.html
+connectivityMetrics,spec_demo_cu,The connectivity metrics calculated from the demographic connectivity data scaled to the connectivity units. Tertiary level keys are available in `Table 2 <marcon.html
+connectivityMetrics,spec_land_cu,The connectivity metrics calculated from the landscape connectivity data scaled to the connectivity units. Tertiary level keys are available in `Table 2 <marcon.html

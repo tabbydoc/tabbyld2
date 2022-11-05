@@ -1,0 +1,73 @@
+col0,col1,col2,col3
+0,0,0,Não foi identificado o uso de CMS.
+0,0,1,Foi identificado o uso de CMS.
+1,0,0,O documento HTML foi validado com sucesso.
+1,1,1,O documento HTML contêm erros que devem ser corrigidos. O documento é inválido.
+1,0,2,A folha de estilo foi validada com sucesso.
+1,1,3,A folha de estilo contêm erros que devem ser corrigidos. A folha de estilo é inválida.
+3,0,0,Passou por todos os nossos testes.
+3,1,1,Os níveis de título não foram utilizados ou não foram utilizados corretamente.
+3,2,2,Foi utilizado somente o nível H1.
+3,1,3,A hierarquia dos níveis de título está incorreta.
+6,0,0,Passou por todos os nossos testes.
+6,1,1,Não foi identificado um atalho para o conteúdo principal.
+6,1,2,Há atalho para o conteúdo principal no entanto não pode ser lido por leitores pois ele ou um dos seus elementos pai contêm regras CSS impeditivas.
+7,0,0,Passou por todos os nossos testes.
+7,1,1,Foram usadas elementos table para leiautar a página.
+7,1,2,Há elementos form dentro de elementos table.
+7,2,3,Possivelmente o conteúdo da página está em outro endereço.
+8,0,0,Passou por todos os nossos testes.
+8,1,1,Há links adjacentes sem nenhum tipo de separação.
+9,0,0,Passou por todos os nossos testes.
+9,1,1,Pode abrir Novas Instâncias
+11,0,0,Passou por todos os nossos testes.
+11,1,1,Os parâmetros do meta tipo refresh não estão em conformidade com o padrão.
+11,1,2,"Os parâmetros do meta tipo refresh, é preciso especificar em quanto tempo ocorrerá o redirecionamento."
+11,1,3,A URL informada no atributo content do meta tipo refresh está fora do padrão especificado ou não foi informada.
+16,0,0,Pagina em PT-BR.
+16,1,1,Pagina em outro idioma.
+17,0,0,Passou por todos os nossos testes.
+17,1,1,A página não tem título definido.
+17,1,2,A página tem mais de um título definido.
+19,0,0,Passou por todos os nossos testes.
+19,1,1,Link vazio. Não possui conteúdo ou valor no atributo title.
+19,1,2,Link com descrição apenas no atributo title.
+19,2,3,Link com dupla descrição. Possui conteúdo e valor no atributo title.
+19,1,4,Não é possível associar o valor do atributo title com o contexto do link.
+19,1,5,Não é possível associar a descrição com o contexto do link.
+19,1,6,A imagem deve ter descrição definida no atributo alt.
+19,2,7,Há links com conteúdo igual.
+19,2,8,Há links com destino igual.
+19,2,9,"É uma boa prática mencionar o formato de arquivo (.pdf, .doc, etc) de documentos para download na descrição."
+20,0,0,Passou por todos os nossos testes.
+20,1,1,Imagem sem o atributo alt.
+20,2,2,Imagem com o atributo alt vazio caracteriza uma imagem decorativa.
+20,2,3,Imagem com descrição longa mais de 140 caracteres.
+20,2,4,Imagem com dupla descrição title e alt iguais.
+20,1,5,Imagem com descrição inadequada.
+20,1,6,Há outras imagens com a mesma descrição.
+23,0,0,Tabela com descrição.
+23,1,1,Tabela sem descrição.
+24,0,0,Passou por todos os nossos testes.
+24,2,1,As células da tabela deveriam ter uma relação entre atributos id e headers.
+24,2,2,Nem todos os atributos headers das células da tabela tem um id correspondente.
+24,2,3,As células da tabela apresentam duplicidade nos valores dos atributos id.
+24,2,4,Todos os elementos th deveriam ter o atributo scope.
+24,2,5,Há elementos th sem o atributo scope.
+24,2,6,Há elementos th com valores inválidos no atributo scope.
+26,0,0,Passou por todos os nossos testes.
+26,1,1,O elemento abbr não possui atributo title.
+31,2,0,Dividido em áreas de informação
+33,2,0,Atenção possui presença de vídeo.
+36,2,0,Possui controle de audio.
+38,0,0,Passou por todos os nossos testes.
+38,1,1,Botão sem descrição ou identificação.
+38,2,2,O elemento input não tem o atributo type.
+39,0,0,Passou por todos os nossos testes.
+39,1,1,Não foi identificado um label associado ao campo.
+39,1,2,Campo sem identificação e label associado.
+44,0,0,O formulário passou pelos nossos testes.
+44,0,1,O elemento select passou pelos nossos testes.
+44,2,2,Não possui tag fieldset.
+44,2,3,Não possui tag Legend dentro da tag fieldset.
+44,2,4,Não possui tag optgroup dentro da tag select.

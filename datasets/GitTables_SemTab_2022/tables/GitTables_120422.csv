@@ -1,0 +1,15 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16
+5,,l10n_chart_uk_sme,Purchase,NCI,percent,,2201,2201,Taxable Purchases for input-taxed sales,,Taxable Purchases for input-taxed sales,,1,1,,result = int(price_unit * 10) / 100.00
+3,Non-Capital purchases EXCL GST,l10n_chart_uk_sme,Purchase,NCF,percent,,2201,2201,Taxable Purchases Non Capital - Gst Free (G14 b),,Taxable Purchases Non Capital - Gst Free (G14 b),,1,1,,result = int(price_unit * 10) / 100.00
+8,Exports 0% GST,l10n_chart_uk_sme,Sale,EXP,percent,,2200,2200,Taxable Sales Exports 0% (G2),,Taxable Sales Exports 0% (G2),,-1,-1,,"
+"
+10,,l10n_chart_uk_sme,Sale,INP,percent,,2200,2200,Taxable Sales Input-taxed 0%,,Taxable Sales Input-taxed 0%,,-1,-1,,
+11,,l10n_chart_uk_sme,Sale,FRE,percent,,2200,2200,Taxable Sales other GST free,,Taxable Sales other GST free,,-1,-1,,
+4,Capital Purchases including GST,l10n_chart_uk_sme,Purchase,CAG,percent,0.1,2201,2201,Taxable Purchases Capital Inc GST,Input GST (1B),Taxable Purchases Capital Inc GST,Input GST (1B),1,1,,result = int(price_unit * 10) / 100.00
+12,Capital Purchases - GST Free,l10n_chart_uk_sme,Purchase,CAF,percent,,2201,2201,Taxable Purchases - Capital GST Free (G14 a),,Taxable Purchases - Capital GST Free (G14 a),,1,1,,result = int(price_unit * 10) / 100.00
+6,10% GST on Sales,l10n_chart_uk_sme,Sale,GST ,percent,0.1,2200,2200,Taxable Sales GST 10%,Output GST (1A),Taxable Sales GST 10%,Output GST (1A),-1,-1,,result = int(price_unit * 10) / 100.00
+1,Non-Capital Purchases inc GST,l10n_chart_uk_sme,Purchase,NCG,percent,0.1,2201,2201,Taxable Purchases Non-Capital inc GST,Input GST (1B),Taxable Purchases Non-Capital inc GST,Input GST (1B),1,1,,
+13,100.00%,l10n_chart_uk_sme,Purchase,GST 100%,percent,,2201,2201,GST Paid to custom ,,GST Paid to custom ,,1,1,,result = price_unit * 0.10
+14,,l10n_chart_uk_sme,Purchase,FRE On Purchase,percent,,2201,2201,Taxable Purchases Non Capital - Gst Free (G14 b),,Taxable Purchases Non Capital - Gst Free (G14 b),,1,1,,result = price_unit * 0.10
+15,,l10n_chart_uk_sme,Sale,N-T On Sale,percent,,2200,2200,N-T Sales ,,N-T Sales ,,1,1,,result = price_unit * 0.10
+16,,l10n_chart_uk_sme,Purchase,N-T On Purchase,percent,,2201,2201,N-T Purchase ,,N-T Purchase ,,1,1,,result = price_unit * 0.10

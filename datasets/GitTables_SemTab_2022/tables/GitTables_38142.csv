@@ -1,0 +1,30 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+z0bug.product_template_0,MISC,Varie,18.0,9.5,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_1,AA,Prodotto Alpha,0.84,0.42,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_2,BB,Prodotto Beta,3.38,1.69,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_3,CC,Prodotto Chi,0.74,0.37,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_4,DD,Prodotto Delta,2.64,1.32,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_5,EE,Prodotto Epsilon,0.96,0.48,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_6,FF,Prodotto Phi,4.68,2.34,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_7,GG,Prodotto Gamma,0.57,0.29,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_8,HH,Prodotto Hospice/Eta,1.72,0.86,All,consu,z0bug.tax_4v,z0bug.tax_4a,z0bug.coa_510000,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_9,II,Prodotto Iota,0.71,0.35,All,consu,z0bug.tax_10v,z0bug.tax_10a,z0bug.coa_510000,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_10,JJ,Prodotto Juvenilia/Psi,1.46,0.73,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_11,KK,Prodotto Kappa,0.48,0.24,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_12,LL,Prodotto Lambda,0.44,0.22,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610110,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_13,MM,Prodotto Micro/Mu,0.45,0.22,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610110,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_14,NN,Prodotto New/Nu,0.54,0.27,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610110,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_15,OO,Prodotto Omicron,0.77,0.39,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610110,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_16,PP,Prodotto Greek Pi,1.24,0.62,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610110,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_17,QQ,Prodotto Quality/Omega,0.54,0.27,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610110,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_18,RR,Prodotto Rho,1.19,0.59,All,product,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510100,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_19,SS,Prodotto Sigma,0.66,0.33,All,product,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510100,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_20,TT,Prodotto Tau,1.09,0.54,All,product,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510100,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_21,UU,Prodotto Upsilon,0.51,0.26,All,product,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510100,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_22,VV,Prodotto Theta,0.63,0.32,All,product,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510100,z0bug.coa_610100,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_23,WW,Special Worldwide service,1.88,0.0,All,service,z0bug.tax_a15v,z0bug.tax_a15a,z0bug.coa_510200,z0bug.coa_621200,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_24,XX,Prodotto Xi extra,0.52,0.26,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610110,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_25,YY,Special service for Young people,0.71,0.0,All,service,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510200,z0bug.coa_621200,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_26,ZZ,Prodotto Zeta,1.44,0.72,All,consu,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510000,z0bug.coa_610110,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_27,__,Consegna gratuita,0.0,0.0,All,service,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_510200,z0bug.coa_621200,product.product_uom_unit,product.product_uom_unit
+z0bug.product_template_SB,SP-BANC,Spese bancarie,2.5,0.95,All,service,z0bug.tax_22v,z0bug.tax_22a,z0bug.coa_512000,z0bug.coa_731140,product.product_uom_unit,product.product_uom_unit

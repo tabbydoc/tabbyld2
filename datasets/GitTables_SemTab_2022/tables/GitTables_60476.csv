@@ -1,0 +1,211 @@
+col0,col1,col2
+59.0,American toad,Agriculture:All
+44.0,Short-tailed Shrew,Agriculture:All
+52.0,Pileated Woodpecker,Agriculture:All
+44.0,Snowshoe Hare,Agriculture:All
+44.0,American Marten,Agriculture:All
+47.0,White-tailed  Deer,Agriculture:All
+44.0,White-footed Mouse,Agriculture:All
+44.0,Red Backed Salamander,Agriculture:All
+40.0,Wood Frog,Agriculture:All
+52.0,American Woodcock,Agriculture:All
+44.0,Ovenbird,Agriculture:All
+44.0,Red-breasted Nuthatch,Agriculture:All
+52.0,Barred Owl,Agriculture:All
+50.0,Black Bear,Agriculture:All
+60.0,American toad,Forest:Coniferous Medium
+32.0,Short-tailed Shrew,Forest:Coniferous Medium
+48.0,Pileated Woodpecker,Forest:Coniferous Medium
+60.0,Snowshoe Hare,Forest:Coniferous Medium
+100.0,American Marten,Forest:Coniferous Medium
+80.0,White-tailed  Deer,Forest:Coniferous Medium
+40.0,White-footed Mouse,Forest:Coniferous Medium
+40.0,Red Backed Salamander,Forest:Coniferous Medium
+100.0,Wood Frog,Forest:Coniferous Medium
+30.0,American Woodcock,Forest:Coniferous Medium
+16.0,Ovenbird,Forest:Coniferous Medium
+80.0,Red-breasted Nuthatch,Forest:Coniferous Medium
+27.0,Barred Owl,Forest:Coniferous Medium
+60.0,Black Bear,Forest:Coniferous Medium
+60.0,American toad,Forest:Coniferous Old
+40.0,Short-tailed Shrew,Forest:Coniferous Old
+60.0,Pileated Woodpecker,Forest:Coniferous Old
+60.0,Snowshoe Hare,Forest:Coniferous Old
+100.0,American Marten,Forest:Coniferous Old
+80.0,White-tailed  Deer,Forest:Coniferous Old
+40.0,White-footed Mouse,Forest:Coniferous Old
+40.0,Red Backed Salamander,Forest:Coniferous Old
+100.0,Wood Frog,Forest:Coniferous Old
+30.0,American Woodcock,Forest:Coniferous Old
+20.0,Ovenbird,Forest:Coniferous Old
+100.0,Red-breasted Nuthatch,Forest:Coniferous Old
+45.0,Barred Owl,Forest:Coniferous Old
+60.0,Black Bear,Forest:Coniferous Old
+60.0,American toad,Forest:Coniferous Young
+16.0,Short-tailed Shrew,Forest:Coniferous Young
+36.0,Pileated Woodpecker,Forest:Coniferous Young
+60.0,Snowshoe Hare,Forest:Coniferous Young
+50.0,American Marten,Forest:Coniferous Young
+80.0,White-tailed  Deer,Forest:Coniferous Young
+40.0,White-footed Mouse,Forest:Coniferous Young
+40.0,Red Backed Salamander,Forest:Coniferous Young
+100.0,Wood Frog,Forest:Coniferous Young
+30.0,American Woodcock,Forest:Coniferous Young
+16.0,Ovenbird,Forest:Coniferous Young
+60.0,Red-breasted Nuthatch,Forest:Coniferous Young
+18.0,Barred Owl,Forest:Coniferous Young
+60.0,Black Bear,Forest:Coniferous Young
+100.0,American toad,Forest:Deciduous Medium
+80.0,Short-tailed Shrew,Forest:Deciduous Medium
+80.0,Pileated Woodpecker,Forest:Deciduous Medium
+30.0,Snowshoe Hare,Forest:Deciduous Medium
+35.0,American Marten,Forest:Deciduous Medium
+30.0,White-tailed  Deer,Forest:Deciduous Medium
+100.0,White-footed Mouse,Forest:Deciduous Medium
+100.0,Red Backed Salamander,Forest:Deciduous Medium
+100.0,Wood Frog,Forest:Deciduous Medium
+100.0,American Woodcock,Forest:Deciduous Medium
+80.0,Ovenbird,Forest:Deciduous Medium
+16.0,Red-breasted Nuthatch,Forest:Deciduous Medium
+60.0,Barred Owl,Forest:Deciduous Medium
+100.0,Black Bear,Forest:Deciduous Medium
+100.0,American toad,Forest:Deciduous Old
+100.0,Short-tailed Shrew,Forest:Deciduous Old
+100.0,Pileated Woodpecker,Forest:Deciduous Old
+30.0,Snowshoe Hare,Forest:Deciduous Old
+35.0,American Marten,Forest:Deciduous Old
+30.0,White-tailed  Deer,Forest:Deciduous Old
+100.0,White-footed Mouse,Forest:Deciduous Old
+100.0,Red Backed Salamander,Forest:Deciduous Old
+100.0,Wood Frog,Forest:Deciduous Old
+100.0,American Woodcock,Forest:Deciduous Old
+100.0,Ovenbird,Forest:Deciduous Old
+20.0,Red-breasted Nuthatch,Forest:Deciduous Old
+100.0,Barred Owl,Forest:Deciduous Old
+100.0,Black Bear,Forest:Deciduous Old
+100.0,American toad,Forest:Deciduous Young
+40.0,Short-tailed Shrew,Forest:Deciduous Young
+60.0,Pileated Woodpecker,Forest:Deciduous Young
+30.0,Snowshoe Hare,Forest:Deciduous Young
+18.0,American Marten,Forest:Deciduous Young
+30.0,White-tailed  Deer,Forest:Deciduous Young
+100.0,White-footed Mouse,Forest:Deciduous Young
+100.0,Red Backed Salamander,Forest:Deciduous Young
+100.0,Wood Frog,Forest:Deciduous Young
+100.0,American Woodcock,Forest:Deciduous Young
+80.0,Ovenbird,Forest:Deciduous Young
+12.0,Red-breasted Nuthatch,Forest:Deciduous Young
+40.0,Barred Owl,Forest:Deciduous Young
+100.0,Black Bear,Forest:Deciduous Young
+80.0,American toad,Forest:Mixed Medium
+72.0,Short-tailed Shrew,Forest:Mixed Medium
+72.0,Pileated Woodpecker,Forest:Mixed Medium
+100.0,Snowshoe Hare,Forest:Mixed Medium
+100.0,American Marten,Forest:Mixed Medium
+100.0,White-tailed  Deer,Forest:Mixed Medium
+80.0,White-footed Mouse,Forest:Mixed Medium
+90.0,Red Backed Salamander,Forest:Mixed Medium
+100.0,Wood Frog,Forest:Mixed Medium
+100.0,American Woodcock,Forest:Mixed Medium
+64.0,Ovenbird,Forest:Mixed Medium
+64.0,Red-breasted Nuthatch,Forest:Mixed Medium
+54.0,Barred Owl,Forest:Mixed Medium
+80.0,Black Bear,Forest:Mixed Medium
+80.0,American toad,Forest:Mixed Old
+90.0,Short-tailed Shrew,Forest:Mixed Old
+90.0,Pileated Woodpecker,Forest:Mixed Old
+100.0,Snowshoe Hare,Forest:Mixed Old
+100.0,American Marten,Forest:Mixed Old
+100.0,White-tailed  Deer,Forest:Mixed Old
+80.0,White-footed Mouse,Forest:Mixed Old
+90.0,Red Backed Salamander,Forest:Mixed Old
+100.0,Wood Frog,Forest:Mixed Old
+100.0,American Woodcock,Forest:Mixed Old
+80.0,Ovenbird,Forest:Mixed Old
+80.0,Red-breasted Nuthatch,Forest:Mixed Old
+90.0,Barred Owl,Forest:Mixed Old
+80.0,Black Bear,Forest:Mixed Old
+80.0,American toad,Forest:Mixed Young
+36.0,Short-tailed Shrew,Forest:Mixed Young
+54.0,Pileated Woodpecker,Forest:Mixed Young
+100.0,Snowshoe Hare,Forest:Mixed Young
+50.0,American Marten,Forest:Mixed Young
+100.0,White-tailed  Deer,Forest:Mixed Young
+80.0,White-footed Mouse,Forest:Mixed Young
+90.0,Red Backed Salamander,Forest:Mixed Young
+100.0,Wood Frog,Forest:Mixed Young
+100.0,American Woodcock,Forest:Mixed Young
+64.0,Ovenbird,Forest:Mixed Young
+48.0,Red-breasted Nuthatch,Forest:Mixed Young
+36.0,Barred Owl,Forest:Mixed Young
+80.0,Black Bear,Forest:Mixed Young
+50.0,American toad,Urban:All
+15.0,Short-tailed Shrew,Urban:All
+41.0,Pileated Woodpecker,Urban:All
+12.5,Snowshoe Hare,Urban:All
+10.0,American Marten,Urban:All
+25.0,White-tailed  Deer,Urban:All
+30.0,White-footed Mouse,Urban:All
+15.0,Red Backed Salamander,Urban:All
+15.0,Wood Frog,Urban:All
+41.0,American Woodcock,Urban:All
+27.0,Ovenbird,Urban:All
+27.0,Red-breasted Nuthatch,Urban:All
+41.0,Barred Owl,Urban:All
+0.0,Black Bear,Urban:All
+0.0,American toad,Road:All
+0.0,Short-tailed Shrew,Road:All
+0.0,Pileated Woodpecker,Road:All
+0.0,Snowshoe Hare,Road:All
+0.0,American Marten,Road:All
+0.0,White-tailed  Deer,Road:All
+0.0,White-footed Mouse,Road:All
+0.0,Red Backed Salamander,Road:All
+0.0,Wood Frog,Road:All
+0.0,American Woodcock,Road:All
+0.0,Ovenbird,Road:All
+0.0,Red-breasted Nuthatch,Road:All
+0.0,Barred Owl,Road:All
+0.0,Black Bear,Road:All
+59.0,American toad,Water:All
+10.0,Short-tailed Shrew,Water:All
+30.0,Pileated Woodpecker,Water:All
+0.0,Snowshoe Hare,Water:All
+5.0,American Marten,Water:All
+10.0,White-tailed  Deer,Water:All
+0.0,White-footed Mouse,Water:All
+10.0,Red Backed Salamander,Water:All
+40.0,Wood Frog,Water:All
+10.0,American Woodcock,Water:All
+10.0,Ovenbird,Water:All
+10.0,Red-breasted Nuthatch,Water:All
+52.0,Barred Owl,Water:All
+50.0,Black Bear,Water:All
+80.0,American toad,Wetland:Forested
+50.0,Short-tailed Shrew,Wetland:Forested
+52.0,Pileated Woodpecker,Wetland:Forested
+44.0,Snowshoe Hare,Wetland:Forested
+44.0,American Marten,Wetland:Forested
+47.0,White-tailed  Deer,Wetland:Forested
+50.0,White-footed Mouse,Wetland:Forested
+44.0,Red Backed Salamander,Wetland:Forested
+100.0,Wood Frog,Wetland:Forested
+52.0,American Woodcock,Wetland:Forested
+44.0,Ovenbird,Wetland:Forested
+44.0,Red-breasted Nuthatch,Wetland:Forested
+58.0,Barred Owl,Wetland:Forested
+70.0,Black Bear,Wetland:Forested
+80.0,American toad,Wetland:Open
+50.0,Short-tailed Shrew,Wetland:Open
+52.0,Pileated Woodpecker,Wetland:Open
+44.0,Snowshoe Hare,Wetland:Open
+44.0,American Marten,Wetland:Open
+47.0,White-tailed  Deer,Wetland:Open
+50.0,White-footed Mouse,Wetland:Open
+44.0,Red Backed Salamander,Wetland:Open
+70.0,Wood Frog,Wetland:Open
+52.0,American Woodcock,Wetland:Open
+44.0,Ovenbird,Wetland:Open
+44.0,Red-breasted Nuthatch,Wetland:Open
+58.0,Barred Owl,Wetland:Open
+70.0,Black Bear,Wetland:Open

@@ -1,0 +1,52 @@
+col0,col1,col2,col3,col4,col5,col6
+title_01,Title,Title,ERROR,REQUIRED,A dataset <b>Title</b> is required.,
+title_02,Title,Title,WARNING,RECOMMENDED,The dataset's <b>Title</b> should be at least five words long. Between 7 and 20 words are recommended.,
+creators_01,Creators,Creators,ERROR,REQUIRED,At least one dataset <b>Creator</b> is required.,
+responsible_party_01,Party,Party,ERROR,REQUIRED,"At least one of <b>Last Name</b>, <b>Organization</b>, or <b>Position Name</b> is required.",
+responsible_party_02,Party,Party,WARNING,RECOMMENDED,An <b>ORCID ID</b> is recommended.,
+responsible_party_03,Party,Party,ERROR,REQUIRED,A <b>Role</b> is required.,Applies only to parties that require Role.
+responsible_party_04,Party,Party,ERROR,REQUIRED,<b>Last Name</b> is required if First Name or Middle Name/Initial  is given.,"Applies if first or middle name is provided, but no last name."
+responsible_party_05,Party,Party,WARNING,RECOMMENDED,An <b>Email</b> address should be provided.,
+responsible_party_06,Party,Party,ERROR,REQUIRED,An <b>Org ID Type</b> is required if an Org ID is provided.,
+abstract_01,Abstract,Abstract,WARNING,RECOMMENDED,A dataset <b>Abstract</b> should be provided.,
+abstract_02,Abstract,Abstract,WARNING,RECOMMENDED,Consider increasing the length of the dataset's <b>Abstract</b>. 20 or more words is a recommended length.,"Currently, shown if number of words < 20."
+keywords_01,Keywords,Keywords,WARNING,RECOMMENDED,<b>Keywords</b> should be provided to make the dataset more discoverable.,
+keywords_02,Keywords,Keywords,WARNING,RECOMMENDED,Consider adding more <b>Keywords</b> to make the dataset more discoverable.,
+intellectual_rights_01,Intellectual Rights,Intellectual Rights,WARNING,RECOMMENDED,An <b>Intellectual Rights</b> policy should be specified.,
+coverage_01,Coverage,Coverage,WARNING,RECOMMENDED,"At least one coverage element should be present in a dataset. I.e., at least one of <b>Geographic Coverage</b>, <b>Temporal Coverage</b>, or <b>Taxonomic Coverage</b> should be specified.",
+geographic_coverage_01,Geographic Coverage,Geographic Description,ERROR,REQUIRED,<b>Geographic Description</b> is required.   ,Applies if geographic coverage is present.
+geographic_coverage_02,Geographic Coverage,Bounding Coordinates,ERROR,REQUIRED,<b>Bounding Coordinates</b> are required and must be decimal values.,Applies if geographic coverage is present.
+geographic_coverage_03,Geographic Coverage,West Bounding Coordinate,ERROR,REQUIRED,<b>West Bounding Coordinate</b> must be a decimal value between -180.0 and +180.0.,
+geographic_coverage_04,Geographic Coverage,East Bounding Coordinate,ERROR,REQUIRED,<b>East Bounding Coordinate</b> must be a decimal value between -180.0 and +180.0.,
+geographic_coverage_05,Geographic Coverage,North Bounding Coordinate,ERROR,REQUIRED,<b>North Bounding Coordinate</b> must be a decimal value between -90.0 and +90.0.,
+geographic_coverage_06,Geographic Coverage,South Bounding Coordinate,ERROR,REQUIRED,<b>South Bounding Coordinate</b> must be a decimal value between -90.0 and +90.0.,
+taxonomic_coverage_01,Taxonomic Coverage,Taxon Rank,ERROR,REQUIRED,Taxon Rank is required,
+taxonomic_coverage_02,Taxonomic Coverage,Taxon Scientific Name,ERROR,REQUIRED,Taxon Scientific Name is required,
+data_table_01,Data Tables,Name,ERROR,REQUIRED,A data table <b>Name</b> is required.,
+data_table_02,Data Tables,Description,WARNING,RECOMMENDED,A data table <b>Description</b> is highly recommended.,
+data_table_03,Data Tables,Data Object Name,ERROR,REQUIRED,A <b>Data Object Name</b> is required.,
+data_table_04,Data Tables,Columns,ERROR,REQUIRED,A data table is required to have one or more <b>Columns</b>.,
+data_table_05,Data Tables,Data Tables,WARNING,RECOMMENDED,A dataset should contain at least one <b>Data Table</b>.,
+data_table_06,Data Tables,Data Table File,ERROR,REQUIRED,A data table has changed since it was uploaded. Please re-upload.,
+data_table_07,Data Tables,Data Table File,ERROR,REQUIRED,A data table CSV file is missing. Please re-upload.,
+attributes_01,Data Tables,Column Definition,ERROR,REQUIRED,A column <b>Definition</b> is required.,For each column present.
+attributes_02,Data Tables,Numerical Variable Unit,ERROR,REQUIRED,A Numerical variable is required to have a <b>Standard Unit</b> or <b>Custom Unit</b> defined.,For Numerical variables.
+attributes_03,Data Tables,Format String,ERROR,REQUIRED,A DateTime variable requires a <b>Format String</b>.,For DateTime variables
+attributes_04,Data Tables,Code Definitions,ERROR,REQUIRED,A Categorical variable is required is required to have at least one <b>Code</b> defined.,For Categorical variables
+attributes_05,Data Tables,Code Value,ERROR,REQUIRED,A <b>Code</b> value is required.,For Categorical variables
+attributes_06,Data Tables,Code Definition,ERROR,REQUIRED,A code <b>Definition</b> is required.,For Categorical variables
+attributes_07,Data Tables,Explanation,ERROR,REQUIRED,A Missing Value Code <b>Explanation</b> is required.,For Missing Value Codes
+methods_01,Methods,Method Steps,WARNING,RECOMMENDED,A dataset should define at least one <b>Method Step</b>.,
+methods_02,Methods,Method Step,ERROR,REQUIRED,A method step is required to have a <b>Description</b>.,
+project_01,Project,Project Title,ERROR,REQUIRED,The <b>Project Title</b> is required.,
+project_02,Project,Project Personnel,ERROR,REQUIRED,At least one <b>Project Personnel</b> is required.,
+project_03,Project,Project,WARNING,RECOMMENDED,A dataset should define a <b>Project</b>.,
+project_04,Project,Funder Name,ERROR,REQUIRED,<b>Funder Name</b> is required.,
+project_05,Project,Award Title,ERROR,REQUIRED,<b>Award Title</b> is required.,
+other_entity_01,Other Entities,Name,ERROR,REQUIRED,Entity <b>Name</b> is required.,
+other_entity_02,Other Entities,Entity Type,ERROR,REQUIRED,<b>Entity Type</b> is required.,
+other_entity_03,Other Entities,Entity Description,WARNING,RECOMMENDED,Entity <b>Description</b> is highly recommended.,
+contacts_01,Contacts,Contacts,ERROR,REQUIRED,At least one <b>Contact</b> is required.,
+maintenance_01,Maintenance,Maintenance,ERROR,REQUIRED,Maintenance <b>Description</b> is required.,
+data_package_id_01,Data Package ID,Data Package ID,WARNING,OPTIONAL,A <b>Data Package ID</b> is required by EML but if you are going to submit your data to EDI you may leave it blank and we will provide one.,
+data_package_id_02,Data Package ID,Data Package ID,WARNING,RECOMMENDED,The <b>Data Package ID</b> does not conform to EDI's requirements.,

@@ -1,0 +1,51 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+1,National Address Database (NAD),Address,Data Resources,vector,Address,DOC-Census,English,01.02.2007,01.01.2008
+2,Bailey's Ecoregions and Subregions Dataset,Biodiversity and Ecosystems,Data Resources,png,Biodiversity and Ecosystems,USDA-USFS,English,01.04.2011,01.08.2010
+3,Environmental Sensitivity Index (ESI) Data Viewer and REST Services for Atlases,Biodiversity and Ecosystems,Data Resources,raster,Biodiversity and Ecosystems,DOC-NOAA,Greek,01.08.2009,01.02.2009
+4,FWS Critical Habitat for Threatened and Endangered Species Dataset,Biodiversity and Ecosystems,Data Resources,jpeg,Biodiversity and Ecosystems,DOI-FWS,German,01.02.2008,01.04.2013
+5,Terrestrial Ecosystems of the Conterminous United States,Biodiversity and Ecosystems,Data Resources,vector,Biodiversity and Ecosystems,DOI-USGS,English,01.04.2012,01.08.2011
+6,U.S. Geological Survey - Gap Analysis Project Species Habitat Maps CONUS_2001,Biodiversity and Ecosystems,Data Resources,png,Biodiversity and Ecosystems,DOI-USGS,English,01.08.2010,01.02.2010
+7,U.S. Geological Survey - Gap Analysis Project Species Range Maps CONUS_2001,Biodiversity and Ecosystems,Data Resources,raster,Biodiversity and Ecosystems,DOI-USGS,Greek,01.02.2009,01.04.2014
+8,Omernik's Level III Ecoregions Of The Conterminous United States,Biodiversity and Ecosystems,Data Resources,jpeg,Biodiversity and Ecosystems,USEPA,German,01.04.2013,01.08.2012
+9,GAP/LANDFIRE National Terrestrial Ecosystems,Biodiversity and Ecosystems,Data Resources,vector,Biodiversity and Ecosystems,DOI-USGS,English,01.08.2011,01.02.2011
+10,Army Military Land Tracts (AMLT),Cadastre,Data Resources,png,Cadastre,DOD-USACE,English,01.02.2010,01.04.2015
+11,BIA Indian Lands Dataset (Indian Lands of the United States),Cadastre,Data Resources,raster,Cadastre,DOI-BIA,Greek,01.04.2014,01.08.2013
+12,BLM National Public Land Survey System Polygons,Cadastre,Data Resources,jpeg,Cadastre,DOI-BLM,German,01.08.2012,01.02.2012
+13,Department of Defense Land Parcels and Sites,Cadastre,Data Resources,vector,Cadastre,DOD-A&S,English,01.02.2011,01.04.2016
+14,FS National Forest Dataset (US Forest Service Proclaimed Forests),Cadastre,Data Resources,png,Cadastre,USDA-USFS,English,01.04.2015,01.08.2014
+15,FWS Interest - End of FY 2018,Cadastre,Data Resources,raster,Cadastre,DOI-FWS,Greek,01.08.2013,01.02.2013
+16,Administrative Boundaries of National Park System Units 6/30/2020 - National Geospatial Data Asset (NGDA) NPS National Parks D,Cadastre,Data Resources,jpeg,Cadastre,DOI-NPS,German,01.02.2012,01.04.2017
+17,Outer Continental Shelf Active Renewable Energy Leases,Cadastre,Data Resources,vector,Cadastre,DOI-BOEM,English,01.04.2016,01.08.2015
+18,Outer Continetal Shelf Block Aliquots - Atlantic Region NAD83,Cadastre,Data Resources,png,Cadastre,DOI-BOEM,English,01.08.2014,01.02.2014
+19,Outer Continental Shelf Lease Blocks - Alaska Region NAD83,Cadastre,Data Resources,raster,Cadastre,DOI-BOEM,Greek,01.02.2013,01.04.2018
+20,Outer Continental Shelf Lease Blocks - Atlantic Region NAD83,Cadastre,Data Resources,jpeg,Cadastre,DOI-BOEM,German,01.04.2017,01.08.2016
+21,Outer Continental Shelf Lease Blocks - Gulf of Mexico Region NAD27,Cadastre,Data Resources,vector,Cadastre,DOI-BOEM,English,01.08.2015,01.04.2017
+22,Outer Continental Shelf Lease Blocks - Pacific Region - West Coast NAD83,Cadastre,Data Resources,png,Cadastre,DOI-BOEM,English,01.02.2014,01.08.2015
+23,Outer Continental Shelf Official Protraction Diagrams - Alaska Region NAD 83,Cadastre,Data Resources,raster,Cadastre,DOI-BOEM,Greek,01.04.2018,01.02.2014
+24,Outer Continental Shelf Official Protraction Diagrams - Atlantic Region NAD 83,Cadastre,Data Resources,jpeg,Cadastre,DOI-BOEM,German,01.08.2016,01.04.2018
+25,Outer Continental Shelf Official Protraction Diagrams And Lease Maps - Gulf Of Mexico Region NAD27,Cadastre,Data Resources,vector,Cadastre,DOI-BOEM,English,01.02.2015,01.08.2016
+26,Outer Continental Shelf Official Protraction Diagrams - Pacific Region - West Coast NAD 83,Cadastre,Data Resources,png,Cadastre,DOI-BOEM,English,01.04.2019,01.02.2015
+27,Protected Areas Database of the United States (PAD-US),Cadastre,Data Resources,raster,Cadastre,DOI-USGS,Greek,01.08.2017,01.04.2019
+28,BLM National Surface Management Agency Area Polygons,Cadastre,Data Resources,jpeg,Cadastre,DOI-BLM,German,01.02.2016,01.08.2017
+29,BLM National Surface Management Agency Withdrawal Area Polygons,Cadastre,Data Resources,vector,Cadastre,DOI-BLM,English,01.04.2020,01.04.2018
+30,BLM National Surface Management Agency Special Public Purpose Withdrawal Area Polygons,Cadastre,Data Resources,png,Cadastre,DOI-BLM,English,01.08.2018,01.08.2016
+31,BAmerican Indian Reservations (AIR) Exterior Extent Boundaries,Cadastre,Data Resources,raster,Cadastre,DOI-BIA,Greek,01.02.2017,01.02.2015
+32,Geostationary Operational Environmental Satellite (GOES) Imager Data,Climate and Weather,Data Resources,jpeg,Climate and Weather,DOC-NOAA,German,01.04.2021,01.04.2019
+33,High-Resolution Sea Surface Temperature (SST) Analysis Products,Climate and Weather,Data Resources,vector,Climate and Weather,DOC-NOAA,English,01.08.2019,01.08.2017
+34,NOAA NEXt-Generation RADar (NEXRAD) Products,Climate and Weather,Data Resources,png,Climate and Weather,DOC-NOAA,English,01.02.2018,01.02.2016
+35,Polar-Orbiting Operational Environmental Satellites (POES) Radiometer Data,Climate and Weather,Data Resources,raster,Climate and Weather,DOC-NOAA,Greek,01.04.2022,01.04.2020
+36,Geographic Names Information System (GNIS) - USGS National Map Downloadable Data Collection,Cultural Resources,Data Resources,jpeg,Cultural Resources,DOI-USGS,German,01.08.2020,01.08.2018
+37,National Register of Historic Places,Cultural Resources,Data Resources,vector,Cultural Resources,DOI-NPS,English,01.02.2019,01.04.2019
+38,"U.S. Coastal Lidar Elevation Data - Including The Great Lakes And Territories, 1996 - Present",Elevation,Data Resources,png,Elevation,DOC-NOAA,English,01.04.2023,01.08.2017
+39,Coastal Digital Elevation Models (DEMs),Elevation,Data Resources,raster,Elevation,DOC-NOAA,Greek,01.08.2021,01.02.2016
+40,Global Multi-Resolution Terrain Elevation Data - National Geospatial Data Asset (NGDA),Elevation,Data Resources,jpeg,Elevation,DOI-USGS,German,01.02.2020,01.04.2020
+41,Lidar Point Cloud - USGS National Map 3DEP Downloadable Data Collection,Elevation,Data Resources,vector,Elevation,DOI-USGS,English,01.04.2024,01.08.2018
+42,MultiBeam Bathymetry Database (MBBDB),Elevation,Data Resources,png,Elevation,DOC-NOAA,English,01.08.2022,01.02.2017
+43,1/3rd arc-second Digital Elevation Models (DEMs),Elevation,Data Resources,raster,Elevation,DOI-USGS,Greek,01.02.2021,01.04.2021
+44,National Flood Hazard Layer (NFHL),Elevation,Data Resources,jpeg,Elevation,DHS-FEMA,German,01.04.2025,01.08.2019
+45,Marine Trackline Geophysics Database,Elevation,Data Resources,vector,Elevation,DOC-NOAA,English,01.08.2023,01.04.2020
+46,NOS Hydrographic Surveys Collection,Elevation,Data Resources,png,Elevation,DOC-NOAA,English,01.02.2022,01.08.2018
+47,Shuttle Radar Topography Mission 1 Arc and 3 Arc Second Digital Terrain Elevation Data - National Geospatial Data Asset (NGDA),Elevation,Data Resources,raster,Elevation,DOI-USGS,Greek,01.04.2026,01.02.2017
+48,1 meter Digital Elevation Models (DEMs) - USGS National Map,Elevation,Data Resources,jpeg,Elevation,DOI-USGS,German,01.08.2024,01.04.2021
+49,5 Meter Alaska Digital Elevation Models (DEMs) - USGS National Map,Elevation,Data Resources,vector,Elevation,DOI-USGS,English,01.02.2023,01.08.2019
+50,Airborne Gravity: NGS Gravity Data for the US and Territories (2008-2022) - National Geospatial Data Asset (NGDA) Airborn,Geodetic Control,Data Resources,png,Geodetic Control,DOC-NOAA,English,01.04.2027,01.08.2020

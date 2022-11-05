@@ -1,0 +1,12 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+b26039a1-852f-11e7-bb31-be2e44b06b34,0e059dde-ff64-11e7-8be5-0ed5f89f718b,1,Service Delivery Point,Service Delivery Point,1.0,,b25ebcda-852f-11e7-bb31-be2e44b06b34,0
+b2603772-852f-11e7-bb31-be2e44b06b34,b25fb496-852f-11e7-bb31-be2e44b06b34,2,Ever Tested?,Ever Tested?,1.1,,b25ebcda-852f-11e7-bb31-be2e44b06b34,0
+b26039a2-852f-11e7-bb31-be2e44b06b34,b25fb5fe-852f-11e7-bb31-be2e44b06b34,3,Re-Testing (No. Months since last test),Re-Testing (No. Months since last test),2.0,,b25ebcda-852f-11e7-bb31-be2e44b06b34,0
+b2603773-852f-11e7-bb31-be2e44b06b34,b25fc698-852f-11e7-bb31-be2e44b06b34,4,HIV self-test in the past 12 months,HIV self-test in the past 12 months,2.1,,b25ebcda-852f-11e7-bb31-be2e44b06b34,0
+b260695c-852f-11e7-bb31-be2e44b06b34,b25fbb31-852f-11e7-bb31-be2e44b06b34,5,Has Any Disability,Has Any Disability,3.0,alien,b25ebcda-852f-11e7-bb31-be2e44b06b34,0
+b2603c5e-852f-11e7-bb31-be2e44b06b34,b25fb86a-852f-11e7-bb31-be2e44b06b34,6,Disability,Disability,3.4,,b25ebcda-852f-11e7-bb31-be2e44b06b34,0
+b2603dc6-852f-11e7-bb31-be2e44b06b34,b25fbb30-852f-11e7-bb31-be2e44b06b34,7,Consent,Consent,4.0,,b25ebcda-852f-11e7-bb31-be2e44b06b34,0
+b260401e-852f-11e7-bb31-be2e44b06b34,b25fbcca-852f-11e7-bb31-be2e44b06b34,8,Client tested as,Client tested as,5.0,,b25ebcda-852f-11e7-bb31-be2e44b06b34,0
+b260417c-852f-11e7-bb31-be2e44b06b34,b25fbf5e-852f-11e7-bb31-be2e44b06b34,9,Strategy,Strategy,6.0,,b25ebcda-852f-11e7-bb31-be2e44b06b34,0
+b2605f54-852f-11e7-bb31-be2e44b06b34,b25fc0c6-852f-11e7-bb31-be2e44b06b34,10,TB Screening,TB Screening,20.0,,b25ebcda-852f-11e7-bb31-be2e44b06b34,0
+b260665c-852f-11e7-bb31-be2e44b06b34,b25fc864-852f-11e7-bb31-be2e44b06b34,11,Remarks,Remarks,24.0,,b25ebcda-852f-11e7-bb31-be2e44b06b34,0

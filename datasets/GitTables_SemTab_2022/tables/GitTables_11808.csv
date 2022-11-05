@@ -1,0 +1,43 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15
+appraiser1id,appraiser,"PSC 5642, Box 8071
+APO AA 97365",appraiser1,appraiser1,x,0,0,,,,,,,,
+manager1id,manager1,"37594 Garza Roads Apt. 466
+North Brookemouth, IA 29742",manager1,manager1,x,0,0,,,,,,,,
+manager2id,manager2,"960 Savage Port Suite 027
+West Jacquelinemouth, NM 74085",manager2,manager2,x,0,0,manager2jaid1,full2,,,,,,
+id10,username10,"75470 Lopez Roads
+Port Jessicatown, TX 55221",first10,last10,x,0,0,,,,,,,,
+id11,username11,"08913 Charlene Flat
+Joshuaburgh, NJ 52496",first11,last11,x,0,0,,,,,,,,
+id12,username12,"7142 Wilson Drives
+Melissaton, IL 89760",first12,last12,x,0,0,onlyjaid,,,,,,,
+id13,username13,"9097 Bowman Landing Apt. 369
+Alanberg, MA 44739",first13,last13,x,0,0,newjaid,,,,,,,
+id14,username14,"9004 Edward Prairie
+Michaelside, LA 15560",first14,last14,x,0,0,matchingjaid,,,,,,,
+id15,username15,"42814 Houston Hills
+Rodriguezside, NJ 62629",first15,last15,x,0,0,,no jaid no existing,1460692800.0,1463284800.0,org1,pos1,manager3,appraiser1id
+id16,username16,"71760 Rogers Spur Apt. 296
+North Lindseyborough, IN 08516",first16,last16,x,0,0,,no jaid with existing,1460692800.0,1463284800.0,org1,pos1,manager3,appraiser1id
+id17,username17,"8847 Kramer Station
+South Christopher, KS 77208",first17,last17,x,0,0,newjaid,good data,1460692800.0,1463284800.0,org1,pos1,manager3,appraiser1id
+id18,username18,"51108 Goodwin Flats Apt. 764
+Lake Bobby, IL 82213",first18,last18,x,0,0,matchingjaid,good data,1460692800.0,1463284800.0,org1,pos1,manager2id,appraiser1id
+id19,username19,"6582 Vanessa Oval
+New Richard, NE 68819",first19,last19,x,0,0,newjaid,bad data,1460692800.0,1463284800.0,org2,pos2,managerxyz,appraiseridx
+id20,username20,"7389 Alec Squares Suite 508
+Port Jonathan, FL 50177",first20,last20,x,0,0,matchingjaid,bad data,1460692800.0,1463284800.0,org2,pos2,managerxyz,appraiseridx
+id21,username21,"18013 Billy Bridge Suite 522
+Schmitthaven, NC 66355",first21,last21,x,0,0,jaid,manager id only manager has no assignment,,,,,manager1id,
+id22,username22,"891 Bullock Ford
+Amandachester, NJ 51431",first22,last22,x,0,0,jaid,manager id only manager has existing assignment,,,,,manager2id,
+id23,username23,"02489 Cook Park
+Sherriport, MT 50853",first23,last23,x,0,0,,,,,,,manager1id,
+id24,username24,"23450 Timothy Divide
+Wuland, UT 20341",first24,last24,x,0,0,,,,,,,manager2id,
+id26,username26,"0976 Williams Mountains Apt. 009
+Lake Mario, OH 85565",first26,last26,x,0,0,jaid1,multiple import ,,,,,,
+id26,username26,"1097 Santos Springs Suite 264
+New Michelleborough, WY 51884",first26,last26,x,0,0,jaid2,multiple import ,,,,,,
+id27,username27,"5100 Scott Burg
+East Clayton, SC 66353",first27,last27,x,0,0,jaidy,match second jaid,1460692800.0,1463284800.0,org1,pos1,manager3,appraiser1id

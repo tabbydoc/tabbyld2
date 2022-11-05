@@ -1,0 +1,24 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18
+screensaver_user_id,fields.useragreement,custom,,User,0,,string,link,{ 'hrefTemplate': ',,,,,,,,,
+username,fields.useragreement,custom,,User,1,,string,link,{ 'hrefTemplate': ',,,,,,,,,
+user_name,fields.useragreement,custom,,User,2,,string,link,{ 'hrefTemplate': ',,,,,,,,,
+user_first_name,fields.useragreement,custom,,User,3,,string,link,{ 'hrefTemplate': ',,,,,,,,,
+user_last_name,fields.useragreement,custom,,User,4,,string,link,{ 'hrefTemplate': ',,,,,,,,,
+user_email,fields.useragreement,custom,,User,5,,string,,,,TRUE,User email,User Email,TRUE,,,,
+classification,fields.useragreement,custom,,User,14,,string,,,,TRUE,User classification,User Classification,TRUE,,user.classification,[l;d],
+type,fields.useragreement,custom,,,7,,string,link,{ 'hrefTemplate': ',,,,,,,,,
+data_sharing_level,fields.useragreement,custom,,,8,,integer,,,select,TRUE,Data sharing level,Data Sharing Level,TRUE,,useragreement.data_sharing_level,[l;d],[c;u]
+status,fields.useragreement,custom,,,9,Status may be set to expired or inactive if the agreement is active,string,,,select,TRUE,User agreement status,Status,TRUE,,useragreement.status,[l;d],[u]
+date_active,fields.useragreement,custom,,,10,,date,,,,TRUE,Date activated,Date Active,TRUE,,,[l;d],[c;u]
+date_expired,fields.useragreement,custom,,,11,,date,,,,TRUE,Date expired,Date Expired,TRUE,,,[l;d],
+date_notified,fields.useragreement,custom,,,12,,date,,,,TRUE,Date notified,Date Notified,TRUE,,,[l;d],[u]
+file_id,fields.useragreement,custom,,,30,,string,link,{ 'hrefTemplate': '/db/attachedfile/{file_id}/content' },,TRUE,Attached file internal ID,Attached File ID,TRUE,,,,
+filename,fields.useragreement,custom,,,31,,string,link,{ 'hrefTemplate': '/db/attachedfile/{file_id}/content' },,TRUE,User agreement attached file name,Attached File,TRUE,,,[l;d],
+lab_head_id,fields.useragreement,custom,,Lab,15,,string,link,{ 'hrefTemplate': ',,,,,,,,,
+lab_head_name,fields.useragreement,custom,,Lab,16,,string,link,{ 'hrefTemplate': ',,,,,,,,,
+lab_affiliation_name,fields.useragreement,custom,,Lab,17,,string,,,,TRUE,Lab affiliation,Lab Affiliation,TRUE,,,[l;d],
+lab_affiliation_category,fields.useragreement,custom,,Lab,18,,string,,,select,TRUE,Lab affiliation category,Lab Affiliation Category,TRUE,,labaffiliation.category,[l;d],
+lab_head_data_sharing_level,fields.useragreement,custom,,Lab,19,,integer,,,select,TRUE,Lab head data sharing level,Lab Head Data Sharing Level,TRUE,,useragreement.data_sharing_level,,
+lab_head_user_agreement_status,fields.useragreement,custom,,Lab,20,,string,,,select,TRUE,Lab head user agreement status,Lab Head Agreement Status,TRUE,,useragreement.status,,
+lab_head_file_id,fields.useragreement,custom,,Lab,21,,string,,{ 'hrefTemplate': '/db/attachedfile/{lab_head_file_id}/content' },,TRUE,Lab head user agreement attached file name,Lab Head Agreement Attached File ID,TRUE,,,,
+lab_head_filename,fields.useragreement,custom,,Lab,22,,string,link,{ 'hrefTemplate': '/db/attachedfile/{lab_head_file_id}/content' },,TRUE,,Lab Head Agreement Attached File,TRUE,,,,

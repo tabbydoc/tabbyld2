@@ -1,0 +1,25 @@
+col0,col1,col2,col3
+v2_1,,In service training and workshops,"It includes all costs related to the implementation of the training (per diems, transport allowances, hall rent, coffee breaks), workshops and similar activities. On-the-job training and/or recurrent training for professionals"
+v2_2,,Pre service training and workshops,"Targeted at student and others enrolled in universities, professional schools and similar"
+v2_3,,"Advertising, Campaigns and Communication for Health","Costs related to printed, multimedia or electronic material, radio/TV messages, used both for programme communication (like IEC, BCC, sensitization messages) and visibility"
+v2_4,,Salaries: Government personnel (GoR),Gross salary of personnel directly employed and paid for by GoR ('on statute')
+v2_5,,Salaries: Contracted personnel (for GoR),"Gross salary of personnel employed to work in government positions (both clinical and program implementation), not paid for by GoR directly ('contract' or project)"
+v2_6,,Salaries: Not-government personnel,"Gross salary of local and expatriate employees of any other organization/agency (like private sector, not for profit sector, in country TA ...)"
+v2_61,v2_6,TA,Technical assistance
+v2_62,v2_6,Service Provision,Program implementation and service provision
+v2_7,,Salaries: Short term consultants,External consultants not working full time in country
+v2_8,,Incentives for CHW,Incentives for Community health workers (and related cooperatives)
+v2_9,,PBF,Performance based financing
+v2_10,,Drugs,Drugs
+v2_11,,Commodities and consumable,"Mosquito nets, lab consumables, gloves ..."
+v2_12,,Nutritional support,Nutritional support
+v2_13,,Infrastructure,Infrastructure
+v2_14,,Non-medical equipment,Non-medical equipment
+v2_15,,Medical equipment,Medical equipment
+v2_16,,"Vehicles, Transportation & Travel","Vehicles, Transportation & Travel"
+v2_161,v2_16,Vehicles & maintenance,Capital costs of vehicles and maintenance costs
+v2_162,v2_16,Domestic travel costs,"All costs associated with in country travel (i.e. fuel, insurance for vehicles, service hire, travel allowances)"
+v2_163,v2_16,International travel costs,International travel costs
+v2_17,,Direct financial support,"Budget support, CDPF funds, and other direct financial transfer to GoR (national or lower level)"
+v2_18,,OH / General administrative costs,"Admin and overhead costs (office rent, utilities, internal communication costs, fringe benefits, security, cleaning...)"
+v2_19,,Other,It refers to all the input that are not explicitly mentioned in the above categories.

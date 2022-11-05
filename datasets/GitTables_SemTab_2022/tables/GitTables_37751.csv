@@ -1,0 +1,26 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+1,401573,4,C27EFF77470055BEE043C616A9C3C034,"Fender, Professor Rob","Fender, Professor Rob",LEA032,LEA032,2050-01-01 00:00:00,LOFAR,ProjectInformation
+2,401591,4,C27EFF77511B55BEE043C616A9C3C034,"Tudose,  Valeriu","Tudose,  Valeriu",LEA066,LOFAR Long Baselines commissioning,2050-01-01 00:00:00,LOFAR,ProjectInformation
+3,401580,4,C27EFF77567C55BEE043C616A9C3C034,"Frieswijk,  Wilfred","Polatidis, Dr Antonios",Commissioning2012,Approved commissioning projects,2050-01-01 00:00:00,LOFAR,ProjectInformation
+4,401551,4,C014914281F034A1E043C616A9C33210,"Heald, Dr. George","Heald, Dr. George",MSSS,MSSS,2038-01-01 00:00:00,LOFAR,ProjectInformation
+5,401580,4,CD7205F42DDF1CB4E043C616A9C39B6D,"Frieswijk, Dr Wilfred","Polatidis, Dr Antonios",Commissioning2012,Commissioning2012,2050-01-01 00:00:00,LOFAR,ProjectInformation
+6,402541,4,D4097EB5F2822D29E043C616A9C3DAC9,"Buitink, Dr Stijn","Buitink, Dr Stijn",LC0_041,Imaging of the Moon,2015-03-01 00:00:00,LOFAR,ProjectInformation
+7,402581,4,D4A91B41B919741BE043C616A9C3CD16,"White, Prof Glenn","White, Prof Glenn",LC0_032,LOFAR Survey of High Mass star forming regions in Galactic plane,2015-03-01 00:00:00,LOFAR,ProjectInformation
+8,402632,4,D4E81867038C7BD3E043C616A9C36750,"Best, Professor Philip","Best, Professor Philip",LC0_015,"A deep and wide extragalactic survey at low frequencies: AGN evolution, star formation, and cosmology",2015-03-01 00:00:00,LOFAR,ProjectInformation
+9,402630,4,D5195C106F4E3A2CE043C616A9C36CB0,"Morganti, Prof Raffaella","Morganti, Prof Raffaella",LC0_012,"Using LOFAR for detailed studies of AGN, and AGN physics",2015-03-01 00:00:00,LOFAR,ProjectInformation
+10,402630,4,D5AFA0948D9957ECE043C616A9C31425,"Morganti, Prof Raffaella","Morganti, Prof Raffaella",LC0_012,"Using LOFAR for detailed studies of AGN, and AGN physics",2015-03-01 00:00:00,LOFAR,ProjectInformation
+11,402630,4,D5B076AAE966749BE043C616A9C3CB04,"Morganti, Prof Raffaella","Morganti, Prof Raffaella",LC0_012,"Using LOFAR for detailed studies of AGN, and AGN physics",2015-03-01 00:00:00,LOFAR,ProjectInformation
+12,401551,4,D60DCE06A4691072E043C616A9C307B9,"Heald, Dr. George","Heald, Dr. George",MSSS,MSSS,2038-01-01 00:00:00,LOFAR,ProjectInformation
+13,402641,4,D652D0FC36695D14E043C616A9C3F6C7,"Heald, Dr. George","Heald, Dr. George",MSSS_HBA_2013,MSSS HBA Survey,2038-01-01 00:00:00,LOFAR,ProjectInformation
+14,402693,4,D754A288663B506AE043C616A9C3651C,"Mann, apl. Prof. Dr. Gottfried","Mann, apl. Prof. Dr. Gottfried",LC0_027,Solar activity studies with LOFAR,2015-03-01 00:00:00,LOFAR,ProjectInformation
+15,402728,4,D7D69F8F78183621E043C616A9C354F7,"Brueggen, Prof. Marcus","Brueggen, Prof. Marcus",LC0_037,Exploitation of LOFAR surveys to study galaxy clusters,2015-03-01 00:00:00,LOFAR,ProjectInformation
+16,402689,4,D96FA5442CDE6543E043C616A9C3593C,"Osten, Dr. Rachel","Osten, Dr. Rachel",LC0_013,Stellar Radio Astronomy with LOFAR,2015-03-01 00:00:00,LOFAR,ProjectInformation
+17,402709,4,DA65725A2DC0724FE043C616A9C3F613,"Fender, Professor Rob","Fender, Professor Rob",LC0_003,LC0_003,2015-05-02 00:00:00,LOFAR,ProjectInformation
+18,402583,4,DB7F12EB51C31F4FE043C616A9C31FEE,"Beck,  Rainer","Beck,  Rainer",LC0_043,LOFAR Survey of nearby galaxies,2015-05-02 00:00:00,LOFAR,ProjectInformation
+19,402630,4,DBDBD40821DE6F1AE043C616A9C3A794,"Morganti, Prof Raffaella","Morganti, Prof Raffaella",LC0_012,"Using LOFAR for detailed studies of AGN, and AGN physics",2015-03-01 00:00:00,LOFAR,ProjectInformation
+20,402641,4,DED6B48609847922E043C616A9C30FB2,"Heald, Dr. George","Heald, Dr. George",MSSS_HBA_2013,MSSS HBA Survey,2038-01-01 00:00:00,LOFAR,ProjectInformation
+21,402890,4,E089262C878A5F08E043C616A9C3AB10,"Pizzo, Dr. Roberto Francesco","Pizzo, Dr. Roberto Francesco",2013LOFAROBS,2013LOFAROBS,2038-01-01 00:00:00,LOFAR,ProjectInformation
+22,402859,4,E1E1BAA952BE5D30E043C616A9C365EF,"Oonk, Dr Raymond","Oonk, Dr Raymond",LC0_028,LOFAR Galactic Radio Recombination Line Survey (LG-RRLS),2015-03-01 00:00:00,LOFAR,ProjectInformation
+23,402641,4,E2E29A00174530B5E043C616A9C3A628,"Heald, Dr. George","Heald, Dr. George",MSSS_HBA_2013,MSSS HBA Survey,2038-01-01 00:00:00,LOFAR,ProjectInformation
+24,402641,4,E3656B9C1D272112E043C616A9C3D2DE,"Heald, Dr. George","Heald, Dr. George",MSSS_HBA_2013,MSSS HBA Survey,2038-01-01 00:00:00,LOFAR,ProjectInformation
+25,402516,4,E466263B149E3E56E043C616A9C384E7,"Fallows, Dr Richard","Fallows, Dr Richard",IPS,Interplanetary Scintillation,2018-05-11 00:00:00,LOFAR,ProjectInformation

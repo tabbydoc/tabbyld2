@@ -1,0 +1,43 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27
+MOM1CHAR.14,,,,,,pos,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,good timing,2.5
+MOM2CHAR.14,,,,,,,,,,,pos,,,0,0,0,0,0,0,0,0,0,0,0,0,good character,4.0
+MOM3CHAR.14,,,,neg,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,,3.5
+MOM1CHAR.05,neg,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,bad dynamics,
+MOM2CHAR.05,,,,,,,,,,neutral,,,,0,0,1,0,0,0,0,0,0,0,0,0,,
+MOM3CHAR.05,,,,,,,,,,neg,,,,0,0,1,0,0,0,0,0,0,0,0,0,,
+MOM1CHAR.06,,,,,,,,,,,pos,,,0,0,0,0,0,0,0,0,0,0,0,0,good character,4.0
+MOM2CHAR.06,,,,,,,,,,neg,,,,0,0,1,0,0,0,0,0,0,0,0,0,,3.0
+MOM3CHAR.06,,neg,,,,,,,,,neg,pos,neg,1,0,0,0,0,0,0,0,0,0,0,1,bad ending,4.5
+MOM1CHAR.07,,,,,pos,,,neutral,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,good timing,4.5
+MOM2CHAR.07,,,pos,,pos,,,,,,pos,,,0,0,0,0,1,0,0,0,0,0,0,0,"good character, good timing",3.5
+MOM3CHAR.07,,,,,,,,,,,pos,,,0,0,0,0,0,0,0,0,0,0,0,0,good character,3.5
+MOM1CHAR.08,neg,neg,,,,neutral,,,,,,,,1,0,0,0,0,0,0,0,0,0,0,0,(bad dynamics),5.0
+MOM2CHAR.08,,,,,,neg,,,,,,pos,,0,0,0,0,0,0,0,0,0,0,0,1,bad rhythm,4.0
+MOM3CHAR.08,,,,neg,,neg,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,bad rhythm,
+MOM1CHAR.09,,,,,,,,,neg,,,,,0,0,0,0,0,0,0,0,0,0,1,0,,4.0
+MOM2CHAR.09,,neg,pos,,,,,,,,,pos,,1,0,0,0,1,0,0,0,0,0,0,1,,4.5
+MOM3CHAR.09,,neg,,,,,,,,,,pos,,1,0,0,0,0,0,0,0,0,0,0,1,,4.0
+MOM1CHAR.10,,,,,,,neg,,,,,,,0,0,0,0,0,0,0,0,1,0,0,0,,
+MOM2CHAR.10,,neg,,,,,,,,,,,,1,0,0,0,0,0,0,0,0,0,0,0,,
+MOM3CHAR.10,,,,,,,neg,,,,,,,0,0,0,0,0,0,0,0,1,0,0,0,,
+MOM1CHAR.11,neg,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,bad dynamics,3.5
+MOM2CHAR.11,,,,,,,,,,,pos,,,0,0,0,0,0,0,0,0,0,0,0,0,good character,3.0
+MOM3CHAR.11,,,,,,,,,,neg,,,,0,0,1,0,0,0,0,0,0,0,0,0,,3.5
+MOM1CHAR.12,,,,neg,,neg,,,,neg,,,,0,1,1,0,0,0,0,0,0,0,0,0,bad rhythm,3.5
+MOM2CHAR.12,,,,neg,,neg,,,,neg,,,,0,1,1,0,0,0,0,0,0,0,0,0,bad rhythm?,3.5
+MOM3CHAR.12,,,,,,neg,,,,neg,,,,0,0,1,0,0,0,0,0,0,0,0,0,bad rhythm?,5.0
+MOM1CHAR.13,neg,,,,,,,,,neg,,,,0,0,1,0,0,0,0,0,0,0,0,0,bad dynamics,4.5
+MOM2CHAR.13,,neg,,,,,,,,,,,,1,0,0,0,0,0,0,0,0,0,0,0,,4.0
+MOM3CHAR.13,neg,,,,,neg,,,,neg,,,,0,0,1,0,0,0,0,0,0,0,0,0,"bad rhythm, bad dynamics?",5.0
+MOM1CHAR.04,,,,,,,neg,,,neg,,,,0,0,1,0,0,0,0,0,1,0,0,0,,3.5
+MOM2CHAR.04,neg,,,,,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,bad dynamics,4.0
+MOM3CHAR.04,,,,neutral,,neg,neg,,,,,,neg,0,1,0,0,0,0,0,0,1,0,0,0,"bad ending, bad rhythm",3.0
+MOM1CHAR.03,,neg,,,,,,,,neg,,,,1,0,1,0,0,0,0,0,0,0,0,0,,4.0
+MOM2CHAR.03,,,,,,,,pos,,,,,,0,0,0,0,0,0,1,0,0,0,0,0,,3.0
+MOM3CHAR.03,,,,,,,,,neg,,,,,0,0,0,0,0,0,0,0,0,0,1,0,,4.0
+MOM1CHAR.02,,,,neg,,,,,,neg,,,,0,1,1,0,0,0,0,0,0,0,0,0,,2.5
+MOM2CHAR.02,,,,,,neg,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,bad rhythm,2.5
+MOM3CHAR.02,pos,,,,,pos,,pos,,pos,,,,0,0,0,1,0,0,1,0,0,0,0,0,"good dynamics, good rhythm",3.0
+MOM1CHAR.01,,,,,,neg,,,,,,,,0,0,0,0,0,0,0,0,1,0,0,0,,5.0
+MOM2CHAR.01,,,,neg,,,,,,,,,,0,1,0,0,0,0,0,0,0,0,0,0,,3.0
+MOM3CHAR.01,,,,,,,neg,,,,,,,0,0,0,0,0,0,0,0,1,0,0,0,,4.0

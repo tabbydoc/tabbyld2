@@ -1,0 +1,40 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+Apache Avro,Apache Software Foundation,,No,Apache Avro™ Specification,Yes,Partialj,,Yes (built-in),"C, C",
+Apache Parquet,Apache Software Foundation,,No,Apache Parquet[1],Yes,No,No,,"Java, Python, C++",No
+ASN.1,"ISO, IEC, ITU-T",,Yes,ISO/IEC 8824; X.680 series of ITU-T Recommendations,"Yes (BER, DER, PER, OER, or custom via ECN)","Yes (XER, JER, GSER, or custom via ECN)",Partialf,Yes (built-in),,Yes (OER)
+Bencode,"Bram Cohen (creator) BitTorrent, Inc. (maintainer)",,De facto standard via BitTorrent Enhancement Proposal (BEP),Part of BitTorrent protocol specification,Partially (numbers and delimiters are ASCII),No,No,No,No,No
+Binn,Bernardo Ramos,,No,Binn Specification,Yes,No,No,No,No,Yes
+BSON,MongoDB,JSON,No,BSON Specification,Yes,No,No,No,No,No
+CBOR,"Carsten Bormann, P. Hoffman",JSON (loosely),Yes,RFC 7049,Yes,No,Yes through tagging,Yes (CDDL),No,No
+Comma-separated values (CSV),RFC author: Yakov Shafranovich,,Partial (myriad informal variants used),RFC 4180 (among others),No,Yes,No,No,No,No
+Common Data Representation (CDR),Object Management Group,,Yes,General Inter-ORB Protocol,Yes,No,Yes,Yes,"ADA, C, C++, Java, Cobol, Lisp, Python, Ruby, Smalltalk",
+D-Bus Message Protocol,freedesktop.org,,Yes,D-Bus Specification,Yes,No,No,Partial (Signature strings),Yes (see D-Bus),
+Extensible Data Notation (EDN),Cognitect,JSON (loosely),Yes,EDN Specification,No,Yes,No,No,No,
+Efficient XML Interchange (EXI),W3C,"XML, Efficient XML",Yes,Efficient XML Interchange (EXI) Format 1.0,Yes,Yes (XML),"Yes (XPointer, XPath)",Yes (XML Schema),"Yes (DOM, SAX, StAX, XQuery, XPath)",
+FlatBuffers,Google,,No,flatbuffers github page Specification,Yes,Yes (Apache Arrow),Partial (internal to the buffer),Yes [2],"C++, Java, C",
+Fast Infoset,"ISO, IEC, ITU-T",XML,Yes,ITU-T X.891 and ISO/IEC 24824-1:2007,Yes,No,"Yes (XPointer, XPath)",Yes (XML schema),"Yes (DOM, SAX, XQuery, XPath)",
+FHIR,Health Level 7,REST basics,Yes,Fast Healthcare Interoperability Resources,Yes,Yes,Yes,Yes,"Hapi for FHIR[1] JSON, XML, Turtle",No
+Ion,Amazon,JSON,No,The Amazon Ion Specification,Yes,Yes,No,Yes  (Ion Schema),No,
+Java serialization,Oracle Corporation,,Yes,Java Object Serialization,Yes,No,Yes,No,Yes,
+JSON,Douglas Crockford,JavaScript syntax,Yes,"STD 90/RFC 8259 (ancillary: RFC 6901, RFC 6902), ECMA-404, ISO/IEC 21778:2017","No, but see BSON, Smile, UBJSON",Yes,"Yes (JSON Pointer (RFC 6901); alternately: JSONPath, JPath, JSPON, json:select()), JSON-LD","Partial (JSON Schema Proposal, ASN.1 with JER, Kwalify, Rx, Itemscript Schema), JSON-LD","Partial (Clarinet, JSONQuery / RQL, JSONPath), JSON-LD",No
+MessagePack,Sadayuki Furuhashi,JSON (loosely),No,MessagePack format specification,Yes,No,No,No,No,Yes
+Netstrings,Dan Bernstein,,No,netstrings.txt,Partially (delimiters are ASCII),Yes,No,No,No,Yes
+OGDL,Rolf Veen,?,No,Specification,Yes (Binary Specification),Yes,Yes (Path Specification),Yes (Schema WD),,
+OPC-UA Binary,OPC Foundation,,No,opcfoundation.org,Yes,No,Yes,No,No,
+OpenDDL,Eric Lengyel,"C, PHP",No,OpenDDL.org,No,Yes,Yes,No,Yes (OpenDDL Library),
+PHP serialization format,PHP Group,,Yes,No,Yes,Yes,Yes,No,Yes,
+Pickle (Python),Guido van Rossum,Python,De facto standard via Python Enhancement Proposals (PEPs),[3] PEP 3154 -- Pickle protocol version 4,Yes,No,No,No,Yes ([4]),No
+Property list,NeXT (creator) Apple (maintainer),?,Partial,Public DTD for XML format,Yesa,Yesb,No,?,"Cocoa, CoreFoundation, OpenStep, GnuStep",No
+Protocol Buffers (protobuf),Google,,No,Developer Guide: Encoding,Yes,Partiald,No,Yes (built-in),"C++, Java, C",
+Ethereum Recursive Length Prefix (RLP),Ethereum,,No,Specification,Yes,No,No,No,"Erlang, Go, Java, Javascript, Kotlin, Objective-C, Python, Swift, PHP",Yes
+S-expressions,John McCarthy (original) Ron Rivest (internet draft),"Lisp, Netstrings",Partial (largely de facto),"""S-Expressions"" Internet Draft","Yes (""Canonical representation"")","Yes (""Advanced transport representation"")",No,No,,
+Smile,Tatu Saloranta,JSON,No,Smile Format Specification,Yes,No,No,"Partial (JSON Schema Proposal, other JSON schemas/IDLs)","Partial (via JSON APIs implemented with Smile backend, on Jackson, Python)",
+SOAP,W3C,XML,Yes,W3C Recommendations: SOAP/1.1 SOAP/1.2,"Partial (Efficient XML Interchange, Binary XML, Fast Infoset, MTOM, XSD base64 data)",Yes,"Yes (built-in id/ref, XPointer, XPath)","Yes (WSDL, XML schema)","Yes (DOM, SAX, XQuery, XPath)",
+Structured Data eXchange Formats,Max Wildgrube,,Yes,RFC 3072,Yes,No,No,No,,
+Apache Thrift,Facebook (creator) Apache (maintainer),,No,Original whitepaper,Yes,Partialc,No,Yes (built-in),"C++, Java, Python, PHP, Ruby, Erlang, Perl, Haskell, C",
+UBJSON,"The Buzz Media, LLC","JSON, BSON",No,[5],Yes,No,No,No,No,
+eXternal Data Representation (XDR),Sun Microsystems (creator) IETF (maintainer),,Yes,STD 67/RFC 4506,Yes,No,Yes,Yes,Yes,
+XML,W3C,SGML,Yes,W3C Recommendations: 1.0 (Fifth Edition) 1.1 (Second Edition),"Partial (Efficient XML Interchange, Binary XML, Fast Infoset, XSD base64 data)",Yes,"Yes (XPointer, XPath)","Yes (XML schema, RELAX NG)","Yes (DOM, SAX, XQuery, XPath)",
+XML-RPC,Dave Winer[3],XML,No,XML-RPC Specification,No,Yes,No,No,No,No
+YAML,"Clark Evans, Ingy döt Net, and Oren Ben-Kiki","C, Java, Perl, Python, Ruby, Email, HTML, MIME, URI, XML, SAX, SOAP, JSON[4]",No,Version 1.2,No,Yes,Yes,"Partial (Kwalify, Rx, built-in language type-defs)",No,No
+Name,Creator-maintainer,Based on,Standardized?,Specification,Binary?,Human-readable?,Supports references?e,Schema-IDL?,Standard APIs,Supports Zero-copy operations

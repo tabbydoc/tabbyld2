@@ -1,0 +1,12 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20
+2,test_2day2,pv_test2day_central,en_pv,testcap_pricepoint,EASO_TOU_15pc,EASO_TOU_15pc,TIDNULL,TIDNULL,capex_null,20,0.06,2.0,,,,,,,,log_timeseries_detailed
+3,test_2day2,pv_test2day_ind,en_pv,testcap_pricepoint,EASO_TOU_15pc,EASO_TOU_15pc,TIDNULL,TIDNULL,capex_null,20,0.06,,3.0,1.0,1.0,,,,,log_timeseries_detailed
+4,test_2day2,pv_test2day_all,en_pv,testcap_pricepoint,EASO_TOU_15pc,EASO_TOU_15pc,TIDNULL,TIDNULL,capex_null,20,0.06,2.0,3.0,1.0,1.0,,,,,log_timeseries_detailed
+5,test_2day2,pv_test2day_central,en_pv,testcap_pricepoint,EASO_TOU_15pc,EASO_TOU_15pc,TIDNULL,TIDNULL,capex_null,20,0.06,2.0,,,,,,,,log_timeseries_detailed
+6,test_2day2,pv_test2day_ind,en_pv,testcap_pricepoint,EASO_TOU_15pc,EASO_TOU_15pc,TIDNULL,TIDNULL,capex_null,20,0.06,,3.0,1.0,1.0,,,,,log_timeseries_detailed
+7,test_2day2,pv_test2day_all,en_pv,testcap_pricepoint,EASO_TOU_15pc,EASO_TOU_15pc,TIDNULL,TIDNULL,capex_null,20,0.06,2.0,3.0,1.0,1.0,,,,,log_timeseries_detailed
+8,test_2day2,pv_test2day_central,en_pv,testcap_pricepoint,EASO_TOU_15pc,EASO_TOU_15pc,TIDNULL,TIDNULL,capex_null,20,0.06,2.0,,,,testbess20,ed1700_cmax_dmax,,,log_timeseries_detailed
+9,test_2day2,pv_test2day_ind,en_pv,testcap_pricepoint,EASO_TOU_15pc,EASO_TOU_15pc,TIDNULL,TIDNULL,capex_null,20,0.06,,3.0,1.0,1.0,,,testbess10,ed1700_cmax_dmax,log_timeseries_detailed
+10,test_2day2,pv_test2day_all,en_pv,testcap_pricepoint,EASO_TOU_15pc,EASO_TOU_15pc,TIDNULL,TIDNULL,capex_null,20,0.06,2.0,3.0,1.0,1.0,testbess20,ed1700_cmax_dmax,testbess10,ed1700_cmax_dmax,log_timeseries_detailed
+0,test_2day2,,bau,,EASO_TOU_15pc,EASO_TOU_15pc,TIDNULL,TIDNULL,capex_null,20,0.06,,,,,,,,,log_timeseries_detailed
+1,test_2day2,,en,,EASO_TOU_15pc,EASO_TOU_15pc,TIDNULL,TIDNULL,capex_null,20,0.06,,,,,,,,,log_timeseries_detailed

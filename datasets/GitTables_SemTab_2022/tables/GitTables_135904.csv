@@ -1,0 +1,65 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11
+100,Norma Fisher,Loblaw Companies,"9179 Bruce Gardens
+Lake Josephbury, WY 22846",1001.0,Downtown,Vancouver,BC,49.283614,-123.116227,35.0,Shoppers Optimum
+100,Jorge Sullivan,Loblaw Companies,"23098 Anthony Roads
+New Maria, MO 12498",1002.0,Downtown,Vancouver,BC,49.277107,-123.120224,19.0,Shoppers Optimum
+100,Elizabeth Woods,Loblaw Companies,"90321 Clark Union
+Lake Andrewchester, CT 34569",1003.0,Fairview,Vancouver,BC,49.260012,-123.138292,57.0,Shoppers Optimum
+100,Susan Wagner,Loblaw Companies,"456 Bruce Mountain
+New Craigfurt, KS 47497",1004.0,Fairview,Vancouver,BC,49.263519,-123.144713,32.0,Shoppers Optimum
+100,Peter Montgomery,Loblaw Companies,"PSC 7923, Box 0225
+APO AP 33359",1005.0,Kitsilano,Vancouver,BC,49.26804,-123.157784,38.0,Shoppers Optimum
+100,Theodore Mcgrath,Loblaw Companies,"207 Mccullough Well Suite 564
+New Hannah, WA 10865",1006.0,Downtown,Vancouver,BC,49.288352,-123.123733,14.0,Shoppers Optimum
+100,Stephanie Collins,Loblaw Companies,"423 Bell Heights
+Brittanyberg, ME 51359",1007.0,Fairview,Vancouver,BC,49.263515,-123.123622,39.0,Shoppers Optimum
+100,Stephanie Sutton,Loblaw Companies,"93523 Dana Lane
+Johnsonshire, WI 87296",1008.0,Fairview,Vancouver,BC,49.256761,-123.115326,56.0,Shoppers Optimum
+100,Brian Hamilton,Loblaw Companies,"1427 Odonnell Rapids
+North Troyport, NH 07035",1009.0,Downtown,Vancouver,BC,49.275611,-123.126789,24.0,Shoppers Optimum
+100,Susan Levy,Loblaw Companies,"81206 Stewart Forest Apt. 089
+East Davidborough, ME 37198",1010.0,Downtown,Vancouver,BC,49.2835,-123.122105,40.0,Shoppers Optimum
+100,Sean Green,Loblaw Companies,"76104 Marsh Crescent
+Dennishaven, SD 85034",1011.0,West End,Vancouver,BC,49.289055,-123.138883,17.0,Shoppers Optimum
+100,Kimberly Smith,Loblaw Companies,"0003 Grant Lakes
+Port Karafort, SD 60619",1012.0,West End,Vancouver,BC,49.280946,-123.131582,40.0,Shoppers Optimum
+100,Jennifer Summers,Loblaw Companies,"236 Smith Drive Suite 555
+West Kimberlyton, KY 21978",1013.0,Mount Pleasant,Vancouver,BC,49.262262,-123.097448,44.0,Shoppers Optimum
+100,April Snyder,Loblaw Companies,"6824 Timothy Garden Apt. 428
+West Richardmouth, MT 14742",1014.0,Mount Pleasant,Vancouver,BC,49.255433,-123.10162,56.0,Shoppers Optimum
+100,Dana Nguyen,Loblaw Companies,"5517 Holly Meadow Apt. 452
+Lake Anne, SC 11894",1015.0,Kitsilano,Vancouver,BC,49.264302,-123.17199,22.0,Shoppers Optimum
+200,Cheryl Bradley,McKesson Corporation,"30601 Hawkins Highway
+Morashire, TX 28976",2001.0,Downtown,Vancouver,BC,49.284877,-123.11486,23.0,Air Miles
+200,Walter Pratt,McKesson Corporation,"49263 Wilson View Apt. 873
+South Raymondborough, AZ 28798",,,,,,,,
+200,Bobby Flores,McKesson Corporation,"76582 Vanessa Oval
+New Richard, NE 68819",2003.0,Downtown,Vancouver,BC,49.285145,-123.121882,19.0,Air Miles
+300,Tasha Rodriguez,London Drugs,"7389 Alec Squares Suite 508
+Port Jonathan, FL 50177",3001.0,Downtown Eastside,Vancouver,BC,49.282424,-123.107941,22.0,LD Extras
+300,Michelle Kelley,London Drugs,"18013 Billy Bridge Suite 522
+Schmitthaven, NC 66355",3002.0,Mount Pleasant,Vancouver,BC,49.271259,-123.105867,8.0,LD Extras
+300,Kimberly Maynard,London Drugs,"891 Bullock Ford
+Amandachester, NJ 51431",3003.0,Fairview,Vancouver,BC,49.263457,-123.116012,23.0,LD Extras
+300,Laurie Wallace,London Drugs,"02489 Cook Park
+Sherriport, MT 50853",3004.0,Kitsilano,Vancouver,BC,49.263748,-123.156309,46.0,LD Extras
+300,Janice Johnston,London Drugs,"23450 Timothy Divide
+Wuland, UT 20341",3005.0,West End,Vancouver,BC,49.285495,-123.139324,29.0,LD Extras
+300,Collin Lopez,London Drugs,"0976 Williams Mountains Apt. 009
+Lake Mario, OH 85565",3006.0,Downtown,Vancouver,BC,49.285874,-123.126495,36.0,LD Extras
+300,Mary Alvarez,London Drugs,"1097 Santos Springs Suite 264
+New Michelleborough, WY 51884",3007.0,Downtown,Vancouver,BC,49.282351,-123.118062,24.0,LD Extras
+400,Peter Mcdowell,Loblaw Companies,"5100 Scott Burg
+East Clayton, SC 66353",4001.0,Downtown Eastside,Vancouver,BC,49.280062,-123.108353,24.0,T&T Rewards Card
+500,Sarah Villanueva,Jim Pattison Food Group,"412 Snow Manors Apt. 161
+South Kimtown, NV 57004",5001.0,Mount Pleasant,Vancouver,BC,49.264792,-123.114499,23.0,More Rewards
+500,Kimberly Myers,Jim Pattison Food Group,"5415 David Square
+West Michaeltown, IN 48447",5002.0,Mount Pleasant,Vancouver,BC,49.258726,-123.101713,50.0,More Rewards
+600,Desiree Cain,Jim Pattison Food Group,"03104 Norris Rapids
+Port Donald, DE 62982",6001.0,Mount Pleasant,Vancouver,BC,49.26231,-123.097544,43.0,More Rewards
+700,Stephanie Lawrence,Costco,"03557 Phillips Wells Suite 291
+New Beverlyburgh, FL 16915",7001.0,Downtown,Vancouver,BC,49.278575,-123.109279,19.0,Costco Executive Membership
+800,Lauren Hayes,Jim Pattison Food Group,"332 Watson Shore Apt. 290
+Millerland, MT 39742",8001.0,Downtown Eastside,Vancouver,BC,49.282825,-123.107519,27.0,Nesters Card
+800,Whitney Stark,Jim Pattison Food Group,"645 John Roads
+Danahaven, MS 54060",8002.0,Downtown,Vancouver,BC,49.278587,-123.121576,27.0,Nesters Card

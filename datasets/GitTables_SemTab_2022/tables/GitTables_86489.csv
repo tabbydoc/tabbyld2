@@ -1,0 +1,172 @@
+col0,col1,col2,col3,col4,col5
+X0102157 ,OK ,OK ,None ,OK ,None
+X0103645 ,OK ,OK ,None ,OK ,None
+X0103872 ,OK ,OK ,None ,OK ,None
+X0105290 ,OK ,OK ,None ,OK ,None
+X0105488 ,Maybe ,Maybe ,Minor problem with brain extraction in the right superior parietal lobe ,OK ,None
+X0105521 ,Maybe ,Maybe ,Brain segmentation issue in the right superior parietal lobe and left central sulcus ,Maybe ,Pretty big anterior frontal deformation
+X0106057 ,OK ,OK ,None ,OK ,None
+X0106780 ,Maybe ,Maybe ,minor segmentation problem in the left superior frontal lobe ,OK ,None
+X0108355 ,OK ,OK ,None ,OK ,None
+X0109459 ,Maybe ,Maybe ,Minor issue with brain segmenation in the most dorsal slices. ,OK ,None
+X0109727 ,Maybe ,OK ,None ,Maybe ,No signal in the most dorsal slices ... Problem of field of view in one or several of the runs ?
+X0109819 ,Maybe ,Maybe ,Minor brain segmentation problem in the anterior temporal lobe ,OK ,None
+X0111282 ,OK ,OK ,None ,OK ,None
+X0112249 ,Maybe ,Maybe ,Minor brain segmentation issue left superior frontal cortex ,OK ,None
+X0112347 ,OK ,OK ,None ,OK ,None
+X0112828 ,OK ,OK ,None ,OK ,None
+X0113013 ,OK ,OK ,None ,OK ,None
+X0113030 ,OK ,OK ,None ,OK ,None
+X0114232 ,OK ,OK ,None ,OK ,None
+X0115321 ,OK ,OK ,None ,OK ,None
+X0115454 ,OK ,OK ,None ,OK ,None
+X0115564 ,OK ,OK ,None ,OK ,None
+X0115824 ,OK ,OK ,None ,OK ,None
+X0116039 ,OK ,OK ,None ,OK ,None
+X0116065 ,OK ,OK ,None ,OK ,None
+X0116415 ,OK ,OK ,None ,OK ,None
+X0116834 ,OK ,OK ,None ,OK ,None
+X0116842 ,OK ,OK ,None ,OK ,None
+X0117168 ,Maybe ,Maybe ,minor issue with brain extraction dorsally ,OK ,None
+X0118051 ,OK ,OK ,None ,OK ,None
+X0118439 ,Maybe ,Maybe ,central sulcus has not been properly aligned. Otherwise all good. ,OK ,None
+X0119866 ,OK ,OK ,None ,OK ,None
+X0120557 ,OK ,OK ,None ,OK ,None
+X0122169 ,OK ,OK ,None ,OK ,None
+X0122512 ,OK ,OK ,None ,OK ,None
+X0122816 ,OK ,OK ,None ,OK ,None
+X0122844 ,Maybe ,Maybe ,Minor brain segmentation problem in the right superior frontal ,OK ,None
+X0123173 ,OK ,OK ,None ,OK ,None
+X0123429 ,OK ,OK ,None ,OK ,None
+X0123971 ,Maybe ,Maybe ,brain segmentation problem dorsally ,OK ,None
+X0125762 ,OK ,OK ,It is missing the hand area in the central sulcus ?? ,OK ,None
+X0126919 ,OK ,OK ,None ,OK ,None
+X0127733 ,Maybe ,Maybe ,Brain masking issue dorsally (brain leak) ,OK ,None
+X0127800 ,OK ,OK ,None ,OK ,None
+X0130249 ,OK ,OK ,None ,OK ,Seems OK but a big lack of contrast that was not observed in any other subjects.
+X0131127 ,Maybe ,Maybe ,coregistration issue in the left central sulcus ,OK ,None
+X0131832 ,OK ,OK ,None ,OK ,None
+X0132088 ,Maybe ,Maybe ,coregistration problem in the left central sulcus ,OK ,None
+X0132717 ,Maybe ,Maybe ,coregistration problem in the left central sulcus as well as problem of brain masking in the occipital cortex ,OK ,None
+X0132850 ,Maybe ,Maybe ,minor brain extraction problem dorsally ,OK ,None
+X0132995 ,OK ,OK ,None ,OK ,None
+X0133436 ,OK ,OK ,None ,OK ,None
+X0133894 ,Maybe ,Maybe ,Pretty severe brain extraction failure in the left hemisphere (dorsally) ,OK ,None
+X0134795 ,OK ,OK ,None ,OK ,None
+X0135671 ,Maybe ,Maybe ,The coregistration of the central sulculs failed. ,OK ,None
+X0136303 ,OK ,OK ,None ,OK ,None
+X0136416 ,OK ,OK ,None ,OK ,None
+X0137073 ,OK ,OK ,None ,OK ,None
+X0137496 ,OK ,OK ,None ,OK ,None
+X0137679 ,OK ,OK ,None ,OK ,None
+X0137714 ,Maybe ,Maybe ,Bad coregistration for the central sulcus dorsally ,OK ,None
+X0138558 ,OK ,OK ,None ,OK ,None
+X0139212 ,Maybe ,Maybe ,coregistration of the central sulcus is not good ,OK ,None
+X0139300 ,Maybe ,OK ,None ,Maybe ,pretty severe deformations in the frontal lobe
+X0139480 ,Maybe ,Maybe ,meninges were pushed into the cortex dorsally ,Maybe ,very severe signal loss in the ventral temporal lobe
+X0141795 ,Maybe ,Maybe ,very minor segmentation issue with the meninges on the right dorsally ,OK ,None
+X0144314 ,OK ,OK ,None ,OK ,None
+X0144667 ,OK ,OK ,None ,OK ,None
+X0144702 ,OK ,OK ,None ,OK ,None
+X0146714 ,OK ,OK ,None ,OK ,None
+X0146865 ,OK ,OK ,very nice coregistration ,OK ,None
+X0147122 ,OK ,OK ,None ,OK ,None
+X0148071 ,OK ,OK ,None ,OK ,None
+X0149794 ,Maybe ,Maybe ,brain segmentation problem dorsal left ,OK ,None
+X0150525 ,OK ,OK ,None ,OK ,None
+X0150589 ,Maybe ,Maybe ,issues in the coregistration of the central sulcus ,OK ,None
+X0150716 ,Maybe ,Maybe ,very minor brain extraction issue left dorsal ,OK ,None
+X0151580 ,Maybe ,Maybe ,several minor brain extraction issues ,OK ,None
+X0152189 ,OK ,OK ,None ,OK ,None
+X0152384 ,OK ,OK ,None ,OK ,None
+X0152968 ,OK ,OK ,None ,OK ,None
+X0153114 ,OK ,OK ,None ,OK ,None
+X0153131 ,Maybe ,OK ,None ,Maybe ,big signal loss in ventral temporal lobe
+X0153790 ,Maybe ,OK ,None ,Maybe ,pretty big signal loss in ventral temporal lobe
+X0154419 ,OK ,OK ,None ,OK ,None
+X0154423 ,OK ,OK ,None ,OK ,None
+X0155419 ,OK ,OK ,None ,OK ,None
+X0155458 ,OK ,OK ,None ,OK ,None
+X0156263 ,OK ,OK ,None ,OK ,None
+X0156678 ,Maybe ,Maybe ,bad issues with brain extraction dorsally ,OK ,None
+X0157873 ,OK ,OK ,None ,OK ,None
+X0157947 ,OK ,OK ,None ,OK ,None
+X0158411 ,OK ,OK ,None ,OK ,None
+X0158560 ,OK ,OK ,None ,OK ,None
+X0158744 ,OK ,OK ,None ,OK ,None
+X0159429 ,OK ,OK ,None ,OK ,None
+X0160099 ,OK ,OK ,None ,OK ,None
+X0161200 ,OK ,OK ,None ,OK ,None
+X0161513 ,OK ,OK ,None ,OK ,None
+X0162251 ,OK ,OK ,None ,OK ,None
+X0162704 ,OK ,OK ,None ,OK ,None
+X0162902 ,OK ,OK ,None ,OK ,None
+X0163059 ,OK ,OK ,None ,OK ,None
+X0164326 ,OK ,OK ,None ,OK ,None
+X0164900 ,OK ,OK ,None ,OK ,weird shape of left central sulcus
+X0165532 ,OK ,OK ,None ,OK ,None
+X0165660 ,Fail ,OK ,None ,Fail ,huge signal loss
+X0166009 ,Maybe ,OK ,None ,Maybe ,pretty severe brain extraction issues dorsally
+X0166987 ,OK ,OK ,None ,OK ,None
+X0167827 ,OK ,OK ,None ,OK ,None
+X0168013 ,OK ,OK ,None ,OK ,None
+X0168239 ,Maybe ,Maybe ,minor issue with brain extraction dorsally ,OK ,None
+X0168357 ,OK ,OK ,None ,OK ,None
+X0168413 ,Maybe ,Maybe ,minor issues with brain masking ,OK ,None
+X0168489 ,OK ,OK ,None ,OK ,None
+X0169007 ,OK ,OK ,None ,OK ,None
+X0170363 ,OK ,OK ,None ,OK ,None
+X0171266 ,OK ,OK ,very nice coregistration with marked atrophy ,OK ,None
+X0173085 ,OK ,OK ,None ,OK ,None
+X0173286 ,Maybe ,OK ,None ,Maybe ,very large non-linear deformations ventrally
+X0173496 ,Maybe ,Maybe ,coregistration of the central sulcus and cingular gyrus sucks ,OK ,None
+X0174363 ,Maybe ,OK ,None ,Maybe ,pretty bad deformations ventrally
+X0174886 ,OK ,OK ,None ,OK ,None
+X0177330 ,Maybe ,Maybe ,central sulcus is messed up otherwise fine ,OK ,None
+X0177681 ,OK ,OK ,None ,OK ,None
+X0177857 ,Maybe ,Maybe ,slight brain extraction issue dorsally ,OK ,None
+X0178174 ,OK ,OK ,None ,OK ,None
+X0178453 ,OK ,OK ,None ,OK ,None
+X0179005 ,OK ,OK ,None ,OK ,None
+X0179283 ,OK ,OK ,None ,OK ,big deformation ventrally
+X0179309 ,OK ,OK ,None ,OK ,None
+X0179454 ,Maybe ,Maybe ,issues with brain masking ,OK ,None
+X0179873 ,Maybe ,Maybe ,the sulci are a bit of a mess ,OK ,None
+X0180093 ,Maybe ,Maybe ,issue of brain masking ,OK ,None
+X0180308 ,OK ,OK ,None ,OK ,None
+X0181439 ,OK ,OK ,None ,OK ,None
+X0182376 ,OK ,OK ,None ,OK ,None
+X0183457 ,OK ,OK ,None ,OK ,None
+X0183726 ,OK ,OK ,None ,OK ,None
+X0185428 ,OK ,OK ,None ,OK ,None
+X0185676 ,OK ,OK ,None ,OK ,None
+X0185781 ,OK ,OK ,None ,OK ,None
+X0186277 ,OK ,OK ,None ,OK ,None
+X0186697 ,OK ,OK ,None ,OK ,None
+X0187635 ,OK ,OK ,None ,OK ,None
+X0188199 ,OK ,OK ,None ,OK ,None
+X0188219 ,OK ,OK ,None ,OK ,None
+X0188854 ,OK ,OK ,None ,OK ,None
+X0188939 ,OK ,OK ,None ,OK ,None
+X0189478 ,OK ,OK ,None ,OK ,None
+X0190053 ,OK ,OK ,None ,OK ,None
+X0190501 ,OK ,OK ,None ,OK ,None
+X0192197 ,Maybe ,Maybe ,issues in the left central sulcus ,OK ,None
+X0192736 ,OK ,OK ,None ,OK ,None
+X0193358 ,OK ,OK ,None ,OK ,fairly severe deformation ventral temporal lobe
+X0194023 ,OK ,OK ,None ,OK ,None
+X0194956 ,OK ,OK ,beautiful ,OK ,None
+X0195031 ,OK ,OK ,None ,OK ,None
+X0195236 ,OK ,OK ,None ,OK ,None
+X0196558 ,OK ,OK ,None ,OK ,None
+X0196651 ,OK ,OK ,None ,OK ,None
+X0197456 ,OK ,OK ,None ,OK ,None
+X0197570 ,OK ,OK ,None ,OK ,None
+X0197836 ,Maybe ,OK ,None ,Maybe ,issues with brain masking
+X0198051 ,OK ,OK ,None ,OK ,None
+X0198130 ,OK ,OK ,None ,OK ,None
+X0198357 ,OK ,OK ,None ,OK ,None
+X0198985 ,OK ,OK ,None ,OK ,None
+X0199155 ,Maybe ,Maybe ,lots of brain masking and other coregistration issues ,OK ,None
+X0199340 ,OK ,OK ,None ,OK ,None
+X0199620 ,OK ,OK ,None ,OK ,None

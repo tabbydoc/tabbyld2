@@ -1,0 +1,9 @@
+col0,col1,col2,col3,col4,col5,col6
+buyer_1,buyer 1,,True,base.main_company,True,False
+buyer_boss,buyer boss,buyer_1,False,base.main_company,True,False
+buyer_contact,buyer contact,buyer_1,False,base.main_company,True,False
+buyer_receptionist,buyer receptionist,buyer_1,False,base.main_company,True,False
+supplier_1,supplier 1,,True,base.main_company,False,True
+supplier_boss,supplier boss,supplier_1,False,base.main_company,False,True
+supplier_contact,supplier contact,supplier_1,False,base.main_company,False,True
+supplier_receptionist,supplier receptionist,supplier_1,False,base.main_company,False,True

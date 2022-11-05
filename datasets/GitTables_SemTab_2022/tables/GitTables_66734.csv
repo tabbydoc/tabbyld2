@@ -1,0 +1,34 @@
+col0,col1,col2
+Loanbook,Reporting Date,Reporting date in YYYY-MM-DD format; defines point in time described by orther data
+Loanbook,Loan Size,"Loan Size, charateristic that includes unused limit, available for withdrawal and current outstanding"
+Loanbook,Outstanding,Current contract outstanding
+Loanbook,Credit Limit,Original credit limit
+Loanbook,Maturity Date,Maturity date of contract - when it is expected to be repayed
+Loanbook,Sector Classification,Sector classification according to 2Dii
+Loanbook,Asset ID,Value that identifies asset which is funded by loan. It can be internal code or number or even name.
+Loanbook,Asset Name,Name of Asset
+Loanbook,Borrower ID,"Value that identifies Borrower. It can be internal code or number or even name. It is up to institution to decide what value to use, but value must porsent"
+Loanbook,Borrower Name,Name of Borrower - party that receives loan from institution
+Loanbook,Borrower Country,Country Name (not code) of residence (or incorproration)?
+Loanbook,Borrower NAICS,Borrower's 6-digit NAICS industry code
+Loanbook,Borrower NAICS Description,NAICS economic activity description
+Loanbook,LUP ID,Legal Ultimate Parent (L.U.P.) ID
+Loanbook,LUP Name,Legal Ultimate Parent (L.U.P.) name
+Loanbook,LUP Country,Legal Ultimate Parent (L.U.P.) Country name
+Loanbook,EUP ID,Economic Ultimate Parent (E.U.P.) ID
+Loanbook,EUP Name,Economic Ultimate Parent (E.U.P.) name
+Loanbook,EUP Country,Economic Ultimate Parent (E.U.P.) Country name
+IEA targets,Source,
+IEA targets,Technology,
+IEA targets,Region,
+IEA targets,Scenario,
+IEA targets,Sector,
+IEA targets,Units,
+SectorMaster,ALD.Level,Asset level data - level of information. Can be either Asset or Company
+SectorMaster,ID,Identifier of Asset / Company
+SectorMaster,Name,Name
+SectorMaster,Country,Country of Asset / Company
+SectorMaster,Year,Year of production
+SectorMaster,Technology,Technology involved
+SectorMaster,Production,Production capacity
+SectorMaster,Sector,Sector classification according to 2Dii

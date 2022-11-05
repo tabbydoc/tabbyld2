@@ -1,0 +1,57 @@
+col0,col1,col2,col3,col4,col5
+2_2018-05-13_1,2,2018-05-13,Demographics,Baseline Visit,Missing Upload the patient's consent form
+2_2018-05-13_2,2,2018-05-13,Demographics,Baseline Visit,Missing Phone number
+2_2018-05-13_3,2,2018-05-13,Demographics,Baseline Visit,Missing Specify the patient's mood.
+2_2018-05-13_4,2,2018-05-13,Demographics,Baseline Visit,Height (cm) is not between recommended limits of 130 and 215; please correct or confirm accuracy
+2_2018-05-13_5,2,2018-05-13,Baseline Data,Baseline Visit,Missing Collected Plasma 1?
+2_2018-05-13_6,2,2018-05-13,Baseline Data,Baseline Visit,Missing Collected Plasma 2?
+2_2018-05-13_7,2,2018-05-13,Baseline Data,Baseline Visit,Missing Collected Serum 1?
+2_2018-05-13_8,2,2018-05-13,Baseline Data,Baseline Visit,Missing Collected Serum 2?
+2_2018-05-13_9,2,2018-05-13,Monthly Data,Month 1,Missing Creatinine (mg/dL)
+2_2018-05-13_10,2,2018-05-13,Monthly Data,Month 2,Missing Creatinine (mg/dL)
+2_2018-05-13_11,2,2018-05-13,Monthly Data,Month 3,Missing Creatinine (mg/dL)
+2_2018-05-13_12,2,2018-05-13,Monthly Data,Month 1,Missing HDL Cholesterol (mg/dL)
+2_2018-05-13_13,2,2018-05-13,Monthly Data,Month 2,Missing HDL Cholesterol (mg/dL)
+2_2018-05-13_14,2,2018-05-13,Monthly Data,Month 3,Missing HDL Cholesterol (mg/dL)
+2_2018-05-13_15,2,2018-05-13,Monthly Data,Month 1,Missing LDL Cholesterol (mg/dL)
+2_2018-05-13_16,2,2018-05-13,Monthly Data,Month 2,Missing LDL Cholesterol (mg/dL)
+2_2018-05-13_17,2,2018-05-13,Monthly Data,Month 3,Missing LDL Cholesterol (mg/dL)
+2_2018-05-13_18,2,2018-05-13,Monthly Data,Month 1,Missing Dry weight (kilograms)
+2_2018-05-13_19,2,2018-05-13,Monthly Data,Month 2,Missing Dry weight (kilograms)
+2_2018-05-13_20,2,2018-05-13,Monthly Data,Month 3,Missing Dry weight (kilograms)
+2_2018-05-13_21,2,2018-05-13,Monthly Data,Month 1,Missing Number of treatments missed
+2_2018-05-13_22,2,2018-05-13,Monthly Data,Month 2,Missing Number of treatments missed
+2_2018-05-13_23,2,2018-05-13,Monthly Data,Month 3,Missing Number of treatments missed
+2_2018-05-13_24,2,2018-05-13,Monthly Data,Month 1,Missing How compliant was the patient in drinking the supplement?
+2_2018-05-13_25,2,2018-05-13,Monthly Data,Month 2,Missing How compliant was the patient in drinking the supplement?
+2_2018-05-13_26,2,2018-05-13,Monthly Data,Month 3,Missing How compliant was the patient in drinking the supplement?
+2_2018-05-13_27,2,2018-05-13,Monthly Data,Month 1,Missing Was patient hospitalized since last visit?
+2_2018-05-13_28,2,2018-05-13,Monthly Data,Month 2,Missing Was patient hospitalized since last visit?
+2_2018-05-13_29,2,2018-05-13,Monthly Data,Month 3,Missing Was patient hospitalized since last visit?
+2_2018-05-13_30,2,2018-05-13,Monthly Data,Month 1,"Patient has not died or withdrawn, but has no data for this month"
+2_2018-05-13_31,2,2018-05-13,Monthly Data,Month 2,"Patient has not died or withdrawn, but has no data for this month"
+2_2018-05-13_32,2,2018-05-13,Monthly Data,Month 3,"Patient has not died or withdrawn, but has no data for this month"
+2_2018-05-13_33,2,2018-05-13,Completion Data,Study Completion,Missing Has patient completed study?
+3_2018-05-13_1,3,2018-05-13,Demographics,Baseline Visit,Missing Date subject signed consent
+3_2018-05-13_2,3,2018-05-13,Demographics,Baseline Visit,Missing Weight (kilograms)
+3_2018-05-13_3,3,2018-05-13,Demographics,Baseline Visit,Missing BMI
+3_2018-05-13_4,3,2018-05-13,Demographics,Baseline Visit,Postal code should be formatted properly
+3_2018-05-13_5,3,2018-05-13,Demographics,Baseline Visit,"If patient has given birth, number of births should be present"
+3_2018-05-13_6,3,2018-05-13,Demographics,Baseline Visit,"Patient is marked as taking statins, but no specific statins checked"
+3_2018-05-13_7,3,2018-05-13,Baseline Data,Baseline Visit,Missing Subject Global Assessment (score = 1-7)
+3_2018-05-13_8,3,2018-05-13,Baseline Data,Baseline Visit,HDL Cholesterol (mg/dL) is not between recommended limits of 20 and 100; please correct or confirm accuracy
+3_2018-05-13_9,3,2018-05-13,Monthly Data,Month 2,Creatinine (mg/dL) is not between recommended limits of 0.3 and 9; please correct or confirm accuracy
+3_2018-05-13_10,3,2018-05-13,Monthly Data,Month 2,Hospital admission date is prior to last visit
+4A_2018-05-13_1,4A,2018-05-13,Demographics,Baseline Visit,Missing E-mail
+4A_2018-05-13_2,4A,2018-05-13,Demographics,Baseline Visit,Study ID should be an integer with at most four digits
+4A_2018-05-13_3,4A,2018-05-13,Demographics,Baseline Visit,Date of birth should be within 18 and 110 years prior to consent
+4A_2018-05-13_4,4A,2018-05-13,Demographics,Baseline Visit,This patient has no activities marked; please confirm or correct
+4A_2018-05-13_5,4A,2018-05-13,Demographics,Baseline Visit,"Patient is marked as not taking statins, but at least one statin is checked"
+4A_2018-05-13_6,4A,2018-05-13,Baseline Data,Baseline Visit,Missing HDL Cholesterol (mg/dL)
+4A_2018-05-13_7,4A,2018-05-13,Baseline Data,Baseline Visit,Creatinine (mg/dL) is not between recommended limits of 0.5 and 10; please correct or confirm accuracy
+4A_2018-05-13_8,4A,2018-05-13,Baseline Data,Baseline Visit,Baseline visit should occur within one week of consent
+4A_2018-05-13_9,4A,2018-05-13,Baseline Data,Baseline Visit,Supplement start date should be on or within one week of baseline visit
+4A_2018-05-13_10,4A,2018-05-13,Monthly Data,Month 2,Missing Was patient hospitalized since last visit?
+4A_2018-05-13_11,4A,2018-05-13,Monthly Data,Month 1,Creatinine (mg/dL) is not between recommended limits of 0.3 and 9; please correct or confirm accuracy
+4A_2018-05-13_12,4A,2018-05-13,Monthly Data,Month 2,Number of treatments missed does not match % compliance
+4A_2018-05-13_13,4A,2018-05-13,Completion Data,Study Completion,"Patient withdrew, but missing reason"

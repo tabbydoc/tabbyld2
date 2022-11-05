@@ -1,0 +1,103 @@
+col0,col1,col2
+1,Cobblestone -- 石畳,1
+2,Stone -- 石,2
+3,Soil -- 土,3
+4,Wood -- 木材,4
+5,Grassland -- 草地,5
+6,Gravel -- 砂利,6
+7,,7
+8,Trees -- 樹木,8
+9,Swamp -- 沼,9
+10,Nest -- 巣,10
+11,Iron -- 鉄,11
+12,Flesh -- 血肉,12
+13,Sand -- 砂,13
+14,Bone -- 骨,14
+15,Ash -- 灰,15
+16,Roof Tiles -- 屋根瓦,16
+17,Cloth -- 布,17
+18,Fallen leaves -- 落ち葉,18
+19,Bell -- 鐘,19
+20,Water (Puddle) -- 水（水溜り程度）,20
+21,Water (ankle level) -- 水（足首程度）,21
+22,Water (knee) -- 水（膝下）,22
+23,Poison Swamp (shallow) -- 毒沼（浅い）,23
+24,Poison Swamp (deep) -- 毒沼（深い）,24
+25,Poison Swamp (knee) -- 毒沼（膝下）,25
+26,Poison Swamp (about puddle) -- 毒沼（水溜まり程度）,26
+27,Water (waist or more) -- 水（腰以上）,27
+28,Carpet -- 絨毯,28
+29,Without -- なし,29
+30,Caries -- 蝕,30
+31,God Grave Net -- 神墓ネット,31
+32,,32
+33,,33
+34,,34
+35,,35
+36,,36
+37,,37
+38,,38
+39,,39
+40,,40
+41,,41
+42,,42
+43,,43
+44,,44
+45,,45
+46,,46
+47,,47
+48,,48
+49,,49
+100,Weapon Iron -- 武器鉄,50
+101,Wax -- 蝋,51
+102,Weapon tree -- 武器木,52
+103,Weapon meat -- 武器肉,53
+104,Shield Iron -- 盾鉄,54
+105,Shield Tree -- 盾木,55
+106,Iron -- 鉄,56
+107,Bugs -- 虫,94
+108,Armor Leather -- 鎧革,58
+109,Meat -- 肉,59
+110,Flesh _ Weakness -- 肉_弱点,60
+111,Dragon Meat -- 竜肉,60
+112,Heavy Iron -- 重鉄,62
+113,Cloth -- 布,63
+114,Humanity -- 人間性,64
+115,Hair -- 毛,65
+116,Soft Stone -- 石（軟）,66
+117,Feathers -- 羽,67
+118,Carrion -- 腐肉,68
+119,Ash -- 灰,69
+120,Lava -- 溶岩,70
+121,Evil -- 死霊,71
+122,Crystal -- 結晶,72
+123,Liquid -- 液体,95
+124,Bone -- 骨,74
+125,Flame -- 炎,75
+126,Rock -- 岩,76
+127,Shield Stone -- 盾石,77
+128,Tree -- 木,78
+129,Heavy Iron Shield -- 盾重鉄,79
+130,Ghost White -- ゴーストホワイト,80
+131,Ghost Black -- ゴーストブラック,80
+132,Ghost Enemy White -- ゴースト敵ホワイト,80
+133,Ghost Enemy Black -- ゴースト敵ブラック,80
+134,Drool -- よだれ,84
+135,Ghost White (for guard) -- ゴーストホワイト(ガード時用),85
+136,Ghost Black (for guard) -- ゴーストブラック(ガード時用),85
+137,Ghost Enemy White (for guard) -- ゴースト敵ホワイト(ガード時用),85
+138,Ghost Enemy Black (for guard) -- ゴースト敵ブラック(ガード時用),85
+139,Without -- なし,89
+140,Penetration -- 眼光,90
+141,Caries -- 蝕,91
+142,Maggots -- 蛆,92
+143,Charcoal -- 炭,93
+144,Kusari Katabira -- くさりかたびら,57
+145,Fluid -- 体液,95
+146,Meat (Live) -- 肉（生者）,59
+147,Meat (raw) _ Weakness -- 肉（生者）_弱点,60
+148,Caries weakness -- 蝕_弱点,98
+149,,61
+150,,81
+151,,82
+201,,0

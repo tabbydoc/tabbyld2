@@ -1,0 +1,29 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+Introduction to C and C++,CS2000,True,3,CORE,NIL,1,2,,
+Introduction to Computer Networks,CS3001,True,1,CORE,CS2000,4,5,,
+Detailed Study of Computer Networks ,CS3002,True,2,CORE,CS3001,5,6,,
+Computer Networks,CS3020,False,3,CORE,CS2000,4,6,CS3001,CS3002
+Computer Networks Lab,CS3021,True,2,CORE,CS2000,4,6,,
+Wireless Network Systems,CS4200,True,3,CORE,CS3020,4,5,,
+Introduction to SDN,CS5001,True,1,FREE,CS4200,6,8,,
+Advanced SDN,CS5002,True,2,FREE,CS5001,6,8,,
+SDN,CS5200,False,3,FREE,CS4200,6,8,CS5001,CS5002
+Basics of NS-3,CS5003,True,2,FREE,CS3020,6,8,,
+Topics in Networks,CS6220,False,4,FREE,CS3020,6,8,,
+Formal Methods,CS6200,True,3,FREE,NIL,7,8,,
+Social Psychology,LA3010,True,3,LA,NIL,4,6,,
+Humour Psychology,LA3020,True,3,LA,NIL,3,6,,
+Personality Psychology,LA4070,True,3,LA,LA3010 ; LA3020,7,8,,
+Micro Economics,LA2010,True,3,LA,NIL,2,3,,
+Macro Economics,LA3030,True,3,LA,LA2010,3,4,,
+Visual Arts,LA4060,True,3,LA,NIL,3,8,,
+Literature,LA2020,True,3,LA,NIL,2,3,,
+Popular Fiction,LA4050,True,3,LA,NIL,4,8,,
+Introduction to Data Structures,CS2010,True,1,CORE,CS2000,2,3,,
+Advanced Data Structures 1,CS2020,True,2,CORE,CS2010,2,3,,
+DATA STRUCTURES,CS2300,False,3,CORE,CS2000,2,3,CS2010,CS2020
+Advanced Data Structures 2,CS2030,True,1,CORE,CS2020,2,4,,
+Advanced Data Structures and Applications,CS2032,False,4,CORE,CS2000,2,4,CS2300,CS2030
+DATA STRUCTURES LAB,CS2301,True,2,CORE,CS2000,2,3,,
+Theory of Computation,CS5010,True,3,FREE,NIL,4,5,,
+Design and Analysis of Algorithms,CS3040,True,4,CORE,CS2000,3,4,,

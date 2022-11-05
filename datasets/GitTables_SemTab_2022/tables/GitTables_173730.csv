@@ -1,0 +1,70 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+group_plm_admin,access_plm_checkout,plm_checkout,plm.checkout,1,1,1,1
+group_plm_admin,access_plm_component_document_rel,plm_component_document_rel,Component Document Relations,1,1,1,1
+group_plm_admin,access_plm_document_relation,plm_document_relation,plm.document.relation,1,1,1,1
+group_plm_admin,access_product_product,product_product,Product,1,1,1,1
+group_plm_admin,access_product_template,product_template,Product Template,1,1,1,1
+group_plm_admin,access_ir_attachment,ir_attachment,ir.attachment,1,1,1,1
+group_plm_admin,access_plm_document,plm_document,plm.document,1,1,1,1
+group_plm_admin,access_report_plm_component,report_plm_component,report.plm_component,1,1,1,1
+group_plm_admin,access_report_plm_document,report_plm_document,report.plm_document.user,1,1,1,1
+group_plm_admin,access_report_plm_document_file,report_plm_document_file,report.plm_document.file,1,1,1,1
+group_plm_admin,access_stock_warehouse_orderpoint,stock_warehouse_orderpoint,Minimum Inventory Rule,1,0,0,0
+group_plm_admin,access_mrp_bom,mrp_bom,Bill of Material,1,1,1,1
+group_plm_admin,access_mrp_bom_line,mrp_bom_line,mrp.bom.line,1,1,1,1
+group_plm_admin,access_plm_descriptions,plm_description,PLM Descriptions,1,1,1,1
+group_plm_admin,access_plm_finishings,plm_finishing,Surface Finishing,1,1,1,1
+group_plm_admin,access_plm_materials,plm_material,PLM Materials,1,1,1,1
+group_plm_admin,access_ir_property,ir_property,ir.property,1,1,1,1
+group_plm_admin,access_plm_backupdoc,plm_backupdoc,plm.backupdoc,1,1,1,1
+group_plm_admin,access_plm_missing_bom,plm_missing_bom,BoM Missing Objects,1,1,1,1
+group_plm_admin,access_plm_adding_bom,plm_adding_bom,BoM Adding Objects,1,1,1,1
+group_plm_admin,access_plm_compare_bom,plm_compare_bom,BoM Comparison,1,1,1,1
+group_plm_admin,access_plm_config_settings,plm_config_settings,plm.config.settings,1,1,1,1
+group_plm_admin,access_plm_email_thread,mail_thread,Email Thread,1,1,1,1
+group_plm_integrationuser,access_iu_plm_checkout,plm_checkout,plm.checkout,1,1,1,1
+group_plm_integrationuser,access_iu_plm_component_document_rel,plm_component_document_rel,Component Document Relations,1,1,1,1
+group_plm_integrationuser,access_iu_plm_document_relation,plm_document_relation,plm.document.relation,1,1,1,1
+group_plm_integrationuser,access_iu_product_product,product_product,Product,1,1,1,1
+group_plm_integrationuser,access_iu_product_template,product_template,Product Template,1,1,1,1
+group_plm_integrationuser,access_iu_ir_attachment,ir_attachment,ir.attachment,1,1,1,1
+group_plm_integrationuser,access_iu_plm_document,plm_document,plm.document,1,1,1,1
+group_plm_integrationuser,access_iu_report_plm_component,report_plm_component,report.plm_component,1,1,1,1
+group_plm_integrationuser,access_iu_report_plm_document,report_plm_document,report.plm_document.user,1,1,1,1
+group_plm_integrationuser,access_iu_report_plm_document_file,report_plm_document_file,report.plm_document.file,1,1,1,1
+group_plm_integrationuser,access_iu_stock_warehouse_orderpoint,stock_warehouse_orderpoint,Minimum Inventory Rule,1,0,0,0
+group_plm_integrationuser,access_iu_mrp_bom,mrp_bom,Bill of Material,1,1,1,1
+group_plm_integrationuser,access_iu_mrp_bom_line,mrp_bom_line,mrp.bom.line,1,1,1,1
+group_plm_integrationuser,access_iu_plm_descriptions,plm_description,PLM Descriptions,1,0,0,0
+group_plm_integrationuser,access_iu_plm_finishings,plm_finishing,Surface Finishing,1,0,0,0
+group_plm_integrationuser,access_iu_plm_materials,plm_material,PLM Materials,1,0,0,0
+group_plm_integrationuser,access_iu_ir_property,ir_property,ir.property,1,1,1,1
+group_plm_integrationuser,access_iu_plm_backupdoc,plm_backupdoc,plm.backupdoc,0,1,1,0
+group_plm_integrationuser,access_iu_plm_missing_bom,plm_missing_bom,BoM Missing Objects,1,1,1,1
+group_plm_integrationuser,access_iu_plm_adding_bom,plm_adding_bom,BoM Adding Objects,1,1,1,1
+group_plm_integrationuser,access_iu_plm_compare_bom,plm_compare_bom,BoM Comparison,1,1,1,1
+group_plm_integrationuser,access_iu_plm_config_settings,plm_config_settings,plm.config.settings,1,1,1,0
+group_plm_integrationuser,access_iu_plm_email_thread,mail_thread,Email Thread,1,1,1,0
+group_plm_viewuser,access_vw_plm_checkout,plm_checkout,plm.checkout,1,0,0,0
+group_plm_viewuser,access_vw_plm_component_document_rel,plm_component_document_rel,Component Document Relations,1,0,0,0
+group_plm_viewuser,access_vw_plm_document_relation,plm_document_relation,plm.document.relation,1,0,0,0
+group_plm_viewuser,access_vw_prudct_product,product_product,Product,1,0,0,0
+group_plm_viewuser,access_vw_product_template,product_template,Product Template,1,0,0,0
+group_plm_viewuser,access_vw_ir_attachment,ir_attachment,ir.attachment,1,0,0,0
+group_plm_viewuser,access_vw_plm_document,plm_document,plm.document,1,0,0,0
+group_plm_viewuser,access_vw_report_plm_componentt,report_plm_component,report.plm_component,1,0,0,0
+group_plm_viewuser,access_vw_report_plm_document,report_plm_document,report.plm_document.user,1,0,0,0
+group_plm_viewuser,access_vw_report_plm_document_file,report_plm_document_file,report.plm_document.file,1,0,0,0
+group_plm_viewuser,access_vw_stock_warehouse_orderpoint,stock_warehouse_orderpoint,Minimum Inventory Rule,1,0,0,0
+group_plm_viewuser,access_vw_mrp_bom,mrp_bom,Bill of Material,1,0,0,0
+group_plm_viewuser,access_vw_mrp_bom_line,mrp_bom_line,mrp.bom.line,1,0,0,0
+group_plm_viewuser,access_vw_plm_descriptions,plm_description,PLM Descriptions,1,0,0,0
+group_plm_viewuser,access_vw_plm_finishings,plm_finishing,Surface Finishing,1,0,0,0
+group_plm_viewuser,access_vw_plm_materials,plm_material,PLM Materials,1,0,0,0
+group_plm_viewuser,access_vw_ir_property,ir_property,ir.property,1,0,0,0
+group_plm_viewuser,access_vw_plm_backupdoc,plm_backupdoc,plm.backupdoc,0,0,0,0
+group_plm_viewuser,access_vw_plm_missing_bom,plm_missing_bom,BoM Missing Objects,1,1,1,1
+group_plm_viewuser,access_vw_plm_adding_bom,plm_adding_bom,BoM Adding Objects,1,1,1,1
+group_plm_viewuser,access_vw_plm_compare_bom,plm_compare_bom,BoM Comparison,1,1,1,1
+group_plm_viewuser,access_vw_plm_config_settings,plm_config_settings,plm.config.settings,1,0,0,0
+group_plm_viewuser,access_vw_plm_email_thread,mail_thread,Email Thread,1,1,1,0

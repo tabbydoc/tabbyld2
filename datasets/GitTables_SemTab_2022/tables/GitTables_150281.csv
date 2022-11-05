@@ -1,0 +1,20 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13
+1,NZTA\SDLT\Model\Questionnaire,Proof of Concept or Product Trial Request Form,"<ol><li>This form will ask you a series of questions about the product you wish to concept/trial. Please ensure you have key information about the product and people using it before you start</li>
+<li>Completion of this form should take 15-30 minutes</li>
+<li>By clicking 'Start', you will be emailed a link to this questionnaire. This can be used to review your answers, or finish the questionnaire at a later date if you cannot complete it in one sitting.&nbsp;</li>
+<li>If you have not completed the questionnaire within 14 days it will expire and you will need to start again.</li>
+</ol>",6.0,0.0,0.0,0.0,0.0,Questionnaire,NztaApproxRepresentation,0.0,Yes,14.0
+2,NZTA\SDLT\Model\Questionnaire,Software as a Service Request Form,"<ol><li>Please ensure you have checked the <a rel=""noopener"" href=""",,,,,,,,,,
+4,NZTA\SDLT\Model\Questionnaire,"Product Release, Technical Change or Bug Fix Request Form","<ol><li>This form will ask you a series of questions about the feature or bug fix you wish to implement. Please ensure you have key information about the feature and people using it available before you start.</li>
+<li>Completion of this form should take 15-30 minutes depending on the complexity of the product. This form will email you supplementary forms to fill out covering Privacy Impact Assessments etc.</li>
+<li>This form will be emailed to the relevant Transport Agency staff for approval. Approvals will be handled automatically through this process and you will be contacted when they have been completed.</li>
+<li>By clicking 'Start', you will be emailed a link to this questionnaire with a unique ID. This can be used to review your answers, or finish the questionnaire at a later date if you cannot complete it in one sitting.</li>
+</ol>",10.0,0.0,0.0,0.0,0.0,Questionnaire,NztaApproxRepresentation,0.0,Yes,14.0
+5,NZTA\SDLT\Model\Questionnaire,Solution Delivery Assessment,"<ol class=""information-list""><li>This form will ask you a series of questions about the product you wish to implement. Please ensure you have key information about the product and people using it available before you start.</li>
+<li>Completion of this form should take 15-30 minutes depending on the complexity of the product. This tool will create and manage supplementary forms to fill out covering Privacy Impact Assessments, The DIA GCIO 105 etc.</li>
+<li>Approvals will be handled automatically through this tool and you will be contacted when they have been completed.</li>
+<li>By entering your email address below, you will be emailed a link to this questionnaire with a unique ID. This can be used to review your answers, or finish the questionnaire at a later date if you cannot complete it in one sitting.</li>
+<li>The submission will expire after 7 days if you do not complete the initial set of questions. Once you have ""submitted"" your questionnaire and have the list of tasks, it will no longer expire.</li>
+</ol>",9.0,0.0,0.0,0.0,0.0,Questionnaire,NztaApproxRepresentation,0.0,Yes,10.0
+6,NZTA\SDLT\Model\Questionnaire,Business Case Risk Assessment,<p>This pillar is not yet active. Submissions through this will not be accepted.</p>,0.0,0.0,0.0,0.0,0.0,RiskQuestionnaire,Maximum,1.0,Yes,14.0
+7,NZTA\SDLT\Model\Questionnaire,DSRA Test,,12.0,0.0,0.0,0.0,0.0,Questionnaire,,0.0,Yes,14.0

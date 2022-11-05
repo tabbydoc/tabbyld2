@@ -1,0 +1,45 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27,col28,col29
+z0bug.partner_mycompany,Norma Fisher,"Via dei Matti, 0",,base.it,20080,Ozzero,base.state_it_mi,False,False,True,"9342 Lori Bypass Suite 711
+East Sandra, CO 92162",+39 025551234,,IT05111810015,,ww.testcompany.org,,,,,,,,,,,,,it_IT
+z0bug.res_partner_1,Jorge Sullivan,"Via I Maggio, 11",,base.it,20022,Castano Primo,base.state_it_mi,True,True,True,"PSC 8684, Box 8339
+APO AA 76482",+39 0255582285,,IT00115719999,,www.prima-alpha.it,z0bug.fiscalpos_it,z0bug.payment_1,,,,1.0,A1B2C3X,,,,,,it_IT
+z0bug.res_partner_1_1,Elizabeth Woods,"C. Unità d'Italia, 61",,base.it,20022,Castano Primo,base.state_it_mi,True,True,True,"515 Tom Roads Suite 330
+Davebury, WY 22846",+39 0255561901,,,,www.prima-distribuzione.it,,,z0bug.res_partner_13,delivery,,,,,,,,,it_IT
+z0bug.res_partner_10,Susan Wagner,"Largo Fasuli, 10",,base.it,10121,Torino,base.state_it_to,False,True,True,"23098 Anthony Roads
+New Maria, MO 12498",,,IT10242670015,JCKLBR72M24L736R,,z0bug.fiscalpos_it,,,,,,,,,,,,it_IT
+z0bug.res_partner_11,Peter Montgomery,"C. Soricillo, 111",Palazzo NUVOLA,base.it,10151,Torino,base.state_it_to,False,True,True,"90321 Clark Union
+Lake Andrewchester, CT 34569",,,IT01250630504,,www.nebula-caffe.it,,,,,,,,,,,,,it_IT
+z0bug.res_partner_12,Theodore Mcgrath,Kaiserswerther Straße 16-18,,base.de,14195,Berlin,,False,True,True,"456 Bruce Mountain
+New Craigfurt, KS 47497",,,DE123456788,,,z0bug.fiscalpos_eu,,,,,,,,,,,,en_US
+z0bug.res_partner_13,Stephanie Collins,Carl-Bertelsmann-Straße 23,,base.it,33332,Gütersloh,,True,False,True,"PSC 7923, Box 0225
+APO AP 33359",,,,,,z0bug.fiscalpos_eu,z0bug.payment_3,,,,,,,,,,,en_US
+z0bug.res_partner_13_1,Stephanie Sutton,"Corso S. Antonio, 13",,base.it,20100,Milano,base.state_it_mi,True,False,True,"207 Mccullough Well Suite 564
+New Hannah, WA 10865",,,,,,z0bug.fiscalpos_it,z0bug.payment_3,z0bug.res_partner_13,invoice,SO,,,,,,,,it_IT
+z0bug.res_partner_14,Brian Hamilton,"Str. Briaco, 14",,base.it,10121,Torino,base.state_it_to,False,True,True,"423 Bell Heights
+Brittanyberg, ME 51359",,,IT08652300156,,,z0bug.fiscalpos_it,,,,,,,,,,,,it_IT
+z0bug.res_partner_15,Susan Levy,"P.za mano del porto, 5",,base.it,16115,Genova,base.state_it_ge,True,False,True,"93523 Dana Lane
+Johnsonshire, WI 87296",+39 0101234560,,IT10242670015,,,z0bug.fiscalpos_sp,z0bug.payment_3,,,,,,1.0,XU1234,l10n_it_ddt.goods_description_CBA,l10n_it_ddt.carriage_condition_PF,l10n_it_ddt.transportation_method_DES,it_IT
+z0bug.res_partner_15_1,Sean Green,"P.za mano del porto, 51",,base.it,16115,Genova,base.state_it_ge,True,False,True,"1427 Odonnell Rapids
+North Troyport, NH 07035",+39 0101234561,,,,,z0bug.fiscalpos_sp,z0bug.payment_3,z0bug.res_partner_15,invoice,,,,1.0,XU1241,,,,it_IT
+z0bug.res_partner_15_2,Kimberly Smith,"P.za mano del porto, 52",,base.it,16115,Genova,base.state_it_ge,True,False,True,"81206 Stewart Forest Apt. 089
+East Davidborough, ME 37198",+39 0101234562,,,,,,z0bug.payment_3,z0bug.res_partner_15,invoice,,,,1.0,XU1242,,,,it_IT
+z0bug.res_partner_16,Jennifer Summers,Centro Direzionale Milanofiori - Palazzo E Scala 3/5,,base.it,20090,Assago,base.state_it_mi,True,True,True,"76104 Marsh Crescent
+Dennishaven, SD 85034",+39 0255582285,,IT03675290286,,www.viking-italia.it,z0bug.fiscalpos_it,z0bug.payment_1,,,,1.0,XZ12345,,,,,,it_IT
+z0bug.res_partner_17,April Snyder,Hoogoorddreef 66,,base.nl,1101BE,Amsterdam,,False,True,True,"0003 Grant Lakes
+Port Karafort, SD 60619",,,NL123456782B90,,,z0bug.fiscalpos_eu,z0bug.payment_3,,,,,,,,,,,en_US
+z0bug.res_partner_2,Dana Nguyen,"Via II Giugno, 22",,base.it,10060,S. Secondo Pinerolo,base.state_it_to,True,False,True,"236 Smith Drive Suite 555
+West Kimberlyton, KY 21978",+39 0121555123,,IT02345670018,,http://www.agrolait2.it/,z0bug.fiscalpos_it,z0bug.payment_2,,,,1.0,ABCDEFG,,,l10n_it_ddt.goods_description_SFU,l10n_it_ddt.carriage_condition_PAF,l10n_it_ddt.transportation_method_COR,it_IT
+z0bug.res_partner_3,Cheryl Bradley,Centro commerciale La Gatta 3T,Prima Torre,base.it,15010,Terzo,base.state_it_al,True,True,True,"6824 Timothy Garden Apt. 428
+West Richardmouth, MT 14742",+39 0161555999,,IT01234560017,,www.export.it,z0bug.fiscalpos_it,z0bug.payment_3,,,,1.0,XZ12345,,,,l10n_it_ddt.carriage_condition_PA,,it_IT
+z0bug.res_partner_4,Walter Pratt,"C.so IV Maiali, 33",,base.it,65122,Pescara,base.state_it_pe,False,True,True,"5517 Holly Meadow Apt. 452
+Lake Anne, SC 11894",+39 025559876,,IT06631580013,,,z0bug.fiscalpos_rc,,,,,,,,,,,,it_IT
+z0bug.res_partner_5,Bobby Flores,"V.le Guaglione, 155",,base.it,31055,Quinto di Treviso,base.state_it_tv,False,True,True,"30601 Hawkins Highway
+Morashire, TX 28976",+39 0422886644,,IT00118439991,,,z0bug.fiscalpos_it,,,,,,,,,,,,it_IT
+z0bug.res_partner_6,Tasha Rodriguez,"Str. vista di terra, 66",,base.it,20099,Sesto S. Giovanni,base.state_it_mi,True,False,True,"49263 Wilson View Apt. 873
+South Raymondborough, AZ 28798",+39 029876543,,IT12345670017,,www.esaspa.it,z0bug.fiscalpos_li,z0bug.payment_4,,,,1.0,ABC1234,,,,,,it_IT
+z0bug.res_partner_7,Michelle Kelley,"Via dei Vasari, 7",,base.ch,6900,Massagno,,True,False,True,"76582 Vanessa Oval
+New Richard, NE 68819",+41 0919876000,,CHE-123.456.788 TVA,,,z0bug.fiscalpos_xx,z0bug.payment_4,,,,,,,,,,,it_IT
+z0bug.res_partner_8,Kimberly Maynard,"Via Madonna delle Guardia, 88",,base.it,00195,Roma,base.state_it_rm,True,False,True,"7389 Alec Squares Suite 508
+Port Jonathan, FL 50177",+39 06 5556666,,IT00118439991,,,z0bug.fiscalpos_sp,z0bug.payment_1,,,,1.0,ABC1234,,,l10n_it_ddt.goods_description_CAR,,,it_IT
+z0bug.res_partner_9,Laurie Wallace,"Via Figliata, 109",,base.it,10121,Torino,base.state_it_to,True,True,True,"18013 Billy Bridge Suite 522
+Schmitthaven, NC 66355",+39 011 2345678,,,RSSMRA69C02D612M,,z0bug.fiscalpos_it,,,,,1.0,0,,,l10n_it_ddt.goods_description_CAR,,,it_IT

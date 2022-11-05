@@ -1,0 +1,25 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27,col28,col29,col30
+1,<E>,-,-,approcher,+,-,~,~,~,~,+,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,Max approche la barrière voir le défilé,?
+2,<E>,-,-,ascensionner,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Max ascensionne la montagne retrouver l'équipe,to climb
+3,<E>,-,-,contourner,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Max contourne la colline retrouver ses amis,to skirt round
+4,<E>,-,-,descendre,+,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,Max a descendu l'escalier chercher du vin,to come down
+5,<E>,-,-,dévaler,+,-,-,+,-,+,+,+,+,-,-,-,-,-,-,-,+,+,+,+,+,+,+,-,Max dévale la pente retrouver Ida,to hurtle down
+6,<E>,-,-,envahir,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,La foule envahit la place manifester sa joie,to invade
+7,<E>,-,-,escalader,+,-,-,-,-,-,+,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Max escalade le mur prévenir les copains,to climb
+8,<E>,-,-,fendre,+,-,~,~,~,~,-,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,~,Max a fendu la foule(retrouver l'orateur+vers la sortie),?
+9,<E>,-,-,franchir,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Max franchit le(fossé+mur)prévenir ses copains,to clear
+10,<E>,-,-,gravir,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Max gravit la colline prévenir ses amis,to climb
+11,<E>,-,-,grimper,+,-,-,+,-,+,+,+,+,-,-,-,-,-,-,-,+,+,+,+,+,+,+,-,Max grimpe (E+à l'échelle)prévenir ses amis,to climb
+12,<E>,-,-,longer,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Max longe la rivière chercher un gué,to go along
+13,<E>,-,-,monter,+,-,-,+,-,-,-,-,+,-,-,-,-,-,-,-,+,+,-,-,-,-,-,-,Max a monté l'escalier chercher Luc,to go up
+14,<E>,-,-,parcourir,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Max parcourt la ville récolter des informations,to go over
+15,<E>,-,-,passer,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Max a passé le pont retrouver Luc,to cross
+16,<E>,-,-,quitter,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,Max a quitté la pièce retrouver ses copains,to leave
+17,<E>,-,-,rallier,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Max a rallié la côte se mettre à l'abri,to rejoin
+18,<E>,-,-,redescendre,+,-,-,+,-,+,-,+,+,-,-,-,-,-,-,-,+,+,+,+,+,+,+,+,Max a redescendu l'escalier chercher du vin,to come down again
+19,<E>,-,-,regagner,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,Max regagne son bureau se mettre au travail,to get back
+20,<E>,-,-,réintégrer,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,-,-,-,-,Max a réintégré sa chambre se reposer,to return
+21,<E>,-,-,rejoindre,-,+,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,+,+,+,+,-,-,Paul a rejoint Marie manger des frites,?
+22,<E>,-,-,remonter,+,-,-,+,-,+,-,+,+,-,-,-,-,-,-,-,+,+,+,+,+,+,+,-,Max a remonté l'escalier chercher Luc,to come back up
+23,<E>,-,-,survoler,+,-,-,-,-,-,-,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Max survole la passe prévenir ses amis,to fly over
+24,<E>,-,-,traverser,+,-,-,+,-,-,+,-,+,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,Max traverse la rivière retrouver ses copains,to cross

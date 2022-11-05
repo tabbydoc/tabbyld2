@@ -1,0 +1,15 @@
+col0,col1,col2
+0,MAP,{name: Garaget}
+0,POSITION,"{x: 100, y: 500}"
+0,HUMAN,"{id: 104, breath: 55, pulse: 102, throat: 0, pos_x: 100, pos_y: 55, triage: dead}"
+0,HUMAN,"{id: 107, breath: 44, pulse: 32, throat: 1, pos_x: 500, pos_y: 440, triage: 3}"
+0,HUMAN,"{id: 156, breath: 44, pulse: 32, throat: 1, pos_x: 500, pos_y: 440, triage: 3}"
+0,HUMAN,"{id: 105, breath: 44, pulse: 32, throat: 1, pos_x: 500, pos_y: 440, triage: 3}"
+10000,POSITION,"{x: 100, y: 500}"
+15000,SETDATA,"{human_id: 156, triage: red}"
+10000,CHECKDATA,"{human_id: 105, action: pulse}"
+10000,ACTION,"{human_id: 105, action: airways, status: 0}"
+20000,POSITION,"{x: 150, y: 550}"
+44000,CHECKDATA,"{human_id: 107, triage: breath}"
+44000,ACTION,"{human_id: 107, triage: airways, status, 1}"
+45000,STOP,{}

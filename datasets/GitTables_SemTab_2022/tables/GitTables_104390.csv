@@ -1,0 +1,56 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+2,ReplacePayDateWithBatchDate,FALSE,0,Replace the date on the Payment with the date from the depopsitBatch,0,,0,,0
+14,AltMatchFieldList,,0,AltMatchFieldList,0,,0,,0
+15,SearchForClosedMatch,FALSE,0,"If no match found, it searches for a closed match and sets a different cor code.",0,,0,,0
+16,UpdatePayAmtToPayAmtMinusDisc,FALSE,0,updates payAmount = payAmount-discAmount since some customer will send it that way,0,,0,,0
+18,EliminateDupRefnumsInPayment,FALSE,0,Summarize and group paymentdetail rows with duplicate refums in a payment ,0,,0,,0
+19,AutoPayMatchSingleArDoc,FALSE,0,"Auto Pay - match on single ArDoc (both gross and net amount). If multiple hits, take the oldest.",0,,0,,0
+20,AutoPaySumUp,FALSE,0,"Auto Pay - use oldest 20 ArDocs and sum up all possible combinations(both gross and net amount). If multiple hits, error out.",0,,0,,0
+21,AutoPayMatchTotalDue,FALSE,0,Auto Pay - match on customer's total due,0,,0,,0
+22,AutoPayApplyToBalance,FALSE,0,Auto Pay - apply oldest to balance- running total till it hits payment amount. Short pay last ArDoc if needed.,0,,0,,0
+23,AutoPayBucket,TRUE,0,Auto Pay - match on statement aging bucket,0,,0,,0
+24,AutoPayBucket2,FALSE,0,Auto Pay - match on statement aging bucket2,0,,0,,0
+25,AllowMatchOnAmount,FALSE,0,"If there is no match on refNum, try to match on amount and date only",0,,0,,0
+26,AutoPaySearchMaxDaysOld,0,0,"For non-bucket matches, the maximum days old document to be matched. 0 is off.",0,,0,,0
+27,AutoPayEnableAtobEvenAmounts,FALSE,0,"For non-ATOB customers, use ATOB if the payment is divisible by 5 dollars.",0,,0,,0
+28,AutoPaySumUpGrabTopNDocs,20,0,"For AutoPaySumUp, how many documents to grab for subset sum calculation.  Default 20.",0,,0,,0
+29,AutoPayEnableMultiBucketMatch,TRUE,0,"For AutoPay, enable matches on multiple buckets.",0,,0,,0
+30,AutoPayEnableSingleBucketMatch,TRUE,0,"For AutoPay, enable matches on single buckets.",0,,0,,0
+31,AutoPayBucketExcludeTranTypes,FC,0,Comma separated list of ArTranType names to exclude from bucket matches,0,,0,,0
+32,AutoPayApplyCodeMatch,TRUE,0,True or false.  Allows AutoPay to check the ApplyCode column for instructions.,0,,0,,0
+33,SearchOutOfFamilyForUniqueMatch,TRUE,0,"ZFor non-matched pay details, search out of the family based on refnum and amount (equal amount)",0,,0,,0
+34,PreMatchScript,,0,Groovy Script Name to run for PreMatchScript,0,,0,,0
+35,PostCorrectScript,,0,Groovy Script Name to run for PostCorrectScript,0,,0,,0
+36,AutoPayMatchOnNetAmtTolerance,,0,For Auto Pay - amount that bucket (multi) match on net amount can vary,0,,0,,0
+37,AutoPayMatchOnGrossAmtTolerance,,0,For Auto Pay - amount that bucket (multi) match on gross amount can vary,0,,0,,0
+38,AutoPayMatchOnNetPctTolerance,,0,For Auto Pay - percentage that bucket (multi) match on net amount can vary,0,,0,,0
+39,AutoPayMatchOnGrossPctTolerance,,0,For Auto Pay - percentage that bucket (multi) match on gross amount can vary,0,,0,,0
+40,SearchByCustOnPayDetail,FALSE,0,"Use cust on pay detail to find a match, cust on the payment can be 3rd party ",0,,0,,0
+41,AutoPayApplyToBalanceFirst,FALSE,0,For Auto Pay - apply oldest to balance before any other match.,0,,0,,0
+42,AutoPayExcludeApplyCode,,0,Comma separated list of apply codes that excludes payment from auto pay.,0,,0,,0
+43,AutoPaySumUpSequentialGrabTopNDocs,50,0,"For AutoPaySumUp, how many documents to grab for subset sum sequential.  Default 50.",0,,0,,0
+44,AutoPayEnableClosedTranTypeBucketMatch,FALSE,0,Extend bucket match by looking for closed arDocs with specific arTranTypes (could be written off),0,,0,,0
+45,AutoPayBucketClosedTranTypes,FC,0,Comma separated arTranType names of closed arDocs that will be added to bucket match.,0,,0,,0
+46,AutoPayBucketClosedMonths,2,0,Number of months to look for closed arDocs with specific arTranTypes that will be added to bucket match.,0,,0,,0
+47,AutoPayAtobUseCreditsFirst,TRUE,0,"AutoPay, Apply to Oldest Balance - Pay credit memos first before moving on to other types.",0,,0,,0
+48,AutoPayEnableProcessor,TRUE,0,Enable the Autopay Process,0,,0,,0
+49,AutoPayRunSumUpIfMoreArDocsThanGrabTopNDocs,False,0,"For AutoPay, run sum up if customer has more open ArDocs than number of documents to grab for subset sum calculation.",0,,0,,0
+50,AllowMatchNoRmtPayAmount,TRUE,0,Match on RefNum when payment detail has zero payAmount,0,,0,,0
+51,runAutoPayIfCorrectionFailed,false,0,Run autoPay if correction with provided payment details failed.,0,,0,,0
+52,searchOutOfFamilyForUniqueMatchOnRefnumOnly,false,0,Search by refnum or alt field outside of family (3rd party payments).No cust on pay detail,0,,0,,0
+53,regexMatchStripNonDigits,false,0,Include a regex that strips everything but 0123456789 digits,0,,0,,0
+54,AutoPayApplyCodeMatchFirst,False,0,Read applyCode first before any other auto pay matches.,0,,0,,0
+55,customerRelatedWithPayFromNum,false,0,Use PayFromNum on Customer to relate customers in addition to CustFamily.,0,,0,,0
+56,allowMatchOnAltFieldsNoRmtPayAmount,false,0,Match on alt field when has zero payAmount,0,,0,,0
+57,autoPayMatchAcrossCustomersInFamily,0,0,"Run auto pay methods across customers in family (sumUp, buckets, seq)",0,,0,,0
+58,autoPayEnableShippingShortPayMatch,0,0,Run auto pay methods with no shipping amount,0,,0,,0
+59,autoPayEnableTaxShortPayMatch,0,0,Run auto pay methods with no tax amount,0,,0,,0
+60,autoPayMatchPerCustomerInFamily,0,0,Run auto pay methods for other customers in family.,0,,0,,0
+61,autoPaySumUpMaxOpenArTransForFamily,30,0,Run sumUp random if customers family has less open items than this number.,0,,0,,0
+62,autoPayMatchPerCustAccountInCustomer,0,0,Run auto pay methods for each custAccount in Customer,0,,0,,0
+63,runAutoPayIfCorrectionOutOfBalance,false,0,Run autopay if check is out of balance after correction.,0,,0,,0
+64,autoPayMatchOnlyPerCustAccount,0,0,Run auto pay algorithm only on custAccount that is assigned to payment.,0,,0,,0
+65,autopayMethodsOrder,,0,"reorder autopay methods (case sensitive): TotalDue,SingleArTran,BucketMatch,ATOB,SumUp",0,,0,,0
+66,searchAutoPayAcrossOtherCompanies,true,0,AutoPay search in other companies,0,,0,,0
+67,runAutoPayIfCorrectionFailedOnUserRows,false,0,,0,,0,,0
+1002,AltMatchFieldList,1,1002,,107,2008-07-16T13:46:17.000,107,2008-07-16T13:46:17.000,0

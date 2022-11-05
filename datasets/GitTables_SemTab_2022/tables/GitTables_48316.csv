@@ -1,0 +1,14 @@
+col0,col1,col2,col3,col4,col5
+title,primitive,False,,,title
+authorName,primitive,False,,author,creator
+authorAffiliation,primitive,False,,author,creator_affiliation
+authorIdentifier,primitive,False,,author,creator_id
+dsDescriptionValue,primitive,False,,dsDescription,description
+datasetContactName,primitive,False,,datasetContact,contact
+datasetContactEmail,primitive,False,,datasetContact,contact_email
+otherReferences,primitive,True,,,submission_id
+language,controlledVocabulary,True,,,language
+subject,controlledVocabulary,True,Agricultural Sciences,,
+dsDescription,compound,True,,,
+author,compound,True,,,
+datasetContact,compound,True,,,

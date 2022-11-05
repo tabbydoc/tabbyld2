@@ -1,0 +1,59 @@
+col0,col1,col2,col3,col4,col5
+1.0,"Wildcard select, the user can read Author table, cannot read SSN column and can see authors from New York and Charlotte",select * from Author,Lashawn,role_city_mgr,
+2.0,"Specific columns the user can read Author table, cannot read SSN column and can see authors from New York and Charlotte","select name,ssn from Author",Lashawn,role_city_mgr,"Ambiguous column name 'name'.
+"
+3.0,"Specific columns select, the user cannot read SSN column & can see authors from NY and Charlotte",select * from Author a,Lashawn,role_city_mgr,
+4.0,"One specific column select, the user does not have permission to see the SSN column",select SSN from Author,Lashawn,role_city_mgr,RBAC.Core - The query returned 0(zero) column!
+5.0,"Wildcard select, there is no restriction on Book table, user should see everything",select * from Book,Lashawn,role_city_mgr,
+6.0,Wildcard select with alias,select a.* from Author a,Lashawn,role_city_mgr,
+7.0,Wildcard select with only table alias,select * from Author a,Lashawn,role_city_mgr,
+8.0,Wildcard muliselect with table alias,"select a.*, a.* from Author a",Lashawn,role_city_mgr,
+9.0,Complex wildcard select,"select * from Author where Author.ZipCodeId in (select zc.ZipCodeId from ZipCode zc where zc.CityId in (select c.CityId from City c where c.StateId in (select StateId from State where ShortName in ('NY', 'NC'))))",Lashawn,role_city_mgr,
+,Another select,"select a.AuthorId as AId, a.Name as [Name] from Author a
+where a.ZipCodeId in (select ZipCodeId from ZipCode zc where zc.ZipCode = '94103')",Lashawn,role_city_mgr,
+,Select with inner join,"SELECT dbo.City.CityId, dbo.City.Name, 
+dbo.ZipCode.ZipCodeId, dbo.ZipCode.ZipCode
+FROM  dbo.Author
+inner join dbo.ZipCode ON dbo.Author.ZipCodeId = dbo.ZipCode.ZipCodeId
+inner join dbo.City on dbo.City.CityId = dbo.ZipCode.CityId
+order by dbo.City.Name",Lashawn,role_city_mgr,
+10.0,"select non-permitted table with wildcard, user does not have permission to read from Country table",select * from Country,Lashawn,role_city_mgr,RBAC.Core - The query returned 0(zero) column!
+11.0,"select non-permitted table with specific columns, user does not have permission to read from Country table","select countryId,Name from Country",Lashawn,role_city_mgr,RBAC.Core - The query returned 0(zero) column!
+12.0,"select permitted & non-permitted tables with specific columns, user does not have permission to read from Country table","select Country.CountryId, dbo.Country.Code, dbo.Country.Name, dbo.State.ShortName, dbo.State.Name AS [StateName]
+from dbo.Country 
+inner join dbo.State ON dbo.Country.CountryId = dbo.State.CountryId",Lashawn,role_city_mgr,
+13.0,Select into wildcard,select * into Author2 from Author,Lashawn,role_city_mgr,
+14.0,select into specific columns,"select name,ssn into Author2 from Author",Lashawn,role_city_mgr,"Ambiguous column name 'name'.
+"
+15.0,select into specific columns recommended way,"select Author.name, Author.ssn into Author2 from Author",Lashawn,role_city_mgr,
+16.0,Select using inner join 1,"select a.AuthorId, a.Name as [AuthorName], a.ZipCodeId, c.Name as City from Author a
+inner join Zipcode zc on zc.ZipCodeId = a.ZipCodeId
+inner join City c on c.CityId = zc.CityId
+where c.Name = 'Charlotte'",Lashawn,role_city_mgr,
+17.0,Select using inner join 2,"select zc.ZipCode, a.Name from ZipCode zc inner join Author a on a.ZipCodeId = zc.ZipCodeId where zc.ZipCodeId = 12",Lashawn,role_city_mgr,
+18.0,"aarbac recommends to use table or alias prefix, this query will parse good, but will throw error while executing ```Ambiguous column name 'ZipCodeId'```","select * from Author where ZipCodeId in (select zc.ZipCodeId from ZipCode zc where zc.CityId in (select c.CityId from City c where c.StateId in (select StateId from State where ShortName in ('NY', 'NC'))))",Lashawn,role_city_mgr,"Ambiguous column name 'ZipCodeId'.
+"
+19.0,aarbac recommended column usage,"select * from Author where Author.ZipCodeId in (select zc.ZipCodeId from ZipCode zc where zc.CityId in (select c.CityId from City c where c.StateId in (select StateId from State where ShortName in ('NY', 'NC'))))",Lashawn,role_city_mgr,
+20.0,incorrect query,select,Lashawn,role_city_mgr,Incorrect syntax near select.Error:Incorrect syntax near select. at line nr:1 column:1 
+21.0,incorrect query,abc,Lashawn,role_city_mgr,RBAC.Core - Invalid query type!
+22.0,incorrect query,select * ,Lashawn,role_city_mgr,"Must specify table to select from.
+"
+23.0,incorrect query,select * from ,Lashawn,role_city_mgr,Unexpected end of file occurred.Error:Unexpected end of file occurred. at line nr:1 column:15 
+24.0,incorrect query,select * from book where,Lashawn,role_city_mgr,Unexpected end of file occurred.Error:Unexpected end of file occurred. at line nr:1 column:25 
+25.0,incorrect table,select * from abc,Lashawn,role_city_mgr,RBAC.PRS - The referred table abc was not found in meta data!
+26.0,"Simple insert into permissible table, user can insert record into Book","INSERT INTO [dbo].[Book] ([Title],[Subject],[Price],[PublisherId]) VALUES
+           ('A new Book'
+           ,'aarbac - An Automated Role Based Access Control'
+           ,5.50          
+           ,11)",Lashawn,role_city_mgr,
+27.0,Simple Insert,"insert into Author values ('','',1)",Lashawn,role_city_mgr,RBAC.PRS - User 'Lashawn' does not have permission to insert record into the table 'Author'!
+28.0,Simple insert with specific column names,"insert into Author(Name,SSN,ZipCodeId) values ('','',1)",Lashawn,role_city_mgr,RBAC.PRS - User 'Lashawn' does not have permission to insert record into the table 'Author'!
+29.0,"Simple update, Lashawn has permission to update Name",update Author set Name='abc' where AuthorId = 1,Lashawn,role_city_mgr,
+30.0,"Simple update, Lashawn does not have permission to update SSN",update Author set SSN='abc' where AuthorId = 1,Lashawn,role_city_mgr,"RBAC.PRS - User 'Lashawn' has permission to update table 'Author', however has no permission to update column 'SSN'!"
+31.0,Update with Join Clause,"UPDATE a 
+SET a.Name = 'abc' 
+FROM dbo.Author AS a
+INNER JOIN dbo.ZipCode AS zc 
+       ON a.ZipCodeId = a.ZipCodeId
+WHERE zc.ZipCode = '00000' ",Lashawn,role_city_mgr,
+32.0,simple delete,delete from author where name = 'abc',Lashawn,role_city_mgr,RBAC.PRS - User 'Lashawn' does not have permission to delete record from table 'Author'!

@@ -1,0 +1,15 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+1,Scrum project,"*This is a Scrum demo project.*
+You can edit the project description in the [Project settings -> Description](/projects/your-scrum-project/settings).
+",f,\N,2019-05-17 12:04:50.250347,2019-05-17 12:04:50.250347,your-scrum-project,1,1,2
+2,Demo project,"**This is a demo project**. You can edit the description in the [Project settings -> Description](/projects/demo-project/settings).
+",f,\N,2019-05-17 12:04:51.58835,2019-05-17 12:04:51.58835,demo-project,1,3,4
+4,XC Administration,,f,\N,2019-05-17 14:35:30.825454,2019-05-17 14:35:30.825454,xc-administration,1,5,12
+6,Client prospecting,,f,4,2019-05-17 15:17:52.630729,2019-05-17 15:17:52.630729,client-prospecting,1,6,7
+5,Project management software.,,f,9,2019-05-17 14:36:27.518295,2019-05-17 14:36:27.518295,project-management-software,1,9,10
+9,System,,f,4,2019-05-20 07:58:11.611737,2019-05-20 07:58:11.611737,system,1,8,11
+8,XC program development,,f,\N,2019-05-19 18:24:57.511592,2019-05-19 18:24:57.511592,xc-program-development,1,21,22
+7,Viaducto Kortázar,,f,10,2019-05-17 15:42:33.95335,2019-05-17 15:42:33.95335,viaducto-kortazar,1,18,19
+3,Oxford Avenue Residences,,f,10,2019-05-17 14:07:10.352401,2019-05-17 14:07:10.352401,ox,1,16,17
+10,XC Engineering,The work we can sell.,f,\N,2019-06-13 10:24:10.233186,2019-06-13 10:24:10.233186,xc-engineering,1,13,20
+11,4779 MVR km 4.4,Project documents for the wall in the km 4.4 of the MVR line (Montreux). Switzerland.,f,10,2019-06-13 10:31:03.668169,2019-06-13 10:31:03.668169,mvr-km-4-4,1,14,15

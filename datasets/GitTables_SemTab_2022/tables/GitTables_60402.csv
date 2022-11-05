@@ -1,0 +1,15 @@
+col0,col1,col2,col3,col4,col5,col6
+PR:000025934,hSMAD2/iso:1/Phos:1,"pS465,pS467",PR:000025963,transforming growth factor beta type II receptor homodimeric complex phosphorylated form (human),PRO,"pS465,pS467"
+PR:000025935,hSMAD2/iso:1/Phos:2,"pS465,pS467",PR:000025963,transforming growth factor beta type II receptor homodimeric complex phosphorylated form (human),PRO,"pS465,pS467"
+PR:000025935,hSMAD2/iso:1/Phos:2,"pT8,pT220,pS245,pS250,pS255",PR:000026189,hMAPK3/iso:1/Phos:1,PRO,"pT8,pT220,pS245,pS250,pS255"
+PR:000025936,hSMAD2/iso:1/Phos:3,pS240,PR:000003197,calcium/calmodulin-dependent protein kinase type II chain,PRO,pS240
+PR:000025936,hSMAD2/iso:1/Phos:3,"pS465,pS467",PR:000025963,transforming growth factor beta type II receptor homodimeric complex phosphorylated form (human),PRO,"pS465,pS467"
+PR:000025937,hSMAD2/iso:1/Phos:4,"pT220,pS245,pS250,pS255",PR:000026196,MAP2K1/iso:1/Phos:1,PRO,"pT220,pS245,pS250,pS255"
+PR:000025938,hSMAD2/iso:2/Phos:1,"pS435,pS437",PR:000025963,transforming growth factor beta type II receptor homodimeric complex phosphorylated form (human),PRO,"pS435,pS437"
+PR:000036554,hSMAD2/iso:1/AcPhos:1,acK19,,,PRO,acK19
+PR:000036554,hSMAD2/iso:1/AcPhos:1,"pS465,pS467",,,PRO,"pS465,pS467"
+PR:000036556,hSMAD2/iso:2/AcPhos:1,acK19,,,PRO,acK19
+PR:000036556,hSMAD2/iso:2/AcPhos:1,"pS435,pS437",,,PRO,"pS435,pS437"
+PR:000049282,hSMAD2/InitMet-/Phos:1,"pS465,pS467",,,PRO,"pS465,pS467"
+PR:000049283,hSMAD2/InitMet-/Phos:5,"pT220,pS465,pS467",,,PRO,"pT220,pS465,pS467"
+PR:000049284,hSMAD2/InitMet-/UbiqLys+,ub,,,PRO,ub

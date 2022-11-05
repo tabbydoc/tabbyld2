@@ -1,0 +1,61 @@
+col0,col1,col2,col3,col4,col5
+Product Output: Total,M.EUR,1,0,51,1
+Value Added: Total,M.EUR,2,0,1,1
+Employment: Total,1000 p,3,0,2,1
+Employment hours: Total,M.hr,4,0,3,1
+GHG emissions: Total,kg CO2 eq,5,0,4,1
+Domestic Extraction Used - Total,kt,6,0,5,1
+Domestic Extraction Used - Metal Ores - Total,kt,7,0,6,1
+Domestic Extraction Used - Non-Metallic Minerals - Total,kt,8,0,7,1
+Taxes less subsidies on products purchased,M.EUR,9,2,1,2
+Other net taxes on production,M.EUR,10,2,2,2
+"Compensation of employees; wages, salaries, & employers' social contributions: Low-skilled",M.EUR,11,2,3,2
+"Compensation of employees; wages, salaries, & employers' social contributions: Medium-skilled",M.EUR,12,2,4,2
+"Compensation of employees; wages, salaries, & employers' social contributions: High-skilled",M.EUR,13,2,5,2
+Operating surplus: Consumption of fixed capital,M.EUR,14,2,6,2
+Operating surplus: Remaining net operating surplus,M.EUR,15,2,7,2
+Employment: Low-skilled male,1000 p,16,3,8,2
+Employment: Low-skilled female,1000 p,17,3,9,2
+Employment: Medium-skilled male,1000 p,18,3,10,2
+Employment: Medium-skilled female,1000 p,19,3,11,2
+Employment: High-skilled male,1000 p,20,3,12,2
+Employment: High-skilled female,1000 p,21,3,13,2
+Employment hours: Low-skilled male,M.hr,22,4,14,2
+Employment hours: Low-skilled female,M.hr,23,4,15,2
+Employment hours: Medium-skilled male,M.hr,24,4,16,2
+Employment hours: Medium-skilled female,M.hr,25,4,17,2
+Employment hours: High-skilled male,M.hr,26,4,18,2
+Employment hours: High-skilled female,M.hr,27,4,19,2
+Employment: Vulnerable employment,1000 p,28,0,8,1
+Employment hours: Vulnerable employment,M.hr,29,0,9,1
+CO2 - combustion,kg,30,5,20,2
+CH4 - combustion,kg,31,5,21,2
+N2O - combustion,kg,32,5,22,2
+CO2 - waste,kg,33,5,23,2
+CH4 - Waste,kg,34,5,24,2
+CO2 - non combustion,kg,35,5,25,2
+CH4 - non combustion,kg,36,5,26,2
+N2O - non - combustion,kg,37,5,27,2
+SF6,kg,38,5,28,2
+HFC,kg CO2-eq,39,5,29,2
+PFC,kg CO2-eq,40,5,30,2
+Domestic Extraction Used - Metal Ores - Uranium and thorium ores,kt,41,7,31,2
+Domestic Extraction Used - Metal Ores - Iron ores,kt,42,7,32,2
+Domestic Extraction Used - Metal Ores - Copper ores,kt,43,7,33,2
+Domestic Extraction Used - Metal Ores - Nickel ores,kt,44,7,34,2
+Domestic Extraction Used - Metal Ores - Bauxite and aluminium ores,kt,45,7,35,2
+Domestic Extraction Used - Metal Ores - Gold ores,kt,46,7,36,2
+Domestic Extraction Used - Metal Ores - PGM ores,kt,47,7,37,2
+Domestic Extraction Used - Metal Ores - Silver ores,kt,48,7,38,2
+Domestic Extraction Used - Metal Ores - Lead ores,kt,49,7,39,2
+Domestic Extraction Used - Metal Ores - Tin ores,kt,50,7,40,2
+Domestic Extraction Used - Metal Ores - Zinc ores,kt,51,7,41,2
+Domestic Extraction Used - Metal Ores - Other non-ferrous metal ores,kt,52,7,42,2
+Domestic Extraction Used - Non-Metallic Minerals - Other minerals,kt,53,8,43,2
+"Domestic Extraction Used - Non-Metallic Minerals - Limestone, gypsum, chalk, dolomite",kt,54,8,44,2
+Domestic Extraction Used - Non-Metallic Minerals - Slate,kt,55,8,45,2
+Domestic Extraction Used - Non-Metallic Minerals - Building stones,kt,56,8,46,2
+Domestic Extraction Used - Non-Metallic Minerals - Clays and kaolin,kt,57,8,47,2
+Domestic Extraction Used - Non-Metallic Minerals - Gravel and sand,kt,58,8,48,2
+Domestic Extraction Used - Non-Metallic Minerals - Salt,kt,59,8,49,2
+Domestic Extraction Used - Non-Metallic Minerals - Chemical and fertilizer minerals,kt,60,8,50,2

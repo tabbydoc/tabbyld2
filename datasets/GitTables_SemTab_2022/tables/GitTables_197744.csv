@@ -1,0 +1,134 @@
+col0,col1,col2,col3
+1,62,Equipment Requirements,0
+2,62,Test Methods,1
+3,62,Certification Requirements,2
+4,62,Review,3
+5,62,Implementing Agency,4
+6,90,Incentive Amount,0
+7,90,Maximum Incentive,1
+8,90,Terms,2
+9,65,Residential Code,0
+10,65,Commercial Code,1
+11,65,Code Change Cycle,2
+12,65,Jurisdictions,3
+13,19,Incentive Amount,0
+14,19,Maximum Incentive,1
+15,19,Equipment Requirements,2
+16,21,Incentive Amount,0
+17,21,Maximum Incentive,1
+18,49,Incentive Amount,0
+19,49,Maximum Incentive,1
+20,18,Incentive Amount,0
+21,18,Maximum Incentive,1
+22,18,Eligible System Size,2
+23,18,Equipment Requirements,3
+24,18,Installation Requirements,4
+25,18,Carryover Provisions,5
+26,84,Electric Sales Reduction,0
+27,84,Electric Peak Demand Reduction,1
+28,84,Natural Gas Sales Reduction,2
+29,84,Rate Impact Parameters,3
+30,64,Energy Reduction Goal/Requirement,0
+31,64,Green Building Requirement,1
+32,64,Equipment Efficiency Requirement,2
+33,64,Renewable Energy Requirement,3
+34,25,Fuel Mix,0
+35,25,Emissions,1
+36,25,Distribution and Frequency,2
+37,25,Standard Format Required,3
+38,87,Incentive Amount,0
+39,87,Maximum Incentive,1
+40,87,Equipment Requirements,2
+41,87,Installation Requirements,3
+42,10,Permit Fee Waiver / Reduction,0
+43,10,Expedited Permitting Process,1
+44,10,Density Bonus,2
+45,79,Renewables % or Amount,0
+46,79,Source,1
+47,40,Incentive Amount,0
+48,40,Maximum Incentive,1
+49,40,Terms,2
+50,14,Applicable Utilities,0
+51,14,System Capacity Limit,1
+52,14,Standard Agreement,2
+53,14,Insurance Requirements,3
+54,14,External Disconnect Switch,4
+55,14,Net Metering Required,5
+56,80,Terms,0
+57,35,Availability,0
+58,35,Requirements,1
+59,35,Service,2
+60,89,Maximum Loan,0
+61,89,Loan Term,1
+62,89,Interest Rate,2
+63,37,Applicable Utilities,0
+64,37,System Capacity Limit,1
+65,37,Aggregate Capacity Limit,2
+66,37,Net Excess Generation,3
+67,37,Ownership of Renewable Energy Credits,4
+68,37,Meter Aggregation,5
+69,76,Terms,0
+70,13,Incentive Amount,0
+71,13,Maximum Incentive,1
+72,13,Terms,2
+73,13,Eligible System Size,3
+74,13,Equipment Requirements,4
+75,13,Installation Requirements,5
+76,13,Ownership of Renewable Energy Credits,6
+77,32,Incentive Amount,0
+78,32,Maximum Incentive,1
+79,32,Equipment Requirements,2
+80,33,Incentive Amount,0
+81,33,Maximum Incentive,1
+82,31,Incentive Amount,0
+83,31,Maximum Incentive,1
+84,31,Eligible System Size,2
+85,31,Equipment Requirements,3
+86,31,Installation Requirements,4
+87,31,Carryover Provisions,5
+88,78,Incentive Amount,0
+89,78,Maximum Incentive,1
+90,78,Eligible System Size,2
+91,78,Equipment Requirements,3
+92,46,Types,0
+93,46,Total Fund,1
+94,46,Charge,2
+95,88,Incentive Amount,0
+96,88,Maximum Incentive,1
+97,88,Eligible System Size,2
+98,88,Equipment Requirements,3
+99,88,Installation Requirements,4
+100,88,Ownership of Renewable Energy Credits,5
+101,38,Standard,0
+102,38,Technology Minimum,1
+103,38,Compliance Multipliers,2
+104,38,REC Lifetime,3
+105,38,Credit Trading/Tracking System,4
+106,38,Alternative Compliance Payment,5
+107,81,Incentive Amount,0
+108,81,Maximum Incentive,1
+109,81,Equipment Requirements,2
+110,63,Incentive Amount,0
+111,63,Equipment Requirements,1
+112,92,Incentive Amount,0
+113,92,Maximum Incentive,1
+114,92,Eligible System Size,2
+115,92,Duration,3
+116,92,Equipment Requirements,4
+117,92,Installation Requirements,5
+118,92,Ownership of Renewable Energy Credits,6
+119,85,Incentive Amount,0
+120,85,Maximum Incentive,1
+121,85,Eligible System Size,2
+122,85,Duration,3
+123,85,Equipment Requirements,4
+124,85,Installation Requirements,5
+125,86,Applicable Utilities,0
+126,86,System Capacity Limit,1
+127,86,Aggregate Capacity Limit,2
+128,86,Ownership of Renewable Energy Credits,3
+129,94,Applicable Utilities,0
+130,94,System Capacity Limit,1
+131,94,Program Capacity Limit,2
+132,94,Participant Credit Rate,3
+133,94,Low-Moderate Income Provisions,4

@@ -1,0 +1,13 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+fiscal_position_consumidor,20,Consumidor (persona natural con cédula),persona_06,False,False,identificacion_ci,tipopago_01,1
+fiscal_position_natural,1,Persona natural (no obligada a llevar contabilidad),persona_06,False,False,identificacion_ruc,tipopago_01,1
+fiscal_position_artesano,10,Persona natural (artesano),persona_06,False,False,identificacion_ruc,tipopago_01,1
+fiscal_position_obligada,10,Persona natural (obligada a llevar contabilidad),persona_06,False,True,identificacion_ruc,tipopago_01,1
+fiscal_position_rise,15,Persona natural (contribuyente RISE),persona_06,False,False,identificacion_ruc,tipopago_01,1
+fiscal_position_sociedad,5,Sociedad (persona jurídica),persona_09,False,True,identificacion_ruc,tipopago_01,1
+fiscal_position_gobierno,25,Gobierno e instituciones gubernamentales,persona_09,True,True,identificacion_ruc,tipopago_01,1
+fiscal_position_especiales,30,Contribuyentes especiales (sociedad),persona_09,False,True,identificacion_ruc,tipopago_01,1
+fiscal_position_especialesnatural,40,Contribuyentes especiales (persona natural),persona_06,False,True,identificacion_ruc,tipopago_01,1
+fiscal_position_otros,35,Otros no sujetos a retención,persona_09,False,True,identificacion_ruc,tipopago_01,1
+fiscal_position_final,100,Consumidor final,persona_06,False,False,identificacion_fin,tipopago_01,1
+fiscal_position_exterior,500,Del exterior (pasaporte),persona_09,False,False,identificacion_ext,tipopago_02,1

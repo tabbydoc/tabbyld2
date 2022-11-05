@@ -1,0 +1,211 @@
+col0,col1,col2,col3,col4
+315,333,  ,Gloucestershire,Gloucestershire
+314,333,  ,Essex,Essex
+313,333,  ,East Sussex,East Sussex
+312,333,  ,Durham,Durham
+311,333,  ,Dorset,Dorset
+310,333,  ,Devon,Devon
+309,333,  ,Derbyshire,Derbyshire
+308,333,  ,Cumbria,Cumbria
+307,333,  ,Cornwall,Cornwall
+306,333,  ,Cleveland,Cleveland
+305,333,  ,Cheshire,Cheshire
+304,333,  ,Cambridgeshire,Cambridgeshire
+303,333,  ,Buckinghamshire,Buckinghamshire
+302,333,  ,Befordshire,Befordshire
+301,333,  ,Avon,Avon
+168,109,  ,Yukon,Yukon
+167,109,  ,Saskatchewan,Saskatchewan
+166,109,  ,Quebec,Quebec
+165,109,  ,Prince Edward Island,Ile-du-Prince-Edouard
+164,109,  ,Ontario,Ontario
+163,109,  ,Nunavut,Nunavut
+162,109,  ,Northwest Territories,Territoires du Nord-Ouest
+161,109,  ,Nova Scotia,Nouvelle-Ecosse
+160,109,  ,"Newfoundland, Labrador",Terre-Neuve-et-Labrador
+159,109,  ,New Brunswick,Nouveau-Brunswick
+158,109,  ,Manitoba,Manitoba
+157,109,  ,British Columbia,Colombie-Britannique
+156,109,  ,Alberta,Alberta
+155,100,  ,VT,Vermont
+154,100,  ,MD,Maryland
+153,100,  ,WI,Wisconsin
+152,100,  ,MI,Minnesota
+150,100,  ,HI,Hawaii
+149,100,  ,CO,Colorado
+148,100,  ,NV,Nevada
+147,100,  ,ID,Idaho
+146,100,  ,UT,Utah
+145,100,  ,AZ,Arizona
+144,100,  ,AR,Arkansas
+142,100,  ,OR,Oregon
+141,100,  ,NM,New Mexico
+140,100,  ,WY,Wyoming
+139,100,  ,NE,Nebraska
+138,100,  ,KS,Kansas
+137,100,  ,MO,Missouri
+136,100,  ,MT,Montana
+135,100,  ,MS,Mississippi
+133,100,  ,OK,Oklahoma
+132,100,  ,TX,Texas
+131,100,  ,LA,Lousiana
+130,100,  ,KY,Kentucky
+129,100,  ,NC,North Carolina
+128,100,  ,SC,South Carolina
+127,100,  ,IL,Illinois
+126,100,  ,OH,Ohio
+125,100,  ,IN,Indiana
+124,100,  ,IA,Iowa
+123,100,  ,MN,Michigan
+122,100,  ,SD,South Dakato
+121,100,  ,ND,North Dakota
+120,100,  ,GA,Georgia
+119,100,  ,TN,Tennessee
+118,100,  ,AK,Arkansas
+116,100,  ,WA,Washington
+115,100,  ,DE,Deleware
+114,100,  ,AL,Alabama
+113,100,  ,FL,Florida
+112,100,  ,WV,West Virginia
+111,100,  ,VA,Virginia
+110,100,  ,PA,Pennsylvania
+109,100,  ,NJ,New Jersey
+108,100,  ,NY,New York
+107,100,  ,RI,Rhode Island
+106,100,  ,NH,New Hampshire
+105,100,  ,ME,Maine
+104,100,  ,MA,Massachusetts
+103,100,  ,CA,California
+102,100,  ,CT,Connecticut
+396,106,  ,MELILLA,Melilla
+254,106,  ,ZARAGOZA,Zaragoza
+253,106,  ,ZAMORA,Zamora
+252,106,  ,VALLADOLID,Valladolid
+251,106,  ,VALENCIA,Valencia
+250,106,  ,TOLEDO,Toledo
+249,106,  ,TERUEL,Teruel
+248,106,  ,SANTA CRUZ DE TENERIFE,Santa Cruz de Tenerife
+247,106,  ,TARRAGONA,Tarragona
+246,106,  ,SORIA,Soria
+245,106,  ,SEVILLA,Sevilla
+244,106,  ,SEGOVIA,Segovia
+243,106,  ,SALAMANCA,Salamanca
+240,106,  ,PONTEVEDRA,Pontevedra
+239,106,  ,PALENCIA,Palencia
+238,106,  ,OURENSE,Ourense
+237,106,  ,NAVARRA,Navarra
+236,106,  ,MURCIA,Murcia
+235,106,  ,MALAGA,Malaga
+234,106,  ,MADRID,Madrid
+233,106,  ,LUGO,Lugo
+232,106,  ,LLEIDA,Lleida
+231,106,  ,LEON,Leon
+230,106,  ,LAS PALMAS,Las Palmas
+229,106,  ,LA RIOJA,La Rioja
+228,106,  ,A CORU?A,A Coru?a
+227,106,  ,JAEN,Jaen
+226,106,  ,HUESCA,Huesca
+225,106,  ,HUELVA,Huelva
+224,106,  ,GUADALAJARA,Guadalajara
+223,106,  ,GRANADA,Granada
+222,106,  ,GIRONA,Girona
+221,106,  ,GUIPUZCOA,Guipuzcoa
+220,106,  ,CUENCA,Cuenca
+219,106,  ,CORDOBA,Cordoba
+218,106,  ,CIUDAD REAL,Ciudad Real
+217,106,  ,CEUTA,Ceuta
+216,106,  ,CASTELLON,Castellon
+215,106,  ,CANTABRIA,Cantabria
+214,106,  ,CADIZ,Cadiz
+213,106,  ,CACERES,Caceres
+211,106,  ,BURGOS,Burgos
+210,106,  ,VIZCAYA,Vizcaya
+209,106,  ,BARCELONA,Barcelona
+208,106,  ,BALEARES,Baleares
+207,106,  ,BADAJOZ,Badajoz
+206,106,  ,AVILA,Avila
+205,106,  ,ASTURIAS,Asturias
+204,106,  ,ALMERIA,Almeria
+203,106,  ,ALICANTE,Alicante
+202,106,  ,ALBACETE,Albacete
+201,106,  ,ALAVA,Alava
+395,333,  ,Isle of Man,Isle of Man
+394,333,  ,Jersey (CI),Jersey (CI)
+393,333,  ,Guernsey (CI),Guernsey (CI)
+392,333,  ,Alderney (CI),Alderney (CI)
+391,333,  ,Strabane (NI),Strabane (NI)
+390,333,  ,Omagh (NI),Omagh (NI)
+389,333,  ,North Down (NI),North Down (NI)
+388,333,  ,Newtonabbey (NI),Newtonabbey (NI)
+387,333,  ,Newry and Mourne (NI),Newry and Mourne (NI)
+386,333,  ,Moyle (NI),Moyle (NI)
+385,333,  ,Magherafelt (NI),Magherafelt (NI)
+384,333,  ,Londonderry (NI),Londonderry (NI)
+383,333,  ,Lisburn (NI),Lisburn (NI)
+382,333,  ,Limavady (NI),Limavady (NI)
+381,333,  ,Larne (NI),Larne (NI)
+380,333,  ,Fermanagh (NI),Fermanagh (NI)
+379,333,  ,Dungannon (NI),Dungannon (NI)
+378,333,  ,Down (NI),Down (NI)
+377,333,  ,Craigavon (NI),Craigavon (NI)
+376,333,  ,Cookstown (NI),Cookstown (NI)
+375,333,  ,Coleraine (NI),Coleraine (NI)
+374,333,  ,Castlereagh (NI),Castlereagh (NI)
+373,333,  ,Carrickfergus (NI),Carrickfergus (NI)
+372,333,  ,Belfast (NI),Belfast (NI)
+371,333,  ,Banbridge (NI),Banbridge (NI)
+370,333,  ,Ballymoney (NI),Ballymoney (NI)
+369,333,  ,Ballymena (NI),Ballymena (NI)
+368,333,  ,Armagh (NI),Armagh (NI)
+367,333,  ,Ards (NI),Ards (NI)
+366,333,  ,Antrim (NI),Antrim (NI)
+365,333,  ,West Glamorgan,West Glamorgan
+364,333,  ,South Glamorgan,South Glamorgan
+363,333,  ,Powys,Powys
+362,333,  ,Mid Glamorgan,Mid Glamorgan
+361,333,  ,Gwynedd,Gwynedd
+360,333,  ,Gwent,Gwent
+359,333,  ,Dyfed,Dyfed
+358,333,  ,Clwyd,Clwyd
+357,333,  ,Western Isles,Western Isles
+356,333,  ,Tayside,Tayside
+355,333,  ,Strathclyde,Strathclyde
+354,333,  ,Shetland,Shetland
+353,333,  ,Orkney,Orkney
+352,333,  ,Lothian,Lothian
+351,333,  ,Highland,Highland
+350,333,  ,Grampian,Grampian
+349,333,  ,Fife,Fife
+348,333,  ,Dumfries and Galloway,Dumfries and Galloway
+347,333,  ,Central (Scotland),Central (Scotland)
+346,333,  ,Borders,Borders
+345,333,  ,Worcestershire,Worcestershire
+344,333,  ,Wiltshire,Wiltshire
+343,333,  ,West Yorkshire,West Yorkshire
+342,333,  ,West Sussex,West Sussex
+341,333,  ,West Midlands,West Midlands
+340,333,  ,Warwickshire,Warwickshire
+339,333,  ,Tyne and Wear,Tyne and Wear
+338,333,  ,Surrey,Surrey
+337,333,  ,Suffolk,Suffolk
+336,333,  ,Staffordshire,Staffordshire
+335,333,  ,South Yorkshire,South Yorkshire
+334,333,  ,Somerset,Somerset
+333,333,  ,Shropshire,Shropshire
+332,333,  ,Oxfordshire,Oxfordshire
+331,333,  ,Nottinghamshire,Nottinghamshire
+330,333,  ,North Yorkshire,North Yorkshire
+329,333,  ,Northumberland,Northumberland
+328,333,  ,Northamtonshire,Northamtonshire
+327,333,  ,Norfolk,Norfolk
+326,333,  ,Merseyside,Merseyside
+325,333,  ,Lincolnshire,Lincolnshire
+324,333,  ,Lancashire,Lancashire
+323,333,  ,Kent,Kent
+322,333,  ,Isle of Wight,Isle of Wight
+321,333,  ,Humberside,Humberside
+320,333,  ,Hertfordshire,Hertfordshire
+319,333,  ,Herefordshire,Herefordshire
+318,333,  ,Hampshire,Hampshire
+317,333,  ,Greater Manchester,Greater Manchester
+316,333,  ,Greater London,Greater London

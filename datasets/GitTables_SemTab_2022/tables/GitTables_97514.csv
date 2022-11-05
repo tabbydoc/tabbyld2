@@ -1,0 +1,9 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+100,0,5052,2018-09-19 13:08:03,2018-09-19 13:46:51,90,default,"-- query12\nSELECT\ni_item_id ,\ni_item_desc ,\ni_category ,\ni_class ,\ni_current_price ,\nSum(ws_ext_sales_price) AS itemrevenue ,\nSum(ws_ext_sales_price)*100/Sum(Sum(ws_ext_sales_price)) OVER (par"
+100,1,5052,2018-09-19 13:08:03,2018-09-19 13:46:51,90,default,"tition BY i_class) AS revenueratio\nFROM web_sales ,\nitem ,\ndate_dim\nWHERE ws_item_sk = i_item_sk\nAND i_category IN (''Home'',\n''Men'',\n''Women'')\nAND ws_sold_date_sk = d_date_sk\nAND Cast(d_date AS "
+100,2,5052,2018-09-19 13:08:03,2018-09-19 13:46:51,90,default,"DATE) BETWEEN Cast(''2000-05-11'' AS DATE) AND (\nCast(''2000-06-11'' AS DATE))\nGROUP BY i_item_id ,\ni_item_desc ,\ni_category ,\ni_class ,\ni_current_price\nORDER BY i_category ,\ni_class ,\ni_item_id "
+100,3,5052,2018-09-19 13:08:03,2018-09-19 13:46:51,90,default,"\ni_item_desc ,\nrevenueratio\nLIMIT 100;\n"
+101,0,5052,2018-09-20 13:08:03,2018-09-20 13:46:51,90,default,"-- query12\nSELECT\ni_item_id ,\ni_item_desc ,\ni_category ,\ni_class ,\ni_current_price ,\nSum(ws_ext_sales_price) AS itemrevenue ,\nSum(ws_ext_sales_price)*100/Sum(Sum(ws_ext_sales_price)) OVER (par"
+101,1,5052,2018-09-20 13:08:03,2018-09-20 13:46:51,90,default,"tition BY i_class) AS revenueratio\nFROM web_sales ,\nitem ,\ndate_dim\nWHERE ws_item_sk = i_item_sk\nAND i_category IN (''Home'',\n''Men'',\n''Women'')\nAND ws_sold_date_sk = d_date_sk\nAND Cast(d_date AS \"
+101,2,5052,2018-09-20 13:08:03,2018-09-20 13:46:51,90,default,"DATE) BETWEEN Cast(''2000-05-11'' AS DATE) AND (\nCast(''2000-06-11'' AS DATE))\nGROUP BY i_item_id ,\ni_item_desc ,\ni_category ,\ni_class ,\ni_current_price\nORDER BY i_category ,\ni_class ,\ni_item_id "
+101,3,5052,2018-09-20 13:08:03,2018-09-20 13:46:51,90,default,"\ni_item_desc ,\nrevenueratio\nLIMIT 100;\n"

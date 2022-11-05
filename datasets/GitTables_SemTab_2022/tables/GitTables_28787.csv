@@ -1,0 +1,23 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+9,Argentina,19,Bolivia (Plurinational State of),Bananas,2019,tonnes,104428
+9,Argentina,21,Brazil,Bananas,2019,tonnes,26624
+9,Argentina,44,Colombia,Bananas,2019,tonnes,2710
+9,Argentina,58,Ecuador,Bananas,2019,tonnes,232811
+9,Argentina,169,Paraguay,Bananas,2019,tonnes,66700
+21,Brazil,58,Ecuador,Bananas,2019,tonnes,17
+40,Chile,9,Argentina,Bananas,2019,tonnes,0
+40,Chile,19,Bolivia (Plurinational State of),Bananas,2019,tonnes,2466
+40,Chile,44,Colombia,Bananas,2019,tonnes,0
+40,Chile,58,Ecuador,Bananas,2019,tonnes,242800
+40,Chile,170,Peru,Bananas,2019,tonnes,368
+44,Colombia,58,Ecuador,Bananas,2019,tonnes,1860
+58,Ecuador,44,Colombia,Bananas,2019,tonnes,0
+169,Paraguay,9,Argentina,Bananas,2019,tonnes,64
+169,Paraguay,21,Brazil,Bananas,2019,tonnes,0
+169,Paraguay,40,Chile,Bananas,2019,tonnes,0
+170,Peru,40,Chile,Bananas,2019,tonnes,1
+170,Peru,58,Ecuador,Bananas,2019,tonnes,2
+234,Uruguay,19,Bolivia (Plurinational State of),Bananas,2019,tonnes,2364
+234,Uruguay,21,Brazil,Bananas,2019,tonnes,30259
+234,Uruguay,58,Ecuador,Bananas,2019,tonnes,18059
+234,Uruguay,169,Paraguay,Bananas,2019,tonnes,175

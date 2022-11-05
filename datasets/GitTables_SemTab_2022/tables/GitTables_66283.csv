@@ -1,0 +1,39 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1-pyrimidinylpiperazine,1-(2-pyrimidinyl)piperazine,,C037921,,,,already in file
+2-hydroxyatorvastatin acid,2-hydroxyatorvastatin,,C518963,,,,
+4-hydroxyatorvastatin acid,4-hydroxyatorvastatin,,C518964,,,,
+atorvastatin lactone,,,,,,,already in file. PubChem: 6483036 
+ATV/RTV,,,,,,,already in file but unknown
+azole antifungals,,,,,,,already in file. Non-standard concept id may be 4160920
+CLOZARIL,Clozapine,,D003024,,,,
+CMI,"cmI protein, E coli",,C488856,,,,already in file but unknown
+Coumadin,Warfarin,,D014859,,,,
+CsA,Cyclosporine,,D016572,,,,abbreviation for cyclosporin A
+darunavir or ritonavir,,,,,,,already in file but unknown
+Darunavir/Ritonavir,,,,,,,already in file but unknown
+darunavir/ritonavir,,,,,,,already in file but unknown
+digitoxin,Digitoxin,,D004074,,,,
+ELIQUIS,apixaban,,C522181,,,,brand name for apixaban
+eltrombopag,eltrombopag,,C520809,,,,
+encainide,Encainide,,D016700,,,,
+Fosamprenavir/Ritonavir,,,,,,,already in file but unknown (abbreviated as FPV/RTV)
+FPV/RTV,,,,,,,already in file but unknown
+hepatic enzyme inducers,,,,,,,already in file but unknown
+hepatic enzyme inhibitors,,,,,,,already in file but unknown
+LATUDA,Lurasidone Hydrochloride,,D000069056,,,,
+lopinavir and ritonavir,lopinavir-ritonavir drug combination,,C558899,,,,already in file
+mibefradil,Mibefradil,,D020748,,,,
+mipomersen sodium,,,,,,,already in file. Non-standard concept code 1367838
+paliperidone,Paliperidone Palmitate,,D000068882,,,,
+PROZAC,Fluoxetine,,D005473,,,,
+psychostimulants,,,,,,,
+R- warfarin,Warfarin,,D014859,,,,already in file
+rapamycin,Sirolimus,,D020123,,,,
+RTV/SQV,,,,,,,already in file but unknown
+S-warfarin's hydroxyl,,,,,,,
+Saquinavir/Ritonavir,,,,,,,already in file but unknown (abbreviated as RTV/SQV)
+Tipranavir/Ritonavir,,,,,,,already in file but unknown (abbreviated as TPV/r)
+TPV/r,,,,,,,already in file but unknown
+valsartan,Valsartan,,D000068756,,,,
+vinblastine,Vinblastine,,D014747,,,,
+zopiclone,zopiclone,,C515050,,,,

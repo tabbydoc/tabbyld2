@@ -1,0 +1,100 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1,What is it?,char,1,1,0,1,0
+3,Schalk,char,2,1,1,50,0
+7,Name of head/household,char,3,1,1,50,1
+8,Work Telephone Number,char,3,3,0,1,1
+9,Neighbour's telephone Number,char,3,5,0,1,1
+11,StandNo,char,3,7,0,10,1
+28,Interviewer Name,char,4,1,0,100,0
+29,Name of respondent,char,3,2,0,100,1
+30,Home Telephone number,char,3,4,0,1,1
+31,Cell phone number,char,3,6,0,1,1
+198,Type of small business,char,3,8,0,50,0
+201,Other appliances,char,3,10,0,50,0
+202,Language name,char,5,1,0,100,0
+204,RespondentName,char,6,1,0,100,1
+205,TelNo,char,6,2,0,1,1
+206,PostalCode,char,6,3,0,1,0
+207,AreaCode,char,6,4,0,1,0
+260,Alternative Energy description,char,8,1,0,100,0
+309,Type of small business,char,7,8,0,50,0
+311,Other appliances,char,7,10,0,50,0
+327,AltApplianceOtherList,char,7,11,0,10,0
+379,StandNo,char,7,7,0,10,1
+420,HomeLanguage,char,6,5,0,10,0
+421,HeadGender,char,6,6,0,10,0
+422,OwnRent,char,6,7,0,1,0
+423,Business,char,6,8,0,10,0
+531,Name of head/household,char,7,1,1,50,1
+532,Name of respondent,char,7,2,0,100,1
+533,Work Telephone Number,char,7,3,0,1,1
+534,Home Telephone number,char,7,4,0,1,1
+535,Neighbour's telephone Number,char,7,5,0,1,1
+536,Cell phone number,char,7,6,0,1,1
+539,DateOfInterview,char,1000000,6,0,1,0
+540,ChannelNo,char,1000000,2,0,100,0
+546,Area,char,1000000,7,0,1,0
+547,ClinicName,char,1000000,8,0,1,1
+548,RespondentName,char,1000000,9,0,10,1
+549,RespondentPos,char,1000000,10,0,10,1
+551,TelNum,char,1000000,11,0,1,1
+552,CellNum,char,1000000,12,0,10,1
+562,MainWaterSource_Other,char,1000000,13,0,10,0
+565,OpenTime_Mon,char,1000000,15,0,50,0
+566,OpenTime_Wed,char,1000000,17,0,50,0
+567,OpenTime_Thurs,char,1000000,18,0,50,0
+568,OpenTime_Fri,char,1000000,19,0,50,0
+569,OpenTime_Sat,char,1000000,20,0,50,0
+570,OpenTime_Sun,char,1000000,21,0,50,0
+571,LoggerID,char,1000000,1,1,50,0
+574,ExtensionNo,char,6,9,0,50,1
+575,StandNo,char,6,10,0,1,1
+576,BackCheck,char,6,11,0,1,0
+624,GPS_S,char,1000000,3,0,1,1
+625,GPS_E,char,1000000,4,0,1,1
+626,Interviewer,char,1000000,5,0,1,0
+627,MeterNumber,char,1000000,14,0,1,1
+629,OpenTime_Tues,char,1000000,16,0,50,0
+630,Appl1_Type,char,1000000,22,0,1,0
+634,HotwaterSource,char,1000000,33,0,1,0
+635,test1,char,1000001,1,1,50,0
+636,Appl2_Type,char,1000000,23,0,1,0
+637,Appl3_Type,char,1000000,24,0,1,0
+638,Appl4_Type,char,1000000,25,0,1,0
+639,Appl5_Type,char,1000000,26,0,1,0
+640,Appl6_Type,char,1000000,27,0,1,0
+641,Appl7_Type,char,1000000,28,0,1,0
+642,Appl8_Type8,char,1000000,29,0,10,0
+643,Appl9_Type9,char,1000000,30,0,10,0
+644,Appl10_Type,char,1000000,31,0,10,0
+645,Appl11_Type,char,1000000,32,0,10,0
+683,LoggerID,char,1000002,1,1,50,0
+684,ChannelNo,char,1000001,2,0,100,0
+687,MeterNumber,char,1000002,13,0,50,1
+690,Interviewer,char,1000001,3,0,1,0
+691,DateOfInterview,char,1000001,4,0,1,0
+692,Area,char,1000001,5,0,1,0
+693,NameOfShop,char,1000001,6,0,1,1
+694,NameOfOwner,char,1000001,7,0,1,1
+695,NameOfRespondent,char,1000001,8,0,1,1
+696,PositionOfRespondent,char,1000001,9,0,10,1
+699,CellNo,char,1000001,10,0,1,1
+700,GPS_S,char,1000001,12,0,1,1
+701,GPS_E,char,1000001,11,0,10,1
+705,ShopTYype,char,1000001,17,1,100000,0
+709,MeterNumber,char,1000001,14,0,10,1
+713,MainWaterSource_Other,char,1000001,15,0,50,0
+768,ChannelNo,char,1000002,2,0,100,0
+769,GPS_S,char,1000002,3,0,1,1
+770,GPS_E,char,1000002,4,0,1,1
+771,Interviewer,char,1000002,5,0,1,0
+772,DateOfInterview,char,1000002,6,0,1,0
+773,Area,char,1000002,7,0,1,0
+774,NameOfSchool,char,1000002,8,0,1,1
+775,NameOfRespondent,char,1000002,9,0,10,1
+776,PosOfRespondent,char,1000002,10,0,10,1
+778,TelNo,char,1000002,11,0,1,1
+779,CellNo,char,1000002,12,0,10,1
+797,MainWaterSource_other,char,1000002,14,0,50,0
+852,HotwaterSource,char,1000002,15,1,11,0
+853,HotwaterSource,char,1000001,16,1,4,0

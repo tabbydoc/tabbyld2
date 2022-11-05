@@ -1,0 +1,21 @@
+col0,col1,col2,col3,col4,col5
+1,0,0,0,사랑방,/jsp/community/body.jsp
+7,1,1,1,공지,/servlet/BoardList?boardID=0
+8,1,1,2,자유게시판,/servlet/BoardList?boardID=1
+9,1,1,3,FAQ,/servlet/BoardList?boardID=2
+4,0,0,4,문서,/jsp/doc/body.jsp
+10,4,1,5,코다 활용 howto,/jsp/doc/CoddaHowTo.jsp
+5,0,0,6,도구,/jsp/util/body.jsp
+11,5,1,7,JDF-비 로그인 테스트,/servlet/JDFNotLoginTest
+12,5,1,8,JDF-로그인 테스트,/servlet/JDFLoginTest
+13,5,1,9,세션키 테스트,/servlet/JDFSessionKeyTest
+14,5,1,10,RSA 테스트,/servlet/JSRSATest
+15,5,1,11,메세지 다이제스트(MD) 테스트,/servlet/JSMessageDigestTest
+16,5,1,12,대칭키 테스트,/servlet/JSSymmetricKeyTest
+17,5,1,13,에코 테스트,/servlet/EchoTest
+18,5,1,14,모든 데이터 타입 검증,/servlet/AllItemTypeTest
+19,5,1,15,Java GC 호출,/servlet/JavaGCCaller
+20,5,1,16,자바 문자열 변환 도구,/servlet/JavaStringConverter
+6,0,0,17,회원,/jsp/member/body.jsp
+21,6,1,18,로그인,/servlet/UserLogin
+22,6,1,19,회원 가입,/servlet/MemberRegistration

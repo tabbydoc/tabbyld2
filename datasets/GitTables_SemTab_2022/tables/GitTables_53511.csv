@@ -1,0 +1,22 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17
+1,Open,1,33,43,0,,"Open Unworked, Unclassified document",0,,True,True,False,False,,,0,False
+2,Approved,2,33,43,0,,Approved/Valid dispute that does not need to be paid,0,,True,False,False,True,,,0,False
+4,WriteOff,4,31,41,0,,An ARDoc that should have been paid but is Uncollectable,0,,True,False,False,False,,,0,False
+5,Closed,5,33,43,0,,An ARDoc that has been fully paid off,0,,True,False,False,False,,,0,False
+6,PastDue,6,33,43,0,,Past Due,0,,True,True,False,False,,,0,False
+7,Sent,7,33,43,0,,Sent,0,,True,True,False,False,,,0,False
+8,Viewed,8,33,43,0,,Read,0,,True,True,False,False,,,0,False
+9,Dispute,9,33,43,0,,Disputed,0,,True,True,False,False,,,0,False
+10,Draft,10,33,43,0,,Draft,0,,True,False,False,False,,,0,False
+11,Research,11,33,43,0,,Research,0,,True,True,False,False,,,0,False
+12,Offset,12,33,43,0,,Offset transaction,0,,True,False,True,False,,,0,False
+21,PendingApproval,21,33,43,0,,Manager Approve,0,,True,True,False,True,,,0,False
+34,PayPlan,34,33,43,0,,Invoice and POD Request,0,,True,True,False,False,,,0,False
+35,Promise,35,33,43,0,,Promise To Pay,0,,True,True,False,False,,,0,False
+36,BrokenPromise,36,33,43,0,,Broken Promise,0,,True,True,False,False,,,0,False
+37,Denied,37,33,43,0,,Denied dipute/deduction,0,,True,True,False,True,,,0,False
+50,Paid,50,33,43,0,,Paid,0,,True,False,False,False,,,0,False
+98,Reversal,98,33,43,0,,An ARDoc that was reversed (either payment or memo write off),0,,True,False,False,False,,,0,False
+99,Void,99,33,43,0,,An ARDoc that should have been paid but is Uncollectable,0,,True,False,False,False,,,0,False
+1000,COR - Pending,1,33,43,0,,Deduction - Initial Status,0,,True,True,False,False,,,0,False
+1001,CHB - Open,1,33,43,0,,Chargeback Open,0,,True,True,False,False,,,0,False

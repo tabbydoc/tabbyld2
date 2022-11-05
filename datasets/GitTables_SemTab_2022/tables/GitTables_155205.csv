@@ -1,0 +1,19 @@
+col0,col1,col2,col3
+rdmRiskyGain,risky gain amount,dollars,double
+rdmRiskyLoss,risky loss amount,dollars,double
+rdmAlternative,guaranteed alternative amount,dollars,double
+rdmISI,interstimulus interval,seconds,integer
+rdmITI,intertrial interval,seconds,integer
+subID,CAP subID,1 to 544,integer
+rdmItiExtra,difference between choice time (2s) and reaction time (RT),seconds,double
+rdmRT,reaction time,seconds,double
+rdmOutcome,outcome amount,dollars,double
+rdmChoice,decision to gamble,gamble = 1; safe = 0,integer
+rdmGroundEV,ground expected value for the trials within a run,"{5,10,15,20,25}",integer
+rdmEvInd,index or level of expected value corresponding to ground EV,"{1,2,3,4,5}",integer
+rdmRunSize,number of trials in a run,"{6,9,12,15}",integer
+rdmOutcomeType,"type outcome (gain, loss, safe)",loss = -1; safe = 0; gain = 1,integer
+day,day of study participation,"{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20}",integer
+phase,phase of study participation,phase 1 = 1; phase 2 =2,integer
+rdmTask ,gain-only or loss task,gain-only = 1; loss = 2,integer
+rdmTrial,trial number,gain-only: 1-119; loss: 1-20,integer

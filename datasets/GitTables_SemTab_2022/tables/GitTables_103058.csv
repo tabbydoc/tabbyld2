@@ -1,0 +1,45 @@
+col0,col1,col2
+D_SS_RIVER_1,"Эй, ты потерял что-нибудь? Ты так внимательно смотришь.","Hey, have you lost anything? You are looking so closely."
+D_SS_RIVER_2,"Да нет, я просто задумался.","No, I was just thinking."
+D_SS_RIVER_3,…,…
+D_SS_RIVER_4,А о чем ты задумался?,What are you thinking about?
+D_SS_RIVER_5,Это будет звучать довольно нелепо.,It will sound pretty ridiculous.
+D_SS_RIVER_6,Расскажи!,Tell me!
+D_SS_RIVER_7,"Знаешь, а ведь про наш университет ходит много историй.","You know, there are many stories about our university."
+D_SS_RIVER_8,"Я найду тебя в чате, ты же есть там?","I'll find you in the chat, are you there?"
+D_SS_RIVER_9,"Да, хорошо.",Yes OK.
+D_SS_RIVER_10,Спокойной ночи тогда.,Good night then.
+THE_NEXT_DAY,Следующий день,The next day
+EVENING,Вечер,Evening
+SECRET_SOCIETY,Тайное Общество,Secret Society
+SS_CHAT_1,"Ладно, давай, до завтра","All right, see you tomorrow"
+SS_CHAT_2,"Стой, ты же ещё помнишь про план?","Wait, do you still remember the plan?"
+SS_CHAT_3,"Да, да.","Yes, Yes."
+D_SS_PLAN_1,"Простите, а вы не могли бы нам помочь найти эту аудиторию?","I'm sorry, can you help us find this audience?"
+D_SS_PLAN_2,"Ладно, давайте я отведу вас.","All right, let me take you."
+D_SS_PLAN_3,"У нас такие лабиринты, можно и заблудиться.","We have such labyrinths, you can get lost."
+D_SS_MESSAGE_1,"ОТ: Лиза, ДАТА: 8.09","FROM: Lisa, DATE: 09.08"
+D_SS_MESSAGE_2,Я открыла дверь и вернула ключи,I opened the door and returned the keys
+D_SS_SECURITY_1,"Спасибо вам, помогли.",Thank you for helping.
+D_SS_SECURITY_2,Да не за что.,You're welcome.
+D_SS_FIRE_1,"Нам сказали, что проводка, возможно, неисправна.",We were told that the wiring might be faulty.
+D_SS_FIRE_2,Пары отменили из-за угрозы пожара.,Lessons were canceled due to the threat of fire.
+D_SS_STORE_1,"Я думаю, это совпадение.",I think this is a coincidence.
+D_SS_STORE_2,"В твоих воспоминаниях ведь свет выключился ещё до того, как ты зашёл туда.","In your memories, the light went out before you even entered it."
+D_SS_STORE_3,А мне все равно не по себе. Как мы вообще могли отправить её туда одну?,I still don't feel good. How could we even send her there alone?
+D_SS_STORE_4,"Страшно. Зря мы ушли, надо было сразу идти в подвал.",I'm scared. We should have gone straight to the basement.
+D_SS_STORE_5,"Ладно, может ещё не поздно? Бежим!","Okay, maybe it's not too late. Run!"
+D_SS_THOUGHTS_1,Дверь была закрыта.,The door was closed.
+D_SS_THOUGHTS_2,На компьютере не удалось найти ничего важного.,Nothing important was found on the computer.
+D_SS_THOUGHTS_3,Всё тщетно.,All in vain.
+D_SS_BUS_STOP_1,"То есть если до ночи не объявится, то начнут поисковую операцию?","So if she doesn't show up before nightfall, they'll start a search operation?"
+D_SS_BUS_STOP_2,"Да, но похоже, в нашу историю не особо поверили.","Yes, but it looks like our story wasn't really believed."
+D_SS_BUS_STOP_3,Они все равно обязаны проверить.,They still have to check.
+D_SS_BUS_STOP_4,Теперь все стало совсем странно.,Now everything has become quite strange.
+D_SS_BUS_STOP_5,И что нам теперь делать? Разве они смогут чем-нибудь помочь?,And what should we do now? Is there anything they can do to help?
+D_SS_BUS_STOP_6,"Надо верить в лучшее, как бы ситуация не обернулась.","We must believe in the best, no matter how the situation turns out."
+D_SS_BUS_STOP_7,"Как думаешь, что будет дальше?",What do you think will happen next?
+D_SS_BUS_STOP_8,"Не думаю, что дальше будет лучше.",I don’t think it’s going to get any better.
+D_SS_BUS_STOP_9,"Вот и жаль. Я, конечно, не совсем оптимист, но и отчаиваться рано.","That's a pity. I'm not exactly an optimist, but it's too early to despair."
+D_SS_BUS_STOP_10,Вряд ли я смогу. Словно в один момент все пропало. И в будущем опять пропадёт.,I don't think I can. It was as if everything was gone in a moment. And in the future it will disappear again.
+D_SS_BUS_STOP_11,"Не отчаивайся. Я всегда буду рядом, если понадобится помощь. ",Do not be discouraged. I will always be there if you need help.

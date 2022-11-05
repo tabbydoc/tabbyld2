@@ -1,0 +1,24 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24
+8,401012246,1,Alabama,SEC,Louisville,ACC,7,0,4010122462,1,11,55,50,2,-13,0,Kickoff,Joseph Bulovas kickoff for 50 yds for a touchback,Alabama,Louisville,True,False,7,0
+6979,401013089,1,Army,FBS Independents,Duke,ACC,14,24,40101308915,3,0,57,50,1,-5,9,Kickoff,"Landon Salyers kickoff for 28 yds , Daniel Helm return for 9 yds to the Duke 31",Duke,Army,False,False,24,14
+8340,401013342,1,Northwestern,Big Ten,Purdue,Big Ten,31,17,40101334217,2,0,37,50,2,-1,0,Kickoff,Charlie Kuhbander kickoff for 50 yds for a touchback,Purdue,Northwestern,False,True,17,31
+20038,401012736,2,Stanford,Pac-12,USC,Pac-12,14,0,40101273610,2,0,34,50,2,-5,0,Kickoff,Jake Bailey kickoff for 50 yds for a touchback,Stanford,USC,False,True,14,0
+27840,401019477,2,TCU,Big 12,SMU,American Athletic,14,9,40101947710,2,8,13,65,4,-21,20,Kickoff,"Cole Bunce kickoff for 58 yds , CJ Sanders return for 20 yds to the SMU 27",SMU,TCU,False,False,9,14
+32291,401012739,3,Texas,Big 12,USC,Pac-12,30,14,40101273917,3,6,0,50,1,-5,0,Kickoff,Cameron Dicker kickoff for 50 yds for a touchback,Texas,USC,False,False,30,14
+42468,401012286,4,Kentucky,SEC,Mississippi State,SEC,14,7,40101228615,3,6,3,50,3,-13,0,Kickoff,Grant McKinniss kickoff for 50 yds for a touchback,Kentucky,Mississippi State,False,True,14,7
+53994,401012296,5,Kentucky,SEC,South Carolina,SEC,10,3,4010122967,2,14,21,50,1,-5,0,Kickoff,Grant McKinniss kickoff for 50 yds for a touchback,Kentucky,South Carolina,False,True,10,3
+54313,401012297,5,LSU,SEC,Ole Miss,SEC,45,16,40101229724,4,2,56,50,1,-5,0,Kickoff,Avery Atkins kickoff for 50 yds for a touchback,LSU,Ole Miss,False,True,45,16
+54955,401012753,5,Arizona,Pac-12,USC,Pac-12,7,24,40101275319,3,7,44,50,3,-11,0,Kickoff,Lucas Havrisik kickoff for 50 yds for a touchback,Arizona,USC,False,True,7,24
+63856,401012300,6,Alabama,SEC,Arkansas,SEC,58,17,40101230021,4,12,0,50,1,-5,0,Kickoff,Joseph Bulovas kickoff for 50 yds for a touchback,Arkansas,Alabama,False,True,17,58
+66540,401012876,6,Michigan,Big Ten,Maryland,Big Ten,17,7,40101287612,2,0,0,50,3,-12,0,Kickoff,Jake Moody kickoff for 50 yds for a touchback,Michigan,Maryland,False,True,17,7
+68196,401013141,6,Miami,ACC,Florida State,ACC,14,27,40101314120,3,4,0,50,4,-6,0,Kickoff,Bubba Baxa kickoff for 50 yds for a touchback,Miami,Florida State,False,True,14,27
+93831,401012320,9,Florida,SEC,Georgia,SEC,17,23,40101232020,4,11,0,50,4,-12,0,Kickoff,Jorge Powell kickoff for 38 yds fair catch by Brian Herrien at the Geo 12,Georgia,Florida,True,True,23,17
+142762,401013186,13,Miami,ACC,Pittsburgh,ACC,17,3,40101318623,3,2,49,50,1,-5,0,Kickoff,Bubba Baxa kickoff for 50 yds for a touchback,Miami,Pittsburgh,False,True,17,3
+147813,401022566,13,Boise State,Mountain West,Utah State,Mountain West,33,24,40102256627,4,0,4,50,4,-14,0,Kickoff,Joel Velazquez kickoff for 50 yds for a touchback,Boise State,Utah State,False,True,33,24
+151520,401013376,15,Army,FBS Independents,Navy,American Athletic,17,7,40101337621,4,1,28,50,2,-6,0,Kickoff,Landon Salyers kickoff for 50 yds for a touchback,Army,Navy,True,False,17,7
+152729,401032061,16,Toledo,Mid-American,Florida International,Conference USA,7,0,4010320612,1,14,37,50,2,-5,13,Kickoff Return (Offense),"Jameson Vest kickoff for 48 yds , Bryce Singleton return for 13 yds to the FlaIn 15",Toledo,Florida International,True,False,7,0
+153798,401032066,16,Hawai'i,Mountain West,Louisiana Tech,Conference USA,14,24,40103206627,4,6,14,50,3,-5,0,Kickoff,Ryan Meskell on-side kick recovered by LOUISIANA TECH at the LaTch 35,Louisiana Tech,Hawai'i,True,False,24,14
+155003,401032074,16,Syracuse,ACC,West Virginia,Big 12,34,18,40103207427,4,9,59,50,1,-5,0,Kickoff,Sterling Hofrichter kickoff for 50 yds for a touchback,Syracuse,West Virginia,True,False,34,18
+155698,401032078,16,Oklahoma,Big 12,Alabama,SEC,34,45,40103207821,4,4,23,50,1,-5,9,Kickoff,"Calum Sutherland on-side kick recovered by ALABAMA at the ALABAMA 41 OKLAHOMA Penalty, Illegal Touching ( Yards) to the Alab 41",Alabama,Oklahoma,True,False,45,34
+156008,401032080,16,Cincinnati,American Athletic,Virginia Tech,ACC,21,17,40103208014,3,9,16,50,2,-5,0,Kickoff,Ryan Jones kickoff for 50 yds for a touchback,Virginia Tech,Cincinnati,True,False,17,21
+157140,401032086,16,Texas,Big 12,Georgia,SEC,20,7,40103208613,3,15,0,50,1,-5,0,Kickoff,Cameron Dicker on-side kick recovered by GEORGIA at the Geo 41,Georgia,Texas,True,False,7,20

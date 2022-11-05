@@ -1,0 +1,51 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18
+1,+,+,être,de,une,aide(grande+Adj),-,-,-,-,+,à,+,+,+,-,-,-
+2,+,+,être,en,-,avance,-,-,-,-,+,sur,+,+,-,+,-,+
+3,+,-,être,en,-,boule,-,-,-,-,+,contre,+,+,-,+,+,-
+4,+,+,être,en,-,butte,-,-,-,-,-,à,-,+,+,+,-,-
+5,+,-,être,à,-,califourchon,-,-,-,-,+,sur,+,+,-,+,+,-
+6,+,-,être,à,-,cheval,-,-,-,-,+,sur,+,+,-,+,+,-
+7,+,-,être,à,-,cheval,-,-,-,-,+,sur,-,+,-,+,-,-
+8,+,+,être,à,-,cheval,-,-,-,-,-,sur,+,+,-,+,-,-
+9,+,-,être,de,tout,coeur,-,-,-,-,-,avec,+,-,-,+,+,-
+10,+,-,être,en,-,comptes,+,-,-,-,+,avec,+,-,-,+,-,-
+11,+,+,être,de,-,conseil(bon+mauvais+excellent),-,-,-,-,+,à+pour,+,-,+,-,-,-
+12,+,-,être,en,-,coquetterie,-,-,-,-,-,avec,+,-,-,+,-,-
+13,+,+,être,en,-,crédit(E+grand),+,-,-,-,+,auprès de,+,-,-,+,-,-
+14,+,+,être,en,-,défaveur,+,-,-,-,+,auprès de,+,-,-,+,-,-
+15,+,+,être,à,-,demeure,-,-,-,-,+,Loc,+,+,+,+,+,+
+16,-,+,être,en,-,dépôt,-,-,-,-,+,Loc,+,+,+,+,+,-
+17,+,-,être,en,-,dette,-,-,-,-,+,avec,+,-,-,+,-,-
+18,+,-,être,dans,des,dispositions(bonnes+mauvaises+Adj),-,-,-,-,+,envers,+,-,-,+,-,-
+19,+,+,être,à,l,étroit,-,-,-,-,+,Loc,-,+,+,+,-,-
+20,+,-,être,en,-,faction,-,-,-,-,+,Loc,+,+,+,+,+,-
+21,+,-,être,en,-,faveur,-,-,-,-,+,auprès de,+,-,-,+,-,-
+22,-,+,être,en,-,gage,-,-,-,-,+,Loc,+,+,+,+,+,-
+23,+,-,être,en,-,garnison,+,+,-,-,+,Loc,-,+,+,+,-,-
+24,+,-,être,à,-,genoux,-,-,-,-,+,devant,+,-,-,+,+,+
+25,-,+,être,en,-,germe,-,-,-,-,+,Loc,-,+,+,-,-,-
+26,+,-,être,en,-,grâce,+,-,-,-,+,auprès de,+,-,-,+,-,-
+27,+,+,être,de,un,grand secours,-,-,-,-,+,à,+,-,+,-,-,-
+28,-,+,être,en,-,hommage,-,-,-,-,-,à,+,+,-,-,-,-
+29,+,-,être,sans,-,illusion(E+aucune),-,-,-,-,+,sur,+,+,-,-,-,-
+30,+,+,être,à,le,large,-,-,-,-,+,Loc,-,+,+,+,-,-
+31,+,+,être,en,-,odeur de sainteté(E+grande),-,-,-,-,+,avec,+,-,-,+,+,-
+32,+,-,être,en,-,otage,-,-,-,-,+,Loc,+,+,+,-,+,+
+33,+,+,être,de,-,passage(E+rapide+occasionnel+Adj),-,-,-,-,+,Loc,-,+,+,-,-,-
+34,+,+,être,en,-,pension(E+demi+complète),-,+,-,-,+,Loc,+,+,+,+,+,+
+35,+,-,être,à,les,petits soins,-,-,-,-,+,avec,+,-,-,-,+,-
+36,+,-,être,à,-,plat ventre,-,-,-,-,+,devant,+,-,-,+,+,+
+37,+,-,être,en,-,prise directe,-,-,-,-,-,avec,+,+,-,+,-,-
+38,+,-,être,chez,-,pro-o,-,-,-,-,+,Loc,+,+,+,-,-,-
+39,+,-,être,en,-,proie,-,-,-,-,-,à,-,+,+,+,-,+
+40,+,+,être,pour,-,quelque chose,-,-,-,-,-,Loc,-,+,+,-,-,-
+41,+,+,être,en,-,règle,-,-,-,-,+,avec,+,+,-,+,-,+
+42,+,-,être,en,-,reste,-,-,-,-,-,avec,+,-,-,+,-,-
+43,+,-,être,en,-,retard,-,-,-,-,+,sur,+,+,-,+,-,+
+44,+,+,être,de,-,retour(E+définitif+Adj),-,-,-,-,+,Loc,-,+,+,-,-,-
+45,+,-,être,en,-,route,-,-,-,-,+,avec,-,+,-,+,-,-
+46,+,-,être,en,-,rupture de ban,-,-,+,-,+,avec,+,+,-,+,-,+
+47,+,+,être,de,aucun,secours,-,-,-,-,+,à,+,-,+,-,-,-
+48,-,+,être,en,-,suspension(E+stable+Adj),-,+,-,-,+,Loc,-,+,+,+,-,-
+49,+,-,être,-,-,tout feu tout flamme,-,-,-,-,+,pour,+,+,-,+,+,-
+50,-,+,être,avec,-,vue,-,-,-,-,-,sur,-,+,-,+,-,-

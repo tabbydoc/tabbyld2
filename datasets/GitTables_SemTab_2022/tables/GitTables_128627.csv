@@ -1,0 +1,44 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+2,STATISTIK AUSTRIA,http://statistik.at/,0.0,0.0,1.0,,0,6.0,6.0,1.0,0.117445399873599,0.882554600126401
+2,STATISTIK AUSTRIA,http://www.statistik.at/web_de/statistiken/index.html,1.0,0.0,0.0,,0,5.0,4.95,1.0,0.2771613752552321,0.7228386247447679
+2,STATISTIK AUSTRIA,http://www.statistik-austria.at/,5.0,0.0,1.0,,0,6.0,5.7,1.0,0.1525826602266273,0.8474173397733726
+3,STATISTIK AUSTRIA,http://statistik.at/,0.0,0.0,1.0,,0,5.0,5.0,1.0,0.2671796197748038,0.7328203802251961
+3,STATISTIK AUSTRIA,http://www.statistik-austria.at/,5.0,0.0,1.0,,0,5.0,4.75,1.0,0.3192952260459576,0.6807047739540424
+4,STATISTIK AUSTRIA,http://statistik.at/,0.0,0.0,1.0,,0,5.0,5.0,1.0,0.2671796197748038,0.7328203802251961
+4,STATISTIK AUSTRIA,http://www.statistik-austria.at/,5.0,0.0,1.0,,0,5.0,4.75,1.0,0.3192952260459576,0.6807047739540424
+5,STATISTIK AUSTRIA,http://statistik.at/,0.0,0.0,1.0,,0,4.0,4.0,1.0,0.4997220488149978,0.5002779511850022
+23,Statistics Belgium,https://statbel.fgov.be/en,0.0,0.0,1.0,,0,5.0,5.0,1.0,0.2671796197748038,0.7328203802251961
+33,Statistics Greenland,https://www.stat.gl/default.asp?lang=en,0.0,0.0,0.0,,0,4.0,4.0,1.0,0.2671796197748038,0.7328203802251961
+36,Hellenic Statistical Authority,https://www.wikiwand.com/en/Hellenic_Statistical_Authority,9.0,0.0,0.0,,0,1.0,0.91,1.0,0.2671796197748038,0.7328203802251961
+39,Statistics Denmark,https://WikiMili.com/en/Statistics_Denmark,4.0,0.0,0.0,,0,2.0,1.92,1.0,0.4997220488149978,0.5002779511850022
+39,Statistics Denmark,https://www.worldometers.info/world-population/denmark-population/,9.0,0.0,0.0,,0,0.0,0.0,1.0,0.0463217486761332,0.9536782513238669
+42,Statistics Estonia,https://www.stat.ee/en,0.0,0.0,1.0,,0,4.0,4.0,1.0,0.4997220488149978,0.5002779511850022
+45,Central Statistics Office,https://cso.gov.tt/,3.0,0.0,1.0,,0,1.0,0.97,1.0,0.2671796197748038,0.7328203802251961
+49,Statistics Iceland,https://www.statista.com/topics/3079/iceland/,3.0,0.0,0.0,,0,0.0,0.0,1.0,0.0463217486761332,0.9536782513238669
+50,Statistics Iceland,https://www.statista.com/topics/3079/iceland/,3.0,0.0,0.0,,0,0.0,0.0,1.0,0.117445399873599,0.882554600126401
+62,Statistical Service,https://statsghana.gov.gh/,0.0,0.0,1.0,,0,2.0,2.0,1.0,0.2671796197748038,0.7328203802251961
+69,Central Statistical Bureau,https://www.csb.gov.kw/Default_EN,2.0,0.0,0.0,,0,1.0,0.98,1.0,0.117445399873599,0.882554600126401
+69,Central Statistical Bureau,https://www.cbs.cw/,6.0,0.0,1.0,,0,1.0,0.94,1.0,0.1238598856418525,0.8761401143581474
+70,Central Statistical Bureau,https://www.csb.gov.kw/Default_EN,2.0,0.0,0.0,,0,1.0,0.98,1.0,0.117445399873599,0.882554600126401
+70,Central Statistical Bureau,https://www.cbs.cw/,6.0,0.0,1.0,,0,1.0,0.94,1.0,0.1238598856418525,0.8761401143581474
+77,Office of Statistics,https://www.ons.gov.uk/,0.0,0.0,1.0,,0,1.0,1.0,1.0,0.2771613752552321,0.7228386247447679
+77,Office of Statistics,https://www.gov.uk/government/organisations/office-for-national-statistics,3.0,0.0,0.0,,0,0.0,0.0,1.0,0.2671796197748038,0.7328203802251961
+78,Office of Statistics,https://www.ons.gov.uk/,0.0,0.0,1.0,,0,1.0,1.0,1.0,0.0463217486761332,0.9536782513238669
+87,National Bureau of Statistics,https://www.nbs.go.tz/,2.0,0.0,1.0,,0,2.0,1.96,1.0,0.1449267276116956,0.8550732723883043
+88,National Bureau of Statistics,https://www.nbs.go.tz/,2.0,0.0,1.0,,0,2.0,1.96,1.0,0.3084435519906121,0.6915564480093879
+92,Monaco Statistics,https://www.hellomonaco.com/category/officially/monaco-s-statistics/,9.0,0.0,0.0,,0,1.0,0.91,1.0,0.2671796197748038,0.7328203802251961
+94,Statistics Netherlands,https://take-profit.org/statistics/countries/netherlands/,7.0,0.0,0.0,,0,0.0,0.0,1.0,0.4997220488149978,0.5002779511850022
+100,Statistics Norway,https://www.lifeinnorway.net/norway-stats/,5.0,0.0,0.0,,0,1.0,0.95,1.0,0.2671796197748038,0.7328203802251961
+101,Statistics Norway,https://www.lifeinnorway.net/norway-stats/,5.0,0.0,0.0,,0,1.0,0.95,1.0,0.117445399873599,0.882554600126401
+102,Statistics Norway,https://www.lifeinnorway.net/norway-stats/,5.0,0.0,0.0,,0,2.0,1.9,1.0,0.4997220488149978,0.5002779511850022
+103,Statistics Norway,https://www.lifeinnorway.net/norway-stats/,5.0,0.0,0.0,,0,1.0,0.95,1.0,0.4997220488149978,0.5002779511850022
+107,Office for National Statistics,https://www.gov.uk/government/organisations/office-for-national-statistics,1.0,0.0,0.0,,0,1.0,0.99,1.0,0.4997220488149978,0.5002779511850022
+117,Statistics Poland,https://stat.gov.pl/en/,0.0,0.0,1.0,,0,4.0,4.0,1.0,0.117445399873599,0.882554600126401
+119,STATISTICS PORTUGAL,https://www.fctables.com/portugal/,6.0,0.0,0.0,,0,0.0,0.0,1.0,0.4997220488149978,0.5002779511850022
+139,State Statistical office,http://www.stat.gov.mk/Default_en.aspx,0.0,0.0,0.0,,0,3.0,3.0,1.0,0.2671796197748038,0.7328203802251961
+143,Statistical Office,https://slovak.statistics.sk/wps/portal/ext/home/!ut/p/z0/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziA809LZycDB0NLPyCXA08QxwD3IO8TAwNTEz1g1Pz9AuyHRUBtph-Sw!!/,5.0,0.0,0.0,,0,4.0,3.8,1.0,0.1525826602266273,0.8474173397733726
+146,Statistical Office,https://slovak.statistics.sk/wps/portal/ext/home/!ut/p/z0/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziA809LZycDB0NLPyCXA08QxwD3IO8TAwNTEz1g1Pz9AuyHRUBtph-Sw!!/,5.0,0.0,0.0,,0,4.0,3.8,1.0,0.1525826602266273,0.8474173397733726
+166,State Statistics Service of Ukraine,https://www.wikiwand.com/en/State_Statistics_Service_of_Ukraine,5.0,0.0,0.0,,0,1.0,0.95,1.0,0.2771613752552321,0.7228386247447679
+174,Statistics Faroe Islands,https://www.indexmundi.com/faroe_islands/,9.0,0.0,0.0,,0,0.0,0.0,1.0,0.1238598856418525,0.8761401143581474
+177,Statistics Finland,https://WikiMili.com/en/Statistics_Finland,7.0,0.0,0.0,,0,2.0,1.86,1.0,0.2771613752552321,0.7228386247447679
+179,Statistics Finland,https://stat.fi/index_en,0.0,0.0,0.0,,0,3.0,3.0,1.0,0.2671796197748038,0.7328203802251961

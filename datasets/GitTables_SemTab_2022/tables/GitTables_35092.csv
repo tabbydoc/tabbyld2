@@ -1,0 +1,13 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25
+cherry_pick_request_id,fields.rawdatatransform,,,0,,True,Cherry pick request ID,Cherry Pick Request ID,True,,,[l;d],,string,link,{ 'hrefTemplate': ',,,,,,,,,
+screen_facility_id,fields.rawdatatransform,,,1,,True,Screen facility ID,Screen Facility ID,True,,,[l;d],,string,link,{ 'hrefTemplate': ',,,,,,,,,
+plate_ranges,fields.rawdatatransform,,,2,,True,Plate ranges,Plate Ranges,True,,,[l;d],[c;u],string,,{ 'rows': 2 },textarea,,,,TRUE,,,,
+output_filename,fields.rawdatatransform,,,3,,True,Output filename (no extension is required),Output Filename,True,,,[l;d],[c;u],string,,,,,,,TRUE,,,,
+output_sheet_option,fields.rawdatatransform,,,4,,True,Output sheet option,Output Format,True,,rawdatainput.outputsheetoption,[l;d],[c;u],string,,,select,,,plate_per_worksheet,TRUE,,,,
+assay_plate_size,fields.rawdatatransform,,,5,,True,Assay plate size,Assay Plate Size,True,,plate.size,[l;d],[c;u],integer,,{ 'orderSeparator': '' },select,,,384,TRUE,,,,
+assay_positive_controls,fields.rawdatatransform,,,6,,True,Assay positive control wells,Assay Positive Controls,True,,,[l;d],[c;u],string,,{ 'rows': 2 },textarea,,,,,,,,
+assay_negative_controls,fields.rawdatatransform,,,7,,True,Assay negative control wells,Assay Negative Controls,True,,,[l;d],[c;u],string,,{ 'rows': 2 },textarea,,,,,,,,
+assay_other_controls,fields.rawdatatransform,,,8,,True,Assay other control wells,Assay Other Controls,True,,,[l;d],[c;u],string,,{ 'rows': 2 },textarea,,,,,,,,
+library_plate_size,fields.rawdatatransform,,,9,,True,Library plate size,Library Plate Size,True,,plate.size,[l;d],[c;u],integer,,{ 'orderSeparator': '' },select,,,384,TRUE,,,,
+library_controls,fields.rawdatatransform,,,10,,True,Library controls,Library Controls,True,,,[l;d],[c;u],string,,{ 'rows': 2 },textarea,,,,,,,,
+comments,fields.rawdatatransform,,,11,,True,Comments,Comments,True,,,[l;d],[c;u],string,,,textarea,,,,,,,,

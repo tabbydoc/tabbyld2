@@ -1,0 +1,55 @@
+col0,col1,col2,col3
+9999,9999,Average height by occupation and gender,"PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX psv: <http://www.wikidata.org/prop/statement/value/>
+PREFIX wikibase: <http://wikiba.se/ontology"
+7,9999,All Countries and their German name,"PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema"
+9998,9999,All Mountains higher than 8000m,"PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX psn: <http://www.wikidata.org/prop/statement/value-normalized/>
+PREFIX wikibase: <http://wikiba.se/ontology"
+9997,9999,"All ""shares border with"" statements for Paris","PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wikibase: <http://wikiba.se/ontology-beta"
+9996,9999,All predicates of Paris and ,
+9995,9999,People and their professions,"PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX schema: <http://schema.org/>
+SELECT ?person_id ?person (COUNT(?profession_id) as ?count) (GROUP_CONCAT(?profession; separator="", "") as ?professions) WHERE {
+  ?person_id wdt:P31 wd:Q5 .
+  ?person_id wdt:P106 ?profession_id .
+  ?profession_id schema:name ?profession .
+  ?person_id schema:name ?person .
+  FILTER langMatches(lang(?person), ""en"") .
+  FILTER langMatches(lang(?profession), ""en"")
+}
+GROUP BY ?person_id ?person
+ORDER BY DESC(?count)"
+9994,9999,Regions and mountains,"PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX schema: <http://schema.org/>
+SELECT ?region ?rname (SAMPLE(?mname) AS ?sample) (COUNT(?mountain) AS ?count) (MIN(?height) AS ?minh) (MAX(?height) AS ?maxh) (AVG(?height) AS ?avg) WHERE {
+  ?mountain wdt:P31 wd:Q8502 .
+  ?mountain wdt:P361 ?region .
+  ?mountain wdt:P2044 ?height .
+  ?mountain schema:name ?mname .
+  ?region schema:name ?rname .
+  FILTER langMatches(lang(?mname), ""en"") .
+  FILTER langMatches(lang(?rname), ""en"")
+}
+GROUP BY ?region ?rname
+ORDER BY ASC(?rname)"
+9993,9999,German cities with German names,"PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX schema: <http://schema.org/>
+SELECT ?name ?population WHERE {
+  ?city wdt:P31 wd:Q515 .
+  ?city wdt:P17 wd:Q183 .
+  ?city wdt:P1082 ?population .
+  ?city schema:name ?name .
+  FILTER langMatches(lang(?name), ""de"")
+}
+ORDER BY DESC(?population)"

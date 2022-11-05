@@ -1,0 +1,33 @@
+col0,col1,col2,col3,col4,col5,col6
+638,GetValue,cmi.core.lesson_status,incomplete,"9/9/2019, 6:04:03 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on launch
+639,SetValue,cmi.core.lesson_status,incomplete,"9/9/2019, 6:04:06 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on launch
+640,SetValue,cmi.suspend_data,viewed=1|lastviewedslide=1|0,,,
+641,SetValue,cmi.core.lesson_status,incomplete,"9/9/2019, 6:04:24 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on launch
+642,SetValue,cmi.suspend_data,"viewed=1,2|lastviewedslide=2|1",,,
+643,SetValue,cmi.core.lesson_status,incomplete,"9/9/2019, 6:04:39 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on launch
+644,SetValue,cmi.suspend_data,"viewed=1,2,3|lastviewedslide=3|2",,,
+645,SetValue,cmi.core.lesson_status,incomplete,"9/9/2019, 6:05:04 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on checkbox button click
+646,SetValue,cmi.suspend_data,"viewed=1,2,3,4|lastviewedslide=4|2",,,
+647,SetValue,cmi.core.lesson_status,incomplete,"9/9/2019, 6:05:12 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on checkbox button click
+648,SetValue,cmi.suspend_data,"viewed=1,2,3,4,5|lastviewedslide=5|4",,,
+649,SetValue,cmi.core.lesson_status,incomplete,"9/9/2019, 6:05:31 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on checkbox button click
+650,SetValue,cmi.suspend_data,"viewed=1,2,3,4,5,6|lastviewedslide=6|5",,,
+651,SetValue,cmi.core.lesson_status,incomplete,"9/9/2019, 6:06:10 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on checkbox button click
+652,SetValue,cmi.suspend_data,"viewed=1,2,3,4,5,6,7|lastviewedslide=7|6",,,
+653,SetValue,cmi.core.lesson_status,incomplete,"9/9/2019, 6:06:47 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on checkbox button click
+654,SetValue,cmi.suspend_data,"viewed=1,2,3,4,5,6,7,8|lastviewedslide=8|7",,,
+655,SetValue,cmi.suspend_data,"viewed=1,2,3,4,5,6,7,8|lastviewedslide=8|8",,,
+656,SetValue,cmi.core.lesson_status,incomplete,"9/9/2019, 6:07:28 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on clicking play button
+657,SetValue,cmi.suspend_data,"viewed=1,2,3,4,5,6,7,8,9|lastviewedslide=9|8",,,
+658,SetValue,cmi.core.lesson_status,passed,"9/9/2019, 6:07:57 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on clicking play button
+659,SetValue,cmi.suspend_data,"viewed=1,2,3,4,5,6,7,8,9,10|lastviewedslide=10|9",,,
+660,SetValue,cmi.suspend_data,"viewed=1,2,3,4,5,6,7,8,9,10|lastviewedslide=10|9",,,
+661,SetValue,cmi.core.session_time,0000:04:37.27,"9/9/2019, 6:08:32 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on clicking exit button
+662,SetValue,cmi.core.session_time,0000:04:41.35,"9/9/2019, 6:08:36 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on clicking exit button
+663,SetValue,cmi.core.exit,suspend,"9/9/2019, 6:08:38 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on clicking exit button
+664,GetValue,cmi.core.lesson_status,passed,"9/9/2019, 6:08:47 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on clicking exit button
+665,GetValue,cmi.core.lesson_status,passed,"9/9/2019, 6:08:49 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on clicking exit button
+666,GetValue,cmi.core.score.raw,,"9/9/2019, 6:08:51 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on clicking exit button
+667,GetValue,cmi.core.score.raw,,"9/9/2019, 6:08:53 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on clicking exit button
+668,GetValue,cmi.core.score.min,,"9/9/2019, 6:08:55 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on clicking exit button
+669,GetValue,cmi.core.score.max,,"9/9/2019, 6:08:57 PM",http://nss-grassblade.com/wordpress/gb_xapi_content/bigbrute,on clicking exit button

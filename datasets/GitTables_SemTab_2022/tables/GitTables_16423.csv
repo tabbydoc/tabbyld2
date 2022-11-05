@@ -1,0 +1,126 @@
+col0,col1,col2,col3
+id,string,UInt64,unique event id
+uid,string,UInt64,rockstat user id
+projectId,number,UInt32,rockstat project id (receives from with event)
+name,string,String,event name
+service,string,String,event dependend service
+channel,,String,received via
+date,,Date,"event date (UTC, server time)"
+dateTime,,DateTime,"event datetime (UTC, server time)"
+timestamp,,UInt64,event timestamp (server time)
+page.url,string,String,page full url
+page.ref,string,String,page referrer
+page.title,string,String,page title
+page.domain,,String,domain/hostname of browsed page
+page.scheme,,String,http/https/etc
+page.query,{[string]:string},,query params
+page.query.utm_source,string,String,marketing marks source
+page.query.utm_campaign,string,String,marketing marks campaign
+page.query.utm_medium,string,String,marketing marks channel
+page.query.utm_content,string,String,marketing marks ad content
+page.query.utm_term,string,String,marketing marks ad show criteria
+page.query.gclid,string,String,marketing marks has google click id
+page.query.yclid,string,String,marketing marks has yandex click id
+page.query.extra.key,,Array(String),extra query params keys
+page.query.extra.value,,Array(String),extra query params values
+sess.type,string,String,session type: campaign/organic/referral/direct/internal/social
+sess.engine,string,String,engine: yandex/google/fb/vk/etc
+sess.num,number,UInt16,user session number
+sess.hasMarks,boolean,UInt8,marks flag
+sess.pageNum,number,UInt16,page number in current session
+sess.eventNum,number,UInt16,event number in current session
+sess.marks,{[string]:string},,session marks
+sess.marks.utm_source,string,String,marketing marks source
+sess.marks.utm_campaign,string,String,marketing marks campaign
+sess.marks.utm_medium,string,String,marketing marks channel
+sess.marks.utm_content,string,String,marketing marks ad content
+sess.marks.utm_term,string,String,marketing marks ad show criteria
+sess.marks.has_gclid,string,Int8 DEFAULT -1,marketing marks has google click id
+sess.marks.has_yclid,string,Int8 DEFAULT -1,marketing marks has yandex click id
+sess.marks.extra.key,,Array(String),extra marks keys
+sess.marks.extra.value,,Array(String),extra marks values
+sess.start,number,UInt64,session start timestamp
+sess.refhost,string,String,referrer hostname (without www)
+lib.id,string,String,library indentificator
+lib.v,string,Float32,library version
+lib.sv,string,Float32,library snippet version
+scroll,{[string]:string},,"Browser visible zone position. On all events, except ""session"", ""page"", ""page_loaded"", ""user_params"", ""identify"""
+scroll.dh,number,UInt16,Document height
+scroll.ch,number,UInt16,Client (browser) height
+scroll.to,number,Int32,"Top offset, pixels"
+scroll.cs,number,UInt16,"Current scroll, persents"
+scroll.ms,number,UInt16,"Max scroll on current page, persents"
+browser.if1,boolean,Int8,iframe detect 
+browser.if2,boolean,Int8,iframe detect 
+browser.w,number,Int16,browser width
+browser.h,number,Int16,browser height
+browser.tw,number,Int16,browser total width
+browser.th,number,Int16,browser total height
+browser.aw,number,Int16,browser available width
+browser.ah,number,Int16,browser available height
+browser.sopr,number,Int16,screen.orientation.devicePixelRatio
+browser.soa,number,Int16,screen.orientation.angle
+browser.sot,string,String,screen.orientation.type
+browser.plt,number,String,navigator.platform
+browser.prd,number,String,navigator.product
+user,{[string]:string},,custom user traits
+user.tz,string,String,timezone name
+user.ts,number,UInt64,timestamp
+user.tzo,number,Int32,timezone offset * 1000
+user.id,string,String,user id assigned by your website
+user.gaId,string,String,google analytics client id
+user.ymId,string,String,yandex metrika client id
+user.extra.key,,Array(String),custom user traits keys
+user.extra.value,,Array(String),custom user traits values
+data,{[string]:string},,extra data fields
+data.extra.key,,Array(String),Extra data fields keys
+data.extra.value,,Array(String),Extra data fields values
+char.ls,boolean,Int16 DEFAULT -1,Browser LocalStorage support
+char.ae,boolean,Int16 DEFAULT -1,Browser document.addEventListener support
+char.pr,boolean,Int16 DEFAULT -1,Browser Promise support
+char.sb,boolean,Int16 DEFAULT -1,Browser sendBeacon support
+char.ab,boolean,Int16 DEFAULT -1,Browser atob support
+char.wp,boolean,Int16 DEFAULT -1,Browser web-push support
+perf,{[string]:string},,"Browser performance timings. Available only on ""page"" and ""page_loaded"" events. More info at https://goo.gl/c9Dbnr"
+perf.cs,number,Int16,"timing.connectStart (reference point, always 0)"
+perf.scs,number,Int16,timing.secureConnectionStart (num / -1)
+perf.dl,number,Int16,timing.domLoading
+perf.dc,number,Int16,timing.domComplete (num / -1)
+perf.di,number,Int16,timing.domInteractive
+perf.rqs,number,Int16,timing.requestStart
+perf.rss,number,Int16,timing.responseStart
+perf.rse,number,Int16,timing.responseEnd
+perf.ce,number,Int16,timing.connectEnd
+sxgeo.country.iso,,String,sypex geo country
+sxgeo.country.ru,,String,sypex geo country
+sxgeo.country.en,,String,sypex geo country
+sxgeo.region.iso,,String,sypex geo region
+sxgeo.region.ru,,String,sypex geo region
+sxgeo.region.en,,String,sypex geo region
+sxgeo.city.ru,,String,sypex geo city
+sxgeo.city.en,,String,sypex geo city
+mmgeo.country.iso,,String,maxmind geo country
+mmgeo.country.ru,,String,maxmind geo country
+mmgeo.country.en,,String,maxmind geo country
+mmgeo.region.iso,,String,maxmind geo region
+mmgeo.region.ru,,String,maxmind geo region
+mmgeo.region.en,,String,maxmind geo region
+mmgeo.city.ru,,String,maxmind geo city
+mmgeo.city.en,,String,maxmind geo city
+uaparser.is_bot,,Int8,uaparser props
+uaparser.is_mob,,Int8,
+uaparser.is_tablet,,Int8,
+uaparser.is_pc,,Int8,
+uaparser.browser.family,,String,
+uaparser.browser.version,,Array(Int16),
+uaparser.os.family,,String,
+uaparser.os.version,,Array(Int16),
+uaparser.device.family,,String,
+uaparser.device.brand,,String,
+uaparser.device.model,,String,
+td.ip,,String,transport data ip
+td.ua,,String,transport data user agent
+td.fpid,,UInt64,simple fingerprint based on IP and UserAgent
+td.ref,,String,referer given from http transport layer
+td.extra.key,,Array(String),extra transport data
+td.extra.value,,Array(String),

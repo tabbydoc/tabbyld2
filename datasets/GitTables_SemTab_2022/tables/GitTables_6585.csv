@@ -1,0 +1,45 @@
+col0,col1,col2,col3,col4
+16,Other instruments,0,BAT,Bathythermometer.
+16,Other instruments,1,BT,Bathythermograph (towed).
+16,Other instruments,2,FLM,Fluorometer.
+16,Other instruments,3,LWR,Long wave radiation.
+16,Other instruments,4,MAX,Maximum thermometer.
+16,Other instruments,5,MIN,Minimum thermometer.
+16,Other instruments,6,NTE,Nitrate sensor.
+16,Other instruments,7,NTT,Nutrient sensor.
+16,Other instruments,8,P,Pilot balloon equipment.
+16,Other instruments,9,CO2,pCO2 system.
+16,Other instruments,10,PLK,Plankton recorder.
+16,Other instruments,11,PRS,Photosynthetic radiation sensor.
+16,Other instruments,12,PYG,Pyrogeometer.
+16,Other instruments,13,R,Radiosonde equipment.
+16,Other instruments,14,RG,Rain gauge.
+16,Other instruments,15,RSD,Radar storm and meteorological phenomena detection.
+16,Other instruments,16,RT,Reversing thermometer.
+16,Other instruments,17,SKY,Sky camera.
+16,Other instruments,18,SLM,Solarimeter.
+16,Other instruments,19,ST,Sea thermograph.
+16,Other instruments,20,SWR,Short wave radiation.
+16,Other instruments,21,TSD,Temperature/salinity/depth probe.
+16,Other instruments,22,TUR,Turbidity sensor.
+16,Other instruments,23,W,Radiowind or radarwind equipment.
+16,Other instruments,24,WR,Wave Recorder
+16,Other instruments,25,XBT,Expendable bathythermograph.
+16,Other instruments,26,OT,Other (specify in footnote).
+17,Station status,1,,Planned
+17,Station status,2,,Pre-operational
+17,Station status,3,,Operational / Reporting
+17,Station status,4,,Partly reporting
+17,Station status,5,,Temporarily suspended
+17,Station status,6,,Closed
+18,Type of meteorological reporting ship,0,70,Auxiliary ship
+18,Type of meteorological reporting ship,1,75,Auxiliary ship (AWS)
+18,Type of meteorological reporting ship,2,10,Selected
+18,Type of meteorological reporting ship,3,15,Selected (AWS)
+18,Type of meteorological reporting ship,4,40,Supplementary 
+18,Type of meteorological reporting ship,5,45,Supplementary (AWS)
+18,Type of meteorological reporting ship,6,80,Third party
+18,Type of meteorological reporting ship,7,85,Third party (AWS)
+18,Type of meteorological reporting ship,8,99,Unknown
+18,Type of meteorological reporting ship,9,30,VOSClim - VOS Climate
+18,Type of meteorological reporting ship,10,35,VOSClim (AWS) - VOS Climate (AWS)

@@ -1,0 +1,168 @@
+col0,col1,col2,col3,col4
+6614821a-67f9-432f-9d8f-ea0c1f788ba8,fr,demo@localhost,"{
+  ""type"" : ""basicinfo"",
+  ""title"" : ""Votre consentement"",
+  ""header"" : ""Pour nous permettre de vous satisfaire pleinement avec nos services, il nous faut récolter un certain nombre d'informations."",
+  ""footer"" : ""Merci pour vos réponses !\\nVous pourrez consulter et modifier vos réponses à tout moment."",
+  ""jurisdiction"" : ""France"",
+  ""jurisdictionVisible"" : false,
+  ""collectionMethod"" : ""Formulaire Web"",
+  ""collectionMethodVisible"" : false,
+  ""dataController"" : {
+    ""company"" : ""Michel SARL"",
+    ""info"" : ""Service technique"",
+    ""address"" : ""2, rue de Lorraine 75002 PARIS"",
+    ""email"" : ""michel@michel.fr"",
+    ""phoneNumber"" : ""0142424242""
+  },
+  ""dataControllerVisible"" : true,
+  ""scope"" : """",
+  ""scopeVisible"" : false,
+  ""shortNoticeLink"" : """",
+  ""shortNoticeLinkVisible"" : false,
+  ""privacyPolicyUrl"" : ""https://www.fairandsmart.com/politique-confidentialite/"",
+  ""customPrivacyPolicyText"" : ""Politique de confidentialité""
+}",com.fairandsmart.consent.manager.model.BasicInfo
+fc83c53c-c3ca-475f-83d9-945cc111034c,fr,demo@localhost,"{
+  ""type"" : ""processing"",
+  ""title"" : ""Marketing direct"",
+  ""data"" : ""Nous souhaiterions utiliser vos données de contact (email, téléphone, adresse postale) suivant votre préférence."",
+  ""retention"" : {
+      ""label"" : ""Nous les conserverons pendant :"",
+      ""value"" : 1,
+      ""unit"" : ""MONTH"",
+      ""fullText"" : ""Nous les conserverons pendant : 1 mois""
+  },
+  ""usage"" : ""Ceci afin de pouvoir vous contacter pour vous proposer de nouveaux services adaptés à vos besoins."",
+  ""purposes"" : [ ""CONSENT_MARKETING"" ],
+  ""containsSensitiveData"" : true,
+  ""containsMedicalData"" : false,
+  ""dataController"" : {
+    ""company"" : ""Michel SARL"",
+    ""info"" : ""Service technique"",
+    ""address"" : ""2, rue de Lorraine, 75002 PARIS"",
+    ""email"" : ""michel@michel.fr"",
+    ""phoneNumber"" : ""0142424242""
+  },
+  ""dataControllerVisible"" : false,
+  ""thirdParties"" : [ ]
+}",com.fairandsmart.consent.manager.model.Processing
+bfadbad3-4a82-4943-8929-5ff595114687,fr,demo@localhost,"{
+  ""type"" : ""processing"",
+  ""title"" : ""Service principal"",
+  ""data"" : ""Nous souhaiterions utiliser vos données personnelles (nom, prénom, date de naissance) suivant votre préférence."",
+  ""retention"" : {
+      ""label"" : ""Pour des raisons techniques, nous les conserverons durant :"",
+      ""value"" : 2,
+      ""unit"" : ""YEAR"",
+      ""fullText"" : ""Pour des raisons techniques, nous les conserverons durant : 2 an(s)""
+  },
+  ""usage"" : ""Ceci afin de pouvoir répondre à vos besoin au travers de notre service."",
+  ""purposes"" : [ ""CONSENT_CORE_SERVICE"" ],
+  ""containsSensitiveData"" : false,
+  ""containsMedicalData"" : false,
+  ""dataController"" : {},
+  ""dataControllerVisible"" : false,
+  ""thirdParties"" : [ ]
+}",com.fairandsmart.consent.manager.model.Processing
+1264bb53-ede7-4db1-a675-0c6bc0514cec,fr,demo@localhost,"{
+  ""type"" : ""preference"",
+  ""label"" : ""Mode d'affichage"",
+  ""description"" : ""Vous pouvez choisir un thème d'affichage lumineux ou sombre suivant votre usage."",
+  ""options"" : [ ""jour"", ""nuit"" ],
+  ""valueType"" : ""TOGGLE"",
+  ""includeDefault"" : true,
+  ""defaultValues"" : [ ""jour"" ],
+  ""optional"" : true
+}",com.fairandsmart.consent.manager.model.Preference
+7da0ca6b-50a5-4128-8f2b-f874ed8d214d,fr,demo@localhost,"{
+  ""type"" : ""preference"",
+  ""label"" : ""Canaux de communication"",
+  ""description"" : ""Vous pouvez choisir vos canaux de communication préférés."",
+  ""options"" : [ ""email"", ""sms"", ""téléphone"", ""courrier postal"", ""porte-à-porte"" ],
+  ""valueType"" : ""CHECKBOXES"",
+  ""includeDefault"" : true,
+  ""defaultValues"" : [ ""email"", ""sms"" ],
+  ""optional"" : true
+}",com.fairandsmart.consent.manager.model.Preference
+6afd6983-6ead-4ed6-8a11-32a1d2acf32a,fr,demo@localhost,"{
+  ""type"" : ""preference"",
+  ""label"" : ""Nom d'utilisateur"",
+  ""description"" : ""Vous pouvez définir le pseudo sous lequel vous souhaitez apparaître sur notre site."",
+  ""options"" : [ ],
+  ""valueType"" : ""FREE_TEXT"",
+  ""includeDefault"" : false,
+  ""defaultValues"" : [ ],
+  ""optional"" : true
+}",com.fairandsmart.consent.manager.model.Preference
+6413e879-ae98-4f2e-b912-f82a02997d2b,fr,demo@localhost,"{
+  ""type"" : ""email"",
+  ""sender"" : ""michelsarl@fairandsmart.tech"",
+  ""subject"" : ""Votre consentement"",
+  ""title"" : ""Merci pour votre confiance"",
+  ""body"" : ""Nous tenions à vous remercier de votre confiance. Selon la préférence que vous avez sélectionnée, nous vous recontacterons prochainement pour vous présenter nos nouveautés."",
+  ""buttonLabel"" : ""Modifier mon consentement"",
+  ""footer"" : ""En espérant vous retrouver bientôt sur notre application !"",
+  ""signature"" : ""Michel SARL""
+}",com.fairandsmart.consent.manager.model.Email
+d19a6ab2-34bd-4bfd-bdb9-822502a9a977,fr,demo@localhost,"{
+  ""type"" : ""processing"",
+  ""title"" : ""Transfert de données énergétiques"",
+  ""data"" : ""Nous souhaiterions transférer vos données de consommation énergétiques à la Ville de XX"",
+  ""retention"": {
+      ""label"" : ""Nous les transférerons pendant :"",
+      ""value"" : 5,
+      ""unit"" : ""WEEK"",
+      ""fullText"" : ""Nous les transférerons pendant : 5 semaine(s)""
+  },
+  ""usage"" : ""Ceci afin de permettre au tiers Ville de XX de vous fournir un service pour lequel vous lui aurez donné votre consentement"",
+  ""purposes"" : [ ""CONSENT_THIRD_PART_SHARING"" ],
+  ""containsSensitiveData"" : false,
+  ""containsMedicalData"" : false,
+  ""dataController"" : {
+    ""company"" : ""Michel SARL"",
+    ""info"" : ""Service technique"",
+    ""address"" : ""2 rue de Lorraine 75012 PARIS"",
+    ""email"" : ""michel@michel.fr"",
+    ""phoneNumber"" : ""0100000000""
+  },
+  ""dataControllerVisible"" : true,
+  ""thirdParties"" : [ {
+    ""name"" : ""Ville de XX"",
+    ""value"" : ""La ville de XX aura accès à vos données énergétiques""
+  } ]
+}",com.fairandsmart.consent.manager.model.Processing
+afda9ec0-f05e-43db-a986-b75c7c449d41,fr,demo@localhost,"{
+  ""type"" : ""processing"",
+  ""title"" : ""Service de réutilisation des données énergétiques"",
+  ""data"" : ""Nous souhaiterions utiliser vos données de consommation énergétiques (journalières et, si possible, horaires)"",
+  ""retention"": {
+      ""label"" : ""Nous les conserverons durant toute la durée du service et pour des raisons techniques, après la fin du service pendant :"",
+      ""value"" : 2,
+      ""unit"" : ""MONTH"",
+      ""fullText"": ""Nous les conserverons durant toute la durée du service et pour des raisons techniques, après la fin du service pendant : 2 mois""
+  },
+  ""usage"" : ""Ceci afin de vous fournir un service de suivi des consommation énergétique multifluide (gaz, eau, électricité), sous réserve que vous nous ayez au préalable autorisés à récupérer ces données auprès des fournisseurs de données"",
+  ""purposes"" : [ ""CONSENT_CORE_SERVICE"" ],
+  ""containsSensitiveData"" : true,
+  ""containsMedicalData"" : false,
+  ""dataController"" : {
+    ""company"" : """",
+    ""info"" : """",
+    ""address"" : """",
+    ""email"" : """",
+    ""phoneNumber"" : """"
+  },
+  ""dataControllerVisible"" : false,
+  ""thirdParties"" : [ ]
+}",com.fairandsmart.consent.manager.model.Processing
+4a1e6c58-56f0-4bad-be7d-67ff4b5891e5,fr,demo@localhost,"{
+  ""type"" : ""preference"",
+  ""label"" : ""Fréquence de contact"",
+  ""description"" : ""Vous pouvez choisir la fréquence à laquelle vous souhaitez être contacté(e)."",
+  ""options"" : [ ""quotidien"", ""hebdomadaire"", ""mensuel"", ""annuel"" ],
+  ""valueType"" : ""RADIO_BUTTONS"",
+  ""includeDefault"" : true,
+  ""defaultValues"" : [ ""mensuel"" ],
+  ""optional"" : true
+}",com.fairandsmart.consent.manager.model.Preference
