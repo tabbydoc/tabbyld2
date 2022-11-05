@@ -27,8 +27,8 @@ if __name__ == '__main__':
                     # Preprocessing table
                     table = pl.pipeline_preprocessing(table, file)
                     # Solve CEA task
-                    table = pl.pipeline_cell_entity_annotation(table, file)
+                    # table = pl.pipeline_cell_entity_annotation(table, file)
                     # Solve CTA task
-                    table = pl.pipeline_column_type_annotation(table, file)
+                    # table = pl.pipeline_column_type_annotation(table, file)
     print("***************************************************")
     print("Full time: " + str(datetime.now() - start_full_time))
