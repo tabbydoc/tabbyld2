@@ -2,10 +2,8 @@ import os
 import json
 import tabbyld2.parser as pr
 import tabbyld2.utility as utl
-import tabbyld2.cleaner as cln
-import tabbyld2.annotator as ant
-import tabbyld2.column_classifier as cc
-import tabbyld2.candidate_generation as cg
+import tabbyld2.preprocessing.cleaner as cln
+import tabbyld2.preprocessing.atomic_column_classifier as cc
 from flask import Flask, jsonify, abort, make_response, request
 from werkzeug.utils import secure_filename
 

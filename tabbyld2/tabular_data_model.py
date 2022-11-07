@@ -1,7 +1,7 @@
 from enum import Enum
 from abc import ABC, abstractmethod
 from typing import Any, Callable, Iterator, Optional, Tuple
-import tabbyld2.cleaner as cln
+import tabbyld2.preprocessing.cleaner as cln
 from tabbyld2.knowledge_graph_model import EntityModel, EntityRankingMethod, ClassModel, ClassRankingMethod
 
 

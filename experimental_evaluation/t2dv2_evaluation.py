@@ -9,7 +9,7 @@ import tabbyld2.pipeline as pl
 from datetime import datetime
 from experimental_evaluation.evaluation_model import TableEvaluation, MainEvaluation, AdditionalEvaluation
 from tabbyld2.config import ResultPath, EvaluationPath
-from tabbyld2.column_classifier import ColumnType
+from tabbyld2.preprocessing.atomic_column_classifier import ColumnType
 from tabbyld2.tabular_data_model import TableModel
 
 

@@ -1,7 +1,7 @@
 from pandas import DataFrame, read_csv
 from abc import ABC, abstractmethod
 
-from tabbyld2.column_classifier import ColumnType
+from tabbyld2.preprocessing.atomic_column_classifier import ColumnType
 from tabbyld2.tabular_data_model import TableModel
 
 
