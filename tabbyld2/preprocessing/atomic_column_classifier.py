@@ -5,7 +5,7 @@ from typing import Any
 from abc import ABC, abstractmethod
 from collections import defaultdict
 from tabbyld2.utility import is_float
-from tabbyld2.tabular_data_model import TableModel
+from tabbyld2.datamodel.tabular_data_model import TableModel
 
 
 class NamedEntityLabel:

@@ -5,8 +5,8 @@ from subject_column_identifier import SubjectColumnIdentifier
 from tabbyld2.annotator import SemanticTableAnnotator
 from tabbyld2.preprocessing.atomic_column_classifier import AtomicColumnClassifier
 from tabbyld2.config import ResultPath
-from tabbyld2.knowledge_graph_model import EntityRankingMethod, ClassRankingMethod
-from tabbyld2.tabular_data_model import TableModel
+from tabbyld2.datamodel.knowledge_graph_model import EntityRankingMethod, ClassRankingMethod
+from tabbyld2.datamodel.tabular_data_model import TableModel
 
 
 def pipeline_preprocessing(table_model: TableModel = None, file: str = None, include_serialization: bool = True) -> Optional[TableModel]:

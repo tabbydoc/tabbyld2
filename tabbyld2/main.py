@@ -5,7 +5,7 @@ import tabbyld2.utility as utl
 import tabbyld2.pipeline as pl
 from datetime import datetime
 from tabbyld2.config import ResultPath
-from tabbyld2.tabular_data_model import TableModel
+from tabbyld2.datamodel.tabular_data_model import TableModel
 
 
 if __name__ == '__main__':
