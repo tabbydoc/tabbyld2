@@ -9,8 +9,8 @@ from pyrdf2vec import RDF2VecTransformer
 from pyrdf2vec.embedders import Word2Vec
 from pyrdf2vec.walkers import RandomWalker
 from gensim.models.word2vec import Word2Vec as W2V
-import tabbyld2.dbpedia_lookup as dbl
-import tabbyld2.dbpedia_sparql_endpoint as dbs
+import tabbyld2.table_annotation.dbpedia_lookup as dbl
+import tabbyld2.table_annotation.dbpedia_sparql_endpoint as dbs
 from tabbyld2.datamodel.tabular_data_model import TableModel
 from tabbyld2.datamodel.knowledge_graph_model import EntityModel, ClassModel
 from tabbyld2.preprocessing.atomic_column_classifier import ColumnType, NamedEntityLabel, LiteralLabel

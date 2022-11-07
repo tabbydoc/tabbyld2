@@ -2,7 +2,7 @@ import tabbyld2.utility as utl
 from typing import Optional
 
 from subject_column_identifier import SubjectColumnIdentifier
-from tabbyld2.annotator import SemanticTableAnnotator
+from tabbyld2.table_annotation.annotator import SemanticTableAnnotator
 from tabbyld2.preprocessing.atomic_column_classifier import AtomicColumnClassifier
 from tabbyld2.config import ResultPath
 from tabbyld2.datamodel.knowledge_graph_model import EntityRankingMethod, ClassRankingMethod
