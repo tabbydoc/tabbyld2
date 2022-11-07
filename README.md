@@ -4,7 +4,7 @@ A web-based application to annotate relational tables and generate knowledge gra
 
 ## Version
 
-0.3
+0.4
 
 ## Preliminaries
 
@@ -96,9 +96,13 @@ def __str__(self):
 * `experimental_evaluation` contains scripts for obtaining an experimental evaluation on tables presented in `datasets` directory;
 * `results` contains processing results of tables (*this directory is created by default*);
 * `source_tables` is the folder in which you need to place CSV files of source tables for processing (*contains two table files for testing by default*);
-* `tabbyld2` contains software TabbyLD2 modules, including `main.py` for a console mode and `app.py` for a web mode, and also:
-    * `colnet` contains ColNet framework for annotating categorical columns (NE-columns);
-    * `w2v_model` contains pre-train word2vec model. **NOTE:** this model is installed and placed independently.
+* `tabbyld2` contains TabbyLD2 modules, including `main.py` for a console mode and `app.py` for a web mode, and also:
+    * `datamodel` contains description of tabular data and knowledge graph models;
+    * `helpers` contains various useful functions for working with files, data, etc.;
+    * `preprocessing` contains table preprocessing module, which includes data cleaning, atomic column classification, subject column identification;
+    * `table_annotation` contains semantic table annotator for CEA and CTA tasks. This module also contains:
+        * `colnet` contains ColNet framework for annotating categorical columns (NE-columns);
+        * `w2v_model` contains pre-train word2vec model. **NOTE:** this model is installed and placed independently.
 
 ## Usage
 
