@@ -4,7 +4,7 @@ import dateparser
 from typing import Any
 from abc import ABC, abstractmethod
 from collections import defaultdict
-from tabbyld2.utility import is_float
+from tabbyld2.helpers.utility import is_float
 from tabbyld2.datamodel.tabular_data_model import TableModel
 
 

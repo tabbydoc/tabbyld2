@@ -6,7 +6,7 @@ from math import sqrt
 
 from atomic_column_classifier import ColumnType
 from tabbyld2.datamodel.tabular_data_model import TableModel
-from tabbyld2.utility import is_int
+from tabbyld2.helpers.utility import is_int
 
 
 class SimplePreposition:
