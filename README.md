@@ -132,3 +132,4 @@ python app.py
 
 * [Nikita O. Dorodnykh](mailto:tualatin32@mail.ru)
 * [Daria A. Denisova](mailto:daryalich@mail.ru)
+* [Vitaliy V. Biryuckov](mailto:stukov.biryuckov2017@yandex.ru)
