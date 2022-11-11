@@ -23,7 +23,7 @@ def pipeline_preprocessing(table_model: TableModel = None, file: str = None, inc
     column_classifier.recognize_named_entities()  # Recognize named entities for table cells
     column_classifier.classify_columns()  # Classify table columns on atomic types
     subject_column_identifier = SubjectColumnIdentifier(column_classifier.table_model)
-    subject_column_identifier.define_subject_column()  # Identify a subject column among categorical columns (named entity columns)
+    subject_column_identifier.identify_subject_column()  # Identify a subject column among categorical columns (named entity columns)
     # Serialize results in json format
     if include_serialization:
         path = ResultPath.PROVENANCE_PATH + remove_suffix_in_filename(file) + "/"

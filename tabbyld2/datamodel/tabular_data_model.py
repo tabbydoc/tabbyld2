@@ -105,6 +105,9 @@ class TableColumnModel(AbstractTableColumnModel):
     def annotation(self):
         return self._annotation
 
+    def set_column_type(self, column_type: str) -> None:
+        self._column_type = column_type
+
     def annotate_column(self):
         if self.candidate_classes is not None:
             max_score = 0

@@ -76,6 +76,14 @@ class AbstractSubjectColumnIdentifier(ABC):
         """
         pass
 
+    @abstractmethod
+    def identify_subject_column(self, column_index: int = None) -> None:
+        """
+        Define a subject (thematic) column among categorical ones based on heuristic estimates.
+        :param column_index: explicit reference to a subject column index
+        """
+        pass
+
 
 class SubjectColumnIdentifier(AbstractSubjectColumnIdentifier):
 
@@ -119,37 +127,31 @@ class SubjectColumnIdentifier(AbstractSubjectColumnIdentifier):
             column_number += 1
         return 0
 
-    def define_subject_column(self, column_index: int = None):
-        """
-        Определение сущностного (тематического) столбца на основе эвристических оценок.
-        :param column_index: явное указание на номер сущностного (тематического) столбца
-        """
+    def identify_subject_column(self, column_index: int = None):
         # If column index is explicitly specified, then this column is assigned to a subject column
-        if is_int(str(column_index)) and 0 <= column_index < self.table_model.columns_number:
-            i = 0
-            for column in self.table_model.columns:
-                if column_index == i:
-                    column._column_type = ColumnType.SUBJECT_COLUMN
-                i += 1
+        if column_index is not None and 0 <= column_index < self.table_model.columns_number:
+            self.table_model.columns[column_index].set_column_type(ColumnType.SUBJECT_COLUMN)
+            print("Subject column = " + self.table_model.columns[column_index].header_name)
         else:
-            column_index, sub_col = 0, {}
+            index, sub_col, final_score, score = 0, None, 0, 0
             for column in self.table_model.columns:
                 if column.column_type == ColumnType.CATEGORICAL_COLUMN:
                     # Calculate heuristics
-                    ucf = self.get_unique_content_cell_fraction(column_index)
-                    awn = self.get_average_word_number(column_index, 10)
-                    ecf = self.get_empty_cell_fraction(column_index)
-                    cfa = self.get_cell_fraction_with_acronyms(column_index)
-                    hpn = self.determine_prepositions_in_column_header_name(column_index)
-                    dfc = self.get_distance_from_first_ne_column(column_index)
+                    ucf = self.get_unique_content_cell_fraction(index)
+                    awn = self.get_average_word_number(index, 10)
+                    ecf = self.get_empty_cell_fraction(index)
+                    cfa = self.get_cell_fraction_with_acronyms(index)
+                    hpn = self.determine_prepositions_in_column_header_name(index)
+                    dfc = self.get_distance_from_first_ne_column(index)
                     # Get penalty score
                     penalty_score = WeightingFactor.ECF * ecf + WeightingFactor.CFA * cfa + WeightingFactor.HPN * hpn
                     # Get total score
-                    sub_col[column.header_name] = ((WeightingFactor.UCF * ucf + WeightingFactor.AWN * awn) - penalty_score) / sqrt(dfc + 1)
-                    print("Total score for '" + str(column.header_name) + "' (candidate subject column) = " +
-                          str(sub_col[column.header_name]))
-                column_index += 1
-            # Define current column with highest score as subject column
-            for column in self.table_model.columns:
-                if column.header_name == max(sub_col.items(), key=operator.itemgetter(1))[0]:
-                    column._column_type = ColumnType.SUBJECT_COLUMN
+                    score = ((WeightingFactor.UCF * ucf + WeightingFactor.AWN * awn) - penalty_score) / sqrt(dfc + 1)
+                    print("Score for '" + str(column.header_name) + "' (candidate subject column) = " + str(score))
+                    if final_score < score:
+                        final_score, sub_col = score, index
+                index += 1
+            if sub_col is not None:
+                self.table_model.columns[sub_col].set_column_type(ColumnType.SUBJECT_COLUMN)
+            else:
+                print("A subject column not defined for current table!")
