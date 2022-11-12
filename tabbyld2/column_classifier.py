@@ -499,7 +499,7 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
                     print("Total score for '" + str(column.header_name) + "' (candidate subject column) = " +
                           str(sub_col[column.header_name]))
                 column_index += 1
-            # Define current column with highest score as subject column
+            # Define current column with the highest score as subject column
             for column in self.table_model.columns:
                 if column.header_name == max(sub_col.items(), key=operator.itemgetter(1))[0]:
                     column._column_type = ColumnType.SUBJECT_COLUMN
@@ -508,7 +508,7 @@ class TableColumnClassifier(AbstractTableColumnClassifier):
 def test_ner(text):
     """
     Test recognition of named entities in a source text.
-    :param text: a source text
+    param text: a source text
     """
     stanza.download("en")
     nlp = stanza.Pipeline(lang="en", processors="tokenize,ner")
