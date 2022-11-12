@@ -15,11 +15,11 @@ def check_letter_and_digit_existence(text: Any) -> bool:
     """
     Check existence of letters and (or) numbers in a source text.
     :param text: a source text
-    :return: flag to indicate letters and numbers absence in a source text
+    :return: flag to indicate letters and numbers existence in a source text
     """
     exist_letter = True if any(map(str.isalpha, text)) else False
     exist_digit = True if any(map(str.isdigit, text)) else False
-    return True if not exist_letter and not exist_digit else False
+    return True if exist_letter or exist_digit else False
 
 
 def remove_garbage_characters(text: Any) -> str:
@@ -28,16 +28,10 @@ def remove_garbage_characters(text: Any) -> str:
     :param text: a source text
     :return: text with garbage characters removed
     """
+    new_text = ""
     if check_letter_and_digit_existence(text):
-        text = ""
-    new_text = text
-    if text:
-        # for symbol in symbols:
-        #     new_text = new_text.replace(symbol, "")
-        word_list = text.split()
-        new_text = ""
-        for word in word_list:
-            if not check_letter_and_digit_existence(word) and word:
+        for word in text.split():
+            if check_letter_and_digit_existence(word) and word:
                 new_text += " " + word if new_text else word
     return new_text
 

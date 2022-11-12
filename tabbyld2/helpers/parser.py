@@ -1,8 +1,7 @@
 import os
 import pandas as pd
-import tabbyld2.utility as ut
 from tabbyld2.config import ResultPath, EvaluationPath
-from tabbyld2.utility import allowed_file
+from tabbyld2.helpers.file import allowed_file, check_directory
 
 
 def convert_csv_to_json(csv_file_path, csv_file_name, json_file_path):
@@ -20,7 +19,7 @@ def convert_csv_to_json(csv_file_path, csv_file_name, json_file_path):
             # Получение данных из csv-файла электронной таблицы
             file_data = pd.DataFrame(pd.read_csv(csv_file_path + csv_file_name, sep=",", header=0, index_col=False))
             # Проверка существования каталога для сохранения результатов
-            ut.check_directory(json_file_path)
+            check_directory(json_file_path)
             # Формирование названия для json-файла
             json_file_name = os.path.splitext(csv_file_name)[0] + ".json"
             # Сохранение json-файла с результатами конвертации электронной таблицы
@@ -50,7 +49,7 @@ def convert_json_to_csv(json_file_path, json_file_name, csv_file_path):
             # Получение данных из json-файла представления электронной таблицы
             file_data = pd.DataFrame(pd.read_json(json_file_path + json_file_name))
             # Проверка существования каталога для сохранения результатов
-            ut.check_directory(csv_file_path)
+            check_directory(csv_file_path)
             # Формирование названия для csv-файла
             csv_file_name = os.path.splitext(json_file_name)[0] + ".csv"
             # Сохранение csv-файла электронной таблицы
@@ -73,7 +72,7 @@ def save_json_dataset(csv_file_path, json_file_path):
     # Обход файлов электронных таблиц в каталоге
     for root, dirs, files in os.walk(csv_file_path):
         for file in files:
-            if ut.allowed_file(file, {"csv"}):
+            if allowed_file(file, {"csv"}):
                 # Конвертация csv-файла электронной таблицы в формат json
                 convert_csv_to_json(csv_file_path, file, json_file_path)
 
@@ -87,7 +86,7 @@ def save_csv_dataset(json_file_path, csv_file_path):
     # Обход json-файлов представлений электронных таблиц в каталоге
     for root, dirs, files in os.walk(json_file_path):
         for file in files:
-            if ut.allowed_file(file, {"json"}):
+            if allowed_file(file, {"json"}):
                 # Конвертация json-файла представления электронной таблицы в формат csv
                 convert_json_to_csv(json_file_path, file, csv_file_path)
 

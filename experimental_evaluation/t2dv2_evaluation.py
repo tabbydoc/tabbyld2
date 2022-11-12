@@ -3,14 +3,14 @@ import json
 import html
 import urllib.parse
 import pandas as pd
-import tabbyld2.parser as pr
-import tabbyld2.utility as utl
 import tabbyld2.pipeline as pl
 from datetime import datetime
 from experimental_evaluation.evaluation_model import TableEvaluation, MainEvaluation, AdditionalEvaluation
+from parser import save_json_dataset
+from tabbyld2.helpers.file import remove_suffix_in_filename, allowed_file, write_json_file
 from tabbyld2.config import ResultPath, EvaluationPath
-from tabbyld2.column_classifier import ColumnType
-from tabbyld2.tabular_data_model import TableModel
+from tabbyld2.preprocessing.atomic_column_classifier import ColumnType
+from tabbyld2.datamodel.tabular_data_model import TableModel
 
 
 class T2Dv2TableEvaluation(TableEvaluation):
@@ -61,7 +61,7 @@ class T2Dv2TableEvaluation(TableEvaluation):
         """
         for instance_root, instance_dirs, instance_files in os.walk(EvaluationPath.T2DV2_INSTANCE):
             for instance_file in instance_files:
-                if utl.remove_suffix_in_filename(instance_file) == self.table.table_name:
+                if remove_suffix_in_filename(instance_file) == self.table.table_name:
                     # Get checked tabular data
                     instance_data = pd.DataFrame(pd.read_csv(EvaluationPath.T2DV2_INSTANCE + instance_file, sep=",",
                                                              header=None, index_col=False, encoding="unicode_escape"))
@@ -162,25 +162,22 @@ def evaluate_t2dv2_dataset():
     start_full_time = datetime.now()
     table_evaluations = []
     # Save positive examples of tables from T2Dv2 dataset in the json format
-    pr.save_json_dataset(ResultPath.CSV_FILE_PATH, ResultPath.JSON_FILE_PATH)
+    save_json_dataset(ResultPath.CSV_FILE_PATH, ResultPath.JSON_FILE_PATH)
     # Cycle through table files
     for root, dirs, files in os.walk(ResultPath.JSON_FILE_PATH):
         for file in files:
-            if utl.allowed_file(file, {"json"}):
+            if allowed_file(file, {"json"}):
                 print("File '" + str(file) + "' processing started!")
                 try:
                     with open(ResultPath.JSON_FILE_PATH + file, "r", encoding="utf-8") as fp:
                         # Deserialize a source table in the json format (create a table model)
-                        table = TableModel.deserialize_source_table(utl.remove_suffix_in_filename(file), json.load(fp))
+                        table = TableModel.deserialize_source_table(remove_suffix_in_filename(file), json.load(fp))
                 except json.decoder.JSONDecodeError:
                     print("Error decoding json table file!")
                 if table is not None:
-                    # Preprocessing table
-                    table = pl.pipeline_preprocessing(table, file)
-                    # Solve CEA task
-                    table = pl.pipeline_cell_entity_annotation(table, file)
-                    # Solve CTA task
-                    table = pl.pipeline_column_type_annotation(table, file)
+                    table = pl.pipeline_preprocessing(table, file)  # Preprocessing
+                    table = pl.pipeline_cell_entity_annotation(table, file)  # Solve CEA task
+                    table = pl.pipeline_column_type_annotation(table, file)  # Solve CTA task
 
                     # Get column classification evaluation
                     t2dv2_table_evaluation = T2Dv2TableEvaluation(table)
@@ -188,11 +185,11 @@ def evaluate_t2dv2_dataset():
                     # Get subject column identification evaluation
                     t2dv2_table_evaluation.evaluate_subject_column_identification()
                     # Save preprocessing evaluation results to json files
-                    path = EvaluationPath.EVALUATION_PATH + utl.remove_suffix_in_filename(file) + "/"
-                    utl.write_json_file(path, EvaluationPath.COLUMNS_CLASSIFICATION_EVALUATION,
-                                        t2dv2_table_evaluation.column_classification_evaluation.serialize_evaluation())
-                    utl.write_json_file(path, EvaluationPath.SUBJECT_COLUMN_IDENTIFICATION_EVALUATION,
-                                        t2dv2_table_evaluation.subject_column_identification_evaluation.serialize_evaluation())
+                    path = EvaluationPath.EVALUATION_PATH + remove_suffix_in_filename(file) + "/"
+                    write_json_file(path, EvaluationPath.COLUMNS_CLASSIFICATION_EVALUATION,
+                                    t2dv2_table_evaluation.column_classification_evaluation.serialize_evaluation())
+                    write_json_file(path, EvaluationPath.SUBJECT_COLUMN_IDENTIFICATION_EVALUATION,
+                                    t2dv2_table_evaluation.subject_column_identification_evaluation.serialize_evaluation())
                     print("***************************************************")
                     print("Column classification evaluation:")
                     print("precision = " + str(t2dv2_table_evaluation.column_classification_evaluation.precision))
@@ -207,8 +204,8 @@ def evaluate_t2dv2_dataset():
                     # Get CEA task evaluation
                     t2dv2_table_evaluation.evaluate_cell_entity_annotation()
                     # Save CEA evaluation results to json files
-                    utl.write_json_file(path, EvaluationPath.CELL_ENTITY_ANNOTATION_EVALUATION,
-                                        t2dv2_table_evaluation.cell_entity_annotation_evaluation.serialize_evaluation())
+                    write_json_file(path, EvaluationPath.CELL_ENTITY_ANNOTATION_EVALUATION,
+                                    t2dv2_table_evaluation.cell_entity_annotation_evaluation.serialize_evaluation())
                     print("***************************************************")
                     print("CEA evaluation:")
                     print("precision = " + str(t2dv2_table_evaluation.cell_entity_annotation_evaluation.precision))
@@ -218,8 +215,8 @@ def evaluate_t2dv2_dataset():
                     # Get CTA task evaluation
                     t2dv2_table_evaluation.evaluate_column_type_annotation()
                     # Save CTA evaluation results to json files
-                    utl.write_json_file(path, EvaluationPath.COLUMN_TYPE_ANNOTATION_EVALUATION,
-                                        t2dv2_table_evaluation.column_type_annotation_evaluation.serialize_evaluation())
+                    write_json_file(path, EvaluationPath.COLUMN_TYPE_ANNOTATION_EVALUATION,
+                                    t2dv2_table_evaluation.column_type_annotation_evaluation.serialize_evaluation())
                     print("***************************************************")
                     print("CTA evaluation:")
                     print("ah score = " + str(t2dv2_table_evaluation.column_type_annotation_evaluation.average_hierarchical_score))
@@ -282,7 +279,7 @@ def evaluate_t2dv2_dataset():
         evaluations["subject column identification"] = {"precision": sci_precision, "recall": sci_recall, "f1_score": sci_f1_score}
         evaluations["cell entity annotation"] = {"precision": cea_precision, "recall": cea_recall, "f1_score": cea_f1_score}
         evaluations["column type annotation"] = {"ah_score": cta_ah_score, "ap_score": cta_ap_score}
-        utl.write_json_file(EvaluationPath.EVALUATION_PATH, EvaluationPath.TOTAL_EVALUATION, evaluations)
+        write_json_file(EvaluationPath.EVALUATION_PATH, EvaluationPath.TOTAL_EVALUATION, evaluations)
         print("***************************************************")
         print("Full time: " + str(datetime.now() - start_full_time))
 

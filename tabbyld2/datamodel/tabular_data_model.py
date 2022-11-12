@@ -1,8 +1,8 @@
 from enum import Enum
 from abc import ABC, abstractmethod
 from typing import Any, Callable, Iterator, Optional, Tuple
-import tabbyld2.cleaner as cln
-from tabbyld2.knowledge_graph_model import EntityModel, EntityRankingMethod, ClassModel, ClassRankingMethod
+import tabbyld2.preprocessing.cleaner as cln
+from tabbyld2.datamodel.knowledge_graph_model import EntityModel, EntityRankingMethod, ClassModel, ClassRankingMethod
 
 
 class ContextDirection(Enum):
@@ -104,6 +104,9 @@ class TableColumnModel(AbstractTableColumnModel):
     @property
     def annotation(self):
         return self._annotation
+
+    def set_column_type(self, column_type: str) -> None:
+        self._column_type = column_type
 
     def annotate_column(self):
         if self.candidate_classes is not None:

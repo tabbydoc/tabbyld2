@@ -1,12 +1,12 @@
 import os
 import json
-import tabbyld2.parser as pr
-import tabbyld2.utility as utl
-import tabbyld2.pipeline as pl
 from datetime import datetime
 from experimental_evaluation.evaluation_model import TableEvaluation
+from tabbyld2.helpers.file import allowed_file, remove_suffix_in_filename, write_json_file
+from tabbyld2.helpers.parser import save_json_dataset
 from tabbyld2.config import ResultPath, EvaluationPath
-from tabbyld2.tabular_data_model import TableModel
+from tabbyld2.datamodel.tabular_data_model import TableModel
+from tabbyld2.pipeline import pipeline_preprocessing
 
 
 def evaluate_tough_tables_dataset():
@@ -16,29 +16,28 @@ def evaluate_tough_tables_dataset():
     start_full_time = datetime.now()
     table_evaluations = []
     # Save source tables from Tough_Tables dataset in the json format
-    pr.save_json_dataset(ResultPath.CSV_FILE_PATH, ResultPath.JSON_FILE_PATH)
+    save_json_dataset(ResultPath.CSV_FILE_PATH, ResultPath.JSON_FILE_PATH)
     # Cycle through table files
     for root, dirs, files in os.walk(ResultPath.JSON_FILE_PATH):
         for file in files:
-            if utl.allowed_file(file, {"json"}):
+            if allowed_file(file, {"json"}):
                 print("File '" + str(file) + "' processing started!")
                 try:
                     with open(ResultPath.JSON_FILE_PATH + file, "r", encoding="utf-8") as fp:
                         # Deserialize a source table in the json format (create a table model)
-                        table = TableModel.deserialize_source_table(utl.remove_suffix_in_filename(file), json.load(fp))
+                        table = TableModel.deserialize_source_table(remove_suffix_in_filename(file), json.load(fp))
                 except json.decoder.JSONDecodeError:
                     print("Error decoding json table file!")
                 if table is not None:
-                    # Preprocessing table
-                    table = pl.pipeline_preprocessing(table, file)
+                    table = pipeline_preprocessing(table, file)  # Preprocessing
                     # Get column classification evaluation
                     tough_tables_evaluation = TableEvaluation(table)
                     tough_tables_evaluation.evaluate_columns_classification(EvaluationPath.TOUGH_TABLES_GT +
                                                                             EvaluationPath.TOUGH_TABLES_CLASS_CHECKED)
                     # Save preprocessing evaluation results to json files
-                    path = EvaluationPath.EVALUATION_PATH + utl.remove_suffix_in_filename(file) + "/"
-                    utl.write_json_file(path, EvaluationPath.COLUMNS_CLASSIFICATION_EVALUATION,
-                                        tough_tables_evaluation.column_classification_evaluation.serialize_evaluation())
+                    path = EvaluationPath.EVALUATION_PATH + remove_suffix_in_filename(file) + "/"
+                    write_json_file(path, EvaluationPath.COLUMNS_CLASSIFICATION_EVALUATION,
+                                    tough_tables_evaluation.column_classification_evaluation.serialize_evaluation())
 
                     table_evaluations.append(tough_tables_evaluation)
 

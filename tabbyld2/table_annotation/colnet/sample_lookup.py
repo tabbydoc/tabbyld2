@@ -17,12 +17,12 @@ parser.add_argument(
 parser.add_argument(
     '--start_index',
     type=int,
-    default=400,
+    default=0,
     help='start index')
 parser.add_argument(
     '--end_index',
     type=int,
-    default=400,
+    default=411,
     help='end index')
 FLAGS, unparsed = parser.parse_known_args()
 if not os.path.exists(FLAGS.io_dir):

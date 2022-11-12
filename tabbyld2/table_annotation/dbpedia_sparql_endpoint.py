@@ -2,7 +2,7 @@ import re
 from typing import List, Dict
 from urllib.error import URLError
 from SPARQLWrapper import SPARQLWrapper, JSON
-import tabbyld2.cleaner as cln
+import tabbyld2.preprocessing.cleaner as cln
 
 
 # DBpedia endpoint name

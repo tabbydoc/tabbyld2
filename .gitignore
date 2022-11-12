@@ -148,7 +148,7 @@ results/
 
 # db
 bd.xls
-w2v_model
 
 cnn/
 predictions/
+/tabbyld2/table_annotation/w2v_model/
