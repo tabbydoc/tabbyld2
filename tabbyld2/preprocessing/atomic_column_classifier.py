@@ -177,9 +177,6 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
         categorical_number, literal_number = defaultdict(int), defaultdict(int)
         for column in self.table_model.columns:
             for cell in column.cells:
-                #отлов пустых значений
-                #необходимо сделать чтобы в категориях значениях подсчета пустых строк не было(177строка)
-                #none это не пустая ячейка
                 categorical_number[column.header_name] += 1 if cell.label in NamedEntityLabel.NAMED_ENTITY_TAGS else 0
                 literal_number[column.header_name] += 1 if cell.label in LiteralLabel.LITERAL_TAGS else 0
 
@@ -207,11 +204,6 @@ def test_ner(text):
     print(*[f"entity: {ent.text}\ttype: {ent.type}" for ent in doc.ents], sep="\n")
 
 
-
-
-slov = defaultdict(int)
-a = "serega"
-slov[a] += 1
 
 
 
