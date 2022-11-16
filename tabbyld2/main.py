@@ -3,9 +3,8 @@ import json
 from datetime import datetime
 import tabbyld2.pipeline as pl
 from tabbyld2.helpers.file import allowed_file, remove_suffix_in_filename
-from tabbyld2.helpers.parser import save_json_dataset
+from tabbyld2.helpers.parser import deserialize_table, save_json_dataset
 from tabbyld2.config import ResultPath
-from tabbyld2.datamodel.tabular_data_model import TableModel
 
 
 if __name__ == '__main__':
@@ -20,7 +19,7 @@ if __name__ == '__main__':
                 try:
                     with open(ResultPath.JSON_FILE_PATH + file, "r", encoding="utf-8") as fp:
                         # Deserialize a source table in the json format (create a table model)
-                        table = TableModel.deserialize_source_table(remove_suffix_in_filename(file), json.load(fp))
+                        table = deserialize_table(remove_suffix_in_filename(file), json.load(fp))
                 except json.decoder.JSONDecodeError:
                     print("Error decoding json table file!")
                 if table is not None:
