@@ -170,13 +170,23 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
                 else:
                     cell._label = LiteralLabel.EMPTY
 
+                    #значения none можно отлавливать и научиться это распознавать
+
     def classify_columns(self) -> None:
         # Counting categorical and literal cells
         categorical_number, literal_number = defaultdict(int), defaultdict(int)
         for column in self.table_model.columns:
             for cell in column.cells:
+                #отлов пустых значений
+                #необходимо сделать чтобы в категориях значениях подсчета пустых строк не было(177строка)
+                #none это не пустая ячейка
                 categorical_number[column.header_name] += 1 if cell.label in NamedEntityLabel.NAMED_ENTITY_TAGS else 0
                 literal_number[column.header_name] += 1 if cell.label in LiteralLabel.LITERAL_TAGS else 0
+
+                if categorical_number[column.header_name] > 0 and literal_number[column.header_name] > 0:
+                    if cell.label is LiteralLabel.EMPTY:
+                        literal_number[column.header_name] -= 1
+
         # Determining column types based on classified cells
         for key_c, value_c in categorical_number.items():
             for key_l, value_l in literal_number.items():
@@ -195,3 +205,18 @@ def test_ner(text):
     nlp = stanza.Pipeline(lang="en", processors="tokenize,ner")
     doc = nlp(text)
     print(*[f"entity: {ent.text}\ttype: {ent.type}" for ent in doc.ents], sep="\n")
+
+
+
+
+slov = defaultdict(int)
+a = "serega"
+slov[a] += 1
+
+
+
+
+
+
+
+
