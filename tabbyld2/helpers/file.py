@@ -2,7 +2,7 @@ import os
 import json
 import shutil
 from pathlib import Path
-from typing import Optional, Dict
+from typing import Any
 
 
 def remove_suffix_in_filename(filename):
@@ -42,7 +42,7 @@ def remove_file(file):
         os.remove(os.path.join(os.path.abspath(file)))
 
 
-def write_json_file(path: str, file: str, dicts: Optional[Dict]):
+def write_json_file(path: str, file: str, dicts: Any):
     """
     Записать файл в формате JSON с сериализованными данными, представленных в виде словаря.
     :param path: полный путь до файла

@@ -1,14 +1,19 @@
+from enum import Enum
 from typing import Any
 from abc import ABC, abstractmethod
 
 
-class EntityRankingMethod:
+class EntityRankingMethod(str, Enum):
     STRING_SIMILARITY = "string similarity"
     NER_BASED_SIMILARITY = "ner based similarity"
     HEADING_BASED_SIMILARITY = "heading based similarity"
     ENTITY_EMBEDDINGS_BASED_SIMILARITY = "entity embeddings based similarity"
     CONTEXT_BASED_SIMILARITY = "context based similarity"
     SCORES_AGGREGATION = "scores aggregation"
+
+    @classmethod
+    def has_value(cls, value):
+        return value in cls._value2member_map_
 
 
 class EntityRankingWeightFactor:
@@ -19,11 +24,15 @@ class EntityRankingWeightFactor:
     CONTEXT_BASED_SIMILARITY = 1
 
 
-class ClassRankingMethod:
+class ClassRankingMethod(str, Enum):
     MAJORITY_VOTING = "majority voting"
     HEADING_SIMILARITY = "heading similarity"
     COLUMN_TYPE_PREDICTION = "column type prediction"
     SCORES_AGGREGATION = "scores aggregation"
+
+    @classmethod
+    def has_value(cls, value):
+        return value in cls._value2member_map_
 
 
 class ClassRankingWeightFactor:
@@ -48,7 +57,7 @@ class EntityModel(AbstractEntityModel, EntityRankingWeightFactor):
                  "_heading_based_similarity", "_entity_embeddings_based_similarity",
                  "_context_based_similarity", "_final_score")
 
-    def __init__(self, uri: Any = None, label: str = None, comment: str = None, string_similarity: float = 0,
+    def __init__(self, uri: str = None, label: str = None, comment: str = None, string_similarity: float = 0,
                  ner_based_similarity: float = 0, heading_based_similarity: float = 0, entity_embeddings_based_similarity: float = 0,
                  context_based_similarity: float = 0, final_score: float = 0):
         self._uri = uri
@@ -98,11 +107,9 @@ class EntityModel(AbstractEntityModel, EntityRankingWeightFactor):
         return self._final_score
 
     def aggregate_scores(self):
-        self._final_score = self.string_similarity * self.STRING_SIMILARITY + \
-                            self.ner_based_similarity * self.NER_BASED_SIMILARITY + \
-                            self.heading_based_similarity * self.HEADING_BASED_SIMILARITY + \
-                            self.entity_embeddings_based_similarity * self.ENTITY_EMBEDDINGS_BASED_SIMILARITY + \
-                            self.context_based_similarity * self.CONTEXT_BASED_SIMILARITY
+        self._final_score = self.string_similarity * self.STRING_SIMILARITY + self.ner_based_similarity * self.NER_BASED_SIMILARITY + \
+                            self.heading_based_similarity * self.HEADING_BASED_SIMILARITY + self.entity_embeddings_based_similarity * \
+                            self.ENTITY_EMBEDDINGS_BASED_SIMILARITY + self.context_based_similarity * self.CONTEXT_BASED_SIMILARITY
 
 
 class AbstractClassModel(ABC):
@@ -159,5 +166,5 @@ class ClassModel(AbstractClassModel, ClassRankingWeightFactor):
         return self._final_score
 
     def aggregate_scores(self):
-        self._final_score = (self.majority_voting_score * self.MAJORITY_VOTING + self.heading_similarity * self.HEADING_SIMILARITY
-                             + self.column_type_prediction_score * self.COLUMN_TYPE_PREDICTION)
+        self._final_score = self.majority_voting_score * self.MAJORITY_VOTING + self.heading_similarity * self.HEADING_SIMILARITY + \
+                            self.column_type_prediction_score * self.COLUMN_TYPE_PREDICTION

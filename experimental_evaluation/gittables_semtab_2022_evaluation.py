@@ -4,9 +4,8 @@ from datetime import datetime
 
 from experimental_evaluation.evaluation_model import TableEvaluation
 from tabbyld2.helpers.file import allowed_file, remove_suffix_in_filename, write_json_file
-from tabbyld2.helpers.parser import save_json_dataset
+from tabbyld2.helpers.parser import deserialize_table, save_json_dataset
 from tabbyld2.config import ResultPath, EvaluationPath
-from tabbyld2.datamodel.tabular_data_model import TableModel
 from tabbyld2.pipeline import pipeline_preprocessing
 
 
@@ -26,7 +25,7 @@ def evaluate_gittables_semtab_2022_dataset():
                 try:
                     with open(ResultPath.JSON_FILE_PATH + file, "r", encoding="utf-8") as fp:
                         # Deserialize a source table in the json format (create a table model)
-                        table = TableModel.deserialize_source_table(remove_suffix_in_filename(file), json.load(fp))
+                        table = deserialize_table(remove_suffix_in_filename(file), json.load(fp))
                 except json.decoder.JSONDecodeError:
                     print("Error decoding json table file!")
                 if table is not None:
