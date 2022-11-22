@@ -19,7 +19,7 @@ def get_candidate_entities(entity_mention: str = "", short_name: bool = False) -
     # Split a textual entity mention into words
     string = ""
     for word in re.split(r"[\\/,.'* ]+", entity_mention.replace("&", "and")):
-        if word and not cln.check_letter_and_digit_existence(word):
+        if word and cln.check_letter_and_digit_existence(word):
             string += " AND '" + word + "'" if string else "'" + word + "'"
 
     print("Searching entities for " + string)

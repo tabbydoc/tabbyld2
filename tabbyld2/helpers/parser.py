@@ -2,6 +2,19 @@ import os
 import pandas as pd
 from tabbyld2.config import ResultPath, EvaluationPath
 from tabbyld2.helpers.file import allowed_file, check_directory
+from tabbyld2.datamodel.tabular_data_model import TableModel, TableColumnModel, ColumnCellModel
+
+
+def deserialize_table(file_name: str = None, source_json_data: dict = None) -> TableModel:
+    """
+    Deserialize a source table in the JSON format and create table model object.
+    :param file_name: table file name
+    :param source_json_data: tabular data in JSON format
+    :return: TableModel object
+    """
+    dicts = {k: [d[k] for d in source_json_data] for k in source_json_data[0]}
+    columns = [TableColumnModel(key, tuple([ColumnCellModel(item) for item in items])) for key, items in dicts.items()]
+    return TableModel(file_name, tuple(columns))
 
 
 def convert_csv_to_json(csv_file_path, csv_file_name, json_file_path):

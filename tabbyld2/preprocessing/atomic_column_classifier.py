@@ -1,4 +1,6 @@
 import re
+from enum import Enum
+
 import stanza
 import dateparser
 from typing import Any
@@ -8,7 +10,7 @@ from tabbyld2.helpers.utility import is_float
 from tabbyld2.datamodel.tabular_data_model import TableModel
 
 
-class NamedEntityLabel:
+class NamedEntityLabel(str, Enum):
     PERSON = "PERSON"  # People, including fictional
     NORP = "NORP"  # Nationalities or religious or political groups
     FACILITY = "FACILITY"  # Buildings, airports, highways, bridges, etc.
@@ -20,11 +22,13 @@ class NamedEntityLabel:
     ART_WORK = "WORK OF ART"  # Titles of books, songs, etc.
     LAW = "LAW"  # Named documents made into laws
     NONE = "NONE"  # NER result is empty
-    # Named entities from OntoNotes package
-    NAMED_ENTITY_TAGS = [PERSON, NORP, FACILITY, ORGANIZATION, GPE, LOCATION, PRODUCT, EVENT, ART_WORK, LAW, NONE]
+
+    @classmethod
+    def has_value(cls, value):
+        return value in cls._value2member_map_
 
 
-class LiteralLabel:
+class LiteralLabel(str, Enum):
     # Literal types from OntoNotes package:
     DATE = "DATE"  # Absolute or relative dates or periods
     TIME = "TIME"  # Times smaller than a day
@@ -51,12 +55,13 @@ class LiteralLabel:
     URL = "URL"  # URL address for site
     EMPTY = "EMPTY"  # Empty value
     SYMBOL = "SYMBOL"  # Some symbol
-    # Literal labels list
-    LITERAL_TAGS = [DATE, TIME, PERCENT, MONEY, QUANTITY, ORDINAL, CARDINAL, POSITIVE_INTEGER, NEGATIVE_INTEGER, FLOAT, BOOLEAN, MAIL,
-                    EMAIL, ISSN, ISBN, IP_ADDRESS_V4, BANK_CARD, COORDINATES, PHONE, COLOR, TEMPERATURE, URL, EMPTY, SYMBOL]
+
+    @classmethod
+    def has_value(cls, value):
+        return value in cls._value2member_map_
 
 
-class ColumnType:
+class ColumnType(str, Enum):
     CATEGORICAL_COLUMN = "CATEGORICAL"  # Categorical column type
     LITERAL_COLUMN = "LITERAL"  # Literal column type
     SUBJECT_COLUMN = "SUBJECT"  # Subject column type
@@ -170,27 +175,21 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
                 else:
                     cell._label = LiteralLabel.EMPTY
 
-                    #значения none можно отлавливать и научиться это распознавать
-
     def classify_columns(self) -> None:
         # Counting categorical and literal cells
-        categorical_number, literal_number = defaultdict(int), defaultdict(int)
+        categorical_number, literal_number, empty_number = defaultdict(int), defaultdict(int), 0
         for column in self.table_model.columns:
             for cell in column.cells:
-                categorical_number[column.header_name] += 1 if cell.label in NamedEntityLabel.NAMED_ENTITY_TAGS else 0
-                literal_number[column.header_name] += 1 if cell.label in LiteralLabel.LITERAL_TAGS else 0
-
-                if categorical_number[column.header_name] > 0 and literal_number[column.header_name] > 0:
-                    if cell.label is LiteralLabel.EMPTY:
-                        literal_number[column.header_name] -= 1
-
-        # Determining column types based on classified cells
-        for key_c, value_c in categorical_number.items():
-            for key_l, value_l in literal_number.items():
-                if key_c == key_l:
-                    for column in self.table_model.columns:
-                        if column.header_name == key_c:
-                            column._column_type = ColumnType.CATEGORICAL_COLUMN if value_c >= value_l else ColumnType.LITERAL_COLUMN
+                categorical_number[column.header_name] += 1 if NamedEntityLabel.has_value(cell.label) else 0
+                literal_number[column.header_name] += 1 if LiteralLabel.has_value(cell.label) else 0
+                empty_number += 1 if cell.label is LiteralLabel.EMPTY else 0
+            if categorical_number[column.header_name] > 0 and literal_number[column.header_name] > 0:
+                literal_number[column.header_name] -= empty_number
+        # Determining atomic type for columns based on classified cells
+        for column in self.table_model.columns:
+            categorical, literal = categorical_number.get(column.header_name), literal_number.get(column.header_name)
+            if categorical is not None and literal is not None:
+                column.set_column_type(ColumnType.CATEGORICAL_COLUMN if categorical >= literal else ColumnType.LITERAL_COLUMN)
 
 
 def test_ner(text):
