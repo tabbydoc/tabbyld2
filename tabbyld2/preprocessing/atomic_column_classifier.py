@@ -30,6 +30,7 @@ class NamedEntityLabel(str, Enum):
 
 class LiteralLabel(str, Enum):
     # Literal types from OntoNotes package:
+    HEXADECIMAL = "HEXADECIMAL"
     DATE = "DATE"  # Absolute or relative dates or periods
     TIME = "TIME"  # Times smaller than a day
     PERCENT = "PERCENT"  # Percentage (including "%")
@@ -55,6 +56,7 @@ class LiteralLabel(str, Enum):
     URL = "URL"  # URL address for site
     EMPTY = "EMPTY"  # Empty value
     SYMBOL = "SYMBOL"  # Some symbol
+    ID = "ID" #Some ID
 
     @classmethod
     def has_value(cls, value):
@@ -120,6 +122,7 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
         :param entity_mention: text mention of an entity (a source text)
         :return: specific label
         """
+
         if entity_mention == "":
             return LiteralLabel.EMPTY
         else:
@@ -135,7 +138,9 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
                 return LiteralLabel.ISSN
             if re.search(r"^(?:ISBN(?:: ?| ))?((?:97[89])?\d{9}[\dx])+$", entity_mention):
                 return LiteralLabel.ISBN
-            if re.search(r"((25[0-5]|2[0-4]\d|[01]?\d\d?)\.){3}(25[0-5]|2[0-4]\d|[01]?\d\d?)", entity_mention):
+            if re.search(r"(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25["
+                         r"0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$",
+                         entity_mention):
                 return LiteralLabel.IP_ADDRESS_V4
             if re.search(r"^([456][0-9]{3})-?([0-9]{4})-?([0-9]{4})-?([0-9]{4})$", entity_mention):
                 return LiteralLabel.BANK_CARD
@@ -150,9 +155,13 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
                 return LiteralLabel.PHONE
             if re.search(r"([+-]?\d+(\.\d+)*)\s?°([CcFf])", entity_mention):
                 return LiteralLabel.TEMPERATURE
+            if re.search(r"((id|ID)[^a-zA-Z])|((([[:punct:]]id)|([[:punct:]]ID))^[^a-zA-Z])",entity_mention):
+                return LiteralLabel.ID
             if re.search(r"((http|https)\:\/\/)?[a-zA-Z0-9\.\/\?\:@\-_=#]+\.([a-zA-Z]){2,"
                          r"6}([a-zA-Z0-9\.\&\/\?\:@\-_=#])*", entity_mention):
                 return LiteralLabel.URL
+            if re.search(r"(0x)?[A-Fa-f0-9]+",entity_mention):
+                return LiteralLabel.HEXADECIMAL
         return NamedEntityLabel.NONE
 
     def recognize_named_entities(self) -> None:
@@ -171,6 +180,8 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
                         recognized_named_entities = self.determine_number(cell.cleared_value, LiteralLabel.CARDINAL)
                     if recognized_named_entities == NamedEntityLabel.NONE:
                         recognized_named_entities = self.determine_entity_mention(cell.cleared_value)
+                    if determine_count_number(cell.cleared_value):
+                        recognized_named_entities = LiteralLabel.SYMBOL
                     cell._label = recognized_named_entities
                 else:
                     cell._label = LiteralLabel.EMPTY
@@ -201,6 +212,29 @@ def test_ner(text):
     nlp = stanza.Pipeline(lang="en", processors="tokenize,ner")
     doc = nlp(text)
     print(*[f"entity: {ent.text}\ttype: {ent.type}" for ent in doc.ents], sep="\n")
+
+
+
+def determine_count_number(text):
+    charText = list(text)
+    countNumber = 0
+
+    for i in charText:
+        if i.isdigit():
+            countNumber += 1
+        else:
+            countNumber += 0
+
+    if countNumber > len(charText) / 2:
+        return True
+    else:
+        return False
+
+
+
+
+
+
 
 
 
