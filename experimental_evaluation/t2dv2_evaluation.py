@@ -1,14 +1,17 @@
-import os
-import json
 import html
+import json
+import os
 import urllib.parse
 import pandas as pd
-import tabbyld2.pipeline as pl
+
 from datetime import datetime
-from experimental_evaluation.evaluation_model import TableEvaluation, MainEvaluation, AdditionalEvaluation
-from tabbyld2.helpers.file import remove_suffix_in_filename, allowed_file, write_json_file
+
+import tabbyld2.pipeline as pl
+from experimental_evaluation.evaluation_model import AdditionalEvaluation, MainEvaluation, TableEvaluation
+
+from tabbyld2.helpers.file import allowed_file, remove_suffix_in_filename, write_json_file
 from tabbyld2.helpers.parser import deserialize_table, save_json_dataset
-from tabbyld2.config import ResultPath, EvaluationPath
+from tabbyld2.config import EvaluationPath, ResultPath
 from tabbyld2.preprocessing.atomic_column_classifier import ColumnType
 
 
@@ -58,7 +61,7 @@ class T2Dv2TableEvaluation(TableEvaluation):
         """
         Evaluate cell entity annotation (CEA) task.
         """
-        for instance_root, instance_dirs, instance_files in os.walk(EvaluationPath.T2DV2_INSTANCE):
+        for _, _, instance_files in os.walk(EvaluationPath.T2DV2_INSTANCE):
             for instance_file in instance_files:
                 if remove_suffix_in_filename(instance_file) == self.table.table_name:
                     # Get checked tabular data

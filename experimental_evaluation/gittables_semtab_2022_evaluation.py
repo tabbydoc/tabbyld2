@@ -1,11 +1,11 @@
-import os
 import json
+import os
 from datetime import datetime
 
 from experimental_evaluation.evaluation_model import TableEvaluation
+from tabbyld2.config import EvaluationPath, ResultPath
 from tabbyld2.helpers.file import allowed_file, remove_suffix_in_filename, write_json_file
 from tabbyld2.helpers.parser import deserialize_table, save_json_dataset
-from tabbyld2.config import ResultPath, EvaluationPath
 from tabbyld2.pipeline import pipeline_preprocessing
 
 
@@ -18,7 +18,7 @@ def evaluate_gittables_semtab_2022_dataset():
     # Save source tables from GitTables_SemTab_2022 dataset in the json format
     save_json_dataset(ResultPath.CSV_FILE_PATH, ResultPath.JSON_FILE_PATH)
     # Cycle through table files
-    for root, dirs, files in os.walk(ResultPath.JSON_FILE_PATH):
+    for _, _, files in os.walk(ResultPath.JSON_FILE_PATH):
         for file in files:
             if allowed_file(file, {"json"}):
                 print("File '" + str(file) + "' processing started!")
@@ -32,8 +32,8 @@ def evaluate_gittables_semtab_2022_dataset():
                     table = pipeline_preprocessing(table, file)  # Preprocessing
                     # Get column classification evaluation
                     gittables_semtab_2022_evaluation = TableEvaluation(table)
-                    gittables_semtab_2022_evaluation.evaluate_columns_classification(EvaluationPath.GIT_TABLES_SEMTAB_2022_GT +
-                                                                                     EvaluationPath.GIT_TABLES_SEMTAB_2022_CLASS_CHECKED)
+                    gittables_semtab_2022_evaluation.evaluate_columns_classification(
+                        EvaluationPath.GIT_TABLES_SEMTAB_2022_GT + EvaluationPath.GIT_TABLES_SEMTAB_2022_CLASS_CHECKED)
                     # Save preprocessing evaluation results to json files
                     path = EvaluationPath.EVALUATION_PATH + remove_suffix_in_filename(file) + "/"
                     write_json_file(path, EvaluationPath.COLUMNS_CLASSIFICATION_EVALUATION,

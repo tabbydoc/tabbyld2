@@ -1,8 +1,8 @@
-from pandas import DataFrame, read_csv
 from abc import ABC, abstractmethod
 
-from tabbyld2.preprocessing.atomic_column_classifier import ColumnType
+from pandas import DataFrame, read_csv
 from tabbyld2.datamodel.tabular_data_model import TableModel
+from tabbyld2.preprocessing.atomic_column_classifier import ColumnType
 
 
 class AbstractEvaluation(ABC):
@@ -127,9 +127,9 @@ class TableEvaluation:
                                     if self.table.columns[k].column_type == ColumnType.SUBJECT_COLUMN or \
                                             self.table.columns[k].column_type == ColumnType.CATEGORICAL_COLUMN:
                                         categorical_column_number += 1
-        correctly_classified_columns = categorical_column_number + literal_column_number
+        cor_cls_columns = categorical_column_number + literal_column_number
         # Calculate evaluations
         self._column_classification_evaluation = MainEvaluation()
-        self._column_classification_evaluation._precision = correctly_classified_columns / classified_columns if classified_columns != 0 else 0
-        self._column_classification_evaluation._recall = correctly_classified_columns / len(self.table.columns) if len(self.table.columns) != 0 else 0
+        self._column_classification_evaluation._precision = cor_cls_columns / classified_columns if classified_columns != 0 else 0
+        self._column_classification_evaluation._recall = cor_cls_columns / len(self.table.columns) if len(self.table.columns) != 0 else 0
         self._column_classification_evaluation.calculate_f1_score()
