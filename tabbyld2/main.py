@@ -24,7 +24,7 @@ if __name__ == '__main__':
                     print("Error decoding json table file!")
                 if table is not None:
                     table = pl.pipeline_preprocessing(table, file)  # Preprocessing
-                    # table = pl.pipeline_cell_entity_annotation(table, file)  # Solve CEA task
-                    # table = pl.pipeline_column_type_annotation(table, file)  # Solve CTA task
+                    table = pl.pipeline_cell_entity_annotation(table, file)  # Solve CEA task
+                    table = pl.pipeline_column_type_annotation(table, file)  # Solve CTA task
     print("***************************************************")
     print("Full time: " + str(datetime.now() - start_full_time))
