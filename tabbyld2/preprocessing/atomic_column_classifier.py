@@ -56,7 +56,7 @@ class LiteralLabel(str, Enum):
     URL = "URL"  # URL address for site
     EMPTY = "EMPTY"  # Empty value
     SYMBOL = "SYMBOL"  # Some symbol
-    ID = "ID" #Some ID
+    ID = "ID"  # Some ID
 
     @classmethod
     def has_value(cls, value):
@@ -73,7 +73,7 @@ class AbstractAtomicColumnClassifier(ABC):
     __slots__ = ()
 
     @abstractmethod
-    def recognize_named_entities(self) -> None:
+    def _recognize_named_entities(self) -> None:
         """
         Recognize named entities in table cells.
         """
@@ -97,7 +97,7 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
         return self._table_model
 
     @staticmethod
-    def determine_number(value: Any, label: str) -> str:
+    def _determine_number(value: Any, label: str) -> str:
         """
         Determine number type based on input textual value.
         :param value: input textual value
@@ -116,7 +116,7 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
         return label
 
     @staticmethod
-    def determine_entity_mention(entity_mention: str) -> str:
+    def _determine_entity_mention(entity_mention: str) -> str:
         """
         Correct entity mention (string) with the assignment of a specific label.
         :param entity_mention: text mention of an entity (a source text)
@@ -155,16 +155,22 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
                 return LiteralLabel.PHONE
             if re.search(r"([+-]?\d+(\.\d+)*)\s?°([CcFf])", entity_mention):
                 return LiteralLabel.TEMPERATURE
-            if re.search(r"((id|ID)[^a-zA-Z])|((([[:punct:]]id)|([[:punct:]]ID))^[^a-zA-Z])",entity_mention):
+            if re.search(r"((id|ID)[^a-zA-Z])|((([[:punct:]]id)|([[:punct:]]ID))^[^a-zA-Z])", entity_mention):
                 return LiteralLabel.ID
             if re.search(r"((http|https)\:\/\/)?[a-zA-Z0-9\.\/\?\:@\-_=#]+\.([a-zA-Z]){2,"
                          r"6}([a-zA-Z0-9\.\&\/\?\:@\-_=#])*", entity_mention):
                 return LiteralLabel.URL
-            if re.search(r"(0x)?[A-Fa-f0-9]+",entity_mention):
+            if re.search(r"^(0x)?[a-fA-F0-9]+$", entity_mention):
                 return LiteralLabel.HEXADECIMAL
         return NamedEntityLabel.NONE
 
-    def recognize_named_entities(self) -> None:
+    @staticmethod
+    def _determine_count_number(text):
+        char_text, count_number = list(text), 0
+        count_number = sum(True for i in char_text if i.isdigit())  # Counting the number of numbers
+        return True if count_number > len(char_text) / 2 else False  # If the numbers are more than half return true
+
+    def _recognize_named_entities(self) -> None:
         stanza.download("en")
         nlp = stanza.Pipeline(lang="en", processors="tokenize,ner")  # Neural pipeline preparation
         for column in self.table_model.columns:
@@ -175,18 +181,20 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
                     if len(doc.ents) == 1:
                         recognized_named_entities = doc.ents[0].type
                     if recognized_named_entities is None:
-                        recognized_named_entities = self.determine_number(cell.cleared_value, NamedEntityLabel.NONE)
+                        recognized_named_entities = self._determine_number(cell.cleared_value, NamedEntityLabel.NONE)
                     if recognized_named_entities == LiteralLabel.CARDINAL:
-                        recognized_named_entities = self.determine_number(cell.cleared_value, LiteralLabel.CARDINAL)
+                        recognized_named_entities = self._determine_number(cell.cleared_value, LiteralLabel.CARDINAL)
                     if recognized_named_entities == NamedEntityLabel.NONE:
-                        recognized_named_entities = self.determine_entity_mention(cell.cleared_value)
-                    if determine_count_number(cell.cleared_value):
+                        recognized_named_entities = self._determine_entity_mention(cell.cleared_value)
+                    if self._determine_count_number(cell.cleared_value):
                         recognized_named_entities = LiteralLabel.SYMBOL
                     cell._label = recognized_named_entities
                 else:
                     cell._label = LiteralLabel.EMPTY
 
     def classify_columns(self) -> None:
+        # Recognize named entities for table cells
+        self._recognize_named_entities()
         # Counting categorical and literal cells
         categorical_number, literal_number, empty_number = defaultdict(int), defaultdict(int), 0
         for column in self.table_model.columns:
@@ -200,7 +208,8 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
         for column in self.table_model.columns:
             categorical, literal = categorical_number.get(column.header_name), literal_number.get(column.header_name)
             if categorical is not None and literal is not None:
-                column.set_column_type(ColumnType.CATEGORICAL_COLUMN if categorical >= literal else ColumnType.LITERAL_COLUMN)
+                column.set_column_type(
+                    ColumnType.CATEGORICAL_COLUMN if categorical >= literal else ColumnType.LITERAL_COLUMN)
 
 
 def test_ner(text):
@@ -212,36 +221,3 @@ def test_ner(text):
     nlp = stanza.Pipeline(lang="en", processors="tokenize,ner")
     doc = nlp(text)
     print(*[f"entity: {ent.text}\ttype: {ent.type}" for ent in doc.ents], sep="\n")
-
-
-
-def determine_count_number(text):
-    charText = list(text)
-    countNumber = 0
-
-    for i in charText:
-        if i.isdigit():
-            countNumber += 1
-        else:
-            countNumber += 0
-
-    if countNumber > len(charText) / 2:
-        return True
-    else:
-        return False
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
