@@ -1,194 +1,25 @@
 import os
-from abc import ABC, abstractmethod
 from collections import Counter
 from typing import Tuple
 
+import tabbyld2.table_annotation.dbpedia_lookup as dbl
 from Levenshtein._levenshtein import distance
-from pyrdf2vec.graphs import KG
+from concept_mapping import CLASS_MAPPING, DATATYPE_MAPPING, XMLSchemaDataType
+from gensim.models.word2vec import Word2Vec
 from pyrdf2vec import RDF2VecTransformer
 from pyrdf2vec.embedders import Word2Vec
+from pyrdf2vec.graphs import KG
 from pyrdf2vec.walkers import RandomWalker
-from gensim.models.word2vec import Word2Vec as W2V
-import tabbyld2.table_annotation.dbpedia_lookup as dbl
-import tabbyld2.table_annotation.dbpedia_sparql_endpoint as dbs
+from tabbyld2.datamodel.knowledge_graph_model import ClassModel, EntityModel
 from tabbyld2.datamodel.tabular_data_model import TableModel
-from tabbyld2.datamodel.knowledge_graph_model import EntityModel, ClassModel
-from tabbyld2.preprocessing.atomic_column_classifier import ColumnType, NamedEntityLabel, LiteralLabel
-
-
-class OntologyClass:
-    PARK = "dbo:Park"
-    MINE = "dbo:Mine"
-    GARDEN = "dbo:Garden"
-    CEMETERY = "dbo:Cemetery"
-    WINE_REGION = "dbo:WineRegion"
-    NATURAL_PLACE = "dbo:NaturalPlace"
-    PROTECTED_AREA = "dbo:ProtectedArea"
-    WORLD_HERITAGE_SITE = "dbo:WorldHeritageSite"
-    SITE_OF_SPECIAL_SCIENTIFIC_INTEREST = "dbo:SiteOfSpecialScientificInterest"
-    POPULATED_PLACE = "dbo:PopulatedPlace"
-    ETHNIC_GROUP = "dbo:EthnicGroup"
-    PERSON = "dbo:Person"
-    DEVICE = "dbo:Device"
-    FOOD = "dbo:Food"
-    MEAN_OF_TRANSPORTATION = "dbo:MeanOfTransportation"
-    ARCHITECTURAL_STRUCTURE = "dbo:ArchitecturalStructure"
-    ORGANISATION = "dbo:Organisation"
-    EVENT = "dbo:Event"
-    WORK = "dbo:Work"
-    LAW = "dbo:Law"
-    LEGAL_CASE = "dbo:LegalCase"
-
-
-CLASS_MAPPING = {
-    NamedEntityLabel.LOCATION: [OntologyClass.PARK, OntologyClass.MINE, OntologyClass.GARDEN, OntologyClass.WINE_REGION,
-                                OntologyClass.NATURAL_PLACE, OntologyClass.PROTECTED_AREA, OntologyClass.WORLD_HERITAGE_SITE,
-                                OntologyClass.SITE_OF_SPECIAL_SCIENTIFIC_INTEREST],
-    NamedEntityLabel.GPE: OntologyClass.POPULATED_PLACE,
-    NamedEntityLabel.NORP: OntologyClass.ETHNIC_GROUP,
-    NamedEntityLabel.PERSON: OntologyClass.PERSON,
-    NamedEntityLabel.PRODUCT: [OntologyClass.DEVICE, OntologyClass.FOOD, OntologyClass.MEAN_OF_TRANSPORTATION],
-    NamedEntityLabel.FACILITY: OntologyClass.ARCHITECTURAL_STRUCTURE,
-    NamedEntityLabel.ORGANIZATION: OntologyClass.ORGANISATION,
-    NamedEntityLabel.EVENT: OntologyClass.EVENT,
-    NamedEntityLabel.ART_WORK: OntologyClass.WORK,
-    NamedEntityLabel.LAW: [OntologyClass.LAW, OntologyClass.LEGAL_CASE]
-}
-
-
-class XMLSchemaDataType:
-    DATE = "xsd:date"
-    TIME = "xsd:time"
-    NON_NEGATIVE_INTEGER = "xsd:nonNegativeInteger"
-    POSITIVE_INTEGER = "xsd:positiveInteger"
-    NEGATIVE_INTEGER = "xsd:negativeInteger"
-    DECIMAL = "xsd:decimal"
-    FLOAT = "xsd:float"
-    BOOLEAN = "xsd:boolean"
-    STRING = "xsd:string"
-    URL = "xsd:anyURI"
-
-
-DATATYPE_MAPPING = {
-    LiteralLabel.DATE: XMLSchemaDataType.DATE,
-    LiteralLabel.TIME: XMLSchemaDataType.TIME,
-    LiteralLabel.PERCENT: XMLSchemaDataType.NON_NEGATIVE_INTEGER,
-    LiteralLabel.MONEY: XMLSchemaDataType.NON_NEGATIVE_INTEGER,
-    LiteralLabel.QUANTITY: XMLSchemaDataType.NON_NEGATIVE_INTEGER,
-    LiteralLabel.POSITIVE_INTEGER: XMLSchemaDataType.NON_NEGATIVE_INTEGER,
-    LiteralLabel.ORDINAL: XMLSchemaDataType.POSITIVE_INTEGER,
-    LiteralLabel.CARDINAL: XMLSchemaDataType.DECIMAL,
-    LiteralLabel.MAIL: XMLSchemaDataType.DECIMAL,
-    LiteralLabel.BANK_CARD: XMLSchemaDataType.DECIMAL,
-    LiteralLabel.PHONE: XMLSchemaDataType.DECIMAL,
-    LiteralLabel.NEGATIVE_INTEGER: XMLSchemaDataType.NEGATIVE_INTEGER,
-    LiteralLabel.FLOAT: XMLSchemaDataType.FLOAT,
-    LiteralLabel.BOOLEAN: XMLSchemaDataType.BOOLEAN,
-    LiteralLabel.URL: XMLSchemaDataType.URL
-}
-
-
-class AbstractSemanticTableAnnotator(ABC):
-    __slots__ = ()
-
-    @abstractmethod
-    def find_candidate_entities(self, only_subject_column: bool = False) -> None:
-        """
-        Find a set of candidate entities based on a textual entity mention.
-        :param only_subject_column: flag to include or exclude all columns from result
-        """
-        pass
-
-    @abstractmethod
-    def rank_candidate_entities_by_string_similarity(self) -> None:
-        """
-        Rank a set of candidate entities for cell values of categorical columns including a subject column
-        by using a string similarity.
-        :return:
-        """
-        pass
-
-    @abstractmethod
-    def rank_candidate_entities_by_ner_based_similarity(self) -> None:
-        """
-        Rank a set of candidate entities for cell values of categorical columns including a subject column
-        by using a NER based similarity.
-        """
-
-    @abstractmethod
-    def rank_candidate_entities_by_heading_based_similarity(self) -> None:
-        """
-        Rank a set of candidate entities for cell values of categorical columns including a subject column
-        by using a heading based similarity.
-        """
-
-    @abstractmethod
-    def rank_candidate_entities_by_entity_embeddings_based_similarity(self) -> None:
-        """
-        Rank a set of candidate entities for cell values of categorical columns including a subject column
-        by using an entity embeddings based similarity.
-        """
-
-    @abstractmethod
-    def rank_candidate_entities_by_context_based_similarity(self) -> None:
-        """
-        Rank a set of candidate entities for cell values of categorical columns including a subject column
-        by using a context based similarity.
-        """
-
-    @abstractmethod
-    def aggregate_ranked_candidate_entities(self) -> None:
-        """
-        Aggregate scores for candidate entities based on five heuristics.
-        """
-        pass
-
-    @abstractmethod
-    def annotate_cells(self) -> None:
-        """
-        Annotate all cell values.
-        """
-        pass
-
-    @abstractmethod
-    def rank_candidate_classes_by_majority_voting(self) -> None:
-        """
-        Rank candidate classes for categorical columns including a subject column by using a majority voting.
-        """
-        pass
-
-    @abstractmethod
-    def rank_candidate_classes_by_heading_similarity(self) -> None:
-        """
-        Rank candidate classes for categorical columns including a subject column by using a heading similarity.
-        """
-
-    @abstractmethod
-    def rank_candidate_classes_by_column_type_prediction(self) -> None:
-        """
-        Rank candidate classes for categorical columns including a subject column by using a column type prediction.
-        """
-
-    @abstractmethod
-    def aggregate_ranked_candidate_classes(self) -> None:
-        """
-        Aggregate scores for candidate classes based on three methods.
-        """
-
-    @abstractmethod
-    def annotate_categorical_columns(self) -> None:
-        """
-        Annotate all categorical columns including a subject column.
-        """
-
-    @abstractmethod
-    def annotate_literal_columns(self) -> None:
-        """
-        Annotate all literal columns based on recognized named entities (NER) in cells.
-        """
+from tabbyld2.preprocessing.atomic_column_classifier import ColumnType
+from tabbyld2.table_annotation.abstract import AbstractSemanticTableAnnotator
+from tabbyld2.table_annotation.dbpedia_sparql_endpoint import DBPediaConfig, get_candidate_classes, get_candidate_entities, \
+    get_classes_for_entity, get_distance_to_class
 
 
 class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
+
     def __init__(self, table_model: TableModel = None):
         self._table_model = table_model
 
@@ -196,14 +27,14 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
     def table_model(self):
         return self._table_model
 
-    def find_candidate_entities(self, only_subject_column: bool = False) -> None:
+    def find_candidate_entities(self, only_subject_column: bool = False):
         for column in self.table_model.columns:
             if (column.column_type == ColumnType.CATEGORICAL_COLUMN and not only_subject_column) or \
                     column.column_type == ColumnType.SUBJECT_COLUMN:
                 for cell in column.cells:
                     if cell.cleared_value is not None and cell.candidate_entities is None:
                         # Get a set of candidate entities using the DBpedia SPARQL Endpoint
-                        candidate_entities_from_dbs = dbs.get_candidate_entities(cell.cleared_value, False)
+                        candidate_entities_from_dbs = get_candidate_entities(cell.cleared_value, False)
                         # Form dict of candidate entity models
                         if candidate_entities_from_dbs:
                             cell._candidate_entities = [EntityModel(item[0], item[1], item[2]) for item in candidate_entities_from_dbs]
@@ -229,12 +60,12 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                     print("The candidate entity lookup for '" + str(cell.cleared_value) + "' cell is complete.")
 
     @staticmethod
-    def get_levenshtein_distance(text_mention: str = None, candidate: str = None, candidates: Tuple = None,
+    def get_levenshtein_distance(text_mention: str, candidate: str, candidates: Tuple[EntityModel, ...],
                                  underscore_replacement: bool = True, short_name: bool = True) -> float:
         """
-        Calculate the Levenshtein distance (edit distance) between two strings.
+        Calculate the Levenshtein distance (edit distance) between two strings
         :param text_mention: a textual mention of entity or class
-        :param candidate: an candidate concept (entity or class)
+        :param candidate: a candidate concept (entity or class)
         :param candidates: a set of candidate concepts (entities or classes)
         :param underscore_replacement: flag to enable or disable replace mode of underscore character with a space
         :param short_name: flag to enable or disable short concept name display mode (without full URI)
@@ -243,42 +74,40 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
         if underscore_replacement:
             candidate = candidate.replace("_", " ")
         if short_name:
-            candidate = candidate.replace("http://dbpedia.org/resource/", "").replace("http://dbpedia.org/ontology/", "")
-        # Calculate Levenshtein distance
-        levenshtein_distance = distance(text_mention, candidate)
+            candidate = candidate.replace(DBPediaConfig.BASE_RESOURCE_URI, "").replace(DBPediaConfig.BASE_ONTOLOGY_URI, "")
+        levenshtein_distance = distance(text_mention, candidate)  # Calculate Levenshtein distance
         # Normalize Levenshtein distance
         max_range = len(text_mention)
         for c in candidates:
-            cnd = c.uri.replace("http://dbpedia.org/resource/", "").replace("http://dbpedia.org/ontology/", "") if short_name else c.uri
+            cnd = c.uri.replace(DBPediaConfig.BASE_RESOURCE_URI, "").replace(DBPediaConfig.BASE_ONTOLOGY_URI, "") if short_name else c.uri
             if len(cnd) > max_range:
                 max_range = len(cnd)
-        normalized_levenshtein_distance = 1 - ((levenshtein_distance - 0) / (max_range - 0))
+        return 1 - ((levenshtein_distance - 0) / (max_range - 0))
 
-        return normalized_levenshtein_distance
-
-    def rank_candidate_entities_by_string_similarity(self) -> None:
+    def rank_candidate_entities_by_string_similarity(self):
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.candidate_entities is not None:
                     for candidate_entity in cell.candidate_entities:
-                        candidate_entity._string_similarity = self.get_levenshtein_distance(cell.cleared_value, candidate_entity.uri,
-                                                                                            cell.candidate_entities)
+                        candidate_entity._string_similarity = self.get_levenshtein_distance(
+                            cell.cleared_value,
+                            candidate_entity.uri,
+                            cell.candidate_entities
+                        )
         print("Ranking of candidate entities by string similarity is complete.")
 
-    def rank_candidate_entities_by_ner_based_similarity(self) -> None:
+    def rank_candidate_entities_by_ner_based_similarity(self):
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.candidate_entities is not None:
                     for candidate_entity in cell.candidate_entities:
-                        # Mapping between NER and ontology classes
-                        target_classes = CLASS_MAPPING.get(cell.label)
                         # Define distance to a target class for a candidate entity
-                        distance_to_class = dbs.get_distance_to_class(candidate_entity.uri, target_classes)
+                        distance_to_class = get_distance_to_class(candidate_entity.uri, CLASS_MAPPING.get(cell.label))
                         # Define a score based on distance to a target class
                         candidate_entity._ner_based_similarity = 1 if int(distance_to_class) > 0 else 0
         print("Ranking of candidate entities by NER based similarity is complete.")
 
-    def rank_candidate_entities_by_heading_based_similarity(self) -> None:
+    def rank_candidate_entities_by_heading_based_similarity(self):
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.candidate_entities is not None:
@@ -286,12 +115,8 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         candidate_entity._heading_based_similarity = 0
         print("Ranking of candidate entities by heading based similarity is complete.")
 
-    def rank_candidate_entities_by_entity_embeddings_based_similarity(self) -> None:
-        list_new = []
-        dictionary_new = {}
-        list_words = []
-        list_new1 = []
-        list_total=[]
+    def rank_candidate_entities_by_entity_embeddings_based_similarity(self):
+        list_new, dictionary_new, list_words, list_new1, list_total = [], {}, [], [], []
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.candidate_entities is not None:
@@ -302,10 +127,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                     list_total.append(list_new1)
                     list_new1 = []
         list_new1 = list(set(list_new))
-        transformer = RDF2VecTransformer(
-            Word2Vec(epochs=10),
-            walkers=[RandomWalker(4, 6, with_reverse=False, n_jobs=4)],
-            verbose=1)
+        transformer = RDF2VecTransformer(Word2Vec(epochs=10), walkers=[RandomWalker(4, 6, with_reverse=False, n_jobs=4)], verbose=1)
         kg = KG(
             "https://dbpedia.org/sparql",
             skip_predicates={"www.w3.org/1999/02/22-rdf-syntax-ns#type"},
@@ -355,15 +177,12 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
             print("Walks were begun", i + 1)
             walkers1 = transformer.get_walks(kg, [list_new1[i]])
             print("Walks were completed")
-            if walkers1:
-                walkers.append(walkers1[0][0])
-            else:
-                walkers.append(list_new1[i])
+            walkers.append(walkers1[0][0]) if walkers1 else walkers.append(list_new1[i])
         print("Fit was begun")
-        # # transformer.transform(kg, list_new)
+        # transformer.transform(kg, list_new)
         print("Transform was completed")
         transformer.embedder._model.save("rdf2vec.model")
-        modeller = W2V.load("rdf2vec.model")
+        modeller = Word2Vec.load("rdf2vec.model")
         for entity in list_new:
             count = modeller.wv.most_similar(entity, topn=100000000)
             list_words.append(count)
@@ -372,7 +191,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                 for i in range(len(list_of_words)):
                     if entity == list_of_words[i][0]:
                         dictionary_new.setdefault(list_of_words[i][0], []).append(list_of_words[i][1])
-        for key_values, precisions in dictionary_new.items():
+        for key_values in dictionary_new.keys():
             maximum = max(dictionary_new[key_values])
             dictionary_new.update([(key_values, (maximum + 1) / 2)])
             for column in self.table_model.columns:
@@ -383,7 +202,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
         os.remove("rdf2vec.model")
         print("Ranking of candidate entities by entity embeddings based similarity is complete.")
 
-    def rank_candidate_entities_by_context_based_similarity(self) -> None:
+    def rank_candidate_entities_by_context_based_similarity(self):
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.candidate_entities is not None:
@@ -391,7 +210,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         candidate_entity._context_based_similarity = 0
         print("Ranking of candidate entities by context based similarity is complete.")
 
-    def aggregate_ranked_candidate_entities(self) -> None:
+    def aggregate_ranked_candidate_entities(self):
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.candidate_entities is not None:
@@ -399,20 +218,20 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         candidate_entity.aggregate_scores()
         print("Aggregation of scores for candidate entities is complete.")
 
-    def annotate_cells(self) -> None:
+    def annotate_cells(self):
         for column in self.table_model.columns:
             for cell in column.cells:
                 cell.annotate_cell()
         print("Annotation of table cell values is completed.")
 
-    def rank_candidate_classes_by_majority_voting(self) -> None:
+    def rank_candidate_classes_by_majority_voting(self):
         for column in self.table_model.columns:
             if column.column_type != ColumnType.LITERAL_COLUMN:
                 frequency = Counter()
                 dbpedia_classes = {}
                 for cell in column.cells:
                     # Get a set of classes from DBpedia for a referent entity
-                    response = dbs.get_classes_for_entity(cell.annotation, False)
+                    response = get_classes_for_entity(cell.annotation, False)
                     dbpedia_classes.update(response)
                     # Calculate a class occurrence frequency
                     frequency.update(Counter([*response]))
@@ -427,11 +246,11 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         column._candidate_classes += (class_model,)
         print("Ranking of candidate classes by majority voting is complete.")
 
-    def rank_candidate_classes_by_heading_similarity(self) -> None:
+    def rank_candidate_classes_by_heading_similarity(self):
         for column in self.table_model.columns:
             if column.column_type != ColumnType.LITERAL_COLUMN:
                 # Get a set of candidate classes using the DBpedia SPARQL Endpoint
-                candidate_classes = dbs.get_candidate_classes(column.header_name, False)
+                candidate_classes = get_candidate_classes(column.header_name, False)
                 if candidate_classes:
                     if column.candidate_classes is None:
                         column._candidate_classes = []
@@ -450,17 +269,17 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         candidate_class._heading_similarity = self.get_levenshtein_distance(column.header_name, candidate_class.uri,
                                                                                             column.candidate_classes)
                     # Sort candidate classes by heading similarity
-                    column.candidate_classes.sort(key=lambda c: c.heading_similarity, reverse=True)
+                    column.candidate_classes.sort(key=lambda cl: cl.heading_similarity, reverse=True)
         print("Ranking of candidate classes by heading similarity is complete.")
 
-    def rank_candidate_classes_by_column_type_prediction(self) -> None:
+    def rank_candidate_classes_by_column_type_prediction(self):
         for column in self.table_model.columns:
             if column.candidate_classes is not None:
                 for candidate_class in column.candidate_classes:
                     candidate_class._column_type_prediction_score = 0
         print("Ranking of candidate classes by column type prediction is complete.")
 
-    def aggregate_ranked_candidate_classes(self) -> None:
+    def aggregate_ranked_candidate_classes(self):
         for column in self.table_model.columns:
             if column.candidate_classes is not None:
                 for candidate_class in column.candidate_classes:
@@ -468,13 +287,13 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                 column.candidate_classes.sort(key=lambda c: c.final_score, reverse=True)  # Sort candidate classes by final score
         print("Aggregation of scores for candidate classes is complete.")
 
-    def annotate_categorical_columns(self) -> None:
+    def annotate_categorical_columns(self):
         for column in self.table_model.columns:
             if column.column_type != ColumnType.LITERAL_COLUMN:
                 column.annotate_column()
         print("Annotation of categorical (named entity) columns of table is completed.")
 
-    def annotate_literal_columns(self) -> None:
+    def annotate_literal_columns(self):
         for column in self.table_model.columns:
             if column.column_type == ColumnType.LITERAL_COLUMN:
                 xml_schema_data_types = []
