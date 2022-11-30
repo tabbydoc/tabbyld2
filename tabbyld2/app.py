@@ -38,7 +38,7 @@ def upload_csv_file():
     # Проверка существования csv-файла и его расширения
     if csv_file and utl.allowed_file(csv_file.filename, {"csv"}):
         csv_filename = secure_filename(csv_file.filename)
-        utl.check_directory(CSV_FILE_PATH)  # Проверка существования каталога для сохранения загруженного csv-файла
+        utl.check_path(CSV_FILE_PATH)  # Проверка существования каталога для сохранения загруженного csv-файла
         csv_file.save(os.path.join(CSV_FILE_PATH, csv_filename))  # Сохранение csv-файла в каталог
         # Конвертация csv-файла электронной таблицы в формат json
         json_filename = pr.convert_csv_to_json(CSV_FILE_PATH, csv_filename, JSON_FILE_PATH)
@@ -47,7 +47,7 @@ def upload_csv_file():
             cleared_data = cln.clean(JSON_FILE_PATH + json_filename)  # Очистка данных
             if cleared_data:
                 # Проверка существования каталога для сохранения результатов очистки данных
-                utl.check_directory(CLEARED_DATA_PATH)
+                utl.check_path(CLEARED_DATA_PATH)
                 # Запись json-файлов c очищенными табличными данными
                 with open(CLEARED_DATA_PATH + json_filename, "w") as outfile:
                     json.dump(cleared_data, outfile, indent=4)
@@ -70,12 +70,12 @@ def upload_json_file():
     # Проверка существования json-файла и его расширения
     if json_file and utl.allowed_file(json_file.filename, {"json"}):
         json_filename = secure_filename(json_file.filename)
-        utl.check_directory(JSON_FILE_PATH)  # Проверка существования каталога для сохранения загруженного json-файла
+        utl.check_path(JSON_FILE_PATH)  # Проверка существования каталога для сохранения загруженного json-файла
         json_file.save(os.path.join(JSON_FILE_PATH, json_filename))  # Сохранение json-файла в каталог
         cleared_data = cln.clean(JSON_FILE_PATH + json_filename)  # Очистка данных
         if cleared_data:
             # Проверка существования каталога для сохранения результатов очистки данных
-            utl.check_directory(CLEARED_DATA_PATH)
+            utl.check_path(CLEARED_DATA_PATH)
             # Запись json-файлов c очищенными табличными данными
             with open(CLEARED_DATA_PATH + json_filename, "w") as outfile:
                 json.dump(cleared_data, outfile, indent=4)
@@ -102,7 +102,7 @@ def classify_column():
     recognized_data = cc.recognize_named_entities(request.json["cleared_data"])
     if recognized_data and "file_name" in request.json:
         # Проверка существования каталога для сохранения результатов распознавания именованных сущностей
-        utl.check_directory(RECOGNIZED_DATA_PATH)
+        utl.check_path(RECOGNIZED_DATA_PATH)
         # Запись json-файлов c результатами распознавания именованных сущностей
         with open(RECOGNIZED_DATA_PATH + request.json["file_name"] + ".json", "w") as outfile:
             json.dump(recognized_data, outfile, indent=4)
@@ -118,7 +118,7 @@ def classify_column():
     )
     if classified_data and "file_name" in request.json:
         # Проверка существования каталога для сохранения результатов классификации столбцов
-        utl.check_directory(CLASSIFIED_DATA_PATH)
+        utl.check_path(CLASSIFIED_DATA_PATH)
         # Запись json-файлов c результатами классификации столбцов
         with open(CLASSIFIED_DATA_PATH + request.json["file_name"] + ".json", "w") as outfile:
             json.dump(classified_data, outfile, indent=4)
