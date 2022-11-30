@@ -1,22 +1,22 @@
 from typing import Optional
 
+from tabbyld2.config import ResultPath
+from tabbyld2.datamodel.knowledge_graph_model import ClassRankingMethod, EntityRankingMethod
+from tabbyld2.datamodel.tabular_data_model import TableModel
 from tabbyld2.helpers.file import remove_suffix_in_filename, write_json_file
 from tabbyld2.preprocessing.atomic_column_classifier import AtomicColumnClassifier
 from tabbyld2.preprocessing.subject_column_identifier import SubjectColumnIdentifier
 from tabbyld2.table_annotation.annotator import SemanticTableAnnotator
-from tabbyld2.config import ResultPath
-from tabbyld2.datamodel.knowledge_graph_model import EntityRankingMethod, ClassRankingMethod
-from tabbyld2.datamodel.tabular_data_model import TableModel
 
 
-def pipeline_preprocessing(table_model: TableModel = None, file: str = None, include_serialization: bool = True) -> Optional[TableModel]:
+def pipeline_preprocessing(table_model: TableModel, file: str, include_serialization: bool = True) -> Optional[TableModel]:
     """
     Pipeline for table preprocessing procedure, including named-entity recognition for cells, columns classification and
-    subject column identification.
-    :param table_model: table model
-    :param file: full file name
-    :param include_serialization: flag to include or exclude json serialization from result
-    :return: new table model
+    subject column identification
+    :param table_model: a table model
+    :param file: a file name with extension
+    :param include_serialization: a flag to include or exclude JSON serialization from result
+    :return: a new table model
     """
     table_model.clean(True)  # Tabular data cleaning
     column_classifier = AtomicColumnClassifier(table_model)
@@ -32,14 +32,13 @@ def pipeline_preprocessing(table_model: TableModel = None, file: str = None, inc
     return subject_column_identifier.table_model
 
 
-def pipeline_cell_entity_annotation(table_model: TableModel = None, file: str = None, include_serialization: bool = True) \
-        -> Optional[TableModel]:
+def pipeline_cell_entity_annotation(table_model: TableModel, file: str, include_serialization: bool = True) -> Optional[TableModel]:
     """
-    Pipeline for cell entity annotation (CEA) task.
-    :param table_model: table model
-    :param file: full file name
-    :param include_serialization: flag to include or exclude json serialization from result
-    :return: new table model
+    Pipeline for cell entity annotation (CEA) task
+    :param table_model: a table model
+    :param file: a file name with extension
+    :param include_serialization: a flag to include or exclude json serialization from result
+    :return: a new table model
     """
     annotator = SemanticTableAnnotator(table_model)
     # Find candidate entities for all cells of categorical columns including a subject column
@@ -78,19 +77,17 @@ def pipeline_cell_entity_annotation(table_model: TableModel = None, file: str = 
     return annotator.table_model
 
 
-def pipeline_column_type_annotation(table_model: TableModel = None, file: str = None, include_serialization: bool = True) \
-        -> Optional[TableModel]:
+def pipeline_column_type_annotation(table_model: TableModel, file: str, include_serialization: bool = True) -> Optional[TableModel]:
     """
-    Pipeline for column type annotation (CTA) task.
-    :param table_model: table model
-    :param file: full file name
-    :param include_serialization: flag to include or exclude json serialization from result
-    :return: new table model
+    Pipeline for column type annotation (CTA) task
+    :param table_model: a table model
+    :param file: a file name with extension
+    :param include_serialization: a flag to include or exclude json serialization from result
+    :return: a new table model
     """
     # Define path
     path = ResultPath.PROVENANCE_PATH + remove_suffix_in_filename(file) + "/" if include_serialization and file is not None else None
-    # Create semantic table annotator object
-    annotator = SemanticTableAnnotator(table_model)
+    annotator = SemanticTableAnnotator(table_model)  # Create semantic table annotator object
     # Rank candidate classes for categorical columns by majority voting method
     annotator.rank_candidate_classes_by_majority_voting()
     if path is not None:
