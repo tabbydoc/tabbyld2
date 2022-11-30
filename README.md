@@ -131,5 +131,17 @@ python app.py
 ## Authors
 
 * [Nikita O. Dorodnykh](mailto:tualatin32@mail.ru)
+* [Aleksandr Yu. Yurin](mailto:j80@yandex.ru)
+
+## Developers
+
+* [Nikita O. Dorodnykh](mailto:tualatin32@mail.ru)
 * [Daria A. Denisova](mailto:daryalich@mail.ru)
 * [Vitaliy V. Biryuckov](mailto:stukov.biryuckov2017@yandex.ru)
+* [Ilgar V. Amiraslanov](mailto:ilgar-amiraslanov@mail.ru)
+
+## References
+
+* Dorodnykh N.O., Shigarov A.O., Yurin A.Yu. **Using the Semantic Annotation of Web Table Data for Knowledge Base Construction.** AICCC'21: Proceedings of the 4th Artificial Intelligence and Cloud Computing Conference, 2022, P. 122-129. DOI: 10.1145/3508259.3508277
+* Dorodnykh N.O., Yurin A.Yu. **TabbyLD: A Tool for Semantic Interpretation of Spreadsheets Data.** Communications in Computer and Information Science. Modelling and Development of Intelligent Systems (MDIS 2020), 2021, Vol. 1341, P. 315-333. DOI: 10.1007/978-3-030-68527-0_20
+* Dorodnykh N.O., Yurin A.Yu. **Towards a universal approach for semantic interpretation of spreadsheets data.** IDEAS'20: Proceedings of the 24th Symposium on International Database Engineering & Applications, 2020, No. 22, P. 1-9. DOI: 10.1145/3410566.3410609
