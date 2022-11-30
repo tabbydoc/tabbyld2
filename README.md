@@ -4,7 +4,7 @@ A web-based application to annotate relational tables and generate knowledge gra
 
 ## Version
 
-0.4
+0.4.1
 
 ## Preliminaries
 
