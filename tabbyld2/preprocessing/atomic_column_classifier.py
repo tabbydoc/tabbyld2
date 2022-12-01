@@ -1,13 +1,14 @@
 import re
-from enum import Enum
-
-import stanza
-import dateparser
-from typing import Any
 from abc import ABC, abstractmethod
 from collections import defaultdict
-from tabbyld2.helpers.utility import is_float
+from enum import Enum
+from typing import Any
+
+import dateparser
+import stanza
+from duckling import DucklingWrapper
 from tabbyld2.datamodel.tabular_data_model import TableModel
+from tabbyld2.helpers.utility import is_float
 
 
 class NamedEntityLabel(str, Enum):
@@ -165,10 +166,30 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
         return NamedEntityLabel.NONE
 
     @staticmethod
-    def _determine_count_number(text):
-        char_text, count_number = list(text), 0
-        count_number = sum(True for i in char_text if i.isdigit())  # Counting the number of numbers
-        return True if count_number > len(char_text) / 2 else False  # If the numbers are more than half return true
+    def _determine_count_letter(text):
+        """
+        Counts the number of letters in the value and compares them to the total character value.
+        :param text: input textual value
+        :return: true or false
+        """
+
+        char_text, count_letter = list(text), 0
+        count_letter = sum(True for i in char_text if i.isalpha())  # Counting the number of letters
+        return count_letter < len(char_text) / 2  # If the letters are less than half return true
+
+    @staticmethod
+    def _determine_time(text):
+        """
+        Determines if there is a time value in the string.
+        :param text: input textual value
+        :return: true or false
+        """
+        check = False
+        for i in DucklingWrapper().parse(text):
+            if i['text'] == text and i['dim'] == 'time':
+                check = True
+
+        return check
 
     def _recognize_named_entities(self) -> None:
         stanza.download("en")
@@ -176,7 +197,7 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.cleared_value is not None:
-                    doc = nlp(cell.cleared_value + ".")  # Named Entity Recognition
+                    doc = nlp(cell.cleared_value.lower().title() + ".")  # Named Entity Recognition
                     recognized_named_entities = [ent.type for ent in doc.ents] if len(doc.ents) > 1 else None
                     if len(doc.ents) == 1:
                         recognized_named_entities = doc.ents[0].type
@@ -186,8 +207,10 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
                         recognized_named_entities = self._determine_number(cell.cleared_value, LiteralLabel.CARDINAL)
                     if recognized_named_entities == NamedEntityLabel.NONE:
                         recognized_named_entities = self._determine_entity_mention(cell.cleared_value)
-                    if self._determine_count_number(cell.cleared_value):
+                    if self._determine_count_letter(cell.cleared_value):
                         recognized_named_entities = LiteralLabel.SYMBOL
+                    if self._determine_time(cell.cleared_value):
+                        recognized_named_entities = LiteralLabel.TIME
                     cell._label = recognized_named_entities
                 else:
                     cell._label = LiteralLabel.EMPTY

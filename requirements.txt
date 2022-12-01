@@ -8,6 +8,7 @@ requests
 dateparser
 sparqlwrapper
 python-Levenshtein
+duckling
 # Packages for ColNet framework
 tensorflow==2.6.0
 gensim==4.0.1
