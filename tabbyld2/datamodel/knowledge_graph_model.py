@@ -1,6 +1,6 @@
+from abc import ABC, abstractmethod
 from enum import Enum
 from typing import Any
-from abc import ABC, abstractmethod
 
 
 class EntityRankingMethod(str, Enum):
@@ -47,15 +47,14 @@ class AbstractEntityModel(ABC):
     @abstractmethod
     def aggregate_scores(self) -> float:
         """
-        Aggregate scores (ranks) across all metrics.
+        Aggregate scores (ranks) across all metrics
         """
         pass
 
 
 class EntityModel(AbstractEntityModel, EntityRankingWeightFactor):
-    __slots__ = ("_uri", "_label", "_comment", "_string_similarity", "_ner_based_similarity",
-                 "_heading_based_similarity", "_entity_embeddings_based_similarity",
-                 "_context_based_similarity", "_final_score")
+    __slots__ = ("_uri", "_label", "_comment", "_string_similarity", "_ner_based_similarity", "_heading_based_similarity",
+                 "_entity_embeddings_based_similarity", "_context_based_similarity", "_final_score")
 
     def __init__(self, uri: str = None, label: str = None, comment: str = None, string_similarity: float = 0,
                  ner_based_similarity: float = 0, heading_based_similarity: float = 0, entity_embeddings_based_similarity: float = 0,
@@ -107,9 +106,9 @@ class EntityModel(AbstractEntityModel, EntityRankingWeightFactor):
         return self._final_score
 
     def aggregate_scores(self):
-        self._final_score = self.string_similarity * self.STRING_SIMILARITY + self.ner_based_similarity * self.NER_BASED_SIMILARITY + \
-                            self.heading_based_similarity * self.HEADING_BASED_SIMILARITY + self.entity_embeddings_based_similarity * \
-                            self.ENTITY_EMBEDDINGS_BASED_SIMILARITY + self.context_based_similarity * self.CONTEXT_BASED_SIMILARITY
+        self._final_score = self.string_similarity * self.STRING_SIMILARITY + self.ner_based_similarity * self.NER_BASED_SIMILARITY +  \
+            self.heading_based_similarity * self.HEADING_BASED_SIMILARITY + self.entity_embeddings_based_similarity * \
+            self.ENTITY_EMBEDDINGS_BASED_SIMILARITY + self.context_based_similarity * self.CONTEXT_BASED_SIMILARITY
 
 
 class AbstractClassModel(ABC):
@@ -118,7 +117,7 @@ class AbstractClassModel(ABC):
     @abstractmethod
     def aggregate_scores(self) -> float:
         """
-        Aggregate scores (ranks) across all metrics.
+        Aggregate scores (ranks) across all metrics
         """
         pass
 
@@ -167,4 +166,4 @@ class ClassModel(AbstractClassModel, ClassRankingWeightFactor):
 
     def aggregate_scores(self):
         self._final_score = self.majority_voting_score * self.MAJORITY_VOTING + self.heading_similarity * self.HEADING_SIMILARITY + \
-                            self.column_type_prediction_score * self.COLUMN_TYPE_PREDICTION
+            self.column_type_prediction_score * self.COLUMN_TYPE_PREDICTION

@@ -1,5 +1,6 @@
-import ftfy
 from typing import Any
+
+import ftfy
 
 
 def remove_multiple_spaces(text: str) -> str:

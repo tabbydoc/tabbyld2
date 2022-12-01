@@ -3,9 +3,9 @@ import re
 from abc import ABC, abstractmethod
 from math import sqrt
 
+from tabbyld2.datamodel.tabular_data_model import TableModel
 from tabbyld2.preprocessing.atomic_column_classifier import ColumnType
 from tabbyld2.preprocessing.prepositions import Preposition
-from tabbyld2.datamodel.tabular_data_model import TableModel
 
 
 class WeightingFactor:

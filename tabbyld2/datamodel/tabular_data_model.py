@@ -1,9 +1,10 @@
-from enum import Enum
 from abc import ABC, abstractmethod
+from enum import Enum
 from operator import attrgetter
-from typing import Any, Callable, Iterator, Optional, Tuple, List, Dict
-import tabbyld2.preprocessing.cleaner as cln
-from tabbyld2.datamodel.knowledge_graph_model import EntityModel, EntityRankingMethod, ClassModel, ClassRankingMethod
+from typing import Any, Callable, Dict, Iterator, List, Optional, Tuple
+
+from cleaner import fix_text, remove_garbage_characters, remove_multiple_spaces
+from tabbyld2.datamodel.knowledge_graph_model import ClassModel, ClassRankingMethod, EntityModel, EntityRankingMethod
 
 
 class ContextDirection(Enum):
@@ -19,7 +20,7 @@ class AbstractColumnCellModel(ABC):
     @abstractmethod
     def annotate_cell(self) -> str:
         """
-        Annotate table cell based on ranked candidate entities.
+        Annotate table cell based on ranked candidate entities
         """
         pass
 
@@ -66,7 +67,7 @@ class AbstractTableColumnModel(ABC):
     @abstractmethod
     def annotate_column(self) -> str:
         """
-        Annotate table column based on ranked candidate classes.
+        Annotate table column based on ranked candidate classes
         """
         pass
 
@@ -117,7 +118,7 @@ class AbstractTableModel(ABC):
     @abstractmethod
     def columns_number(self) -> int:
         """
-        Get number of columns.
+        Get number of columns
         """
         pass
 
@@ -125,14 +126,14 @@ class AbstractTableModel(ABC):
     @abstractmethod
     def rows_number(self) -> int:
         """
-        Get number of rows.
+        Get number of rows
         """
         pass
 
     @abstractmethod
     def column(self, column_index: int, *, include_header: bool = False) -> Tuple[Any, ...]:
         """
-        Get column cells for specified index. This method could include or exclude header cells from result.
+        Get column cells for specified index. This method could include or exclude header cells from result
         :param column_index: target cell column index in range [0; columns_number)
         :param include_header: flag to include or exclude header cells from result
         :return: table cells content ordered top-to-bottom
@@ -142,7 +143,7 @@ class AbstractTableModel(ABC):
     @abstractmethod
     def row(self, row_index: int) -> Tuple[Any, ...]:
         """
-        Get row cells for specified row index.
+        Get row cells for specified row index
         :param row_index: target cell row index in range [0; rows_number)
         :return: table cells content ordered left-to-right
         """
@@ -151,7 +152,7 @@ class AbstractTableModel(ABC):
     @abstractmethod
     def cell(self, row_index: int, column_index: int) -> Any:
         """
-        Get cell content by row and column number.
+        Get cell content by row and column number
         :param row_index: target cell row index in range [0; rows_number)
         :param column_index: target cell column index in range [0; columns_number)
         :return: specified cell content (mention)
@@ -161,8 +162,7 @@ class AbstractTableModel(ABC):
     @abstractmethod
     def context(self, row_index: int, column_index: int, direction: ContextDirection) -> Tuple[Any, ...]:
         """
-        Get cell local context in specified direction.
-        Result cells are ordered by distance from No header cells are included in result.
+        Get cell local context in specified direction. Result cells are ordered by distance from No header cells are included in result
         :param row_index: target cell row index
         :param column_index: target cell column index
         :param direction: desired context direction
@@ -173,7 +173,7 @@ class AbstractTableModel(ABC):
     @abstractmethod
     def clean(self, include_header: bool = False) -> None:
         """
-        Cleans table data.
+        Cleans table data
         :param include_header: flag to include or exclude header cells from result
         """
         pass
@@ -272,7 +272,7 @@ class TableModel(AbstractTableModel):
 
     def _validate_indices(self, column_index: Optional[int] = None, row_index: Optional[int] = None):
         """
-        Validates the existence of column and row indices.
+        Validates the existence of column and row indices
         :param column_index: column index
         :param row_index: row index
         """
@@ -285,7 +285,7 @@ class TableModel(AbstractTableModel):
                       cell_filter: Callable[[int, int], bool] = lambda row, column: True) -> Iterator[Any]:
         """
         Iterates table over specified row from column_start to column_end (defaults to table size).
-        Cells on which cell_filter returns False are ignored.
+        Cells on which cell_filter returns False are ignored
         :param row: row index
         :param column_start: column start index
         :param column_end: column end index
@@ -302,7 +302,7 @@ class TableModel(AbstractTableModel):
                          cell_filter: Callable[[int, int], bool] = lambda row, column: True) -> Iterator[Any]:
         """
         Iterates table over specified column from row_start to row_end (defaults to table size).
-        Cells on which cell_filter returns False are ignored.
+        Cells on which cell_filter returns False are ignored
         :param column: column index
         :param row_start: row start index
         :param row_end: row end index
@@ -332,10 +332,10 @@ class TableModel(AbstractTableModel):
     def clean(self, include_header: bool = False) -> None:
         for column in self.columns:
             if include_header:
-                column._header_name = cln.remove_multiple_spaces(cln.fix_text(column.header_name))
+                column._header_name = remove_multiple_spaces(fix_text(column.header_name))
             for cell in column.cells:
                 if cell.source_value is not None:
-                    cell._cleared_value = cln.remove_multiple_spaces(cln.remove_garbage_characters(cln.fix_text(cell.source_value)))
+                    cell._cleared_value = remove_multiple_spaces(remove_garbage_characters(fix_text(cell.source_value)))
                     if not cell.cleared_value:
                         cell._cleared_value = None
 
