@@ -4,7 +4,7 @@ from typing import Any
 
 def remove_multiple_spaces(text: str) -> str:
     """
-    Remove multiple spaces in a source text.
+    Remove multiple spaces in a source text
     :param text: a source text
     :return: text with multiple spaces removed
     """
@@ -13,7 +13,7 @@ def remove_multiple_spaces(text: str) -> str:
 
 def check_letter_and_digit_existence(text: Any) -> bool:
     """
-    Check existence of letters and (or) numbers in a source text.
+    Check existence of letters and (or) numbers in a source text
     :param text: a source text
     :return: flag to indicate letters and numbers existence in a source text
     """
@@ -24,7 +24,7 @@ def check_letter_and_digit_existence(text: Any) -> bool:
 
 def remove_garbage_characters(text: Any) -> str:
     """
-    Remove "garbage" characters in a source text.
+    Remove "garbage" characters in a source text
     :param text: a source text
     :return: text with garbage characters removed
     """
@@ -38,7 +38,7 @@ def remove_garbage_characters(text: Any) -> str:
 
 def fix_text(text: Any) -> str:
     """
-    Fix broken Unicode characters and HTML tags in a source text.
+    Fix broken Unicode characters and HTML tags in a source text
     :param text: a source text
     :return: corrected text
     """

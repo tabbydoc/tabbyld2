@@ -22,7 +22,7 @@ class AbstractSubjectColumnIdentifier(ABC):
     @abstractmethod
     def get_empty_cell_fraction(self, column_index: int = None) -> float:
         """
-        Get a proportion of empty cells for current column from table.
+        Get a proportion of empty cells for current column from table
         :param column_index: index of current column
         :return: proportion of blank cells for current column
         """
@@ -31,7 +31,7 @@ class AbstractSubjectColumnIdentifier(ABC):
     @abstractmethod
     def get_cell_fraction_with_acronyms(self, column_index: int = None) -> float:
         """
-        Get a proportion of cells with acronyms for current column from table.
+        Get a proportion of cells with acronyms for current column from table
         :param column_index: index of current column
         :return: proportion of cells with acronyms for current column
         """
@@ -40,7 +40,7 @@ class AbstractSubjectColumnIdentifier(ABC):
     @abstractmethod
     def get_unique_content_cell_fraction(self, column_index: int = None) -> float:
         """
-        Get a proportion of cells with unique content for current column from table.
+        Get a proportion of cells with unique content for current column from table
         :param column_index: index of current column
         :return: proportion of cells with unique content for current column
         """
@@ -49,7 +49,7 @@ class AbstractSubjectColumnIdentifier(ABC):
     @abstractmethod
     def get_distance_from_first_ne_column(self, column_index: int = None) -> int:
         """
-        Get a distance from the first categorical column to current column.
+        Get a distance from the first categorical column to current column
         :param column_index: index of current column
         :return: distance from the first categorical column
         """
@@ -58,7 +58,7 @@ class AbstractSubjectColumnIdentifier(ABC):
     @abstractmethod
     def get_average_word_number(self, column_index: int = None, threshold_factor: int = 0) -> float:
         """
-        Get average number of words for current column.
+        Get average number of words for current column
         :param column_index: index of current column
         :param threshold_factor: threshold factor for cells that contains long text
         :return: average number of words
@@ -68,7 +68,7 @@ class AbstractSubjectColumnIdentifier(ABC):
     @abstractmethod
     def determine_prepositions_in_column_header_name(self, column_index: int = None) -> int:
         """
-        Define preposition names in current column heading.
+        Define preposition names in current column heading
         :param column_index: index of current column
         :return: 1 if heading is a preposition, otherwise 0
         """
@@ -77,7 +77,7 @@ class AbstractSubjectColumnIdentifier(ABC):
     @abstractmethod
     def identify_subject_column(self, column_index: int = None) -> None:
         """
-        Define a subject (thematic) column among categorical ones based on heuristic estimates.
+        Define a subject (thematic) column among categorical ones based on heuristic estimates
         :param column_index: explicit reference to a subject column index
         """
         pass
