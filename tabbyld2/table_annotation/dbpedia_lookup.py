@@ -1,7 +1,9 @@
 import json
-from typing import List
+from typing import List, Dict, Optional
 
 import requests
+
+from dbpedia_sparql_endpoint import DBPediaConfig
 
 
 URL = ""
@@ -18,7 +20,7 @@ def init(port=9274):
 
 
 def get_candidate_entities(query: str, max_results: int = None, min_relevance: int = None, short_name: bool = False) \
-        -> List[List[str]]:
+        -> Dict[str, List[str]]:
     """
     Get a set of candidate entities by string query
     :param query: query string
@@ -27,7 +29,7 @@ def get_candidate_entities(query: str, max_results: int = None, min_relevance: i
     :param short_name: flag to enable or disable short entity name display mode (without full URI)
     :return: a set of found candidate entities
     """
-    result_list = []
+    results = {}
     if query != "":
         parameters = {"query": query, "format": "JSON"}
         if max_results:
@@ -39,19 +41,13 @@ def get_candidate_entities(query: str, max_results: int = None, min_relevance: i
             if response.status_code == 200:
                 json_response = json.loads(response.text)
                 for doc in json_response["docs"]:
-                    if short_name:
-                        result_list.append([doc["resource"][0].replace("http://dbpedia.org/resource/", ""),
-                                            doc["label"][0] if "label" in doc else "",
-                                            doc["comment"][0] if "comment" in doc else ""])
-                    else:
-                        result_list.append([doc["resource"][0], doc["label"][0] if "label" in doc else "",
-                                            doc["comment"][0] if "comment" in doc else ""])
-                return result_list
+                    key = doc["resource"][0].replace(DBPediaConfig.BASE_RESOURCE_URI, "") if short_name else doc["resource"][0]
+                    results[key] = [doc["label"][0] if "label" in doc else "", doc["comment"][0] if "comment" in doc else ""]
             # else:
             #     raise requests.exceptions.ConnectionError(f"{response.status_code}")
         except requests.exceptions.RequestException:
-            return result_list
-    return result_list
+            print("Unexpected error in DBpedia Lookup!")
+    return results
 
 
 init()

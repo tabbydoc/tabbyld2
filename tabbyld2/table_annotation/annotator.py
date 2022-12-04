@@ -34,29 +34,19 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                 for cell in column.cells:
                     if cell.cleared_value is not None and cell.candidate_entities is None:
                         # Get a set of candidate entities using the DBpedia SPARQL Endpoint
-                        candidate_entities_from_dbs = get_candidate_entities(cell.cleared_value, False)
-                        # Form dict of candidate entity models
-                        if candidate_entities_from_dbs:
-                            cell._candidate_entities = [EntityModel(item[0], item[1], item[2]) for item in candidate_entities_from_dbs]
+                        candidate_entities = get_candidate_entities(cell.cleared_value, False)
                         # Get a set of candidate entities using the DBpedia Lookup
                         candidate_entities_from_dbl = dbl.get_candidate_entities(cell.cleared_value, 100, None, False)
-                        # Form dict of candidate entity models
-                        if candidate_entities_from_dbl:
-                            for candidate_entity_from_dbl in candidate_entities_from_dbl:
-                                exist_entity = False
-                                for candidate_entity_from_dbs in candidate_entities_from_dbs:
-                                    if candidate_entity_from_dbl[0] == candidate_entity_from_dbs[0]:
-                                        exist_entity = True
-                                if not exist_entity:
-                                    entity = EntityModel(candidate_entity_from_dbl[0], candidate_entity_from_dbl[1],
-                                                         candidate_entity_from_dbl[2])
-                                    if cell.candidate_entities is None:
-                                        cell._candidate_entities = []
-                                    cell._candidate_entities += (entity,)
+                        # Form common dict for candidate entities
+                        for entity_uri, item in candidate_entities_from_dbl.items():
+                            if entity_uri not in candidate_entities:
+                                candidate_entities[entity_uri] = item
+                        if candidate_entities:
+                            cell.set_candidate_entities([EntityModel(key, item[0], item[1]) for key, item in candidate_entities.items()])
                         # Form a set of candidate entities for cells with same values
-                        for c in column.cells:
-                            if c.cleared_value == cell.cleared_value and c.candidate_entities is None:
-                                c._candidate_entities = cell.candidate_entities
+                        for cl in column.cells:
+                            if cl.cleared_value == cell.cleared_value and cl.candidate_entities is None:
+                                cl.set_candidate_entities(cell.candidate_entities)
                     print("The candidate entity lookup for '" + str(cell.cleared_value) + "' cell is complete.")
 
     @staticmethod

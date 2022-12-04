@@ -1,6 +1,6 @@
 import re
 from enum import Enum
-from typing import Dict, List
+from typing import Dict, List, Optional
 from urllib.error import URLError
 
 from SPARQLWrapper import JSON, SPARQLWrapper
@@ -13,7 +13,7 @@ class DBPediaConfig(str, Enum):
     BASE_ONTOLOGY_URI = "http://dbpedia.org/ontology/"
 
 
-def get_candidate_entities(entity_mention: str = "", short_name: bool = False) -> List[List]:
+def get_candidate_entities(entity_mention: str = "", short_name: bool = False) -> Dict[str, List[str]]:
     """
     Get a set of candidate entities based on the direct SPARQL query to DBpedia
     :param entity_mention: a textual entity mention
@@ -26,7 +26,7 @@ def get_candidate_entities(entity_mention: str = "", short_name: bool = False) -
         if word and check_letter_and_digit_existence(word):
             string += " AND '" + word + "'" if string else "'" + word + "'"
     print("Searching entities for " + string)
-    result_list = []
+    results = {}
     if string != "":
         no_processing_query = True
         while no_processing_query:
@@ -54,18 +54,15 @@ def get_candidate_entities(entity_mention: str = "", short_name: bool = False) -
                     LIMIT 100
                 """ % string)
                 sparql.setReturnFormat(JSON)
-                results = sparql.query().convert()
-                for result in results["results"]["bindings"]:
-                    if short_name:
-                        result_list.append([result["subject"]["value"].replace(DBPediaConfig.BASE_RESOURCE_URI, ""),
-                                            result["label"]["value"], result["comment"]["value"]])
-                    else:
-                        result_list.append([result["subject"]["value"], result["label"]["value"], result["comment"]["value"]])
+                response = sparql.query().convert()
+                for item in response["results"]["bindings"]:
+                    key = item["subject"]["value"].replace(DBPediaConfig.BASE_RESOURCE_URI, "") if short_name else item["subject"]["value"]
+                    results[key] = [item["label"]["value"], item["comment"]["value"]]
                 no_processing_query = False
             except URLError:
                 no_processing_query = True
                 print("Connection error to DBpedia SPARQL Endpoint! Reconnection is carried out.")
-    return result_list
+    return results
 
 
 def get_distance_to_class(entity: str = "", target_classes: str = None) -> int:

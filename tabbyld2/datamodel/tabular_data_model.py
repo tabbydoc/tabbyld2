@@ -56,6 +56,9 @@ class ColumnCellModel(AbstractColumnCellModel):
     def annotation(self):
         return self._annotation
 
+    def set_candidate_entities(self, candidate_entities: List[EntityModel]):
+        self._candidate_entities = candidate_entities
+
     def annotate_cell(self):
         if self.candidate_entities is not None:
             self._annotation = max(self.candidate_entities, key=attrgetter("_final_score")).uri
@@ -248,7 +251,7 @@ class AbstractTableModel(ABC):
 class TableModel(AbstractTableModel):
     __slots__ = ("_table_name", "_columns", "_columns_number", "_rows_number")
 
-    def __init__(self, table_name: Any = None, columns: Tuple[TableColumnModel, ...] = None):
+    def __init__(self, table_name: str, columns: Tuple[TableColumnModel, ...]):
         self._table_name = table_name
         self._columns = columns
         self._columns_number = len(self.columns) if len(self.columns) != 0 else 0
