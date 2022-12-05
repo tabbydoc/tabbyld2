@@ -5,6 +5,7 @@ from enum import Enum
 from typing import Any
 
 import dateparser
+import duckling
 import stanza
 from duckling import DucklingWrapper
 from tabbyld2.datamodel.tabular_data_model import TableModel
@@ -178,20 +179,24 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
         return count_letter < len(char_text) / 2  # If the letters are less than half return true
 
     @staticmethod
-    def _determine_time(text):
+    def _determine_time(text,duckling):
         """
         Determines if there is a time value in the string.
         :param text: input textual value
         :return: true or false
+
         """
         check = False
-        for i in DucklingWrapper().parse(text):
-            if i['text'] == text and i['dim'] == 'time':
-                check = True
+        dim_list = duckling.parse(text, reference_time="1")
+        if dim_list is not None:
+            for i in dim_list:
+                if i['text'] == text and i['dim'] == "time":
+                    check = True
 
         return check
 
     def _recognize_named_entities(self) -> None:
+        duckling_wrapper = duckling.DucklingWrapper()
         stanza.download("en")
         nlp = stanza.Pipeline(lang="en", processors="tokenize,ner")  # Neural pipeline preparation
         for column in self.table_model.columns:
@@ -209,7 +214,7 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
                         recognized_named_entities = self._determine_entity_mention(cell.cleared_value)
                     if self._determine_count_letter(cell.cleared_value):
                         recognized_named_entities = LiteralLabel.SYMBOL
-                    if self._determine_time(cell.cleared_value):
+                    if self._determine_time(cell.cleared_value,duckling_wrapper):
                         recognized_named_entities = LiteralLabel.TIME
                     cell._label = recognized_named_entities
                 else:
