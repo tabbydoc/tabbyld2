@@ -125,9 +125,7 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
         :param text: an input textual value
         :return: a date label for cell value
         """
-        if dateparser.parse(text):
-            return LiteralLabel.DATE
-        return NamedEntityLabel.NONE
+        return LiteralLabel.DATE if dateparser.parse(text) else NamedEntityLabel.NONE
 
     @staticmethod
     def _determine_entity_mention(text: str) -> Union[LiteralLabel, NamedEntityLabel]:
