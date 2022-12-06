@@ -1,10 +1,11 @@
 from abc import ABC, abstractmethod
 from enum import Enum
 from operator import attrgetter
-from typing import Any, Callable, Dict, Iterator, List, Optional, Tuple
+from typing import Any, Callable, Dict, Iterator, List, Optional, Tuple, Union
 
-from cleaner import fix_text, remove_garbage_characters, remove_multiple_spaces
 from tabbyld2.datamodel.knowledge_graph_model import ClassModel, ClassRankingMethod, EntityModel, EntityRankingMethod
+from tabbyld2.preprocessing.cleaner import fix_text, remove_garbage_characters, remove_multiple_spaces
+from tabbyld2.preprocessing.labels import LiteralLabel, NamedEntityLabel
 
 
 class ContextDirection(Enum):
@@ -55,6 +56,9 @@ class ColumnCellModel(AbstractColumnCellModel):
     @property
     def annotation(self):
         return self._annotation
+
+    def set_label(self, label: Union[LiteralLabel, NamedEntityLabel]):
+        self._label = label
 
     def set_candidate_entities(self, candidate_entities: List[EntityModel]):
         self._candidate_entities = candidate_entities

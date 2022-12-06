@@ -1,5 +1,7 @@
 from typing import Optional
 
+from duckling import DucklingWrapper
+from stanza import Pipeline
 from tabbyld2.config import ResultPath
 from tabbyld2.datamodel.knowledge_graph_model import ClassRankingMethod, EntityRankingMethod
 from tabbyld2.datamodel.tabular_data_model import TableModel
@@ -9,17 +11,20 @@ from tabbyld2.preprocessing.subject_column_identifier import SubjectColumnIdenti
 from tabbyld2.table_annotation.annotator import SemanticTableAnnotator
 
 
-def pipeline_preprocessing(table_model: TableModel, file: str, include_serialization: bool = True) -> Optional[TableModel]:
+def pipeline_preprocessing(table_model: TableModel, file: str, named_entity_recognition: Pipeline, duckling_wrapper: DucklingWrapper,
+                           include_serialization: bool = True) -> Optional[TableModel]:
     """
     Pipeline for table preprocessing procedure, including named-entity recognition for cells, columns classification and
     subject column identification
     :param table_model: a table model
     :param file: a file name with extension
+    :param named_entity_recognition: a neural pipeline for Stanford NER
+    :param duckling_wrapper: a DucklingWrapper object
     :param include_serialization: a flag to include or exclude JSON serialization from result
     :return: a new table model
     """
     table_model.clean(True)  # Tabular data cleaning
-    column_classifier = AtomicColumnClassifier(table_model)
+    column_classifier = AtomicColumnClassifier(table_model, named_entity_recognition, duckling_wrapper)
     column_classifier.classify_columns()  # Classify table columns on atomic types
     subject_column_identifier = SubjectColumnIdentifier(column_classifier.table_model)
     subject_column_identifier.identify_subject_column()  # Identify a subject column among categorical columns (named entity columns)
