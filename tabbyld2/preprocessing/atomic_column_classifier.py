@@ -31,7 +31,7 @@ class AbstractAtomicColumnClassifier(ABC):
     @abstractmethod
     def classify_columns(self) -> None:
         """
-        Determine column types based on recognized named entities in table cells.
+        Determine column types based on recognized named entities in table cells
         """
         pass
 
@@ -192,11 +192,10 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
                     for label in cell.label:
                         categorical_number[column.header_name] += 1 if NamedEntityLabel.has_value(label) else 0
                         literal_number[column.header_name] += 1 if LiteralLabel.has_value(label) else 0
-                        empty_number += 1 if label is LiteralLabel.EMPTY else 0
                 else:
                     categorical_number[column.header_name] += 1 if NamedEntityLabel.has_value(cell.label) else 0
                     literal_number[column.header_name] += 1 if LiteralLabel.has_value(cell.label) else 0
-                    empty_number += 1 if cell.label is LiteralLabel.EMPTY else 0
+                    empty_number += 1 if cell.label == LiteralLabel.EMPTY else 0
             if categorical_number[column.header_name] > 0 and literal_number[column.header_name] > 0:
                 literal_number[column.header_name] -= empty_number
         return categorical_number, literal_number
