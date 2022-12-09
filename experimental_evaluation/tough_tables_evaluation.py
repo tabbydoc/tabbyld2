@@ -1,6 +1,10 @@
 import os
 import json
 from datetime import datetime
+
+import stanza
+from duckling import DucklingWrapper
+
 from experimental_evaluation.evaluation_model import TableEvaluation
 from tabbyld2.helpers.file import allowed_file, remove_suffix_in_filename, write_json_file
 from tabbyld2.helpers.parser import deserialize_table, save_json_dataset
@@ -16,6 +20,9 @@ def evaluate_tough_tables_dataset():
     table_evaluations = []
     # Save source tables from Tough_Tables dataset in the json format
     save_json_dataset(ResultPath.CSV_FILE_PATH, ResultPath.JSON_FILE_PATH)
+    stanza.download("en")  # Init Stanford NER annotator
+    named_entity_recognition = stanza.Pipeline(lang="en", processors="tokenize,ner")  # Neural pipeline preparation
+    duckling_wrapper = DucklingWrapper()  # Init DucklingWrapper object
     # Cycle through table files
     for root, dirs, files in os.walk(ResultPath.JSON_FILE_PATH):
         for file in files:
@@ -28,7 +35,7 @@ def evaluate_tough_tables_dataset():
                 except json.decoder.JSONDecodeError:
                     print("Error decoding json table file!")
                 if table is not None:
-                    table = pipeline_preprocessing(table, file)  # Preprocessing
+                    table = pipeline_preprocessing(table, file, named_entity_recognition, duckling_wrapper)  # Preprocessing
                     # Get column classification evaluation
                     tough_tables_evaluation = TableEvaluation(table)
                     tough_tables_evaluation.evaluate_columns_classification(EvaluationPath.TOUGH_TABLES_GT +
@@ -47,20 +54,21 @@ def evaluate_tough_tables_dataset():
                     print("f1 = " + str(tough_tables_evaluation.column_classification_evaluation.f1_score))
 
     if table_evaluations:
-        cc_precision, cc_recall = 0, 0
+        cc_precision, cc_recall, all_scores = 0, 0, 0
         for table_evaluation in table_evaluations:
             if table_evaluation.column_classification_evaluation is not None:
                 cc_precision += table_evaluation.column_classification_evaluation.precision
                 cc_recall += table_evaluation.column_classification_evaluation.recall
-        # Get column classification evaluations for all tables from T2Dv2 dataset
-        cc_precision = cc_precision / len(table_evaluations)
-        cc_recall = cc_recall / len(table_evaluations)
-        cc_f1_score = (2 * cc_precision * cc_recall) / (cc_precision + cc_recall) if cc_precision != 0 and cc_recall != 0 else 0
+                all_scores += 1
+        # Get column classification scores for all tables from Tough_Tables dataset
+        total_cc_p = cc_precision / all_scores
+        total_cc_r = cc_recall / all_scores
+        total_cc_f1 = (2 * total_cc_p * total_cc_r) / (total_cc_p + total_cc_r) if total_cc_p != 0 and total_cc_r != 0 else 0
         print("***************************************************")
-        print("Total evaluation for column classification:")
-        print("precision = " + str(cc_precision))
-        print("recall = " + str(cc_recall))
-        print("f1 = " + str(cc_f1_score))
+        print("Total evaluation for atomic column classification:")
+        print("precision = " + str(total_cc_p))
+        print("recall = " + str(total_cc_r))
+        print("f1 = " + str(total_cc_f1))
         print("***************************************************")
         print("Full time: " + str(datetime.now() - start_full_time))
 
