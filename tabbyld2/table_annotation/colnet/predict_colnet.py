@@ -8,6 +8,8 @@ import numpy as np
 import tensorflow as tf
 import tensorflow.compat.v1 as v1
 from gensim.models import Word2Vec
+
+from tabbyld2.table_annotation.colnet.lookup_ents import read_csv_table
 from util_strings import Word2Wec_path
 from util_t2d import read_t2d_cells
 from util_cnn import ordered_cells2synthetic_columns
@@ -87,7 +89,7 @@ def predict_colnet():
         cnn_classifiers.add(cls_name)
 
     print('Step #2: reading col_cells and col_lookup_classes')
-    col_cells = read_t2d_cells()
+    col_cells = read_csv_table()
     col_lookup_classes = dict()
     with open(os.path.join(FLAGS.io_dir, 'lookup_col_classes.csv')) as f:
         for line in f.readlines():

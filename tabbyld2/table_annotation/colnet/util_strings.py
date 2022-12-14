@@ -6,7 +6,7 @@ exp_limaye_path = path.abspath(path.join("../exp_Limaye"))
 limaye_path = path.abspath(path.join("../Limaye"))
 t2dv2_path = path.abspath(path.join("../T2Dv2"))
 
-Word2Wec_path = path.abspath(path.join("../w2v_model/enwiki_model/"))
+Word2Wec_path = path.abspath(path.join("./w2v_model/enwiki_model/"))
 
 if __name__ == '__main__':
     print(project_path)

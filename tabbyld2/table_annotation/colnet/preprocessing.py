@@ -6,6 +6,7 @@ from sample_general import read_cls_ents, query_gen_ents, write_gen_samples
 from sample_particular import read_candidate_classes, read_ent_and_they_cls, generate_pos_sample, generate_neg_samples, \
     out_negative_samples
 from sample_lookup import read_table_cells, read_exist_ent_cls, lookup_ent_cls, write_ents_cls
+from tabbyld2.table_annotation.colnet.lookup_ents import new_lookup
 from util_kb import super_classes
 from util_t2d import read_col_gt
 
@@ -34,15 +35,16 @@ def extract_classes_columns():
 
 
 if __name__ == '__main__':
-    print('Stage #1: extract column ground truth classes of columns of tables(T2Dv2)')
-    extract_classes_columns()
+    # print('Stage #1: extract column ground truth classes of columns of tables(T2Dv2)')
+    # extract_classes_columns()
 
     print('Stage #2: generate samples for training')
     print('Lookup new Samples')
-    col_cells = read_table_cells()
-    cls_count, entities = read_exist_ent_cls()
-    cls_count, ent_cls = lookup_ent_cls(col_cells, entities, cls_count)
-    write_ents_cls(cls_count, ent_cls)
+    new_lookup()
+    # col_cells = read_table_cells()
+    # cls_count, entities = read_exist_ent_cls()
+    # cls_count, ent_cls = lookup_ent_cls(col_cells, entities, cls_count)
+    # write_ents_cls(cls_count, ent_cls)
 
     print('Generate positive and negative samples')
     cand_classes = read_candidate_classes()
