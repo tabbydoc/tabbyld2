@@ -1,15 +1,10 @@
-import os
 from collections import Counter
 from typing import Tuple
 
 import tabbyld2.table_annotation.dbpedia_lookup as dbl
 from Levenshtein._levenshtein import distance
-from concept_mapping import CLASS_MAPPING, DATATYPE_MAPPING, XMLSchemaDataType
-from gensim.models.word2vec import Word2Vec
-from pyrdf2vec import RDF2VecTransformer
-from pyrdf2vec.embedders import Word2Vec
-from pyrdf2vec.graphs import KG
-from pyrdf2vec.walkers import RandomWalker
+from tabbyld2.table_annotation.concept_mapping import CLASS_MAPPING, DATATYPE_MAPPING, XMLSchemaDataType
+from gensim.models.word2vec import Word2Vec as W2V
 from tabbyld2.datamodel.knowledge_graph_model import ClassModel, EntityModel
 from tabbyld2.datamodel.tabular_data_model import TableModel
 from tabbyld2.preprocessing.atomic_column_classifier import ColumnType
@@ -106,7 +101,9 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
         print("Ranking of candidate entities by heading based similarity is complete.")
 
     def rank_candidate_entities_by_entity_embeddings_based_similarity(self):
-        list_new, dictionary_new, list_words, list_new1, list_total = [], {}, [], [], []
+        list_new = []
+        list_new1 = []
+        list_total = []
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.candidate_entities is not None:
@@ -116,80 +113,78 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                             list_new1.append(candidate_entity.uri)
                     list_total.append(list_new1)
                     list_new1 = []
-        list_new1 = list(set(list_new))
-        transformer = RDF2VecTransformer(Word2Vec(epochs=10), walkers=[RandomWalker(4, 6, with_reverse=False, n_jobs=4)], verbose=1)
-        kg = KG(
-            "https://dbpedia.org/sparql",
-            skip_predicates={"www.w3.org/1999/02/22-rdf-syntax-ns#type"},
-            literals=[
-                [
-                    'http://dbpedia.org/ontology/abstract',
-                    'http://dbpedia.org/ontology/flag',
-                    'http://dbpedia.org/ontology/thumbnail',
-                    'http://dbpedia.org/ontology/wikiPageExternalLink',
-                    'http://dbpedia.org/ontology/wikiPageID',
-                    'http://dbpedia.org/ontology/wikiPageRevisionID',
-                    'http://dbpedia.org/ontology/wikiPageWikiLink',
-                    'http://dbpedia.org/property/flagCaption',
-                    'http://dbpedia.org/property/float',
-                    'http://dbpedia.org/property/footnoteA',
-                    'http://dbpedia.org/property/footnoteB',
-                    'http://dbpedia.org/property/footnoteC',
-                    'http://dbpedia.org/property/source',
-                    'http://dbpedia.org/property/width',
-                    'http://purl.org/dc/terms/subject',
-                    'http://purl.org/linguistics/gold/hypernym',
-                    'http://purl.org/voc/vrank#hasRank',
-                    'http://www.georss.org/georss/point',
-                    'http://www.w3.org/2000/01/rdf-schema#comment',
-                    'http://www.w3.org/2000/01/rdf-schema#label',
-                    'http://www.w3.org/2000/01/rdf-schema#seeAlso',
-                    'http://www.w3.org/2002/07/owl#sameAs',
-                    'http://www.w3.org/2003/01/geo/wgs84_pos#geometry',
-                    'http://dbpedia.org/ontology/wikiPageRedirects',
-                    'http://www.w3.org/2003/01/geo/wgs84_pos#lat',
-                    'http://www.w3.org/2003/01/geo/wgs84_pos#long',
-                    'http://www.w3.org/2004/02/skos/core#exactMatch',
-                    'http://www.w3.org/ns/prov#wasDerivedFrom',
-                    'http://xmlns.com/foaf/0.1/depiction',
-                    'http://xmlns.com/foaf/0.1/homepage',
-                    'http://xmlns.com/foaf/0.1/isPrimaryTopicOf',
-                    'http://xmlns.com/foaf/0.1/name',
-                    'http://dbpedia.org/property/website',
-                    'http://dbpedia.org/property/west',
-                    'http://dbpedia.org/property/wordnet_type',
-                    'http://www.w3.org/2002/07/owl#differentFrom',
-                ]
-            ]
-        )
-        walkers = []
-        for i in range(len(list_new1)):
-            print("Walks were begun", i + 1)
-            walkers1 = transformer.get_walks(kg, [list_new1[i]])
-            print("Walks were completed")
-            walkers.append(walkers1[0][0]) if walkers1 else walkers.append(list_new1[i])
-        print("Fit was begun")
-        # transformer.transform(kg, list_new)
-        print("Transform was completed")
-        transformer.embedder._model.save("rdf2vec.model")
-        modeller = Word2Vec.load("rdf2vec.model")
-        for entity in list_new:
-            count = modeller.wv.most_similar(entity, topn=100000000)
-            list_words.append(count)
-        for list_of_words in list_words:
-            for entity in list_new:
-                for i in range(len(list_of_words)):
-                    if entity == list_of_words[i][0]:
-                        dictionary_new.setdefault(list_of_words[i][0], []).append(list_of_words[i][1])
-        for key_values in dictionary_new.keys():
-            maximum = max(dictionary_new[key_values])
-            dictionary_new.update([(key_values, (maximum + 1) / 2)])
-            for column in self.table_model.columns:
-                for cell in column.cells:
-                    if cell.candidate_entities is not None:
-                        for candidate_entity in cell.candidate_entities:
-                            candidate_entity._entity_embeddings_based_similarity = dictionary_new[candidate_entity.uri]
-        os.remove("rdf2vec.model")
+        dictionary_sym = {}
+
+        def sym(entity1, entity2):
+            try:
+                count = modeller.wv.similarity(entity1, entity2)
+            except:
+                count = 0
+            dictionary_sym.setdefault(entity1, []).append(float(count))
+            dictionary_sym.setdefault(entity2, []).append(float(count))
+
+        print("Model is loading")
+        modeller = W2V.load("model")
+        print("Model loading completed")
+        count_list_candidates = 0
+        print("Similarity begin")
+        dictionary_list_sym = {}
+        end = len(list_total)
+        end_end = len(list_new) - len(list_total[end - 1])
+        begin = len(list_total[0])
+        for i in range(0, end_end):
+            if list_new[i] not in list_total[count_list_candidates]:
+                if count_list_candidates != 0:
+                    begin += len(list_total[count_list_candidates])
+                count_list_candidates += 1
+            for j in range(begin, len(list_new)):
+                if list_new[j] not in list_total[count_list_candidates]:
+                    sym(list_new[i], list_new[j])
+        count_list_candidates = 0
+        temp_list = []
+
+        for key_values in dictionary_sym.keys():
+            if key_values not in list_total[count_list_candidates]:
+                count_list_candidates += 1
+            if count_list_candidates >= len(list_total):
+                count_list_candidates -= 1
+            len_list = 0
+            for j in range(len(list_total)):
+                if j != count_list_candidates:
+                    begin = len_list
+                    len_list += len(list_total[j])
+                    if len_list > len(dictionary_sym[key_values]):
+                        len_list -= len(list_total[j])
+                    for i in range(begin, len_list):
+                        temp_list.append(dictionary_sym[key_values][i])
+                    if begin != len_list:
+                        dictionary_list_sym.setdefault(key_values, []).append(temp_list)
+                        temp_list = []
+        for key_values in dictionary_list_sym.keys():
+            temp_list = []
+            for item in dictionary_list_sym[key_values]:
+                temp_list.append(float(max(item)))
+            dictionary_list_sym[key_values] = temp_list
+        ans_list = []
+        ans_temp = []
+        for i in range(len(list_total)):
+            for j in range(len(list_total[i])):
+                ans_temp.append(dictionary_list_sym[list_total[i][j]])
+            ans_list.append(ans_temp)
+            ans_temp = []
+        dict_ans = {}
+        for i in range(len(list_total)):
+            if len(list_total[i]) == 1:
+                dict_ans.setdefault(list_total[i][0], []).append(max(ans_list[i][0]))
+            else:
+                for j in range(len(list_total[i])):
+                    ans_list[i][j] = sum(ans_list[i][j])
+                    dict_ans.setdefault(list_total[i][j], []).append(ans_list[i][j])
+        for column in self.table_model.columns:
+            for cell in column.cells:
+                if cell.candidate_entities is not None:
+                    for candidate_entity in cell.candidate_entities:
+                        candidate_entity._entity_embeddings_based_similarity = dict_ans[candidate_entity.uri][0]
         print("Ranking of candidate entities by entity embeddings based similarity is complete.")
 
     def rank_candidate_entities_by_context_based_similarity(self):
