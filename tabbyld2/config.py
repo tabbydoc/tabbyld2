@@ -29,6 +29,7 @@ class ResultPath:
     RANKED_CANDIDATE_CLASSES_BY_MV = "ranked_candidate_classes_by_mv.json"
     RANKED_CANDIDATE_CLASSES_BY_HS = "ranked_candidate_classes_by_hs.json"
     RANKED_CANDIDATE_CLASSES_BY_CTP = "ranked_candidate_classes_by_ctp.json"
+    RANKED_CANDIDATE_CLASSES_BY_NS = "ranked_candidate_classes_by_ns.json"
 
     ANNOTATED_CELLS = "annotated_cells.json"
     ANNOTATED_COLUMNS = "annotated_columns.json"

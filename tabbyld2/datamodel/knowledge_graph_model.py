@@ -28,6 +28,7 @@ class ClassRankingMethod(str, Enum):
     MAJORITY_VOTING = "majority voting"
     HEADING_SIMILARITY = "heading similarity"
     COLUMN_TYPE_PREDICTION = "column type prediction"
+    NER_BASED_SIMILARITY = "NER based similarity"
     SCORES_AGGREGATION = "scores aggregation"
 
     @classmethod
@@ -124,16 +125,18 @@ class AbstractClassModel(ABC):
 
 class ClassModel(AbstractClassModel, ClassRankingWeightFactor):
     __slots__ = ("_uri", "_label", "_comment", "_majority_voting_score", "_heading_similarity",
-                 "_column_type_prediction_score", "_final_score")
+                 "_column_type_prediction_score", "_ner_based_similarity", "_final_score")
 
     def __init__(self, uri: Any = None, label: str = None, comment: str = None, majority_voting_score: float = 0,
-                 heading_similarity: float = 0, column_type_prediction_score: float = 0, final_score: float = 0):
+                 heading_similarity: float = 0, column_type_prediction_score: float = 0, ner_based_similarity: float = 0,
+                 final_score: float = 0):
         self._uri = uri
         self._label = label
         self._comment = comment
         self._majority_voting_score = majority_voting_score
         self._heading_similarity = heading_similarity
         self._column_type_prediction_score = column_type_prediction_score
+        self._ner_based_similarity = ner_based_similarity
         self._final_score = final_score
 
     @property
@@ -159,6 +162,10 @@ class ClassModel(AbstractClassModel, ClassRankingWeightFactor):
     @property
     def column_type_prediction_score(self):
         return self._column_type_prediction_score
+
+    @property
+    def ner_based_similarity(self):
+        return self._ner_based_similarity
 
     @property
     def final_score(self):

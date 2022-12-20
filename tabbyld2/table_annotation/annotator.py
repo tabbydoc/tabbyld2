@@ -264,6 +264,13 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                     candidate_class._column_type_prediction_score = 0
         print("Ranking of candidate classes by column type prediction is complete.")
 
+    def rank_candidate_classes_by_ner_based_similarity(self):
+        for column in self.table_model.columns:
+            if column.candidate_classes is not None:
+                for candidate_class in column.candidate_classes:
+                    candidate_class._column_type_prediction_score = 0
+        print("Ranking of candidate classes by column type prediction is complete.")
+
     def aggregate_ranked_candidate_classes(self):
         for column in self.table_model.columns:
             if column.candidate_classes is not None:

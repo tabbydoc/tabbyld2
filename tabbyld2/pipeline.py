@@ -111,6 +111,12 @@ def pipeline_column_type_annotation(table_model: TableModel, file: str, include_
         # Serialize column type prediction results in json format
         write_json_file(path, ResultPath.RANKED_CANDIDATE_CLASSES_BY_CTP,
                         annotator.table_model.serialize_ranked_candidate_classes(ClassRankingMethod.COLUMN_TYPE_PREDICTION))
+    # Rank candidate classes for all columns by using NER classes
+    annotator.rank_candidate_classes_by_ner_based_similarity()
+    if path is not None:
+        # Serialize NER based similarity results in json format
+        write_json_file(path, ResultPath.RANKED_CANDIDATE_CLASSES_BY_NS,
+                        annotator.table_model.serialize_ranked_candidate_classes(ClassRankingMethod.NER_BASED_SIMILARITY))
     annotator.aggregate_ranked_candidate_classes()  # Aggregate scores for candidate classes obtained based on three methods
     if path is not None:
         # Serialize score aggregation results in json format
