@@ -37,9 +37,11 @@ if __name__ == '__main__':
                     for row in reader:
                         length += 1
                         for keys in dictionary.keys():
-                            if keys.lower().replace(' ', '') == row[1].lower().replace(' ', '').replace('>', ''):
+                            if ftfy.fix_text(ftfy.fix_encoding(str(keys.lower().replace(' ', '')))) == \
+                                    ftfy.fix_text(
+                                        ftfy.fix_encoding(str(row[1].lower().replace(' ', '').replace('>', '')))):
                                 if dictionary[keys] is not None:
-                                    if dictionary[keys].count(row[0]):
+                                    if dictionary[keys].count(ftfy.fix_text(ftfy.fix_encoding(str(row[0])))):
                                         k += 1
                 accuracy = k / length
                 print("Accuracy:")
