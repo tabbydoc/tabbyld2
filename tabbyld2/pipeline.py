@@ -53,11 +53,11 @@ def pipeline_cell_entity_annotation(table_model: TableModel, file: str, include_
     # Rank candidate entities by NER based similarity
     # annotator.rank_candidate_entities_by_ner_based_similarity()
     # Rank candidate entities by heading based similarity
-    annotator.rank_candidate_entities_by_heading_based_similarity()
+    # annotator.rank_candidate_entities_by_heading_based_similarity()
     # Rank candidate entities by entity embeddings based similarity
     # annotator.rank_candidate_entities_by_entity_embeddings_based_similarity()
     # Rank candidate entities by context based similarity
-    annotator.rank_candidate_entities_by_context_based_similarity()
+    # annotator.rank_candidate_entities_by_context_based_similarity()
     # Aggregate scores for candidate entities obtained based on five heuristics
     annotator.aggregate_ranked_candidate_entities()
     # Annotate cell values (mentions) based on ranked candidate entities

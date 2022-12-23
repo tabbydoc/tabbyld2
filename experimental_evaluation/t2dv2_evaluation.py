@@ -284,12 +284,11 @@ def evaluate_t2dv2_dataset():
         print("average hierarchical score = " + str(cta_ah_score))
         print("average perfect score = " + str(cta_ap_score))
         # Save evaluation results for T2Dv2 dataset to json file
-        evaluations = dict()
-        evaluations["column classification"] = {"precision": cc_precision, "recall": cc_recall, "f1_score": cc_f1_score}
-        evaluations["subject column identification"] = {"precision": sci_precision, "recall": sci_recall, "f1_score": sci_f1_score}
-        evaluations["cell entity annotation"] = {"precision": cea_precision, "recall": cea_recall, "f1_score": cea_f1_score}
-        evaluations["column type annotation"] = {"ah_score": cta_ah_score, "ap_score": cta_ap_score}
-        write_json_file(EvaluationPath.EVALUATION_PATH, EvaluationPath.TOTAL_EVALUATION, evaluations)
+        evaluations = {"column classification": {"precision": total_cc_p, "recall": total_cc_r, "f1_score": total_cc_f1},
+                       "subject column identification": {"precision": sci_precision, "recall": sci_recall, "f1_score": sci_f1_score},
+                       "cell entity annotation": {"precision": cea_precision, "recall": cea_recall, "f1_score": cea_f1_score},
+                       "column type annotation": {"ah_score": cta_ah_score, "ap_score": cta_ap_score}}
+        write_json_file(EvaluationPath.EVALUATION_PATH, EvaluationPath.TOTAL_EVALUATION, [evaluations])
         print("***************************************************")
         print("Full time: " + str(datetime.now() - start_full_time))
 
