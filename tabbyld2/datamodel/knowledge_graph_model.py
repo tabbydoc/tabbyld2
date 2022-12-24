@@ -1,6 +1,8 @@
 from abc import ABC, abstractmethod
 from enum import Enum
-from typing import Any
+from typing import Any, Tuple
+
+from dbpedia_sparql_endpoint import get_objects_for_entity, get_subjects_for_entity
 
 
 class EntityRankingMethod(str, Enum):
@@ -46,6 +48,13 @@ class AbstractEntityModel(ABC):
     __slots__ = ()
 
     @abstractmethod
+    def get_context(self) -> None:
+        """
+        Get context for an entity (subjects and objects from RDF triples that are associated with an entity)
+        """
+        pass
+
+    @abstractmethod
     def aggregate_scores(self) -> float:
         """
         Aggregate scores (ranks) across all metrics
@@ -54,15 +63,16 @@ class AbstractEntityModel(ABC):
 
 
 class EntityModel(AbstractEntityModel, EntityRankingWeightFactor):
-    __slots__ = ("_uri", "_label", "_comment", "_string_similarity", "_ner_based_similarity", "_heading_based_similarity",
+    __slots__ = ("_uri", "_label", "_comment", "_context", "_string_similarity", "_ner_based_similarity", "_heading_based_similarity",
                  "_entity_embeddings_based_similarity", "_context_based_similarity", "_final_score")
 
-    def __init__(self, uri: str = None, label: str = None, comment: str = None, string_similarity: float = 0,
-                 ner_based_similarity: float = 0, heading_based_similarity: float = 0, entity_embeddings_based_similarity: float = 0,
-                 context_based_similarity: float = 0, final_score: float = 0):
+    def __init__(self, uri: str = None, label: str = None, comment: str = None, context: Tuple['EntityModel', ...] = None,
+                 string_similarity: float = 0, ner_based_similarity: float = 0, heading_based_similarity: float = 0,
+                 entity_embeddings_based_similarity: float = 0, context_based_similarity: float = 0, final_score: float = 0):
         self._uri = uri
         self._label = label
         self._comment = comment
+        self._context = context
         self._string_similarity = string_similarity
         self._ner_based_similarity = ner_based_similarity
         self._heading_based_similarity = heading_based_similarity
@@ -81,6 +91,10 @@ class EntityModel(AbstractEntityModel, EntityRankingWeightFactor):
     @property
     def comment(self):
         return self._comment
+
+    @property
+    def context(self):
+        return self._context
 
     @property
     def string_similarity(self):
@@ -105,6 +119,10 @@ class EntityModel(AbstractEntityModel, EntityRankingWeightFactor):
     @property
     def final_score(self):
         return self._final_score
+
+    def get_context(self):
+        context = {**get_subjects_for_entity(self.uri), **get_objects_for_entity(self.uri)}
+        self._context = tuple([EntityModel(uri, label, comment) for uri, (label, comment) in context.items()])
 
     def aggregate_scores(self):
         self._final_score = self.string_similarity * self.STRING_SIMILARITY + self.ner_based_similarity * self.NER_BASED_SIMILARITY +  \

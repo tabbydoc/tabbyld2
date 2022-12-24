@@ -1,6 +1,6 @@
 import re
 from enum import Enum
-from typing import Dict, List, Optional
+from typing import Dict, List
 from urllib.error import URLError
 
 from SPARQLWrapper import JSON, SPARQLWrapper
@@ -188,3 +188,79 @@ def get_candidate_classes(class_mention: str = "", short_name: bool = False) -> 
                 no_processing_query = True
                 print("Connection error to DBpedia SPARQL Endpoint! Reconnection is carried out.")
     return result_list
+
+
+def get_subjects_for_entity(entity: str, short_name: bool = False) -> Dict[str, List[str]]:
+    results, no_processing_query = {}, True
+    while no_processing_query:
+        try:
+            # Execute SPARQL query to DBpedia
+            sparql = SPARQLWrapper(DBPediaConfig.ENDPOINT_NAME)
+            sparql.setQuery("""
+                SELECT DISTINCT (str(?subject) as ?subject) (str(?label) as ?label) (str(?comment) as ?comment)
+                WHERE {
+                    {
+                        ?subject ?property <%s> .
+                        ?subject rdfs:comment ?comment .
+                        ?subject a ?type .
+                        ?subject rdfs:label ?label .
+                    }
+                    FILTER NOT EXISTS { ?subject dbo:wikiPageRedirects ?r2 } .
+                    FILTER (!strstarts(str(?subject), "http://dbpedia.org/resource/Category:")) .
+                    FILTER (!strstarts(str(?subject), "http://dbpedia.org/property/")) .
+                    FILTER (!strstarts(str(?subject), "http://dbpedia.org/ontology/")) .
+                    FILTER (!strstarts(str(?property), "http://dbpedia.org/ontology/")) .
+                    FILTER (strstarts(str(?type), "http://dbpedia.org/ontology/")) .
+                    FILTER (lang(?label) = "en") .
+                    FILTER (lang(?comment) = "en")
+                }
+                ORDER BY ASC(strlen(?label))
+            """ % entity)
+            sparql.setReturnFormat(JSON)
+            response = sparql.query().convert()
+            for item in response["results"]["bindings"]:
+                key = item["subject"]["value"].replace(DBPediaConfig.BASE_RESOURCE_URI, "") if short_name else item["subject"]["value"]
+                results[key] = [item["label"]["value"], item["comment"]["value"]]
+            no_processing_query = False
+        except URLError:
+            no_processing_query = True
+            print("Connection error to DBpedia SPARQL Endpoint! Reconnection is carried out.")
+    return results
+
+
+def get_objects_for_entity(entity: str, short_name: bool = False) -> Dict[str, List[str]]:
+    results, no_processing_query = {}, True
+    while no_processing_query:
+        try:
+            # Execute SPARQL query to DBpedia
+            sparql = SPARQLWrapper(DBPediaConfig.ENDPOINT_NAME)
+            sparql.setQuery("""
+                SELECT DISTINCT (str(?object) as ?object) (str(?label) as ?label) (str(?comment) as ?comment)
+                WHERE {
+                    {
+                        <%s> ?property ?object .
+                        ?object rdfs:comment ?comment .
+                        ?object a ?type .
+                        ?object rdfs:label ?label .
+                    }
+                    FILTER NOT EXISTS { ?object dbo:wikiPageRedirects ?r2 } .
+                    FILTER (!strstarts(str(?object), "http://dbpedia.org/resource/Category:")) .
+                    FILTER (!strstarts(str(?object), "http://dbpedia.org/property/")) .
+                    FILTER (!strstarts(str(?object), "http://dbpedia.org/ontology/")) .
+                    FILTER (!strstarts(str(?property), "http://dbpedia.org/ontology/")) .
+                    FILTER (strstarts(str(?type), "http://dbpedia.org/ontology/")) .
+                    FILTER (lang(?label) = "en") .
+                    FILTER (lang(?comment) = "en")
+                }
+                ORDER BY ASC(strlen(?label))
+            """ % entity)
+            sparql.setReturnFormat(JSON)
+            response = sparql.query().convert()
+            for item in response["results"]["bindings"]:
+                key = item["object"]["value"].replace(DBPediaConfig.BASE_RESOURCE_URI, "") if short_name else item["object"]["value"]
+                results[key] = [item["label"]["value"], item["comment"]["value"]]
+            no_processing_query = False
+        except URLError:
+            no_processing_query = True
+            print("Connection error to DBpedia SPARQL Endpoint! Reconnection is carried out.")
+    return results

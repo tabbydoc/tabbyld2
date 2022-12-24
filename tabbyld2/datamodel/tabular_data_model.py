@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
-from enum import Enum
 from operator import attrgetter
-from typing import Any, Callable, Dict, Iterator, List, Optional, Tuple, Union, Iterable
+from typing import Any, Callable, Dict, Iterable, Iterator, List, Optional, Tuple, Union
 
 from tabbyld2.datamodel.knowledge_graph_model import ClassModel, ClassRankingMethod, EntityModel, EntityRankingMethod
 from tabbyld2.preprocessing.cleaner import fix_text, remove_garbage_characters, remove_multiple_spaces

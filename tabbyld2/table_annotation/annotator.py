@@ -29,15 +29,15 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                 for cell in column.cells:
                     if cell.cleared_value is not None and cell.candidate_entities is None:
                         # Get a set of candidate entities using the DBpedia SPARQL Endpoint
-                        candidate_entities = get_candidate_entities(cell.cleared_value, False)
+                        candidate_entities = get_candidate_entities(cell.cleared_value)
                         # Get a set of candidate entities using the DBpedia Lookup
-                        candidate_entities_from_dbl = dbl.get_candidate_entities(cell.cleared_value, 100, None, False)
+                        candidate_entities_from_dbl = dbl.get_candidate_entities(cell.cleared_value, 100, None)
                         # Form common dict for candidate entities
                         for entity_uri, item in candidate_entities_from_dbl.items():
                             if entity_uri not in candidate_entities:
                                 candidate_entities[entity_uri] = item
                         if candidate_entities:
-                            cell.set_candidate_entities([EntityModel(key, item[0], item[1]) for key, item in candidate_entities.items()])
+                            cell.set_candidate_entities([EntityModel(uri, label, com) for uri, (label, com) in candidate_entities.items()])
                         # Form a set of candidate entities for cells with same values
                         for cl in column.cells:
                             if cl.cleared_value == cell.cleared_value and cl.candidate_entities is None:
