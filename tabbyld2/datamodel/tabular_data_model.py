@@ -1,18 +1,11 @@
 from abc import ABC, abstractmethod
 from enum import Enum
 from operator import attrgetter
-from typing import Any, Callable, Dict, Iterator, List, Optional, Tuple, Union
+from typing import Any, Callable, Dict, Iterator, List, Optional, Tuple, Union, Iterable
 
 from tabbyld2.datamodel.knowledge_graph_model import ClassModel, ClassRankingMethod, EntityModel, EntityRankingMethod
 from tabbyld2.preprocessing.cleaner import fix_text, remove_garbage_characters, remove_multiple_spaces
 from tabbyld2.preprocessing.labels import LiteralLabel, NamedEntityLabel
-
-
-class ContextDirection(Enum):
-    left = 0
-    right = 1
-    top = 2
-    bottom = 3
 
 
 class AbstractColumnCellModel(ABC):
@@ -56,6 +49,9 @@ class ColumnCellModel(AbstractColumnCellModel):
     @property
     def annotation(self):
         return self._annotation
+
+    def set_cleared_value(self, cleared_value: Optional[str]):
+        self._cleared_value = cleared_value
 
     def set_label(self, label: Union[LiteralLabel, NamedEntityLabel]):
         self._label = label
@@ -110,7 +106,10 @@ class TableColumnModel(AbstractTableColumnModel):
     def annotation(self):
         return self._annotation
 
-    def set_column_type(self, column_type: str) -> None:
+    def set_header_name(self, header_name: str):
+        self._header_name = header_name
+
+    def set_column_type(self, column_type: str):
         self._column_type = column_type
 
     def annotate_column(self):
@@ -167,12 +166,12 @@ class AbstractTableModel(ABC):
         pass
 
     @abstractmethod
-    def context(self, row_index: int, column_index: int, direction: ContextDirection) -> Tuple[Any, ...]:
+    def context(self, row_index: int, column_index: int, include_header: bool = False) -> Tuple[str, ...]:
         """
-        Get cell local context in specified direction. Result cells are ordered by distance from No header cells are included in result
+        Get cell local context by row and column
         :param row_index: target cell row index
         :param column_index: target cell column index
-        :param direction: desired context direction
+        :param include_header: flag to include or exclude header cells from result
         :return: specified cell local context
         """
         pass
@@ -253,11 +252,12 @@ class AbstractTableModel(ABC):
 
 
 class TableModel(AbstractTableModel):
-    __slots__ = ("_table_name", "_columns", "_columns_number", "_rows_number")
+    __slots__ = ("_table_name", "_columns", "_header_indexes", "_columns_number", "_rows_number")
 
-    def __init__(self, table_name: str, columns: Tuple[TableColumnModel, ...]):
+    def __init__(self, table_name: str, columns: Tuple[TableColumnModel, ...], header_indexes: Optional[Iterable[int]] = None):
         self._table_name = table_name
         self._columns = columns
+        self._header_indexes = tuple(header_indexes) if header_indexes is not None else ()
         self._columns_number = len(self.columns) if len(self.columns) != 0 else 0
         self._rows_number = len(self.columns[0].cells) if len(self.columns[0].cells) != 0 else 0
 
@@ -270,12 +270,19 @@ class TableModel(AbstractTableModel):
         return self._columns
 
     @property
+    def header_indexes(self):
+        return self._header_indexes
+
+    @property
     def columns_number(self):
         return self._columns_number
 
     @property
     def rows_number(self):
         return self._rows_number
+
+    def set_header_indexes(self, rows: Iterable[int]):
+        self._header_indexes = tuple(rows)
 
     def _validate_indices(self, column_index: Optional[int] = None, row_index: Optional[int] = None):
         """
@@ -305,12 +312,13 @@ class TableModel(AbstractTableModel):
             if cell_filter(row, column):
                 yield self.cell(column, row)
 
-    def _column_iterator(self, column: int, *, row_start: int = 0, row_end: Optional[int] = None,
+    def _column_iterator(self, column: int, *, include_header: bool = False, row_start: int = 0, row_end: Optional[int] = None,
                          cell_filter: Callable[[int, int], bool] = lambda row, column: True) -> Iterator[Any]:
         """
         Iterates table over specified column from row_start to row_end (defaults to table size).
         Cells on which cell_filter returns False are ignored
         :param column: column index
+        :param include_header: flag to include or exclude header cells from result
         :param row_start: row start index
         :param row_end: row end index
         :param cell_filter: cell filter
@@ -320,10 +328,13 @@ class TableModel(AbstractTableModel):
         step = 1 if row_start < row_end else -1
         for row in range(row_start, row_end + step, step):
             if cell_filter(row, column):
-                yield self.cell(column, row)
+                if include_header:
+                    yield self.cell(column, row)
+                elif row not in self.header_indexes:
+                    yield self.cell(column, row)
 
     def column(self, column_index: int, *, include_header: bool = False) -> Tuple[Any, ...]:
-        return tuple(self._column_iterator(column_index))
+        return tuple(self._column_iterator(column_index, include_header=include_header))
 
     def row(self, row_index: int) -> Tuple[Any, ...]:
         return tuple(self._row_iterator(row_index))
@@ -333,18 +344,20 @@ class TableModel(AbstractTableModel):
         cleared_value = self.columns[column_index].cells[row_index].cleared_value
         return cleared_value if cleared_value is not None else self.columns[column_index].cells[row_index].source_value
 
-    def context(self, row_index: int, column_index: int, direction: ContextDirection) -> Tuple[Any, ...]:
-        pass
+    def context(self, row_index: int, column_index: int, include_header: bool = False) -> Tuple[str, ...]:
+        context = {*self.row(row_index), *self.column(column_index, include_header=include_header)}
+        context.remove(self.cell(column_index, row_index))
+        return tuple(context)
 
     def clean(self, include_header: bool = False) -> None:
         for column in self.columns:
             if include_header:
-                column._header_name = remove_multiple_spaces(fix_text(column.header_name))
+                column.set_header_name(remove_multiple_spaces(fix_text(column.header_name)))
             for cell in column.cells:
                 if cell.source_value is not None:
-                    cell._cleared_value = remove_multiple_spaces(remove_garbage_characters(fix_text(cell.source_value)))
+                    cell.set_cleared_value(remove_multiple_spaces(remove_garbage_characters(fix_text(cell.source_value))))
                     if not cell.cleared_value:
-                        cell._cleared_value = None
+                        cell.set_cleared_value(None)
 
     def serialize_cleared_table(self) -> List[dict]:
         return [{column.header_name: column.cells[i].cleared_value for column in self.columns} for i in range(self.rows_number)]

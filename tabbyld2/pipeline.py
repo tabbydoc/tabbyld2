@@ -23,6 +23,7 @@ def pipeline_preprocessing(table_model: TableModel, file: str, named_entity_reco
     :param include_serialization: a flag to include or exclude JSON serialization from result
     :return: a new table model
     """
+    table_model.set_header_indexes([0])  # Set header indexes for table
     table_model.clean(True)  # Tabular data cleaning
     column_classifier = AtomicColumnClassifier(table_model, named_entity_recognition, duckling_wrapper)
     column_classifier.classify_columns()  # Classify table columns on atomic types
