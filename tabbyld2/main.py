@@ -10,7 +10,7 @@ from tabbyld2.helpers.parser import deserialize_table, save_json_dataset
 from tabbyld2.pipeline import pipeline_cell_entity_annotation, pipeline_column_type_annotation, pipeline_preprocessing
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     start_full_time = datetime.now()
     save_json_dataset(ResultPath.CSV_FILE_PATH, ResultPath.JSON_FILE_PATH)  # Save a set of source tables in the json format
     stanza.download("en")  # Init Stanford NER annotator
