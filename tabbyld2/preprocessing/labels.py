@@ -4,7 +4,7 @@ from enum import Enum
 class NamedEntityLabel(str, Enum):
     PERSON = "PERSON"  # People, including fictional
     NORP = "NORP"  # Nationalities or religious or political groups
-    FACILITY = "FACILITY"  # Buildings, airports, highways, bridges, etc.
+    FACILITY = "FAC"  # Buildings, airports, highways, bridges, etc.
     ORGANIZATION = "ORG"  # Companies, agencies, institutions, etc.
     GPE = "GPE"  # Countries, cities, states
     LOCATION = "LOC"  # Non-GPE locations, mountain ranges, bodies of water
