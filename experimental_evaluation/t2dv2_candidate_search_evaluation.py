@@ -26,10 +26,11 @@ if __name__ == "__main__":
             with open(provenance_path + ResultPath.CANDIDATE_ENTITIES, "r", encoding="utf-8") as candidate_entities_file:
                 candidate_entities = {}
                 for cell_value, entities in json.loads(candidate_entities_file.read())[sub_col].items():
-                    string = ""
-                    for entity in entities:
-                        string += ", <" + entity + ">" if string else "<" + entity + ">"
-                    candidate_entities[cell_value] = list({*get_redirects(string), *entities})
+                    if entities:
+                        string = ""
+                        for entity in entities:
+                            string += ", <" + entity + ">" if string else "<" + entity + ">"
+                        candidate_entities[cell_value] = list({*get_redirects(string), *entities})
             k, length = 0, 0
             with open(instance, "r", newline="", encoding="utf-8") as csv_file:
                 for (uri, cell_value, _) in csv.reader(csv_file):
