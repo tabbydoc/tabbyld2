@@ -1,5 +1,3 @@
-from typing import Any
-
 import ftfy
 
 
@@ -12,7 +10,7 @@ def remove_multiple_spaces(text: str) -> str:
     return " ".join(text.split())
 
 
-def check_letter_and_digit_existence(text: Any) -> bool:
+def check_letter_and_digit_existence(text: str) -> bool:
     """
     Check existence of letters and (or) numbers in a source text
     :param text: a source text
@@ -23,7 +21,7 @@ def check_letter_and_digit_existence(text: Any) -> bool:
     return True if exist_letter or exist_digit else False
 
 
-def remove_garbage_characters(text: Any) -> str:
+def remove_garbage_characters(text: str) -> str:
     """
     Remove "garbage" characters in a source text
     :param text: a source text
@@ -37,7 +35,7 @@ def remove_garbage_characters(text: Any) -> str:
     return new_text
 
 
-def fix_text(text: Any) -> str:
+def fix_text(text: str) -> str:
     """
     Fix broken Unicode characters and HTML tags in a source text
     :param text: a source text
