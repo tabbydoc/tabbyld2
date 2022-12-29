@@ -31,11 +31,6 @@ def get_redirects(entity: str) -> Tuple[str, ...]:
     return tuple(result["redirect"]["value"] for result in response["results"]["bindings"] if "redirect" in result)
 
 
-if __name__ == "__main__":
-    foo = get_redirects("http://dbpedia.org/resource/CNN-News18")
-    print(foo)
-
-
 def get_variable_for_query(ngrams: List[Tuple[Any, ...]]) -> str:
     """
     Get a textual variable with 'AND' and 'OR' separators for SPARQL query
