@@ -1,6 +1,6 @@
 import re
 from enum import Enum
-from typing import Dict, List, Tuple, Any
+from typing import Any, Dict, List, Tuple
 from urllib.error import URLError
 
 from SPARQLWrapper import JSON, SPARQLWrapper
@@ -11,6 +11,29 @@ class DBPediaConfig(str, Enum):
     ENDPOINT_NAME = "http://dbpedia.org/sparql"
     BASE_RESOURCE_URI = "http://dbpedia.org/resource/"
     BASE_ONTOLOGY_URI = "http://dbpedia.org/ontology/"
+
+
+def get_redirects(entity: str) -> Tuple[str, ...]:
+    """
+    Get entities that are redirects to this entity
+    :param entity: a target entity
+    :return: a list of URI for redirect entities
+    """
+    sparql = SPARQLWrapper(DBPediaConfig.ENDPOINT_NAME)
+    sparql.setQuery("""
+        SELECT DISTINCT (str(?redirect) as ?redirect)
+        WHERE {
+            ?redirect dbo:wikiPageRedirects <%s> .
+        }
+    """ % entity)
+    sparql.setReturnFormat(JSON)
+    response = sparql.query().convert()
+    return tuple(result["redirect"]["value"] for result in response["results"]["bindings"] if "redirect" in result)
+
+
+if __name__ == "__main__":
+    foo = get_redirects("http://dbpedia.org/resource/CNN-News18")
+    print(foo)
 
 
 def get_variable_for_query(ngrams: List[Tuple[Any, ...]]) -> str:
@@ -83,13 +106,13 @@ def get_candidate_entities(entity_mention: str = "", short_name: bool = False) -
                     sparql.setReturnFormat(JSON)
                     response = sparql.query().convert()
                     redirects = []
-                    for item in response["results"]["bindings"]:
-                        key = item["subject"]["value"].replace(DBPediaConfig.BASE_RESOURCE_URI, "") if short_name else item["subject"]["value"]
-                        if key in results:
-                            redirects.append(item["rd"]["value"])
+                    for rs in response["results"]["bindings"]:
+                        uri = rs["subject"]["value"].replace(DBPediaConfig.BASE_RESOURCE_URI, "") if short_name else rs["subject"]["value"]
+                        if uri in results:
+                            redirects.append(rs["rd"]["value"])
                         else:
-                            redirects = [item["rd"]["value"]] if "rd" in item else []
-                        results[key] = [item["label"]["value"], item["comment"]["value"], redirects]
+                            redirects = [rs["rd"]["value"]] if "rd" in rs else []
+                        results[uri] = [rs["label"]["value"], rs["comment"]["value"], redirects]
                     connection_error = False
                 except URLError:
                     connection_error = True
