@@ -61,11 +61,11 @@ class T2Dv2TableEvaluation(TableEvaluation):
                                     column.cells[i].source_value.lower():
                                 if column.cells[i].annotation is not None:
                                     annotated_cells += 1
-                                    if unquote(uri.lower()) == column.cells[i].annotation.lower() or \
-                                            uri.encode("raw_unicode_escape").decode("utf-8").lower() == column.cells[i].annotation.lower():
+                                    annotations = [column.cells[i].annotation.uri, *column.cells[i].annotation.redirects]
+                                    if unquote(uri) in annotations or uri.encode("raw_unicode_escape").decode("utf-8") in annotations:
                                         correctly_annotated_cells += 1
                                     else:
-                                        print("INS: " + unquote(uri) + " != ANN: " + column.cells[i].annotation)
+                                        print("INS: " + unquote(uri) + " != ANN: " + column.cells[i].annotation.uri)
                                 else:
                                     print("INS: " + unquote(uri) + " != ANN: NULL")
         self.cell_entity_annotation_evaluation.set_precision(correctly_annotated_cells / annotated_cells if annotated_cells != 0 else 0)

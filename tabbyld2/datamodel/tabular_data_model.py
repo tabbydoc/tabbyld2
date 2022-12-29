@@ -22,7 +22,7 @@ class ColumnCellModel(AbstractColumnCellModel):
     __slots__ = ("_source_value", "_cleared_value", "_label", "_candidate_entities", "_annotation")
 
     def __init__(self, source_value: Any = None, cleared_value: str = None, label: str = None,
-                 candidate_entities: Tuple[EntityModel, ...] = None, annotation: str = None):
+                 candidate_entities: Tuple[EntityModel, ...] = None, annotation: EntityModel = None):
         self._source_value = source_value
         self._cleared_value = cleared_value
         self._label = label
@@ -60,7 +60,7 @@ class ColumnCellModel(AbstractColumnCellModel):
 
     def annotate_cell(self):
         if self.candidate_entities is not None:
-            self._annotation = max(self.candidate_entities, key=attrgetter("_final_score")).uri
+            self._annotation = max(self._candidate_entities, key=attrgetter("_final_score"))
 
 
 class AbstractTableColumnModel(ABC):
@@ -113,7 +113,7 @@ class TableColumnModel(AbstractTableColumnModel):
 
     def annotate_column(self):
         if self.candidate_classes is not None:
-            self._annotation = max(self.candidate_classes, key=attrgetter("_final_score")).uri
+            self._annotation = max(self._candidate_classes, key=attrgetter("_final_score")).uri
 
 
 class AbstractTableModel(ABC):
@@ -404,7 +404,10 @@ class TableModel(AbstractTableModel):
         return serialized_ranked_candidate_entities
 
     def serialize_annotated_cells(self) -> Dict[str, Dict[str, str]]:
-        return {column.header_name: {cell.cleared_value: cell.annotation for cell in column.cells} for column in self.columns}
+        serialized = {}
+        for column in self.columns:
+            serialized[column.header_name] = {cell.cleared_value: cell.annotation.uri for cell in column.cells if cell.annotation}
+        return serialized
 
     def serialize_ranked_candidate_classes(self, method: str = None) -> Dict[str, Dict[str, float]]:
         serialized_ranked_candidate_classes = {}

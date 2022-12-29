@@ -216,7 +216,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                 dbpedia_classes = {}
                 for cell in column.cells:
                     # Get a set of classes from DBpedia for a referent entity
-                    response = get_classes_for_entity(cell.annotation, False)
+                    response = get_classes_for_entity(cell.annotation.uri, False)
                     dbpedia_classes.update(response)
                     # Calculate a class occurrence frequency
                     frequency.update(Counter([*response]))
