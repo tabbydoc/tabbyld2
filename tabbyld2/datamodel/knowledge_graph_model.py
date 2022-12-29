@@ -63,15 +63,17 @@ class AbstractEntityModel(ABC):
 
 
 class EntityModel(AbstractEntityModel, EntityRankingWeightFactor):
-    __slots__ = ("_uri", "_label", "_comment", "_context", "_string_similarity", "_ner_based_similarity", "_heading_based_similarity",
-                 "_entity_embeddings_based_similarity", "_context_based_similarity", "_final_score")
+    __slots__ = ("_uri", "_label", "_comment", "_redirects", "_context", "_string_similarity", "_ner_based_similarity",
+                 "_heading_based_similarity", "_entity_embeddings_based_similarity", "_context_based_similarity", "_final_score")
 
-    def __init__(self, uri: str = None, label: str = None, comment: str = None, context: Tuple['EntityModel', ...] = None,
-                 string_similarity: float = 0, ner_based_similarity: float = 0, heading_based_similarity: float = 0,
-                 entity_embeddings_based_similarity: float = 0, context_based_similarity: float = 0, final_score: float = 0):
+    def __init__(self, uri: str = None, label: str = None, comment: str = None, redirects: Tuple[str, ...] = None,
+                 context: Tuple['EntityModel', ...] = None, string_similarity: float = 0, ner_based_similarity: float = 0,
+                 heading_based_similarity: float = 0, entity_embeddings_based_similarity: float = 0,
+                 context_based_similarity: float = 0, final_score: float = 0):
         self._uri = uri
         self._label = label
         self._comment = comment
+        self._redirects = redirects
         self._context = context
         self._string_similarity = string_similarity
         self._ner_based_similarity = ner_based_similarity
@@ -91,6 +93,10 @@ class EntityModel(AbstractEntityModel, EntityRankingWeightFactor):
     @property
     def comment(self):
         return self._comment
+
+    @property
+    def redirects(self):
+        return self._redirects
 
     @property
     def context(self):

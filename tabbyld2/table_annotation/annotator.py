@@ -3,12 +3,12 @@ from typing import Tuple
 
 import tabbyld2.table_annotation.dbpedia_lookup as dbl
 from Levenshtein._levenshtein import distance
-from tabbyld2.table_annotation.concept_mapping import CLASS_MAPPING, DATATYPE_MAPPING, XMLSchemaDataType
-from gensim.models.word2vec import Word2Vec as W2V
+from gensim.models.word2vec import Word2Vec
 from tabbyld2.datamodel.knowledge_graph_model import ClassModel, EntityModel
 from tabbyld2.datamodel.tabular_data_model import TableModel
 from tabbyld2.preprocessing.atomic_column_classifier import ColumnType
 from tabbyld2.table_annotation.abstract import AbstractSemanticTableAnnotator
+from tabbyld2.table_annotation.concept_mapping import CLASS_MAPPING, DATATYPE_MAPPING, XMLSchemaDataType
 from tabbyld2.table_annotation.dbpedia_sparql_endpoint import DBPediaConfig, get_candidate_classes, get_candidate_entities, \
     get_classes_for_entity, get_distance_to_class
 
@@ -37,7 +37,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                             if entity_uri not in candidate_entities:
                                 candidate_entities[entity_uri] = item
                         if candidate_entities:
-                            cell.set_candidate_entities([EntityModel(uri, label, com) for uri, (label, com) in candidate_entities.items()])
+                            cell.set_candidate_entities([EntityModel(uri, lb, cm, rd) for uri, (lb, cm, rd) in candidate_entities.items()])
                         # Form a set of candidate entities for cells with same values
                         for cl in column.cells:
                             if cl.cleared_value == cell.cleared_value and cl.candidate_entities is None:
@@ -124,7 +124,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
             dictionary_sym.setdefault(entity2, []).append(float(count))
 
         print("Model is loading")
-        modeller = W2V.load("model")
+        modeller = Word2Vec.load("model")
         print("Model loading completed")
         count_list_candidates = 0
         print("Similarity begin")

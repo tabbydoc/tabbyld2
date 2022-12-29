@@ -34,13 +34,17 @@ def get_candidate_entities(entity_mention: str = "", short_name: bool = False) -
                 # Execute SPARQL query to DBpedia
                 sparql = SPARQLWrapper(DBPediaConfig.ENDPOINT_NAME)
                 sparql.setQuery("""
-                    SELECT DISTINCT (str(?subject) as ?subject) (str(?label) as ?label) (str(?comment) as ?comment)
+                    SELECT DISTINCT (str(?subject) as ?subject) (str(?label) as ?label) (str(?comment) as ?comment) (str(?rd) as ?rd)
                     WHERE {
                         {
                             ?subject rdfs:comment ?comment .
                             ?subject a ?type .
                             ?subject rdfs:label ?label .
                             ?label bif:contains "%s" .
+                            OPTIONAL
+                            {
+                                ?rd dbo:wikiPageRedirects ?subject .
+                            }
                         }
                         FILTER NOT EXISTS { ?subject dbo:wikiPageRedirects ?r2 } .
                         FILTER (!strstarts(str(?subject), "http://dbpedia.org/resource/Category:")) .
@@ -55,9 +59,14 @@ def get_candidate_entities(entity_mention: str = "", short_name: bool = False) -
                 """ % string)
                 sparql.setReturnFormat(JSON)
                 response = sparql.query().convert()
+                redirects = []
                 for item in response["results"]["bindings"]:
                     key = item["subject"]["value"].replace(DBPediaConfig.BASE_RESOURCE_URI, "") if short_name else item["subject"]["value"]
-                    results[key] = [item["label"]["value"], item["comment"]["value"]]
+                    if key in results:
+                        redirects.append(item["rd"]["value"])
+                    else:
+                        redirects = [item["rd"]["value"]] if "rd" in item else []
+                    results[key] = [item["label"]["value"], item["comment"]["value"], redirects]
                 no_processing_query = False
             except URLError:
                 no_processing_query = True

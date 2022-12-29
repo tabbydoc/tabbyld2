@@ -1,8 +1,7 @@
 import json
-from typing import List, Dict, Optional
+from typing import Dict, List
 
 import requests
-
 from dbpedia_sparql_endpoint import DBPediaConfig
 
 
@@ -42,7 +41,10 @@ def get_candidate_entities(query: str, max_results: int = None, min_relevance: i
                 json_response = json.loads(response.text)
                 for doc in json_response["docs"]:
                     key = doc["resource"][0].replace(DBPediaConfig.BASE_RESOURCE_URI, "") if short_name else doc["resource"][0]
-                    results[key] = [doc["label"][0] if "label" in doc else "", doc["comment"][0] if "comment" in doc else ""]
+                    redirect = []
+                    if "redirectlabel" in doc:
+                        redirect = [DBPediaConfig.BASE_RESOURCE_URI + rl.replace(" ", "_") for rl in doc["redirectlabel"]]
+                    results[key] = [doc["label"][0] if "label" in doc else "", "", redirect]
             # else:
             #     raise requests.exceptions.ConnectionError(f"{response.status_code}")
         except requests.exceptions.RequestException:
