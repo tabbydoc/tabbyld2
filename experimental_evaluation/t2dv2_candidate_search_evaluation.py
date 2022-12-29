@@ -3,6 +3,7 @@ import json
 import os
 from datetime import datetime
 
+from dbpedia_sparql_endpoint import get_redirects
 from ftfy import fix_encoding, fix_text
 from tabbyld2.config import EvaluationPath, ResultPath
 from tabbyld2.helpers.file import remove_suffix_in_filename
@@ -23,17 +24,23 @@ if __name__ == "__main__":
                     if value == "SUBJECT":
                         sub_col = fix_text(fix_encoding(str(key)))
             with open(provenance_path + ResultPath.CANDIDATE_ENTITIES, "r", encoding="utf-8") as candidate_entities_file:
-                dictionary = json.loads(candidate_entities_file.read())[sub_col]
+                candidate_entities = {}
+                for cell_value, entities in json.loads(candidate_entities_file.read())[sub_col].items():
+                    string = ""
+                    for entity in entities:
+                        string += ", <" + entity + ">" if string else "<" + entity + ">"
+                    candidate_entities[cell_value] = list({*get_redirects(string), *entities})
             k, length = 0, 0
             with open(instance, "r", newline="", encoding="utf-8") as csv_file:
                 for (uri, cell_value, _) in csv.reader(csv_file):
                     length += 1
-                    for key in dictionary.keys():
+                    for key in candidate_entities.keys():
                         if fix_text(fix_encoding(str(key.lower().replace(" ", "")))) == \
                                 fix_text(fix_encoding(str(cell_value.lower().replace(" ", "").replace(">", "")))):
-                            if dictionary[key] is not None:
-                                if dictionary[key].count(fix_text(fix_encoding(str(uri)))):
-                                    k += 1
-            print("Accuracy for " + str(file) + ": " + str(k / length))
+                            if candidate_entities[key] is not None and candidate_entities[key].count(fix_text(fix_encoding(str(uri)))):
+                                k += 1
+                            else:
+                                print(str(uri))
+            print("Accuracy for " + str(file) + ": " + str(k / length) + "\n")
     print("***************************************************")
     print("Full time: " + str(datetime.now() - start_full_time))

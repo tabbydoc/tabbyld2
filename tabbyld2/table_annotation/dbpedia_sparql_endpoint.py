@@ -13,19 +13,21 @@ class DBPediaConfig(str, Enum):
     BASE_ONTOLOGY_URI = "http://dbpedia.org/ontology/"
 
 
-def get_redirects(entity: str) -> Tuple[str, ...]:
+def get_redirects(entities: str) -> Tuple[str, ...]:
     """
     Get entities that are redirects to this entity
-    :param entity: a target entity
+    :param entities: a text sequence of entities to SPARQL query
     :return: a list of URI for redirect entities
     """
-    sparql = SPARQLWrapper(DBPediaConfig.ENDPOINT_NAME)
+    sparql = SPARQLWrapper("https://dbpedia.org/sparql")
+    sparql.setMethod("POST")
     sparql.setQuery("""
         SELECT DISTINCT (str(?redirect) as ?redirect)
         WHERE {
-            ?redirect dbo:wikiPageRedirects <%s> .
+            ?redirect dbo:wikiPageRedirects ?subject .
+            FILTER (?subject IN (%s))
         }
-    """ % entity)
+    """ % entities)
     sparql.setReturnFormat(JSON)
     response = sparql.query().convert()
     return tuple(result["redirect"]["value"] for result in response["results"]["bindings"] if "redirect" in result)
