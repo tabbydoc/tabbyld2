@@ -29,6 +29,8 @@ def remove_garbage_characters(text: str) -> str:
     """
     new_text = ""
     if check_letter_and_digit_existence(text):
+        if text.endswith("."):
+            text = text[:-1]
         for word in text.split():
             if check_letter_and_digit_existence(word) and word:
                 new_text += " " + word if new_text else word
