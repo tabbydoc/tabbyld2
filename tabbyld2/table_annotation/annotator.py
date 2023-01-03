@@ -28,10 +28,10 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                     column.column_type == ColumnType.SUBJECT_COLUMN:
                 for cell in column.cells:
                     if cell.cleared_value is not None and cell.candidate_entities is None:
-                        # Get a set of candidate entities using the DBpedia SPARQL Endpoint
-                        candidate_entities = get_candidate_entities(cell.cleared_value)
                         # Get a set of candidate entities using the DBpedia Lookup
                         candidate_entities_from_dbl = dbl.get_candidate_entities(cell.cleared_value, 100, None)
+                        # Get a set of candidate entities using the DBpedia SPARQL Endpoint
+                        candidate_entities = get_candidate_entities(cell.cleared_value, False if candidate_entities_from_dbl else True)
                         # Form common dict for candidate entities
                         for entity_uri, item in candidate_entities_from_dbl.items():
                             if entity_uri not in candidate_entities:
@@ -216,7 +216,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                 dbpedia_classes = {}
                 for cell in column.cells:
                     # Get a set of classes from DBpedia for a referent entity
-                    response = get_classes_for_entity(cell.annotation.uri, False)
+                    response = get_classes_for_entity(cell.annotation.uri if cell.annotation is not None else None, False)
                     dbpedia_classes.update(response)
                     # Calculate a class occurrence frequency
                     frequency.update(Counter([*response]))

@@ -1,5 +1,6 @@
 import re
 from enum import Enum
+from itertools import combinations
 from typing import Any, Dict, List, Tuple
 from urllib.error import URLError
 
@@ -56,14 +57,15 @@ def generate_ngrams(text: str, n: int) -> List[Tuple[Any, ...]]:
     :param n: a value for N-grams
     :return: a list of N-grams
     """
-    return list(zip(*[re.split(r"[\\/,.'* ]+", text.replace("&", "and"))[i:] for i in range(n)]))
+    return list(combinations(re.split(r"[\\/,.'* ]+", text.replace("&", "and")), n))
 
 
-def get_candidate_entities(entity_mention: str = "", short_name: bool = False) -> Dict[str, List[str]]:
+def get_candidate_entities(entity_mention: str = "", deep_search: bool = True, short_name: bool = False) -> Dict[str, List[str]]:
     """
     Get a set of candidate entities based on the direct SPARQL query to DBpedia
     :param entity_mention: a textual entity mention
-    :param short_name: flag to enable or disable short entity name display mode (without full URI)
+    :param deep_search: a textual entity mention
+    :param short_name: flag to enable or disable deep search mode by various combinations of words
     :return: a dict of candidate entities
     """
     results, processing_query, number = {}, False, len(re.split(r"[\\/,.'* ]+", entity_mention))
@@ -114,7 +116,7 @@ def get_candidate_entities(entity_mention: str = "", short_name: bool = False) -
                 except URLError:
                     connection_error = True
                     print("Connection error to DBpedia SPARQL Endpoint! Reconnection is carried out.")
-        if results or number == 0:
+        if results or number == 1 or not deep_search:
             processing_query = True
         else:
             processing_query = False
