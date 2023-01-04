@@ -42,7 +42,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         for cl in column.cells:
                             if cl.cleared_value == cell.cleared_value and cl.candidate_entities is None:
                                 cl.set_candidate_entities(cell.candidate_entities)
-                    print("The candidate entity lookup for '" + str(cell.cleared_value) + "' cell is complete.")
+                        print("The candidate entity lookup for '" + str(cell.cleared_value) + "' cell is complete.")
 
     @staticmethod
     def get_levenshtein_distance(text_mention: str, candidate: str, candidates: Tuple[EntityModel, ...],

@@ -372,10 +372,11 @@ class TableModel(AbstractTableModel):
         for column in self.columns:
             cells = {}
             for cell in column.cells:
-                if cell.cleared_value is not None and cell.candidate_entities is not None:
-                    cells[cell.cleared_value] = [candidate_entity.uri for candidate_entity in cell.candidate_entities]
-                else:
-                    cells[cell.cleared_value] = None
+                if cell.cleared_value is not None:
+                    if cell.candidate_entities is not None:
+                        cells[cell.cleared_value] = [candidate_entity.uri for candidate_entity in cell.candidate_entities]
+                    else:
+                        cells[cell.cleared_value] = None
             serialized_candidate_entities[column.header_name] = cells
         return serialized_candidate_entities
 
