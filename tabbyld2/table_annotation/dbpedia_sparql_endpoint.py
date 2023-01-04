@@ -29,6 +29,7 @@ def get_redirects(entities: str) -> Tuple[str, ...]:
             FILTER (?subject IN (%s))
         }
     """ % entities)
+    sparql.setTimeout(300)
     sparql.setReturnFormat(JSON)
     response = sparql.query().convert()
     return tuple(result["redirect"]["value"] for result in response["results"]["bindings"] if "redirect" in result)
@@ -103,6 +104,7 @@ def get_candidate_entities(entity_mention: str = "", deep_search: bool = True, s
                         LIMIT 100
                     """ % variable_query)
                     sparql.setReturnFormat(JSON)
+                    sparql.setTimeout(300)
                     response = sparql.query().convert()
                     redirects = []
                     for rs in response["results"]["bindings"]:
