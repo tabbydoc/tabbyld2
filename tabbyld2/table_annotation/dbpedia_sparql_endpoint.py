@@ -78,7 +78,8 @@ def get_candidate_entities(entity_mention: str = "", deep_search: bool = True, s
             while connection_error:
                 try:
                     # Execute SPARQL query to DBpedia
-                    sparql = SPARQLWrapper(DBPediaConfig.ENDPOINT_NAME)
+                    sparql = SPARQLWrapper("https://dbpedia.org/sparql")
+                    sparql.setMethod("POST")
                     sparql.setQuery("""
                         SELECT DISTINCT (str(?subject) as ?subject) (str(?label) as ?label) (str(?comment) as ?comment) (str(?rd) as ?rd)
                         WHERE {
@@ -153,6 +154,7 @@ def get_distance_to_class(entity: str = "", target_classes: str = None) -> int:
             }
         """ % (entity, target_classes if isinstance(target_classes, str) else ", ".join(target_classes)))
     sparql.setReturnFormat(JSON)
+    sparql.setTimeout(300)
     results = sparql.query().convert()
     # Calculate a distance to a target class
     distance_to_class = 0
@@ -185,6 +187,7 @@ def get_classes_for_entity(entity: str = "", short_name: bool = False) -> Dict[s
         }
     """ % entity)
     sparql.setReturnFormat(JSON)
+    sparql.setTimeout(300)
     results = sparql.query().convert()
     for result in results["results"]["bindings"]:
         result_list[result["type"]["value"].replace(DBPediaConfig.BASE_ONTOLOGY_URI, "") if short_name else
@@ -235,6 +238,7 @@ def get_candidate_classes(class_mention: str = "", short_name: bool = False) -> 
                     LIMIT 10
                 """ % string)
                 sparql.setReturnFormat(JSON)
+                sparql.setTimeout(300)
                 results = sparql.query().convert()
                 for result in results["results"]["bindings"]:
                     if short_name:
@@ -278,6 +282,7 @@ def get_subjects_for_entity(entity: str, short_name: bool = False) -> Dict[str, 
                 ORDER BY ASC(strlen(?label))
             """ % entity)
             sparql.setReturnFormat(JSON)
+            sparql.setTimeout(300)
             response = sparql.query().convert()
             for item in response["results"]["bindings"]:
                 key = item["subject"]["value"].replace(DBPediaConfig.BASE_RESOURCE_URI, "") if short_name else item["subject"]["value"]
@@ -316,6 +321,7 @@ def get_objects_for_entity(entity: str, short_name: bool = False) -> Dict[str, L
                 ORDER BY ASC(strlen(?label))
             """ % entity)
             sparql.setReturnFormat(JSON)
+            sparql.setTimeout(300)
             response = sparql.query().convert()
             for item in response["results"]["bindings"]:
                 key = item["object"]["value"].replace(DBPediaConfig.BASE_RESOURCE_URI, "") if short_name else item["object"]["value"]
