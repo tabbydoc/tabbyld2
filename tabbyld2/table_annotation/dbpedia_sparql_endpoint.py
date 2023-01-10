@@ -45,7 +45,7 @@ def get_variable_for_query(ngrams: List[Tuple[Any, ...]]) -> str:
     for ngram in ngrams:
         values = ""
         for value in ngram:
-            if value and check_letter_and_digit_existence(value):
+            if value and check_letter_and_digit_existence(value) and len(value) > 1:
                 values += " AND '" + value + "'" if values else "'" + value + "'"
         variable += " OR (" + values + ")" if variable else "(" + values + ")"
     return variable
@@ -58,15 +58,15 @@ def generate_ngrams(text: str, n: int) -> List[Tuple[Any, ...]]:
     :param n: a value for N-grams
     :return: a list of N-grams
     """
-    return list(combinations(re.split(r"[\\/,.'* ]+", text.replace("&", "and")), n))
+    return list(combinations([word for word in re.split(r"[\\/,.'* ]+", text.replace("&", "and")) if len(word) > 1], n))
 
 
 def get_candidate_entities(entity_mention: str = "", deep_search: bool = True, short_name: bool = False) -> Dict[str, List[str]]:
     """
     Get a set of candidate entities based on the direct SPARQL query to DBpedia
     :param entity_mention: a textual entity mention
-    :param deep_search: a textual entity mention
-    :param short_name: flag to enable or disable deep search mode by various combinations of words
+    :param deep_search: flag to enable or disable deep search mode by various combinations of words
+    :param short_name: flag to enable or disable short entity name display mode (without full URI)
     :return: a dict of candidate entities
     """
     results, processing_query, number = {}, False, len(re.split(r"[\\/,.'* ]+", entity_mention))
@@ -167,10 +167,10 @@ def get_classes_for_entity(entity: str = "", short_name: bool = False) -> Dict[s
     """
     Get a set of classes for an entity based on the direct SPARQL query to DBpedia
     :param entity: an entity from DBpedia
-    :param short_name: flag to enable or disable short entity name display mode (without full URI)
+    :param short_name: flag to enable or disable short class name display mode (without full URI)
     :return: a set of found classes
     """
-    result_list = {}
+    print("Searching classes for entity: " + entity)
     # Execute SPARQL query to DBpedia
     sparql = SPARQLWrapper(DBPediaConfig.ENDPOINT_NAME)
     sparql.setQuery("""
@@ -187,72 +187,71 @@ def get_classes_for_entity(entity: str = "", short_name: bool = False) -> Dict[s
         }
     """ % entity)
     sparql.setReturnFormat(JSON)
-    sparql.setTimeout(300)
-    results = sparql.query().convert()
-    for result in results["results"]["bindings"]:
-        result_list[result["type"]["value"].replace(DBPediaConfig.BASE_ONTOLOGY_URI, "") if short_name else
-                    result["type"]["value"]] = [result["label"]["value"] if "label" in result else None,
-                                                result["comment"]["value"] if "comment" in result else None]
-    return result_list
+    sparql.setTimeout(600)
+    response = sparql.query().convert()
+    results = {}
+    for rs in response["results"]["bindings"]:
+        class_uri = rs["type"]["value"].replace(DBPediaConfig.BASE_ONTOLOGY_URI, "") if short_name else rs["type"]["value"]
+        results[class_uri] = [rs["label"]["value"] if "label" in rs else None, rs["comment"]["value"] if "comment" in rs else None]
+    return results
 
 
-def get_candidate_classes(class_mention: str = "", short_name: bool = False) -> List[List]:
+def get_candidate_classes(class_mention: str = "", deep_search: bool = True, short_name: bool = False) -> Dict[str, List[str]]:
     """
     Get a set of candidate classes based on the direct SPARQL query to DBpedia
     :param class_mention: a textual class mention
-    :param short_name: flag to enable or disable short entity name display mode (without full URI)
-    :return: a set of candidate classes
+    :param deep_search: flag to enable or disable deep search mode by various combinations of words
+    :param short_name: flag to enable or disable short class name display mode (without full URI)
+    :return: a dict of candidate classes
     """
-    # Split a textual class mention into words
-    string = ""
-    for word in re.split(r"[\\/,.'* ]+", class_mention.replace("&", "and")):
-        if word and check_letter_and_digit_existence(word):
-            string += " AND '" + word + "'" if string else "'" + word + "'"
-    print("Searching classes for " + string)
-    result_list = []
-    if string != "":
-        no_processing_query = True
-        while no_processing_query:
-            try:
-                # Execute SPARQL query to DBpedia
-                sparql = SPARQLWrapper(DBPediaConfig.ENDPOINT_NAME)
-                sparql.setQuery("""
-                    SELECT DISTINCT (str(?subject) as ?subject) (str(?label) as ?label) (str(?comment) as ?comment)
-                    WHERE {
-                        {
-                            ?subject rdf:type owl:Class .
-                            ?subject rdfs:label ?label .
-                            ?label <bif:contains> "%s" .
-                            OPTIONAL {
-                                ?subject rdfs:comment ?comment .
-                                FILTER (lang(?comment) = "en") .
-                            } .
+    results, processing_query, number = {}, False, len(re.split(r"[\\/,.'* ]+", class_mention))
+    while not processing_query:
+        variable_query = get_variable_for_query(generate_ngrams(class_mention, number))
+        if variable_query:
+            print("Searching classes for " + variable_query)
+            connection_error = True
+            while connection_error:
+                try:
+                    # Execute SPARQL query to DBpedia
+                    sparql = SPARQLWrapper("https://dbpedia.org/sparql")
+                    sparql.setMethod("POST")
+                    sparql.setQuery("""
+                        SELECT DISTINCT (str(?subject) as ?subject) (str(?label) as ?label) (str(?comment) as ?comment)
+                        WHERE {
+                            {
+                                ?subject rdf:type owl:Class .
+                                ?subject rdfs:label ?label .
+                                ?label bif:contains "%s" .
+                                OPTIONAL {
+                                    ?subject rdfs:comment ?comment .
+                                    FILTER (lang(?comment) = "en") .
+                                } .
+                            }
+                            FILTER NOT EXISTS { ?subject dbo:wikiPageRedirects ?r2 } .
+                            FILTER (!strstarts(str(?subject), "http://dbpedia.org/resource/Category:")) .
+                            FILTER (!strstarts(str(?subject), "http://dbpedia.org/property/")) .
+                            FILTER (!strstarts(str(?subject), "http://dbpedia.org/resource/")) .
+                            FILTER (lang(?label) = "en")
                         }
-                        FILTER NOT EXISTS { ?subject dbo:wikiPageRedirects ?r2 } .
-                        FILTER (!strstarts(str(?subject), "http://dbpedia.org/resource/Category:")) .
-                        FILTER (!strstarts(str(?subject), "http://dbpedia.org/property/")) .
-                        FILTER (!strstarts(str(?subject), "http://dbpedia.org/resource/")) .
-                        FILTER (lang(?label) = "en")
-                    }
-                    ORDER BY ASC(strlen(?label))
-                    LIMIT 10
-                """ % string)
-                sparql.setReturnFormat(JSON)
-                sparql.setTimeout(300)
-                results = sparql.query().convert()
-                for result in results["results"]["bindings"]:
-                    if short_name:
-                        result_list.append([result["subject"]["value"].replace(DBPediaConfig.BASE_ONTOLOGY_URI, ""),
-                                            result["label"]["value"],
-                                            result["comment"]["value"] if "comment" in result else None])
-                    else:
-                        result_list.append([result["subject"]["value"], result["label"]["value"],
-                                            result["comment"]["value"] if "comment" in result else None])
-                no_processing_query = False
-            except URLError:
-                no_processing_query = True
-                print("Connection error to DBpedia SPARQL Endpoint! Reconnection is carried out.")
-    return result_list
+                        ORDER BY ASC(strlen(?label))
+                        LIMIT 10
+                        """ % variable_query)
+                    sparql.setReturnFormat(JSON)
+                    sparql.setTimeout(600)
+                    response = sparql.query().convert()
+                    for rs in response["results"]["bindings"]:
+                        uri = rs["subject"]["value"].replace(DBPediaConfig.BASE_ONTOLOGY_URI, "") if short_name else rs["subject"]["value"]
+                        results[uri] = [rs["label"]["value"], rs["comment"]["value"]]
+                    connection_error = False
+                except URLError:
+                    connection_error = True
+                    print("Connection error to DBpedia SPARQL Endpoint! Reconnection is carried out.")
+        if results or number == 1 or not deep_search:
+            processing_query = True
+        else:
+            processing_query = False
+            number -= 1
+    return results
 
 
 def get_subjects_for_entity(entity: str, short_name: bool = False) -> Dict[str, List[str]]:
