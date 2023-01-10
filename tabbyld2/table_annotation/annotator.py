@@ -215,42 +215,42 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                 frequency = Counter()
                 dbpedia_classes = {}
                 for cell in column.cells:
-                    # Get a set of classes from DBpedia for a referent entity
-                    response = get_classes_for_entity(cell.annotation.uri if cell.annotation is not None else None, False)
-                    dbpedia_classes.update(response)
-                    # Calculate a class occurrence frequency
-                    frequency.update(Counter([*response]))
-                # Sort by frequency
-                result = dict(sorted(dict(frequency).items(), key=lambda item: item[1], reverse=True))
+                    if cell.annotation is not None:
+                        # Get a set of classes from DBpedia for a referent entity
+                        response = get_classes_for_entity(cell.annotation.uri, False)
+                        dbpedia_classes.update(response)
+                        frequency.update(Counter([*response]))  # Calculate a class occurrence frequency
+                result = dict(sorted(dict(frequency).items(), key=lambda item: item[1], reverse=True))  # Sort by frequency
                 if result:
                     # Normalize scores based on frequency
-                    column._candidate_classes = []
+                    candidate_classes = []
                     for key, value in result.items():
-                        score = value / list(result.values())[0] if list(result.values())[0] != 0 else 0
-                        class_model = ClassModel(key, dbpedia_classes.get(key)[0], dbpedia_classes.get(key)[1], score)
-                        column._candidate_classes += (class_model,)
+                        try:
+                            score = value / list(result.values())[0]
+                        except ZeroDivisionError:
+                            score = 0
+                        candidate_classes.append(ClassModel(key, dbpedia_classes.get(key)[0], dbpedia_classes.get(key)[1], score))
+                    column.set_candidate_classes(candidate_classes)
         print("Ranking of candidate classes by majority voting is complete.")
 
     def rank_candidate_classes_by_heading_similarity(self):
         for column in self.table_model.columns:
             if column.column_type != ColumnType.LITERAL_COLUMN:
                 # Get a set of candidate classes using the DBpedia SPARQL Endpoint
-                candidate_classes = get_candidate_classes(column.header_name, False)
-                if candidate_classes:
+                candidate_classes_from_dbp = get_candidate_classes(column.header_name)
+                if candidate_classes_from_dbp:
                     if column.candidate_classes is None:
                         column._candidate_classes = []
-                    for candidate_class in candidate_classes:
+                    for class_uri, (class_label, class_comment) in candidate_classes_from_dbp.items():
                         # Find duplicate candidate class
                         exist_class = False
                         for c in column.candidate_classes:
-                            if c.uri == candidate_class[0]:
+                            if c.uri == class_uri:
                                 exist_class = True
                         if not exist_class:
-                            # Add new candidate classes
-                            column._candidate_classes += (ClassModel(candidate_class[0], candidate_class[1], candidate_class[2]),)
+                            column._candidate_classes += (ClassModel(class_uri, class_label, class_comment),)  # Add new candidate class
                 if column.candidate_classes is not None:
                     for candidate_class in column.candidate_classes:
-                        # Calculate Levenshtein distance between column header name and class URI
                         candidate_class._heading_similarity = self.get_levenshtein_distance(column.header_name, candidate_class.uri,
                                                                                             column.candidate_classes)
                     # Sort candidate classes by heading similarity
@@ -269,7 +269,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
             if column.candidate_classes is not None:
                 for candidate_class in column.candidate_classes:
                     candidate_class._column_type_prediction_score = 0
-        print("Ranking of candidate classes by column type prediction is complete.")
+        print("Ranking of candidate classes by NER based similarity is complete.")
 
     def aggregate_ranked_candidate_classes(self):
         for column in self.table_model.columns:
