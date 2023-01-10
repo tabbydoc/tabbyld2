@@ -111,6 +111,9 @@ class TableColumnModel(AbstractTableColumnModel):
     def set_column_type(self, column_type: str):
         self._column_type = column_type
 
+    def set_candidate_classes(self, candidate_classes: List[ClassModel]):
+        self._candidate_classes = candidate_classes
+
     def annotate_column(self):
         if self.candidate_classes is not None:
             self._annotation = max(self._candidate_classes, key=attrgetter("_final_score")).uri
@@ -422,6 +425,8 @@ class TableModel(AbstractTableModel):
                         candidate_classes[candidate_class.uri] = candidate_class.heading_similarity
                     if method == ClassRankingMethod.COLUMN_TYPE_PREDICTION:
                         candidate_classes[candidate_class.uri] = candidate_class.column_type_prediction_score
+                    if method == ClassRankingMethod.NER_BASED_SIMILARITY:
+                        candidate_classes[candidate_class.uri] = candidate_class.ner_based_similarity
                     if method == ClassRankingMethod.SCORES_AGGREGATION:
                         candidate_classes[candidate_class.uri] = candidate_class.final_score
                 serialized_ranked_candidate_classes[column.header_name] = candidate_classes
