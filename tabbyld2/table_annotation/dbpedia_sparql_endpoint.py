@@ -241,7 +241,7 @@ def get_candidate_classes(class_mention: str = "", deep_search: bool = True, sho
                     response = sparql.query().convert()
                     for rs in response["results"]["bindings"]:
                         uri = rs["subject"]["value"].replace(DBPediaConfig.BASE_ONTOLOGY_URI, "") if short_name else rs["subject"]["value"]
-                        results[uri] = [rs["label"]["value"], rs["comment"]["value"]]
+                        results[uri] = [rs["label"]["value"], rs["comment"]["value"] if "comment" in rs else None]
                     connection_error = False
                 except URLError:
                     connection_error = True
