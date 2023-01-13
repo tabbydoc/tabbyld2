@@ -171,28 +171,34 @@ def get_classes_for_entity(entity: str = "", short_name: bool = False) -> Dict[s
     :return: a set of found classes
     """
     print("Searching classes for entity: " + entity)
-    # Execute SPARQL query to DBpedia
-    sparql = SPARQLWrapper(DBPediaConfig.ENDPOINT_NAME)
-    sparql.setQuery("""
-        SELECT DISTINCT (str(?type) as ?type) (str(?label) as ?label) (str(?comment) as ?comment)
-        WHERE {
-            <%s> a ?type .
-            ?type rdfs:label ?label .
-            OPTIONAL {
-                ?type rdfs:comment ?comment .
-                FILTER (lang(?comment) = "en") .
-            } .
-            FILTER (strstarts(str(?type), "http://dbpedia.org/ontology/")) .
-            FILTER (lang(?label) = "en")
-        }
-    """ % entity)
-    sparql.setReturnFormat(JSON)
-    sparql.setTimeout(600)
-    response = sparql.query().convert()
-    results = {}
-    for rs in response["results"]["bindings"]:
-        class_uri = rs["type"]["value"].replace(DBPediaConfig.BASE_ONTOLOGY_URI, "") if short_name else rs["type"]["value"]
-        results[class_uri] = [rs["label"]["value"] if "label" in rs else None, rs["comment"]["value"] if "comment" in rs else None]
+    results, connection_error = {}, True
+    while connection_error:
+        try:
+            # Execute SPARQL query to DBpedia
+            sparql = SPARQLWrapper(DBPediaConfig.ENDPOINT_NAME)
+            sparql.setQuery("""
+                SELECT DISTINCT (str(?type) as ?type) (str(?label) as ?label) (str(?comment) as ?comment)
+                WHERE {
+                    <%s> a ?type .
+                    ?type rdfs:label ?label .
+                    OPTIONAL {
+                        ?type rdfs:comment ?comment .
+                        FILTER (lang(?comment) = "en") .
+                    } .
+                    FILTER (strstarts(str(?type), "http://dbpedia.org/ontology/")) .
+                    FILTER (lang(?label) = "en")
+                }
+            """ % entity)
+            sparql.setReturnFormat(JSON)
+            sparql.setTimeout(600)
+            response = sparql.query().convert()
+            for rs in response["results"]["bindings"]:
+                class_uri = rs["type"]["value"].replace(DBPediaConfig.BASE_ONTOLOGY_URI, "") if short_name else rs["type"]["value"]
+                results[class_uri] = [rs["label"]["value"] if "label" in rs else None, rs["comment"]["value"] if "comment" in rs else None]
+            connection_error = False
+        except URLError:
+            connection_error = True
+            print("Connection error to DBpedia SPARQL Endpoint! Reconnection is carried out.")
     return results
 
 
