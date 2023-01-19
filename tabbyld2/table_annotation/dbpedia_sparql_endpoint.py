@@ -72,7 +72,7 @@ def get_candidate_entities(entity_mention: str = "", deep_search: bool = True, s
     results, processing_query, number = {}, False, len(re.split(r"[\\/,.'* ]+", entity_mention))
     while not processing_query:
         variable_query = get_variable_for_query(generate_ngrams(entity_mention, number))
-        if variable_query:
+        if variable_query and variable_query != "()":
             print("Searching entities for " + variable_query)
             connection_error = True
             while connection_error:
@@ -213,7 +213,7 @@ def get_candidate_classes(class_mention: str = "", deep_search: bool = True, sho
     results, processing_query, number = {}, False, len(re.split(r"[\\/,.'* ]+", class_mention))
     while not processing_query:
         variable_query = get_variable_for_query(generate_ngrams(class_mention, number))
-        if variable_query:
+        if variable_query and variable_query != "()":
             print("Searching classes for " + variable_query)
             connection_error = True
             while connection_error:
