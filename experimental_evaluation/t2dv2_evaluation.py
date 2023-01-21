@@ -10,7 +10,7 @@ from datetime import datetime
 
 import stanza
 from duckling import DucklingWrapper
-
+from ftfy import fix_encoding, fix_text
 import tabbyld2.pipeline as pl
 from experimental_evaluation.evaluation_model import TableEvaluation
 
@@ -52,22 +52,24 @@ class T2Dv2TableEvaluation(TableEvaluation):
         """
         correctly_annotated_cells, annotated_cells, cell_number = 0, 0, 0
         with open(EvaluationPath.T2DV2_INSTANCE + self.table.table_name + ".csv", "r", newline="", encoding="utf-8") as file:
-            for (uri, cell_value, _) in csv.reader(file):
+            for (uri, cell_value, cell_index) in csv.reader(file):
                 cell_number += 1
                 for column in self.table.columns:
                     if column.column_type == ColumnType.SUBJECT_COLUMN:
                         for i in range(len(column.cells)):
-                            if column.cells[i].source_value is not None and unescape(cell_value.lower()) == \
-                                    column.cells[i].source_value.lower():
-                                if column.cells[i].annotation is not None:
-                                    annotated_cells += 1
-                                    annotations = [column.cells[i].annotation.uri, *column.cells[i].annotation.redirects]
-                                    if unquote(uri) in annotations or uri.encode("raw_unicode_escape").decode("utf-8") in annotations:
-                                        correctly_annotated_cells += 1
+                            if column.cells[i].source_value is not None and int(cell_index) == (i + 1):
+                                if unescape(cell_value.lower()) == column.cells[i].source_value.lower():
+                                    if column.cells[i].annotation is not None:
+                                        annotated_cells += 1
+                                        annotations = [column.cells[i].annotation.uri, *column.cells[i].annotation.redirects]
+                                        if unquote(uri) in annotations:
+                                            correctly_annotated_cells += 1
+                                        else:
+                                            print("INS: " + unquote(uri) + " != ANN: " + column.cells[i].annotation.uri)
                                     else:
-                                        print("INS: " + unquote(uri) + " != ANN: " + column.cells[i].annotation.uri)
+                                        print("INS: " + unquote(uri) + " != ANN: NULL")
                                 else:
-                                    print("INS: " + unquote(uri) + " != ANN: NULL")
+                                    print("CELL: " + unescape(cell_value.lower()) + " != CELL: " + column.cells[i].source_value.lower())
         self.cell_entity_annotation_evaluation.set_precision(correctly_annotated_cells / annotated_cells if annotated_cells != 0 else 0)
         self.cell_entity_annotation_evaluation.set_recall(correctly_annotated_cells / cell_number if cell_number != 0 else 0)
         self.cell_entity_annotation_evaluation.calculate_f1_score()
