@@ -154,7 +154,7 @@ def evaluate_t2dv2_dataset():
                 if table is not None:
                     table = pl.pipeline_preprocessing(table, file, named_entity_recognition, duckling_wrapper)  # Preprocessing
                     table = pl.pipeline_cell_entity_annotation(table, file)  # Solve CEA task
-                    table = pl.pipeline_column_type_annotation(table, file)  # Solve CTA task
+                    # table = pl.pipeline_column_type_annotation(table, file)  # Solve CTA task
 
                     # Get column classification evaluation
                     t2dv2_table_evaluation = T2Dv2TableEvaluation(table)
@@ -189,15 +189,15 @@ def evaluate_t2dv2_dataset():
                     print("recall = " + str(t2dv2_table_evaluation.cell_entity_annotation_evaluation.recall))
                     print("f1 = " + str(t2dv2_table_evaluation.cell_entity_annotation_evaluation.f1_score))
 
-                    # Get CTA task evaluation
-                    t2dv2_table_evaluation.evaluate_column_type_annotation()
-                    # Save CTA evaluation results to json files
-                    write_json_file(path, EvaluationPath.COLUMN_TYPE_ANNOTATION_EVALUATION,
-                                    t2dv2_table_evaluation.column_type_annotation_evaluation.serialize_evaluation())
-                    print("***************************************************")
-                    print("CTA evaluation:")
-                    print("ah score = " + str(t2dv2_table_evaluation.column_type_annotation_evaluation.average_hierarchical_score))
-                    print("ap score = " + str(t2dv2_table_evaluation.column_type_annotation_evaluation.average_perfect_score))
+                    # # Get CTA task evaluation
+                    # t2dv2_table_evaluation.evaluate_column_type_annotation()
+                    # # Save CTA evaluation results to json files
+                    # write_json_file(path, EvaluationPath.COLUMN_TYPE_ANNOTATION_EVALUATION,
+                    #                 t2dv2_table_evaluation.column_type_annotation_evaluation.serialize_evaluation())
+                    # print("***************************************************")
+                    # print("CTA evaluation:")
+                    # print("ah score = " + str(t2dv2_table_evaluation.column_type_annotation_evaluation.average_hierarchical_score))
+                    # print("ap score = " + str(t2dv2_table_evaluation.column_type_annotation_evaluation.average_perfect_score))
 
                     table_evaluations.append(t2dv2_table_evaluation)
 
@@ -215,9 +215,10 @@ def evaluate_t2dv2_dataset():
             if table_evaluation.cell_entity_annotation_evaluation is not None:
                 cea_precision += table_evaluation.cell_entity_annotation_evaluation.precision
                 cea_recall += table_evaluation.cell_entity_annotation_evaluation.recall
-            if table_evaluation.column_type_annotation_evaluation is not None:
-                cta_ah_score += table_evaluation.column_type_annotation_evaluation.average_hierarchical_score
-                cta_ap_score += table_evaluation.column_type_annotation_evaluation.average_perfect_score
+            # if table_evaluation.column_type_annotation_evaluation is not None:
+            #     cta_ah_score += table_evaluation.column_type_annotation_evaluation.average_hierarchical_score
+            #     cta_ap_score += table_evaluation.column_type_annotation_evaluation.average_perfect_score
+
         # Get column classification evaluations for all tables from T2Dv2 dataset
         total_cc_p = cc_precision / all_cc_scores
         total_cc_r = cc_recall / all_cc_scores
@@ -245,13 +246,13 @@ def evaluate_t2dv2_dataset():
         print("precision = " + str(cea_precision))
         print("recall = " + str(cea_recall))
         print("f1 = " + str(cea_f1_score))
-        # Get column type annotation evaluations for all tables from T2Dv2 dataset
-        cta_ah_score = cta_ah_score / len(table_evaluations)
-        cta_ap_score = cta_ap_score / len(table_evaluations)
-        print("***************************************************")
-        print("Total evaluation for column type annotation:")
-        print("average hierarchical score = " + str(cta_ah_score))
-        print("average perfect score = " + str(cta_ap_score))
+        # # Get column type annotation evaluations for all tables from T2Dv2 dataset
+        # cta_ah_score = cta_ah_score / len(table_evaluations)
+        # cta_ap_score = cta_ap_score / len(table_evaluations)
+        # print("***************************************************")
+        # print("Total evaluation for column type annotation:")
+        # print("average hierarchical score = " + str(cta_ah_score))
+        # print("average perfect score = " + str(cta_ap_score))
         # Save evaluation results for T2Dv2 dataset to json file
         evaluations = {"column classification": {"precision": total_cc_p, "recall": total_cc_r, "f1_score": total_cc_f1},
                        "subject column identification": {"precision": sci_precision, "recall": sci_recall, "f1_score": sci_f1_score},
