@@ -2,7 +2,10 @@ import csv
 import json
 import os
 from datetime import datetime
+from html import unescape
+from urllib.parse import unquote
 
+import cleaner as cl
 from dbpedia_sparql_endpoint import get_redirects
 from ftfy import fix_encoding, fix_text
 from tabbyld2.config import EvaluationPath, ResultPath
@@ -24,24 +27,26 @@ if __name__ == "__main__":
                     if value == "SUBJECT":
                         sub_col = fix_text(fix_encoding(str(key)))
             with open(provenance_path + ResultPath.CANDIDATE_ENTITIES, "r", encoding="utf-8") as candidate_entities_file:
-                candidate_entities = {}
+                all_candidate_entities = {}
                 for cell_value, entities in json.loads(candidate_entities_file.read())[sub_col].items():
                     if entities:
                         string = ""
                         for entity in entities:
                             string += ", <" + entity + ">" if string else "<" + entity + ">"
-                        candidate_entities[cell_value] = list({*get_redirects(string), *entities})
+                        all_candidate_entities[cell_value.lower()] = list({*get_redirects(string), *entities})
             k, length = 0, 0
             with open(instance, "r", newline="", encoding="utf-8") as csv_file:
                 for (uri, cell_value, _) in csv.reader(csv_file):
                     length += 1
-                    for key in candidate_entities.keys():
-                        if fix_text(fix_encoding(str(key.lower().replace(" ", "")))) == \
-                                fix_text(fix_encoding(str(cell_value.lower().replace(" ", "").replace(">", "")))):
-                            if candidate_entities[key] is not None and candidate_entities[key].count(fix_text(fix_encoding(str(uri)))):
-                                k += 1
-                            else:
-                                print(str(uri))
+                    cv = cl.remove_multiple_spaces(cl.remove_garbage_characters(cl.fix_text(cell_value.lower())))
+                    candidate_entities = all_candidate_entities.get(unescape(cv))
+                    if candidate_entities:
+                        if unquote(uri) in candidate_entities:
+                            k += 1
+                        else:
+                            print("No entity: " + uri + " for '" + unescape(cell_value) + "'")
+                    else:
+                        print("For cell: '" + unescape(cell_value) + "' - " + str(candidate_entities))
             print("Accuracy for " + str(file) + ": " + str(k / length) + "\n")
     print("***************************************************")
     print("Full time: " + str(datetime.now() - start_full_time))
