@@ -213,13 +213,14 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
         for column in self.table_model.columns:
             if column.column_type != ColumnType.LITERAL_COLUMN:
                 frequency = Counter()
-                dbpedia_classes = {}
+                dbpedia_classes, response = {}, {}
                 for cell in column.cells:
                     if cell.annotation is not None:
                         # Get a set of classes from DBpedia for a referent entity
-                        response = get_classes_for_entity(cell.annotation.uri, False)
-                        dbpedia_classes.update(response)
-                        frequency.update(Counter([*response]))  # Calculate a class occurrence frequency
+                        if cell.annotation.uri not in response:
+                            response[cell.annotation.uri] = get_classes_for_entity(cell.annotation.uri, False)
+                        dbpedia_classes.update(response[cell.annotation.uri])
+                        frequency.update(Counter([*response[cell.annotation.uri]]))  # Calculate a class occurrence frequency
                 result = dict(sorted(dict(frequency).items(), key=lambda item: item[1], reverse=True))  # Sort by frequency
                 if result:
                     # Normalize scores based on frequency
