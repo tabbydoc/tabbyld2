@@ -163,6 +163,30 @@ def get_distance_to_class(entity: str = "", target_classes: str = None) -> int:
     return distance_to_class
 
 
+def get_parent_classes(dbpedia_class: str = "", short_name: bool = False) -> Tuple[str, ...]:
+    """
+    Get a set of parent classes for a target class based on the direct SPARQL query to DBpedia
+    :param dbpedia_class: a target class from DBpedia
+    :param short_name: flag to enable or disable short class name display mode (without full URI)
+    :return: a list of found parent classes
+    """
+    sparql = SPARQLWrapper(DBPediaConfig.ENDPOINT_NAME)
+    sparql.setQuery("""
+        SELECT DISTINCT ?type
+        WHERE {
+            <%s> rdfs:subClassOf* ?type .
+            FILTER (strstarts(str(?type), "http://dbpedia.org/ontology/")) .
+        }
+    """ % dbpedia_class)
+    sparql.setTimeout(300)
+    sparql.setReturnFormat(JSON)
+    response = sparql.query().convert()
+    class_uris = []
+    for rs in response["results"]["bindings"]:
+        class_uris.append(rs["type"]["value"].replace(DBPediaConfig.BASE_ONTOLOGY_URI, "") if short_name else rs["type"]["value"])
+    return tuple(class_uris)
+
+
 def get_classes_for_entity(entity: str = "", short_name: bool = False) -> Dict[str, List]:
     """
     Get a set of classes for an entity based on the direct SPARQL query to DBpedia
