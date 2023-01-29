@@ -45,8 +45,8 @@ def get_candidate_entities(query: str, max_results: int = None, min_relevance: i
                     if "redirectlabel" in doc:
                         redirect = [DBPediaConfig.BASE_RESOURCE_URI + rl.replace(" ", "_") for rl in doc["redirectlabel"]]
                     results[key] = [doc["label"][0] if "label" in doc else "", "", redirect]
-            # else:
-            #     raise requests.exceptions.ConnectionError(f"{response.status_code}")
+            else:
+                raise requests.exceptions.ConnectionError(f"{response.status_code}")
         except requests.exceptions.RequestException:
             print("Unexpected error in DBpedia Lookup!")
     return results
