@@ -25,12 +25,14 @@ class ToughTableEvaluation(TableEvaluation):
         correctly_annotated_cells, annotated_cells, cell_number = 0, 0, 0
         with open(EvaluationPath.TOUGH_TABLES_CEA + self.table.table_name + ".csv", "r", newline="", encoding="utf-8") as file:
             for text in csv.reader(file):
+                print(text)
                 cell_number += 1
-                _, column_index, row_index, uris = str(text).split(',"')
+                string, row_index, uris = str(text).split('","')
+                _, column_index = string.split(',"')
                 j = 0
                 for column in self.table.columns:
-                    if int(column_index[:-1]) == j and column.column_type != ColumnType.LITERAL_COLUMN:
-                        i = int(row_index[:-1]) - 1
+                    if int(column_index) == j and column.column_type != ColumnType.LITERAL_COLUMN:
+                        i = int(row_index) - 1
                         if column.cells[i].source_value is not None:
                             if column.cells[i].annotation is not None:
                                 annotated_cells += 1
