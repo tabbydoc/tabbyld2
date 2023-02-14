@@ -1,6 +1,8 @@
-from collections import Counter
+import operator
+from collections import Counter, defaultdict
 from typing import Tuple
 
+import concept_mapping
 import tabbyld2.table_annotation.dbpedia_lookup as dbl
 from Levenshtein._levenshtein import distance
 from gensim.models.word2vec import Word2Vec
@@ -297,3 +299,39 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         xml_schema_data_types.append(datatype)
                 column._annotation = [dt for dt, dt_count in Counter(xml_schema_data_types).most_common(1)][0]
         print("Annotation of literal columns of table is completed.")
+
+    def rank_candidate_classes_by_ner_based_similarity(self):
+        candidate_classes, candidate_evaluation = defaultdict(int), defaultdict(float)
+        annotation = ""
+        for column in self.table_model.columns:
+            if column.candidate_classes is None:
+                column._candidate_classes = []
+
+            for cell in column.cells:
+                candidate_classes[CLASS_MAPPING.get(cell.label)] += 1
+
+            if len(candidate_classes) > 1 and (max(candidate_classes.values()) > min(candidate_classes.values())):
+                for candidate in candidate_classes:
+                    candidate_evaluation[candidate] = (candidate_classes[candidate] - min(candidate_classes.values())) / \
+                                                      (max(candidate_classes.values()) - min(candidate_classes.values()))
+
+                sorted_values = sorted(candidate_evaluation.items(), key=operator.itemgetter(1))
+                annotation = sorted_values[-1][0]
+
+            else:
+                single_class = list(candidate_classes.keys())
+                annotation = single_class[0]
+
+            column._candidate_classes = (ClassModel(annotation, "", ""),)
+
+            candidate_classes.clear()
+            candidate_evaluation.clear()
+
+
+
+
+
+
+
+
+
