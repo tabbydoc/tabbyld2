@@ -302,7 +302,6 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
 
     def rank_candidate_classes_by_ner_based_similarity(self):
         candidate_classes, candidate_evaluation = defaultdict(int), defaultdict(float)
-        annotation = ""
         for column in self.table_model.columns:
             if column.candidate_classes is None:
                 column._candidate_classes = []
