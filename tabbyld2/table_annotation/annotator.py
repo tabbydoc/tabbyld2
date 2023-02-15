@@ -1,8 +1,6 @@
-import operator
-from collections import Counter, defaultdict
+from collections import Counter
 from typing import Tuple
 
-import concept_mapping
 import tabbyld2.table_annotation.dbpedia_lookup as dbl
 from Levenshtein._levenshtein import distance
 from gensim.models.word2vec import Word2Vec
@@ -10,7 +8,7 @@ from tabbyld2.datamodel.knowledge_graph_model import ClassModel, EntityModel
 from tabbyld2.datamodel.tabular_data_model import TableModel
 from tabbyld2.preprocessing.atomic_column_classifier import ColumnType
 from tabbyld2.table_annotation.abstract import AbstractSemanticTableAnnotator
-from tabbyld2.table_annotation.concept_mapping import CLASS_MAPPING, DATATYPE_MAPPING, XMLSchemaDataType
+from tabbyld2.table_annotation.concept_mapping import CLASS_MAPPING, DATATYPE_MAPPING, OntologyClass, XMLSchemaDataType
 from tabbyld2.table_annotation.dbpedia_sparql_endpoint import DBPediaConfig, get_candidate_classes, get_candidate_entities, \
     get_classes_for_entity, get_distance_to_class
 
@@ -47,7 +45,20 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         print("The candidate entity lookup for '" + str(cell.cleared_value) + "' cell is complete.")
 
     @staticmethod
-    def get_levenshtein_distance(text_mention: str, candidate: str, candidates: Tuple[EntityModel, ...],
+    def _normalize(current_value: int, max_range: int, min_range: int = 0) -> float:
+        """
+        Normalize value by using MinMax method
+        :param current_value: current value for normalization
+        :param max_range: maximum value
+        :param min_range: minimum value
+        :return: normalized value
+        """
+        try:
+            return (current_value - min_range) / (max_range - min_range)
+        except ZeroDivisionError:
+            return 0
+
+    def get_levenshtein_distance(self, text_mention: str, candidate: str, candidates: Tuple[EntityModel, ...],
                                  underscore_replacement: bool = True, short_name: bool = True) -> float:
         """
         Calculate the Levenshtein distance (edit distance) between two strings
@@ -69,7 +80,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
             cnd = c.uri.replace(DBPediaConfig.BASE_RESOURCE_URI, "").replace(DBPediaConfig.BASE_ONTOLOGY_URI, "") if short_name else c.uri
             if len(cnd) > max_range:
                 max_range = len(cnd)
-        return 1 - ((levenshtein_distance - 0) / (max_range - 0))
+        return 1 - self._normalize(levenshtein_distance, max_range)
 
     def rank_candidate_entities_by_string_similarity(self):
         for column in self.table_model.columns:
@@ -254,8 +265,9 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                             column._candidate_classes += (ClassModel(class_uri, class_label, class_comment),)  # Add new candidate class
                 if column.candidate_classes is not None:
                     for candidate_class in column.candidate_classes:
-                        candidate_class._heading_similarity = self.get_levenshtein_distance(column.header_name, candidate_class.uri,
-                                                                                            column.candidate_classes)
+                        candidate_class.set_heading_similarity(
+                            self.get_levenshtein_distance(column.header_name, candidate_class.uri, column.candidate_classes)
+                        )
                     # Sort candidate classes by heading similarity
                     column.candidate_classes.sort(key=lambda cl: cl.heading_similarity, reverse=True)
         print("Ranking of candidate classes by heading similarity is complete.")
@@ -264,14 +276,29 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
         for column in self.table_model.columns:
             if column.candidate_classes is not None:
                 for candidate_class in column.candidate_classes:
-                    candidate_class._column_type_prediction_score = 0
+                    candidate_class.set_column_type_prediction_score(0)
         print("Ranking of candidate classes by column type prediction is complete.")
 
     def rank_candidate_classes_by_ner_based_similarity(self):
         for column in self.table_model.columns:
-            if column.candidate_classes is not None:
-                for candidate_class in column.candidate_classes:
-                    candidate_class._column_type_prediction_score = 0
+            if column.column_type != ColumnType.LITERAL_COLUMN:
+                labels = []
+                for cell in column.cells:
+                    if isinstance(CLASS_MAPPING.get(cell.label), list):
+                        for label in [CLASS_MAPPING.get(cell.label)]:
+                            labels.extend(label)
+                    else:
+                        labels.append(CLASS_MAPPING.get(cell.label, OntologyClass.THING))
+                ranks = Counter(labels).most_common()
+                if column.candidate_classes is None:
+                    column.set_candidate_classes([
+                        ClassModel(label.value, ner_based_similarity=self._normalize(count, ranks[0][1])) for label, count in ranks
+                    ])
+                else:
+                    for candidate_class in column.candidate_classes:
+                        new_candidate_classes = {label.value: self._normalize(count, ranks[0][1]) for label, count in ranks}
+                        if candidate_class.uri in new_candidate_classes:
+                            candidate_class.set_ner_based_similarity(new_candidate_classes.get(candidate_class.uri))
         print("Ranking of candidate classes by NER based similarity is complete.")
 
     def aggregate_ranked_candidate_classes(self):
@@ -297,40 +324,5 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         # Mapping between NER and XML Schema datatype
                         datatype = DATATYPE_MAPPING.get(label) if DATATYPE_MAPPING.get(label) is not None else XMLSchemaDataType.STRING
                         xml_schema_data_types.append(datatype)
-                column._annotation = [dt for dt, dt_count in Counter(xml_schema_data_types).most_common(1)][0]
+                column.set_annotation([dt for dt, dt_count in Counter(xml_schema_data_types).most_common(1)][0])
         print("Annotation of literal columns of table is completed.")
-
-    def rank_candidate_classes_by_ner_based_similarity(self):
-        candidate_classes, candidate_evaluation = defaultdict(int), defaultdict(float)
-        for column in self.table_model.columns:
-            if column.candidate_classes is None:
-                column._candidate_classes = []
-
-            for cell in column.cells:
-                candidate_classes[CLASS_MAPPING.get(cell.label)] += 1
-
-            if len(candidate_classes) > 1 and (max(candidate_classes.values()) > min(candidate_classes.values())):
-                for candidate in candidate_classes:
-                    candidate_evaluation[candidate] = (candidate_classes[candidate] - min(candidate_classes.values())) / \
-                                                      (max(candidate_classes.values()) - min(candidate_classes.values()))
-
-                sorted_values = sorted(candidate_evaluation.items(), key=operator.itemgetter(1))
-                annotation = sorted_values[-1][0]
-
-            else:
-                single_class = list(candidate_classes.keys())
-                annotation = single_class[0]
-
-            column._candidate_classes = (ClassModel(annotation, "", ""),)
-
-            candidate_classes.clear()
-            candidate_evaluation.clear()
-
-
-
-
-
-
-
-
-
