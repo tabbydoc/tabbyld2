@@ -114,6 +114,9 @@ class TableColumnModel(AbstractTableColumnModel):
     def set_candidate_classes(self, candidate_classes: List[ClassModel]):
         self._candidate_classes = candidate_classes
 
+    def set_annotation(self, datatype: str):
+        self._annotation = datatype
+
     def annotate_column(self):
         if self.candidate_classes is not None:
             self._annotation = max(self._candidate_classes, key=attrgetter("_final_score")).uri
