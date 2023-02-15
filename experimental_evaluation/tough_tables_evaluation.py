@@ -25,7 +25,6 @@ class ToughTableEvaluation(TableEvaluation):
         correctly_annotated_cells, annotated_cells, cell_number = 0, 0, 0
         with open(EvaluationPath.TOUGH_TABLES_CEA + self.table.table_name + ".csv", "r", newline="", encoding="utf-8") as file:
             for text in csv.reader(file):
-                print(text)
                 cell_number += 1
                 string, row_index, uris = str(text).split('","')
                 _, column_index = string.split(',"')
