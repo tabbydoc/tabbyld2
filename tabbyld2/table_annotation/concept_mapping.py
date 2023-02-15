@@ -4,30 +4,32 @@ from atomic_column_classifier import LiteralLabel, NamedEntityLabel
 
 
 class OntologyClass(str, Enum):
-    PARK = "dbo:Park"
-    MINE = "dbo:Mine"
-    GARDEN = "dbo:Garden"
-    CEMETERY = "dbo:Cemetery"
-    WINE_REGION = "dbo:WineRegion"
-    NATURAL_PLACE = "dbo:NaturalPlace"
-    PROTECTED_AREA = "dbo:ProtectedArea"
-    WORLD_HERITAGE_SITE = "dbo:WorldHeritageSite"
-    SITE_OF_SPECIAL_SCIENTIFIC_INTEREST = "dbo:SiteOfSpecialScientificInterest"
-    POPULATED_PLACE = "dbo:PopulatedPlace"
-    ETHNIC_GROUP = "dbo:EthnicGroup"
-    PERSON = "dbo:Person"
-    DEVICE = "dbo:Device"
-    FOOD = "dbo:Food"
-    MEAN_OF_TRANSPORTATION = "dbo:MeanOfTransportation"
-    ARCHITECTURAL_STRUCTURE = "dbo:ArchitecturalStructure"
-    ORGANISATION = "dbo:Organisation"
-    EVENT = "dbo:Event"
-    WORK = "dbo:Work"
-    LAW = "dbo:Law"
-    LEGAL_CASE = "dbo:LegalCase"
+    THING = "https://www.w3.org/2002/07/owl#Thing"
+    PARK = "http://dbpedia.org/ontology/Park"
+    MINE = "http://dbpedia.org/ontology/Mine"
+    GARDEN = "http://dbpedia.org/ontology/Garden"
+    CEMETERY = "http://dbpedia.org/ontology/Cemetery"
+    WINE_REGION = "http://dbpedia.org/ontology/WineRegion"
+    NATURAL_PLACE = "http://dbpedia.org/ontology/NaturalPlace"
+    PROTECTED_AREA = "http://dbpedia.org/ontology/ProtectedArea"
+    WORLD_HERITAGE_SITE = "http://dbpedia.org/ontology/WorldHeritageSite"
+    SITE_OF_SPECIAL_SCIENTIFIC_INTEREST = "http://dbpedia.org/ontology/SiteOfSpecialScientificInterest"
+    POPULATED_PLACE = "http://dbpedia.org/ontology/PopulatedPlace"
+    ETHNIC_GROUP = "http://dbpedia.org/ontology/EthnicGroup"
+    PERSON = "http://dbpedia.org/ontology/Person"
+    DEVICE = "http://dbpedia.org/ontology/Device"
+    FOOD = "http://dbpedia.org/ontology/Food"
+    MEAN_OF_TRANSPORTATION = "http://dbpedia.org/ontology/MeanOfTransportation"
+    ARCHITECTURAL_STRUCTURE = "http://dbpedia.org/ontology/ArchitecturalStructure"
+    ORGANISATION = "http://dbpedia.org/ontology/Organisation"
+    EVENT = "http://dbpedia.org/ontology/Event"
+    WORK = "http://dbpedia.org/ontology/Work"
+    LAW = "http://dbpedia.org/ontology/Law"
+    LEGAL_CASE = "http://dbpedia.org/ontology/LegalCase"
 
 
 CLASS_MAPPING = {
+    NamedEntityLabel.NONE: OntologyClass.THING,
     NamedEntityLabel.LOCATION: [OntologyClass.PARK, OntologyClass.MINE, OntologyClass.GARDEN, OntologyClass.WINE_REGION,
                                 OntologyClass.NATURAL_PLACE, OntologyClass.PROTECTED_AREA, OntologyClass.WORLD_HERITAGE_SITE,
                                 OntologyClass.SITE_OF_SPECIAL_SCIENTIFIC_INTEREST],
