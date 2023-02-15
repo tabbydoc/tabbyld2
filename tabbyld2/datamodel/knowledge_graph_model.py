@@ -195,6 +195,18 @@ class ClassModel(AbstractClassModel, ClassRankingWeightFactor):
     def final_score(self):
         return self._final_score
 
+    def set_majority_voting_score(self, score: float = 0):
+        self._majority_voting_score = score
+
+    def set_heading_similarity(self, score: float = 0):
+        self._heading_similarity = score
+
+    def set_column_type_prediction_score(self, score: float = 0):
+        self._column_type_prediction_score = score
+
+    def set_ner_based_similarity(self, score: float = 0):
+        self._ner_based_similarity = score
+
     def aggregate_scores(self):
         self._final_score = self.majority_voting_score * self.MAJORITY_VOTING + self.heading_similarity * self.HEADING_SIMILARITY + \
             self.column_type_prediction_score * self.COLUMN_TYPE_PREDICTION
