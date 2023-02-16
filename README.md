@@ -1,10 +1,10 @@
 # TabbyLD2
 
-A web-based application to annotate relational tables and generate knowledge graphs.
+**TabbyLD2** is a web-based application for semantic annotation of relational tables and generation of facts from annotated tabular data to populate knowledge graphs.
 
 ## Version
 
-0.4.1
+0.4
 
 ## Preliminaries
 
