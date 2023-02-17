@@ -173,18 +173,18 @@ class AtomicColumnClassifier(AbstractAtomicColumnClassifier):
                         recognized_named_entities = doc.ents[0].type
                     # Custom recognition
                     if recognized_named_entities == NamedEntityLabel.NONE or recognized_named_entities == LiteralLabel.CARDINAL:
-                        recognized_named_entities = self._determine_number(cell.cleared_value)
+                        recognized_named_entities = self._determine_number(cell.cleared_value).value
                     if recognized_named_entities == NamedEntityLabel.NONE or recognized_named_entities == LiteralLabel.CARDINAL:
-                        recognized_named_entities = self._determine_time(cell.cleared_value, self.duckling_wrapper)
+                        recognized_named_entities = self._determine_time(cell.cleared_value, self.duckling_wrapper).value
                     if recognized_named_entities == NamedEntityLabel.NONE or recognized_named_entities == LiteralLabel.CARDINAL:
-                        recognized_named_entities = self._determine_date(cell.cleared_value)
+                        recognized_named_entities = self._determine_date(cell.cleared_value).value
                     if recognized_named_entities == NamedEntityLabel.NONE or recognized_named_entities == LiteralLabel.CARDINAL:
-                        recognized_named_entities = self._determine_entity_mention(cell.cleared_value)
+                        recognized_named_entities = self._determine_entity_mention(cell.cleared_value).value
                     if recognized_named_entities == NamedEntityLabel.NONE or recognized_named_entities == LiteralLabel.CARDINAL:
-                        recognized_named_entities = self._determine_symbol(cell.cleared_value)
-                    cell.set_label(recognized_named_entities if recognized_named_entities is not None else NamedEntityLabel.NONE)
+                        recognized_named_entities = self._determine_symbol(cell.cleared_value).value
+                    cell.set_label(recognized_named_entities if recognized_named_entities is not None else NamedEntityLabel.NONE.value)
                 else:
-                    cell.set_label(LiteralLabel.EMPTY)
+                    cell.set_label(LiteralLabel.EMPTY.value)
                 # Counting categorical and literal cells
                 if isinstance(cell.label, list):
                     for label in cell.label:
