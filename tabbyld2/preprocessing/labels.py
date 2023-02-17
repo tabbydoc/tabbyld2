@@ -10,7 +10,7 @@ class NamedEntityLabel(str, Enum):
     LOCATION = "LOC"  # Non-GPE locations, mountain ranges, bodies of water
     PRODUCT = "PRODUCT"  # Vehicles, weapons, foods, etc. (Not services)
     EVENT = "EVENT"  # Named hurricanes, battles, wars, sports events, etc.
-    ART_WORK = "WORK OF ART"  # Titles of books, songs, etc.
+    ART_WORK = "WORK_OF_ART"  # Titles of books, songs, etc.
     LAW = "LAW"  # Named documents made into laws
     NONE = "NONE"  # NER result is empty
 
