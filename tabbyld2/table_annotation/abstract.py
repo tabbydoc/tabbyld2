@@ -16,7 +16,6 @@ class AbstractSemanticTableAnnotator(ABC):
     def rank_candidate_entities_by_string_similarity(self) -> None:
         """
         Rank a set of candidate entities for cell values of categorical columns including a subject column by using a string similarity
-        :return:
         """
         pass
 
@@ -82,27 +81,35 @@ class AbstractSemanticTableAnnotator(ABC):
     @abstractmethod
     def rank_candidate_classes_by_column_type_prediction(self) -> None:
         """
-        Rank candidate classes for categorical columns including a subject column by using a column type prediction.
+        Rank candidate classes for categorical columns including a subject column by using a column type prediction
+        """
+        pass
+
+    @abstractmethod
+    def rank_candidate_classes_by_ner_based_similarity(self, include_none: bool = True) -> None:
+        """
+        Rank candidate classes for categorical columns including a subject column by using assigned NER classes for cells
+        :param include_none: flag to include or exclude NONE class from result
         """
         pass
 
     @abstractmethod
     def aggregate_ranked_candidate_classes(self) -> None:
         """
-        Aggregate scores for candidate classes based on three methods.
+        Aggregate scores for candidate classes based on three methods
         """
         pass
 
     @abstractmethod
     def annotate_categorical_columns(self) -> None:
         """
-        Annotate all categorical columns including a subject column.
+        Annotate all categorical columns including a subject column
         """
         pass
 
     @abstractmethod
     def annotate_literal_columns(self) -> None:
         """
-        Annotate all literal columns based on recognized named entities (NER) in cells.
+        Annotate all literal columns based on recognized named entities (NER) in cells
         """
         pass

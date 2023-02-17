@@ -279,24 +279,16 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                     candidate_class.set_column_type_prediction_score(0)
         print("Ranking of candidate classes by column type prediction is complete.")
 
-    def rank_candidate_classes_by_ner_based_similarity(self):
+    def rank_candidate_classes_by_ner_based_similarity(self, include_none: bool = True):
         for column in self.table_model.columns:
             if column.column_type != ColumnType.LITERAL_COLUMN:
                 labels = []
                 for cell in column.cells:
-                    if isinstance(cell.label, list):
-                        for value in cell.label:
-                            if isinstance(CLASS_MAPPING.get(value), list):
-                                for label in [CLASS_MAPPING.get(value)]:
-                                    labels.extend(label)
-                            else:
-                                labels.append(CLASS_MAPPING.get(value, OntologyClass.THING))
-                    else:
-                        if isinstance(CLASS_MAPPING.get(cell.label), list):
-                            for label in [CLASS_MAPPING.get(cell.label)]:
-                                labels.extend(label)
-                        else:
-                            labels.append(CLASS_MAPPING.get(cell.label, OntologyClass.THING))
+                    for value in cell.label if isinstance(cell.label, list) else [cell.label]:
+                        ontology_classes = CLASS_MAPPING.get(value, OntologyClass.THING)
+                        if not include_none and ontology_classes is OntologyClass.THING:
+                            continue
+                        labels.extend(ontology_classes if isinstance(ontology_classes, list) else [ontology_classes])
                 ranks = Counter(labels).most_common()
                 if column.candidate_classes is None:
                     column.set_candidate_classes([
