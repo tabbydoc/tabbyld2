@@ -59,8 +59,8 @@ class ColumnCellModel(AbstractColumnCellModel):
         self._candidate_entities = candidate_entities
 
     def annotate_cell(self):
-        if self.candidate_entities is not None:
-            self._annotation = max(self._candidate_entities, key=attrgetter("_final_score"))
+        if self.candidate_entities and self.candidate_entities is not None:
+            self._annotation = max(self.candidate_entities, key=attrgetter("_final_score")).uri
 
 
 class AbstractTableColumnModel(ABC):
@@ -118,8 +118,8 @@ class TableColumnModel(AbstractTableColumnModel):
         self._annotation = datatype
 
     def annotate_column(self):
-        if self.candidate_classes is not None:
-            self._annotation = max(self._candidate_classes, key=attrgetter("_final_score")).uri
+        if self.candidate_classes and self.candidate_classes is not None:
+            self._annotation = max(self.candidate_classes, key=attrgetter("_final_score")).uri
 
 
 class AbstractTableModel(ABC):
