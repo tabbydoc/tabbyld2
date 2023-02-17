@@ -284,11 +284,19 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
             if column.column_type != ColumnType.LITERAL_COLUMN:
                 labels = []
                 for cell in column.cells:
-                    if isinstance(CLASS_MAPPING.get(cell.label), list):
-                        for label in [CLASS_MAPPING.get(cell.label)]:
-                            labels.extend(label)
+                    if isinstance(cell.label, list):
+                        for value in cell.label:
+                            if isinstance(CLASS_MAPPING.get(value), list):
+                                for label in [CLASS_MAPPING.get(value)]:
+                                    labels.extend(label)
+                            else:
+                                labels.append(CLASS_MAPPING.get(value, OntologyClass.THING))
                     else:
-                        labels.append(CLASS_MAPPING.get(cell.label, OntologyClass.THING))
+                        if isinstance(CLASS_MAPPING.get(cell.label), list):
+                            for label in [CLASS_MAPPING.get(cell.label)]:
+                                labels.extend(label)
+                        else:
+                            labels.append(CLASS_MAPPING.get(cell.label, OntologyClass.THING))
                 ranks = Counter(labels).most_common()
                 if column.candidate_classes is None:
                     column.set_candidate_classes([
