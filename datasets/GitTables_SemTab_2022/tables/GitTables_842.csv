@@ -1,0 +1,39 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+293,101,IRT,Broadway - 7Av,Van Cortlandt Park - 242 St,Bx,1,Elevated,40.889248,-73.898583
+294,103,IRT,Broadway - 7Av,238 St,Bx,1,Elevated,40.884667,-73.90087
+295,104,IRT,Broadway - 7Av,231 St,Bx,1,Elevated,40.878856,-73.904834
+296,106,IRT,Broadway - 7Av,Marble Hill - 225 St,M,1,Elevated,40.874561,-73.909831
+297,107,IRT,Broadway - 7Av,215 St,M,1,Elevated,40.869444,-73.915279
+298,108,IRT,Broadway - 7Av,207 St,M,1,Elevated,40.864621,-73.918822
+299,109,IRT,Broadway - 7Av,Dyckman St,M,1,Elevated,40.860531,-73.925536
+300,110,IRT,Broadway - 7Av,191 St,M,1,Subway,40.855225,-73.929412
+301,111,IRT,Broadway - 7Av,181 St,M,1,Subway,40.849505,-73.933596
+605,112,IRT,Broadway - 7Av,168 St - Washington Hts,M,1,Subway,40.840556,-73.940133
+303,113,IRT,Broadway - 7Av,157 St,M,1,Subway,40.834041,-73.94489
+304,114,IRT,Broadway - 7Av,145 St,M,1,Subway,40.826551,-73.95036
+305,115,IRT,Broadway - 7Av,137 St - City College,M,1,Subway,40.822008,-73.953676
+306,116,IRT,Broadway - 7Av,125 St,M,1,Elevated,40.815581,-73.958372
+307,117,IRT,Broadway - 7Av,116 St - Columbia University,M,1,Subway,40.807722,-73.96411
+308,118,IRT,Broadway - 7Av,Cathedral Pkwy,M,1,Subway,40.803967,-73.966847
+309,119,IRT,Broadway - 7Av,103 St,M,1,Subway,40.799446,-73.968379
+310,120,IRT,Broadway - 7Av,96 St,M,1 2 3,Subway,40.793919,-73.972323
+311,121,IRT,Broadway - 7Av,86 St,M,1,Subway,40.788644,-73.976218
+312,122,IRT,Broadway - 7Av,79 St,M,1,Subway,40.783934,-73.979917
+313,123,IRT,Broadway - 7Av,72 St,M,1 2 3,Subway,40.778453,-73.98197
+314,124,IRT,Broadway - 7Av,66 St - Lincoln Center,M,1,Subway,40.77344,-73.982209
+614,125,IRT,Broadway - 7Av,59 St - Columbus Circle,M,1,Subway,40.768247,-73.981929
+316,126,IRT,Broadway - 7Av,50 St,M,1,Subway,40.761728,-73.983849
+611,127,IRT,Broadway - 7Av,Times Sq - 42 St,M,1 2 3,Subway,40.75529,-73.987495
+318,128,IRT,Broadway - 7Av,34 St - Penn Station,M,1 2 3,Subway,40.750373,-73.991057
+319,129,IRT,Broadway - 7Av,28 St,M,1,Subway,40.747215,-73.993365
+320,130,IRT,Broadway - 7Av,23 St,M,1,Subway,40.744081,-73.995657
+321,131,IRT,Broadway - 7Av,18 St,M,1,Subway,40.74104,-73.997871
+601,132,IRT,Broadway - 7Av,14 St,M,1 2 3,Subway,40.737826,-74.000201
+323,133,IRT,Broadway - 7Av,Christopher St - Sheridan Sq,M,1,Subway,40.733422,-74.002906
+324,134,IRT,Broadway - 7Av,Houston St,M,1,Subway,40.728251,-74.005367
+325,135,IRT,Broadway - 7Av,Canal St,M,1,Subway,40.722854,-74.006277
+326,136,IRT,Broadway - 7Av,Franklin St,M,1,Subway,40.719318,-74.006886
+327,137,IRT,Broadway - 7Av,Chambers St,M,1 2 3,Subway,40.715478,-74.009266
+328,138,IRT,Broadway - 7Av,WTC Cortlandt,M,1,Subway,40.711835,-74.012188
+329,139,IRT,Broadway - 7Av,Rector St,M,1,Subway,40.707513,-74.013783
+635,142,IRT,Broadway - 7Av,South Ferry,M,1,Subway,40.702068,-74.013664

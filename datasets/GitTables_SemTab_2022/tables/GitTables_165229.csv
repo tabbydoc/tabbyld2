@@ -1,0 +1,13 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22
+selected,fields.screenercherrypick,/reports/api/v1/field/fields.screenercherrypick/selected/,0,,,,,True,"If True, then this well will be submitted as a lab cherry pick selection",Selected,True,,,[l;d],[l],boolean,,,,,,
+cherry_pick_request_id,fields.screenercherrypick,/reports/api/v1/field/fields.screenercherrypick/cherry_pick_request_id/,0,,,,,True,Cherry pick request ID,Cherry Pick Request ID,True,,,[d],,string,link,{ 'hrefTemplate': ',,,,
+library_name,fields.screenercherrypick,/reports/api/v1/field/fields.screenercherrypick/library_name/,1,library,library_name,,,True,Selected well library name,Selected Library Name,True,,,[l;d],,string,link,{ 'hrefTemplate': ',,,,
+library_plate,fields.screenercherrypick,/reports/api/v1/field/fields.screenercherrypick/library_plate/,2,well,plate_number,,,True,Selected well plate number,Selected Library Plate,True,,,[l;d],,integer,link,{ 'hrefTemplate': ',,,,
+screened_well_name,fields.screenercherrypick,/reports/api/v1/field/fields.screenercherrypick/screened_well_name/,3,well,well_name,,,True,Selected well name,Selected Well Name,True,,,[l;d],,string,link,{ 'hrefTemplate': ',,,,
+screened_well_id,fields.screenercherrypick,/reports/api/v1/field/fields.screenercherrypick/screened_well_id/,4,,,,,True,Selected well ID,Selected Well,True,,,[l;d],,string,link,{ 'hrefTemplate': ',,,,
+searched_well_id,fields.screenercherrypick,/reports/api/v1/field/fields.screenercherrypick/searched_well_id/,5,,,,,True,Screener cherry pick well,Searched Well,True,,,,,string,link,{ 'hrefTemplate': ',,,,
+vendor_name,fields.screenercherrypick,/reports/api/v1/field/fields.screenercherrypick/vendor_name/,6,reagent,,,,True,Vendor name,Vendor Name,True,,,[l;d],,string,,,,,,
+vendor_identifier,fields.screenercherrypick,/reports/api/v1/field/fields.screenercherrypick/vendor_identifier/,7,reagent,,,,True,The vendor-assigned identifier for the reagent in this well,Reagent Vendor Identifier,True,,,[l;d],,string,,,,,,
+screen_facility_id,fields.screenercherrypick,/reports/api/v1/field/fields.screenercherrypick/screen_facility_id/,11,screen,facility_id,,,True,Screen facility ID,Screen Facility ID,True,,,,,string,link,{ 'hrefTemplate': ',,,,
+library_short_name,fields.screenercherrypick,/reports/api/v1/field/fields.screenercherrypick/library_short_name/,1,library,short_name,,,True,Library short name,Library Short Name,True,,,,,string,link,{ 'hrefTemplate': ',,,,
+screener_cherry_pick_id,fields.screenercherrypick,/reports/api/v1/field/fields.screenercherrypick/screener_cherry_pick_id/,99,,,,,True,Internal screener cherry pick id,Screener Cherry Pick ID,True,,,[api],,string,,,,,,

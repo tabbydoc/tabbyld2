@@ -1,0 +1,9 @@
+col0,col1,col2,col3,col4
+nextval('user_id_seq'),test@helsinki.fi,system,100,now()
+nextval('user_id_seq'),person@helsinki.fi,system,200,now()
+nextval('user_id_seq'),opiskelija@helsinki.fi,system,1001,now()
+nextval('user_id_seq'),opettaja@helsinki.fi,system,400,now()
+nextval('user_id_seq'),hybriduser@helsinki.fi,system,500,now()
+nextval('user_id_seq'),testteacher@helsinki.fi,system,600,now()
+nextval('user_id_seq'),languageteacher@helsinki.fi,system,700,now()
+nextval('user_id_seq'),inactiveuser@helsinki.fi,system,800,2018-01-01 11:00:00.000

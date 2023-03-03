@@ -1,0 +1,13 @@
+col0,col1,col2,col3,col4
+WARNING,CommandRun,"CheckCropCharacteristics(ID=""*"")","Crop ""ALFALFA"" planting month (-999) is invalid.",Specify a month 1-12.
+WARNING,CommandRun,"CheckCropCharacteristics(ID=""*"")","Crop ""ALFALFA"" planting day (-999) is invalid.",Specify a day 1-31.
+WARNING,CommandRun,"CheckCropCharacteristics(ID=""*"")","Crop ""ALFALFA"" harvest month (-999) is invalid.",Specify a month 1-12.
+WARNING,CommandRun,"CheckCropCharacteristics(ID=""*"")","Crop ""ALFALFA"" planting day (-999) is invalid.",Specify a day 1-31.
+WARNING,CommandRun,"CheckCropCharacteristics(ID=""*"")","Crop ""ALFALFA"" days to full cover (-999) is invalid.",Specify a day 0 - 365.
+WARNING,CommandRun,"CheckCropCharacteristics(ID=""*"")","Crop ""ALFALFA"" days in season (-999) is invalid.",Specify days 1 - 365.
+WARNING,CommandRun,"CheckCropCharacteristics(ID=""*"")","Crop ""ALFALFA"" temperature early moisture (-999.0) is invalid.",Specify degrees F.
+WARNING,CommandRun,"CheckCropCharacteristics(ID=""*"")","Crop ""ALFALFA"" temperature late moisture (-999.0) is invalid.",Specify degrees F.
+WARNING,CommandRun,"CheckCropCharacteristics(ID=""*"")","Crop ""ALFALFA"" maximum root zone depth (-999.0) is invalid.",Specify inches > 0.
+WARNING,CommandRun,"CheckCropCharacteristics(ID=""*"")","Crop ""ALFALFA"" maximum application depth (-999.0) is invalid.",Specify inches > 0.
+WARNING,CommandRun,"CheckCropCharacteristics(ID=""*"")","Crop ""ALFALFA"" spring frost flag (-999) is invalid.","Specify 0, 1, 2."
+WARNING,CommandRun,"CheckCropCharacteristics(ID=""*"")","Crop ""ALFALFA"" fall frost flag (-999) is invalid.","Specify 0, 1, 2."

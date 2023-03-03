@@ -1,0 +1,189 @@
+col0,col1,col2,col3,col4,col5
+01,,1,Nanggro Aceh Darussalam,view,
+0101,1.0,101,Banda Aceh,view,
+0101001,101.0,101001,Keudah,normal,Keudah
+02,,2,Sumatera Utara,view,
+0201,2.0,201,Medan,view,
+Medan01,201.0,201001,Brigjend Katamso,normal,Brigjend Katamso
+03,,3,Sumatera Barat,view,
+0301,3.0,301,Padang,view,
+0301001,301.0,301001,Veteran,normal,Veteran
+04,,4,Riau,view,
+0401,4.0,401,Pekan Baru,view,
+0401001,401.0,401001,Paus Ujung,normal,Paus Ujung
+05,,5,Kepulauan Riau,view,
+0501,5.0,501,Tanjung Pinang,view,
+0501001,501.0,501001,Srikaton,normal,Srikaton
+0502,5.0,502,Batam,view,
+Batam01,502.0,502001,Batam Centre,normal,Batam Centre
+06,,6,Jambi,view,
+0601,6.0,601,Jambi,view,
+0601001,601.0,601001,P. Antasari,normal,P. Antasari
+07,,7,Sumatera Selatan,view,
+0701,7.0,701,Palembang,view,
+Palembang01,701.0,701001,Angkatan 45,normal,Angkatan 45
+08,,8,Bangka Belitung,view,
+0801,8.0,801,Pangkal Pinang,view,
+0801001,801.0,801001,Tanjung Pandan,normal,Tanjung Pandan
+09,,9,Bengkulu,view,
+0901,9.0,901,Bengkulu,view,
+0901001,901.0,901001,Timur Indah,normal,Timur Indah
+10,,10,Lampung,view,
+1001,10.0,1001,Bandar Lampung,view,
+Lampung01,1001.0,1001001,Teluk Betung,normal,Teluk Betung
+11,,11,DKI Jakarta,view,
+1101,11.0,1101,Jakarta Pusat,view,
+Lause01,1101.0,1101001,Lautze,normal,Lautze
+1101002,1101.0,1101002,Toko ITC Roxy Mas,normal,Toko ITC Roxy Mas
+1101003,1101.0,1101003,Toko ITC Cempaka Mas,normal,Toko ITC Cempaka Mas
+1101004,1101.0,1101004,Toko Pasar Senen,normal,Toko Pasar Senen
+1101005,1101.0,1101005,Toko Tanah Abang,normal,Toko Tanah Abang
+1101006,1101.0,1101006,Bendungan Hilir,normal,Bendungan Hilir
+1101007,1101.0,1101007,Salemba,normal,Salemba
+1102,11.0,1102,Jakarta Utara,view,
+Cempaka,1102.0,1102001,Cempaka Putih,normal,Cempaka Putih
+1102002,1102.0,1102002,Toko ITC Mangga Dua,normal,Toko ITC Mangga Dua
+1102003,1102.0,1102003,Teluk Gong,normal,Teluk Gong
+1102004,1102.0,1102004,Cilincing,normal,Cilincing
+1103,11.0,1103,Jakarta Barat,view,
+Cengkareng01,1103.0,1103001,Cengkareng,normal,Cengkareng
+JakartaBarat01,1103.0,1103002,Daan Mogot,normal,Daan Mogot
+1103003,1103.0,1103003,Toko Season City,normal,Toko Season City
+KebonJeruk01,1103.0,1103004,Kebon Jeruk,normal,Kebon Jeruk
+1103005,1103.0,1103005,Tambora,normal,Tambora
+1103006,1103.0,1103006,Pesing Poglar,normal,Pesing Poglar
+1104,11.0,1104,Jakarta Selatan,view,
+JakartaSelatan01,1104.0,1104001,Mampang,normal,Mampang
+1104002,1104.0,1104002,Gandaria Selatan,normal,Gandaria Selatan
+1104003,1104.0,1104003,Pasar Minggu,normal,Pasar Minggu
+1104004,1104.0,1104004,Toko ITC Kuningan,normal,Toko ITC Kuningan
+1104005,1104.0,1104005,Pancoran,normal,Pancoran
+1105,11.0,1105,Jakarta Timur,view,
+JakartaTimur01,1105.0,1105001,Cawang,normal,Cawang
+1105002,1105.0,1105002,Ciracas,normal,Ciracas
+1105003,1105.0,1105003,Duren Sawit,normal,Duren Sawit
+12,,12,Jawa Barat,view,
+1201,12.0,1201,Bandung,view,
+Bandung01,1201.0,1201001,Ciateul,normal,Ciateul
+BandungTimur01,1201.0,1201002,Bandung Timur,normal,Bandung Timur
+1201003,1201.0,1201003,Bandung Selatan,normal,Bandung Selatan
+1201004,1201.0,1201004,Toko Pasar Baru,normal,Toko Pasar Baru
+1202,12.0,1202,Garut,view,
+1202001,1202.0,1202001,Citisung,normal,Citisung
+1203,12.0,1203,Sukabumi,view,
+1203001,1203.0,1203001,Cisaat,normal,Cisaat
+1204,12.0,1204,Tasikmalaya,view,
+1204001,1204.0,1204001,Tasikmalaya1,normal,Tasikmalaya1
+1205,12.0,1205,Cianjur,view,
+1205001,1205.0,1205001,Cianjur1,normal,Cianjur1
+1206,12.0,1206,Cimahi,view,
+BandungCimahi01,1206.0,1206001,Cimahi1,normal,Cimahi1
+1207,12.0,1207,Bogor,view,
+Bogor01,1207.0,1207001,Tanah Sereal,normal,Tanah Sereal
+1207002,1207.0,1207002,Tapos,normal,Tapos
+1208,12.0,1208,Depok,view,
+Depok01,1208.0,1208001,Beji Timur,normal,Beji Timur
+1208002,1208.0,1208002,Cimanggis,normal,Cimanggis
+1209,12.0,1209,Bekasi,view,
+Bekasi01,1209.0,1209001,Delta Pekayon,normal,Delta Pekayon
+Cikarang01,1209.0,1209002,Cikarang,normal,Cikarang
+1209003,1209.0,1209003,Bekasi Utara,normal,Bekasi Utara
+1209004,1209.0,1209004,Galaxy,normal,Galaxy
+1209005,1209.0,1209005,Bekasi Timur,normal,Bekasi Timur
+1209006,1209.0,1209006,Bekasi Cakung,normal,Bekasi Cakung
+1210,12.0,1210,Purwakarta,view,
+Purwakarta01,1210.0,1210001,Purwakarta1,normal,Purwakarta1
+1211,12.0,1211,Sumedang,view,
+1211001,1211.0,1211001,Sumedang1,normal,Sumedang1
+13,,13,Banten,view,
+1301,13.0,1301,Cilegon,view,
+1301001,1301.0,1301001,Walantaka,normal,Walantaka
+1302,13.0,1302,Tangerang,view,
+Sangiang01,1302.0,1302001,Sangiang,normal,Sangiang
+1302004,1302.0,1302004,Tigaraksa,normal,Tigaraksa
+1302005,1302.0,1302005,Sepatan,normal,Sepatan
+1302006,1302.0,1302006,Ciledug,normal,Ciledug
+1303,13.0,1303,Tangerang Selatan,view,
+GadingSerpong01,1303.0,1303002,Melati Mas,normal,Melati Mas
+1303003,1303.0,1303003,Pamulang,normal,Pamulang
+14,,14,Jawa Tengah,view,
+1401,14.0,1401,Semarang,view,
+Semarang01,1401.0,1401001,Suratmo,normal,Suratmo
+1402,14.0,1402,Solo,view,
+1402001,1402.0,1402001,Laweyan,normal,Laweyan
+1403,14.0,1403,Pemalang,view,
+1403001,1403.0,1403001,Raya Petarukan,normal,Raya Petarukan
+1404,14.0,1404,Blora,view,
+1404001,1404.0,1404001,Blora1,normal,Blora1
+1405,14.0,1405,Purwokerto,view,
+1405001,1405.0,1405001,Jatisari,normal,Jatisari
+15,,15,Daerah Istimewa Yogyakarta,view,
+1501,15.0,1501,Yogyakarta,view,
+Jogja01,1501.0,1501001,Sagan,normal,Sagan
+16,,16,Jawa Timur,view,
+1601,16.0,1601,Surabaya,view,
+Surabaya01,1601.0,1601001,Gubeng Kertajaya,normal,Gubeng Kertajaya
+1602,16.0,1602,Malang,view,
+1602001,1602.0,1602001,Bandara Abdul Rahman Saleh,normal,Bandara Abdul Rahman Saleh
+17,,17,Bali,view,
+1701,17.0,1701,Denpasar,view,
+Denpasar01,1701.0,1701001,Pelita,normal,Pelita
+18,,18,Nusa Tenggara Barat,view,
+1801,18.0,1801,Mataram,view,
+1801001,1801.0,1801001,Brawijaya,normal,Brawijaya
+19,,19,Nusa Tenggara Timur,view,
+1901,19.0,1901,Kupang,view,
+1901001,1901.0,1901001,Kakatua,normal,Kakatua
+20,,20,Kalimantan Barat,view,
+2001,20.0,2001,Pontianak,view,
+2001001,2001.0,2001001,Adi Sucipto,normal,Adi Sucipto
+21,,21,Kalimantan Tengah,view,
+2101,21.0,2101,Palangkaraya,view,
+2101001,2101.0,2101001,Penarung,normal,Penarung
+22,,22,Kalimantan Selatan,view,
+2201,22.0,2201,Banjarmasin,view,
+2201001,2201.0,2201001,Gambut,normal,Gambut
+23,,23,Kalimantan Timur,view,
+2301,23.0,2301,Samarinda,view,
+2301001,2301.0,2301001,P.Suryanata,normal,P.Suryanata
+2302,23.0,2302,Balikpapan,view,
+2302001,2302.0,2302001,Sepinggan,normal,Sepinggan
+2303,23.0,2303,Berau,view,
+2303001,2303.0,2303001,Berau1,normal,Berau1
+24,,24,Kalimantan Utara,view,
+2401,24.0,2401,Tarakan,view,
+2401001,2401.0,2401001,Kampung Bugis,normal,Kampung Bugis
+25,,25,Sulawesi Utara,view,
+2501,25.0,2501,Manado,view,
+2501001,2501.0,2501001,Tuminting,normal,Tuminting
+26,,26,Sulawesi Barat,view,
+2601,26.0,2601,Mamuju,view,
+2601001,2601.0,2601001,Mamuju1,normal,Mamuju1
+27,,27,Sulawesi Tengah,view,
+2701,27.0,2701,Palu,view,
+2701001,2701.0,2701001,Rajawali,normal,Rajawali
+28,,28,Sulawesi Tenggara,view,
+2801,28.0,2801,Kendari,view,
+2801001,2801.0,2801001,RA.Kartini,normal,RA.Kartini
+29,,29,Sulawesi Selatan,view,
+2901,29.0,2901,Makassar,view,
+Makasar01,2901.0,2901001,Pelita Raya,normal,Pelita Raya
+30,,30,Gorontalo,view,
+3001,30.0,3001,Gorontalo,view,
+3001001,3001.0,3001001,Beringin,normal,Beringin
+31,,31,Maluku,view,
+3101,31.0,3101,Ambon,view,
+3101001,3101.0,3101001,Ambon1,normal,Ambon1
+32,,32,Maluku Utara,view,
+3201,32.0,3201,Ternate,view,
+3201001,3201.0,3201001,Bastiong Talangame,normal,Bastiong Talangame
+33,,33,Papua Barat,view,
+3301,33.0,3301,Manokwari,view,
+3301001,3301.0,3301001,Trikora Rendani,normal,Trikora Rendani
+34,,34,Papua,view,
+3401,34.0,3401,Jayapura,view,
+3401001,3401.0,3401001,Youmakhe,normal,Youmakhe
+35,,35,Operasional Pusat,view,
+3501001,35.0,3501001,Operasional Pusat,normal,Operasional Pusat
+36,,36,Kantor Pusat,view,
+Roxy01,36.0,3601001,Kantor Pusat,normal,Kantor Pusat

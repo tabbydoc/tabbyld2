@@ -1,0 +1,17 @@
+col0,col1,col2,col3
+pcat_group,กลุ่ม,,True
+pcat_group_org,หน่วยงาน,กลุ่ม,True
+pcat_group_agent,ตัวแทนขาย,กลุ่ม,True
+pcat_group_school,สถานศึกษา,กลุ่ม,True
+pcat_group_modern,โมเดิร์นเทรด,กลุ่ม,True
+pcat_group_general,ร้านค้าเครื่องเขียน,กลุ่ม,True
+pcat_type,ชนิดการค้า,,True
+pcat_type_wholesale,ขายส่ง,ชนิดการค้า,True
+pcat_type_retail,ขายปลีก,ชนิดการค้า,True
+pcat_area,เขต,,True
+pcat_area_bangkok,กรุงเทพฯ,เขต,True
+pcat_area_upc,ต่างจังหวัด,เขต,True
+pcat_area_upc_south,ภาคใต้,ต่างจังหวัด,True
+pcat_area_upc_central,ภาคกลางและตะวันออก,ต่างจังหวัด,True
+pcat_area_upc_northwest,ภาคอีสาน,ต่างจังหวัด,True
+pcat_area_upc_north,ภาคเหนือ,ต่างจังหวัด,True

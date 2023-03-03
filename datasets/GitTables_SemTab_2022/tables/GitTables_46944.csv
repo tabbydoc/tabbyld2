@@ -1,0 +1,151 @@
+col0,col1,col2
+216602979,LIRICAL,"Protein kinase domain, 0.03182
+textile, 0.00000
+document, 0.00000"
+199330464,wikidata_ontomatcher,"Wikidata, 0.06549
+goods, 0.00000
+educational system, 0.00000"
+253207181,ro-crate-ruby,"information, 0.07154
+textile, 0.00000
+document, 0.00000"
+212556220,Misc_Training_scripts,"virtuoso, 0.17386
+library science, 0.00000
+cosmology, 0.00000"
+155879756,FAIRifier,"archaeological find, 0.13087
+map, 0.03841
+entity, 0.00000"
+90349931,elda,"minute, 0.42500
+goods, 0.00000
+work, 0.00000"
+126633812,music-genre-classification,"music, 0.10166
+first-order metaclass, 0.03619
+property, 0.02325"
+173520377,probabilistic_nlg,"cosmology, 0.04792
+information, 0.00000
+mathematics, 0.00000"
+103798851,DataStructures-Algorithms-InC,"computer science, 0.12205
+work, 0.00000
+entity, 0.00000"
+153249816,Music-Generation-Using-Deep-Learning,"music, 0.02836
+computer science, 0.00000
+entity, 0.00000"
+170129937,evaluomeR,"quality, 0.06077
+work, 0.00000
+entity, 0.00000"
+57412597,hemodonacion,"codon, 0.17930
+protein, 0.00000
+pipeline transport, 0.00000"
+46532803,DnaCompress,"DNA, 0.02316
+Utility library for structural bioinformatics., 0.00000
+software, 0.00000"
+95547920,trackhub-creator,"pipeline transport, 0.27059
+work, 0.00000
+work, 0.00000"
+94098106,libpogo,"library science, 0.04907
+library science, 0.02093
+entity, 0.00000"
+83849237,vimrc,"software, 0.05114
+Utility library for structural bioinformatics., 0.00000
+minute, 0.00000"
+83414669,cpp-playground,"mathematics, 0.03697
+information, 0.00000
+mathematics, 0.00000"
+56680034,genenetwork2,"jQuery, 0.14280
+minute, 0.00004
+minute, 0.00001"
+231038084,MPCC,"Dow Jones Industrial Average, 0.03043
+protein, 0.02197
+library science, 0.00000"
+14387064,pubannotation,"HyperText Markup Language, 0.03168
+Generalizability of epidemiological findings and public health decisions: an illustration from the Rochester Epidemiology Project, 0.00000
+codon, 0.00000"
+212904362,UniMath,"function, 0.07644
+function, 0.03840
+entity, 0.00003"
+113264497,neo4j-to-reasoner,"Cornell University, 0.09895
+protein, 0.00000
+information, 0.00000"
+260889871,dl-reasoner,"concept, 0.07592
+Cornell University, 0.00000
+music, 0.00000"
+161862375,biohack18,"protein, 0.09572
+information, 0.00000
+mathematics, 0.00000"
+171842501,biosample_jsonld,"library science, 0.06932
+library science, 0.03863
+educational system, 0.00001"
+257154635,bh20-seq-resource,"property, 0.11727
+textile, 0.00000
+protein, 0.00000"
+260966843,odgi,"graffiti, 0.09073
+computer science, 0.00000
+protein, 0.00000"
+257545116,arvados,"textile, 0.07499
+document, 0.00000
+HyperText Markup Language, 0.00000"
+150747903,termite_toolkit,"widget toolkit, 0.09060
+service, 0.00000
+first-order metaclass, 0.00000"
+151696606,JavaTermiteStarter,"service, 0.01854
+service, 0.01741
+widget toolkit, 0.00000"
+126086017,cwltool,"work, 0.06246
+property, 0.00000
+music, 0.00000"
+150911020,cwl-tes-temp,"educational system, 0.21475
+work, 0.00000
+information, 0.00000"
+83817036,mmtf-cpp,"codec, 0.05645
+DNA, 0.00000
+archaeological find, 0.00000"
+254755549,covid-19-Annotations-on-Structures,"protein, 0.03951
+Generalizability of epidemiological findings and public health decisions: an illustration from the Rochester Epidemiology Project, 0.00000
+codon, 0.00000"
+3103186,php-lib,"Utility library for structural bioinformatics., 0.02761
+protein, 0.00000
+mathematics, 0.00000"
+3103225,bio2rdf-scripts,"abstract object, 0.04053
+textile, 0.02380
+concept, 0.00000"
+22713247,aida,"film, 0.11482
+Generalizability of epidemiological findings and public health decisions: an illustration from the Rochester Epidemiology Project, 0.00000
+first-order metaclass, 0.00000"
+21820701,memetools,"meme, 0.29074
+work, 0.02798
+computer science, 0.00000"
+34799405,owlapi,"entity, 0.13138
+goods, 0.03591
+minute, 0.00000"
+42526998,pythonontologysearch,"minute, 0.05670
+minute, 0.02677
+virtuoso, 0.00000"
+238953196,my-react-form,"software, 0.04935
+minute, 0.00000
+protein, 0.00000"
+157134523,python-ecology-lesson-es-1,"mathematics, 0.05367
+mathematics, 0.02724
+virtuoso, 0.00002"
+193684604,opengovernment,"document, 0.08352
+HyperText Markup Language, 0.00000
+textile, 0.00000"
+33901216,bioscholar-v1.0,"system, 0.06682
+concept, 0.00000
+graffiti, 0.00000"
+13978110,ProvToolbox,"property, 0.02919
+intellectual work, 0.02077
+music, 0.00000"
+258719463,x-spreadsheet,"cell, 0.08262
+quality, 0.00000
+film, 0.00000"
+113915480,expert-pancake-aspnetcoreapp,"minute, 0.05215
+free software, 0.02522
+film, 0.00000"
+223272173,generalizability,"Generalizability of epidemiological findings and public health decisions: an illustration from the Rochester Epidemiology Project, 0.05273
+Generalizability of epidemiological findings and public health decisions: an illustration from the Rochester Epidemiology Project, 0.02340
+library science, 0.00003"
+248895581,Data-Science--Cheat-Sheet,"computer science, 0.08166
+computer science, 0.05607
+film, 0.00000"
+223627473,Basketball_Analytics,"notebook, 0.07915
+computer science, 0.00000
+work, 0.00000"

@@ -1,0 +1,34 @@
+col0,col1,col2
+base_idu.hr_job_1,Director General,base_idu.hr_department_1
+base_idu.hr_job_2,Director Técnico de Administración de Infraestructura,base_idu.hr_department_19
+base_idu.hr_job_3,Director Técnica Administrativa y Financiera,base_idu.hr_department_25
+base_idu.hr_job_4,Director Técnico de Apoyo a la Valorización,base_idu.hr_department_31
+base_idu.hr_job_5,Director Técnica de Construcciones,base_idu.hr_department_13
+base_idu.hr_job_6,Director Técnico de Diseño de Proyectos,base_idu.hr_department_11
+base_idu.hr_job_7,Director Técnica Estratégica,base_idu.hr_department_8
+base_idu.hr_job_8,Director Técnica de Gestión Contractual,base_idu.hr_department_23
+base_idu.hr_job_9,Director Técnico de Gestión Judicial,base_idu.hr_department_22
+base_idu.hr_job_10,Director Técnico de Mantenimiento,base_idu.hr_department_16
+base_idu.hr_job_11,Director Técnica de Predios,base_idu.hr_department_12
+base_idu.hr_job_12,Director Técnico de Procesos Selectivos,base_idu.hr_department_21
+base_idu.hr_job_13,Director Técnica de Proyectos,base_idu.hr_department_9
+base_idu.hr_job_14,Jefe de Oficina Asesora de Comunicaciones,base_idu.hr_department_5
+base_idu.hr_job_15,Jefe de Oficina Asesora de Planeación,base_idu.hr_department_2
+base_idu.hr_job_16,Jefe de Oficina Atención al Ciudadano,base_idu.hr_department_3
+base_idu.hr_job_17,Jefe de Oficina de Control Disciplinario,base_idu.hr_department_6
+base_idu.hr_job_18,Jefe de Oficina de Control Interno,base_idu.hr_department_4
+base_idu.hr_job_19,Subdirector General de Desarrollo Urbano,base_idu.hr_department_7
+base_idu.hr_job_20,Subdirector General de Gestión Corporativa,base_idu.hr_department_24
+base_idu.hr_job_21,Subdirector General de Infraestructura,base_idu.hr_department_10
+base_idu.hr_job_22,Subdirector General Jurídica,base_idu.hr_department_20
+base_idu.hr_job_23,Subdirector Técnica de Ejecución del Subsistema de Transporte,base_idu.hr_department_15
+base_idu.hr_job_24,Subdirector Técnica de Ejecución del Subsistema Vial,base_idu.hr_department_14
+base_idu.hr_job_25,Subdirector Técnico Jurídico y de Ejecuciones Fiscales,base_idu.hr_department_32
+base_idu.hr_job_26,Subdirector Técnico de Mantenimiento del Subsistema de Transporte,base_idu.hr_department_18
+base_idu.hr_job_27,Subdirector Técnico de Mantenimiento del Subsistema Vial,base_idu.hr_department_17
+base_idu.hr_job_28,Subdirector Técnico de Operaciones,base_idu.hr_department_33
+base_idu.hr_job_29,Subdirector Técnico de Presupuesto y Contabilidad,base_idu.hr_department_29
+base_idu.hr_job_30,Subdirector Técnica de Recursos Físicos,base_idu.hr_department_27
+base_idu.hr_job_31,Subdirector Técnica de Recursos Humanos,base_idu.hr_department_26
+base_idu.hr_job_32,Subdirector Técnico de Recursos Tecnológicos,base_idu.hr_department_28
+base_idu.hr_job_33,Subdirector Técnico de Tesorería y Recaudo,base_idu.hr_department_30

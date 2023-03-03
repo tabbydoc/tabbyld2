@@ -1,0 +1,62 @@
+col0,col1,col2
+BOOT_LOADING,Loading...,Chargement ...
+TITLE_START_MOBILE,Touch to start,Touchez l'écran
+TITLE_START_DESKTOP,Press X to start,Appuyez sur X
+TITLE_VERSION,Version,Version
+TITLE_HIGHSCORES,Highscores,Meilleurs Scores
+HUD_HIGHSCORE,Highscore,Meilleur Score
+HUD_SCORE,Score,Score
+HUD_LIVES,Lives,Vies
+HUD_WAVE,Wave,Vague
+HUD_WARNING,Warning!,Attention !
+HUD_LASTLIFE,Last life!,Dernière vie !
+TITLE_GAMEOVER,Game over...,Game over ...
+MENU_START_GAME,Start game,Démarrer le jeu
+MENU_OPTIONS,Options,Options
+MENU_TESTS,Tests,Tests
+SCENE_RUNNER_PREV_BTN,< Prev,< Prec.
+SCENE_RUNNER_RESET_BTN,Reset,Recharger
+SCENE_RUNNER_NEXT_BTN,Next >,Suiv. >
+MENU_LANGUAGE,Language,Langue
+LANGUAGE_ENGLISH,English,Anglais
+LANGUAGE_FRENCH,French,Français
+SCENE_RUNNER_BACK_BTN,Back,Retour
+PAUSE_MESSAGE,Game is paused.\nPress Resume\nto continue.,Pause.\nAppuyez sur OK\npour continuer.
+PAUSE_RESUME,Resume,OK
+ENEMY_FIRE_MSG,Fire!,Feu !
+ENEMY_TAUNT_MSG,Hahaha!,Hahaha !
+PLAYER_SPAWN_MSG,Let's go!,C'est parti !
+PLAYER_WEAPON_UPGRADE_MSG,Weapon upgrade!,Meilleure arme !
+PLAYER_BOMB_PICKED_MSG,Bomb picked!,Bombe obtenue !
+PLAYER_BOMB_FIRED_MSG,Bomb fired!,Bombe lancée !
+PLAYER_LIFE_MSG,1-UP!,+1 vie !
+BTN_HOW_TO_PLAY,How to play,Comment jouer
+BTN_BACK,Back,Retour
+TUTORIAL_STEP1_MSG1,Welcome to the SC Space Shooter.,Bienvenue sur le SC Space Shooter.
+TUTORIAL_STEP1_MSG2,This game is easy to play.,Ce jeu est assez simple.
+TUTORIAL_STEP1_MSG3_PC,You can move the player and shoot\nusing your mouse while\nit is clicked.,"Déplace le joueur et tire\nen utilisant la souris, en\ncliquant."
+TUTORIAL_STEP1_MSG3_MOBILE,You can move the player and shoot\nuby touching your screen\nand moving your finger.,"Déplace le joueur et tire\nen touchant l'écran, et en\ndéplaçant ton doigt."
+TUTORIAL_STEP1_MSG4,Let's try to dodge or explode\nrocks to check if you understand.,Essaye d'éviter ou de détruire\nles astéroides\npour voir si tu as compris.
+TUTORIAL_STEP2_MSG1,"Okay, that was easy, right?","OK, c'était facile, non ?"
+TUTORIAL_STEP2_MSG2,Let's spawn enemies!,Passons aux ennemis !
+TUTORIAL_STEP3_MSG1,Not so easy this time.,C'était pas si facile.
+TUTORIAL_STEP3_MSG2,We will now see the powerups.,On va maintenant voir les bonus.
+TUTORIAL_STEP3_MSG3,This one will upgrade your weapon.,Celui-ci va améliorer ton arme.
+TUTORIAL_STEP3_MSG4,"Now if you try to shoot,\nyou will have two bullets at once.","Si tu tires,\ntu va avoir deux balles\nen même temps."
+TUTORIAL_STEP3_MSG5,Take some more.,Prends-en d'autres.
+TUTORIAL_STEP3_MSG6,"Now, try to shoot.",Essaye de tirer maintenant.
+TUTORIAL_STEP3_MSG7,Better! I will lock your weapon.\nIf you die you will preserve it.,C'est mieux !\nJe vais 'bloquer' ton arme.\nSi tu meurs tu pourra la garder.
+TUTORIAL_STEP3_MSG8,But in the real game if you die\nyou will have your old single bullet.,Mais dans le jeu si tu meurs\ntu va retrouver ton arme initiale.
+TUTORIAL_STEP3_MSG9,Here is another powerup.,Voici un autre bonus.
+TUTORIAL_STEP3_MSG10_PC,This is a bomb.\nUse right-click to throw it.,C'est une bombe.\nFais un clique-droit pour la lancer.
+TUTORIAL_STEP3_MSG10_MOBILE,This is a bomb.\Use two fingers to throw it.,C'est une bombe.\nUtilise deux doigts pour la lancer.
+TUTORIAL_STEP3_MSG11,"And this, is a life.","Et ça, c'est une vie."
+TUTORIAL_STEP3_MSG12,"Once you see a powerup,\ntry to get it.\nIt will be useful.","Dès que tu vois un bonus,\nessaye de le récupérer.\nIl va forcément être utile."
+TUTORIAL_STEP3_MSG13,"Finally, let's try a boss!","Enfin, essayons un boss !"
+TUTORIAL_STEP4_MSG1,Great! I think you can\nnow survive in the game.,Super ! Je pense que tu peux\nmaintenant survivre dans le jeu.
+TUTORIAL_STEP4_MSG2,Good luck and\ndo your best!,Bonne chance\net fais de ton mieux !
+TUTORIAL_SUPPORT_MSG1,Be careful with the rocks.,Attention aux astéroides.
+TUTORIAL_SUPPORT_MSG2,Shoot them before they shoot you.,Tire leur dessus avant eux.
+TUTORIAL_SUPPORT_MSG3,Dodge the bullets as you can.,Esquive les balles comme tu le peux.
+BTN_SKIP_TUTORIAL,Skip Tutorial,Passer le Tutorial
+SCENE_RUNNER_NO_SCENE,[NO SCENE FOUND],[PAS DE SCENE]

@@ -1,0 +1,21 @@
+col0,col1,col2,col3,col4,col5
+AUT,Autism,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,AUT,Individuals with Disabilities Education Act,Autism Spectrum Disorders
+DB,Deaf-blindness,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,DB,Individuals with Disabilities Education Act,Deaf-Blindness
+HI,Hearing impairment,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,HI,Individuals with Disabilities Education Act,"Hearing Impairment, including Deafness"
+ID,Intellectual Disability,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,ID,Individuals with Disabilities Education Act,Intellectual Disability
+ITD,Infant/Toddler with a Disability,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,ITD,Individuals with Disabilities Education Act,Infant/Toddler with a Disability
+Medical condition,Medical condition,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,Medical condition,Section 504,Medical condition
+Mental impairment,Mental impairment,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,Mental impairment,Individuals with Disabilities Education Act,Mental impairment
+Motor impairment,Motor impairment,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,Motor impairment,Section 504,Motor impairment
+MD,Multiple disabilities,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,MD,Individuals with Disabilities Education Act,Multiple Disabilities
+OI,Orthopedic Impairment,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,OI,Section 504,Orthopedic Impairment
+Other,Other,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,Other,Other,Other
+OHI,Other health impairment,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,OHI,Individuals with Disabilities Education Act,Other Health Impairment
+Physical Disability,Physical Disability,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,Physical Disability,Individuals with Disabilities Education Act,Physical Disability
+PSD,Preschooler with a Disability,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,PSD,Individuals with Disabilities Education Act,Preschooler with a Disability
+Sensory impairment,Sensory impairment,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,Sensory impairment,Section 504,Sensory impairment
+Serious Emotional Disability,Serious Emotional Disability,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,Serious Emotional Disability,Section 504,Serious Emotional Disability
+SLI,Speech or language impairment,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,SLI,Individuals with Disabilities Education Act,Speech or Language Impairment
+SLD,Specific learning disability,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,SLD,Individuals with Disabilities Education Act,Specific Learning Disability
+TBI,Traumatic brain injury,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,TBI,Individuals with Disabilities Education Act,Traumatic Brain Injury
+VI,Visual impairment,http://ed-fi.org/Descriptor/DisabilityDescriptor.xml,VI,Individuals with Disabilities Education Act,"Visual Impairment, including Blindness"

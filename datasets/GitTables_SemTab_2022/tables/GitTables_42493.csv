@@ -1,0 +1,37 @@
+col0,col1,col2,col3
+"Malheur County, Oregon",http://malheurco.org/countyclerk-electionresults,http://www.malheurco.org/GIS,No
+"Baker County, Oregon",http://www.bakercounty.org/elections/,http://www.bakercounty.org/gis/index.html,No
+"Wallowa County, Oregon",http://www.co.wallowa.or.us/administration/clerk/election_results.html,http://co.wallowa.or.us/community_development/gis/index.html,No
+"Union County, Oregon",http://union-county.org/county-clerk/elections/,http://union-county.org/surveyor/,No
+"Umatilla County, Oregon",http://www.co.umatilla.or.us/elections/results.html,http://www.co.umatilla.or.us/GIS/index.html,No
+"Morrow County, Oregon",http://morrowcountyoregon.com/county-clerk/,http://morrowcountyoregon.com/,No
+"Grant County, Oregon",http://www.gcoregonlive2.com/svc_display.php?id=526,http://www.gcoregonlive3.com/,No
+"Harney County, Oregon",http://www.co.harney.or.us/past_election_results.html,http://www.gcoregonlive3.com/,No
+"Lake County, Oregon",http://www.lakecountyor.org/election_results.php,http://www.lakecountyor.org/gis/index.php,No
+"Klamath County, Oregon",http://klamathcounty.org/depts/clerk/electionResults.asp,http://www.klamathcounty.org/depts/assessor/GIS.asp,No
+"Deschutes County, Oregon",http://www.deschutes.org/Clerks-Office/Elections/Past-Elections/Results.aspx,http://www.deschutes.org/Geographic-Information-Services/Products-and-Services/GIS-Data.aspx,Yes (paid FTP)
+"Crook County, Oregon",http://co.crook.or.us/Departments/Clerk/ElectionInformation/HistoricElectionResults/tabid/2278/Default.aspx,http://www.co.crook.or.us/gis/Home/tabid/1560/TabId/2300/Default.aspx,Yes (free FTP)
+"Jefferson County, Oregon",http://www.co.jefferson.or.us/ElectedOfficials/CountyClerk/Elections/tabid/1421/Default.aspx,http://gis.co.jefferson.or.us/index.html,No (paid CD/DVD)
+"Wheeler County, Oregon",http://www.wheelercountyoregon.com/,,
+"Gilliam County, Oregon",http://www.co.gilliam.or.us/departments/clerk/election_results.html,http://www.co.gilliam.or.us/departments/assessor/,No
+"Sherman County, Oregon",http://www.sherman-county.com/archive_of_election_results.asp,http://www.sherman-county.com/govt_assessor.asp,No
+"Wasco County, Oregon",http://co.wasco.or.us/county/dept_clerk_elections.cfm,http://co.wasco.or.us/county/dept_works_gis.cfm,No (paid CD/DVD)
+"Hood River County, Oregon",http://www.co.hood-river.or.us/index.asp?Type=B_BASIC&SEC={B3760B28-AC32-4807-B236-6309313184F8},http://www.co.hood-river.or.us/index.asp?Type=B_BASIC&SEC={282D7000-DA1E-411C-9620-6B27BB917C50},No
+"Multnomah County, Oregon",http://www.co.washington.or.us/AssessmentTaxation/Elections/ElectionsArchive/index.cfm,http://web.multco.us/gis/data-and-feeds-0,"Probably - need to check Metro RLIS and Portland Civic Apps.  The County does claim to have a downloadable gis shapefile for 2012 precints (doesn't specify elections) but the link doesn't work (MC) [http://web.multco.us/elections/multnomah-county-precinct-maps-2012].  Sadly, RLIS looks like it only has congressional precincts"
+"Clackamas County, Oregon",http://www.clackamas.us/elections/results.html,http://www.clackamas.us/gis/dataportal.html,Yes - Done
+"Marion County, Oregon",http://www.co.marion.or.us/CO/elections/Results/,http://gis.co.marion.or.us/GISDownload/gisdownload.aspx,Yes - Done
+"Linn County, Oregon",http://www.co.linn.or.us/elections/index.php?content=electionarchive,http://www.co.linn.or.us/webmap/data.asp,No
+"Lane County, Oregon",http://www.lanecounty.org/Departments/CAO/Operations/CountyClerk/elections/Pages/resultsindex.aspx,http://www.lanecounty.org/Departments/IS/GIS/Pages/default.aspx,No (paid CD/DVD)
+"Douglas County, Oregon",https://www.co.douglas.or.us/clerk/election_results.asp,https://www.co.douglas.or.us/puboaa/gis.asp,No
+"Jackson County, Oregon",http://www.co.jackson.or.us/Page.asp?NavID=2696,http://gis.jacksoncounty.org/Portal/gis-data.aspx,Yes
+"Josephine County, Oregon",http://www.co.josephine.or.us/Page.asp?NavID=754,http://www.co.josephine.or.us/index.asp,No
+"Curry County, Oregon",http://www.co.curry.or.us/Departments/Elections/Past-Election-Results,http://gis.co.curry.or.us/gis/gisdata/index.html,No (paid CD/DVD)
+"Coos County, Oregon",http://www.co.coos.or.us/Departments/CountyClerk/Elections/ElectionArchives.aspx,http://www.co.coos.or.us/Departments/Assessors.aspx,No
+"Benton County, Oregon",http://www.co.benton.or.us/elections/archives.php,http://www.co.benton.or.us/maps/availdata.php?p=1&f=GISDataDownload/Boundaries/,Yes
+"Lincoln County, Oregon",http://www.co.lincoln.or.us/clerk/election_results/,http://www.co.lincoln.or.us/assessor/index.html,No
+"Polk County, Oregon",http://apps2.co.polk.or.us//elections/SearchCriteria.asp?TypeId=2,http://apps.co.polk.or.us/GISDataDownLoad/Download.html,Yes
+"Yamhill County, Oregon",http://www.co.yamhill.or.us/content/prior-year-elections,http://www.co.yamhill.or.us/gis,No
+"Tillamook County, Oregon",http://www.co.tillamook.or.us/gov/clerk/general%20elections/ElectionResults.htm,http://www.co.tillamook.or.us/gov/gis/download.htm,Unknown (downloadable data but don't know what's in it)
+"Washington County, Oregon",http://www.co.washington.or.us/AssessmentTaxation/Elections/ElectionsArchive/index.cfm,http://www.co.washington.or.us/AssessmentTaxation/GISCartography/index.cfm,No (but probably in RLIS)
+"Columbia County, Oregon",http://www.co.columbia.or.us/files/elections/archive/,http://www.co.columbia.or.us/departments/assessors-office/assessors-gis-data,Yes (tax lots - unknown whether voting districts included)
+"Clatsop County, Oregon",http://www.co.clatsop.or.us/page/87?deptid=2,http://www.co.clatsop.or.us/page/933?deptid=6,No (paid CD/DVD)

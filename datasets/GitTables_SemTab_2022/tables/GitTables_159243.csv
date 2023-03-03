@@ -1,0 +1,96 @@
+col0,col1,col2
+leftMenuTitle,Menu,Menu
+leftMenuRobot,Robot monitor,Robotmonitor
+leftMenuDataConfig,Data configuration,Datakonfigurering
+leftMenuDataIO,Data IO,Data IO
+leftMenuObjectTypes,Object types,Objekttyper
+leftMenuComponentTypes,Component types,Komponenttyper
+,,
+robotsLeftPanelHeaderTitle,Robot monitor,Robotmonitor
+robotsLeftPanelFullscreenButton,Fullscreen mode,Fuldskærmsvisning
+,,
+robotsRightPanelHeaderTitle,Robot data,Robotdata
+robotsRightPanelHeaderButtonDevices,Devices,Målere
+robotsRightPanelHeaderButtonSensors,Sensors,Sensorer
+,,
+robotsRightPanelDevicesGridTitle,,
+robotsRightPanelDevicesDeviceId,Device ID,Måler ID
+robotsRightPanelDevicesName,Name,Navn
+robotsRightPanelDevicesDescription,Description,Beskrivelse
+robotsRightPanelDevicesLocation,Location,Lokation
+robotsRightPanelDevicesRobotId,Robot ID,Robot ID
+,,
+robotsRightPanelSensorsGridTitle,Sensors,Sensorer
+robotsRightPanelSensorsType,Type,Type
+robotsRightPanelSensorsInterval,Interval,Interval
+robotsRightPanelSensorsLastRun,Last run,Seneste kørsel
+robotsRightPanelSensorsDataId,Data ID,Data ID
+robotsRightPanelSensorsSensorId,Sensor ID,Sensor ID
+robotsRightPanelSensorsDescription,Description,Beskrivelse
+robotsRightPanelSensorsUnit,Unit,Enhed
+robotsRightPanelSensorsLocation,Location,Lokation
+,,
+robotsRightPanelSensorsStatusRunning,Sensor is running as expected.,Sensor kører som forventer.
+robotsRightPanelSensorsStatusStopped,Sensor has stopped. Check for any errors or scheduled restarts.,Sensor er stoppet. Tjek for eventuelle fejl eller ventende genstart.
+robotsRightPanelSensorsStatusUnknown,Sensor status is unknown.,Sensor status er ukendt.
+robotsRightPanelSensorsStatusWarning,"Sensor is running, but the intervals are not met. Check sensor for errors","Sensor kører, men intervallerne bliver ikke overholdt. Tjek sensor for eventuelle fejl"
+,,
+completeSensorsListHeaderTitle,Complete sensors list,Komplet sensorlist
+completeSensorsListGridTitle,Sensor data,Sensordata
+completeSensorsListType,Type,Type
+completeSensorsListInterval,Interval,Interval
+completeSensorsListLastRun,Last run,Seneste kørsel
+completeSensorsListRobotId,Robot ID,Robot ID
+completeSensorsListDataId,Data ID,Data ID
+completeSensorsListSensorId,Sensor ID,Sensor ID
+completeSensorsListDescription,Description,Beskrivelse
+completeSensorsListUnit,Unit,Enhed
+completeSensorsListLocation,Location,Lokation
+,,
+dataConfigDataIODataHeaderTitle,Data,Data
+dataConfigDataIODataUnconfiguredTitle,Unconfigured data,Ikke-konfigureret data
+dataConfigDataIODataUnconfiguredSource,Data source,Datakilde
+dataConfigDataIODataUnconfiguredSensorId,Sensor ID,Sensor ID
+dataConfigDataIODataUnconfiguredName,Name from data source,Navn fra datakilde
+dataConfigDataIODataUnconfiguredDescription,Description,Beskrivelse
+dataConfigDataIODataUnconfiguredId,ID,ID
+dataConfigDataIODataUnconfiguredUnit,Unit,Enhed
+,,
+dataConfigDataIODataCalculationsTitle,Calculations,Beregninger
+dataConfigDataIODataCalculationsCalculation,Calculation,Beregning
+dataConfigDataIODataCalculationsFormula,Formula,Formular
+dataConfigDataIODataCalculationsData,Data,Data
+dataConfigDataIODataCalculationsUnit,Unit,Enhed
+dataConfigDataIODataCalculationsStore,Store,Gem
+dataConfigDataIODataCalculationsAverageTwoMinutes,Average 2 min.,Gennemsnit 2 min.
+dataConfigDataIODataCalculationsAverageSixtyMinutes,Average 60 min.,Gennemsnit 60 min.
+dataConfigDataIODataCalculationsSumSixtyMinutes,Sum 60. min.,Sum 60 min.
+dataConfigDataIODataCalculationsPlaceholder,Please select a template…,Vælg venligst en skabelon…
+,,
+dataConfigDataIODataConfiguredTitle,Configured data,Konfigureret data
+dataConfigDataIODataConfiguredSensorId,Sensor ID,Sensor ID
+dataConfigDataIODataConfiguredName,Name,Navn
+dataConfigDataIODataConfiguredDescription,Description,Beskrivelse
+dataConfigDataIODataConfiguredAlias,Alias,Alias
+dataConfigDataIODataConfiguredMeasurementName,Measurement name,Målingsbeskrivelse
+,,
+dataConfigDataIODataObjectCompTitle,Object or component,Objekt eller komponent
+dataConfigDataIODataObjectCompType,Type,Type
+dataConfigDataIODataObjectCompName,Name,Navn
+dataConfigDataIODataObjectCompId,ID,ID
+,,
+DataConfigDataIODataButtonSave,Save,Gem
+,,
+maskTextCalculations,No calculation template has been selected,Der er ikke valgt en beregningsskabelon
+maskTextConfiguredData,No unconfigured data has been selected,Der er ikke valgt nogen ukonfigureret data
+maskTextObjectsAndComponents,No component or object has been selected,Der er ikke valgt en komponent eller et objekt
+,,
+dataConfigDataIOMapHeaderTitle,Map,Kort
+dataConfigDataIOMapSearch,Search,Søg
+dataConfigDataIOMapLayers,Layers,Lag
+dataConfigDataIOMapInfoWindowOf,of,af
+dataConfigDataIOMapInfoWindowType,Type,Type
+dataConfigDataIOMapInfoWindowName,Name,Navn
+dataConfigDataIOMapInfoWindowId,ID,ID
+dataConfigDataIOMapInfoWindowButtonClose,Close,Luk
+dataConfigDataIOMapInfoWindowButtonAccept,Accept,Acceptér

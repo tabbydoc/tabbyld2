@@ -1,0 +1,136 @@
+col0,col1,col2
+broh,"{
+  ""title"": ""Rules"",
+  ""description"": ""dont be gay\n-cock pics are send\n-free download camel sex 2018 no virus \n"",
+  ""author"": {
+    ""name"": ""danny"",
+    ""icon_url"": ""https://cdn.discordapp.com/avatars/80088516616269824/39ec2502115271c24eb969018fcd8b55.png?size=1024""
+  },
+  ""color"": 53380,
+  ""footer"": {
+    ""text"": ""any individual found being gay will be banned""
+  },
+  ""thumbnail"": ""https://cdn.discordapp.com/icons/336642139381301249/3aa641b21acded468308a37eef43d7b3.webp?size=1024"",
+  ""fields"": [
+    {
+      ""name"": "" bruh"",
+      ""value"": ""bruh"",
+      ""inline"": false
+    }
+  ]
+}",247292930346319872
+brohh,"{
+  ""content"": ""Welcome to :discohook:Discohook, a free message and embed builder for Discord!\nThere's additional info in the embeds below, or you can use the *Clear all* button in the editor to start making embeds.\nHave questions? Discohook has a support server at <https://discohook.org/discord>."",
+  ""embeds"": [
+    {
+      ""title"": ""rules"",
+      ""description"": ""dont be gay\n-cock pics are send\n-free download camel sex 2018 no virus "",
+      ""color"": 7506394,
+      ""author"": {
+        ""name"": ""Danny""
+      },
+      ""image"": {
+        ""url"": """"
+      }
+    }
+  ]
+}",247292930346319872
+tester,"{
+  ""content"": ""Welcome to :discohook:Discohook, a free message and embed builder for Discord!\nThere's additional info in the embeds below, or you can use the *Clear all* button in the editor to start making embeds.\nHave questions? Discohook has a support server at <https://discohook.org/discord>."",
+  ""embeds"": [
+    {
+      ""title"": ""rules"",
+      ""description"": ""dont be gay\n-cock pics are send\n-free download camel sex 2018 no virus "",
+      ""color"": 7506394,
+      ""author"": {
+        ""name"": ""Danny""
+      },
+      ""image"": {
+        ""url"": """"
+      },
+      ""thumbnail"": {
+        ""url"": ""https://cdn.discordapp.com/icons/336642139381301249/3aa641b21acded468308a37eef43d7b3.webp?size=1024""
+      }
+    }
+  ]
+}",247292930346319872
+fin,"{
+  ""title"": ""Rules"",
+  ""description"": ""dont be gay\n-cock pics are send\n-free download camel sex 2018 no virus \n"",
+  ""author"": {
+    ""name"": ""danny"",
+    ""icon_url"": ""https://cdn.discordapp.com/avatars/80088516616269824/39ec2502115271c24eb969018fcd8b55.png?size=1024""
+  },
+  ""color"": 53380,
+  ""footer"": {
+    ""text"": ""any individual found being gay will be banned""
+  },
+  ""thumbnail"": ""https://cdn.discordapp.com/icons/336642139381301249/3aa641b21acded468308a37eef43d7b3.webp?size=1024"",
+  ""fields"": [
+    {
+      ""name"": "" bruh"",
+      ""value"": ""bruh"",
+      ""inline"": false
+    }
+  ]
+}",247292930346319872
+uitest,"{
+  ""description"": ""bruh"",
+  ""author"": {
+    ""name"": ""<author>""
+  },
+  ""color"": 53380,
+  ""footer"": {
+    ""text"": ""test"",
+    ""icon_url"": ""<guild-icon>""
+  },
+  ""thumbnail"": ""<author-pfp>""
+}",247292930346319872
+uitest2,"{
+  ""description"": ""bruh"",
+  ""author"": {
+    ""name"": ""<author>""
+  },
+  ""color"": 53380,
+  ""footer"": {
+    ""text"": ""test""
+  },
+  ""thumbnail"": ""<author-pfp>""
+}",247292930346319872
+testop,"{
+  ""title"": ""<author>"",
+  ""description"": ""<author-id>"",
+  ""author"": {
+    ""name"": ""lol""
+  },
+  ""color"": 53380,
+  ""footer"": {
+    ""text"": ""lol""
+  },
+  ""thumbnail"": ""<author-pfp>""
+}",247292930346319872
+test3,"{
+  ""title"": ""<author>"",
+  ""description"": ""<author-id>"",
+  ""author"": {
+    ""name"": ""lol""
+  },
+  ""color"": 53380,
+  ""footer"": {
+    ""text"": ""<author>""
+  },
+  ""thumbnail"": ""<author-pfp>""
+}",247292930346319872
+test4,"{
+  ""title"": ""<author>"",
+  ""description"": ""<author-id>"",
+  ""author"": {
+    ""name"": ""lol""
+  },
+  ""color"": 53380,
+  ""footer"": {
+    ""text"": ""<author>""
+  },
+  ""thumbnail"": ""<author-pfp>"",
+  ""image"": ""<author-av>""
+}",247292930346319872

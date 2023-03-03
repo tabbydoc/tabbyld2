@@ -1,0 +1,78 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11
+531,AGBC_g_m2,Rush Valley,40.2833,-112.4667,cheatgrass,Hooker et al. 2008,2001,0.0,100.0,100.0,HOOK2008
+536,AGBC_g_m2,Rush Valley,40.2833,-112.4667,sagebrush,Hooker et al. 2008,2001,0.0,100.0,100.0,HOOK2008
+346,AGBC_g_m2,Northern Great Basin Experimental Basin,43.4833333,-119.71667,cheatgrass,Davies et al. 2009,2005,,,,DAVI2009
+1236,AGBC_g_m2,grazed site,43.8,-119.9,sagebrush,Pearson 1965,1960,,,,PEAR1965
+1241,AGBC_g_m2,ungrazed site,43.8,-119.9,sagebrush,Pearson 1965,1960,,,,PEAR1965
+781,AGBC_g_m2,ambient,43.602,-112.904,sagebrush,McAbee et al. 2017,2014,,,,MCAB2017
+1691,AGBC_g_m2,Idaho & Oregon combined 6 sites,43.6129,-116.4854,cheatgrass,Witwicki et al. 2013,2005,,,,WITW2013
+1696,AGBC_g_m2,Idaho & Oregon combined 6 sites,43.6129,-116.4854,sagecheat,Witwicki et al. 2013,2005,,,,WITW2013
+1631,AGBC_g_m2,control,41.4,-111.216667,sagecheat,Veblen et al. 2015,2012,,,,VEBL2015
+1632,AGBC_g_m2,control,41.4,-111.216667,sagecheat,Veblen et al. 2015,2013,,,,VEBL2015
+1641,AGBC_g_m2,total exclusion,41.4,-111.216667,sagecheat,Veblen et al. 2015,2012,,,,VEBL2015
+1642,AGBC_g_m2,total exclusion,41.4,-111.216667,sagecheat,Veblen et al. 2015,2013,,,,VEBL2015
+1621,AGBC_g_m2,cattle exclusion,41.4,-111.216667,sagecheat,Veblen et al. 2015,2012,,,,VEBL2015
+1622,AGBC_g_m2,cattle exclusion,41.4,-111.216667,sagecheat,Veblen et al. 2015,2013,,,,VEBL2015
+532,BGBC_g_m2,Rush Valley,40.2833,-112.4667,cheatgrass,Hooker et al. 2008,2001,0.0,100.0,100.0,HOOK2008
+537,BGBC_g_m2,Rush Valley,40.2833,-112.4667,sagebrush,Hooker et al. 2008,2001,0.0,100.0,100.0,HOOK2008
+1237,BGBC_g_m2,grazed site,43.8,-119.9,sagebrush,Pearson 1965,1960,,,,PEAR1965
+1242,BGBC_g_m2,ungrazed site,43.8,-119.9,sagebrush,Pearson 1965,1960,,,,PEAR1965
+1692,BGBC_g_m2,Idaho & Oregon combined 6 sites,43.6129,-116.4854,cheatgrass,Witwicki et al. 2013,2005,,,,WITW2013
+1697,BGBC_g_m2,Idaho & Oregon combined 6 sites,43.6129,-116.4854,sagecheat,Witwicki et al. 2013,2005,,,,WITW2013
+533,litterC_g_m2,Rush Valley,40.2833,-112.4667,cheatgrass,Hooker et al. 2008,2001,0.0,100.0,100.0,HOOK2008
+538,litterC_g_m2,Rush Valley,40.2833,-112.4667,sagebrush,Hooker et al. 2008,2001,0.0,100.0,100.0,HOOK2008
+783,litterC_g_m2,ambient,43.602,-112.904,sagebrush,McAbee et al. 2017,2014,,,,MCAB2017
+550,totsoilC_g_m2,"Eden Valley, NV",41.3843,-117.3021,sagebrush,Johnson et al. 2011,2008,0.0,20.0,20.0,JOHN2011
+545,totsoilC_g_m2,"Eden Valley, NV",41.3843,-117.3021,cheatgrass,Johnson et al. 2011,2008,0.0,20.0,20.0,JOHN2011
+105,totsoilC_g_m2,ISU Barton,42.853,-112.402,sagebrush,Bechtold and Inouye 2007,2003,0.0,5.0,5.0,BECH2007
+110,totsoilC_g_m2,ISU Barton,42.853,-112.402,sagebrush,Bechtold and Inouye 2007,2003,5.0,10.0,5.0,BECH2007
+344,totsoilC_g_m2,NGBER,43.786,-119.9,sagebrush,Davies et al. 2007,2003,0.0,15.0,15.0,DAVI2007
+345,totsoilC_g_m2,NGBER,43.786,-119.9,sagebrush,Davies et al. 2007,2004,0.0,15.0,15.0,DAVI2007
+1455,totsoilC_g_m2,ambient,43.0,-112.0,sagebrush,Sorensen et al. 2013,2009,10.0,15.0,5.0,SORE2013
+1460,totsoilC_g_m2,ambient,43.0,-112.0,sagebrush,Sorensen et al. 2013,2009,95.0,100.0,5.0,SORE2013
+424,orgsoilC_g_m2,Curlew Valley,41.8667,-113.0833,cheatgrass,Gill and Burke 1999,1999,0.0,10.0,10.0,GILL1999
+429,orgsoilC_g_m2,Curlew Valley,41.8667,-113.0833,cheatgrass,Gill and Burke 1999,1999,10.0,20.0,10.0,GILL1999
+434,orgsoilC_g_m2,Curlew Valley,41.8667,-113.0833,cheatgrass,Gill and Burke 1999,1999,20.0,30.0,10.0,GILL1999
+439,orgsoilC_g_m2,Curlew Valley,41.8667,-113.0833,cheatgrass,Gill and Burke 1999,1999,30.0,40.0,10.0,GILL1999
+444,orgsoilC_g_m2,Curlew Valley,41.8667,-113.0833,cheatgrass,Gill and Burke 1999,1999,40.0,50.0,10.0,GILL1999
+449,orgsoilC_g_m2,Curlew Valley,41.8667,-113.0833,cheatgrass,Gill and Burke 1999,1999,70.0,80.0,10.0,GILL1999
+454,orgsoilC_g_m2,Curlew Valley,41.8667,-113.0833,cheatgrass,Gill and Burke 1999,1999,90.0,100.0,10.0,GILL1999
+459,orgsoilC_g_m2,Curlew Valley,41.8667,-113.0833,salt_desert,Gill and Burke 1999,1999,0.0,10.0,10.0,GILL1999
+464,orgsoilC_g_m2,Curlew Valley,41.8667,-113.0833,salt_desert,Gill and Burke 1999,1999,10.0,20.0,10.0,GILL1999
+469,orgsoilC_g_m2,Curlew Valley,41.8667,-113.0833,salt_desert,Gill and Burke 1999,1999,20.0,30.0,10.0,GILL1999
+474,orgsoilC_g_m2,Curlew Valley,41.8667,-113.0833,salt_desert,Gill and Burke 1999,1999,30.0,40.0,10.0,GILL1999
+479,orgsoilC_g_m2,Curlew Valley,41.8667,-113.0833,salt_desert,Gill and Burke 1999,1999,40.0,50.0,10.0,GILL1999
+484,orgsoilC_g_m2,Curlew Valley,41.8667,-113.0833,salt_desert,Gill and Burke 1999,1999,70.0,80.0,10.0,GILL1999
+489,orgsoilC_g_m2,Curlew Valley,41.8667,-113.0833,salt_desert,Gill and Burke 1999,1999,90.0,100.0,10.0,GILL1999
+534,orgsoilC_g_m2,Rush Valley,40.2833,-112.4667,cheatgrass,Hooker et al. 2008,2001,0.0,100.0,100.0,HOOK2008
+539,orgsoilC_g_m2,Rush Valley,40.2833,-112.4667,sagebrush,Hooker et al. 2008,2001,0.0,100.0,100.0,HOOK2008
+1434,orgsoilC_g_m2,GM,42.74,-108.04,sagebrush,Shrestha and Stahl 2008,2003,0.0,15.0,15.0,SHRE2008
+1449,orgsoilC_g_m2,UGD,42.74,-108.04,sagebrush,Shrestha and Stahl 2008,2003,0.0,15.0,15.0,SHRE2008
+1439,orgsoilC_g_m2,Shon 8,42.74,-108.04,sagebrush,Shrestha and Stahl 2008,2003,0.0,15.0,15.0,SHRE2008
+1444,orgsoilC_g_m2,Shon 9,42.74,-108.04,sagebrush,Shrestha and Stahl 2008,2003,0.0,15.0,15.0,SHRE2008
+414,orgsoilC_g_m2,UD1,41.68809,-107.9734,sagebrush,Gasch et al. 2016,2016,0.0,5.0,5.0,GASC2016
+419,orgsoilC_g_m2,UD2,41.68809,-107.9734,sagebrush,Gasch et al. 2016,2016,0.0,5.0,5.0,GASC2016
+1454,orgsoilC_g_m2,ambient,43.0,-112.0,sagebrush,Sorensen et al. 2013,2009,10.0,15.0,5.0,SORE2013
+1459,orgsoilC_g_m2,ambient,43.0,-112.0,sagebrush,Sorensen et al. 2013,2009,95.0,100.0,5.0,SORE2013
+35,orgsoilC_g_m2,Stand 1,43.5,-119.0,sagebrush,Acker 1992,1985,0.0,10.0,10.0,ACKE1992
+10,orgsoilC_g_m2,Stand 2,43.5,-119.0,cheatgrass,Acker 1992,1985,0.0,10.0,10.0,ACKE1992
+47,orgsoilC_g_m2,Stand 3,43.5,-119.0,sagebrush,Acker 1992,1985,0.0,10.0,10.0,ACKE1992
+22,orgsoilC_g_m2,Stand 4,43.5,-119.0,cheatgrass,Acker 1992,1985,0.0,10.0,10.0,ACKE1992
+36,orgsoilC_g_m2,Stand 1,43.5,-119.0,sagebrush,Acker 1992,1986,0.0,10.0,10.0,ACKE1992
+11,orgsoilC_g_m2,Stand 2,43.5,-119.0,cheatgrass,Acker 1992,1986,0.0,10.0,10.0,ACKE1992
+48,orgsoilC_g_m2,Stand 3,43.5,-119.0,sagebrush,Acker 1992,1986,0.0,10.0,10.0,ACKE1992
+23,orgsoilC_g_m2,Stand 4,43.5,-119.0,cheatgrass,Acker 1992,1986,0.0,10.0,10.0,ACKE1992
+37,orgsoilC_g_m2,Stand 1,43.5,-119.0,sagebrush,Acker 1992,1987,0.0,10.0,10.0,ACKE1992
+12,orgsoilC_g_m2,Stand 2,43.5,-119.0,cheatgrass,Acker 1992,1987,0.0,10.0,10.0,ACKE1992
+1676,AGBC_g_m2,,43.52,-112.05,salt_desert,West 1972,1968,,,,WEST1972
+1677,AGBC_g_m2,,43.52,-112.05,salt_desert,West 1972,1969,,,,WEST1972
+1678,AGBC_g_m2,,43.52,-112.05,salt_desert,West 1972,1970,,,,WEST1972
+1679,BGBC_g_m2,,43.52,-112.05,salt_desert,West 1972,1968,,,,WEST1972
+1680,BGBC_g_m2,,43.52,-112.05,salt_desert,West 1972,1969,,,,WEST1972
+1681,BGBC_g_m2,,43.52,-112.05,salt_desert,West 1972,1970,,,,WEST1972
+1396,BGBC_g_m2,hanford,46.551311,-119.48902,sagebrush,Rickard 1985a,1972,,,,RICK1985a
+1397,BGBC_g_m2,hanford,46.551311,-119.48902,sagebrush,Rickard 1985a,1973,,,,RICK1985a
+1398,BGBC_g_m2,hanford,46.551311,-119.48902,sagebrush,Rickard 1985a,1974,,,,RICK1985a
+1682,litterC_g_m2,,43.52,-112.05,salt_desert,West 1972,1968,,,,WEST1972
+1683,litterC_g_m2,,43.52,-112.05,salt_desert,West 1972,1969,,,,WEST1972
+1684,litterC_g_m2,,43.52,-112.05,salt_desert,West 1972,1970,,,,WEST1972

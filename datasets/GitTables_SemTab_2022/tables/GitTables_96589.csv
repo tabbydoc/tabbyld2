@@ -1,0 +1,22 @@
+col0,col1,col2,col3,col4,col5,col6
+6,Masala Dosa,100,veg,3,1,62.0
+6,Fish Masala,123,nonveg,4,1,65.0
+6,B_Chicken Soup,352,nonveg,4,1,64.0
+6,Plain Paratha,120,veg,3,1,63.0
+Cust_Id,Name,Email,Pass,Address,fprefer,
+6,Ajay,ajay@gmail.com,123456,Golf Link,veg,
+Item_Id,Rest_Id,Item_Type,Item_Name,Item_Cost,Rest_Name,
+62,3,veg,Masala Dosa,100,Yalana,
+63,3,veg,Plain Paratha,120,Yalana,
+64,4,nonveg,B_Chicken Soup,352,Barbeque,
+65,4,nonveg,Fish Masala,123,Barbeque,
+66,4,veg,Mooli Paratha,112,Barbeque,
+67,4,veg,Orange Juice,111,Barbeque,
+orderId,RestId,itemId,status,CustId,IName,
+59,3,62,1,6,Masala Dosa,
+60,4,65,0,6,Fish Masala,
+61,4,64,0,6,B_Chicken Soup,
+62,3,63,1,6,Plain Paratha,
+Rest_Id,Name,Email,Pass,Address,,
+3,Yalana,Yalana@gmail.com,123456,Laitumkharah,,
+4,Barbeque,barb@gmail.com,123456,Police Bazar,,

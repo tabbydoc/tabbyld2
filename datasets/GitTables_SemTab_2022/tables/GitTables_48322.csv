@@ -1,0 +1,187 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+1,,sran1240,,,sran1240,glottolog,en,1
+2,,srn,,,srn,iso639-3,en,1
+3,,sran1240,,,sran1240,glottolog,en,1
+4,,Sranan,,,srn,ethnologue,en,1
+5,,srm,,,srm,iso639-3,en,1
+6,,sara1340,,,sara1340,glottolog,en,1
+7,,Saramaccan,,,srm,ethnologue,en,1
+8,,neng1239,,,neng1239,glottolog,en,1
+9,,"Aukan (d: Aukan, Aluku, Paramaccan)",,,"ethnologue:Aukan (d: Aukan, Aluku, Paramaccan)",ethnologue,en,1
+10,,gyn,,,gyn,iso639-3,en,1
+11,,creo1235,,,creo1235,glottolog,en,1
+12,,Guyanese Creole English,,,gyn,ethnologue,en,1
+13,,trf,,,trf,iso639-3,en,1
+14,,trin1276,,,trin1276,glottolog,en,1
+15,,Trinidadian Creole English,,,trf,ethnologue,en,1
+16,,svc,,,svc,iso639-3,en,1
+17,,vinc1243,,,vinc1243,glottolog,en,1
+18,,Vincentian Creole English,,,svc,ethnologue,en,1
+19,,jam,,,jam,iso639-3,en,1
+20,,jama1262,,,jama1262,glottolog,en,1
+21,,Jamaican Creole English,,,jam,ethnologue,en,1
+22,,bzj,,,bzj,iso639-3,en,1
+23,,beli1259,,,beli1259,glottolog,en,1
+24,,icr,,,icr,iso639-3,en,1
+25,,sana1297,,,sana1297,glottolog,en,1
+26,,Islander Creole English,,,icr,ethnologue,en,1
+27,,bzk,,,bzk,iso639-3,en,1
+28,,nica1251,,,nica1251,glottolog,en,1
+29,,Nicaragua Creole English,,,bzk,ethnologue,en,1
+30,,bah,,,bah,iso639-3,en,1
+31,,baha1260,,,baha1260,glottolog,en,1
+32,,Bahamas Creole English,,,bah,ethnologue,en,1
+33,,gul,,,gul,iso639-3,en,1
+34,,gull1241,,,gull1241,glottolog,en,1
+35,,Sea Island Creole English,,,gul,ethnologue,en,1
+36,,afri1269,,,afri1269,glottolog,en,1
+37,,< English,,,ethnologue:< English,ethnologue,en,1
+38,,kri,,,kri,iso639-3,en,1
+39,,krio1253,,,krio1253,glottolog,en,1
+40,,Krio,,,kri,ethnologue,en,1
+41,,ghan1244,,,ghan1244,glottolog,en,1
+42,,pcm,,,pcm,iso639-3,en,1
+43,,nige1257,,,nige1257,glottolog,en,1
+44,,"Pidgin, Nigerian",,,pcm,ethnologue,en,1
+45,,wes,,,wes,iso639-3,en,1
+46,,came1254,,,came1254,glottolog,en,1
+47,,"Pidgin, Cameroon",,,wes,ethnologue,en,1
+48,,fpe,,,fpe,iso639-3,en,1
+49,,fern1234,,,fern1234,glottolog,en,1
+50,,Fernando Po Creole English,,,fpe,ethnologue,en,1
+51,,cpi,,,cpi,iso639-3,en,1
+52,,chin1253,,,chin1253,glottolog,en,1
+53,,Chinese Pidgin English (extinct),,,cpi,ethnologue,en,1
+54,,sing1262,,,sing1262,glottolog,en,1
+55,,tpi,,,tpi,iso639-3,en,1
+56,,tokp1240,,,tokp1240,glottolog,en,1
+57,,Tok Pisin,,,tpi,ethnologue,en,1
+58,,bis,,,bis,iso639-3,en,1
+59,,bisl1239,,,bisl1239,glottolog,en,1
+60,,Bislama,,,bis,ethnologue,en,1
+61,,norf1243,,,norf1243,glottolog,en,1
+62,,< Pitcairn-Norfolk,,,ethnologue:< Pitcairn-Norfolk,ethnologue,en,1
+63,,rop,,,rop,iso639-3,en,1
+64,,krio1252,,,krio1252,glottolog,en,1
+65,,Kriol,,,rop,ethnologue,en,1
+66,,hwc,,,hwc,iso639-3,en,1
+67,,hawa1247,,,hawa1247,glottolog,en,1
+68,,Hawai’i Creole English,,,hwc,ethnologue,en,1
+69,,dcr,,,dcr,iso639-3,en,1
+70,,nege1244,,,nege1244,glottolog,en,1
+71,,Negerhollands,,,dcr,ethnologue,en,1
+72,,brc,,,brc,iso639-3,en,1
+73,,berb1259,,,berb1259,glottolog,en,1
+74,,Berbice Creole Dutch,,,brc,ethnologue,en,1
+75,,afr,,,afr,iso639-3,en,1
+76,,afri1274,,,afri1274,glottolog,en,1
+77,,Afrikaans,,,afr,ethnologue,en,1
+78,,kea,,,kea,iso639-3,en,1
+79,,kabu1256,,,kabu1256,glottolog,en,1
+80,,kabu1256,,,kabu1256,glottolog,en,1
+81,,Kabuverdianu,,,kea,ethnologue,en,1
+82,,kabu1256,,,kabu1256,glottolog,en,1
+83,,pov,,,pov,iso639-3,en,1
+84,,uppe1455,,,uppe1455,glottolog,en,1
+85,,Upper Guinea Crioulo,,,pov,ethnologue,en,1
+86,,uppe1455,,,uppe1455,glottolog,en,1
+87,,cri,,,cri,iso639-3,en,1
+88,,saot1239,,,saot1239,glottolog,en,1
+89,,Sãotomense,,,cri,ethnologue,en,1
+90,,aoa,,,aoa,iso639-3,en,1
+91,,ango1258,,,ango1258,glottolog,en,1
+92,,Angolar,,,aoa,ethnologue,en,1
+93,,pre,,,pre,iso639-3,en,1
+94,,prin1242,,,prin1242,glottolog,en,1
+95,,Principense,,,pre,ethnologue,en,1
+96,,fab,,,fab,iso639-3,en,1
+97,,fada1250,,,fada1250,glottolog,en,1
+98,,Fa d'Ambu (wohl falsch),,,fab,ethnologue,en,1
+99,,dama1278,,,dama1278,glottolog,en,1
+100,,< Indo-Portuguese,,,ethnologue:< Indo-Portuguese,ethnologue,en,1
+101,,vkp,,,vkp,iso639-3,en,1
+102,,korl1238,,,korl1238,glottolog,en,1
+103,,Korlai Creole Portuguese,,,vkp,ethnologue,en,1
+104,,mala1544,,,mala1544,glottolog,en,1
+105,,Indo-Portuguese,,,ethnologue:Indo-Portuguese,ethnologue,en,1
+106,,mcm,,,mcm,iso639-3,en,1
+107,,mala1533,,,mala1533,glottolog,en,1
+108,,Malaccan Creole Portuguese,,,mcm,ethnologue,en,1
+109,,mala1533,,,mala1533,glottolog,en,1
+110,,tern1248,,,tern1248,glottolog,en,1
+111,,(Chavacano:Ternateño),,,ethnologue:(Chavacano:Ternateño),ethnologue,en,1
+112,,chav1241,,,chav1241,glottolog,en,1
+113,,chav1241,,,chav1241,glottolog,en,1
+114,,Chavacano:Zamboangueño,,,ethnologue:Chavacano:Zamboangueño,ethnologue,en,1
+115,,pap,,,pap,iso639-3,en,1
+116,,papi1253,,,papi1253,glottolog,en,1
+117,,Papiamento,,,pap,ethnologue,en,1
+118,,pln,,,pln,iso639-3,en,1
+119,,pale1260,,,pale1260,glottolog,en,1
+120,,Palenquero,,,pln,ethnologue,en,1
+121,,hat,,,hat,iso639-3,en,1
+122,,hait1244,,,hait1244,glottolog,en,1
+123,,Haitian; Haitian Creole,,,hat,ethnologue,en,1
+124,,guad1242,,,guad1242,glottolog,en,1
+125,,Guadeloupean Creole French,,,ethnologue:Guadeloupean Creole French,ethnologue,en,1
+126,,guad1242,,,guad1242,glottolog,en,1
+127,,gcr,,,gcr,iso639-3,en,1
+128,,guia1246,,,guia1246,glottolog,en,1
+129,,Guianese Creole French,,,gcr,ethnologue,en,1
+130,,lou,,,lou,iso639-3,en,1
+131,,loui1240,,,loui1240,glottolog,en,1
+132,,Louisiana Creole French,,,lou,ethnologue,en,1
+133,,rcf,,,rcf,iso639-3,en,1
+134,,reun1238,,,reun1238,glottolog,en,1
+135,,Réunion Creole French,,,rcf,ethnologue,en,1
+136,,mfe,,,mfe,iso639-3,en,1
+137,,mori1278,,,mori1278,glottolog,en,1
+138,,Morisyen,,,mfe,ethnologue,en,1
+139,,crs,,,crs,iso639-3,en,1
+140,,sese1246,,,sese1246,glottolog,en,1
+141,,Seselwa Creole French,,,crs,ethnologue,en,1
+142,,cks,,,cks,iso639-3,en,1
+143,,tayo1238,,,tayo1238,glottolog,en,1
+144,,Tayo,,,cks,ethnologue,en,1
+145,,ktu,,,ktu,iso639-3,en,1
+146,,kitu1246,,,kitu1246,glottolog,en,1
+147,,Kituba,,,ktu,ethnologue,en,1
+148,,sag,,,sag,iso639-3,en,1
+149,,sang1328,,,sang1328,glottolog,en,1
+150,,Sango,,,sag,ethnologue,en,1
+151,,lin,,,lin,iso639-3,en,1
+152,,ling1263,,,ling1263,glottolog,en,1
+153,,fng,,,fng,iso639-3,en,1
+154,,fana1235,,,fana1235,glottolog,en,1
+155,,Fanagalo,,,fng,ethnologue,en,1
+156,,mhd,,,mhd,iso639-3,en,1
+157,,mbug1240,,,mbug1240,glottolog,en,1
+158,,Mbugu,,,mhd,ethnologue,en,1
+159,,kcn,,,kcn,iso639-3,en,1
+160,,nubi1253,,,nubi1253,glottolog,en,1
+161,,Nubi,,,kcn,ethnologue,en,1
+162,,pga,,,pga,iso639-3,en,1
+163,,suda1237,,,suda1237,glottolog,en,1
+164,,"Arabic, Sudanese Creole",,,pga,ethnologue,en,1
+165,,kjac1234,,,kjac1234,glottolog,en,1
+166,,sci,,,sci,iso639-3,en,1
+167,,sril1245,,,sril1245,glottolog,en,1
+168,,Sri Lankan Creole Malay,,,sci,ethnologue,en,1
+169,,baba1267,,,baba1267,glottolog,en,1
+170,,< Sabah Malay (MSI),,,ethnologue:< Sabah Malay (MSI),ethnologue,en,1
+171,,abs,,,abs,iso639-3,en,1
+172,,ambo1250,,,ambo1250,glottolog,en,1
+173,,Ambonese Malay,,,abs,ethnologue,en,1
+174,,yima1244,,,yima1244,glottolog,en,1
+175,,pidg1249,,,pidg1249,glottolog,en,1
+176,,guri1249,,,guri1249,glottolog,en,1
+177,,Gurindji,,,ethnologue:Gurindji,ethnologue,en,1
+178,,mue,,,mue,iso639-3,en,1
+179,,medi1245,,,medi1245,glottolog,en,1
+180,,chn,,,chn,iso639-3,en,1
+181,,chin1272,,,chin1272,glottolog,en,1
+182,,Chinook jargon,,,chn,ethnologue,en,1
+183,,crg,,,crg,iso639-3,en,1
+184,,mich1243,,,mich1243,glottolog,en,1
+185,,Michif,,,crg,ethnologue,en,1
+186,,eski1266,,,eski1266,glottolog,en,1

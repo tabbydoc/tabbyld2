@@ -1,0 +1,30 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+STOP!,"Changes to this doc can break the nose tests or interfere with test systems!  BEFORE making changes, please read https://confluence.oceanobservatories.org/display/CIDev/Preload+development.  AFTER making changes, please TEST, make a copy of this sheet, and commit the new URL to ion_loader.py!",,,,,,,,,,,
+OOIR2_DEMO,,DEP_BTST_P1,USER_1,MF_3,PS_BTST_RSN,PD_BTST_RSN1,True,Deployment of Bench Test Platform,Deployment of Bench Test Platform,,,CabledNodeDeploymentContext
+OOIR2_ALPHA,,DEP_BTST_1,USER_1,MF_3,IS_BTST_SBE37,ID_BTST_SBE37,True,Deployment of SBE37SMP Instrument for Demo,Deployment of SBE37SMP Instrument for Demo,,,CabledInstrumentDeploymentContext
+OOIR2_DEMO,,DEP_BTST_2,USER_1,MF_3,IS_BTST_CTDSIM0,ID_BTST_CTDSIM0,True,Deployment of CTD Simulator,Deployment of CTD Simulator,,,CabledInstrumentDeploymentContext
+OOIR2_DEMO,,DEP_BTST_3,USER_1,MF_3,IS_BTST_CTDSIM1,ID_BTST_CTDSIM1,True,Deployment of CTD Simulator 1 Demo,Deployment of CTD Simulator 1 Demo,,,CabledInstrumentDeploymentContext
+OOIR2_DEMO,,DEP_BTST_4,USER_1,MF_3,IS_BTST_CTDSIM1,ID_BTST_CTDSIM2,False,Deployment of CTD Simulator 2 Demo,Deployment of CTD Simulator 2 Demo,,,CabledInstrumentDeploymentContext
+OOIR2_DEMO,,DEP_BTST_CG1,USER_1,MF_3,PS_BTST_CG,PD_BTST_CG1,False,Deployment of CG demo platform,Deployment of CG demo platform,,,RemotePlatformDeploymentContext
+R2_DEMO_X,"This is a subdevice of PDev3, no additional deployment required.",DEP1,USER_1,MF_3,LOGINS3,ID3,True,SBE Simulator 1 Deployment,deployment of first device,,,CabledNodeDeploymentContext
+BETA_X,"This is a subdevice of PDev3, no additional deployment required.",DEP2,USER_1,MF_3,LOGINS4,ID12,True,SBE37SMP Deployment,Demo Deployment of SBE37SMP Instrument,,,CabledNodeDeploymentContext
+BETA,,DEP3,USER_1,MF_3,LP3,PDEV3,True,Platform Deployment,deployment of platform device 1,TEMP1,,CabledNodeDeploymentContext
+BETA_X,This is not used now as PDev5 is a subpllatform to Pdev3,DEP14,USER_1,MF_3,LP5,PDEV5,True,Sub-Platform Deployment,deployment of beta sub-platform,,,CabledNodeDeploymentContext
+R2_DEMO,,DEP4,USER_1,MF_3,LP4,PDEV4,False,dep4,deployment of platform device 2,,,CabledNodeDeploymentContext
+R2_DEMO,https://confluence.oceanobservatories.org/display/CIDev/Preload+Data+for+Deployments+1-3,Deploy1,USER_1,MF_3,D1PlatformSite1,D1PlatformDevice1,False,deploy1,test deployment 1,,,CabledNodeDeploymentContext
+R2_DEMO,https://confluence.oceanobservatories.org/display/CIDev/Preload+Data+for+Deployments+1-3,Deploy2,USER_1,MF_3,D2InstrumentSite1,D2InstrumentDevice3,False,deploy2,test deployment 2,,,CabledNodeDeploymentContext
+R2_DEMO,https://confluence.oceanobservatories.org/display/CIDev/Preload+Data+for+Deployments+1-3,Deploy3,USER_1,MF_3,D3InstrumentSite1,D3InstrumentDevice4,False,deploy3,test deployment 3,,,CabledNodeDeploymentContext
+R2_DEMO,,EEDeploy1,USER_1,MF_3,EEInstrumentSite,EEInstrumentDevice,True,ee_deployment,test deployment for EE test R2,,,CabledNodeDeploymentContext
+R2_DEMO,,DEP5,USER_1,MF_3,LOGINS3,ID4,False,dep5,deployment of second device,,,CabledNodeDeploymentContext
+ALPHA_SYS,,DEP6,USER_1,MF_3,LOGINS6,ID13,True,SBE Sim Deployment,deployment of simulator on Alpha System,,,CabledNodeDeploymentContext
+BETA_SYS,,DEP7,USER_1,MF_3,LOGINS7,ID14,True,SBE Sim Deployment,deployment of simulator on Beta System,,,CabledNodeDeploymentContext
+IDK,,IDK_DEP,IDK_USER,IDK_ORG,IDK_SITE,IDK_DEVICE,True,idk deployment,Deployment for IDK,,,CabledNodeDeploymentContext
+PRESF,,DEP8,USER_1,MF_3,LOGINS8,ID6,True,PRESF deployment,Demo Deployment of PRESF Instrument,,,CabledNodeDeploymentContext
+PREST,,DEP9,USER_1,MF_3,LOGINS9,ID9,True,PREST deployment,Demo Deployment of PREST Instrument,,,CabledNodeDeploymentContext
+CTDBP,,DEP10,USER_1,MF_3,LOGINS10,ID7,True,CTDBP deployment,Demo Deployment of CTDBP Instrument,,,CabledNodeDeploymentContext
+TMPSF,,DEP11,USER_1,MF_3,LOGINS11,ID15,True,TMPSF deployment,Demo deployment of TMPSF,,,CabledNodeDeploymentContext
+VEL3D_B,,DEP12,USER_1,MF_3,LOGINS12,ID16,True,VEL3D_B deploymen ,Demo deployment of VEL3D_B,,,CabledNodeDeploymentContext
+JN,,DEP13,USER_1,MF_3,LOGINS3,ID18,True,dep1,deployment of first device,,,CabledNodeDeploymentContext
+OPTAA,,DEP14,USER_1,MF_3,LOGINS14,ID19,True,OPTAA deploymen ,Demo deployment of OPTAA,TEMP1,,CabledNodeDeploymentContext
+CTDPF,,DEP15,USER_1,MF_3,LOGINS16,ID22,True,CTDPF deploymen ,Demo deployment of CTDPF,,,CabledNodeDeploymentContext
+BETA,,DEP16,USER_1,MF_3,LP6,PDEV6,True,Glider Platform Deployment,deployment of Glider platform device 1,TEMP1,,CabledNodeDeploymentContext

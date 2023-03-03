@@ -1,0 +1,45 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17
+4,,,home.postcode,nhs 111 data feed,,Home postcode,,Household,Geographic location,http://purl.obolibrary.org/obo/GAZ_00000448,,,variable,,,,nhs 111 data feed::home.postcode
+27,,,servicecareitemname,nhs 111 data feed,http://purl.obolibrary.org/obo/EUPATH_0025072,Health center,,Household,Geographic location,http://purl.obolibrary.org/obo/GAZ_00000448,,,variable,,,,nhs 111 data feed::servicecareitemname
+47,,,ccgofhomepostcode,nhs 111 data feed,,"Home postcode, CCG",,Household,Geographic location,http://purl.obolibrary.org/obo/GAZ_00000448,,,variable,,,,nhs 111 data feed::ccgofhomepostcode
+5,,,postcode.of.location..from.where.call.was.made.,nhs 111 data feed,,Call location postcode,,Observation,Call details,,,,variable,,,,nhs 111 data feed::postcode.of.location..from.where.call.was.made.
+6,,,contract_name,nhs 111 data feed,,Contract name,,Observation,Call details,,,,variable,,,,nhs 111 data feed::contract_name
+7,,,ccg_name,nhs 111 data feed,,Clinical Commissioning Group name,,Observation,Call details,,Clinical Commissioning Group,,variable,,,,nhs 111 data feed::ccg_name
+8,,,call_centre,nhs 111 data feed,,Call centre,,Observation,Call details,,,,variable,,,,nhs 111 data feed::call_centre
+9,,,telephony_line,nhs 111 data feed,,Telephony line,,Observation,Call details,,,,variable,,,,nhs 111 data feed::telephony_line
+10,,,caseref,nhs 111 data feed,,Case reference number,,Observation,Call details,,Unique identifier,hash,,,,,
+12,,,providergroup,nhs 111 data feed,,Provider group,,Observation,Call details,,,,variable,,,,nhs 111 data feed::providergroup
+13,,,nacs,nhs 111 data feed,,National Administrative Code Service (NACS) code,,Observation,Call details,,National Administrative Code Service (NACS) codes,,variable,,,,nhs 111 data feed::nacs
+14,,,providergroupccg,nhs 111 data feed,,Provider group CCG,,Observation,Call details,,,,variable,,,,nhs 111 data feed::providergroupccg
+18,,,firstassessment__system__dxcode,nhs 111 data feed,,"First diagnosis, system",,Observation,Diagnosis,http://purl.obolibrary.org/obo/OGMS_0000073,"First diagnosis code, system",,variable,,,,nhs 111 data feed::firstassessment__system__dxcode
+19,,,firstassessment_final_dxcode,nhs 111 data feed,,"First diagnosis, final",,Observation,Diagnosis,http://purl.obolibrary.org/obo/OGMS_0000073,"First diagnosis code, final",,variable,,,,nhs 111 data feed::firstassessment_final_dxcode
+20,,,finalassessment__system__dxcode,nhs 111 data feed,,"Final diagnosis, system",,Observation,Diagnosis,http://purl.obolibrary.org/obo/OGMS_0000073,"Final diagnosis code, system",,variable,,,,nhs 111 data feed::finalassessment__system__dxcode
+21,,,finalassessment_final_dxcode,nhs 111 data feed,,"Final diagnosis, final",,Observation,Diagnosis,http://purl.obolibrary.org/obo/OGMS_0000073,"Final diagnosis code, final",,variable,,,,nhs 111 data feed::finalassessment_final_dxcode
+22,,,callerterminatedcall,nhs 111 data feed,,Caller terminated call,,Observation,Call details,,Caller terminated call,,variable,,,,nhs 111 data feed::callerterminatedcall
+25,,,referral_datetime,nhs 111 data feed,,Referral date,,Observation,Call details,,,,variable,,,,nhs 111 data feed::referral_datetime
+28,,,mds_finaldxcode,nhs 111 data feed,,"Final diagnosis, MDS",,Observation,Diagnosis,http://purl.obolibrary.org/obo/OGMS_0000073,Diagnosis code,,variable,,,,nhs 111 data feed::mds_finaldxcode
+29,,,dispositioncode,nhs 111 data feed,,Disposition,,Observation,Signs and symptoms,http://purl.obolibrary.org/obo/EUPATH_0000309,SD_Id?,,variable,,,,nhs 111 data feed::dispositioncode
+30,,,symptomgroupid_dos_,nhs 111 data feed,,"Symptom group, DoS",,Observation,Signs and symptoms,http://purl.obolibrary.org/obo/EUPATH_0000309,SG_Id?,,variable,,,,nhs 111 data feed::symptomgroupid_dos_
+31,,,symptomgroupid_pathways_,nhs 111 data feed,,"Symptom group, pathways",,Observation,Signs and symptoms,http://purl.obolibrary.org/obo/EUPATH_0000309,SG_Id?,,variable,,,,nhs 111 data feed::symptomgroupid_pathways_
+32,,,symptomdiscriminatorid_dos_,nhs 111 data feed,,"Symptom discriminator, DoS",,Observation,Signs and symptoms,http://purl.obolibrary.org/obo/EUPATH_0000309,SD_Id?,,variable,,,,nhs 111 data feed::symptomdiscriminatorid_dos_
+33,,,symptomdiscriminatorid_pathways_,nhs 111 data feed,,"Symptom discriminator, pathways",,Observation,Signs and symptoms,http://purl.obolibrary.org/obo/EUPATH_0000309,SD_Id?,,variable,,,,nhs 111 data feed::symptomdiscriminatorid_pathways_
+41,,,ambulancecadnumber,nhs 111 data feed,,Ambulance number,,Observation,Call details,,,,variable,,,,nhs 111 data feed::ambulancecadnumber
+48,,,ccgofcurrentlocationpostcode,nhs 111 data feed,,"Current location postcode, CCG",,Observation,Call details,,,,variable,,,,nhs 111 data feed::ccgofcurrentlocationpostcode
+52,,,gender,nhs 111 data feed,http://purl.obolibrary.org/obo/OMRSE_00000133,Gender,,Observation,Observation,http://purl.obolibrary.org/obo/EUPATH_0000738,,,variable,,,,nhs 111 data feed::gender
+56,,,warm_transfer_start_datetime,nhs 111 data feed,,Transfer start datetime,,Observation,Call details,,,,variable,,,,nhs 111 data feed::warm_transfer_start_datetime
+57,,,warm_transfer_end_datetime,nhs 111 data feed,,Transfer end datetime,,Observation,Call details,,,,variable,,,,nhs 111 data feed::warm_transfer_end_datetime
+58,,,complete_datetime,nhs 111 data feed,,Completed datetime,,Observation,Call details,,,,variable,,,,nhs 111 data feed::complete_datetime
+61,,,pathways_dx_ch_start_datetime,nhs 111 data feed,,Diagnosis CA start,,Observation,Signs and symptoms,http://purl.obolibrary.org/obo/EUPATH_0000309,,,variable,,,,nhs 111 data feed::pathways_dx_ch_start_datetime
+62,,,pathways_dx_ch_end_datetime,nhs 111 data feed,,Diagnosis CA stop,,Observation,Signs and symptoms,http://purl.obolibrary.org/obo/EUPATH_0000309,,,variable,,,,nhs 111 data feed::pathways_dx_ch_end_datetime
+63,,,pathways_dx_ca_start_datetime,nhs 111 data feed,,Diagnosis CA start,,Observation,Signs and symptoms,http://purl.obolibrary.org/obo/EUPATH_0000309,,,variable,,,,nhs 111 data feed::pathways_dx_ca_start_datetime
+64,,,pathways_dx_ca_end_datetime,nhs 111 data feed,,Diagnosis CH stop,,Observation,Signs and symptoms,http://purl.obolibrary.org/obo/EUPATH_0000309,,,variable,,,,nhs 111 data feed::pathways_dx_ca_end_datetime
+65,,,ranking_of_service_accepted,nhs 111 data feed,,Service rank,,Observation,Call details,,,,variable,,,,nhs 111 data feed::ranking_of_service_accepted
+66,,,servicetypename,nhs 111 data feed,,Service type,,Observation,Call details,,,,variable,,,,nhs 111 data feed::servicetypename
+67,,,rejectedservicetypename,nhs 111 data feed,,Rejected service type,,Observation,Call details,,,,variable,,,,nhs 111 data feed::rejectedservicetypename
+68,,,active_date,nhs 111 data feed,,Active date,,Observation,Call details,,,,variable,,,,nhs 111 data feed::active_date
+69,,,active_time,nhs 111 data feed,,Active time,,Observation,Call details,,,,variable,,,,nhs 111 data feed::active_time
+70,,,age,nhs 111 data feed,http://purl.obolibrary.org/obo/OBI_0001169,Age,,Observation,,,,,variable,,,,nhs 111 data feed::age
+11,,,caseno,nhs 111 data feed,http://purl.obolibrary.org/obo/EUPATH_0010049,Case ID,,Participant,,,Not unique,,variable,,,,nhs 111 data feed::caseno
+15,,,yob,nhs 111 data feed,http://purl.obolibrary.org/obo/EUPATH_0030005,Birth year,,Participant,,,,,variable,,,,nhs 111 data feed::yob
+40,,,firstlanguage,nhs 111 data feed,,Primary language,,Participant,Demographics,http://purl.obolibrary.org/obo/EUPATH_0010981,,,variable,,,,nhs 111 data feed::firstlanguage
+42,,,ethnicity,nhs 111 data feed,http://purl.obolibrary.org/obo/OMRSE_00000100,Ethnicity,,Participant,,,,,variable,,,,nhs 111 data feed::ethnicity

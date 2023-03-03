@@ -1,0 +1,51 @@
+col0,col1,col2,col3,col4,col5,col6
+TS1,Firefox 62.0,,2018-10-03 06:45:20,2018-10-03 06:45:54,34.168s,PASSED
+,,,,,,
+Test Cases/Main/Basic,Firefox 62.0,,2018-10-03 06:45:21,2018-10-03 06:45:54,32.654s,PASSED
+Start listener action : beforeTestCase,Firefox 62.0,,2018-10-03 06:45:21,2018-10-03 06:45:21,0.031s,PASSED
+Statement - mr = MATERIAL_REPOSITORY,Firefox 62.0,,2018-10-03 06:45:21,2018-10-03 06:45:21,0.001s,PASSED
+Statement - assert mr != null,Firefox 62.0,,2018-10-03 06:45:21,2018-10-03 06:45:21,0.002s,PASSED
+openBrowser,Firefox 62.0,,2018-10-03 06:45:21,2018-10-03 06:45:30,8.064s,PASSED
+setViewPortSize,Firefox 62.0,,2018-10-03 06:45:30,2018-10-03 06:45:32,2.086s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Firefox 62.0,,2018-10-03 06:45:32,2018-10-03 06:45:32,0.014s,PASSED
+"Statement - If (com.kms.katalon.core.configuration.RunConfiguration.getExecutionProfile() == ""develop"")",Firefox 62.0,,2018-10-03 06:45:32,2018-10-03 06:45:32,0.002s,PASSED
+Statement - Else,Firefox 62.0,,2018-10-03 06:45:32,2018-10-03 06:45:35,3.008s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-03 06:45:35,2018-10-03 06:45:35,0.173s,PASSED
+"Statement - png1 = mr.resolveMaterialPath(CURRENT_TESTCASE_ID, ""CURA_Homepage.png"")",Firefox 62.0,,2018-10-03 06:45:35,2018-10-03 06:45:35,0.049s,PASSED
+com.kazurayam.ksbackyard.ScreenshotDriver.takeEntirePage,Firefox 62.0,,2018-10-03 06:45:35,2018-10-03 06:45:38,3.375s,PASSED
+callTestCase,Firefox 62.0,,2018-10-03 06:45:38,2018-10-03 06:45:43,4.853s,PASSED
+selectOptionByValue,Firefox 62.0,,2018-10-03 06:45:43,2018-10-03 06:45:43,0.408s,PASSED
+click,Firefox 62.0,,2018-10-03 06:45:43,2018-10-03 06:45:44,0.240s,PASSED
+click,Firefox 62.0,,2018-10-03 06:45:44,2018-10-03 06:45:44,0.240s,PASSED
+Statement - visitDate = java.time.LocalDateTime.now().plusWeeks(1),Firefox 62.0,,2018-10-03 06:45:44,2018-10-03 06:45:44,0.015s,PASSED
+"Statement - visitDateStr = java.time.format.DateTimeFormatter.ofPattern(""dd/MM/yyyy"").format(visitDate)",Firefox 62.0,,2018-10-03 06:45:44,2018-10-03 06:45:44,0.002s,PASSED
+setText,Firefox 62.0,,2018-10-03 06:45:44,2018-10-03 06:45:44,0.331s,PASSED
+sendKeys,Firefox 62.0,,2018-10-03 06:45:44,2018-10-03 06:45:44,0.084s,PASSED
+setText,Firefox 62.0,,2018-10-03 06:45:44,2018-10-03 06:45:44,0.092s,PASSED
+"Statement - png3 = mr.resolveMaterialPath(CURRENT_TESTCASE_ID, ""CURA_Appointment.png"")",Firefox 62.0,,2018-10-03 06:45:44,2018-10-03 06:45:44,0.003s,PASSED
+com.kazurayam.ksbackyard.ScreenshotDriver.takeEntirePage,Firefox 62.0,,2018-10-03 06:45:44,2018-10-03 06:45:47,2.548s,PASSED
+click,Firefox 62.0,,2018-10-03 06:45:47,2018-10-03 06:45:47,0.391s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-03 06:45:47,2018-10-03 06:45:47,0.047s,PASSED
+Statement - facility = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_AppointmentConfirmation/p_facility)),Firefox 62.0,,2018-10-03 06:45:47,2018-10-03 06:45:48,0.050s,PASSED
+verifyMatch,Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.008s,PASSED
+Statement - readmission = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_AppointmentConfirmation/p_hospital_readmission)),Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.049s,PASSED
+verifyMatch,Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.003s,PASSED
+Statement - program = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_AppointmentConfirmation/p_program)),Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.050s,PASSED
+verifyMatch,Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.004s,PASSED
+Statement - visitDateStr2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_AppointmentConfirmation/p_visit_date)),Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.030s,PASSED
+verifyMatch,Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.002s,PASSED
+"Statement - parsed = java.time.format.DateTimeFormatter.ofPattern(""dd/MM/uuuu"").parse(visitDateStr2)",Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.002s,PASSED
+Statement - visitDate2 = java.time.LocalDate.from(parsed).atStartOfDay(),Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.011s,PASSED
+Statement - isAfterNow = visitDate2.isAfter(java.time.LocalDateTime.now()),Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.003s,PASSED
+verifyEqual,Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.009s,PASSED
+"Statement - dayOfWeek = java.time.format.DateTimeFormatter.ofPattern(""E"").withLocale(US).format(parsed)",Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.014s,PASSED
+verifyNotEqual,Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.010s,PASSED
+Statement - comment = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_AppointmentConfirmation/p_comment)),Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.037s,PASSED
+Statement - If (comment != null),Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.010s,PASSED
+"Statement - png4 = mr.resolveMaterialPath(CURRENT_TESTCASE_ID, ""CURA_AppointmentConfirmation.png"")",Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:48,0.001s,PASSED
+com.kazurayam.ksbackyard.ScreenshotDriver.takeEntirePage,Firefox 62.0,,2018-10-03 06:45:48,2018-10-03 06:45:50,2.581s,PASSED
+click,Firefox 62.0,,2018-10-03 06:45:50,2018-10-03 06:45:51,0.404s,PASSED
+verifyElementPresent,Firefox 62.0,,2018-10-03 06:45:51,2018-10-03 06:45:51,0.018s,PASSED
+"Statement - png5 = mr.resolveMaterialPath(CURRENT_TESTCASE_ID, ""CURA_Homepage_revisited.png"")",Firefox 62.0,,2018-10-03 06:45:51,2018-10-03 06:45:51,0.002s,PASSED
+com.kazurayam.ksbackyard.ScreenshotDriver.takeEntirePage,Firefox 62.0,,2018-10-03 06:45:51,2018-10-03 06:45:53,2.618s,PASSED
+closeBrowser,Firefox 62.0,,2018-10-03 06:45:53,2018-10-03 06:45:54,0.272s,PASSED

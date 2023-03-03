@@ -1,0 +1,21 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16
+rec-0-dup-0, usa, m,21,2016-03-09, ,Norma Fisher,Norma Fisher, nsw, hawthorne,4207,5151, terryplse, , 612 60757572,9024896,5
+rec-0-dup-1, usa, f,21,2021-07-22, ,Jorge Sullivan,Jorge Sullivan, vibc, hawthorne,4207,53, terrt lcose, , 03 94754580,9024896,5
+rec-0-dup-2, usa, ,35,1978-11-11, ,Elizabeth Woods,Elizabeth Woods, nsw, hawthorne, ,255, terry close, , 612 60757572,9024896,5
+rec-0-org,   usa, f,21,1980-03-06, ,Susan Wagner,Susan Wagner, nsw, hawthorne,4207,53, terry close, , 612 60757572,9024896,5
+rec-1-dup-0, abo, f, ,1972-08-18, ,Peter Montgomery,Peter Montgomery, wa, har   ,392,1, cockcro f t  venue, , 08826 885,5073459,7
+rec-1-dup-1, abo, f, ,1975-06-18, ,Theodore Mcgrath,Theodore Mcgrath,    , har ey,3928,1, cockcr ft  venue, , 08 82 7 2885, 5074 59,7
+rec-1-dup-2, abo, f, ,2017-08-03, ,Stephanie Collins,Stephanie Collins, w a, ha r v y,3928, |, cockcr o t a venue, ,882672885,5073459,7
+rec-1-org,   abo, f, ,2006-10-15, ,Stephanie Sutton,Stephanie Sutton, wa, harvey,3928,14, cockcroft avenue, , 08 82672885,5073459,7
+rec-2-dup-0, ind, f,21,2016-07-06, ,Brian Hamilton,Brian Hamilton, sab, degilbo,4242,119, armbrustet street, , 613 44253303,9787271,2
+rec-2-dup-1, ind, ,21,1996-08-17, ,Susan Levy,Susan Levy, wod, degkb,2024,112, hirschfeld crescent, , 04 51940054,9787271,2
+rec-2-dup-2, ind, f,12,2017-12-29, ,Sean Green,Sean Green, , ,2024,7, halford ckescent, , 613 44253303,9787217,2
+rec-2-dup-3, ind, ,21,2005-09-12, ,Kimberly Smith,Kimberly Smith, qld, degilbo,2024,112, hirschfelprescent, , 613 44253303,4935833,2
+rec-2-org,   ind, f,21,1988-10-03, ,Jennifer Summers,Jennifer Summers, qld, degilbo,2024,112, hirschfeld crescent, , 613 44253303,9787271,2
+rec-3-dup-0, unk, m,27,2005-07-05, ,April Snyder,April Snyder, vz, balmattm,2450,58, wilson fgedqcent, , 618 48054783,1566046,0
+rec-3-dup-1, unk, b, ,1986-01-10, ,Dana Nguyen,Dana Nguyen, vic, balmattum,2450,3, wilson frescent, , 618 48054783,1566046,0
+rec-3-dup-2, unk, m,98,1984-08-23, ,Cheryl Bradley,Cheryl Bradley, nsw, balmattum,2509,5, wilson escent, , 04 88410179,1566046,0
+rec-3-dup-3, unk, m,27,2016-03-28, ,Walter Pratt,Walter Pratt, vic, ,2450,8, wilson cgescent, , 618 48054783,1566046,0
+rec-3-dup-4, unk, m, ,2010-02-19, ,Bobby Flores,Bobby Flores, vict, balmattum,2450,5, wilsonvswrcent, , 618 41050783,1566046,0
+rec-3-dup-5, unk, m, ,1998-07-17, ,Tasha Rodriguez,Tasha Rodriguez, bg, balmatfum,2450,5, wilson crescent, , 618 48504783,1569645,0
+rec-3-org,   unk, m,27,2009-06-13, ,Michelle Kelley,Michelle Kelley, vic, balmattum,2450,5, wilson crescent, , 618 48054783,1566046,0

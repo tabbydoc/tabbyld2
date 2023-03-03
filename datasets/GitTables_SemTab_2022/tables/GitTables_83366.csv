@@ -1,0 +1,17 @@
+col0,col1,col2,col3
+--------------------------------------SAMPLE----------------------------------------------------,,,
+googleSearchField,,q,
+googleSearchButton,,btnK,
+googleCleverlance,,,//span[text()='Cleverlance']
+cleverlanceProductMenu,product-menu-icon,,
+cleverlanceProductMenuTaaS,,,"//a[contains(text(),'Testování jako služba')]"
+cleverlanceTaasContact,,,"//span[contains(text(),'Kontaktujte nás')]/../.."
+cleverlanceSocialMedias,,,//div[@id='social-media']/a
+-----------------------------------------------WINIUM SAMPLE------------------------------------------------------------------,,,
+calc4,,Čtyři,
+--------------------------------------MOBILE SAMPLE----------------------------------------------------,,,
+googleMenuSwipe,com.google.android.apps.maps:id/scrollable_card_stream_containe,,
+googleMenu_,com.google.android.apps.maps:id/search_omnibox_menu_button,,
+googleMenu,Menu,,
+googleMenuTraffic,,,//android.widget.TextView[@text='Traffic']
+googleMenuMessages,,,//android.widget.TextView[@text='Messages']

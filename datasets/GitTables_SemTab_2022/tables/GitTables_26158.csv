@@ -1,0 +1,89 @@
+col0,col1,col2
+INFO,Initial Rule added:sell 0.01 BTC on mtgox if price goes below 74.0 USD,Dec_05_12_59_55
+INFO,Initial Rule added:buy 1.9 LTC on btce if price goes below 2.3 USD,Dec_05_12_59_55
+INFO,Initial Rule added:sell 0.4 BTC on bitstamp if price goes above 150.4 USD,Dec_05_12_59_55
+INFO,Initial Rule added:buy 0.037 BTC on mtgox if price goes above 10.0 USD,Dec_05_12_59_55
+INFO,Initial Rule added:buy 0.02 BTC on mtgox if price goes above 1.0 USD,Dec_05_12_59_55
+INFO,Initial Rule added:buy 0.11 BTC on btce if price goes above 10.0 USD,Dec_05_12_59_55
+INFO,[mtgox] Last price of 1 BTC: 990.0 USD,Dec_05_13_00_01
+INFO,[mtgox] Last price of 1 BTC: 735.77 EUR,Dec_05_13_00_02
+INFO,[btce] Last price of 1 BTC: 923.46 USD,Dec_05_13_00_03
+INFO,[btce] Last price of 1 LTC: 33.18 USD,Dec_05_13_00_03
+INFO,[bitstamp] Last price of 1 BTC: 918.0 USD,Dec_05_13_00_03
+INFO,[mtgox] Balance updated :Balance : 0.00700262 BTC; 1.89642 USD; 1.89642 EUR ,Dec_05_13_00_07
+INFO,[btce] Balance updated :Balance : 5.889E-5 BTC; 5.889E-5 LTC; 0.99755187 USD; ,Dec_05_13_00_07
+INFO,[bitstamp] Balance updated :Balance : 3.878 BTC; 7072.95 USD; ,Dec_05_13_00_07
+INFO,[mtgox] Last price of 1 BTC: 990.0 USD,Dec_05_13_00_16
+INFO,[mtgox] Last price of 1 BTC: 735.77 EUR,Dec_05_13_00_16
+INFO,[btce] Last price of 1 BTC: 922.0 USD,Dec_05_13_00_16
+INFO,[btce] Last price of 1 LTC: 33.2 USD,Dec_05_13_00_17
+INFO,[bitstamp] Last price of 1 BTC: 918.0 USD,Dec_05_13_00_17
+INFO,[mtgox] Balance updated :Balance : 0.00700262 BTC; 1.89642 USD; 1.89642 EUR ,Dec_05_13_00_17
+INFO,[btce] Balance updated :Balance : 5.889E-5 BTC; 5.889E-5 LTC; 0.99755187 USD; ,Dec_05_13_00_18
+INFO,[bitstamp] Balance updated :Balance : 3.878 BTC; 7072.95 USD; ,Dec_05_13_00_18
+INFO,[mtgox] Last price of 1 BTC: 990.0 USD,Dec_05_13_00_31
+INFO,[mtgox] Last price of 1 BTC: 735.0 EUR,Dec_05_13_00_31
+INFO,[btce] Last price of 1 BTC: 920.0 USD,Dec_05_13_00_32
+INFO,[btce] Last price of 1 LTC: 33.2 USD,Dec_05_13_00_32
+INFO,[bitstamp] Last price of 1 BTC: 918.0 USD,Dec_05_13_00_32
+INFO,[mtgox] Balance updated :Balance : 0.00700262 BTC; 1.89642 USD; 1.89642 EUR ,Dec_05_13_00_33
+INFO,[btce] Balance updated :Balance : 5.889E-5 BTC; 5.889E-5 LTC; 0.99755187 USD; ,Dec_05_13_00_33
+INFO,[bitstamp] Balance updated :Balance : 3.878 BTC; 7072.95 USD; ,Dec_05_13_00_33
+INFO,Active rules(2) : Id=1 :  sell 10.3 BTC when price drops below 75$,
+Id=3 :  sell 7 BTC when price dropw below 150.4$,,
+,Dec_05_13_00_33,
+INFO,[mtgox] Last price of 1 BTC: 995.0 USD,Dec_05_13_00_46
+INFO,[mtgox] Last price of 1 BTC: 735.0 EUR,Dec_05_13_00_46
+INFO,[btce] Last price of 1 BTC: 922.0 USD,Dec_05_13_00_46
+INFO,[btce] Last price of 1 LTC: 33.02 USD,Dec_05_13_00_46
+INFO,[bitstamp] Last price of 1 BTC: 917.99 USD,Dec_05_13_00_47
+INFO,[mtgox] Balance updated :Balance : 0.00700262 BTC; 1.89642 USD; 1.89642 EUR ,Dec_05_13_00_48
+INFO,[btce] Balance updated :Balance : 5.889E-5 BTC; 5.889E-5 LTC; 0.99755187 USD; ,Dec_05_13_00_49
+INFO,[bitstamp] Balance updated :Balance : 3.878 BTC; 7072.95 USD; ,Dec_05_13_00_49
+INFO,Active rules(2) : Id=1 :  sell 10.3 BTC when price drops below 75$,
+Id=3 :  sell 7 BTC when price dropw below 150.4$,,
+,Dec_05_13_00_49,
+INFO,[mtgox] Last price of 1 BTC: 998.0 USD,Dec_05_13_01_04
+INFO,[mtgox] Last price of 1 BTC: 735.77 EUR,Dec_05_13_01_07
+INFO,[btce] Last price of 1 BTC: 925.0 USD,Dec_05_13_01_08
+INFO,[btce] Last price of 1 LTC: 33.9 USD,Dec_05_13_01_08
+INFO,[bitstamp] Last price of 1 BTC: 917.99 USD,Dec_05_13_01_08
+INFO,[mtgox] Balance updated :Balance : 0.00700262 BTC; 1.89642 USD; 1.89642 EUR ,Dec_05_13_01_08
+INFO,[btce] Balance updated :Balance : 5.889E-5 BTC; 5.889E-5 LTC; 0.99755187 USD; ,Dec_05_13_01_09
+INFO,[bitstamp] Balance updated :Balance : 3.878 BTC; 7072.95 USD; ,Dec_05_13_01_09
+INFO,Active rules(2) : Id=1 :  sell 10.3 BTC when price drops below 75$,
+Id=3 :  sell 7 BTC when price dropw below 150.4$,,
+,Dec_05_13_01_09,
+INFO,[mtgox] Last price of 1 BTC: 998.0 USD,Dec_05_13_01_16
+INFO,[mtgox] Last price of 1 BTC: 735.77 EUR,Dec_05_13_01_16
+INFO,[btce] Last price of 1 BTC: 925.0 USD,Dec_05_13_01_16
+INFO,[btce] Last price of 1 LTC: 33.45 USD,Dec_05_13_01_17
+INFO,[bitstamp] Last price of 1 BTC: 921.0 USD,Dec_05_13_01_17
+INFO,[mtgox] Balance updated :Balance : 0.00700262 BTC; 1.89642 USD; 1.89642 EUR ,Dec_05_13_01_17
+INFO,[btce] Balance updated :Balance : 5.889E-5 BTC; 5.889E-5 LTC; 0.99755187 USD; ,Dec_05_13_01_18
+INFO,[bitstamp] Balance updated :Balance : 3.878 BTC; 7072.95 USD; ,Dec_05_13_01_18
+INFO,Active rules(2) : Id=1 :  sell 10.3 BTC when price drops below 75$,
+Id=3 :  sell 7 BTC when price dropw below 150.4$,,
+,Dec_05_13_01_18,
+INFO,[mtgox] Last price of 1 BTC: 1000.0 USD,Dec_05_13_01_31
+INFO,[mtgox] Last price of 1 BTC: 735.77 EUR,Dec_05_13_01_31
+INFO,[btce] Last price of 1 BTC: 925.0 USD,Dec_05_13_01_32
+INFO,[btce] Last price of 1 LTC: 33.35 USD,Dec_05_13_01_32
+INFO,[bitstamp] Last price of 1 BTC: 921.0 USD,Dec_05_13_01_32
+INFO,[mtgox] Balance updated :Balance : 0.00700262 BTC; 1.89642 USD; 1.89642 EUR ,Dec_05_13_01_34
+INFO,[btce] Balance updated :Balance : 5.889E-5 BTC; 5.889E-5 LTC; 0.99755187 USD; ,Dec_05_13_01_34
+INFO,[bitstamp] Balance updated :Balance : 3.878 BTC; 7072.95 USD; ,Dec_05_13_01_34
+INFO,Active rules(2) : Id=1 :  sell 10.3 BTC when price drops below 75$,
+Id=3 :  sell 7 BTC when price dropw below 150.4$,,
+,Dec_05_13_01_34,
+INFO,[mtgox] Last price of 1 BTC: 1000.0 USD,Dec_05_13_01_46
+INFO,[mtgox] Last price of 1 BTC: 722.0 EUR,Dec_05_13_01_46
+INFO,[btce] Last price of 1 BTC: 927.32 USD,Dec_05_13_01_46
+INFO,[btce] Last price of 1 LTC: 33.29 USD,Dec_05_13_01_46
+INFO,[bitstamp] Last price of 1 BTC: 935.0 USD,Dec_05_13_01_47
+INFO,[mtgox] Balance updated :Balance : 0.00700262 BTC; 1.89642 USD; 1.89642 EUR ,Dec_05_13_01_47
+INFO,[btce] Balance updated :Balance : 5.889E-5 BTC; 5.889E-5 LTC; 0.99755187 USD; ,Dec_05_13_01_47
+INFO,[bitstamp] Balance updated :Balance : 3.878 BTC; 7072.95 USD; ,Dec_05_13_01_47
+INFO,Active rules(2) : Id=1 :  sell 10.3 BTC when price drops below 75$,
+Id=3 :  sell 7 BTC when price dropw below 150.4$,,
+,Dec_05_13_01_47,

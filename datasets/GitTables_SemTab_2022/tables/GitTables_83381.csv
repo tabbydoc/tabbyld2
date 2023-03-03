@@ -1,0 +1,11 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1 / A,citation.ID,"Citation ID in the form [last name of first author]_[year]_[first letter of first four words of title, when applicable].  Note: all words are counted in creating the abbreviation. Hyphenated words are counted as a single word. ",character (string),-,634.0,-,-
+2 / B,citation.doi,Citation DOI,character (string),-,530.0,-,-
+3 / C,citation.author,Last name of first author of citation,character (string),-,634.0,-,-
+4 / D,citation.year,Year of publication,numeric (double),-,634.0,1953,2017
+5 / E,citation.title,Title of publication.,character (string),-,616.0,-,-
+6 / F,citation.citation,Full citation. Most of these records are automatically generated in R based upon DOI lookup.,character (string),-,,,
+7 / G,citation.language,"Language of original publication. This was generated based on the title and abstract (retrieved via DOI lookup), and may mis-identify some that have title and abstract in English, but main article in another language.",character (string),-,,,
+8 / H,citation.url,URL of original publication.,character (string),-,,,
+9 / I,citation.abstract,"Abstract, generally retrieved automatically via URL lookup.",character (string),-,,,
+10 / J,pdf.in.repository,Indicates whether pdf of original study has been retrieved and saved in ForC's reference repository: https://github.com/forc-db/References (private repository; contact database managers for access).,numeric (integer),1- true; 0 -false,,,

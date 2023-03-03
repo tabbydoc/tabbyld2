@@ -1,0 +1,12 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14
+FAMI,,Familie,Famille,Familie,Family,,http://vocab.belgif.be/mybe-theme/FAMI,,,,,,,
+JUST,,Justitie,Justice,Justiz,Justice,http://publications.europa.eu/resource/authority/data-theme/JUST,,,http://vocab.belgif.be/mybe-theme/JUST,,,,,
+MOBI,,Mobiliteit,Mobilité,Verkehr,Mobility,http://publications.europa.eu/resource/authority/data-theme/TRAN,http://vocab.belgif.be/mybe-theme/MOBI,,,,,,,
+HEAL,,Gezondheid,Santé,Gesundheit,Health,http://publications.europa.eu/resource/authority/data-theme/HEAL,http://vocab.belgif.be/mybe-theme/HEAL,,,,,,,
+ENVI,,Leefmilieu,Environnement,Umwelt,Environment,http://publications.europa.eu/resource/authority/data-theme/ENVI,http://vocab.belgif.be/mybe-theme/ENVI,,,,,,,
+HOUS,,Huisvesting,Logement,Wohnen,Housing,,http://vocab.belgif.be/mybe-theme/HOUS,,,,,,,
+ECON,,Economie,Economie,Wirtschaft,Economy,http://publications.europa.eu/resource/authority/data-theme/ECON,,,http://vocab.belgif.be/mybe-theme/ECON,,,,,
+TAXE,,Belastingen,Impôts,Steuern,Taxes,,http://vocab.belgif.be/mybe-theme/TAXE,,,,,,,
+EDUC,,Leren,Formation,Ausbilding,Education,,,http://publications.europa.eu/resource/authority/data-theme/EDUC,,,http://www.belgium.be/nl/Leren,http://www.belgium.be/fr/formation,http://www.belgium.be/de/aus_und_weiterbildung,http://www.belgium.be/en/education
+WORK,,Werk,Emploi,Arbeit,Work,,http://vocab.belgif.be/mybe-theme/WORK,,,,,,,
+BELG,,Over België,La Belgique,über Belgien,About Belgium,,,,,,http://www.belgium.be/nl/over_belgie,http://www.belgium.be/fr/la_belgique,http://www.belgium.be/de/ueber_belgien,http://www.belgium.be/en/about_belgium

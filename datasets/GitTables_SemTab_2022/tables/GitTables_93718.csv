@@ -1,0 +1,68 @@
+col0,col1,col2,col3,col4,col5
+account.account_tax_code_135,Ipbox,,,base.main_company,1.0
+account.account_tax_code_136,Base H.T. TVA collectée,a),account.account_tax_code_135,base.main_company,1.0
+account.account_tax_code_137,Base H.T. 19.6%,TVA collectée 19.6% (Base H.T.),account.account_tax_code_136,base.main_company,1.0
+account.account_tax_code_138,Base H.T. 8.5%,TVA collectée 8.5% (Base H.T.),account.account_tax_code_136,base.main_company,1.0
+account.account_tax_code_139,Base H.T. 7.0%,TVA collectée 7.0% (Base H.T.),account.account_tax_code_136,base.main_company,1.0
+account.account_tax_code_140,Base H.T. 5.5%,TVA collectée 5.5% (Base H.T.),account.account_tax_code_136,base.main_company,1.0
+account.account_tax_code_141,Base H.T. 20%,TVA collectée 20% (Base H.T.),account.account_tax_code_136,base.main_company,1.0
+account.account_tax_code_142,TVA collectée,b),account.account_tax_code_135,base.main_company,1.0
+account.account_tax_code_143,TVA 19.6%,TVA collectée 19.6%,account.account_tax_code_142,base.main_company,1.0
+account.account_tax_code_144,TVA 8.5%,TVA collectée 8.5%,account.account_tax_code_142,base.main_company,1.0
+account.account_tax_code_145,TVA 7.0%,TVA collectée 7.0%,account.account_tax_code_142,base.main_company,1.0
+account.account_tax_code_146,TVA 5.5%,TVA collectée 5.5%,account.account_tax_code_142,base.main_company,1.0
+account.account_tax_code_147,TVA 20%,TVA collectée 20%,account.account_tax_code_142,base.main_company,1.0
+account.account_tax_code_148,Base H.T. TVA acquittée,c),account.account_tax_code_135,base.main_company,1.0
+account.account_tax_code_149,Base H.T. 19.6%,TVA acquittée 19.6% (Base H.T.),account.account_tax_code_148,base.main_company,1.0
+account.account_tax_code_150,Base H.T. 8.5%,TVA acquittée 8.5% (Base H.T.),account.account_tax_code_148,base.main_company,1.0
+account.account_tax_code_151,Base H.T. 7.0%,TVA acquittée 7.0% (Base H.T.),account.account_tax_code_148,base.main_company,1.0
+account.account_tax_code_152,Base H.T. 5.5%,TVA acquittée 5.5% (Base H.T.),account.account_tax_code_148,base.main_company,1.0
+account.account_tax_code_153,Base H.T. 20%,TVA acquittée 20% (Base H.T.),account.account_tax_code_148,base.main_company,1.0
+account.account_tax_code_154,TVA acquittée,d),account.account_tax_code_135,base.main_company,1.0
+account.account_tax_code_155,TVA 19.6%,TVA acquittée 19.6%,account.account_tax_code_154,base.main_company,1.0
+account.account_tax_code_156,TVA 8.5%,TVA acquittée 8.5%,account.account_tax_code_154,base.main_company,1.0
+account.account_tax_code_157,TVA 7.0%,TVA acquittée 7.0%,account.account_tax_code_154,base.main_company,1.0
+account.account_tax_code_158,TVA 5.5%,TVA acquittée 5.5%,account.account_tax_code_154,base.main_company,1.0
+account.account_tax_code_159,TVA 20%,TVA acquittée 20%,account.account_tax_code_154,base.main_company,1.0
+account.account_tax_code_160,Base H.T. TVA acquittée pour immobilisations,e),account.account_tax_code_135,base.main_company,1.0
+account.account_tax_code_161,Base H.T. 19.6%,TVA acquittée s/immo. 19.6% (Base H.T.),account.account_tax_code_160,base.main_company,1.0
+account.account_tax_code_162,Base H.T. 8.5%,TVA acquittée s/immo. 8.5% (Base H.T.),account.account_tax_code_160,base.main_company,1.0
+account.account_tax_code_163,Base H.T. 7.0%,TVA acquittée s/immo. 7.0% (Base H.T.),account.account_tax_code_160,base.main_company,1.0
+account.account_tax_code_164,Base H.T. 5.5%,TVA acquittée s/immo. 5.5% (Base H.T.),account.account_tax_code_160,base.main_company,1.0
+account.account_tax_code_165,Base H.T. 20%,TVA acquittée s/immo. 20% (Base H.T.),account.account_tax_code_160,base.main_company,1.0
+account.account_tax_code_166,TVA acquittée pour immobilisations,f),account.account_tax_code_135,base.main_company,1.0
+account.account_tax_code_167,TVA 19.6%,TVA acquittée s/immo. 19.6%,account.account_tax_code_166,base.main_company,1.0
+account.account_tax_code_168,TVA 8.5%,TVA acquittée s/immo. 8.5%,account.account_tax_code_166,base.main_company,1.0
+account.account_tax_code_169,TVA 7.0%,TVA acquittée s/immo. 7.0%,account.account_tax_code_166,base.main_company,1.0
+account.account_tax_code_170,TVA 5.5%,TVA acquittée s/immo. 5.5%,account.account_tax_code_166,base.main_company,1.0
+account.account_tax_code_171,TVA 20%,TVA acquittée s/immo. 20%,account.account_tax_code_166,base.main_company,1.0
+account.account_tax_code_172,Base H.T. TVA due intracommunautaire,g),account.account_tax_code_135,base.main_company,1.0
+account.account_tax_code_173,Base H.T. 19.6%,TVA due intracom. 19.6% (Base H.T.),account.account_tax_code_172,base.main_company,1.0
+account.account_tax_code_174,Base H.T. 8.5%,TVA due intracom. 8.5% (Base H.T.),account.account_tax_code_172,base.main_company,1.0
+account.account_tax_code_175,Base H.T. 7.0%,TVA due intracom. 7.0% (Base H.T.),account.account_tax_code_172,base.main_company,1.0
+account.account_tax_code_176,Base H.T. 5.5%,TVA due intracom. 5.5% (Base H.T.),account.account_tax_code_172,base.main_company,1.0
+account.account_tax_code_177,Base H.T. 20%,TVA due intracom. 20% (Base H.T.),account.account_tax_code_172,base.main_company,1.0
+account.account_tax_code_178,TVA due intracommunautaire,h),account.account_tax_code_135,base.main_company,1.0
+account.account_tax_code_179,TVA 19.6%,TVA due intracom. 19.6%,account.account_tax_code_178,base.main_company,1.0
+account.account_tax_code_180,TVA 8.5%,TVA due intracom. 8.5%,account.account_tax_code_178,base.main_company,1.0
+account.account_tax_code_181,TVA 7.0%,TVA due intracom. 7.0%,account.account_tax_code_178,base.main_company,1.0
+account.account_tax_code_182,TVA 5.5%,TVA due intracom. 5.5%,account.account_tax_code_178,base.main_company,1.0
+account.account_tax_code_183,TVA 20%,TVA due intracom. 20%,account.account_tax_code_178,base.main_company,1.0
+account.account_tax_code_184,Base H.T. TVA déductible intracommunautaire,i),account.account_tax_code_135,base.main_company,1.0
+account.account_tax_code_185,Base H.T. 19.6%,TVA déductible intracom. 19.6% (Base H.T.),account.account_tax_code_184,base.main_company,1.0
+account.account_tax_code_186,Base H.T. 8.5%,TVA déductible intracom. 8.5% (Base H.T.),account.account_tax_code_184,base.main_company,1.0
+account.account_tax_code_187,Base H.T. 7.0%,TVA déductible intracom. 7.0% (Base H.T.),account.account_tax_code_184,base.main_company,1.0
+account.account_tax_code_188,Base H.T. 5.5%,TVA déductible intracom. 5.5% (Base H.T.),account.account_tax_code_184,base.main_company,1.0
+account.account_tax_code_189,Base H.T. 20%,TVA déductible intracom. 20% (Base H.T.),account.account_tax_code_184,base.main_company,1.0
+account.account_tax_code_190,TVA déductible intracommunautaire,j),account.account_tax_code_135,base.main_company,1.0
+account.account_tax_code_191,TVA 19.6%,TVA déductible intracom. 19.6%,account.account_tax_code_190,base.main_company,1.0
+account.account_tax_code_192,TVA 8.5%,TVA déductible intracom. 8.5%,account.account_tax_code_190,base.main_company,1.0
+account.account_tax_code_193,TVA 7.0%,TVA déductible intracom. 7.0%,account.account_tax_code_190,base.main_company,1.0
+account.account_tax_code_194,TVA 5.5%,TVA déductible intracom. 5.5%,account.account_tax_code_190,base.main_company,1.0
+account.account_tax_code_195,TVA 20%,TVA déductible intracom. 20%,account.account_tax_code_190,base.main_company,1.0
+account.account_tax_code_196,Base H.T. Opérations non imposables,k),account.account_tax_code_135,base.main_company,1.0
+account.account_tax_code_197,Exportations hors U.E.,Exportations hors U.E. TVA 0% (Base H.T.),account.account_tax_code_196,base.main_company,1.0
+account.account_tax_code_198,Livraisons intracommunautaires,Livr. Intracom. TVA 0% (Base H.T.),account.account_tax_code_196,base.main_company,1.0
+account.account_tax_code_199,Aut.opé. non imposables,Autres non impos.TVA 0% (Base H.T.),account.account_tax_code_196,base.main_company,1.0
+account.account_tax_code_200,Base H.T. Non présent sur la CA3,Absent CA3),account.account_tax_code_135,base.main_company,1.0
+account.account_tax_code_201,Achats import,Achats import TVA 0% (Base H.T.),account.account_tax_code_200,base.main_company,1.0

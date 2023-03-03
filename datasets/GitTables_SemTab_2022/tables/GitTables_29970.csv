@@ -1,0 +1,84 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+ARS,Argentenian Peso,ARS,AR,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+ATS,Austrian Schilling,ATS,AT,"->>>,>>>,>>>,>>9.99",True,?,?,?,?,?
+AUD,Australian Dollar,AUD,AU,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+BAM,Convertible Marka,BAM,BA,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+BDT,Bangladeshi Taka,BDT,BD,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+BEF,Belgian Franc,BEF,BE,"->>,>>>,>>>,>>>,>>9",True,?,?,?,?,?
+BGL,Bulgarian Lev,BGL,BG,"->>,>>>,>>>,>>>,>>9",False,?,?,?,?,?
+BRL,Brazilian Real,BRL,BR,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+CAD,Canadian Dollar,CA$,CA,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+CHF,Swiss Franc,CHF,CH,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+CLP,Chilean Peso,CLP,CL,"->>,>>>,>>>,>>>,>>9",False,?,?,?,?,?
+CNY,Chinese Yuan Renminbi,CNY,CN,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+CRC,Costa Rican Colon,CRC,CR,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+CYP,Cyprus Pound,CYP,CY,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+CZK,Czech Koruna,CZK,CZ,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+DEM,Deutsche Mark,DM ,DE,"->>>,>>>,>>>,>>9.99",True,?,?,?,?,?
+DKK,Danish Krone,DKK,DK,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+DZD,Algerian Dinar,DZD,DZ,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+EEK,Estonian Kroon,EEK,EE,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+EGP,Egyptian Pound,EGP,EG,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+ESP,Spanish Peseta,ESP,ES,"->>,>>>,>>>,>>>,>>9",True,?,?,?,?,?
+EUR,European Monetary Unit,EUR,99,"->>>,>>>,>>>,>>9.99",True,?,?,?,?,?
+FIM,Finnish Markka,FIM,FI,"->>>,>>>,>>>,>>9.99",True,?,?,?,?,?
+FRF,French Franc,FFR,FR,"->>>,>>>,>>>,>>9.99",True,?,?,?,?,?
+GBP,Pound Sterling,GBP,GB,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+GRD,Greek Drachma,GRD,GR,"->>,>>>,>>>,>>>,>>9",False,?,?,?,?,?
+GTQ,Guatemalan Quetzal,GTQ,GT,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+HKD,Hong Kong Dollar,HK$,HK,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+HRK,Croatian Kuna,HRK,HR,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+HUF,Hungarian Forint,HUF,HU,"->>,>>>,>>>,>>>,>>9",False,?,?,?,?,?
+IDR,Indonesian Rupiah,IDR,ID,"->>,>>>,>>>,>>>,>>9",False,?,?,?,?,?
+IEP,Irish Punt,IEP,IE,"->>>,>>>,>>>,>>9.99",True,?,?,?,?,?
+ILS,Israeli New Shekel,ILS,IL,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+INR,Indian Rupee,INR,IN,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+ITL,Italian Lira,ITL,IT,"->>,>>>,>>>,>>>,>>9",True,?,?,?,?,?
+JOD,Jordanian Dinar,JOD,JO,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+JPY,Japanese Yen,Y  ,JP,"->>,>>>,>>>,>>>,>>9",False,?,?,?,?,?
+KES,Kenyan Shilling,KES,KE,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+KRW,South Korean Won,KRW,KR,"->>,>>>,>>>,>>>,>>9",False,?,?,?,?,?
+KWD,Kuwaiti Dinar,KWD,KW,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+KZT,Kazakhstan Tenge,KZT,KZ,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+LBP,Lebanese Pound,LBP,LB,"->>,>>>,>>>,>>>,>>9",False,?,?,?,?,?
+LUF,Luxembourg Franc,LUF,LU,"->>,>>>,>>>,>>>,>>9",True,?,?,?,?,?
+MAD,Moroccan Dirham,MAD,MA,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+MDL,Moldovan Leu,MDL,MD,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+MMK,Myanmar Kyat,MMK,MM,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+MNT,Mongolian Tugrik,MNT,MN,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+MTL,Maltese Lira,MTL,MT,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+MXP,Mexican Nuevo Peso,MXN,MX,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+MYR,Malaysian Ringgit,MYR,MY,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+MZM,Mozambique Metical,MZM,MZ,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+MZN,New Mozambican Metical,MZN,MZ,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+NLG,Dutch Guilder,NLG,NL,"->>>,>>>,>>>,>>9.99",True,?,?,?,?,?
+NOK,Norwegian Krone,NOK,NO,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+NPR,Nepalese Rupee,NPR,NP,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+NZD,New Zealand Dollar,NZ$,NZ,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+PEN,Peruvian Neuvo Sol,PES,PE,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+PGK,Papua New Guinea Kina,PGK,PG,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+PHP,Philippine Peso,PHP,PH,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+PKR,Pakistani Rupee,PKR,PK,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+PLZ,Polish Zloty,PLZ,PL,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+PTE,Portuguese Escudo,PTE,PT,"->>>>,>>>,>>>,>>9.9",True,?,?,?,?,?
+PYG,Paraguayan Guarani,PYG,PY,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+ROL,Romanian Leu,ROL,RO,"->>,>>>,>>>,>>>,>>9",False,?,?,?,?,?
+RON,Romanian New Lei,RON,RO,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+RUR,Russian Ruble,RUR,RU,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+SCR,Seychelles Rupee,SCR,SC,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+SDD,Sudanese Dinar,SDD,SD,"->>,>>>,>>>,>>>,>>9",False,?,?,?,?,?
+SEK,Swedish Krona,SEK,SE,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+SGD,Singapore Dollar,SG$,SG,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+SKK,Slovakian Koruna,SKK,SK,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+SYP,Syrian Pound,SYP,SY,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+THB,Thai Baht,THB,TH,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+TND,Tunisian Dinar,TND,TN,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+TRL,Turkish Lira,TRL,TR,"->>,>>>,>>>,>>>,>>9",False,?,?,?,?,?
+TWD,Taiwan Dollar,TW$,TW,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+UAH,Ukrainian Hryvna,UAH,UA,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+UAK,Ukraine Karbovanet,UAK,UA,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+USD,United States Dollar,US$,US,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+UYP,Uruguayan Peso,UYU,UY,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+YTL,New Turkish Lira,YTL,TR,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+ZAR,South African Rand,ZAR,ZA,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?
+ZWD,Zimbabwe Dollar,ZW$,ZW,"->>>,>>>,>>>,>>9.99",False,?,?,?,?,?

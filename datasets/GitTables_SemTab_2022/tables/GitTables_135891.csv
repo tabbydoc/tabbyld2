@@ -1,0 +1,39 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+,dashboard				,Dashboard				,0,fas fa-tachometer-alt,/backoffice/dashboard			,,True,				,employeegroup				,menu_name_en=Dashboard;menu_name_cn=仪表盘;menu_header_en=Menu;menu_header_cn=菜单
+,system					,System					,10,fas fa-cog			,									,,True,				,employeegroup				,menu_name_en=System;menu_name_cn=系统
+,field					,Field					,30,fas fa-file-alt	,									,,True,system		,employeegroup				,menu_name_en=Field;menu_name_cn=输入
+,enumeration			,Enumeration			,10,fas fa-list-ol		,/backoffice/enumeration			,,True,field		,employeegroup				,menu_name_en=Enumeration;menu_name_cn=列举
+,dynamicfield			,Dynamic Field			,20,fas fa-list-ul		,/backoffice/dynamicfield			,,True,field		,employeegroup				,menu_name_en=Dynamic Field;menu_name_cn=动态输入
+,dynamicfieldslot		,Dynamic Field Slot		,30,fas fa-list-alt	,/backoffice/dynamicfieldslot		,,True,field		,employeegroup				,menu_name_en=Dynamic Field Slot;menu_name_cn=动态场槽
+,dynamicfieldtemplate	,Dynamic Field Template ,40,fas fa-clipboard-list,/backoffice/dynamicfieldtemplate	,,True,field		,employeegroup				,menu_name_en=Dynamic Field Template;menu_name_cn=动态模板
+,userright				,User Right				,40,fas fa-user-plus	,/backoffice/userright				,,True,system		,employeegroup				,menu_name_en=User Right;menu_name_cn=用户权利
+,userpermission			,User Permission		,50,fas fa-key			,/backoffice/userpermission			,,True,system		,employeegroup				,menu_name_en=User Permission;menu_name_cn=用户权限
+,menu					,Menu					,60,fas fa-align-justify,/backoffice/menu					,,True,system		,employeegroup				,menu_name_en=Menu;menu_name_cn=菜单
+,cronjob				,Cronjob				,70,fas fa-calendar	,/backoffice/cronjob				,,True,system		,employeegroup				,menu_name_en=Cron Job;menu_name_cn=定时任务
+,email					,Email					,80,fas fa-envelope	,/backoffice/email					,,True,system		,employeegroup				,menu_name_en=Email;menu_name_cn=电子邮件
+,auditor				,Auditor				,90,fas fa-users		,/backoffice/auditor				,,True,system		,employeegroup				,menu_name_en=Auditor;menu_name_cn=稽核员
+,workflow				,Workflow				,100,fas fa-project-diagram,									,,True,system	,employeegroup				,menu_name_en=Workflow;menu_name_cn=工作流程
+,deployment				,Deployment				,10,fas fa-stream		,/backoffice/workflow/deployment		,,True,workflow	,employeegroup				,menu_name_en=Deployment;menu_name_cn=部署
+,processdefinition		,Process Definition		,20,fas fa-stream		,/backoffice/workflow/processdefinition	,,True,workflow	,employeegroup				,menu_name_en=Process Definition;menu_name_cn=流程定义
+,task					,Task					,30,fas fa-tasks		,/backoffice/workflow/task				,,True,workflow	,employeegroup				,menu_name_en=Task;menu_name_cn=任务
+,imex					,Import Export			,110,fas fa-file-import	,/backoffice/imex					,,True,system		,employeegroup				,menu_name_en=Import Export;menu_name_cn=导入导出
+,logentry				,Log Entry				,120,fas fa-record-vinyl,/backoffice/logentry				,,True,system		,employeegroup				,menu_name_en=Log Entry;menu_name_cn=日志输入
+,internationalization	,Internationalization	,20,fas fa-globe		,									,,True,				,employeegroup				,menu_name_en=Internationalization;menu_name_cn=国际化
+,language				,Language				,10,fas fa-language	,/backoffice/language				,,True,internationalization		,employeegroup	,menu_name_en=Language;menu_name_cn=语言
+,currency				,Currency				,20,fas fa-money-bill-alt,/backoffice/currency				,,True,internationalization		,employeegroup	,menu_name_en=Currency;menu_name_cn=货币
+,country				,Country				,30,fas fa-map			,/backoffice/country				,,True,internationalization		,employeegroup	,menu_name_en=Country;menu_name_cn=国家
+,region					,Region					,40,fas fa-map-signs	,/backoffice/region					,,True,internationalization		,employeegroup	,menu_name_en=Region;menu_name_cn=地区
+,user					,User					,30,fas fa-user		,									,,True,				,employeegroup				,menu_name_en=User;menu_name_cn=用户
+,address				,Address				,10,fas fa-home		,/backoffice/address				,,True,user			,employeegroup				,menu_name_en=Address;menu_name_cn=地址
+,company				,Company				,20,fas fa-building	,/backoffice/company				,,True,user			,employeegroup				,menu_name_en=Company;menu_name_cn=公司
+,usergroup				,User Group				,30,fas fa-users		,/backoffice/usergroup				,,True,user			,employeegroup				,menu_name_en=User Group;menu_name_cn=用户组
+,usersession			,User Session			,40,fas fa-clock		,/backoffice/user/session			,,True,user			,employeegroup				,menu_name_en=User Session;menu_name_cn=用户会话
+,users					,Users					,50,fas fa-user		,/backoffice/user					,,True,user			,employeegroup				,menu_name_en=Users;menu_name_cn=用户
+,employee				,Employee				,60,fas fa-user		,/backoffice/employee				,,True,user			,employeegroup				,menu_name_en=Employee;menu_name_cn=雇员
+,customer				,Customer				,70,fas fa-user		,/backoffice/customer				,,True,user			,employeegroup				,menu_name_en=Customer;menu_name_cn=顾客
+,vendor					,Vendor					,80,fas fa-user		,/backoffice/vendor					,,True,user			,employeegroup				,menu_name_en=Vendor;menu_name_cn=供应商
+,multimedia				,Multimedia				,40,fas fa-photo-video	,									,,True,				,employeegroup				,menu_name_en=Multimedia;menu_name_cn=多媒体
+,media					,Media					,20,fas fa-file-image	,/backoffice/media					,,True,multimedia	,employeegroup				,menu_name_en=Media;menu_name_cn=媒体
+,cms					,CMS					,50,fas fa-home		,									,,True,				,employeegroup				,menu_name_en=CMS;menu_name_cn=内容管理系统
+,site					,Site					,10,fas fa-globe		,/backoffice/site					,,True,cms			,employeegroup				,menu_name_en=Site;menu_name_cn=网站
+,comment				,Comment				,20,fas fa-comments	,/backoffice/comment				,,True,cms			,employeegroup				,menu_name_en=Comment;menu_name_cn=留言

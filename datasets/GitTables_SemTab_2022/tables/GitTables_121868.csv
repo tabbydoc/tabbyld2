@@ -1,0 +1,101 @@
+col0,col1,col2,col3,col4,col5
+1,AL,SESSIONS (R AL),True,Alabama,41.59
+1,AL,SHELBY (R AL),True,Alabama,41.59
+1,AK,MURKOWSKI (R AK),True,Alaska,27.67
+1,AK,STEVENS (R AK),True,Alaska,27.67
+1,AZ,KYL (R AZ),True,Arizona,44.67
+1,AZ,MCCAIN (R AZ),True,Arizona,44.67
+1,AR,HUTCHINSON (R AR),True,Arkansas,45.86
+1,AR,LINCOLN (D AR),False,Arkansas,45.86
+0,CA,BOXER (D CA),False,California,53.45
+1,CA,FEINSTEIN (D CA),False,California,53.45
+1,CO,ALLARD (R CO),True,Colorado,42.39
+1,CO,CAMPBELL (R CO),True,Colorado,42.39
+1,CT,DODD (D CT),False,Connecticut,55.91
+1,CT,LIEBERMAN (D CT),False,Connecticut,55.91
+1,DE,BIDEN (D DE),False,Delaware,54.96
+1,DE,CARPER (D DE),False,Delaware,54.96
+0,FL,GRAHAM (D FL),False,Florida,48.84
+1,FL,NELSON (D FL),False,Florida,48.84
+1,GA,CLELAND (D GA),False,Georgia,42.98
+1,GA,MILLER (D GA),False,Georgia,42.98
+0,HI,AKAKA (D HI),False,Hawaii,55.79
+0,HI,INOUYE (D HI),False,Hawaii,55.79
+1,ID,CRAIG (R ID),True,Idaho,27.64
+1,ID,CRAPO (R ID),True,Idaho,27.64
+0,IL,DURBIN (D IL),False,Illinois,54.6
+1,IL,FITZGERALD (R IL),True,Illinois,54.6
+1,IN,BAYH (D IN),False,Indiana,41.01
+1,IN,LUGAR (R IN),True,Indiana,41.01
+1,IA,GRASSLEY (R IA),True,Iowa,48.54
+1,IA,HARKIN (D IA),False,Iowa,48.54
+1,KS,BROWNBACK (R KS),True,Kansas,37.24
+1,KS,ROBERTS (R KS),True,Kansas,37.24
+1,KY,BUNNING (R KY),True,Kentucky,41.37
+1,KY,MCCONNELL (R KY),True,Kentucky,41.37
+1,LA,BREAUX (D LA),False,Louisiana,44.88
+1,LA,LANDRIEU (D LA),False,Louisiana,44.88
+1,ME,COLLINS (R ME),True,Maine,49.09
+1,ME,SNOWE (R ME),True,Maine,49.09
+0,MD,MIKULSKI (D MD),False,Maryland,56.57
+0,MD,SARBANES (D MD),False,Maryland,56.57
+0,MA,KENNEDY (D MA),False,Massachusetts,59.8
+1,MA,KERRY (D MA),False,Massachusetts,59.8
+0,MI,STABENOW (D MI),False,Michigan,51.28
+0,MI,LEVIN (D MI),False,Michigan,51.28
+0,MN,DAYTON (D MN),False,Minnesota,47.91
+0,MN,WELLSTONE (D MN),False,Minnesota,47.91
+1,MS,COCHRAN (R MS),True,Mississippi,40.7
+1,MS,LOTT (R MS),True,Mississippi,40.7
+1,MO,CARNAHAN (D MO),False,Missouri,47.08
+1,MO,BOND (R MO),True,Missouri,47.08
+1,MT,BAUCUS (D MT),False,Montana,33.36
+1,MT,BURNS (R MT),True,Montana,33.36
+1,NE,HAGEL (R NE),True,Nebraska,33.25
+1,NE,NELSON (D NE),False,Nebraska,33.25
+1,NV,ENSIGN (R NV),True,Nevada,45.98
+1,NV,REID (D NV),False,Nevada,45.98
+1,NH,GREGG (R NH),True,New Hampshire,46.8
+1,NH,SMITH (R NH),True,New Hampshire,46.8
+0,NJ,CORZINE (D NJ),False,New Jersey,56.13
+1,NJ,TORRICELLI (D NJ),False,New Jersey,56.13
+0,NM,BINGAMAN (D NM),False,New Mexico,47.91
+1,NM,DOMENICI (R NM),True,New Mexico,47.91
+1,NY,CLINTON (D NY),False,New York,60.21
+1,NY,SCHUMER (D NY),False,New York,60.21
+1,NC,EDWARDS (D NC),False,North Carolina,43.2
+1,NC,HELMS (R NC),True,North Carolina,43.2
+0,ND,CONRAD (D ND),False,North Dakota,33.05
+1,ND,DORGAN (D ND),False,North Dakota,33.05
+1,OH,DEWINE (R OH),True,Ohio,46.46
+1,OH,VOINOVICH (R OH),True,Ohio,46.46
+1,OK,INHOFE (R OK),True,Oklahoma,38.43
+1,OK,NICKLES (R OK),True,Oklahoma,38.43
+1,OR,SMITH (R OR),True,Oregon,46.96
+0,OR,WYDEN (D OR),False,Oregon,46.96
+1,PA,SANTORUM (R PA),True,Pennsylvania,50.6
+1,PA,SPECTER (R PA),True,Pennsylvania,50.6
+0,RI,CHAFEE (R RI),True,Rhode Island,60.99
+0,RI,REED (D RI),False,Rhode Island,60.99
+1,SC,HOLLINGS (D SC),False,South Carolina,40.91
+1,SC,THURMOND (R SC),True,South Carolina,40.91
+1,SD,DASCHLE (D SD),False,South Dakota,37.56
+1,SD,JOHNSON (D SD),False,South Dakota,37.56
+1,TN,FRIST (R TN),True,Tennessee,47.28
+1,TN,THOMPSON (R TN),True,Tennessee,47.28
+1,TX,GRAMM (R TX),True,Texas,37.98
+1,TX,HUTCHISON (R TX),True,Texas,37.98
+1,UT,BENNETT (R UT),True,Utah,26.34
+1,UT,HATCH (R UT),True,Utah,26.34
+0,VT,JEFFORDS (Indep VT),False,Vermont,50.63
+0,VT,LEAHY (D VT),False,Vermont,50.63
+1,VA,ALLEN (R VA),True,Virginia,44.44
+1,VA,WARNER (R VA),True,Virginia,44.44
+1,WA,CANTWELL (D WA),False,Washington,50.13
+0,WA,MURRAY (D WA),False,Washington,50.13
+0,WV,BYRD (D WV),False,West Virginia,45.59
+1,WV,ROCKEFELLER (D WV),False,West Virginia,45.59
+0,WI,FEINGOLD (D WI),False,Wisconsin,47.83
+1,WI,KOHL (D WI),False,Wisconsin,47.83
+1,WY,ENZI (R WY),True,Wyoming,27.7
+1,WY,THOMAS (R WY),True,Wyoming,27.7

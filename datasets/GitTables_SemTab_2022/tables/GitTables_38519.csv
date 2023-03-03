@@ -1,0 +1,22 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+3,Why doesn't hungryhead work with Internet Explorer or my browser?,"If you're having trouble, use latest version of [Chrome](https://www.google.com/intl/en/chrome/browser/ ""Chrome Browser""), [Firefox](https://www.mozilla.org/en-GB/firefox/new/  ""Firefox browser"") or [Safari](http://www.apple.com/uk/safari/  ""Safari browser"") -- we do most of our testing in Chrome and Firefox. We also support IE11+ on windows.  ",why-doesn-t-hungryhead-work-with-internet-explorer-or-my-browser,t,1,2015-07-02 18:38:45.54784,2015-07-02 19:34:07.823839
+4,How do I delete my account?,"To delete your account:
+- [Log in](/login/ 'Login Link') to your account
+- Go to the homepage
+- Click on your profile image or badge in the upper right hand corner, in the dropdown select **Settings**
+- Select delete account tab and, click **Delete account*
+This deletes your account and your user profile. It takes about a few minutes to an hour to delete your account - depending on the content in your profile. ",how-do-i-delete-my-account,t,1,2015-07-02 18:42:51.147799,2015-07-02 20:05:31.236357
+5,Do you share content with search engines - Google etc.?,HungryHead is a member only platform. We don't share any private data with search engines. Only people who are registered and joined can view your profiles and ideas. ,do-you-share-content-search-engines-google-yahoo-etc,t,1,2015-07-02 21:17:11.280202,2015-07-02 21:20:59.159813
+6,Who owns the intellectual property?,You do. We don't take ownership in your idea. ,who-owns-the-intellectual-property,t,1,2015-07-02 21:28:01.583703,2015-07-02 21:28:01.583703
+7,How can I pitch a new idea?,You can pitch a new idea by clicking **Pitch idea** button on your profile or from top navigation right side dropdown. ,how-can-i-pitch-a-new-idea,t,2,2015-07-02 21:34:02.880558,2015-07-02 21:34:02.880558
+11,What is Gamification?,Gamification is the use of game thinking and game mechanics in non-game contexts to engage users in solving problems and increase users' contributions.,what-is-gamification,t,3,2015-07-02 21:53:30.95043,2015-07-02 21:53:30.95043
+1,How does hungryhead work?,"Hungryhead enables students to share, collaborate and validate startup ideas, together with peers and mentors. ",how-does-hungryhead-work,t,1,2015-07-02 18:33:41.32169,2015-07-27 10:29:46.978619
+8,How can I control privacy of my idea?,"When you create/pitch a new idea, by default it won't get published until you have filled out all basic details about the idea. 
+The idea profile page contains help for section. ",how-can-i-control-privacy-of-my-idea,t,2,2015-07-02 21:37:30.458341,2015-07-27 10:30:53.803706
+9,How can I invite my team members?,"You can invite your team members by clicking on the **+** icon at the top right of the members section. After creating an invite, the app sends an email to the team member. 
+Your team member can then click on the link sent in the email and join your idea.",how-can-i-invite-my-team-members,t,2,2015-07-02 21:45:41.957959,2015-07-27 10:31:31.49794
+10,How can I collaborate with my idea team members?,Everyone in the team has access to the idea in private mode. You can chat and update your idea profile in realtime. ,how-can-i-collaborate-with-my-idea-team-members,t,2,2015-07-02 21:49:30.745001,2015-07-27 10:32:02.906241
+17,How can I change my profile settings?,Click on your profile icon on top right of the menu and then go to settings.,how-can-i-change-my-profile-settings,t,5,2015-07-02 22:07:43.584444,2015-07-27 10:33:51.793339
+16,What does mean to vote on an idea?,"If you have voted on an idea, you’ll receive occasional emails with updates from the team. If you want to help build an idea, start by voting and introducing yourself to the team through QA section.",what-does-mean-to-follow-an-idea,t,5,2015-07-02 22:07:03.512312,2015-07-27 10:34:55.758641
+15,How do you handle privacy and security?,"Hungryhead is a private community and therefore, we don't share your content with search engines or third-party services. Only members who have joined the platform can see your profile, follow or message you through our services. You can read more about our privacy policy here  - [Click to read](https://hungryhead.co/privacy-policy)",how-do-you-handle-privacy-and-security,t,4,2015-07-02 21:59:07.273685,2015-07-27 11:34:18.994297
+18,App Coins,App Coins represent how much investable coins you have that you can invest in ideas and make return on investments. ,app-coins,t,6,2015-07-02 22:11:38.642153,2015-07-27 11:35:45.836519

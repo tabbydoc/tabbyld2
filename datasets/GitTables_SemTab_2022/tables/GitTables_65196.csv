@@ -1,0 +1,45 @@
+col0,col1,col2,col3,col4
+NY,Astoria Gas Turbine Power,55243,CT2-1A,Unit ID change from CT02-1 to CT2-1A
+NY,Astoria Gas Turbine Power,55243,CT2-2A,Unit ID change from CT02-2 to CT2-2A
+NY,Astoria Gas Turbine Power,55243,CT2-3A,Unit ID change from CT02-3 to CT2-3A
+NY,Astoria Gas Turbine Power,55243,CT2-4A,Unit ID change from CT02-4 to CT2-4A
+NY,Astoria Gas Turbine Power,55243,CT3-1A,Unit ID change from CT03-1 to CT3-1A
+NY,Astoria Gas Turbine Power,55243,CT3-2A,Unit ID change from CT03-2 to CT3-2A
+NY,Astoria Gas Turbine Power,55243,CT3-3A,Unit ID change from CT03-3 to CT3-3A
+NY,Astoria Gas Turbine Power,55243,CT3-4A,Unit ID change from CT03-4 to CT3-4A
+NY,Astoria Gas Turbine Power,55243,CT4-1A,Unit ID change from CT04-1 to CT4-1A
+NY,Astoria Gas Turbine Power,55243,CT4-2A,Unit ID change from CT04-2 to CT4-2A
+NY,Astoria Gas Turbine Power,55243,CT4-3A,Unit ID change from CT04-3 to CT4-3A
+NY,Astoria Gas Turbine Power,55243,CT4-4A,Unit ID change from CT04-4 to CT4-4A
+NY,Astoria Gas Turbine Power,55243,,Facility ID (ORISPL) change from 8906 to 55243
+NY,Astoria Generating Station,8906,32SH,Unit ID change from 31RH to 32SH
+NY,Astoria Generating Station,8906,42RH,Unit ID change from 41SH to 42RH
+NY,"Beaver Falls, LLC",10617,,"Facility name change from WPS Empire State, Inc-Beaver Falls on 10/10/2003"
+NY,"Beaver Falls, LLC",10617,,Facility name change from CH Resources - Beaver Falls on 07/27/2002
+NY,Bethpage Energy Center,50292,GT3,Unit ID change from 3 to GT3
+NY,Bethpage Energy Center,50292,,Facility name change from TBG Cogen on 10/31/2002
+NY,Bethpage Energy Center,50292,,"Facility name change from CPN Bethpage 3rd Turbine, Inc. on 02/23/2005"
+NY,Caithness Long Island Energy Center,56234,,Facility name change from Caithness Bellport Energy Center on 10/25/2005
+NY,"Castleton Power, LLC",10190,,Facility name change from Transcanada Power Castleton on 01/15/2002
+NY,"Castleton Power, LLC",10190,,Facility name change from Castleton on 10/06/2005
+NY,"Empire Generating Co, LLC",56259,CT-1,Unit ID change from 1 to CT-1
+NY,"Empire Generating Co, LLC",56259,CT-2,Unit ID change from 2 to CT-2
+NY,Fortistar North Tonawanda Inc,54131,,Facility name change from Oxbow Power Cogeneration Facility on 10/16/2002
+NY,"Hawkeye Energy Greenport, LLC",55969,U-01,Unit ID change from TURB1 to U-01
+NY,KIAC Cogeneration,54114,3,Unit ID change from 3 to 03
+NY,Poletti 500 MW CC,56196,CTG7A,Unit ID change from 1 to CTG7A
+NY,Pouch Terminal,8053,,Facility ID (ORISPL) change from 7911 to 8053
+NY,Ravenswood Steam Plant,880100,BLR001,"Ravenswood Steam Plant (ORISPL 880100) Unit BLR001 in New York was previously Ravenswood Generating Station (ORISPL 2500) Unit BLR001 in New York, and started submitting emissions at the new location in Q1 2010"
+NY,Ravenswood Steam Plant,880100,BLR002,"Ravenswood Steam Plant (ORISPL 880100) Unit BLR002 in New York was previously Ravenswood Generating Station (ORISPL 2500) Unit BLR002 in New York, and started submitting emissions at the new location in Q1 2010"
+NY,Ravenswood Steam Plant,880100,BLR003,"Ravenswood Steam Plant (ORISPL 880100) Unit BLR003 in New York was previously Ravenswood Generating Station (ORISPL 2500) Unit BLR003 in New York, and started submitting emissions at the new location in Q1 2010"
+NY,Ravenswood Steam Plant,880100,BLR004,"Ravenswood Steam Plant (ORISPL 880100) Unit BLR004 in New York was previously Ravenswood Generating Station (ORISPL 2500) Unit BLR004 in New York, and started submitting emissions at the new location in Q1 2010"
+NY,Richard M Flynn (Holtsville),7314,,Facility name change from Richard M Flynn on 01/15/2002
+NY,S A Carlson,2682,20,Unit ID change from 7 to 20
+NY,S A Carlson,2682,20,Unit ID change from 20 to 20
+NY,Selkirk Cogen Partners,10725,CTG101,Unit ID change from 00001 to CTG101
+NY,Selkirk Cogen Partners,10725,CTG201,Unit ID change from 00002 to CTG201
+NY,Selkirk Cogen Partners,10725,CTG301,Unit ID change from 00003 to CTG301
+NY,"Syracuse, LLC",10621,,"Facility name change from WPS Empire State, Inc-Syracuse on 09/28/2006"
+NY,"Syracuse, LLC",10621,,Facility name change from CH Resources - Syracuse on 07/15/2002
+NY,Valley Energy Center,56940,1,Unit ID change from 0001 to 1
+NY,Valley Energy Center,56940,2,Unit ID change from 0002 to 2

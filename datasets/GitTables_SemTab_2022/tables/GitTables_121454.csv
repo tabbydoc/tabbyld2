@@ -1,0 +1,7 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16
+,"{'childs': None, 'description': 'Test Resistor', 'parent': None, 'path': '/Resistor', 'id': 1, 'name': 'Resistor'}",2017-11-12T17:26:43+00:00,,,MC0603WGF1003T5E-TR,,,,1,0,,,,6531ac34518abaf6,MC0603WGF1003T5E-TR,"RESISTOR, 0603, 0.063W, 100K; Power Rating: 63mW; Resistance: 100kohm; Resistance Tolerance: &"
+,"{'childs': None, 'description': 'Test Resistor', 'parent': None, 'path': '/Resistor', 'id': 1, 'name': 'Resistor'}",2017-11-12T17:40:20+00:00,,,MCSR06X1002FTL,,,,2,0,,,,56f49eaf408b8933,MCSR06X1002FTL,"RESISTOR, 0603, 10K, 1%, ANTI SULFUR; Product Range: MULTICOMP - MCSR 06 Series Anti-Sulfuration General Purpose Chip..."
+,"{'childs': None, 'description': '', 'parent': None, 'path': '/Semiconductors Modules SMD', 'id': 2, 'name': 'Semiconductors Modules SMD'}",2017-11-13T00:39:45+00:00,,,DS9503P+,,,,3,0,,,,435e8a5b0ad39c99,DS9503P+,DS9503 Series 1 Channel Uni-Directional ESD Protection Diode w/ Resistor-TSOC-6
+,"{'childs': None, 'description': '', 'parent': {'id': 1}, 'path': '/Resistor/Test', 'id': 4, 'name': 'Test'}",2017-11-15T11:56:10+00:00,,,MCRC1/2G514JT-RH,,,,10,0,,,,2f50e655161bf097,MCRC1/2G514JT-RH,"CARBON RESISTOR, 510KOHM, 500mW, 5%"
+NEW IMPORT Timestamp:17-11-16 09:29:13.107173,,,,,MCSR06X2002FTL,,,,12,0,,,,,,"SMD Chip Resistor, Ceramic, MCSR 06 Series, 20 kohm, 75 V, 0603 [1608 Metric], 100 mW, 1%"
+NEW IMPORT Timestamp:17-11-16 09:29:11.935823,,,,,MCRC1/2G514JT-RH,,,,11,0,,,,,,"CARBON RESISTOR, 510KOHM, 500mW, 5%"

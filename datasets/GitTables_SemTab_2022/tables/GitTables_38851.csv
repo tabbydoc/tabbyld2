@@ -1,0 +1,11 @@
+col0,col1,col2,col3
+DELETE,/api/delete/integer/[id],502 Server Error: Bad Gateway for url: /api/delete/integer/[id],105
+POST,[INIT]/api/create/random-integers[INIT],504 Server Error: Gateway Time-out for url: [INIT]/api/create/random-integers[INIT],1
+POST,[INIT]/api/create/random-integers[INIT],502 Server Error: Bad Gateway for url: [INIT]/api/create/random-integers[INIT],29
+POST,/api/create/random-integer,504 Server Error: Gateway Time-out for url: http://192.168.69.212:1337/api/create/random-integer,24
+DELETE,/api/delete/integer/[id],504 Server Error: Gateway Time-out for url: /api/delete/integer/[id],6
+GET,/api/get/integer/[id],504 Server Error: Gateway Time-out for url: /api/get/integer/[id],42
+GET,/api/get/integers/100,504 Server Error: Gateway Time-out for url: http://192.168.69.212:1337/api/get/integers/100,4
+GET,/api/get/integers/100,502 Server Error: Bad Gateway for url: http://192.168.69.212:1337/api/get/integers/100,52
+GET,/api/get/integer/[id],502 Server Error: Bad Gateway for url: /api/get/integer/[id],705
+POST,/api/create/random-integer,502 Server Error: Bad Gateway for url: http://192.168.69.212:1337/api/create/random-integer,367

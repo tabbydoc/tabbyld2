@@ -1,0 +1,120 @@
+col0,col1,col2,col3,col4,col5,col6
+classify,id,i,,,,
+classify,int,int,,xform1|xform2,,
+classify,str,str,,,,
+classify,float,float,,xform3,,
+classify,int,d_int,,;;clear_error,,
+classify,str,d_str,,^intl|!excpt,,
+classify,float,d_float,,;;clear_error,,
+classify,key,k,,,,
+classify,str,d_int_error,,;row.d_int.failed_value,,
+,,,,,,
+classifydt,time,d_dt,,,,
+classifydt,date,d_dt_date,,,,
+classifydt,datetime,d_dt_datetime,,,,
+classifydt,interval,d_interval,,,,
+classifydt,year/range,d_duration_yrange,,,,
+classifydt,interval/iso,d_duration_iso,,,,
+,,,,,,
+classifyrace,raceth,d_raceth,,,,
+classifyrace,raceth/cen00,d_raceth_cen00,,,,
+classifyrace,raceth/cen10,d_raceth_cen10,,,,
+classifyrace,raceth/omb,d_raceth_omb,,,,
+classifyrace,raceth/reid,d_raceth_reid,,,,
+classifyrace,raceth/name,d_raceth_name,,,,
+,,,,,,
+classifyage,age,d_age,,,,
+classifyage,age/years,d_age_years,,,,
+classifyage,age/range,d_age_range,,,,
+,,,,,,
+classifym,int,m_int,,,,
+classifym,str,m_str,,,,
+classifym,float,m_float,,,,
+classifym,count,m_count,,,,
+classifym,proportion,m_pro,,,,
+classifym,percent,m_pct,,,,
+,,,,,,
+classifyerr,margin,e_m,,,,
+classifyerr,ci,e_ci,,,,
+classifyerr,se,e_se,,,,
+classifyerr,rse,e_rse,,,,
+,,,,,,
+,,,,,,
+classifygeo,geoid,d_geo_acs,,,,
+classifygeo,geoid/tiger,d_geo_tiger,,,,
+classifygeo,geoid/census,d_geo_census,,,,
+classifygeo,gvid,d_geo_gvid,,,,
+classifygeo,fips,d_geo_fips,,,,
+classifygeo,label/geo,d_geo_name,,,,
+classifygeo,zip,d_geo_usps_zip,,,,
+classifygeo,stusab,d_geo_usps_state,,,,
+,,,,,,
+everything,age/range,age_range,,,age_range: Character String,str
+everything,age,age,,,age: Integer,int
+everything,census,census,,,census: Census Geographic Code,int
+everything,date,date,,,date: Date,date
+everything,datetime,datetime,,,datetime: Date and time,datetime
+everything,decile,decile,,,decile: Decile ranking,int
+everything,fips/county,fips_county,,,fips_county: Fips Code,int
+everything,fips/state,fips_state,,,fips_state: Fips Code,int
+everything,fips,fips,,,fips: Fips Code,int
+everything,geoid/census,geoid_census,,,geoid_census: ACS Geoid,str
+everything,geoid/tiger,geoid_tiger,,,geoid_tiger: ACS Geoid,str
+everything,geoid,geoid,,,geoid: ACS Geoid,str
+everything,gnis,gnis,,,gnis: US Geographic Names Information System  Code,int
+everything,gvid,gvid,,,gvid: CK Geoid,str
+everything,interval/iso,interval_iso,,,interval_iso: ISO FOrmat Interval,str
+everything,interval/year,interval_year,,,interval_year: Year range interval,str
+everything,interval/yrange,interval_yrange,,,interval_yrange: Year range interval,str
+everything,interval,interval,,,interval: Time interval,str
+everything,label/geo,label_geo,,,label_geo: Geographic Identifier Label,unicode
+everything,lat,lat,,,lat: Geographic coordinate in decimal degrees,float
+everything,lon,lon,,,lon: Geographic coordinate in decimal degrees,float
+everything,quartile,quartile,,,quartile: Quartile ranking,int
+everything,quintile,quintile,,,quintile: Quintile ranking,int
+everything,raceth/cen00,raceth_cen00,,,raceth_cen00: Integer,int
+everything,raceth/cen10,raceth_cen10,,,raceth_cen10: Integer,int
+everything,raceth/civick,raceth_civick,,,raceth_civick: Integer,int
+everything,raceth/hci,raceth_hci,,,raceth_hci: Integer,int
+everything,raceth/omb,raceth_omb,,,raceth_omb: Integer,int
+everything,raceth,raceth,,,raceth: Integer,int
+everything,stusab,stusab,,,stusab: USPS State Code,str
+everything,time,time,,,time: Time,time
+everything,wkt,wkt,,,wkt: Well Known Text,int
+everything,year,year,,,year: Single year Interval,int
+everything,zcta,zcta,,,zcta: ZIP Code,int
+everything,zip,zip,,,zip: ZIP Code,int
+everything,ci,ci,,,ci: General Floating Point,float
+everything,margin,margin,,,margin: General Floating Point,float
+everything,rse,rse,,,rse: General Floating Point,float
+everything,se,se,,,se: General Floating Point,float
+everything,id,id,,,id: Integer,int
+everything,key,key,,,key: Integer,int
+everything,count,count,,,count: Count,int
+everything,density,density,,,density: Density,float
+everything,measure/int,measure_int,,,measure_int: Integer,int
+everything,measure/long,measure_long,,,measure_long: Long,long
+everything,measure,measure,,,measure: General Floating Point,float
+everything,pct,pct,,,pct: Percentage 0->100,float
+everything,pctl,pctl,,,pctl: Percentile Rank,float
+everything,percent,percent,,,percent: Percentage 0->100,float
+everything,percentile,percentile,,,percentile: Percentile Rank,float
+everything,proportion,proportion,,,proportion: Proportion,float
+everything,rate,rate,,,"rate: Rate, 0->1",float
+everything,ratio,ratio,,,ratio: Ratio,float
+everything,z,z,,,z: Z Score,float
+everything,float,float,,,float: General Floating Point,float
+everything,int,int,,,int: Integer,int
+everything,long,long,,,long: Long,long
+everything,str,str,,,str: Character String,str
+everything,text,text,,,text: Text String,unicode
+everything,unicode,unicode,,,unicode: Text String,unicode
+everything,age/range,age_range,,,age_range: Character String,str
+everything,age,age,,,age: Integer,int
+everything,census,census,,,census: Census Geographic Code,int
+everything,date,date,,,date: Date,date
+everything,datetime,datetime,,,datetime: Date and time,datetime
+everything,decile,decile,,,decile: Decile ranking,int
+everything,fips/county,fips_county,,,fips_county: Fips Code,int
+everything,fips/state,fips_state,,,fips_state: Fips Code,int
+everything,fips,fips,,,fips: Fips Code,int

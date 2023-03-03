@@ -1,0 +1,18 @@
+col0,col1,col2,col3,col4,col5,col6
+IC1,1,STM32L496RGT3,511-STM32L496RGT3,https://componentsearchengine.com/ga/part.php?partID=770355,,ARM Cortex M4; 32 bit; 80 MHz; 1 MB program memory; 320 kB data RAM; 12 bit ADC; 52 I/O; 1.71 V to 3.6 V; -40 C to +125 C
+IC2,1,IS25LP128F-JBLA3,870-IS25LP128F-JBLA3,https://componentsearchengine.com/ga/part.php?partID=1153919,Stocked version,NOR flash; 128 Mbit; 133 MHz; SPI; 13.5 mA supply current; -40 C to +125 C
+IC3,1,TPS7A0533PDBVR,595-TPS7A0533PDBVR,https://componentsearchengine.com/ga/part.php?partID=1325310,,LDO; 1.4 V to 5.5 V in; 3.3 V out; 200 mA out; 1 uA quiescent current; -40 C to +125 C
+IC4,1,MMBD4148TW-7-F,621-MMBD4148TW-7-F,https://componentsearchengine.com/ga/part.php?partID=297000,,Triple diode; peak reverse volt. 80 V; max. surge current 4 A; forward current 500 mA; recovery time 4 ns; forward voltage 1.25 V; reverse current 100 nA; -65 C to +150 C
+Y1,1,ABM8AIG-16.000MHz-12-2Z-T,815-ABM8AIG16122ZT,https://componentsearchengine.com/ga/part.php?partID=1712653,,12 pF; 16 MHz; 20 PPM tolerance; 50 PPM frequency stability; 10 uW drive level; -40 C to +125 C
+Y2,1,ABS07AIG-32.768kHz-T,815-S07AIG-32.768T,https://componentsearchengine.com/ga/part.php?partID=631062,,12.5 pF; 32.768 kHz; 20 PPM tolerance; 100 nW drive level; -40 C to +125 C
+C1;C2;C3,3,CC1206JKX7R9BB105,603-CC1206JK7R9BB105,https://componentsearchengine.com/ga/part.php?partID=1609580,,Caps for MCU and LDO; 1 uF; 50 V; 5% tolerance; case code 3216 mm; -55 C to +125 C; X7R
+C4,1,CC1206KKX7R7BB475,603-CC126KKX7R7BB475,https://componentsearchengine.com/ga/part.php?partID=1798972,,Cap for MCU; 4.7 uF; 16 V; 10% tolerance; case code 3216 mm; -55 C to +125 C; X7R
+C5,1,597D158X9004R2T,71-597D158X9004R2T,https://componentsearchengine.com/ga/part.php?partID=398104,,1500 uF; 4 VDC; 10% tolerance; 15 mOhm ESR; 60 uA leakage current; -55 C to +125 C
+C6;C7;C8;C9;C10,5,CC0603JPX7R9BB104,603-CC0603JPX79BB104,https://componentsearchengine.com/ga/part.php?partID=1949354,,Caps for MCU; 0.1 uF; 50 V; 5% tolerance; case code 1608 mm; -55 C to +125 C; X7R
+C11;C12;C13;C14,4,CC1206CRNPO9BN4R7,603-C1206CRNPO9BN4R7,https://componentsearchengine.com/ga/part.php?partID=1178080,,Caps for Xtals; 4.7 pF; 50 V; 0.25 pF tolerance (5%); case code 3216 mm; -55 C to +125 C; C0G(NPO)
+R1;R2,2,RT0603FRD07100RL,603-RT0603FRD07100RL,https://componentsearchengine.com/ga/part.php?partID=2222716,,Resistors for LEDs; 100 Ohm; 1/10 W; 1% tolerance; 25 PPM/C; 75 V; case code 1608 mm; -55 C to +155 C
+R3,1,RT0603FRD0710KL,603-RT0603FRD0710KL,https://componentsearchengine.com/ga/part.php?partID=2223925,,Resistor for switch; 10 kOhm; 1/10 W; 1% tolerance; 25 PPM/C; 75 V; case code 1608 mm; -55 C to +155 C
+LEDR,1,599-0010-007F,645-599-0010-007F,https://componentsearchengine.com/ga/part.php?partID=1524640,,Bootloader user LED; Red 633 nm; 45 mcd; 140 deg; clear lens; forward current 20 mA; forward voltage 2.1 V; -40 C to +100 C
+LEDY,1,599-0040-007F,645-599-0040-007F,https://componentsearchengine.com/ga/part.php?partID=1524642,Do not use URL model footprint; use LEDR footprint,Charge indicator LED; Yellow 590 nm; 105 mcd; 140 deg; clear lens; forward current 20 mA; forward voltage 2.1 V; -40 C to +100 C
+J1,1,629105150521,710-629105150521,KiCad Connector_USB:USB_Micro-B_Wuerth_629105150521,Use provided .lib file; Use KiCad footprint,Micro USB type B; female; USB 2.0; 5 contact; 1 port; 3 A; horizontal mounting angle
+S1;S2,2,PTS810SJM250SMTRLFS,611-PTS810SJM250SMTR,https://componentsearchengine.com/ga/part.php?partID=830194,,Tactile switch; non-illuminated; oval; OFF - (ON); straight; 1.6 N; 50 mA; 16 VDC; -40 C to +85 C

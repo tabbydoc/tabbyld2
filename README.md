@@ -1,10 +1,10 @@
 # TabbyLD2
 
-A web-based application to annotate relational tables and generate knowledge graphs.
+**TabbyLD2** is a web-based application for semantic annotation of relational tables and generation of facts from annotated tabular data to populate knowledge graphs.
 
 ## Version
 
-0.3
+0.4
 
 ## Preliminaries
 
@@ -90,13 +90,19 @@ def __str__(self):
 
 * `datasets` contains datasets of source tables for experimental evaluation:
     * `T2Dv2` contains [T2Dv2 Gold Standard](http://webdatacommons.org/webtables/goldstandardV2.html) dataset, where `col_class_checked_fg.csv` was formed by [SemAIDA](https://github.com/alan-turing-institute/SemAIDA/tree/master/AAAI19/T2Dv2) and is fine-grained ground truth class for all columns;
-    * `Tough_Tables` contains [Tough Tables (2T)](https://zenodo.org/record/4246370#.Yf5AO-pBw2w) dataset. **NOTE:** `CEA_2T_gt.zip` must be unzipped before receiving an experimental evaluation.
+    * `Tough_Tables` contains [Tough Tables (2T)](https://zenodo.org/record/4246370#.Yf5AO-pBw2w) dataset. **NOTE:** `CEA_2T_gt.zip` must be unzipped before receiving an experimental evaluation;
+    * `GitTables_SemTab_2022` contains [GitTables](https://gittables.github.io/) dataset that was applied in the [SemTab-2022](https://sem-tab-challenge.github.io/2022/) competition for Column Type Annotation by DBpedia (GT-CTA-DBP).
+* `examples` contains table examples in the CSV format for testing;
 * `experimental_evaluation` contains scripts for obtaining an experimental evaluation on tables presented in `datasets` directory;
 * `results` contains processing results of tables (*this directory is created by default*);
-* `source_tables` contains examples of source tables in the CSV format for testing;
-* `tabbyld2` contains software TabbyLD2 modules, including `main.py` for a console mode and `app.py` for a web mode, and also:
-    * `colnet` contains ColNet framework for annotating categorical columns (NE-columns).
-    * `w2v_model` contains pre-train word2vec model. **NOTE:** this model is installed and placed independently.
+* `source_tables` is the folder in which you need to place CSV files of source tables for processing (*contains two table files for testing by default*);
+* `tabbyld2` contains TabbyLD2 modules, including `main.py` for a console mode and `app.py` for a web mode, and also:
+    * `datamodel` contains description of tabular data and knowledge graph models;
+    * `helpers` contains various useful functions for working with files, data, etc.;
+    * `preprocessing` contains table preprocessing module, which includes data cleaning, atomic column classification, subject column identification;
+    * `table_annotation` contains semantic table annotator for CEA and CTA tasks. This module also contains:
+        * `colnet` contains ColNet framework for annotating categorical columns (NE-columns);
+        * `w2v_model` contains pre-train word2vec model. **NOTE:** this model is installed and placed independently.
 
 ## Usage
 
@@ -125,4 +131,17 @@ python app.py
 ## Authors
 
 * [Nikita O. Dorodnykh](mailto:tualatin32@mail.ru)
+* [Aleksandr Yu. Yurin](mailto:j80@yandex.ru)
+
+## Developers
+
+* [Nikita O. Dorodnykh](mailto:tualatin32@mail.ru)
 * [Daria A. Denisova](mailto:daryalich@mail.ru)
+* [Vitaliy V. Biryuckov](mailto:stukov.biryuckov2017@yandex.ru)
+* [Ilgar V. Amiraslanov](mailto:ilgar-amiraslanov@mail.ru)
+
+## References
+
+* Dorodnykh N.O., Shigarov A.O., Yurin A.Yu. **Using the Semantic Annotation of Web Table Data for Knowledge Base Construction.** AICCC'21: Proceedings of the 4th Artificial Intelligence and Cloud Computing Conference, 2022, P. 122-129. DOI: 10.1145/3508259.3508277
+* Dorodnykh N.O., Yurin A.Yu. **TabbyLD: A Tool for Semantic Interpretation of Spreadsheets Data.** Communications in Computer and Information Science. Modelling and Development of Intelligent Systems (MDIS 2020), 2021, Vol. 1341, P. 315-333. DOI: 10.1007/978-3-030-68527-0_20
+* Dorodnykh N.O., Yurin A.Yu. **Towards a universal approach for semantic interpretation of spreadsheets data.** IDEAS'20: Proceedings of the 24th Symposium on International Database Engineering & Applications, 2020, No. 22, P. 1-9. DOI: 10.1145/3410566.3410609

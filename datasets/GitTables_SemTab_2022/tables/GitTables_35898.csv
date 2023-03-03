@@ -1,0 +1,38 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18
+Commissioned Crews,CHM_commission,,,Commissioned Crews,"req_spaceport, no_build_in",Requires Dock,,True,,,0,0,0,0,data.scripts.hullmods.CHM_commissioned,"Commission bonuses are always applied when you enter a market. 
+
+However... as a last resort, when activated, this ship will receive special training or upgrades varying from the faction you're commissioned under.",Allows everything to work.,graphics/hullmods/chm_commission.png
+Commissioned Crew Ban,CHM_commission2,,,Commissioned Crews,"req_spaceport, no_build_in",Requires Dock,,True,,,0,0,0,0,data.scripts.hullmods.CHM_commissioned2,This ship will be marked to never accept any future Commission Bonus for any reason.,Deattach the ship's hull with the commissioned crew first!,graphics/hullmods/chm_commission_noh.png
+Hegemony Armor Improvements,CHM_hegemony,,,Hegemony,,,,,True,,0,0,0,0,data.scripts.hullmods.CHM_hegemony,"The ship is outfitted with high-quality armor plating produced in the forges of Chicomoztoc, increases ship's armor by %s/%s/%s/%s points, depending on hull size. Armor designs such as the XIV Battlegroup's designs receive a reduced armor bonus of %s.
+
+""The spirit of the Domain holds steadfast still in the Hegemony's heart.""",Increase armor.,graphics/hullmods/chm_hegemony.png
+Fourteenth Battlegroup Survivor,CHM_hegemony_xiv,,,XIV Battlegroup,,,,,True,,0,0,0,0,data.scripts.hullmods.CHM_hegemony_xiv,"This hullmod is cursed. For some reason if it still exist, you have to remove it or watch your ship instantly dies!",Increase armor.,graphics/hullmods/chm_hegemony_xiv.png
+Fighter Supremacy,CHM_persean_league,,,Midline,,,,,True,,0,0,0,0,data.scripts.hullmods.CHM_persean_league,"Ship's nanoforges have been improved using pre-Collapse data, lowering the replacement time by %s/%s/%s/%s, depending on hull size. These nanoforges require less crew to operate, lowering skeleton crew requirement by %s.
+
+""Don't tread on me, damn Phoenixes!""",Improves fighter replacement rate,graphics/hullmods/chm_persean_league.png
+Advanced Flux Capacitors,CHM_tritachyon,,,Tri-Tachyon,,,,,True,,0,0,0,0,data.scripts.hullmods.CHM_tritachyon,"Ships are refined with Tri-Tachyon Corporation's new venting component, reducing overload duration by %s. Also increases the ship's flux dissipation rate while venting by %s.
+
+""Flux levels overwhelming, initiating TT Protocol 14.""",Skeleton Crew decrease,graphics/hullmods/chm_tritachyon.png
+Lion Training,CHM_sindrian,,,Lion's Guard,,,,,True,,0,0,0,0,data.scripts.hullmods.CHM_sindrian,"The ship's crews have been trained and constantly drilled on Sindrian doctrines. Receive additional bonuses when an Officer is on-board this ship. Increase the ship's maneuverability by %s. Increases the turn rate of all turrets by %s.
+
+""For the Lion! Never forget what they did in Askonia!""",Special bonuses for officers.,graphics/hullmods/chm_sindrian_diktat.png
+Lion's Eye,CHM_sindrian1,,,Lion's Guard,,,,,True,,0,0,0,0,data.scripts.hullmods.CHM_sindrian1,"Leadership of a Timid or Cautious officer makes shields more reactive, increasing the turn rate of the ship's shields and the rate at which they are raised by  %s.",Special bonuses for officers.,graphics/hullmods/chm_sindrian_diktat1.png
+Lion's Mane,CHM_sindrian2,,,Lion's Guard,,,,,True,,0,0,0,0,data.scripts.hullmods.CHM_sindrian2,"Leadership of Steady officer optimizes ship's maneuvering thrusters and motivates gunnery crews, granting %s bonus to maneuverability and increasing turn rate of all turrets by %s.",Special bonuses for officers.,graphics/hullmods/chm_sindrian_diktat2.png
+Lion's Maul,CHM_sindrian3,,,Lion's Guard,,,,,True,,0,0,0,0,data.scripts.hullmods.CHM_sindrian3,"Leadership of Aggressive or Reckless officer improves ship's targeting routines, increasing damage dealt to weapons and engines by %s.",Special bonuses for officers.,graphics/hullmods/chm_sindrian_diktat3.png
+Pirate Handiworks,CHM_pirate,,,Pirate,,,,,True,,0,0,0,0,data.scripts.hullmods.CHM_pirate,"Pirates and smugglers on-board makes constant adjustments to make the ship less visible in space. The ship's sensor profile is reduced by %s.
+
+""These aren't the contrabands you're looking for.""",Reduce sensor profile.,graphics/hullmods/chm_pirate.png
+PRISINE RESTORATIN,CHM_pirate_xiv,,,Pirate,,,,,True,,0,0,0,0,data.scripts.hullmods.CHM_pirate_xiv,"Ochre Jane was one of the admirals of the Fourteenth Battlegroup. A failed mutiny in the Battlegroup and spending several time in a group of damaged cryopod as punishment caused brain damage in Jane. Even then, Jane did not lose her sense of strategy or lust for power, embodying this in her Mk.XIV line of ships. Ship's armor is increased by %s and flux capacity and dissipation are increased by %s.",Reduce sensor profile.,graphics/hullmods/chm_pirate_xiv.png
+Luddic Rituals,CHM_luddic_church,,,Luddic Church,,,,,True,,0,0,0,0,data.scripts.hullmods.CHM_luddic_church,"Each missile has been made with utermost care and blessed by priest of Luddic Church to destroy their enemies. Confers a %s increase in health and %s/%s/%s/%s damage bonus in all missiles, rockets, bombs, and torpedoes, depending on hull size.
+
+""Faith is better than weapons of war, but one missile destroys much evil.""",Improve missile speed.,graphics/hullmods/chm_luddic_church.png
+Path's Vision,CHM_pather,,,Luddic Path,,,,,True,,0,0,0,0,data.scripts.hullmods.CHM_pather,"Pathers have performed modifications to ship's engines, increasing ship's top speed by %s/%s/%s/%s su/second, depending on hull size. Minor modifications to other systems have also been done, reducing the rate at which combat readiness degrades by %s.
+
+""The servants who embrace Moloch shall perish by their own wretched usage.""",Increase ships peed,graphics/hullmods/chm_pather.png
+United We Stand,CHM_alliance,,,Commissioned Crews,"req_spaceport, no_build_in",Requires Dock,,True,,,0,0,0,0,data.scripts.hullmods.CHM_alliance,"When your commissioned faction or yourself is allied in an alliance, receive all of its respective Commissioned Bonus.
+
+""Then join hand in hand, brave Perseans all, by uniting we stand, by dividing we fall. In so righteous a cause let us hope to succeed and let none that oppose us stand in our way.""",have nex,graphics/hullmods/chm_unified_alliance.png
+Alliance Sensor Array,CHM_alliance2,,,Commissioned Crews,"req_spaceport, no_build_in",Requires Dock,,True,,,0,0,0,0,data.scripts.hullmods.CHM_alliance2,Applies all United We Stand hull mod to all eligible ships! Will auto-remove itself upon using.,have nex,graphics/hullmods/chm_unified_alliance2.png
+United We Stand,CHM_alliance3,,,Commissioned Crews,"req_spaceport, no_build_in",Requires Dock,,,True,,0,0,0,0,data.scripts.hullmods.CHM_alliance3,"When your commissioned faction or yourself is allied in an alliance, receive all of its respective Commissioned Bonus.
+
+""Then join hand in hand, brave Perseans all, by uniting we stand, by dividing we fall. In so righteous a cause let us hope to succeed and let none that oppose us stand in our way.""",What? Nooo you cant have this,graphics/hullmods/chm_unified_alliance.png

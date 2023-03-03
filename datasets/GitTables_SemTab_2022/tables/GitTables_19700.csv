@@ -1,0 +1,159 @@
+col0,col1,col2,col3
+agentAddress,agt,,IP Address
+agentDnsDomain,agentDnsDomain,255.0,String
+agentHostName,ahost,1023.0,String
+agentId,aid,40.0,String
+agentMacAddress,amac,,MAC Address
+agentNtDomain,agentNtDomain,255.0,String
+agentReceiptTime,art,,Time Stamp
+agentTimeZone,atz,255.0,String
+agentTranslatedAddress,agentTranslatedAddress,,IP Address
+agentTranslatedZoneExternalID,agentTranslatedZoneExternalID,200.0,String
+agentTranslatedZoneURI,agentTranslatedZoneURI,2048.0,String
+agentType,at,63.0,String
+agentVersion,av,31.0,String
+agentZoneExternalID,agentZoneExternalID,200.0,String
+agentZoneURI,agentZoneURI,2048.0,String
+applicationProtocol,app,31.0,String
+baseEventCount,cnt,,Integer
+bytesIn,in,,Integer
+bytesOut,out,,Integer
+customerExternalID,customerExternalID,200.0,String
+customerURI,customerURI,2048.0,String
+destinationAddress,dst,,IPv4 Address
+destinationDnsDomain,destinationDnsDomain,255.0,String
+destinationGeoLatitude,dlat,,Floating Point
+destinationGeoLongitude,dlong,,Floating Point
+destinationHostName,dhost,1023.0,String
+destinationMacAddress,dmac,,MAC Address
+destinationNtDomain,dntdom,255.0,String
+destinationPort,dpt,65535.0,Integer
+destinationProcessId,dpid,,Integer
+destinationProcessName,dproc,1023.0,String
+destinationServiceName,destinationServiceName,1023.0,String
+destinationTranslatedAddress,destinationTranslatedAddress,,IPv4 Address
+destinationTranslatedPort,destinationTranslatedPort,65535.0,Integer
+destinationTranslatedZoneExternalID,destinationTranslatedZoneExternalID,200.0,String
+destinationTranslatedZoneURI,destinationTranslatedZoneURI,2048.0,String
+destinationUserId,duid,1023.0,String
+destinationUserName,duser,1023.0,String
+destinationUserPrivileges,dpriv,1023.0,String
+destinationZoneExternalID,destinationZoneExternalID,200.0,String
+destinationZoneURI,destinationZoneURI,2048.0,String
+deviceAction,act,63.0,String
+deviceAddress,dvc,,IPv4 Address
+deviceCustomDate1,deviceCustomDate1,,Time Stamp
+deviceCustomDate1Label,deviceCustomDate1Label,1023.0,String
+deviceCustomDate2,deviceCustomDate2,,Time Stamp
+deviceCustomDate2Label,deviceCustomDate2Label,1023.0,String
+deviceCustomFloatingPoint1,cfp1,,Floating Point
+deviceCustomFloatingPoint1Label,cfp1Label,1023.0,String
+deviceCustomFloatingPoint2,cfp2,,Floating Point
+deviceCustomFloatingPoint2Label,cfp2Label,1023.0,String
+deviceCustomFloatingPoint3,cfp3,,Floating Point
+deviceCustomFloatingPoint3Label,cfp3Label,1023.0,String
+deviceCustomFloatingPoint4,cfp4,,Floating Point
+deviceCustomFloatingPoint4Label,cfp4Label,1023.0,String
+deviceCustomIPv6Address1,c6a1,,IPv6 address
+deviceCustomIPv6Address1Label,c6a1Label,1023.0,String
+deviceCustomIPv6Address3,c6a3,,IPv6 address
+deviceCustomIPv6Address3Label,c6a3Label,1023.0,String
+deviceCustomIPv6Address4,c6a4,,IPv6 address
+deviceCustomIPv6Address4Label,C6a4Label,1023.0,String
+deviceCustomNumber1,cn1,,Integer
+deviceCustomNumber1Label,cn1Label,1023.0,String
+DeviceCustomNumber2,cn2,,Integer
+deviceCustomNumber2Label,cn2Label,1023.0,String
+deviceCustomNumber3,cn3,,Integer
+deviceCustomNumber3Label,cn3Label,1023.0,String
+deviceCustomString1,cs1,4000.0,String
+deviceCustomString1Label,cs1Label,1023.0,String
+deviceCustomString2,cs2,4000.0,String
+deviceCustomString2Label,cs2Label,1023.0,String
+deviceCustomString3,cs3,4000.0,String
+deviceCustomString3Label,cs3Label,1023.0,String
+deviceCustomString4,cs4,4000.0,String
+deviceCustomString4Label,cs4Label,1023.0,String
+deviceCustomString5,cs5,4000.0,String
+deviceCustomString5Label,cs5Label,1023.0,String
+deviceCustomString6,cs6,4000.0,String
+deviceCustomString6Label,cs6Label,1023.0,String
+deviceDirection,deviceDirection,,Integer
+deviceDnsDomain,deviceDnsDomain,255.0,String
+deviceEventCategory,cat,1023.0,String
+deviceExternalId,deviceExternalId,255.0,String
+deviceFacility,deviceFacility,1023.0,String
+deviceHostName,dvchost,100.0,String
+deviceInboundInterface,deviceInboundInterface,128.0,String
+deviceMacAddress,dvcmac,,MAC Address
+deviceNtDomain,deviceNtDomain,255.0,String
+deviceOutboundInterface,DeviceOutboundInterface,128.0,String
+devicePayloadId,DevicePayloadId,128.0,String
+deviceProcessId,dvcpid,,Integer
+deviceProcessName,deviceProcessName,1023.0,String
+deviceReceiptTime,rt,,Time Stamp
+deviceTimeZone,dtz,255.0,String
+deviceTranslatedAddress,deviceTranslatedAddress,,IPv4 Address
+deviceTranslatedZoneExternalID,deviceTranslatedZoneExternalID,200.0,String
+deviceTranslatedZoneURI,deviceTranslatedZoneURI,2048.0,String
+deviceZoneExternalID,deviceZoneExternalID,200.0,String
+deviceZoneURI,deviceZoneURI,2048.0,String
+endTime,end,,Time Stamp
+eventId,eventId,,Integer
+eventOutcome,outcome,63.0,String
+externalId,externalId,40.0,String
+fileCreateTime,fileCreateTime,,Time Stamp
+fileHash,fileHash,255.0,String
+fileId,fileId,1023.0,String
+fileModificationTime,fileModificationTime,,Time Stamp
+filename,fname,1023.0,String
+filePath,filePath,1023.0,String
+filePermission,filePermission,1023.0,String
+fileSize,fsize,,Integer
+fileType,fileType,1023.0,String
+flexDate1,flexDate1,,Time Stamp
+flexDate1Label,flexDate1Label,128.0,String
+flexString1,flexString1,1023.0,String
+flexString2,flexString2,1023.0,String
+flexString2Label,flexString1Label,128.0,String
+flexString2Label,flexString2Label,128.0,String
+message,msg,1023.0,String
+oldFileCreateTime,oldFileCreateTime,,Time Stamp
+oldFileHash,oldFileHash,255.0,String
+oldFileId,oldFileId,1023.0,String
+oldFileModificationTime,oldFileModificationTime,,Time Stamp
+oldFileName,oldFileName,1023.0,String
+oldFilePath,oldFilePath,1023.0,String
+oldFilePermission,oldFilePermission,1023.0,String
+oldFileSize,oldFileSize,,Integer
+oldFileType,oldFileType,1023.0,String
+rawEvent,rawEvent,4000.0,String
+Reason,reason,1023.0,String
+requestClientApplication,requestClientApplication,1023.0,String
+requestContext,requestContext,2048.0,String
+requestCookies,requestCookies,1023.0,String
+requestMethod,requestMethod,1023.0,String
+requestUrl,request,1023.0,String
+sourceAddress,src,,IPv4 Address
+sourceDnsDomain,sourceDnsDomain,255.0,String
+sourceGeoLatitude,slat,,Floating Point
+sourceGeoLongitude,slong,,Floating Point
+sourceHostName,shost,1023.0,String
+sourceMacAddress,smac,,MAC Address
+sourceNtDomain,sntdom,255.0,String
+sourcePort,spt,65535.0,Integer
+sourceProcessId,spid,,Integer
+sourceProcessName,sproc,1023.0,String
+sourceServiceName,sourceServiceName,1023.0,String
+sourceTranslatedAddress,sourceTranslatedAddress,,IPv4 Address
+sourceTranslatedPort,sourceTranslatedPort,65535.0,Integer
+sourceTranslatedZoneExternalID,sourceTranslatedZoneExternalID,200.0,String
+sourceTranslatedZoneURI,sourceTranslatedZoneURI,2048.0,String
+sourceUserId,suid,1023.0,String
+sourceUserName,suser,1023.0,String
+sourceUserPrivileges,spriv,1023.0,String
+sourceZoneExternalID,sourceZoneExternalID,200.0,String
+sourceZoneURI,sourceZoneURI,2048.0,String
+startTime,start,,Time Stamp
+transportProtocol,proto,31.0,String
+type,type,,Integer

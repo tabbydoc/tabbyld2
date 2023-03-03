@@ -1,0 +1,92 @@
+col0,col1,col2,col3,col4,col5
+1,Maria,Anders,Berlin,Germany,030-0074321
+2,Ana,Trujillo,México D.F.,Mexico,(5) 555-4729
+3,Antonio,Moreno,México D.F.,Mexico,(5) 555-3932
+4,Thomas,Hardy,London,UK,(171) 555-7788
+5,Christina,Berglund,Luleå,Sweden,0921-12 34 65
+6,Hanna,Moos,Mannheim,Germany,0621-08460
+7,Frédérique,Citeaux,Strasbourg,France,88.60.15.31
+8,Martín,Sommer,Madrid,Spain,(91) 555 22 82
+9,Laurence,Lebihan,Marseille,France,91.24.45.40
+10,Elizabeth,Lincoln,Tsawassen,Canada,(604) 555-4729
+11,Victoria,Ashworth,London,UK,(171) 555-1212
+12,Patricio,Simpson,Buenos Aires,Argentina,(1) 135-5555
+13,Francisco,Chang,México D.F.,Mexico,(5) 555-3392
+14,Yang,Wang,Bern,Switzerland,0452-076545
+15,Pedro,Afonso,Sao Paulo,Brazil,(11) 555-7647
+16,Elizabeth,Brown,London,UK,(171) 555-2282
+17,Sven,Ottlieb,Aachen,Germany,0241-039123
+18,Janine,Labrune,Nantes,France,40.67.88.88
+19,Ann,Devon,London,UK,(171) 555-0297
+20,Roland,Mendel,Graz,Austria,7675-3425
+21,Aria,Cruz,Sao Paulo,Brazil,(11) 555-9857
+22,Diego,Roel,Madrid,Spain,(91) 555 94 44
+23,Martine,Rancé,Lille,France,20.16.10.16
+24,Maria,Larsson,Bräcke,Sweden,0695-34 67 21
+25,Peter,Franken,München,Germany,089-0877310
+26,Carine,Schmitt,Nantes,France,40.32.21.21
+27,Paolo,Accorti,Torino,Italy,011-4988260
+28,Lino,Rodriguez,Lisboa,Portugal,(1) 354-2534
+29,Eduardo,Saavedra,Barcelona,Spain,(93) 203 4560
+30,José,Pedro Freyre,Sevilla,Spain,(95) 555 82 82
+31,André,Fonseca,Campinas,Brazil,(11) 555-9482
+32,Howard,Snyder,Eugene,USA,(503) 555-7555
+33,Manuel,Pereira,Caracas,Venezuela,(2) 283-2951
+34,Mario,Pontes,Rio de Janeiro,Brazil,(21) 555-0091
+35,Carlos,Hernández,San Cristóbal,Venezuela,(5) 555-1340
+36,Yoshi,Latimer,Elgin,USA,(503) 555-6874
+37,Patricia,McKenna,Cork,Ireland,2967 542
+38,Helen,Bennett,Cowes,UK,(198) 555-8888
+39,Philip,Cramer,Brandenburg,Germany,0555-09876
+40,Daniel,Tonini,Versailles,France,30.59.84.10
+41,Annette,Roulet,Toulouse,France,61.77.61.10
+42,Yoshi,Tannamuri,Vancouver,Canada,(604) 555-3392
+43,John,Steel,Walla Walla,USA,(509) 555-7969
+44,Renate,Messner,Frankfurt a.M.,Germany,069-0245984
+45,Jaime,Yorres,San Francisco,USA,(415) 555-5938
+46,Carlos,González,Barquisimeto,Venezuela,(9) 331-6954
+47,Felipe,Izquierdo,I. de Margarita,Venezuela,(8) 34-56-12
+48,Fran,Wilson,Portland,USA,(503) 555-9573
+49,Giovanni,Rovelli,Bergamo,Italy,035-640230
+50,Catherine,Dewey,Bruxelles,Belgium,(02) 201 24 67
+51,Jean,Fresnière,Montréal,Canada,(514) 555-8054
+52,Alexander,Feuer,Leipzig,Germany,0342-023176
+53,Simon,Crowther,London,UK,(171) 555-7733
+54,Yvonne,Moncada,Buenos Aires,Argentina,(1) 135-5333
+55,Rene,Phillips,Anchorage,USA,(907) 555-7584
+56,Henriette,Pfalzheim,Köln,Germany,0221-0644327
+57,Marie,Bertrand,Paris,France,(1) 42.34.22.66
+58,Guillermo,Fernández,México D.F.,Mexico,(5) 552-3745
+59,Georg,Pipps,Salzburg,Austria,6562-9722
+60,Isabel,de Castro,Lisboa,Portugal,(1) 356-5634
+61,Bernardo,Batista,Rio de Janeiro,Brazil,(21) 555-4252
+62,Lúcia,Carvalho,Sao Paulo,Brazil,(11) 555-1189
+63,Horst,Kloss,Cunewalde,Germany,0372-035188
+64,Sergio,Gutiérrez,Buenos Aires,Argentina,(1) 123-5555
+65,Paula,Wilson,Albuquerque,USA,(505) 555-5939
+66,Maurizio,Moroni,Reggio Emilia,Italy,0522-556721
+67,Janete,Limeira,Rio de Janeiro,Brazil,(21) 555-3412
+68,Michael,Holz,Genève,Switzerland,0897-034214
+69,Alejandra,Camino,Madrid,Spain,(91) 745 6200
+70,Jonas,Bergulfsen,Stavern,Norway,07-98 92 35
+71,Jose,Pavarotti,Boise,USA,(208) 555-8097
+72,Hari,Kumar,London,UK,(171) 555-1717
+73,Jytte,Petersen,Kobenhavn,Denmark,31 12 34 56
+74,Dominique,Perrier,Paris,France,(1) 47.55.60.10
+75,Art,Braunschweiger,Lander,USA,(307) 555-4680
+76,Pascale,Cartrain,Charleroi,Belgium,(071) 23 67 22 20
+77,Liz,Nixon,Portland,USA,(503) 555-3612
+78,Liu,Wong,Butte,USA,(406) 555-5834
+79,Karin,Josephs,Münster,Germany,0251-031259
+80,Miguel,Angel Paolino,México D.F.,Mexico,(5) 555-2933
+81,Anabela,Domingues,Sao Paulo,Brazil,(11) 555-2167
+82,Helvetius,Nagy,Kirkland,USA,(206) 555-8257
+83,Palle,Ibsen,Århus,Denmark,86 21 32 43
+84,Mary,Saveley,Lyon,France,78.32.54.86
+85,Paul,Henriot,Reims,France,26.47.15.10
+86,Rita,Müller,Stuttgart,Germany,0711-020361
+87,Pirkko,Koskitalo,Oulu,Finland,981-443655
+88,Paula,Parente,Resende,Brazil,(14) 555-8122
+89,Karl,Jablonski,Seattle,USA,(206) 555-4112
+90,Matti,Karttunen,Helsinki,Finland,90-224 8858
+91,Zbyszek,Piestrzeniewicz,Warszawa,Poland,(26) 642-7012

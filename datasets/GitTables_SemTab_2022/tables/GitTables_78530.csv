@@ -1,0 +1,15 @@
+col0,col1,col2,col3,col4,col5,col6
+1,1,currentRank,Student's current rank id,getCurrentRank,callback,1
+2,1,numberStripesEarnedAtCurrentBelt,Number of stripes of any kind earned at current belt,numberStripesEarnedAtCurrentBelt,integer,1
+3,1,numberKbStripesEarnedAtCurrentBelt,Number of kb stripes earned at current belt,getNumberKbStripesEarnedAtCurrentBelt,integer,1
+4,1,numberGrStripesEarnedAtCurrentBelt,Number of grappling stripes earned at current belt,getNumberGrStripesEarnedAtCurrentBelt,integer,1
+5,1,lastPromotionDate,Date of last promotion,getLastPromotionDate,datetime,1
+6,1,lastKbPromotionDate,Date of last kickboxing promotion,getLastKbPromotionDate,datetime,1
+7,1,lastGrPromotionDate,Date of last grappling promotion,getLastGrPromotionDate,datetime,1
+8,1,creditsEarnedSinceLastPromotion,Number of credits earned since last promotion,getCreditsEarnedSinceLastPromotion,integer,1
+9,1,kbCreditsEarnedSinceLastKbPromotion,Number of kickboxing credits earned since last kickboxing promotion,getKbCreditsEarnedSinceLastKbPromotion,integer,1
+10,1,grCreditsEarnedSinceLastGrPromotion,Number of grappling credits earned since last grappling promotion,getGrCreditsEarnedSinceLastGrPromotion,integer,1
+11,1,programId,Program ID,getProgramId,callback,2
+12,1,student.nextAvailableTFMSlot,Next available training family member slot,getNextAvailableTFMSlot,integer,2
+13,1,student.numContracts,Num student contracts,getStudentNumContracts,integer,2
+14,1,membershipTypeId,program membership type id,getMembershipTypeId,callback,2

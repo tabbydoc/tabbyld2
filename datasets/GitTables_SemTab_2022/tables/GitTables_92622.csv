@@ -1,0 +1,42 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+Lorry16t,-,6424.8,,Lorry,,,Utilitycars
+[G330],"steel, low-alloyed, hot rolled_market for steel, low-alloyed, hot rolled[GLO]",11.4,kilogram,Lorry,Ferrousmetal,0.00177437,Utilitycars
+[G621],"electronics, for control units_market for electronics, for control units[GLO]",30.0,kilogram,Lorry,,,Utilitycars
+[G1028],"alkyd paint, white, without solvent, in 60% solution state_market for alkyd paint, white, without solvent, in 60% solution state[GLO]",40.0,kilogram,Lorry,Paint,0.00622587,Utilitycars
+[G3058],"aluminium, cast alloy_market for aluminium, cast alloy[GLO]",68.8,kilogram,Lorry,Aluminium,0.0107085,Utilitycars
+[G3339],pig iron_market for pig iron[GLO],1630.0,kilogram,Lorry,Ferrous metal,0.253704,Utilitycars
+[G3787],lead_market for lead[GLO],73.6,kilogram,Lorry,Lead,0.0114556,Utilitycars
+[G3952],"polyethylene, high density, granulate_market for polyethylene, high density, granulate[GLO]",230.0,kilogram,Lorry,Polyethylene,0.0357988,Utilitycars
+[G4640],brass_market for brass[CH],20.0,kilogram,Lorry,Brass,0.00311294,Utilitycars
+[G5916],reinforcing steel_market for reinforcing steel[GLO],2260.0,kilogram,Lorry,Ferrous metal,0.351762,Utilitycars
+[G5949],copper_market for copper[GLO],30.0,kilogram,Lorry,Copper,0.00466941,Utilitycars
+[G8652],cast iron_market for cast iron[GLO],1450.0,kilogram,Lorry,Ferrous metal,0.225688,Utilitycars
+[G9173],"aluminium, wrought alloy_market for aluminium, wrought alloy[GLO]",146.0,kilogram,Lorry,Aluminium,0.0227244,Utilitycars
+[G10528],"stone wool, packed_market for stone wool, packed[GLO]",10.0,kilogram,Lorry,Stone wool,0.00155647,Utilitycars
+[G11853],synthetic rubber_market for synthetic rubber[GLO],375.0,kilogram,Lorry,Rubber,0.0583676,Utilitycars
+[G12999],"steel, chromium steel 18/8, hot rolled_market for steel, chromium steel 18/8, hot rolled[GLO]",5.0,kilogram,Lorry,Chromium steel,0.000778234,Utilitycars
+[G14716],"flat glass, uncoated_market for flat glass, uncoated[GLO]",45.0,kilogram,Lorry,Glass,0.00700411,Utilitycars
+-,Aluminium,0.00571165911,kilogram,Electronics,Aluminium,2.66701e-05,Utilitycars
+-,Barite,0.004640057609,kilogram,Electronics,Barite,2.16663e-05,Utilitycars
+-,Brass,0.001150474844,kilogram,Electronics,Brass,5.37203e-06,Utilitycars
+-,Chromium,6.919098143e-06,kilogram,Electronics,Chromium,3.23081e-08,Utilitycars
+-,Composites,0.01454668435,kilogram,Electronics,Composites,6.79244e-05,Utilitycars
+-,Copper,0.03275191158,kilogram,Electronics,Copper,0.000152932,Utilitycars
+-,Glass,0.0004167149725,kilogram,Electronics,Glass,1.94581e-06,Utilitycars
+-,Gold,0.000545229443,kilogram,Electronics,Gold,2.5459e-06,Utilitycars
+-,Iron,0.0003302690618,kilogram,Electronics,Iron,1.54216e-06,Utilitycars
+-,Lead,0.001864211931,kilogram,Electronics,Lead,8.70476e-06,Utilitycars
+-,Molybdenum,0.0001799204244,kilogram,Electronics,Molybdenum,8.40122e-07,Utilitycars
+-,Nickel,0.001478797866,kilogram,Electronics,Nickel,6.90511e-06,Utilitycars
+-,Nylon,0.004090981432,kilogram,Electronics,Nylon,1.91025e-05,Utilitycars
+-,Palladium,1.852335219e-05,kilogram,Electronics,Palladium,8.64931e-08,Utilitycars
+-,Polyethylene,0.345094,kilogram,Electronics,Polyethylene,0.00161138,Utilitycars
+-,Polyvinylchloride,0.02912535,kilogram,Electronics,Polyvinylchloride,0.000135998,Utilitycars
+-,Selenium,0.00496,kilogram,Electronics,Selenium,2.31603e-05,Utilitycars
+-,Silica,0.02291493916,kilogram,Electronics,Silica,0.000106999,Utilitycars
+-,Silicon,2.100062507e-05,kilogram,Electronics,Silicon,9.80604e-08,Utilitycars
+-,Silver,0.0006507853014,kilogram,Electronics,Silver,3.03878e-06,Utilitycars
+-,Steel,0.92,kilogram,Electronics,Steel,0.00429585,Utilitycars
+-,Tin,0.003358535436,kilogram,Electronics,Tin,1.56824e-05,Utilitycars
+-,Titanium,0.002391008194,kilogram,Electronics,Titanium,1.11646e-05,Utilitycars
+-,Zinc,0.0003469177719,kilogram,Electronics,Zinc,1.6199e-06,Utilitycars

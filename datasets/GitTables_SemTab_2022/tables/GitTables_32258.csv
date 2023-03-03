@@ -1,0 +1,157 @@
+col0,col1,col2,col3,col4
+0,Alabama,1,population,4863300.0
+1,Alaska,2,population,741894.0
+2,Arizona,4,population,6931071.0
+3,Arkansas,5,population,2988248.0
+4,California,6,population,39250017.0
+5,Colorado,8,population,5540545.0
+6,Connecticut,9,population,3576452.0
+7,Delaware,10,population,952065.0
+8,District of Columbia,11,population,681170.0
+9,Florida,12,population,20612439.0
+10,Georgia,13,population,10310371.0
+11,Hawaii,15,population,1428557.0
+12,Idaho,16,population,1683140.0
+13,Illinois,17,population,12801539.0
+14,Indiana,18,population,6633053.0
+15,Iowa,19,population,3134693.0
+16,Kansas,20,population,2907289.0
+17,Kentucky,21,population,4436974.0
+18,Louisiana,22,population,4681666.0
+19,Maine,23,population,1331479.0
+20,Maryland,24,population,6016447.0
+21,Massachusetts,25,population,6811779.0
+22,Michigan,26,population,9928300.0
+23,Minnesota,27,population,5519952.0
+24,Mississippi,28,population,2988726.0
+25,Missouri,29,population,6093000.0
+26,Montana,30,population,1042520.0
+27,Nebraska,31,population,1907116.0
+28,Nevada,32,population,2940058.0
+29,New Hampshire,33,population,1334795.0
+30,New Jersey,34,population,8944469.0
+31,New Mexico,35,population,2081015.0
+32,New York,36,population,19745289.0
+33,North Carolina,37,population,10146788.0
+34,North Dakota,38,population,757952.0
+35,Ohio,39,population,11614373.0
+36,Oklahoma,40,population,3923561.0
+37,Oregon,41,population,4093465.0
+38,Pennsylvania,42,population,12784227.0
+39,Rhode Island,44,population,1056426.0
+40,South Carolina,45,population,4961119.0
+41,South Dakota,46,population,865454.0
+42,Tennessee,47,population,6651194.0
+43,Texas,48,population,27862596.0
+44,Utah,49,population,3051217.0
+45,Vermont,50,population,624594.0
+46,Virginia,51,population,8411808.0
+47,Washington,53,population,7288000.0
+48,West Virginia,54,population,1831102.0
+49,Wisconsin,55,population,5778708.0
+50,Wyoming,56,population,585501.0
+51,Puerto Rico,72,population,3411307.0
+52,Alabama,1,engineers,0.0034215450414327
+53,Alaska,2,engineers,0.0015905237136302
+54,Arizona,4,engineers,0.0047741539510993
+55,Arkansas,5,engineers,0.0024395565562162
+56,California,6,engineers,0.0071258567862531
+57,Colorado,8,engineers,0.0080876520270117
+58,Connecticut,9,engineers,0.0058969056483911
+59,Delaware,10,engineers,0.0049891551522217
+60,District of Columbia,11,engineers,0.0117591790595592
+61,Florida,12,engineers,0.0032999491229543
+62,Georgia,13,engineers,0.0049396864574514
+63,Hawaii,15,engineers,0.0016240164025656
+64,Idaho,16,engineers,0.0029706382119134
+65,Illinois,17,engineers,0.0044783677962469
+66,Indiana,18,engineers,0.0027242357327764
+67,Iowa,19,engineers,0.0037164723945853
+68,Kansas,20,engineers,0.003811110625741
+69,Kentucky,21,engineers,0.0020892617355882
+70,Louisiana,22,engineers,0.0011769314598692
+71,Maine,23,engineers,0.0022906857712363
+72,Maryland,24,engineers,0.0062910884114827
+73,Massachusetts,25,engineers,0.010230807546751
+74,Michigan,26,engineers,0.0038767966318503
+75,Minnesota,27,engineers,0.0061938944396617
+76,Mississippi,28,engineers,0.0009335081235282
+77,Missouri,29,engineers,0.0044132611193172
+78,Montana,30,engineers,0.0021390476921306
+79,Nebraska,31,engineers,0.0056210529406706
+80,Nevada,32,engineers,0.0020373747728786
+81,New Hampshire,33,engineers,0.0063305601234646
+82,New Jersey,34,engineers,0.0077243266201716
+83,New Mexico,35,engineers,0.0018836961771058
+84,New York,36,engineers,0.0049414318524281
+85,North Carolina,37,engineers,0.0042269533964836
+86,North Dakota,38,engineers,0.0034039094823946
+87,Ohio,39,engineers,0.0040957871768023
+88,Oklahoma,40,engineers,0.0022861884905064
+89,Oregon,41,engineers,0.0054574791771763
+90,Pennsylvania,42,engineers,0.0042372526708106
+91,Rhode Island,44,engineers,0.0045814851205858
+92,South Carolina,45,engineers,0.0020842072121229
+93,South Dakota,46,engineers,0.0030850859779953
+94,Tennessee,47,engineers,0.002375513328885
+95,Texas,48,engineers,0.0043201286771699
+96,Utah,49,engineers,0.0064400532639926
+97,Vermont,50,engineers,0.0046430161032606
+98,Virginia,51,engineers,0.0085950606575899
+99,Washington,53,engineers,0.0107107574094401
+100,West Virginia,54,engineers,0.0012833801721586
+101,Wisconsin,55,engineers,0.0048211468722766
+102,Wyoming,56,engineers,0.001007684017619
+103,Puerto Rico,72,engineers,0.0007738969257237
+104,Alabama,1,hurricanes,22.0
+105,Alaska,2,hurricanes,0.0
+106,Arizona,4,hurricanes,0.0
+107,Arkansas,5,hurricanes,0.0
+108,California,6,hurricanes,0.0
+109,Colorado,8,hurricanes,0.0
+110,Connecticut,9,hurricanes,10.0
+111,Delaware,10,hurricanes,2.0
+112,District of Columbia,11,hurricanes,0.0
+113,Florida,12,hurricanes,110.0
+114,Georgia,13,hurricanes,20.0
+115,Hawaii,15,hurricanes,0.0
+116,Idaho,16,hurricanes,0.0
+117,Illinois,17,hurricanes,0.0
+118,Indiana,18,hurricanes,0.0
+119,Iowa,19,hurricanes,0.0
+120,Kansas,20,hurricanes,0.0
+121,Kentucky,21,hurricanes,0.0
+122,Louisiana,22,hurricanes,49.0
+123,Maine,23,hurricanes,6.0
+124,Maryland,24,hurricanes,2.0
+125,Massachusetts,25,hurricanes,10.0
+126,Michigan,26,hurricanes,0.0
+127,Minnesota,27,hurricanes,0.0
+128,Mississippi,28,hurricanes,15.0
+129,Missouri,29,hurricanes,0.0
+130,Montana,30,hurricanes,0.0
+131,Nebraska,31,hurricanes,0.0
+132,Nevada,32,hurricanes,0.0
+133,New Hampshire,33,hurricanes,2.0
+134,New Jersey,34,hurricanes,2.0
+135,New Mexico,35,hurricanes,0.0
+136,New York,36,hurricanes,12.0
+137,North Carolina,37,hurricanes,46.0
+138,North Dakota,38,hurricanes,0.0
+139,Ohio,39,hurricanes,0.0
+140,Oklahoma,40,hurricanes,0.0
+141,Oregon,41,hurricanes,0.0
+142,Pennsylvania,42,hurricanes,1.0
+143,Rhode Island,44,hurricanes,9.0
+144,South Carolina,45,hurricanes,31.0
+145,South Dakota,46,hurricanes,0.0
+146,Tennessee,47,hurricanes,0.0
+147,Texas,48,hurricanes,59.0
+148,Utah,49,hurricanes,0.0
+149,Vermont,50,hurricanes,0.0
+150,Virginia,51,hurricanes,12.0
+151,Washington,53,hurricanes,0.0
+152,West Virginia,54,hurricanes,0.0
+153,Wisconsin,55,hurricanes,0.0
+154,Wyoming,56,hurricanes,0.0
+155,Puerto Rico,72,hurricanes,0.0

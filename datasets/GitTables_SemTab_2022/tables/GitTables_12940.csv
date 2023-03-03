@@ -1,0 +1,46 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+x...study_year,score_seasonal_allyears_suds_aug16_2019,keep,,Study year,"Baseline (2015)
+Y1 (2016) 
+Y2 (2017)
+Y3 (2018)
+Y4 (2019)",,,
+study_arm,score_seasonal_allyears_suds_aug16_2019,keep,,"Study arm : 1, 2, 3, 4","1=Annual mass drug administration (MDA) with praziquantel and albendazole before the peak transmission season of schistosomiasis (November/December)
+2=Annual MDA with praziquantel and albendazole after the peak transmission season of schistosomiasis (March/April)
+3= Two yearly treatments before and after peak transmission of schistosomiasis (November/December and March/April)
+4=Annual MDA with praziquantel and albendazole before peak transmission of schistosomiasis (November/December), coupled with chemical snail control using niclosamide",,,
+village_name,score_seasonal_allyears_suds_aug16_2019,drop,,Village name,,,,
+village_id,score_seasonal_allyears_suds_aug16_2019,keep,,Village ID,"COTS= Cote d'Ivoire Seasonal, followed by a 2 digit code ",,,
+id,score_seasonal_allyears_suds_aug16_2019,drop,,Participant ID,,,,
+age,score_seasonal_allyears_suds_aug16_2019,keep,,Age (years),,,,
+x_sect,score_seasonal_allyears_suds_aug16_2019,keep,,Age category,"0_4= birth to 4 years, 
+5_8= 5 to 8 years,  
+9_12= 9 to 12 years, 
+Teenage= 13 to 17 years, 
+Adult=18+ years",,,
+sex,score_seasonal_allyears_suds_aug16_2019,keep,,Sex,"M= male, F= female",,,
+sh_eggs,score_seasonal_allyears_suds_aug16_2019,drop,,"S. haematobium urine filtration, number of eggs",,,,
+urine_vol,score_seasonal_allyears_suds_aug16_2019,drop,,Urine volume (ml),,,,
+sh_eggs_per10ml,score_seasonal_allyears_suds_aug16_2019,keep,,"S. haematobium urine filtration, number of eggs per 10 ml urine",,,,
+sh_binary,score_seasonal_allyears_suds_aug16_2019,keep,,"Schistosoma haematobium, presence or absence","0= absent, 1= present",,,
+sm1a,score_seasonal_allyears_suds_aug16_2019,drop,,"S. mansoni, first slide, number of eggs",,,,
+sm1b,score_seasonal_allyears_suds_aug16_2019,drop,,"S. mansoni, second slide, number of eggs",,,,
+sm_binary,score_seasonal_allyears_suds_aug16_2019,keep,,"Schistosoma mansoni, presence or absence","0= absent, 1= present",,,
+hw1a,score_seasonal_allyears_suds_aug16_2019,drop,,"Hookworm first slide, number of eggs",,,,
+hw1b,score_seasonal_allyears_suds_aug16_2019,drop,,"Hookworm second slide, number of eggs",,,,
+hook_binary,score_seasonal_allyears_suds_aug16_2019,keep,,"Hookworm, presence or absence","0= absent, 1= present",,,
+asc1a,score_seasonal_allyears_suds_aug16_2019,drop,,"Ascaris first slide, number of eggs",,,,
+asc1b,score_seasonal_allyears_suds_aug16_2019,drop,,"Ascaris second slide, number of eggs",,,,
+asc_binary,score_seasonal_allyears_suds_aug16_2019,keep,,"Ascaris, presence or absence","0= absent, 1= present",,,
+trich1a,score_seasonal_allyears_suds_aug16_2019,drop,,"Trichuris first slide, number of eggs",,,,
+trich1b,score_seasonal_allyears_suds_aug16_2019,drop,,"Trichuris second slide, number of eggs",,,,
+trich_binary,score_seasonal_allyears_suds_aug16_2019,keep,,"Trichuris, presence or absence","0= absent, 1= present",,,
+long,score_seasonal_allyears_suds_aug16_2019,keep,,Latitude ,,,,
+lat,score_seasonal_allyears_suds_aug16_2019,keep,,Longitude,,,,
+lstd,score_seasonal_allyears_suds_aug16_2019,drop,,Land surface temperature at day,,,,
+lstn,score_seasonal_allyears_suds_aug16_2019,drop,,Land surface temperature at night,,,,
+ndvi,score_seasonal_allyears_suds_aug16_2019,drop,,Normalized Difference Vegetation Index,,,,
+evi,score_seasonal_allyears_suds_aug16_2019,drop,,Enhanced vegetation index,,,,
+rainfall,score_seasonal_allyears_suds_aug16_2019,drop,,Rainfall,,,,
+altitude,score_seasonal_allyears_suds_aug16_2019,drop,,Altitude,,,,
+srtm90_alt,score_seasonal_allyears_suds_aug16_2019,drop,,Shuttle Radar Topographic Mission 90 m resolution,,,,
+strata,score_seasonal_allyears_suds_aug16_2019,drop,,Stratum,,,,

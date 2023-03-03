@@ -1,0 +1,58 @@
+col0,col1,col2,col3
+1,Can add dosen,1,add_dosen
+2,Can change dosen,1,change_dosen
+3,Can delete dosen,1,delete_dosen
+4,Can add dosen gelar,2,add_dosengelar
+5,Can change dosen gelar,2,change_dosengelar
+6,Can delete dosen gelar,2,delete_dosengelar
+7,Can add dosen matakuliah,3,add_dosenmatakuliah
+8,Can change dosen matakuliah,3,change_dosenmatakuliah
+9,Can delete dosen matakuliah,3,delete_dosenmatakuliah
+10,Can add dosen skor,4,add_dosenskor
+11,Can change dosen skor,4,change_dosenskor
+12,Can delete dosen skor,4,delete_dosenskor
+13,Can add gelar,5,add_gelar
+14,Can change gelar,5,change_gelar
+15,Can delete gelar,5,delete_gelar
+16,Can add jabatan fungsional,6,add_jabatanfungsional
+17,Can change jabatan fungsional,6,change_jabatanfungsional
+18,Can delete jabatan fungsional,6,delete_jabatanfungsional
+19,Can add keahlian,7,add_keahlian
+20,Can change keahlian,7,change_keahlian
+21,Can delete keahlian,7,delete_keahlian
+22,Can add mata kuliah,8,add_matakuliah
+23,Can change mata kuliah,8,change_matakuliah
+24,Can delete mata kuliah,8,delete_matakuliah
+25,Can add penelitian,9,add_penelitian
+26,Can change penelitian,9,change_penelitian
+27,Can delete penelitian,9,delete_penelitian
+28,Can add perguruan tinggi,10,add_perguruantinggi
+29,Can change perguruan tinggi,10,change_perguruantinggi
+30,Can delete perguruan tinggi,10,delete_perguruantinggi
+31,Can add program studi,11,add_programstudi
+32,Can change program studi,11,change_programstudi
+33,Can delete program studi,11,delete_programstudi
+34,Can add jenjang,12,add_jenjang
+35,Can change jenjang,12,change_jenjang
+36,Can delete jenjang,12,delete_jenjang
+37,Can add log entry,13,add_logentry
+38,Can change log entry,13,change_logentry
+39,Can delete log entry,13,delete_logentry
+40,Can add permission,14,add_permission
+41,Can change permission,14,change_permission
+42,Can delete permission,14,delete_permission
+43,Can add group,15,add_group
+44,Can change group,15,change_group
+45,Can delete group,15,delete_group
+46,Can add user,16,add_user
+47,Can change user,16,change_user
+48,Can delete user,16,delete_user
+49,Can add content type,17,add_contenttype
+50,Can change content type,17,change_contenttype
+51,Can delete content type,17,delete_contenttype
+52,Can add session,18,add_session
+53,Can change session,18,change_session
+54,Can delete session,18,delete_session
+55,Can add program studi keahlian,19,add_programstudikeahlian
+56,Can change program studi keahlian,19,change_programstudikeahlian
+57,Can delete program studi keahlian,19,delete_programstudikeahlian

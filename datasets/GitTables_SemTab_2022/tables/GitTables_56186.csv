@@ -1,0 +1,21 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+1,Gadus morhua,Georges Bank East,CODGBE,GB Cod East,COD GB East,CODGBE,Atlantic Cod,,COD,COD ATLANTIC,COD,GB.Cod.East
+2,Gadus morhua,Georges Bank West,CODGBW,GB Cod West,COD GB West,CODGBW,Atlantic Cod,,COD,COD ATLANTIC,COD,GB.Cod.West
+3,Gadus morhua,Gulf of Maine,CODGMSS,GOM Cod,COD GOM,CODGOM,Atlantic Cod,,COD,COD ATLANTIC,COD,GOM.Cod
+4,Gadus morhua,Georges Bank,,GB Cod ,,CODGB,Atlantic Cod,,COD,COD ATLANTIC,COD,GB.Cod
+5,Glyptocephalus cynoglossus,All,WITGMMA,Witch Flounder,Witch flounder - grey sole,WITCH,Witch Flounder,Gray Sole,FLGS,FLOUNDER WITCH (GREY SOLE),FLOUNDERWITCH,Witch.Flounder
+6,Hippoglossoides platessoides,All,PLAGMMA,Plaice,Dabs - Plaice,PLAICE,American Plaice,Dabs,FLDAB,FLOUNDER AMERICAN PLAICE,FLOUNDERAM. PLAICE,Plaice
+7,Limanda ferruginea,Cape Cod / Gulf of Maine,YELCCGM,CC/GOM Yellowtail Flounder,Yellowtail CC/GOM,YTGOM,Yellowtail Flounder,,FLYT,FLOUNDER YELLOWTAIL,FLOUNDERYELLOWTAIL,CC.GOM.Yellowtail.Flounder
+8,Limanda ferruginea,Georges Bank,YELGB,GB Yellowtail Flounder,Yellowtail GB,YTGB,Yellowtail Flounder,,FLYT,FLOUNDER YELLOWTAIL,FLOUNDERYELLOWTAIL,GB.Yellowtail.Flounder
+9,Limanda ferruginea,Southern New England / Mid Atlantic,YELSNE,SNE/MA Yellowtail Flounder,Yellowtail SNE/MA,YTSNE,Yellowtail Flounder,,FLYT,FLOUNDER YELLOWTAIL,FLOUNDERYELLOWTAIL,SNE.MA.Yellowtail.Flounder
+10,Melanogrammus aeglefinus,Georges Bank East,HADGBE,GB Haddock East,Haddock GB East,HADGBE,Haddock,,HADD,HADDOCK,HADDOCK,GB.Haddock.East
+11,Melanogrammus aeglefinus,Georges Bank West,HADGBW,GB Haddock West,Haddock GB West,HADGBW,Haddock,,HADD,HADDOCK,HADDOCK,GB.Haddock.West
+12,Melanogrammus aeglefinus,Gulf of Maine,HADGM,GOM Haddock,Haddock GOM,HADGOM,Haddock,,HADD,HADDOCK,HADDOCK,GOM.Haddock
+13,Melanogrammus aeglefinus,Georges Bank,,GB Haddock,,HADGB,Haddock,,HADD,HADDOCK,HADDOCK,GB.Haddock
+14,Pollachius pollachius,All,POKGMASS,Pollock,Pollock,POLLOCK,Pollock,,POLL,POLLOCK,POLLOCK,Pollock
+15,Pseudopleuronectes americanus,Georges Bank,FLWGB,GB Winter Flounder,GB winter flounder,WINGB,Winter Flounder,Blackback,FLBB,FLOUNDER WINTER (BLACKBACK),FLOUNDERWINTER,GB.Winter.Flounder
+16,Pseudopleuronectes americanus,Gulf of Maine,FLWGMSS,GOM Winter Flounder,GOM winter,WINGOM,Winter Flounder,Blackback,FLBB,FLOUNDER WINTER (BLACKBACK),FLOUNDERWINTER,GOM.Winter.Flounder
+17,Pseudopleuronectes americanus,Southern New England,FLWSNEMA,SNE/MA Winter Flounder,SNE/MA winter,WINSNE,Winter Flounder,Blackback,FLBB,FLOUNDER WINTER (BLACKBACK),FLOUNDERWINTER,SNE.Winter.Flounder
+18,Sebastes fasciatus,All,REDGMGBSS,Redfish,Redfish,RED,Redfish,Ocean Perch,RED,REDFISH NK (OCEAN PERCH),REDFISH,Redfish
+19,Urophycis tenuis,All,HKWGMMA,White Hake,Hake,HAKE,White Hake,,WHAK,HAKE WHITE,HAKEWHITE,White.Hake
+20,Days at Sea,All,,,Days at Sea,DAS,Days at Sea,,,,,

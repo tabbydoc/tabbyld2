@@ -1,0 +1,87 @@
+col0,col1,col2
+State abbreviation (HD2019),AL,Alabama
+State abbreviation (HD2019),AK,Alaska
+State abbreviation (HD2019),AZ,Arizona
+State abbreviation (HD2019),AR,Arkansas
+State abbreviation (HD2019),CA,California
+State abbreviation (HD2019),CO,Colorado
+State abbreviation (HD2019),CT,Connecticut
+State abbreviation (HD2019),DE,Delaware
+State abbreviation (HD2019),DC,District of Columbia
+State abbreviation (HD2019),FL,Florida
+State abbreviation (HD2019),GA,Georgia
+State abbreviation (HD2019),HI,Hawaii
+State abbreviation (HD2019),ID,Idaho
+State abbreviation (HD2019),IL,Illinois
+State abbreviation (HD2019),IN,Indiana
+State abbreviation (HD2019),IA,Iowa
+State abbreviation (HD2019),KS,Kansas
+State abbreviation (HD2019),KY,Kentucky
+State abbreviation (HD2019),LA,Louisiana
+State abbreviation (HD2019),ME,Maine
+State abbreviation (HD2019),MD,Maryland
+State abbreviation (HD2019),MA,Massachusetts
+State abbreviation (HD2019),MI,Michigan
+State abbreviation (HD2019),MN,Minnesota
+State abbreviation (HD2019),MS,Mississippi
+State abbreviation (HD2019),MO,Missouri
+State abbreviation (HD2019),MT,Montana
+State abbreviation (HD2019),NE,Nebraska
+State abbreviation (HD2019),NV,Nevada
+State abbreviation (HD2019),NH,New Hampshire
+State abbreviation (HD2019),NJ,New Jersey
+State abbreviation (HD2019),NM,New Mexico
+State abbreviation (HD2019),NY,New York
+State abbreviation (HD2019),NC,North Carolina
+State abbreviation (HD2019),ND,North Dakota
+State abbreviation (HD2019),OH,Ohio
+State abbreviation (HD2019),OK,Oklahoma
+State abbreviation (HD2019),OR,Oregon
+State abbreviation (HD2019),PA,Pennsylvania
+State abbreviation (HD2019),RI,Rhode Island
+State abbreviation (HD2019),SC,South Carolina
+State abbreviation (HD2019),SD,South Dakota
+State abbreviation (HD2019),TN,Tennessee
+State abbreviation (HD2019),TX,Texas
+State abbreviation (HD2019),UT,Utah
+State abbreviation (HD2019),VT,Vermont
+State abbreviation (HD2019),VA,Virginia
+State abbreviation (HD2019),WA,Washington
+State abbreviation (HD2019),WV,West Virginia
+State abbreviation (HD2019),WI,Wisconsin
+State abbreviation (HD2019),WY,Wyoming
+State abbreviation (HD2019),AS,American Samoa
+State abbreviation (HD2019),FM,Federated States of Micronesia
+State abbreviation (HD2019),GU,Guam
+State abbreviation (HD2019),MH,Marshall Islands
+State abbreviation (HD2019),MP,Northern Marianas
+State abbreviation (HD2019),PW,Palau
+State abbreviation (HD2019),PR,Puerto Rico
+State abbreviation (HD2019),VI,Virgin Islands
+Sector of institution (HD2019),0,Administrative Unit
+Sector of institution (HD2019),1,"Public, 4-year or above"
+Sector of institution (HD2019),2,"Private not-for-profit, 4-year or above"
+Sector of institution (HD2019),3,"Private for-profit, 4-year or above"
+Sector of institution (HD2019),4,"Public, 2-year"
+Sector of institution (HD2019),5,"Private not-for-profit, 2-year"
+Sector of institution (HD2019),6,"Private for-profit, 2-year"
+Sector of institution (HD2019),7,"Public, less-than 2-year"
+Sector of institution (HD2019),8,"Private not-for-profit, less-than 2-year"
+Sector of institution (HD2019),9,"Private for-profit, less-than 2-year"
+Degree-granting status (HD2019),1,Degree-granting
+Degree-granting status (HD2019),2,"Nondegree-granting, primarily postsecondary"
+Institution is active in current year (HD2019),1,Yes
+Institution is active in current year (HD2019),3,"No, closed, combined, or out-of-scope"
+Occupational (IC2019),1,Yes
+Occupational (IC2019),0,Implied no
+Academic (IC2019),1,Yes
+Academic (IC2019),0,Implied no
+Continuing professional (IC2019),1,Yes
+Continuing professional (IC2019),0,Implied no
+Continuing professional (IC2019),-2,Not applicable
+Recreational or avocational (IC2019),1,Yes
+Recreational or avocational (IC2019),0,Implied no
+Adult basic remedial or high school equivalent (IC2019),1,Yes
+Adult basic remedial or high school equivalent (IC2019),0,Implied no
+Secondary (high school) (IC2019),1,Yes
+Secondary (high school) (IC2019),0,Implied no

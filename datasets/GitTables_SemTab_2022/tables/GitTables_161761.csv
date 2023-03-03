@@ -1,0 +1,138 @@
+col0,col1,col2,col3,col4
+CA,Canada,on,lac,developed
+US,United States,on,lac,developed
+AR,Argentina,on,lac,developing
+BO,Bolivia,off,lac,developing
+BR,Brazil,on,lac,developing
+CL,Chile,on,lac,developing
+CO,Colombia,on,lac,developing
+CR,Costa Rica,on,lac,developing
+DO,Dominican Republic,off,lac,developing
+EC,Ecuador,on,lac,developing
+SV,El Salvador,off,lac,developing
+GT,Guatemala,off,lac,developing
+HT,Haiti,off,lac,developing
+HN,Honduras,off,lac,developing
+JM,Jamaica,off,lac,developing
+MX,Mexico,on,lac,developing
+NI,Nicaragua,off,lac,developing
+PA,Panama,off,lac,developing
+PY,Paraguay,on,lac,developing
+PE,Peru,off,lac,developing
+UY,Uruguay,on,lac,developing
+AF,Afghanistan,off,asia,developing
+AM,Armenia,on,asia,developing
+AU,Australia,on,asia,developed
+AZ,Azerbaijan,on,asia,developing
+BD,Bangladesh,off,asia,developing
+KH,Cambodia,off,asia,developing
+CN,Mainland China,on,asia,developing
+GE,Georgia,on,asia,developing
+IN,India,off,asia,developing
+ID,Indonesia,off,asia,developing
+JP,Japan,on,asia,developed
+KZ,Kazakhstan,on,asia,developing
+KR,Korea (Republic),on,asia,developed
+KG,Kyrgyzstan,on,asia,developing
+LA,Laos,off,asia,developing
+MY,Malaysia,on,asia,developing
+MN,Mongolia,off,asia,developing
+MM,Myanmar,off,asia,developing
+NP,Nepal,off,asia,developing
+NZ,New Zealand,on,asia,developed
+PK,Pakistan,off,asia,developing
+PH,Philippines,off,asia,developing
+SG,Singapore,on,asia,developing
+LK,Sri Lanka,off,asia,developing
+TW,Taiwan,on,asia,developing
+TJ,Tajikistan,off,asia,developing
+TH,Thailand,on,asia,developing
+TM,Turkmenistan,on,asia,developing
+UZ,Uzbekistan,on,asia,developing
+VN,Vietnam,on,asia,developing
+AL,Albania,off,eu,developing
+AT,Austria,on,eu,developed
+BY,Belarus,on,eu,developing
+BE,Belgium,on,eu,developed
+BA,Bosnia and Herzegovina,on,eu,developing
+BG,Bulgaria,on,eu,developing
+HR,Croatia,on,eu,developing
+CZ,Czech Republic,on,eu,developed
+DK,Denmark,on,eu,developed
+FI,Finland,on,eu,developed
+FR,France,on,eu,developed
+DE,Germany,on,eu,developed
+GR,Greece,on,eu,developed
+HU,Hungary,on,eu,developed
+IE,Ireland,on,eu,developed
+IT,Italy,on,eu,developed
+LT,Lithuania,on,eu,developed
+MD,Moldova,on,eu,developing
+NL,Netherlands,on,eu,developed
+MK,North Macedonia,on,eu,developing
+NO,Norway,on,eu,developed
+PL,Poland,on,eu,developed
+PT,Portugal,on,eu,developed
+RO,Romania,on,eu,developing
+RU,Russia,on,eu,developing
+RS,Serbia,on,eu,developing
+SK,Slovakia,on,eu,developed
+SI,Slovenia,on,eu,developed
+ES,Spain,on,eu,developed
+SE,Sweden,on,eu,developed
+CH,Switzerland,on,eu,developed
+TR,Turkey,on,eu,developing
+UA,Ukraine,on,eu,developing
+GB,United Kingdom,on,eu,developed
+DZ,Algeria,on,africa,developing
+AO,Angola,off,africa,developing
+BJ,Benin,off,africa,developing
+BW,Botswana,off,africa,developing
+BF,Burkina Faso,off,africa,developing
+BI,Burundi,off,africa,developing
+CM,Cameroon,off,africa,developing
+CF,Central African Republic,off,africa,developing
+TD,Chad,off,africa,developing
+CG,Congo,off,africa,developing
+CD,Congo (Dem. Rep.),off,africa,developing
+CI,Cote d'Ivoire,off,africa,developing
+EG,Egypt,on,africa,developing
+ER,Eritrea,off,africa,developing
+ET,Ethiopia,off,africa,developing
+GH,Ghana,off,africa,developing
+GN,Guinea,off,africa,developing
+IQ,Iraq,off,africa,developing
+IL,Israel,on,africa,developed
+JO,Jordan,on,africa,developing
+KE,Kenya,off,africa,developing
+KW,Kuwait,on,africa,developing
+LB,Lebanon,on,africa,developing
+LS,Lesotho,off,africa,developing
+LR,Liberia,off,africa,developing
+MG,Madagascar,off,africa,developing
+MW,Malawi,off,africa,developing
+ML,Mali,off,africa,developing
+MR,Mauritania,off,africa,developing
+MA,Morocco,on,africa,developing
+MZ,Mozambique,off,africa,developing
+,Namibia,off,africa,developing
+NE,Niger,off,africa,developing
+NG,Nigeria,off,africa,developing
+OM,Oman,on,africa,developing
+PS,Palestinian Authority,off,africa,developing
+QA,Qatar,on,africa,developing
+RW,Rwanda,off,africa,developing
+SA,Saudi Arabia,on,africa,developing
+SN,Senegal,off,africa,developing
+SL,Sierra Leone,off,africa,developing
+SO,Somalia,off,africa,developing
+ZA,South Africa,off,africa,developing
+DS,South Sudan,off,africa,developing
+SD,Sudan,off,africa,developing
+TZ,Tanzania,off,africa,developing
+TG,Togo,off,africa,developing
+TN,Tunisia,on,africa,developing
+UG,Uganda,off,africa,developing
+AE,United Arab Emirates,on,africa,developing
+ZM,Zambia,off,africa,developing
+ZW,Zimbabwe,off,africa,developing

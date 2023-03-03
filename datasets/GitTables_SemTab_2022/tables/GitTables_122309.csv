@@ -1,0 +1,17 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+N_646829496481145308,549236,SM - Corp,America/Los_Angeles, Sandbox ,systems manager,,
+N_646829496481145309,549236,SM - Branch,America/Los_Angeles, Sandbox ,systems manager,,
+N_646829496481145355,549236,MX65 Depot - 1,America/Los_Angeles, Sandbox ,appliance,False,
+N_646829496481145356,549236,MX65 Depot - 2,America/Los_Angeles, Sandbox ,appliance,False,
+N_646829496481145357,549236,MX65 Depot - 3,America/Los_Angeles, Sandbox ,appliance,False,
+N_646829496481145358,549236,MX65 Depot - 4,Etc/Greenwich, Sandbox ,appliance,False,L_646829496481093191
+N_646829496481145359,549236,MX65 Depot - 5,Etc/Greenwich, Sandbox ,appliance,False,L_646829496481093191
+N_646829496481145360,549236,MX65 Depot - 6,Etc/Greenwich, Sandbox ,appliance,False,L_646829496481093191
+N_646829496481145361,549236,Camera Depot,America/Los_Angeles, Sandbox ,camera,,
+N_646829496481145362,549236,Switch Depot,America/Los_Angeles, Sandbox ,switch,False,
+N_646829496481145363,549236,EU AP Depot,America/Los_Angeles, Sandbox ,wireless,False,
+N_646829496481145366,549236,US AP Depot,America/Los_Angeles, Sandbox ,wireless,False,
+N_646829496481145383,549236,Hotel WiFi - 1,America/Los_Angeles, Sandbox ,wireless,False,
+N_646829496481145541,549236,MX-lab,America/Vancouver, Sandbox ,appliance,False,
+N_646829496481145630,549236,DevNet Demo,America/Los_Angeles, Sandbox ,wireless,False,
+L_646829496481099453,549236,SNOW Dallas 1224,Etc/Greenwich, demo snow ,combined,False,L_646829496481093191

@@ -1,0 +1,38 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19
+1,主导航,,True,/,,TOP,,False,False,True,False,False,False,ROLE_MAIN,,MENU,,,
+2,仪表盘,,False,/dashboard,,PARENT,anticon anticon-dashboard,False,False,False,False,False,False,ROLE_DASHBOARD,,MENU,5147.0,,1.0
+3,分析页,,False,/dashboard/analysis,,BLANK,,False,False,False,False,False,False,ROLE_MAIN_DASHBOARD_ANALYSIS,,MENU,0.0,,2.0
+77,设置,,True,/settings,,,,False,False,True,False,False,False,,,MENU,,,
+87,业务,,True,/business,,,,False,False,True,False,False,False,,,MENU,,,
+97,开发参考,,False,/development,,SELF,anticon anticon-code,False,False,False,False,False,False,,,MENU,,,77.0
+99,API,,False,/admin/docs,,SELF,,False,False,False,False,False,False,,,MENU,,,97.0
+100,流程管理,,False,/business/workflow,,SELF,anticon anticon-box-plot,False,False,False,False,False,False,,,MENU,,,87.0
+101,流程定义,,False,/business/workflow/process-definition,,SELF,,False,False,False,False,False,False,,,MENU,,,100.0
+102,流程实例,,False,/business/workflow/process-instance,,SELF,,False,False,False,False,False,False,,,MENU,,,100.0
+103,流程任务,,False,/business/workflow/flowable-task,,SELF,,False,False,False,False,False,False,,,MENU,,,100.0
+104,流程部署,,False,/business/workflow/deployment,,SELF,,False,False,False,False,False,False,,,MENU,,,100.0
+105,系统设置,,False,/settings/system,,,anticon anticon-setting,False,False,False,False,False,False,,,MENU,,,87.0
+106,用户管理,,False,/business/system/user,,SELF,,False,False,False,False,False,False,,,MENU,,,105.0
+107,文件管理,,False,/business/files,,SELF,anticon anticon-file,False,False,False,False,False,False,,,MENU,,,87.0
+108,上传文件,,False,/business/files/upload-file,,SELF,,False,False,False,False,False,False,,,MENU,,,107.0
+109,上传图片,,False,/business/files/upload-image,,SELF,,False,False,False,False,False,False,,,MENU,,,107.0
+110,配置管理,,False,/business/settings,,SELF,anticon anticon-database,False,False,False,False,False,False,,,MENU,,,87.0
+111,数据字典,,False,/business/settings/data-dictionary,,SELF,,False,False,False,False,False,False,,,MENU,,,110.0
+112,GPS信息,,False,/business/settings/gps-info,,SELF,,False,False,False,False,False,False,,,MENU,,,110.0
+113,行政区划,,False,/business/settings/administrative-division,,SELF,,False,False,False,False,False,False,,,MENU,,,110.0
+114,角色,,False,/business/system/authority,,SELF,,False,False,False,False,False,False,,,MENU,,,105.0
+115,可视权限,,False,/business/system/view-permission,,SELF,,False,False,False,False,False,False,,,MENU,,,105.0
+116,API权限,,False,/business/system/api-permission,,SELF,,False,False,False,False,False,False,,,MENU,,,105.0
+117,modelConfig,,False,/business/modelConfig,,SELF,anticon anticon-project,False,False,False,False,False,False,,,MENU,,,87.0
+118,模型,,False,/business/modelConfig/common-table,,SELF,,False,False,False,False,False,False,,,MENU,,,117.0
+119,客户管理,,False,/business/company,,SELF,anticon anticon-contacts,False,False,False,False,False,False,,,MENU,,,87.0
+120,客户单位,,False,/business/company/company-customer,,SELF,,False,False,False,False,False,False,,,MENU,,,119.0
+121,人员账号,,False,/business/company/company-user,,SELF,,False,False,False,False,False,False,,,MENU,,,119.0
+122,客户业务,,False,/business/company/company-business,,SELF,,False,False,False,False,False,False,,,MENU,,,119.0
+123,业务类型,,False,/business/company/business-type,,SELF,,False,False,False,False,False,False,,,MENU,,,119.0
+124,report,,False,/business/report,,SELF,anticon anticon-project,False,False,False,False,False,False,,,MENU,,,87.0
+125,报表存储,,False,/business/report/u-report-file,,SELF,,False,False,False,False,False,False,,,MENU,,,124.0
+126,流程业务配置,,False,/business/workflow/process-table-config,,SELF,,False,False,False,False,False,False,,,MENU,,,100.0
+127,请假,,False,/business/workflow/leave,,SELF,,False,False,False,False,False,False,,,MENU,,,100.0
+128,commonQuery,,False,/business/commonQuery,,SELF,anticon anticon-project,False,False,False,False,False,False,,,MENU,,,87.0
+129,通用查询,,False,/business/commonQuery/common-query,,SELF,,False,False,False,False,False,False,,,MENU,,,128.0

@@ -1,0 +1,25 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+1,Mi welodd y bachgen ni a'n ffrindiau ar y traeth.,"The boy saw us and our friends on the beach.
+","ni as prn, not vpart",2009-03-30,the boy saw not  and our friends on the beach.,the boy saw we and our friends on the beach.,the boy saw us and our friends on the beach.,the boy saw we and our friends on the beach.
+2,Mae sawl anifail yn yr ardd.,Several animals are in the garden.,"sawl as adj, not itg",2009-03-30,Several animals are in the garden.,Several animals are in the garden.,Several animals are in the garden.,Several animals are in the garden.
+7,Sawl dyn sydd yn y cyfarfod?,How many men are in the meeting?,welsh sg --> english pl after sawl,2009-03-30,How many men that is  in the meeting?,How many men that are  in the meeting?,How many men that are  in the meeting?,How many men that are  in the meeting?
+9,Roedd y pwyllgor yn trafod cyfeiriad y polisi.,The committee was discussing the direction of the policy.,direction meaning of cyfeiriad after trafod,2009-03-30,The committee was discussing  the direction of the policy.,The committee was in address transaction the policy.,The committee was in address transaction the policy.,The committee was in address transaction the policy.
+10,Mae'r gweinidog yn gallu dod.,The minister can come.,"yn gallu --> can, is able to, not --> in can",2009-03-31,\N,The minister is in can come .,The minister is in can come .,The minister is in can come .
+12,Sut daethoch chi yma yn y diwedd?,How did you get here in the end?,sut = how before verb,2009-03-31,\N,How You came here in the end?,How You came here in the end?,How You came here in the end?
+13,Sut le ydy o?,What sort of place is it?,sut+softmut = what sort of (itg) before a noun,2009-03-31,\N,What sort of place he is?,What sort of place him is?,What sort of place him is?
+14,Sawl bachgen sydd yn y siop?,How many boys are in the shop?,sydd --> pl after sawl,2009-03-31,\N,How many boys that are  in the shop?,How many boys that are  in the shop?,How many boys that are  in the shop?
+16,Wnes i ddim weld y wal yn syrthio.,I did not see the wall falling.,short form of gwneud past 1sg,2009-04-01,\N,*Wnes To zero see  the wall falling .,*Wnes Me not see  the wall falling .,*Wnes To zero see  the wall falling .
+17,Nes i ddim weld y wal yn syrthio.,I did not see the wall falling.,spoken form of gwneud past 1sg,2009-04-01,\N,Until To zero see  the wall falling .,Until Me not see  the wall falling .,Until To zero see  the wall falling .
+18,Naeth o ddim weld y wal yn syrthio.,He did not see the wall falling.,spoken form of gwneud past 3sg,2009-04-01,\N,He came not see  the wall falling .,He came not see  the wall falling .,He came not see  the wall falling .
+19,Dwi ddim yn gwybod lle aeth o.,I don't know where he went.,gwybod present neg,2009-04-01,\N,Am  not knowing  where he went.,Am  not knowing  where he went.,Am  not knowing  where he went.
+20,Dwn i ddim lle aeth o.,I don't know where he went.,spoken form of gwybod present neg,2009-04-01,\N,*Dwn To zero where he went.,*Dwn Me not where he went.,
+21,Mi aeth y dyn cyn iddyn nhw gyrraedd.,The man went before they arrived.,cyn + i + pronoun,2009-04-01,\N,The man went before them arrive .,the man went before they arrive .,the man went before they arrive .
+22,Mae'r bachgen yn 10 oed.,The boy is 10 years old.,yn + numeral + noun,2009-04-01,\N,The boy is in 10 years old.,The boy is 10 years old.,The boy is 10 years old.
+23,Mae'r eneth yn bert.,The girl is pretty.,yn (stative) + softmut_adjective,2009-04-01,\N,The girl is pretty.,The girl is pretty.,The girl is pretty.
+24,Mae'r dyn yn gallu gweld y ceffyl.,The man can see the horse.,yn + vbaux,2009-04-01,\N,The man is in can see  the horse.,The man is in can see  the horse.,The man is in can see  the horse.
+25,Mae'r disgyblion yn gofyn cwestiynau.,The pupils are asking questions.,yn + verb,2009-04-01,\N,The pupils are asking  questions.,The pupils are asking  questions.,The pupils are asking  questions.
+26,Mae rhywbeth lliwgar yn y bocs.,There is something colourful in the box.,yn_prep + def_noun,2009-04-01,\N,Colourful something are in the box.,,
+27,Mi welodd y bachgen nhw a'u ffrindiau ar y traeth.,The boy saw them and their friends on the beach.,move subj --> obj,2009-04-01,\N,\N,the boy saw them and their friends on the beach.,the boy saw they and their friends on the beach.
+28,Arhosodd y disgyblion yn yr ysgol tan iddyn nhw orffen y wers.,The pupils stayed in the school until they finished the lesson.,tan + i + prn,2009-04-02,\N,\N,The pupils waited in the school until to they complete  the lesson.,The pupils waited in the school until to they complete  the lesson.
+29,Ddaru ni weld drama neithiwr.,We saw a play last night.,ddaru as invariant past auxiliary (North),2009-04-04,\N,\N,\N,We did see drama last night.
+30,"Wrth fynd i'r ffenestr, syrthiodd y dyn.","While going to the window, the man fell.","choose i_prep after an infinitive, not i_pronoun",2009-04-04,\N,\N,\N,"While Going  to the window, the man fell."

@@ -1,0 +1,13 @@
+col0,col1,col2,col3,col4,col5
+inv_env_logos-61,inf_server_minotauro,logos-61,inf_partner_logos,inf_env_version_1,No respecta la estructura propuesta ya que en la carpeta faltaria el /version
+inv_env_cedent-61,inf_server_minotauro,cedent-61,inf_partner_cedent,inf_env_version_1,No respecta la estructura propuesta ya que en la carpeta faltaria el /version
+inv_env_expresso-61,inf_server_minotauro,expresso-61,inf_partner_expresso,inf_env_version_1,No respecta la estructura propuesta ya que en la carpeta faltaria el /version
+inv_env_ing-adhoc-70,inf_server_pegaso,ing-adhoc-70,base.partner_root,inf_env_version_2,No respecta la estructura propuesta ya que en la carpeta faltaria el /version
+inv_env_saasadhoc-trunk,inf_server_pegaso,saasadhoc-trunk,base.partner_root,inf_env_version_6,No respecta la estructura propuesta ya que en la carpeta faltaria el /version
+inv_env_saasadhoc-saas-3,inf_server_pegaso,saasadhoc-saas-3,base.partner_root,inf_env_version_3,No respecta la estructura propuesta ya que en la carpeta faltaria el /version
+inv_env_neomix-70,inf_server_pegaso,neomix-70,inf_partner_neomix,inf_env_version_2,No respecta la estructura propuesta ya que en la carpeta faltaria el /version
+inv_env_grupodps-70,inf_server_pegaso,grupodps-70,inf_partner_grupodps,inf_env_version_2,No respecta la estructura propuesta ya que en la carpeta faltaria el /version
+inv_env_transmeco-70,inf_server_pegaso,transmeco-70,inf_partner_transmeco,inf_env_version_2,No respecta la estructura propuesta ya que en la carpeta faltaria el /version
+inv_env_coloccini-70,inf_server_est_integrales,coloccini-70,inf_partner_estudios_integrales,inf_env_version_2,No respecta la estructura propuesta ya que en la carpeta faltaria el /version
+inv_env_clinic-saas-3,inf_server_pegaso,clinic-saas-3,base.partner_root,inf_env_version_6,No respecta la estructura propuesta ya que en la carpeta faltaria el /version
+inv_env_apdes-saas-3,inf_server_pegaso,apdes-saas-3,inf_partner_apdes,inf_env_version_6,No respecta la estructura propuesta ya que en la carpeta faltaria el /version

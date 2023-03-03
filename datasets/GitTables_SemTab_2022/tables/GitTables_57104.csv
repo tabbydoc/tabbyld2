@@ -1,0 +1,76 @@
+col0,col1,col2,col3
+1,Application,id,Application_ID
+2,Application,student_id,SM_Student_ID
+3,Application,applicant_id,Application_Student_ID
+4,Student,sis_local_id,SIS_Student_ID
+5,Student,first_name,Students_First_Name
+6,Student,last_name,Students_Last_Name
+7,Application,school_id,School_Applying_To
+8,Application,grade_level,Grade_Applying_To
+9,Application,status,Application_status
+10,Application,waitlist_number,Waitlist_Number
+11,Application,application_type,Application_Type
+12,Application,account_id,Account_ID
+13,Account,preferred_language,Account_Preferred_Language
+14,Application,current_grade_level,Current_Grade
+15,Application,enrollment_id,Enrollment_Period
+16,Application,submission_date,Submission_Date
+17,Application,created_by,Submitted_By
+18,Application,offered_date,Offered_Date
+19,Application,accepted_date,Accepted_Date
+20,Application,registration_completed_date,Registration_Completed_Date
+21,Application,updated_at,Last_Update_Date
+22,Guardians 1,first_name,Primary_Guardian_First_Name
+23,Guardians 1,last_name,Primary_Guardian_Last_Name
+24,Guardians 1,email,Primary_Guardian_Email
+25,Guardians 1,phone_number,Primary_Guardian_Mobile_Phone
+26,Guardians 1,home_phone_number,Primary_Guardian_Home_Phone
+27,Guardians 1,work_phone_number,Primary_Guardian_Work_Phone
+28,Guardians 2,first_name,Secondary_Guardian_First_Name
+29,Guardians 2,last_name,Secondary_Guardian_Last_Name
+30,Guardians 2,email,Secondary_Guardian_Email
+31,Guardians 2,phone_number,Secondary_Guardian_Mobile_Phone
+32,Guardians 2,home_phone_number,Secondary_Guardian_Home_Phone
+33,Guardians 2,work_phone_number,Secondary_Guardian_Work_Phone
+34,Student,id,Student_ID
+35,Student,first_name,Student_First_Name
+36,Student,last_name,Student_Last_Name
+37,Student,birth_date,Student_Birth_Date
+38,Student,gender,Student_Gender
+39,Student,current_school_name,Current_School
+40,Application,status_timestamp,Last_Status_Change
+41,Address,street1,StudentAddress_Street_1
+42,Address,street2,StudentAddress_Street_2
+43,Address,city_name,StudentAddress_City
+44,Address,state,StudentAddress_State
+45,Address,zipcode,StudentAddress_Zip
+46,Address,latitude [COMMA SPACE] longitude,StudentAddress_Coordinates
+47,Application,district_name,District
+48,Student,discovery_reason_name,How_did_you_hear_about_us
+49,Student,student_most_used_language,Student_Most_Used_Language
+50,Student,home_use_language,Student_Home_Use_Language
+51,Student,home_most_used_language,Home_Most_Used_Language
+52,Student,extra_support_language,Extra_Language_Support
+53,Student,student_enrolled_individualized_education_program,Individualized_Education_Program
+54,Student,homeless_shelter,Homeless_Shelter
+55,Student,nycph,NYC_Public_Housing
+56,Student,unaccompanied_youth,Unaccompanied_Youth
+57,Student,failing_school,Failing_Grade_School
+58,Student,individualized_education_program_previous_school,Individualized_Education_Program_School
+59,Student,individualized_education_program_approximate_date,Individualized_Education_Program_Date
+60,Student,student_special_education_services,Special_Education_Services
+61,Student,student_health_conditions,Health_Issues
+62,Student,free_reduced_lunch,Free_Reduced_Lunch
+63,Student,snap_tanf,SNAP_TANF
+64,Application,priorities,Priorities
+65,Student,hispanic,Ethnicities
+66,Guardian 1,relation,Primary_Guardian_Relation
+67,Guardian 2,relation,Secondary_Guardian_Relation
+68,Sibling 1,name,Sibling_1_Name
+69,Sibling 1,attending_grade,Sibling_1_Grade
+70,Sibling 1,school_id,Sibling_1_School
+71,Sibling 1,birth_date,Sibling_1_DOB
+72,Sibling 2,name,Sibling_2_Name
+73,Sibling 2,attending_grade,Sibling_2_Grade
+74,Sibling 2,school_id,Sibling_2_School
+75,Sibling 2,birth_date,Sibling_2_DOB

@@ -1,0 +1,50 @@
+location,date,vaccine,source_url,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters
+Armenia,2021-03-31,Sputnik V,https://rus.azatutyun.am/a/31180204.html,565,565,0,
+Armenia,2021-05-09,"Oxford/AstraZeneca, Sputnik V",https://www.moh.am/#1/3869,10727,10727,0,
+Armenia,2021-05-16,"Oxford/AstraZeneca, Sputnik V",https://www.moh.am/#1/3906,19249,19249,0,
+Armenia,2021-05-23,"Oxford/AstraZeneca, Sputnik V, Sinovac",http://arka.am/en/news/society/sinovac_vaccines_are_already_available_for_armenian_citizens_/,26562,26562,0,
+Armenia,2021-05-30,"Oxford/AstraZeneca, Sputnik V, Sinovac",https://www.aysor.am/en/news/2021/05/31/covid-vaccination/1838616,33529,33529,0,
+Armenia,2021-06-06,"Oxford/AstraZeneca, Sputnik V, Sinovac",https://arka.am/en/news/society/about_47_000_armenians_vaccinated_against_covid_19_over_two_months_/,46503,46503,0,
+Armenia,2021-06-14,"Oxford/AstraZeneca, Sputnik V, Sinovac",https://www.panarmenian.net/eng/news/293562/Over_55000_Covid_vaccine_doses_administered_in_Armenia,55557,,,
+Armenia,2021-06-20,"Oxford/AstraZeneca, Sinovac, Sputnik V",https://covid19.who.int/,64293,52509,11784,
+Armenia,2021-06-27,"Oxford/AstraZeneca, Sinovac, Sputnik V",https://covid19.who.int/,74714,58518,16196,
+Armenia,2021-07-11,"Oxford/AstraZeneca, Sinovac, Sputnik V",https://www.moh.am/#1/4125,108107,77449,30658,
+Armenia,2021-07-18,"Oxford/AstraZeneca, Sinovac, Sputnik V",https://www.moh.am/#1/4142,131080,94560,36520,
+Armenia,2021-07-25,"Oxford/AstraZeneca, Sinovac, Sputnik V",https://www.moh.am/#1/4162,152529,108674,43855,
+Armenia,2021-08-01,"Oxford/AstraZeneca, Sinovac, Sputnik V",https://www.moh.am/#1/4001,171890,120285,51605,
+Armenia,2021-08-08,"Oxford/AstraZeneca, Sinovac, Sputnik V",https://www.facebook.com/ministryofhealthcare/posts/3006799932894449,194902,132529,62373,
+Armenia,2021-08-15,"Oxford/AstraZeneca, Sinovac, Sputnik V",https://www.moh.am/#1/4214,220236,144573,75663,
+Armenia,2021-08-22,"Oxford/AstraZeneca, Sinovac, Sputnik V",https://www.moh.am/#1/4232,239342,153888,85454,
+Armenia,2021-08-29,"Oxford/AstraZeneca, Sinovac, Sputnik V",https://www.moh.am/#1/4249,275138,176552,98586,
+Armenia,2021-09-05,"Oxford/AstraZeneca, Sinovac, Sputnik V",https://www.moh.am/#1/4271,303325,195290,108035,
+Armenia,2021-09-12,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.facebook.com/ministryofhealthcare/posts/3032843116956797,335721,215278,120443,
+Armenia,2021-09-19,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.facebook.com/ministryofhealthcare/posts/3038001943107581,366779,237454,129325,
+Armenia,2021-09-26,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.moh.am/#1/4335,408535,264695,143840,
+Armenia,2021-10-11,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.facebook.com/ministryofhealthcare/posts/3054070244834084,514241,344029,170212,
+Armenia,2021-10-17,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://worldhealthorg.shinyapps.io/EURO_COVID-19_vaccine_monitor/,620698,434617,186081,
+Armenia,2021-10-24,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,709345,497971,211374,
+Armenia,2021-10-31,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,831856,579360,252496,
+Armenia,2021-11-07,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.moh.am/#1/4517,890797,613849,276948,
+Armenia,2021-11-14,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.moh.am/#1/4376,1004493,682188,322305,
+Armenia,2021-11-21,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.moh.am/#1/4574,1110891,738887,372004,
+Armenia,2021-11-28,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,1236264,799403,436861,
+Armenia,2021-12-06,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.moh.am/#1/4627,1352805,835816,516989,
+Armenia,2021-12-12,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.moh.am/#1/4645,1452374,869750,582624,
+Armenia,2021-12-19,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.moh.am/#1/4666,1546632,903661,642971,
+Armenia,2021-12-26,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.moh.am/#1/4695,1626738,934028,692082,628
+Armenia,2022-01-02,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.moh.am/#1/4717,1660256,944784,714685,787
+Armenia,2022-01-09,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.moh.am/#1/4732,1694518,952813,740489,1216
+Armenia,2022-01-17,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.moh.am/#1/4750,1761529,973944,784849,2736
+Armenia,2022-01-23,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.moh.am/#1/4770,1825382,999891,819841,5650
+Armenia,2022-01-30,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.moh.am/#1/4790,1883413,1032249,842213,8951
+Armenia,2022-02-06,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.moh.am/#1/4825,1925556,1054178,858981,12397
+Armenia,2022-02-13,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,1971565,1080404,872336,
+Armenia,2022-02-20,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://www.moh.am/#1/4890,1992891,,896723,18849
+Armenia,2022-02-27,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,2042616,1100694,919397,
+Armenia,2022-03-13,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,2088962,1113472,948778,31064
+Armenia,2022-03-20,"Moderna, Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,2107032,1118674,959116,33978
+Armenia,2022-04-03,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinopharm/Wuhan, Sinovac, Sputnik V",https://covid19.who.int/,2141957,1128072,980101,39849
+Armenia,2022-04-10,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinopharm/Wuhan, Sinovac, Sputnik Light, Sputnik V",https://covid19.who.int/,,,984868,
+Armenia,2022-04-17,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinopharm/Wuhan, Sinovac, Sputnik Light, Sputnik V",https://covid19.who.int/,2149195,,,40460
+Armenia,2022-05-15,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinopharm/Wuhan, Sinovac, Sputnik Light, Sputnik V",https://covid19.who.int/,2149233,1129504,985251,40567
+Armenia,2022-05-22,"Moderna, Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing, Sinopharm/Wuhan, Sinovac, Sputnik Light, Sputnik V",https://covid19.who.int/,2150112,1129669,985807,40725

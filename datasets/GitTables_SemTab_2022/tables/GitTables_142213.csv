@@ -1,0 +1,48 @@
+col0,col1,col2,col3,col4,col5,col6
+All,All,TextField,sip_txfEmail,the textfield of email on signIn page,xpath,//input[@name='email']
+All,All,TextField,sip_txfPassword,the textfield of password on signIn page,xpath,//input[@name='password']
+All,All,Button,sip_btnLoginIn,the button of login in on signIn page,xpath,//button[@id='login-button']
+All,All,Button,sip_btnFacebookLoginIn,the button of facebook login in on signIn page,xpath,//div[@class='wrap']//a[@class='facebook']
+All,All,TextField,sip_txfFBEmail,the textfield of email on facebook signIn page,xpath,//input[@name='email']
+All,All,TextField,sip_txfFBPassword,the textfield of password on facebook signIn page,xpath,//input[@name='pass']
+All,landscape,TextField,sip_txfFBLoginSuccessText,the textfield on facebook after login successfully,xpath,//div[text()='bolt test user']
+All,portrait,TextField,sip_txfFBLoginSuccessText,the textfield on facebook after login successfully,xpath,//h3[text()='Log In With One Tap']
+All,All,Button,sip_btnFBLoginIn,the button of login in on facebook signIn page,xpath,//*[@name='login' or @id='loginbutton']
+All,All,Button,sip_btnFBLoginIn2,the button of login in on facebook signIn page on mobile,xpath,"//button[@value='Log In' and not(contains(@name,'login'))]"
+All,All,Link,sip_lnkRegister,the link for register new account on signIn page,xpath,"//a[contains(text(),'¡Crea una ahora!') or contains(text(),'Get one now!')]"
+All,All,Link,sip_lnkForgotPassword,the link of forgot password on signIn page,xpath,//form[@action='/login']/a
+All,All,Link,sip_lnkBetaLogin,the link of beta login on signIn page for gumtree only,xpath,//a[@class='loginwithemail']
+All,All,Label,sip_pnlHeader,the header part in signIn page,xpath,//div[@class='headerV2']
+All,All,Label,sip_pnlFooter,the footer part in signIn page,xpath,//div[@class='footer-wrapper']
+All,All,TextField,sip_txfOverlayLogin,signin overlay,xpath,//section[@class='full-page-modal-wrapper login-full-page-modal']
+All,All,TextField,sip_txfOverlayTitle,the facebook login hint on signin overlay,xpath,//span[@class='full-page-modal-header']
+All,All,TextField,sip_txfOverlayFBLoginHint,the facebook login hint on signin overlay,xpath,//div[@class='fb-login-hint']
+All,All,Label,sip_pnlOverlayDivider,the facebook login hint on signin overlay,xpath,//div[@class='divider']/span
+All,All,Button,sip_btnOverlayFBLogin,the facebook login button on signin overlay,id,fbLoginLayer
+All,All,TextField,sip_txfOverlayEmailValidMarker,the email field on signin overlay,xpath,"//div[contains(@class,'login-email-field')]//span[@class='input-valid-label icon-valid-true']"
+All,All,TextField,sip_txfOverlayEmail,the email field on signin overlay,xpath,"//div[contains(@class,'login-email-field')]//input[@type='text']"
+All,All,TextField,sip_txfOverlayEmailErrorMsg,the email field on signin overlay,xpath,"//div[contains(@class,'login-email-field')]//div[@class='input-error-msg']"
+All,All,TextField,sip_txfOverlayEmailErrorMsgHide,the email field on signin overlay,xpath,"//div[contains(@class,'login-email-field')]//div[@class='input-error-msg hidden']"
+All,All,TextField,sip_txfOverlayEmailInputBoxError,the email field on signin overlay,xpath,//div[@class='login-email-field input-wrapper error']
+All,All,TextField,sip_txfOverlayPasswordInputBoxError,the email field on signin overlay,xpath,//div[@class='login-pwd-field input-wrapper error']
+All,All,TextField,sip_txfOverlayEmailInputBoxErrorIcon,the email field on signin overlay,xpath,//div[@class='login-email-field input-wrapper error']//span[@class='input-invalid-label icon-valid-false']
+All,All,TextField,sip_txfOverlayPasswordInputBoxErrorIcon,the email field on signin overlay,xpath,//div[@class='login-pwd-field input-wrapper error']//span[@class='input-invalid-label icon-valid-false']
+All,All,TextField,sip_txfOverlayPassword,the password field on signin overlay,xpath,"//div[contains(@class,'login-pwd-field')]//input[@type='password']"
+All,All,TextField,sip_txfOverlayPasswordValidMarker,the password field on signin overlay,xpath,"//div[contains(@class,'login-pwd-field')]//span[@class='input-valid-label icon-valid-true']"
+All,All,TextField,sip_txfOverlayPasswordErrorMsg,the password field on signin overlay,xpath,"//div[contains(@class,'login-pwd-field')]//div[@class='input-error-msg']"
+All,All,TextField,sip_txfOverlayPasswordErrorMsgHide,the password field on signin overlay,xpath,"//div[contains(@class,'login-pwd-field')]//div[@class='input-error-msg hidden']"
+All,All,Button,sip_btnOverlayLoginIn,the button of login in on signIn overlay,xpath,//div[@class='login-action']//button[@type='submit']
+All,All,Link,sip_lnkOverlayForgotPassword,the link of forgot password on signIn overlay,xpath,//span[@class='login-forget-pwd-link']
+All,All,Label,sip_imgOverlayCloseX,the x icon to close signin overlay on signIn overlay,xpath,//i[@class='icon-close-small-bold']
+All,All,TextField,sip_txfOverlayCloseText,the close text to close signin overlay on signIn overlay,xpath,//span[@class='full-page-modal-close-text']
+All,All,TextField,sip_txfOverlayEmailTitle,the email inputbox title on signIn overlay,xpath,"//div[contains(@class,'login-email-field')]/span"
+All,All,TextField,sip_txfOverlayPasswordTitle,the password inputbox title on signIn overlay,xpath,"//div[contains(@class,'login-pwd-field')]/span"
+All,All,Link,sip_lnkOverlayToRegister,the create account link on signIn overlay,xpath,//a[@class='to-register-link']
+All,All,Link,sip_lnkOverlayToLogin,the login link on signIn overlay,xpath,//a[@class='to-login-link']
+All,All,Link,sip_lnkOverlayTermsConditions,the terms and condition of register link on signIn overlay,xpath,//div[@class='register-policy']/span[1]
+All,All,Link,sip_lnkOverlayPrivacyNotice,the notice of privacy link on signIn overlay,xpath,//div[@class='register-policy']/span[2]
+All,All,TextField,sip_txfLoginFormError,the login form error,xpath,//div[@class='login-form-error']
+All,All,Label,mSIP_lblMarkoLoginForm,the xpath for the new login form,xpath,//div[@class='login-form-new']
+All,ALL,Label,mSIP_lblMarkoLoginFormAnnouncement,the login form announcement on marko login,xpath,//div[@class='login-form-announcement']
+mx_vns,ALL,Label,mSIP_lblLoginForm,the login form,xpath,//form[@class='form-for-login']
+mx_vns,ALL,Label,mSIP_lblRegisterForm,the register form,xpath,//form[@class='form-for-register']

@@ -1,0 +1,17 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+1,tools,L,n,Environment Setup,hw/tools.html,1,Introduction,True
+2,hc,L,n,Hadoop configuration,hw/hadoop_conf.html,1,MapReduce,True
+3,wc,L,n,Hadoop WordCount,hw/wordcount.html,1,MapReduce,True
+4,pr3,H,n,Hadoop PageRank,hw/hadoop_pagerank.html,3,MapReduce,True
+5,se6,H,y,Hadoop Blast,hw/hadoop_blast.html,2,MapReduce,True
+6,se1,L,n,Load Data into HBase,hw/hbase_intro.html,1,Data,False
+7,se2,H,n,HBase WordCount,hw/hbase_wordcount.html,2,Data,False
+8,se3,H,n,Building an Inverted Index,hw/inverted_hbase.html,3,Data,False
+9,se7,H,y,Test Search Engine,hw/test-search-eng.html,3,Data,False
+10,se6,L,n,Harp WordCount,hw/pig_wordcount.html,3,Harp,False
+11,se4,H,n,Harp K-means,hw/harp_kmeans.html,3,Harp,False
+12,se5,H,n,Harp PageRank,hw/harp_pagerank.html,3,Harp,False
+13,pr,H,y,Implement PageRank,hw/pagerank.html,2,MPI,False
+14,pr2,H,y,MPI PageRank,hw/mpi_pagerank.html,2,MPI,False
+15,rms,H,y,Resource Monitoring System,hw/resource_ms.html,2,MPI,False
+16,pra,H,y,Performance Analysis,hw/pagerank_analysis.html,2,MPI,False

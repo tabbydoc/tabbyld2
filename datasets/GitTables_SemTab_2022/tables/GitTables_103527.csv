@@ -1,0 +1,64 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+2,TRUE,SearchOnlyInFamilySet,0,,Perform search on ARDocs only in the family set. Will speed up correction process if this is false then it will search for a referenced item with out restricting the customer used inconjuction with matchOnlyInFamilySet=true,0.0,,0.0
+3,FALSE,ReplaceFoundWithARDocCust,0,,Replace the customer on the payment detail with the customer from the found ARDoc,0.0,,0.0
+4,,ImportFilePathDefault,0,,Contain the default path for importing files,0.0,,0.0
+5,,ExportFilePathDefault,0,,The default path to export files,0.0,,0.0
+6,,EnableCorrectionPreMatchProcessor,0,,Enables the CorrectionPreMatchProcessor functionality.,0.0,,0.0
+7,,EnableCorrectionPostMatchProcessor,0,,Enables the CorrectionPostMatchProcessor functionality.,0.0,,0.0
+8,,correctionPreMatchProcessor,0,,Name of the CorrectionPreMatchProcessor function.,0.0,,0.0
+9,,correctionPostMatchProcessor,0,,Name of the CorrectionPostMatchProcessor function.,0.0,,0.0
+10,FALSE,CorrectionGLNStoreNumMatch,0,,"Enable match on GLN to StoreNum, StoreNum to Cust Num on payment Detail.",0.0,,0.0
+11,FALSE,CorrectionOnAccountIfNoMatch,0,,Set Payment Detail with on Account TranType if no match found.,0.0,,0.0
+12,FALSE,RequireCustomerOnPayment,0,,require account info (micr or custsourceid) on payment,0.0,,0.0
+13,FALSE,SearchForMatchOnDD,0,,It looks for a match when payment detail is negative (DD),0.0,,0.0
+14,,OffsetPostProcessor,0,,Name of the OffsetPostProcessor function.,0.0,,0.0
+16,FALSE,SplitPaymentPerCustomer,0,,Enable Split Payment Per Customer in Payment Detail,0.0,,0.0
+17,FALSE,RequirePennyPayment,0,,allow $0 payments? force them to be $.01 since some A/R systems can't support a $0 check,0.0,,0.0
+18,,ArTranTypeForPennyPayment,0,,Ar tran type name that is used for penny payment,0.0,,0.0
+19,FALSE,MergeEdiWithCheckNumber,0,,Merge Edi 823 with Edi 820 on Ref Num in addition to customer ,,,
+20,,EnableImportPostProcessor,0,,Enables the ImportPostProcessor functionality.,0.0,,0.0
+21,,ImportPostProcessor,0,,Name of the ImportPostProcessor stored procedure.,0.0,,0.0
+22,TRUE,PostRequireAllPaymentsReconciled,0,,Posting process - all payments must be reconciled in order to post a batch,0.0,,0.0
+23,TRUE,PostAllowPostNonReconciled,0,,Posting process - Non reconciled payments can be posted,0.0,,0.0
+24,TRUE,PostAllowUnPostPayment,0,,Posting process - Allow un post per payment,0.0,,0.0
+25,TRUE,ReconcileAllowShortPaidInvoice,0,,reconcile process - Allow rd amount to be less than ardoc amount,0.0,,0.0
+26,,ExportProcessor,0,,name of the export stored procedure that is called from AutoCash to export data to different ERP.,0.0,,0.0
+27,TRUE,ReconcilePayOnlyInFamily,0,,reconcile process - Customers from payment details have to be in family with customer on the payment,0.0,,0.0
+28,TRUE,reconcilePaymentBalanceRequired,0,,reconcile process - Requires check amount and sum of pay amount to match.,0.0,,0.0
+29,TRUE,ReconcileAllowSpacesInRdNumber,0,,reconcile process - Allows spaces in invoice rd number,0.0,,0.0
+30,FALSE,ReconcileBusinessNumOnPaymentRequired,0,,reconcile process - Requires Business Number on payment,0.0,,0.0
+31,,UnidentifiedCustSourceId,0,,Posting process - assign customer on payment where it's missing,0.0,,0.0
+32,TRUE,PostCreateNewBatchForNonreconciledPayments,0,,Posting process - create new batch for non reconciled payments,0.0,,0.0
+33,TRUE,PostReversePayment,0,,Posting process - reverse payment that has been posted to GL or other AR system),0.0,,0.0
+34,FALSE,ReconcileLockBoxOnArBatchRequired,0,,Reconcile - requires lockbox on Ar Batch,0.0,,0.0
+35,FALSE,ReconcileSourceOnArBatchRequired,0,,Reconcile - requires source on Ar Batch,0.0,,0.0
+36,,MiscCustomerSourceId,0,,"SourceId of miscellaneous customer, used for misc payments (non AR)",0.0,,0.0
+37,FALSE,ValidatePaymentPostedDate,0,,Turns on validation of payment posted date.,0.0,,0.0
+38,FALSE,MergeEdiWithinCustomerFamily,0,,Merge Edi 823 with Edi 820 on customer's family,0.0,,0.0
+39,,preCorrectScript,0,,Groovy Script Name to run for pre correction,0.0,,0.0
+40,FALSE,PreImportPaymentBundle,0,,Groovy Script Name to run for pre import bundle,0.0,,0.0
+41,FALSE,PostImportPaymentBundle,0,,Groovy Script Name to run for post import bundle,0.0,,0.0
+42,FALSE,EliminateDuplicatePayment,0,,"If there is more than one payment within a batch with the same custSourceId and amount, correct only the first one.",0.0,,0.0
+43,,EnableImportPreProcessor,0,,Enables the ImportPreProcessor functionality.,0.0,,0.0
+44,,ImportPreProcessor,0,,Name of the ImportPreProcessor stored procedure.,0.0,,0.0
+45,,UnpostableBatchTypeList,0,,"Comma-separated list of batch types that cannot be posted (Eri820, coupon)",0.0,,0.0
+46,0,searchForCustomerOnTopNPayDetail,0,,"If no cust on payment,look for match on number of pay detail and bring cust to payment",0.0,,0.0
+47,false,PaymentDetailPayAmountIsReadOnly,0,,Should payAmount be mofified when disc or gross amount changed.,0.0,,0.0
+48,false,PostUnreconciledPayment,0,,post Unreconcile Payment as open payment.,0.0,,0.0
+49,false,AskToInsertDiscountFromArFilterToPayDetail,0,,show pop up mesage to insert ArTran from filetr to pay detail with discounts or not.,0.0,,0.0
+50,false,postImportFileScript,0,,Name of the groovy script to call after importing a file.  Gets a list of ids for imported batches.,0.0,,0.0
+51,,digestRecipients,0,,Comma-separated list of email addresses for A/R API daily digest.,0.0,,0.0
+52,false,SearchCustomerOnPaymentByBillToNum,0,,CustNum on payment references billToNum on Customer,0.0,,0.0
+53,,postPostPaymentScript,0,,,0.0,,0.0
+54,,reconcileScript,0,,name of the script that runs after reconcile.,0.0,,0.0
+55,,offsetMatchesScript,0,,where clause used in offset match,0.0,,0.0
+56,false,searchForCustomerByCustAccount,0,,use CustAccount to find customer on a payment,0.0,,0.0
+57,false,splitPaymentPerCompany,0,,,0.0,,0.0
+58,false,requireZeroDollarPayment,0,,,0.0,,0.0
+59,false,recalcAgingAfterPost,0,,,0.0,,0.0
+60,false,insertArTranMatchAfterPost,0,,,0.0,,0.0
+61,false,ReconcileValidateDiscAmount,0,,reconcile process - validate if disc taken is not greater than the discount allowed,0.0,,0.0
+62,false,defaultUserToOwnerOnArBatchFilter,0,,on arbatch filter under Owner automatically add default owner or not,0.0,,0.0
+64,true,requireSplitBalancingMemo,0,,,0.0,,0.0
+66,true,searchInAllTabAccrossCustomersForRefNum,0,,,0.0,,0.0
+67,true,searchInAllTabNoCustomerFilter,0,,,0.0,,0.0

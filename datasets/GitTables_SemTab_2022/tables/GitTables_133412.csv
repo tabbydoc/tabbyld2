@@ -1,0 +1,68 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+1,11,Arizona St.,53%,68,11,Syracuse,47%,67,First Four,"Dayton, OH",0,TeamA
+2,11,St. Bonaventure,42%,69,11,UCLA,58%,71,First Four,"Dayton, OH",0,TeamB
+3,16,North Carolina Central,38%,67,16,Texas Southern,62%,70,First Four,"Dayton, OH",0,TeamB
+4,16,LIU Brooklyn,32%,64,16,Radford,68%,70,First Four,"Dayton, OH",0,TeamB
+5,1,Virginia,98%,75,16,UMBC,2%,53,SOUTH,"Charlotte, NC",1,TeamA
+6,8,Creighton,56%,69,9,Kansas St.,44%,67,SOUTH,"Charlotte, NC",1,TeamA
+7,5,Kentucky,63%,68,12,Davidson,37%,65,SOUTH,"Boise, ID",1,TeamA
+8,4,Arizona,71%,73,13,Buffalo,29%,67,SOUTH,"Boise, ID",1,TeamA
+9,6,Miami FL,51%,66,11,Loyola Chicago,49%,66,SOUTH,"Dallas, TX",1,TeamB
+10,3,Tennessee,88%,74,14,Wright St.,12%,61,SOUTH,"Dallas, TX",1,TeamA
+11,7,Nevada,57%,68,10,Texas,43%,66,SOUTH,"Nashville, TN",1,TeamA
+12,2,Cincinnati,88%,72,15,Georgia St.,12%,59,SOUTH,"Nashville, TN",1,TeamA
+13,1,Virginia,81%,70,8,Creighton,19%,60,SOUTH,"Charlotte, NC",2,TeamA
+14,5,Kentucky,53%,68,4,Arizona,47%,68,SOUTH,"Boise, ID",2,TeamA
+15,11,Loyola Chicago,34%,63,3,Tennessee,66%,68,SOUTH,"Dallas, TX",2,TeamB
+16,7,Nevada,30%,64,2,Cincinnati,70%,70,SOUTH,"Nashville, TN",2,TeamB
+17,1,Virginia,75%,68,5,Kentucky,25%,60,SOUTH,"Atlanta, GA",3,TeamA
+18,3,Tennessee,39%,64,2,Cincinnati,61%,67,SOUTH,"Atlanta, GA",3,TeamB
+19,1,Virginia,61%,64,2,Cincinnati,39%,60,SOUTH,"Atlanta, GA",4,TeamA
+20,1,Xavier,97%,81,16,Texas Southern,3%,61,WEST,"Nashville, TN",1,TeamA
+21,8,Missouri,49%,68,9,Florida St.,51%,69,WEST,"Nashville, TN",1,TeamB
+22,5,Ohio St.,74%,72,12,South Dakota St.,26%,65,WEST,"Boise, ID",1,TeamA
+23,4,Gonzaga,83%,72,13,UNC Greensboro,17%,62,WEST,"Boise, ID",1,TeamA
+24,6,Houston,65%,71,11,San Diego St.,35%,66,WEST,"Wichita, KS",1,TeamA
+25,3,Michigan,77%,70,14,Montana,23%,62,WEST,"Wichita, KS",1,TeamA
+26,7,Texas A&M,62%,70,10,Providence,38%,66,WEST,"Charlotte, NC",1,TeamA
+27,2,North Carolina,95%,82,15,Lipscomb,5%,64,WEST,"Charlotte, NC",1,TeamA
+28,1,Xavier,65%,73,9,Florida St.,35%,69,WEST,"Nashville, TN",2,TeamA
+29,5,Ohio St.,41%,66,4,Gonzaga,59%,69,WEST,"Boise, ID",2,TeamB
+30,6,Houston,44%,65,3,Michigan,56%,67,WEST,"Wichita, KS",2,TeamB
+31,7,Texas A&M,30%,67,2,North Carolina,70%,73,WEST,"Charlotte, NC",2,TeamB
+32,1,Xavier,42%,69,4,Gonzaga,58%,71,WEST,"Los Angeles, CA",3,TeamB
+33,3,Michigan,45%,67,2,North Carolina,55%,68,WEST,"Los Angeles, CA",3,TeamA
+34,4,Gonzaga,54%,67,3,Michigan,46%,66,WEST,"Los Angeles, CA",4,TeamA
+35,1,Villanova,97%,76,16,Radford,3%,55,EAST,"Pittsburgh, PA",1,TeamA
+36,8,Virginia Tech,57%,70,9,Alabama,43%,68,EAST,"Pittsburgh, PA",1,TeamB
+37,5,West Virginia,71%,71,12,Murray St.,29%,65,EAST,"San Diego, CA",1,TeamA
+38,4,Wichita St.,83%,77,13,Marshall,17%,66,EAST,"San Diego, CA",1,TeamA
+39,6,Florida,61%,70,11,UCLA,39%,67,EAST,"Dallas, TX",1,TeamA
+40,3,Texas Tech,85%,74,14,Stephen F. Austin,15%,63,EAST,"Dallas, TX",1,TeamA
+41,7,Arkansas,44%,68,10,Butler,56%,70,EAST,"Detroit, MI",1,TeamB
+42,2,Purdue,94%,77,15,Cal St. Fullerton,6%,60,EAST,"Detroit, MI",1,TeamA
+43,1,Villanova,86%,75,9,Alabama,14%,63,EAST,"Pittsburgh, PA",2,TeamA
+44,5,West Virginia,54%,69,4,Wichita St.,46%,68,EAST,"San Diego, CA",2,TeamA
+45,6,Florida,42%,66,3,Texas Tech,58%,68,EAST,"Dallas, TX",2,TeamB
+46,10,Butler,29%,65,2,Purdue,71%,70,EAST,"Detroit, MI",2,TeamB
+47,1,Villanova,73%,72,5,West Virginia,27%,65,EAST,"Boston, MA",3,TeamA
+48,3,Texas Tech,39%,65,2,Purdue,61%,68,EAST,"Boston, MA",3,TeamB
+49,1,Villanova,61%,69,2,Purdue,39%,66,EAST,"Boston, MA",4,TeamA
+50,1,Kansas,89%,75,16,Penn,11%,62,MIDWEST,"Wichita, KS",1,TeamA
+51,8,Seton Hall,56%,71,9,North Carolina St.,44%,70,MIDWEST,"Wichita, KS",1,TeamA
+52,5,Clemson,66%,69,12,New Mexico St.,34%,65,MIDWEST,"San Diego, CA",1,TeamA
+53,4,Auburn,84%,74,13,College of Charleston,16%,63,MIDWEST,"San Diego, CA",1,TeamA
+54,6,TCU,61%,72,11,Arizona St.,39%,69,MIDWEST,"Detroit, MI",1,TeamA
+55,3,Michigan St.,89%,76,14,Bucknell,11%,62,MIDWEST,"Detroit, MI",1,TeamA
+56,7,Rhode Island,50%,72,10,Oklahoma,50%,72,MIDWEST,"Pittsburgh, PA",1,TeamA
+57,2,Duke,95%,80,15,Iona,5%,61,MIDWEST,"Pittsburgh, PA",1,TeamA
+58,1,Kansas,64%,71,8,Seton Hall,36%,67,MIDWEST,"Wichita, KS",2,TeamA
+59,5,Clemson,49%,69,4,Auburn,51%,69,MIDWEST,"San Diego, CA",2,TeamB
+60,6,TCU,32%,65,3,Michigan St.,68%,70,MIDWEST,"Detroit, MI",2,TeamB
+61,7,Rhode Island,18%,64,2,Duke,82%,74,MIDWEST,"Pittsburgh, PA",2,TeamB
+62,1,Kansas,57%,71,4,Auburn,43%,69,MIDWEST,"Omaha, NE",3,TeamB
+63,3,Michigan St.,43%,68,2,Duke,57%,70,MIDWEST,"Omaha, NE",3,TeamB
+64,4,Auburn,29%,68,2,Duke,71%,74,MIDWEST,"Omaha, NE",4,TeamB
+65,1,Virginia,67%,66,4,Gonzaga,33%,62,Final Four,"San Antonio, TX",5,TeamA
+66,1,Villanova,56%,70,2,Duke,44%,68,Final Four,"San Antonio, TX",5,TeamB
+67,1,Virginia,57%,66,2,Duke,43%,64,Championship,"San Antonio, TX",6,TeamA

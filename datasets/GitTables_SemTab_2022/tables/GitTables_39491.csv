@@ -1,0 +1,128 @@
+col0,col1,col2,col3,col4,col5,col6
+22,52.187,Heat,Custom,CameraContainerPos,"(-0.037, -1.091, 0.038)",-1118
+22,0.034,Training_Ring_Only,Ring,visible,"(2.821, 3.150, 185.387)",-32664
+22,0.06,Training_Complete,Ring,visible,"(-5.444, 3.150, 221.519)",-34924
+22,0.087,Audio,Ring,visible,"(-2.107, 3.150, 259.229)",-36756
+22,0.113,Vibration,Ring,visible,"(-12.259, 3.150, 294.781)",-40088
+22,0.859,Smell,Ring,visible,"(-3.380, 3.150, 351.376)",-51294
+22,3.963,Smell,Ring,visible,"(-9.031, 3.150, 428.205)",-51922
+22,4.145,Smell,Ring,success,,-51294
+22,7.091,Smell,Ring,visible,"(-12.846, 3.150, 506.572)",-52566
+22,7.197,Smell,Ring,success,,-51922
+22,9.15,Smell,POV,visible,Left,-53052
+22,10.347,Smell,Ring,success,,-52566
+22,11.202,Smell,Ring,visible,"(-29.727, 3.150, 607.603)",-53750
+22,11.999,Smell,POV,success,,-53052
+22,14.173,Smell,Ring,visible,"(-32.173, 3.150, 681.333)",-54722
+22,14.457,Smell,Ring,success,,-53750
+22,17.345,Smell,Ring,visible,"(-46.626, 3.150, 759.495)",-55506
+22,17.406,Smell,Ring,success,,-54722
+22,20.316,Smell,Ring,visible,"(-54.926, 3.150, 832.931)",-56196
+22,20.601,Smell,Ring,success,,-55506
+22,23.572,Smell,Ring,success,,-56196
+22,24.181,Smell,Ring,visible,"(-59.897, 3.150, 928.979)",-57176
+22,26.239,Smell,POV,visible,Left,-57644
+22,27.415,Smell,Ring,success,,-57176
+22,28.291,Smell,Ring,visible,"(-60.459, 3.150, 1031.634)",-58258
+22,29.96,Smell,POV,success,,-57644
+22,31.525,Smell,Ring,success,,-58258
+22,31.978,Smell,Ring,visible,"(-117.099, 3.150, 1102.802)",-59328
+22,34.882,Smell,Ring,visible,"(-168.073, 3.150, 1150.256)",-60004
+22,35.323,Smell,Ring,success,,-59328
+22,37.496,Smell,Ring,visible,"(-216.797, 3.150, 1193.656)",-60646
+22,38.116,Smell,Ring,success,,-60004
+22,39.707,Smell,Ring,visible,"(-259.785, 3.150, 1228.399)",-61244
+22,40.728,Smell,Ring,success,,-60646
+22,41.765,Smell,POV,visible,Left,-61784
+22,42.94,Smell,Ring,success,,-61244
+22,43.818,Smell,Ring,visible,"(-342.990, 3.150, 1288.500)",-62436
+22,44.839,Smell,POV,success,,-61784
+22,46.743,Smell,Ring,visible,"(-400.707, 3.150, 1333.785)",-63164
+22,47.051,Smell,Ring,success,,-62436
+22,49.978,Smell,Ring,success,,-63164
+22,50.229,Smell,Ring,visible,"(-470.511, 3.150, 1385.303)",-64060
+22,52.486,Smell,Ring,visible,"(-516.481, 3.150, 1418.157)",-64520
+22,53.463,Smell,Ring,success,,-64060
+22,55.719,Smell,Ring,success,,-64520
+22,56.105,Smell,Ring,visible,"(-594.185, 3.150, 1464.278)",-65416
+22,58.163,Smell,POV,visible,Right,-65882
+22,59.338,Smell,Ring,success,,-65416
+22,60.216,Smell,Ring,visible,"(-682.342, 3.150, 1517.681)",-66496
+22,61.126,Smell,POV,success,,-65882
+22,63.494,Smell,Ring,success,,-66496
+22,63.834,Smell,Ring,visible,"(-751.033, 3.150, 1576.299)",-67434
+22,67.113,Smell,Ring,success,,-67434
+22,67.186,Smell,Ring,visible,"(-813.378, 3.150, 1630.451)",-68102
+22,69.351,Smell,Ring,visible,"(-849.697, 3.150, 1670.432)",-68654
+22,70.42,Smell,Ring,success,,-68102
+22,72.587,Smell,Ring,success,,-68654
+22,73.15,Smell,Ring,visible,"(-913.826, 3.150, 1740.406)",-69550
+22,75.208,Smell,POV,visible,Middle,-70020
+22,76.407,Smell,Ring,success,,-69550
+22,77.836,Smell,POV,success,,-70020
+22,77.864,Smell,Ring,visible,"(-999.410, 3.150, 1820.897)",-70840
+22,80.947,Smell,Ring,visible,"(-1061.433, 3.150, 1865.295)",-71498
+22,81.121,Smell,Ring,success,,-70840
+22,83.538,Smell,Ring,visible,"(-1112.272, 3.150, 1905.690)",-72154
+22,84.181,Smell,Ring,success,,-71498
+22,86.772,Smell,Ring,success,,-72154
+22,87.583,Smell,Ring,visible,"(-1192.714, 3.150, 1966.525)",-73116
+22,90.816,Smell,Ring,success,,-73116
+22,90.957,Smell,Ring,visible,"(-1260.336, 3.150, 2016.805)",-73810
+22,93.927,Smell,Ring,visible,"(-1320.051, 3.150, 2061.101)",-74402
+22,94.189,Smell,Ring,success,,-73810
+22,95.996,Smell,POV,visible,Right,-74950
+22,97.16,Smell,Ring,success,,-74402
+22,98.037,Smell,Ring,visible,"(-1395.627, 3.150, 2130.604)",-75562
+22,99.372,Smell,POV,success,,-74950
+22,101.271,Smell,Ring,success,,-75562
+22,101.903,Smell,Ring,visible,"(-1472.316, 3.150, 2188.730)",-76618
+22,105.136,Smell,Ring,success,,-76618
+22,105.476,Smell,Ring,visible,"(-1544.934, 3.150, 2240.811)",-77478
+22,107.536,Smell,POV,visible,Middle,-77938
+22,108.709,Smell,Ring,success,,-77478
+22,109.587,Smell,Ring,visible,"(-1627.040, 3.150, 2302.987)",-78534
+22,110.944,Smell,POV,success,,-77938
+22,112.513,Smell,Ring,visible,"(-1687.822, 3.150, 2342.530)",-79404
+22,112.842,Smell,Ring,success,,-78534
+22,115.757,Smell,Ring,success,,-79404
+22,116.232,Smell,Ring,visible,"(-1766.297, 3.150, 2391.697)",-80298
+22,119.069,Smell,Ring,visible,"(-1820.025, 3.150, 2438.065)",-80912
+22,119.466,Smell,Ring,success,,-80298
+22,122.018,Smell,Ring,visible,"(-1882.145, 3.150, 2478.222)",-81594
+22,122.303,Smell,Ring,success,,-80912
+22,124.078,Smell,POV,visible,Middle,-82148
+22,125.275,Smell,Ring,success,,-81594
+22,126.129,Smell,Ring,visible,"(-1972.471, 3.150, 2525.897)",-82756
+22,129.051,Smell,POV,timeout,,-82148
+22,129.364,Smell,Ring,success,,-82756
+22,129.771,Smell,Ring,visible,"(-2061.146, 3.150, 2544.448)",-83926
+22,132.452,Smell,Ring,visible,"(-2126.738, 3.150, 2556.822)",-84554
+22,133.027,Smell,Ring,success,,-83926
+22,134.618,Smell,Ring,visible,"(-2177.454, 3.150, 2575.414)",-85134
+22,135.708,Smell,Ring,success,,-84554
+22,136.677,Smell,POV,visible,Right,-85668
+22,137.853,Smell,Ring,success,,-85134
+22,139.55,Smell,POV,success,,-85668
+22,141.768,Heat,Ring,visible,"(-2368.087, 3.151, 2674.378)",-147474
+22,145.046,Heat,Ring,success,,-147474
+22,145.164,Heat,Ring,visible,"(-2434.919, 3.151, 2726.170)",-148246
+22,147.285,Heat,Ring,visible,"(-2481.268, 3.151, 2751.426)",-148780
+22,148.508,Heat,Ring,success,,-148246
+22,149.343,Heat,POV,visible,Middle,-149384
+22,150.63,Heat,Ring,success,,-148780
+22,151.395,Heat,Ring,visible,"(-2574.264, 3.151, 2785.979)",-149994
+22,154.318,Heat,POV,timeout,,-149384
+22,154.458,Heat,Ring,visible,"(-2641.797, 3.151, 2822.539)",-150662
+22,157.049,Heat,Ring,visible,"(-2707.213, 3.151, 2828.734)",-151332
+22,157.696,Heat,Ring,success,,-150662
+22,159.106,Heat,POV,visible,Left,-151976
+22,159.389,Heat,Ring,timeout,,-149994
+22,159.947,Heat,POV,success,,-151976
+22,161.157,Heat,Ring,visible,"(-2799.301, 3.152, 2841.499)",-152790
+22,163.415,Heat,Ring,visible,"(-2852.624, 3.152, 2858.436)",-153338
+22,164.393,Heat,Ring,success,,-152790
+22,165.041,Heat,Ring,timeout,,-151332
+22,165.806,Heat,Ring,visible,"(-2913.857, 3.152, 2856.115)",-154008
+22,168.821,Heat,Ring,visible,"(-2954.190, 3.152, 2943.083)",-154776
+22,170.879,Heat,POV,visible,Right,-155388

@@ -1,0 +1,101 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1,No pain relief,1,0,Placebo,0,56,Male
+2,Moderate pain relief,3,139,40mg CTM_IR,1,62,Female
+3,Complete pain relief,4,0,Placebo,0,50,Male
+4,Complete pain relief,4,129,40mg CTM_IR,1,66,Female
+5,No pain relief,1,0,Placebo,0,84,Female
+6,Complete pain relief,4,78,40mg CTM_IR,1,65,Male
+7,No pain relief,1,0,Placebo,0,77,Male
+8,Complete pain relief,4,108,40mg CTM_IR,1,61,Female
+9,slight pain relief,2,0,Placebo,0,138,Female
+10,slight pain relief,2,72,40mg CTM_IR,1,68,Male
+11,slight pain relief,2,0,Placebo,0,70,Female
+12,Complete pain relief,4,100,40mg CTM_IR,1,45,Female
+13,Complete pain relief,4,0,Placebo,0,60,Male
+14,Moderate pain relief,3,74,40mg CTM_IR,1,88,Male
+15,Moderate pain relief,3,0,Placebo,0,35,Male
+16,Complete pain relief,4,182,40mg CTM_IR,1,130,Male
+17,slight pain relief,2,0,Placebo,0,121,Male
+18,Complete pain relief,4,125,40mg CTM_IR,1,63,Female
+19,No pain relief,1,0,Placebo,0,130,Male
+20,Complete pain relief,4,129,40mg CTM_IR,1,54,Female
+21,slight pain relief,2,0,Placebo,0,78,Male
+22,Moderate pain relief,3,87,40mg CTM_IR,1,92,Female
+23,No pain relief,1,0,Placebo,0,99,Male
+24,Complete pain relief,4,122,40mg CTM_IR,1,59,Male
+25,No pain relief,1,0,Placebo,0,54,Female
+26,Moderate pain relief,3,93,40mg CTM_IR,1,69,Male
+27,No pain relief,1,0,Placebo,0,81,Male
+28,Complete pain relief,4,130,40mg CTM_IR,1,65,Female
+29,slight pain relief,2,0,Placebo,0,32,Male
+30,Complete pain relief,4,96,40mg CTM_IR,1,68,Male
+31,Complete pain relief,4,0,Placebo,0,108,Male
+32,slight pain relief,2,67,40mg CTM_IR,1,64,Female
+33,No pain relief,1,0,Placebo,0,58,Male
+34,Complete pain relief,4,119,40mg CTM_IR,1,79,Male
+35,No pain relief,1,0,Placebo,0,64,Female
+36,Moderate pain relief,3,57,40mg CTM_IR,1,58,Female
+37,Moderate pain relief,3,0,Placebo,0,34,Male
+38,slight pain relief,2,100,40mg CTM_IR,1,69,Male
+39,Moderate pain relief,3,0,Placebo,0,69,Female
+40,Complete pain relief,4,103,40mg CTM_IR,1,77,Female
+41,No pain relief,1,0,Placebo,0,90,Female
+42,Complete pain relief,4,74,40mg CTM_IR,1,70,Male
+43,Complete pain relief,4,0,Placebo,0,63,Male
+44,Complete pain relief,4,131,40mg CTM_IR,1,57,Male
+45,No pain relief,1,0,Placebo,0,86,Male
+46,slight pain relief,2,118,40mg CTM_IR,1,54,Female
+47,Moderate pain relief,3,0,Placebo,0,40,Female
+48,Complete pain relief,4,200,40mg CTM_IR,1,53,Male
+49,No pain relief,1,0,Placebo,0,100,Male
+50,Complete pain relief,4,70,40mg CTM_IR,1,114,Male
+51,slight pain relief,2,0,Placebo,0,76,Male
+52,Moderate pain relief,3,98,40mg CTM_IR,1,48,Male
+53,slight pain relief,2,0,Placebo,0,57,Male
+54,Complete pain relief,4,84,40mg CTM_IR,1,56,Male
+55,Moderate pain relief,3,0,Placebo,0,47,Female
+56,Moderate pain relief,3,114,40mg CTM_IR,1,62,Male
+57,Complete pain relief,4,0,Placebo,0,90,Male
+58,No pain relief,1,55,40mg CTM_IR,1,80,Male
+59,Complete pain relief,4,0,Placebo,0,86,Male
+60,Complete pain relief,4,107,40mg CTM_IR,1,57,Female
+61,No pain relief,1,0,Placebo,0,38,Male
+62,slight pain relief,2,85,40mg CTM_IR,1,59,Male
+63,slight pain relief,2,0,Placebo,0,109,Female
+64,Moderate pain relief,3,91,40mg CTM_IR,1,87,Male
+65,slight pain relief,2,0,Placebo,0,66,Female
+66,Moderate pain relief,3,108,40mg CTM_IR,1,32,Female
+67,No pain relief,1,0,Placebo,0,30,Male
+68,slight pain relief,2,68,40mg CTM_IR,1,62,Male
+69,No pain relief,1,0,Placebo,0,104,Male
+70,Moderate pain relief,3,69,40mg CTM_IR,1,57,Female
+71,No pain relief,1,0,Placebo,0,50,Female
+72,Complete pain relief,4,100,40mg CTM_IR,1,104,Female
+73,No pain relief,1,0,Placebo,0,64,Male
+74,Complete pain relief,4,84,40mg CTM_IR,1,43,Female
+75,No pain relief,1,0,Placebo,0,103,Male
+76,Moderate pain relief,3,85,40mg CTM_IR,1,112,Male
+77,No pain relief,1,0,Placebo,0,56,Female
+78,Complete pain relief,4,92,40mg CTM_IR,1,57,Female
+79,slight pain relief,2,0,Placebo,0,67,Female
+80,Moderate pain relief,3,135,40mg CTM_IR,1,40,Male
+81,No pain relief,1,0,Placebo,0,80,Male
+82,Complete pain relief,4,92,40mg CTM_IR,1,104,Female
+83,Moderate pain relief,3,0,Placebo,0,49,Female
+84,Complete pain relief,4,118,40mg CTM_IR,1,57,Female
+85,slight pain relief,2,0,Placebo,0,73,Male
+86,Moderate pain relief,3,61,40mg CTM_IR,1,67,Male
+87,slight pain relief,2,0,Placebo,0,54,Female
+88,slight pain relief,2,129,40mg CTM_IR,1,89,Female
+89,Complete pain relief,4,0,Placebo,0,40,Female
+90,Moderate pain relief,3,101,40mg CTM_IR,1,54,Female
+91,Moderate pain relief,3,0,Placebo,0,72,Male
+92,slight pain relief,2,98,40mg CTM_IR,1,68,Female
+93,No pain relief,1,0,Placebo,0,60,Female
+94,slight pain relief,2,102,40mg CTM_IR,1,55,Female
+95,slight pain relief,2,0,Placebo,0,123,Male
+96,slight pain relief,2,69,40mg CTM_IR,1,69,Female
+97,slight pain relief,2,0,Placebo,0,62,Male
+98,Complete pain relief,4,88,40mg CTM_IR,1,72,Female
+99,No pain relief,1,0,Placebo,0,82,Male
+100,No pain relief,1,89,40mg CTM_IR,1,121,Female

@@ -1,0 +1,123 @@
+col0,col1,col2,col3,col4,col5
+Albania,AL,39,1.867,3.822,3.403
+Algeria,DZ,34,2.213,4.16,4.202
+Argentina,AR,36,1.957,4.568,-2.298
+Armenia,AM,33,2.218,4.126,0.208
+Australia,AU,79,1.465,8.244,2.471
+Austria,AT,75,1.278,8.012,1.482
+Azerbaijan,AZ,30,2.45,3.946,-3.772
+Bahrain,BH,43,2.398,6.157,2.915
+Bangladesh,BD,26,2.045,3.117,6.923
+Belgium,BE,77,1.528,7.839,1.239
+Benin,BJ,36,1.998,4.583,4.027
+Bolivia,BO,33,2.038,3.971,4.1
+Bosnia and Herzegovina,BA,39,1.915,3.917,2.5
+Botswana,BW,60,1.639,6.126,2.864
+Brazil,BR,40,2.176,5.434,-3.595
+Bulgaria,BG,41,1.646,4.813,3.443
+Burundi,BI,20,2.5,3.43,-1.042
+Cameroon,CM,26,2.356,4.294,4.443
+Canada,CA,82,1.388,8.179,1.433
+Chad,TD,20,2.464,3.891,-6.373
+Chile,CL,66,1.635,6.926,1.555
+China,CN,40,2.288,5.712,6.7
+Colombia,CO,37,2.764,5.354,1.96
+Costa Rica,CR,58,1.699,6.06,4.329
+Croatia,HR,49,1.633,4.754,2.93
+Cyprus,CY,55,1.924,5.447,2.836
+Czech Republic,CI,55,1.36,6.86,2.408
+Democratic Republic of Congo,CI,21,3.112,3.818,2.4
+Denmark,DK,90,1.246,8.158,1.137
+Dominican Republic,DO,31,2.143,4.823,6.567
+Ecuador,EC,31,2.02,4.627,-2.168
+Egypt,EG,34,2.574,4.433,4.298
+El Salvador,SV,36,2.237,4.945,2.4
+Estonia,EE,70,1.732,7.199,1.573
+Ethiopia,ET,34,2.284,4.718,7.958
+Finland,FI,89,1.429,8.626,1.387
+France,FR,69,1.829,7.336,1.213
+Gabon,GA,35,2.033,4.694,2.263
+Georgia,GE,57,2.057,4.707,2.723
+Germany,DE,81,1.486,7.959,1.774
+Ghana,GH,43,1.809,5.646,4.041
+Greece,GR,44,2.044,5.389,0.012
+Guatemala,GT,28,2.27,5.077,3.0
+Honduras,HN,30,2.237,4.902,3.6
+Hungary,HU,48,1.534,5.992,2.0
+Iceland,IS,78,1.192,7.7,7.2
+India,IN,40,2.566,5.564,6.828
+Indonesia,ID,37,1.799,5.167,5.016
+Iran,ID,29,2.411,4.521,6.544
+Ireland,IE,73,1.433,7.872,5.222
+Israel,IL,64,2.656,6.974,4.003
+Italy,IT,47,1.774,5.979,0.88
+Jamaica,JM,39,2.091,6.01,1.54
+Japan,JP,72,1.395,8.327,0.999
+Jordan,JO,48,2.127,6.266,2.1
+Kazakhstan,KZ,29,2.019,4.432,1.083
+Kenya,KE,26,2.379,4.856,6.004
+Korea (South),KI,53,1.858,6.495,2.828
+Kuwait,KW,41,1.842,5.38,2.458
+Latvia,LV,57,1.68,5.341,1.954
+Lebanon,LB,28,2.752,4.331,1.0
+Liberia,LR,37,1.998,4.893,-1.17
+Lithuania,LT,59,1.735,5.918,2.274
+Madagascar,MG,26,1.763,4.064,4.138
+Malawi,MW,31,1.817,4.67,2.27
+Malaysia,MY,49,1.648,6.61,4.239
+Mali,ML,32,2.489,4.814,5.37
+Mauritania,MR,27,2.295,4.091,1.522
+Mauritius,MU,54,1.559,6.315,3.6
+Mexico,MX,30,2.557,5.194,2.302
+Moldova,FM,30,1.953,3.178,4.0
+Montenegro,ME,45,1.884,4.192,2.358
+Morocco,MA,37,2.086,5.5,1.487
+Mozambique,MZ,27,1.963,4.625,3.4
+Nepal,NP,29,2.026,4.941,0.561
+Netherlands,NL,83,1.541,8.296,2.095
+New Zealand,NZ,90,1.287,8.633,3.956
+Nicaragua,NI,26,1.975,3.99,4.7
+Nigeria,NG,28,2.877,3.95,-1.541
+Norway,NO,85,1.5,8.533,1.024
+Oman,OM,45,2.016,6.28,3.057
+Pakistan,PK,32,3.145,3.474,4.707
+Panama,PA,38,1.837,5.798,5.0
+Paraguay,PY,30,2.037,4.478,4.093
+Peru,PE,35,2.057,5.217,3.897
+Philippines,PH,35,2.511,5.331,6.839
+Poland,PL,62,1.557,6.253,2.83
+Portugal,PT,62,1.356,6.848,1.432
+Qatar,QA,61,1.716,7.348,2.683
+Romania,RO,48,1.649,5.042,4.785
+Russia,RO,29,3.079,4.043,-0.248
+Rwanda,RW,54,2.323,6.508,5.932
+Saudi Arabia,SA,46,2.338,6.133,1.398
+Senegal,SN,45,1.978,4.942,6.574
+Serbia,RS,42,1.834,4.044,2.779
+Sierra Leone,SL,30,1.805,4.523,4.903
+Singapore,SG,84,1.535,8.358,1.996
+Slovakia,SK,51,1.603,6.396,3.285
+Slovenia,SI,61,1.408,5.994,2.492
+South Africa,ZA,45,2.316,7.0,0.279
+Spain,ES,58,1.604,6.422,3.235
+Sri Lanka,LK,36,2.133,5.39,4.295
+Sweden,SE,88,1.461,8.608,3.31
+Switzerland,CH,86,1.37,8.561,1.31
+Taiwan,SY,61,1.787,7.268,1.402
+Tanzania,TJ,32,1.899,5.051,6.579
+Thailand,TJ,35,2.312,5.215,3.23
+The FYR of Macedonia,TJ,37,2.092,4.655,2.406
+Trinidad and Tobago,TT,35,2.056,5.503,-5.11
+Tunisia,TN,41,1.949,5.081,1.0
+Turkey,TR,41,2.71,4.925,2.876
+Uganda,UG,25,2.148,5.102,4.673
+Ukraine,UA,29,3.287,3.424,2.308
+United Arab Emirates,AE,66,1.931,7.483,2.732
+United Kingdom,GB,81,1.83,8.129,1.806
+United States,US,74,2.154,8.074,1.616
+Uruguay,UY,71,1.726,6.412,1.438
+Venezuela,VE,17,2.651,3.0,-18.0
+Vietnam,VI,33,1.906,4.93,6.211
+Yemen,YE,14,3.399,2.728,-9.779
+Zambia,ZM,38,1.783,4.917,2.967
+Zimbabwe,ZW,22,2.322,3.76,0.522

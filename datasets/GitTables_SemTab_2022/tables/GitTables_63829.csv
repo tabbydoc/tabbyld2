@@ -1,0 +1,30 @@
+col0,col1,col2,col3
+level-family,level,family,sub-grouping of languoids above the language level
+category-Family,category,Family,
+category-Pseudo_Family,category,Pseudo Family,
+level-language,level,language,defined by mutual non-intellegibility
+category-Language,category,Language,
+category-Pseudo_Language,category,Pseudo Language,
+level-dialect,level,dialect,any variety which is not a language
+category-Dialect,category,Dialect,
+category-Pseudo_Dialect,category,Pseudo Dialect,
+category-Artificial_Language,category,Artificial Language,
+category-Bookkeeping,category,Bookkeeping,
+category-Mixed_Language,category,Mixed Language,
+category-Pidgin,category,Pidgin,
+category-Sign_Language,category,Sign Language,
+category-Speech_Register,category,Speech Register,
+category-Spoken_L1_Language,category,Spoken L1 Language,
+category-Unattested,category,Unattested,
+category-Unclassifiable,category,Unclassifiable,
+aes-not_endangered,aes,not endangered,EGIDS: <=6a; UNESCO: safe; ElCat: safe
+aes-threatened,aes,threatened,EGIDS: 6b; UNESCO: vulnerable; ElCat: vulnerable
+aes-shifting,aes,shifting,EGIDS: 7; UNESCO: definitely endangered; ElCat: definitely endangered
+aes-moribund,aes,moribund,EGIDS: 8a; UNESCO: severely endangered; ElCat: severely endangered
+aes-nearly_extinct,aes,nearly extinct,EGIDS: 8b; UNESCO: critically endangered; ElCat: critically endangered
+aes-extinct,aes,extinct,EGIDS: >=9; UNESCO: extinct; ElCat: extinct
+med-long_grammar,med,long grammar,Grammar with more than 300 pages
+med-grammar,med,grammar,Grammar with less than 300 pages
+med-grammar_sketch,med,grammar sketch,Grammar sketch
+med-phonology_or_text,med,phonology/text,"New Testament, Text, Phonology, (typological) Study Of A Specific Feature or Dictionary"
+med-wordlist_or_less,med,Wordlist or less,Wordlist or less

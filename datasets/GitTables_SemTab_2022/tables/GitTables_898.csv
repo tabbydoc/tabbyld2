@@ -1,0 +1,7 @@
+col0,col1,col2,col3,col4,col5
+fiscal_position_tax_inclusive_template,l10n_jp1,内税,,tax_in_e,tax_in_i
+,,,,tax_out_e,tax_out_i
+fiscal_position_tax_exclusive_template,l10n_jp1,外税,,tax_in_i,tax_in_e
+,,,,tax_out_i,tax_out_e
+fiscal_position_tax_exempt_template,l10n_jp1,海外取引先,,tax_in_e,tax_in_x
+,,,,tax_out_e,tax_out_im

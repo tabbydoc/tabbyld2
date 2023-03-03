@@ -1,0 +1,45 @@
+col0,col1,col2,col3
+Incidentid,numeric,Incident ID,Unique incident ID number assigned by Arizona Department of Transportation (ADOT).
+DateTime,timestamp,Date Time,Date and time that the crash occurred.
+Year,numeric,Year,Year that the crash occurred.
+StreetName,text,Street Name,The street that the crash occurred on.
+CrossStreet,text,Cross-street,The nearest intersecting street or road.
+Distance,numeric,Distance from Intersection,"The distance, in feet, that the crash occurred from the cross-street.  This distance is expressed in feet with positive numbers being either north or east of the intersection and negative numbers being either south or west of the intersection, based on the orientation of the street that the incident occurred on. (i.e. Baseline Rd runs in an E/W direction and so a negative number would be west of the intersection and a positive number would be east of the intersection)."
+JunctionRelation,text,Junction Relation,"The location of the crash in relation to a junction, either an intersection or connection between a driveway and a roadway."
+Totalinjuries,numeric,Total Injuries,Total number of persons with non-fatal injuries involved in the crash.
+Totalfatalities,numeric,Total Fatalities,Total number of persons with fatal injuries involved in the crash.
+Injuryseverity,text,Injury Severity ,"The highest severity of injury of all persons involved in the crash.
+
+No Injury - No complaint or treatment was required by the person.
+
+Possible Injury - Complaint of pain without visible injury. Includes – momentary unconsciousness, claim of injuries not evident, limping, complaint of pain, nausea or hysteria.
+
+Non-Incapacitating Injury - Any injury, other than a fatal injury or an incapacitating injury, which is evident to observers at the scene of the crash in which the injury occurred.
+Examples: contusions (bruises), laceration, bloody nose, lump on head, or abrasions.
+
+Incapacitating Injury - Any injury, other than a fatal injury, which prevents the injured person from walking, driving or normally continuing the activities the person was capable of performing before the injury occurred. Often defined as “needing help from the scene.” Includes: severe lacerations, broken or distorted limbs, skull or chest injuries, abdominal injuries, unconsciousness when taken from the crash scene.
+
+Fatal Injury - Any injury that results in death within 30 days after the crash occurred.
+"
+Collisionmanner,text,Collision Manner,Identifies the manner in which two vehicles initially came into contact.
+Lightcondition,text,Lighting Conditions,The type/level of light that existed at the time of the crash.
+Weather,text,Weather,The prevailing (most significant) atmospheric conditions that existed at the time of the crash.
+SurfaceCondition,text,Surface Condition,The roadway surface condition at the time and place of a crash.
+Unittype_One,text,Unit Type One,"Driver, Passenger, Pedestrian, Pedalcyclist or Driverless."
+Age_Drv1,numeric,,
+Gender_Drv1,text,,
+Traveldirection_One,text,Travel Direction,"The direction the unit was traveling before the incident occurred,"
+Unitaction_One,text,Unit Action One,"The maneuver, or last action, of the unit before the crash."
+Violation1_Drv1,text,Violation  One,The main violation/behavior of the unit that contributed to the crash.
+AlcoholUse_Drv1,text,Alcohol Use 1 ,Indicates whether alcohol was a contributing factor in the crash or not.
+DrugUse_Drv1,text,Drug Use 1,Indicates whether drug use was a contributing factor in the crash or not.
+Unittype_Two,text,Unit Type Two,"Driver, Passenger, Pedestrian, Pedalcyclist or Driverless."
+Age_Drv2,numeric,,
+Gender_Drv2,text,,
+Traveldirection_Two,text,Travel Direction Two,The direction the unit was traveling before the incident occurred.
+Unitaction_Two,text,Unit Action Two,"The maneuver, or last action, of the unit before the crash."
+Violation1_Drv2,text,Violation Two,The main violation/behavior of the unit that contributed to the crash.
+AlcoholUse_Drv2,text,Alcohol Use 2,Indicates whether alcohol was a contributing factor in the crash or not.
+DrugUse_Drv2,text,Drug Use 2,Indicates whether drug use was a contributing factor in the crash or not.
+Latitude,numeric,Latitude,Used to specify the precise location of the crash.
+Longitude,numeric,Longitude,Used to specify the precise location of the crash.

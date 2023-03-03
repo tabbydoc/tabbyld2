@@ -1,0 +1,42 @@
+col0,col1,col2,col3,col4
+TARGET INFO,scientificName,,"Human, CoV-SARS-1 or CoV-SARS-2",
+TARGET INFO,ensembl_id,,Ensembl id of human genes,
+TARGET INFO,name,,Gene name,
+TARGET INFO,biotype,,Gene biotypes,
+TARGET INFO,description,,Gene description,
+TARGET INFO,uniprot_ids,UniProt and Ensembl,UniProt protein ids if protein coding gene,
+TARGET INFO,COVID-19 UniprotKB,UniProt,Whether or not the target was included in the COVID-19 Uniprot website (https://covid-19.uniprot.org),
+FILTERS,FILTER_network,,Target is in UniProt COVID set OR is part of the human-virus interactome OR interacts with a targets that interacts with a viral protein ,
+FILTERS,FILTER_network+drug,,Target fulfils criteria above AND there is a phase 3 or 4 drug available for it,
+FILTERS,FILTER_network+covid_tests,,Target fulfils criteria in first filter (FILTER_network) OR has drug in COVID-19 clinical trial OR has active compound in COVID-19 in vitro assay,
+PROTEIN INTERACTIONS,Covid_direct_interactions,Intact,Target directly interacts with a viral protein,
+PROTEIN INTERACTIONS,Covid_indirect_interactions,Intact,Target interacts with one of the targets above,
+PROTEIN INTERACTIONS,Implicated_in_viral_infection,Intact,Target does not interact with a CoV-SARS-X protein but interacts with another virus,
+DRUGS FOR TARGET,max_phase,ChEMBL,Max phase for any drug targeting this gene/protein for any indication,
+DRUGS FOR TARGET,drugs_in_clinic,ChEMBL,Total number of drugs in clinical trials for a given target,
+DRUGS FOR TARGET,has_invitro_covid_activity,ChEMBL,Rate of assays where the compounds modulating given target have been active against COVID-19 compared to all assays that have tested compounds modulating it,
+DRUGS FOR TARGET,invitro_covid_activity,ChEMBL,List off compounds modulating given target that have been tested in in-vitro assays adn whether they were active or not,
+DRUGS FOR TARGET,has_drug_in_covid_trials,ChEMBL,Whether or not there are drugs in clinical trials for COVID-19 whose mechanism of action is to modulate the given target,
+DRUGS FOR TARGET,drugs_in_covid_trials,ChEMBL,List of drugs whose MoA is to modulate the given targets in clinical trials for COVID-19,
+BASELINE GENE EXPRESSION,hpa_subcellular_location,HPA,Predicted location of the target in the cell,
+BASELINE GENE EXPRESSION,hpa_rna_tissue_distribution,HPA,"Expression distribution in different tissues.
+Options are: not detected, detected in single, detected in some, detected in many and detected in all",
+BASELINE GENE EXPRESSION,hpa_rna_tissue_specificity,HPA,"Expression specificity in different tissues.
+Options are: not detected, low tissue specificity, tissue enhanced, group enriched and tissue enriched",
+BASELINE GENE EXPRESSION,hpa_rna_specific_tissues,HPA,List of tissues if target expression has some degree of specificity,
+BASELINE GENE EXPRESSION,respiratory_system_is_expressed,Expression Atlas,Whether or not the target is expressed in any tissues from the respiratory system,
+BASELINE GENE EXPRESSION,respiratory_system_expressed_tissue_list,Expression Atlas,List of tissues from the respiratory system where the target is expressed if above is TRUE,
+BASELINE GENE EXPRESSION,immune_system_is_expressed,Expression Atlas,Whether or not the target is expressed in any tissues from the immune system,
+BASELINE GENE EXPRESSION,immune_system_expressed_tissue_list,Expression Atlas,List of tissues from the immune system where the target is expressed if above is TRUE,
+COVID-19 HOST PROTEIN REGULATION,is_abundance_reg_on_covid,Bojkova et al. Nature paper,Whether or not the protein abudance of target is significantly altered during viral infection,
+COVID-19 HOST PROTEIN REGULATION,abundance_reg_on_covid,Bojkova et al. Nature paper,"Time point in which the protein abundance has been identified to be altered and direction of regulation.
+Time point options are: 2h, 6h, 10h, 24h
+Direction options are: up and down",
+TARGET TRACTABILITY,Tractability_Top_bucket_(sm),Open Targets,Name of the highest SMALL MOLECULE tractability bucket,https://docs.targetvalidation.org/getting-started/target-tractability
+TARGET TRACTABILITY,Tractability_Top_bucket_(ab),Open Targets,Name of the highest ANTIBODY tractability bucket,https://docs.targetvalidation.org/getting-started/target-tractability
+TARGET TRACTABILITY,Tractability_Top_bucket_(other),Open Targets,Name of the highest tractability bucket for other modalities,https://docs.targetvalidation.org/getting-started/target-tractability
+TARGET SAFETY,has_safety_risk,Open Targets,Whether or not there is any safety risk information for the target,https://docs.targetvalidation.org/getting-started/target-safety
+TARGET SAFETY,safety_info_source,Open Targets,"Source of the safety risk info.
+Options are: known target safety (Literature, HeCaTos), experimental toxicity (eTox, TOX21) or both",https://docs.targetvalidation.org/getting-started/target-safety
+TARGET SAFETY,safety_organs_systems_affected,Open Targets,List of organs where there are known safety risks for the target,https://docs.targetvalidation.org/getting-started/target-safety
+LITERATURE,covid_literature,Open Targets,Number of manuscripts with sentences citing the target in the context of COVID-19,https://docs.targetvalidation.org/data-sources/text-mining

@@ -1,0 +1,57 @@
+col0,col1,col2,col3
+development_projects_id,sequential number generated for counting,Integer,yes
+raw_id,record id within source file,Integer,no
+building_name,name of individual building,String,no
+site_name,name of the development or of the area being development,String,no
+action,"add or build. default is build. If there are multiple projects on a single parcel,  additional buildings need to change to add",String,yes
+scen0,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen1,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen2,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen3,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen4,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen5,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen6,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen7,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen10,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen11,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen12,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen15,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen20,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen21,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen22,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen23,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen24,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen25,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen26,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen27,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen28,0:not included for the scenario; 1:include for the scenario,Integer,yes
+scen29,0:not included for the scenario; 1:include for the scenario,Integer,yes
+address,address of project location,String,yes
+city,city of project location,String,no
+zip,zipcode of project location,String,no
+county,county of project location,String,no
+x,longitude,Double,no
+y,latitude,Double,no
+geom_id,,Integer,yes
+year_built,year in which the project is built or expected to be built,Integer,yes
+building_type_det,detailed building type,String,yes
+building_type,building type,String,yes
+building_type_id,building type id number,Integer,yes
+development_type_id,development type id number,Integer,yes
+building_sqft,total of nonresidential and residential square footage of project,Integer,no
+non_residential_sqft,square footage of nonresidential use,Integer,yes
+residential_units,total number of residential units,Integer,yes
+unit_ave_sqft,average square footage of residential unit,Double,no
+tenure,own or rent,String,no
+rent_type,"affordale only, market/affordable, market, senior, other/unknown",String,no
+stories,stories of the building,Integer,no
+parking_spaces,number of park spaces,String,no
+average_weighted_rent,average rent of residential units or non_residential,String,no
+last_sale_year,year in which the building is sold,Date,no
+last_sale_price,sale price of the project,Date,no
+deed_restricted_units ,total number of deed-restricted units,Integer,yes
+source,data source,String,yes
+parcel_id,,Integer,yes
+zone_id,traffic analysis zone id,Double,no
+edit_date,"date of file editing, example 19000101",Integer,no
+editor,name of editor,String,no

@@ -1,0 +1,11 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11
+1,Patient,read,,,,,138,SHALL,1,/Patient/e62229aa-7327-48d5-bbe8-6b8295de0e55,200
+2,Patient,vread,,,,,139,SHOULD,2,/Patient/e62229aa-7327-48d5-bbe8-6b8295de0e55/_history/5,200
+3,Patient,search-type,"[""gender"", ""name""]",True,"[""gender+name""]","[true, true]",137,SHALL,3,/Patient?gender=male&name=Von,200
+4,Patient,create,,,,,136,MAY,4,/Patient,201
+5,Patient,update,,,,,140,MAY,5,/Patient/,400
+6,Patient,search-type,"[""gender"", ""birthdate""]",True,[],"[true, true]",137,SHALL,6,/Patient?gender=male&birthdate=1936-06-07,200
+7,Patient,search-type,"[""id"", ""gender""]",False,[],"[nil, true]",137,SHALL,7,/Patient?id=e86e9cae-89a3-44bf-9033-32a2d56f5113&gender=male,400
+8,Patient,search-type,"[""_id""]",True,,[true],137,SHALL,8,/Patient?_id=e86e9cae-89a3-44bf-9033-32a2d56f5113,200
+9,Patient,search-type,"[""_id""]",True,,[false],137,SHALL,9,/Patient?_id=%20e86e9cae-89a3-44bf-9033-32a2d56f5113,200
+10,Observation,search-type,"[""code""]",True,,[true],119,SHALL,10,/Observation?code=http://loinc.org%7C29463-7,200

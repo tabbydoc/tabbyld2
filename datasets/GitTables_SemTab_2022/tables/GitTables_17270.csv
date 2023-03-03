@@ -1,0 +1,53 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17
+1,Tanaman Pangan,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+2,Tanaman Hortikultura,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+3,Perkebunan,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+4,Peternakan,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+5,"Jasa Pertanian, dan Perburuan ",0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+6,Kehutanan dan Penebangan Kayu,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+7,Perikanan,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+8,"Pertambangan Minyak, Gas dan Panas Bumi",0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+9,Pertambangan Bijih Logam,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+10,Pertambangan dan Penggalian Lainnya,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+11,Industri Batubara dan Pengilangan Migas,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+12,Industri Makanan dan Minuman,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+13,Pengolahan Tembakau,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+14,Industri Tekstil dan Pakaian Jadi,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+15,"Industri Kulit, Barang dari Kulit dan Alas Kaki",0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+16,"Industri Kayu, Barang dari Kayu dan Gabus dan Barang Anyaman dari Bambu, Rotan dan Sejenisnya",0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+17,"Industri Kertas dan Barang dari Kertas, Percetakan dan Reproduksi Media Rekaman",0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+18,"Industri Kimia, Farmasi dan Obat Tradisional",0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+19,"Industri Karet, Barang dari Karet dan Plastik",0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+20,Industri Barang Galian bukan Logam,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+21,Industri Logam Dasar,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+22,"Industri Barang dari Logam, Komputer, Barang Elektronik, Optik dan Peralatan Listrik",0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+23,Industri Mesin dan Perlengkapan YTDL,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+24,Industri Alat Angkutan,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+25,Industri Furnitur,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+26,"Industri pengolahan lainnya, jasa reparasi dan pemasangan mesin dan peralatan",0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+27,Ketenagalistrikan,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+28,Pengadaan Gas dan Produksi Es,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+29,"Pengadaan Air, Pengelolaan Sampah, Limbah dan Daur Ulang",0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+30,Konstruksi,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+31,"Perdagangan Mobil, Sepeda Motor dan Reparasinya",0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+32,"Perdagangan Besar dan Eceran, Bukan Mobil dan Sepeda Motor",0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+33,Angkutan Rel,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+34,Angkutan Darat,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+35,Angkutan Laut,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+36,Angkutan Sungai Danau dan Penyeberangan,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+37,Angkutan Udara,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+38,"Pergudangan dan Jasa Penunjang Angkutan, Pos dan Kurir",0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+39,Penyediaan Akomodasi,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+40,Penyediaan Makan Minum,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+41,Informasi dan Komunikasi,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+42,Jasa Perantara Keuangan,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+43,Asuransi dan Dana Pensiun,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+44,Jasa Keuangan Lainnya,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+45,Jasa Penunjang Keuangan,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+46,Real Estate,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+47,Jasa Perusahaan,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+48,"Administrasi Pemerintahan, Pertahanan dan Jaminan Sosial Wajib",0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+49,Jasa Pendidikan,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+50,Jasa Kesehatan dan Kegiatan Sosial,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+51,Jasa lainnya,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+52,Lainnya,0.9,0.9,1,1,1,1,1,1,1,1,1,1,1,1,1,1

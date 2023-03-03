@@ -1,0 +1,101 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+shelby,AL,Not guilty,Guilty,1,Republican,92,43,2004,No,Dole
+sessions,AL,Guilty,Guilty,2,Republican,100,43,2002,Yes,Dole
+murkowsk,AK,Guilty,Guilty,2,Republican,68,34,2004,No,Dole
+stevens,AK,Not guilty,Guilty,1,Republican,58,34,2002,No,Dole
+kyl,AZ,Guilty,Guilty,2,Republican,96,47,2000,Yes,Clinton
+mccain,AZ,Guilty,Guilty,2,Republican,80,47,2004,No,Clinton
+timhutch,AR,Guilty,Guilty,2,Republican,100,54,2002,Yes,Clinton
+lincoln,AR,Not guilty,Not guilty,0,Democrat,36,54,2004,Yes,Clinton
+boxer,CA,Not guilty,Not guilty,0,Democrat,0,51,2004,No,Clinton
+feinstei,CA,Not guilty,Not guilty,0,Democrat,4,51,2000,Yes,Clinton
+allard,CO,Guilty,Guilty,2,Republican,100,44,2002,Yes,Dole
+campbell,CO,Guilty,Guilty,2,Republican,72,44,2004,No,Dole
+dodd,CT,Not guilty,Not guilty,0,Democrat,4,52,2004,No,Clinton
+lieberma,CT,Not guilty,Not guilty,0,Democrat,20,52,2000,No,Clinton
+biden,DE,Not guilty,Not guilty,0,Democrat,16,52,2002,No,Clinton
+roth,DE,Guilty,Guilty,2,Republican,64,52,2000,No,Clinton
+graham,FL,Not guilty,Not guilty,0,Democrat,8,48,2004,No,Clinton
+mack,FL,Guilty,Guilty,2,Republican,88,48,2000,No,Clinton
+cleland,GA,Not guilty,Not guilty,0,Democrat,8,46,2002,Yes,Dole
+coverdel,GA,Guilty,Guilty,2,Republican,92,46,2004,No,Dole
+akaka,HI,Not guilty,Not guilty,0,Democrat,4,57,2000,Yes,Clinton
+inouye,HI,Not guilty,Not guilty,0,Democrat,4,57,2004,No,Clinton
+craig,ID,Guilty,Guilty,2,Republican,84,34,2002,No,Dole
+crapo,ID,Guilty,Guilty,2,Republican,92,34,2004,Yes,Dole
+durbin,IL,Not guilty,Not guilty,0,Democrat,4,54,2002,Yes,Clinton
+fitzgera,IL,Guilty,Guilty,2,Republican,80,54,2004,Yes,Clinton
+bayh,IN,Not guilty,Not guilty,0,Democrat,40,42,2004,Yes,Dole
+lugar,IN,Guilty,Guilty,2,Republican,64,42,2000,No,Dole
+grassley,IA,Guilty,Guilty,2,Republican,80,50,2004,No,Clinton
+harkin,IA,Not guilty,Not guilty,0,Democrat,12,50,2002,No,Clinton
+brownbac,KS,Guilty,Guilty,2,Republican,100,36,2004,Yes,Dole
+roberts,KS,Guilty,Guilty,2,Republican,68,36,2002,Yes,Dole
+bunning,KY,Guilty,Guilty,2,Republican,92,46,2004,Yes,Clinton
+mcconnel,KY,Guilty,Guilty,2,Republican,88,46,2002,No,Clinton
+breaux,LA,Not guilty,Not guilty,0,Democrat,20,52,2004,No,Clinton
+landrieu,LA,Not guilty,Not guilty,0,Democrat,16,52,2002,Yes,Clinton
+collins,ME,Not guilty,Not guilty,0,Republican,48,52,2002,Yes,Clinton
+snowe,ME,Not guilty,Not guilty,0,Republican,44,52,2000,Yes,Clinton
+mikulski,MD,Not guilty,Not guilty,0,Democrat,4,54,2004,No,Clinton
+sarbanes,MD,Not guilty,Not guilty,0,Democrat,0,54,2000,No,Clinton
+kennedy,MA,Not guilty,Not guilty,0,Democrat,4,62,2000,No,Clinton
+jkerry,MA,Not guilty,Not guilty,0,Democrat,0,62,2002,No,Clinton
+abraham,MI,Guilty,Guilty,2,Republican,76,52,2000,Yes,Clinton
+levin,MI,Not guilty,Not guilty,0,Democrat,0,52,2002,No,Clinton
+grams,MN,Guilty,Guilty,2,Republican,100,51,2000,Yes,Clinton
+wellston,MN,Not guilty,Not guilty,0,Democrat,4,51,2002,No,Clinton
+cochran,MS,Guilty,Guilty,2,Republican,56,44,2002,No,Dole
+lott,MS,Guilty,Guilty,2,Republican,72,44,2000,No,Dole
+ashcroft,MO,Guilty,Guilty,2,Republican,100,48,2000,Yes,Clinton
+bond,MO,Guilty,Guilty,2,Republican,76,48,2004,No,Clinton
+baucus,MT,Not guilty,Not guilty,0,Democrat,4,41,2002,No,Dole
+burns,MT,Guilty,Guilty,2,Republican,88,41,2000,No,Dole
+hagel,NE,Guilty,Guilty,2,Republican,80,35,2002,Yes,Dole
+bkerrey,NE,Not guilty,Not guilty,0,Democrat,4,35,2000,No,Dole
+bryan,NV,Not guilty,Not guilty,0,Democrat,4,44,2000,No,Clinton
+hreid,NV,Not guilty,Not guilty,0,Democrat,8,44,2004,No,Clinton
+gregg,NH,Guilty,Guilty,2,Republican,76,49,2004,No,Clinton
+bobsmith,NH,Guilty,Guilty,2,Republican,96,49,2002,No,Clinton
+lautenbe,NJ,Not guilty,Not guilty,0,Democrat,0,53,2000,No,Clinton
+torricel,NJ,Not guilty,Not guilty,0,Democrat,16,53,2002,Yes,Clinton
+bingaman,NM,Not guilty,Not guilty,0,Democrat,0,50,2000,No,Clinton
+domenici,NM,Guilty,Guilty,2,Republican,60,50,2002,No,Clinton
+moynihan,NY,Not guilty,Not guilty,0,Democrat,12,59,2000,No,Clinton
+schumer,NY,Not guilty,Not guilty,0,Democrat,19,59,2004,Yes,Clinton
+edwards,NC,Not guilty,Not guilty,0,Democrat,40,44,2004,Yes,Dole
+helms,NC,Guilty,Guilty,2,Republican,100,44,2002,No,Dole
+conrad,ND,Not guilty,Not guilty,0,Democrat,16,40,2000,No,Dole
+dorgan,ND,Not guilty,Not guilty,0,Democrat,16,40,2004,No,Dole
+dewine,OH,Guilty,Guilty,2,Republican,68,48,2000,Yes,Clinton
+voinovic,OH,Guilty,Guilty,2,Republican,60,48,2004,Yes,Clinton
+inhofe,OK,Guilty,Guilty,2,Republican,100,40,2002,Yes,Dole
+nickles,OK,Guilty,Guilty,2,Republican,96,40,2004,No,Dole
+gorsmith,OR,Guilty,Guilty,2,Republican,72,47,2002,Yes,Clinton
+wyden,OR,Not guilty,Not guilty,0,Democrat,8,47,2004,Yes,Clinton
+santorum,PA,Guilty,Guilty,2,Republican,84,49,2000,Yes,Clinton
+specter,PA,Not guilty,Not guilty,0,Republican,32,49,2004,No,Clinton
+chafee,RI,Not guilty,Not guilty,0,Republican,24,60,2000,No,Clinton
+jackreed,RI,Not guilty,Not guilty,0,Democrat,0,60,2002,Yes,Clinton
+hollings,SC,Not guilty,Not guilty,0,Democrat,8,44,2004,No,Dole
+thurmond,SC,Guilty,Guilty,2,Republican,96,44,2002,No,Dole
+daschle,SD,Not guilty,Not guilty,0,Democrat,4,43,2004,No,Dole
+johnson,SD,Not guilty,Not guilty,0,Democrat,12,43,2002,Yes,Dole
+frist,TN,Guilty,Guilty,2,Republican,72,48,2000,Yes,Clinton
+thompson,TN,Not guilty,Guilty,1,Republican,88,48,2002,Yes,Clinton
+gramm,TX,Guilty,Guilty,2,Republican,100,44,2002,No,Dole
+kaybhut,TX,Guilty,Guilty,2,Republican,92,44,2000,Yes,Dole
+bennett,UT,Guilty,Guilty,2,Republican,68,33,2004,No,Dole
+hatch,UT,Guilty,Guilty,2,Republican,68,33,2000,No,Dole
+jeffords,VT,Not guilty,Not guilty,0,Republican,21,54,2000,No,Clinton
+leahy,VT,Not guilty,Not guilty,0,Democrat,13,54,2004,No,Clinton
+robb,VA,Not guilty,Not guilty,0,Democrat,4,45,2000,No,Dole
+warner,VA,Not guilty,Guilty,1,Republican,80,45,2002,No,Dole
+gorton,WA,Not guilty,Guilty,1,Republican,60,51,2000,No,Clinton
+murray,WA,Not guilty,Not guilty,0,Democrat,0,51,2004,No,Clinton
+byrd,WV,Not guilty,Not guilty,0,Democrat,16,51,2000,No,Clinton
+rockefel,WV,Not guilty,Not guilty,0,Democrat,8,51,2002,No,Clinton
+feingold,WI,Not guilty,Not guilty,0,Democrat,8,49,2004,No,Clinton
+kohl,WI,Not guilty,Not guilty,0,Democrat,20,49,2000,No,Clinton
+enzi,WY,Guilty,Guilty,2,Republican,88,37,2002,Yes,Dole
+thomas,WY,Guilty,Guilty,2,Republican,84,37,2000,Yes,Dole

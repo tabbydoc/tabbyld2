@@ -1,0 +1,9 @@
+col0,col1,col2,col3
+Changes:,,,
+root/attack,:,IntNode	Added,
+root/battlegroundsPremiumDbfId,:,IntNode	Added,
+root/health,:,IntNode	Added,
+root/race,:,TextNode	Added,
+root/techLevel,:,IntNode	Added,
+{,,,
+};,,,

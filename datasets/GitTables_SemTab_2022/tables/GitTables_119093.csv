@@ -1,0 +1,41 @@
+col0,col1,col2
+1,id,Anonymised ID
+2,AGE,Age at interview assuming DOB is 1st of specified month
+3,SEX,Gender
+4,GD002,gd002 - Is this respondent male or female?
+5,SOCMARRIED,SOCmarried  Currently married
+6,CS006,cs006  Are you...?
+7,MAR_4,mar4  Marital Status
+8,DM001,dm001  What is the highest level of education you have completed
+9,WE001,we001  Which one of these would you say best describes your current situation?
+10,WE003,"we003  Did you, nevertheless, do any paid work during the last week, either as an em?"
+11,BH001,"bh001  Have you ever smoked cigarettes, cigars, cigarillos or a pipe daily for a per?"
+12,BH002,bh002  Do you smoke at the present time?
+13,BH003,bh003  How old were you when you stopped smoking?
+14,BEHSMOKER,BEHsmoker  Smoker
+15,SCQALCOHOL,SCQalcohol  drink alcohol
+16,SCQALCOFREQ,SCQalcofreq  frequency of drinking alcohol
+17,SCQALCONO1,SCQalcono1  more than two drinks in a single day
+18,SCQALCONO2,SCQalcono2  How many drinks consumed on days drink taken
+19,BEHALC.FREQ.WEEK,BEHalc_freq_week  Average times drinking per week
+20,BEHALC.DRINKSPERDAY,BEHalc_drinksperday  Standard drinks per day
+21,BEHALC.DRINKSPERWEEK,BEHalc_drinksperweek  Standard drinks a week
+22,BH101,"bh101  During the last 7 days, on how many days did you do vigorous physical activit?"
+23,BH102,bh102  How much time did you usually spend doing vigorous physical activities on one?
+24,BH102A,bh102a  How much time did you usually spend doing vigorous physical activities on one?
+25,BH103,"bh103  During the last 7 days, on how many days did you do moderate physical activit?"
+26,BH104,bh104  How much time did you usually spend doing moderate physical activities on one?
+27,BH104A,bh104a  How much time did you usually spend doing moderate physical activities on one?
+28,BH105,"bh105  During the last 7 days, on how many days did you walk for at least 10 minutes?"
+29,BH106,bh106  How much time did you usually spend walking on one of those days? HOURS
+30,BH106A,bh106a  How much time did you usually spend walking on one of those days? MINS
+31,BH107,"bh107  During the last 7 days, how much time did you spend sitting on a week day? HO?"
+32,BH107A,"bh107a  During the last 7 days, how much time did you spend sitting on a week day? MINS"
+33,IPAQMETMINUTES,IPAQmetminutes  Phsyical activity met-minutes
+34,IPAQEXERCISE3,IPAQmetminutes  Phsyical activity met-minutes
+35,SR.HEIGHT.CENTIMETRES,SR_Height_Centimetres
+36,HEIGHT,Respondent height
+37,SR.WEIGHT.KILOGRAMMES,SR_Weight_Kilogrammes
+38,WEIGHT,Respondent weight
+39,PH001,ph001  Now I would like to ask you some questions about your health.  Would you say ?
+40,PH009,"ph009  In general, compared to other people your age, would you say your health is"

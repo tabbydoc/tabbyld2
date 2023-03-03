@@ -1,0 +1,39 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27,col28,col29,col30,col31,col32,col33,col34
+1,Page,,,,,,,,,Database ER diagram (crow's foot),,,,,,,,,,,,,,,,,,,,,,,,
+2,Entity,Entity Relationship,1.0,,,,,,,Encounter,encounter ID,,pat_id,,hsp account id,,mrn,,admit date time,,patient class,"inpat, ER, outpat",disch date time,,disch disposition,,acct id,,inpatient data id,,acuity level ??,,level of care??,"icu, crit, acute, etc."
+3,Entity,Entity Relationship,1.0,,,,,,,Patient (limit to COVID+ lab or COVID dx),Pat_ID,sex,race,ethnicity,mrn,DOB,death date,ZIP code etc.,,,,,,,,,,,,,,,,
+4,Entity,Entity Relationship,1.0,,,,,,,pat_enc_dx,pat id,dx id,encounter id,dx icd code,dx name,noted date,rank?,,,,,,,,,,,,,,,,,
+5,Text,Standard,1.0,,30.0,,,,,Database ER diagram (crow's foot),,,,,,,,,,,,,,,,,,,,,,,,
+6,Text,Standard,1.0,,30.0,,,,,"Andrew Zimolzak  |  October 14, 2020",,,,,,,,,,,,,,,,,,,,,,,,
+7,Rectangle Container,Flowchart Shapes,1.0,,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+8,Text,Standard,1.0,7.0,31.0,,,,,Learn how to edit ERD shapes,,,,,,,,,,,,,,,,,,,,,,,,
+9,Text,Standard,1.0,7.0,31.0,,,,,"To manually customize this ERD:
+Double-click on any text in an entity shape and add/edit text by typing.
+Click on an entity shape and toggle the amount of fields using the advanced shape bar at the top of the canvas.
+Add and remove lines to show relationships between entities.
+To update cardinality, click on a line and then click ""Endpoint"" on the properties bar at the top of the canvas.  
+To automatically create your own ERD:
+Click ""     Import Data"" in the Entity Relationship shape library to the left of the canvas.",,,,,,,,,,,,,,,,,,,,,,,,
+10,Text,Standard,1.0,7.0,31.0,,,,,"Tutorials (Hold Shift + ⌘ or Ctrl, then click)",,,,,,,,,,,,,,,,,,,,,,,,
+11,SVGPathBlock2,,1.0,7.0,32.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+12,Button,UI Mockups,1.0,7.0,31.0,,,,,Read about how to create entity relationship diagrams,,,,,,,,,,,,,,,,,,,,,,,,
+13,Button,UI Mockups,1.0,7.0,31.0,,,,,Watch a tutorial on how to import  your ERD,,,,,,,,,,,,,,,,,,,,,,,,
+14,Button,UI Mockups,1.0,7.0,31.0,,,,,Watch a tutorial on how to export  your ERD,,,,,,,,,,,,,,,,,,,,,,,,
+15,Button,UI Mockups,1.0,7.0,31.0,,,,,Read about ERD symbols and notation,,,,,,,,,,,,,,,,,,,,,,,,
+16,Button,UI Mockups,1.0,7.0,31.0,,,,,"See an example (Hold Shift + ⌘ or Ctrl, then click)",,,,,,,,,,,,,,,,,,,,,,,,
+17,Button,UI Mockups,1.0,7.0,31.0,,,,,Watch Lucidchart basic tutorials,,,,,,,,,,,,,,,,,,,,,,,,
+18,User Image,User Images,1.0,7.0,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+19,Entity,Entity Relationship,1.0,,,,,,,Problem,pat_id,mrn,prob id,dx id,prob date,prob/dx name,prob/dx icd code,,,,,,,,,,,,,,,,,
+20,Entity,Entity Relationship,1.0,,,,,,,Flowsheet (limit to CY2020),pat id,date/time of observation,obs value,"obs type (Temp 6 and 891, P, Resp 9 and 893, BP, nibp, spo2 10 and 894, Pulse Ox, height, Weight, fio2, fio2 %, fio2 measured, o2, o2 flow rate, peep set, peep measured)",flowsheet entry id,,,,,,,,,,,,,,,,,,,
+21,Entity,Entity Relationship,1.0,,,,,,,"Procedure / Order / Result (limit to CY2020, can limit to labs and ""real"" CPT procedures only. Or to LAB, RT, PRO, SUR codes?)",pat_id,encounter ID ??,other ids...,order date,proc id,proc name,CPT code,result date,ord value,ord num value,component (lab),,,,,,,,,,,,,
+22,Entity,Entity Relationship,1.0,,,,,,,pat_enc_hosp_prob,pat id,hsp account id,problem list id,dx id,noted date,dx name,icd10,,,,,,,,,,,,,,,,,
+23,Line,,1.0,,,2.0,3.0,CFN ERD Many Arrow,CFN ERD One Arrow,,,,,,,,,,,,,,,,,,,,,,,,,
+24,Line,,1.0,,30.0,5.0,5.0,None,None,,,,,,,,,,,,,,,,,,,,,,,,,
+25,Line,,1.0,,,2.0,4.0,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,,,,,
+26,Line,,1.0,,,3.0,19.0,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,,,,,
+27,Line,,1.0,,,3.0,20.0,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,,,,,
+28,Line,,1.0,,,3.0,21.0,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,,,,,
+29,Line,,1.0,,,2.0,22.0,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,,,,,
+30,Group 1,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+31,Group 2,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+32,Group 3,,1.0,,31.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

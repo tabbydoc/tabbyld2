@@ -1,0 +1,81 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21
+AP,,,,0.0,sim/cockpit/autopilot/autopilot_mode,,!2,,2,,2.0,sim/autopilot/servos_toggle,sim/autopilot/servos_toggle,Auto Pilot On,Auto Pilot Off,,,,,,
+Ident,,,,1.0,sim/cockpit2/radios/indicators/transponder_id,,,,,,,sim/transponder/transponder_ident,,Transponder Ident,,sim/cockpit/radios/transponder_code,,0.0,7777.0,,Transponder set to [N]
+XPDR Mode,,,1.0,1.0,sim/cockpit2/radios/actuators/transponder_mode,,,,,=2,,,,,,sim/cockpit2/radios/actuators/transponder_mode,,0.0,3.0,up-down,Transponder Off[=0];Transponder Standby[=1];Transponder On Mode A[=2];Transponder On Mode C[=3]
+COM1,,,,2.0,sim/cockpit2/radios/actuators/audio_selection_com1,,!1,,1,,,sim/audio_panel/monitor_audio_com1,,,,sim/cockpit/radios/com1_freq_hz,100.0,,,,COM 1 Set to [n] Mega Hertz
+COM1 XFR,,,,10.0,,,1,,,,,sim/radios/com1_standy_flip,,,,sim/cockpit/radios/com1_stdby_freq_hz,100.0,,,,COM 1 Stand By Set to [n] Mega Hertz
+COM2,,,,3.0,sim/cockpit2/radios/actuators/audio_selection_com2,,<1,,>0,,,sim/audio_panel/monitor_audio_com2,,,,sim/cockpit/radios/com2_freq_hz,100.0,,,,COM 2 Set to [n] Mega Hertz
+COM2 XFR,,,,11.0,,,1,,,,,sim/radios/com2_standy_flip,,,,sim/cockpit/radios/com2_stdby_freq_hz,100.0,,,,COM 2 Stand By Set to [n] Mega Hertz
+NAV1,,,,4.0,sim/cockpit2/radios/actuators/audio_selection_nav1,,!1,,1,,,sim/audio_panel/monitor_audio_nav1,,,,sim/cockpit/radios/nav1_freq_hz,100.0,,,,NAV 1 Set to [n] Mega Hertz
+NAV1 XFR,,,,12.0,,,1,,,,,sim/radios/nav1_standy_flip,,,,sim/cockpit/radios/nav1_stdby_freq_hz,100.0,,,,NAV 1 Stand By Set to [n] Mega Hertz
+NAV2,,,,5.0,sim/cockpit2/radios/actuators/audio_selection_nav2,,!1,,1,,,sim/audio_panel/monitor_audio_nav2,,,,sim/cockpit/radios/nav2_freq_hz,100.0,,,,NAV 2 Set to [n] Mega Hertz
+NAV2 XFR,,,,13.0,,,1,,,,,sim/radios/nav2_standy_flip,,,,sim/cockpit/radios/nav2_stdby_freq_hz,100.0,,,,NAV 2 Stand By Set to [n] Mega Hertz
+ADF1,,,,6.0,sim/cockpit2/radios/actuators/audio_selection_adf1,,!1,,1,,,sim/audio_panel/monitor_audio_adf1,,,,sim/cockpit/radios/adf1_freq_hz,,,,,ADF 1 Set to [n] Kilo Hertz
+ADF2,,,1.0,6.0,sim/cockpit2/radios/actuators/audio_selection_adf2,,!1,,1,,,sim/audio_panel/monitor_audio_adf2,,,,sim/cockpit/radios/adf2_freq_hz,,,,,ADF 2 Set to [n] Kilo Hertz
+FD,,,,8.0,sim/cockpit/autopilot/autopilot_mode,,!3,,3,,3.0,sim/autopilot/fdir_toggle,sim/autopilot/fdir_toggle,Flight Director On,Flight Director Off,,,,,,
+LANDING LIGHTS,,,,18.0,sim/cockpit/electrical/landing_lights_on,,!1,,1,,1.0,sim/lights/landing_lights_toggle,sim/lights/landing_lights_toggle,Landing Lights On,Landing Lights Off,,,,,,
+Parking brakes,,,,15.0,sim/cockpit2/controls/parking_brake_ratio,,!1,,1,,1.0,sim/flight_controls/brakes_toggle_max,sim/flight_controls/brakes_toggle_max,Brakes On,Brakes Off,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+HDG,,,,16.0,sim/cockpit/autopilot/autopilot_state,,!2,,2,,2.0,sim/autopilot/heading,sim/autopilot/heading,Heading Mode On,Heading Mode Off,sim/cockpit2/autopilot/heading_dial_deg_mag_pilot,,0.0,360.0,,Heading set to [N] degrees
+HDG SYNC,,,,17.0,,,1,,,,,sim/autopilot/heading_sync,,,,,,,,,
+DG Sync,,,1.0,17.0,,,1,,,,,sim/instruments/DG_sync_mag,,,,,,,,,
+TAXI LIGHTS,,,,26.0,sim/cockpit2/switches/taxi_light_on,,!1,,1,,1.0,sim/lights/taxi_lights_toggle,sim/lights/taxi_lights_toggle,Taxi Lights On,Taxi Lights Off,,,,,,
+Plan Pushback,,,,31.0,,,,,,,,BetterPushback/start_planner,,,,sim/cockpit/radios/nav1_stdby_freq_hz,100.0,,,,NAV 1 Stand By Set to [n] Mega Hertz
+Start Pushback,,,1.0,31.0,,,,,,,,BetterPushback/start,,,,sim/cockpit/radios/nav1_stdby_freq_hz,100.0,,,,NAV 1 Stand By Set to [n] Mega Hertz
+,,,,,,,,,,,,,,,,,,,,,
+ALT,,,,24.0,sim/cockpit/autopilot/autopilot_state,,!16416,,16384,32,,sim/autopilot/altitude_hold,,Altitude Mode off[!&16416];Altitude Mode On[&16384];Altitude Mode Arm[&32],,sim/cockpit/autopilot/altitude,,,,,Altitude set to [n] feet
+HDG DOWN,,,,25.0,,,,,1,,,*sim/autopilot/heading_down,,,,,,,,,
+BEACON LIGHT,,,,34.0,sim/cockpit/electrical/beacon_lights_on,,!1,,1,,1.0,sim/lights/beacon_lights_toggle,sim/lights/beacon_lights_toggle,Beacon Lights On,Beacon Lights Off,,,,,,
+NAV,,,,32.0,sim/cockpit/autopilot/autopilot_state,,!768,,512,256,,sim/autopilot/NAV,,Nav Off[!768];Nav On[&512];Nav Arm[&256],Nav On,,,,,,
+HDG UP,,,,33.0,,,,,1,,,*sim/autopilot/heading_up,,,,,,,,,
+STROBE LIGHT,,,,42.0,sim/cockpit2/switches/strobe_lights_on,,!1,,1,,1.0,sim/lights/strobe_lights_toggle,sim/lights/strobe_lights_toggle,Strobe Lights On,Strobe Lights Off,,,,,,
+Proc,,,,37.0,,,1,,,,,sim/GPS/g430n1_proc,,,,,,,,,
+FPL,,,,38.0,,,0,,,,,sim/GPS/g430n1_fpl,,,,,,,,,
+FMS CRSR,,,,39.0,,,1,,,,,sim/GPS/g430n1_cursor,,,,,,,,,
+Baro,,,,14.0,,,1,,,,,,,,,sim/cockpit2/gauges/actuators/barometer_setting_in_hg_pilot,0.01,,,,Altimeter set to [N] inches of mercury
+NAV LIGHTS,,,,50.0,sim/cockpit2/switches/navigation_lights_on,,!1,,1,,1.0,sim/lights/nav_lights_toggle,sim/lights/nav_lights_toggle,Navigation Lights On,Navigation Lights Off,,,,,,
+Rng Minus,,,,43.0,,,,,,,,sim/GPS/g430n1_zoom_out,,,,,,,,,
+Rng Plus,,,1.0,43.0,,,,,,,,sim/GPS/g430n1_zoom_in,,,,,,,,,
+Clr,,,,45.0,,,1,,,,,*sim/GPS/g430n1_clr,,,,,,,,,
+FMS In Down,,,,46.0,,,1,,,,,sim/GPS/g430n1_page_dn,,,,,,,,,
+FMS Out Down,,,,47.0,,,1,,,,,sim/GPS/g430n1_chapter_dn,,,,,,,,,
+VS,,,,48.0,sim/cockpit/autopilot/autopilot_state,,!16,,16,,16.0,sim/autopilot/vertical_speed_pre_sel,sim/autopilot/vertical_speed_pre_sel,Vertical Speed On,Vertical Speed Off,sim/cockpit/autopilot/vertical_velocity,,,,,Vertical Speed to [n] feet per minute
+CRS DOWN,,,,49.0,,,1,,,,,*sim/radios/obs_HSI_down,,,,sim/cockpit2/radios/actuators/hsi_obs_deg_mag_pilot,,0.0,360.0,,Course set to [N] degrees
+CDI,,,,58.0,,,1,,,,,,,,,sim/cockpit/switches/HSI_selector,,0.0,2.0,wrap,H S I Set to V O R  1[=0];H S I Set to V O R 2[=1];H S I Set To GPS[=2]
+Direct To,,,,51.0,,,1,,,,,sim/GPS/g430n1_direct,,,,,,,,,
+Menu,,,,52.0,,,1,,,,,sim/GPS/g430n1_menu,,,,,,,,,
+ENT,,,,53.0,,,1,,,,,sim/GPS/g430n1_ent,,,,,,,,,
+FMS IN UP,,,,54.0,,,1,,,,,sim/GPS/g430n1_page_up,,,,,,,,,
+FMS OUT UP,,,,55.0,,,1,,,,,sim/GPS/g430n1_chapter_up,,,,,,,,,
+CRS UP,,,,57.0,,,1,,,,,*sim/radios/obs_HSI_up,,,,sim/cockpit2/radios/actuators/hsi_obs_deg_mag_pilot,,0.0,360.0,,Course set to [N] degrees
+7,,,,60.0,,,,,1,,,SRS/X-KeyPad/Keypad_7,,,,,,,,,
+7,,,1.0,60.0,,,,,1,,,SRS/X-KeyPad/Keypad_7,,,,,,,,,
+4,,,,61.0,,,,,1,,,SRS/X-KeyPad/Keypad_4,,,,,,,,,
+4,,,1.0,61.0,,,,,1,,,SRS/X-KeyPad/Keypad_4,,,,,,,,,
+1,,,,62.0,,,,,1,,,SRS/X-KeyPad/Keypad_1,,,,,,,,,
+1,,,1.0,62.0,,,,,1,,,SRS/X-KeyPad/Keypad_1,,,,,,,,,
+Minus,,,,63.0,,,,,1,,,SRS/X-KeyPad/Keypad_Minus,,,,,,,,,
+Minus,,,1.0,63.0,,,,,1,,,SRS/X-KeyPad/Keypad_Minus,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+APR,,,,65.0,sim/cockpit/autopilot/autopilot_state,,!3072,,2048,1024,,sim/autopilot/approach,,Approach Off[!&3072];Approach On[&2048];Approach Arm[&1024],,,,,,,
+BC,,,1.0,65.0,sim/cockpit/autopilot/backcourse_on,,!1,,1,,1.0,sim/autopilot/back_course,sim/autopilot/back_course,Back Course On,Back Course Off,,,,,,
+CLR,,,,67.0,,,,,1,,,SRS/X-KeyPad/Keypad_Clear,,,,,,,,,
+CLR,,,1.0,67.0,,,,,1,,,SRS/X-KeyPad/Keypad_Clear,,,,,,,,,
+8,,,,68.0,,,,,1,,,SRS/X-KeyPad/Keypad_8,,,,,,,,,
+8,,,1.0,68.0,,,,,1,,,SRS/X-KeyPad/Keypad_8,,,,,,,,,
+5,,,,69.0,,,,,1,,,SRS/X-KeyPad/Keypad_5,,,,,,,,,
+5,,,1.0,69.0,,,,,1,,,SRS/X-KeyPad/Keypad_5,,,,,,,,,
+2,,,,70.0,,,,,1,,,SRS/X-KeyPad/Keypad_2,,,,,,,,,
+2,,,1.0,70.0,,,,,1,,,SRS/X-KeyPad/Keypad_2,,,,,,,,,
+0,,,,71.0,,,,,1,,,SRS/X-KeyPad/Keypad_0,,,,,,,,,
+0,,,1.0,71.0,,,,,1,,,SRS/X-KeyPad/Keypad_0,,,,,,,,,
+SHIFT,,,,72.0,,,1,,,,,SRS/X-KeyPad/Toggle_Shift,,,,,,,,,
+SHIFT,,,1.0,72.0,,,1,,,,,SRS/X-KeyPad/Toggle_Shift,,,,,,,,,
+9,,,,76.0,,,,,1,,,SRS/X-KeyPad/Keypad_9,,,,,,,,,
+9,,,1.0,76.0,,,,,1,,,SRS/X-KeyPad/Keypad_9,,,,,,,,,
+6,,,,77.0,,,,,1,,,SRS/X-KeyPad/Keypad_6,,,,,,,,,
+6,,,1.0,77.0,,,,,1,,,SRS/X-KeyPad/Keypad_6,,,,,,,,,
+3,,,,78.0,,,,,1,,,SRS/X-KeyPad/Keypad_3,,,,,,,,,
+3,,,1.0,78.0,,,,,1,,,SRS/X-KeyPad/Keypad_3,,,,,,,,,
+.,,,,79.0,,,,,1,,,SRS/X-KeyPad/Keypad_Decimal,,,,,,,,,
+.,,,1.0,79.0,,,,,1,,,SRS/X-KeyPad/Keypad_Decimal,,,,,,,,,

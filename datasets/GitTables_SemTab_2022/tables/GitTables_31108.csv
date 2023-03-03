@@ -1,0 +1,30 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+ DiagnosticReport.category,CodeableConcept,0..1,"Codes for diagnostic service sections.For example codes, see Diagnostic Service Section Codes",,http://hl7-fhir.github.io/valueset-diagnostic-service-sections.html,"{""code"": ""AU"", ""system"": ""http://hl7.org/fhir/v2/0074""}",http://hl7.org/fhir/v2/0074
+ DiagnosticReport.code,CodeableConcept,1..1,Codes that describe Diagnostic Reports.The codes SHOULD be taken from LOINC Diagnostic Report Codes,,http://hl7-fhir.github.io/valueset-report-codes.html,"{""code"":""1003-3"", ""system"":""http://lonic.org""}",http://loinc.org
+ DiagnosticReport.codedDiagnosis,CodeableConcept,0..0,"Diagnoses codes provided as adjuncts to the report.For example codes, see SNOMED CT Clinical Findings",,http://hl7-fhir.github.io/valueset-clinical-findings.html,"{""code"":""87788003"", ""system"":""http://snomed.info/sct""}",http://snomed.info/sct
+ DiagnosticReport.conclusion,string,0..1,,,,,
+ DiagnosticReport.contained,Resource,0..*,,,,,
+ DiagnosticReport.effective[x],dateTime,1..1,,,,,
+ DiagnosticReport.encounter,Reference(Encounter),0..1,,Encounter,,,
+ DiagnosticReport.extension,Extension,0..*,,,,,
+ DiagnosticReport.id,id,0..1,,,,,
+ DiagnosticReport.identifier,Identifier,0..*,,,,,
+ DiagnosticReport.image,BackboneElement,0..*,,,,,
+ DiagnosticReport.image.comment,string,0..1,,,,,
+ DiagnosticReport.image.extension,Extension,0..*,,,,,
+ DiagnosticReport.image.id,string,0..1,,,,,
+ DiagnosticReport.image.link,Reference(Media),1..1,,Media,,,
+ DiagnosticReport.image.modifierExtension,Extension,0..*,,,,,
+ DiagnosticReport.imagingStudy,Reference(ImagingStudy),0..*,,ImagingStudy,,,
+ DiagnosticReport.implicitRules,uri,0..1,,,,,
+ DiagnosticReport.issued,instant,1..1,,,,,
+ DiagnosticReport.meta,Meta,0..1,,,,,
+ DiagnosticReport.modifierExtension,Extension,0..*,,,,,
+ DiagnosticReport.performer,Reference(Practitioner),1..*,,Practitioner,,,
+ DiagnosticReport.presentedForm,Attachment,0..*,,,,,
+ DiagnosticReport.request,Reference(DiagnosticRequest),0..*,,DiagnosticRequest,,,
+ DiagnosticReport.result,Reference(Observation),0..*,,Observation,,,
+ DiagnosticReport.specimen,Reference(Specimen),0..*,,Specimen,,,
+ DiagnosticReport.status,code,1..1,The status of the diagnostic report as a whole.The codes SHALL be taken from DiagnosticReportStatus,,http://hl7-fhir.github.io/valueset-diagnostic-report-status.html,"{""code"":""final"", ""customed"":""status""}",http://hl7.org/fhir/diagnostic-report-status
+ DiagnosticReport.subject,Reference(Patient),1..1,,Patient,,,
+ DiagnosticReport.text,Narrative,0..1 This element is affected by the following invariants: dom-1,,,,,

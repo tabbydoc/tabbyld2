@@ -1,0 +1,25 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27,col28,col29,col30,col31,col32,col33,col34,col35,col36,col37,col38,col39,col40,col41,col42,col43,col44,col45,col46
+Disruptor,ilk_disruptor,1.0,,2000.0,700.0,,600.0,600.0,,22.0,12.0,,,,FRAGMENTATION,900.0,,,5.0,,,5.0,10.0,5.0,20.0,,1200.0,,,500.0,FIRE_WHEN_INEFFICIENT,"kinetic12, mayorate_bp",,,,Suppression,,,,,,,,,,7701.0
+Heavy Disruptor,ilk_disruptor_heavy,2.0,,6000.0,800.0,,1000.0,1000.0,,17.0,19.0,,,,FRAGMENTATION,1500.0,,,7.0,,,5.0,5.0,0.0,0.0,,1200.0,,,500.0,FIRE_WHEN_INEFFICIENT,"kinetic15, mayorate_bp",,,,Suppression,,,,,,,,,,7702.0
+Graser,ilk_graser,2.0,,6000.0,1000.0,1200.0,,,,15.0,20.0,,,,ENERGY,,1800.0,0.05,0.6,0.6,4.0,0.0,0.0,0.0,0.0,24000.0,,,,,,"beam20, LR, mayorate_bp",,,,General,,,,,,,,,,7703.0
+Light Graser,ilk_graser_light,0.0,,300.0,800.0,250.0,,,,15.0,7.0,,,,ENERGY,,400.0,0.0,0.25,0.3,0.4,0.0,0.0,0.0,0.0,24000.0,,,,,ANTI_FTR,"beam10, mayorate_bp",,,,General,,,,,,,,,,7704.0
+Graser PD,ilk_graser_pd,0.0,,650.0,450.0,150.0,,,,100.0,6.0,,,,ENERGY,,250.0,0.0,0.3,0.2,0.1,0.0,0.0,0.0,0.0,24000.0,,,,,"PD,ANTI_FTR","pd9, beam6, mayorate_bp",,,,Point Defense,,,,,,,,,,7705.0
+Laserhead LRM Launcher,ilk_laserhead,2.0,,1500.0,10000.0,,850.0,,75.0,10.0,12.0,20.0,,,ENERGY,0.0,,0.0,12.0,1.0,0.6,0.0,0.0,0.0,0.0,,500.0,75.0,15.0,300.0,DO_NOT_AIM,"missile14, mayorate_bp",,,,Long Range Support,,,,,,,,,,7706.0
+Tornado AM Battery,ilk_nuke_large,1.0,,8000.0,2000.0,,1500.0,1000.0,1000.0,10.0,21.0,10.0,,,HIGH_EXPLOSIVE,,,0.5,10.0,1.0,,0.0,0.0,0.0,0.0,,500.0,75.0,10.0,500.0,DO_NOT_AIM,"missile18, mayorate_bp",,,,Long Range Support,,,,,Deals massive AOE and EMP damage to all targets in blast radius.,,,,,7707.0
+PPC,ilk_ppc,0.0,,300.0,500.0,,50.0,,0.0,50.0,6.0,,,,ENERGY,40.0,,,0.28,1.0,,0.0,10.0,1.0,10.0,,800.0,,,,,"energy8, mayorate_bp",,,,Pressure,,,,,,,,,,7708.0
+Belial PPC,ilk_shotgun,1.0,,1500.0,600.0,,1080.0,,,15.0,13.0,50.0,,,ENERGY,800.0,,,3.0,1.0,,0.0,0.0,0.0,0.0,,1000.0,,,,,"energy13, mayorate_bp",,,,Pressure,,,,,,,,,,7709.0
+Windstalker MRM4,ilk_windstalker,0.0,,200.0,1250.0,,100.0,,50.0,10.0,4.0,40.0,,,KINETIC,0.0,,0.0,5.0,4.0,0.05,0.0,10.0,1.0,5.0,,500.0,200.0,5.0,75.0,DO_NOT_AIM,"missile7, mayorate_bp",,,,Pressure,,,,,,,,,,7710.0
+Tracer SRM8,ilk_tracer,0.0,,400.0,800.0,,300.0,,,12.0,5.0,8.0,,,HIGH_EXPLOSIVE,0.0,,,0.2,1.0,,0.0,10.0,1.5,5.0,,600.0,300.0,1.5,100.0,"GUIDED_POOR, STRIKE, USE_VS_FRIGATES","missile8, mayorate_bp",,,,Finisher,,,,,,,,,,7711.0
+Tracer SRM40,ilk_tracer_m,1.0,,1000.0,1000.0,,300.0,,,12.0,10.0,40.0,,,HIGH_EXPLOSIVE,0.0,,,15.0,8.0,0.2,0.0,10.0,1.5,5.0,,600.0,150.0,3.2,100.0,"DO_NOT_AIM, STRIKE, USE_VS_FRIGATES","missile8, mayorate_bp",,,,Finisher,,,,,,,,,,7712.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Grav Cannon,ilk_driver,2.0,,0.0,1000.0,,500.0,,,0.0,0.0,,,,KINETIC,650.0,,1.0,8.0,3.0,0.6,2.0,10.0,2.0,5.0,,3000.0,,,,"SYSTEM, SHOW_IN_CODEX",,,,,Anti Shield,,,,,,,,,,7730.0
+Light Plasma Projector,ilk_pulse_gun,3.0,,0.0,600.0,,60.0,,,0.0,0.0,40.0,4.0,,ENERGY,40.0,,0.0,0.07,,,5.0,20.0,3.0,10.0,,800.0,,,,"SYSTEM, SHOW_IN_CODEX",,,,,Pressure,,,,,,,,,,7731.0
+Light TPC,ilk_repeater,1.0,,0.0,600.0,,150.0,,0.0,0.0,0.0,10.0,1.0,,ENERGY,150.0,,,0.25,1.0,,0.0,10.0,2.0,5.0,,1300.0,,,,"SYSTEM, SHOW_IN_CODEX",,,,,Pressure,,,,,,,,,,7732.0
+Thermal Lance,ilk_thermal_lance,3.0,,0.0,600.0,375.0,,,,0.0,0.0,,,,HIGH_EXPLOSIVE,,475.0,0.05,0.1,,,0.0,0.0,0.0,0.0,24000.0,,,,,"SYSTEM, SHOW_IN_CODEX",,,,,Strike,,,,,,,,,,7733.0
+Tracer SRM8,ilk_tracer_angha,,1.0,0.0,700.0,,300.0,,,0.0,0.0,8.0,,,HIGH_EXPLOSIVE,0.0,,,0.2,1.0,,0.0,10.0,1.5,5.0,,600.0,300.0,1.5,100.0,"SYSTEM, GUIDED_POOR, STRIKE, USE_VS_FRIGATES",,,,,Finisher,,,,,,,,,,7734.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+nuke_damage,ilk_nuke_damage,1.0,,0.0,400.0,,200.0,200.0,,15.0,0.0,,,,HIGH_EXPLOSIVE,0.0,,,3.0,1.0,0.1,0.0,0.0,0.0,30.0,,700.0,,,,SYSTEM,,,,,,,,,,,,,,,7751.0
+nuke_primaryDetonationDamage,ilk_nuke_primaryDet,,1.0,0.0,400.0,,300.0,,,15.0,0.0,,,,FRAGMENTATION,0.0,,,3.0,1.0,0.1,0.0,0.0,0.0,30.0,,700.0,,,,SYSTEM,,,,,,,,,,,,,,,7752.0
+belial_helper,ilk_shotgun_shot_clone,2.0,,0.0,550.0,,65.0,,,15.0,0.0,,,,ENERGY,0.0,,,3.0,1.0,0.1,0.0,0.0,0.0,30.0,,1000.0,,,,SYSTEM,,,,,,,,,,,,,,,7753.0
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Minelayer,ilk_minelayer,,,,600.0,,300.0,,,,,,0.0,,HIGH_EXPLOSIVE,0.0,0.0,0.0,0.1,12.0,0.2,360.0,360.0,,,,0.0,400.0,90.0,10.0,SYSTEM,,,,,,,,,,,,,,,7770.0

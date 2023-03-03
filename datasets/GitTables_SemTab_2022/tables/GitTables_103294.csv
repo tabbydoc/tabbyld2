@@ -1,0 +1,18 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14
+1,2015060001,tableau_switch,1,pcs,,,make,,,,,PRDV_helotism_v1.0.dwg,2.0,
+2,2015060002,tableau_boards,1,pcs,,,make,,,,,PRDV_helotism_v1.0.dwg,1.0,
+3,2015060003,tableau_powersupply,1,pcs,,,make,,,,,PRDV_helotism_v1.0.dwg,3.0,
+4,2015060004,beam_bottom,1,pcs,,,make,,,,,PRDV_helotism_v1.0.dwg,4.0,
+5,2015060005,panel_operator,1,pcs,,,make,,,,,,,
+6,2015060006,plate_powersupply-back,1,pcs,,,make,,,,,PRDV_helotism_v1.0.dwg,8.0,
+7,2015060007,plate_powersupply-side,2,pcs,,,make,,,,,PRDV_helotism_v1.0.dwg,7.0,
+8,2015060008,panel_side,2,pcs,,,make,,,,,PRDV_helotism_v1.0.dwg,,
+9,2016050001,USB power hub,1,pcs,,USB power hub 5A 7-port,buy,Exsys via Amazon,EX-1177,"40,57",EUR,,,https://www.amazon.de/gp/product/B000KY7VY4/
+10,2016050002,Switch,1,pcs,,Gigabit Switch(10/100/1000M RJ45 ports,buy,TP-Link via Amazon,TL-SG108,"24,75",EUR,,,https://www.amazon.de/dp/B00A121WN6/
+11,2016050003,USB Ethernet adapter,1,pcs,,Belkin B2B048 USB 3.0 Gigabit Ethernet Adapter 10/100/1000Mbps,buy,Belkin, B2B048,"23,37",EUR,,,https://www.amazon.de/gp/product/B00BE67N3Q/
+12,2016050004,RPi 3 B,3,pcs,,Raspberry Pi 3 Model B,buy,,,39,EUR,,,http://de.rs-online.com/Raspberry+Pi+3?
+13,2016050005,SD Card,4,pcs,,SanDisk Ultra Android 16 GB microSDHC Class 10 Memory Card,buy,SanDisk,SDSQUNC-016G-GZFMA,"9,99",EUR,,,https://www.sandisk.de/home/memory-cards/microsd-cards/ultra-microsd-for-cameras
+14,2016050006,"CAT5 cable 0,25m",4,pcs,,,buy,,BIG894,"0,75",EUR,,,https://www.lets-sell.de/netzwerk/patchkabel/948/bigtec-big894-0.25m-cat.5e-ethernet-lan-patchkabel-flachband-rj45-utp-grau
+15,2016050007,Power Switch,1,pcs,,Pi Supply Switch - On/Off Power Switch for Raspberry Pi,buy,Pi Supply,,15,GBP,,,https://www.pi-supply.com/product/pi-supply-raspberry-pi-power-switch/
+16,2016050008,external USB drive,1,pcs,,WD PiDrive 314GB,buy,Western Digital,WD3140LMCW,"34,28",EUR,,,http://store.wdc.com/store/wdeu/de_DE/DisplayAccesoryProductDetailsPage/ThemeID.563961000/productID.335498900/WD_PiDrive_314GB
+17,2016050009,WD PiDrive Cable,1,pcs,,Media Stick Cable,buy,Western Digital,WDLB009RNN,"17,98",EUR,,,http://store.wdc.com/store/wdeu/de_DE/DisplayAccesoryProductDetailsPage/ThemeID.563961000/Accessories/WD_PiDrive_Cable/productID.329170900/categoryId.70262400

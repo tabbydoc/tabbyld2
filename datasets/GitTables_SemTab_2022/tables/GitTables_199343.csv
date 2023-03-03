@@ -1,0 +1,33 @@
+col0,col1,col2
+cnn.com," //*[@id=""body-text""]",1
+dailydot.com," //*[@class=""dd-content-body-inner""]",1
+wnd.com," //*[@class=""entry-content""]",1
+chron.com," //*[@class=""article-body""]//p",1
+lifezette.com, //p,2
+timesofindia.indiatimes.com," //*[@class=""main-content""]",2
+economictimes.indiatimes.com," //*[@class=""clearfix""]//p",2
+cnsnews.com," //*[@class=""clearfix""]",1
+dailymail.co.uk," //*[@class=""mol-para-with-font""]",1
+denverpost.com,"  //*[@class=""article-body""]//p",1
+emergencyemail.org," //*[@class=""main""]",1
+express.co.uk," //*[@class=""text-description""]",1
+fortune.com," //*[@id=""content""]//p",1
+foxnews.com," //*[@class=""article-body""]/p",1
+huffpost.com," //*[@id=""entry-text""]//p",1
+independent.co.uk," //*[@class=""body-content""]//p",2
+military.com," //*[@class=""article__body""]//p",1
+news.yahoo.com," //*[@class=""caas-body""]",1
+yahoo.com/news," //*[@class=""caas-body""]",1
+newsmax.com," //*[@id=""mainArticleDiv""]",1
+rawstory.com," //*[@id=""mvp-content-main""]/p",1
+redstate.com," //*[@class=""article-1""]",1
+rt.com," //*[@class=""columns__content""]//p",1
+thehill.com," //*[@class=""field-item even""]",1
+thesun.co.uk," //*[@class=""article__content""]",1
+thesun.co.uk/news," //*[@class=""article__content""]",1
+theweek.com," //*[@id=""content""]",2
+twitchy.com," //*[@id=""content""]",2
+usnews.com," //*[@id=""main-column""]//p",1
+vanityfair.com," //*[@class=""article__body""]",1
+washingtontimes.com," //*[@class=""bigtext""]/p",1
+westernjournal.com," //*[@class=""entry-content""]/p",1

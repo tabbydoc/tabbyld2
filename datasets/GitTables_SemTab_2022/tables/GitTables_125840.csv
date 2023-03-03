@@ -1,0 +1,127 @@
+col0,col1,col2,col3,col4
+100000,RaceCharts,Race Charts,Imports,ImportCategoryID
+100001,PastPerformances,Past Performances,Imports,ImportCategoryID
+100100,Y,Yards,Races,RaceDistanceUnitCategoryID
+100101,M,Meters,Races,RaceDistanceUnitCategoryID
+100102,1,Furlongs,Races,RaceDistanceUnitCategoryID
+100200,D,main (dirt or all weather),Races,RaceOlderSurfaceCategoryID
+100201,d,inner (inner dirt),Races,RaceOlderSurfaceCategoryID
+100202,T,main turf,Races,RaceOlderSurfaceCategoryID
+100203,t,inner turf,Races,RaceOlderSurfaceCategoryID
+100300,A,"main AW (All-Weather only, excludes dir)",Races,RaceNewerSurfaceCategoryID
+100301,D,"main (dirt only, excludes AW)",Races,RaceNewerSurfaceCategoryID
+100302,d,inner dirt,Races,RaceNewerSurfaceCategoryID
+100303,T,turf,Races,RaceNewerSurfaceCategoryID
+100304,t,inner turf,Races,RaceNewerSurfaceCategoryID
+100400,G1,Grade I stk/hcp,Races,RaceBRISRaceTypeCategoryID
+100401,G2,Grad II stk/hcp,Races,RaceBRISRaceTypeCategoryID
+100402,G3,Grade III stk/hcp,Races,RaceBRISRaceTypeCategoryID
+100403,1C,Grade I Canadian,Races,RaceBRISRaceTypeCategoryID
+100404,2C,Grade II Canadian,Races,RaceBRISRaceTypeCategoryID
+100405,3C,Grade III Canadian,Races,RaceBRISRaceTypeCategoryID
+100406,N,non-graded stk/hcp,Races,RaceBRISRaceTypeCategoryID
+100407,A,allowance,Races,RaceBRISRaceTypeCategoryID
+100408,AO,Allowance Opt. Clmg,Races,RaceBRISRaceTypeCategoryID
+100409,R,Starter Alw,Races,RaceBRISRaceTypeCategoryID
+100410,T,Starter Hcp,Races,RaceBRISRaceTypeCategoryID
+100411,F,Trial,Races,RaceBRISRaceTypeCategoryID
+100412,C,Claiming,Races,RaceBRISRaceTypeCategoryID
+100413,CO,Optional Claiming,Races,RaceBRISRaceTypeCategoryID
+100414,S,Maiden Sp Wt,Races,RaceBRISRaceTypeCategoryID
+100415,M,Maiden Claiming,Races,RaceBRISRaceTypeCategoryID
+100416,MO,Maiden Opt. Clmg,Races,RaceBRISRaceTypeCategoryID
+100417,NO,Optional Clmg Stk,Races,RaceBRISRaceTypeCategoryID
+100500,TRL,Trial,Races,RaceEQBRaceTypeCategoryID
+100501,ALW,Allowance,Races,RaceEQBRaceTypeCategoryID
+100502,MCL,Maiden Claiming,Races,RaceEQBRaceTypeCategoryID
+100503,MSW,Maiden Sp Weight,Races,RaceEQBRaceTypeCategoryID
+100504,STK,Stakes,Races,RaceEQBRaceTypeCategoryID
+100505,MDN,Maiden,Races,RaceEQBRaceTypeCategoryID
+100506,STR,Starter Allowance,Races,RaceEQBRaceTypeCategoryID
+100507,FTR,Futurity Trial,Races,RaceEQBRaceTypeCategoryID
+100508,AOC,Allowance Option Clmg,Races,RaceEQBRaceTypeCategoryID
+100509,HCP,Handicap,Races,RaceEQBRaceTypeCategoryID
+100510,SHP,Starter Handicap,Races,RaceEQBRaceTypeCategoryID
+100511,TRL,Trial,Races,RaceEQBRaceTypeCategoryID
+100600,0,Not Graded,Races,RaceGradeCategoryID
+100601,1,Grade I,Races,RaceGradeCategoryID
+100602,2,Grade II,Races,RaceGradeCategoryID
+100603,3,Grade III,Races,RaceGradeCategoryID
+100604,5,Grade I Canada,Races,RaceGradeCategoryID
+100605,6,Grade II Canada,Races,RaceGradeCategoryID
+100606,7,Grade III Canada,Races,RaceGradeCategoryID
+100700,A,2 year olds,Races,RaceAgeSexCategoryID
+100701,B,3 year olds,Races,RaceAgeSexCategoryID
+100703,C,4 year olds,Races,RaceAgeSexCategoryID
+100704,D,5 year olds,Races,RaceAgeSexCategoryID
+100705,E,3 & 4 year olds,Races,RaceAgeSexCategoryID
+100706,F,4 & 5 year olds,Races,RaceAgeSexCategoryID
+100707,G,"3, 4 & 5 year olds",Races,RaceAgeSexCategoryID
+100708,H,all ages,Races,RaceAgeSexCategoryID
+100800,N,No Sex Restrictions,Races,RaceAgeSexRestrictionsCategoryID
+100801,M,Mares and Fillies Only,Races,RaceAgeSexRestrictionsCategoryID
+100802,C,colts and/or Geldings Only,Races,RaceAgeSexRestrictionsCategoryID
+100803,F,Fillies Only,Races,RaceAgeSexRestrictionsCategoryID
+100900,TB,ie ThoroughBred TBD by doc and data,Races,RaceBreedIndicatorCategoryID
+101000,FT,fast,Races,RaceTrackConditionCategoryID
+101001,WF,wet fast,Races,RaceTrackConditionCategoryID
+101002,FR,frozen,Races,RaceTrackConditionCategoryID
+101003,GD,good,Races,RaceTrackConditionCategoryID
+101004,SY,sloppy,Races,RaceTrackConditionCategoryID
+101005,MY,muddy,Races,RaceTrackConditionCategoryID
+101006,SL,slow,Races,RaceTrackConditionCategoryID
+101007,HY,heavy,Races,RaceTrackConditionCategoryID
+101008,HD,hard,Races,RaceTrackConditionCategoryID
+101009,FM,firm,Races,RaceTrackConditionCategoryID
+101010,YL,yielding,Races,RaceTrackConditionCategoryID
+101011,SF,soft,Races,RaceTrackConditionCategoryID
+101200,??,this is probably the same as 100900,Horses,HorseBreedCategoryID
+101700,A,Adjunct Bleeder Medication,StartMedicationCodes,StartMedicationCodeCategoryID
+101701,B,Bute,StartMedicationCodes,StartMedicationCodeCategoryID
+101702,C,First Time Bute,StartMedicationCodes,StartMedicationCodeCategoryID
+101703,D,Lasix,StartMedicationCodes,StartMedicationCodeCategoryID
+101704,M,First Lasix,StartMedicationCodes,StartMedicationCodeCategoryID
+101900,1,Running W's,StartEquipmentCodes,StartEquipmentCategoryID
+101901,2,Screens,StartEquipmentCodes,StartEquipmentCategoryID
+101902,3,Shields,StartEquipmentCodes,StartEquipmentCategoryID
+101903,A,Aluminum Pads,StartEquipmentCodes,StartEquipmentCategoryID
+101904,B,Blinkers,StartEquipmentCodes,StartEquipmentCategoryID
+101905,C,Mud Calks,StartEquipmentCodes,StartEquipmentCategoryID
+101906,D,Glued Shoes,StartEquipmentCodes,StartEquipmentCategoryID
+101907,E,Inner Rims,StartEquipmentCodes,StartEquipmentCategoryID
+101908,F,Front bandages,StartEquipmentCodes,StartEquipmentCategoryID
+101909,G,Goggles,StartEquipmentCodes,StartEquipmentCategoryID
+101910,H,Outer Rims,StartEquipmentCodes,StartEquipmentCategoryID
+101911,I,Inserts,StartEquipmentCodes,StartEquipmentCategoryID
+101912,J,Aluminum Pad,StartEquipmentCodes,StartEquipmentCategoryID
+101913,K,Flipping halter,StartEquipmentCodes,StartEquipmentCategoryID
+101914,L,Bar Shoes,StartEquipmentCodes,StartEquipmentCategoryID
+101915,M,Blocks,StartEquipmentCodes,StartEquipmentCategoryID
+101916,N,No Whip,StartEquipmentCodes,StartEquipmentCategoryID
+101917,O,Blinkers Off,StartEquipmentCodes,StartEquipmentCategoryID
+101918,P,Pads,StartEquipmentCodes,StartEquipmentCategoryID
+101919,Q,Nasal Strip off,StartEquipmentCodes,StartEquipmentCategoryID
+101920,R,Bar Shoe,StartEquipmentCodes,StartEquipmentCategoryID
+101921,S,Nasal Strip,StartEquipmentCodes,StartEquipmentCategoryID
+101922,T,Turndowns,StartEquipmentCodes,StartEquipmentCategoryID
+101923,U,Spurs,StartEquipmentCodes,StartEquipmentCategoryID
+101924,W,Queen's Plates,StartEquipmentCodes,StartEquipmentCategoryID
+101925,Y,No Shoes,StartEquipmentCodes,StartEquipmentCategoryID
+101926,Z,Tongue Tie,StartEquipmentCodes,StartEquipmentCategoryID
+101927,0,No Equipment,StartEquipmentCodes,StartEquipmentCategoryID
+102200,StartCall,Start Call,Calls,CallCategoryID
+102201,Call,,,
+102202,Call,,,
+102203,Call,,,
+102204,Stretch,Stretch Call,Calls,CallCategoryID
+102205,Finish,Finish Call,Calls,CallCategoryID
+102206,Official,Official Call,Calls,CallCategoryID
+102400,Fraction,,,
+102401,Fraction,,,
+102402,Fraction,,,
+102403,Fraction,,,
+102405,Fraction,,,
+102500,PtOfCall,,,
+102501,PtOfCall,,,
+102502,PtOfCall,,,
+102503,PtOfCall,,,

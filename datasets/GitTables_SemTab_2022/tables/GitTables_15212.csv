@@ -1,0 +1,134 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+Albania,Yes,Yes,-,Yes,-,Yes,Yes,-
+Andorra,No,No,-,Yes,-,No,No,-
+United Arab Emirates,Yes,Yes,-,Yes,-,Yes,Yes,-
+Argentina,Yes,Yes,-,Yes,-,Yes,Yes,-
+Antarctica,No,No,-,No,-,Yes,Yes,-
+Australia,No,No,-,Yes,-,Yes,Yes,-
+Austria,Yes,Yes,-,Yes,-,Yes,Yes,-
+Azerbaijan,No,No,-,Yes,-,No,No,-
+Belgium,Yes,No,-,Yes,-,Yes,No,-
+Bangladesh,Yes,Yes,-,Yes,-,Yes,Yes,-
+Bulgaria,Yes,Yes,-,Yes,-,Yes,No,-
+Bahrain,No,No,-,Yes,-,Yes,Yes,-
+Bahamas,No,No,-,Yes,-,No,No,-
+Bosnia and Herzegovina,Yes,Yes,-,Yes,-,No,No,-
+Belarus,No,No,-,Yes,-,Yes,Yes,-
+Belize,No,No,-,Yes,-,No,No,-
+Bolivia,Yes,Yes,-,Yes,-,No,No,-
+Brazil,Yes,Yes,-,Yes,-,Yes,Yes,-
+Barbados,Yes,Yes,-,Yes,-,Yes,Yes,-
+Brunei Darussalam,No,No,-,Yes,-,Yes,No,-
+Botswana,Yes,Yes,-,Yes,-,Yes,Yes,-
+Canada,Yes,Yes,-,Yes,-,Yes,No,-
+Switzerland,Yes,Yes,-,Yes,-,Yes,No,-
+Chile,Yes,Yes,-,Yes,-,Yes,Yes,-
+China,No,No,-,Yes,-,No,No,-
+Cameroon,Yes,Yes,-,Yes,-,Yes,Yes,-
+Colombia,Yes,Yes,-,Yes,-,Yes,Yes,-
+Costa Rica,Yes,Yes,-,Yes,-,Yes,No,-
+Cuba,No,No,-,Yes,-,No,No,-
+Cayman Islands,No,No,-,Yes,-,No,No,-
+Cyprus,Yes,Yes,-,Yes,-,No,No,-
+Czech Republic,Yes,Yes,-,Yes,-,Yes,No,-
+Germany,Yes,Yes,-,Yes,-,Yes,No,-
+Denmark,Yes,Yes,-,Yes,-,Yes,No,-
+Dominican Republic,Yes,Yes,-,Yes,-,No,No,-
+Algeria,No,No,-,Yes,-,No,No,-
+Ecuador,Yes,Yes,-,Yes,-,Yes,Yes,-
+Egypt,No,No,-,Yes,-,No,No,-
+Spain,Yes,Yes,-,Yes,-,Yes,No,-
+Estonia,Yes,No,-,Yes,-,Yes,No,-
+Ethiopia,No,No,-,Yes,-,No,No,-
+Finland,Yes,Yes,-,Yes,-,Yes,No,-
+France,Yes,Yes,-,Yes,-,Yes,Yes,-
+Micronesia Federated States of,No,No,-,Yes,-,No,No,-
+United Kingdom,Yes,Yes,-,Yes,-,Yes,No,-
+Georgia,Yes,Yes,-,Yes,-,Yes,Yes,-
+Ghana,Yes,Yes,-,Yes,-,Yes,Yes,-
+Gibraltar,No,No,-,Yes,-,No,No,-
+Greece,Yes,Yes,-,Yes,-,Yes,Yes,-
+Guatemala,Yes,Yes,-,Yes,-,Yes,Yes,-
+Hong Kong,Yes,No,-,Yes,-,No,No,-
+Honduras,Yes,Yes,-,Yes,-,Yes,Yes,-
+Croatia,Yes,No,-,Yes,-,Yes,Yes,-
+Haiti,No,No,-,Yes,-,Yes,No,-
+Hungary,Yes,Yes,-,Yes,-,Yes,No,-
+Indonesia,Yes,No,-,Yes,-,Yes,No,-
+Isle of Man,No,No,-,Yes,-,Yes,No,-
+India,Yes,Yes,-,Yes,-,Yes,Yes,-
+Ireland,No,No,-,Yes,-,Yes,No,-
+Iran Islamic Republic of,No,No,-,Yes,-,No,No,-
+Iraq,No,No,-,Yes,-,No,No,-
+Iceland,No,No,-,Yes,-,Yes,No,-
+Israel,No,No,-,Yes,-,Yes,Yes,-
+Italy,Yes,Yes,-,Yes,-,Yes,No,-
+Jamaica,Yes,Yes,-,Yes,-,Yes,Yes,-
+Jordan,No,No,-,Yes,-,No,No,-
+Japan,No,No,-,Yes,-,No,No,-
+Kazakhstan,Yes,Yes,-,Yes,-,No,No,-
+Kenya,Yes,Yes,-,Yes,-,No,No,-
+Korea (South),No,No,-,Yes,-,No,No,-
+Kuwait,No,No,-,Yes,-,Yes,Yes,-
+Lebanon,No,No,-,Yes,-,No,No,-
+Saint Lucia,No,No,-,Yes,-,No,No,-
+Liechtenstein,Yes,Yes,-,Yes,-,Yes,Yes,-
+Sri Lanka,No,No,-,Yes,-,Yes,Yes,-
+Lithuania,Yes,No,-,Yes,-,Yes,No,-
+Luxembourg,Yes,No,-,Yes,-,Yes,No,-
+Latvia,Yes,Yes,-,Yes,-,Yes,No,-
+Macao,No,No,-,Yes,-,No,No,-
+Morocco,Yes,Yes,-,Yes,-,No,No,-
+Moldova Republic of,Yes,Yes,-,Yes,-,Yes,No,-
+Mexico,Yes,Yes,-,Yes,-,Yes,Yes,-
+Marshall Islands,No,No,-,Yes,-,No,No,-
+Macedonia The former Yugoslav Republic of,Yes,Yes,-,Yes,-,Yes,No,-
+Malta,Yes,Yes,-,Yes,-,Yes,No,-
+Montenegro,Yes,Yes,-,Yes,-,Yes,Yes,-
+Mongolia,No,No,-,Yes,-,No,No,-
+Mauritius,No,No,-,Yes,-,No,No,-
+Malaysia,Yes,Yes,-,Yes,-,Yes,Yes,-
+Nigeria,Yes,Yes,-,Yes,-,Yes,Yes,-
+Nicaragua,No,No,-,Yes,-,No,No,-
+Netherlands,Yes,Yes,-,Yes,-,Yes,Yes,-
+Norway,No,No,-,Yes,-,Yes,No,-
+Nepal,Yes,Yes,-,Yes,-,Yes,Yes,-
+New Zealand,No,No,-,Yes,-,Yes,Yes,-
+Oman,Yes,Yes,-,Yes,-,Yes,Yes,-
+Pakistan,Yes,Yes,-,Yes,-,No,No,-
+Panama,Yes,Yes,-,Yes,-,No,No,-
+Peru,Yes,Yes,-,Yes,-,Yes,Yes,-
+Philippines,Yes,Yes,-,Yes,-,Yes,No,-
+Palau,No,No,-,Yes,-,No,No,-
+Poland,Yes,Yes,-,Yes,-,Yes,No,-
+Puerto Rico,Yes,Yes,-,No,-,Yes,Yes,-
+Portugal,Yes,Yes,-,Yes,-,Yes,No,-
+Paraguay,Yes,Yes,-,Yes,-,Yes,Yes,-
+Qatar,No,No,-,Yes,-,Yes,Yes,-
+Romania,Yes,No,-,Yes,-,Yes,No,-
+Russian Federation,Yes,Yes,-,Yes,-,Yes,No,-
+Rwanda,Yes,Yes,-,Yes,-,No,No,-
+Saudi Arabia,No,No,-,Yes,-,Yes,Yes,-
+Senegal,Yes,Yes,-,Yes,-,No,No,-
+Singapore,Yes,Yes,-,Yes,-,Yes,Yes,-
+El Salvador,Yes,Yes,-,Yes,-,Yes,Yes,-
+Serbia,Yes,Yes,-,Yes,-,Yes,No,-
+Slovakia,Yes,No,-,Yes,-,Yes,No,-
+Slovenia,Yes,Yes,-,Yes,-,Yes,No,-
+Sweden,Yes,No,-,Yes,-,Yes,No,-
+Turks and Caicos Islands,No,No,-,Yes,-,No,No,-
+Thailand,Yes,Yes,-,Yes,-,No,No,-
+Trinidad and Tobago,No,No,-,Yes,-,No,No,-
+Tunisia,No,No,-,Yes,-,Yes,No,-
+Turkey,Yes,Yes,-,Yes,-,No,No,-
+Taiwan,No,No,-,Yes,-,No,No,-
+Uganda,No,No,-,Yes,-,Yes,No,-
+Ukraine,No,No,-,Yes,-,Yes,Yes,-
+Uruguay,Yes,Yes,-,Yes,-,Yes,No,-
+United States,Yes,No,-,Yes,-,Yes,No,-
+Venezuela Bolivarian Republic of,Yes,No,-,Yes,-,Yes,Yes,-
+Virgin Islands British,No,No,-,Yes,-,No,No,-
+Vietnam,Yes,Yes,-,Yes,-,No,No,-
+Kosovo,No,No,-,Yes,-,No,No,-
+South Africa,Yes,Yes,-,Yes,-,Yes,No,-
+Zimbabwe,No,No,-,Yes,-,No,No,-

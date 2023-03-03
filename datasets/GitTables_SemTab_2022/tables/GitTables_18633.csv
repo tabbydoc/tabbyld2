@@ -1,0 +1,36 @@
+col0,col1,col2,col3
+Lane,Lane,Character,
+Barcode,Barcode,Character,
+Group ID,Group ID,Character,
+External Name,External Name,Character,
+Library,Library,Character,
+Insert Mean (SD),,,
+Insert Mean,Insert Mean,Numeric,
+Insert Stddev,Insert Stddev,Numeric,
+Read Length,,,
+R1 Length,R1 Length,Numeric,
+R2 Length,R2 Length,Numeric,
+PF Reads,PF Reads,Numeric,
+PF Yield,PF Yield,Numeric,
+Map Percent,Map Percent,Numeric,
+R1 Mismatch Percent,R1 Mismatch Percent,Numeric,
+R2 Mismatch Percent,R2 Mismatch Percent,Numeric,
+R1 Indel Percent,R1 Indel Percent,Numeric,
+R2 Indel Percent,R2 Indel Percent,Numeric,
+R1 Soft Clip Percent,R1 Soft Clip Percent,Numeric,
+R2 Soft Clip Percent,R2 Soft Clip Percent,Numeric,
+Reads/SP,Reads/SP,Numeric,
+Percent mapped on Target,Percent Mapped on Target,Numeric,
+Percent Mapped on Target,Percent Mapped on Target,Numeric,
+Estimated Yield,Estimated Yield (collapsed),Numeric,
+Estimated Yield (collapsed),Estimated Yield (collapsed),Numeric,
+Coverage,Coverage (collapsed),Numeric,
+Coverage (collapsed),Coverage (collapsed),Numeric,
+Target Size (bp),Target Size (bp),Numeric,
+Number of Targets,Number of Targets,Numeric,
+Target File,Target File,Character,
+Run Name,Run Name,Character,This field is added by the app and not present in the Run Report
+Study,Study,Character,This field is MISO Project Name derived from Library
+On Target Percentage,On Target Percentage,Numeric,Calculated by: Percent Mapped on Target * Map Percent / 100
+plotly_library_selected,plotly_library_selected,Boolean,Keeps track on which library was selected by user
+plotly_unique_key,plotly_unique_key,Character,Will always be unique for each row (Library_Lane_Barcode)

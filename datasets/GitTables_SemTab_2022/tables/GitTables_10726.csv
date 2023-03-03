@@ -1,0 +1,9 @@
+col0,col1,col2,col3
+Changes:,,,
+root/battlegroundsPremiumDbfId,:,IntNode	Added,
+root/targetingArrowText,:,TextNode	Added,
+root/techLevel,:,IntNode	Added,
+root/elite,:,BooleanNode	Removed,
+root/overload,:,IntNode	Removed,
+{,,,
+};,,,

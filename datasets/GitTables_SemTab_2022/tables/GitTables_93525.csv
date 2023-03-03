@@ -1,0 +1,62 @@
+col0,col1,col2,col3,col4,col5
+96110,1,Calculo Diferencial,2,6,Ciencias Basicas
+96111,1,Algebra Lineal,2,6,Ciencias Basicas
+40020,1,Introduccion a la Ingenieria,2,6,Circuitos y Electronica
+95139,1,Segundo Idioma I,2,4,Idiomas
+95108,1,Filosofia Institucional,2,4,Humanidades
+95170,1,Catedra Henry Didon,4,4,Humanidades
+96113,2,Calculo Integral,2,6,Ciencias Basicas
+96109,2,Antropologia,2,4,Humanidades
+96303,2,Logica de Programacion,2,6,Sistemas Digitales y Programacion
+14201,2,Circuitos y Electronica I,2,6,Circuitos y Electronica
+95284,2,Taller Lecto-Escritura,2,4,Humanidades
+95140,2,Segundo Idioma II,2,4,Idiomas
+95109,2,Antropologia,2,4,Humanidades
+96115,3,Calculo Vectorial,2,6,Ciencias Basicas
+96112,3,Fisica Mecanica,2,6,Ciencias Basicas
+96117,3,Ecuaciones Diferenciales,2,4,Ciencias Basicas
+96304,3,Programacion Orientada a Objetos,2,6,Sistemas Digitales y Programacion
+14303,3,Circuitos y Electronica II,2,6,Circuitos y Electronica
+95141,3,Segundo Idioma III,2,4,Idiomas
+14405,4,Sistemas Digitales,2,6,Sistemas Digitales y Programacion
+14302,4,Electronica Aplicada,2,6,Circuitos y Electronica
+96305,4,Programacion Aplicada,2,6,Sistemas Digitales y Programacion
+14403,4,Senales y Sistemas,2,6,Telecomunicaciones
+96118,4,Electricidad y Magnetismo,2,6,Ciencias Basicas
+95142,4,Segundo Idioma IV,2,4,Idiomas
+14105,5,Metodologia De La Investigacion,2,4,Telecomunicaciones
+14504,5,Sistemas De Telecomunicaciones I y Laboratorio,2,6,Telecomunicaciones
+14502,5,Fundamentos De Teletrafico,2,6,Telecomunicaciones
+14503,5,Sistemas Digitales Aplicados,2,6,Sistemas Digitales y Programacion
+147041,5,Procesamiento Didital De Senales - Nuevo Pensum,2,4,Telecomunicaciones
+96133,5,Campos y Ondas Electromagneticas,2,6,Ciencias Basicas
+95143,5,Segundo Idioma V,2,4,Idiomas
+14602,6,Fisica Optoelectronica,2,6,Transmision
+14604,6,Sistemas Operativos,2,4,Sistemas Digitales y Programacion
+14603,6,Sistemas De Telecomunicaciones II y Laboratorio,2,6,Telecomunicaciones
+14501,6,Medios De Transmision,2,6,Transmision
+14605,6,Telematica I y Laboratorio,2,6,Telematica
+14606,6,Administracion De Proyectos De Ingenieria I,2,4,Administracion
+95144,6,Segundo Idioma VI,2,4,Idiomas
+95110,6,Epistemologia,2,4,Humanidades
+14704,7,Procesamiento Digital De Senales - Viejo Pensum,2,6,Telecomunicaciones
+14601,7,Antenas y Propagacion,2,6,Transmision
+14802,7,Comunicaciones Opticas,2,6,Transmision
+14705,7,Telematica II y Laboratorio,2,6,Telematica
+14702,7,Transmision III - Electiva I Pensum Nuevo,2,6,Transmision
+95137,7,Catedra,2,4,Humanidades
+95111,7,Cultura Teologica,2,4,Humanidades
+95113,8,Etica,2,4,Humanidades
+14803,8,Sistemas De Telecomunicaciones Moviles,2,6,Transmision
+14804,8,Redes Convergentes,2,6,Telematica
+14801,8,Electiva AI-Derecho Informatico,2,6,Electiva
+14902,8,Electiva BI-Gestion De Servicios,2,6,Electiva
+14805,8,Telematica III y Lab.,2,6,Telematica
+14806,8,Licitaciones y Contratos,2,4,Administracion
+95112,8,Filosofia Politica,2,4,Humanidades
+14900,9,Redes Opticas,2,6,Transmision
+14901,9,Television,2,6,Transmision
+14905,9,Regulacion en Telecomunicaciones,2,4,Administracion
+14908,9,Electiva II - Investigacion II,2,6,Electiva
+14906,9,Electiva AII - Nuevas Tecnologias,2,6,Electiva
+14904,9,Electiva BII - Radiodifusion,2,6,Electiva

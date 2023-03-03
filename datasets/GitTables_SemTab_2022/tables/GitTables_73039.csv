@@ -1,0 +1,16 @@
+col0,col1,col2,col3,col4,col5,col6
+reagent_ID,n,,,n,ID,necessary  to join different tables
+Short name,n,name,,y,text,name used in the publication
+color,n,,,n,text,used to make choice of secondary AB easier
+antibody_ID,y,identity,RRID:,n,ID,
+Antibody_Name,y,identity,,y,text,
+Target_Antigen,y,additional_information,,y,text,
+Vendor,y,source,,y,text,
+Cat_Num,y,source,,y,text,
+Proper_Citation,y,additional_information,,n,text,
+Reference,y,additional_information,,n,text,
+Clonality,y,additional_information,,n,choice,monoclonal or polyclonal
+Clone_ID,y,additional_information,,n,text,
+Host_Organism,y,additional_information,,y,text,
+Comments,y,additional_information,,n,text,
+v_uuid,y,additional_information,,n,text,

@@ -1,0 +1,28 @@
+col0,col1,col2,col3,col4
+person,gender_concept_id,no,integer,a foreign key that refers to an identifier in the concept table for the unique gender of the person.
+person,race_concept_id,no,integer,a foreign key that refers to an identifier in the concept table for the unique race of the person.
+person,ethnicity_concept_id,no,integer,a foreign key that refers to the standard concept identifier in the standardized vocabularies for the ethnicity of the person.
+person,gender_source_concept_id,yes,integer,a foreign key to the gender concept that refers to the code used in the source.
+person,race_source_concept_id,yes,integer,a foreign key to the race concept that refers to the code used in the source.
+person,ethnicity_source_concept_id,yes,integer,a foreign key to the ethnicity concept that refers to the code used in the source.
+visit_occurrence,visit_concept_id,no,integer,a foreign key that refers to a visit concept identifier in the standardized vocabularies.
+visit_occurrence,visit_type_concept_id,no,integer,a foreign key to the predefined concept identifier in the standardized vocabularies reflecting the type of source data from which the visit record is derived.
+visit_occurrence,visit_source_concept_id,yes,integer,a foreign key to a concept that refers to the code used in the source.
+condition_occurrence,condition_concept_id,no,integer,a foreign key that refers to a standard condition concept identifier in the standardized vocabularies.
+condition_occurrence,condition_type_concept_id,no,integer,"a foreign key to the predefined concept identifier in the standardized vocabularies reflecting the source data from which the condition was recorded, the level of standardization, and the type of occurrence."
+condition_occurrence,condition_source_concept_id,yes,integer,a foreign key to a condition concept that refers to the code used in the source.
+drug_exposure,drug_concept_id,no,integer,a foreign key that refers to a standard concept identifier in the standardized vocabularies for the drug concept.
+drug_exposure,drug_type_concept_id,no,integer,a foreign key to the predefined concept identifier in the standardized vocabularies reflecting the type of drug exposure recorded. it indicates how the drug exposure was represented in the source data.
+drug_exposure,route_concept_id,yes,integer,a foreign key to a predefined concept in the standardized vocabularies reflecting the route of administration.
+drug_exposure,dose_unit_concept_id,yes,integer,a foreign key to a predefined concept in the standardized vocabularies reflecting the unit the effective_drug_dose value is expressed.
+drug_exposure,drug_source_concept_id,yes,integer,a foreign key to a drug concept that refers to the code used in the source.
+procedure_occurrence,procedure_concept_id,no,integer,a foreign key that refers to a standard procedure concept identifier in the standardized vocabularies.
+procedure_occurrence,procedure_type_concept_id,no,integer,a foreign key to the predefined concept identifier in the standardized vocabularies reflecting the type of source data from which the procedure record is derived.
+procedure_occurrence,modifier_concept_id,yes,integer,a foreign key to a standard concept identifier for a modifier to the procedure (e.g. bilateral)
+procedure_occurrence,procedure_source_concept_id,yes,integer,a foreign key to a procedure concept that refers to the code used in the source.
+measurement,measurement_concept_id,no,integer,a foreign key to the standard measurement concept identifier in the standardized vocabularies.
+measurement,measurement_type_concept_id,no,integer,a foreign key to the predefined concept in the standardized vocabularies reflecting the provenance from where the measurement record was recorded.
+measurement,operator_concept_id,yes,integer,"a foreign key identifier to the predefined concept in the standardized vocabularies reflecting the mathematical operator that is applied to the value_as_number. operators are <, ?, =, ?, >."
+measurement,value_as_concept_id,yes,integer,"a foreign key to a measurement result represented as a concept from the standardized vocabularies (e.g., positive/negative, present/absent, low/high, etc.)."
+measurement,unit_concept_id,yes,integer,a foreign key to a standard concept id of measurement units in the standardized vocabularies.
+measurement,measurement_source_concept_id,yes,integer,a foreign key to a concept in the standard vocabularies that refers to the code used in the source.

@@ -1,0 +1,40 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19
+4636,MDPC,large_airport,Punta Cana International Airport,18.5673999786,-68.36340332030001,47.0,,DO,DO-11,Punta Cana,1,MDPC,PUJ,,,https://en.wikipedia.org/wiki/Punta_Cana_International_Airport,,875,2012-11-21T16:21:54+00:00
+4638,MDSD,large_airport,Las Américas International Airport,18.42970085144,-69.668899536133,59.0,,DO,DO-01,Santo Domingo,1,MDSD,SDQ,,http://www.aerodom.com/app/do/lasamericas.aspx,https://en.wikipedia.org/wiki/Las_Am%C3%A9ricas_International_Airport,"Aeropuerto Internacional de Las Américas, José Francisco Peña Gómez Intl",1000,2016-01-31T12:38:39+00:00
+4637,MDPP,medium_airport,Gregorio Luperon International Airport,19.75790023803711,-70.56999969482422,15.0,,DO,DO-18,Puerto Plata,1,MDPP,POP,,,https://en.wikipedia.org/wiki/Gregorio_Luper%C3%B3n_International_Airport,La Union,875,2008-10-17T20:07:00+00:00
+4635,MDLR,medium_airport,Casa De Campo International Airport,18.45070075988769,-68.91179656982422,240.0,,DO,DO-12,La Romana,1,MDLR,LRM,,,https://en.wikipedia.org/wiki/La_Romana_International_Airport,,875,2008-10-17T20:06:56+00:00
+4640,MDST,medium_airport,Cibao International Airport,19.406099319458008,-70.60469818115234,565.0,,DO,DO-25,Santiago,1,MDST,STI,,,https://en.wikipedia.org/wiki/Cibao_International_Airport,,1050,2008-06-13T14:30:04+00:00
+30673,MDCY,medium_airport,Samaná El Catey International Airport,19.2670001984,-69.7419967651,30.0,,DO,DO-20,Samana,1,MDCY,AZS,,,https://en.wikipedia.org/wiki/Saman%C3%A1_El_Catey_International_Airport,,450,2013-01-06T17:19:55+00:00
+30382,MDPO,small_airport,Samana El Portillo Airport,19.3214150435,-69.4959121943,30.0,,DO,DO-20,Samana,0,MDPO,EPS,,,https://en.wikipedia.org/wiki/El_Portillo_Airport,,50,2013-01-06T17:44:18+00:00
+4634,MDJB,medium_airport,La Isabela International Airport,18.57250022888184,-69.98560333251953,98.0,,DO,DO-01,La Isabela,1,MDJB,JBQ,,,https://en.wikipedia.org/wiki/La_Isabela_International_Airport,"MDLI, SDI, Dr Joaquin Balaguer International Airport",875,2009-03-05T11:36:03+00:00
+4631,MDAB,small_airport,Arroyo Barril Airport,19.198600769,-69.42980194089999,57.0,,DO,DO-20,Arroyo Barril,0,MDAB,,,,https://en.wikipedia.org/wiki/Arroyo_Barril_International_Airport,,250,2013-01-06T18:07:28+00:00
+42308,MDBL,small_airport,Boca Chica Airport,18.4507999420166,-69.59259796142578,1.0,,DO,DO-01,Boca Chica,0,MDBL,,,,,,50,2008-10-17T20:06:45+00:00
+30384,MDHE,closed,Herrera Airport,18.4696998596,-69.9693984985,190.0,,DO,DO-01,Santo Domingo,0,MDHE,HEX,,,https://en.wikipedia.org/wiki/Herrera_International_Airport,,50,2011-10-16T11:24:57+00:00
+4632,MDBH,medium_airport,Maria Montez International Airport,18.25149917602539,-71.12039947509766,10.0,,DO,DO-04,Barahona,1,MDBH,BRX,,,https://en.wikipedia.org/wiki/Mar%C3%ADa_Montez_International_Airport,,875,2008-10-17T20:06:44+00:00
+4633,MDCR,medium_airport,Cabo Rojo Airport,17.929000854492188,-71.6447982788086,262.0,,DO,DO-16,Cabo Rojo,0,MDCR,CBJ,,,https://en.wikipedia.org/wiki/Cabo_Rojo_Airport,,250,2008-10-17T20:06:46+00:00
+42302,MDAD,small_airport,Azua Airport,18.425500869750977,-70.73139953613281,262.0,,DO,DO-02,Azua,0,MDAD,,,,,,50,2008-10-17T20:06:39+00:00
+42304,MDBA,small_airport,Consuelo Batey Anita airport,18.683332443237305,-69.38333129882812,150.0,,DO,DO-30,Consuelo,0,MDBA,,,,,,50,2008-10-17T20:06:41+00:00
+29799,MDCZ,small_airport,Constanza - Expedición 14 de Junio National Airport,18.907499313354,-70.721900939941,3950.0,,DO,DO-13,Costanza,0,MDCZ,COZ,,,https://en.wikipedia.org/wiki/Constanza_Airport,,50,2016-01-31T12:11:43+00:00
+42303,MDAN,small_airport,Cotui Angelina Airport,19.13159942626953,-70.22160339355469,200.0,,DO,DO-24,Cotui Angelina,0,MDAN,,,,,,50,2008-10-17T20:06:40+00:00
+29814,MDDJ,small_airport,Dajabon Airport,19.563600540200003,-71.6808013916,69.0,,DO,DO-05,Dajabon,0,MDDJ,,,,,,50,2011-05-25T13:03:15+00:00
+42307,MDBG,small_airport,Baigua Airport,18.5324,-68.67,429.0,,DO,DO-11,Higuey,0,MDBG,,,,https://en.wikipedia.org/wiki/Baigua_Field,Baigua Field,50,2016-01-31T12:00:36+00:00
+42306,MDBE,small_airport,La Romana Batey Lechuga Airport,18.58679962158203,-69.0553970336914,252.0,,DO,DO-08,La Romana,0,MDBE,,,,,,50,2008-10-17T20:06:43+00:00
+42305,MDBC,small_airport,La Romana Batey Cacata airport,18.479700088500977,-68.91590118408203,223.0,,DO,DO-12,La Romana,0,MDBC,,,,,,50,2008-10-17T20:06:42+00:00
+30156,MDMC,small_airport,Monte Cristi Airport,19.865299224900003,-71.6453018188,121.0,,DO,DO-15,Monte Cristi,0,MDMC,,,,https://en.wikipedia.org/wiki/Osvaldo_Virgil_Airport,,50,2012-04-01T04:09:07+00:00
+42311,MDSB,closed,Sabana de La Mar Airport,19.061898,-69.385201,15.0,,DO,DO-30,Sabana de La Mar,0,MDSB,,,,https://en.wikipedia.org/wiki/Sabana_de_la_Mar_Airport,SNX,50,2019-02-16T14:54:51+00:00
+4639,MDSI,medium_airport,San Isidro Air Base,18.503700256347656,-69.76170349121094,111.0,,DO,DO-01,San Isidro,0,MDSI,,,,https://en.wikipedia.org/wiki/San_Isidro_Air_Base,"Base Aérea de San Isidro, Base Aérea Trujillo",50,2009-03-05T11:27:33+00:00
+42312,MDSJ,closed,San Juan Airport,18.8333320618,-71.2333297729,1496.0,,DO,DO-22,San Juan,0,MDSJ,SJM,,,,,50,2010-12-29T19:19:24+00:00
+42310,MDSA,small_airport,San Juan De La Maguana Airport,18.8255004883,-71.2313995361,1309.0,,DO,DO-22,San Juan de la Maguana,0,MDSA,,,,https://en.wikipedia.org/wiki/San_Juan_de_la_Maguana_Airport,,50,2012-10-18T22:48:28+00:00
+42309,MDBM,small_airport,San Pedro De Macoris Airport,18.44809913635254,-69.28119659423828,17.0,,DO,DO-23,San Pedro de Macoris,0,MDBM,,,,,,50,2008-10-17T20:06:46+00:00
+42313,DO-0001,closed,Santiago Municipal Airport,19.4699001312,-70.7005996704,602.0,,DO,DO-25,Santiago,0,,,,,https://en.wikipedia.org/wiki/Santiago_Municipal_Airport,,50,2015-04-18T14:52:10+00:00
+301622,mdji,small_airport,Jimani Airport,18.49285,-71.869999,,,DO,DO-10,,0,MDJI,,,,,,0,2013-02-18T09:24:30+00:00
+301615,mdll,small_airport,Los Llanos de Sabanatosa Airport,18.5964259778,-69.5257759094,262.0,,DO,DO-23,,1,MDLL,,,,,,0,2012-06-07T12:34:07+00:00
+301621,mdhn,small_airport,Juancho Enriquillo Airport,17.8725186193,-71.2687182426,115.0,,DO,DO-04,Barahona,0,MDHN,,,,,,0,2012-06-07T12:53:53+00:00
+316898,DO-0002,closed,Old Barahona Airport,18.215,-71.0981,135.0,,DO,DO-04,Barahona,0,,,,,,,0,2016-01-31T09:39:46+00:00
+316899,DO-0003,heliport,Barahona Heliport,18.2131,-71.0968,69.0,,DO,DO-04,Barahona,0,,,,,,,0,2016-01-31T09:50:22+00:00
+301616,mdma,small_airport,Magdalena Cuya Airport,18.501933,-68.799099,325.0,,DO,DO-12,La Romana,0,MDMA,,,,,,0,2012-06-07T12:38:01+00:00
+301617,mder,small_airport,El Ranchito Airport,19.1848132376,-70.36496400829999,240.0,,DO,DO-13,La Vega,0,MDER,,,,,,0,2012-06-07T12:41:02+00:00
+301619,mdpm,small_airport,Piloto Airport,19.5977273869,-71.205970645,131.0,,DO,DO-15,Monte Cristi,0,MDPM,,,,,,0,2012-06-07T12:48:24+00:00
+301620,mdwo,small_airport,Walterio Airport,19.757867,-71.623482,33.0,,DO,DO-15,Monte Cristi,0,MDWO,,,,,,0,2012-06-07T12:50:52+00:00
+301623,mdlm,small_airport,Los Montones Airport,18.521233,-70.099132,305.0,,DO,DO-21,San Cristobal,0,MDLM,,,,,,0,2012-06-07T13:07:19+00:00
+301618,mdes,small_airport,Peñuela / Esperanza Field,19.5841122474,-70.95672369,328.0,,DO,DO-27,Valverde,0,MDES,,,,,,0,2012-06-07T12:45:43+00:00

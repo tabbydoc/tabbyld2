@@ -1,0 +1,51 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25
+0,HeadQuarters,0,Norma Fisher,0,"01868 Boyd Freeway
+Lake Brittany, OR 36573",Alameda,CA,45939,USA,,,,,,,,,,False,False,False,False,False,37.765206,-122.241636
+1,Supermarket,28,Jorge Sullivan,1,"59179 Bruce Gardens Apt. 413
+Lauramouth, AR 13687",Acapulco,Guerrero,26056,Mexico,Jones,262-555-5124,262-555-5121,1/9/82 0:00,12/5/90 0:00,23593.0,17475.0,3671.0,2447.0,False,False,False,False,False,16.863611,-99.8825
+2,Small Grocery,78,Elizabeth Woods,2,"98910 Cynthia Rest
+South Christopherville, PA 03336",Bellingham,WA,50755,USA,Smith,605-555-8203,605-555-8201,4/2/70 0:00,6/4/73 0:00,28206.0,22271.0,3561.0,2374.0,True,False,False,False,False,48.74908,-122.478147
+3,Supermarket,76,Susan Wagner,3,"173 Sharon Brooks
+Oliverview, IN 09934",Bremerton,WA,64768,USA,Davis,509-555-1596,509-555-1591,6/14/59 0:00,11/19/67 0:00,39696.0,24390.0,9184.0,6122.0,False,False,True,True,False,47.56732,-122.632936
+4,Gourmet Supermarket,27,Peter Montgomery,4,"2087 Candace Squares Suite 345
+Masseyshire, UT 88665",Camacho,Zacatecas,15049,Mexico,Johnson,304-555-1474,304-555-1471,9/27/94 0:00,12/1/95 0:00,23759.0,16844.0,4149.0,2766.0,True,False,True,True,True,24.865446,-99.566271
+5,Small Grocery,4,Theodore Mcgrath,5,"225 Wilson Mills
+North Thomas, OK 67164",Guadalajara,Jalisco,08386,Mexico,Green,801-555-4324,801-555-4321,9/18/78 0:00,6/29/91 0:00,24597.0,15012.0,5751.0,3834.0,True,False,False,False,False,20.659699,-103.349609
+6,Gourmet Supermarket,47,Stephanie Collins,6,"PSC 5642, Box 8071
+APO AA 97365",Beverly Hills,CA,80470,USA,Maris,958-555-5002,958-555-5001,1/3/81 0:00,3/13/91 0:00,23688.0,15337.0,5011.0,3340.0,True,True,True,True,True,34.07362,-118.400356
+7,Supermarket,3,Stephanie Sutton,7,"37594 Garza Roads Apt. 466
+North Brookemouth, IA 29742",Los Angeles,CA,92358,USA,White,477-555-7967,477-555-7961,5/21/71 0:00,10/20/81 0:00,23598.0,14210.0,5633.0,3755.0,False,False,False,False,True,34.052234,-118.243685
+8,Deluxe Supermarket,26,Brian Hamilton,8,"960 Savage Port Suite 027
+West Jacquelinemouth, NM 74085",Merida,Yucatan,61736,Mexico,Williams,797-555-3417,797-555-3411,9/23/58 0:00,11/18/67 0:00,30797.0,20141.0,6393.0,4262.0,True,True,True,True,True,20.966044,-89.627433
+9,Mid-Size Grocery,2,Susan Levy,9,"75470 Lopez Roads
+Port Jessicatown, TX 55221",Mexico City,DF,81022,Mexico,Stuber,439-555-3524,439-555-3521,3/18/55 0:00,6/7/59 0:00,36509.0,22450.0,8435.0,5624.0,False,False,False,False,False,19.432608,-99.133208
+10,Supermarket,24,Sean Green,10,"08913 Charlene Flat
+Joshuaburgh, NJ 52496",Orizaba,Veracruz,83379,Mexico,Merz,212-555-4774,212-555-4771,4/13/79 0:00,1/30/82 0:00,34791.0,26354.0,5062.0,3375.0,False,False,True,True,False,18.850474,-97.10364
+11,Supermarket,22,Kimberly Smith,11,"7142 Wilson Drives
+Melissaton, IL 89760",Portland,OR,44785,USA,Erickson,685-555-8995,685-555-8991,9/17/76 0:00,5/15/82 0:00,20319.0,16232.0,2452.0,1635.0,False,False,False,False,False,45.523452,-122.676207
+12,Deluxe Supermarket,25,Jennifer Summers,12,"9097 Bowman Landing Apt. 369
+Alanberg, MA 44739",Hidalgo,Zacatecas,85759,Mexico,Kalman,151-555-1702,151-555-1701,3/25/68 0:00,12/18/93 0:00,30584.0,21938.0,5188.0,3458.0,True,True,True,True,True,23.073659,-102.722987
+13,Deluxe Supermarket,23,April Snyder,13,"9004 Edward Prairie
+Michaelside, LA 15560",Salem,OR,16796,USA,Inmon,977-555-2724,977-555-2721,4/13/57 0:00,11/10/97 0:00,27694.0,18670.0,5415.0,3610.0,True,True,True,True,True,44.942898,-123.035096
+14,Small Grocery,1,Dana Nguyen,14,"42814 Houston Hills
+Rodriguezside, NJ 62629",San Francisco,CA,89961,USA,Strehlo,135-555-4888,135-555-4881,11/24/57 0:00,1/7/58 0:00,22478.0,15321.0,4294.0,2863.0,True,False,False,False,False,37.774929,-122.419416
+15,Supermarket,18,Cheryl Bradley,15,"71760 Rogers Spur Apt. 296
+North Lindseyborough, IN 08516",Seattle,WA,94036,USA,Ollom,893-555-1024,893-555-1021,7/24/69 0:00,10/19/73 0:00,21215.0,13305.0,4746.0,3164.0,True,False,False,False,False,47.606209,-122.332071
+16,Supermarket,87,Walter Pratt,16,"8847 Kramer Station
+South Christopher, KS 77208",Spokane,WA,82032,USA,Mantle,643-555-3645,643-555-3641,8/23/74 0:00,7/13/77 0:00,30268.0,22063.0,4923.0,3282.0,False,False,False,False,False,47.65878,-117.426047
+17,Deluxe Supermarket,84,Bobby Flores,17,"51108 Goodwin Flats Apt. 764
+Lake Bobby, IL 82213",Tacoma,WA,39348,USA,Mays,855-555-5581,855-555-5581,5/30/70 0:00,6/23/76 0:00,33858.0,22123.0,7041.0,4694.0,True,False,True,True,True,47.252877,-122.444291
+18,Mid-Size Grocery,25,Tasha Rodriguez,18,"6582 Vanessa Oval
+New Richard, NE 68819",Hidalgo,Zacatecas,17161,Mexico,Brown,528-555-8317,528-555-8311,6/28/69 0:00,8/30/75 0:00,38382.0,30351.0,4819.0,3213.0,False,False,False,False,False,23.073659,-102.722987
+19,Deluxe Supermarket,5,Michelle Kelley,19,"7389 Alec Squares Suite 508
+Port Jonathan, FL 50177",Vancouver,BC,51310,Canada,Ruth,862-555-7395,862-555-7391,3/27/77 0:00,10/25/90 0:00,23112.0,16418.0,4016.0,2678.0,True,True,True,True,True,49.261226,-123.113927
+20,Mid-Size Grocery,6,Kimberly Maynard,20,"18013 Billy Bridge Suite 522
+Schmitthaven, NC 66355",Victoria,BC,39010,Canada,Cobb,897-555-1931,897-555-1931,2/6/80 0:00,4/9/87 0:00,34452.0,27463.0,4193.0,2795.0,True,False,False,False,True,48.428421,-123.365644
+21,Deluxe Supermarket,106,Laurie Wallace,21,"891 Bullock Ford
+Amandachester, NJ 51431",San Andres,DF,98252,Mexico,Jones,493-555-4781,493-555-4781,2/7/86 0:00,4/16/90 0:00,,,,,True,False,True,True,True,19.270976,-99.214122
+22,Small Grocery,88,Janice Johnston,22,"02489 Cook Park
+Sherriport, MT 50853",Walla Walla,WA,89761,USA,Byrg,881-555-5117,881-555-5111,1/24/51 0:00,10/17/69 0:00,,,,,False,False,False,False,False,46.064581,-118.343021
+23,Mid-Size Grocery,89,Collin Lopez,23,"23450 Timothy Divide
+Wuland, UT 20341",Yakima,WA,16433,USA,Johnson,170-555-8424,170-555-8421,7/16/77 0:00,7/24/87 0:00,,,,,False,False,False,False,False,46.602071,-120.505899
+24,Supermarket,7,Mary Alvarez,24,"0976 Williams Mountains Apt. 009
+Lake Mario, OH 85565",San Diego,CA,68528,USA,Byrd,111-555-0303,111-555-0304,5/22/79 0:00,4/20/86 0:00,,,,,True,False,True,False,True,32.715738,-117.161084

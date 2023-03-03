@@ -1,0 +1,37 @@
+col0,col1,col2,col3
+90101,AG & Co. KG,HR-NR,mandatory
+11001,Aktiengesellschaft,HR-NR,mandatory
+19022,Anstalt,HR-NR,mandatory
+19001,Anstalt öffentlichen Rechts,HR-NR,mandatory
+90201,eG & Co. KG,HR-NR,mandatory
+12001,eingetragene Genossenschaft,HR-NR,mandatory
+6001,Einzelfirma,HR-NR,mandatory
+6022,Einzelunternehmer,Ust-ID,mandatory
+2001,Freie Berufe,Ust-ID,mandatory
+90401,GbR & Co. KG,HR-NR,mandatory
+90022,Ges.m.b.H. & Co. KG,HR-NR,mandatory
+4001,Gesellschaft bürgerlichen Rechts,Ust-ID,mandatory
+10001,Gesellschaft mit beschränkter Haftung,HR-NR,mandatory
+4022,Gesellschaft nach bürgerlichem Recht,Ust-ID,mandatory
+3001,Gewerbebetrieb,Ust-ID,mandatory
+90001,GmbH & Co. KG,HR-NR,mandatory
+14201,GmbH & Co. KGaA,HR-NR,mandatory
+14401,KG & Co. KG,HR-NR,mandatory
+14401,KG & Co. KGaA,HR-NR,mandatory
+8001,Kommanditgesellschaft,HR-NR,mandatory
+14001,Kommanditgesellschaft auf Aktien,HR-NR,mandatory
+17001,Körperschaft öffentlichen Rechts,HR-NR,mandatory
+10101,Limited,HR-NR,mandatory
+91001,Limited & Co. KG,HR-NR,mandatory
+7001,Offene Handelsgesellschaft,HR-NR,mandatory
+90701,OHG & Co. KG,HR-NR,mandatory
+4501,Partnerschaftsgesellschaft,HR-NR,mandatory
+18122,Privatstiftung,Ust-ID,mandatory
+20022,Sparkasse,HR-NR,mandatory
+18001,Stiftung,Ust-ID,mandatory
+91201,UG (haftungsbeschränkt) & Co. KG,HR-NR,mandatory
+91301,UG (haftungsbeschränkt) & Co. KGaA,HR-NR,mandatory
+10201,Unternehmergesellschaft (haftungsbeschränkt),HR-NR,mandatory
+13001,Verein,HR-NR,mandatory
+90301,Verein & Co. KG,HR-NR,mandatory
+99999,Sonstige,HR-NR,optional

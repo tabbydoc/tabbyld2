@@ -1,0 +1,8 @@
+col0,col1,col2,col3,col4,col5
+condition.csv,Condition,File is not a OMOP CDM table: condition,,,
+drug_exposure.csv,Drug Exposure,Column not in table definition,drug_id,drug_id,
+drug_exposure.csv,Drug Exposure,Column missing in file,person_id,,person_id
+drug_exposure.csv,Drug Exposure,Column not in expected order,drug_concept_id,drug_concept_id,person_id
+measurement.csv,Measurement,NULL values are not allowed for column,person_id,,
+observation.csv,Observation,Type mismatch line number 3,observation_type_concept_id,unknown,integer
+person.csv,Person,Column not in expected order,birth_datetime,birth_datetime,day_of_birth

@@ -1,0 +1,44 @@
+col0,col1,col2,col3
+,,,Host
+,,,
+,,,
+,,,
+,,,User
+,,Password,
+,,,SSL
+,,CI Prefix,
+,,Attach Body,
+Body's Attribute ID,,,
+,,,
+,Enable E-Mails,,
+,,,Note
+,,,active
+,E-Mail-Address,,
+,,,CI ID
+Number of Results:,,,
+,,,Save
+,,,Edit
+,,Overview,
+Create Mailimport,,,
+,Edit Mailimport,,
+Manage Adresses,,,
+,Assign Addresses,,
+,Mail Import,,
+,,Start Import,
+,Edit Cronjob,,
+,Assign Cronjob,,
+,,Minutes,
+,Every Minute,,
+,,,Hours
+,,Every Hour,
+,,,Days
+,,Every Day,
+,,,Months
+,,Every Month,
+,,Weekdays,
+,Every Weekday,,
+,Please chose,,
+,,,
+,,,
+,,,
+,,,

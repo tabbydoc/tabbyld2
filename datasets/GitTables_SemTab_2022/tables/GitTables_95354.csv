@@ -1,0 +1,46 @@
+col0,col1,col2,col3
+1,home,/,Home
+2,home-auth,/home,Home
+3,login,/login,Login
+4,logout,/logout, None
+5,password,/password,Change password
+6,user,/user,Daftar Users
+7,user-add,/user/add,Tambah user
+8,user-edit,/user/{id}/edit,Edit user
+9,user-delete,/user/{id}/delete,Hapus user
+10,user-act,/user/{act}/act,Act user
+11,group,/group,Daftar group
+12,group-add,/group/add,Tambah group
+13,group-edit,/group/{id}/edit,Edit group
+14,group-delete,/group/{id}/delete,Hapus group
+15,group-act,/group/{act}/act,Act Groups
+16,user-group,/user/group,Daftar User groups
+17,user-group-add,/user/group/add,Tambah user groups
+18,user-group-edit,/user/group/{id}/edit,Edit user groups
+19,user-group-delete,/user/group/{id}/delete,Hapus user groups
+20,user-group-act,/user/group/{act}/act,Act User-Groups
+21,routes,/routes,Routes
+22,routes-add,/routes/add,Tambah route
+23,routes-edit,/routes/{id}/edit,Edit route
+24,routes-delete,/routes/{id}/delete,Hapus route
+25,routes-act,/routes/{act}/act,Act route
+26,group-routes,/group/routes,Group Permission
+27,group-routes-add,/group/routes/add,Tambah group permission
+28,group-routes-edit,/group/routes/{id}/edit,Edit grouppermission
+29,group-routes-delete,/group/routes/{id}/delete,Hapus group permission
+30,group-routes-act,/group/routes/{act}/act,Act grouppermission
+31,register,/register,Register
+32,register-add,/register/add,Register Pemda
+33,register-edit,/register/{id}/edit,Edit pemda
+34,register-delete,/register/{id}/delete,Hapus pemda
+35,register-act,/register/{act}/act,Register
+36,propinsi,/propinsi,Daftar Propinsi
+37,propinsi-add,/propinsi/add,Tambah Propinsi
+38,propinsi-edit,/propinsi/{id}/edit,Edit Propinsi
+39,propinsi-delete,/propinsi/{id}/delete,Hapus Propinsi
+40,propinsi-act,/propinsi/{act}/act,Act Propinsi
+41,dati2,/dati2,Daftar Kabupaten/Kota
+42,dati2-add,/dati2/add,Tambah Kabupaten/Kota
+43,dati2-edit,/dati2/{id}/edit,Edit Kabupaten/Kota
+44,dati2-delete,/dati2/{id}/delete,Hapus Kabupaten/Kota
+45,dati2-act,/dati2/{act}/act,Act Kabupaten/Kota

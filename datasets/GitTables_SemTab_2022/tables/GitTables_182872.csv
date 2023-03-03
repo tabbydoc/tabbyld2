@@ -1,0 +1,219 @@
+col0,col1,col2,col3
+1,Africa,International,3
+2,Antarctica,International,3
+3,Asia,International,3
+4,Auckland,Local,1
+5,Bay of Plenty,Local,1
+6,Canterbury,Local,1
+7,Chatham Islands,Local,1
+8,Europe,Local,1
+9,Gisborne,Local,1
+10,Hawke's Bay,Local,1
+11,Manawatu - Wanganui,Local,1
+12,Nationwide,National,2
+13,Nelson - Marlborough - Tasman,Local,1
+14,North America,International,3
+15,Northland,Local,1
+16,Oceania,Local,1
+17,Otago,Local,1
+18,South America,International,3
+19,Southland,Local,1
+20,Taranaki,Local,1
+21,Waikato,Local,1
+22,Wellington - Wairarapa,Local,1
+23,West Coast,Local,1
+24,Afghanistan,International,3
+25,Albania,International,3
+26,Algeria,International,3
+27,Andorra,International,3
+28,Angola,International,3
+29,Antigua and Barbuda,International,3
+30,Argentina,International,3
+31,Armenia,International,3
+32,Australia,International,3
+33,Austria,International,3
+34,Azerbaijan,International,3
+35,Bahamas,International,3
+36,Bahrain,International,3
+37,Bangladesh,International,3
+38,Barbados,International,3
+39,Belarus,International,3
+40,Belgium,International,3
+41,Belize,International,3
+42,Benin,International,3
+43,Bhutan,International,3
+44,Bolivia,International,3
+45,Bosnia and Herzegovina,International,3
+46,Botswana,International,3
+47,Brazil,International,3
+48,Brunei,International,3
+49,Bulgaria,International,3
+50,Burkina,International,3
+51,Burma (Myanmar),International,3
+52,Burundi,International,3
+53,Cambodia,International,3
+54,Cameroon,International,3
+55,Canada,International,3
+56,Cape Verde,International,3
+57,Central African Republic,International,3
+58,Chad,International,3
+59,Chile,International,3
+60,China,International,3
+61,Colombia,International,3
+62,Comoros,International,3
+63,Congo,International,3
+64,"Congo, Democratic Republic of",International,3
+65,Costa Rica,International,3
+66,Croatia,International,3
+67,Cuba,International,3
+68,Cyprus,International,3
+69,Czech Republic,International,3
+70,Denmark,International,3
+71,Djibouti,International,3
+72,Dominica,International,3
+73,Dominican Republic,International,3
+74,East Timor,International,3
+75,Ecuador,International,3
+76,Egypt,International,3
+77,El Salvador,International,3
+78,Equatorial Guinea,International,3
+79,Eritrea,International,3
+80,Estonia,International,3
+81,Ethiopia,International,3
+82,Fiji,International,3
+83,Finland,International,3
+84,France,International,3
+85,Gabon,International,3
+86,Gambia,International,3
+87,Georgia,International,3
+88,Germany,International,3
+89,Ghana,International,3
+90,Greece,International,3
+91,Grenada,International,3
+92,Guatemala,International,3
+93,Guinea,International,3
+94,Guinea-Bissau,International,3
+95,Guyana,International,3
+96,Haiti,International,3
+97,Honduras,International,3
+98,Hungary,International,3
+99,Iceland,International,3
+100,India,International,3
+101,Indonesia,International,3
+102,Iran,International,3
+103,Iraq,International,3
+104,Ireland,International,3
+105,Israel,International,3
+106,Italy,International,3
+107,Ivory Coast,International,3
+108,Jamaica,International,3
+109,Japan,International,3
+110,Jordan,International,3
+111,Kazakhstan,International,3
+112,Kenya,International,3
+113,Kiribati,International,3
+114,"Korea, North",International,3
+115,"Korea, South",International,3
+116,Kuwait,International,3
+117,Kyrgyzstan,International,3
+118,Laos,International,3
+119,Latvia,International,3
+120,Lebanon,International,3
+121,Lesotho,International,3
+122,Liberia,International,3
+123,Libya,International,3
+124,Liechtenstein,International,3
+125,Lithuania,International,3
+126,Luxembourg,International,3
+127,Macedonia,International,3
+128,Madagascar,International,3
+129,Malawi,International,3
+130,Malaysia,International,3
+131,Maldives,International,3
+132,Mali,International,3
+133,Malta,International,3
+134,Marshall Islands,International,3
+135,Mauritania,International,3
+136,Mauritius,International,3
+137,Mexico,International,3
+138,Micronesia,International,3
+139,Moldova,International,3
+140,Monaco,International,3
+141,Mongolia,International,3
+142,Montenegro,International,3
+143,Morocco,International,3
+144,Mozambique,International,3
+145,Namibia,International,3
+146,Nauru,International,3
+147,Nepal,International,3
+148,Netherlands,International,3
+149,New Zealand,International,3
+150,Nicaragua,International,3
+151,Niger,International,3
+152,Nigeria,International,3
+153,Norway,International,3
+154,Oman,International,3
+155,Pakistan,International,3
+156,Palau,International,3
+157,Panama,International,3
+158,Papua New Guinea,International,3
+159,Paraguay,International,3
+160,Peru,International,3
+161,Philippines,International,3
+162,Poland,International,3
+163,Portugal,International,3
+164,Qatar,International,3
+165,Romania,International,3
+166,Russian Federation,International,3
+167,Rwanda,International,3
+168,Saint Kitts and Nevis,International,3
+169,Saint Lucia,International,3
+170,Saint Vincent and the Grenadines,International,3
+171,Samoa,International,3
+172,San Marino,International,3
+173,Sao Tome and Principe,International,3
+174,Saudi Arabia,International,3
+175,Senegal,International,3
+176,Serbia,International,3
+177,Seychelles,International,3
+178,Sierra Leone,International,3
+179,Singapore,International,3
+180,Slovakia,International,3
+181,Slovenia,International,3
+182,Solomon Islands,International,3
+183,Somalia,International,3
+184,South Africa,International,3
+185,South Sudan,International,3
+186,Spain,International,3
+187,Sri Lanka,International,3
+188,Sudan,International,3
+189,Suriname,International,3
+190,Swaziland,International,3
+191,Sweden,International,3
+192,Switzerland,International,3
+193,Syria,International,3
+194,Tajikistan,International,3
+195,Tanzania,International,3
+196,Thailand,International,3
+197,Togo,International,3
+198,Tonga,International,3
+199,Trinidad and Tobago,International,3
+200,Tunisia,International,3
+201,Turkey,International,3
+202,Turkmenistan,International,3
+203,Tuvalu,International,3
+204,Uganda,International,3
+205,Ukraine,International,3
+206,United Arab Emirates,International,3
+207,United Kingdom,International,3
+208,United States,International,3
+209,Uruguay,International,3
+210,Uzbekistan,International,3
+211,Vanuatu,International,3
+212,Vatican City,International,3
+213,Venezuela,International,3
+214,Vietnam,International,3
+215,Yemen,International,3
+216,Zambia,International,3
+217,Zimbabwe,International,3
+218,Niue,International,3

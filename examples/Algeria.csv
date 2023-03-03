@@ -1,0 +1,32 @@
+location,date,vaccine,source_url,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters
+Algeria,2021-01-29,Sputnik V,https://www.aps.dz/regions/116777-blida-covid-19-trente-vaccines-au-matin-du-1er-jour-de-la-campagne,0,0,,
+Algeria,2021-01-30,Sputnik V,https://www.aps.dz/regions/116777-blida-covid-19-trente-vaccines-au-matin-du-1er-jour-de-la-campagne,30,30,,
+Algeria,2021-02-19,Sputnik V,https://www.echoroukonline.com/%d9%84%d9%82%d8%a7%d8%ad-%d9%83%d9%88%d8%b1%d9%88%d9%86%d8%a7-%d8%b9%d8%b6%d9%88-%d8%a8%d8%a7%d9%84%d9%84%d8%ac%d9%86%d8%a9-%d8%a7%d9%84%d8%b9%d9%84%d9%85%d9%8a%d8%a9-%d9%8a%d9%83%d8%b4%d9%81-%d8%b9/,75000,75000,,
+Algeria,2021-08-20,"Oxford/AstraZeneca, Sinopharm/Beijing, Sputnik V",https://covid19.who.int/,4146091,3421279,724812,
+Algeria,2021-09-04,"Oxford/AstraZeneca, Sinopharm/Beijing, Sputnik V",https://www.liberte-algerie.com/actualite/coup-denvoi-de-la-campagne-nationale-de-vaccination-contre-le-covid-19-364407,8000000,5000000,3000000,
+Algeria,2021-09-12,"Oxford/AstraZeneca, Sinopharm/Beijing, Sputnik V",https://covid19.who.int/,9989662,5815039,,
+Algeria,2021-09-25,"Oxford/AstraZeneca, Sinopharm/Beijing, Sputnik V",https://covid19.who.int/,10049978,6017036,4032942,
+Algeria,2021-10-24,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,11080739,6328806,4751933,
+Algeria,2021-10-27,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,11148720,6351998,4796722,
+Algeria,2021-10-30,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,11179354,6364327,4815027,
+Algeria,2021-11-02,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,11271319,6399209,4872110,
+Algeria,2021-11-08,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,11316115,6418827,4897288,
+Algeria,2021-11-13,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,11376816,6446373,4930443,
+Algeria,2021-11-21,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://reliefweb.int/sites/reliefweb.int/files/resources/Sitrep%20603_22112021.pdf,12008974,6697263,5298544,13167
+Algeria,2021-11-22,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,12032500,6703364,5314016,
+Algeria,2021-11-25,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://reliefweb.int/sites/reliefweb.int/files/resources/Sitrep%20607_26112021.pdf,12076870,6716299,5340231,20340
+Algeria,2021-11-29,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://reliefweb.int/sites/reliefweb.int/files/resources/Sitrep%20611_30112021.pdf,12145830,6740064,5380385,25381
+Algeria,2021-11-30,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,12293060,6875003,5391232,
+Algeria,2021-12-14,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,12437324,7019879,5554702,
+Algeria,2021-12-21,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,12545356,7060737,5609040,
+Algeria,2022-01-09,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,12974545,7247787,5796432,
+Algeria,2022-02-08,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,13461201,7403900,6003539,
+Algeria,2022-02-17,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://africacdc.org/covid-19-vaccination/,,,,373991
+Algeria,2022-02-20,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,13631683,7456361,6076272,
+Algeria,2022-02-24,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://africacdc.org/covid-19-vaccination/,,,,428324
+Algeria,2022-03-04,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://africacdc.org/covid-19-vaccination/,,,,436274
+Algeria,2022-03-09,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,13704895,7461932,6110712,490676
+Algeria,2022-04-24,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,13772044,7840131,6481186,514063
+Algeria,2022-05-01,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,15205854,7840131,6481186,514063
+Algeria,2022-05-29,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,15205854,,,514063
+Algeria,2022-09-04,"Oxford/AstraZeneca, Sinopharm/Beijing, Sinovac, Sputnik V",https://covid19.who.int/,15267442,7840131,6481186,575651

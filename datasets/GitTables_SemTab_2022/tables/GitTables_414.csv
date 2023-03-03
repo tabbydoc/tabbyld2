@@ -1,0 +1,32 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14
+TaungthaWethet-T-1,Taungtha (Wethet),,,rtc,,21.691667,94.097222,Sino-Tibetan,,Htilin,Wethet,T-1,Taungtha,S-Matu/Rawngtu
+ThaiphumRengkheng-T-7,Thaiphum (Rengkheng),,,cth,,21.6,93.4432,Sino-Tibetan,,Matupi,Rengkheng,T-7,Taungtha,S-Khumi
+AshoKokanTan-A-1,Asho (Kokan Tan),asho1236,,csh,,19.85,94.0,Sino-Tibetan,,Ann,Kokan Tan,A-1,Asho,S-Asho
+AshoLinde-A-11,Asho (Linde),asho1236,,csh,,,,Sino-Tibetan,,Nga Phay,Linde,A-11,Asho,S-Asho
+UppuKyinDwe-U-5,Uppu (Kyin Dwe),chin1478,,cnb,,20.97296,93.83817,Sino-Tibetan,,Kanpetlet,Kyin Dwe,U-5,Uppu,S-Asho
+LonpawKhoimalaung-U-9,Lonpaw (Khoimalaung),chin1478,,cnb,,20.45,94.25,Sino-Tibetan,,Seddutaya,Khoimalaung,U-9,Uppu,S-Asho
+MinkyaChi-U-10,Minkya (Chi),chin1478,,cnb,,20.45,94.25,Sino-Tibetan,,Seddutaya,Chi,U-10,Uppu,S-Asho
+DoituHetsawlay-U-11,Doitu (Hetsawlay),,,csj,,20.366667,93.266667,Sino-Tibetan,,Minbya,Hetsawlay,U-11,Uppu,S-Asho
+LaituKhuasung-U-12,Laitu (Khuasung),,,clj,,20.57061005,93.31453705,Sino-Tibetan,,Minbya,Khuasung,U-12,Uppu,S-Asho
+EkaiDaletYwaHaung-D-1,Ekai Dalet Ywa Haung,sumt1234,,csv,,19.99295,93.80038,Sino-Tibetan,,Ann,Dalet Ywa Haung,D-1,Dalet,S-Asho
+KhulaiAyeChaungKwanwa-D-5,Khulai Aye Chaung Kwanwa,sumt1234,,csv,,19.4709,94.01271,Sino-Tibetan,,Ann,Aye Chaung Kwanwa,D-5,Dalet,S-Asho
+DaituNyaungChaungYwa-D-4,Daitu Nyaung Chaung Ywa,sumt1234,,csv,,19.67484093,94.01331329,Sino-Tibetan,,Ann,Nyaung Chaung Ywa,D-4,Dalet,S-Asho
+KhamawLakeKone-D-2,Khamaw Lake Kone,asho1236,,csh,,19.96184731,93.86746216,Sino-Tibetan,,Ann,Lake Kone,D-2,Dalet,S-Asho
+SaingbongAyoTaung-D-3,Saingbong Ayo Taung,asho1236,,csh,,19.95651054,93.85251617,Sino-Tibetan,,Ann,Ayo Taung,D-3,Dalet,S-Asho
+LaisawThuHtayKung-A,Laisaw Thu Htay Kung,,,clj,,20.38415909,93.25898743,Sino-Tibetan,,Minnpya,Thu Htay Kung,,Mro-Khimi,S-Asho
+HyowLaituGhungurumukParainBandarban-A,Hyow-Laitu Ghungurumukʰ Para (in Bandarban),asho1236,,csh,,22.1454,92.08462,Sino-Tibetan,,Bandarban,Ghungurumukʰ Para (in Bandarban),,Bangladesh,S-Asho
+SonglaiHettui8KarchaungHettui-A,Songlai-Hettui 8Karchaung (Hettui),,,csj,,21.3,92.85,Sino-Tibetan,,Paletwa,8Karchaung (Hettui),,Paletwa Daai,S-Asho
+SonglaiMaungUmSong1MaungUmSong-A,Songlai-Maung Um (Song) 1Maung Um (Song),,,csj,,21.3,92.85,Sino-Tibetan,,Paletwa,1Maung Um (Song),,Paletwa Daai,S-Asho
+LaituAhongdong-A,Laitu Ahongdong,,,clj,,20.22525024,93.41887665,Sino-Tibetan,,Kanni,Ahongdong,,Laitu-Sumtu,S-Asho
+SumtuDookkan-A,Sumtu Dookkan,sumt1234,,csv,,,,Sino-Tibetan,,,Dookkan,,Laitu-Sumtu,S-Asho
+NggaKantthayung-A,Ng'ga Kant-thayung,munc1235,,mwq,,21.2,94.016667,Sino-Tibetan,,Kanpetlet,Kant-thayung,,Matupi Daai,S-Cho/Daai
+KaangKruk-A,Kaang Kruk,,,ckn,,21.6,93.4432,Sino-Tibetan,,Matupi,Kruk,,Matupi Daai,S-Cho/Daai
+DaaiKalim-A,Daai Kal-im,daai1236,,dao,,21.6,93.4432,Sino-Tibetan,,Matupi,Kal-im,,Matupi Daai,S-Cho/Daai
+DaaiAwisi-A,Daai Awisi,daai1236,,dao,,21.6,93.4432,Sino-Tibetan,,Matupi,Awisi,,Matupi Daai,S-Cho/Daai
+DaaiNgxang5HungNghang-A,Daai-Ngxang 5Hung (Ng'hang),daai1236,,dao,,21.3,92.85,Sino-Tibetan,,Paletwa,5Hung (Ng'hang),,Paletwa Daai,S-Cho/Daai
+DaaiYet3BuchaungwaYet-A,Daai-Yet 3Buchaungwa (Yet),daai1236,,dao,,21.3,92.85,Sino-Tibetan,,Paletwa,3Buchaungwa (Yet),,Paletwa Daai,S-Cho/Daai
+MuunNituShingBawk-A,Muun (Nitu) Shing Bawk,munc1235,,mwq,,21.366667,93.983333,Sino-Tibetan,,Mindat,Shing Bawk,,Southern Chin,S-Cho/Daai
+RawngtuWeilong-A,Rawngtu Weilong,wela1234,,weu,,21.366667,93.983333,Sino-Tibetan,,Mindat,Weilong,,,S-Matu/Rawngtu
+RawngtuRamtim-A,Rawngtu Ramtim,wela1234,,weu,,21.6,93.4432,Sino-Tibetan,,Matupi,Ramtim,,,S-Matu/Rawngtu
+MroKhimiAreong10KyaGaungvillageMrokhami-A,Mro-Khimi Areong 10Kya Gaung village (Mro-khami),mroc1235,,cmr,,21.3,92.85,Sino-Tibetan,,Paletwa,10Kya Gaung village (Mro-khami),,Paletwa Daai,S-Khumi
+WakungAwaPyin-A,Wakung Awa Pyin,mroc1235,,cmr,,19.49583054,93.95348358,Sino-Tibetan,,Mrauk U,Awa Pyin,,Mro-Khimi,S-Khumi

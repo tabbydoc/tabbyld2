@@ -4,12 +4,12 @@ Logo,Name,Norm,PCRPID,APID,Language
 ,BBC World Service English,{DVB-S MPEG-2},169,1951,English
 ,Beur FM,{DVB-S MPEG-2},169,1945,French
 ,BFM,{DVB-S MPEG-2},168,1918,French
-,Ch?rie FM,{DVB-S MPEG-2},168,249,French
+,Chérie FM,{DVB-S MPEG-2},168,249,French
 ,Contact FM,{DVB-S MPEG-2},168,245,French
 ,Europe 1,{DVB-S MPEG-2},168,1911,French
 ,FG DJ Radio,{DVB-S MPEG-2},168,243,French
 ,FIP,{DVB-S MPEG-2},1904,1903,French
-,France Bleu ?le de France,{DVB-S MPEG-2},1904,1907,French
+,France Bleu île de France,{DVB-S MPEG-2},1904,1907,French
 ,France Culture,{DVB-S MPEG-2},1904,1906,French
 ,France Info,{DVB-S MPEG-2},1904,1904,French
 ,France Inter,{DVB-S MPEG-2},1904,1905,French
@@ -19,7 +19,7 @@ Logo,Name,Norm,PCRPID,APID,Language
 ,Juda?ques FM,{DVB-S MPEG-2},169,1944,French
 ,Latina,{DVB-S MPEG-2},168,247,French
 ,Le Mouv',{DVB-S MPEG-2},1904,241,French
-,Medi 1 Radio M?diterran?e Int.,{DVB-S MPEG-2},169,1949,French
+,Medi 1 Radio Méditerranée Int.,{DVB-S MPEG-2},169,1949,French
 ,Monte Carlo Doualiya,{DVB-S MPEG-2},168,1915,Arabic
 ,Nostalgie,{DVB-S MPEG-2},168,246,French
 ,NRJ,{DVB-S MPEG-2},168,236,French

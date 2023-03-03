@@ -1,0 +1,16 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+STOP!,"Changes to this doc can break the nose tests or interfere with test systems!  BEFORE making changes, please read https://confluence.oceanobservatories.org/display/CIDev/Preload+development.  AFTER making changes, please TEST, make a copy of this sheet, and commit the new URL to ion_loader.py!",,,,,,,,,
+DOC,,,,,,,,,list of IDs,
+IDK,IDK_OBS,IDK_USER,IDK_ORG,IDK Observatory,IDK Observatory,"Your desk, your office",XX01ABCD,,"GEO_IDK,TEMP_IDK",SUBMERGED1
+NOSE,OBS_NOSE,USER_1,MF_TEST,Beta Demo Site Alpha,Site Alpha,Regional Cable Demonstration Site,XX01ABCD,Beta Regional  Demonstration,"GEO1,TEMP1",SUBMERGED
+OOIR2_DEMOx,OBS_BTST_RSN,,MF_RSN,RSN Bench Testing,,Bench testing of RSN instruments,,Bench Testing,"GEO_10,TEMP1",SUBMERGED
+OOIR2_DEMOx,OBS_BTST_CG,,MF_CGSN,CG Bench Testing,,Bench testing of CG instruments,,Bench Testing,"GEO_11,TEMP1",SUBMERGED
+OOIR2_DEMOx,OBS_BTST_EA,,MF_EA,EA Bench Testing,,Bench testing of EA instruments,,Bench Testing,"GEO_12,TEMP1",SUBMERGED
+OOIR2_DEMO,OBS_BTST_RSN,,MF_3,RSN Bench Testing,,Bench testing of RSN instruments,,Bench Testing,"GEO_10,TEMP1",SUBMERGED
+OOIR2_DEMO,OBS_BTST_CG,,MF_3,CG Bench Testing,,Bench testing of CG instruments,,Bench Testing,"GEO_11,TEMP1",SUBMERGED
+OOIR2_DEMO,OBS_BTST_EA,,MF_3,EA Bench Testing,,Bench testing of EA instruments,,Bench Testing,"GEO_12,TEMP1",SUBMERGED
+BETA,OBS_RSN,USER_1,MF_3,Beta Demo Site Alpha,Site Alpha,Regional Cable Demonstration Site,XX01ABCD,Beta Regional  Demonstration,"GEO1,TEMP1",SUBMERGED
+BETA,OBS_RSN2,USER_1,MF_3,Beta Demo Site Beta,Site Beta,Regional Cable Demonstration Site,XX01ABCD,Beta Regional  Demonstration,"GEO2,TEMP1",SUBMERGED
+BETA,OBS_RSN3,USER_1,MF_3,Beta Demo Site Gamma,Site Gamma,Regional Cable Demonstration Site,XX01ABCD,Beta Regional  Demonstration,"GEO3,TEMP1",SUBMERGED
+R2_DEMO,OBS_CGSN,G_CHAVEZ,MF_CGSN,Demo Site Global Argentine Basin,Global Argentine Basin,Global Argentine Basin Array Site,XX01ABCD,Beta Regional  Demonstration,"GEO4,TEMP1",SUBMERGED
+R2_DEMO,OBS_3,USER_1,MF_3,Demo Site RSN,RSN,Beta RSN Demonstration Observatory Site,XX01ABCD,Beta Regional  Demonstration,"GEO_UW,TEMP1",SUBMERGED

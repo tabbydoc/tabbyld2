@@ -1,0 +1,40 @@
+col0,col1,col2
+age_cat_sero,age category for seroprevalence in years,"0-17, 18-49, 50-64, 65+"
+age,age in years,0-100
+sex,sex,"male, female"
+race_ethnicity,race/ethnicity,"Hispanic/Latino, non-Hispanic Black, non-Hispanic White, Other "
+county_res,county of residence,"Alameda, Central Sierra, Contra Costa, Fresno, Greater Sacramento, Imperial, Kern, Los Angeles, Marin, Merced, Monterey, Napa_Sonoma, Northern California, Northern Sacramento Valley, Orange, Placer, Riverside, Sacramento, San Bernardino, San Diego, San Francisco, San Joaquin, San Joaquin Valley, San Luis Obispo, San Mateo, Santa Barbara, Santa Clara, SantaCruz_SanBenito, Solano, Stanislaus, Tulare, Ventura "
+age_cat,10-year age category,"<10, 10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80+"
+special.population,special population status ,"0=none, 1=healthcare worker, 2=prisoner, 3=SNF resident, 4=education worker, 5=person experiencing homelessness, 6=frontline essential worker, 7=non-frontline essential worker, 8=ALF resident"
+asthma,binary asthma status,"0=non-asthmatic, 1=asthmatic"
+diabetes,binary diabetes status,"0=non-diabetic, 1=diabetic"
+smoker,active tobacco use,"0=no current tobacco use, 1=current tobacco use"
+heart disease,binary coronary heart disease status,"0=no history of heart disease, 1=history of heart disease"
+heart failure,binary heart failure status,"0=no history of heart failure, 1=history of heart failure"
+hypertension,binary hypertension status,"0=non-hypertensive, 1=hypertensive"
+obesity,binary obesity status,"0=(bmi<30), 1=(bmi≥30)"
+id,ID within county,1-10098052
+alive.dead_stats,Vital status,"1=alive, 0=dead"
+race,race,"White, African American, American Indian or Alaska Native, Asian Alone, Native Hawaiian or Pacific Islander, Some other race alone, Two or more races"
+ethnicity,ethnicity,"Hispanic/Latino, non-Hispanic/Latino"
+bmi,body mass index,5-50
+time_death,time in days since first recorded death in pandemic at which simulated is started,
+log_lambda,log(COVID-19 death hazard rate),
+se_log_lambda,standard error in log_lambda estimate,
+log_lambda_LB,lower bound of 95% CI for log_lambda,
+log_lambda_UB,upper bound of 95% CI for log_lambda,
+population,population of demographic-special-population-comorbidity risk group,
+median_perc,median percentage ensemble COVID-19 IFR estimate from O'Driscoll Nature 2020,
+CI_95_LB,lower bound of 95% CI for IFR,
+CI_95_UB,upper bound of 95% CI for IFR,
+grp,"risk group ID for demographic, special population and comorbidity combination",
+HR,overall hazard ratio for COVID-19 death for comorbidity combination,
+RR,overall adjusted relative risk of COVID-19 death for special population status and comorbidity combination,
+RR_LB,Lower bound of 95% CI for RR,
+RR_UB,Upper bound of 95% CI for RR,
+se_RR,standard error in RR,
+RR0,relative risk adjustment to ensure overall death rate matches data,
+p_past_inf,"probability of past SARS-CoV-2 infection given age group, sex and special population status",
+risk_grp,risk group ID for demographic and special population combination,
+life_expectancy,"remaining life expectancy given age in years, sex and race/ethnicity",
+seroprev,seroprevalence in age_cat_sero age group,

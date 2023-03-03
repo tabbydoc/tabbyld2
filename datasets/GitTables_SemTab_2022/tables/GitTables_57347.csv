@@ -1,0 +1,35 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+test_1,kinesis_athletics_x.test_category_7,Estatura corporal,Estatura,product.product_uom_cm,False,value,none,none,none
+test_2,kinesis_athletics_x.test_category_8,Pulsaciones cardíacas,Pulsaciones,kinesis_athletics_x.product_uom_3,True,value,alert,ideal,alert
+test_3,kinesis_athletics_x.test_category_8,,Presión Sistólica,kinesis_athletics_x.product_uom_6,True,value,alert,ideal,alert
+test_4,kinesis_athletics_x.test_category_8,,Presión Diastólica,kinesis_athletics_x.product_uom_6,True,value,alert,ideal,alert
+test_5,kinesis_athletics_x.test_category_9,,Peso Ideal,product.product_uom_kgm,True,value,alert,ideal,alert
+test_6,kinesis_athletics_x.test_category_9,,Grasa Ideal,product.product_uom_kgm,True,value,superior,ideal,alert
+test_7,kinesis_athletics_x.test_category_7,,Peso Corporal,product.product_uom_kgm,True,value,alert,ideal,alert
+test_8,kinesis_athletics_x.test_category_10,Índice Masa Corporal,IMC,product.product_uom_unit,True,value,alert,ideal,alert
+test_9,kinesis_athletics_x.test_category_10,Tasa Metabólica Basal,TMB,product.product_uom_unit,True,value,alert,ideal,alert
+test_10,kinesis_athletics_x.test_category_10,,Porcentaje Grasa,kinesis_athletics_x.product_uom_1,True,value,alert,ideal,alert
+test_11,kinesis_athletics_x.test_category_10,,Masa Grasa,product.product_uom_kgm,True,value,alert,ideal,alert
+test_12,kinesis_athletics_x.test_category_10,,Masa Magra,product.product_uom_kgm,True,value,alert,ideal,alert
+test_13,kinesis_athletics_x.test_category_10,,Nivel de Agua,kinesis_athletics_x.product_uom_1,True,value,alert,ideal,alert
+test_14,kinesis_athletics_x.test_category_10,,Colesterol,,True,value,alert,ideal,alert
+test_15,kinesis_athletics_x.test_category_12,,Cabeza,,False,selection,none,none,none
+test_16,kinesis_athletics_x.test_category_12,,Cuello,,False,selection,none,none,none
+test_17,kinesis_athletics_x.test_category_12,,Pies,kinesis_athletics_x.product_uom_5,False,selection,none,none,none
+test_18,kinesis_athletics_x.test_category_12,,Hombros,,False,selection,none,none,none
+test_19,kinesis_athletics_x.test_category_12,,Columna,,False,selection,none,none,none
+test_20,kinesis_athletics_x.test_category_16,,Audición derecha,,False,selection,none,none,none
+test_21,kinesis_athletics_x.test_category_16,,Audición izquierda,,False,selection,none,none,none
+test_22,kinesis_athletics_x.test_category_15,,Vista cercana derecha,,False,selection,none,none,none
+test_23,kinesis_athletics_x.test_category_15,,Vista cercana izquierda ,,False,selection,none,none,none
+test_24,kinesis_athletics_x.test_category_15,,Vista lejana derecha,,False,selection,none,none,none
+test_25,kinesis_athletics_x.test_category_15,,Vista lejana izquierda,,False,selection,none,none,none
+test_26,kinesis_athletics_x.test_category_12,,Torso,,False,selection,none,none,none
+test_27,kinesis_athletics_x.test_category_12,,Abdomen,,False,selection,none,none,none
+test_28,kinesis_athletics_x.test_category_13,,Complexión,,False,selection,none,none,none
+test_29,kinesis_athletics_x.test_category_2,,Carrera de velocidad ,kinesis_athletics_x.product_uom_1,False,value,none,none,none
+test_30,kinesis_athletics_x.test_category_2,,Carrera de obstáculos ,product.product_uom_hour,False,value,none,none,none
+test_31,kinesis_athletics_x.test_category_6,,Salto de longitud,product.product_uom_hour,False,value,none,none,none
+test_32,kinesis_athletics_x.test_category_5,,Lanzamiento de pelota,kinesis_athletics_x.product_uom_5,False,value,none,none,none
+test_33,kinesis_athletics_x.test_category_6,,Salto de altura,kinesis_athletics_x.product_uom_5,False,value,none,none,none
+test_34,kinesis_athletics_x.test_category_5,,Lanzamiento de flecha ,kinesis_athletics_x.product_uom_5,False,value,none,none,none

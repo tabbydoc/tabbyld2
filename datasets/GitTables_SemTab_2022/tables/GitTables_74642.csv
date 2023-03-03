@@ -1,0 +1,60 @@
+col0,col1,col2,col3
+EPA Handler ID,1,12,Alphanumeric
+Activity Location,13,2,Alphanumeric
+Source Type,15,1,Alphanumeric
+Handler Sequence Number,16,6,Integer
+Hazardous Waste Stream Page Number,22,5,Integer
+Sub-page Sequence Number,27,5,Integer
+BR Form,32,2,Alphanumeric
+Management Location,34,7,Alphanumeric
+Reporting Cycle Year,41,4,Integer
+State,45,2,Alphanumeric
+State Name,47,30,Alphanumeric
+Region,77,2,Alphanumeric
+Handler Name,79,80,Alphanumeric
+Location Street Number,159,12,Alphanumeric
+Location Street 1,171,50,Alphanumeric
+Location Street 2,221,50,Alphanumeric
+Location City,271,25,Alphanumeric
+Location State,296,2,Alphanumeric
+Location Zip Code,298,14,Alphanumeric
+County Code,312,5,Alphanumeric
+County Name,317,27,Alphanumeric
+State District,344,10,Alphanumeric
+Generator ID Included in NBR,354,1,Alphanumeric
+Generated Waste Included in NBR,355,1,Alphanumeric
+Management Facility ID Included in NBR,356,1,Alphanumeric
+Managed Waste Included in NBR,357,1,Alphanumeric
+Shipper ID Included in NBR,358,1,Alphanumeric
+Shipped Waste Included in NBR,359,1,Alphanumeric
+Receiver ID Included in NBR,360,1,Alphanumeric
+Received Waste Included in NBR,361,1,Alphanumeric
+Waste Description,362,240,Alphanumeric
+Primary NAICS Code,602,6,Alphanumeric
+Waste Source Code,608,3,Alphanumeric
+Waste Form Code,611,4,Alphanumeric
+Management Method Code,615,4,Alphanumeric
+Federal Waste Indicator,619,1,Alphanumeric
+Wastewater Characteristic Flag,620,1,Alphanumeric
+Waste Generation (in tons),621,19,Number
+"Quantity Treated, Disposed, or Recycled On-site (in tons)",640,19,Number
+Total Quantity Shipped Off-site (in tons),659,19,Number
+Quantity Received (in tons),678,19,Number
+EPA ID Number of Facility to Which Waste was Shipped,697,12,Alphanumeric
+Waste Received - State Code,709,2,Alphanumeric
+Waste Received - State Name,711,30,Alphanumeric
+Waste Received - EPA Region,741,2,Alphanumeric
+EPA ID Number of Handler Which Shipped the Waste,743,12,Alphanumeric
+Waste Shipped - State Code,755,2,Alphanumeric
+Waste Shipped - State Name,757,30,Alphanumeric
+Waste Shipped - EPA Region,787,2,Alphanumeric
+Waste Minimization Code,789,1,Alphanumeric
+Waste Code Group,790,9,Alphanumeric
+Generator Status (Calculated),799,1,Alphanumeric
+Acute / Non-Acute Status,800,1,Alphanumeric
+Waste Generation Activity,801,1,Alphanumeric
+Priority Chemical,802,1,Alphanumeric
+Management Category,803,35,Alphanumeric
+Waste Property,838,1,Alphanumeric
+Last Change,839,8,Date
+Federal Waste Codes,847,4000,Alphanumeric

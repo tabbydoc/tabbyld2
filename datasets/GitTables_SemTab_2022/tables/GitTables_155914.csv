@@ -1,0 +1,111 @@
+col0,col1,col2,col3
+1100,,Reserved,Reserved
+1101,,Greeting,Greeting
+1200,,Generic Infrastructure Problem,Generic Infrastructure Problem
+1201,,Water Outage,Water Outage
+1202,,Natural Gas Outage,Natural Gas Outage
+1203,,Electricity Outage,Electricity Outage
+1204,,Internet Outage,Internet Outage
+1300,,Generic Traffic and Transportation Problem,Generic Traffic and Transportation Problem
+1301,,Roadwork,Roadwork completed
+1302,,Traffic Accident,Traffic Accident cleared
+1303,,Lights broken,Lights repaired
+1304,,Traffic Lights broken,Traffic Lights repaired
+1400,,Natural Disaster,Natural Disaster
+1401,,Flood,Flood
+1402,,Storm,Storm
+1403,,Earthquake,Earthquake
+1500,,Generic Urban Problem,Generic Urban Problem
+1501,,Sudden Bang,Sudden Bang
+1502,,Scream,Scream
+1503,,Noise Polution,Noise Polution
+1504,,Environmental Odors,Environmental Odors
+1505,,Celebratory Gunfire,Celebratory Gunfire
+1600,,Generic Environmental Problem,Generic Environmental Problem
+1601,,Litter,Litter
+1602,,Drinking Water Pollution,Drinking Water Pollution
+1603,,Air Pollution,Air Pollution
+1700,,Generic Health Problem,Generic Health Problem
+1701,,Unable to receive medical services,Unable to receive medical services
+1702,,Unable to receive vaccination,Unable to receive vaccination
+1703,,Unable to receive treatment,Unable to receive treatment
+1800,,Extraordinary Circumstances,Extraordinary Circumstances
+1801,,Unable to receive Covid-19 testing,Unable to receive Covid-19 testing
+1802,,Unable to receive Covid-19 vaccination,Unable to receive Covid-19 vaccination
+1803,,Covid-19 Health Regulation Violation,Covid-19 Health Regulation Violation
+11100,,Reserved,Reserved
+11101,,Farewell,Farewell
+11200,,Generic Infrastructure Problem Resolved,Generic Infrastructure Problem Resolved
+11201,,Water Outage,Water Outage Ended
+11202,,Natural Gas Outage,Natural Gas Outage Ended
+11203,,Electricity Outage,Electricity Outage Ended
+11204,,Internet Outage,Internet Outage Ended
+11300,,Generic Traffic and Transportation Problem Resolved,Generic Traffic and Transportation Problem Resolved
+11301,,Roadwork,Roadwork
+11302,,Traffic Accident,Traffic Accident
+11303,,Lights broken,Lights broken
+11304,,Traffic Lights broken,Traffic Lights broken
+11400,,Natural Disaster subsides,Natural Disaster subsides
+11401,,Flood,Flood subsides
+11402,,Storm,Storm subsides
+11403,,Earthquake,Aftershocks subside
+11500,,Generic Urban Problem,Generic Urban Problem
+11503,,Noise Polution subsides,Noise Polution subsides
+11504,,Environmental Odors subside,Environmental Odors subside
+11505,,Celebratory Gunfire,Celebratory Gunfire
+11600,,Generic Environmental Problem Resolved,Generic Environmental Problem Resolved
+11601,,Litter Removed,Litter Removed
+11602,,Drink Water Decontaminated,Drink Water Decontaminated
+11603,,Air Pollution Disperses,Air Pollution Disperses
+11700,,Generic Health Problem Resolved,Generic Health Problem Resolved
+11701,,Access to medical services,Access to medical services
+11702,,Access to vaccination,Access to vaccination
+11703,,Access to treatment,Access to treatment
+11800,,Extraordinary Circumstances Resolved,Extraordinary Circumstances Resolved
+11801,,Received Covid-19 testing,Received Covid-19 testing
+11802,,Received Covid-19 vaccination,Received Covid-19 vaccination
+11803,,Covid-19 Health Regulation Violation Fixed,Covid-19 Health Regulation Violation Fixed
+2100,,Reserved,Reserved
+2200,,Generic Infrastructure Solution,Generic Infrastructure Solution
+2300,,Generic Traffic and Transportation Solution,Generic Traffic and Transportation Solution
+2400,,Natural Disaster Recovery,Natural Disaster Recovery
+2500,,Generic Urban Solution,Generic Urban Solution
+2600,,Generic Environmental Solution,Generic Environmental Solution
+2601,,Ongoing Litter Collection,Ongoing Litter Collection
+2602,,Ongoing Drink Water Decontamination,Ongoing Drink Water Decontamination
+2700,,Generic Health Solution,Generic Health Solution
+2800,,Crisis Management,Crisis Management
+2801,,Covid-19 testing center established,Covid-19 testing center established
+2802,,Covid-19 vaccines deliveries,Covid-19 vaccines deliveries
+12100,,Reserved,Reserved
+12200,,Generic Infrastructure Solution Progress,Generic Infrastructure Solution Progress
+12300,,Generic Traffic and Transportation Solution Progress,Generic Traffic and Transportation Solution Progress
+12400,,Natural Disaster Recovery Progress,Natural Disaster Recovery Progress
+12500,,Generic Urban Solution Progress,Generic Urban Solution Progress
+12600,,Generic Environmental Solution Progress,Generic Environmental Solution Progress
+12601,,Litter Collection Complete,Litter Collection Complete
+12602,,Drink Water Decontaminated,Drink Water Decontaminated
+12700,,Generic Health Solution,Generic Health Solution
+12800,,Crisis Management,Crisis Management
+12801,,Covid-19 testing center closed,Covid-19 testing center closed
+12802,,Covid-19 vaccines delivered,Covid-19 vaccines delivered
+3100,,Spontaneous Social Events,Spontaneous Social Events
+3101,,Flash Mob,Flash Mob
+3200,,One-day Social Events,One-day Social Events
+3201,,Concert,Concert
+3202,,Play,Play
+3203,,Bazaar,Bazaar
+3300,,Daily Social Events,Daily Social Events
+3301,,Fair,Fair
+3302,,Festival,Festival
+3303,,Art Exhibition,Art Exhibition
+13100,,Spontaneous Social Event Ends,Spontaneous Social Event Ends
+13101,,Flash Mob Ended,Flash Mob Ended
+13200,,One-day Social Event Ended,One-day Social Event Ended
+13201,,Concert Ended,Concert Ended
+13202,,Play Ended,Play Ended
+13203,,Bazaar Closed,Bazaar Closed
+13300,,Daily Social Event Ends,Daily Social Event Ends
+13301,,Fair Closed,Fair Closed
+13302,,Festival Ended,Festival Ended
+13303,,Art Exhibition Closed,Art Exhibition Closed

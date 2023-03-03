@@ -1,0 +1,56 @@
+col0,col1,col2,col3,col4,col5,col6
+CAFAX,American Funds AMCAP 529A,FSUSA0001Y,US Stock,Large-Growth,3,S&P 500 TR USD
+AMRAX,American Growth One A,FSUSA00039,US Stock,Large-Blend,1,S&P 500 TR USD
+CMLAX,American Funds American Mutual 529A,FSUSA0003P,US Stock,Large-Blend,5,S&P 500 TR USD
+MNVAX,Madison Investors A,FSUSA0006X,US Stock,Large-Blend,4,S&P 500 TR USD
+CAPEX,Eaton Vance Tx-Mgd Growth 1.0,FSUSA000BX,US Stock,Large-Growth,3,S&P 500 TR USD
+COPLX,Copley,FSUSA000GL,US Stock,Large-Value,4,S&P 500 TR USD
+DODGX,Dodge & Cox Stock,FSUSA000KR,US Stock,Large-Blend,4,S&P 500 TR USD
+RMBHX,RMB A,FSUSA000KW,US Stock,Large-Growth,2,S&P 500 TR USD
+DREVX,Dreyfus Fund Incorporated,FSUSA000LE,US Stock,Large-Growth,3,S&P 500 TR USD
+DTCAX,Dreyfus Sustainable US Equity A,FSUSA000MG,US Stock,Large-Blend,3,S&P 500 TR USD
+DTCYX,Dreyfus Sustainable US Equity Y,FSUSA000MG,US Stock,Large-Blend,3,S&P 500 TR USD
+DRTHX,Dreyfus Sustainable US Equity Z,FSUSA000MG,US Stock,Large-Blend,3,S&P 500 TR USD
+NFAAX,Neuberger Berman Focus A,FSUSA000OY,US Stock,Large-Blend,2,S&P 500 TR USD
+FCNTX,Fidelity Contrafund,FSUSA000RQ,US Stock,Large-Growth,4,S&P 500 TR USD
+FDTOX,Fidelity Advisor Diversified Stock A,FSUSA000S1,US Stock,Large-Growth,4,S&P 500 TR USD
+FFIDX,Fidelity,FSUSA000SJ,US Stock,Large-Growth,2,S&P 500 TR USD
+FFDKX,Fidelity K,FSUSA000SJ,US Stock,Large-Growth,2,S&P 500 TR USD
+FMAGX,Fidelity Magellan,FSUSA000T4,US Stock,Large-Growth,2,S&P 500 TR USD
+FKGRX,Franklin Growth A,FSUSA0010S,US Stock,Large-Growth,4,S&P 500 TR USD
+FGSRX,Franklin Growth R,FSUSA0010S,US Stock,Large-Growth,3,S&P 500 TR USD
+CFNAX,American Funds Fundamental Invs 529A,FSUSA0011R,US Stock,Large-Growth,4,S&P 500 TR USD
+GESSX,GE RSP US Equity,FSUSA0012K,US Stock,Large-Growth,3,S&P 500 TR USD
+CGFAX,American Funds Growth Fund of Amer 529A,FSUSA00155,US Stock,Large-Growth,3,S&P 500 TR USD
+NGDAX,Neuberger Berman Guardian A,FSUSA0015U,US Stock,Large-Growth,2,S&P 500 TR USD
+CICAX,American Funds Invmt Co of Amer 529A,FSUSA0019O,US Stock,Large-Blend,3,S&P 500 TR USD
+NEFOX,Natixis Oakmark A,FSUSA0019S,US Stock,Large-Blend,3,S&P 500 TR USD
+MFRFX,MFS Research A,FSUSA001IR,US Stock,Large-Growth,3,S&P 500 TR USD
+EAMTX,MFS Massachusetts Investors Tr 529A,FSUSA001JL,US Stock,Large-Growth,3,S&P 500 TR USD
+NWFAX,Nationwide A,FSUSA001R8,US Stock,Large-Growth,3,S&P 500 TR USD
+GTRCX,Nationwide C,FSUSA001R8,US Stock,Large-Growth,2,S&P 500 TR USD
+MUIFX,Nationwide Institutional Service,FSUSA001R8,US Stock,Large-Growth,3,S&P 500 TR USD
+GNWRX,Nationwide R,FSUSA001R8,US Stock,Large-Growth,2,S&P 500 TR USD
+NMFAX,Nationwide Dynamic US Growth A,FSUSA001RB,US Stock,Large-Blend,5,S&P 500 TR USD
+NYVTX,Davis NY Venture A,FSUSA001T5,US Stock,Large-Blend,2,S&P 500 TR USD
+NICSX,Nicholas,FSUSA001T8,US Stock,Large-Growth,3,S&P 500 TR USD
+PIODX,Pioneer A,FSUSA001ZX,US Stock,Large-Blend,3,S&P 500 TR USD
+PIORX,Pioneer R,FSUSA001ZX,US Stock,Large-Blend,3,S&P 500 TR USD
+PYODX,Pioneer Y,FSUSA001ZX,US Stock,Large-Blend,4,S&P 500 TR USD
+PRGFX,T. Rowe Price Growth Stock,FSUSA00219,US Stock,Large-Growth,4,S&P 500 TR USD
+MPGFX,Mairs & Power Growth Inv,FSUSA0023P,US Stock,Large-Blend,3,S&P 500 TR USD
+SECEX,Guggenheim StylePlus - Large Core A,FSUSA002BG,US Stock,Large-Value,3,S&P 500 TR USD
+SLADX,Selected American Shares D,FSUSA002BS,US Stock,Large-Blend,2,S&P 500 TR USD
+SENCX,Touchstone Large Cap Focused A,FSUSA002D9,US Stock,Large-Growth,4,S&P 500 TR USD
+SEQUX,Sequoia,FSUSA002DK,US Stock,Large-Growth,1,S&P 500 TR USD
+SHAPX,ClearBridge Appreciation A,FSUSA002DQ,US Stock,Large-Blend,3,S&P 500 TR USD
+STSEX,BlackRock Exchange BlackRock,FSUSA002FX,US Stock,Large-Blend,3,S&P 500 TR USD
+STFGX,State Farm Growth,FSUSA002G4,US Stock,Large-Blend,3,S&P 500 TR USD
+IATAX,Ivy Accumulative A,FSUSA002MU,US Stock,Large-Growth,1,S&P 500 TR USD
+VLIFX,Value Line Mid Cap Focused,FSUSA002P4,US Stock,Mid-Growth,5,S&P 500 TR USD
+VLLIX,Value Line Larger Companies Focus Instl,FSUSA002PB,US Stock,Large-Growth,3,S&P 500 TR USD
+VALSX,Value Line Premier Growth,FSUSA002PF,US Stock,Large-Growth,4,S&P 500 TR USD
+VFIAX,Vanguard 500 Index Admiral,FSUSA002QH,US Stock,Large-Blend,4,S&P 500 TR USD
+EWMCX,Evercore Equity,FSUSA002RO,US Stock,Large-Growth,2,S&P 500 TR USD
+CWMAX,American Funds Washington Mutual 529A,FSUSA002RR,US Stock,Large-Blend,4,S&P 500 TR USD
+IICAX,AMF Large Cap Equity AMF,FSUSA00EUP,US Stock,Large-Blend,3,S&P 500 TR USD

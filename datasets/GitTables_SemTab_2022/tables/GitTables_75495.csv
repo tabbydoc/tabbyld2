@@ -1,0 +1,57 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+twins_capture,Firefox 68.0,,,2019-08-21 14:34:12,2019-08-21 14:34:50,38.699s,INCOMPLETE
+,,,,,,,
+Test Cases/CURA/visitSite,Firefox 68.0,,,2019-08-21 14:34:13,2019-08-21 14:34:50,37.496s,PASSED
+Start listener action : beforeTestCase,Firefox 68.0,,,2019-08-21 14:34:13,2019-08-21 14:34:13,0.114s,PASSED
+comment(*** GlobalVariable[$MGV.CURRENT_TESTSUITE_ID.getName()]=$GlobalVariable[MGV.CURRENT_TESTSUITE_ID.getName()]),Firefox 68.0,,,2019-08-21 14:34:13,2019-08-21 14:34:13,0.004s,PASSED
+comment(*** GlobalVariable[$MGV.CURRENT_TESTSUITE_TIMESTAMP.getName()]=$GlobalVariable[MGV.CURRENT_TESTSUITE_TIMESTAMP.getName()]),Firefox 68.0,,,2019-08-21 14:34:13,2019-08-21 14:34:13,0.004s,PASSED
+mr = internal.GlobalVariable[MATERIAL_REPOSITORY.getName()],Firefox 68.0,,,2019-08-21 14:34:13,2019-08-21 14:34:13,0.002s,PASSED
+assert mr != null,Firefox 68.0,,,2019-08-21 14:34:13,2019-08-21 14:34:13,0.003s,PASSED
+"openBrowser("""")",Firefox 68.0,,,2019-08-21 14:34:13,2019-08-21 14:34:21,8.037s,PASSED
+"setViewPortSize(1024, 768)",Firefox 68.0,,,2019-08-21 14:34:21,2019-08-21 14:34:21,0.082s,PASSED
+driver = getWebDriver(),Firefox 68.0,,,2019-08-21 14:34:21,2019-08-21 14:34:21,0.016s,PASSED
+assert Hostname != null,Firefox 68.0,,,2019-08-21 14:34:21,2019-08-21 14:34:21,0.001s,PASSED
+url = new java.net.URL(http://$GlobalVariable.Hostname/),Firefox 68.0,,,2019-08-21 14:34:21,2019-08-21 14:34:21,0.001s,PASSED
+navigateToUrl(url.toExternalForm()),Firefox 68.0,,,2019-08-21 14:34:21,2019-08-21 14:34:24,2.698s,PASSED
+"verifyElementPresent(findTestObject(""CURA/Page_Homepage/a_Make Appointment""), 10, STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-21 14:34:24,2019-08-21 14:34:24,0.312s,PASSED
+delay(1),Firefox 68.0,,,2019-08-21 14:34:24,2019-08-21 14:34:25,1.014s,PASSED
+"png1 = mr.resolveScreenshotPathByURLPathComponents(internal.GlobalVariable[CURRENT_TESTCASE_ID.getName()], url, 0, ""home"")",Firefox 68.0,,,2019-08-21 14:34:25,2019-08-21 14:34:26,0.076s,PASSED
+"com.kazurayam.ksbackyard.ScreenshotDriver.takeEntirePage(driver, png1.toFile(), 500)",Firefox 68.0,,,2019-08-21 14:34:26,2019-08-21 14:34:28,2.836s,PASSED
+comment(saved image into $png1),Firefox 68.0,,,2019-08-21 14:34:28,2019-08-21 14:34:28,0.005s,PASSED
+"callTestCase(findTestCase(""CURA/Login""), [""Username"":Username, ""Password"":Password], STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-21 14:34:28,2019-08-21 14:34:34,5.987s,PASSED
+"selectOptionByValue(findTestObject(""CURA/Page_Appointment/select_Tokyo CURA Healthcare C""), ""Hongkong CURA Healthcare Center"", true)",Firefox 68.0,,,2019-08-21 14:34:34,2019-08-21 14:34:35,0.707s,PASSED
+"click(findTestObject(""CURA/Page_Appointment/input_hospital_readmission""))",Firefox 68.0,,,2019-08-21 14:34:35,2019-08-21 14:34:35,0.393s,PASSED
+"click(findTestObject(""CURA/Page_Appointment/input_programs""))",Firefox 68.0,,,2019-08-21 14:34:35,2019-08-21 14:34:36,0.362s,PASSED
+visitDate = now().plusWeeks(1),Firefox 68.0,,,2019-08-21 14:34:36,2019-08-21 14:34:36,0.011s,PASSED
+"visitDateStr = ofPattern(""dd/MM/yyyy"").format(visitDate)",Firefox 68.0,,,2019-08-21 14:34:36,2019-08-21 14:34:36,0.001s,PASSED
+"setText(findTestObject(""CURA/Page_Appointment/input_visit_date""), visitDateStr)",Firefox 68.0,,,2019-08-21 14:34:36,2019-08-21 14:34:36,0.486s,PASSED
+"sendKeys(findTestObject(""CURA/Page_Appointment/input_visit_date""), Keys.chord(ENTER))",Firefox 68.0,,,2019-08-21 14:34:36,2019-08-21 14:34:36,0.153s,PASSED
+"setText(findTestObject(""CURA/Page_Appointment/textarea_comment""), ""This is a comment"")",Firefox 68.0,,,2019-08-21 14:34:36,2019-08-21 14:34:37,0.188s,PASSED
+"png3 = mr.resolveScreenshotPathByURLPathComponents(internal.GlobalVariable[CURRENT_TESTCASE_ID.getName()], new java.net.URL(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl()), 0)",Firefox 68.0,,,2019-08-21 14:34:37,2019-08-21 14:34:37,0.047s,PASSED
+"com.kazurayam.ksbackyard.ScreenshotDriver.takeEntirePage(driver, png3.toFile(), 500)",Firefox 68.0,,,2019-08-21 14:34:37,2019-08-21 14:34:40,3.020s,PASSED
+comment(saved image into $png3),Firefox 68.0,,,2019-08-21 14:34:40,2019-08-21 14:34:40,0.004s,PASSED
+"click(findTestObject(""CURA/Page_Appointment/button_Book Appointment""))",Firefox 68.0,,,2019-08-21 14:34:40,2019-08-21 14:34:40,0.481s,PASSED
+"verifyElementPresent(findTestObject(""CURA/Page_AppointmentConfirmation/a_Go to Homepage""), 10, STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-21 14:34:40,2019-08-21 14:34:40,0.114s,PASSED
+"facility = getText(findTestObject(""CURA/Page_AppointmentConfirmation/p_facility""))",Firefox 68.0,,,2019-08-21 14:34:40,2019-08-21 14:34:40,0.148s,PASSED
+"verifyMatch(facility, ""^(Tokyo|Hongkong|Seoul) CURA Healthcare Center$"", true)",Firefox 68.0,,,2019-08-21 14:34:40,2019-08-21 14:34:40,0.012s,PASSED
+"readmission = getText(findTestObject(""CURA/Page_AppointmentConfirmation/p_hospital_readmission""))",Firefox 68.0,,,2019-08-21 14:34:40,2019-08-21 14:34:41,0.106s,PASSED
+"verifyMatch(readmission, ""(Yes|No)"", true)",Firefox 68.0,,,2019-08-21 14:34:41,2019-08-21 14:34:41,0.002s,PASSED
+"program = getText(findTestObject(""CURA/Page_AppointmentConfirmation/p_program""))",Firefox 68.0,,,2019-08-21 14:34:41,2019-08-21 14:34:41,0.102s,PASSED
+"verifyMatch(program, ""(Medicare|Medicaid|None)"", true)",Firefox 68.0,,,2019-08-21 14:34:41,2019-08-21 14:34:41,0.004s,PASSED
+"visitDateStr2 = getText(findTestObject(""CURA/Page_AppointmentConfirmation/p_visit_date""))",Firefox 68.0,,,2019-08-21 14:34:41,2019-08-21 14:34:41,0.130s,PASSED
+"verifyMatch(visitDateStr2, ""[0-9]{2}/[0-9]{2}/[0-9]{4}"", true, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-21 14:34:41,2019-08-21 14:34:41,0.004s,PASSED
+"parsed = ofPattern(""dd/MM/uuuu"").parse(visitDateStr2)",Firefox 68.0,,,2019-08-21 14:34:41,2019-08-21 14:34:41,0.001s,PASSED
+visitDate2 = from(parsed).atStartOfDay(),Firefox 68.0,,,2019-08-21 14:34:41,2019-08-21 14:34:41,0.009s,PASSED
+isAfterNow = visitDate2.isAfter(LocalDateTime.now()),Firefox 68.0,,,2019-08-21 14:34:41,2019-08-21 14:34:41,0.002s,PASSED
+"verifyEqual(isAfterNow, true, CONTINUE_ON_FAILURE)",Firefox 68.0,,,2019-08-21 14:34:41,2019-08-21 14:34:41,0.017s,PASSED
+"comment = getText(findTestObject(""CURA/Page_AppointmentConfirmation/p_comment""))",Firefox 68.0,,,2019-08-21 14:34:41,2019-08-21 14:34:41,0.112s,PASSED
+if (comment != null),Firefox 68.0,,,2019-08-21 14:34:41,2019-08-21 14:34:41,0.009s,PASSED
+"png4 = mr.resolveScreenshotPathByURLPathComponents(internal.GlobalVariable[CURRENT_TESTCASE_ID.getName()], new java.net.URL(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl()), 0)",Firefox 68.0,,,2019-08-21 14:34:41,2019-08-21 14:34:41,0.023s,PASSED
+"com.kazurayam.ksbackyard.ScreenshotDriver.takeEntirePage(driver, png4.toFile(), 500)",Firefox 68.0,,,2019-08-21 14:34:41,2019-08-21 14:34:44,2.861s,PASSED
+comment(saved image into $png4),Firefox 68.0,,,2019-08-21 14:34:44,2019-08-21 14:34:44,0.006s,PASSED
+"click(findTestObject(""CURA/Page_AppointmentConfirmation/a_Go to Homepage""))",Firefox 68.0,,,2019-08-21 14:34:44,2019-08-21 14:34:44,0.464s,PASSED
+"verifyElementPresent(findTestObject(""CURA/Page_Homepage/a_Make Appointment""), 10, STOP_ON_FAILURE)",Firefox 68.0,,,2019-08-21 14:34:44,2019-08-21 14:34:44,0.090s,PASSED
+"png5 = mr.resolveScreenshotPathByURLPathComponents(internal.GlobalVariable[CURRENT_TESTCASE_ID.getName()], new java.net.URL(com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getUrl()), 0, ""revisited"")",Firefox 68.0,,,2019-08-21 14:34:44,2019-08-21 14:34:44,0.031s,PASSED
+"com.kazurayam.ksbackyard.ScreenshotDriver.takeEntirePage(driver, png5.toFile(), 500)",Firefox 68.0,,,2019-08-21 14:34:44,2019-08-21 14:34:47,2.763s,PASSED
+comment(saved image into $png5),Firefox 68.0,,,2019-08-21 14:34:47,2019-08-21 14:34:47,0.004s,PASSED
+closeBrowser(),Firefox 68.0,,,2019-08-21 14:34:47,2019-08-21 14:34:50,3.070s,PASSED

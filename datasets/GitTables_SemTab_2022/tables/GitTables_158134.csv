@@ -1,0 +1,139 @@
+col0,col1,col2,col3,col4,col5
+1,Selling Fee,debit,,,Manual
+2,Selling Fee Credit,credit,,,Manual
+3,Payment Fee,debit,2.0,sales_order_item,Automatic
+4,Payment Fee Credit,credit,105.0,sales_order_item,Automatic
+5,Shop Fee,debit,,,Manual
+6,Shop Fee Credit,credit,,,Manual
+7,Shipping Fee (Charged by Lazada),debit,17.0,sales_order_item,Manual
+8,Shipping Fee (Paid By Customer),credit,81.0,sales_order_item,Automatic
+9,Storage Fee,debit,6.0,catalog_product,Manual
+10,Storage Fee Credit,credit,,catalog_product,Manual
+11,Ad-Hoc Fee,debit,,,Manual
+12,Ad-Hoc Credit,credit,,,Manual
+13,Item Price Credit,credit,,sales_order_item,Automatic
+14,Reversal Item Price,debit,,sales_order_item,Automatic
+15,Reversal Commission,credit,,sales_order_item,Automatic
+16,Commission,debit,,sales_order_item,Automatic
+17,Monthly Subscription,debit,9.0,,Manual
+18,Handling Fee,debit,5.0,sales_order,Manual
+19,Seller Credit,credit,23.0,,Manual
+20,Other Fee,debit,22.0,,Manual
+21,Shipping Fee (Charged By 3P),debit,90.0,sales_order_item,Manual
+22,Fulfillment by Lazada Handling Fee - Automatic,debit,11.0,sales_order_item,Automatic
+23,Cancellation Fee,debit,18.0,sales_order_item,Manual
+24,Return Delivery Fee,debit,19.0,sales_order_item,Manual
+25,Returned QC Fee,debit,20.0,sales_order_item,Manual
+26,Return To Seller Fee,debit,21.0,seller,Manual
+27,Dropshipping Delivery Fee,debit,13.0,sales_order,Manual
+28,Automatic Shipping Fee,debit,14.0,sales_order_item,Automatic
+29,Refund Fee,debit,3.0,sales_order_item,Manual
+33,Shipping Service Cost,debit,,sales_order_item,Manual
+34,Pick Fee,debit,15.0,sales_order_item,Manual
+35,Pack Fee,debit,16.0,sales_order_item,Manual
+36,Seller Credit Item,credit,23.0,sales_order_item,Manual
+37,Seller Debit Item,debit,22.0,sales_order_item,Manual
+41,Consignment Weight Fee,debit,25.0,sales_order_item,Manual
+42,Customer Item Shipping Fee,debit,,sales_order_item,Manual
+43,Customer Item Shipping Fee Credit,credit,,sales_order_item,Manual
+44,Subsidy,debit,,sales_order_item,Manual
+45,Subsidy Refund,credit,,sales_order_item,Manual
+46,Dropshipping Item Delivery Fee,debit,,sales_order_item,Manual
+47,Lost Or Damaged - Product,credit,,catalog_product,Manual
+48,Lost Or Damaged - Sales Order Item,credit,,sales_order_item,Manual
+49,Shipping Fee (Order Level),debit,,sales_order,Manual
+50,Consignment Delivery Fee,debit,,sales_order_item,Manual
+51,Consignment Delivery Fee Credit,credit,,sales_order_item,Manual
+52,Pack Fee Credit,credit,,sales_order_item,Manual
+53,Pick Fee Credit,credit,,sales_order_item,Manual
+54,Penalty,debit,,seller,Manual
+55,Penalty Credit,credit,,seller,Manual
+56,Studio Fee,debit,,seller,Manual
+57,Studio Fee Credit,credit,,seller,Manual
+58,Monthly Subscription Credit,credit,,seller,Manual
+59,Item Price Subsidy,credit,76.0,sales_order_item,Manual
+60,Penalty & Payment Claims,credit,77.0,sales_order_item,Manual
+61,Adjustments Claims,debit,78.0,sales_order_item,Manual
+62,Adjustments Item Charge,debit,79.0,sales_order_item,Manual
+63,Other Credit - Taxable,debit,80.0,sales_order_item,Manual
+64,Other Credit - Non Taxable,credit,82.0,sales_order_item,Manual
+65,Commission Rebate,credit,29.0,sales_order_item,Manual
+66,Adjustments Commission,credit,27.0,sales_order_item,Manual
+67,Adjustments Payment Fee,credit,28.0,sales_order_item,Manual
+68,Re-Selling Of Goods Purchased From Lazada,debit,30.0,sales_order_item,Manual
+69,Seller Contacts Customer For No-Verification,debit,31.0,seller,Manual
+70,Seller Own Fleet Order Cancelled Without Delivery Attempt,debit,32.0,sales_order_item,Manual
+71,Fake RTS,debit,33.0,sales_order_item,Manual
+72,Invalid Tracking Number Provided(Repeat Offenders),debit,34.0,sales_order_item,Manual
+73,Wrong Way Bill,debit,35.0,sales_order_item,Manual
+74,Using Non Approved 3PL(Repeat Offenders),debit,36.0,seller,Manual
+75,Wrong Shipment Provider,debit,37.0,seller,Manual
+76,Infringed Content,debit,38.0,seller,Manual
+77,Wrong Picture (Not As Advertised),debit,39.0,seller,Manual
+78,Buying Own Product Through Any Sort Of Scheme,debit,40.0,seller,Manual
+79,Direct Sell,debit,41.0,seller,Manual
+80,Breach Of Article 16.4 Of The General Terms & Conditions,debit,42.0,seller,Manual
+81,Adjustments Penalty,credit,43.0,sales_order_item,Manual
+82,Other Debit - Taxable,debit,44.0,sales_order_item,Manual
+83,Adjustments Item Charge,credit,84.0,sales_order_item,Manual
+84,Adjustments Payment Fee,debit,46.0,sales_order_item,Manual
+85,Lost And Damaged Claim,credit,85.0,sales_order_item,Manual
+86,Cancellation Fee Claim,credit,86.0,sales_order_item,Manual
+87,Cancellation Due To OOS,debit,49.0,sales_order_item,Manual
+88,Cancellation Due To Wrong Pricing,debit,50.0,sales_order_item,Manual
+89,Defective Goods,debit,51.0,sales_order_item,Manual
+90,Wrong Goods Delivered,debit,52.0,sales_order_item,Manual
+91,Wrong Content,debit,53.0,sales_order_item,Manual
+92,Product Manual Missing,debit,54.0,sales_order_item,Manual
+93,Cancellation Due To Late Fulfilment,debit,55.0,sales_order_item,Manual
+94,Wrong Packaging,debit,56.0,sales_order_item,Manual
+95,Forbidden/Infringed Goods,debit,57.0,sales_order_item,Manual
+96,Fake RTS,debit,58.0,sales_order_item,Manual
+97,Expired Goods,debit,59.0,sales_order_item,Manual
+98,Used Item,debit,60.0,sales_order_item,Manual
+99,Returned Goods Rejection,debit,61.0,sales_order_item,Manual
+100,Missing Item Or Parts,debit,62.0,sales_order_item,Manual
+101,Misleading Description,debit,63.0,sales_order_item,Manual
+102,Not As Advertised,debit,64.0,sales_order_item,Manual
+103,Adjustments Penalty,credit,65.0,sales_order_item,Manual
+104,Adjustments Others,credit,66.0,sales_order_item,Manual
+106,Adjustments Others,credit,101.0,sales_order_item,Manual
+107,Seller Incentive,credit,67.0,seller,Manual
+108,Adjustments Seller Incentive,debit,68.0,seller,Manual
+109,Other Services Fee,debit,69.0,seller,Manual
+110,Shop Decoration Fee,debit,70.0,seller,Manual
+111,Other Debits (non taxable),debit,71.0,seller,Manual
+112,Sponsored Product Fee,debit,72.0,seller,Manual
+113,Packaging Fee,debit,73.0,seller,Manual
+114,Order Verification Charge,debit,74.0,seller,Manual
+115,Adjustments Others,credit,75.0,seller,Manual
+116,Other Debits,debit,110.0,seller,Manual
+117,Promotional Charges Bundles,debit,,sales_order_item,Automatic
+118,Promotional Charges Vouchers,debit,,sales_order_item,Automatic
+119,Promotional Charge General,debit,,sales_order_item,Automatic
+120,Reversal Promotional Charges Bundles,credit,,sales_order_item,Automatic
+121,Reversal Promotional Charges Vouchers,credit,,sales_order_item,Automatic
+122,Reversal Promotional Charges General,credit,,sales_order_item,Automatic
+123,Adjustments Commission,credit,47.0,sales_order_item,Manual
+124,Adjustments Shipping Fee,credit,48.0,sales_order_item,Manual
+125,Other Claims - Returns,credit,87.0,sales_order_item,Manual
+126,Adjustments Claim,debit,88.0,sales_order_item,Manual
+127,Pick Up Fee,debit,89.0,sales_order_item,Manual
+128,Failed Delivery Fee,debit,91.0,sales_order_item,Manual
+129,Adjustments Shipping,credit,92.0,sales_order_item,Manual
+130,FBL Handling Fee,debit,93.0,sales_order_item,Manual
+131,FBL Storage Fee,debit,94.0,sales_order_item,Manual
+132,FBL Inbound Fee,debit,95.0,sales_order_item,Manual
+133,FBL - Other Fulfillment service Fee,debit,96.0,sales_order_item,Manual
+134,Adjustments FBL,credit,97.0,sales_order_item,Manual
+135,COD Fee,credit,98.0,sales_order_item,Manual
+136,Insurance Fee,debit,99.0,seller,Manual
+137,Photoshoot Content Service,debit,100.0,sales_order_item,Manual
+138,Transport Claims,credit,102.0,sales_order_item,Manual
+139,Other Claims,credit,103.0,sales_order_item,Manual
+140,Shipping Fee Claims,credit,104.0,sales_order_item,Manual
+141,Adjustments Shipping Fee,credit,106.0,sales_order_item,Manual
+142,Reversal shipping Fee (Paid by Customer),debit,107.0,sales_order_item,Automatic
+143,Reversal Shipping Fee (Charged By Lazada),credit,108.0,sales_order_item,Manual
+144,Other Debit - Non Taxable,debit,109.0,sales_order_item,Manual
+145,Other Debits (Returns),debit,111.0,sales_order_item,Manual

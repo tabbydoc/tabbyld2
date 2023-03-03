@@ -1,0 +1,72 @@
+col0,col1,col2
+asendia-express,Express,asendia
+asendia-standard,Standard,asendia
+canada-post-expedited-parcel,Expedited Parcel,canada-post
+canada-post-priority,Priority,canada-post
+canada-post-regular-parcel,Regular Parcel,canada-post
+canada-post-xpresspost,Xpresspost,canada-post
+chronopost-chrono-classic,Classic,chronopost
+chronopost-chrono-express,Express,chronopost
+dhl-ecommerce-standard,Standard,dhl-ecommerce
+dhl-economy-select,Economy Select,dhl
+dhl-express-export-economy,Express Export Economy,dhl
+dhl-express-worldwide,Express Worldwide,dhl
+dhl-express-domestic-1800,Express Domestic 18:00,dhl
+dhl-global-mail-packet-plus,Packet Plus,dhl-global-mail
+dhl-parcel-international-direct,International Direct,dhl-parcel
+dhl-parcel-international-standard,International Standard,dhl-parcel
+fedex-ground,Ground,fedex
+fedex-overnight,Overnight,fedex
+fedex-international-economy,International Economy,fedex
+fedex-international-priority,International Priority,fedex
+fedex-international-standard,International Standard,fedex
+fedex-crossborder-ecommerce,E-commerce,fedex-crossborder
+fedex-crossborder-ecommerce-lite,E-commerce Lite,fedex-crossborder
+landmark-global,Global,landmark
+la-poste-colissimo,Colissimo,la-poste
+ilg-economy-untracked,Economy Untracked,ilg
+ilg-european-single-pack,European Single Pack,ilg
+ilg-express-tracked,Express Tracked,ilg
+ilg-global-courier,Global Courier,ilg
+ilg-international-courier,International Courier,ilg
+ilg-standard-tracked,Standard Tracked,ilg
+other-freight,Freight,other
+other-ltl,Less Than Truckload,other
+other-postal,Postal,other
+rrdonnelley-international-ipa,International IPA,rrdonnelley
+rrdonnelley-international-ppdc,International PPDC,rrdonnelley
+sf-express-economy-express-parcel,Economy Express Parcel,sf-express
+ups-ground,Ground,ups
+ups-international-import,International Import,ups
+ups-express-international,Express International,ups
+ups-express-saver,Express Saver,ups
+ups-standard-international,Standard International,ups
+ups-2nd-day-air,2nd Day Air,ups
+ups-2nd-day-air-am,2nd Day Air AM,ups
+ups-3-day-select,3 Day Select,ups
+ups-access-point-economy,Access Point Economy,ups
+ups-economy-mail-innovations,Economy Mail Innovations,ups
+ups-expedited,Expedited,ups
+ups-expedited-maii-innovations,Expedited MaiI Innovations,ups
+ups-express,Express,ups
+ups-express-1200,Express 1200,ups
+ups-express-plus,Express Plus,ups
+ups-first-class-mail,First Class Mail,ups
+ups-maii-innovations-returns,MaiI Innovations Returns,ups
+ups-next-day-air,Next Day Air,ups
+ups-next-day-air-early,Next Day Air Early,ups
+ups-next-day-air-saver,Next Day Air Saver,ups
+ups-priority-mail,Priority Mail,ups
+ups-priority-mail-innovations,Priority Mail Innovations,ups
+ups-standard,Standard,ups
+ups-today-dedicated-courier,Today Dedicated Courier,ups
+ups-today-express,Today Express,ups
+ups-today-express-saver,Today Express Saver,ups
+ups-today-intercity,Today Intercity,ups
+ups-today-standard,Today Standard,ups
+ups-worldwide-economy,Worldwide Economy,ups
+ups-worldwide-economy-ddu,Worldwide Economy DDU,ups
+ups-worldwide-express-freight-midday,Worldwide Express Freight Midday,ups
+ups-worldwide-express-freight.,Worldwide Express Freight,ups
+usps-priority-mail-international,Priority Mail International,usps
+wn-direct-standard,Standard,wn-direct

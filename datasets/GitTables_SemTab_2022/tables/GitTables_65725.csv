@@ -1,0 +1,81 @@
+col0,col1,col2,col3,col4,col5,col6
+1,"Aaron Arnold,
+Jeremy Wenzel,
+Michael Taylor",https://i.imgur.com/GFYv7F5.jpg,A new spin on the classic game' Flappy Bird. It will utilize sound waves to push Flappy up the screen as the bird has to navigate a dangerous terrain,https://i.imgur.com/Bu3s0PK.png,https://apape97.github.io/P2.1/,https://github.com/apape97/P2.1
+2,"Aaron Pingo,
+James Sigler,
+Brian M Rothschild",https://i.imgur.com/ZXqHNnb.jpg,Hand motion tracking to control the game interface as the main method of interaction,https://i.imgur.com/IIHrneh.png,https://aaronpingo96.github.io/p2.Group2/,https://github.com/AaronPingo96/p2.Group2
+3,"Pratik Paresh Patel,
+Jason Mba,
+Michael Kiros,
+John Yucetas,
+Ukoh Ndukwo",https://i.imgur.com/2pVva7o.jpg,A triva game similar to the mobile game Triva Crack.The main menu would contain buttons for users to play the game' learn the rules' and see scoreboard. The user will click on answer choices and there should be a sound reaction and a notification on whether the user got the answer right or not.,https://i.imgur.com/B8NiHju.png,https://github.com/hci-team-id-3/hci-team-id-3.github.io,https://github.com/hci-team-id-3/P2.3
+4,"Logan Powers,
+Terran King,
+Joshua Acosta,
+Kennet Thurman",https://i.imgur.com/nNx8BUj.jpg, Tic Tac Toe Game,https://i.imgur.com/hQuNuYx.jpg,NoPresentationLink,https://github.com/lpowers1/TicTacToe
+5,"Hannah Estes,
+Katrina Bueno,
+Jeffrey Lance,
+Hriddhi Kulkarni,
+Tasnia Heya",https://i.imgur.com/3sA83gB.png,A short VR escape room experience.The user will need to discover clues in order and solve puzzles escape the room. They will have to move around the room and pick up and interact with items in the room to solve puzzles and find the code to unlock the door.,https://i.imgur.com/Q75ThcN.png,https://hannahmestes.github.io/EscapeRoom/,NoGithuburl
+6,"Vinh Nguyen,
+Huyen Nguyen,
+Linh Ho Manh,
+Karishma Garikapalli",https://i.imgur.com/S88OYqD.jpg,Augmented Reality (AR) Shooting Game,https://i.imgur.com/kOGLlKK.png,https://alex-nguyen.github.io/P2.7,https://github.com/Alex-Nguyen/P2.7
+7,"Vineela Aradhyula,
+Sonali Singh,
+Nitisha Patange",https://i.imgur.com/uWtchsH.jpg,'Tetris' which is a tile-matching puzzle video game.,https://i.imgur.com/utxGFLC.png,https://github.com/hci-game-interface/Project-2---Tetris/blob/master/Sketch%20Presentation.md,https://github.com/hci-game-interface/Project-2---Tetris/tree/master
+8,"Vung Pham,
+Ngan Vuong Thuy Nguyen,
+Hao Van,
+Bao Dien Quoc Nguyen",https://i.imgur.com/VbikWc9.jpg,HMAViz: Human-Machine Analytics for Visual Recommendation. A framework to collect user activities. A program to analyze and learn user behavior. A report about personalized chart recommendations based on the analyzed results.,https://i.imgur.com/ZXqHNnb.jpg,https://idatavisualizationlab.github.io/CS3366/blankpage.html,No Submission
+9,"Abraham Esparza,
+Jack Chen,
+Timothy Bell,
+Angela Green,
+Stanley Yoang",https://i.imgur.com/BuxS9Sn.jpg,An obstacle dodging game controlled by camera movement,https://i.imgur.com/R7E2vOI.png,https://angelagreen888.github.io/P2.9/,https://github.com/AngelaGreen888/P2.9
+10,"Aishwarya Dhirendrakumar Anand,
+Charlotte Phillips,
+Chloe Osgood,
+Donald E Soundy,
+Josephine Willgrubs",https://i.imgur.com/5zohcO2.jpg,Use a webcam with object detection to play rock- paper- scissors against the computer. Additional rules would include tiers' when the player wins they go up a tier' when they lose they go down a tier until they win at the top tier or lose at the bottom tier.,https://i.imgur.com/CMN9Uji.png,https://jwillg.github.io/p2.10/,https://github.com/jwillg/p2.10/
+11,"Benjamin Fischer,
+Nathaniel Rawskins,
+Ti'Ara Carroll,
+Mauricio Barbier,
+Bonny Barragan",https://i.imgur.com/ZDxOa4w.jpg,A pong game that gives the user the option to control the paddle with their hand. The game will use your camera to get hand input. We will have a toggle to switch between hand and keyboard input.,https://i.imgur.com/2gkodrK.png,https://tiara28307.github.io/CS-3366-P2-Group-11/,NoGithuburl
+12,"Blaine Sieck,
+Gabriel Costanzo",https://i.imgur.com/ZXqHNnb.jpg,The game consists of a ball that you bounce on your head but also other falling objects that you have to avoid. This will be achieved with facial recognition and the boundary box for the face.,https://i.imgur.com/SzRtUzK.png,https://blainesieck.github.io/HeadBall/,https://github.com/BlaineSieck/HeadBall
+13,"Anubhav Tiwari,
+Ayodeji Ejiade,
+Vaidehi Piyush Pandya,
+Zacharias E. Alaniz,
+Aneesha Baby",https://i.imgur.com/csYivOe.jpg,A game that involves webcam gestures or movement from the user. And as well may include voice commands.,https://i.imgur.com/3vuQzls.png,https://man-on-thoughts.github.io/P2Group13/,https://github.com/Man-on-thoughts/P2Group13
+14,"Lance Gable,
+Michael Bishop,
+Rick Trevino",https://i.imgur.com/RKR9M04.jpg,A top-down obstacle avoidance game,https://i.imgur.com/6DRHV6t.png,https://the-fireplace.github.io/P2.14/,https://github.com/The-Fireplace/P2.14
+15,"Caleb Horn,
+Luis Sandoval",https://i.imgur.com/kvcjPyL.png, 2D rougelike using the GoDot engine,https://i.imgur.com/Hkn2Se8.png,https://luiseduardosandoval.github.io/Project-2-Game-Interface/,NoGithuburl
+16,"Jeffrey Ndimele,
+Jiayu Yan,
+Jonathan Andrew Turner,
+Jose Luis Garcia",https://i.imgur.com/ZXqHNnb.jpg,Design a simple 2D platform game where the player uses their voice to guide and control their character.,https://i.imgur.com/ZXqHNnb.jpg,https://dyaniel96.github.io/P2.16/,NoGithuburl
+17,"Enrique Cervantes,
+Chigozie Andrew nwalie,
+Arturo Mora,
+Jacob Zahn,
+Abdus Sami Yakoob",https://i.imgur.com/ZXqHNnb.jpg,Create game that has different types of trivia games' such as jeopardy or questions about certain categories. While integrating a good user interface,https://i.imgur.com/ZXqHNnb.jpg,https://idatavisualizationlab.github.io/CS3366/blankpage.html,No Submission
+18,"Elias Moreno,
+Jeremiah Howden",https://i.imgur.com/ENCZZxU.jpg,Freshman project(Texas Tech),https://i.imgur.com/pW7lqeI.png,https://jerhowden.github.io/TexasTechFreshmanGuide,https://github.com/JerHowden/TexasTechFreshmanGuide
+19,"Sergio Ponce,
+Nolan Ford,
+Jacon Finley Crawford,
+Kevin Torres",https://i.imgur.com/ZXqHNnb.jpg,A game that is a take on the classic game- Hangman. The player would attempt to answer questions from the Logic Games Section of the Law School Admissions Test (LSAT) within a given time limit in order to “save” the hanged man. failure to answer the questions correctly within the time limit or a give number of incorrect responses will result in a “GAME OVER” state for the player. The Logic Games section is often the hardest section of the LSAT' and we believe that this application would aid JD applicants on their law school journey.,https://i.imgur.com/qn9eQuR.png,https://sapphirelion.github.io/p2.19/,https://github.com/SapphireLion/p2.19
+20,"Manoj Khatri,
+Eduardo Lozano",https://i.imgur.com/ZXqHNnb.jpg,2D space shooter where you are trying to get to the end of the stage' similar to Galaga. The game will include powerups' 3 stages of increasing difficulty' limited lives.,https://i.imgur.com/rtiYk1a.png,https://github.com/Mkr1996/Andromeda-2050/blob/master/Andromada%202050.pptx,https://github.com/Mkr1996/Andromeda-2050
+21,"Haroon Saeed,
+James Fallon,
+Zoya Shaikh",https://i.imgur.com/EazsWR7.jpg,Implement a rock paper scissors based fighting game against 3 computer opponents. Train a model to recognize the users input ( Of rock- paper or scissors ) on a camera with computer vision.,https://i.imgur.com/QC4jpBp.jpg,NoPresentationLink,https://github.com/jafallon/HCI---Project2
+22,"Alex Jirovsky,
+Suhas Bacchu",https://i.imgur.com/ZXqHNnb.jpg, A 3D duck hunting game where you are stationary and the ducks fly across the screen and you have to shoot them. We also plan to incorporate an option to use eye tracking.,https://i.imgur.com/ZXqHNnb.jpg,https://idatavisualizationlab.github.io/CS3366/blankpage.html,No Submission

@@ -1,0 +1,20 @@
+col0,col1,col2,col3
+11,11,110,"Your task is to get the robot to the treasure chest. The robot can go one step forward or turn itself to the left or right on the spot. If the robot hits a wall, it breaks down."
+12,12,120,"Here is a toolbox for your blocks. If you do well, you will get other blocks, which will be added to your toolbox. You can use them in your program multiple times."
+13,13,130,Create your programs in this window. Connect your blocks to each other to make the robot move. Robot performs every block that is connected to the starting block 'program start'.
+14,14,140,"Drag the blocks from your toolbox with the mouse and drop them in the workspace window. Notice that every block has a little hook, so that you can connect them together. And don't forget: robot will perform only blocks connected to the starting block 'program start'!"
+15,15,150,"As soon as you are satisfied with your program in the workspace, run the program with this button. If the robot doesn't reach the goal, you can return it to its original position by clicking on the 'Reset' button and try another program."
+16,16,210,"Some of the tasks limit the number of blocks you can use in the program. Here you can see, how many blocks you used and how many you can use all together."
+17,17,220,There are different colors of the tiles. The robot can detect colors and use them to navigate through the maze.
+18,18,230,"Mind the pits! Robot can't detect them and if he falls into one, he can't get out."
+19,19,240,There are keys located in the maze and the robot must pick all of them in order to open the treasure chest.
+1,1,310,This block makes the robot move to the next tile in front of him.
+2,2,315,"With this block, you can make the robot turn left or right."
+3,3,320,The 'repeat' block enables you to repeat the same commands multiple times.
+4,4,330,This block let you repeat your commands until some condition is satisfied.
+5,5,340,"You can use this condition for checking, if the robot stands on the tile with the goal."
+6,6,345,"This condition allows you to check, if there is a free path in front of, left of, or right of the robot."
+7,7,350,"Use this condition to check, whether the robot stands on the specified color."
+8,8,360,Use 'if' block for branching the program based on conditions. The robot can perform different actions based on the current situation.
+9,9,365,"This block works the same way as 'if' block, but when the condition is not satisfied, the robot will perform commands in the section'else'."
+10,10,380,"Use this blok to compose two basic conditions into one complex condition. If you compose them with 'and', both of the basic conditions has to be satisfied. If you compose them with 'or', at least one of them has to be satisfied, so that the complex condition is also satisfied."

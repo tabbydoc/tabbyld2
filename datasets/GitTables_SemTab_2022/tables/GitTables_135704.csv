@@ -1,0 +1,24 @@
+col0,col1,col2,col3,col4,col5,col6
+no,serial number,na,na,float,na,na
+plot,plot ID,na,na,text,na,block ID + plot Number
+block,block ID,na,na,text,na,na
+year,year of observation,na,na,text,Control = negative reference observed in 2014,na
+site,site name of the observations,na,na,text,na,na
+easting,na,GPS device,UTM,float,na,na
+northing,na,GPS device,UTM,float,na,na
+date,date of observation,na,na,date,na,na
+barrier,next barrier downstream,https://geoportal.bayern.de/bayernatlas/,na,text,na,na
+barrierriverKm,River kilometer of the barrier downstream,https://geoportal.bayern.de/bayernatlas/,km,float,na,na
+plotriverKm,River kilometer of the plot,https://geoportal.bayern.de/bayernatlas/,km,float,na,na
+treatment,restoration measurement,na,na,text,removal_embankment; sand addition; gravel addition,treatment for control sites is hypothetical
+plotSize,na,na,m^2,float,na,na
+habitatType,category of habitat type,na,na,text,na,na
+shrubHeight,na,na,cm,float,na,na
+shrubCover,na,na,%,float,na,na
+herbHeight,na,na,cm,float,na,na
+herbCover,na,na,%,float,na,na
+mossCover,na,na,%,float,na,na
+soilCover,na,na,%,float,na,na
+substrate,type of the substrate,na,na,text,na,na
+slope,slope of the embankment,na,na,text,Sand; Gravel; Water,na
+ph,pH measured in 2014,na,na,float,na,na

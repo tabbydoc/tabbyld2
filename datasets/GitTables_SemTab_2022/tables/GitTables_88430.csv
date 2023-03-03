@@ -1,0 +1,34 @@
+col0,col1,col2,col3,col4,col5
+base_idu.hr_department_1,base.main_company,105,,DIRECCIÓN GENERAL,DG
+base_idu.hr_department_2,base.main_company,115,base_idu.hr_department_1,OFICINA ASESORA DE PLANEACIÓN,OAP
+base_idu.hr_department_3,base.main_company,125,base_idu.hr_department_1,OFICINA ATENCIÓN AL CIUDADANO,OTC
+base_idu.hr_department_4,base.main_company,135,base_idu.hr_department_1,OFICINA DE CONTROL INTERNO,OCI
+base_idu.hr_department_5,base.main_company,145,base_idu.hr_department_1,OFICINA ASESORA DE COMUNICACIONES,OAC
+base_idu.hr_department_6,base.main_company,155,base_idu.hr_department_1,OFICINA DE CONTROL DISCIPLINARIO,OCD
+base_idu.hr_department_7,base.main_company,205,base_idu.hr_department_1,SUBDIRECCIÓN GENERAL DESARROLLO URBANO,SGDU
+base_idu.hr_department_8,base.main_company,215,base_idu.hr_department_7,DIRECCIÓN TÉCNICA ESTRATEGICA,DTE
+base_idu.hr_department_9,base.main_company,225,base_idu.hr_department_7,DIRECCIÓN TÉCNICA DE PROYECTOS,DTP
+base_idu.hr_department_10,base.main_company,305,base_idu.hr_department_1,SUBDIRECCIÓN GENERAL DE INFRAESTRUCTURA,SGI
+base_idu.hr_department_11,base.main_company,315,base_idu.hr_department_10,DIRECCIÓN TÉCNICA DE DISEÑO DE PROYECTOS,DTD
+base_idu.hr_department_12,base.main_company,325,base_idu.hr_department_10,DIRECCIÓN TÉCNICA DE PREDIOS,DTDP
+base_idu.hr_department_13,base.main_company,335,base_idu.hr_department_10,DIRECCIÓN TÉCNICA DE CONSTRUCCIONES,DTC
+base_idu.hr_department_14,base.main_company,336,base_idu.hr_department_13,S. T. DE EJECUCIÓN SUBSISTEMA VIAL,STESV
+base_idu.hr_department_15,base.main_company,346,base_idu.hr_department_13,S.T. EJECUCIÓN SUBSISTEMA TRANSPORTE,STEST
+base_idu.hr_department_16,base.main_company,355,base_idu.hr_department_10,DIRECCIÓN TÉCNICA DE MANTENIMIENTO,DTM
+base_idu.hr_department_17,base.main_company,356,base_idu.hr_department_16,S.T. DE MANTENIMIENTO SUBSISTEMA VIAL,STMSV
+base_idu.hr_department_18,base.main_company,366,base_idu.hr_department_16,S.T. DE MANTENIMIENTO SUBSISTEMA TRANSPO,STMST
+base_idu.hr_department_19,base.main_company,375,base_idu.hr_department_10,D. TÉCNICA DE ADMON INFRAESTRUCTURA,DTAI
+base_idu.hr_department_20,base.main_company,405,base_idu.hr_department_1,SUBDIRECCIÓN GENERAL JURIDICA ,SGJ
+base_idu.hr_department_21,base.main_company,415,base_idu.hr_department_20,DIRECCIÓN TÉCNICA DE PROCESOS SELECTIVOS,DTPS
+base_idu.hr_department_22,base.main_company,425,base_idu.hr_department_20,DIRECCIÓN TÉCNICA DE GESTIÓN JUDICIAL,DTGJ
+base_idu.hr_department_23,base.main_company,435,base_idu.hr_department_20,DIRECCIÓN TÉCNICA DE GESTION CONTRACTUAL,DTGC
+base_idu.hr_department_24,base.main_company,505,base_idu.hr_department_1,SUBDIRECCIÓN GENERAL DE GESTIÓN CORPORATIVA,SGGC
+base_idu.hr_department_25,base.main_company,515,base_idu.hr_department_24,DIRECCIÓN TÉC ADMINISTRATIVA Y FINANCIER,DTAF
+base_idu.hr_department_26,base.main_company,516,base_idu.hr_department_25,S.T. DE RECURSOS HUMANOS,STRH
+base_idu.hr_department_27,base.main_company,526,base_idu.hr_department_25,S.T. DE RECURSOS FISICOS,STRF
+base_idu.hr_department_28,base.main_company,536,base_idu.hr_department_25,S.T. DE RECURSOS TECNOLÓGICOS,STRT
+base_idu.hr_department_29,base.main_company,546,base_idu.hr_department_25,S.T. PRESUPUESTO Y CONTABLILIDAD,STPC
+base_idu.hr_department_30,base.main_company,556,base_idu.hr_department_25,S.T. DE TESORERIA Y RECAUDO,STTR
+base_idu.hr_department_31,base.main_company,565,base_idu.hr_department_24,DIRECCIÓN TÉCNICA APOYO ALA VALORIZACION,DTAV
+base_idu.hr_department_32,base.main_company,566,base_idu.hr_department_31,S.T. JURIDICA Y EJECUCIONES FISCALES,STJEF
+base_idu.hr_department_33,base.main_company,576,base_idu.hr_department_31,S.T. DE OPERACIONES,STOP

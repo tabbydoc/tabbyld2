@@ -1,0 +1,32 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+0,1,,,,,,,,,
+1,1,1900-01-01 00:00:00,2200-01-01 00:00:00,1.0,1.0,Reduce Poverty,1.0,Increased resilience of the poor to climate change and other shocks,Increased household capacity to cope with shocks,1.1.1
+2,1,1900-01-01 00:00:00,2200-01-01 00:00:00,2.0,1.0,Reduce Poverty,1.0,Increased resilience of the poor to climate change and other shocks,Reduced smallholders production risk,1.1.2
+3,1,1900-01-01 00:00:00,2200-01-01 00:00:00,3.0,1.0,Reduce Poverty,2.0,Enhanced smallholder market access,Improved access to financial and other services,1.2.1
+4,1,1900-01-01 00:00:00,2200-01-01 00:00:00,4.0,1.0,Reduce Poverty,2.0,Enhanced smallholder market access,Reduced market barriers,1.2.2
+5,1,1900-01-01 00:00:00,2200-01-01 00:00:00,5.0,1.0,Reduce Poverty,3.0,Increased incomes and employment,Diversified enterprise opportunities,1.3.1
+6,1,1900-01-01 00:00:00,2200-01-01 00:00:00,6.0,1.0,Reduce Poverty,3.0,Increased incomes and employment,Increased livelihood opportunities,1.3.2
+7,1,1900-01-01 00:00:00,2200-01-01 00:00:00,7.0,1.0,Reduce Poverty,3.0,Increased incomes and employment,Increased value capture by producers,1.3.3
+8,1,1900-01-01 00:00:00,2200-01-01 00:00:00,8.0,1.0,Reduce Poverty,3.0,Increased incomes and employment,More efficient use of inputs,1.3.4
+9,1,1900-01-01 00:00:00,2200-01-01 00:00:00,9.0,2.0,Improve food and nutrition security for health,4.0,Increased productivity,"Reduce pre- and post-harvest losses, including those caused by climate change",1.4.1
+10,1,1900-01-01 00:00:00,2200-01-01 00:00:00,10.0,2.0,Improve food and nutrition security for health,4.0,Increased productivity,Closed yield gaps through improved agronomic and animal husbandry practices,1.4.2
+11,1,1900-01-01 00:00:00,2200-01-01 00:00:00,11.0,2.0,Improve food and nutrition security for health,4.0,Increased productivity,Adoption of CGIAR materials with enhanced genetic gains,1.4.3
+12,1,1900-01-01 00:00:00,2200-01-01 00:00:00,12.0,2.0,Improve food and nutrition security for health,4.0,Increased productivity,Increased conservation and use of genetic resources,1.4.4
+13,1,1900-01-01 00:00:00,2200-01-01 00:00:00,13.0,2.0,Improve food and nutrition security for health,4.0,Increased productivity,"Increased access to productive assets, including natural resources",1.4.5
+14,1,1900-01-01 00:00:00,2200-01-01 00:00:00,14.0,2.0,Improve food and nutrition security for health,5.0,Improved diets for poor and vulnerable people,Increased availability of diverse nutrient-rich foods,2.1.1
+15,1,1900-01-01 00:00:00,2200-01-01 00:00:00,15.0,2.0,Improve food and nutrition security for health,5.0,Improved diets for poor and vulnerable people,Increased access to diverse nutrient-rich foods,2.1.2
+16,1,1900-01-01 00:00:00,2200-01-01 00:00:00,16.0,2.0,Improve food and nutrition security for health,5.0,Improved diets for poor and vulnerable people,Optimized consumption of diverse nutrient-rich foods,2.1.3
+17,1,1900-01-01 00:00:00,2200-01-01 00:00:00,17.0,2.0,Improve food and nutrition security for health,6.0,Improved food security,Reduced biological and chemical hazards in the food system,2.2.1
+18,1,1900-01-01 00:00:00,2200-01-01 00:00:00,18.0,2.0,Improve food and nutrition security for health,6.0,Improved food security,Appropriate regulatory environment for food safety,2.2.2
+19,1,1900-01-01 00:00:00,2200-01-01 00:00:00,19.0,2.0,Improve food and nutrition security for health,7.0,Improved human and animal health through better agricultural practices,Improved water quality,2.3.1
+20,1,1900-01-01 00:00:00,2200-01-01 00:00:00,20.0,2.0,Improve food and nutrition security for health,7.0,Improved human and animal health through better agricultural practices,Reduced livestock and fish disease risks associated with intensification and climate change,2.3.2
+21,1,1900-01-01 00:00:00,2200-01-01 00:00:00,21.0,2.0,Improve food and nutrition security for health,7.0,Improved human and animal health through better agricultural practices,Increased safe use of inputs,2.3.3
+22,1,1900-01-01 00:00:00,2200-01-01 00:00:00,22.0,3.0,Improve Natural resources and ecosystem services,8.0,"Natural capital enhanced and protected, especially from climate change","Land, water and forest degradation (Including deforestation) minimized and reversed",3.1.1
+23,1,1900-01-01 00:00:00,2200-01-01 00:00:00,23.0,3.0,Improve Natural resources and ecosystem services,8.0,"Natural capital enhanced and protected, especially from climate change",Enhanced conservation of habitats and resources,3.1.2
+24,1,1900-01-01 00:00:00,2200-01-01 00:00:00,24.0,3.0,Improve Natural resources and ecosystem services,8.0,"Natural capital enhanced and protected, especially from climate change",Increased genetic diversity of agricultural and associated landscapes,3.1.3
+25,1,1900-01-01 00:00:00,2200-01-01 00:00:00,25.0,3.0,Improve Natural resources and ecosystem services,9.0,Enhanced benefits from ecosystem goods and services,More productive and equitable management of natural resources,3.2.1
+26,1,1900-01-01 00:00:00,2200-01-01 00:00:00,26.0,3.0,Improve Natural resources and ecosystem services,9.0,Enhanced benefits from ecosystem goods and services,Agricultural systems diversified and intensified in ways that protect soils and water,3.2.2
+27,1,1900-01-01 00:00:00,2200-01-01 00:00:00,27.0,3.0,Improve Natural resources and ecosystem services,9.0,Enhanced benefits from ecosystem goods and services,Enrichment of plant and animal biodiversity for multiple goods and services,3.2.3
+28,1,1900-01-01 00:00:00,2200-01-01 00:00:00,28.0,3.0,Improve Natural resources and ecosystem services,10.0,More sustainably managed agroecosystems,"Increased resilience of agro-ecosystems and communities, especially those including smallholders",3.3.1
+29,1,1900-01-01 00:00:00,2200-01-01 00:00:00,29.0,3.0,Improve Natural resources and ecosystem services,10.0,More sustainably managed agroecosystems,Enhanced adaptive capacity to climate risks (More sustainably managed agro-ecosystems),3.3.2
+30,1,1900-01-01 00:00:00,2200-01-01 00:00:00,30.0,3.0,Improve Natural resources and ecosystem services,10.0,More sustainably managed agroecosystems,"Reduced net greenhouse gas emissions from agriculture, forests and other forms of land-use (More sustainably managed agro-ecosystems)",3.3.3

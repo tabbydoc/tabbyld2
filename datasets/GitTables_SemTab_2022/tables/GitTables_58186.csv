@@ -1,0 +1,63 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15
+735f1c77-a7a6-43c3-a576-6eae5688ee84,Tue Apr 23 18:47:22 UTC 2019,aharhots,imap,imap.gmail.com,993,gmail,True,,False,none,,dc9592f1-5477-49eb-a7b1-09c2bd80a2f1,bba201b4-bbec-4330-b4ac-21efcfdda45e,success,
+61a05a4a-67f3-473f-8520-993a9c37ab36,Tue Apr 23 18:47:22 UTC 2019,aharhots,imap,imap.gmail.com,993,gmail,True,,False,none,,dc9592f1-5477-49eb-a7b1-09c2bd80a2f1,865e0e51-385d-4e10-9418-28b94bed8f93,success,
+5eb04933-03d1-448c-ab96-157711183a10,Tue Apr 23 18:47:22 UTC 2019,aharhots,imap,imap.gmail.com,993,gmail,True,,False,none,,dc9592f1-5477-49eb-a7b1-09c2bd80a2f1,4457c1c6-7dda-44b9-91e2-fc2a2f888016,failure,"org.webharvest.exception.PluginException: [urn:uuid:95774F159A3A19978415564336644695] robotics-flow executePlugin exception: [nodeId=http://127.0.0.1:15410] org.webharvest.exception.ScriptException: 
+Config line 28: script block
+java.lang.RuntimeException: The Price field is required.
+Product: Apple iMac 30
+	at com.freedomoss.crowdcontrol.webharvest.plugin.selenium.RoboticsFlowPlugin.executePlugin(RoboticsFlowPlugin.java:121)
+	at org.webharvest.runtime.processors.WebHarvestPlugin.execute(WebHarvestPlugin.java:125)
+	at org.webharvest.runtime.processors.BaseProcessor.run(BaseProcessor.java:127)
+	at org.webharvest.runtime.processors.BodyProcessor.execute(BodyProcessor.java:27)
+	at org.webharvest.runtime.processors.BaseProcessor.run(BaseProcessor.java:127)
+	at org.webharvest.runtime.processors.TryProcessor.execute(TryProcessor.java:64)
+	at org.webharvest.runtime.processors.BaseProcessor.run(BaseProcessor.java:127)
+	at org.webharvest.runtime.Scraper.execute(Scraper.java:169)
+	at org.webharvest.runtime.Scraper.execute(Scraper.java:182)
+	at com.freedomoss.crowdcontrol.webharvest.executor.LocalWebharvestTaskExecutor.executeWebHarvestTask(LocalWebharvestTaskExecutor.java:173)
+	at com.workfusion.studio.launch.SingleThreadWebHarvestProcess.processTaskInputs(SingleThreadWebHarvestProcess.java:77)
+	at com.workfusion.studio.launch.SingleThreadWebHarvestProcess.start(SingleThreadWebHarvestProcess.java:46)
+	at com.workfusion.studio.launch.WebHarvestMainLauncher.launch(WebHarvestMainLauncher.java:108)
+	at com.workfusion.studio.launch.WebHarvestMainLauncher.main(WebHarvestMainLauncher.java:180)
+Caused by: org.webharvest.exception.PluginException: org.webharvest.exception.ScriptException: 
+Config line 28: script block
+java.lang.RuntimeException: The Price field is required.
+Product: Apple iMac 30
+	at com.freedomoss.crowdcontrol.webharvest.plugin.selenium.RobotPlugin.executePlugin(RobotPlugin.java:185)
+	at org.webharvest.runtime.processors.WebHarvestPlugin.execute(WebHarvestPlugin.java:125)
+	at org.webharvest.runtime.processors.BaseProcessor.run(BaseProcessor.java:127)
+	at org.webharvest.runtime.processors.BodyProcessor.execute(BodyProcessor.java:27)
+	at org.webharvest.runtime.processors.WebHarvestPlugin.executeBody(WebHarvestPlugin.java:246)
+	at com.freedomoss.crowdcontrol.webharvest.plugin.selenium.RoboticsFlowPlugin.executePlugin(RoboticsFlowPlugin.java:110)
+	... 13 more
+Caused by: org.webharvest.exception.ScriptException: 
+Config line 28: script block
+java.lang.RuntimeException: The Price field is required.
+Product: Apple iMac 30
+	at org.webharvest.runtime.scripting.GroovyScriptEngine.eval(GroovyScriptEngine.java:138)
+	at org.webharvest.runtime.processors.ScriptProcessor.execute(ScriptProcessor.java:74)
+	at org.webharvest.runtime.processors.BaseProcessor.run(BaseProcessor.java:127)
+	at org.webharvest.runtime.processors.BodyProcessor.execute(BodyProcessor.java:27)
+	at org.webharvest.runtime.processors.WebHarvestPlugin.executeBody(WebHarvestPlugin.java:246)
+	at com.freedomoss.crowdcontrol.webharvest.plugin.selenium.RobotPlugin.executePlugin(RobotPlugin.java:178)
+	... 18 more
+Caused by: java.lang.RuntimeException: The Price field is required.
+Product: Apple iMac 30
+	at com.ibank.automation.system.invoiceplane.page.CreateProductPage.addProduct(CreateProductPage.java:71)
+	at com.ibank.automation.invoices_usecase.rpa.InvoicePlaneBusinessRobot.addProduct(InvoicePlaneBusinessRobot.java:43)
+	at com.ibank.automation.invoices_usecase.processor.CreateProductProcessor.processDocument(CreateProductProcessor.java:36)
+	at com.workfusion.intake.processor.DocumentProcessor.transform(DocumentProcessor.java:29)
+	at com.workfusion.intake.core.App.processTransaction(App.java:105)
+	at com.workfusion.intake.core.App$processTransaction.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:116)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:136)
+	at Script2.run(Script2.groovy:39)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:444)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:482)
+	at groovy.lang.GroovyShell.evaluate(GroovyShell.java:453)
+	at org.webharvest.runtime.scripting.GroovyScriptEngine.eval(GroovyScriptEngine.java:136)
+	... 23 more
+"
+0a9d4852-1f5b-4b2c-9138-3a59ca1fa63f,Tue Apr 23 18:47:22 UTC 2019,aharhots,imap,imap.gmail.com,993,gmail,True,,False,none,,5255c503-7dae-48a0-83b0-ee5a43509e80,3ccdc4af-0c0f-4da6-81de-696a3e927725,success,
+70a21b20-e091-4d06-b065-57a7967f2982,Tue Apr 23 18:47:22 UTC 2019,aharhots,imap,imap.gmail.com,993,gmail,True,,False,none,,5255c503-7dae-48a0-83b0-ee5a43509e80,a41413b0-e4b3-4e1c-851f-d2e880657143,success,

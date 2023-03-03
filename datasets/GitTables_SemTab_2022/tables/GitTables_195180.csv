@@ -1,0 +1,57 @@
+col0,col1,col2,col3,col4
+id,CASE,CASE,CASEID,*city id
+city,QSB,QSB,QSB,Specific Knight Communities can be identified by variable QSB.
+qs3,QS3,QS3,QS3,"*this number is assigned to a city (for instance 106 and 107 belong to Aberdeen, SD)"
+zip,QS3A,QS3A,QS3A,*zip code
+cityType,QS4,QS4,QS4,*city category
+citySubTypeWord,QS5,QS5,QS5,"*in 08, QS5 is the word version of QS5_2, which we will use to convert QS5 in 2009 and 2010"
+citySubTypeNum,QS5_2,QS5_2,QS5_2,*city sub category rep by number
+comSat,QCE1,QCE1,QCE1,*community satisfaction
+proud,Q3A,Q3A,Q3A,*I am proud to say I live in the place I live
+comp5YearPast,Q6,Q6,Q6,*compare your place to live now to it 5 years ago
+comp5YearFuture,Q6A,Q6A,Q6A,*how do you think your place of residence in 5 years will compare to it now?
+affordHousing,Q7D,Q7D,Q7D,*availability to affordable housing
+jobAvail,Q7E,Q7E,Q7E,*availability to jobs
+imAccept,Q8B,Q8B,Q8B,*how accepting are you of immigrants
+raceAccept,Q8C,Q8C,Q8C,*how accepting are you of racial and ethnic minorities
+gayAccept,Q8E,Q8E,Q8E,*how accepting are you of gay and lesbian people
+econCondNow,Q9,Q9,Q9,*what do you think is the economic status now
+econCondFuture,Q10,Q10,Q10,*what do you think will be the economic status in the future
+employStatus,Q11,Q11,Q11,*what is your employment status
+incomeSat,Q15,Q15,Q15,*does your job provide you with enough income to support your family
+crimeNow,Q19,Q19,Q19,*crime level in your community today
+crimePast,Q20,Q20,Q20,*how has crime level changed in your community in the last year
+volunteerWork,Q22A,Q22A,Q22A,*Performed local volunteer work for any organization or group 
+comWork,Q22D,Q22D,Q22D,*Worked with other residents to make change in the local community
+closeFriends,Q24,Q24,Q24,*How many of your close friends live in your community?
+closeFam,Q25,Q25,Q25,*How much of your family lives in this area?
+age,QD1,QD1,QD1,*how old are you
+duration,QD2,QD2,QD2,*how long have you lived in this community
+permanent,QD2A,QD2A,QD2A,*do you live here permanently
+maritalStatus,QD6,QD6,QD6,*marital status
+eduMax,QD7,QD7,QD7,*education
+ownRent,QD8,QD8,QD8,*own or rent
+income,QD9,QD9,QD9,*income
+hispanic,QD10,QD10,QD10,*are you of hispanic origin
+race,QD111,QD111,QD111,*Which of these groups best describes your racial background? 
+svywt,WEIGHT,WEIGHT,WEIGHT,*survey weight
+projwt,PROJWT,PROJWT,PROJWT,*projection weight
+passion,PASSION,PASSION,PASSION,*passion
+loyalty,LOYALTY,LOYALTY,LOYALTY,*loyalty
+basicServ,BASIC_SE,BASIC_SE,BASIC_SE,*basic services
+leadership,LEADERSH,LEADERSH,LEADERSH,*leadership
+education,EDUCATIO,EDUCATIO,EDUCATIO,*education
+safety,SAFETY,SAFETY,SAFETY,*safety
+aesthetic,AESTHETI,AESTHETI,AESTHETI,*aesthetics
+economy,ECONOMY,ECONOMY,ECONOMY,*economy
+socialOff,SOCIAL_O,SOCIAL_O,SOCIAL_O,*social offerings
+civicInv,INVOLVEM,INVOLVEM,INVOLVEM,*civic involvement
+openness,OPENNESS,OPENNESS,OPENNESS,*openness
+socialCap,SOCIAL_C,SOCIAL_C,SOCIAL_C,*social capital
+domains,DOMAINS,DOMAINS,DOMAINS,*domains
+comOff,COMMUNIT,COMMUNIT,COMMUNIT,*community offerings
+comAttach,CCE,CA,CCA,*community attachment
+comAttachGrpSmall,CCEGRP,CAGRP,CCAGRP,*community attachment group (few groups)
+comAttachGrpBig,CCE_ENGA,CA_ATTAC,CCA_ATTA,*community attachment group (many groups)
+gender,INTRO1,INTRO1,GENDER,*gender (we need to substring stuff for intro1 (08 and 09))
+year,YEAR,YEAR,YEAR,*the year

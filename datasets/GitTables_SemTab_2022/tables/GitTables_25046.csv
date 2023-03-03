@@ -1,0 +1,18 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17
+Graphics,Launch,PowerVR core,Market,Chipset,Code name,Device id.,Core render clock (MHz),Pixel pipelines,Shader model (vertex/pixel),Direct3D,OpenGL,OpenCL,Memory bandwidth (GB/s),DVMT (MB),MPEG-2,VC-1,AVC
+GMA 500,2008,SGX535,CE,CE3100,Canmore,2E5B,?,2[90],3.0,9.0c,2.0,—,4.2,256,Full,Full,Full
+GMA 500,2009,SGX535,CE,Atom CE4100,Sodaville,2E5B,?,2[90],3.0,9.0c,2.0,—,4.2,256,Full,Full,Full
+GMA 500,2009,SGX535,CE,Atom CE4110,Sodaville,2E5B,200,2[90],3.0,9.0c,2.0,—,4.2,256,Full,Full,Full
+GMA 500,2009,SGX535,CE,Atom CE4130,Sodaville,2E5B,200,2[90],3.0,9.0c,2.0,—,4.2,256,Full,Full,Full
+GMA 500,2009,SGX535,CE,Atom CE4150,Sodaville,2E5B,400,2[90],3.0,9.0c,2.0,—,4.2,256,Full,Full,Full
+GMA 500,2009,SGX535,CE,Atom CE4170,Sodaville,2E5B,400,2[90],3.0,9.0c,2.0,—,4.2,256,Full,Full,Full
+GMA 500,2010,SGX535,CE,Atom CE4200,Groveland,2E5B,?,2[90],3.0,9.0c,2.0,—,4.2,256,Full,Full,Full
+GMA 500,2008,SGX535,MID,UL11L,Poulsbo (Menlow),8108 8109,100,2[90],3.0,9.0c,2.0,—,4.2,256,Full,Full,Full
+GMA 500,2008,SGX535,MID,US15L,Poulsbo (Menlow),8108 8109,200,2[90],3.0,9.0c,2.0,—,4.2,256,Full,Full,Full
+GMA 500,2008,SGX535,MID,US15W,Poulsbo (Menlow),8108 8109,200,2[90],3.0,9.0c,2.0,—,4.2,256,Full,Full,Full
+GMA 600,2010,SGX535,MID,Atom Z6xx,Lincroft (Moorestown),4102,400[91],2,3.0,9.0c,2.0,—,6.4,759,Full,Full,Full
+GMA,2012,SGX540,Smartphone,Atom Z24xx,Penwell (Medfield),?,400[92],4,—,—,ES 2.0,—,6.4,1024,Full,Full,Full
+GMA 3600,2011,SGX545,Nettop Netbook,Atom D2500 Atom N2600,Cedarview (Cedar Trail),0BE0 0BE1 0BE2 0BE3 ,400[93],4,3.0,9.0c,3.0,—,8.5 6.4,1024[94],Full,Full,Full
+GMA 3650,2011,SGX545,Nettop Netbook,Atom D2700 Atom N2800,Cedarview (Cedar Trail),0BE0 0BE1 0BE2 0BE3 ,640[93],4,3.0,9.0c,3.0,—,8.5,1024[94],Full,Full,Full
+GMA,2012,SGX545,Tablet,Atom Z2760,Cloverview (Clover Trail),08C7 08C8 08C9 08CA 08CB 08CC 08CD 08CE 08CF ,533,4,3.0,9.0c,2.0,—,6.4,2048,Full,Full,Full
+GMA,2012,SGX544 MP2,Tablet,Atom Z2520 Atom Z2560 Atom Z2580,Cloverview (Clover Trail+),?,300Mhz 400 MHz 533 MHz,?,?,9.0 L3,"2.0ES, 2.0?",1.1,?,?,Full,Full,Full

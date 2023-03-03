@@ -1,0 +1,57 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+108393476,2,34779037,60666491-e169-46af-9f7b-acfbf1ee010f,2016-01-13 23:29:43,771848,,,"Here is a set of CSV-specific mime-types that worked for other users here on SO:
+
+    profile.setPreference('browser.helperApps.neverAsk.saveToDisk', ""text/plain, application/vnd.ms-excel, text/csv, application/csv, text/comma-separated-values, application/download, application/octet-stream"")
+
+
+Note that you need to *comma-separate* them."
+108394289,5,34779037,2c13e2ff-53f2-48a5-b6dd-e5ae58e82d20,2016-01-13 23:47:15,771848,,added 21 characters in body,"Here is a set of CSV-specific mime-types that worked for other users here on SO:
+
+    profile.setPreference('browser.helperApps.neverAsk.saveToDisk', ""text/plain, application/vnd.ms-excel, text/csv, application/csv, text/comma-separated-values, application/download, application/octet-stream, binary/octet-stream, application/binary"")
+
+
+Note that you need to *comma-separate* them."
+108395446,5,34779037,2f7016d8-0c8a-496b-8623-6ea62c7d4b22,2016-01-14 00:17:55,771848,,added 132 characters in body,"Here is a set of CSV-specific mime-types that worked for other users here on SO:
+
+    profile.setPreference('browser.helperApps.neverAsk.saveToDisk', ""text/plain, application/vnd.ms-excel, text/csv, application/csv, text/comma-separated-values, application/download, application/octet-stream, binary/octet-stream, application/binary, application/x-unknown"")
+
+I'm pretty sure that the `application/x-unknown` is the one that would work for you since this is what Firefox itself determines as your file's mime-type.
+"
+108396194,5,34779037,1072e282-ac9e-4f18-a509-ef957682e1e0,2016-01-14 00:40:11,771848,,added 16 characters in body,"Here is a set of CSV-specific mime-types that worked for other users here on SO:
+
+    profile.setPreference('browser.helperApps.neverAsk.saveToDisk', ""text/plain, application/vnd.ms-excel, text/csv, application/csv, text/comma-separated-values, application/download, application/octet-stream, binary/octet-stream, application/binary, application/x-unknown"")
+
+I'm pretty sure that the `application/x-unknown` is the one that would work for you since this is what Firefox itself determines as your file's mime-type (worked for me).
+"
+108398426,5,34779037,f02bfc3d-6616-4750-a66f-e814041c3fa1,2016-01-14 01:41:06,771848,,added 607 characters in body,"Here is a set of CSV-specific mime-types that worked for other users here on SO:
+
+    profile.setPreference('browser.helperApps.neverAsk.saveToDisk', ""text/plain, application/vnd.ms-excel, text/csv, application/csv, text/comma-separated-values, application/download, application/octet-stream, binary/octet-stream, application/binary, application/x-unknown"")
+
+I'm pretty sure that the `application/x-unknown` is the one that would work for you since this is what Firefox itself determines as your file's mime-type (worked for me).
+
+You may also do the following:
+
+ * download this specific file manually with Firefox
+ * when the Save File popup would be opened, check the ""do this automatically for files like this from now on"" checkbox and save the file
+ * now, go to Help -> Troubleshooting Information
+ * find the profile directory and save the path to it
+ * in your Selenium code, start Firefox with the `FirefoxProfile` pointing to this existing profile, see more about how to do it [here][1]
+
+
+  [1]: http://stackoverflow.com/questions/6787095/how-to-stop-selenium-from-creating-temporary-firefox-profiles-using-web-driver"
+146772316,5,34779037,3801e8b8-919c-4651-bf69-a0ae58b2405b,2017-05-23 11:59:26,-1,,replaced http://stackoverflow.com/ with https://stackoverflow.com/,"Here is a set of CSV-specific mime-types that worked for other users here on SO:
+
+    profile.setPreference('browser.helperApps.neverAsk.saveToDisk', ""text/plain, application/vnd.ms-excel, text/csv, application/csv, text/comma-separated-values, application/download, application/octet-stream, binary/octet-stream, application/binary, application/x-unknown"")
+
+I'm pretty sure that the `application/x-unknown` is the one that would work for you since this is what Firefox itself determines as your file's mime-type (worked for me).
+
+You may also do the following:
+
+ * download this specific file manually with Firefox
+ * when the Save File popup would be opened, check the ""do this automatically for files like this from now on"" checkbox and save the file
+ * now, go to Help -> Troubleshooting Information
+ * find the profile directory and save the path to it
+ * in your Selenium code, start Firefox with the `FirefoxProfile` pointing to this existing profile, see more about how to do it [here][1]
+
+
+  [1]: https://stackoverflow.com/questions/6787095/how-to-stop-selenium-from-creating-temporary-firefox-profiles-using-web-driver"

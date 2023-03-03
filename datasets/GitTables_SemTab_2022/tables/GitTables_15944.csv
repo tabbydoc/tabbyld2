@@ -1,0 +1,17 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+100,ak,Akuntansi,/ak,read,0,2015-03-08 16:45:45,1
+101,ak-rekening,Rekening,/ak/rekening,read,0,2015-03-08 16:45:45,1
+102,ak-rekening-act,Rekening Act,/ak/rekening/{act}/act,read,0,2015-03-08 16:45:45,1
+103,ak-rekening-add,Tambah Rekening,/ak/rekening/add,read,0,2015-03-08 16:45:45,1
+104,ak-rekening-edit,Edit Rekening,/ak/rekening/{id}/edit,read,0,2015-03-08 16:45:45,1
+105,ak-rekening-delete,Hapus Rekening,/ak/rekening/{id}/delete,read,0,2015-03-08 16:45:45,1
+106,ak-sap,Rekening SAP,/ak/sap,red,0,2015-03-08 16:45:45,1
+107,ak-sap-add,Tambah Rekening SAP,/ak/sap/add,red,0,2015-03-08 16:45:45,1
+108,ak-sap-edit,Edit Rekening SAP,/ak/sap/{id}/edit,red,0,2015-03-08 16:45:45,1
+109,ak-sap-delete,Hapus Rekening SAP,/ak/sap/{id}/delete,red,0,2015-03-08 16:45:45,1
+110,ak-sap-act,Act Rekening SAP,/ak/sap/{act}/act,red,0,2015-03-08 16:45:45,1
+111,ak-apbd-sap,Mapping SAP - APBD,/ak/apbd/sap,red,0,2015-03-08 16:45:45,1
+112,ak-apbd-sap-add,Tambah Mapping SAP - APBD,/ak/apbd/sap/add,red,0,2015-03-08 16:45:45,1
+113,ak-apbd-sap-edit,Edit Mapping SAP - APBD,/ak/apbd/sap/{id}/edit,red,0,2015-03-08 16:45:45,1
+114,ak-apbd-sap-delete,Hapus Mapping SAP - APBD,/ak/apbd/sap/{id}/delete,red,0,2015-03-08 16:45:45,1
+115,ak-apbd-sap-act,Act Mapping SAP - APBD,/ak/apbd/sap/{act}/act,red,0,2015-03-08 16:45:45,1

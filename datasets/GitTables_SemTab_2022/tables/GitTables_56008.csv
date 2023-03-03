@@ -1,0 +1,53 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23
+Start Date,End Date,Response Type,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Distribution Channel,User Language,Lettuce,Broccoli,Cucumber,Cauliflower,Write-In,Text,"Best Fruits (Three Winners)
+
+Next to each fruit, click on the button under your preferred ranking. There should be no more than one ranking in each row, and no more than one fruit marked in each column. Do not skip any columns.
+You can rank as few or as many fruits as you like, but the only way to vote against a particular fruit is to rank everything. Your later rankings will not impact your earlier rankings. - Apple","Best Fruits (Three Winners)
+
+Next to each fruit, click on the button under your preferred ranking. There should be no more than one ranking in each row, and no more than one fruit marked in each column. Do not skip any columns.
+You can rank as few or as many fruits as you like, but the only way to vote against a particular fruit is to rank everything. Your later rankings will not impact your earlier rankings. - Banana","Best Fruits (Three Winners)
+
+Next to each fruit, click on the button under your preferred ranking. There should be no more than one ranking in each row, and no more than one fruit marked in each column. Do not skip any columns.
+You can rank as few or as many fruits as you like, but the only way to vote against a particular fruit is to rank everything. Your later rankings will not impact your earlier rankings. - Kiwi","Best Fruits (Three Winners)
+
+Next to each fruit, click on the button under your preferred ranking. There should be no more than one ranking in each row, and no more than one fruit marked in each column. Do not skip any columns.
+You can rank as few or as many fruits as you like, but the only way to vote against a particular fruit is to rank everything. Your later rankings will not impact your earlier rankings. - Watermelon","Best Fruits (Three Winners)
+
+Next to each fruit, click on the button under your preferred ranking. There should be no more than one ranking in each row, and no more than one fruit marked in each column. Do not skip any columns.
+You can rank as few or as many fruits as you like, but the only way to vote against a particular fruit is to rank everything. Your later rankings will not impact your earlier rankings. - Strawberry","Best Fruits (Three Winners)
+
+Next to each fruit, click on the button under your preferred ranking. There should be no more than one ranking in each row, and no more than one fruit marked in each column. Do not skip any columns.
+You can rank as few or as many fruits as you like, but the only way to vote against a particular fruit is to rank everything. Your later rankings will not impact your earlier rankings. - Grapefruit","Best Fruits (Three Winners)
+
+Next to each fruit, click on the button under your preferred ranking. There should be no more than one ranking in each row, and no more than one fruit marked in each column. Do not skip any columns.
+You can rank as few or as many fruits as you like, but the only way to vote against a particular fruit is to rank everything. Your later rankings will not impact your earlier rankings. - Write-In","Best Fruits (Three Winners)
+
+Next to each fruit, click on the button under your preferred ranking. There should be no more than one ranking in each row, and no more than one fruit marked in each column. Do not skip any columns.
+You can rank as few or as many fruits as you like, but the only way to vote against a particular fruit is to rank everything. Your later rankings will not impact your earlier rankings. - Write-In - Text"
+"{""ImportId"":""startDate"",""timeZone"":""America/New_York""}","{""ImportId"":""endDate"",""timeZone"":""America/New_York""}","{""ImportId"":""status""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""America/New_York""}","{""ImportId"":""_recordId""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID1_1""}","{""ImportId"":""QID1_2""}","{""ImportId"":""QID1_3""}","{""ImportId"":""QID1_4""}","{""ImportId"":""QID1_5""}","{""ImportId"":""QID1_5_TEXT""}","{""ImportId"":""QID3_1""}","{""ImportId"":""QID3_2""}","{""ImportId"":""QID3_3""}","{""ImportId"":""QID3_4""}","{""ImportId"":""QID3_5""}","{""ImportId"":""QID3_6""}","{""ImportId"":""QID3_7""}","{""ImportId"":""QID3_3_TEXT""}"
+4/13/2020 15:41,4/13/2020 15:42,IP Address,100,15,TRUE,4/13/2020 15:42,R_3QEQ85E7gV2DuyG,email,EN,1,2,3,4,,,1,2,3,4,5,6,,
+4/13/2020 15:38,4/13/2020 15:42,IP Address,100,257,TRUE,4/13/2020 15:42,R_1ikP1jSJLdWUEKs,email,EN,2,3,4,1,,,6,3,2,1,4,5,,
+4/13/2020 15:38,4/13/2020 15:43,IP Address,100,285,TRUE,4/13/2020 15:43,R_22G3akvxq7ggl01,email,EN,3,5,2,1,4,Kale,5,4,3,2,6,1,7,Pineapple
+4/13/2020 15:42,4/13/2020 15:43,IP Address,100,88,TRUE,4/13/2020 15:43,R_2VsGZJKYqjDtYQ7,email,EN,4,2,3,1,,,6,5,3,2,1,4,,
+4/13/2020 15:40,4/13/2020 15:52,IP Address,100,741,TRUE,4/13/2020 15:52,R_300GN9Myv0Dad3L,email,EN,1,3,2,,,,5,4,3,2,1,7,,
+4/13/2020 15:54,4/13/2020 15:55,IP Address,100,85,TRUE,4/13/2020 15:55,R_21yNGL1wKB5ZCPL,email,EN,4,2,5,3,1,carrot,7,6,3,5,1,2,4,peach
+4/13/2020 16:15,4/13/2020 16:16,IP Address,100,92,TRUE,4/13/2020 16:16,R_2SdI8sTvnYmvnl8,email,EN,4,2,1,3,5,Spinach,2,5,4,3,6,1,7,Raspberry
+4/13/2020 16:17,4/13/2020 16:18,IP Address,100,89,TRUE,4/13/2020 16:18,R_2qdAEAZ9ODwFYYx,email,EN,1,4,2,3,,,7,6,3,4,5,2,,
+4/13/2020 16:42,4/13/2020 16:44,IP Address,100,137,TRUE,4/13/2020 16:44,R_2f6w0fSg9GCXM9I,email,EN,1,3,2,5,4,Bell peppers,3,1,4,2,7,6,5,Mango
+4/13/2020 17:13,4/13/2020 17:13,IP Address,100,50,TRUE,4/13/2020 17:13,R_3UkrSZJnGxKaYW5,email,EN,1,2,3,5,4,potato,1,2,3,4,5,6,7,kiwi
+4/13/2020 17:17,4/13/2020 17:20,IP Address,100,173,TRUE,4/13/2020 17:20,R_2rYkKGQ75Qu6Vxr,email,EN,4,5,2,3,1,nothing,5,6,3,4,2,1,7,grape
+4/13/2020 17:41,4/13/2020 17:42,IP Address,100,53,TRUE,4/13/2020 17:42,R_3kgFqD03AqBVVZE,email,EN,3,2,1,4,,,5,6,4,2,1,3,,
+4/13/2020 19:12,4/13/2020 19:14,IP Address,100,108,TRUE,4/13/2020 19:14,R_3fYPpZQbDze9MRx,email,EN,4,2,3,1,,,7,3,2,5,6,1,,
+4/13/2020 21:15,4/13/2020 21:16,IP Address,100,67,TRUE,4/13/2020 21:16,R_BD73UrqgXrIpnfr,email,EN,2,3,1,4,,,1,5,3,6,2,4,,
+4/13/2020 23:30,4/13/2020 23:32,IP Address,100,106,TRUE,4/13/2020 23:32,R_2TYqj3GcBmz3FFl,email,EN,4,2,1,3,,,3,5,6,2,1,4,,
+4/14/2020 2:42,4/14/2020 2:44,IP Address,100,120,TRUE,4/14/2020 2:44,R_AEB4v8Hohce2nv3,email,EN,3,4,1,5,2,Squash,5,4,3,1,2,6,,
+4/14/2020 2:46,4/14/2020 2:47,IP Address,100,65,TRUE,4/14/2020 2:47,R_Aiy5eILJk4S5tIt,email,EN,2,1,3,4,,,2,4,5,1,3,,,
+4/14/2020 4:29,4/14/2020 4:32,IP Address,100,151,TRUE,4/14/2020 4:32,R_2xDiLvKgBaIxeFv,email,EN,2,3,4,5,1,Spinach,6,3,2,4,5,1,7,Mango
+4/14/2020 18:50,4/14/2020 18:50,IP Address,100,53,TRUE,4/14/2020 18:50,R_124lgkhlQv9Ullj,email,EN,5,4,3,2,1,,7,6,5,4,3,2,,
+4/14/2020 18:49,4/14/2020 18:52,IP Address,100,170,TRUE,4/14/2020 18:52,R_21EC0Nti8aqKdm9,email,EN,5,3,2,4,1,Carrot,2,4,5,3,1,6,,
+4/14/2020 18:52,4/14/2020 18:54,IP Address,100,99,TRUE,4/14/2020 18:54,R_1pDpfl9azbgtFrC,email,EN,1,2,3,4,5,carrots ,7,6,3,4,1,2,5,
+4/14/2020 19:00,4/14/2020 19:02,IP Address,100,118,TRUE,4/14/2020 19:02,R_3EXs2zblwxj5olU,email,EN,4,3,1,2,,,7,6,2,1,4,3,,
+4/14/2020 19:25,4/14/2020 19:26,IP Address,100,63,TRUE,4/14/2020 19:26,R_1I4UVe24fpZcqPY,email,EN,2,4,5,3,1,Arugula,6,5,4,3,7,2,,
+4/14/2020 19:29,4/14/2020 19:30,IP Address,100,99,TRUE,4/14/2020 19:30,R_27v7BD6blfCf7BQ,email,EN,3,1,4,5,2,Spinach,6,5,3,4,2,7,1,Blueberry 
+4/14/2020 20:12,4/14/2020 20:13,IP Address,100,60,TRUE,4/14/2020 20:13,R_sUm5EhzNgJ9Fy7f,email,EN,2,1,3,5,4,,2,4,5,1,3,6,,
+4/14/2020 20:26,4/14/2020 20:27,IP Address,100,72,TRUE,4/14/2020 20:27,R_33dwoHsyajiIzbF,email,EN,4,2,1,3,,,5,4,6,7,3,2,,

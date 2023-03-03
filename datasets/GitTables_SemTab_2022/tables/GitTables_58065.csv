@@ -1,0 +1,37 @@
+col0,col1,col2
+menu.impostors,impostors,предателей
+menu.players,players,игроков
+menu.emcd,meeting cooldown,перезарядка собрания
+menu.ce,confirm ejects,роль при изгнании
+menu.next,next,далее
+menu.sh,shhhhhhh!,тссссссссс!
+menu.select.next,next player:,следующий:
+menu.select.impostor,impostor,предатель
+menu.select.crewmate,crewmate,член экипажа
+menu.you,you,ты
+menu.mates,impostors:,предатели:
+menu.select.impostors1,There are ,Обнаружено 
+menu.select.impostors2, impostors among us, предателей среди нас
+menu.all,End of role selecting,всё
+menu.done,done,готово!
+game.ewvo,end with victory of,закончить победой
+game.ewvo.crew,crew,экипажа
+game.ewvo.impostors,impostors,предателей
+voting.select_dead,select dead,выбери мёртвых
+voting.wii,who is impostor?,кто же предатель?
+voting.votes,Votes:,голосует:
+voting.result.we, was ejected., был(а) изгнан(а).
+voting.result.wai, was An Impostor., оказал(а)ся предателем.
+voting.result.wnai, was not An Impostor, не был(а) предателем.
+voting.result.remains, impostors remain., предателей осталось.
+end.victory,victory,Победа
+end.restart,restart,Заново
+tutorial.part1,"Welcome! This app will help you pass the time on the outside by playing Among Us. There is a distribution of roles, a meeting timer, and voting. And this reference will help you understand what's going on here. First, you need to choose the number of players and impostors, how much time should pass to call a meeting and whether to show roles during eject. After that, enter the names of the players in the fields and click ""next"". The name of the player currently receiving the role will appear on the screen. He picks up the phone and secretly presses ""next"". His role will appear, he remembers it and again presses ""next"" and passes it to the next player. And so on to the end. After that, put your phone somewhere and start playing. (!)If the impostor(s) are out of the game, click the ""crew"" button, if there are as many alive crew members as there are impostors, click ""impostors"". Now, if someone calls a meeting or reports a body, press the appropriate button on the display. After that, select the dead, then give the phone to the player who is currently voting(written on the screen). He chooses who he votes for, and after everyone has voted, it says which player was expelled(whether the impostor is shown or not, if the ""role in exile"" option is enabled). Then continue playing. Have a good time!","Добро пожаловать! Это приложение поможет скоротать время на улице, играя в Among Us. Здесь есть раздача ролей, таймер собрания и голосование. А эта справка поможет тебе понять, что здесь к чему. Сначала нужно выбрать количество игроков и предателей, сколько времени должно пройти чтобы созвать собрание и показывать ли роли при изгнании. После этого в полях введи имена игроков и жми «далее». На экране появится имя игрока, который сейчас получает роль. Он берет телефон и втайне от всех жмёт «далее». Появится его роль, он её запоминает и опять жмёт «далее» и передаёт следующему игроку. И так до конца. После этого положи телефон где-нибудь и начинайте играть. (!)Если предатель(и) вышли из игры, жмите кнопку «экипажа», если живых членов экипажа столько же, сколько и предателей, жмите «предателей». Теперь если кто-то созовёт собрание или найдёт труп, жмите соответствующую кнопку на дисплее. После этого выберите мёртвых, затем давайте телефон игроку, который сейчас голосует(пишется на экране). Он выбирает, за кого голосует, и после того, как всё проголосовали, говорится, какого игрока изгнали(показывается предатель или нет, если опция «роль при изгнании» включена). Затем продолжайте играть. Хорошего времяпровождения!"
+voting.result.skip,No one was ejected(Skipped).,Принято решение пропустить голосование.
+voting.result.tie,No one was ejected(Tie).,"Мы не смогли принять единого решения, голосование пропущено."
+tutorial.title,tutorial,справка
+tutorial.back,back,назад
+menu.save,Save,сохранить
+menu.load,load,загрузить
+menu.load_file,load preset file,загрузить файл настроек
+menu.save_file,save preset file,сохранить файл настроек

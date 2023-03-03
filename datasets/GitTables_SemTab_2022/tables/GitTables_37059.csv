@@ -1,0 +1,64 @@
+col0,col1,col2,col3,col4,col5
+1,en,English,1,en_US,en
+2,es,Spanish,0,es_ES,es
+3,de,German,0,de_DE,de
+4,fr,French,0,fr_FR,fr
+5,ar,Arabic,0,ar,ar
+6,bs,Bosnian,0,,bs
+7,bg,Bulgarian,1,bg_BG,bg
+8,ca,Catalan,0,ca,ca
+9,cs,Czech,0,cs_CZ,cs
+10,sk,Slovak,0,sk_SK,sk
+11,cy,Welsh,0,cy,cy
+12,da,Danish,0,da_DK,da
+13,el,Greek,0,el,el
+14,eo,Esperanto,0,eo,eo
+15,et,Estonian,0,et,et
+16,eu,Basque,0,eu,eu
+17,fa,Persian,0,fa_IR,fa
+18,fi,Finnish,0,fi,fi
+19,ga,Irish,0,,ga
+20,he,Hebrew,0,he_IL,he
+21,hi,Hindi,0,,hi
+22,hr,Croatian,0,hr,hr
+23,hu,Hungarian,0,hu_HU,hu
+24,hy,Armenian,0,,hy
+25,id,Indonesian,0,id_ID,id
+26,is,Icelandic,0,is_IS,is
+27,it,Italian,0,it_IT,it
+28,ja,Japanese,0,ja,ja
+29,ko,Korean,0,ko_KR,ko
+30,ku,Kurdish,0,ku,ku
+31,la,Latin,0,,la
+32,lv,Latvian,0,lv,lv
+33,lt,Lithuanian,0,lt,lt
+34,mk,Macedonian,0,mk_MK,mk
+35,mt,Maltese,0,,mt
+36,mn,Mongolian,0,,mn
+37,ne,Nepali,0,,ne
+38,nl,Dutch,0,nl_NL,nl
+39,nb,Norwegian Bokmål,0,nb_NO,nb
+40,pa,Punjabi,0,,pa
+41,pl,Polish,0,pl_PL,pl
+42,pt-pt,"Portuguese, Portugal",0,pt_PT,pt-pt
+43,pt-br,"Portuguese, Brazil",0,pt_BR,pt-br
+44,qu,Quechua,0,,qu
+45,ro,Romanian,1,ro_RO,ro
+46,ru,Russian,0,ru_RU,ru
+47,sl,Slovenian,0,sl_SI,sl
+48,so,Somali,0,,so
+49,sq,Albanian,0,,sq
+50,sr,Serbian,0,sr_RS,sr
+51,sv,Swedish,0,sv_SE,sv
+52,ta,Tamil,0,,ta
+53,th,Thai,0,th,th
+54,tr,Turkish,0,tr,tr
+55,uk,Ukrainian,0,uk_UA,uk
+56,ur,Urdu,0,,ur
+57,uz,Uzbek,0,uz_UZ,uz
+58,vi,Vietnamese,0,vi,vi
+59,yi,Yiddish,0,,yi
+60,zh-hans,Chinese (Simplified),0,zh_CN,zh-hans
+61,zu,Zulu,0,,zu
+62,zh-hant,Chinese (Traditional),0,zh_TW,zh-hant
+63,ms,Malay,0,ms_MY,ms

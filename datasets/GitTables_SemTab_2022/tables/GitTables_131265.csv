@@ -1,0 +1,55 @@
+col0,col1,col2,col3
+ABAP Objects,class name definition «inheriting from parentclass». «interfaces: interfaces.» method_and_field_declarations endclass. class name implementation. method_implementations endclass.,interface name. members endinterface.,
+APL (Dyalog),":Class name «:parentclass» «,interfaces» members :EndClass",:Interface name members :EndInterface,:Namespace name members :EndNamespace
+C++ (STL),class name« : public parentclasses[5]» { members };,,namespace name { members }
+C,,,
+D,"class name« : «parentclass»«, interfaces»» { members }",interface name« : parentinterfaces» { members },module name;  members
+eC,class name« : base class» { «default member values assignments» «members» },,namespace name;
+Java,class name« extends parentclass»« implements interfaces» { members },interface name« extends parentinterfaces» { members },package name; members
+PHP,class name« extends parentclass»« implements interfaces» { members },interface name« extends parentinterfaces» { members },namespace name; members
+Objective-C,@interface name« : parentclass»[6]«< protocols >» { instance_fields } method_and_property_declarations @end  @implementation name method_implementations @end[7],@protocol name«< parentprotocols >» members @end,[8]
+Swift,"class name« : «parentclass»«, protocols»» { members }",protocol name« : parentprotocols» { members },
+Python,class name«(parentclasses[5])»: Tab ↹ members,[9],"__all__ = [ member1,member2,... ]"
+Visual Basic .NET,Class name« Inherits parentclass»« Implements interfaces» members End Class,Interface name« Inherits parentinterfaces» members End Interface,Namespace name members End Namespace
+Xojo,Class name« Inherits parentclass»« Implements interfaces» members End Class,Interface name« Inherits parentinterfaces» members End Interface,Module name members End Module
+Eiffel,class name« inherit parentclasses[5]» members end,,
+Perl,package name; «@ISA = qw(parentclasses[5]);» members 1;,,package name; members
+Raku,class name «is parentclass «is parentclass ...[5]»» «does role «does role ...»» { members },role name «does role «does role ...»» { members },module name { members }
+Ruby,class name« < parentclass»  members  end,,module name  members  end
+Windows PowerShell,,,
+OCaml,class name «parameters» = object «(self)» «inherit parentclass «parameters» «inherit parentclass «parameters» ...[5]»» members end,,module name  members
+F,,,
+Smalltalk,[10],,[11]
+JavaScript (ES6),class name «extends parentclass» { members } ,,
+Object Pascal (Delphi),"
+ClassName = Class «(ClassParent, Interfaces)» 
+private 
+// Private members(include Methods and Fields) 
+public 
+// Public members 
+protected 
+// Protected members 
+published 
+// Published members 
+end;",,package name; members
+Scala,"class ConcreteClass(constructor params)
+extends ParentClass
+with Trait1 with Trait2 with Trait2 {
+// members
+}","trait TraitName
+extends OtherTrait1
+with OtherTrait2 with OtherTrait3 {
+// members
+}",package name
+COBOL,"CLASS-ID. name« INHERITS« FROM» parentclasses».
+FACTORY« IMPLEMENTS interfaces».
+class-members
+END FACTORY.
+OBJECT« IMPLEMENTS interfaces».
+instance-members
+END OBJECT.
+END CLASS name.","INTERFACE-ID. name« INHERITS« FROM» interfaces».
+members
+END INTERFACE name.",
+Cobra,class name «inherits parentclass» «implements interfaces» Tab ↹ members,interface name «inherits parentinterfaces» Tab ↹ members,namespace name Tab ↹ members
+ISLISP,(defclass name (base-class) ((x :initform 0 :accessor get-x :initarg  x)) (:abstractp nil)),,

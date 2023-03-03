@@ -1,0 +1,12 @@
+col0,col1,col2,col3,col4,col5,col6
+Location1,-999,0,Aggregate,Ditch,1234567,WDID
+Location1,-999,0,Aggregate,Ditch,2345678,WDID
+Location1,-999,0,Aggregate,Ditch,3456789,WDID
+Location2,-999,0,Aggregate,Ditch,1122334,WDID
+Location2,-999,0,Aggregate,Ditch,2233445,WDID
+Location2,-999,0,Aggregate,Ditch,3344556,WDID
+Location3,-999,0,Aggregate,Ditch,1112223,WDID
+Location3,-999,0,Aggregate,Ditch,2223334,WDID
+Location3,-999,0,Aggregate,Ditch,3334445,WDID
+Location3,-999,0,Aggregate,Ditch,4445556,WDID
+Location3,-999,0,Aggregate,Ditch,5556667,WDID

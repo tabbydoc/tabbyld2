@@ -1,0 +1,85 @@
+location,date,vaccine,source_url,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters
+Angola,2021-03-01,Oxford/AstraZeneca,https://www.angop.ao/en/noticias/saude/covid-19-mais-de-seis-mil-profissionais-da-saude-vacinados-em-tres-dias/,0,0,,
+Angola,2021-03-08,Oxford/AstraZeneca,https://www.angop.ao/en/noticias/saude/covid-19-mais-de-seis-mil-profissionais-da-saude-vacinados-em-tres-dias/,6169,6169,,
+Angola,2021-03-18,Oxford/AstraZeneca,https://reliefweb.int/report/world/africa-s-covid-19-vaccination-gains-pace-nearly-7-million-doses-given,49000,49000,,
+Angola,2021-03-24,Oxford/AstraZeneca,https://www.angop.ao/en/noticias/saude/covid-19-angola-vacina-mais-de-80-mil-cidadaos/,87022,87022,,
+Angola,2021-03-29,Oxford/AstraZeneca,https://www.angop.ao/en/noticias/saude/covid-19-angola-com-130.750-pessoas-imunizadas/,130750,130750,,
+Angola,2021-04-06,Oxford/AstraZeneca,https://africa.cgtn.com/2021/04/06/covid-19-vaccinations-in-angola-surpass-180000-mark/,181578,181578,,
+Angola,2021-04-11,Oxford/AstraZeneca,https://www.verangola.net/va/en/042021/Health/24932/Luanda-has-South-African-and-English-variants-of-the-coronavirus-in-community-circulation.htm,245442,245442,,
+Angola,2021-04-19,Oxford/AstraZeneca,https://www.angop.ao/en/noticias/saude/covid-19-angola-com-395.447-pessoas-vacinadas/,395447,395447,,
+Angola,2021-04-23,Oxford/AstraZeneca,https://www.angop.ao/en/noticias/saude/covid-19-angola-com-456.349-cidadaos-vacinados/,456349,456349,,
+Angola,2021-05-12,Oxford/AstraZeneca,https://covid19.who.int/,626572,586377,40195,
+Angola,2021-05-18,Oxford/AstraZeneca,https://covid19.who.int/,681502,606287,75215,
+Angola,2021-05-21,Oxford/AstraZeneca,https://covid19.who.int/,757535,630984,126551,
+Angola,2021-05-26,Oxford/AstraZeneca,https://covid19.who.int/,859979,663049,196930,
+Angola,2021-05-31,Oxford/AstraZeneca,https://covid19.who.int/,909215,679034,230181,
+Angola,2021-06-08,Oxford/AstraZeneca,https://covid19.who.int/,1115919,740289,375630,
+Angola,2021-06-10,Oxford/AstraZeneca,https://covid19.who.int/,1222630,774926,447704,
+Angola,2021-06-15,Oxford/AstraZeneca,https://covid19.who.int/,1314375,822109,492266,
+Angola,2021-06-20,Oxford/AstraZeneca,https://covid19.who.int/,1380174,866381,513793,
+Angola,2021-06-24,Oxford/AstraZeneca,https://covid19.who.int/,1432699,909119,523580,
+Angola,2021-06-28,Oxford/AstraZeneca,https://covid19.who.int/,1488292,943301,544991,
+Angola,2021-07-05,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing",https://covid19.who.int/,1513460,951772,561688,
+Angola,2021-07-12,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing",https://covid19.who.int/,1558201,958373,599828,
+Angola,2021-07-19,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing",https://covid19.who.int/,1592537,958373,634164,
+Angola,2021-08-03,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing",https://covid19.who.int/,1680059,969946,710113,
+Angola,2021-08-09,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing",https://covid19.who.int/,1695588,972978,722610,
+Angola,2021-08-16,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing",https://covid19.who.int/,1727488,1000191,727297,
+Angola,2021-08-20,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing",https://covid19.who.int/,1754073,1025762,728311,
+Angola,2021-08-25,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing",https://africacdc.org/covid-19-vaccination/,1841568,1110558,731010,
+Angola,2021-09-01,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing",https://covid19.who.int/,2086325,1165755,920570,
+Angola,2021-09-11,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing",https://covid19.who.int/,2469333,1510880,958453,
+Angola,2021-09-19,"Oxford/AstraZeneca, Pfizer/BioNTech, Sinopharm/Beijing",https://covid19.who.int/,2820134,1836547,983587,
+Angola,2021-09-26,Oxford/AstraZeneca,https://covid19.who.int/,3134137,2127405,1006732,
+Angola,2021-10-08,Oxford/AstraZeneca,https://covid19.who.int/,4074677,2863708,1210969,
+Angola,2021-10-14,Oxford/AstraZeneca,https://africacdc.org/covid-19-vaccination/,4448653,3158501,1290152,
+Angola,2021-10-18,Oxford/AstraZeneca,https://covid19.who.int/,5224697,3787300,1437397,
+Angola,2021-10-20,Oxford/AstraZeneca,https://covid19.who.int/,5661085,4126328,1534757,
+Angola,2021-10-24,Oxford/AstraZeneca,https://covid19.who.int/,5940208,,,
+Angola,2021-10-26,Oxford/AstraZeneca,https://covid19.who.int/,6164219,4498272,1665947,
+Angola,2021-11-02,Oxford/AstraZeneca,https://covid19.who.int/,6647925,4846094,1801831,
+Angola,2021-11-07,Oxford/AstraZeneca,https://covid19.who.int/,7246966,5269623,1977343,
+Angola,2021-11-11,Oxford/AstraZeneca,https://covid19.who.int/,7806481,5802574,2003907,
+Angola,2021-11-18,Oxford/AstraZeneca,https://africacdc.org/covid-19-vaccination/,8231981,5950213,2281768,
+Angola,2021-11-21,Oxford/AstraZeneca,https://covid19.who.int/,8798259,6145451,2652808,
+Angola,2021-11-24,Oxford/AstraZeneca,https://africacdc.org/covid-19-vaccination/,9026310,6266044,2760266,
+Angola,2021-12-02,Oxford/AstraZeneca,https://africacdc.org/covid-19-vaccination/,9847459,,3072475,
+Angola,2021-12-06,Oxford/AstraZeneca,https://covid19.who.int/,10018061,6737721,3280340,
+Angola,2021-12-09,Oxford/AstraZeneca,https://africacdc.org/covid-19-vaccination/,10319552,7003795,3315757,
+Angola,2021-12-15,Oxford/AstraZeneca,https://africacdc.org/covid-19-vaccination/,10805281,7246240,3559041,
+Angola,2021-12-23,Oxford/AstraZeneca,https://africacdc.org/covid-19-vaccination/,11164918,7423668,3741250,
+Angola,2021-12-30,Oxford/AstraZeneca,https://africacdc.org/covid-19-vaccination/,11615144,7685417,3929727,
+Angola,2022-01-06,Oxford/AstraZeneca,https://africacdc.org/covid-19-vaccination/,11797041,7803739,3993302,
+Angola,2022-01-08,Oxford/AstraZeneca,https://covid19.who.int/,12099891,8176125,4174988,
+Angola,2022-01-12,Oxford/AstraZeneca,https://africacdc.org/covid-19-vaccination/,12377226,8178286,4198940,
+Angola,2022-01-14,Oxford/AstraZeneca,https://covid19.who.int/,12690132,8298224,4308880,
+Angola,2022-01-23,Oxford/AstraZeneca,https://covid19.who.int/,13944656,9287396,4540048,
+Angola,2022-01-28,Oxford/AstraZeneca,https://covid19.who.int/,14588435,9713546,4731866,
+Angola,2022-02-02,Oxford/AstraZeneca,https://covid19.who.int/,15039557,9999633,4880035,
+Angola,2022-02-09,Oxford/AstraZeneca,https://covid19.who.int/,15505389,10241793,5088239,
+Angola,2022-02-15,Oxford/AstraZeneca,https://covid19.who.int/,15902065,10427400,5278086,
+Angola,2022-02-17,Oxford/AstraZeneca,https://africacdc.org/covid-19-vaccination/,,,,138204
+Angola,2022-02-22,Oxford/AstraZeneca,https://covid19.who.int/,16259606,10591264,5448403,
+Angola,2022-03-02,Oxford/AstraZeneca,https://covid19.who.int/,16633167,10780927,5609044,
+Angola,2022-03-04,Oxford/AstraZeneca,https://africacdc.org/covid-19-vaccination/,,,,227810
+Angola,2022-03-08,Oxford/AstraZeneca,https://covid19.who.int/,16850195,10895481,5699666,
+Angola,2022-03-10,Oxford/AstraZeneca,https://africacdc.org/covid-19-vaccination/,,,,258168
+Angola,2022-03-17,Oxford/AstraZeneca,https://covid19.who.int/,17262044,11085468,5888639,
+Angola,2022-03-24,Oxford/AstraZeneca,https://africacdc.org/covid-19-vaccination/,,,,296060
+Angola,2022-03-25,Oxford/AstraZeneca,https://covid19.who.int/,17535411,11235059,5993792,306560
+Angola,2022-04-01,Oxford/AstraZeneca,https://covid19.who.int/,,11799837,6127137,333230
+Angola,2022-04-26,Oxford/AstraZeneca,https://covid19.who.int/,17896626,12059919,6327907,369899
+Angola,2022-05-22,Oxford/AstraZeneca,https://covid19.who.int/,18431807,12337467,6555241,431381
+Angola,2022-05-29,Oxford/AstraZeneca,https://covid19.who.int/,18956333,,,444914
+Angola,2022-06-05,Oxford/AstraZeneca,https://covid19.who.int/,19486927,12700926,6811268,512820
+Angola,2022-06-26,Oxford/AstraZeneca,https://covid19.who.int/,20397115,13153694,7127231,737233
+Angola,2022-07-03,Oxford/AstraZeneca,https://covid19.who.int/,20701915,13275026,7226565,808939
+Angola,2022-07-17,Oxford/AstraZeneca,https://covid19.who.int/,21099865,13507932,7393934,906537
+Angola,2022-07-24,Oxford/AstraZeneca,https://covid19.who.int/,21323036,13639803,7478983,944797
+Angola,2022-08-07,Oxford/AstraZeneca,https://covid19.who.int/,21623361,13908654,7638251,1027838
+Angola,2022-08-14,Oxford/AstraZeneca,https://covid19.who.int/,21991698,14037784,7713554,1066507
+Angola,2022-08-21,Oxford/AstraZeneca,https://covid19.who.int/,22120543,,,
+Angola,2022-08-28,Oxford/AstraZeneca,https://covid19.who.int/,22226535,14195788,7795780,1115824
+Angola,2022-09-04,Oxford/AstraZeneca,https://covid19.who.int/,22297104,14220830,7814121,
+Angola,2022-10-02,Oxford/AstraZeneca,https://covid19.who.int/,22624179,14220830,7814121,1127156
+Angola,2022-10-09,Oxford/AstraZeneca,https://covid19.who.int/,22696229,14220830,7814121,1127156

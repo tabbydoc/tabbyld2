@@ -1,0 +1,88 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+9,Samburu,1,Angata Nanyokie,89,Loibashie,1,9001089
+9,Samburu,2,Baawa,95,Lorok Lolmong'o,1,9002095
+13,Wajir,5,Barwaqo,178,village 2,2,13005178
+3,Isiolo,8,BULA PESA,180,village 4,2,3008180
+10,Taita Taveta,9,Bura,145,Omari,2,10009145
+10,Taita Taveta,9,Bura,181,village 5,2,10009181
+11,Tana River,12,Chewani,152,Rhoka,1,11012152
+1,Baringo,13,Churo/Amaya,183,village 7,2,1013183
+4,Kilifi,14,Dabaso,184,village 8,2,4014184
+2,Garissa,15,Dadaab,185,village 9,2,2015185
+2,Garissa,17,Danyere,147,Orahey,1,2017147
+5,Kitui,19,Endau/malalani,247,village 71,2,5019247
+11,Tana River,27,Hirimani,267,Walesorea,1,11027267
+1,Baringo,28,Iichamus,192,village 16,2,1028192
+1,Baringo,33,Kabarnet,194,village 18,2,1033194
+12,Turkana,37,Kalobeyei,136,Natiira,1,12037136
+12,Turkana,38,Kalokol,197,village 21,2,12038197
+10,Taita Taveta,39,Kaloleni,198,village 22,2,10039198
+5,Kitui,41,Kanyangi,200,village 24,2,5041200
+5,Kitui,42,Kanziko,122,Muthue,2,5042122
+8,Marsabit,45,Kargi/South Horr,164,SouthHorr,1,8045164
+7,Makueni,46,Kathonzweni,81,Kwakavisi,2,7046081
+7,Makueni,46,Kathonzweni,202,village 26,2,7046202
+7,Makueni,46,Kathonzweni,80,Kwa Makuli,2,7046080
+12,Turkana,47,Katilia,93,Lomunyenakwan,1,12047093
+5,Kitui,48,Kauwi,204,village 28,2,5048204
+1,Baringo,54,Kolowa,74,Kolowa,1,1054074
+5,Kitui,55,Kyangwithya east,205,village 29,2,5055205
+8,Marsabit,56,LAISAMIS,206,village 30,2,8056206
+1,Baringo,61,Lembus/Perkerra,207,village 31,2,1061207
+12,Turkana,64,Lobokat,9,Anglogitat,2,12064009
+12,Turkana,64,Lobokat,208,village 32,2,12064208
+9,Samburu,65,Lodokejek,70,Kirimon/Sura Adoru,1,9065070
+8,Marsabit,66,Logologo,252,village 76,2,8066252
+8,Marsabit,66,Logologo,209,village 33,2,8066209
+8,Marsabit,68,LOIYANGALANI,211,village 35,2,8068211
+12,Turkana,69,Lokichoggio,134,Natiir (Lokichoggio),1,12069134
+12,Turkana,69,Lokichoggio,133,Natiir (Lokichoggio),1,12069133
+12,Turkana,71,Lokori/kochodin,254,village 78,2,12071254
+12,Turkana,71,Lokori/kochodin,212,village 36,2,12071212
+12,Turkana,72,Lopur,213,village 37,2,12072213
+12,Turkana,72,Lopur,255,village 79,2,12072255
+2,Garissa,74,Maalimin,100,Maalimin,1,2074100
+2,Garissa,74,Maalimini,100,Maalimin,1,2074100
+4,Kilifi,76,Malindi,215,village 39,2,4076215
+7,Makueni,82,Masongaleni,217,village 41,2,7082217
+4,Kilifi,83,Matsangoni,218,village 42,2,4083218
+5,Kitui,84,Mbitini,82,Kyemundu,2,5084082
+5,Kitui,84,Mbitini,83,Kyumbe,2,5084083
+1,Baringo,89,Mogotio,219,village 43,2,1089219
+1,Baringo,89,Mogotio,258,village 82,2,1089258
+1,Baringo,91,Mumberes/Maji Mazuri,220,village 44,2,1091220
+1,Baringo,91,Mumberes/Maji Mazuri,259,village 83,2,1091259
+12,Turkana,95,Nanam,127,Nanam,1,12095127
+9,Samburu,98,Ndoto,221,village 45,2,9098221
+9,Samburu,98,Ndoto,260,village 84,2,9098260
+5,Kitui,100,Ngomeni,44,Janoni,2,5100044
+5,Kitui,101,Nguni,222,village 46,2,5101222
+7,Makueni,102,Nguumo,223,village 47,2,7102223
+8,Marsabit,103,North Horr,141,North Horr,2,8103141
+8,Marsabit,103,North Horr,224,village 48,2,8103224
+13,Wajir,107,Not specified4,20,Burder,1,13107020
+5,Kitui,113,Nzambani,167,Syolima,2,5113167
+8,Marsabit,114,Obbu,12,Bandarero,1,8114012
+3,Isiolo,115,Oldonyiro,98,Lpusii,1,3115098
+3,Isiolo,115,Oldonyiro,225,village 49,2,3115225
+9,Samburu,116,Porro,226,village 50,2,9116226
+1,Baringo,118,Ravine,228,village 52,2,1118228
+1,Baringo,122,Saimo/soi,261,village 85,2,1122261
+1,Baringo,122,Saimo-soi,261,village 85,2,1122261
+4,Kilifi,125,Shimo La Tewa,231,village 55,2,4125231
+1,Baringo,126,Silale,7,Akwichatis,1,1126007
+12,Turkana,128,Songkot,130,Napeikar,1,12128130
+9,Samburu,129,Suguta Marmar,166,Suguta Marmar-Lariak Orok,1,9129166
+1,Baringo,130,Tangulbei,232,village 56,2,1130232
+1,Baringo,130,Tangulbei/korossi,232,village 56,2,1130232
+13,Wajir,131,Tarbaj,233,village 57,2,13131233
+5,Kitui,134,Tseikuru,175,Usueni,2,5134175
+6,Kwale,135,Tsimba Golini,234,village 58,2,6135234
+8,Marsabit,136,TURBI,235,village 59,2,8136235
+7,Makueni,137,Ukia ward,59,Kaumoni,2,7137059
+7,Makueni,138,Ukia ward,265,Vuga,2,7138265
+8,Marsabit,139,Uran,236,village 60,2,8139236
+2,Garissa,141,Waberi,238,village 62,2,2141238
+13,Wajir,142,Wagberi,239,village 63,2,13142239
+13,Wajir,142,Wagberi,263,village 87,2,13142263
+7,Makueni,146,Wote,241,village 65,2,7146241

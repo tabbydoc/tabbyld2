@@ -1,0 +1,13 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11
+14,6,1,411,Consultant,15,103,800.0,12000.0,True,True,3
+18,8,1,410,Chef de projet,10,103,1000.0,10000.0,True,True,3
+19,8,2,111,Serveur haute performance,2,1,2500.0,5000.0,True,True,1
+20,8,3,110,Serveur classique,1,1,1500.0,1500.0,True,True,1
+21,8,4,121,Imprimante Laser,4,1,429.0,1716.0,True,True,1
+22,8,5,2,Maintenance annuelle,1,106,2000.0,2000.0,True,True,1
+23,9,1,400,Etude,1,1,8000.0,8000.0,True,True,3
+24,9,2,410,Chef de projet,20,103,1000.0,20000.0,True,True,3
+27,11,1,120,Imprimante Jet d'encre,5,1,329.0,1645.0,True,True,1
+28,11,2,302,Cartouche jet d'encre,15,1,32.9,493.5,True,True,1
+29,11,3,121,Imprimante Laser,3,1,429.0,1287.0,True,True,1
+30,11,4,303,Cartouche encre laser,6,1,84.5,507.0,True,True,1

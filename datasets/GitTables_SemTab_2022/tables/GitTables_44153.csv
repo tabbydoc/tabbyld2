@@ -1,0 +1,110 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+alameda,alam,ala,Alameda,1,alameda,Alameda,562
+albany,alba,ala,Alameda,1,albany,Albany,674
+berkeley,berk,ala,Alameda,1,berkeley,Berkeley,6000
+dublin,dubl,ala,Alameda,1,dublin,Dublin,20018
+emeryville,emer,ala,Alameda,1,emeryville,Emeryville,22594
+fremont,frem,ala,Alameda,1,fremont,Fremont,26000
+hayward,hayw,ala,Alameda,1,hayward,Hayward,33000
+livermore,livr,ala,Alameda,1,livermore,Livermore,41992
+newark,newk,ala,Alameda,1,newark,Newark,50916
+oakland,okld,ala,Alameda,1,oakland,Oakland,53000
+piedmont,pied,ala,Alameda,1,piedmont,Piedmont,56938
+pleasanton,plea,ala,Alameda,1,pleasanton,Pleasanton,57792
+san_leandro,slea,ala,Alameda,1,san_leandro,San Leandro,68084
+unincorporated_alameda,uala,ala,Alameda,1,alameda_county,Alameda County,1
+union_city,unic,ala,Alameda,1,union_city,Union City,81204
+antioch,anti,cnc,Contra Costa,13,antioch,Antioch,2252
+brentwood,bren,cnc,Contra Costa,13,brentwood,Brentwood,8142
+clayton,clay,cnc,Contra Costa,13,clayton,Clayton,13882
+concord,conc,cnc,Contra Costa,13,concord,Concord,16000
+danville,danv,cnc,Contra Costa,13,danville,Danville,17988
+el_cerrito,elce,cnc,Contra Costa,13,el_cerrito,El Cerrito,21796
+hercules,herc,cnc,Contra Costa,13,hercules,Hercules,33308
+lafayette,lafa,cnc,Contra Costa,13,lafayette,Lafayette,39122
+martinez,mart,cnc,Contra Costa,13,martinez,Martinez,46114
+moraga,mora,cnc,Contra Costa,13,moraga,Moraga,49187
+oakley,okly,cnc,Contra Costa,13,oakley,Oakley,53070
+orinda,orin,cnc,Contra Costa,13,orinda,Orinda,54232
+pinole,pino,cnc,Contra Costa,13,pinole,Pinole,57288
+pittsburg,pitt,cnc,Contra Costa,13,pittsburg,Pittsburg,57456
+pleasant_hill,plhl,cnc,Contra Costa,13,pleasant_hill,Pleasant Hill,57764
+richmond,rich,cnc,Contra Costa,13,richmond,Richmond,60620
+san_pablo,spab,cnc,Contra Costa,13,san_pablo,San Pablo,68294
+san_ramon,sram,cnc,Contra Costa,13,san_ramon,San Ramon,68378
+unincorporated_contra_costa,ucnc,cnc,Contra Costa,13,contra_costa_county,Contra Costa County,13
+walnut_creek,walc,cnc,Contra Costa,13,walnut_creek,Walnut Creek,83346
+belvedere,belv,mar,Marin,41,belvedere,Belvedere,5164
+corte_madera,cmad,mar,Marin,41,corte_madera,Corte Madera,16462
+fairfax,frfx,mar,Marin,41,fairfax,Fairfax,23168
+larkspur,lark,mar,Marin,41,larkspur,Larkspur,40438
+mill_valley,milv,mar,Marin,41,mill_valley,Mill Valley,47710
+novato,nova,mar,Marin,41,novato,Novato,52582
+ross,ross,mar,Marin,41,ross,Ross,62980
+san_anselmo,sans,mar,Marin,41,san_anselmo,San Anselmo,64434
+san_rafael,sraf,mar,Marin,41,san_rafael,San Rafael,68364
+sausalito,saus,mar,Marin,41,sausalito,Sausalito,70364
+tiburon,tibu,mar,Marin,41,tiburon,Tiburon,78666
+unincorporated_marin,umar,mar,Marin,41,marin_county,Marin County,41
+american_canyon,amer,nap,Napa,55,american_canyon,American Canyon,1640
+calistoga,cali,nap,Napa,55,calistoga,Calistoga,9892
+napa,napa,nap,Napa,55,napa,Napa,50258
+st_helena,shel,nap,Napa,55,st_helena,St. Helena,64140
+unincorporated_napa,unap,nap,Napa,55,napa_county,Napa County,55
+yountville,youn,nap,Napa,55,yountville,Yountville,86930
+san_francisco,sfra,sfr,San Francisco,75,san_francisco,San Francisco,67000
+atherton,athe,smt,San Mateo,81,atherton,Atherton,3092
+belmont,belm,smt,San Mateo,81,belmont,Belmont,5108
+brisbane,bris,smt,San Mateo,81,brisbane,Brisbane,8310
+burlingame,burl,smt,San Mateo,81,burlingame,Burlingame,9066
+colma,colm,smt,San Mateo,81,colma,Colma,14736
+daly_city,dalc,smt,San Mateo,81,daly_city,Daly City,17918
+east_palo_alto,epal,smt,San Mateo,81,east_palo_alto,East Palo Alto,20956
+foster_city,fosc,smt,San Mateo,81,foster_city,Foster City,25338
+half_moon_bay,half,smt,San Mateo,81,half_moon_bay,Half Moon Bay,31708
+hillsborough,hill,smt,San Mateo,81,hillsborough,Hillsborough,33798
+menlo_park,menp,smt,San Mateo,81,menlo_park,Menlo Park,46870
+millbrae,milb,smt,San Mateo,81,millbrae,Millbrae,47486
+pacifica,paci,smt,San Mateo,81,pacifica,Pacifica,54806
+portola_valley,porv,smt,San Mateo,81,portola_valley,Portola Valley,58380
+redwood_city,redc,smt,San Mateo,81,redwood_city,Redwood City,60102
+san_bruno,sbru,smt,San Mateo,81,san_bruno,San Bruno,65028
+san_carlos,scar,smt,San Mateo,81,san_carlos,San Carlos,65070
+san_mateo,smat,smt,San Mateo,81,san_mateo,San Mateo,68252
+south_san_francisco,ssfr,smt,San Mateo,81,south_san_francisco,South San Francisco,73262
+unincorporated_san_mateo,usmt,smt,San Mateo,81,san_mateo_county,San Mateo County,81
+woodside,wood,smt,San Mateo,81,woodside,Woodside,86440
+campbell,camp,scl,Santa Clara,85,campbell,Campbell,10345
+cupertino,cupe,scl,Santa Clara,85,cupertino,Cupertino,17610
+gilroy,gilr,scl,Santa Clara,85,gilroy,Gilroy,29504
+los_altos,lalt,scl,Santa Clara,85,los_altos,Los Altos,43280
+los_altos_hills,lahl,scl,Santa Clara,85,los_altos_hills,Los Altos Hills,43294
+los_gatos,lgat,scl,Santa Clara,85,los_gatos,Los Gatos,44112
+milpitas,milp,scl,Santa Clara,85,milpitas,Milpitas,47766
+monte_sereno,mser,scl,Santa Clara,85,monte_sereno,Monte Sereno,48956
+morgan_hill,mrgh,scl,Santa Clara,85,morgan_hill,Morgan Hill,49278
+mountain_view,mtvw,scl,Santa Clara,85,mountain_view,Mountain View,49670
+palo_alto,pala,scl,Santa Clara,85,palo_alto,Palo Alto,55282
+san_jose,sjos,scl,Santa Clara,85,san_jose,San Jose,68000
+santa_clara,scla,scl,Santa Clara,85,santa_clara,Santa Clara,69084
+saratoga,sara,scl,Santa Clara,85,saratoga,Saratoga,70280
+sunnyvale,sunn,scl,Santa Clara,85,sunnyvale,Sunnyvale,77000
+unincorporated_santa_clara,uscl,scl,Santa Clara,85,santa_clara_county,Santa Clara County,85
+benicia,beni,sol,Solano,95,benicia,Benicia,5290
+dixon,dixn,sol,Solano,95,dixon,Dixon,19402
+fairfield,frfd,sol,Solano,95,fairfield,Fairfield,23182
+rio_vista,riov,sol,Solano,95,rio_vista,Rio Vista,60984
+suisun_city,suic,sol,Solano,95,suisun_city,Suisun City,75630
+unincorporated_solano,usol,sol,Solano,95,solano_county,Solano County,95
+vacaville,vaca,sol,Solano,95,vacaville,Vacaville,81554
+vallejo,vall,sol,Solano,95,vallejo,Vallejo,81666
+cloverdale,clov,son,Sonoma,97,cloverdale,Cloverdale,14190
+cotati,cota,son,Sonoma,97,cotati,Cotati,16560
+healdsburg,heal,son,Sonoma,97,healdsburg,Healdsburg,33056
+petaluma,peta,son,Sonoma,97,petaluma,Petaluma,56784
+rohnert_park,rohp,son,Sonoma,97,rohnert_park,Rohnert Park,62546
+santa_rosa,sros,son,Sonoma,97,santa_rosa,Santa Rosa,70098
+sebastopol,seba,son,Sonoma,97,sebastopol,Sebastopol,70770
+sonoma,sono,son,Sonoma,97,sonoma,Sonoma,72646
+unincorporated_sonoma,uson,son,Sonoma,97,sonoma_county,Sonoma County,97
+windsor,wind,son,Sonoma,97,windsor,Windsor,85922

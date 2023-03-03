@@ -1,0 +1,21 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+utilityPrivatisation,answer,Utility privatisation,Sector of the power market open to private participation.,fundamentals,Utility privatisation,,,,both
+concentrationGeneration,answer,Concentration of generation market,Is the generation market concentrated?,fundamentals,Concentration of generation market,,,,both
+powerPlantFleet,answer,Power plant fleet modernisation program,Does the power generation fleet of the country need investment?,opportunities,Power plant fleet modernisation program,,,,both
+gapToTarget,answer,Gap to target,How large is the gap between the current level of renewables in the power sector and the country's closest target?,opportunities,Gap to target,,,,both
+upcomingAuctions,answer,Upcoming auctions,What is the volume of auctions announced in the country over the period 2018-2022 as a share of installed capacity?,opportunities,Upcoming auctions,,,,both
+sectorWholesale,answer,Wholesale power market,Is dispatch done according to the least marginal cost merit order?,fundamentals,Wholesale power market,,,,both
+currencyVariation,answer,Currency variation,How high is the ten year variation of the local currency against the US dollar?,fundamentals,Currency variation,,,,both
+offtakerRisk,range,Offtaker risk,How high is the offtake risk for independent generators?,fundamentals,Offtaker risk,,,,both
+standardisedPpa,answer,Standardised PPAs,Are power purchase agreements standardised in the market?,fundamentals,Standardised PPAs,,,,both
+ppaSufficientDuration,answer,PPAs of sufficient duration,Are PPAs of sufficient duration to be bankable for renewables developers?,fundamentals,PPAs of sufficient duration,,,,both
+purchaseObligation,answer,Purchase obligation,Is the offtaker obliged to pay for all the renewables output of generators?,fundamentals,Purchase obligation,,,,both
+keroseneDieselSubsidies,answer,Kerosene and diesel subsidies,Are retail diesel and kerosene prices subsidised?,opportunities,Kerosene and diesel subsidies,,,,off
+curtailmentRisk,answer,Curtailment risk,Are renewables projects at risk of seeing their production curtailed?,fundamentals,Curtailment risk,,,,both
+foreignInvestment,percent,Foreign investment,Disclosed share of foreign investment in the clean energy sector.,experience,Foreign investment,,,%,both
+electricityPrice,average,Electricity Price Data,Average retail electricity price,opportunities,Average residential electricity prices|Average commercial electricity prices|Average industrial electricity prices,,,$/MWh,both
+installedCapacity,timeSeries,Installed Capacity,,experience,3.07,year,MW,,both
+powerGeneration,timeSeries,Power Generation,,experience,3.08,year,GWh,,both
+cleanEnergyInvestment,timeSeries,Clean Energy Investment,What's the volume of clean energy investment in the country?,experience,investment,year,$ million,,both
+doingBusinessFeatures,group,Features,,,standardisedPpa|ppaSufficientDuration|purchaseObligation,,,,both
+barriersFeatures,group,Features,,,keroseneDieselSubsidies|curtailmentRisk,,,,both

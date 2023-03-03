@@ -1,0 +1,16 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22
+xxxx,5f512880-f314-da76-0414-537bdfff5be4,,,,05/20/2014 04:03 pm,05/20/2014 04:03 pm,1.0,1.0,0.0,in_class,completed,05/20/2014,05/20/2015,,admin,,Users,admin,,Users,,Users
+asdf,5fd3d2dd-d6c6-a130-fcfc-537cd7e9b1cb,,,,05/21/2014 09:43 am,05/21/2014 09:43 am,1.0,1.0,0.0,in_class,completed,05/21/2014,05/21/2015,,admin,,Users,admin,,Users,,Users
+asdfaf,98072fbf-9ffb-e3db-d6fa-537be486cf15,,,,05/20/2014 04:26 pm,05/21/2014 09:25 am,1.0,1.0,0.0,in_class,completed,05/20/2014,05/20/2015,,admin,,Users,admin,,Users,,Users
+This is a sample import file which provides an example of the expected contents of a file that is ready for import.,,,,,,,,,,,,,,,,,,,,,,
+"The file is a comma-delimited .csv file, using double-quotes as the field qualifier.",,,,,,,,,,,,,,,,,,,,,,
+The header row is the top-most row in the file and contains the field labels as you would see them in the application.,,,,,,,,,,,,,,,,,,,,,,
+These labels are used for mapping the data in the file to the fields in the application.,,,,,,,,,,,,,,,,,,,,,,
+Notes: The database names could also be used in the header row. This is useful when you are using phpMyAdmin or another database tool to provide an exported list of data to import.,,,,,,,,,,,,,,,,,,,,,,
+The column order is not critical as the import process matches the data to the appropriate fields based on the header row.,,,,,,,,,,,,,,,,,,,,,,
+"To use this file as a template, do the following:",,,,,,,,,,,,,,,,,,,,,,
+1. Remove the sample rows of data,,,,,,,,,,,,,,,,,,,,,,
+2. Remove the help text that you are reading right now,,,,,,,,,,,,,,,,,,,,,,
+3. Input your own data into the appropriate rows and columns,,,,,,,,,,,,,,,,,,,,,,
+4. Save the file to a known location on your system,,,,,,,,,,,,,,,,,,,,,,
+5. Click on the Import option from the Actions menu in the application and choose the file to upload,,,,,,,,,,,,,,,,,,,,,,

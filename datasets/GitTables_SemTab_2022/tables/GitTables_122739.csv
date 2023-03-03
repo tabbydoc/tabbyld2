@@ -1,0 +1,48 @@
+col0,col1,col2,col3,col4,col5
+1,calculate_numbers,1,7,,Single digit addition without carry
+2,calculate_numbers,2,8,,Single digit addition with carry
+3,calculate_numbers,3,9,,Double digit addition without carry
+4,calculate_numbers,4,10,,Double digit addition with carry
+5,calculate_numbers,5,11,,Triple digit addition without carry
+6,calculate_numbers,6,12,,Triple digit addition with carry
+7,calculate_numbers,7,13,,Single digit subtraction without borrow
+8,calculate_numbers,8,15,,Double digit subtraction without borrow
+9,calculate_numbers,9,16,,Double digit subtraction with borrow
+10,calculate_numbers,10,17,,Triple digit subtraction without borrow
+11,calculate_numbers,11,18,,Triple digit subtraction with borrow
+12,calculate_numbers,12,19,,Single digit multiplication
+13,calculate_numbers,13,20,,Single digit with double digit multiplication
+14,calculate_numbers,14,21,,Double digit multiplication
+15,tables,1,22,,1 Tables
+16,tables,2,23,,2 Tables
+17,tables,3,24,,3 Tables
+18,tables,4,25,,4 Tables
+19,tables,5,26,,5 Tables
+20,tables,6,27,,6 Tables
+21,tables,7,28,,7 Tables
+22,tables,8,29,,8 Tables
+23,tables,9,30,,9 Tables
+24,abacus,1,7,,Single digit addition without carry
+25,abacus,2,8,,Single digit addition with carry
+26,abacus,3,9,,Double digit addition without carry
+27,abacus,4,10,,Double digit addition with carry
+28,abacus,5,11,,Triple digit addition without carry
+29,abacus,6,12,,Triple digit addition with carry
+30,abacus,7,13,,Single digit subtraction without borrow
+31,abacus,8,15,,Double digit subtraction without borrow
+32,abacus,9,16,,Double digit subtraction with borrow
+33,abacus,10,17,,Triple digit subtraction without borrow
+34,abacus,11,18,,Triple digit subtraction with borrow
+35,fill_number,1,32,,1
+36,fill_number,2,33,,2
+37,fill_number,3,34,,3
+38,fill_number,4,35,,4
+39,fill_number,5,36,,5
+40,fill_number,6,37,,6
+41,fill_number,7,38,,7
+42,fill_number,8,39,,8
+43,fill_number,9,40,,9
+44,connect_the_dots,1,42,,0-9
+45,connect_the-dots,2,43,,0-99
+46,tap_home,1,42,,0-9
+47,tap_home,2,43,,0-99

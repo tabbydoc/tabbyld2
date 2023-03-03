@@ -1,0 +1,61 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+256,ZWE,Zimbabwe,1,Bulawayo,1,Bulawayo,District,District,,
+256,ZWE,Zimbabwe,2,Harare,2,Harare,District,District,,Salisbury|Harare Urban
+256,ZWE,Zimbabwe,3,Manicaland,3,Buhera,District,District,,
+256,ZWE,Zimbabwe,3,Manicaland,4,Chimanimani,District,District,,
+256,ZWE,Zimbabwe,3,Manicaland,5,Chipinge,District,District,,
+256,ZWE,Zimbabwe,3,Manicaland,6,Makoni,District,District,,
+256,ZWE,Zimbabwe,3,Manicaland,7,Mutare,District,District,,Umtali
+256,ZWE,Zimbabwe,3,Manicaland,8,Mutasa,District,District,,
+256,ZWE,Zimbabwe,3,Manicaland,9,Nyanga,District,District,,
+256,ZWE,Zimbabwe,4,Mashonaland Central,10,Bindura,District,District,,
+256,ZWE,Zimbabwe,4,Mashonaland Central,11,Centenary,District,District,,Muzarambani
+256,ZWE,Zimbabwe,4,Mashonaland Central,12,Guruve,District,District,,Sipolilo
+256,ZWE,Zimbabwe,4,Mashonaland Central,13,Mazowe,District,District,,
+256,ZWE,Zimbabwe,4,Mashonaland Central,14,Mount Darwin,District,District,,Mt Darwin
+256,ZWE,Zimbabwe,4,Mashonaland Central,15,Rushinga,District,District,,
+256,ZWE,Zimbabwe,4,Mashonaland Central,16,Shamva,District,District,,
+256,ZWE,Zimbabwe,5,Mashonaland East,17,Chikomba,District,District,,
+256,ZWE,Zimbabwe,5,Mashonaland East,18,Goromonzi,District,District,,
+256,ZWE,Zimbabwe,5,Mashonaland East,19,Marondera,District,District,,Marandellas
+256,ZWE,Zimbabwe,5,Mashonaland East,20,Mudzi,District,District,,
+256,ZWE,Zimbabwe,5,Mashonaland East,21,Murehwa,District,District,,
+256,ZWE,Zimbabwe,5,Mashonaland East,22,Mutoko,District,District,,
+256,ZWE,Zimbabwe,5,Mashonaland East,23,Seke,District,District,,
+256,ZWE,Zimbabwe,5,Mashonaland East,24,UMP,District,District,,Murehwa U.M.P.
+256,ZWE,Zimbabwe,5,Mashonaland East,25,Wedza,District,District,,Hwedza
+256,ZWE,Zimbabwe,6,Mashonaland West,26,Chegutu,District,District,,
+256,ZWE,Zimbabwe,6,Mashonaland West,27,Hurungwe,District,District,,Karoi|Urungwe
+256,ZWE,Zimbabwe,6,Mashonaland West,28,Kadoma,District,District,,Gatooma
+256,ZWE,Zimbabwe,6,Mashonaland West,29,Kariba,District,District,,
+256,ZWE,Zimbabwe,6,Mashonaland West,30,Makonde,District,District,,Lomagundi
+256,ZWE,Zimbabwe,6,Mashonaland West,31,Zvimba,District,District,,
+256,ZWE,Zimbabwe,7,Masvingo,32,Bikita,District,District,,
+256,ZWE,Zimbabwe,7,Masvingo,33,Chiredzi,District,District,,Hartley
+256,ZWE,Zimbabwe,7,Masvingo,34,Chivi,District,District,,
+256,ZWE,Zimbabwe,7,Masvingo,35,Gutu,District,District,,
+256,ZWE,Zimbabwe,7,Masvingo,36,Masvingo,District,District,,Victoria
+256,ZWE,Zimbabwe,7,Masvingo,37,Mwenezi,District,District,,
+256,ZWE,Zimbabwe,7,Masvingo,38,Zaka,District,District,,
+256,ZWE,Zimbabwe,8,Matabeleland North,39,Binga,District,District,,
+256,ZWE,Zimbabwe,8,Matabeleland North,40,Bubi,District,District,,
+256,ZWE,Zimbabwe,8,Matabeleland North,41,Hwange,District,District,,Wankie
+256,ZWE,Zimbabwe,8,Matabeleland North,42,Lupane,District,District,,
+256,ZWE,Zimbabwe,8,Matabeleland North,43,Nkayi,District,District,,
+256,ZWE,Zimbabwe,8,Matabeleland North,44,Tsholotsho,District,District,,
+256,ZWE,Zimbabwe,8,Matabeleland North,45,Umguza,District,District,,
+256,ZWE,Zimbabwe,9,Matabeleland South,46,Beitbridge,District,District,,
+256,ZWE,Zimbabwe,9,Matabeleland South,47,Bulilima (North),District,District,,Bulalimamangwe|Bulilima
+256,ZWE,Zimbabwe,9,Matabeleland South,48,Gwanda,District,District,,
+256,ZWE,Zimbabwe,9,Matabeleland South,49,Insiza,District,District,,
+256,ZWE,Zimbabwe,9,Matabeleland South,50,Mangwe (South),District,District,,Bulalimamangwe South
+256,ZWE,Zimbabwe,9,Matabeleland South,51,Matobo,District,District,,
+256,ZWE,Zimbabwe,9,Matabeleland South,52,Umzingwane,District,District,,
+256,ZWE,Zimbabwe,10,Midlands,53,Chirumhanzu,District,District,,Chirumanzu
+256,ZWE,Zimbabwe,10,Midlands,54,Gokwe North,District,District,,Gokwe
+256,ZWE,Zimbabwe,10,Midlands,55,Gokwe South,District,District,,Gokwe
+256,ZWE,Zimbabwe,10,Midlands,56,Gweru,District,District,,Gwelo
+256,ZWE,Zimbabwe,10,Midlands,57,Kwekwe,District,District,,Que Que
+256,ZWE,Zimbabwe,10,Midlands,58,Mberengwa,District,District,,Mberingwe
+256,ZWE,Zimbabwe,10,Midlands,59,Shurugwi,District,District,,Selukwe
+256,ZWE,Zimbabwe,10,Midlands,60,Zvishavane,District,District,,"Shabani, Shavani"

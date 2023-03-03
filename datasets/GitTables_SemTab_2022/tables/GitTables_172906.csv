@@ -1,0 +1,41 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24
+screensaver_user_id,fields.screensaveruser,,,,100,Arbitrarily assigned internal user ID for the User,True,Internal user ID,Screensaver User ID,True,,[],,string,link,{ 'hrefTemplate': ',,,,,,,,
+name,fields.screensaveruser,custom,,,2,,True,"Full name (last, first)",Name,True,,[l;d],,string,link,{ 'hrefTemplate': ',,,,,,,,
+first_name,fields.screensaveruser,,,,3,,True,First name,First Name,True,,[e],[c;u],string,,,,,,,TRUE,,1.0,
+last_name,fields.screensaveruser,,,,4,,True,Last name,Last Name,True,,[e],[c;u],string,,,,,,,TRUE,,1.0,
+classification,fields.screensaveruser,,,,5,,True,Classification,Classification,True,user.classification,[l;d],[c;u],string,,,select,,,,FALSE,,3.0,
+lab_name,fields.screensaveruser,,,Lab,6,,True,Current lab,Lab Name,True,,[d],,string,link,{ 'hrefTemplate': ',,,,,,,,
+lab_head_id,fields.screensaveruser,,,Lab,7,,True,Lab head Screensaver user ID,Lab Head ID,True,,[api],[c;u],string,,{ 'widthClass': 'col-sm-8' },select,,,,,,1.0,TRUE
+lab_head_username,fields.screensaveruser,,,Lab,7,,True,Lab head username,Lab Head Username,True,,[api],[c;u],string,link,{ 'hrefTemplate': ',,,,,,,,
+lab_affiliation_id,fields.screensaveruser,,,Lab,8,,True,Principal investigator lab affiliation ID,Lab Affiliation ID,True,,[api],[c;u],string,link,{ 'hrefTemplate': ',,,,,,,,
+lab_affiliation_name,fields.screensaveruser,,,Lab,9,,True,Principal investigator lab affiliation name,Lab Affiliation Name,True,,,[c;u],string,full_string,,,,,,,,1.0,
+lab_affiliation_category,fields.screensaveruser,,,Lab,10,,True,Lab affiliation category,Lab Affiliation Category,True,labaffiliation.category,,,string,,,select,,,,,,1.0,
+lab_head_appointment_category,fields.screensaveruser,,,Lab,13,,True,Lab head appointment category,App't Category,True,lab_head.appointment_category,,[c;u],string,,,select,,,,,,,TRUE
+lab_head_appointment_department,fields.screensaveruser,,,Lab,14,,True,Lab head appointment department,App't Department,True,lab_head.appointment_department,,[c;u],string,,,select,,,,,,,TRUE
+lab_head_appointment_update_date,fields.screensaveruser,,,Lab,15,,True,The date when lab head pppointment was set,Date App't Updated,True,,,[c;u],date,,,,,,,,,,TRUE
+email,fields.screensaveruser,,,,16,,True,Email,Email,True,,[l;d],[c;u],string,,{ 'maxlength': '100' },,,,"^[\w\-]{1,}([\w\-\+.]{1,1}[\w\-]{1,}){0,}[@][\w\-]{1,}([.]([\w\-]{1,})){1,3}$",,,1.0,
+ecommons_id,fields.screensaveruser,,,,17,,True,eCommons ID,eCommons,True,,[l;d],[c;u],string,,,,,,^\w+$,,,,
+username,fields.screensaveruser,auth_user,,,18,,True,Username,Username,True,,[d],[c;u],string,link,{ 'hrefTemplate': ',,,,,,,,
+harvard_id,fields.screensaveruser,,,,19,,True,The Harvard ID of the user,Harvard ID,True,,[l;d],[c;u],string,,,,,,,,[readEverythingAdmin],,TRUE
+harvard_id_expiration_date,fields.screensaveruser,,,,20,,True,The date this user's Harvard ID is initially set to expire,Harvard ID Initial Exp Date,True,,[none],,date,,,,,,,,[readEverythingAdmin],,TRUE
+harvard_id_requested_expiration_date,fields.screensaveruser,,,,21,,True,The requested date when the user's Harvard ID will expire,Harvard ID Requested Exp Date,True,,[none],,date,,,,,,,,[readEverythingAdmin],,TRUE
+gender,fields.screensaveruser,,,,22,,True,The gender of the user,Gender,True,user.gender,[l;d],[c;u],string,,,select,,,,,,1.0,TRUE
+phone,fields.screensaveruser,,,,23,,True,The phone number for this user,Phone,True,,[l;d],[c;u],string,,,,,,,,,1.0,TRUE
+mailing_address,fields.screensaveruser,reports_userprofile,,,24,,True,The mailing address of the user,Mailing Address,True,,[l;d],[c;u],string,,{ 'rows': 4 },textarea,,,,,,3.0,
+comments,fields.screensaveruser,,,,25,,True,Comments about this user,Comments,True,,[d],[c;u],string,,{ 'rows': 4 },textarea,,,,,[readEverythingAdmin],,TRUE
+screens_lead,fields.screensaveruser,custom,,Screens,29,,True,Screens for which this user is a lead screener,Screens Led,True,,,,list,link,{ 'hrefTemplate': ',,,,,,,,
+screens_lab_head,fields.screensaveruser,custom,,Screens,28,,True,Screens for which this user is a lab head,Lab Head for Screens,True,,,,list,link,{ 'hrefTemplate': ',,,,,,,,
+screens_collaborator,fields.screensaveruser,custom,,Screens,30,,True,Screens for which this user is a collaborator,Screens Collaborating,True,,,,list,link,{ 'hrefTemplate': ',,,,,,,,
+screens,fields.screensaveruser,custom,,Screens,27,,True,Screens for which this user is a member,All Screens,True,,,,list,link,{ 'hrefTemplate': ',,,,,,,,
+sm_data_sharing_level,fields.screensaveruser,,,Data Access,40,,True,Small molecule data sharing level,Small Molecule DSL,True,useragreement.data_sharing_level,[d;api],,integer,,{ 'group': 'Data Access' },select,,,,,,3.0,
+rnai_data_sharing_level,fields.screensaveruser,,,Data Access,41,,True,RNAi data sharing level,RNAi DSL,True,useragreement.data_sharing_level,[d;api],,integer,,{ 'group': 'Data Access' },select,,,,,,3.0,
+is_active,fields.screensaveruser,auth_user,,Data Access,42,,True,True if the user is currently active and may log in to the system,Can Log In,True,,[l;d],[c;u],boolean,,{ 'group': 'Data Access' },,,,,,,3.0,TRUE
+is_staff,fields.screensaveruser,auth_user,,Data Access,43,,True,For information purposes only - permissions are granted using UserGroups,Is Staff,True,,[d],[c;u],boolean,,{ 'group': 'Data Access' },,,,,,[readEverythingAdmin],,TRUE
+is_superuser,fields.screensaveruser,auth_user,,Data Access,44,,True,User has all permissions on the system,Is Super User,True,,[d],[c;u],boolean,,{ 'group': 'Data Access' },,,,,,[superusers],,TRUE
+lab_member_ids,fields.screensaveruser,custom,,Lab,45,,True,Lab member Screensaver user IDs,Lab Members,True,,[api],,list,link,{ 'hrefTemplate': ',,,,,,,,
+lab_member_names,fields.screensaveruser,custom,,Lab,46,,True,Lab member name(s),Lab Member Name(s),True,,[api],,list,,,,,,,,,1.0,
+lab_member_emails,fields.screensaveruser,custom,,Lab,47,,True,Lab member email(s),Lab Member Email(s),True,,[api],,list,,,,,,,,,1.0,
+permissions,fields.user,,,Data Access,48,,True,Permissions assigned directly to the user,User Permission(s),True,,[api],[c;u],list,,,multiselect2,,,,,[readEverythingAdmin],,TRUE
+usergroups,fields.user,,,Data Access,49,,True,Groups that the user belongs to,User Groups,True,,[api],[c;u],list,link,{ 'hrefTemplate': ',,,,,,,,
+all_permissions,fields.user,,,Data Access,50,,True,"Combined permissions assigned either to the user, or to the group",All Permissions,True,,[api],,list,link,,,,,,,[readEverythingAdmin],,TRUE
+date_created,fields.screensaveruser,,,,51,,True,The date the user's account was first recorded in Screensaver,Date Recorded,True,,[l;d],,date,,,,,,,,[readEverythingAdmin],,TRUE

@@ -1,0 +1,19 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+0,Cape Canaveral to LEO,3.0,3,6.0,,False,False
+1,Baikonur to LEO,3.0,3,5.0,,False,False
+2,Tranquility Base to Low Lunar Orbit,4.0,3,10.0,,False,False
+3,Jezero Crater to Low Martian Orbit,5.0,5,11.0,,False,False
+4,Jezero Crater to Low Martian Orbit,5.0,5,12.0,,False,False
+100,Transfer Orbit (Earth to Moon),3.0,4,,,True,False
+102,Transfer Orbit (Earth to Mars),3.0,5,,,True,False
+103,Transfer Orbit (Mars to Earth),5.0,3,,,True,False
+104,Transfer Orbit (Moon to Earth),4.0,3,,,True,False
+105,Free Return Transfer Orbit (Earth to Moon),3.0,4,,,True,False
+106,Free Return Transfer Orbit (Earth to Mars),3.0,5,,,True,False
+200,Enter LEO,,3,,,True,False
+201,Enter Low Lunar Orbit,,4,,,True,False
+202,Enter Low Martian Orbit,,5,,,True,False
+300,Earth Re-entry,,3,,5.0,True,True
+301,Lunar Descent,,4,,10.0,True,True
+302,Martian Descent (Jezero),,5,,11.0,True,True
+303,Martian Descent (Columbia),,5,,12.0,True,True

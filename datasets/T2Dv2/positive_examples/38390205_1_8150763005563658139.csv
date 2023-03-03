@@ -1,25 +1,25 @@
 Province,Ville,Hôpital,Participation,Option*
 Colombie-Britannique,Vancouver,Vancouver General Hospital,Oui,3
 ,Vancouver,Richmond General Hospital,Oui,3
-,Vancouver,Lions Gate,Oui,3
+,Vancouver,Lion’s Gate,Oui,3
 ,Vancouver,Powell River,Oui,3
-,Vancouver,St. Marys Hospital,Oui,3
+,Vancouver,St. Mary’s Hospital,Oui,3
 ,Vancouver,Squamish Hospital,,3
 ,Vancouver,Victoria General,,3
 ,Vancouver,Royal Jubilee,,
-,Vancouver,Childrens and Womens Health Center,,
+,Vancouver,Children’s and Women’s Health Center,,
 Alberta,Calgary,Peter Lougheed,,
 ,Calgary,Rockyview General,,
 ,Calgary,Foothills Hospital,,
-,Calgary,Alberta Childrens Hospital,Oui,Péd VEN
+,Calgary,Alberta Children’s Hospital,Oui,Péd VEN
 ,Calgary,Rockyview Hospital,,
 ,Edmonton,University of Alberta Hospital,Oui,3
-,Edmonton,Stollery Childrens Hospital,Oui,Péd VEN
+,Edmonton,Stollery Children’s Hospital,Oui,Péd VEN
 Saskatchewan,Saskatoon,Royal University Hospital,Oui,3
 Manitoba,Winnipeg,,Oui,3
 ,Winnipeg,"Université du Manitoba, Maladies infectieuses pédiatriques",Oui,Péd VEN
-Ontario,London,St. Josephs Health care,,
-,London,Childrens Hospital of Western Ontario,,
+Ontario,London,St. Joseph’s Health care,,
+,London,Children’s Hospital of Western Ontario,,
 ,London,Victoria Hospital,,
 ,London,University Hospital,,
 ,Toronto,Toronto Western Hospital,Oui,3
@@ -33,8 +33,8 @@ Ontario,London,St. Josephs Health care,,
 ,Hamilton,McMaster Site,Non,
 ,Hamilton,Chedoke,Non,
 ,Hamilton,Henderson & General Sites,Non,
-,Hamilton,St. Josephs Healthcare,Oui,1
-,Ottawa,LHôpital dOttawa,Oui,(Sept)
+,Hamilton,St. Joseph’s Healthcare,Oui,1
+,Ottawa,L’Hôpital d’Ottawa,Oui,(Sept)
 ,Ottawa,Campus Civic,Oui,
 ,Ottawa,Institut général et de cardiologie,Oui,
 ,Ottawa,Centre hospitalier pour enfants de l'Est de l'Ontario,Oui,Péd VEN
@@ -50,6 +50,6 @@ Québec,Montréal,Hôpital général juif  SMBD,Oui,3
 Nouveau-Brunswick,Moncton,The Moncton Hospital,Oui,3
 Nouvelle-Écosse,Halifax,QEII Health Sciences Centre,Oui,3
 ,Halifax,IWK Health Centre,Oui,Péd VEN
-Terre-Neuve-et-Labrador,St Johns,Health care Corp. of St. Johns General & Miller Sites,,
-,St Johns,Janeway Site,,
-,St Johns,St. Clare Site,,
+Terre-Neuve-et-Labrador,St John’s,Health care Corp. of St. John’s General & Miller Sites,,
+,St John’s,Janeway Site,,
+,St John’s,St. Clare Site,,

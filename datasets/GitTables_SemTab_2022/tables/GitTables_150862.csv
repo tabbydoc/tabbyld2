@@ -1,0 +1,193 @@
+col0,col1,col2
+Abkhazian,"аҧсуа бызшәа, аҧсшәа",ab
+Afar,Afaraf,aa
+Afrikaans,Afrikaans,af
+Amharic,አማርኛ,am
+Assamese,অসমীয়া,as
+Avaric,"авар мацӀ, магӀарул мацӀ",av
+Bambara,bamanankan,bm
+Bashkir,башҡорт теле,ba
+Basque,"euskara, euskera",eu
+Belarusian,беларуская мова,be
+Bengali,বাংলা,bn
+Bosnian,bosanski jezik,bs
+Breton,brezhoneg,br
+Bulgarian,български език,bg
+Burmese,ဗမာစာ,my
+"Catalan, Valencian","català, valencià",ca
+Chamorro,Chamoru,ch
+Chechen,нохчийн мотт,ce
+"Chichewa, Chewa, Nyanja","chiCheŵa, chinyanja",ny
+Chuvash,чӑваш чӗлхи,cv
+Cornish,Kernewek,kw
+Corsican,"corsu, lingua corsa",co
+Croatian,hrvatski jezik,hr
+Czech,"čeština, český jazyk",cs
+Danish,dansk,da
+"Divehi, Dhivehi, Maldivian",ދިވެހި,dv
+"Dutch, Flemish","Nederlands, Vlaams",nl
+Dzongkha,རྫོང་ཁ,dz
+English,English,en
+Ewe,Eʋegbe,ee
+Faroese,føroyskt,fo
+Fijian,vosa Vakaviti,fj
+Finnish,suomi,fi
+French,français,fr
+Galician,Galego,gl
+Georgian,ქართული,ka
+German,Deutsch,de
+Greek,ελληνικά,el
+Gujarati,ગુજરાતી,gu
+Hausa,(Hausa) هَوُسَ,ha
+Herero,Otjiherero,hz
+Hindi,"हिन्दी, हिंदी",hi
+Hiri Motu,Hiri Motu,ho
+Hungarian,magyar,hu
+Irish,Gaeilge,ga
+Igbo,Asụsụ Igbo,ig
+Icelandic,Íslenska,is
+Italian,Italiano,it
+Japanese,日本語／にほんご,ja
+Javanese,"ꦧꦱꦗꦮ, Basa Jawa",jv
+"Kalaallisut, Greenlandic","kalaallisut, kalaallit oqaasii",kl
+Kannada,ಕನ್ನಡ,kn
+Kashmiri,"कश्मीरी, كشميري‎",ks
+Kazakh,қазақ тілі,kk
+Central Khmer,"ខ្មែរ, ខេមរភាសា, ភាសាខ្មែរ",km
+"Kikuyu, Gikuyu",Gĩkũyũ,ki
+Kinyarwanda,Ikinyarwanda,rw
+"Kirghiz, Kyrgyz","Кыргызча, Кыргыз тили",ky
+Korean,한국어／韓國語,ko
+Korean,朝鮮말／조선말,ko
+"Kuanyama, Kwanyama",Kuanyama,kj
+Luxembourgish,Lëtzebuergesch,lb
+Letzeburgesch,Lëtzebuergesch,lb
+Ganda,Luganda,lg
+Lingala,Lingála,ln
+Lao,ພາສາລາວ,lo
+Lithuanian,lietuvių kalba,lt
+Luba-Katanga,Kiluba,lu
+Manx,"Gaelg, Gailck",gv
+Macedonian,македонски јазик,mk
+Malayalam,മലയാളം,ml
+Maltese,Malti,mt
+Maori,te reo Māori,mi
+Marathi,मराठी,mr
+Marshallese,Kajin M̧ajeļ,mh
+Nauru,Dorerin Naoero,na
+"Navajo, Navaho",Diné bizaad,nv
+North Ndebele,isiNdebele,nd
+Ndonga,Owambo,ng
+South Ndebele,isiNdebele,nr
+Occitan,"occitan, lenga d'òc",oc
+"Ossetian, Ossetic",ирон æвзаг,os
+"Punjabi, Panjabi","ਪੰਜਾਬੀ, پنجابی‎",pa
+Polish,"język polski, polszczyzna",pl
+Portuguese,Português,pt
+Romansh,Rumantsch Grischun,rm
+Rundi,Ikirundi,rn
+Russian,русский,ru
+Sindhi,"सिन्धी, سنڌي، سندھی‎",sd
+Northern Sami,Davvisámegiella,se
+Samoan,gagana fa'a Samoa,sm
+Sango,yângâ tî sängö,sg
+"Gaelic,",Gàidhlig,gd
+Scottish Gaelic,Gàidhlig,gd
+Shona,chiShona,sn
+"Sinhala, Sinhalese",සිංහල,si
+Slovak,"Slovenčina, Slovenský Jazyk",sk
+Slovenian,"Slovenski Jezik, Slovenščina",sl
+Somali,"Soomaaliga, af Soomaali",so
+Southern Sotho,Sesotho,st
+"Spanish, Castilian",Español,es
+Sundanese,Basa Sunda,su
+Swati,SiSwati,ss
+Swedish,Svenska,sv
+Tamil,தமிழ்,ta
+Telugu,తెలుగు,te
+Tajik,"тоҷикӣ, toçikī, تاجیکی‎",tg
+Thai,ไทย,th
+Tigrinya,ትግርኛ,ti
+Turkmen,"Türkmen, Түркмен",tk
+Tswana,Setswana,tn
+Tonga,Faka Tonga,to
+Turkish,Türkçe,tr
+Tsonga,Xitsonga,ts
+Tatar,"татар теле, tatar tele",tt
+"Uighur, Uyghur","ئۇيغۇرچە‎, Uyghurche",ug
+Ukrainian,Українська,uk
+Urdu,اردو,ur
+Venda,Tshivenḓa,ve
+Vietnamese,Tiếng Việt,vi
+Welsh,Cymraeg,cy
+Wolof,Wollof,wo
+West Frisian,Frysk,fy
+Xhosa,isiXhosa,xh
+Yoruba,Yorùbá,yo
+Zulu,isiZulu,zu
+Tahitian,Reo Tahiti,ty
+Tagalog,Wikang Tagalog,tl
+"Church Slavic,",ѩзыкъ словѣньскъ,cu
+Old Slavonic,ѩзыкъ словѣньскъ,cu
+Church Slavonic,ѩзыкъ словѣньскъ,cu
+Old Bulgarian,ѩзыкъ словѣньскъ,cu
+Old Church Slavonic,ѩзыкъ словѣньскъ,cu
+Tibetan,བོད་ཡིག,bo
+Bislama,Bislama,bi
+Bihari languages,भोजपुरी,bh
+Latin,"latine, lingua latina",la
+Sanskrit,संस्कृतम्,sa
+Avestan,avesta,ae
+Pali,"पालि, पाळि",pi
+Inuktitut,ᐃᓄᒃᑎᑐᑦ,iu
+Malay,"Bahasa Melayu, بهاس ملايو‎",ms
+Akan,Akan,ak
+Norwegian,Norsk,no
+Albanian,Shqip,sq
+Arabic,العربية,ar
+Aymara,aymar aru,ay
+Azerbaijani,azərbaycan dili,az
+Chinese,漢語,zh-hant
+Chinese,简体中文,zh-hans
+Cree,ᓀᐦᐃᔭᐍᐏᐣ,cr
+Estonian,"eesti, eesti keel",et
+Fulah,"Fulfulde, Pulaar, Pular",ff
+Guarani,Avañe'ẽ,gn
+Inupiaq,"Iñupiaq, Iñupiatun",ik
+Kanuri,Kanuri,kr
+Komi,коми кыв,kv
+Kongo,Kikongo,kg
+Kurdish,"Kurdî, کوردی‎",ku
+Latvian,latviešu valoda,lv
+Malagasy,fiteny malagasy,mg
+Mongolian,Монгол хэл,mn
+Nepali,नेपाली,ne
+Ojibwa,ᐊᓂᔑᓈᐯᒧᐎᓐ,oj
+Oromo,Afaan Oromoo,om
+Oriya,ଓଡ଼ିଆ,or
+"Pashto, Pushto",پښتو,ps
+Quechua,"Runa Simi, Kichwa",qu
+Sardinian,sardu,sc
+Swahili,Kiswahili,sw
+Uzbek,"Oʻzbek, Ўзбек, أۇزبېك‎",uz
+"Zhuang, Chuang","Saɯ cueŋƅ, Saw cuengh",za
+Yiddish,ייִדיש,yi
+Twi,Twi,tw
+Indonesian,Bahasa Indonesia,id
+Norwegian Bokmål,Norsk Bokmål,nb
+Norwegian Nynorsk,Norsk Nynorsk,nn
+"Sichuan Yi, Nuosu",ꆈꌠ꒿ Nuosuhxop,ii
+Hebrew,עברית,he
+Ido,Ido,io
+Interlingua,Interlingua,ia
+Esperanto,Esperanto,eo
+"Romanian, Moldavian, Moldovan",Română,ro
+Volapük,Volapük,vo
+"Interlingue, Occidental","Occidental, Interlingue",ie
+Armenian,"Հայերեն, Հայերէն",hy
+Persian,فارسی,fa
+Aragonese,aragonés,an
+"Haitian, Haitian Creole",Kreyòl ayisyen,ht
+"Limburgan, Limburger, Limburgish",Limburgs,li
+Walloon,Walon,wa
+Serbian,српски језик,sr

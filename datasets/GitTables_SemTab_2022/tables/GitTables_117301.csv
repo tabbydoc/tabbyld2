@@ -1,0 +1,94 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+,,,,,,,,,
+// LAND,,,,,,,,,
+,,,,,,,,,
+Boot_Camp,1.0,land,all,/,/,,5.0,infantry_experience,yes
+Tank_School,5.0,land,all,1939,/,,5.0,tank_experience,yes
+Field_Medics,31.0,land,"usa, marine_corps",/,/,,10.0,Field_Medics,yes
+Nuclear_Bomb,11.0,land,usa,1945,Tizard_Mission,,15.0,nuke,yes
+Landing_Craft_Tank,35.0,land,"usa, marine_corps",1943,Landing_Craft_Infantry,,7.0,landing_craft_tank,no
+Auftragstaktik,3.0,land,germany,1940,Boot_Camp,,10.0,Auftragstaktik,no
+Beutepanzer,4.0,land,germany,1941,/,,5.0,Beutepanzer,no
+Baukommando_Becker,52.0,land,germany,8/1942,Beutepanzer,,3.0,baukommando_becker,no
+Goliath_Mine,84.0,land,germany,3/1942,/,,5.0,goliath,no
+PaK_Front,8.0,land,"germany, ussr",1943,/,,5.0,PaK_Front,no
+Panzer_Keil,9.0,land,germany,1943,Tank_School,,5.0,Panzer_Keil,no
+Panzer_Fibel,7.0,land,germany,1943,Panzer_Fibel,,5.0,Panzer_Fibel,no
+Panzer_Lehr,63.0,land,germany,1/1944,Tank_School,,10.0,Panzer_Lehr,no
+Waffen_SS,10.0,land,germany,8/1940,/,,10.0,Waffen_SS,no
+Waffen_SS_II,56.0,land,germany,6/1942,Waffen_SS,,15.0,Waffen_SS_II,no
+Waffen_SS_III,57.0,land,germany,10/1943,Waffen_SS_II,,15.0,Waffen_SS_III,no
+Organisation_Todt,85.0,land,germany,1941,/,,5.0,Arbeitnehmer,yes
+Entwicklung_Series,87.0,land,germany,3/1945,War_Economy,,5.0,e_series,no
+Vampir_Nachtjaeger,89.0,land,germany,11/1944,/,,5.0,infrared,no
+Uranprojekt,88.0,land,germany,1945,/,,20.0,nuke,no
+Banzai_Charge,2.0,land,japan,1940,/,,5.0,Banzai_Charge,no
+Bushido_Code,6.0,land,japan,1940,/,,5.0,bushido_code,no
+Forced_Labour,73.0,land,"japan, germany, ussr",6/1941,/,,7.0,forced_labour,no
+Super_Sensha,72.0,land,japan,1943,/,,10.0,super_sensha,no
+Landing_Craft_Infantry,34.0,land,"japan, britain, usa, marine_corps",6/1941,/,,7.0,landing_craft_infantry,no
+Defensive_Doctrine,69.0,land,japan,/,/,,5.0,build_bunkers,no
+Lend_Lease_Act,59.0,land,"britain, china",10/1941,/,,3.0,lend_lease,no
+Home_Guard,,land,britain,1940,/,,5.0,home_guard,no
+Metal_Detector,42.0,land,britain,7/1942,/,,3.0,metal_detector,no
+Hobarts_Funnies,49.0,land,britain,5/1944,/,,3.0,hobarts_funnies,no
+Free_French,,land,britain,8/1940,/,,4.0,free_french,no
+Resistance_Fighters,,land,britain,8/1941,Free_French,,3.0,resistance_fighters,no
+Special_Services,61.0,land,britain,7/1940,/,,3.0,special_services,no
+Carri_Armati_Avanzati,86.0,land,italy,6/1942,/,,10.0,super_sensha,no
+Order_No227,92.0,land,ussr,8/1942,/,,5.0,order_no227,no
+Arctic_Convoy,93.0,land,ussr,9/1941,/,,5.0,arctic_convoy,no
+Guard_Infantry,94.0,land,ussr,10/1941,/,,10.0,guard_infantry,no
+Lend_Lease_USSR,95.0,land,ussr,2/1942,Arctic_Convoy,,10.0,lend_lease_ussr,no
+LL_USSR_Logistics,96.0,land,ussr,5/1942,Lend_Lease_USSR,,5.0,ll_ussr_logistics,no
+Shock_Army,97.0,land,ussr,1/1942,/,,7.0,shock_army,no
+Guards_Army,98.0,land,ussr,10/1942,Guard_Infantry,,7.0,guards_army,no
+Deep_Operations,100.0,land,ussr,5/1944,Tank_School,,5.0,Panzer_Keil,no
+,,,,,,,,,
+// NAVAL,,,,,,,,,
+,,,,,,,,,
+Naval_Academy,12.0,naval,all,/,/,,5.0,naval_experience,no
+Damage_Control,13.0,naval,all,1942,/,,7.0,Damage_Control,no
+Wolfpack,14.0,naval,"germany, usa, britain, japan, kriegsmarine",1941,/,,7.0,wolfpack,no
+Unrestricted_Submarines,60.0,naval,"germany, kriegsmarine",/,/,,7.0,unrestricted_submarine_warfare,no
+Liberty_Ships,36.0,naval,usa,1942,/,,5.0,Liberty_Ships,no
+Block_Construction,64.0,naval,usa,1941,/,,3.0,block_construction,no
+Gruppe_Monsun,74.0,naval,japan,9/1943,/,,7.0,gruppe_monsun,no
+British_Pacific_Fleet,75.0,naval,usa,11/1944,/,,10.0,british_pacific_fleet,no
+Plan_Z,76.0,naval,kriegsmarine,1/1941,/,,20.0,plan_z,no
+Schlachtschiffe,79.0,naval,kriegsmarine,1/1944,Plan_Z,,10.0,schlachtschiffe,no
+Flugzeugtrager,77.0,naval,kriegsmarine,1/1942,Plan_Z,,10.0,flugzeugtrager,no
+Torpedo_Improvements,80.0,naval,"germany, kriegsmarine",4/1942,/,,3.0,torpedo_improvements,no
+Torpedo_Improvements,81.0,naval,usa,7/1943,/,,3.0,torpedo_improvements,no
+Kleinkampfverbande,78.0,naval,kriegsmarine,1/1944,/,,3.0,kleinkampfverbande,no
+Destroyer_Tender,82.0,naval,all,1/2000,/,,5.0,destroyer_tender,no
+,,,,,,,,,
+// AIR,,,,,,,,,
+,,,,,,,,,
+Flight_School,17.0,air,all,/,/,,5.0,aircraft_experience,no
+Pilot_Rotation,18.0,air,all,5/1942,Flight_School,,10.0,Pilot_Rotation,no
+Drop_Tank,19.0,air,all,7/1940,/,,7.0,Drop_Tank,no
+Advanced_Aeronautics,21.0,air,all,1944,Tizard_Mission,,7.0,Advanced_Aeronautics,no
+Elite_Air_Groups,67.0,air,japan,4/1941,/,,5.0,Elite_Air_Groups,no
+Scrambling,68.0,air,all,5/1940,Radar_I,,10.0,scrambling,yes
+Bomber_Stream,83.0,air,britain,5/1942,/,,3.0,bomber_stream,yes
+Synthetic_Fuel_Plants,48.0,air,germany,1943,/,,5.0,air_cp_bonus,no
+Wire_Guided_Bomb,23.0,air,"kriegsmarine, germany",1944,/,,10.0,Wire_Guided_Bomb,no
+LL_USSR_Aircraft,99.0,air,ussr,3/1942,Lend_Lease_USSR,,7.0,ll_ussr_air,no
+AT_Cluster_Bomb,101.0,air,ussr,5/1943,,,5.0,at_cluster_bomb,no
+Sov_Fighter_Tactics,102.0,air,ussr,1/1944,Flight_School,,5.0,sov_fighter_tactics,no
+Air_Offensive,103.0,air,ussr,5/1944,Pilot_Rotation,,7.0,air_offensive,no
+,,,,,,,,,
+,,,,,,,,,
+// GENERAL & SHARED,,,,,,,,,
+,,,,,,,,,
+Radar_I,25.0,"naval, air","usa, britain, germany, japan, ussr, kriegsmarine",1940,/,,5.0,Radar_I,no
+Radar_II,26.0,"naval, air","usa, britain, germany, kriegsmarine",1942,"Radar_I, Tizard_Mission",,5.0,Radar_II,no
+Proximity_Fuse,28.0,"land, naval","usa, britain, ussr, germany, kriegsmarine",1943,Radar_I,,5.0,Proximity_Fuse,no
+Molotov_Ribbentrop_Pact,91.0,"land, air",ussr,8/1939,/,,5.0,molotov_ribbentrop_pact,no
+Tokyo_Express,40.0,"land, naval",japan,1942,/,,7.0,destroyer_supply_bonus,no
+Kamikaze,66.0,all,japan,1944,Bushido_Code,,5.0,kamikaze,yes
+Yanagi_Missions,70.0,"land, air",japan,1943,/,,10.0,yanagi_missions,no
+War_Economy,47.0,all,all,/,/,,5.0,war_economy,no
+Female_Laborers,45.0,all,all,1941,War_Economy,,6.0,female_laborers,no
+Rationing,44.0,all,all,2042,Female_Laborers,,7.0,rationing,no

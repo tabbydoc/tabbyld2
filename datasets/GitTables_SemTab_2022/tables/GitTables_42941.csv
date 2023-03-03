@@ -1,0 +1,9 @@
+col0,col1,col2,col3
+Changes:,,,
+root/battlegroundsPremiumDbfId,:,IntNode	Added,
+root/mechanics,:,ArrayNode	Added,
+root/referencedTags,:,ArrayNode	Added,
+root/techLevel,:,IntNode	Added,
+root/text,:,TextNode	Added,
+{,,,
+};,,,

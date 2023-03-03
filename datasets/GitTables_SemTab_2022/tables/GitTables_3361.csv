@@ -1,0 +1,47 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+,petId,Pet ID,string,Internal unique identifier.,Auto generated,Yes,123456789,
+,intakeDate,Intake Date?,date,,Current Date,Yes,1/4/2016,
+,adoptable,Available for adoption at this time?,boolean,It the cat is available for adoption at this time.,No,Yes,No,
+,lost,Possibly a lost or stray cat?,boolean,,,Yes,No,
+,lostGeoLat,"If lost, approximate latitude where pet was found?",number,,Current location,No,28.931905,new
+,lostGeoLon,"If lost, approximate longitude where pet was found?",number,,Current location,No,-81.9296189,new
+,species,Species,string,"Is the animal a bird, cat, dog, etc.?",,Yes,Cat,
+,purebred,Purebred?,boolean,Is the animal bred from parents of the same breed?,,No,Yes,
+,primaryBreed,Breed if purebred or primary breed if not?,string,,,No,Domestic Medium Hair (DMH),
+,secondaryBreed,Secondary breed if not purebred?,string,,,No,,
+,sex,Sex?,string,,,No,Female,
+,spayedNeutered,Spayed or neutered?,boolean,,No,No,Yes,
+,age,Age,string,,,No,6-12 months,
+,color,Color,string,,,No,Black with White,
+,hairLength,Hair Length,string,,,No,Medium,
+,declawed,Declawed,string,Is the cat declawed?,No,No,No,
+,size,Size?,string,,,No,Average,
+,microchip,Microchiped?,string,Is the cat microchiped?,Unknown,No,Yes,updated_type
+,microchip_number,Microchip number?,string,"If the cat is microchiped, what is the number?",,No,A00895678,new
+,image,,,,,No,160104_maisie.jpg,
+,caseActive,Case active?,boolean,Is this an active case or has the cat be adopted?,Yes,Yes,Yes,
+,caseNumber,Case number?,string,Lake County Sheriff's Office CAD number.,,No,L16004567,new
+,activityLevel,Activity level?,string,What is the cat's activity level?,,No,High,
+,actQuickly,Important to adopt soon?,boolean,If it is important to adopt this cat soon.,,No,No,
+,crateTrained,Crate Trained,string,,Unknown,No,Yes,updated_type
+,currentShots,All shots current?,string,,Unknown,No,Yes,updated_type
+,description,Description,string,Brief narrative and call to action.,,No,"This is Maisie. Maisie is a 6 month old, spayed female, DMH kitten. Maisie is the best bug catcher ever and she will find ways to entertain herself if you don't have time to play. This sweet girl is spunky, fully vetted and microchipped. If you are interested in meeting this cutie pie, please contact your local Lady Lake AnimalDocuments Control at 352-751-1530.",What is the appropriate text length constraint for this field?
+,goodWithCats,Good with other cats?,string,,Unknown,No,,updated_type
+,goodWithDogs,Good with other dogs?,string,,Unknown,No,,updated_type
+,goodWithKids,Good with children?,string,,Unknown,No,,updated_type
+,houseTrained,House Trained,string,,Unknown,No,,updated_type
+,petName,Pet Name,string,Friendly name of the cat.,,No,Maise,
+,specialNeeds,Special needs?,boolean,,,No,No,
+,shelterAddrCity,Shelter City,string,,Lady Lake,No,,
+,shelterAddrLine1,Shelter Address Line 1,string,,132 Skyline Dr.,No,,
+,shelterAddrLine2,Shelter Address Line 2,string,,,No,,
+,shelterAddrSt,Shelter State,string,,FL,No,,
+,shelterAddrZip,Shelter Zip,string,,32159,No,,
+,shelterContact,Shelter Contact,string,,Denise Williams,No,,
+,shelterEmail,Shelter Email,string,,aco@ladylake.org,No,,
+,shelterGeoLat,Shelter Latitude,number,,28.898348,No,,new
+,shelterGeoLon,Shelter Longitude,number,,-81.917677,No,,new
+,shelterId,Shelter ID,integer,Adopt-a-Pet Shetler ID,90778,No,,
+,shelterName,Shelter Name,string,,Lady Lake AnimalDocuments Control,No,,
+,shelterPhone,Shelter Phone,string,,352-751-1530,No,,
+,shelterUrl,Shelter Website Address,string,,https://www.ladylake.org/police-department/animal-control-2,No,,

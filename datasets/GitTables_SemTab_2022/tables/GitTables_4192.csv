@@ -1,0 +1,68 @@
+col0,col1,col2,col3
+Name,NAME_CONTRACT_TYPE-1,radio,
+Gender,CODE_GENDER-1,radio,
+Realty,FLAG_OWN_REALTY-1,radio,
+Children Count,CNT_CHILDREN,dropdown,2
+Income total,AMT_INCOME_TOTAL,textbox,12000
+Credit,AMT_CREDIT,textbox,455555
+Type Suite,NAME_TYPE_SUITE,dropdown,Family
+Income Type,NAME_INCOME_TYPE,dropdown,State servant
+Education Type,NAME_EDUCATION_TYPE,dropdown,Higher education
+Family Status,NAME_FAMILY_STATUS,dropdown,Married
+Housing Type,NAME_HOUSING_TYPE,dropdown,Rented apartment
+Region Population,REGION_POPULATION_RELATIVE,textbox,4000
+Days Birth,DAYS_BIRTH,textbox,4000
+Days Employed,DAYS_EMPLOYED,textbox,250
+Days Registration,DAYS_REGISTRATION,textbox,452
+Days ID Published,DAYS_ID_PUBLISH,textbox,555
+Car Age,OWN_CAR_AGE,textbox,12
+Phone No 1,FLAG_EMP_PHONE-1,radio,
+Work Phone,FLAG_WORK_PHONE-1,radio,
+Phone,FLAG_PHONE-1,radio,
+Email Provided,FLAG_EMAIL-1,radio,
+Occupation Type,OCCUPATION_TYPE,dropdown,Core staff
+Rating Client,REGION_RATING_CLIENT,dropdown,3
+Weekday Process Started,WEEKDAY_APPR_PROCESS_START,dropdown,TUESDAY
+Hour Process Started,HOUR_APPR_PROCESS_START,textbox,2
+Region Living,REG_REGION_NoT_LIVE_REGION-1,radio,
+REG_REGION_NoT_WORK_REGION,REG_REGION_NoT_WORK_REGION-1,radio,
+LIVE_REGION_NoT_WORK_REGION,LIVE_REGION_NoT_WORK_REGION-1,radio,
+City Type,CiREG_CITY_NoT_LIVE_CITY-1,radio,
+City Type 123,REG_CITY_NoT_WORK_CITY-1,radio,
+Organization Type,ORGANIZATION_TYPE,dropdown,School
+Ext Source 1,EXT_SOURCE_1,textbox,12
+Ext Source 2,EXT_SOURCE_2,textbox,12
+Ext Source 3,EXT_SOURCE_3,textbox,12
+Apartnment Avg,APARTMENTS_AVG,textbox,12
+YEARS_BEGINEXPLUATATION,YEARS_BEGINEXPLUATATION_AVG,textbox,12
+Common Area Avg,COMMONAREA_AVG,textbox,12
+Entraces Avg,ENTRANCES_AVG,textbox,12
+Floormax Avg,FLOORSMAX_AVG,textbox,12
+Floorsmin Avg,FLOORSMIN_AVG,textbox,12
+Land Area Avg,LANDAREA_AVG,textbox,12
+Non Living Apartnment,NoNLIVINGAPARTMENTS_AVG,textbox,12
+Fondkapremont Mode,FONDKAPREMONT_MODE,dropdown,reg oper account
+Housetype,HOUSETYPE_MODE,dropdown,block of flats
+Walls Material,WALLSMATERIAL_MODE,dropdown,Block
+Emergency State Mode,EMERGENCYSTATE_MODE-1,radio,12
+OBS 30 CNT Social Circle,OBS_30_CNT_SOCIAL_CIRCLE,textbox,12
+DEF_30_CNT_SOCIAL_CIRCLE,DEF_30_CNT_SOCIAL_CIRCLE,textbox,12
+Last Day Phone Changed,DAYS_LAST_PHONE_CHANGE,textbox,12
+Flag Doc 3,FLAG_DOCUMENT_3-1,radio,
+Flag Doc 5,FLAG_DOCUMENT_5-1,radio,
+Flag Doc 6,FLAG_DOCUMENT_6-1,radio,
+Flag Doc 8,FLAG_DOCUMENT_8-1,radio,
+Flag Doc 9,FLAG_DOCUMENT_9-1,radio,
+Flag Doc 11,FLAG_DOCUMENT_11-1,radio,
+Flag Doc 13,FLAG_DOCUMENT_13-1,radio,
+Flag Doc 14,FLAG_DOCUMENT_14-1,radio,
+Flag Doc 15,FLAG_DOCUMENT_15-1,radio,
+Flag Doc 16,FLAG_DOCUMENT_16-1,radio,
+Flag Doc 18,FLAG_DOCUMENT_18-1,radio,
+Flag Doc 20,FLAG_DOCUMENT_20-1,radio,
+AMT_REQ_CREDIT_BUREAU_HOUR,AMT_REQ_CREDIT_BUREAU_HOUR-1,radio,
+AMT_REQ_CREDIT_BUREAU_DAY,AMT_REQ_CREDIT_BUREAU_DAY-1,radio,
+AMT_REQ_CREDIT_BUREAU_WEEK,AMT_REQ_CREDIT_BUREAU_WEEK-1,radio,
+AMT_REQ_CREDIT_BUREAU_MON,AMT_REQ_CREDIT_BUREAU_MON-1,radio,
+AMT_REQ_CREDIT_BUREAU_QRT,AMT_REQ_CREDIT_BUREAU_QRT-1,radio,
+AMT_REQ_CREDIT_BUREAU_YEAR,AMT_REQ_CREDIT_BUREAU_YEAR-1,radio,

@@ -1,0 +1,33 @@
+col0,col1,col2,col3,col4,col5,col6
+2,Baseline Data,Baseline Visit,Missing Collected Plasma 1?,2_2018-05-13_5,2018-05-13,False
+2,Baseline Data,Baseline Visit,Missing Collected Plasma 2?,2_2018-05-13_6,2018-05-13,False
+2,Baseline Data,Baseline Visit,Missing Collected Serum 1?,2_2018-05-13_7,2018-05-13,False
+2,Baseline Data,Baseline Visit,Missing Collected Serum 2?,2_2018-05-13_8,2018-05-13,False
+2,Demographics,Baseline Visit,Missing Phone number,2_2018-05-13_2,2018-05-13,False
+2,Demographics,Baseline Visit,Missing Specify the patient's mood.,2_2018-05-13_3,2018-05-13,False
+2,Demographics,Baseline Visit,Missing Upload the patient's consent form,2_2018-05-13_1,2018-05-13,False
+2,Demographics,Baseline Visit,Height (cm) is not between recommended limits of 130 and 215; please correct or confirm accuracy,2_2018-05-13_4,2018-05-13,False
+3,Baseline Data,Baseline Visit,Missing Subject Global Assessment (score = 1-7),3_2018-05-13_7,2018-05-13,False
+3,Baseline Data,Baseline Visit,HDL Cholesterol (mg/dL) is not between recommended limits of 20 and 100; please correct or confirm accuracy,3_2018-05-13_8,2018-05-13,False
+3,Baseline Data,Baseline Visit,Baseline visit should occur within one week of consent,3_2018-05-13_9,2018-05-13,
+3,Demographics,Baseline Visit,Missing BMI,3_2018-05-13_2,2018-05-13,False
+3,Demographics,Baseline Visit,Date of birth should be within 18 and 110 years prior to consent,3_2018-05-13_4,2018-05-13,
+3,Demographics,Baseline Visit,"If patient has given birth, number of births should be present",3_2018-05-13_5,2018-05-13,False
+3,Demographics,Baseline Visit,"Patient is marked as taking statins, but no specific statins checked",3_2018-05-13_6,2018-05-13,False
+3,Demographics,Baseline Visit,Postal code should be formatted properly,3_2018-05-13_3,2018-05-13,False
+3,Monthly Data,Month 1,Date of monthly visit not within X months (+/- one week) after enrollment,3_2018-05-13_11,2018-05-13,
+3,Monthly Data,Month 2,Creatinine (mg/dL) is not between recommended limits of 0.3 and 9; please correct or confirm accuracy,3_2018-05-13_10,2018-05-13,False
+3,Monthly Data,Month 2,Date of monthly visit not within X months (+/- one week) after enrollment,3_2018-05-13_12,2018-05-13,
+3,Monthly Data,Month 2,Hospital admission date is prior to last visit,3_2018-05-13_14,2018-05-13,False
+3,Monthly Data,Month 3,Date of monthly visit not within X months (+/- one week) after enrollment,3_2018-05-13_13,2018-05-13,
+4A,Baseline Data,Baseline Visit,Missing HDL Cholesterol (mg/dL),4A_2018-05-13_6,2018-05-13,False
+4A,Baseline Data,Baseline Visit,Baseline visit should occur within one week of consent,4A_2018-05-13_7,2018-05-13,False
+4A,Baseline Data,Baseline Visit,Supplement start date should be on or within one week of baseline visit,4A_2018-05-13_8,2018-05-13,False
+4A,Completion Data,Study Completion,"Patient withdrew, but missing reason",4A_2018-05-13_12,2018-05-13,False
+4A,Demographics,Baseline Visit,Missing E-mail,4A_2018-05-13_1,2018-05-13,False
+4A,Demographics,Baseline Visit,Date of birth should be within 18 and 110 years prior to consent,4A_2018-05-13_3,2018-05-13,False
+4A,Demographics,Baseline Visit,"Patient is marked as not taking statins, but at least one statin is checked",4A_2018-05-13_5,2018-05-13,False
+4A,Demographics,Baseline Visit,Study ID should be an integer with at most four digits,4A_2018-05-13_2,2018-05-13,False
+4A,Demographics,Baseline Visit,This patient has no activities marked; please confirm or correct,4A_2018-05-13_4,2018-05-13,False
+4A,Monthly Data,Month 2,Missing Was patient hospitalized since last visit?,4A_2018-05-13_9,2018-05-13,False
+4A,Monthly Data,Month 2,Number of treatments missed does not match % compliance,4A_2018-05-13_11,2018-05-13,False

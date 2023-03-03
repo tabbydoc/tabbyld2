@@ -1,0 +1,92 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+1,Page,,,,,,,,,UML Class,,
+2,Text,Standard,1.0,,56.0,,,,,api UML ,,
+3,Text,Standard,1.0,,56.0,,,,,"b   |  April 23, 2021",,
+4,Class,UML,1.0,,,,,,,"<<external>>
+multer",,
+5,Class,UML,1.0,,,,,,,"<<external>>
+mongoose.Schema",,
+6,Class,UML,1.0,,,,,,,PicsService,"""-PicsDAO picsDAO;""","savePic(JSON : picsDTO)
+getPic(JSON : picsDTO)
+deletePic(JSON : picsDTO)
+leaveComment(JSON : picsDTO)"
+7,Class,UML,1.0,,,,,,,PicsDAO,"""-Schema picSchema""",
+8,Class,UML,1.0,,,,,,,PicsContoller,"""-PicsService picsService;
+""","router.post()
+router.get()"
+9,Class,UML,1.0,,,,,,,"<<external>>
+express-validator",,
+10,Class,UML,1.0,,,,,,,"<<external>>
+mongoose.Schema",,
+11,Class,UML,1.0,,,,,,,FollowService,"""-UsersDAO usersDAO;
+-FollowDAO followDAO;""","checkUserExist(String : username)
+checkUserInFollow(String : username)
+addToDB(String : username)
+addFollower(Stirng : usernameFollower, String : username)
+followUser(Stirng : usernameToFollow, String : username)
+checkFollowing(String : username)
+checkDuplicateFollow(String : username, String : user)
+checkDuplicateFollower(String : username, String : user)
+unfollowUser(String : username, String : user)
+removeFollower(String : username, String : user)"
+12,Class,UML,1.0,,,,,,,UsersDAO,"""-Schema userSchema """,
+13,Class,UML,1.0,,,,,,,Follow,"""- FollowService followService;
+""","router.post()
+router.get()"
+14,Class,UML,1.0,,,,,,,Following,"""- FollowService followService;
+""",router.get()
+15,Class,UML,1.0,,,,,,,"<<external>>
+mongoose.Schema",,
+16,Class,UML,1.0,,,,,,,RegistrationService,"""-UsersDAO usersDAO;""",registerUser(JSON : regDTO)
+17,Class,UML,1.0,,,,,,,RegistationController,"""-RegistrationService registrationService;
+""","router.post()
+router.get()"
+18,Class,UML,1.0,,,,,,,"<<external>>
+express-validator",,
+19,Class,UML,1.0,,,,,,,FollowDAO,"""-Schema followSchema """,
+20,Class,UML,1.0,,,,,,,"<<external>>
+mongoose.Schema",,
+21,Class,UML,1.0,,,,,,,LoginService,"""-UsersDAO usersDAO;""",findUser(JSON : loginDTO)
+22,Class,UML,1.0,,,,,,,LoginController,"""-LoginService loginService;
+""","router.post()
+router.get()"
+23,Class,UML,1.0,,,,,,,UsersDAO,"""-Schema userSchema """,
+24,Class,UML,1.0,,,,,,,UsersDAO,"""-Schema userSchema """,
+25,Class,UML,1.0,,,,,,,LogoutController,,router.post()
+26,Class,UML,1.0,,,,,,,Unfollow,"""- FollowService followService;
+""","router.post()
+router.get()"
+27,Class,UML,1.0,,,,,,,"<<external>>
+mongoose.Schema",,
+28,Class,UML,1.0,,,,,,,ProfileService,"""-UsersDAO usersDAO;""","getUser(String : username)
+getAllUsers(String : username)"
+29,Class,UML,1.0,,,,,,,Profile,"""-ProfileService profileService;
+""","router.post()
+router.get()"
+30,Class,UML,1.0,,,,,,,UsersDAO,"""-Schema userSchema """,
+31,Line,,1.0,,56.0,,2.0,None,None,,,
+32,Line,,1.0,,,8.0,6.0,None,Open Arrow,directsRequestTo,,
+33,Line,,1.0,,,7.0,6.0,None,Open Arrow,dataMapper,providesDatabaseAcessTo,
+34,Line,,1.0,,,8.0,4.0,None,Open Arrow,uses,,
+35,Line,,1.0,,,7.0,5.0,None,Open Arrow,uses,,
+36,Line,,1.0,,,13.0,11.0,None,Open Arrow,directsRequestTo,,
+37,Line,,1.0,,,12.0,11.0,None,Open Arrow,dataMapper,providesDatabaseAcessTo,
+38,Line,,1.0,,,12.0,10.0,None,Open Arrow,uses,,
+39,Line,,1.0,,,13.0,9.0,None,Open Arrow,uses,,
+40,Line,,1.0,,,14.0,11.0,None,Open Arrow,directsRequestTo,,
+41,Line,,1.0,,,14.0,9.0,None,Open Arrow,uses,,
+42,Line,,1.0,,,17.0,16.0,None,Open Arrow,directsRequestTo,,
+43,Line,,1.0,,,24.0,16.0,None,Open Arrow,dataMapper,providesDatabaseAcessTo,
+44,Line,,1.0,,,24.0,15.0,None,Open Arrow,uses,,
+45,Line,,1.0,,,17.0,18.0,None,Open Arrow,uses,,
+46,Line,,1.0,,,19.0,10.0,None,Open Arrow,uses,,
+47,Line,,1.0,,,19.0,11.0,None,Open Arrow,dataMapper,providesDatabaseAcessTo,
+48,Line,,1.0,,,22.0,21.0,None,Open Arrow,directsRequestTo,,
+49,Line,,1.0,,,23.0,21.0,None,Open Arrow,dataMapper,providesDatabaseAcessTo,
+50,Line,,1.0,,,23.0,20.0,None,Open Arrow,uses,,
+51,Line,,1.0,,,26.0,9.0,None,Open Arrow,uses,,
+52,Line,,1.0,,,26.0,11.0,None,Open Arrow,directsRequestTo,,
+53,Line,,1.0,,,29.0,28.0,None,Open Arrow,directsRequestTo,,
+54,Line,,1.0,,,30.0,28.0,None,Open Arrow,dataMapper,providesDatabaseAcessTo,
+55,Line,,1.0,,,30.0,27.0,None,Open Arrow,uses,,
+56,Group 1,,1.0,,,,,,,,,

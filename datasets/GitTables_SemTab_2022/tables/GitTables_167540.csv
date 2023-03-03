@@ -1,0 +1,61 @@
+col0,col1,col2,col3,col4
+OBJECTID,Internal feature number.,Esri,,Sequential unique whole numbers that are automatically generated.
+BSTP_GEO_ID,Bus stop geographical identification,WMATA,,A unique integer ID assigned to each WMATA bus stop within the Clever Devices bus stop database.
+BSTP_OPS_TCD,Bus stop operating status type code,WMATA,,The lifecycle status of the bus stop
+BSTP_POS_TCD,Bus stop position type code,WMATA,,"The location of the bus stop relative to the AtStreet. Whether the bus crosses the AtStreet just after reaching the stop (""near""), just before ('far""), or somewhere in the middle of the block (""mid"")."
+AT_STR,At street,WMATA,,"The name of the closest cross-street to the stop; or the nearest landmark or address, if there is no nearby cross-street; or the bus bay designator if the stop is in a transit station."
+BSTP_EFF_DATE,Service Effective Date,WMATA,,Bus stop service start date
+ON_STR,On street,WMATA,,"The name of the street the bus is on while serving the stop; or the landmark or transit station where the stop is located, if it is not on a named road."
+BSTP_HDG,Bus stop heading,WMATA,,The compass orientation (in degrees) of the bus when it is stopped at the stop.
+REG_ID,Bus Stop Regional Identifier,WMATA,,A unique seven-digit integer assigned to each bus stop of each transit agency in the WMATA service area.
+BSTP_LDC,Bus stop location description,WMATA,,A text description providing more detail on the exact loaction of the bus stop.
+BSTP_MSG_TEXT,Bus stop message text,WMATA,,"The bus stop description as given in bus on-board displays, usually the OnStreet and AtStreet names with a plus sign between them."
+BSTP_LON,Bus stop longitude,WMATA,,"The longitude (X coordinate) of the bus stop, as referenced to the WGS 1984"
+BSTP_LAT,Bus stop latitude,WMATA,,"The latitude (Y coordinate) of the bus stop, as referenced to the WGS 1984"
+BSTP_TCD,Bus stop type code,WMATA,,The operational type of bus stop.
+BSTP_INV_SYR_TCD,Bus stop inventory surveyor type code,WMATA,,Person who recorded information about the bus stop. Note:  All stops will have multiple surveyors.
+BSTP_LAT_LON_TCD,Location (Lat and Long) Type Status,WMATA,,Bus stop location (latitude and longitude) status
+BSTP_INV_SRV_DATE,Bus stop inventory survey date,WMATA,,The date that the person recorded information about the bus stop.
+BSTP_BNH_CNT,Bus stop bench count,WMATA,,The number of benches at the bus stop.
+BSTP_BST_TCD,Bus stop bench seat type code,WMATA,,"Whether the benches at a bus stop are part of a shelter, or freestanding, or both"
+BSTP_IFC_OWN,Bus stop infocase owner,WMATA,,An agency or party responsible for maintaining the infocase.
+BSTP_HAS_BKRS,Bus stop has bike racks,WMATA,,Whether a bike rack is at the bus stop.
+BSTP_HAS_PRS,Bus stop has posted route schedule,WMATA,,Whether route schedules are posted at the stop.
+BSTP_HAS_PVM,Bus stop has posted vicinity map,WMATA,,Whether a map of the surrounding area is posted at the stop.
+BSTP_HAS_PRM,Bus stop has posted route map,WMATA,,Whether a route map is posted at the stop.
+EGIS_ID,Enterprise geographic information system identification,WMATA,,Unique geographic feature identifer assigned within the WMATA enterprise GIS.
+BSTP_PDP_SIZE_TCD,Bus stop pedestrian pad size type code,WMATA,,The usable size of the pedestrian pad (as reduced by any obstructions).
+BSTP_PDP_MTR_TCD,Bus stop pedestrian pad material type code,WMATA,,The material that the pedestrian pad is made of.
+BSTP_PDP_OBS_TCD,Bus stop pedestrian pad obstruction type code,WMATA,,Type of permanent obstruction that impedes use of the pedestrian pad or reduce its usable area to less than 5'x8'.
+BSTP_PDP_HAS_CCN,Bus stop pedestrian pad has curb connection,WMATA,,Whether the pedestrian pad connects to the on-street curb.
+BSTP_HAS_BDR_PDP,Bus stop has bus rear door pedestrian pad,WMATA,,"Whether the bus stop has a distinct, paved area for rear door alighting (not recorded if the area is part of the sidewalk)."
+BSTP_BDR_PDP_OBS,Bus stop bus rear door pedestrian pad obstruction,WMATA,,Whether the rear door pedestrian pad is 5'x8' and unobstructed.
+BSTP_SWK_WDT,Bus stop sidewalk width,WMATA,,"The width of the above sidewalk at its narrowest part at the stop, taking into consideration planters, tree boxes, shelters, and other types of permanent obstructions (0 = no sidewalk)."
+BSTP_SWK_HAS_CCN,Bus stop sidewalk has curb connection,WMATA,,Whether the on-street sidewalk connects with on-street curb (no grassy/dirt area between sidewalk and curb).
+BSTP_SWK_HAS_PPC,Bus stop sidewalk has pedestrian pad connection,WMATA,,Whether the sidewalk connects to the pedestrian pad at the stop (Only applies to stop with pedestrian pad).
+BSTP_SWK_SLP_WVL,Bus stop sidewalk slope wheelchair viable,WMATA,,Whether the slope of the sidewalk appears to present difficulty for wheelchair navigation (>5% is too steep; goal is 2% or less).
+BSTP_SWK_OBS_TCD,bus stop sidewalk obstruction type code,WMATA,,"The type of streetside furnishing, construction, or landscaping that impedes pedestrian access to the bus stop via the sidewalk."
+BSTP_SWK_IPD_TCD,Bus stop sidewalk impedance type code,WMATA,,The type of sidewalk condition that impedes pedestrian access to the bus stop.
+ONS_CRP_SLP,On street near side curb ramp slope,WMATA,,"The average of three measurements (CurbRampSlope1, CurbRampSlope2, CurbRampSlope3) taken at the ramp nearest to the stop: one at the top of the ramp, one in the middle of the ramp, one at the bottom of the ramp."
+ONS_CRP,On street near side curb ramp,WMATA,,Whether there is a curb ramp to the on-street at the near-side of the intersection.
+OFS_CRP,On street far side curb ramp,WMATA,,Whether there is a curb ramp to the on-street onfar-side of the intersection.
+AT_STR_ABS_CRP,At street at bus stop curb ramp,WMATA,,Whether there is a curb ramp to the at-street on the near side of the intersection.
+AT_STR_OSS_CRP,At street opposite bus stop curb ramp,WMATA,,Whether there is a curb ramp to the at-street on the far side of the intersection.
+ONS_CWK,On street near side crosswalk,WMATA,,"Whether there is a crosswalk across the on-street on the near side of the intersection (or at the stop, for a mid-block bus stop)."
+OFS_CWK,On street far side crosswalk,WMATA,,Whether there is a crosswalk across the on-street on the far side of the intersection.
+AT_STR_ABS_CWK,At street at bus stop crosswalk,WMATA,,Whether there is a crosswalk across the at-street on the near side of the intersection.
+AT_STR_OSS_CWK,At street opposite bus stop crosswalk,WMATA,,Whether there is a crosswalk across the at-street on the far side of the intersection.
+ON_STR_STS_OR_TFL,On street stop sign or traffic light,WMATA,,Whether there is a traffic light or stop sign at the bus stop at the on-street location.
+ON_STR_PDC_SGL,On street pedestrian crossing signal,WMATA,,Whether there is a pedestrian crossing signal to cross the on-street
+AT_STR_PDC_SGL,At street pedestrian crossing signal,WMATA,,Whether there is a pedestrian crossing signal to cross the at-street
+BSTP_PRK_RST_TCD,Bus stop parking restriction type code,WMATA,,How parking is allowed or restricted at the bus stop.
+BSTP_NPK_ZNE_LTH,Bus stop no parking zone length,WMATA,,The length of the no parking zone at the stop (0 = none).
+CNF_NPK_SNS,Conflicting no parking signs,WMATA,,Whether there is contradictory information on multiple no-parking signs at the bus stop.
+STR_LGT_WTN_30_FT,Street light within 30 ft,WMATA,,Whether there is a street light within 30 feet of the bus stop pole on the same side of the street.
+BSTP_HAS_LED_DSP,Bus stop has LED display,WMATA,,Whether the bus stop has a LED display showing the next bus arrival.
+BSTP_ACC_RATING,Bus Stop Accessibility Rating,WMATA,,Bus Stop Accessibility
+BSTP_BRDG_STP,Bus Bridge Stop,WMATA,,Bus Bridge Stop
+BSTP_HAS_LUM_SIGN,bus stop has luminator sign,WMATA,,Whether the bus stop has a luminator sign
+BSTP_HAS_PWR_SRC,bus stop has power source,WMATA,,Whether the bus stop has power source
+METRO_ACCS_STP,MetroAccess Stop,WMATA,,Whether the bus stop is MetroAccess Stop
+SHAPE,Feature geometry.,Esri,,Coordinates defining the features.

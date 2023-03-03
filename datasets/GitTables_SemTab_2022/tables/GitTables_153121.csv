@@ -1,0 +1,37 @@
+col0,col1,col2,col3,col4,col5,col6
+case_id,id,unique uswtdb id,64553.0,3000001.0,3044460.0,3100535.0
+faa_ors,id,faa digital obstacle file (dof) for obstacle repository system (ors),58140.0,,,
+faa_asn,id,faa obstruction evaluation - airport airspace analysis (oe-aaa) aeronautical study number (asn),57757.0,,,
+usgs_pr_id,id,usgs id from prior turbine dataset,40508.0,1.0,28027.0,49135.0
+eia_id,id,eia plant id from eia form 860,58952.0,90.0,57327.0,65270.0
+t_state,location,state where turbine is located,64553.0,,,
+t_county,location,county where turbine is located,64553.0,,,
+t_fips,location,state and county fips where turbine is located,64553.0,,,
+p_name,project characteristic,project name,64553.0,,,
+p_year,project characteristic,year project became operational,63215.0,1981.0,2011.0,2020.0
+p_tnum,project characteristic,number of turbines in project,64553.0,1.0,87.0,770.0
+p_cap,project characteristic,project capacity (MW),60677.0,0.05,150.0,495.01
+t_manu,turbine characteristic,turbine original equipment manufacturer,59545.0,,,
+t_model,turbine characteristic,turbine model,59147.0,,,
+t_cap,turbine characteristic,turbine capacity (kW),59728.0,50.0,1800.0,6000.0
+t_hh,turbine characteristic,turbine hub height (meters),58166.0,19.0,80.0,131.0
+t_rd,turbine characteristic,turbine rotor diameter (meters),58853.0,11.0,91.0,150.0
+t_rsa,turbine characteristic,turbine rotor swept area (meters^2),58853.0,95.03,6503.88,17671.46
+t_ttlh,turbine characteristic,turbine total height - calculated (meters),58166.0,30.4,125.8,199.6
+t_conf_atr,turbine characteristics qa/qc,turbine characteristic confidence (0-3),64553.0,1.0,3.0,3.0
+t_conf_loc,visual inspection qa/qc,location confidence (0 -3),64553.0,1.0,3.0,3.0
+t_img_date,visual inspection info,date of image used to visually verify turbine location,52351.0,,,
+t_img_srce,visual inspection info,source of image used to visually verify turbine location,64553.0,,,
+xlong,location,longitude (decimal degrees - NAD 83 datum),64553.0,-171.7131,-99.6285,144.7227
+ylat,location,latitude (decimal degrees - NAD 83 datum),64553.0,13.3894,38.8379,66.8399
+,,,,,,
+Acronyms,,,,,,
+ASN,Aeronautical Study Number,,,,,
+AWEA,American Wind Energy Association,,,,,
+DOF,Digital Obstacal File,,,,,
+FAA,Federal Avaiation Administration,,,,,
+LBNL,Lawrence Berkeley National Laboratory,,,,,
+OE/AAA,Obstacle Evaluation / Airport Airspace Analysis,,,,,
+ORS,Obstacle Repository System,,,,,
+USGS,United States Geological Survey,,,,,
+EIA,Energy Information Administration,,,,,

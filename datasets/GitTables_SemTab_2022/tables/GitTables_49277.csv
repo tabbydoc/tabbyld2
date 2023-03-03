@@ -1,0 +1,13 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27,col28,col29,col30,col31,col32,col33,col34,col35,col36,col37,col38,col39
+2016675,clojure/clojure,java,42,1377784080,,1377797049,216,,unknown,False,False,1,1,0,1,1,2,0,0,1,1,1,0,0,83,35356,4,0,0,0.7919447901346306,0.0,0.0,2070,pbzdyl,0,0,4,False,False
+1983883,clojure/clojure,java,41,1377460977,,1377461691,11,,unknown,False,False,1,1,0,0,0,0,0,0,1,1,1,0,0,83,35356,2,0,0,0.7919447901346306,0.0,0.0,2070,nickgieschen,0,0,1,False,False
+880860,clojure/clojure,java,31,1349405341,,1349443990,644,,unknown,False,False,0,8,0,1,1,2,0,0,8,8,8,0,0,100,34563,18,0,0,0.8101148627144634,0.0,0.0,1963,kimmel,0,0,8,False,False
+429795,clojure/clojure,java,30,1348284239,,1348367689,1390,,unknown,False,False,0,3,0,2,2,2,0,0,2,2,2,0,0,100,34375,37,0,0,0.8145454545454545,0.0,0.0,1950,pparkkin,0,0,0,False,False
+243781,clojure/clojure,java,27,1344960448,,1344960706,4,,unknown,False,False,1,1,0,0,0,1,1,0,2,3,3,0,0,93,34304,45,0,0,0.816231343283582,0.0,0.0,1888,ieure,0,0,100,False,False
+223608,clojure/clojure,java,26,1343086888,,1343086999,1,,unknown,False,False,2,1,0,0,0,1,0,0,1,1,1,0,0,84,34304,5,0,0,0.816231343283582,0.0,0.0,1819,craigbro,0,0,3,False,False
+114793,clojure/clojure,java,24,1336358994,,1364497120,468908,,unknown,False,False,4,1,0,0,0,0,0,0,1,1,1,0,0,35,34215,9,0,0,0.8183545228700861,0.0,0.0,1586,myguidingstar,0,0,3,False,False
+112859,clojure/clojure,java,23,1336145674,,1336149375,61,,unknown,False,False,4,1,0,3,3,2,0,0,2,2,2,0,0,35,34215,12,0,0,0.8183545228700861,0.0,0.0,1579,l0st3d,0,0,2,False,False
+713122,clojure/clojure,java,18,1331425471,,1331426992,25,,unknown,False,False,5,1,0,0,0,0,0,0,1,1,1,0,0,32,34083,2,0,0,0.8215239268843705,0.0,0.0,1398,jwinter,0,0,1,False,False
+19992,clojure/clojure,java,14,1327765241,,1331693966,65478,,unknown,False,False,5,1,0,0,0,0,0,0,1,1,1,0,0,30,34126,8,0,0,0.351638047236711,0.0,0.0,1308,jeremyheiler,0,0,4,False,False
+1003875,clojure/clojure,java,9,1311753821,,1311764372,175,,unknown,False,False,1,1,0,0,0,0,0,0,1,1,1,0,0,50,33754,3,0,0,0.3555134206316288,0.0,0.0,1170,pcomans,0,0,2,False,False
+1003870,clojure/clojure,java,1,1287817600,,1288247424,7163,,unknown,False,False,1,1,0,1,1,1,0,0,1,1,1,0,0,99,27233,3,0,0,0.0,0.0,0.0,906,jszakmeister,0,0,2,False,False

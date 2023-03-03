@@ -6,9 +6,9 @@ Rang,Name,Staat(en),FlÃ¤che-(km2),LÃ¤nge-(km),Max.-Tiefe-(m),Volumen-(km?)
 5.,Michigansee,USA,58.016,517,282,4918
 6.,Tanganjikasee,Tansania DR-Kongo Sambia Burundi,32.893,676,1470,18.900
 7.,Baikalsee,Russland,31.500,636,1680 (2008),23.600
-8.,Gro?er-B?rensee,Kanada,31.080,373,446,2236
+8.,Großer-Bärensee,Kanada,31.080,373,446,2236
 9.,Malawisee,Malawi Mosambik Tansania,30.044,579,706,8400
-10.,Gro?er-Sklavensee,Kanada,28.930,480,614,2090
+10.,Großer-Sklavensee,Kanada,28.930,480,614,2090
 11.,Eriesee,USA-Kanada,25.719,388,64,489
 12.,Winnipegsee,Kanada,23.553,425,18,283
 13.,Ontariosee,USA-Kanada,19.477,311,244,1639
@@ -25,7 +25,7 @@ Rang,Name,Staat(en),FlÃ¤che-(km2),LÃ¤nge-(km),Max.-Tiefe-(m),Volumen-(km?)
 24.,Issyk-Kul,Kirgisistan,6200,182,668,1738
 25.,Urmia-See,Iran,6001,130,16,-
 26.,Koko-Nor,VR-China,5694,-,-,-
-27.,V?nern,Schweden,5545,140,106,153
+27.,Vänern,Schweden,5545,140,106,153
 28.,Lake-Winnipegosis,Kanada,5403,245,-,-
 29.,Albertsee,Uganda DR-Kongo,5299,161,58,280
 30.,Mwerusee,Sambia DR-Kongo,5120,-,27,-
@@ -46,7 +46,7 @@ Rang,Name,Staat(en),FlÃ¤che-(km2),LÃ¤nge-(km),Max.-Tiefe-(m),Volumen-(km?)
 45.,Alakol,Kasachstan,2650,-,54,"58,6"
 46.,Iliamna-Lake,USA,2622,120,>150,-
 47.,Chubsogol-Nor,Mongolei,2620,136,262,-
-48.,Poop?-See,Bolivien,2600,-,-,"4,02"
+48.,Poopó-See,Bolivien,2600,-,-,"4,02"
 49.,Lake-Garry,Kanada,2538,-,-,-
 50.,Eduardsee,DR-Kongo Uganda,2325,65,112,-
 51.,Wollaston-Lake,Kanada,2286,-,71,75
@@ -57,7 +57,7 @@ Rang,Name,Staat(en),FlÃ¤che-(km2),LÃ¤nge-(km),Max.-Tiefe-(m),Volumen-(km?)
 56.,Nam-Tso,VR-China,2207,70,33,-
 57.,Lake-Mistassini,Kanada,2176,150,-,-
 58.,Hungtze-Hu,VR-China,1960,-,-,-
-59.,V?ttern,Schweden,1912,-,119,-
+59.,Vättern,Schweden,1912,-,119,-
 60.,Lake-Okeechobee,USA,1890,56,4,-
 61.,Lago-Buenos-Aires,Chile Argentinien,1850,-,590,-
 62.,Tschelkar-Tengis,Kasachstan,1825,-,-,-
@@ -67,7 +67,7 @@ Rang,Name,Staat(en),FlÃ¤che-(km2),LÃ¤nge-(km),Max.-Tiefe-(m),Volumen-(km?)
 66.,Tschanysee,Russland,1700,-,12,-
 67.,Ziling-Tso,VR-China,1640,72,33,-
 68.,Lake-Pontchartrain,USA,1630,64,"4,26",-
-69.,Tuz-G?l?,T?rkei,1620,80,2,-
+69.,Tuz-Gölü,T?rkei,1620,80,2,-
 70.,Tengis-Ozero,Kasachstan,1590,-,-,-
 71.,Lago-Argentino,Argentinien,1490,-,500,-
 72.,Baker-Lake,Kanada,1480,-,-,-
@@ -89,14 +89,14 @@ Rang,Name,Staat(en),FlÃ¤che-(km2),LÃ¤nge-(km),Max.-Tiefe-(m),Volumen-(km?)
 88.,Cree-Lake,Kanada,1155,-,-,-
 89.,Abajasee,?thiopien,1150,72,13,-
 90.,Hawr-as-Saniyah,Irak,1142,-,-,-
-91.,M?laren,Schweden,1140,115,66,"14,3"
+91.,Mälaren,Schweden,1140,115,66,"14,3"
 92.,Lake-Champlain,USA-Kanada,1130,180,121,-
 93.,Beloje-Ozero,Russland,1125,-,-,-
 94.,Lake-St.Clair,Kanada-USA,1114,42,"8,2",4
 95.,Lac-Sakami,Kanada,1100,-,-,-
 96.,Napaktulik-Lake,Kanada,1080,-,-,-
 97.,Kasba-Lake,Kanada,1077,-,-,-
-98.,P?ij?nne,Finnland,1068,-,95,-
+98.,Päijänne,Finnland,1068,-,95,-
 99.,MacKay-Lake,Kanada,1061,-,-,-
 100.,Chapalasee,Mexiko,1056,80,12,-
 101.,Top-ozero,Russland,1049,-,-,-

@@ -1,0 +1,35 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+0,41,,12950,7743656.0,2,True,11.0,True,Champions League
+1,41,,12945,7743660.0,5,True,12.0,True,Europa League
+2,462,147739.0,12962,7456626.0,8,False,29.0,True,Premier League
+3,462,149028.0,13017,7743125.0,9,False,30.0,True,Championship
+4,462,148258.0,12982,7743075.0,12,False,34.0,True,League One
+5,462,,13136,7743794.0,24,True,33.0,False,FA Cup
+6,38,147526.0,12946,7392391.0,72,False,1.0,True,Eredivisie
+7,11,148772.0,13005,7743107.0,82,False,4.0,True,Bundesliga
+8,11,,12793,,163,False,4.0,False,Play-offs 1/2
+9,11,,12794,,166,False,4.0,False,Play-offs 2/3
+10,143,167107.0,12973,7636248.0,181,False,54.0,True,Tipico Bundesliga
+11,556,166401.0,12951,77442954.0,208,False,8.0,True,Pro League
+12,556,166395.0,12979,7690288.0,211,False,216.0,False,First Division B
+13,556,,580,,217,False,216.0,False,Belgium Playoffs
+14,320,167380.0,12919,7088927.0,271,False,43.0,True,Superliga
+15,320,149097.0,13019,7743127.0,274,False,55.0,True,First Division
+16,17,147256.0,12935,7210678.0,301,False,47.0,True,Ligue 1
+17,251,151899.0,13158,7743307.0,384,False,22.0,True,Serie A
+18,251,,13137,77441812.0,390,True,24.0,False,Coppa Italia
+19,1578,160605.0,15581,77441954.0,444,False,114.0,True,Eliteserien
+20,20,149598.0,13049,7743166.0,462,False,16.0,True,Primeira Liga
+21,227,148517.0,12996,7743093.0,486,False,42.0,True,Premier League
+22,227,,12795,,495,False,42.0,False,Playoffs
+23,1161,,12963,,501,False,66.0,True,Premiership
+24,1161,,12765,,525,False,66.0,False,Playoffs 2/3
+25,1161,,12766,,528,False,66.0,False,Playoffs 3/4
+26,32,151276.0,13133,7743270.0,564,False,19.0,True,La Liga
+27,32,,13198,7743597.0,570,True,21.0,False,Copa Del Rey
+28,47,160089.0,15529,77441864.0,573,False,120.0,True,Allsvenskan
+29,404,149863.0,13056,7743174.0,600,False,46.0,True,Super Lig
+30,86,167516.0,12936,7228440.0,609,False,52.0,False,Premier League
+31,556,,12949,,1128,True,216.0,False,Super Cup
+32,38,,12767,5551736.0,1353,False,1.0,False,Eredivisie Playoffs
+33,556,,15875,,1371,True,,False,UEFA Europa League Play-offs

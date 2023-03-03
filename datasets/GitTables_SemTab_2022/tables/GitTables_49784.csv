@@ -1,0 +1,6 @@
+col0,col1,col2,col3,col4,col5
+Known bug:,,,,,
+true,average of  sum_of_payments_per_date < 2000,1,,,
+added to Current csv:,,,,,
+true,sum of amount of all payment_rcs of all payments of a player where sum_of_player_payments is equal to reporting_amount is equal or greater than 50,"[{""name"": ""output1"",""content"": ""sum_of_player_payments""}]",id\tPARAM\tVALUE@1777815686\toutput1\t57.0000,1.0,
+Removed! Not a valid expression/ Expression on payment while player is the leading object. Unexpected results,,,,,

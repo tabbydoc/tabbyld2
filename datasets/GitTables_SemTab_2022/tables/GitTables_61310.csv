@@ -1,0 +1,36 @@
+col0,col1,col2,col3
+Project,Project,Project,Project
+environment,environment,environment,environment
+application_name,application_name,application_name,application_name
+folder_id,folder_id,folder_id,
+,,,
+VPC,VPC,VPC,VPC
+network_name,network_name,network_name,subnets
+subnets,subnets,subnets,secondary_ranges
+secondary_ranges,secondary_ranges,secondary_ranges,range_name
+range_name,range_name,range_name,ip_cidr_range
+ip_cidr_range,ip_cidr_range,ip_cidr_range,
+,,,
+GKE,GKE,GKE,GKE
+master_ipv4_cidr_block,master_ipv4_cidr_block,master_ipv4_cidr_block,master_ipv4_cidr_block
+node_pool_1_name,node_pools,node_pool_1_name ,node_pools
+node_pool_1_machine_type,name,node_pool_1_machine_type ,name
+node_pool_1_min_count,machine_type,node_pool_1_min_count ,machine_type
+node_pool_1_max_count,node_locations ,node_pool_1_max_count ,node_locations 
+node_pool_1_disk_size_gb,min_count ,node_pool_1_disk_size_gb ,min_count 
+node_pool_1_initial_node_count,max_count ,node_pool_1_initial_node_count,max_count 
+,local_ssd_count ,,local_ssd_count 
+Filestore,auto_repair ,Filestore,auto_repair 
+fileshare_capacity,auto_upgrade ,fileshare_capacity,auto_upgrade 
+,preemptible ,,preemptible 
+,initial_node_count ,NAT,initial_node_count 
+,image_type ,nats,image_type 
+,enable_secure_boot ,,enable_secure_boot 
+,disk_size_gb ,,disk_size_gb 
+,disk_type ,,disk_type 
+,,,
+,Filestore,,
+,fileshare_capacity,,
+,,,
+,NAT,,
+,nats,,

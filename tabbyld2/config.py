@@ -29,6 +29,7 @@ class ResultPath:
     RANKED_CANDIDATE_CLASSES_BY_MV = "ranked_candidate_classes_by_mv.json"
     RANKED_CANDIDATE_CLASSES_BY_HS = "ranked_candidate_classes_by_hs.json"
     RANKED_CANDIDATE_CLASSES_BY_CTP = "ranked_candidate_classes_by_ctp.json"
+    RANKED_CANDIDATE_CLASSES_BY_NS = "ranked_candidate_classes_by_ns.json"
 
     ANNOTATED_CELLS = "annotated_cells.json"
     ANNOTATED_COLUMNS = "annotated_columns.json"
@@ -36,21 +37,25 @@ class ResultPath:
 
 
 class EvaluationPath:
-    # Path to T2Dv2 dataset
-    T2DV2 = str(Path(__file__).parent.parent) + "/datasets/T2Dv2/"
-    # Path to source T2Dv2 tables in the JSON format
-    T2DV2_JSON = str(Path(__file__).parent.parent) + "/datasets/T2Dv2/tables/"
-    # Path to positive examples in CSV format from T2Dv2 dataset
-    T2DV2_POSITIVE_EXAMPLES = str(Path(__file__).parent.parent) + "/datasets/T2Dv2/positive_examples/"
-    # Path to negative examples in CSV format from T2Dv2 dataset
-    T2DV2_NEGATIVE_EXAMPLES = str(Path(__file__).parent.parent) + "/datasets/T2Dv2/negative_examples/"
-    # Path to instances in CSV format from T2Dv2 dataset
-    T2DV2_INSTANCE = str(Path(__file__).parent.parent) + "/datasets/T2Dv2/instance/"
-    # File of class checked for T2Dv2 dataset
-    T2DV2_CLASS_CHECKED = "extend_col_class_checked_fg.csv"
+    T2DV2 = str(Path(__file__).parent.parent) + "/datasets/T2Dv2/"  # Path to T2Dv2 dataset
+    T2DV2_JSON = T2DV2 + "tables/"  # Path to source T2Dv2 tables in the JSON format
+    T2DV2_POSITIVE_EXAMPLES = T2DV2 + "positive_examples/"  # Path to positive examples in CSV format from T2Dv2 dataset
+    T2DV2_NEGATIVE_EXAMPLES = T2DV2 + "negative_examples/"  # Path to negative examples in CSV format from T2Dv2 dataset
+    T2DV2_INSTANCE = T2DV2 + "instance/"  # Path to instances in CSV format from T2Dv2 dataset
+    T2DV2_CLASS_CHECKED = "extend_col_class_checked_fg.csv"  # File of class checked for T2Dv2 dataset
 
-    # Path to save evaluations in the form json files
-    EVALUATION_PATH = str(Path(__file__).parent.parent) + "/results/evaluation/"
+    TOUGH_TABLES = str(Path(__file__).parent.parent) + "/datasets/Tough_Tables/"  # Path to Tough_Tables dataset
+    TOUGH_TABLES_EXAMPLES = TOUGH_TABLES + "tables/"  # Path to source tables in CSV format from Tough_Tables dataset
+    TOUGH_TABLES_GT = TOUGH_TABLES + "gt/"  # Path to checked files for Tough_Tables dataset
+    TOUGH_TABLES_CEA = TOUGH_TABLES_GT + "CEA_2T_gt/"  # Path to checked CEA task files for Tough_Tables dataset
+    TOUGH_TABLES_CLASS_CHECKED = "CTA_2T_gt.csv"  # File of class checked for Tough_Tables dataset
+
+    GIT_TABLES_SEMTAB_2022 = str(Path(__file__).parent.parent) + "/datasets/GitTables_SemTab_2022/"  # Path to GitTables_SemTab_2022 dataset
+    GIT_TABLES_SEMTAB_2022_EXAMPLES = GIT_TABLES_SEMTAB_2022 + "tables/"  # Path to source tables from GitTables_SemTab_2022 dataset
+    GIT_TABLES_SEMTAB_2022_GT = GIT_TABLES_SEMTAB_2022 + "gt/"  # Path to checked files for GitTables_SemTab_2022 dataset
+    GIT_TABLES_SEMTAB_2022_CLASS_CHECKED = "dbpedia_property_train.csv"  # File of class checked for GitTables_SemTab_2022 dataset
+
+    EVALUATION_PATH = str(Path(__file__).parent.parent) + "/results/evaluation/"  # Path to save evaluations in the form json files
 
     # JSON files of table evaluations
     COLUMNS_CLASSIFICATION_EVALUATION = "columns_classification.json"
@@ -58,5 +63,4 @@ class EvaluationPath:
     CELL_ENTITY_ANNOTATION_EVALUATION = "cell_entity_annotation.json"
     COLUMN_TYPE_ANNOTATION_EVALUATION = "column_type_annotation.json"
     COLUMNS_PROPERTY_ANNOTATION_EVALUATION = "columns_property_annotation.json"
-    # JSON file of dataset evaluation
-    TOTAL_EVALUATION = "total_evaluation.json"
+    TOTAL_EVALUATION = "total_evaluation.json"  # JSON file of dataset evaluation

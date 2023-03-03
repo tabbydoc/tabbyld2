@@ -1,0 +1,54 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+projected change of cereal yields,Vulnerability,Food,Exposure,0,max,,ID_FOOD_01
+projected population change,Vulnerability,Food,Exposure,0,min,,ID_FOOD_02
+food import dependency,Vulnerability,Food,Sensitivity,0,min,,ID_FOOD_03
+rural population,Vulnerability,Food,Sensitivity,0,min,,ID_FOOD_04
+agriculture capacity,Vulnerability,Food,Capacity,0,sub,,ID_FOOD_05
+area equipped for irrigation,,,,0,max,agriculture capacity,
+Fertilizer use,,,,0,max,agriculture capacity,
+pesticide use,,,,0,max,agriculture capacity,
+tractor use,,,,0,max,agriculture capacity,
+child malnutrition,Vulnerability,Food,Capacity,0,min/0,,ID_FOOD_06
+projected change of annual runoff,Vulnerability,Water,Exposure,0,max,,ID_WATE_01
+projected change of annual groundwater recharge,Vulnerability,Water,Exposure,0,max,,ID_WATE_02
+fresh water withdrawal rate,Vulnerability,Water,Sensitivity,0,min,,ID_WATE_03
+water dependency ratio,Vulnerability,Water,Sensitivity,0,min/0,,ID_WATE_04
+dam capacity,Vulnerability,Water,Capacity,0,max,,ID_WATE_05
+access to reliable drinking water,Vulnerability,Water,Capacity,0,max/100,,ID_WATE_06
+projected change of deaths from climate change induced diseases,Vulnerability,Health,Exposure,0,min,,ID_HEAL_01
+projected change in vector-borne diseases,Vulnerability,Health,Exposure,0,min,,ID_HEAL_02
+dependency on external resource for health services,Vulnerability,Health,Sensitivity,0,min/0,,ID_HEAL_03
+slum population,Vulnerability,Health,Sensitivity,0,min/0,,ID_HEAL_04
+medical staff,Vulnerability,Health,Capacity,0,max,,ID_HEAL_05
+access to improved sanitation facilities,Vulnerability,Health,Capacity,0,max/100,,ID_HEAL_06
+projected change of biome distribution,Vulnerability,Ecosystems,Exposure,0,min,,ID_ECOS_01
+projected change of marine biodiversity,Vulnerability,Ecosystems,Exposure,0,min,,ID_ECOS_02
+natural capital dependency,Vulnerability,Ecosystems,Sensitivity,0,min,,ID_ECOS_03
+ecological footprint,Vulnerability,Ecosystems,Sensitivity,0,max,,ID_ECOS_04
+protected biome,Vulnerability,Ecosystems,Capacity,0,max/100,,ID_ECOS_05
+engagement in international environmental conventions,Vulnerability,Ecosystems,Capacity,0,max/1,,ID_ECOS_06
+projected change of warm periods,Vulnerability,Habitat,Exposure,0,min,,ID_HABI_01
+projected change of flood hazard,Vulnerability,Habitat,Exposure,0,min,,ID_HABI_02
+urban concentration,Vulnerability,Habitat,Sensitivity,0,min,,ID_HABI_03
+age dependency ratio,Vulnerability,Habitat,Sensitivity,0,min,,ID_HABI_04
+quality of trade and transport infrastructure,Vulnerability,Habitat,Capacity,0,max/5,,ID_HABI_05
+paved roads,Vulnerability,Habitat,Capacity,0,max/100,,ID_HABI_06
+projected change of hydropower generation capacity,Vulnerability,Infrastructure,Exposure,0,max,,ID_INFR_01
+projected change of sea level rise impacts,Vulnerability,Infrastructure,Exposure,0,min,,ID_INFR_02
+dependency on imported energy,Vulnerability,Infrastructure,Sensitivity,0,min,,ID_INFR_03
+population living under 5m above sea level,Vulnerability,Infrastructure,Sensitivity,0,min,,ID_INFR_04
+electricity access,Vulnerability,Infrastructure,Capacity,0,max/100,,ID_INFR_05
+disaster preparedness,Vulnerability,Infrastructure,Capacity,0,max,,ID_INFR_06
+doing business,Readiness,Economic,,1,max/0.99,,ID_ECON_01
+political stability and non-violence,Readiness,Governance,,1,max/2.5,,ID_GOVE_01
+control of corruption,Readiness,Governance,,1,max/2.5,,ID_GOVE_02
+regulatory quality,Readiness,Governance,,1,max/2.5,,ID_GOVE_03
+rule of law,Readiness,Governance,,1,max/2.5,,ID_GOVE_04
+social inequality,Readiness,Social,,1,max,,ID_SOCI_01
+ict infrastructure,Readiness,Social,,1,sub,,ID_SOCI_02
+fixed broad-band internet subscription per 100 persons,,,,1,max/60,ict infrastructure,
+fixed telephone subscriptions per 100 persons,,,,1,max/190,ict infrastructure,
+internet user per 100 persons,,,,1,max/100,ict infrastructure,
+mobile phone subscription per 100 persons,,,,1,max/60,ict infrastructure,
+education,Readiness,Social,,1,max,,ID_SOCI_03
+innovation,Readiness,Social,,1,max,,ID_SOCI_04

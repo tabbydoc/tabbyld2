@@ -1,0 +1,29 @@
+col0,col1,col2,col3,col4,col5,col6
+chase,debit_ACH,DEBIT,5/9/2018,ElizabethtownGas GASPAYMENT                 PPD ID: 1211578510,-229.79,MISC
+chase,debit_ACH,DEBIT,4/16/2018,Infiniti         Auto Loan  0088006046037   WEB ID: 9782464004,-500.44,MISC
+chase,debit_ACH,debit,4/9/2018,ElizabethtownGas GASPAYMENT                 PPD ID: 1211578510,-207.59,MISC
+chase,debit_ACH,debit,3/19/2018,NJ WEB PMT 02201 NJWEB02201 091000014248664 CCD ID: 7216000928,-392.0,MISC
+chase,debit_ACH,debit,3/15/2018,Infiniti         Auto Loan  0088006046037   WEB ID: 9782464004,-500.44,MISC
+chase,debit_ACH,debit,3/9/2018,ElizabethtownGas GASPAYMENT                 PPD ID: 1211578510,-251.13,MISC
+chase,debit_ACH,debit,2/26/2018,EXXONMOBIL       AUTO PYMT  722549593790863 WEB ID: CITIAUTFDR,-73.74,MISC
+chase,CHECK_PAID,debit,2/21/2018,office poster,-84.0,MISC
+chase,CHECK_PAID,debit,2/20/2018,central management office,-189.0,MISC
+chase,debit_ACH,debit,2/15/2018,Infiniti         Auto Loan  0088006046037   WEB ID: 9782464004,-500.44,MISC
+chase,Debit_card,debit,2/12/2018,COSTCO WHSE ,,
+chase,debit_ACH,debit,2/8/2018,ElizabethtownGas GASPAYMENT                 PPD ID: 1211578510,-373.11,MISC
+chase,CHECK_PAID,debit,2/7/2018,Sewerage authority,-125.0,MISC
+chase,Debit_card,debit,2/5/2018,TARGET T-1224 200 Prom BRIDGEWATER NJ059172  02/03,-2.08,MISC
+chase,Debit_card,debit,2/5/2018,COSTCO WHSE ,,
+chase,ATM,debit,1/29/2018,ATM WITHDRAWAL                       002973  01/29190 CENTE,-100.0,MISC
+chase,debit_ACH,debit,1/24/2018,EXXONMOBIL       AUTO PYMT  722521946290859 WEB ID: CITIAUTFDR,-145.9,MISC
+chase,debit_ACH,debit,1/23/2018,NJ GIT / LBR PMT NJWEB82    091000013777692 CCD ID: 7216000928,-61.36,MISC
+chase,debit_ACH,debit,1/23/2018,NEW JERSEY EFT T NJWEB45    091000013763188 CCD ID: 7216000928,-179.58,MISC
+chase,Debit_card,debit,1/22/2018,COSTCO WHSE ,,
+chase,debit_ACH,debit,1/18/2018,NJ.gov           NJ BusServ 609-586-2600    CCD ID: 1522077581,-51.0,MISC
+chase,debit_ACH,debit,1/16/2018,Infiniti         Auto Loan  0088006046037   WEB ID: 9782464004,-500.44,MISC
+chase,Debit_card,debit,1/16/2018,COSTCO WHSE ,,
+chase,debit_ACH,debit,1/12/2018,IRS              USATAXPYMT 270841294107560 CCD ID: 3387702000,-42.0,MISC
+chase,debit_ACH,debit,1/12/2018,IRS              USATAXPYMT 270841243840452 CCD ID: 3387702000,-723.72,MISC
+chase,debit_ACH,debit,1/8/2018,ElizabethtownGas GASPAYMENT                 PPD ID: 1211578510,-230.09,MISC
+chase,CHECK_PAID,debit,1/2/2018,Law office of peter kreiner,-100.0,MISC
+chase,Debit_card,debit,1/2/2018,COSTCO WHSE ,,

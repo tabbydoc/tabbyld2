@@ -1,0 +1,62 @@
+location,date,vaccine,source_url,total_vaccinations,people_vaccinated,people_fully_vaccinated,total_boosters
+Anguilla,2021-02-04,Oxford/AstraZeneca,https://www.facebook.com/MinistryofHealthAnguilla/photos/pcb.1385492388472000/1385492311805341/,0,0,,
+Anguilla,2021-02-13,Oxford/AstraZeneca,https://www.facebook.com/MinistryofHealthAnguilla/posts/1391067271247845,1341,1341,,
+Anguilla,2021-02-14,Oxford/AstraZeneca,https://www.facebook.com/MinistryofHealthAnguilla/posts/1395958984092007,2762,2762,,
+Anguilla,2021-02-26,Oxford/AstraZeneca,https://www.facebook.com/MinistryofHealthAnguilla/posts/1401018393586066,3929,3929,,
+Anguilla,2021-03-09,Oxford/AstraZeneca,https://beatcovid19.ai/captacion-de-la-vacunacion-covid-19-el-ministerio-de-salud-pide-para-que-mas-personas-se-vacunen/,4700,4700,,
+Anguilla,2021-03-13,Oxford/AstraZeneca,https://www.facebook.com/MinistryofHealthAnguilla/photos/1410852835935955,5000,5000,,
+Anguilla,2021-03-19,Oxford/AstraZeneca,https://www.facebook.com/MinistryofHealthAnguilla/posts/1416076468746925,5348,5348,,
+Anguilla,2021-04-12,Oxford/AstraZeneca,https://beatcovid19.ai/covid-19-update-scheduled-appointments-for-2nd-doses-of-covid-19-vaccine-to-begin-april-12th/,5835,5835,,
+Anguilla,2021-04-22,Oxford/AstraZeneca,https://www.travelpulse.com/news/impacting-travel/new-covid-19-case-prompts-14-day-anguilla-closure.html,6898,6115,783,
+Anguilla,2021-05-17,Oxford/AstraZeneca,https://www.facebook.com/MinistryofHealthAnguilla/photos/1458056911215547,13235,8811,4424,
+Anguilla,2021-05-28,Oxford/AstraZeneca,https://covid19.who.int/,14443,9004,5439,
+Anguilla,2021-06-04,Oxford/AstraZeneca,https://covid19.who.int/,14557,9044,5513,
+Anguilla,2021-06-11,Oxford/AstraZeneca,https://covid19.who.int/,14937,9119,5818,
+Anguilla,2021-06-18,Oxford/AstraZeneca,https://covid19.who.int/,15198,9183,6015,
+Anguilla,2021-06-25,Oxford/AstraZeneca,https://covid19.who.int/,15789,9264,6525,
+Anguilla,2021-07-02,Oxford/AstraZeneca,https://covid19.who.int/,16460,9300,7160,
+Anguilla,2021-07-09,Oxford/AstraZeneca,https://covid19.who.int/,16951,9321,7630,
+Anguilla,2021-07-16,Oxford/AstraZeneca,https://covid19.who.int/,17807,9362,8445,
+Anguilla,2021-07-23,Oxford/AstraZeneca,https://covid19.who.int/,18001,9398,8603,
+Anguilla,2021-07-30,Oxford/AstraZeneca,https://covid19.who.int/,18193,9428,8765,
+Anguilla,2021-08-06,Oxford/AstraZeneca,https://covid19.who.int/,18457,9492,8965,
+Anguilla,2021-08-20,Oxford/AstraZeneca,https://covid19.who.int/,18458,9493,8965,
+Anguilla,2021-09-03,Oxford/AstraZeneca,https://covid19.who.int/,18471,9493,8978,
+Anguilla,2021-09-10,Oxford/AstraZeneca,https://covid19.who.int/,18481,9493,8988,
+Anguilla,2021-09-17,Oxford/AstraZeneca,https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,18565,9498,9067,0
+Anguilla,2021-09-24,Oxford/AstraZeneca,https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,18584,9498,9086,0
+Anguilla,2021-10-01,Oxford/AstraZeneca,https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,18704,9548,9156,0
+Anguilla,2021-10-15,Oxford/AstraZeneca,https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,18705,9548,,0
+Anguilla,2021-11-05,Oxford/AstraZeneca,https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,18706,9548,,0
+Anguilla,2021-11-12,Oxford/AstraZeneca,https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,18782,9624,,0
+Anguilla,2021-11-19,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,19066,9906,,0
+Anguilla,2021-11-29,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,19730,9911,9156,663
+Anguilla,2021-12-01,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,19914,10038,9213,663
+Anguilla,2021-12-08,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,20284,10079,9223,982
+Anguilla,2022-01-14,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,21046,10157,9282,1607
+Anguilla,2022-01-21,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,21256,10182,9318,1756
+Anguilla,2022-01-28,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,21449,10193,9336,1920
+Anguilla,2022-02-02,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,21612,10211,9351,2050
+Anguilla,2022-02-09,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,21783,10218,9418,2147
+Anguilla,2022-02-11,"Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,21783,10218,9418,
+Anguilla,2022-02-16,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,21994,10230,9500,2264
+Anguilla,2022-02-18,"Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,21994,10230,9500,
+Anguilla,2022-02-25,"Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,22165,10370,9531,
+Anguilla,2022-03-02,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,22377,10439,9549,2389
+Anguilla,2022-03-09,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,22420,10439,9562,2419
+Anguilla,2022-03-11,"Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,22420,10439,9562,
+Anguilla,2022-03-18,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,22639,10547,9603,2489
+Anguilla,2022-03-23,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,22714,10572,9624,2518
+Anguilla,2022-04-08,"Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,23126,10622,9874,2630
+Anguilla,2022-05-06,"Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,23378,10676,9955,2747
+Anguilla,2022-05-20,"Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,23482,10707,10005,2770
+Anguilla,2022-05-27,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,23601,10746,10054,2801
+Anguilla,2022-06-10,"Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,23685,10764,10094,2827
+Anguilla,2022-06-15,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,23752,10787,10113,2852
+Anguilla,2022-06-24,"Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,23926,10813,10183,2930
+Anguilla,2022-07-08,"Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,24060,10837,10273,
+Anguilla,2022-08-17,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,24102,10846,10314,
+Anguilla,2022-08-19,"Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,24102,10846,10314,2942
+Anguilla,2022-09-23,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,24141,10850,10338,2953
+Anguilla,2022-09-30,"Oxford/AstraZeneca, Pfizer/BioNTech",https://ais.paho.org/imm/IM_DosisAdmin-Vacunacion.asp,24408,10850,10342,
+Anguilla,2022-10-07,"Oxford/AstraZeneca, Pfizer/BioNTech",https://covid19.who.int/,24412,10852,10344,2998

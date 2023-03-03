@@ -1,0 +1,73 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+5,product,0,1,View Products,"0,1","1,2",admin/manage,-,-
+6,product,0,1,Product Settings,"0,1","1,2",setting/index,-,-
+7,product,0,1,View Media,"0,1","1,2",media/manage,-,-
+8,product,0,1,View Likes,1,"1,2",like/manage,-,-
+9,product,0,1,View Tags,"0,1","1,2",tag/manage,-,-
+10,personal,0,1,Biodata,"0,1","1,2",member/index,user=admin,-
+11,personal,0,1,Educations,"0,1","1,2",education/index,user=admin,-
+12,personal,0,1,Experiences,"0,1","1,2",employment/index,user=admin,-
+13,personal,0,1,Organizations,"0,1","1,2",organization/index,user=admin,-
+14,personal,0,1,Skills,"0,1","1,2",skill/index,user=admin,-
+15,personal,0,1,Publications,"0,1","1,2",publication/index,user=admin,-
+16,personal,0,1,Awards,"0,1","1,2",award/index,user=admin,-
+17,personal,0,1,Training,"0,1","1,2",training/index,user=admin,-
+18,faq,0,1,View Faqs,"0,1","1,2",admin/manage,-,-
+19,faq,0,1,Faq Categories,"0,1","1,2",category/manage,-,-
+20,faq,0,1,Faq Settings,"0,1","1,2",setting/index,-,-
+33,graduate,0,1,Add Category,"0,1","1,2",admin/manage,-,-
+34,graduate,0,1,Graduate Settings,"0,1","1,2",setting/index,-,-
+35,graduate,0,1,Manage Major,"0,1","1,2",major/manage,-,-
+38,download,0,1,Manage Download,"0,1","1,2",admin/manage,-,-
+39,download,0,1,Download Settings,"0,1","1,2",setting/index,-,-
+40,review,0,1,Add Category,"0,1","1,2",admin/manage,-,-
+41,review,0,1,Review Settings,"0,1","1,2",setting/index,-,-
+42,review,0,1,Manage Publisher,"0,1","1,2",publisher/manage,-,-
+43,review,0,1,Manage Author,"0,1","1,2",author/manage,-,-
+44,publication,0,1,View Publication,"0,1","1,2",admin/manage,-,-
+45,publication,0,1,Publication Settings,"0,1","1,2",setting/index,-,-
+46,publication,0,0,Manage Author,"0,1","1,2",author/manage,-,-
+47,publication,0,0,Manage Tag,"0,1","1,2",tag/manage,-,-
+48,quicknews,0,1,View Quicknews,"0,1","1,2",admin/manage,-,-
+49,quicknews,0,1,Quicknews Settings,"0,1","1,2",setting/index,-,-
+50,project,0,1,View Projects,"0,1","1,2",admin/manage,-,-
+51,project,0,1,Project Setting,"0,1","1,2",setting/index,-,-
+52,project,50,1,Photos,"0,1","1,2",media/manage,-,-
+53,project,50,1,Likes,1,"1,2",like/manage,-,-
+54,project,50,1,Tags,"0,1","1,2",tag/manage,-,-
+55,pose,0,1,View Poses,"0,1","1,2",admin/manage,-,-
+56,pose,0,1,View Media,"0,1","1,2",media/manage,-,-
+57,pose,0,1,View Likes,1,"1,2",like/manage,-,-
+58,pose,0,1,View Favourite,"0,1","1,2",favourite/manage,-,-
+59,pose,0,1,Pose Settings,"0,1","1,2",setting/index,-,-
+60,pose,0,1,View Tags,"0,1","1,2",tag/manage,-,-
+61,book,0,0,Catalogs,"0,1","1,2",admin/manage,-,-
+62,book,0,0,Collections,"0,1","1,2",collection/manage,-,-
+63,book,0,0,Branch,"0,1","1,2",branch/manage,-,-
+64,book,0,0,Grants,"0,1","1,2",grant/manage,-,-
+67,book,0,0,Category,"0,1","1,2",category/manage,-,-
+68,book,0,0,Worksheets,"0,1","1,2",worksheet/manage,-,-
+69,book,0,0,Location,"0,1","1,2",location/manage,-,-
+70,book,0,0,Inlis Sync,"0,1","1,2",sync/index,-,-
+71,book,0,0,Add Book,"0,1","1,2",admin/add,-,-
+72,directory,0,1,View Directories,"0,1","1,2",admin/manage,-,-
+73,directory,0,1,Location Directory,"0,1","1,2",location/manage,-,-
+74,directory,73,1,Permission,"0,1","1,2",permission/manage,-,-
+75,directory,73,1,Favourites,"0,1","1,2",favourite/manage,-,-
+76,directory,73,1,Likes,1,"1,2",like/manage,-,-
+77,directory,0,1,View Reviews,"0,1","1,2",review/manage,-,-
+78,directory,73,1,Photos,"0,1","1,2",photo/manage,-,-
+79,directory,0,1,Settings,"0,1","1,2",setting/index,-,-
+80,directory,0,1,Statistics,"0,1","1,2",statistic/index,-,-
+81,directory,77,1,Review Likes,"0,1","1,2",reviewlike/manage,-,-
+82,directory,80,1,Data,"0,1","1,2",statisticdata/manage,-,-
+83,directory,80,1,Total,"0,1","1,2",statistictotal/manage,-,-
+84,project,0,1,View Client,"0,1","1,2",client/manage,-,-
+85,project,50,1,Teams,"0,1","1,2",team/manage,-,-
+86,kanban,0,1,Backlog,"0,1","1,2",backlog/manage,-,-
+87,kanban,86,1,Task,"0,1","1,2",task/manage,-,-
+88,kanban,86,1,Subtask,"0,1","1,2",subtask/manage,-,-
+89,kanban,86,1,Comments,"0,1","1,2",comment/manage,-,-
+90,kanban,0,1,Setting,"0,1","1,2",setting/index,-,-
+91,kanban,0,1,Division,"0,1","1,2",division/manage,-,-
+92,kanban,0,1,Users,"0,1","1,2",user/manage,-,-

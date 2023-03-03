@@ -1,0 +1,15 @@
+col0,col1,col2,col3,col4,col5
+car_match,False,,"AllocationTransferRecipientAgencyId, AppropriationAccountResponsibleAgencyId, ObligationAvailabilityPeriodStartFiscalYear, ObligationAvailabilityPeriodEndFiscalYear, ObligationUnlimitedAvailabilityPeriodIndicator, AppropriationMainAccountCode, AppropriationSubAccountCode","allocation_transfer_agency, agency_identifier, beginning_period_of_availability, ending_period_of_availability, availability_type_code, main_account_code, sub_account_code",TAS fields must match CAR file
+GREATER,True,AllocationTransferRecipientAgencyId,-1,,Agency ID must be positive
+LESS,True,AllocationTransferRecipientAgencyId,1000,,Agency ID must be three digits
+GREATER,True,AppropriationAccountResponsibleAgencyId,-1,,Agency ID must be positive
+LESS,True,AppropriationAccountResponsibleAgencyId,1000,,Agency ID must be three digits
+GREATER,True,ObligationAvailabilityPeriodStartFiscalYear,-1,,Year must be positive
+LESS,True,ObligationAvailabilityPeriodStartFiscalYear,10000,,Year must be four digits
+GREATER,True,ObligationAvailabilityPeriodEndFiscalYear,-1,,Year must be positive
+LESS,True,ObligationAvailabilityPeriodEndFiscalYear,10000,,Year must be four digits
+GREATER,True,AppropriationMainAccountCode,-1,,Main Account Code must be positive
+LESS,True,AppropriationMainAccountCode,10000,,Main Account Code must be three digits
+GREATER,True,AppropriationSubAccountCode,-1,,Sub Account Code must be positive
+LESS,True,AppropriationSubAccountCode,1000,,Sub Account Code must be three digits
+IN_SET,True,ObligationUnlimitedAvailabilityPeriodIndicator,"X,F,A",,"Indicator must be X, F, A, or blank"

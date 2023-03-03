@@ -1,0 +1,18 @@
+col0,col1,col2,col3,col4,col5
+rizki,mufrizal,TRUE,ROLE_PEMBELIAN,,
+mufrizal,rizki,TRUE,ROLE_PENJUALAN,,
+,,,,,
+id barang,nama barang,jenis barang,tanggal kadaluarsa,harga satuan barang,jumlah barang
+1,rinso,cair,16-03-2016,Rp 1000,100
+,,,,,
+kode transaksi penjualan,tanggal transaksi,total harga,nama pembeli,,
+2,16-03-2016,10000,,,
+,,,,,
+kode transaksi penjualan detail,jumlah barang,kode transaksi penjualan,id barang,,
+3,10,2,1,,
+,,,,,
+kode transaksi pembelian,tanggal transaksi,total harga,nama suplier,,
+2,16-03-2016,10000,,,
+,,,,,
+kode transaksi pembelian detail,jumlah barang,kode transaksi pembelian,id barang,,
+3,10,2,1,,

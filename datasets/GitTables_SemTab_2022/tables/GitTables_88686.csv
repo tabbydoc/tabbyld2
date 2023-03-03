@@ -1,0 +1,101 @@
+col0,col1,col2,col3,col4,col5,col6
+Brazil,Italy,9.0,24,1.66666666667,1.0,0
+Brazil,Portugal,15.0,17,0.133333333333,0.708333333333,0
+Brazil,Ukraine,10.0,12,0.2,0.5,0
+Brazil,Spain,10.0,10,0.0,0.416666666667,0
+Brazil,France,18.0,9,-0.5,0.375,0
+Brazil,Russia,10.0,9,-0.1,0.375,0
+Brazil,England,8.0,7,-0.125,0.291666666667,0
+Brazil,China,1.0,7,6.0,0.291666666667,0
+Brazil,Germany,19.0,6,-0.684210526316,0.25,0
+Brazil,United Arab Emirates,2.0,6,2.0,0.25,0
+Brazil,Turkey,7.0,6,-0.142857142857,0.25,0
+Italy,Brazil,1.0,6,5.0,0.25,0
+Ukraine,Brazil,1.0,6,5.0,0.25,0
+Portugal,Brazil,5.0,5,0.0,0.208333333333,0
+Portugal,Italy,1.0,4,3.0,0.166666666667,0
+Brazil,Austria,1.0,4,3.0,0.166666666667,0
+Spain,Italy,1.0,4,3.0,0.166666666667,0
+Portugal,Russia,3.0,4,0.333333333333,0.166666666667,0
+Brazil,Bulgaria,5.0,4,-0.2,0.166666666667,0
+Ukraine,Italy,1.0,3,2.0,0.125,0
+Portugal,Spain,2.0,3,0.5,0.125,0
+Portugal,Saudi Arabia,1.0,3,2.0,0.125,0
+Germany,Brazil,2.0,3,0.5,0.125,0
+Romania,Saudi Arabia,1.0,3,2.0,0.125,0
+Bulgaria,Turkey,1.0,3,2.0,0.125,0
+Brazil,Serbia,1.0,2,1.0,0.0833333333333,0
+England,China,1.0,2,1.0,0.0833333333333,0
+Brazil,Switzerland,3.0,2,-0.333333333333,0.0833333333333,0
+Portugal,Poland,2.0,2,0.0,0.0833333333333,0
+France,Brazil,2.0,2,0.0,0.0833333333333,0
+Russia,Brazil,3.0,2,-0.333333333333,0.0833333333333,0
+Spain,England,3.0,2,-0.333333333333,0.0833333333333,0
+Italy,England,1.0,2,1.0,0.0833333333333,0
+Brazil,Romania,1.0,2,1.0,0.0833333333333,0
+England,France,1.0,2,1.0,0.0833333333333,0
+Qatar,Brazil,1.0,2,1.0,0.0833333333333,0
+Portugal,China,1.0,2,1.0,0.0833333333333,0
+Italy,Portugal,1.0,2,1.0,0.0833333333333,0
+Brazil,Japan,3.0,2,-0.333333333333,0.0833333333333,0
+Italy,France,1.0,2,1.0,0.0833333333333,0
+Brazil,Poland,1.0,2,1.0,0.0833333333333,0
+Turkey,Brazil,1.0,2,1.0,0.0833333333333,0
+Greece,Brazil,1.0,2,1.0,0.0833333333333,0
+Brazil,Mexico,1.0,2,1.0,0.0833333333333,0
+Brazil,Hungary,1.0,2,1.0,0.0833333333333,0
+United Arab Emirates,Brazil,1.0,2,1.0,0.0833333333333,0
+Ukraine,Germany,1.0,2,1.0,0.0833333333333,0
+Ukraine,China,1.0,2,1.0,0.0833333333333,0
+Brazil,Belgium,1.0,2,1.0,0.0833333333333,0
+France,Saudi Arabia,1.0,2,1.0,0.0833333333333,0
+Portugal,Romania,1.0,2,1.0,0.0833333333333,0
+Sweden,Russia,1.0,2,1.0,0.0833333333333,0
+Greece,United Arab Emirates,1.0,1,0.0,0.0416666666667,0
+Italy,Turkey,1.0,1,0.0,0.0416666666667,0
+Austria,China,1.0,1,0.0,0.0416666666667,0
+Austria,Germany,1.0,1,0.0,0.0416666666667,0
+Italy,Qatar,1.0,1,0.0,0.0416666666667,0
+Italy,China,1.0,1,0.0,0.0416666666667,0
+Hungary,Switzerland,1.0,1,0.0,0.0416666666667,0
+Hungary,Spain,1.0,1,0.0,0.0416666666667,0
+Hungary,France,1.0,1,0.0,0.0416666666667,0
+Hungary,Cyprus,1.0,1,0.0,0.0416666666667,0
+Netherlands,Germany,1.0,1,0.0,0.0416666666667,0
+Germany,United Arab Emirates,1.0,1,0.0,0.0416666666667,0
+Germany,Ukraine,1.0,1,0.0,0.0416666666667,0
+Lithuania,China,1.0,1,0.0,0.0416666666667,0
+Netherlands,Austria,1.0,1,0.0,0.0416666666667,0
+Netherlands,England,1.0,1,0.0,0.0416666666667,0
+Germany,England,1.0,1,0.0,0.0416666666667,0
+Poland,Moldova,1.0,1,0.0,0.0416666666667,0
+Portugal,England,1.0,1,0.0,0.0416666666667,0
+Italy,United Arab Emirates,1.0,1,0.0,0.0416666666667,0
+Portugal,Iran,1.0,1,0.0,0.0416666666667,0
+Russia,China,1.0,1,0.0,0.0416666666667,0
+Portugal,Germany,1.0,1,0.0,0.0416666666667,0
+Denmark,Cyprus,1.0,1,0.0,0.0416666666667,0
+Portugal,France,1.0,1,0.0,0.0416666666667,0
+Austria,Poland,1.0,1,0.0,0.0416666666667,0
+Belgium,Russia,1.0,1,0.0,0.0416666666667,0
+Brazil,Saudi Arabia,1.0,1,0.0,0.0416666666667,0
+Bulgaria,Azerbaijan,1.0,1,0.0,0.0416666666667,0
+Bulgaria,Germany,1.0,1,0.0,0.0416666666667,0
+Bulgaria,Macedonia,1.0,1,0.0,0.0416666666667,0
+Belgium,Qatar,1.0,1,0.0,0.0416666666667,0
+Bulgaria,Romania,1.0,1,0.0,0.0416666666667,0
+Bulgaria,Ukraine,1.0,1,0.0,0.0416666666667,0
+China,Brazil,1.0,1,0.0,0.0416666666667,0
+Bulgaria,Brazil,1.0,1,0.0,0.0416666666667,0
+"Korea, South",China,1.0,1,0.0,0.0416666666667,0
+Germany,Cyprus,1.0,1,0.0,0.0416666666667,0
+Croatia,Azerbaijan,1.0,1,0.0,0.0416666666667,0
+Croatia,Brazil,1.0,1,0.0,0.0416666666667,0
+Cyprus,Russia,1.0,1,0.0,0.0416666666667,0
+Denmark,Belgium,1.0,1,0.0,0.0416666666667,0
+Denmark,China,1.0,1,0.0,0.0416666666667,0
+England,Portugal,1.0,1,0.0,0.0416666666667,0
+Finland,Belgium,1.0,1,0.0,0.0416666666667,0
+France,Qatar,1.0,1,0.0,0.0416666666667,0
+France,United Arab Emirates,1.0,1,0.0,0.0416666666667,0
+Slovakia,Greece,1.0,1,0.0,0.0416666666667,0

@@ -1,0 +1,24 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+000000063,Kosovo Agency of Statistics,https://ask.rks-gov.net,https://ask.rks-gov.net/en/kosovo-agency-of-statistics,0.0,1.0,0.0,https://ask.rks-gov.net/en/kosovo-agency-of-statistics/footer/director-general,Connection problems
+000000066,Agency of Statistics,,https://nsa.org.na/,6.0,0.0,1.0,https://intranet.nsa.org.na/nsa-intranet/public,Connection problems
+000000072,Statistics Lithuania,https://www.stat.gov.lt,https://www.stat.gov.lt/,0.0,1.0,1.0,https://www.stat.gov.lt/strukturiniai-padaliniai,Connection problems
+000000088,National Bureau of Statistics,,https://statistica.gov.md/index.php?l=en,4.0,0.0,0.0,http://,Request exception
+000000092,Monaco Statistics,,https://www.fctables.com/teams/monaco-190135/,4.0,0.0,0.0,https://www.fctables.com/user/login_facebook/,Connection problems
+000000120,STATISTICS PORTUGAL,https://www.ine.pt,https://www.fctables.com/portugal/,6.0,0.0,0.0,https://www.fctables.com/user/login_facebook/,Connection problems
+000000170,Hungarian Central Statistical Office,http://www.ksh.hu,http://abouthungary.hu/central-statistical-office/,2.0,0.0,0.0,http://abouthungary.hu/news-in-brief/,Connection problems
+000000173,Statistics Faroe Islands,https://hagstova.fo,https://www.fctables.com/national/faroe-islands/,6.0,0.0,0.0,https://www.fctables.com/user/login_facebook/,Connection problems
+ID,Name,URL,Suggested URL,Link position,Has equal domain,Has Simple Suggested URL,URL to scrape,Error
+000000036,Hellenic Statistical Authority,,https://www.elta.gr/,5.0,0.0,1.0,https://www.elta.gr/eIDASLogin/tabid/931/language/el-GR/Default.aspx?ReturnURL=/el-gr/home.aspx,Connection problems
+000000086,National Bureau of Statistics,https://statistica.gov.md,https://statistica.gov.md/index.php?l=en,4.0,1.0,0.0,http://,Request exception
+000000090,Monaco Statistics,https://www.monacostatistics.mc,https://www.fctables.com/teams/monaco-190135/,4.0,0.0,0.0,https://www.fctables.com/user/login_facebook/,Connection problems
+000000118,STATISTICS PORTUGAL,https://www.ine.pt,https://www.fctables.com/portugal/,6.0,0.0,0.0,https://www.fctables.com/user/login_facebook/,Connection problems
+000000171,Hungarian Central Statistical Office,,http://abouthungary.hu/central-statistical-office/,2.0,0.0,0.0,http://abouthungary.hu/news-in-brief/,Connection problems
+000000174,Statistics Faroe Islands,,https://www.fctables.com/national/faroe-islands/,6.0,0.0,0.0,https://www.fctables.com/user/login_facebook/,Connection problems
+ID,Name,URL,Suggested URL,Link position,Has equal domain,Has Simple Suggested URL,URL to scrape,Error
+000000034,Hellenic Statistical Authority,https://www.statistics.gr,https://www.elta.gr/,5.0,0.0,1.0,https://www.elta.gr/eIDASLogin/tabid/931/language/el-GR/Default.aspx?ReturnURL=/el-gr/home.aspx,Connection problems
+000000065,Agency of Statistics,https://ask.rks-gov.net,https://nsa.org.na/,6.0,0.0,1.0,https://intranet.nsa.org.na/nsa-intranet/public,Connection problems
+000000087,National Bureau of Statistics,,https://statistica.gov.md/index.php?l=en,4.0,0.0,0.0,http://,Request exception
+000000091,Monaco Statistics,,https://www.fctables.com/teams/monaco-190135/,4.0,0.0,0.0,https://www.fctables.com/user/login_facebook/,Connection problems
+000000119,STATISTICS PORTUGAL,,https://www.fctables.com/portugal/,6.0,0.0,0.0,https://www.fctables.com/user/login_facebook/,Connection problems
+000000172,Hungarian Central Statistical Office,http://www.ksh.hu,http://abouthungary.hu/central-statistical-office/,2.0,0.0,0.0,http://abouthungary.hu/news-in-brief/,Connection problems
+000000175,Statistics Faroe Islands,https://hagstova.fo,https://www.fctables.com/national/faroe-islands/,6.0,0.0,0.0,https://www.fctables.com/user/login_facebook/,Connection problems

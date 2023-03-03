@@ -1,0 +1,27 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+0,Senoko Power Station,862.0,CCGT,LNG (JKM),once-through,100,0.0,11842,1.465629578,103.797493
+1,Senoko Power Station,730.0,CCGT,PNG (HH),once-through,100,0.0,11842,1.465629578,103.797493
+2,Senoko Power Station,365.0,CCGT,PNG (HH),once-through,100,0.0,11842,1.465629578,103.797493
+3,Senoko Power Station,850.0,CCGT,PNG (HH),once-through,100,0.0,11842,1.465629578,103.797493
+4,Senoko Power Station,493.0,Oil-fired ST,Crude (Dubai),once-through,100,0.0,11842,1.465629578,103.797493
+5,Pulau Seraya Power Station,740.0,Cogen CCGT,LNG (JKM),BP-cogen,100,,8290,1.279380798,103.7245941
+6,Pulau Seraya Power Station,732.0,CCGT,PNG (HH),once-through,100,0.0,8290,1.279380798,103.7245941
+7,Pulau Seraya Power Station,724.0,Oil-fired ST,Crude (Dubai),once-through,100,0.0,8419,1.279380798,103.7272949
+8,Pulau Seraya Power Station,724.0,Oil-fired ST,Crude (Brent),once-through,100,0.0,8419,1.279380798,103.7272949
+9,Jurong Power Station,180.0,OCGT,Crude (WTI),once-through,100,0.0,7657,1.311775208,103.7110977
+10,Tuas Power Station,405.9,Cogen CCGT,LNG (JKM),BP-cogen,100,,4295,1.290176392,103.640892
+11,Tuas Power Station,735.0,CCGT,PNG (HH),once-through,100,0.0,4295,1.290176392,103.640892
+12,Tuas Power Station,735.0,CCGT,PNG (HH),once-through,100,0.0,4295,1.290176392,103.640892
+13,Tuas Power Station,600.0,Oil-fired ST,Crude (Dubai),once-through,100,0.0,4295,1.290176392,103.640892
+14,Sembcorp Cogen @ Banyan,403.8,Cogen CCGT,LNG (JKM),BP-cogen,100,,5702,1.257781982,103.6705933
+15,Pulau Sakra Power Station,785.0,Cogen CCGT,PNG (HH),BP-cogen,100,,7249,1.255088806,103.7029953
+16,Keppel Merlimau Cogen Power Station,840.0,Cogen CCGT,LNG (JKM),BP-cogen,100,,5969,1.282089233,103.6759949
+17,Keppel Merlimau Cogen Power Station,470.0,Cogen CCGT,PNG (HH),BP-cogen,100,,5969,1.282089233,103.6759949
+18,PacificLight Power Plant,800.0,CCGT,LNG (JKM),once-through,100,0.0,8162,1.282089233,103.7218933
+19,Tuaspring Integrated Water & Power Project,395.7,CCGT,LNG (JKM),once-through,100,0.0,3526,1.303672791,103.6246948
+20,Tuas South Incineration Plant,131.0,WtE ST,,dry-cooling,150,10.0,3394,1.295578003,103.621994
+21,Tuas Incineration Plant,49.8,WtE ST,,dry-cooling,150,10.0,4050,1.325271606,103.6354904
+22,Senoko Waste-to-Energy Plant,55.0,WtE ST,,dry-cooling,150,10.0,11712,1.462928772,103.7947922
+23,Keppel Seghers Tuas Waste-to-Energy Plant,22.0,WtE ST,,dry-cooling,100,10.0,3395,1.298271179,103.621994
+24,Tembusu BMCC Plant,160.0,Cogen Extraction ST,Coal (AU),once-through,100,0.0,5963,1.265884399,103.6759949
+25,ExxonMobil Cogen Plant,332.0,Cogen CCGT,LNG (JKM),BP-cogen,100,,7129,1.279380798,103.7002945

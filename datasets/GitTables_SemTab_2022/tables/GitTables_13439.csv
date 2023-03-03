@@ -1,0 +1,145 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+0,G1,2,Car,V2,2,1,Se movio de pos: 2 a pos: 1
+0,G2,2,Car,V3,2,1,Se movio de pos: 2 a pos: 1
+0,G0,2,Car,V1,2,1,Se movio de pos: 2 a pos: 1
+1,G0,1,Car,V1,2,2,Se movio de pos: 1 a pos: 0
+1,G0,2,Car,V4,2,1,Se movio de pos: 2 a pos: 1
+1,G1,1,Car,V2,2,2,Se movio de pos: 1 a pos: 0
+1,G1,2,Car,V5,2,1,Se movio de pos: 2 a pos: 1
+1,G2,1,Car,V3,2,2,Se movio de pos: 1 a pos: 0
+1,G2,2,Car,V6,2,1,Se movio de pos: 2 a pos: 1
+2,G0,0,Car,V1,2,2,Pasó un instante en la caja
+2,G0,1,Car,V4,2,2,Espera en posición: 1
+2,G0,2,Car,V7,2,1,Espera en posición: 2
+2,G2,0,Car,V3,2,2,Pasó un instante en la caja
+2,G2,1,Car,V6,2,2,Espera en posición: 1
+2,G2,2,Car,V9,2,1,Espera en posición: 2
+2,G1,0,Car,V2,2,2,Pasó un instante en la caja
+2,G1,1,Car,V5,2,2,Espera en posición: 1
+2,G1,2,Car,V8,2,1,Espera en posición: 2
+3,G0,0,Car,V1,2,3,Pasó un instante en la caja
+3,G0,1,Car,V4,2,3,Espera en posición: 1
+3,G0,2,Car,V7,2,2,Espera en posición: 2
+3,G1,0,Car,V2,2,3,Pasó un instante en la caja
+3,G1,1,Car,V5,2,3,Espera en posición: 1
+3,G1,2,Car,V8,2,2,Espera en posición: 2
+3,G2,0,Car,V3,2,3,Pasó un instante en la caja
+3,G2,1,Car,V6,2,3,Espera en posición: 1
+3,G2,2,Car,V9,2,2,Espera en posición: 2
+4,G0,0,Car,V1,2,5,Se le cobró lo correspondiente
+4,G0,1,Car,V4,2,4,Se movio de pos: 1 a pos: 0
+4,G0,2,Car,V7,2,3,Se movio de pos: 2 a pos: 1
+4,G1,0,Car,V2,2,5,Se le cobró lo correspondiente
+4,G1,1,Car,V5,2,4,Se movio de pos: 1 a pos: 0
+4,G1,2,Car,V8,2,3,Se movio de pos: 2 a pos: 1
+4,G2,0,Car,V3,2,5,Se le cobró lo correspondiente
+4,G2,1,Car,V6,2,4,Se movio de pos: 1 a pos: 0
+4,G2,2,Car,V9,2,3,Se movio de pos: 2 a pos: 1
+5,G0,0,Car,V4,2,4,Pasó un instante en la caja
+5,G0,1,Car,V7,2,4,Espera en posición: 1
+5,G0,2,Car,V10,2,1,Espera en posición: 2
+5,G1,0,Car,V5,2,4,Pasó un instante en la caja
+5,G1,1,Car,V8,2,4,Espera en posición: 1
+5,G1,2,Car,V11,2,1,Espera en posición: 2
+5,G2,0,Car,V6,2,4,Pasó un instante en la caja
+5,G2,1,Car,V9,2,4,Espera en posición: 1
+5,G2,2,Car,V12,2,1,Espera en posición: 2
+6,G0,0,Car,V4,2,5,Pasó un instante en la caja
+6,G0,1,Car,V7,2,5,Espera en posición: 1
+6,G0,2,Car,V10,2,2,Espera en posición: 2
+6,G1,0,Car,V5,2,5,Pasó un instante en la caja
+6,G1,1,Car,V8,2,5,Espera en posición: 1
+6,G1,2,Car,V11,2,2,Espera en posición: 2
+6,G2,0,Car,V6,2,5,Pasó un instante en la caja
+6,G2,1,Car,V9,2,5,Espera en posición: 1
+6,G2,2,Car,V12,2,2,Espera en posición: 2
+7,G0,0,Car,V4,2,7,Se le cobró lo correspondiente
+7,G0,1,Car,V7,2,6,Se movio de pos: 1 a pos: 0
+7,G0,2,Car,V10,2,3,Se movio de pos: 2 a pos: 1
+7,G2,0,Car,V6,2,7,Se le cobró lo correspondiente
+7,G2,1,Car,V9,2,6,Se movio de pos: 1 a pos: 0
+7,G2,2,Car,V12,2,3,Se movio de pos: 2 a pos: 1
+7,G1,0,Car,V5,2,7,Se le cobró lo correspondiente
+7,G1,1,Car,V8,2,6,Se movio de pos: 1 a pos: 0
+7,G1,2,Car,V11,2,3,Se movio de pos: 2 a pos: 1
+8,G0,0,Car,V7,2,6,Pasó un instante en la caja
+8,G0,1,Car,V10,2,4,Espera en posición: 1
+8,G0,2,Car,V13,2,1,Espera en posición: 2
+8,G1,0,Car,V8,2,6,Pasó un instante en la caja
+8,G1,1,Car,V11,2,4,Espera en posición: 1
+8,G1,2,Car,V14,2,1,Espera en posición: 2
+8,G2,0,Car,V9,2,6,Pasó un instante en la caja
+8,G2,1,Car,V12,2,4,Espera en posición: 1
+8,G2,2,Car,V15,2,1,Espera en posición: 2
+9,G0,0,Car,V7,2,7,Pasó un instante en la caja
+9,G0,1,Car,V10,2,5,Espera en posición: 1
+9,G0,2,Car,V13,2,2,Espera en posición: 2
+9,G1,0,Car,V8,2,7,Pasó un instante en la caja
+9,G1,1,Car,V11,2,5,Espera en posición: 1
+9,G1,2,Car,V14,2,2,Espera en posición: 2
+9,G2,0,Car,V9,2,7,Pasó un instante en la caja
+9,G2,1,Car,V12,2,5,Espera en posición: 1
+9,G2,2,Car,V15,2,2,Espera en posición: 2
+10,G0,0,Car,V7,2,9,Se le cobró lo correspondiente
+10,G0,1,Car,V10,2,6,Se movio de pos: 1 a pos: 0
+10,G0,2,Car,V13,2,3,Se movio de pos: 2 a pos: 1
+10,G1,0,Car,V8,2,9,Se le cobró lo correspondiente
+10,G1,1,Car,V11,2,6,Se movio de pos: 1 a pos: 0
+10,G1,2,Car,V14,2,3,Se movio de pos: 2 a pos: 1
+10,G2,0,Car,V9,2,9,Se le cobró lo correspondiente
+10,G2,1,Car,V12,2,6,Se movio de pos: 1 a pos: 0
+10,G2,2,Car,V15,2,3,Se movio de pos: 2 a pos: 1
+11,G0,0,Car,V10,2,6,Pasó un instante en la caja
+11,G0,1,Car,V13,2,4,Espera en posición: 1
+11,G0,2,Car,V16,2,1,Espera en posición: 2
+11,G1,0,Car,V11,2,6,Pasó un instante en la caja
+11,G1,1,Car,V14,2,4,Espera en posición: 1
+11,G1,2,Car,V17,2,1,Espera en posición: 2
+11,G2,0,Car,V12,2,6,Pasó un instante en la caja
+11,G2,1,Car,V15,2,4,Espera en posición: 1
+11,G2,2,Car,V18,2,1,Espera en posición: 2
+12,G0,0,Car,V10,2,7,Pasó un instante en la caja
+12,G0,1,Car,V13,2,5,Espera en posición: 1
+12,G0,2,Car,V16,2,2,Espera en posición: 2
+12,G1,0,Car,V11,2,7,Pasó un instante en la caja
+12,G1,1,Car,V14,2,5,Espera en posición: 1
+12,G1,2,Car,V17,2,2,Espera en posición: 2
+12,G2,0,Car,V12,2,7,Pasó un instante en la caja
+12,G2,1,Car,V15,2,5,Espera en posición: 1
+12,G2,2,Car,V18,2,2,Espera en posición: 2
+13,G0,0,Car,V10,2,9,Se le cobró lo correspondiente
+13,G0,1,Car,V13,2,6,Se movio de pos: 1 a pos: 0
+13,G0,2,Car,V16,2,3,Se movio de pos: 2 a pos: 1
+13,G2,0,Car,V12,2,9,Se le cobró lo correspondiente
+13,G2,1,Car,V15,2,6,Se movio de pos: 1 a pos: 0
+13,G2,2,Car,V18,2,3,Se movio de pos: 2 a pos: 1
+13,G1,0,Car,V11,2,9,Se le cobró lo correspondiente
+13,G1,1,Car,V14,2,6,Se movio de pos: 1 a pos: 0
+13,G1,2,Car,V17,2,3,Se movio de pos: 2 a pos: 1
+14,G0,0,Car,V13,2,6,Pasó un instante en la caja
+14,G0,1,Car,V16,2,4,Espera en posición: 1
+14,G2,0,Car,V15,2,6,Pasó un instante en la caja
+14,G2,1,Car,V18,2,4,Espera en posición: 1
+14,G1,0,Car,V14,2,6,Pasó un instante en la caja
+14,G1,1,Car,V17,2,4,Espera en posición: 1
+15,G0,0,Car,V13,2,7,Pasó un instante en la caja
+15,G0,1,Car,V16,2,5,Espera en posición: 1
+15,G1,0,Car,V14,2,7,Pasó un instante en la caja
+15,G1,1,Car,V17,2,5,Espera en posición: 1
+15,G2,0,Car,V15,2,7,Pasó un instante en la caja
+15,G2,1,Car,V18,2,5,Espera en posición: 1
+16,G0,0,Car,V13,2,9,Se le cobró lo correspondiente
+16,G0,1,Car,V16,2,6,Se movio de pos: 1 a pos: 0
+16,G1,0,Car,V14,2,9,Se le cobró lo correspondiente
+16,G1,1,Car,V17,2,6,Se movio de pos: 1 a pos: 0
+16,G2,0,Car,V15,2,9,Se le cobró lo correspondiente
+16,G2,1,Car,V18,2,6,Se movio de pos: 1 a pos: 0
+17,G0,0,Car,V16,2,6,Pasó un instante en la caja
+17,G1,0,Car,V17,2,6,Pasó un instante en la caja
+17,G2,0,Car,V18,2,6,Pasó un instante en la caja
+18,G0,0,Car,V16,2,7,Pasó un instante en la caja
+18,G1,0,Car,V17,2,7,Pasó un instante en la caja
+18,G2,0,Car,V18,2,7,Pasó un instante en la caja
+19,G0,0,Car,V16,2,9,Se le cobró lo correspondiente
+19,G1,0,Car,V17,2,9,Se le cobró lo correspondiente
+19,G2,0,Car,V18,2,9,Se le cobró lo correspondiente

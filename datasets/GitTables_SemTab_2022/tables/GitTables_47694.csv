@@ -1,0 +1,159 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+CE+GC,Election result,"What are the results
+Results
+Results of the election of the CE State Council
+Distribution of seats
+Distribution of votes
+GC Great Council Outcome
+Which lists have elected candidates?","CE
+GC
+conseiller d'état
+conseillère d'état
+Conseiller_ere_d_Etat
+député
+députée
+Depute_e
+Election type",Request election type,"CE_1T :
+The 7 candidates for the second round are:
+{Christopher Lora, Gilles Barpéaimu, Pierre Midi, Robert Letitbe, Olivier Lesombre, Eric Brave, Agnès Cuèlli}
+
+GC :
+The distribution of seats is as follows:
+{Shopping list: x seats
+List of prevert : y seats
+…
+List and pint: no seat}",MUST,"CE
+https://www.ge.ch/elections/20180415/CE/datas/noLot/CE_Resultats_Canton.json
+
+--> candidat[0 à 6].id --> https://www.ge.ch/elections/20180415/CE/datas/noLOt/CE_infosCandidat.js --> name + sexe
+--> candidat[0 à 6].suffrages
+--> candidat[0 à 6].elu --> check if election state is final
+
+GC
+https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Canton.json
+repartitionDesSieges[n].liste.id --> get name (full name can be very long)
+repartitionDesSieges[n].nbSieges
+repartitionDesSieges[n].ecartSieges"
+CE+GC,Candidate result,"What are the results for Pierre Midi?
+How many votes did Pierre Midi get?
+Is Gilles Barpéaimu elected?
+Is he elected?","CE
+GC
+conseiller d'état
+conseillère d'état
+Conseiller_ere_d_Etat
+député
+députée
+Depute_e
+Election type
+candidate name","Request which election
+Request candidate name","CE_1T : {Pierre Midi} obtained {1000} votes.
+GC : GC : {Gilles Barpéaimu} was {not elected}. He got {only} {1000} votes.
+GC : {Gilles Barpéaimu} was {elected} with {3000} votes.",MUST,"CE same as for 7 candidates
+
+GC
+https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Canton.json
+resultatsNominatifs[n].candidat
+.id
+resultatsNominatifs[n].suffrages
+
+OR https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Candidat_10486.json
+resultatsCandidatCanton OR resultatsCandidatParCommune for one commune
+
+In both cases get candidate info from https://www.ge.ch/elections/20180415/GC/datas/noLOt/GC_infosCandidat.json"
+GC,List result,"How many seats did the list get?
+What are the results of the list at Chêne Bougeries?","Listes_GC
+commune
+Commune
+LocalDeVote
+local de vote
+list name
+local name
+commune name",Request list name,"If no local indicated:
+The {race list} won {34} seats out of 100.
+If local :
+The {shopping list} obtained {17%} of the votes in {Chêne Bougeries}.",MUST,"Same as for canton
+
+For local
+https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Commune_1000.json
+repartitionDesSuffrages[n].suffragePourcent"
+GC,Who is elected in a list,Who was elected in the list?,"député
+députée
+Depute_e
+GC
+Listes_GC
+list name",Request list name,"If anticipated results :
+This information is not yet available as long as the results are anticipated.
+
+If final results :
+Are elected in the {shopping list}:
+{Gilles Barpéaimu} with {47} votes {(re-election)}, the established term is ""outgoing"".
+…
+{Agnès Cuèlli} with {7} votes {(new)}
+
+paginate answer",MUST,"This information is available only if the results are final.
+Before, take the first N or N is equal to the number of seats on the list and say ""would be elected""."
+GC,Who was not elected in a list,Who was not elected in the list?,"député
+députée
+Depute_e
+GC
+Listes_GC
+list name",Request list name,"Are not elected in the {shopping list}:
+{Gilles Barpéaimu} with {1%} of the votes
+…
+{Agnès Cuèlli} with {0.5%} of the votes
+
+paginate answer",SHOULD,"We'll have to make very long lists, up to 100 names.
+I don't have the info."
+GC,How many times was a candidate striken off,"How many times has Gilles Barpéaimu been crossed out?
+How many times has Gilles Barpéaimu been striken off?","député
+députée
+Depute_e
+GC
+Listes_GC
+candidate name",Request candidate name,"It was crossed out {347,890,253,290} times.
+",SHOULD,"https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Candidat_10486.json
+resultatsCandidatCanton.canton.biffes"
+CE+GC,Turnout,"What is the participation rate?
+What is the turnout?
+How many people voted?","Canton
+Participation
+election type",Request election type,The turnout rate is {35%}. {3'456} people voted.,MUST,"https://www.ge.ch/elections/20180415/GC/datas/noLot/GC_Resultats_Canton.json
+informationsGenerales.participation
++ cartesRecues
+These values are the same in CE and GC"
+CE+GC,Turnout,What is the turnout for Chêne Bougeries ?,"Commune
+Participation
+election type",Request election type,The turnout rate in {Chêne Bougerie} est de {35%}.,SHOULD,"https://www.ge.ch/elections/20180415/GC/datas/noLOt/GC_Resultats_Commune_4400.json
+informationsGenerales.participation
++ cartesRecues
+These values are the same in CE and GC"
+GC,Eldest candidate,Who is the eldest candidate?,"député
+députée
+Depute_e
+GC
+Listes_GC",,The oldest candidate is undoubtedly {Gilles Péaimu}.,WOULD,"We don't have the information, and we avoid giving it away."
+GC,Youngest candidate,Who is the youngest candidate?,"député
+députée
+Depute_e
+GC
+Listes_GC",,The youngest candidate is undoubtedly {Christopher Lora}.,WOULD,"We don't have the information, and we avoid giving it away."
+GC,List that did not reach the quorum,Which lists do not have a quorum?,"GC
+Listes_GC",,"The {lists of races} and {prevert} do not reach the quorum with respectively {3%} and {7%} of the votes.
+",COULD,All lists that have less than 7% of the vote
+GC,List that took part,"What lists showed up?
+Which lists took part?","GC
+Listes_GC",,The following lists took part: (list of lists),COULD,
+CE_T1,Threshold for absolute majority,What is the threshold for absolute majority?,"Canton
+threshold
+majority
+absolute majority",,The threshold is 51%. (information message),SHOULD,"https://www.ge.ch/elections/20180415/CE/datas/noLot/CE_Resultats_Canton.json
+informationsGenerales
+.majoriteAbsolue (only the first round, in the second round the n best are selected)"
+CE+GC,Number of blank or invalid ballots,"What is the number of invalid ballots?
+How many blank ballots are there?","ballots
+election type",Request election type,"There were {345,890,123} blank ballots for election to the {State Council}, and {3} invalid ballots.",SHOULD,"https://www.ge.ch/elections/20180415/CE/datas/noLot/CE_Resultats_Canton.json
+informationsGenerales
+.bulletinsBlancs
+
+Invalid ballots do not influence the result"

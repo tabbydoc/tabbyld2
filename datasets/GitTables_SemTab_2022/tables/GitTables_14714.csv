@@ -1,0 +1,86 @@
+col0,col1,col2
+Biomass Turnover: Coarse Roots -> AG Fast,Biomass Turnover: Total,
+Biomass Turnover: Coarse Roots -> BG Fast,Biomass Turnover: Total,
+Biomass Turnover: Fine Roots -> AG Very Fast,Biomass Turnover: Total,
+Biomass Turnover: Fine Roots -> BG Very Fast,Biomass Turnover: Total,
+Biomass Turnover: Foliage -> AG Very Fast,Biomass Turnover: Total,
+Biomass Turnover: Merchantable -> Snag Stems,Biomass Turnover: Total,
+Biomass Turnover: Other Wood -> AG Fast,Biomass Turnover: Total,
+Biomass Turnover: Other Wood -> Snag Branches,Biomass Turnover: Total,
+Decay: AG Fast -> AG Slow,Decay: Total,
+Decay: AG Medium -> AG Slow,Decay: Total,
+Decay: AG Very Fast -> AG Slow,Decay: Total,
+Decay: BG Fast -> BG Slow,Decay: Total,
+Decay: BG Very Fast -> BG Slow,Decay: Total,
+Decay: Snag Branch -> AG Slow,Decay: Total,
+Decay: Snag Stem -> AG Slow,Decay: Total,
+Emission: AG Fast -> Atmosphere,Emission: Total,
+Emission: AG Medium -> Atmosphere,Emission: Total,
+Emission: AG Slow -> Atmosphere,Emission: Total,
+Emission: AG Very Fast -> Atmosphere,Emission: Total,
+Emission: BG Fast -> Atmosphere,Emission: Total,
+Emission: BG Slow -> Atmosphere,Emission: Total,
+Emission: BG Very Fast -> Atmosphere,Emission: Total,
+Emission: Snag Branch -> Atmosphere,Emission: Total,
+Emission: Snag Stem -> Atmosphere,Emission: Total,
+Net Growth: Atmosphere -> Coarse Roots,Net Growth: Total,
+Net Growth: Atmosphere -> Fine Roots,Net Growth: Total,
+Net Growth: Atmosphere -> Foliage,Net Growth: Total,
+Net Growth: Atmosphere -> Merchantable,Net Growth: Total,
+Net Growth: Atmosphere -> Other Wood,Net Growth: Total,
+Transfer: AG Slow -> BG Slow,Transfer: Total,
+Transfer: Snag Branch -> AG Fast,Transfer: Total,
+Transfer: Snag Stem -> AG Medium,Transfer: Total,
+Emission: AG Fast -> Atmosphere,Q10 Slow Flows,
+Emission: AG Medium -> Atmosphere,Q10 Slow Flows,
+Emission: AG Slow -> Atmosphere,Q10 Fast Flows,
+Emission: AG Very Fast -> Atmosphere,Q10 Fast Flows,
+Emission: BG Fast -> Atmosphere,Q10 Slow Flows,
+Emission: BG Very Fast -> Atmosphere,Q10 Slow Flows,
+Emission: Snag Branch -> Atmosphere,Q10 Slow Flows,
+Emission: Snag Stem -> Atmosphere,Q10 Slow Flows,
+Decay: AG Fast -> AG Slow,Q10 Slow Flows,
+Decay: AG Medium -> AG Slow,Q10 Slow Flows,
+Decay: AG Very Fast -> AG Slow,Q10 Fast Flows,
+Decay: BG Fast -> BG Slow,Q10 Slow Flows,
+Decay: BG Very Fast -> BG Slow,Q10 Slow Flows,
+Decay: Snag Branch -> AG Slow,Q10 Slow Flows,
+Decay: Snag Stem -> AG Slow,Q10 Slow Flows,
+Transfer: AG Slow -> BG Slow,Q10 Fast Flows,
+Transfer: Snag Branch -> AG Fast,Q10 Slow Flows,
+Transfer: Snag Stem -> AG Medium,Q10 Slow Flows,
+Net Growth: Atmosphere -> Coarse Roots,Net Primary Productivity,
+Net Growth: Atmosphere -> Fine Roots,Net Primary Productivity,
+Net Growth: Atmosphere -> Foliage,Net Primary Productivity,
+Net Growth: Atmosphere -> Merchantable,Net Primary Productivity,
+Net Growth: Atmosphere -> Other Wood,Net Primary Productivity,
+Net Growth: Atmosphere -> Coarse Roots,Net Ecosystem Productivity,
+Net Growth: Atmosphere -> Fine Roots,Net Ecosystem Productivity,
+Net Growth: Atmosphere -> Foliage,Net Ecosystem Productivity,
+Net Growth: Atmosphere -> Merchantable,Net Ecosystem Productivity,
+Net Growth: Atmosphere -> Other Wood,Net Ecosystem Productivity,
+Emission: AG Fast -> Atmosphere,Net Ecosystem Productivity,-1.0
+Emission: AG Medium -> Atmosphere,Net Ecosystem Productivity,-1.0
+Emission: AG Slow -> Atmosphere,Net Ecosystem Productivity,-1.0
+Emission: AG Very Fast -> Atmosphere,Net Ecosystem Productivity,-1.0
+Emission: BG Fast -> Atmosphere,Net Ecosystem Productivity,-1.0
+Emission: BG Very Fast -> Atmosphere,Net Ecosystem Productivity,-1.0
+Emission: BG Slow -> Atmosphere,Net Ecosystem Productivity,-1.0
+Emission: Snag Branch -> Atmosphere,Net Ecosystem Productivity,-1.0
+Emission: Snag Stem -> Atmosphere,Net Ecosystem Productivity,-1.0
+Net Growth: Atmosphere -> Coarse Roots,Net Biome Productivity,
+Net Growth: Atmosphere -> Fine Roots,Net Biome Productivity,
+Net Growth: Atmosphere -> Foliage,Net Biome Productivity,
+Net Growth: Atmosphere -> Merchantable,Net Biome Productivity,
+Net Growth: Atmosphere -> Other Wood,Net Biome Productivity,
+Emission: AG Fast -> Atmosphere,Net Biome Productivity,-1.0
+Emission: AG Medium -> Atmosphere,Net Biome Productivity,-1.0
+Emission: AG Slow -> Atmosphere,Net Biome Productivity,-1.0
+Emission: AG Very Fast -> Atmosphere,Net Biome Productivity,-1.0
+Emission: BG Fast -> Atmosphere,Net Biome Productivity,-1.0
+Emission: BG Very Fast -> Atmosphere,Net Biome Productivity,-1.0
+Emission: BG Slow -> Atmosphere,Net Biome Productivity,-1.0
+Emission: Snag Branch -> Atmosphere,Net Biome Productivity,-1.0
+Emission: Snag Stem -> Atmosphere,Net Biome Productivity,-1.0
+LULC: Harvest,Net Biome Productivity,-1.0
+LULC: Emission,Net Biome Productivity,-1.0

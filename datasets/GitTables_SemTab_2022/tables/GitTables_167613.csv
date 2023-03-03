@@ -1,0 +1,202 @@
+col0,col1,col2,col3,col4,col5
+1_thesky,the sky,1732.0,SKY,天,1
+2_thesun,the sun,1343.0,SUN,太阳,2
+3_thestar,the star,1430.0,STAR,星星,3
+4_themoon,the moon,1313.0,MOON,月亮,4
+5_thecloud,the cloud,1489.0,CLOUD,云,5
+6_theearth,the earth,1228.0,EARTH (SOIL),土地,6
+7_themountain,the mountain,639.0,MOUNTAIN,山,7
+8_thestone,the stone,857.0,STONE,石头,8
+9_thesand,the sand,671.0,SAND,沙子,9
+10_theroad,the road,667.0,ROAD,路,10
+11_theforest,the forest,420.0,FOREST,森林,11
+12_theocean,the ocean,645.0,OCEAN,海,12
+13_thelake,the lake,624.0,LAKE,湖,13
+14_theriver,the river,3311.0,FLOWING BODY OF WATER,河,14
+15_thefog,the fog,249.0,FOG,雾,15
+16_thesnow,the snow,784.0,SNOW,雪,16
+17_thewind,the wind,960.0,WIND,风,17
+18_therain,the rain,658.0,RAIN (PRECIPITATION),雨,18
+19_theice,the ice,617.0,ICE,冰,19
+20_thewater,the water,948.0,WATER,水,20
+21_thefire,the fire,221.0,FIRE,火,21
+22_theashes,the ashes,646.0,ASH,草木灰,22
+23_thehead,the head,1256.0,HEAD,头,23
+24_thehair,the hair,2648.0,HAIR (HEAD),头发,24
+25_theear,the ear,1247.0,EAR,耳朵,25
+26_theeye,the eye,1248.0,EYE,眼睛,26
+27_thenose,the nose,1221.0,NOSE,鼻子,27
+28_themouth,the mouth,674.0,MOUTH,嘴,28
+29_thetongue,the tongue,1205.0,TONGUE,舌头,29
+30_thetooth,the tooth,1380.0,TOOTH,牙齿,30
+31_thewisdomtooth,the wisdom tooth,,,大牙,31
+32_theneck,the neck,1333.0,NECK,脖子,32
+33_thebreast,the breast,1402.0,BREAST,乳房,33
+34_theback,the back,1291.0,BACK,背,34
+35_thehand,the hand,1277.0,HAND,手,35
+36_theleg,the leg,1297.0,LEG,腿,36
+37_theknee,the knee,1371.0,KNEE,膝盖,37
+38_thefoot,the foot,1301.0,FOOT,脚,38
+40_thebone,the bone,1394.0,BONE,骨头,40
+39_theskin,the skin,763.0,SKIN,皮肤,39
+41_theheart,the heart,1223.0,HEART,心,41
+42_theliver,the liver,1224.0,LIVER,肝,42
+43_themeat,the meat,2615.0,FLESH OR MEAT,肉,43
+44_theblood,the blood,946.0,BLOOD,血,44
+45_theintestines,the intestines,1991.0,INTESTINES,肠子,45
+46_thebelly,the belly,1251.0,BELLY,肚子,46
+47_theperson,the person,683.0,PERSON,人,47
+48_who,who,1235.0,WHO,谁,48
+49_theman,the man,1554.0,MAN,男人,49
+50_thewoman,the woman,962.0,WOMAN,妇女,50
+51_thechild,the child,1304.0,CHILD (YOUNG HUMAN),小孩子,51
+52_thefather,the father,1217.0,FATHER,父亲,52
+53_themother,the mother,1216.0,MOTHER,母亲,53
+54_thehusband,the husband,1200.0,HUSBAND,丈夫,54
+55_thewife,the wife,1199.0,WIFE,妻子,55
+56_theanimal,the animal,619.0,ANIMAL,动物,56
+57_thedog,the dog,2009.0,DOG,狗,57
+58_thebird,the bird,937.0,BIRD,鸟,58
+59_thefish,the fish,227.0,FISH,鱼,59
+60_thesnake,the snake,730.0,SNAKE,蛇,60
+61_thelouse,the louse,1392.0,LOUSE,虱子,61
+62_theworm,the worm,1219.0,WORM,虫,62
+63_thehorn,the horn,1393.0,HORN (ANATOMY),角,63
+64_thewing,the wing,1257.0,WING,翅膀,64
+65_thefeather,the feather,1201.0,FEATHER,羽毛,65
+66_thenail,the nail,72.0,CLAW,爪子,66
+67_thetail,the tail,1220.0,TAIL,尾巴,67
+68_theegg,the egg,744.0,EGG,蛋,68
+69_thetree,the tree,906.0,TREE,树,69
+70_theleaf,the leaf,628.0,LEAF,叶子,70
+71_thebark,the bark,1204.0,BARK,树皮,71
+72_theroot,the root,670.0,ROOT,根,72
+73_theflower,the flower,239.0,FLOWER,花,73
+74_thegrass,the grass,606.0,GRASS,草,74
+75_thethorn,the thorn,124.0,THORN,刺,75
+76_theseed,the seed,714.0,SEED,种子,76
+77_thesmoke,the smoke,778.0,SMOKE (EXHAUST),烟,77
+78_thesalt,the salt,1274.0,SALT,盐,78
+79_thefruit,the fruit,1507.0,FRUIT,水果,79
+80_thefat,the fat,323.0,FAT (ORGANIC SUBSTANCE),脂肪,80
+81_one,one,1493.0,ONE,一,81
+82_two,two,1498.0,TWO,二,82
+83_three,three,492.0,THREE,三,83
+84_four,four,1500.0,FOUR,四,84
+85_five,five,493.0,FIVE,五,85
+86_big,big,1202.0,BIG,大,86
+87_long,long,1203.0,LONG,长,87
+88_short,short,1645.0,SHORT,短,88
+89_many,many,1198.0,MANY,多,89
+90_few,few,1242.0,FEW,少,90
+91_thick,thick,1244.0,THICK,厚,91
+92_thin,thin,2249.0,THIN (OF SHAPE OF OBJECT),薄,92
+93_cold,cold,1287.0,COLD,冷,93
+94_hot,hot,1286.0,HOT,热,94
+95_dry,dry,1398.0,DRY,干,95
+96_wet,wet,1726.0,WET,湿,96
+97_rotten,rotten,1728.0,ROTTEN,腐烂,97
+98_black,black,163.0,BLACK,黑,98
+99_white,white,1335.0,WHITE,白,99
+100_red,red,156.0,RED,红,100
+101_green,green,1425.0,GREEN,绿,101
+102_yellow,yellow,1424.0,YELLOW,黄,102
+103_old,old,1229.0,OLD,老的,103
+104_young,young,1246.0,SMALL,小,104
+105_sharp,sharp,1396.0,SHARP,尖,105
+106_round,round,1395.0,ROUND,圆,106
+107_smooth,smooth,1234.0,SMOOTH,平,107
+108_toswell,to swell,1573.0,SWELL,肿,108
+109_dirty,dirty,1230.0,DIRTY,脏,109
+110_good,good,1035.0,GOOD,好,110
+111_bad,bad,1292.0,BAD,坏,111
+112_right,right,1725.0,CORRECT (RIGHT),对,112
+113_todie,to die,1494.0,DIE,死,113
+114_tolive,to live,1422.0,BE ALIVE,活的,114
+115_full,full,1429.0,FULL,满,115
+116_new,new,1231.0,NEW,新,116
+117_far,far,1406.0,FAR,远,117
+118_near,near,1942.0,NEAR,近,118
+119_wide,wide,1243.0,WIDE,宽,119
+120_narrow,narrow,1267.0,NARROW,窄,120
+121_heavy,heavy,1210.0,HEAVY,重,121
+122_straight,straight,1404.0,STRAIGHT,直,122
+123_studid,studid,1518.0,STUPID,呆笨,123
+124_toeat,to eat,1336.0,EAT,吃,124
+125_todrink,to drink,1401.0,DRINK,喝,125
+126_tobreathe,to breathe,1407.0,BREATHE,呼吸,126
+127_tosay,to say,1458.0,SAY,说,127
+128_tosing,to sing,1261.0,SING,唱,128
+129_tolaugh,to laugh,1355.0,LAUGH,笑,129
+130_tohear,to hear,1408.0,HEAR,听见,130
+131_tosee,to see,1409.0,SEE,看见,131
+132_tosmell,to smell,1586.0,SMELL (PERCEIVE),闻（嗅）,132
+133_tospit,to spit,1440.0,SPIT,吐（痰）,133
+134_tovomit,to vomit,1278.0,VOMIT,呕吐,134
+135_toturn,to turn,1444.0,TURN AROUND,转（身）,135
+136_toplay,to play,1413.0,PLAY,玩耍,136
+137_tostand,to stand,1442.0,STAND,站,137
+138_tosit,to sit,1416.0,SIT,坐,138
+139_togo,to go,1443.0,WALK,走,139
+140_tocome,to come,1446.0,COME,来,140
+141_tosleep,to sleep,1585.0,SLEEP,睡,141
+142_tolie,to lie,1411.0,LIE (REST),躺,142
+143_tofly,to fly,1441.0,FLY (MOVE THROUGH AIR),飞,143
+144_tosuck,to suck,1421.0,SUCK,吮,144
+145_tosplit,to split,1437.0,SPLIT,撕,145
+146_tosplitopen,to split open,3080.0,SPLIT OPEN,裂开,146
+147_topush,to push,1452.0,PUSH,推,147
+148_topull,to pull,1455.0,PULL,拉,148
+149_tokill,to kill,1417.0,KILL,杀,149
+150_tothrow,to throw,1456.0,THROW,扔,150
+151_todig,to dig,1418.0,DIG,挖,151
+152_tobite,to bite,1403.0,BITE,咬,152
+153_toscratch,to scratch,1436.0,SCRATCH,抓,153
+154_tosqueeze,to squeeze,1414.0,SQUEEZE,压,154
+155_toblow,to blow,176.0,BLOW (WITH MOUTH),吹（喇叭）,155
+157_tofight,to fight,1423.0,FIGHT,打架,157
+156_tohit,to hit,1433.0,HIT,打（人）,156
+158_tohunt,to hunt,1435.0,HUNT,打猎,158
+159_towipe,to wipe,1454.0,WIPE,擦（桌子）,159
+160_towash,to wash,2503.0,LAUNDER (WASH CLOTHES),洗（衣）,160
+161_totie,to tie,1917.0,TIE,捆（麦子）,161
+162_tocount,to count,1420.0,COUNT,数，计算,162
+163_tocut,to cut,155.0,CHOP,砍（骨头）,163
+164_tofall,to fall,1280.0,FALL,掉（下）,164
+165_tosew,to sew,1457.0,SEW,缝,165
+166_totake,to take,2104.0,HOLD OR TAKE,拿,166
+167_topull,to pull,43.0,LEAD (GUIDE),牵,167
+168_togive,to give,1447.0,GIVE,给,168
+169_toburn,to burn,2102.0,BURN,燃烧,169
+170_toflow,to flow,2003.0,FLOW,（水）流,170
+171_toswim,to swim,1439.0,SWIM,游水,171
+172_tofloat,to float,1574.0,FLOAT,漂浮,172
+173_thename,the name,1405.0,NAME,名字,173
+174_therope,the rope,1218.0,ROPE,绳子,174
+175_thestick,the stick,1295.0,STICK,棍子,175
+176_i,I,1209.0,I,我,176
+177_we,we,1212.0,WE,我们,177
+178_thou,thou,1215.0,THOU,你,178
+179_hesheit,he/she/it,262.0,HE OR SHE OR IT,他,179
+180_they,they,817.0,THEY,他们,180
+181_all,all,2277.0,WHOLE,全部,181
+182_what,what,1236.0,WHAT,什么,182
+183_how,how,1239.0,HOW,怎么,183
+184_this,this,1214.0,THIS,这,184
+185_here,here,136.0,HERE,这里,185
+186_that,that,78.0,THAT,那,186
+187_there,there,1937.0,THERE,那里,187
+188_where,where,1237.0,WHERE,哪里,188
+189_right,right,1019.0,RIGHT,右边,189
+190_left,left,244.0,LEFT,左边,190
+191_in,in,1460.0,IN,在(屋里),191
+192_theyear,the year,1226.0,YEAR,年,192
+193_theday,the day,1225.0,DAY (NOT NIGHT),天,193
+194_theevening,the evening,1629.0,EVENING,晚上,194
+195_tofear,to fear,1419.0,FEAR (BE AFRAID),怕,195
+196_tothink,to think,2271.0,THINK,想,196
+197_toknow,to know,1410.0,KNOW (SOMETHING),知道,197
+198_not,not,1240.0,NOT,不,198
+199_and,and,1577.0,AND,和,199
+200_because,because,1157.0,BECAUSE,因为,200
+201_if,if,1459.0,IF,如果,201

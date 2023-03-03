@@ -1,0 +1,51 @@
+col0,col1,col2,col3,col4,col5
+1110,Single-family Detached,Single Family Detached,True,False,False
+1121,Townhome or Rowhouse,"Single-Family Attached, Townhome or Rowhouse",True,False,False
+1122,Duplex,"Single-Family Attached, Duplex",True,False,False
+1130,Mobile Homes,"Single Family, Mobile Home",True,False,False
+1210,Multifamily - Small Building,"Multifamily, Triplex or Small (3 to 19 unit) Apartment or Condo Building",True,False,False
+1220,Multifamily - Large Building,"Multifamily, Large (20+ unit) Apartment or Condo Building",True,False,False
+2111,Mixed Use - Retail + Residential - Small Building,"Mixed Use, Non-Residential, Retail and Residential,  Small (3 to 19 unit) Apartment Building",True,True,False
+2112,Mixed Use - Retail + Residential - Large Building,"Mixed Use, Non-Residential, Retail and Residential,  Large (20+ unit) Apartment Building",True,True,False
+2121,Mixed Use - Office + Residential - Small Building,"Mixed Use, Non-Residential, Office and Residential,  Small (3 to 19 unit) Apartment Building",True,True,False
+2122,Mixed Use - Office + Residential - Large Building,"Mixed Use, Non-Residential, Office and Residential,  Large (20+ unit) Apartment Building",True,True,False
+2131,Mixed Use - Services + Residential - Small Building,"Mixed Use, Non-Residential, Services and Residential,  Small (3 to 19 unit) Apartment Building",True,True,False
+2132,Mixed Use - Services + Residential - Large Building,"Mixed Use, Non-Residential, Services and Residential,  Large (20+ unit) Apartment Building",True,True,False
+2140,Mixed Use - Non-Residential,"Mixed Use, Non-Residential Only",False,True,False
+3100,Hotel,"Lodging, Hotel",False,True,False
+3200,Resort,"Lodging, Resort",False,True,False
+4100,Office,"Commercial, Office",False,True,False
+4210,Grocery Store,"Commercial, Retail, Grocery Store",False,True,False
+4220,Eating and Drinking,"Commercial, Retail, Eating and Drinking",False,True,False
+4230,Neighborhood Retail,"Commercial, Retail, Neighborhood",False,True,False
+4240,Strip Shopping Mall,"Commercial, Retail, Strip Shopping Mall",False,True,False
+4250,Shopping Mall,"Commercial, Retail, Shopping Mall",False,True,False
+4260,Big Box Retail,"Commercial, Retail, Big Box",False,True,False
+4290,Misc. Retail,"Commercial, Retail, Miscellaneous",False,True,False
+4300,Services,"Commercial, Services",False,True,False
+4310,Financial Services,"Commercial, Services, Financial",False,True,False
+4320,Auto Sales / Parts / Repair,"Commercial, Services, Auto",False,True,False
+4400,Storage,"Commercial, Storage",False,True,False
+4900,Misc. Commercial,"Commercial, Misc.",False,True,False
+5100,Light Industrial / Warehousing,"Industrial, Light / Warehousing",False,True,False
+5200,Heavy Industrial,"Industrial, Heavy",False,True,False
+6110,Preschool / Kindergarden,"School / Educational, Preschool / Kindergarden",False,True,False
+6120,Elementary School,"School / Educational, Elementary School",False,True,False
+6130,Middle School,"School / Educational, Middle School",False,True,False
+6140,K-8 School,"School / Educational, K-8 School",False,True,False
+6150,K-12 School,"School / Educational, K-12 School",False,True,False
+6160,High School,"School / Educational, High School",False,True,False
+6170,College / University,"School / Educational, College / University",False,True,False
+6210,Medical Lab,"Medical, Lab",False,True,False
+6220,Clinic,"Medical, Clinic",False,True,False
+6230,Hospital,"Medical, Hospital",False,True,False
+6300,Parking Structure,Parking Structure,False,False,True
+6400,TCU,Transportation / Communication / Utilities,False,True,False
+6500,Cultural / Civic / Recreation,Cultural / Civic / Recreation,False,True,True
+6600,Government,Government,False,True,False
+7100,College Dormitory,"Group Quarters, College Dormitority",True,True,False
+7200,Nursing Home,"Group Quarters, Nursing Home",True,True,False
+7300,Military Housing,"Group Quarters, Military Housing",True,False,False
+7900,Misc. Group Quarters,"Group Quarters, Misc.",True,False,False
+8000,Agriculture / Timber / Mining,Agriculture / Timber / Mining,True,True,False
+9000,Other,Other Misc. Buildings,False,False,True

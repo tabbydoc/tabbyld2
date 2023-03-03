@@ -1,0 +1,11 @@
+col0,col1,col2,col3
+1,1,GroupID,5
+6,1,LocationID,far
+2,2,GroupID,1
+7,2,LocationID,near
+3,3,GroupID,5
+8,3,LocationID,far
+4,4,GroupID,4
+9,4,LocationID,far
+5,5,GroupID,1
+10,5,LocationID,far

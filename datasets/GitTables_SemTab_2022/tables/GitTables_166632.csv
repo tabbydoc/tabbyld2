@@ -1,0 +1,54 @@
+col0,col1,col2
+ID,Numeric,Participant ID 
+Age_Group,Numeric,"Age group (1=20-29, 2=30-39, 3=40-49, 4=50-59, 5=60+)"
+Sex,String,"Sex (1=Male, 2=Female)"
+Total_years_dispatcher,Numeric,Total years as dispatcher
+Total_years_present_job,Numeric,Total years in present job
+Job_type,Numeric,"Job type (1=trick, 2=asst chief)"
+Marital_Status,String,"Marital status (1=Not married, 2=married)"
+Childrendependents,Numeric,Number of children/dependents
+Children_under_2_yrs,Numeric,Number of children/dependents under 2 yrs
+Caff_Beverages,Numeric,"Do you drink caffeinated beverages? (1=yes, 2=no)"
+If_yes_how_many_daily,Numeric,"If you drink caffeine, how many daily?"
+Sick_Days_in_last_year,Numeric,Number of sick days taken in the last year
+Health_status,Numeric,"Health status self rating (1=poor, 2=fair, 3=good, 4=excellent)"
+Older_Younger_or_Same,Numeric,"Feel older younger, or same? 1=older, -1=younger, 0=same"
+Diagnosed_Sleep_disorder,Numeric,"Diagnosed sleep disorder? (1=yes, 2=no)"
+Sleep_Apnea,Numeric,"Diagnosed sleep apnea? (1=yes, 2=no)"
+Medical_treatment,Numeric,"Receiving medical treatment for sleep disorder (1=yes, 2=no, all blanks are N/A)"
+SunStart_Time,Date,"Work start time on Sunday (hh:mm)  Note: If job_sched=5, the work start and end time fields will be blank.  "
+MonStart_Time,Date,Work start time on Monday (hh:mm)
+TuesStart_Time,Date,Work start time on Tuesday (hh:mm)
+WedStart_Time,Date,Work start time on Wednesday (hh:mm)
+ThuStart_Time,Date,Work start time on Thursday (hh:mm)
+FriStart_Time,Date,Work start time on Friday (hh:mm)
+SatStart_Time,Date,Work start time on Saturday (hh:mm)
+SunEnd_Time,Date,Work end time on Sunday (hh:mm)
+MonEnd_Time,Date,Work end time on Monday (hh:mm)
+TuesEnd_Time,Date,Work end time on Tuesday (hh:mm)
+WedEnd_Time,Date,Work end time on Wednesday (hh:mm)
+ThuEnd_Time,Date,Work end time on Thursday (hh:mm)
+FriEnd_Time,Date,Work end time on Friday (hh:mm)
+SatEnd_Time,Date,Work end time on Saturday (hh:mm)
+job_schedule,Numeric,"Job schedule: 1st, 2nd, 3rd, relief, extraboard (1-5 respectively)"
+Relief_schedule,String,"Order of relief rotation: (e.g., 11223 = 1st shift, 1st shift, 2nd shift, 2nd shift, 3rd shift)"
+Avg_Work_Hrs_Week,Numeric,Average number of hours work per week
+FRA_report,String,"Is your position covered by the Hours of Service Law (1=yes, 2=no)"
+Alert_at_Work,Numeric,"How often do you feel well rested/alert at work (1=never, 2=occasionally, 3=frequently, 4=always)"
+Mentally_Drained,Numeric,"How often do you feel mentally drained after work (1=never, 2=occasionally, 3=frequently, 4=always)"
+Phys_Drained,Numeric,"How often do you feel physically drained after work (1=never, 2=occasionally, 3=frequently, 4=always)"
+Emergencies,Numeric,"Emergencies stress? (1=no stress, 2=a little stress, 3=stressful, 4=very stressful)"
+Lack_of_control,Numeric,"Lack of control stress? (1=no stress, 2=a little stress, 3=stressful, 4=very stressful)"
+Sleep_loss,Numeric,"Sleep loss stress? (1=no stress, 2=a little stress, 3=stressful, 4=very stressful)"
+Coord_other_depts,Numeric,"Coordination with other departments stress? (1=no stress, 2=a little stress, 3=stressful, 4=very stressful)"
+Job_pressure,Numeric,"Job pressure stress? (1=no stress, 2=a little stress, 3=stressful, 4=very stressful)"
+Scanty_Rules,Numeric,"Scanty rules stress? (1=no stress, 2=a little stress, 3=stressful, 4=very stressful)"
+Mgmt_policies,Numeric,"Management stress? (1=no stress, 2=a little stress, 3=stressful, 4=very stressful)"
+Job_Security,Numeric,"Job security stress? (1=no stress, 2=a little stress, 3=stressful, 4=very stressful)"
+Surges_in_work,Numeric,"Surges in work stress? (1=no stress, 2=a little stress, 3=stressful, 4=very stressful)"
+Communication,Numeric,"Communication stress? (1=no stress, 2=a little stress, 3=stressful, 4=very stressful)"
+Inadeq_Staff,Numeric,"Inadequate staff stress? (1=no stress, 2=a little stress, 3=stressful, 4=very stressful)"
+Resp_for_others_safety,Numeric,"Responsibility for others stress? (1=no stress, 2=a little stress, 3=stressful, 4=very stressful)"
+BreakTime,Numeric,"Break time stress? (1=no stress, 2=a little stress, 3=stressful, 4=very stressful)"
+TimeOff,Numeric,"Time off stress? (1=no stress, 2=a little stress, 3=stressful, 4=very stressful)"
+Total_life_events,Numeric,"Total number of life events in last 6 months (life events include personal illness, marital woes, birth of a child, death of spous, chang in sleep habits, trouble with law, family or friend illness, financial woes, home change, social change, family death)"

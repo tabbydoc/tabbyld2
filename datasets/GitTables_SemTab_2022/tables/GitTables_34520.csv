@@ -1,0 +1,113 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+1,"Unpolarized capacitor, small symbol",C101,100n/50V,0603_C,1.0,~,,
+2,"Unpolarized capacitor, small symbol",C102,100n/50V,0603_C,1.0,~,,
+3,"Unpolarized capacitor, small symbol",C103,100n/50V,0603_C,1.0,~,,
+4,"Unpolarized capacitor, small symbol",C104,100n/50V,0603_C,1.0,~,,
+5,"Unpolarized capacitor, small symbol",C105,100n/50V,0603_C,1.0,~,,
+6,"Unpolarized capacitor, small symbol",C106,100n/50V,0603_C,1.0,~,,
+7,Unpolarized capacitor,C207,100n/50V,0805_C,1.0,~,,
+8,"Unpolarized capacitor, small symbol",C211,100n/50V,0805_C,1.0,~,,
+9,Unpolarized capacitor,C212,100n/50V,0805_C,1.0,~,,
+10,"Unpolarized capacitor, small symbol",C303,100n/50V,0603_C,1.0,~,,
+11,"Unpolarized capacitor, small symbol",C304,100n/50V,0603_C,1.0,~,,
+12,"Unpolarized capacitor, small symbol",C306,100n/50V,0603_C,1.0,~,,
+13,"Unpolarized capacitor, small symbol",C307,100n/50V,0603_C,1.0,~,,
+14,"Unpolarized capacitor, small symbol",C403,100n/50V,0603_C,1.0,~,,
+15,"Unpolarized capacitor, small symbol",C405,100n/50V,0603_C,1.0,~,,
+16,"Unpolarized capacitor, small symbol",C406,100n/50V,0603_C,1.0,~,,
+17,"Unpolarized capacitor, small symbol",C407,100n/50V,0603_C,1.0,~,,
+18,"Unpolarized capacitor, small symbol",C408,100n/50V,0603_C,1.0,~,,
+19,"Unpolarized capacitor, small symbol",C409,100n/50V,0603_C,1.0,~,,
+20,"Unpolarized capacitor, small symbol",C411,100n/50V,0603_C,1.0,~,,
+21,"Unpolarized capacitor, small symbol",C412,100n/50V,0603_C,1.0,~,,
+22,"Unpolarized capacitor, small symbol",C203,10n/50V,0603_C,1.0,~,,
+23,Unpolarized capacitor,C209,10n/50V,0805_C,1.0,~,,
+24,Unpolarized capacitor,C210,10n/50V,0805_C,1.0,~,,
+25,Unpolarized capacitor,C213,10n/50V,0603_C,1.0,~,,
+26,"Unpolarized capacitor, small symbol",C302,10n/50V,0603_C,1.0,~,,
+27,Unpolarized capacitor,C206,10u/10V,0805_C,1.0,~,,
+28,"Unpolarized capacitor, small symbol",C404,10u/10V,0603_C,1.0,~,,
+29,"Unpolarized capacitor, small symbol",C410,10u/10V,0603_C,1.0,~,,
+30,Unpolarized capacitor,C205,1u/35V,0805_C,1.0,~,,
+31,"Unpolarized capacitor, small symbol",C301,1u/35V,0603_C,1.0,~,,
+32,"Unpolarized capacitor, small symbol",C401,1u/35V,0805_C,1.0,~,,
+33,"Unpolarized capacitor, small symbol",C402,1u/35V,0805_C,1.0,~,,
+34,"Unpolarized capacitor, small symbol",C309,2u2/10V,0805_C,1.0,~,,
+35,Light emitting diode,D101,LED_Green,LED_0603_HandSoldering,1.0,~,,
+36,Schottky diode,D201,SS54,D_SMA,1.0,https://www.farnell.com/datasheets/1441695.pdf,SS54,
+37,Schottky diode,D202,SS54,D_SMA,1.0,https://www.farnell.com/datasheets/1441695.pdf,SS54,
+38,Inductor,L202, BCRH1212Y-680M,L_Sunlord_MWSA1206,1.0,https://datasheet.lcsc.com/szlcsc/Sunlord-MWSA1206-470MT_C115409.pdf,MWSA1206-470MT,Sunlord
+39,Inductor,L201, SPN30304R7MPTE,L_Sunlord_MWSA0402,1.0,https://datasheet.lcsc.com/szlcsc/Sunlord-MWSA0402-4R7MT_C136097.pdf,MWSA0402-4R7MT,Sunlord
+40,"100A Id, 30V Vds, NexFET N-Channel Power MOSFET, 4.2mOhm Ron, Qg (typ) 11.8nC, SON8 5x6mm",Q404,CSD17306Q5A,TDSON-8-1_HandSoldering,1.0,http://www.ti.com/lit/gpn/csd17306q5a,CSD17306Q5A,Texas Instruments
+41,"100A Id, 30V Vds, NexFET N-Channel Power MOSFET, 4.2mOhm Ron, Qg (typ) 11.8nC, SON8 5x6mm",Q408,CSD17306Q5A,TDSON-8-1_HandSoldering,1.0,http://www.ti.com/lit/gpn/csd17306q5a,CSD17306Q5A,Texas Instruments
+42,MOSFET N-CH 30V 5A SOT23,Q401,IRLML6344TRPBF,SOT-23-3,1.0,https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c,IRLML6344TRPBF,Infineon Technologies
+43,MOSFET N-CH 30V 5A SOT23,Q402,IRLML6344TRPBF,SOT-23-3,1.0,https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c,IRLML6344TRPBF,Infineon Technologies
+44,MOSFET N-CH 30V 5A SOT23,Q403,IRLML6344TRPBF,SOT-23-3,1.0,https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c,IRLML6344TRPBF,Infineon Technologies
+45,MOSFET N-CH 30V 5A SOT23,Q406,IRLML6344TRPBF,SOT-23-3,1.0,https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c,IRLML6344TRPBF,Infineon Technologies
+46,Resistor,R101,10k,0603_R,1.0,~,,
+47,"Resistor, small symbol",R201,10k,0603_R,1.0,~,,
+48,Resistor,R206,10k,0603_R,1.0,~,,
+49,"Resistor, small symbol",R413,10k,0603_R,1.0,~,,
+50,"Resistor, small symbol",R415,10k,0603_R,1.0,~,,
+51,"Resistor, small symbol",R417,10k,0603_R,1.0,~,,
+52,"Resistor, small symbol",R418,10k,0603_R,1.0,~,,
+53,"Resistor, small symbol",R205,12k,0603_R,1.0,~,,
+54,"Resistor, small symbol",R302,12k,0603_R,1.0,~,,
+55,"Resistor, small symbol",R304,12k,0603_R,1.0,~,,
+56,"Resistor, small symbol",R305,12k,0603_R,1.0,~,,
+57,"Resistor, small symbol",R307,12k,0603_R,1.0,~,,
+58,"Resistor, small symbol",R401,15k,0603_R,1.0,~,,
+59,"Resistor, small symbol",R416,15k,0603_R,1.0,~,,
+60,"Resistor, small symbol",R306,18k,0603_R,1.0,~,,
+61,"Resistor, small symbol",R308,18k,0603_R,1.0,~,,
+62,"Resistor, small symbol",R105,1k5,0603_R,1.0,~,,
+63,"Resistor, small symbol",R402,1k5,0603_R,1.0,~,,
+64,"Resistor, small symbol",R403,1k5,0603_R,1.0,~,,
+65,"Resistor, small symbol",R404,1k5,0603_R,1.0,~,,
+66,"Resistor, small symbol",R409,1k5,0603_R,1.0,~,,
+67,"Resistor, small symbol",R410,1k5,0603_R,1.0,~,,
+68,"Resistor, small symbol",R411,1k5,0603_R,1.0,~,,
+69,"Resistor, small symbol",R202,24k,0603_R,1.0,~,,
+70,"Resistor, small symbol",R208,24k,0603_R,1.0,~,,
+71,Resistor,R102,470R,0603_R,1.0,~,,
+72,Resistor,R103,470R,0603_R,1.0,~,,
+73,Resistor,R104,50R,0603_R,1.0,~,,
+74,Resistor,R106,50R,0603_R,1.0,~,,
+75,Resistor,R107,50R,0603_R,1.0,~,,
+76,Resistor,R108,50R,0603_R,1.0,~,,
+77,"Resistor, small symbol",R203,68k,0603_R,1.0,~,,
+78,"Resistor, small symbol",R301,68k,0603_R,1.0,~,,
+79,"Resistor, small symbol",R303,68k,0603_R,1.0,~,,
+80,"Resistor, small symbol",R204,6k2,0603_R,1.0,~,,
+81,"Resistor, small symbol",R408,6k2,0603_R,1.0,~,,
+82,"Resistor, small symbol",R207,75k,0603_R,1.0,~,,
+83,"Resistor, small symbol",R405,75k,0603_R,1.0,~,,
+84,"Resistor, small symbol",R406,75k,0603_R,1.0,~,,
+85,"Resistor, small symbol",R407,75k,0603_R,1.0,~,,
+86,"Resistor, small symbol",R414,75k,0603_R,1.0,~,,
+87,,U403,AD5160BRJZ10-R2,SOT-23-8,1.0,https://www.analog.com/media/en/technical-documentation/data-sheets/AD5160.pdf,Analog Devices,AD5160BRJZ10-R2
+88,,U201,AP1501-K5,TO-263-5_TabPin3,1.0,https://www.diodes.com/assets/Datasheets/AP1501.pdf,AP1501-K5,Diodes Inc
+89,,U102,IS25LP032D,SOIC-8_W5.6mm,1.0,http://www.issi.com/WW/pdf/25LP-WP032D.pdf,IS25LP032D,ISSI
+90,"150mA 16V Low-noise Low-dropout Regulator With Shutdown, 5.0V output voltage, SOT-23-5",U301,LP2985-5.0,SOT-23-5,1.0,http://www.ti.com/lit/ds/symlink/lp2985.pdf,LP2985-5.0,Texas Instruments
+91,,U401,MCP1416,SOT-23-5,1.0,http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf,MCP1416,Microchip
+92,,U402,MCP1416,SOT-23-5,1.0,http://ww1.microchip.com/downloads/en/DeviceDoc/20002092F.pdf,MCP1416,Microchip
+93,"1MHz, Low-Power Op Amp, SOT-23-5",U303,MCP6001-OT,SOT-23-5,1.0,http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf,MCP6001-OT,Microchip
+94,"1MHz, Low-Power Op Amp, SOT-23-5",U305,MCP6001-OT,SOT-23-5,1.0,http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf,MCP6001-OT,Microchip
+95,"1MHz, Low-Power Op Amp, SOT-23-5",U404,MCP6001-OT,SOT-23-5,1.0,http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf,MCP6001-OT,Microchip
+96,"1MHz, Low-Power Op Amp, SOT-23-5",U407,MCP6001-OT,SOT-23-5,1.0,http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf,MCP6001-OT,Microchip
+97,,U202,RT6200,SOT-23-6_Handsoldering,1.0,https://www.richtek.com/assets/product_file/RT6200/DS6200-04.pdf,RT6200,Richtek Tech
+98,,U101,STM32F303CBx,LQFP-48_7x7mm_Pitch0.5mm,1.0,https://www.st.com/resource/en/datasheet/stm32f303cb.pdf,STM32F303CB,ST Microelectronics
+99,OPTOISO 3.75KV PSH PULL SO6-5,U405,TLP2361_TPL_E,SOIC-6-5_W4.55mm,1.0,https://toshiba.semicon-storage.com/info/docget.jsp?did=14229&prodName=TLP2361,TLP2361-TPLECT,Toshiba Semiconductor and Storage
+100,OPTOISO 3.75KV PSH PULL SO6-5,U406,TLP2361_TPL_E,SOIC-6-5_W4.55mm,1.0,https://toshiba.semicon-storage.com/info/docget.jsp?did=14229&prodName=TLP2361,TLP2361-TPLECT,Toshiba Semiconductor and Storage
+101,,X101,SG-310_SCF_8.000000MHZ,SG- 310,1.0,https://support.epson.biz/td/api/doc_check.php?dl=brief_SG-310SEF&lang=en,SG-310_SCF_8.000000MHZ,Epson
+Component Groups:,130,,,,,,,
+Component Count:,130,,,,,,,
+Fitted Components:,101,,,,,,,
+Number of PCBs:,1,,,,,,,
+Total components:,101,,,,,,,
+Schematic Version:,1.1,,,,,,,
+Schematic Date:,2020-02-24,,,,,,,
+PCB Variant:,prod,,,,,,,
+BoM Date:,1.3.2020 13.21.48,,,,,,,
+Schematic Source:,C:\Users\akiku\GIT\rctelemetry\hw\Telemetry.sch,,,,,,,
+KiCad Version:,Eeschema (5.1.5)-3,,,,,,,

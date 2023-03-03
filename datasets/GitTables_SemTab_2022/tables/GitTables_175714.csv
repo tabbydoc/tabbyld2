@@ -1,0 +1,36 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+47,1.0,APC,Normal,Normal,,,5.0,112073585.0,112179823.0
+47,1.0,ATM,Normal,Normal,,,11.0,108093559.0,108236235.0
+47,1.0,BAP1,Normal,Normal,,,3.0,52436304.0,52443894.0
+47,1.0,BARD1,Normal,Normal,,,2.0,215593400.0,215674293.0
+47,1.0,BMPR1A,Normal,Normal,,,10.0,88516396.0,88683476.0
+47,1.0,BRCA1,Normal,Normal,,,17.0,41197695.0,41277387.0
+47,1.0,BRCA2,Normal,Normal,,,13.0,32889611.0,32972907.0
+47,1.0,BRIP1,Normal,Normal,,,17.0,59760657.0,59940755.0
+95,1.0,APC,Normal,Normal,,,5.0,112073585.0,112179823.0
+95,1.0,ATM,Normal,Normal,,,11.0,108093559.0,108236235.0
+95,1.0,BAP1,Normal,Normal,,,3.0,52436304.0,52443894.0
+95,1.0,BARD1,Normal,Normal,,,2.0,215593400.0,215674293.0
+95,1.0,BMPR1A,Normal,Normal,,,10.0,88516396.0,88683476.0
+95,1.0,BRCA1,Normal,Normal,,,17.0,41197695.0,41277387.0
+95,1.0,BRCA2,Normal,Normal,,,13.0,32889611.0,32972907.0
+95,1.0,MLH1,Normal,Normal,,,3.0,37035039.0,37092144.0
+95,1.0,MSH2,Normal,Normal,,,2.0,47630331.0,47710088.0
+9848,1.0,MSH6,Normal,Normal,,,2.0,48010373.0,48033999.0
+9848,1.0,MUTYH,Normal,Normal,,,1.0,45794978.0,45805926.0
+9848,1.0,NBN,Normal,Normal,,,8.0,90947810.0,90996789.0
+9848,1.0,PALB2,Normal,Normal,,,16.0,23614780.0,23652478.0
+9848,1.0,PMS2,Normal,Normal,,,7.0,6026390.0,6048650.0
+9848,1.0,PTEN,Normal,Normal,,,10.0,89624227.0,89725229.0
+9848,1.0,RAD51C,Normal,Normal,,,17.0,56770005.0,56811583.0
+9848,1.0,RAD51D,Normal,Normal,,,17.0,33427972.0,33446632.0
+4548,1.0,NSD1,Exon 9-13 deletion,ExonCNV,Deletion,Multi,6.0,176671196.0,176684152.0
+4548,1.0,MSH2,Exon 8 duplication,ExonCNV,Duplication,Single,1.0,47672687.0,47672796.0
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Explanations:,,,,,,,,,
+SampleID: sample name.  IMPORTANT: SampeID must match sample file name; Example: Sample 47 expect 47.bam and 47.bam.bai files at bams folder,,,,,,,,,
+ICR96Pool: ignore,,,,,,,,,
+Gene: gene validate via MLPA,,,,,,,,,

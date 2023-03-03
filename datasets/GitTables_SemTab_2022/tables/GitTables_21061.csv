@@ -1,0 +1,48 @@
+col0,col1,col2,col3,col4,col5,col6
+,D1,Dashboard,page,/site/index,,
+,D2,Todays Appointment,button,/site/index,,
+,D3,Sales Opportunities,button,/site/index,,
+,D4,Appts Missing Agent Prep,button,/site/index,,
+,D5,Add New Customer,button,/site/index,,
+,D6,Future Appointments,button,/site/index,,
+,D7,Open Action Items,button,/site/index,,
+,D8,Appts Missing Needs Assesment,button,/site/index,,
+,D9,Account Setup,button,/site/index,,
+,GM1,Go To Menu,page,/none/none,,
+,GM2,Dashboard,gotomenu,/none/none,,
+,GM3,Customer List,gotomenu,/none/none,,
+,GM4,Action Items,gotomenu,/none/none,,
+,GM5,Account Setup,gotomenu,/none/none,,
+,AC1,Action Items,page,/account/action_item,,
+,AC2,Print,button,/account/action_item,,
+,AC3,Export,button,/account/action_item,,
+,AC4,Add Action Item,button,/account/action_item,,
+,AC5,Delete Action Item,button,/account/action_item,.btn-delete,AC1
+,CUS1,Customer Listing,page,/customer/listing,,
+,CUS2,Import,button,/customer/listing,,
+,CUS3,Add New Customer,button,/customer/listing,,
+,CUS4,Agent Prep,button,/customer/listing,.btn-tran-AP,CUS1
+,CUS5,Needs Assessment,button,/customer/listing,.btn-tran-NA,CUS1
+,CUS6,CIR,button,/customer/listing,.btn-tran-CIR,CUS1
+,CUS7,Reports,button,/customer/listing,.btn-report,CUS1
+,CUS8,Delete Customer(s),button,/customer/listing,.btn-deletegrid,CUS1
+,CUS9,Referral,button,/customer/listing,.btn-referral,CUS1
+,A1,Account Setup,page,/account/setup,,
+,A2,Your Information,section,/account/setup,,
+,A3,Update Logo,section,/account/setup,,
+,A4,Change Password,section,/account/setup,,
+,A5,Security Group,section,/account/setup,,
+,A6,Staff List,section,/account/setup,,
+,A7,Email Settings,section,/account/setup,,
+,A8,            Test Email,button,/account/setup,,
+,A9,            Update,button,/account/setup,,
+,A10,Billing,section,/account/setup,,
+,A11,Lists,section,/account/setup,,
+,A12,Color Scheme,section,/account/setup,,
+,A13,Referral Program,section,/account/setup,,
+,A14,Build your Referral Program,section,/account/setup,,
+,A15,Policy Type Setup,section,/account/setup,,
+,A16,  Resource Upload,button,/account/setup,,
+,A17,  Add Policy,button,/account/setup,,
+,A18,Membership,section,/account/setup,,
+,A19,  Cancel Account,button,/account/setup,,

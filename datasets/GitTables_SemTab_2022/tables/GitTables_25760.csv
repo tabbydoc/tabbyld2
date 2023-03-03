@@ -1,0 +1,51 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+Tokyo,Tokyo,35.685,139.7514,Japan,JP,JPN,Tōkyō,primary,35676000.0,1392685764
+New York,New York,40.6943,-73.9249,United States,US,USA,New York,,19354922.0,1840034016
+Mexico City,Mexico City,19.4424,-99.131,Mexico,MX,MEX,Ciudad de México,primary,19028000.0,1484247881
+Mumbai,Mumbai,19.017,72.857,India,IN,IND,Mahārāshtra,admin,18978000.0,1356226629
+São Paulo,Sao Paulo,-23.5587,-46.625,Brazil,BR,BRA,São Paulo,admin,18845000.0,1076532519
+Delhi,Delhi,28.67,77.23,India,IN,IND,Delhi,admin,15926000.0,1356872604
+Shanghai,Shanghai,31.2165,121.4365,China,CN,CHN,Shanghai,admin,14987000.0,1156073548
+Kolkata,Kolkata,22.495,88.3247,India,IN,IND,West Bengal,admin,14787000.0,1356060520
+Los Angeles,Los Angeles,34.1139,-118.4068,United States,US,USA,California,,12815475.0,1840020491
+Dhaka,Dhaka,23.7231,90.4086,Bangladesh,BD,BGD,Dhaka,primary,12797394.0,1050529279
+Buenos Aires,Buenos Aires,-34.6025,-58.3975,Argentina,AR,ARG,"Buenos Aires, Ciudad Autónoma de",primary,12795000.0,1032717330
+Karachi,Karachi,24.87,66.99,Pakistan,PK,PAK,Sindh,admin,12130000.0,1586129469
+Cairo,Cairo,30.05,31.25,Egypt,EG,EGY,Al Qāhirah,primary,11893000.0,1818253931
+Rio de Janeiro,Rio de Janeiro,-22.925,-43.225,Brazil,BR,BRA,Rio de Janeiro,admin,11748000.0,1076887657
+Ōsaka,Osaka,34.75,135.4601,Japan,JP,JPN,Ōsaka,admin,11294000.0,1392419823
+Beijing,Beijing,39.9289,116.3883,China,CN,CHN,Beijing,primary,11106000.0,1156228865
+Manila,Manila,14.6042,120.9822,Philippines,PH,PHL,Manila,primary,11100000.0,1608618140
+Moscow,Moscow,55.7522,37.6155,Russia,RU,RUS,Moskva,primary,10452000.0,1643318494
+Istanbul,Istanbul,41.105,29.01,Turkey,TR,TUR,İstanbul,admin,10061000.0,1792756324
+Paris,Paris,48.8667,2.3333,France,FR,FRA,Île-de-France,primary,9904000.0,1250015082
+Seoul,Seoul,37.5663,126.9997,"Korea, South",KR,KOR,Seoul,primary,9796000.0,1410836482
+Lagos,Lagos,6.4433,3.3915,Nigeria,NG,NGA,Lagos,minor,9466000.0,1566593751
+Jakarta,Jakarta,-6.1744,106.8294,Indonesia,ID,IDN,Jakarta,primary,9125000.0,1360771077
+Guangzhou,Guangzhou,23.145,113.325,China,CN,CHN,Guangdong,admin,8829000.0,1156237133
+Chicago,Chicago,41.8373,-87.6862,United States,US,USA,Illinois,,8675982.0,1840000494
+London,London,51.5,-0.1167,United Kingdom,GB,GBR,"London, City of",primary,8567000.0,1826645935
+Lima,Lima,-12.048,-77.0501,Peru,PE,PER,Lima,primary,8012000.0,1604728603
+Tehran,Tehran,35.6719,51.4243,Iran,IR,IRN,Tehrān,primary,7873000.0,1364305026
+Kinshasa,Kinshasa,-4.3297,15.315,Congo (Kinshasa),CD,COD,Kinshasa,primary,7843000.0,1180000363
+Bogotá,Bogota,4.5964,-74.0833,Colombia,CO,COL,Bogotá,primary,7772000.0,1170483426
+Shenzhen,Shenzhen,22.5524,114.1221,China,CN,CHN,Guangdong,minor,7581000.0,1156158707
+Wuhan,Wuhan,30.58,114.27,China,CN,CHN,Hubei,admin,7243000.0,1156117184
+Hong Kong,Hong Kong,22.305,114.185,Hong Kong,HK,HKG,,,7206000.0,1344982653
+Tianjin,Tianjin,39.13,117.2,China,CN,CHN,Tianjin,admin,7180000.0,1156174046
+Chennai,Chennai,13.09,80.28,India,IN,IND,Tamil Nādu ,admin,7163000.0,1356374944
+Taipei,Taipei,25.0358,121.5683,Taiwan,TW,TWN,Taipei,primary,6900273.0,1158881289
+Bengalūru,Bengaluru,12.97,77.56,India,IN,IND,Karnātaka,admin,6787000.0,1356410365
+Bangkok,Bangkok,13.75,100.5166,Thailand,TH,THA,Krung Thep Maha Nakhon,primary,6704000.0,1764068610
+Lahore,Lahore,31.56,74.35,Pakistan,PK,PAK,Punjab,admin,6577000.0,1586801463
+Chongqing,Chongqing,29.565,106.595,China,CN,CHN,Chongqing,admin,6461000.0,1156936556
+Miami,Miami,25.7839,-80.2102,United States,US,USA,Florida,,6381966.0,1840015149
+Hyderabad,Hyderabad,17.4,78.48,India,IN,IND,Telangana,admin,6376000.0,1356871768
+Dallas,Dallas,32.7936,-96.7662,United States,US,USA,Texas,,5733259.0,1840019440
+Santiago,Santiago,-33.45,-70.667,Chile,CL,CHL,Región Metropolitana,primary,5720000.0,1152554349
+Philadelphia,Philadelphia,40.0077,-75.1339,United States,US,USA,Pennsylvania,,5637884.0,1840000673
+Belo Horizonte,Belo Horizonte,-19.915,-43.915,Brazil,BR,BRA,Minas Gerais,admin,5575000.0,1076967355
+Madrid,Madrid,40.4,-3.6834,Spain,ES,ESP,Madrid,primary,5567000.0,1724616994
+Houston,Houston,29.7869,-95.3905,United States,US,USA,Texas,,5446468.0,1840020925
+Ahmadābād,Ahmadabad,23.0301,72.58,India,IN,IND,Gujarāt,minor,5375000.0,1356304381
+Ho Chi Minh City,Ho Chi Minh City,10.78,106.695,Vietnam,VN,VNM,Hồ Chí Minh,admin,5314000.0,1704774326

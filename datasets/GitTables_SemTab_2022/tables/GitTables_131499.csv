@@ -1,0 +1,6 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+exercises-csv-channel-root/mathexercises/exercise1,First Exercise,exrc1,This is the first math exercise that will appear in the Math Exercises topic.,Ivan Savov,en,CC BY,,Learning Equality,1.0,2.0,True,
+exercises-csv-channel-root/mathexercises/exercise2,Second Exercise,exrc2,एक दूसरा गणित अभ्यास,Ivan Savov,hi,CC BY,,Learning Equality,,,False,
+exercises-csv-channel-root/mathexercises/exercise3,Third Exercise,exrc3,An exercise that shows figures in question and use of LaTeX markup,Ivan Savov,en,CC BY,,Learning Equality,,,False,
+exercises-csv-channel-root/physicsexercises/exercise4,Fourth Exercise,exrc4,A physics exercise about momentum,Ivan Savov,en,CC BY,,Learning Equality,,,False,
+exercises-csv-channel-root/physicsexercises/exercise5,Fifth Exercise,exrc5,An exercise that shows figures as answers,Ivan Savov,en,CC BY,,Learning Equality,,,False,

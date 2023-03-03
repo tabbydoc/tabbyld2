@@ -1,0 +1,303 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1,4,4,2,3,Dodo,0,1
+2,2,2,2,7,Tonberry,0,1
+3,3,4,3,3,Sabotender,0,1
+4,4,2,3,4,Spriggan,0,1
+5,5,2,4,3,Pudding,0,1
+6,3,3,4,3,Bomb,0,1
+7,3,4,2,5,Mandragora,0,1
+8,4,3,3,3,Coblyn,0,1
+9,2,5,2,5,Morbol,0,1
+10,5,2,5,2,Coeurl,0,1
+11,2,5,5,2,Ahriman,0,1
+12,2,2,5,5,Goobbue,0,1
+13,7,4,1,1,Gaelicat,0,1
+14,2,1,3,7,Deepeye,0,1
+15,1,3,4,4,Apkallu,0,1
+16,1,6,1,4,Colibri,0,1
+17,6,1,4,2,Opo-opo,0,1
+18,1,5,2,5,Mossling,0,1
+19,6,3,2,1,Koja,0,1
+20,5,6,1,1,Wanyudo & Katasharin,0,1
+21,4,7,1,1,Karakuri Hanya,0,1
+22,3,1,7,2,Amaro,0,1
+23,2,7,2,2,Evil Weapon,0,1
+24,2,2,7,2,Hobgoblin,0,1
+25,4,1,2,6,Porxie,0,1
+26,7,2,2,2,Flower Basket,0,1
+27,1,3,7,2,Chocobo,0,1
+28,1,1,4,7,Amalj'aa,3,1
+29,4,6,1,3,Ixal,3,1
+30,4,2,4,5,Sylph,3,1
+31,6,2,2,4,Kobold,3,1
+32,3,4,5,3,Sahagin,3,1
+33,7,2,1,3,Moogle,3,1
+34,5,1,6,1,Namazu,3,1
+35,2,4,6,2,Qitari,3,1
+36,2,2,4,6,Dwarf,3,1
+37,3,4,3,2,Magitek Death Claw,4,1
+38,2,7,2,3,Tataru Taru,2,1
+39,7,1,4,1,Stormblood Tataru Taru,2,1
+40,1,5,1,6,Lord and Lady Chai,0,1
+41,5,5,4,6,Archaeornis,0,2
+42,6,4,6,3,Paissa,0,2
+43,5,6,5,3,Dhalmel,0,2
+44,4,6,6,3,Bandersnatch,0,2
+45,2,7,7,3,Crawler,0,2
+46,3,6,3,7,Poroggo,0,2
+47,2,3,6,7,Siren,0,2
+48,7,2,3,6,Ultros & Typhon,0,2
+49,3,6,7,2,Demon Wall,0,2
+50,6,7,3,2,Succubus,0,2
+51,2,7,7,2,Chimera,0,2
+52,7,2,2,7,Blue Dragon,0,2
+53,6,4,3,6,Liquid Flame,0,2
+54,5,7,3,4,Lost Lamb,0,2
+55,4,5,7,4,Adamantoise,0,2
+56,6,7,2,2,Chapuli,0,2
+57,4,4,2,7,Ango,0,2
+58,6,2,7,5,Hatamoto,0,2
+59,5,3,7,3,Yukinko,0,2
+60,7,3,7,1,Muud Suud,0,2
+61,7,4,5,3,Dvergr,0,2
+62,4,7,4,4,Gigantender,0,2
+63,5,3,5,6,Iguana,0,2
+64,6,2,4,7,Gnoll,0,2
+65,6,6,4,2,Rolling Tankard,0,2
+66,5,5,5,5,Fat Chocobo,0,2
+67,6,6,6,2,Scarface Bugaal Ja,3,2
+68,6,6,2,6,Frixio,3,2
+69,6,2,6,6,Mutamix Bubblypots,3,2
+70,2,6,6,6,Memeroon,3,2
+71,7,2,6,4,Vanu Vanu,3,2
+72,3,6,3,7,Gnath,3,2
+73,3,5,5,6,Delivery Moogle,3,2
+74,4,4,5,5,Kojin,3,2
+75,2,3,7,5,Ananta,3,2
+76,5,1,5,7,Qiqirn Meateater,3,2
+77,1,7,5,5,Feo Ul,3,2
+78,4,7,6,2,Nu Mou,3,2
+79,2,7,4,6,Fuath,3,2
+80,1,3,7,7,Livia sas Junius,4,2
+81,7,7,1,3,Rhitahtyn sas Arvina,4,2
+82,3,6,3,6,Magitek Colossus,4,2
+83,7,3,5,4,Magitek Vanguard,4,2
+84,5,3,5,5,Magitek Gunship,4,2
+85,7,2,7,2,Hoary Boulder & Coultenet,2,2
+86,3,7,5,5,Momodi Modi,0,2
+87,5,3,7,5,Baderon Tenfingers,0,2
+88,7,5,5,3,Mother Miounne,0,2
+89,3,4,3,7,Lolorito Nanarito,0,2
+90,7,1,7,3,Gerolt,0,2
+91,6,5,6,4,Rhoswen,0,2
+92,2,2,7,7,Carvallain de Gorgagne,0,2
+93,5,5,3,7,Biggs & Wedge,0,2
+94,3,7,7,1,Yugiri Mistwalker,0,2
+95,6,2,6,3,Gibrillont,0,2
+96,2,7,2,7,Honoroit,0,2
+97,3,7,6,3,Laniaitte de Haillenarte,0,2
+98,6,4,7,1,Gold Saucer Attendant,0,2
+99,7,4,1,4,M'naago,0,2
+100,6,5,6,2,Kotokaze,0,2
+101,4,6,4,4,Guidance Node,0,2
+102,7,6,2,3,Tansui,0,2
+103,7,7,1,1,Ejika Tsunjika,0,2
+104,1,6,4,7,Runar,0,2
+105,7,1,3,7,Grenoldt,0,2
+106,4,5,5,6,Lizbeth,0,2
+107,7,1,7,1,Ehll Tou,0,2
+108,2,7,8,4,Behemoth,0,3
+109,4,8,2,7,Vedrfolnir,0,3
+110,7,2,8,4,Darkscale,0,3
+111,8,5,5,5,Coeurlregina,0,3
+112,4,8,4,5,Brachiosaur,0,3
+113,4,7,3,6,Fenrir,0,3
+114,6,3,6,6,Kraken,0,3
+115,5,7,1,7,Vicegerent to the Warden,0,3
+116,4,4,6,8,Ferdiad,0,3
+117,8,5,1,7,Griffin,0,3
+118,7,1,5,8,Tioman,0,3
+119,7,8,4,1,Byblos,0,3
+120,7,1,6,7,Waukkeon,0,3
+121,7,4,6,4,Curator,0,3
+122,6,6,6,3,Progenitrix,0,3
+123,7,3,7,3,Belladonna,0,3
+124,3,6,6,6,Calcabrina,0,3
+125,7,8,3,2,Kuribu,0,3
+126,7,5,7,1,Strix,0,3
+127,5,3,8,5,Lava Scorpion,0,3
+128,3,6,3,8,Mammoth,0,3
+129,1,8,8,3,Phoebad,0,3
+130,7,2,7,6,Hrodric Poisontongue,0,3
+131,7,7,7,1,Genbu,0,3
+132,7,7,1,7,Byakko,0,3
+133,8,3,8,4,Qitian Dasheng,0,3
+134,7,4,7,5,Hiruko,0,3
+135,3,3,8,7,Happy Bunny,0,3
+136,7,5,8,2,Louhi,0,3
+137,7,2,6,6,Tokkapchi,0,3
+138,5,5,8,5,Mist Dragon,0,3
+139,7,1,7,7,Suzaku,0,3
+140,7,4,8,4,Pazuzu,0,3
+141,5,7,2,8,Penthesilea,0,3
+142,8,7,4,4,Provenance Watcher,0,3
+143,1,7,7,7,Seiryu,0,3
+144,6,2,6,8,Philia,0,3
+145,2,8,6,6,Titania,0,3
+146,8,6,2,6,Eros,0,3
+147,6,6,8,2,Storge,0,3
+148,5,8,5,5,Formidable,0,3
+149,4,8,7,2,Leannan Sith,0,3
+150,8,4,6,6,Seeker of Solitude,0,3
+151,6,6,2,8,Batsquatch,0,3
+152,6,8,7,1,Forgiven Obscenity,0,3
+153,2,7,5,8,Huaca,0,3
+154,8,5,6,3,Unknown,0,3
+155,7,5,4,7,Lugus,0,3
+156,6,6,6,6,Alpha,0,3
+157,7,1,7,6,Phlegethon,0,3
+158,4,6,4,7,Echidna,0,3
+159,8,4,7,1,Rofocale,0,3
+160,5,8,5,4,Moglin,3,3
+161,8,2,2,8,Roundrox,3,3
+162,8,3,7,2,Manxome Molaa Ja Ja,3,3
+163,2,7,6,6,Tozol Huatotl,3,3
+164,7,3,3,8,Lupin,3,3
+165,7,7,1,6,Ifrit,1,3
+166,6,1,7,7,Titan,1,3
+167,7,7,6,1,Garuda,1,3
+168,1,7,6,7,Good King Moggle Mog XII,1,3
+169,8,7,3,2,Alexander Prime,1,3
+170,8,2,8,3,Susano,1,3
+171,5,3,7,7,Lakshmi,1,3
+172,7,4,1,8,Nero tol Scaeva,4,3
+173,5,5,7,4,Magitek Predator,4,3
+174,7,6,2,6,Magitek Sky Armor,4,3
+175,4,7,4,7,Grynewaht,4,3
+176,8,8,4,1,Asahi sas Brutus,4,3
+177,3,6,5,8,Prometheus,4,3
+178,7,2,3,8,Thancred,2,3
+179,2,3,7,8,Papalymo & Yda,2,3
+180,4,7,8,1,Y'shtola,2,3
+181,7,8,1,4,Urianger,2,3
+182,2,8,4,8,Arenvald Lentinus,2,3
+183,3,8,3,7,Gilgamesh & Enkidu,0,3
+184,6,5,6,6,Raya-O-Senna & A-Ruhn-Senna,0,3
+185,6,6,6,5,Godbert Manderville,0,3
+186,6,5,6,7,Mistbeard,0,3
+187,3,8,8,2,Estinien,0,3
+188,8,8,2,3,Lucia goe Junius,0,3
+189,1,4,8,8,Ysayle,0,3
+190,8,1,4,8,Hilda,0,3
+191,1,8,3,8,Matoya,0,3
+192,8,1,8,3,Count Edmont de Fortemps,0,3
+193,8,7,1,5,Haurchefant,0,3
+194,7,4,7,3,Artoirel de Fortemps,0,3
+195,3,7,4,7,Emmanellain de Fortemps,0,3
+196,6,6,5,6,Pipin Tarupin,0,3
+197,7,6,6,5,Julyan Manderville,0,3
+198,8,1,8,4,Kal Myhk,0,3
+199,3,7,8,4,Charibert,0,3
+200,5,4,7,6,"Brendt, Brennan, & Bremondt",0,3
+201,1,8,8,4,The Griffin,0,3
+202,3,2,7,8,Roland,0,3
+203,2,4,7,8,Rasho,0,3
+204,8,3,5,6,Cirina,0,3
+205,4,6,7,4,Magnai,0,3
+206,4,6,6,7,Sadu,0,3
+207,3,5,8,6,Fordola rem Lupis,0,3
+208,3,1,8,8,Lyna,0,3
+209,6,4,4,7,Jongleurs of Eulmore,0,3
+210,7,7,7,7,Brute Justice,0,4
+211,8,8,3,8,Innocence,0,4
+212,7,9,4,6,Xande,0,4
+213,8,5,8,7,Calofisteri,0,4
+214,9,4,4,8,Diabolos Hollow,0,4
+215,8,9,2,5,Argath Thadalfus,0,4
+216,7,6,9,6,Great Gold Whisker,3,4
+217,8,8,8,1,Odin,1,4
+218,8,8,1,8,Ramuh,1,4
+219,1,8,8,8,Leviathan,1,4
+220,8,1,8,8,Shiva,1,4
+221,1,9,7,8,Ravana,1,4
+222,8,1,9,7,Bismarck,1,4
+223,6,6,8,8,Sephirot,1,4
+224,2,7,8,8,Shinryu,1,4
+225,8,2,7,7,Tsukuyomi,1,4
+226,1,7,8,9,The Ultima Weapon,4,4
+227,9,3,9,3,Nael van Darnus,4,4
+228,7,3,5,9,Armored Weapon,4,4
+229,6,9,2,8,Yotsuyu,4,4
+230,9,8,7,1,Ruby Weapon,4,4
+231,7,1,9,8,Sapphire Weapon,4,4
+232,5,9,8,3,Minfilia,2,4
+233,9,9,3,3,Alphinaud & Alisaie,2,4
+234,3,9,4,9,Louisoix Leveilleur,2,4
+235,7,9,7,3,F'lhaminn,2,4
+236,9,8,1,7,Heavensward Thancred,2,4
+237,5,9,9,2,Heavensward Y'shtola,2,4
+238,7,2,8,8,Krile,2,4
+239,8,6,9,1,Lyse,2,4
+240,9,2,9,5,Shadowbringers Y'shtola,2,4
+241,9,9,2,5,Shadowbringers Urianger,2,4
+242,1,7,9,8,Shadowbringers Thancred,2,4
+243,8,4,9,4,Lahabrea,0,4
+244,2,5,9,9,Cid Garlond,0,4
+245,8,6,8,6,Unei & Doga,0,4
+246,9,1,5,9,Aymeric,0,4
+247,6,9,5,7,Senor Sabotender,0,4
+248,6,8,6,8,Vidofnir,0,4
+249,6,9,6,5,Tiamat,0,4
+250,7,6,8,4,Gigi,0,4
+251,7,8,9,1,Hancock,0,4
+252,4,9,4,8,Stormblood Gilgamesh,0,4
+253,5,1,9,9,Ran'jit,0,4
+254,4,7,7,9,Oracle of Light,0,4
+255,4,8,4,9,Elidibus,0,4
+256,1,10,9,7,Archaeotania,0,5
+257,9,9,9,2,Therion,0,5
+258,6,7,10,7,Cloud of Darkness,0,5
+259,7,7,6,10,Yiazmat,0,5
+260,7,6,10,7,"Ultima, the High Seraph",0,5
+261,10,4,8,6,9S,0,5
+262,6,4,8,10,2P,0,5
+263,6,9,5,9,Bahamut,1,5
+264,6,10,8,5,Sophia,1,5
+265,10,3,7,8,Zurvan,1,5
+266,5,2,10,10,Shadowbringers Warrior of Light,1,5
+267,9,4,10,5,Gaius van Baelsar,4,5
+268,8,8,8,6,Regula van Hydrus,4,5
+269,10,6,6,7,Zenos yae Galvus,4,5
+270,1,10,10,4,Varis yae Galvus,4,5
+271,8,6,8,8,Stormblood Alphinaud & Alisaie,2,5
+272,8,1,8,10,Hildibrand & Nashu Mhakaracca,0,5
+273,3,5,9,10,Merlwyb Bloefhiswyn,0,5
+274,7,9,10,1,Kan-E-Senna,0,5
+275,10,6,2,9,Raubahn Aldynn,0,5
+276,8,10,6,4,Nanamo Ul Namo,0,5
+277,8,10,7,3,Nidhogg,0,5
+278,6,7,7,10,Hraesvelgr,0,5
+279,7,3,8,10,Midgardsormr,0,5
+280,9,7,1,10,Archbishop Thordan VII,0,5
+281,10,2,10,5,Hien,0,5
+282,6,1,10,10,Raubahn & Pipin,0,5
+283,9,10,2,7,Hisui & Kurenai,0,5
+284,2,10,5,10,Gosetsu,0,5
+285,8,10,8,1,Yojimbo & Daigoro,0,5
+286,10,6,9,3,Omega,0,5
+287,10,8,6,6,Hades,0,5
+288,9,1,9,9,Ardbert,0,5
+289,10,10,2,5,Warrior of Light,0,5
+290,1,10,5,10,Firion,0,5
+291,10,8,2,8,Onion Knight,0,5
+292,10,4,10,4,Cecil Harvey,0,5
+293,10,4,4,10,Bartz Klauser,0,5
+294,5,10,10,2,Terra Branford,0,5
+295,8,9,3,9,Cloud Strife,0,5
+296,1,6,10,10,Squall Leonhart,0,5
+297,8,5,10,6,Zidane Tribal,0,5
+298,9,10,7,1,Tidus,0,5
+299,9,4,9,7,Shantotto,0,5
+300,9,1,7,10,Vaan,0,5
+301,10,9,1,7,Lightning,0,5
+302,1,7,10,9,Noctis Lucis Caelum,0,5

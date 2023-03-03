@@ -1,0 +1,30 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18
+-73.7,21.0166666666667,123.698165859411,0.82584171725074,1.94,0.22,coral,36 (87GI-6),Chen et. al. 1991,elevations updated to Skrivanek 2018,"Inverse Gaussian (mu,lambda)",1.4,5.0,0.47,1.4,3.3,Great Inagua,-73.678798242,20.95594256
+-73.7,21.0166666666667,125.842279030087,1.0426918532145,1.14,0.22,coral,29 (86GI-4),Chen et. al. 1991,elevations updated to Skrivanek 2018,"Inverse Gaussian (mu,lambda)",1.4,5.0,0.47,1.4,3.3,Great Inagua,-73.678798242,20.95594256
+-73.7,21.0166666666667,129.41859847275,0.611534031846989,1.14,0.22,coral,30 (87GI-1),Chen et. al. 1991,elevations updated to Skrivanek 2018,"Inverse Gaussian (mu,lambda)",1.4,5.0,0.47,1.4,3.3,Great Inagua,-73.678798242,20.95594256
+-74.5333333333333,24.05,124.696148896121,0.854770745006086,2.76,0.32,coral,15 (88CT-3),Chen et. al. 1991,elevations updated to Skrivanek 2018,"Inverse Gaussian (mu,lambda)",1.4,5.0,0.47,1.4,3.3,San Salvador,-74.560169359,23.954374593
+-74.5333333333333,24.05,122.248200387338,0.824669455556852,2.26,0.32,coral,10 (87CT-7 S),Chen et. al. 1991,elevations updated to Skrivanek 2018,"Inverse Gaussian (mu,lambda)",1.4,5.0,0.47,1.4,3.3,San Salvador,-74.560169359,23.954374593
+-74.5333333333333,24.05,127.912297622961,0.616730500440017,1.76,0.32,coral,19 (87CT-15 L),Chen et. al. 1991,elevations updated to Skrivanek 2018,"Inverse Gaussian (mu,lambda)",1.4,5.0,0.47,1.4,3.3,San Salvador,-74.560169359,23.954374593
+-74.5333333333333,24.05,120.730539980583,0.715985702820501,2.76,0.32,coral,1 (6/86,,,,,,,,,,,
+-74.5333333333333,24.05,123.056690562217,0.731971126834501,1.26,0.32,coral,24 (87SP-2),Chen et. al. 1991,elevations updated to Skrivanek 2018,"Inverse Gaussian (mu,lambda)",1.4,5.0,0.47,1.4,3.3,San Salvador,-74.560169359,23.954374593
+-74.5333333333333,24.05,123.840464651902,0.968290188996216,1.26,0.32,coral,23 (87SP-1),Chen et. al. 1991,elevations updated to Skrivanek 2018,"Inverse Gaussian (mu,lambda)",1.4,5.0,0.47,1.4,3.3,San Salvador,-74.560169359,23.954374593
+-74.5333333333333,24.05,125.106996939926,0.636730799330736,2.76,0.32,coral,5 (87CT-4 L),Chen et. al. 1991,elevations updated to Skrivanek 2018,"Inverse Gaussian (mu,lambda)",2.0,5.0,0.58,2.0,5.3,San Salvador,-74.560169359,23.954374593
+-73.7,21.0166666666667,119.149319000927,0.186188328732833,1.94,0.22,coral,GI-4,Thompson et. al. 2011,elevations updated to Skrivanek 2018,"Inverse Gaussian (mu,lambda)",1.4,5.0,0.47,1.4,3.3,Great Inagua,-73.678798242,20.95594256
+-73.7,21.0166666666667,119.614281746603,0.131438427807778,1.94,0.22,coral,GI-3,Thompson et. al. 2011,elevations updated to Skrivanek 2018,"Inverse Gaussian (mu,lambda)",1.4,5.0,0.47,1.4,3.3,Great Inagua,-73.678798242,20.95594256
+-74.5333333333333,24.05,122.163864583421,0.440508204057389,1.52,0.32,coral,SS-38,Thompson et. al. 2011,elevations updated to Skrivanek 2018,"Inverse Gaussian (mu,lambda)",1.4,5.0,0.47,1.4,3.3,San Salvador,-74.560169359,23.954374593
+-77.545416824,25.005114858,117.0,2.0,6.6,0.47,ordinary berm,New Providence,This study,B729,"Normal(mu,sigma)",0.86,0.17,0.52,0.86,1.19,New Providence,-77.545416824,25.005114858
+-76.6192,25.4597,117.0,2.0,6.71,0.59,ordinary berm,,This study,Rovere et. al. 2017,"Normal(mu,sigma)",1.24,0.17,0.91,1.24,1.57,Eleuthera,-76.6192,25.4597
+-74.560169359,23.954374593,117.0,2.0,5.85,0.47,ordinary berm,San Salvador,This study,B722,"Normal(mu,sigma)",1.28,0.17,0.95,1.28,1.61,San Salvador,-74.560169359,23.954374593
+-75.08900983,23.243392763,117.0,2.0,3.02,0.44,ordinary berm,Long Island,This study,B1124,"Normal(mu,sigma)",1.1,0.17,0.78,1.1,1.43,Long Island,-75.08900983,23.243392763
+-74.381333678,22.545056719,117.0,2.0,4.91,0.59,ordinary berm,Crooked Island,This study,B1111,"Normal(mu,sigma)",0.93,0.17,0.59,0.93,1.27,Crooked Island,-74.381333678,22.545056719
+-73.678798242,20.95594256,117.0,2.0,2.23,0.33,ordinary berm,Great Inagua,This study,B815,"Normal(mu,sigma)",0.92,0.17,0.58,0.92,1.25,Great Inagua,-73.678798242,20.95594256
+-72.467186831,21.677241761,117.0,2.0,4.22,0.59,ordinary berm,West Caicos,This study,B803,"Normal(mu,sigma)",0.98,0.17,0.64,0.98,1.31,West Caicos,-72.467186831,21.677241761
+-77.46936058,25.06564999,125.2,0.9,3.8,0.5,coral,NPI-400-P,Muhs et. al. 2020,,"Inverse Gaussian (mu,lambda)",3.0,10.0,1.0,3.0,7.08,New Providence,-77.545416824,25.005114858
+-77.46936058,25.06564999,125.5,0.8,3.8,0.5,coral,NPI-400-R,Muhs et. al. 2020,,"Inverse Gaussian (mu,lambda)",3.0,10.0,1.0,3.0,7.08,New Providence,-77.545416824,25.005114858
+-77.26405557,25.044826325,118.8,0.8,4.1,0.5,coral,NPI-407-D,Muhs et. al. 2020,,"Inverse Gaussian (mu,lambda)",3.0,10.0,1.0,3.0,7.08,New Providence,-77.545416824,25.005114858
+-77.925,24.434,117.0,2.0,2.83325758173108,2.0,highstand_marine,Andros,This study,Satellite derived,Half-Flat,,,,,,Andros,-77.925,24.434
+-75.503,24.382,117.0,2.0,4.78561141917112,2.0,highstand_marine,Cat,This study,Satellite derived,Half-Flat,,,,,,Cat Island,-75.503,24.382
+-75.906,23.545,117.0,2.0,4.84081436422889,2.0,highstand_marine,Exuma,This study,Satellite derived,Half-Flat,,,,,,Great Exuma,-75.906,23.545
+-78.329,26.643,117.0,2.0,4.10783960563659,2.0,highstand_marine,Grand,This study,Satellite derived,Half-Flat,,,,,,Grand Bahama,-78.329,26.643
+-77.271,26.473,117.0,2.0,5.82120323181152,2.0,highstand_marine,Abaco,This study,Satellite derived,Half-Flat,,,,,,Great Abaco,-77.271,26.473
+-72.947,22.356,117.0,2.0,4.9481464943477,2.0,highstand_marine,Mayaguana,This study,Satellite derived,Half-Flat,,,,,,Mayaguana,-72.947,22.356

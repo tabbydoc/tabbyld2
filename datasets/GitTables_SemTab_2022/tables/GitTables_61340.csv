@@ -1,0 +1,37 @@
+col0,col1,col2,col3,col4,col5
+camp_det__jorge_1,2011,Colegio Jorge 1,"3 años,4 años,5 años,1,2,3,4",Plan Lector,grupo_logos
+camp_det__jorge_2,2011,Colegio Jorge 1,"3 años,4 años,5 años,1,2,3,4,5,6,7",Plan Religión,grupo_logos
+camp_det__jorge_3,2011,Colegio Jorge 1,"3 años,4 años,5 años,1,2,3,4",Otro Plan,grupo_logos
+camp_det__jorge_4,2011,Colegio Jorge 2,"3 años,4 años,3,4",Plan Lector,grupo_logos
+camp_det__jorge_5,2011,Colegio Jorge 2,"3 años,5 años,1,2,3,4",Plan Religión,grupo_logos
+camp_det__jorge_6,2011,Colegio Jorge 2,"3 años,4 años,5 años,1,2,3,4",Otro Plan,grupo_logos
+camp_det__jorge_7,2012,Colegio Jorge 1,"3 años,4 años,5 años,1,2,3,4,5,6,7",Plan Lector,grupo_logos
+camp_det__jorge_8,2012,Colegio Jorge 1,"3 años,4 años,5 años,1,2,3,4",Plan Religión,grupo_logos
+camp_det__jorge_9,2012,Colegio Jorge 1,"3 años,4 años,3,4",Otro Plan,grupo_logos
+camp_det__jorge_10,2012,Colegio Jorge 2,"3 años,5 años,1,2,3,4",Plan Lector,grupo_logos
+camp_det__jorge_11,2012,Colegio Jorge 2,"3 años,4 años,5 años,1,2,3,4",Plan Religión,grupo_logos
+camp_det__jorge_12,2012,Colegio Jorge 2,"5 años,1,2,3,4,5,6,7,8,9,10,11",Otro Plan,grupo_logos
+camp_det__jorge_13,2013,Colegio Jorge 1,"3 años,4 años,5 años,1,2,3,4,5,6,7",Plan Lector,grupo_logos
+camp_det__jorge_14,2013,Colegio Jorge 1,"3 años,4 años,5 años,1,2,3,4",Plan Religión,grupo_logos
+camp_det__jorge_15,2013,Colegio Jorge 1,"3 años,4 años,3,4",Otro Plan,grupo_logos
+camp_det__jorge_16,2013,Colegio Jorge 2,"3 años,5 años,1,2,3,4",Plan Lector,grupo_logos
+camp_det__jorge_17,2013,Colegio Jorge 2,"3 años,4 años,5 años,1,2,3,4",Plan Religión,grupo_logos
+camp_det__jorge_18,2013,Colegio Jorge 2,"3 años,4 años,5 años,1,2,3,4,5,6,7",Otro Plan,grupo_logos
+camp_det__otro_1,2011,Colegio Otro 1,"3 años,4 años,5 años,1,2,3,4",Plan Lector,otro_corresponsal
+camp_det__otro_2,2011,Colegio Otro 1,"3 años,4 años,5 años,1,2,3,4,5,6,7",Plan Religión,otro_corresponsal
+camp_det__otro_3,2011,Colegio Otro 1,"3 años,4 años,5 años,1,2,3,4",Otro Plan,otro_corresponsal
+camp_det__otro_4,2011,Colegio Otro 2,"3 años,4 años,3,4",Plan Lector,otro_corresponsal
+camp_det__otro_5,2011,Colegio Otro 2,"3 años,5 años,1,2,3,4",Plan Religión,otro_corresponsal
+camp_det__otro_6,2011,Colegio Otro 2,"3 años,4 años,5 años,1,2,3,4",Otro Plan,otro_corresponsal
+camp_det__otro_7,2012,Colegio Otro 1,"3 años,4 años,5 años,1,2,3,4,5,6,7",Plan Lector,otro_corresponsal
+camp_det__otro_8,2012,Colegio Otro 1,"3 años,4 años,5 años,1,2,3,4",Plan Religión,otro_corresponsal
+camp_det__otro_9,2012,Colegio Otro 1,"3 años,4 años,3,4",Otro Plan,otro_corresponsal
+camp_det__otro_10,2012,Colegio Otro 2,"3 años,5 años,1,2,3,4",Plan Lector,otro_corresponsal
+camp_det__otro_11,2012,Colegio Otro 2,"3 años,4 años,5 años,1,2,3,4",Plan Religión,otro_corresponsal
+camp_det__otro_12,2012,Colegio Otro 2,"5 años,1,2,3,4,5,6,7,8,9,10,11",Otro Plan,otro_corresponsal
+camp_det__otro_13,2013,Colegio Otro 1,"3 años,4 años,5 años,1,2,3,4,5,6,7",Plan Lector,otro_corresponsal
+camp_det__otro_14,2013,Colegio Otro 1,"3 años,4 años,5 años,1,2,3,4",Plan Religión,otro_corresponsal
+camp_det__otro_15,2013,Colegio Otro 1,"3 años,4 años,3,4",Otro Plan,otro_corresponsal
+camp_det__otro_16,2013,Colegio Otro 2,"3 años,5 años,1,2,3,4",Plan Lector,otro_corresponsal
+camp_det__otro_17,2013,Colegio Otro 2,"3 años,4 años,5 años,1,2,3,4",Plan Religión,otro_corresponsal
+camp_det__otro_18,2013,Colegio Otro 2,"3 años,4 años,5 años,1,2,3,4,5,6,7",Otro Plan,otro_corresponsal

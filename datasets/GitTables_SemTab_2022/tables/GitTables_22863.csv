@@ -1,0 +1,93 @@
+col0,col1,col2,col3,col4,col5,col6
+Q2346577,True,cortex,50.0,[],Cortex,
+Q5173240,True,cortex,50.0,[],Cortex,
+Q937403,True,Subventricular zone,50.0,[],Subventricular zone,
+Q546523,True,bone marrow,100.0,tissue,Bone marrow,Q40397
+Q189961,True,mammary gland,50.0,[],Mammary gland,
+Q1073,True,brain,50.0,[],Brain,
+Q196672,True,rib,50.0,[],Rib,
+Q66560269,True,placenta,50.0,[],Placenta,
+Q7886,True,lung,50.0,[],Lung,
+Q613203,True,calvaria,50.0,[],Calvaria,
+Q1889778,True,trophoblasts,50.0,[],Trophoblast,
+Q1395415,True,dorsal root ganglion,50.0,[],Dorsal root ganglion,
+Q66575252,True,dorsal striatum,50.0,[],Dorsal striatum,
+Q9606,True,spinal cord,100.0,anatomical structure,Spinal cord,Q4936952
+Q64926247,True,somatosensory cortex,50.0,[],Somatosensory cortex,
+Q736033,True,Peripheral blood mononuclear cell,50.0,[],Peripheral blood mononuclear cell,
+Q66592623,True,Peripheral blood mononuclear cell,50.0,[],Peripheral blood mononuclear cell,
+Q3384920,True,Embryoid body,50.0,[],Embryoid body,
+Q1151519,True,embryonic stem cell,50.0,[],Embryonic stem cell,
+Q11394395,True,endothelial cells,50.0,[],Endothelial cells,
+Q505531,True,dermis,50.0,[],Dermis,
+Q654528,True,white adipose tissue,50.0,[],White adipose tissue,
+Q736033,True,Peripheral blood mononuclear cell,50.0,[],PBMC,
+Q3052544,True,olfactory epithelium,50.0,[],Olfactory epithelium,
+Q11788632,True,Olfactory epithelium,50.0,[],Olfactory epithelium,
+Q2531387,True,Decidua,50.0,[],Decidua,
+Q66591851,True,decidua,50.0,[],Decidua,
+Q2995031,True,alpha cell,47.5,[],Alpha cells,
+Q193583,True,adipose tissue,100.0,tissue,Fat,Q40397
+Q5283631,True,mandible,50.0,[],Mandible,
+Q509615,True,Intestinal epithelium,50.0,[],Intestinal epithelium,
+Q66714029,True,Intestinal epithelium,50.0,[],Intestinal epithelium,
+Q753278,True,substantia nigra,50.0,[],Substantia nigra,
+Q914952,True,cord blood,50.0,[],Cord blood,
+Q7886,True,lung,50.0,[],Lungs,
+Q1394389,True,dura mater,50.0,[],Dura mater,
+Q926250,True,choroid plexus,50.0,[],Choroid plexus,
+Q11090,True,small intestine,100.0,anatomical structure,Small intestine,Q4936952
+Q180569,True,tonsil,100.0,anatomical structure,Tonsil,Q4936952
+Q5982337,True,colon,100.0,anatomical structure,Colon,Q4936952
+Q2307492,True,renal cortex,100.0,anatomical structure,Kidney cortex,Q4936952
+Q9382,True,urinary bladder,100.0,anatomical structure,Bladder,Q4936952
+Q9384,True,testicle,100.0,anatomical structure,Testis,Q4936952
+Q163987,True,thymus,100.0,anatomical structure,Thymus,Q4936952
+Q1212935,True,placenta,100.0,organ,Placenta,Q712378
+Q9377,True,kidney,100.0,anatomical structure,Kidney,Q4936952
+Q9371,True,spleen,100.0,anatomical structure,Spleen,Q4936952
+Q9618,True,pancreas,100.0,gland,Pancreas,Q9647
+Q9368,True,liver,100.0,anatomical structure,Liver,Q4936952
+Q1029907,True,stomach,100.0,anatomical structure,Stomach,Q4936952
+Q1922379,True,mesenchymal stem cells,100.0,cell type,Mesenchymal stem cell,Q189118
+Q1074,True,skin,100.0,anatomical structure,Skin,Q4936952
+Q9631,True,ovary,100.0,anatomical structure,Ovary,Q4936952
+Q130983,True,cerebellum,100.0,brain region,Cerebellum,Q1620186
+Q9612,True,uterus,100.0,anatomical structure,Uterus,Q4936952
+Q189033,True,medulla oblongata,100.0,brain region,Medulla oblongata,Q1620186
+Q184215,True,thalamus,100.0,brain region,Thalamus,Q1620186
+Q48360,True,hippocampus,100.0,brain region,Hippocampus,Q1620186
+Q7920296,True,ventral striatum,100.0,brain region,Ventral striatum,Q1620186
+Q545787,True,dentate gyrus,100.0,gyrus,Dentate gyrus,Q1758383
+Q192570,True,pons,100.0,brain region,Pons,Q1620186
+Q164386,True,hypothalamus,100.0,anatomical structure,Hypothalamus,Q4936952
+Q338924,True,amygdala,100.0,brain region,Amygdala,Q1620186
+Q644945,True,olfactory bulb,100.0,organism substance,Olfactory bulb?,Q27983054
+Q644945,True,olfactory bulb,100.0,organism substance,Olfactory bulb,Q27983054
+Q586582,True,enteric nervous system,100.0,anatomical structure,Enteric nervous system,Q4936952
+Q187215,True,sympathetic nervous system,100.0,anatomical structure,Sympathetic nervous system,Q4936952
+Q43054,True,neuron,100.0,cell type,Neurons,Q189118
+Q876089,True,left ventricle,100.0,anatomical structure,Left Ventricle,Q4936952
+Q1622829,True,microglia,100.0,cell type,Microglia,Q189118
+Q170758,True,lymph node,100.0,anatomical structure,Lymph node,Q4936952
+Q188930,True,B-cells,100.0,cell type,B cells,Q189118
+Q2307492,True,renal cortex,100.0,anatomical structure,Renal cortex,Q4936952
+Q1072,True,heart,100.0,anatomical structure,Heart,Q4936952
+Q913628,True,lacrimal gland,100.0,anatomical structure,Lacrimal gland,Q4936952
+Q169342,True,retina,100.0,anatomical structure,Retina,Q4936952
+Q101004,True,aorta,100.0,artery,Aorta,Q9655
+Q215620,True,heart valve,100.0,anatomical structure,Heart valve,Q4936952
+Q728309,True,islet of Langerhans,100.0,anatomical structure,Pancreatic islets,Q4936952
+Q719179,True,lateral geniculate nucleus,100.0,brain region,Lateral geniculate nucleus,Q1620186
+Q156871,True,pituitary gland,100.0,anatomical structure,Pituitary gland,Q4936952
+Q9384,True,testicle,100.0,anatomical structure,Testicle,Q4936952
+Q579886,True,submandibular gland,100.0,anatomical structure,Submandibular Gland,Q4936952
+Q317857,True,cochlea,100.0,anatomical structure,Cochlea,Q4936952
+Q192419,True,diencephalon,100.0,anatomical structure,Diencephalon,Q4936952
+Q42303837,True,diencephalon,100.0,embryonic structure,Diencephalon,Q30062554
+Q175449,True,trachea,100.0,anatomical structure,Trachea,Q4936952
+Q9614,True,tongue,100.0,anatomical structure,Tongue,Q4936952
+Q9625,True,prostate,100.0,material anatomical entity,Prostate,Q27043948
+Q75785,True,visual cortex,100.0,anatomical structure,Visual cortex,Q4936952
+Q43054,True,neuron,100.0,cell type,Nerve,Q189118
+Q1137072,True,rhombencephalon,100.0,embryonic structure,Hindbrain,Q30062554

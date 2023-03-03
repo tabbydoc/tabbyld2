@@ -1,0 +1,197 @@
+col0,col1,col2
+101,Chachapoyas,1
+102,Bagua,1
+103,Bongará,1
+104,Condorcanqui,1
+105,Luya,1
+106,Rodríguez de Mendoza,1
+107,Utcubamba,1
+201,Huaraz,2
+202,Aija,2
+203,Antonio Raymondi,2
+204,Asunción,2
+205,Bolognesi,2
+206,Carhuaz,2
+207,Carlos Fermín Fitzcarrald,2
+208,Casma,2
+209,Corongo,2
+210,Huari,2
+211,Huarmey,2
+212,Huaylas,2
+213,Mariscal Luzuriaga,2
+214,Ocros,2
+215,Pallasca,2
+216,Pomabamba,2
+217,Recuay,2
+218,Santa,2
+219,Sihuas,2
+220,Yungay,2
+301,Abancay,3
+302,Andahuaylas,3
+303,Antabamba,3
+304,Aymaraes,3
+305,Cotabambas,3
+306,Chincheros,3
+307,Grau,3
+401,Arequipa,4
+402,Camaná,4
+403,Caravelí,4
+404,Castilla,4
+405,Caylloma,4
+406,Condesuyos,4
+407,Islay,4
+408,La Uniòn,4
+501,Huamanga,5
+502,Cangallo,5
+503,Huanca Sancos,5
+504,Huanta,5
+505,La Mar,5
+506,Lucanas,5
+507,Parinacochas,5
+508,Pàucar del Sara Sara,5
+509,Sucre,5
+510,Víctor Fajardo,5
+511,Vilcas Huamán,5
+601,Cajamarca,6
+602,Cajabamba,6
+603,Celendín,6
+604,Chota,6
+605,Contumazá,6
+606,Cutervo,6
+607,Hualgayoc,6
+608,Jaén,6
+609,San Ignacio,6
+610,San Marcos,6
+611,San Miguel,6
+612,San Pablo,6
+613,Santa Cruz,6
+701,Prov. Const. del Callao,7
+801,Cusco,8
+802,Acomayo,8
+803,Anta,8
+804,Calca,8
+805,Canas,8
+806,Canchis,8
+807,Chumbivilcas,8
+808,Espinar,8
+809,La Convención,8
+810,Paruro,8
+811,Paucartambo,8
+812,Quispicanchi,8
+813,Urubamba,8
+901,Huancavelica,9
+902,Acobamba,9
+903,Angaraes,9
+904,Castrovirreyna,9
+905,Churcampa,9
+906,Huaytará,9
+907,Tayacaja,9
+1001,Huánuco,10
+1002,Ambo,10
+1003,Dos de Mayo,10
+1004,Huacaybamba,10
+1005,Huamalíes,10
+1006,Leoncio Prado,10
+1007,Marañón,10
+1008,Pachitea,10
+1009,Puerto Inca,10
+1010,Lauricocha ,10
+1011,Yarowilca ,10
+1101,Ica ,11
+1102,Chincha ,11
+1103,Nasca ,11
+1104,Palpa ,11
+1105,Pisco ,11
+1201,Huancayo ,12
+1202,Concepción ,12
+1203,Chanchamayo ,12
+1204,Jauja ,12
+1205,Junín ,12
+1206,Satipo ,12
+1207,Tarma ,12
+1208,Yauli ,12
+1209,Chupaca ,12
+1301,Trujillo ,13
+1302,Ascope ,13
+1303,Bolívar ,13
+1304,Chepén ,13
+1305,Julcán ,13
+1306,Otuzco ,13
+1307,Pacasmayo ,13
+1308,Pataz ,13
+1309,Sánchez Carrión ,13
+1310,Santiago de Chuco ,13
+1311,Gran Chimú ,13
+1312,Virú ,13
+1401,Chiclayo ,14
+1402,Ferreñafe ,14
+1403,Lambayeque ,14
+1501,Lima ,15
+1502,Barranca ,15
+1503,Cajatambo ,15
+1504,Canta ,15
+1505,Cañete ,15
+1506,Huaral ,15
+1507,Huarochirí ,15
+1508,Huaura ,15
+1509,Oyón ,15
+1510,Yauyos ,15
+1601,Maynas ,16
+1602,Alto Amazonas ,16
+1603,Loreto ,16
+1604,Mariscal Ramón Castilla ,16
+1605,Requena ,16
+1606,Ucayali ,16
+1607,Datem del Marañón ,16
+1608,Putumayo,16
+1701,Tambopata ,17
+1702,Manu ,17
+1703,Tahuamanu ,17
+1801,Mariscal Nieto ,18
+1802,General Sánchez Cerro ,18
+1803,Ilo ,18
+1901,Pasco ,19
+1902,Daniel Alcides Carrión ,19
+1903,Oxapampa ,19
+2001,Piura ,20
+2002,Ayabaca ,20
+2003,Huancabamba ,20
+2004,Morropón ,20
+2005,Paita ,20
+2006,Sullana ,20
+2007,Talara ,20
+2008,Sechura ,20
+2101,Puno ,21
+2102,Azángaro ,21
+2103,Carabaya ,21
+2104,Chucuito ,21
+2105,El Collao ,21
+2106,Huancané ,21
+2107,Lampa ,21
+2108,Melgar ,21
+2109,Moho ,21
+2110,San Antonio de Putina ,21
+2111,San Román ,21
+2112,Sandia ,21
+2113,Yunguyo ,21
+2201,Moyobamba ,22
+2202,Bellavista ,22
+2203,El Dorado ,22
+2204,Huallaga ,22
+2205,Lamas ,22
+2206,Mariscal Cáceres ,22
+2207,Picota ,22
+2208,Rioja ,22
+2209,San Martín ,22
+2210,Tocache ,22
+2301,Tacna ,23
+2302,Candarave ,23
+2303,Jorge Basadre ,23
+2304,Tarata ,23
+2401,Tumbes ,24
+2402,Contralmirante Villar ,24
+2403,Zarumilla ,24
+2501,Coronel Portillo ,25
+2502,Atalaya ,25
+2503,Padre Abad ,25
+2504,Purús,25

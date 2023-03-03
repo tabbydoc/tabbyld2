@@ -1,0 +1,42 @@
+col0,col1,col2
+bra_13193,Brott mot brottsbalken,bra_13192
+bra_13231,Brott mot specialstraffrättsliga författningar,bra_13192
+bra_13194,"Brott mot brottsbalken, 3-7 kap. Brott mot person",bra_13193
+bra_13206,"Brott mot brottsbalken, 8-12 kap. Brott mot förmögenhet",bra_13193
+bra_13217,"Brott mot brottsbalken, 13-15 kap. Brott mot allmänheten",bra_13193
+bra_13222,"Brott mot brottsbalken, 16-20 kap. Brott mot staten",bra_13193
+bra_13273,"Brott mot brottsbalken, 22 kap. Om landsförräderi m.m.",bra_13193
+bra_13195,"Brott mot brottsbalken, 3-7 kap. Brott mot person, 3 kap. Brott mot liv och hälsa",bra_13194
+bra_13199,"Brott mot brottsbalken, 3-7 kap. Brott mot person, 4 kap. Brott mot frihet och frid",bra_13194
+bra_13678,"Brott mot brottsbalken, 3-7 kap. Brott mot person, 6 kap. Sexualbrott",bra_13194
+bra_13688,"Brott mot brottsbalken, 3-7 kap. Brott mot person, 5 kap. Ärekränkningsbrott",bra_13194
+bra_13689,"Brott mot brottsbalken, 3-7 kap. Brott mot person, 7 kap. Brott mot familj",bra_13194
+bra_13197,"Brott mot brottsbalken, 3-7 kap. Brott mot person, 3 kap. Brott mot liv och hälsa, därav misshandel inkl. grov",bra_13195
+bra_13207,"Brott mot brottsbalken, 8-12 kap. Brott mot förmögenhet, 8 kap. Stöld, rån m.m.",bra_13206
+bra_13211,"Brott mot brottsbalken, 8-12 kap. Brott mot förmögenhet, 9 kap. Bedrägeri och annan oredlighet",bra_13206
+bra_13214,"Brott mot brottsbalken, 8-12 kap. Brott mot förmögenhet, 10 kap. Förskingring och annan trolöshet",bra_13206
+bra_13215,"Brott mot brottsbalken, 8-12 kap. Brott mot förmögenhet, 11 kap. Brott mot borgenärer m.m.",bra_13206
+bra_13216,"Brott mot brottsbalken, 8-12 kap. Brott mot förmögenhet, 12 kap. Skadegörelsebrott",bra_13206
+bra_13550,"Brott mot brottsbalken, 8-12 kap. Brott mot förmögenhet, 8 kap. Stöld, rån m.m., därav stöld och snatteri i butik, varuhus o.d.",bra_13207
+bra_13258,"Brott mot brottsbalken, 8-12 kap. Brott mot förmögenhet, 8 kap. Stöld, rån m.m., därav biltillgrepp",bra_13207
+bra_13260,"Brott mot brottsbalken, 8-12 kap. Brott mot förmögenhet, 8 kap. Stöld, rån m.m., därav cykeltillgrepp",bra_13207
+bra_13262,"Brott mot brottsbalken, 8-12 kap. Brott mot förmögenhet, 8 kap. Stöld, rån m.m., därav stöld ur och från motordrivet fordon",bra_13207
+bra_13264,"Brott mot brottsbalken, 8-12 kap. Brott mot förmögenhet, 8 kap. Stöld, rån m.m., därav inbrott i bostad (lägenhet och villa)",bra_13207
+bra_13268,"Brott mot brottsbalken, 8-12 kap. Brott mot förmögenhet, 8 kap. Stöld, rån m.m., därav rån, inkl. grovt",bra_13207
+bra_13551,"Brott mot brottsbalken, 8-12 kap. Brott mot förmögenhet, 8 kap. Stöld, rån m.m., därav fickstöld",bra_13207
+bra_13218,"Brott mot brottsbalken, 13-15 kap. Brott mot allmänheten, 13 kap. Allmänfarliga brott",bra_13217
+bra_13220,"Brott mot brottsbalken, 13-15 kap. Brott mot allmänheten, 14 kap. Förfalskningsbrott",bra_13217
+bra_13221,"Brott mot brottsbalken, 13-15 kap. Brott mot allmänheten, 15 kap. Mened, falskt åtal m.m.",bra_13217
+bra_13223,"Brott mot brottsbalken, 16-20 kap. Brott mot staten, 16 kap. Brott mot allmän ordning",bra_13222
+bra_13224,"Brott mot brottsbalken, 16-20 kap. Brott mot staten, 17 kap. Brott mot allmän verksamhet",bra_13222
+bra_13226,"Brott mot brottsbalken, 16-20 kap. Brott mot staten, 18-20 kap. Högmålsbrott, brott mot rikets säkerhet, tjänstefel m.m.",bra_13222
+bra_13232,"Brott mot specialstraffrättsliga författningar, Brott mot trafikbrottslagen",bra_13231
+bra_13236,"Brott mot specialstraffrättsliga författningar, Brott mot narkotikastrafflagen",bra_13231
+bra_13237,"Brott mot specialstraffrättsliga författningar, Brott mot miljöbalken",bra_13231
+bra_13238,"Brott mot specialstraffrättsliga författningar, Lag om straff för smuggling",bra_13231
+bra_13242,"Brott mot specialstraffrättsliga författningar, Brott mot skattebrottslagen m.m.",bra_13231
+bra_13246,"Brott mot specialstraffrättsliga författningar, Alkohollagen",bra_13231
+bra_13247,"Brott mot specialstraffrättsliga författningar, Vapenlagen",bra_13231
+bra_13276,"Brott mot specialstraffrättsliga författningar, Brott mot bidragsbrottslagen",bra_13231
+bra_13292,"Brott mot specialstraffrättsliga författningar, Övriga specialstraffrättsliga författningar",bra_13231
+bra_13192,Totalt antal brott,

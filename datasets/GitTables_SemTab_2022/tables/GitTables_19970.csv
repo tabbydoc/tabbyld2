@@ -1,0 +1,53 @@
+col0,col1,col2,col3,col4,col5
+BARG,sensor type - barograph,pressure trend,0,,Open Scale barograph with 1 day clock.
+BARG,sensor type - barograph,pressure trend,1,,Open Scale barograph with 2 day clock.
+BARG,sensor type - barograph,pressure trend,2,,Open Scale barograph with 3 day clock.
+BARG,sensor type - barograph,pressure trend,3,,Open Scale barograph with 4 day clock.
+BARG,sensor type - barograph,pressure trend,4,,Open Scale barograph with 5 day clock.
+BARG,sensor type - barograph,pressure trend,5,,Open Scale barograph with 6 day clock.
+BARG,sensor type - barograph,pressure trend,6,,Open Scale barograph with 7 day clock.
+BARG,sensor type - barograph,pressure trend,7,,Open Scale barograph with 8 day clock.
+BARG,sensor type - barograph,pressure trend,8,,Open Scale barograph with 9 day clock.
+BARG,sensor type - barograph,pressure trend,9,,Open Scale barograph.
+BARG,sensor type - barograph,pressure trend,10,,Other (specify in footnote).
+BARG,sensor type - barograph,pressure trend,11,,Small Scale barograph.
+BARG,sensor type - barograph,pressure trend,12,,Tendency obtained from an electronic digital barometer.
+BARM,sensor type - barometer,pressure,0,,Aneroid barometer (issued by the PMO or a NMS).
+BARM,sensor type - barometer,pressure,1,,Digital aneroid barometer (aka Precision Aneroid Barometer).
+BARM,sensor type - barometer,pressure,2,,Electronic digital barometer (consisting of one or more pressure transducers).
+BARM,sensor type - barometer,pressure,3,,Mercury barometer.
+BARM,sensor type - barometer,pressure,4,,Other
+BARM,sensor type - barometer,pressure,5,,Ship's aneroid barometer.
+IBS,ice bulb status,humidity,0,,Ice bulb
+IBS,ice bulb status,humidity,1,,Wet bulb
+MANU,manufacturer,all,0,,Vaisala
+SLOC,sensor location - ship,all,0,,Aft mast.
+SLOC,sensor location - ship,all,1,,Bridge wing
+SLOC,sensor location - ship,all,2,,Foremast yardarm
+SLOC,sensor location - ship,all,3,,Foremast.
+SLOC,sensor location - ship,all,4,,Handheld.
+SLOC,sensor location - ship,all,5,,Main deck
+SLOC,sensor location - ship,all,6,,Mainmast yardarm
+SLOC,sensor location - ship,all,7,,Mainmast.
+SLOC,sensor location - ship,all,8,,Mast on wheelhouse top yardarm
+SLOC,sensor location - ship,all,9,,Mast on wheelhouse top.
+SLOC,sensor location - ship,all,10,,Meteorological mast.
+SLOC,sensor location - ship,all,11,,Not fitted.
+SLOC,sensor location - ship,all,12,,Other
+SLOC,sensor location - ship,all,13,,Pressurised wheelhouse (closed and not vented to the outside).
+SLOC,sensor location - ship,all,14,,Wheelhouse
+SLOC,sensor location - ship,all,15,,"Wheelhouse, not pressurised (vented to the outside)."
+SSIDE,sensor side - ship,all,0,,Center
+SSIDE,sensor side - ship,all,1,,Port
+SSIDE,sensor side - ship,all,2,,Starboard
+SSIDE,sensor side - ship,all,3,,Windward side
+SWV,sensor type - waves,waves,0,,buoy
+SWV,sensor type - waves,waves,1,,other
+SWV,sensor type - waves,waves,2,,shipborne wave recorder
+SWW,sensor type - present weather,present weather,0,,"Automatic, included (using WMO Codes 4677 and 4561)"
+SWW,sensor type - present weather,present weather,1,,"Automatic, included (using WMO codes 4680 amd 4531)"
+SWW,sensor type - present weather,present weather,2,,"Automatic, omitted (no observation, data not available)"
+SWW,sensor type - present weather,present weather,3,,"Automatic, omitted (no significant phenomenon to report)"
+SWW,sensor type - present weather,present weather,4,,"Manned, included"
+SWW,sensor type - present weather,present weather,5,,"Manned, omitted (no observation, data not available)"
+SWW,sensor type - present weather,present weather,6,,"Manned, omitted (no significant phenomenon to report)"

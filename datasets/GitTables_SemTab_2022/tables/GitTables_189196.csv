@@ -1,0 +1,7 @@
+col0,col1,col2
+ts1,Scenario1,Good
+ts2,Scenario2,Bad
+ts3,Scenario3,Ugly
+ts1,,ts1Status
+ts2,,ts2Status
+ts3,,ts3Status

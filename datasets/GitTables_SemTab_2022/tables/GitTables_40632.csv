@@ -1,0 +1,101 @@
+col0,col1,col2,col3
+, 46, jon, demo
+, , jon, demo>job>programmer
+, , jon, demo>job>blogger
+, , jon, demo>job>entrepreneur
+Uses up band, , jon, tracking
+Researches online, , jon, challenges>active>search
+Researches online, , jon, challenges>passive>blogs
+Might share with familiar group,1, jon, sharing>group>private
+Reinforcing the Why, , jon, motivation
+Consequences to not changing, , jon, motivation
+Reads Tony Robbins, , jon, challenges>passive>reading
+, 38, nigel, demo
+, , nigel, demo>job>productivity-coach
+, , nigel, demo>habit>business>focus
+, , nigel, demo>habit>business>time-mngmt
+Uses Way of Life (iPhone), , nigel, tracking
+Created Personal System,5, nigel, tracking
+Has online mentors,3, nigel, accountability>online>private
+, , nigel, tracking>journal
+Reports to a friend via email,5, nigel, accountability>friend
+, 33, mayura, demo
+, , mayura, demo>job>entrepreneur
+, , mayura, demo>job>homeless
+, , mayura, demo>job>student
+, , mayura, demo>habit>procrastination
+, , mayura, demo>habit>momentum
+Bad group discouraging, , mayura, sharing
+Wants same stage group, , mayura, sharing>same-stage
+Looked for meetups,5, mayura, accountability>online
+Reads bios and non-fiction,1, mayura, challenges>passive>reading
+Reads bios and non-fiction,1, mayura, motivation
+Night shifts, , mayura, challenges
+Tracks distractions, , mayura, tracking>journal
+, 30, andy, demo
+, , andy, demo>job>sports-coach
+, , andy, demo>habit>organisation
+, , andy, demo>habit>meditation
+Clients stuck with environmantal challenges, , andy, challenges>active>generate-solutions
+Clients stuck with environmantal challenges, , andy, challenges>active>build-flexibility
+Clients reach turning point when considering not changing, , andy, motivation
+, , andy, accountability>partner
+, 43, jaked, demo
+, , jaked, demo>job>blogger
+, , jaked, demo>job>entrepreneur
+, , jaked, demo>job>writer
+, , jaked, demo>job>investor
+, , jaked, demo>habit>writing
+,1, jaked, accountability>partner
+"Has read ""The Power of Habit""",1, jaked, challenges>passive>reading
+, 45, larse, demo
+, , larse, demo>job>writer
+, , larse, demo>job>blogger
+, , larse, demo>habit>starting-on-work
+Uses Lift, , larse, accountability>uses-product
+Shares on Runkeeper, , larse, sharing>uses-product
+Shares on private facebook group for writers, , larse, sharing>online>private
+Has external deadlines for accountability,-1, larse, accountability>external
+, 34, patrick, demo
+, , patrick, demo>job>coach
+, , patrick, demo>other>psychology-degree
+, , patrick, demo>habit>morning-routine
+, , patrick, demo>habit>flexible-schedule
+, 27, anthony, demo
+, , anthony, demo>job>finance-Barclays
+, , anthony, demo>habit>reading
+, , anthony, demo>habit>well-rounded
+Uses Lift, , anthony, tracking>uses-product
+Doesn't share with strangers on lift, , anthony, sharing>online>private
+Uses Google and Quora for research, , anthony, challenges>active>google
+, 19, tj, demo
+, , tj, demo>job>entrepreneur
+, , tj, demo>job>song-writer
+, , tj, demo>habit>time-mngmt
+, , tj, demo>habit>waking
+Sets weekly/daily goals, , tj,motivation>goals
+Not interested in tracking,-1, tj, tracking>not-a-problem
+, 23, tomd, demo
+, , tomd, demo>job>entrepreneur
+'Realise what should do', , tomd, demo>habit>business>goals
+Can't share with friends - they don't understand, , tomd, sharing>not-friends
+Struggles to analyse self, , tomd, 
+Would like habit of the week ideas, , tomd, 
+Need reminding for motivation, , tomd, motivation>reminders
+Attend meetup,5, tomd, accountability>meetup
+Has looked for meetups,,mayura,accountability>meetup
+,48,inda,demo
+,,inda,demo>job>catering
+,,inda,demo>habit>exercise
+,,inda,demo>habit>healthy-eating
+Shares with wife,,inda,sharing>partner
+Shares with wife,,inda,sharing>private
+Forgets to practice,,inda,
+,23,jamesg,demo
+,,jamesg,demo>job>entrepreneur
+,,jamesg,demo>job>student
+SAD lamp,,jamesg,demo>habit>waking
+Sets goals,,jamesg,motivation>goals
+Asked gf to ring in the morning,,jamesg,sharing>partner
+Asked gf to ring in the morning,,jamesg,accountability>partner
+Reads about beh-change,,jamesg,challenges>reading

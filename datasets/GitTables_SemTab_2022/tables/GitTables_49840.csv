@@ -1,0 +1,9 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+__export__.share_block_9,__export__.res_company_4,__export__.res_partner_9,,M03,False,,,
+__export__.share_block_8,__export__.res_company_4,__export__.res_partner_9,,M02,False,,,
+__export__.share_block_7,__export__.res_company_4,__export__.res_partner_11,,M01,False,,,
+__export__.share_block_6,__export__.res_company_3,__export__.res_partner_13,,Ac_03,True,,,
+__export__.share_block_5,__export__.res_company_3,__export__.res_partner_11,,Ac_02,True,,,
+__export__.share_block_3,__export__.res_company_3,__export__.res_partner_12,,Ac_01,True,,,
+__export__.share_block_2,base.main_company,__export__.res_partner_15,,2,False,,,
+__export__.share_block_1,base.main_company,__export__.res_partner_6,,1,False,,,

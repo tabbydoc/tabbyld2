@@ -1,0 +1,13 @@
+col0,col1,col2,col3,col4,col5
+l10n_au_manufacturing.0,0,False,,1.0,AU GST
+l10n_au_manufacturing.04,4,False,l10n_au_manufacturing.0,1.0,Net GST to be paid/reclaimed
+l10n_au_manufacturing.06,6,False,l10n_au_manufacturing.04,1.0,GST on Sales and other outputs
+l10n_au_manufacturing.08,8,False,l10n_au_manufacturing.04,-1.0,GST reclaimed on purchases
+l10n_au_manufacturing.09,9,False,l10n_au_manufacturing.04,-1.0,WET Collected
+l10n_au_manufacturing.10,10,False,l10n_au_manufacturing.0,,Total value of sales ex GST (G1)
+l10n_au_manufacturing.12,12,False,l10n_au_manufacturing.0,,Export Sales (G2)
+l10n_au_manufacturing.14,14,False,l10n_au_manufacturing.0,,Other GST free sales (G3)
+l10n_au_manufacturing.16,16,False,l10n_au_manufacturing.0,,Capital Purchases (G10)
+l10n_au_manufacturing.18,18,False,l10n_au_manufacturing.0,,Non-capital purchases (G11)
+l10n_au_manufacturing.20,20,False,l10n_au_manufacturing.0,,Exempt Purchases
+l10n_au_manufacturing.22,22,False,l10n_au_manufacturing.0,,WET applicble purchases

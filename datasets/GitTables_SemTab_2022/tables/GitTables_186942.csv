@@ -1,0 +1,62 @@
+col0,col1,col2,col3,col4,col5
+NCBI_assembly,anomalouslist,,,0,0
+NCBI_assembly,asmreleasedate_genbank,Date the GenBankassembly was first released,,0,0
+NCBI_assembly,asmreleasedate_refseq,Date the RefSeq assembly was first released,,0,0
+NCBI_assembly,asmupdatedate,Date the assembly was last updated,,0,0
+NCBI_assembly,assemblyaccession,Space delimited assembly accessions w/ & w/o versions,,0,0
+NCBI_assembly,assemblyclass,,,0,0
+NCBI_assembly,assemblydescription,Assembly description,,0,0
+NCBI_assembly,assemblyname,Assembly name,,0,0
+NCBI_assembly,assemblystatus,,,0,0
+NCBI_assembly,assemblytype,Type of the assembly,,0,0
+NCBI_assembly,biosampleaccn,BioSample Accession and Id,,0,0
+NCBI_assembly,biosampleid,BioSample Accession and Id,,0,0
+NCBI_assembly,biosource,,,0,0
+NCBI_assembly,biosource.infraspecieslist,,,0,0
+NCBI_assembly,biosource.isolate,Isolate name,,0,0
+NCBI_assembly,biosource.sec,sex,,0,0
+NCBI_assembly,chainid,,,0,0
+NCBI_assembly,contign50,Contig length at which 50% of total bases in assembly are in contigs of that length or greater,,0,0
+NCBI_assembly,coverage,Sequencing coverage,,0,0
+NCBI_assembly,ensemblname,,,0,0
+NCBI_assembly,exclfromrefseq,Reasons assembly was excluded from RefSeq,,0,0
+NCBI_assembly,fromtype,From Type Material,,0,0
+NCBI_assembly,ftppath_assembly_rpt,,,0,0
+NCBI_assembly,ftppath_genbank,,,0,0
+NCBI_assembly,ftppath_refseq,,,0,0
+NCBI_assembly,ftppath_regions_rpt,,,0,0
+NCBI_assembly,ftppath_stats_rpt,,,0,0
+NCBI_assembly,gb_bioprojects,Uid and accessions of this assembly's projects,,0,0
+NCBI_assembly,gb_bioprojects.bioprojectaccn,Uid and accessions of this assembly's projects,,0,0
+NCBI_assembly,gb_bioprojects.bioprojectid,Uid and accessions of this assembly's projects,,0,0
+NCBI_assembly,gb_projects,,,0,0
+NCBI_assembly,gbuid,Id of GenBank synonym of this Assembly.,,0,0
+NCBI_assembly,lastmajorreleaseaccession,,,0,0
+NCBI_assembly,lastupdatedate,Date the assembly was last updated,,0,0
+NCBI_assembly,latestaccession,,,0,0
+NCBI_assembly,meta,,,0,0
+NCBI_assembly,organism,Exploded organism names,,0,0
+NCBI_assembly,partialgenomerepresentation,,,0,0
+NCBI_assembly,primary,,,0,0
+NCBI_assembly,propertylist,Properties,,0,0
+NCBI_assembly,refseq_category,RefSeq Category,,0,0
+NCBI_assembly,releaselevel,,,0,0
+NCBI_assembly,releasetype,Release Type,,0,0
+NCBI_assembly,rs_bioprojects,,,0,0
+NCBI_assembly,rs_projects,,,0,0
+NCBI_assembly,rsuid,Id of RefSeq Assembly.,,0,0
+NCBI_assembly,scaffoldn50,Scaffold length at which 50% of total bases in assembly are in contigs of that length or greater,,0,0
+NCBI_assembly,seqreleasedate,Date the most recent sequence went live in ID,,0,0
+NCBI_assembly,sortorder,,,0,0
+NCBI_assembly,speciesname,,,0,0
+NCBI_assembly,speciestaxid,,,0,0
+NCBI_assembly,submissiondate,,,0,0
+NCBI_assembly,submitterorganization,Organization that submitted this assembly,,0,0
+NCBI_assembly,synonym,,,0,0
+NCBI_assembly,synonym.genbank,Id of GenBank synonym of this Assembly.,,0,0
+NCBI_assembly,synonym.refseq,,,0,0
+NCBI_assembly,synonym.similarity,,,0,0
+NCBI_assembly,taxid,Taxonomy ID,,0,0
+NCBI_assembly,ucscname,,,0,0
+NCBI_assembly,uid,Unique number assigned to publication,,0,0
+NCBI_assembly,wgs,WGS Master,,0,0

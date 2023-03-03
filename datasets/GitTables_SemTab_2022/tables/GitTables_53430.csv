@@ -1,0 +1,84 @@
+col0,col1,col2,col3,col4,col5,col6
+1,ANPA,Vespertilionidae,Antrozous,Antrozous pallidus,Pallid bat,ANTPAL
+2,CHME,Phyllostomidae,Choeronycteris,Choeronycteris mexicana,Mexican long-tongued bat,CHOMEX
+3,CORA,Vespertilionidae,Corynorhinus,Corynorhinus rafinesquii,Rafinesque's big-eared bat,CORRAF
+4,COTO,Vespertilionidae,Corynorhinus,Corynorhinus townsendii,Townsend's big-eared bat,CORTO
+5,EPFU,Vespertilionidae,Eptesicus,Eptesicus fuscus,Big brown bat,EPTFUS
+6,EUMA,Vespertilionidae,Euderma,Euderma maculatum,Spotted bat,EUDMAC
+7,EUFL,Molossidae,Eumops,Eumops floridanus,Florida bonneted bat,EUMFLO
+8,EUPE,Molossidae,Eumops,Eumops perotis,Greater mastiff bat,EUMPER
+9,EUUN,Molossidae,Eumops,Eumops underwoodi,Underwood's mastiff bat,EUMUND
+10,IDPH,Vespertilionidae,Idionycteris,Idionycteris phyllotis,Allen's big-eared bat,IDIPHY
+11,LANO,Vespertilionidae,Lasionycteris,Lasionycteris noctivagans,Silver-haired bat,LASNOC
+12,LABL,Vespertilionidae,Lasiurus,Lasiurus blossevillii,Western red bat,LASBLO
+13,LABO,Vespertilionidae,Lasiurus,Lasiurus borealis,Eastern red bat,LASBOR
+14,LACI,Vespertilionidae,Lasiurus,Lasiurus cinereus,Hoary bat,LASCIN
+15,LAEG,Vespertilionidae,Lasiurus,Lasiurus ega,Southern yellow bat,LASEGA
+16,LAIN,Vespertilionidae,Lasiurus,Lasiurus intermedius,Northern yellow bat,LASINT
+17,LASE,Vespertilionidae,Lasiurus,Lasiurus seminolus,Seminole bat,LASSEM
+18,LAXA,Vespertilionidae,Lasiurus,Lasiurus xanthinus,Western yellow bat,LASXAN
+19,LENI,Phyllostomidae,Leptonycteris,Leptonycteris nivalis,Greater long-nosed bat,LEPNIV
+20,LEYE,Phyllostomidae,Leptonycteris,Leptonycteris yerbabuenae,Lesser long-nosed bat,LEPYER
+21,MACA,Phyllostomidae,Macrotus,Macrotus californicus,California leaf-nosed bat,MACCAL
+22,MOMO,Molossidae,Molossus,Molossus molossus,Pallas mastiff bat,MOLMOL
+23,MOME,Mormoopidae,Mormoops,Mormoops megalophylla,Ghost-faced bat,MORMEG
+24,MYAU,Vespertilionidae,Myotis,Myotis auriculus,Mexican long-eared bat,MYOAUS
+25,MYAS,Vespertilionidae,Myotis,Myotis austroriparius,Southeastern bat,
+26,MYCA,Vespertilionidae,Myotis,Myotis californicus,California bat,MYOCAL
+27,MYCI,Vespertilionidae,Myotis,Myotis ciliolabrum,Western small-footed myotis,MYOCIL
+28,MYEV,Vespertilionidae,Myotis,Myotis evotis,Western long-eared bat,MYOEVO
+29,MYGR,Vespertilionidae,Myotis,Myotis grisescens,Gray bat,MYOGRI
+30,MYKE,Vespertilionidae,Myotis,Myotis keenii,Keen's bat,MYOKEE
+31,MYLE,Vespertilionidae,Myotis,Myotis leibii,Eastern small-footed bat,MYOLEI
+32,MYLU,Vespertilionidae,Myotis,Myotis lucifugus,Little brown bat,MYOLUC
+33,MYSE,Vespertilionidae,Myotis,Myotis septentrionalis,Northern long-eared bat,MYOSEP
+34,MYSO,Vespertilionidae,Myotis,Myotis sodalis,Indiana bat,MYOSOD
+35,MYTH,Vespertilionidae,Myotis,Myotis thysanodes,Fringed bat,MYOTHY
+36,MYVE,Vespertilionidae,Myotis,Myotis velifer,Cave bat,MYOVEL
+37,MYVO,Vespertilionidae,Myotis,Myotis volans,Long-legged bat,MYOVOL
+38,MYYU,Vespertilionidae,Myotis,Myotis yumanensis,Yuma bat,MYOYUM
+39,NYHU,Vespertilionidae,Nycticeius,Nycticeius humeralis,Evening bat,NYCHUM
+40,NYFE,Vespertilionidae,Nyctinomops,Nyctinomops femorosaccus,Pocketed free-tailed bat,NYCFEM
+41,NYMA,Vespertilionidae,Nyctinomops,Nyctinomops macrotis,Big free-tailed bat,NYCMAC
+42,PAHE,Vespertilionidae,Parastrellus,Parastrellus hesperus,Canyon bat,PARHES
+43,PESU,Vespertilionidae,Perimyotis,Perimyotis subflavus,Tricolored bat,PERSUB
+44,TABR,Molossidae,Tadarida,Tadarida brasiliensis,Brazilian free-tailed bat,TADBRA
+45,ARJA,Phyllostomidae,Artibeus,Artibeus jamaicensis,Jamaican fruit-eating bat,ARTJAM
+46,BRCA,Phyllostomidae,Brachyphylla,Brachyphylla cavernarum,Antillean fruit-eating bat,
+47,DIEC,Phyllostomidae,Diphylla,Diphylla ecaudata,Hairy-legged vampire bat,
+48,LAMI,Vespertilionidae,Lasiurus,Lasiurus minor,Minor red bat,
+49,MYAUR,Vespertilionidae,Myotis,Myotis auriculus2,Southwestern myotis,
+50,MYAUS,Vespertilionidae,Myotis,Myotis austroriparius2,Southeastern myotis,
+51,MYOC,Vespertilionidae,Myotis,Myotis occultus,Arizona myotis,MYOOCC
+52,NOLE,,Noctilio,Noctilio leporinus,Great bulldog bat,
+53,STRU,Phyllostomidae,Stenoderma,Stenoderma rufum,Red fruit bat,
+54,ANPAEPFU,,,"Antrozous pallidus, Eptesicus fuscus","Pallid bat, Big brown bat",ANPAEPFU
+55,EPFULANO,,,"Eptesicus fuscus, Lasionycteris noctivagans","Big brown bat, Silver-haired bat",EPFULANO
+56,LABLPAHE,,,"Lasiurus blossevillii, Parastrellus hesperus","Western red bat, Canyon bat",LABLPAHE
+58,LABOMYLU,,,"Lasiurus borealis, Myotis lucifugus","Eastern red bat, Little brown bat",LABOMYLU
+59,LABOLASE,,,"Lasiurus borealis, Lasiurus seminolus","Eastern red bat, Seminole bat",LABOLASE
+60,LANOTABR,,,"Lasiurus noctivagans, Tadarida brasiliensis","Silver-haired bat, Mexican free-tailed bat",LANOTABR
+61,LACITABR,,,"Lasiurus cinereus, Tadarida brasiliensis","Hoary bat, Mexican free-tailed bat",LACITABR
+62,LEMY,,,"Myotis evotis, Myotis keenii, Myotis septentrionalis","Long-eared or Keen’s myotis, and Northern bat",LEMY
+63,MYCAMYYU,,,"Myotis californicus, Myotis yumanensis","California bat, Yuma bat",MYCAMYYU
+64,NOTBAT,,,Not a bat,Not a bat,NOTBAT
+65,NoID,,,,Bat but no grouping or user-defined category applies,NoID
+57,LABOPESU,,,"Lasiurus borealis, Perimyotis subflavus","Eastern red bat, Tri-colored bat",LABOPESU
+66,25k,,,,Various species with pulses that have a minimum frequency of approximately 15–25 kHz.,25k
+67,40k,,,,Various species with pulses that have a minimum frequency in the range of 35–45 kHz.,40k
+68,40kMyo,,,,Various species of Myotis with pulses that have a minimum frequency in the range of 35–40 kHz.,40kMyo
+69,LowF,,,,Various species with pulses having a minimum frequency lower than ~30 kHz.,LowF
+70,HighF,,,,Various species with pulses having a minimum frequency higher than ~30 kHz.,HighF
+71,25k,,,,Various species with pulses that have a minimum frequency of approximately 15–25 kHz.,25k
+72,40k,,,,Various species with pulses that have a minimum frequency in the range of 35–45 kHz.,40k
+73,40kMyo,,,,Various species of Myotis with pulses that have a minimum frequency in the range of 35–40 kHz.,40kMyo
+74,LowF,,,,Various species with pulses having a minimum frequency lower than ~30 kHz.,LowF
+75,HighF,,,,Various species with pulses having a minimum frequency higher than ~30 kHz.,HighF
+76,LACILANO,,,"Lasiurus cinereus, Lasionycteris noctivagans","Hoary bat, Silver-haired bat",LACILANO
+77,MYCIMYVO,,,"Myotis ciliolabrum, Myotis volans","Western small-footed myotis, Long-legged bat",MYCIMYVO
+78,LACILANO,,,"Lasiurus cinereus, Lasionycteris noctivagans","Hoary bat, Silver-haired bat",LACILANO
+79,MYCIMYVO,,,"Myotis ciliolabrum, Myotis volans","Western small-footed myotis, Long-legged bat",MYCIMYVO
+80,LESP,,Leptonycteris,,,
+81,LUSO,,Myotis,Myotis lucifugus/Myotis sodalis,Little brown bat/Indiana bat,
+82,MYAR,,Myotis,Myotis auriculus,Southwestern myotis,
+83,NYSP,,Nyctinomops,,,

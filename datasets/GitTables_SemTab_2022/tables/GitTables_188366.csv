@@ -1,0 +1,8 @@
+col0,col1,col2,col3
+Changes:,,,
+root/race,:,TextNode	Added,
+root/battlegroundsPremiumDbfId,:,IntNode	Removed,
+root/targetingArrowText,:,TextNode	Removed,
+root/techLevel,:,IntNode	Removed,
+{,,,
+};,,,

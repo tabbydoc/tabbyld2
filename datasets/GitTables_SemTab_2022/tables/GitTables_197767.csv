@@ -1,0 +1,24 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14
+2017-05-30 16:14:50.000000,play_video,AndrewLim,dec5f7321e38481a9cdaba33dc06f071,0.0,,,,,,Programming: Video I,audit,False,m,4575.065751
+2017-05-30 16:15:50.000000,seek_video,AndrewLim,dec5f7321e38481a9cdaba33dc06f071,,60.0,0.0,,,,Programming: Video I,audit,False,m,4575.065751
+2017-05-30 16:16:50.000000,stop_video,AndrewLim,dec5f7321e38481a9cdaba33dc06f071,120.0,,,,,,Programming: Video I,audit,False,m,4575.065751
+2017-05-02 16:11:50.000000,play_video,DavidLaing,dec5f7321e38481a9cdaba33dc06f071,0.0,,,,,,Programming: Video I,audit,False,m,4575.065751
+2017-05-02 16:14:50.000000,stop_video,DavidLaing,dec5f7321e38481a9cdaba33dc06f071,120.0,,,,,,Programming: Video I,audit,False,m,4575.065751
+2017-05-01 16:11:50.000000,play_video,MattEmery,dec5f7321e38481a9cdaba33dc06f071,0.0,,,,,,Programming: Video I,audit,False,m,4575.065751
+2017-05-01 16:14:50.000000,stop_video,MattEmery,dec5f7321e38481a9cdaba33dc06f071,110.0,,,,,,Programming: Video I,audit,False,m,4575.065751
+2017-05-01 16:11:50.000000,play_video,Subi,87705fd28fcf403f9c877a4df5ec1d05,0.0,,,,,,Programming: Video II,audit,False,f,4575.065751
+2017-05-01 16:14:50.000000,stop_video,Subi,87705fd28fcf403f9c877a4df5ec1d05,120.0,,,,,,Programming: Video II,audit,False,f,4575.065751
+2017-05-01 16:11:50.000000,play_video,AndrewLim,87705fd28fcf403f9c877a4df5ec1d05,0.0,,,,,,Programming: Video II,audit,False,m,4575.065751
+2017-05-01 16:14:50.000000,stop_video,AndrewLim,87705fd28fcf403f9c877a4df5ec1d05,120.0,,,,,,Programming: Video II,audit,False,m,4575.065751
+2017-05-01 16:11:50.000000,play_video,DavidLaing,cf73512fe4f04f4396c8faa30eae0725,0.0,,,,,,Programming: Video III,audit,False,m,4575.065751
+2017-05-01 16:14:50.000000,stop_video,DavidLaing,cf73512fe4f04f4396c8faa30eae0725,120.0,,,,,,Programming: Video III,audit,False,m,4575.065751
+2017-05-01 16:11:50.000000,play_video,DavidLaing,cf73512fe4f04f4396c8faa30eae0725,0.0,,,,,,Programming: Video III,audit,False,m,4575.065751
+2017-05-01 16:14:50.000000,stop_video,DavidLaing,cf73512fe4f04f4396c8faa30eae0725,120.0,,,,,,Programming: Video III,audit,False,m,4575.065751
+2017-05-02 16:19:00.000000,play_video,AndrewLim,cf73512fe4f04f4396c8faa30eae0725,0.0,,,,,,Programming: Video III,audit,False,m,4575.065751
+2017-05-02 16:20:00.000000,page_close,AndrewLim,,,,,,,,,audit,False,m,4575.065751
+2017-05-02 16:19:00.000000,play_video,Subi,cf73512fe4f04f4396c8faa30eae0725,0.0,,,,,,Programming: Video III,audit,False,f,4575.065751
+2017-05-02 16:20:00.000000,seq_next,Subi,v1:UBCx+PSYC.1x+3T2016+type@sequential+block@e66a6ddbf28d49b2ad6ebe1e24d76cf2,,,,,,,,audit,False,f,4575.065751
+2017-05-03 16:11:50.000000,play_video,MattEmery,e89cd2f7f95a4d5f90f39d03ddab2796,0.0,,,,,,Programming: Video IV,audit,False,m,4575.065751
+2017-05-03 16:11:50.100000,stop_video,MattEmery,e89cd2f7f95a4d5f90f39d03ddab2796,0.1,,,,,,Programming: Video IV,audit,False,m,4575.065751
+2017-05-03 16:11:50.000000,play_video,MattEmery,e89cd2f7f95a4d5f90f39d03ddab2796,0.0,,,,,,Programming: Video IV,audit,False,m,4575.065751
+2017-05-03 16:11:50.100000,stop_video,MattEmery,e89cd2f7f95a4d5f90f39d03ddab2796,60.0,,,,,,Programming: Video IV,audit,False,m,4575.065751

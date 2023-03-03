@@ -1,0 +1,82 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19
+1,0,Adaptateur,adaptateur,0.0,1.0,,1,10560.0,10560.0,1.0,1.0,Adaptation,,,,,,Adaptation,
+2,0,"Animateur, Présentateur",présentateur dans un spectacle,1.0,,0.0,0,10234.0,10234.0,2.0,,Présentation,,,,,,,
+3,0,Assistant à la réalisation,,0.0,,0.0,0,10233.0,10233.0,3.0,1.0,,,,,,,,
+4,0,Auteur,auteur du texte,0.0,1.0,1.0,0,1507.0,1507.0,4.0,1.0,,,,,,,,
+5,0,Bruiteur,bruiteur,1.0,,0.0,0,10232.0,10232.0,5.0,,,,,,,,,
+6,0,Chargé(e) de réalisation,chargé de réalisation,0.0,,0.0,0,10232.0,10232.0,6.0,,Réalisation,,1.0,,,,,
+7,0,Chef d'orchestre,chef d'orchestre,1.0,,0.0,0,10641.0,10641.0,7.0,1.0,Direction,,,,,,,
+8,0,Chorégraphe,chorégraphe,0.0,1.0,0.0,0,1507.0,1507.0,8.0,,,,,,,1.0,,"oeuvre de type ""oeuvre chorégraphique"" (en attente référentiel des oeuvres)"
+9,0,Comédien,acteur,1.0,,0.0,0,1506.0,1506.0,9.0,,,,,,,,,
+10,0,Compositeur,compositeur,0.0,1.0,0.0,1,10579.0,10579.0,10.0,1.0,,,,,,,,
+11,0,Danseur,danseur,1.0,,0.0,0,1506.0,1506.0,11.0,,,,,,,,,
+12,0,Direction artistique,directeur artistique,0.0,,0.0,0,10129.0,10129.0,12.0,,,,,1.0,,,,
+13,1,Interprète,interprète,1.0,,0.0,0,1506.0,1506.0,13.0,1.0,,,,,,,,
+14,0,Metteur en scène,metteur en scène,0.0,1.0,0.0,0,1507.0,1507.0,14.0,,,,,,,1.0,,"oeuvre de type ""mise en scène"" (en attente référentiel des oeuvres)"
+15,1,Musicien,musicien (interprète),1.0,,0.0,0,10856.0,10856.0,15.0,1.0,,,,,,,,
+16,0,Prise de son,preneur de son,0.0,,0.0,0,10128.0,10128.0,16.0,,,,,,1.0,,,"(erreur dans OMU_PERSONNE => remplacer par PROFESSION ID= 2 Animateur, Présentateur)"
+17,0,Producteur,producteur (radio),0.0,,0.0,0,1516.0,1516.0,17.0,1.0,Production,,,,,,,
+18,0,Réalisateur,réalisateur d'émission de radio,0.0,,0.0,0,10232.0,10232.0,18.0,1.0,Réalisation,,1.0,,,,,
+19,1,Soliste,,1.0,,0.0,0,10609.0,10609.0,19.0,1.0,,,,,,,,M32 Actor's responsability (déjà mappé)
+20,0,Traducteur,traducteur,0.0,1.0,1.0,0,1507.0,1507.0,20.0,,Traduction,,,,,,,
+21,0,Conseiller littéraire,conseiller littéraire,0.0,,0.0,0,10231.0,10231.0,21.0,,,,,,,,,
+41,0,Chef de choeur,chef de choeur,1.0,,0.0,0,10641.0,10641.0,31.0,,Direction,,,,,,,
+81,0,Chroniqueur,,0.0,,,0,10234.0,10234.0,22.0,,,,,,,,,
+122,0,Monteur,monteur (son),0.0,,0.0,0,10232.0,10232.0,67.0,,Montage,,1.0,,,,,
+201,0,Auteur de texte,auteur du texte,0.0,1.0,1.0,0,1507.0,1507.0,41.0,,,,,,,,,
+202,0,Auteur dramatique,auteur du texte,0.0,1.0,1.0,0,1507.0,1507.0,42.0,,,,,,,,,
+203,0,Auteur lecteur,narrateur,,,,0,1507.0,1507.0,43.0,,,,,,,,,
+204,1,Chanteur,,1.0,,0.0,0,1506.0,1506.0,30.0,,,,,,,,,M14 MOP chant@fre (iaml)
+205,1,Chanteuse,,1.0,,0.0,0,1506.0,1506.0,,,,30.0,,,,,,M14 MOP chant@fre (iaml)
+206,0,Chef d'orchestre (Femme),chef d'orchestre,1.0,,0.0,0,10641.0,10641.0,,,Direction,7.0,,,,,,
+207,0,Collecteur,collecteur,0.0,1.0,0.0,1,1507.0,1507.0,44.0,,,,,,,,,
+208,0,Compilateur,compilateur,0.0,,,0,1507.0,1507.0,45.0,,,,,,,,,
+209,0,Compositrice,compositeur,0.0,1.0,0.0,1,10579.0,10579.0,,,,10.0,,,,,,
+210,0,Conteur,conteur,1.0,,0.0,0,1506.0,1506.0,32.0,,,,,,,,,
+211,0,Décorateur,décorateur,0.0,1.0,0.0,0,1507.0,1507.0,46.0,,,,,,,1.0,,"oeuvre de type ""décor de scène"" (en attente référentiel des oeuvres)"
+212,0,Dessinateur,dessinateur,0.0,,0.0,0,1507.0,1507.0,47.0,,,,,,,,,
+243,0,Directeur d'édition,,0.0,,0.0,0,1507.0,1507.0,,,,,,,,,,
+213,0,Editeur,éditeur,0.0,,0.0,0,1507.0,1507.0,49.0,,,,,,,,,
+214,0,Fantaisiste,créateur de la fantaisie musicale,,,0.0,0,1506.0,1506.0,33.0,,,,,,,,,
+215,0,Griot,,,,0.0,0,1506.0,1506.0,34.0,,,,,,,,,
+216,0,Harmonisateur,harmonisateur,0.0,1.0,0.0,1,1507.0,1507.0,50.0,,,,,,,,Harmonisation,
+217,0,Illustrateur,,0.0,,0.0,0,1507.0,1507.0,51.0,,,,,,,,,
+218,0,Imitateur,imitateur,1.0,,0.0,0,1506.0,1506.0,35.0,,,,,,,,,
+244,0,Journaliste,,0.0,,,0,1507.0,1507.0,,,,,,,,,,
+219,0,Lecteur,narrateur,1.0,,0.0,0,1506.0,1506.0,36.0,,,,,,,,,
+220,0,Librettiste,librettiste,0.0,1.0,1.0,0,1507.0,1507.0,52.0,,,,,,,,,
+221,0,Orchestrateur,orchestrateur,0.0,1.0,0.0,1,1507.0,1507.0,53.0,,,,,,,,Orchestration,
+222,0,Parodieur,parodiste,0.0,1.0,0.0,1,1507.0,1507.0,54.0,,,,,,,,,
+223,0,Parolier,parolier,0.0,1.0,1.0,0,1507.0,1507.0,55.0,,,,,,,,,
+224,0,Peintre,peintre,0.0,1.0,0.0,0,1507.0,1507.0,56.0,,,,,,,1.0,,"oeuvre de type ""oeuvre picturale"" (en attente référentiel des oeuvres)"
+225,0,Poète,auteur du texte,0.0,1.0,1.0,0,1507.0,1507.0,57.0,,,,,,,,,
+226,0,Préfacier,auteur de la préface,0.0,,,0,1507.0,1507.0,58.0,,,,,,,,,
+227,0,Réalisateur cinéma,réalisateur de films,0.0,,0.0,0,1507.0,1507.0,59.0,,,,,,,,,
+245,0,Réalisateur radio,réalisateur d'émission de radio,0.0,,0.0,0,1507.0,1507.0,,,,,1.0,,,,,
+228,0,Réalisateur sonore (musique),directeur artistique (son),1.0,,0.0,0,1506.0,1506.0,37.0,,,,,,,,,
+229,0,Réalisateur vidéo,vidéaste,0.0,,0.0,0,1507.0,1507.0,60.0,,,,,,,,,Ne prendre ni la fonction ni les noms liés
+230,0,Récitant,,1.0,,0.0,0,1506.0,1506.0,38.0,,,,,,,,,MOP voix parlée@fre (iaml) + F38 Character {récitant}
+231,0,Récitante,,1.0,,0.0,0,1506.0,1506.0,,,,38.0,,,,,,MOP voix parlée@fre (iaml) + F38 Character {récitante}
+232,0,Réducteur,créateur de la réduction musicale,0.0,1.0,0.0,1,1507.0,1507.0,61.0,,,,,,,,Réduction,
+233,0,Réviseur,réviseur (musique),0.0,1.0,0.0,1,1507.0,1507.0,62.0,,,,,,,,Révision,
+234,0,Scénariste,scénariste,0.0,1.0,1.0,0,1507.0,1507.0,63.0,,,,,,,,,
+235,0,Siffleur,,,,0.0,0,1506.0,1506.0,39.0,,,,,,,,,
+236,0,Transcripteur,transcripteur,0.0,1.0,0.0,1,1507.0,1507.0,64.0,,,,,,,,Transcription,
+239,0,Musicien metteur en ondes,musicien metteur en ondes,0.0,,0.0,0,10129.0,10129.0,,,,12.0,,,1.0,,,
+238,0,Directeur du son,ingénieur du son,0.0,,0.0,0,10127.0,10127.0,66.0,,,,,,1.0,,,
+241,0,Sonorisation,sonorisateur,1.0,,0.0,0,10128.0,10128.0,70.0,,,,,,1.0,,,"OK interprète ET recording (s'il est dans OMU => M28, s'il est dans ITEM => F29)"
+101,0,Ecrivain,auteur du texte,0.0,1.0,1.0,0,1507.0,1507.0,48.0,,,,,,,,,
+121,0,Mixage,mixage,0.0,,0.0,0,10128.0,10128.0,68.0,,,,,,1.0,,,
+141,0,Attaché de production,attaché de production (radio),0.0,,0.0,0,,,23.0,,,,,,,,,
+162,0,Scénographe,scénographe,0.0,1.0,0.0,0,1507.0,1507.0,75.0,,,,,,,1.0,,"oeuvre de type ""scénographie"" (en attente référentiel des oeuvres)"
+163,0,Auteur d'argument,auteur de l'argument,0.0,1.0,1.0,0,1507.0,1507.0,76.0,,,,,,,,,
+181,0,Scat,,1.0,,0.0,0,1506.0,1506.0,77.0,,,,,,,,,MOP chant@fre (iaml) + M57 Vocal Technique (en attente référentiel des techniques vocales)
+248,0,Chant diphonique,,1.0,,0.0,0,1506.0,1506.0,78.0,,,,,,,,,MOP chant @fre (iaml) et M57 Vocal Technique (en attente référentiel des techniques vocales)
+261,0,Cadence ,compositeur de la cadence,0.0,1.0,0.0,1,1507.0,1507.0,79.0,,,,,,,,,
+281,0,Editeur,éditeur,0.0,,0.0,0,10858.0,10858.0,49.0,1.0,,,,,,,,
+161,0,Costumier,costumier,0.0,1.0,0.0,0,1507.0,1507.0,74.0,,,,,,,1.0,,"oeuvre de type ""costume de scène"" (en attente référentiel des oeuvres)"
+1001,0,Acteur,acteur,1.0,,0.0,0,10852.0,10852.0,1001.0,1.0,,,,,,,,
+1002,0,Arrangeur,arrangeur,0.0,1.0,0.0,1,10560.0,10853.0,40.0,1.0,,,,,,,Arrangement,
+1003,0,Remixeur,remixeur,,,0.0,0,10857.0,10857.0,1003.0,1.0,,,,,,,,
+1004,0,Disc Jockey,disc jockey,,,0.0,0,10855.0,10855.0,1004.0,1.0,,,,,,,,
+1005,0,Photographe,photographe,0.0,,0.0,0,10854.0,10854.0,1005.0,1.0,,,,,,,,

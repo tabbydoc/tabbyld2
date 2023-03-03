@@ -1,0 +1,78 @@
+col0,col1,col2,col3
+db,en,comp_lang,Language
+db,en,comp_name,Name
+db,en,lang,Language
+db,en,namespace,Namespace
+db,en,text_code,Code
+db,en,the_text,Text
+db,en,user_comp_id,Company
+db,en,user_email,Email
+db,en,user_fname,First name
+db,en,user_id,Id
+db,en,user_lname,Last name
+db,en,user_super_admin,Super admin
+db,fr,comp_id,Id
+db,fr,comp_lang,Langage
+db,fr,comp_name,Nom
+db,fr,lang,Langage
+db,fr,namespace,Catégorie
+db,fr,text_code,Code
+db,fr,the_text,Texte
+db,fr,user_comp_id,Société
+db,fr,user_email,Email
+db,fr,user_fname,Prénom
+db,fr,user_id,Id
+db,fr,user_lname,Nom
+db,fr,user_super_admin,Super admin
+form,en,cancel,Cancel
+form,en,preview,Preview
+form,en,save,Save
+form,en,save_draft,Save as draft
+form,en,search,Search
+form,en,search_in_ad,Search in group directory
+form,en,send,Send
+form,en,validate,Validate
+form,en,visualised,Visualised
+form,en,delete,Delete
+form,en,insert,Insert
+form,en,modify,Modify
+form,en,submit,Submit
+form,fr,cancel,Annuler
+form,fr,preview,Prévisualiser
+form,fr,save,Sauvegarder
+form,fr,save_draft,Sauvegarder le brouillon
+form,fr,search,Rechercher
+form,fr,search_in_ad,Recherche dans l'annuaire groupe
+form,fr,send,Envoyer
+form,fr,validate,Valider
+form,fr,visualised,Visualiser
+form,fr,delete,Supprimer
+form,fr,insert,Insérer
+form,fr,modify,Modifier
+form,fr,submit,Envoyer
+zmax,en,add_line,Add a new
+zmax,en,company_link,Companies
+zmax,en,company_title,Companies setting
+zmax,en,group_portal_link,Group portal
+zmax,en,homepage,Homepage
+zmax,en,menu,Menu
+zmax,en,news_link,News
+zmax,en,packaging_portal_link,Packaging portal
+zmax,en,texts_link,Texts
+zmax,en,texts_title,Texts setting
+zmax,en,translation_link,Translation
+zmax,en,user_link,Users
+zmax,en,user_title,Users setting
+zmax,fr,add_line,Nouveau
+zmax,fr,company_link,Sociétés
+zmax,fr,company_title,Gestion des sociétés
+zmax,fr,group_portal_link,Portail groupe
+zmax,fr,homepage,Accueil
+zmax,fr,menu,Menu
+zmax,fr,news_link,Actualités
+zmax,fr,packaging_portal_link,Portail conditionnement
+zmax,fr,texts_link,Textes
+zmax,fr,texts_title,Gestion des textes
+zmax,fr,translation_link,Traduction
+zmax,fr,user_link,Utilisateurs
+zmax,fr,user_title,Gestion des utilisateurs

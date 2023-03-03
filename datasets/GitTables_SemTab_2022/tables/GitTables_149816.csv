@@ -1,0 +1,11 @@
+col0,col1,col2,col3,col4,col5
+rut,NIT,rut,base.co,True,1
+national_citizen_id,Cédula de ciudadanía,national_citizen_id,base.co,False,2
+external_id,ID del Exterior,external_id,,False,3
+id_card,Tarjeta de Identidad,id_card,base.co,False,6
+civil_registration,Registro Civil,civil_registration,base.co,False,7
+diplomatic_card,Carné Diplomatico,diplomatic_card,base.co,False,8
+residence_document,Salvoconducto de Permanencia,residence_document,base.co,False,9
+id_document,Cédula,id_document,base.co,False,10
+l10n_latam_base.it_vat,VAT,rut,,True,80
+l10n_latam_base.it_fid,Foreign ID,foreign_id_card,,False,100

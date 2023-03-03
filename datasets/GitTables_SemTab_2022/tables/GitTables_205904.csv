@@ -1,0 +1,56 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1,20,Female,High school, Familiar, Somewhat familiar," Yes, with confidence", Generally
+2,20,Male,Bachelor's, Unfamiliar, Unfamiliar," Yes, with confidence", Sometimes
+3,21,Male,Bachelor's, Unfamiliar, Unfamiliar," Yes, with confidence", Generally
+4,23,Female,Bachelor's, Unfamiliar, Very unfamiliar," Yes, with confidence", Sometimes
+5,24,Female,Bachelor's, Somewhat familiar, Somewhat familiar," Yes, with a little effort", Rarely
+6,19,Female,High school, Somewhat familiar, Very unfamiliar," Yes, with much effort", Rarely
+7,26,Female,Bachelor's, Familiar, Unfamiliar," Yes, with confidence", Sometimes
+8,24,Male,Some college, Somewhat familiar, Somewhat familiar," Yes, with confidence", Sometimes
+9,21,Female,High school, Familiar, Very unfamiliar," Yes, with confidence", Generally
+10,19,Female,Some college, Somewhat familiar, Unfamiliar, No, Rarely
+11,22,Female,High school, Somewhat familiar, Unfamiliar," Yes, with confidence", Sometimes
+12,21,Female,Some college, Unfamiliar, Unfamiliar," Possibly, but I'm uncertain", Rarely
+13,24,Male,Bachelor's, Somewhat familiar, Somewhat familiar," Yes, with confidence", Sometimes
+14,18,Female,High school, Somewhat familiar, Somewhat familiar," Yes, with confidence", Sometimes
+15,19,Female,High school, Somewhat familiar, Somewhat familiar," Yes, with confidence", Generally
+16,22,Female,Some college, Unfamiliar, Unfamiliar," Yes, with much effort", Rarely
+17,20,Female,Some college, Somewhat familiar, Unfamiliar," Yes, with confidence", Generally
+18,19,Female,Some college, Somewhat familiar, Unfamiliar," Yes, with confidence", Sometimes
+19,20,Male,High school, Somewhat familiar, Somewhat familiar," Yes, with confidence", Generally
+20,24,Male,Some college, Somewhat familiar, Very unfamiliar," Yes, with confidence", Never
+21,22,Female,High school, Unfamiliar, Unfamiliar," Yes, with a little effort", Sometimes
+22,25,Male,High school, Somewhat familiar, Unfamiliar," Yes, with confidence", Rarely
+23,22,Male,High school, Familiar, Somewhat familiar," Yes, with confidence", Sometimes
+24,19,Male,Some college, Somewhat familiar, Unfamiliar," Yes, with confidence", Sometimes
+25,52,Female,Master's, Somewhat familiar, Very unfamiliar," Yes, with confidence", Generally
+26,22,Male,High school, Familiar, Somewhat familiar," Yes, with confidence", Sometimes
+27,20,Female,Some college, Somewhat familiar, Somewhat familiar," Yes, with a little effort", Sometimes
+28,22,Female,Bachelor's, Somewhat familiar, Somewhat familiar," Yes, with confidence", Always
+29,22,Male,Some college, Unfamiliar, Very unfamiliar," Yes, with confidence", Rarely
+30,22,Male,Some college, Familiar, Somewhat familiar," Yes, with confidence", Rarely
+31,22,Female,Bachelor's, Somewhat familiar, Unfamiliar," Yes, with a little effort", Sometimes
+32,21,Male,Some college, Somewhat familiar, Unfamiliar," Yes, with confidence", Rarely
+33,23,Female,Bachelor's, Unfamiliar, Unfamiliar," Yes, with confidence", Generally
+34,19,Female,Some college, Somewhat familiar, Unfamiliar," Yes, with confidence", Generally
+35,20,Female,Some college, Unfamiliar, Very unfamiliar," Yes, with confidence", Sometimes
+36,22,Male,High school, Somewhat familiar, Familiar," Yes, with confidence", Generally
+37,19,Female,Some college, Familiar, Somewhat familiar," Yes, with confidence", Generally
+38,21,Female,High school, Unfamiliar, Unfamiliar," Possibly, but I'm uncertain", Sometimes
+39,22,Female,Bachelor's, Unfamiliar, Very unfamiliar," Yes, with confidence", Sometimes
+40,21,Female,Some college, Somewhat familiar, Unfamiliar," Possibly, but I'm uncertain", Rarely
+41,19,Female,Some college, Familiar, Very unfamiliar," Yes, with a little effort", Generally
+42,20,Female,High school, Somewhat familiar, Very unfamiliar," Yes, with a little effort", Rarely
+43,20,Male,Some college, Familiar, Familiar," Yes, with confidence", Always
+44,18,Female,High school, Somewhat familiar, Unfamiliar," Yes, with confidence", Generally
+45,27,Male,Bachelor's, Somewhat familiar, Familiar," Yes, with confidence", Always
+46,23,Female,High school, Familiar, Somewhat familiar," Yes, with confidence", Generally
+47,19,Female,High school, Somewhat familiar, Very unfamiliar," Yes, with a little effort", Rarely
+48,20,Female,High school, Familiar, Somewhat familiar," Yes, with confidence", Generally
+49,20,Female,Some college, Somewhat familiar, Somewhat familiar," Yes, with confidence", Rarely
+50,20,Female,High school, Unfamiliar, Unfamiliar," Yes, with a little effort", Rarely
+51,22,Male,Some college, Somewhat familiar, Unfamiliar," Yes, with confidence", Rarely
+52,22,Female,Bachelor's, Familiar, Very unfamiliar," Yes, with confidence", Sometimes
+53,22,Male,Some college, Familiar, Familiar," Yes, with a little effort", Sometimes
+54,22,Female,Some college, Somewhat familiar, Somewhat familiar," Yes, with confidence", Generally
+55,22,Female,Bachelor's, Familiar, Unfamiliar," Yes, with a little effort", Never

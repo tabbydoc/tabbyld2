@@ -1,0 +1,61 @@
+col0,col1,col2,col3
+1,AL,Alabama,0
+2,AK,Alaska,0
+3,AS,American Samoa,1
+4,AZ,Arizona,0
+5,AR,Arkansas,0
+6,CA,California,0
+7,CO,Colorado,0
+8,CT,Connecticut,0
+9,DE,Delaware,0
+10,DC,District of Columbia,1
+11,US,Federal,1
+12,FL,Florida,0
+13,GA,Georgia,0
+14,GU,Guam,1
+15,HI,Hawaii,0
+16,ID,Idaho,0
+17,IL,Illinois,0
+18,IN,Indiana,0
+19,IA,Iowa,0
+20,KS,Kansas,0
+21,KY,Kentucky,0
+22,LA,Louisiana,0
+23,ME,Maine,0
+24,MD,Maryland,0
+25,MA,Massachusetts,0
+26,MI,Michigan,0
+27,MN,Minnesota,0
+28,MS,Mississippi,0
+29,MO,Missouri,0
+30,MT,Montana,0
+31,MP,N. Mariana Islands,1
+32,NE,Nebraska,0
+33,NV,Nevada,0
+34,NH,New Hampshire,0
+35,NJ,New Jersey,0
+36,NM,New Mexico,0
+37,NY,New York,0
+38,NC,North Carolina,0
+39,ND,North Dakota,0
+40,OH,Ohio,0
+41,OK,Oklahoma,0
+42,OR,Oregon,0
+43,PW,Palau,1
+44,PA,Pennsylvania,0
+45,PR,Puerto Rico,1
+46,RI,Rhode Island,0
+47,SC,South Carolina,0
+48,SD,South Dakota,0
+49,TN,Tennessee,0
+50,TX,Texas,0
+51,UT,Utah,0
+52,VT,Vermont,0
+53,VI,Virgin Islands,1
+54,VA,Virginia,0
+55,WA,Washington,0
+56,WV,West Virginia,0
+57,WI,Wisconsin,0
+58,WY,Wyoming,0
+59,MH,Marshall Islands,1
+60,FM,Federated States of Micronesia,1

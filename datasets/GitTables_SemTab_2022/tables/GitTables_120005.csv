@@ -1,0 +1,113 @@
+col0,col1,col2,col3,col4
+0,1,,0,
+2,1,1 Handed Blunt Weapons,720,102.0
+3,1,1 Handed Edged Weapon,760,103.0
+4,1,2 Handed Blunt Weapons,720,107.0
+5,1,2 Handed Edged Weapons,760,105.0
+6,1,Adventuring,600,137.0
+7,2,Agility,900,17.0
+8,1,Aimed Shot,840,151.0
+9,1,Assault Rifle,900,116.0
+10,16,Biological Metamorphosis,960,128.0
+11,1,Body Development,800,152.0
+12,1,Bow,800,111.0
+13,1,Bow Special Attack,800,121.0
+14,1,Brawling,660,142.0
+15,1,Breaking and Entry,800,165.0
+16,1,Burst,840,148.0
+17,3,Chemical AC,800,93.0
+18,1,Chemistry,800,163.0
+19,3,Cold AC,800,95.0
+20,1,Computer Literacy,800,161.0
+21,1,Concealment,720,164.0
+22,1,Dimach,900,144.0
+24,1,Dodge Ranged Attacks,800,154.0
+25,1,Duck Explosives,800,153.0
+26,1,Electrical Engineering,800,126.0
+27,3,Energy AC,900,92.0
+28,1,Evade Close Combat,800,155.0
+29,1,Fast Attack,760,147.0
+30,3,Fire AC,800,97.0
+31,1,First Aid,720,123.0
+32,1,Fling Shot,720,150.0
+33,1,Full Auto,900,167.0
+34,1,Grenade Throwing,760,109.0
+35,1,Heavy Weapons,400,110.0
+36,3,Projectile AC,900,90.0
+37,2,Intelligence,900,19.0
+38,1,Map Navigation,500,140.0
+39,1,Martial Arts,1000,100.0
+40,16,Matter Creation,960,130.0
+41,16,Matter Metamorphosis,960,127.0
+42,4,Max Health,1000,1.0
+43,4,Max Nano,1000,221.0
+44,1,Mechanical Engineering,800,125.0
+45,1,Melee Energy Weapons,800,104.0
+46,1,Melee Weapons Initiative,800,118.0
+47,3,Melee AC,900,91.0
+48,1,MG/SMG,800,114.0
+49,1,Multiple Melee Weapons,900,101.0
+50,1,Multiple Ranged Weapons,800,134.0
+51,1,Nano Initiative,800,149.0
+52,1,Nano Pool,1200,132.0
+53,1,Nano Programming,800,160.0
+54,1,Nano Resistance,800,168.0
+55,1,Deflect,840,145.0
+56,1,Perception,800,136.0
+57,1,Pharmaceuticals,800,159.0
+58,1,Physical Initiative,800,120.0
+59,1,Piercing,640,106.0
+60,1,Pistol,800,112.0
+61,2,Psychic,900,21.0
+62,16,Psychological Modifications,960,129.0
+63,1,Psychology,800,162.0
+64,1,Quantum Physics,1000,157.0
+65,3,Radiation AC,800,94.0
+66,1,Ranged Energy,800,133.0
+67,1,Ranged Initiative,800,119.0
+68,1,Rifle,900,113.0
+69,1,Riposte,1000,143.0
+70,1,Run Speed,1000,156.0
+71,2,Sense,900,20.0
+72,16,Sensory Improvement,880,122.0
+73,1,Sharp Objects,500,108.0
+74,1,Shotgun,680,115.0
+75,1,Sneak Attack,1000,146.0
+76,2,Stamina,900,18.0
+77,2,Strength,900,16.0
+78,1,Swimming,500,138.0
+79,16,Time and Space,960,131.0
+80,1,Trap Disarming,720,135.0
+81,1,Treatment,860,124.0
+82,1,Tutoring,520,141.0
+83,1,Vehicle Air,400,139.0
+84,1,Vehicle Ground,600,166.0
+85,1,Vehicle Water,480,117.0
+86,1,Weapon Smithing,800,158.0
+87,15,Nano Delta*,1,364.0
+88,15,Heal Delta*,1,343.0
+89,8,Add All Defense*,1,277.0
+90,9,Add All Offense*,1,276.0
+91,10,Add Max NCU*,1,181.0
+92,5,Add XP (%)*,1,319.0
+93,12,Nano Interrupt (%)*,1,383.0
+94,6,Add Chemical Damage*,1,281.0
+95,6,Add Energy Damage*,1,280.0
+96,6,Add Fire Damage*,1,316.0
+97,6,Add Melee Damage*,1,279.0
+98,6,Add Poison Damage*,1,317.0
+99,6,Add Projectile Damage*,1,278.0
+100,6,Add Radiation Damage*,1,282.0
+101,7,Chemical Damage Shield*,1,229.0
+102,7,Cold Damage Shield*,1,231.0
+103,7,Energy Damage Shield*,1,228.0
+104,7,Fire Damage Shield*,1,233.0
+105,7,Melee Damage Shield*,1,227.0
+106,7,Poison Damage Shield*,1,234.0
+107,7,Projectile Damage Shield*,1,226.0
+108,7,Radiation Damage Shield*,1,230.0
+109,11,Skill Lock (%)*,1,382.0
+110,13,Nano Cost (%)*,1,318.0
+111,14,Add Nano Range (%)*,1,381.0
+112,3,Disease AC,800,96.0
+130,14,Add Weapon Range (%)*,1,380.0

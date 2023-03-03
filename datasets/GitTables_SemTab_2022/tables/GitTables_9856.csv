@@ -1,0 +1,25 @@
+col0,col1,col2,col3,col4
+cairns,human,150041.0,1689.0,2018 census data
+cairns,dog,30636.57171,1689.0,(20.42% people have a dog) based ratio of total 
+cairns,cat,22605.77722,1689.0,(15.1% of people have a cat) based ratio of total 
+cairns,horse,84.0,1689.0,Table 3: Ward et al 1996. Estimated based on average property size and average number of horses on a property
+cairns,bird,37200.0,1689.0,only included Jan-March (peak mosquito biting time/human RRV cases). And included all count data from birdlife https://birdata.birdlife.org.au/explore
+cairns,possum,15.0,20.0,wildnet confirmed counts - 20km2 based on survey size
+cairns,macropod,38.0,20.0,wildnet confirmed counts - 20km2 based on survey size
+cairns,flying_fox,800.0,1689.0,https://www.data.qld.gov.au/dataset/flying-fox-monitoring-program/resource/e0446bcf-7816-4df4-b1b0-79fe69b10073?truncate=30&inner_span=True
+cairns,cattle,140973.0,8944.0,https://www.mla.com.au/globalassets/mla-corporate/prices--markets/documents/trends--analysis/fast-facts--maps/2020/mla-cattle-herd-population-changes-map-2018-19.pdf
+cairns,pig,0.0,1689.0,
+cairns,rabbit,,,
+cairns,sheep,2123.0,8944.0,https://www.mla.com.au/globalassets/mla-corporate/prices--markets/documents/trends--analysis/fast-facts--maps/2020/mla-sheep-numbers-map-2020-at-june-2019.pdf
+brisbane,human,1231605.0,1343.0,2018 census data
+brisbane,dog,251478.9617,1343.0,(20.42% people have a dog) based ratio of total 
+brisbane,cat,185558.5357,1343.0,(15.1% of people have a cat) based ratio of total 
+brisbane,horse,279.0,1343.0,Table 3: Ward et al 1996. Estimated based on average property size and average number of horses on a property
+brisbane,bird,97747.0,1343.0,only included Jan-March (peak mosquito biting time/human RRV cases). And included all count data from birdlife https://birdata.birdlife.org.au/explore
+brisbane,possum,432.0,20.0,wildnet confirmed counts - 20km2 based on survey size
+brisbane,macropod,139.0,20.0,wildnet confirmed counts - 20km2 based on survey size
+brisbane,flying_fox,26049.0,1343.0,https://www.data.qld.gov.au/dataset/flying-fox-monitoring-program/resource/e0446bcf-7816-4df4-b1b0-79fe69b10073?truncate=30&inner_span=True
+brisbane,cattle,304056.0,22420.0,https://www.mla.com.au/globalassets/mla-corporate/prices--markets/documents/trends--analysis/fast-facts--maps/2020/mla-cattle-herd-population-changes-map-2018-19.pdf
+brisbane,pig,0.0,1689.0,
+brisbane,rabbit,,,
+brisbane,sheep,8873.0,22420.0,https://www.mla.com.au/globalassets/mla-corporate/prices--markets/documents/trends--analysis/fast-facts--maps/2020/mla-sheep-numbers-map-2020-at-june-2019.pdf

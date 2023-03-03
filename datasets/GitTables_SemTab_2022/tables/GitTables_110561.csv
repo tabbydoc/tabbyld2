@@ -1,0 +1,9 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+htm6PixLJNy,VA-01,Verbal Autopsy ID,VA-01-Verbal Autopsy ID,The ID from the Verbal Autopsy conducted,TRACKER,TEXT,NONE,,,bjDvmb4bfuf
+hi7qRC4SMMk,VA-02,Sex,VA-02-Sex,Sex of the patient (male or female),TRACKER,TEXT,NONE,,JFWEdW5OBJp,bjDvmb4bfuf
+mwSaVq64k7j,VA-03,Date of Birth,VA-03-Date of Birth,Date of birth (if known),TRACKER,DATE,AVERAGE,,,bjDvmb4bfuf
+oPAg4MA0880,VA-04,Age (in years),VA-04-Age (in years),Age of person in years,TRACKER,NUMBER,AVERAGE,True,,bjDvmb4bfuf
+F4XGdOBvWww,VA-05,Most probable Cause of Death,VA-05-Most probable Cause of Death,Most probable Cause of Death determined by Verbal Autopsy,TRACKER,TEXT,NONE,,LAWwdYur1ds,bjDvmb4bfuf
+XLHIBoLtjGt,VA-06,Verbal Autopsy raw data file,VA-06-Verbal Autopsy raw data file,SQLite file holding VA raw data,TRACKER,FILE_RESOURCE,NONE,,,bjDvmb4bfuf
+wiJviUqN1io,VA-07,Algorithm metadata on how CoD was obtained,VA-07-Algorithm metadata on how CoD was obtained,"Algorithm metadata on how CoD was obtained, including Algorithm, SCI and VA Instrument",TRACKER,TEXT,NONE,,Joti2JHU4i6,bjDvmb4bfuf
+LwXZ2dZmJb0,VA-08,ODK_meta:instanceID,VA-08-ODK_meta:instanceID,"The ODK meta:instanceID, which is the unique identification of a completed ODK form",TRACKER,TEXT,NONE,,,bjDvmb4bfuf

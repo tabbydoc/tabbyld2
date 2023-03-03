@@ -1,0 +1,9 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14
+12345678,laingdk,m,audit,4324.003029,57d7f32f51efa305bc000bda,Question,123abc,,,What is data science?,Data science is a really cool new discipline that combines statistics and computer science. Is this correct?,General,General,General
+23456789,memery,m,audit,11705.44343223234,57d7f35851efa305b3000b67,Response,123abc,57d7f32f51efa305bc000bda,,,"Yes, that's basically right. Specifically, data science also involves a lot of machine learning and data visualization.",General,General,General
+34567891,andrew,m,audit,30.234221323,57d7fbe6d3195b05a0000c17,Comment,123abc,,57d7f35851efa305b3000b67,,Data science is essentially statistical software engineering.,General,General,General
+45678910,subizhangg,f,audit,23333.232229398,57d7ed56424a5c0588000c29,Comment,123abc,,57d7f35851efa305b3000b67,,I think it's fair to say that data science means different things to different people.,General,General,General
+56789101,mgelbart,m,verified,590900.9392393939,57e7ed56424a5d0788000c29,Discussion,234bcd,,,Who is your favourite teaching fellow?,"There is no right answer, but let's just say there are three wrong answers.","Block 1, Programming for Data Science",Block 1,Programming for Data Science
+67891011,ttimbers,f,verified,489232.2343322334,57d7ed56424b5c0588000c31,Response,234bcd,57e7ed56424a5d0788000c29,,,Tiffany is really awesome.,"Block 1, Programming for Data Science",Block 1,Programming for Data Science
+78910111,vcoia,m,verified,239842.23432422237,58d7ed56524a5c0588000c29,Comment,234bcd,,57d7ed56424b5c0588000c31,,Good point. But that Vincenzo sure knows his stuff.,"Block 1, Programming for Data Science",Block 1,Programming for Data Science
+89101112,gvdr,m,verified,344593.9945843383,57d8ed56424a5c0588000c67,Comment,234bcd,,57d7ed56424b5c0588000c31,,So does Giulio.,"Block 1, Programming for Data Science",Block 1,Programming for Data Science

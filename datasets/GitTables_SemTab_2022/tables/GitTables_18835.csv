@@ -1,0 +1,156 @@
+col0,col1,col2,col3,col4,col5,col6
+1,Botswana,bw,BeMobile,4.0,900,FDD
+2,Botswana,bw,Government,53.0,900,FDD
+3,Botswana,bw,Mascom,5.0,900,FDD
+4,Botswana,bw,Orange,6.0,900,FDD
+5,Botswana,bw,BeMobile,4.0,1800,FDD
+6,Botswana,bw,Mascom,5.0,1800,FDD
+7,Botswana,bw,Orange,6.0,1800,FDD
+8,Botswana,bw,Orange,6.0,2100,FDD
+9,Burkina Faso,bf,Onatel,1.0,900,FDD
+10,Burkina Faso,bf,Orange,2.0,900,FDD
+11,Burkina Faso,bf,Telecel,3.0,900,FDD
+12,Burkina Faso,bf,Onatel,1.0,1800,FDD
+13,Burkina Faso,bf,Orange,2.0,1800,FDD
+14,Burkina Faso,bf,Telecel,3.0,1800,FDD
+15,Cameroon,cm,Camtel,7.0,900,FDD
+16,Cameroon,cm,MTN,8.0,900,FDD
+17,Cameroon,cm,neXttel,9.0,900,FDD
+18,Cameroon,cm,Orange,10.0,900,FDD
+19,Cameroon,cm,MTN,8.0,1800,FDD
+20,Cameroon,cm,neXttel,9.0,1800,FDD
+21,Cameroon,cm,Orange,10.0,1800,FDD
+22,Egypt,eg,Etisalat,11.0,900,FDD
+23,Egypt,eg,Orange,12.0,900,FDD
+24,Egypt,eg,Vodafone,13.0,900,FDD
+25,Egypt,eg,Etisalat,11.0,1800,FDD
+26,Egypt,eg,Orange,12.0,1800,FDD
+27,Egypt,eg,Telecom Egypt,14.0,1800,FDD
+28,Egypt,eg,Vodafone,13.0,1800,FDD
+29,Egypt,eg,Etisalat,11.0,2100,FDD
+30,Egypt,eg,Orange,12.0,2100,FDD
+31,Egypt,eg,Vodafone,13.0,2100,FDD
+32,Ghana,gh,Airtel,15.0,900,FDD
+33,Ghana,gh,Glo,16.0,900,FDD
+34,Ghana,gh,MTN,17.0,900,FDD
+35,Ghana,gh,Tigo,18.0,900,FDD
+36,Ghana,gh,Vodafone,19.0,900,FDD
+37,Ghana,gh,Airtel,15.0,1800,FDD
+38,Ghana,gh,Glo,16.0,1800,FDD
+39,Ghana,gh,MTN,17.0,1800,FDD
+40,Ghana,gh,Tigo,18.0,1800,FDD
+41,Ghana,gh,Vodafone,19.0,1800,FDD
+42,Ghana,gh,Airtel,15.0,2100,FDD
+43,Ghana,gh,Glo,16.0,2100,FDD
+44,Ghana,gh,MTN,17.0,2100,FDD
+45,Ghana,gh,Tigo,18.0,2100,FDD
+46,Ghana,gh,Vodafone,19.0,2100,FDD
+47,Kenya,ke,Airtel,26.0,900,FDD
+48,Kenya,ke,Safaricom,24.0,900,FDD
+49,Kenya,ke,Telkom Kenya,25.0,900,FDD
+50,Kenya,ke,Yu,54.0,900,FDD
+51,Morocco,ma,Inwi,52.0,2600,FDD
+52,Morocco,ma,Maroc Telecom,51.0,2600,FDD
+53,Morocco,ma,Orange,50.0,2600,FDD
+54,Mozambique,mz,Mcel,20.0,900,FDD
+55,Mozambique,mz,Movitel,21.0,900,FDD
+56,Mozambique,mz,Vodacom,22.0,900,FDD
+57,Mozambique,mz,mcel,20.0,1800,FDD
+58,Mozambique,mz,Movitel,21.0,1800,FDD
+59,Mozambique,mz,Vodacom,22.0,1800,FDD
+60,Mozambique,mz,Mcel,20.0,2100,FDD
+61,Mozambique,mz,Movitel,21.0,2100,FDD
+62,Mozambique,mz,Vodacom,22.0,2100,FDD
+63,Namibia,na,MTC,27.0,900,FDD
+64,Namibia,na,Telecom Namibia,28.0,900,FDD
+65,Namibia,na,MTC,27.0,1800,FDD
+66,Namibia,na,Paratus,42.0,1800,FDD
+67,Namibia,na,Telecom Namibia,28.0,1800,FDD
+68,Namibia,na,MTC,27.0,2100,FDD
+69,Namibia,na,Paratus,42.0,2100,FDD
+70,Namibia,na,Telecom Namibia,28.0,2100,FDD
+71,Namibia,na,Paratus,42.0,2600,FDD
+72,Namibia,na,Telecom Namibia,28.0,2600,FDD
+73,Nigeria,ng,9Mobile,55.0,1800,FDD
+74,Nigeria,ng,Airtel,40.0,1800,FDD
+75,Nigeria,ng,Glo,23.0,1800,FDD
+76,Nigeria,ng,MTN,38.0,1800,FDD
+77,Nigeria,ng,ntel,37.0,1800,FDD
+78,Nigeria,ng,9Mobile,55.0,2100,FDD
+79,Nigeria,ng,Airtel,40.0,2100,FDD
+80,Nigeria,ng,Glo,23.0,2100,FDD
+81,Nigeria,ng,MTN,38.0,2100,FDD
+82,South Africa,za,CellC,30.0,900,FDD
+83,South Africa,za,MTN,31.0,900,FDD
+84,South Africa,za,Vodacom,29.0,900,FDD
+85,South Africa,za,CellC,30.0,2100,FDD
+86,South Africa,za,MTN,31.0,2100,FDD
+87,South Africa,za,Telkom,56.0,2100,FDD
+88,South Africa,za,Vodacom,29.0,2100,FDD
+89,Tanzania,tz,Airtel,47.0,1800,FDD
+90,Tanzania,tz,BOL,46.0,1800,FDD
+91,Tanzania,tz,BOL,46.0,1800,FDD
+92,Tanzania,tz,BOL,46.0,1800,FDD
+93,Tanzania,tz,Halotel,48.0,1800,FDD
+94,Tanzania,tz,Hits Telecom,49.0,1800,FDD
+95,Tanzania,tz,Tigo,44.0,1800,FDD
+96,Tanzania,tz,Vodacom,45.0,1800,FDD
+97,Tanzania,tz,Zantel,43.0,1800,FDD
+98,Uganda,ug,Africell,32.0,900,FDD
+99,Uganda,ug,Airtel,36.0,900,FDD
+100,Uganda,ug,iTEL,57.0,900,FDD
+101,Uganda,ug,MTN,33.0,900,FDD
+102,Uganda,ug,UTL,35.0,900,FDD
+103,Uganda,ug,Africell,32.0,1800,FDD
+104,Uganda,ug,Airtel,36.0,1800,FDD
+105,Uganda,ug,MTN,33.0,1800,FDD
+106,Uganda,ug,UTL,35.0,1800,FDD
+107,Uganda,ug,WARID,,1800,FDD
+108,Liberia,lr,Lonestar Cell MTN,58.0,900,FDD
+109,Liberia,lr,Lonestar Cell MTN,58.0,1800,FDD
+110,Liberia,lr,Lonestar Cell MTN,58.0,2100,FDD
+111,Liberia,lr,Orange,59.0,900,FDD
+112,Liberia,lr,Orange,59.0,1800,FDD
+113,Liberia,lr,Orange,59.0,2100,FDD
+114,Cote d'Ivoire,ci,MTN,61.0,900,FDD
+115,Cote d'Ivoire,ci,Orange,62.0,900,FDD
+116,Cote d'Ivoire,ci,Moov,63.0,900,FDD
+117,Cote d'Ivoire,ci,MTN,61.0,1800,FDD
+118,Cote d'Ivoire,ci,Orange,62.0,1800,FDD
+119,Cote d'Ivoire,ci,Moov,63.0,1800,FDD
+120,Cote d'Ivoire,ci,MTN,61.0,2100,FDD
+121,Cote d'Ivoire,ci,Orange,62.0,2100,FDD
+122,Cote d'Ivoire,ci,Moov,63.0,2100,FDD
+123,Cote d'Ivoire,ci,MTN,61.0,2600,FDD
+124,Cote d'Ivoire,ci,Orange,62.0,2600,FDD
+125,Cote d'Ivoire,ci,Moov,63.0,2600,FDD
+126,Morocco,ma,Inwi,52.0,900,FDD
+127,Morocco,ma,Maroc Telecom,51.0,900,FDD
+128,Morocco,ma,Orange,50.0,900,FDD
+129,Morocco,ma,Inwi,52.0,1800,FDD
+130,Morocco,ma,Maroc Telecom,51.0,1800,FDD
+131,Morocco,ma,Orange,50.0,1800,FDD
+132,Morocco,ma,Inwi,52.0,2100,FDD
+133,Morocco,ma,Maroc Telecom,51.0,2100,FDD
+134,Morocco,ma,Orange,50.0,2100,FDD
+135,Tunisia,tn,Tunisie Telecom,64.0,900,FDD
+136,Tunisia,tn,Ooredoo,65.0,900,FDD
+137,Tunisia,tn,Orange,66.0,900,FDD
+138,Tunisia,tn,Tunisie Telecom,64.0,1800,FDD
+139,Tunisia,tn,Ooredoo,65.0,1800,FDD
+140,Tunisia,tn,Orange,66.0,1800,FDD
+141,Tunisia,tn,Tunisie Telecom,64.0,2100,FDD
+142,Tunisia,tn,Ooredoo,65.0,2100,FDD
+143,Tunisia,tn,Orange,66.0,2100,FDD
+144,Lesotho,ls,Vodacom,67.0,900,FDD
+145,Lesotho,ls,Econet Lesotho,68.0,900,FDD
+146,Lesotho,ls,Vodacom,67.0,1800,FDD
+147,Lesotho,ls,Econet Lesotho,68.0,1800,FDD
+148,Lesotho,ls,Vodacom,67.0,2100,FDD
+149,Lesotho,ls,Econet Lesotho,68.0,2100,FDD
+150,South Africa,za,Vodacom,29.0,1800,FDD
+151,South Africa,za,CellC,30.0,1800,FDD
+152,South Africa,za,MTN,31.0,1800,FDD
+153,South Africa,za,Telkom,56.0,1800,FDD
+154,South Africa,za,Rain,69.0,1800,FDD
+155,South Africa,za,Neotel Liquid Telecom,70.0,1800,FDD

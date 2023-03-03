@@ -1,0 +1,39 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13
+1,Programowanie w Java,,90,60,EVERY_WEEK,,False,1,6,2,1,,2
+2,Programowanie w Java,,90,60,EVERY_WEEK,,False,4,6,2,1,,2
+3,Programowanie w C,,90,60,EVERY_WEEK,,False,1,7,2,1,,2
+4,Programowanie w C,,90,60,EVERY_WEEK,,False,4,7,2,1,,2
+5,Logika rozmyta,,135,60,EVERY_TWO_WEEKS,,False,1,6,2,1,,2
+6,Logika rozmyta,,90,60,EVERY_WEEK,,False,4,6,2,1,,2
+7,Fizyka i Astronomia,,90,60,EVERY_WEEK,,False,1,7,2,1,,2
+8,Fizyka i Astronomia,,90,60,EVERY_WEEK,,False,2,7,2,1,,2
+9,GeoAnalysis,,90,60,EVERY_TWO_WEEKS,,False,1,8,2,1,,2
+10,GeoAnalysis,,90,60,EVERY_WEEK,,False,2,8,2,1,,2
+11,Bazy danych,,90,60,EVERY_TWO_WEEKS,,False,2,6,2,1,,2
+12,Bazy danych,,90,60,EVERY_TWO_WEEKS,,False,2,6,2,1,,2
+13,Języki formalne,,90,60,EVERY_WEEK,,False,2,7,2,1,,2
+14,Data Mining,,90,60,EVERY_WEEK,,False,1,7,2,1,,2
+15,Data Mining,,90,60,EVERY_WEEK,,False,2,7,2,1,,2
+16,Systemy równoległe,,90,60,EVERY_TWO_WEEKS,,False,1,6,2,1,,2
+17,Systemy równoległe,,135,60,EVERY_WEEK,,False,2,6,2,1,,2
+18,Seminarium,Zajęcia dyplomowe,135,60,EVERY_TWO_WEEKS,,False,3,7,2,1,,2
+19,Spatial Analysis,,135,60,EVERY_WEEK,,False,1,8,2,1,,2
+20,Spatial Analysis,,135,60,EVERY_WEEK,,False,2,8,2,1,,2
+21,Fizyka i Astronomia,,135,60,EVERY_WEEK,,False,1,10,2,7,,2
+22,Fizyka i Astronomia,,90,60,EVERY_WEEK,,False,4,10,2,7,,2
+23,Fizyka Współczesna,,90,60,EVERY_WEEK,,False,1,11,2,7,,2
+24,Fizyka Współczesna,,90,60,EVERY_WEEK,,False,2,11,2,7,,2
+25,Matematyka,,90,60,EVERY_WEEK,,False,1,10,2,7,,2
+26,Matematyka,,90,60,EVERY_WEEK,,False,4,10,2,7,,2
+27,Chemia,,135,60,EVERY_TWO_WEEKS,,False,1,11,2,7,,2
+28,Chemia,,135,60,EVERY_WEEK,,False,2,11,2,7,,2
+29,Elektromagnetyzm,,90,60,EVERY_TWO_WEEKS,,False,1,10,2,7,,2
+30,Elektromagnetyzm,,90,60,EVERY_TWO_WEEKS,,False,2,10,2,7,,2
+31,Statystyka,,90,60,EVERY_WEEK,,False,1,9,2,7,,2
+32,Statystyka,,90,60,EVERY_WEEK,,False,4,9,2,7,,2
+33,English Course,,135,60,EVERY_WEEK,,False,4,12,2,7,,2
+34,Spanish Course,,90,60,EVERY_WEEK,,False,4,12,2,7,,2
+35,Optyka,,90,60,EVERY_WEEK,,False,1,10,2,7,,2
+36,Optyka,,90,60,EVERY_WEEK,,False,2,10,2,7,,2
+37,Programowanie proceduralne,,90,60,EVERY_TWO_WEEKS,,False,1,11,2,7,,2
+38,Programowanie proceduralne,,135,60,EVERY_WEEK,,False,2,11,2,7,,2

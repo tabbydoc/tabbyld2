@@ -1,0 +1,61 @@
+col0,col1,col2,col3,col4,col5,col6,col7
+1.0,1.0,U1,JZ4720,COB,v,http://www.ingenic.cn/pfWebPlus/Default.aspx,VC15
+2.0,2.0,"U2, U3","EUP3406VIR1 1.5MHz, 600mA Synchronous Step-Down Converter",SOT23-5,v,http://www.eutechmicro.com/PD_62_EN.html,VC1
+3.0,1.0,U4,BL8555-33PRA,SOT23-5A,v,www.belling.com.cn/,VC14
+,1.0,U5,SE9016,SOT23-5L,v,http://www.seawardinc.com.cn/index.asp,VC6
+4.0,1.0,U6,BL8509-263DNRM,SOT23-3,v,www.belling.com.cn/,VC14
+5.0,1.0,U7,BL8506-30NRM,SOT23-3,v,www.belling.com.cn/,VC14
+6.0,1.0,U8,P3V56S40ETP-G6,,,,VC5
+,,,Z2V56S40BTP-G6,54-PIN TSOP-II 400 mils,v,http://www.echip.com.cn/index.asp   http://www.deutron.com.tw/index.htm,
+7.0,1.0,U9,HY27UG088G5M,,,http://www.hynix.com/,
+,,,K9G8G08U0M,48-PIN TSOPI 400mils,v,http://www.samsung.com/global/business/semiconductor/productList.do?fmly_id=672,VC4
+8.0,1.0,U10,SPY0030A SOP8,SOIC8,v,http://w3.sunplus.com/,VC2
+9.0,1.0,U11/NC,SCIC SOP8/NC,,,No mount on C63 version,
+10.0,5.0,"Q1, Q2, Q4, Q6, Q11",TM2301FN,SOT23,v,http://www.techmos.com.tw/index.htm,VC3
+11.0,3.0,"Q3, Q9, Q10",TM2302FN,SOT23,v,http://www.techmos.com.tw/index.htm,VC3
+12.0,1.0,Q5,2N3904,SOT23,v,,VC7
+13.0,2.0,"R9, R31",0,603,,,
+14.0,4.0,"R20, R21, R37, R38",33/5%,603,,,
+15.0,2.0,"R40, R41",100/5%,603,,1k at C63 version,
+16.0,1.0,R8,330/5%,603,,,
+17.0,1.0,R12,510/5%,603,,,
+18.0,2.0,"R33, R35",1K/5%,603,,,
+19.0,1.0,R39,2.2K/5%,603,,,
+20.0,2.0,"R14, R32",2.5K/5%,603,,,
+21.0,16.0,"R4, R5, R7, R15, R22, R23, R24, R26, R27, R28, R29, R30, R34, R44, R45, R46",10K/5%,603,,,
+22.0,1.0,R47,47K/5%,603,,n/c(C63),
+23.0,6.0,"R16, R17, R18, R36, R42, R43",100K/5%,603,,,
+24.0,2.0,"R6, R11",150K/1%,603,,,
+25.0,1.0,R10,300K/1%,603,,,
+26.0,2.0,"R13, R19",470K/5%,603,,,
+27.0,1.0,R3,680K/1%,603,,,
+28.0,5.0,"R1, R2, R48, R49, R50",1M/5%,603,,,
+29.0,2.0,"BN1, BN2",33/5%,RP4,,,
+30.0,5.0,"D1, D2, D4, D5, D6",MSCD104,805,v,,VC8
+31.0,1.0,D3,RED LED,1206,,,
+32.0,1.0,Y1,32768KHz,,,,VC9
+33.0,1.0,Y2,12MHz,,,,VC9
+34.0,2.0,"C7, C10",10pF/16V,402,,,
+35.0,4.0,"C1, C4, C5, C8",33pF/16V,402,,,
+36.0,13.0,"C2, C6, C13, C9, C11, C17, C22, C28, C37, C45, C50, C52, C72",10uF/10V,805,,,
+37.0,5.0,"C19, C35, C36, C49, C63",1uF/16V,603,,,
+38.0,38.0,"C3, C12, C14, C15, C18, C21, C23, C24, C25, C26, C27, C29, C30, C31, C32, C34, C38, C39, C40, C41, C42, C43, C44, C46, C47, C48, C51, C53, C54, C55, C57, C58, C61, C66, C67, C68, C69, C70",0.1uF/16V,402,,"c69(nc, C63), c70(nc, C63)",
+39.0,2.0,"C16, C71",0.01uF/16V,402,,,
+40.0,3.0,"C20, C60, C65",47uF/6.3V,1206,,,
+41.0,2.0,"C59, C62",100uF/4V,1210,,,
+42.0,7.0,"BD2, BD3, BD6, BD7, BD8, BD9, BD10",PZ1608D221,603,v,http://www.sunlordinc.com/chinese/about/dedication.asp,VC10
+43.0,1.0,BD4,33/5%,603,,,
+44.0,3.0,"L1, L2, L4",4.7uH/1A,,v,,VC11
+45.0,2.0,"L3, L5",SDCW2012-2-900,,v,http://www.sunlordinc.com/chinese/about/dedication.asp,VC10
+46.0,1.0,CON1,BAT CON,,,,
+47.0,1.0,CON2,FPCCON24,,,http://www.cvilux.com.tw,VC17
+48.0,1.0,J1,MS_1D77,,v,,VC13
+49.0,1.0,J2,USB MINIB,,,http://www.cvilux.com.tw,VC17
+50.0,1.0,J3,PHONEJACK,,v,,VC12
+51.0,1.0,MIC,MIC,,,,
+52.0,1.0,SPEAKER,SP,,,,
+53.0,1.0,BUZ,BUZ,,,,
+54.0,1.0,CON3,SERIAL_CON,,v,,VC16
+55.0,1.0,C73,3.3uF/16V,805,,,
+56.0,1.0,U12,LT3925EDCB,DFN-8,v,,VC18
+57.0,1.0,J4,USB_MICRO_AB,,v,,VC19

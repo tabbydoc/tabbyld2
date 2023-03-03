@@ -1,0 +1,71 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14
+ol57so,Analgésico,Capsula Gelatina,1.0,Anti Inflamatorio,5.0,,,,,,,30,0,F
+eUcxRp,Cola de fénix,Estus,1.0,Pluma,5.0,Sangre,2.0,Vidrio,1.0,,,120,0,F
+8wrzNt,Frasco de Estus,Estus,2.0,Vidrio,2.0,,,,,,,60,0,F
+BlAdPZ,Frasco de Éter,Eter,3.0,Vidrio,3.0,,,,,,,120,0,F
+fTE5j3,Hierba Verde,Azucar,5.0,Agua,3.0,Celulas Plantas,4.0,,,,,75,0,F
+yXedRZ,Kit Primeros Auxilios,Vendas,4.0,Tijeras,2.0,Anti-Spetico,2.0,,,,,80,0,F
+0Fdhiq,Manzana Dorada,Oro,2.0,Manzana,5.0,,,,,,,30,0,F
+Y0AAKb,RadAway,Yoduro de potasio,1.0,PVC,2.0,Salina,3.0,Acido dietilentriamina pentaacético,5.0,,,50,0,F
+asQGPL,Spray Primeros Auxilios,Dimetil éter,3.0,Frasco Aresol,3.0,,,,,,,30,0,F
+nRPWcC,Stimpak,Yoduro de potasio,2.0,Salina,4.0,Sangre,3.0,Adrenalina,4.0,,,60,0,F
+8dE1Zl,Acido dietilentriamina pentaacético,Nitruro de carbono,5.0,Hidroxido,2.0,,,,,,,10,6,F
+MjpBVS,Acidos Carboxílicos,Carbono,4.0,Oxigeno,1.0,Hidroxido,2.0,,,,,10,4,F
+33bXXs,Adrenalina,Carbohidrato,5.0,Nitrato,5.0,,,,,,,20,2,F
+i1ZlGu,Agua,Hidrogeno,2.0,Oxigeno,1.0,,,,,,,10,9,F
+cB3Syh,Algodón,Celulas Plantas,3.0,,,,,,,,,40,3,F
+GEXGgN,Aluminio Oxido,Aluminio,1.0,Oxigeno,2.0,,,,,,,10,10,F
+ngWG74,Aminoácidos,Carbohidrato,5.0,Nitrogeno,1.0,Acidos Carboxílicos,3.0,,,,,10,5,F
+ucL1Eu,Anti Inflamatorio,Carbohidrato,5.0,Oxigeno,2.0,,,,,,,40,5,F
+K1yR2f,Anti-Spetico,Carbohidrato,2.0,Nitrogeno,5.0,Oxigeno,2.0,,,,,40,2,F
+kSQdyo,Azucar,Carbohidrato,3.0,Hidroxido,5.0,,,,,,,10,5,F
+wriMVO,Capsula Gelatina,Collageno,3.0,,,,,,,,,20,6,F
+2lKU4j,Carbohidrato,Hidrogeno,2.0,Carbono,1.0,,,,,,,10,5,F
+eoajqv,Celulas Plantas,Cloroplasto,5.0,Citoplasma,1.0,Pared de Celula,4.0,,,,,30,7,F
+2FkkgH,Células rojas,Agua,2.0,Sodio,,,,,,,,30,9,F
+7Rc26N,Celulosa,Carbohidrato,3.0,Potasio,2.0,Cloro,1.0,Hemoglobina,2.0,,,10,3,F
+fgY4lg,Citoplasma,Agua,4.0,Proteina,4.0,Lipido,1.0,Sal,2.0,,,30,1,F
+PWc8XT,Cloroplasto,Proteina,4.0,Lipido,3.0,Citoplasma,5.0,,,,,30,5,F
+zeF1ft,Cloruro de vinilo,Carbohidrato,2.0,,,,,,,,,10,4,F
+qW5Stw,Collageno,Proteina,1.0,,,,,,,,,10,2,F
+bAgyr2,Dimetil éter,Carbohidrato,5.0,Eter,2.0,,,,,,,5,1,F
+hV5Zb1,Estus,Naphtha,1.0,Carbohidrato,4.0,Lipido,1.0,Proteina,3.0,Oxigeno,5.0,50,1,F
+mEhjMZ,Etanol,Carbohidrato,5.0,,,,,,,,,20,8,F
+OPfyvR,Eter,Oxigeno,2.0,Etanol,3.0,,,,,,,60,10,F
+vt3fCu,Frasco Aresol,PVC,1.0,Hierro,4.0,,,,,,,50,2,F
+8E07qU,Globina,Aminoácidos,2.0,,,,,,,,,10,4,F
+hgPfOt,Heme,Carbono,5.0,Hidrogeno,5.0,Hierro,1.0,Nitrogeno,2.0,Oxigeno,2.0,10,5,F
+sM2INo,Hemicelulosa,Hidroxido,5.0,,,,,,,,,10,4,F
+s3uaRY,Hemoglobina,Globina,2.0,Heme,3.0,,,,,,,10,4,F
+7dqyYm,Hidroxido,Oxigeno,1.0,Hidrogeno,1.0,,,,,,,5,4,F
+Y7Krsp,Lignina,Carbohidrato,1.0,Hidroxido,2.0,,,,,,,10,9,F
+wGvJC2,Lipido,Carbohidrato,5.0,Hidroxido,1.0,Oxigeno,3.0,,,,,10,5,F
+0LG2vm,Manzana,Celulas Plantas,3.0,Azucar,1.0,,,,,,,30,10,F
+oNWDGk,Naphtha,Carbohidrato,4.0,Oxigeno,1.0,,,,,,,50,6,F
+GQGjnL,Nitrato,Nitrogeno,3.0,,,,,,,,,5,6,F
+Mnxcdd,Nitruro de carbono,Nitrogeno,2.0,Carbono,1.0,,,,,,,5,3,F
+GsSTtP,Pared de Celula,Celulosa,2.0,Hemicelulosa,3.0,Lignina,1.0,,,,,30,9,F
+7rIjqh,Pluma,Proteina,2.0,Nitrogeno,5.0,,,,,,,30,7,F
+3C6UpS,Proteina,Aminoácidos,4.0,,,,,,,,,10,4,F
+1NF7ta,PVC,Cloruro de vinilo,1.0,,,,,,,,,30,3,F
+XgfEuA,Sal,Sodio,3.0,Cloro,5.0,,,,,,,2,1,F
+12wJdo,Salina,Agua,4.0,Sal,1.0,,,,,,,2,5,F
+O3DlnL,Sangre,Agua,1.0,Células rojas,3.0,Aminoácidos,3.0,Proteina,2.0,,,40,4,F
+2PwvI8,Silicona Oxido,Slicona,5.0,Oxigeno,3.0,,,,,,,10,7,F
+oOqnae,Sodio Oxido,Sodio,2.0,Oxigeno,3.0,,,,,,,10,7,F
+sdR1Ri,Tijeras,Hierro,3.0,,,,,,,,,30,1,F
+0jKvHr,Vendas,Algodón,1.0,,,,,,,,,30,5,F
+vl0YHG,Vidrio,Silicona Oxido,2.0,Aluminio Oxido,2.0,Sodio Oxido,1.0,,2.0,,,30,5,F
+dMjYsc,Yoduro de potasio,Yodo,1.0,Potasio,3.0,,,,,,,10,7,F
+Amfq5d,Aluminio,,,,,,,,,,,1,3,V
+IIhDjA,Carbono,,,,,,,,,,,1,1,V
+8u4BEk,Cloro,,,,,,,,,,,1,8,V
+SjFwYj,Hidrogeno,,,,,,,,,,,1,9,V
+P8aX0f,Hierro,,,,,,,,,,,3,3,V
+Ae98W7,Nitrogeno,,,,,,,,,,,1,1,V
+b2IIhF,Oro,,,,,,,,,,,3,7,V
+9yIVpU,Oxigeno,,,,,,,,,,,1,5,V
+w2CvOn,Potasio,,,,,,,,,,,1,10,V
+QJ0DZb,Slicona,,,,,,,,,,,1,2,V
+KVh3jV,Sodio,,,,,,,,,,,1,3,V
+BurHQM,Yodo,,,,,,,,,,,1,3,V

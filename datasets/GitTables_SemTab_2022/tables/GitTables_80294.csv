@@ -1,0 +1,204 @@
+col0,col1,col2
+1,10773538,Name
+2,10773539,hierarchy
+3,10773540,is a
+4,10773541,is parent of
+5,10773542,association
+6,10773543,is associated with
+7,10773544,physical relations
+8,10773545,is physically related to
+9,10773546,is part of
+10,10773547,consists of
+11,10773548,contains
+12,10773549,is connected to
+13,10773550,interconnects
+14,10773551,is branch of
+15,10773552,is tributary of
+16,10773553,is ingredient of
+17,10773554,converts to
+18,10773555,coexists with
+19,10773556,is variant of
+20,10773557,spatial relations
+21,10773558,is spatially related to
+22,10773559,is location of
+23,10773560,is located at
+24,10773561,is adjacent to
+25,10773562,surrounds
+26,10773563,traverses
+27,10773564,functional relations
+28,10773565,is functionally related to
+29,10773566,affects
+30,10773567,manages
+31,10773568,treats
+32,10773569,disrupts
+33,10773570,complicates
+34,10773571,interacts with
+35,10773572,prevents
+36,10773573,augments
+37,10773574,stimulates
+38,10773576,depends on
+39,10773575,inhibits
+40,10773577,binds with
+41,10773578,is modified by
+42,10773579,targets
+43,10773580,regulates
+44,10773581,forms protein complex with
+45,10773582,controls state change of
+46,10773583,controls transport of
+47,10773584,controls phosphorylation of
+48,10773585,controls expression of 
+49,10773586,catalysis precedes
+50,10773587,consumption controlled by
+51,10773588,performs
+52,10773589,carries out
+53,10773590,exhibits
+54,10773591,practices
+55,10773592,is administered to
+56,10773593,occurs in
+57,10773594,is process of
+58,10773595,uses
+59,10773596,is manifestation of
+60,10773597,indicates
+61,10773598,is result of
+62,10773599,causal relations
+63,10773600,brings about
+64,10773601,produces
+65,10773602,causes
+66,10773603,gene product relations
+67,10773604,gene product has function
+68,10773605,gene product is encoded by
+69,10773606,gene product is expressed in
+70,10773607,is uniquely expressed in
+71,10773608,gene product has abnormality
+72,10773609,gene product has associated anatomy
+73,10773610,gene product is element in pathway
+74,10773611,gene product malfunction is associated with
+75,10773612,gene product plays role in biological process
+76,10773613,gene product has biochemical function
+77,10773614,gene product is biomarker type
+78,10773615,gene product is expressed during
+79,10773616,gene product variant increases
+80,10773617,gene product variant decreases
+81,10773618,gene product variant inhibits
+82,10773619,gene product variant results in abnormal
+83,10773620,gene product variant causes
+84,10773621,is underregulated in
+85,10773622,is overregulated in
+86,10773623,ortholog is associated with
+87,10773624,time relations
+88,10773625,has timing relation to
+89,10773626,co-occurs with
+90,10773627,precedes
+91,10773628,predisposes
+92,10773629,conceptual relations
+93,10773630,is conceptually related to
+94,10773631,is evaluation of
+95,10773632,is method of
+96,10773633,is conceptual part of
+97,10773634,is issue in
+98,10773635,is degree of
+99,10773636,analyzes
+100,10773637,assesses the effect of
+101,10773638,is measurement of
+102,10773639,measures
+103,10773640,diagnoses
+104,10773641,is property of
+105,10773642,is derivative of
+106,10773643,is developmental form of
+107,10773644,is higher than
+108,10773645,is lower than
+109,10773646,is compared with
+110,10773647,is the same as
+111,10773648,is classified as
+112,10773649,negated hierarchy
+113,10773650,is not a
+114,10773651,negated association 
+115,10773652,is not associated with
+116,10773653,negated physical relations
+117,10773654,is not physically related to
+118,10773655,is not part of
+119,10773656,does not consist of
+120,10773657,does not contain
+121,10773658,isnot  connected to
+122,10773659,does not interconnect
+123,10773660,is not a branch of
+124,10773661,is not tributary of
+125,10773662,is not ingredient of
+126,10773663,does not convert to
+127,10773664,does not coexist with
+128,10773665,negated spatial relations
+129,10773666,is not spatially related to
+130,10773667,is not location of
+131,10773668,is not located at
+132,10773669,is not adjacent to
+133,10773670,does not surround
+134,10773671,does not traverse
+135,10773672,negated functional relations
+136,10773673,is not functionally related to
+137,10773674,does not affect
+138,10773675,does not manage
+139,10773676,does not treat
+140,10773677,does not disrupt
+141,10773678,does not complicate
+142,10773679,does not interact with
+143,10773680,does not prevent
+144,10773681,does not augment
+145,10773682,does not stimulate
+146,10773683,does not inhibit
+147,10773684,does not depend on
+148,10773685,does not bind with
+149,10773686,is not modified by
+150,10773687,does not target
+151,10773688,does not perform
+152,10773689,does not carry out
+153,10773690,does not exhibit
+154,10773691,does not practice
+155,10773692,is not administered to
+156,10773693,does not occur in
+157,10773694,is not process of
+158,10773695,does not use
+159,10773696,is not manifestation of
+160,10773697,does not indicate
+161,10773698,is not result of
+162,10773699,negated causal relations
+163,10773700,does not bring about
+164,10773701,does not produce
+165,10773702,does not cause
+166,10773703,negated time relations
+167,10773704,has no timing relation to
+168,10773705,does not co-occur with
+169,10773706,does not precede
+170,10773707,does not predispose
+171,10773708,negated conceptual relations
+172,10773709,is not conceptually related to
+173,10773710,is not evaluation of
+174,10773711,is not method of
+175,10773712,is not conceptual part of
+176,10773713,is not issue in
+177,10773714,is not degree of
+178,10773715,does not analyze
+179,10773716,does assess the effect of
+180,10773717,is not measurement of
+181,10773718,does not measure
+182,10773719,does not diagnose
+183,10773720,is not property of
+184,10773721,is not derivative of
+185,10773722,is not developmental form of
+186,10773723,is not higher than
+187,10773724,is not lower than
+188,10773725,is not compared with
+189,10773726,is not the same as
+190,10773727,is not classified as
+191,10773728,negated gene product relations
+192,10773729,gene product does not have function
+193,10773730,gene product is not encoded by
+194,10773731,gene product is not expressed in
+195,10773732,gene product does not have abnormality
+196,10773733,gene product does not have associated anatomy
+197,10773734,gene product is not element in pathway
+198,10773735,gene product malfunction is not associated with
+199,10773736,gene product does not play role in biological process
+200,10773737,gene product does not have biochemical function
+201,10773738,gene product is not biomarker type
+202,10773739,gene product is not expressed during
+203,10773740,gene product variant does not result in abnormal

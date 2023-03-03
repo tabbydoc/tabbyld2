@@ -1,0 +1,66 @@
+col0,col1,col2,col3,col4
+1,No,sample no,,
+2,Loc,sample location,,
+3,ID,sample ID based on original report,,
+4,Desc,description,,
+5,EC,electro conductivity,mikroSiemens/cm,
+6,TA,air temp,°C,
+7,TW,water temp,°C,
+8,Q,water discharge,L/s,
+9,Coordx,coordinate x (zone 51S),,
+10,Coordy,coordinate x (zone 51S),,
+11,Coordz,elevation ,masl,
+12,SiO2,silicate species 1,ppm,
+13,SiO4,silicate species 2,ppm,
+14,Al,concentration of aluminium,ppm,
+15,Fe,concentration of iron,ppm,
+16,Ca,concentration of calcium,ppm,
+17,Mg,concentration of magnesium,ppm,
+18,Na,concentration of sodium,ppm,
+19,K ,concentration of potassium,ppm,
+20,Li,concentration of lithium,ppm,
+21,NH3,concentration of ammonia,ppm,
+22,Cl,concentration of chloride,ppm,
+23,SO4,concentration of sulphate,ppm,
+24,HCO3,concentration of bicarbonate,ppm,
+25,H2S,concentration of sulphide,ppm,
+26,B,concentration of boron,ppm,
+27,Al3+,concentration of aluminium ion,ppm,
+28,As3+,concentration of arsenic ion,ppm,
+29,NH4+,concentration of ammonium ion,ppm,
+30,CO3-,concentration of carbonate,ppm,
+31,F,concentration of fluoride,ppm,
+32,Br,concentration of brom,ppm,
+33,NO3,concentration of nitrate,ppm,
+34,PO42-,concentration of phosphate,ppm,
+35,H2S,concentration of sulphide,ppm,
+36,pH,pH,,
+37,GT1,Geothermometer Na-K-Ca,T(°C),Fournier_Truesdel_1973
+38,GT2,Geothermometer Na-K-Ca,T Mg,Fournier_Truesdel_1973
+39,GT3,Geothermometer Na-K-Ca,ΔT mg,Fournier_Truesdel_1973
+40,GT4,Geothermometer Na-K-Ca,T Correction (°C),Fournier_Truesdel_1973
+41,GT5,Geothermometer silicate,Qz-no steam loss,Fournier_1977
+42,GT6,Geothermometer silicate,Qz max steam loss 100°C,Fournier_1977
+43,GT7,Geothermometer silicate,Quartz,Fournier_1977
+44,GT8,Geothermometer silicate,Quartz,Amorsson (1985)
+45,GT9,Geothermometer silicate,Chalcedony,Fournier (1977)
+46,GT10,Geothermometer silicate,a-Cristobalite,Amorsson (1983)
+47,GT11,Geothermometer silicate,Amorphous Silica,Fournier (1977)
+48,GT12,Geothermometer conductive quartz,,
+49,GT13,Geothermometer adiabatic quartz,,
+50,GT14,Geothermometer Na-K Fournier,,
+51,GT15,Geothermometer Na-K Giggenbach,,
+52,GT16,Geothermometer Na-K-Ca,,
+53,GT17,Geothermometer Na-K-Ca,,Truesdell_1976
+54,GT18,Geothermometer Na-K-Ca,,Tonani_1980
+55,GT19,Geothermometer Na-K-Ca,,Arnorsson_1983
+56,GT20,Geothermometer Na-K-Ca,,Nieva dan Nieva_1987
+57,GT21,Geothermometer Na-K-Ca,,Giggenbach_1987
+58,GT22,Geothermometer K-Mg dan Li/Mg ,,Giggenbach_1988
+59,GT23,Geothermometer K-Mg dan Li/Mg ,,Kharaka & Mariner_1981
+60,GT24,Geothermometer Na/Li ,,Fouilac dan Michard_1981
+61,GT25,Geothermometer Na/Li ,,Fouilac & Michard_1981
+62,GT26,Geothermometer Na/Li ,,Kharakka_1982
+63,18O,isotope concentration,δ18O,
+64,D,isotope concentration,δD,
+65,RE,references,,

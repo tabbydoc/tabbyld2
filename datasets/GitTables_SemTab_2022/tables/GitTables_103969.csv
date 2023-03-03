@@ -1,0 +1,18 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27,col28,col29,col30,col31,col32,col33,col34,col35,col36,col37,col38,col39,col40
+1,Page,,,,,,,,,Entity Relationship Diagram,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+2,Text,Standard,1.0,,,,,,,TOM Toolkit ERD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3,Entity,Entity Relationship,1.0,,,,,,,tom_dataproducts_dataproduct,PK,id,integer,AK,product_id,character varying(255),,data,character varying(100),,extra_data,text,,created,timestamp with time zone,,modified,timestamp with time zone,,tag,text,,featured,boolean,FK,observation_record_id,integer,FK,target_id,integer
+4,Entity,Entity Relationship,1.0,,,,,,,tom_observations_observationrecord,PK,id,integer,,facility,character varying(50),,parameters,text,,observation_id,character varying(255),,additional fields,....,FK,target_id,integer,,,,,,,,,,,,
+5,Entity,Entity Relationship,1.0,,,,,,,tom_targets_target,PK,id,integer,,name,character varying(100),,type,character varying(100),,additional fields ,....,,,,,,,,,,,,,,,,,,
+6,Entity,Entity Relationship,1.0,,,,,,,tom_dataproducts_reduceddatum,PK,id,integer,,data_type,character varying(100),,timestamp,timestamp with time zone,,value,double precision,,label,character varying(100),,error,double precision,FK,data_product_id,integer,,source_id,integer,FK,target_id,integer,,,
+7,Entity,Entity Relationship,1.0,,,,,,,tom_targets_targetextra,PK,id,integer,,key,character varying(200),,value,text,FK,target_id,integer,,,,,,,,,,,,,,,,,,
+8,Entity,Entity Relationship,1.0,,,,,,,tom_alerts_brokerquery,PK,id,integer,,name,character varying(500),,broker,character varying(50),,parameters,text,,created,timestamp with time zone,,modified,timestamp with time zone,,,,,,,,,,,,
+9,Text,Standard,1.0,,,,,,,This is a simplified diagram of the TOM Toolkit's underlying database structure. Some tables and rows have been removed. The purpose of this diagram is to give the reader a general understanding of how each module stores its data and how that data is related to other modules,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+10,Entity,Entity Relationship,1.0,,,,,,,tom_targets_targetname,PK,id,integer,FK,target_id,integer,,name,character varying(200),,additional fields,....,,,,,,,,,,,,,,,,,,
+11,Line,,1.0,,,2.0,2.0,None,None,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+12,Line,,1.0,,,4.0,3.0,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+13,Line,,1.0,,,5.0,4.0,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+14,Line,,1.0,,,5.0,3.0,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+15,Line,,1.0,,,3.0,6.0,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+16,Line,,1.0,,,5.0,7.0,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+17,Line,,1.0,,,5.0,10.0,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

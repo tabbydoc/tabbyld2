@@ -1,0 +1,26 @@
+col0,col1,col2,col3,col4,col5
+True,"[{'name': '', 'type': 'uint256'}]",proposals,"[{'name': 'recipient', 'type': 'address'}, {'name': 'amount', 'type': 'uint256'}, {'name': 'description', 'type': 'string'}, {'name': 'votingDeadline', 'type': 'uint256'}, {'name': 'executed', 'type': 'bool'}, {'name': 'proposalPassed', 'type': 'bool'}, {'name': 'numberOfVotes', 'type': 'uint256'}, {'name': 'currentResult', 'type': 'int256'}, {'name': 'proposalHash', 'type': 'bytes32'}]",function,
+False,"[{'name': 'proposalNumber', 'type': 'uint256'}, {'name': 'transactionBytecode', 'type': 'bytes'}]",executeProposal,"[{'name': 'result', 'type': 'int256'}]",function,
+True,"[{'name': '', 'type': 'address'}]",memberId,"[{'name': '', 'type': 'uint256'}]",function,
+True,[],numProposals,"[{'name': '', 'type': 'uint256'}]",function,
+True,[],priceOfAUnicornInFinney,"[{'name': '', 'type': 'uint256'}]",function,
+False,"[{'name': 'newUnicornPriceInFinney', 'type': 'uint256'}, {'name': 'newUnicornAddress', 'type': 'address'}]",changeUnicorn,[],function,
+True,"[{'name': '', 'type': 'uint256'}]",members,"[{'name': 'member', 'type': 'address'}, {'name': 'voteWeight', 'type': 'uint256'}, {'name': 'canAddProposals', 'type': 'bool'}, {'name': 'name', 'type': 'string'}, {'name': 'memberSince', 'type': 'uint256'}]",function,
+True,[],debatingPeriodInMinutes,"[{'name': '', 'type': 'uint256'}]",function,
+True,[],minimumQuorum,"[{'name': '', 'type': 'uint256'}]",function,
+False,"[{'name': 'targetMember', 'type': 'address'}, {'name': 'voteWeight', 'type': 'uint256'}, {'name': 'canAddProposals', 'type': 'bool'}, {'name': 'memberName', 'type': 'string'}]",changeMembership,[],function,
+False,"[{'name': 'beneficiary', 'type': 'address'}, {'name': 'weiAmount', 'type': 'uint256'}, {'name': 'JobDescription', 'type': 'string'}, {'name': 'transactionBytecode', 'type': 'bytes'}]",newProposalInWei,"[{'name': 'proposalID', 'type': 'uint256'}]",function,
+True,[],owner,"[{'name': '', 'type': 'address'}]",function,
+True,[],majorityMargin,"[{'name': '', 'type': 'int256'}]",function,
+True,[],unicornAddress,"[{'name': '', 'type': 'address'}]",function,
+False,"[{'name': 'beneficiary', 'type': 'address'}, {'name': 'etherAmount', 'type': 'uint256'}, {'name': 'JobDescription', 'type': 'string'}, {'name': 'transactionBytecode', 'type': 'bytes'}]",newProposalInEther,"[{'name': 'proposalID', 'type': 'uint256'}]",function,
+False,"[{'name': 'minimumQuorumForProposals', 'type': 'uint256'}, {'name': 'minutesForDebate', 'type': 'uint256'}, {'name': 'marginOfVotesForMajority', 'type': 'int256'}]",changeVotingRules,[],function,
+False,"[{'name': 'proposalNumber', 'type': 'uint256'}, {'name': 'supportsProposal', 'type': 'bool'}, {'name': 'justificationText', 'type': 'string'}]",vote,"[{'name': 'voteID', 'type': 'uint256'}]",function,
+True,"[{'name': 'proposalNumber', 'type': 'uint256'}, {'name': 'beneficiary', 'type': 'address'}, {'name': 'amount', 'type': 'uint256'}, {'name': 'transactionBytecode', 'type': 'bytes'}]",checkProposalCode,"[{'name': 'codeChecksOut', 'type': 'bool'}]",function,
+False,"[{'name': 'newOwner', 'type': 'address'}]",transferOwnership,[],function,
+,"[{'name': 'minimumQuorumForProposals', 'type': 'uint256'}, {'name': 'minutesForDebate', 'type': 'uint256'}, {'name': 'marginOfVotesForMajority', 'type': 'int256'}, {'name': 'congressLeader', 'type': 'address'}]",,,constructor,
+,"[{'indexed': False, 'name': 'proposalID', 'type': 'uint256'}, {'indexed': False, 'name': 'recipient', 'type': 'address'}, {'indexed': False, 'name': 'amount', 'type': 'uint256'}, {'indexed': False, 'name': 'description', 'type': 'string'}]",ProposalAdded,,event,False
+,"[{'indexed': False, 'name': 'proposalID', 'type': 'uint256'}, {'indexed': False, 'name': 'position', 'type': 'bool'}, {'indexed': False, 'name': 'voter', 'type': 'address'}, {'indexed': False, 'name': 'justification', 'type': 'string'}]",Voted,,event,False
+,"[{'indexed': False, 'name': 'proposalID', 'type': 'uint256'}, {'indexed': False, 'name': 'result', 'type': 'int256'}, {'indexed': False, 'name': 'quorum', 'type': 'uint256'}, {'indexed': False, 'name': 'active', 'type': 'bool'}]",ProposalTallied,,event,False
+,"[{'indexed': False, 'name': 'member', 'type': 'address'}]",MembershipChanged,,event,False
+,"[{'indexed': False, 'name': 'minimumQuorum', 'type': 'uint256'}, {'indexed': False, 'name': 'debatingPeriodInMinutes', 'type': 'uint256'}, {'indexed': False, 'name': 'majorityMargin', 'type': 'int256'}]",ChangeOfRules,,event,False

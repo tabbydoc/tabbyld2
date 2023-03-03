@@ -1,0 +1,29 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+1,apoyos_subsidios,energeticos,2014_2015_Solicitudes Diesel,2014_2015_solicitudes_diesel.csv,github,Link,si,si,29.0,as_2014_2015_solicitudes_combustible,819700012416.0,Información sobre apoyos y subsidios.
+2,apoyos_subsidios,energeticos,2011_2015_Beneficiarios Diesel,2011_2015_beneficiarios_diesel.csv,github,Link,si,si,5320.0,as_beneficiarios_diesel_gasolina,819700012416.0,Información sobre apoyos y subsidios.
+3,apoyos_subsidios,energeticos,2014_2015_Solicitudes Gasolina,2014_2015_solicitudes_gasolina.csv,github,Link,si,si,1685.0,as_2014_2015_solicitudes_combustible,819700012416.0,Información sobre apoyos y subsidios.
+4,apoyos_subsidios,energeticos,2011_2015_Beneficiarios Gasolina,2011_2015_beneficiarios_gasolina.csv,github,Link,no,si,69232.0,as_beneficiarios_diesel_gasolina,819700012416.0,Información sobre apoyos y subsidios.
+5,apoyos_subsidios,energeticos,2011_Beneficiarios Eléctricos,2011_beneficiarios_electricos.csv,github,Link,si,si,17.0,as_electricos,819700012416.0,Información sobre apoyos y subsidios.
+6,apoyos_subsidios,modernizacion,2008_2012 Beneficiarios Motores,2008_2012_beneficiarios_motores.csv,github,Link,si,si,17653.0,as_motores,,
+7,apoyos_subsidios,modernizacion,2011_2015 Beneficiarios Modernización Embarcaciones Menores,2011_2015_beneficiarios_embarcaciones_menores.csv,github,Link,si,si,25241.0,as_beneficiarios_embarcaciones_menores,,
+8,apoyos_subsidios,modernizacion,2014_2015 Solicitudes Modernización Embarcaciones Menores,2014_2015_solicitudes_embarcaciones_menores.csv,github,Link,si,si,10250.0,as_solicitudes_embarcaciones_menores,,
+9,apoyos_subsidios,modernizacion,2014_2015 Beneficiarios Modernización Embarcaciones Mayores,2014_beneficiarios_modernizacion_embarcaciones_mayores.csv,github,Link,si,si,710.0,as_2014_beneficiarios_modernizacion_embarcaciones_mayores,,
+10,apoyos_subsidios,modernizacion,2014_2015 Beneficiarios Modernización Embarcaciones Mayores,2015_beneficiarios_modernizacion_embarcaciones_mayores.csv,github,Link,si,si,548.0,as_2015_beneficiarios_modernizacion_embarcaciones_mayores,,
+11,apoyos_subsidios,modernizacion,2014_2015 Solicitudes Modernización Embarcaciones Mayores,solicitudes_embarcaciones_mayores.csv,github,Link,si,si,38.0,as_solicitudes_embarcaciones_mayores,,
+12,apoyos_subsidios,equipamiento_infraestructura,2008_2011 Beneficiarios componente infraestructura (Reconversión),2008_2011_beneficiarios_componente_infraestructura_reconversion.csv,github,Link,si,si,101.0,as_reconversion,,
+13,apoyos_subsidios,equipamiento_infraestructura,2012 Beneficiarios componente infraestructura (Integral),2012_beneficiarios_componente_infraestructura_integral.csv,github,Link,si,si,39.0,as_integral,,
+14,apoyos_subsidios,equipamiento_infraestructura,2011_2012 Beneficiarios componente Pesca,2011_2012_beneficiarios_componente_infraestructura_pesca.csv,github,Link,si,si,4141.0,as_pesca,,
+15,inspeccion_vigilancia,,2009_2015 Pesca ilegal,,github,Link,,,,,,
+16,inspeccion_vigilancia,,2011_2015 Denuncias,denuncias.csv,github,Link,si,si,869.0,iv_denuncias,,
+17,inspeccion_vigilancia,,2009_2011 Artes de Pesca_Vehículos_Embarcaciones Retenidos Provisionalmente,retenidas-provisionalmente.csv,github,Link,si,si,481.0,iv_retenidas_provisionalmente,,
+18,inspeccion_vigilancia,,2014_2015 Sanciones,sanciones.csv,github,Link,si,si,25.0,iv_sanciones,,
+19,inspeccion_vigilancia,,2009_2013 Número de embarcaciones,numero-embarcaciones.csv,github,Link,si,si,141.0,iv_numero_embarcaciones,,
+20,inspeccion_vigilancia,,2009_2013 Recorridos de inspección,recorridos-inspeccion.csv,github,Link,si,si,160.0,iv_recorridos_inspeccion,,
+21,inspeccion_vigilancia,,2009_2013 Total de actas y verificaciones documentales,total-de-actas-y-verificaciones-documentales.csv,github,Link,si,si,160.0,iv_total_de_actas_y_verificaciones_documentales,,
+22,inspeccion_vigilancia,,2014_2015 Artes de Pesca_vehículos_embarcaciones Decomisadas,artes_pesca_vehiculos_embarcaciones_decomisadas.csv,github,Link,si,si,10.0,iv_artes_pesca_vehiculos_embarcaciones_decomisadas,,
+23,inspeccion_vigilancia,,Listado de Oficiales de Pesca,oficiales_pesca.csv,github,Link,si,si,190.0,iv_oficiales_pesca,,
+24,inspeccion_vigilancia,,Lista de embarcaciones asignadas por entidades,embarcaciones_asignadas_por_estado.csv,github,Link,si,si,26.0,iv_embarcaciones_asignadas_por_estado,,
+25,permisos_concesiones,,Embarcaciones Extranjeras,embarcaciones_extranjeras.csv,github,Link,si,si,2.0,pc_embarcaciones_extranjeras,,
+26,permisos_concesiones,,2011_2015 Embarcaciones Mayores,embarcaciones_mayores.csv,github,Link,si,si,3516.0,pc_embarcaciones_mayores,,
+27,permisos_concesiones,,2012 Embarcaciones Menores,embarcaciones_menores.csv,github,Link,si,si,6139.0,pc_embarcaciones_menores,,
+28,permisos_concesiones,,Permisos y concesiones por especie,permisos_concesiones.csv,github,Link,si,si,60.0,pc_permisos_concesiones,,

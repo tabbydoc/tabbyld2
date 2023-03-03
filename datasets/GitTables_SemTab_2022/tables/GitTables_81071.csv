@@ -1,0 +1,45 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10
+0,Source name,,,,,,,,column,counts
+1,Number of persons,,,,,,,,column,counts
+2,Number of persons by sex at birth (ppi variable,gender_concept_id,,,,,,,column,counts
+3,Number of persons by year of birth,year_of_birth,,,,,,,column,counts
+4,Number of persons by race,race_concept_id,,,,,,,pie,counts
+5,Number of persons by ethnicity,ethnicity_concept_id,,,,,,,column,counts
+6,Number of persons by age decile,age_decile,,,,,,,column,counts
+10,Number of all persons by year of birth by gender,year_of_birth,gender_concept_id,,,,,,column,counts
+12,Number of persons by race and ethnicity,race_concept_id,ethnicity_concept_id,,,,,,pie,counts
+100,Physical Measurements Concept Group Metadata,group_title,group_name,concept_1,concept_2,concept_3,,,,
+1814,Distribution of numeric values by measurement concept id ,measurement_concept_id,unit_name,,,,,,box,distribution
+1815,"Distribution of numeric values, by measurement_concept_id and gender",measurement_concept_id,unit_name,gender_concept_id,IQR_min,IQR_max,,,box,distribution
+1816,Distribution of numeric values by measurement_concept_id and age at occurrence decile,measurement_concept_id,unit_name,age_decile,IQR_min,IQR_max,,,box,distribution
+1900,Sex Assigned at Birth,measurement_concept_id,unit_name,gender_concept_id,value,value_as_concept_id,,,column,counts
+1901,Measurement response age at occurrence histogram,measurement_concept_id,unit_name,age_decile,value,value_as_concept_id,,,column,counts
+1910,Measurement response counts by unit and gender,measurement_concept_id,unit_name,gender_concept_id,,,,,column,counts
+3000,Participant Count,concept_id,,domain_id,,,,,column,counts
+3005,Counts per person distribution by concept id,measurement_concept_id,,,,,,,box,distribution
+3006,Counts per person by gender distribution,measurement_concept_id,gender_concept_id,,,,,,box,distribution
+3007,Counts per person by age at occurrence,measurement_concept_id,age_decile_at_occurrence,,,,,,box,distribution
+3008,Counts per person distrubtion by age at occurrence and gender,measurement_concept_id,age_decile_at_occurrence,gender_concept_id,,,,,box,distribution
+3101,Biological Sex,concept_id,ppi_sex_at_birth_concept_id,domain_id,,,,,column,counts
+3102,Age at Occurrence,concept_id,age_decile,domain_id,,,,,column,counts
+3103,Race,concept_id,race_concept_id,domain_id,,,,,column,counts
+3104,Ethnicity,concept_id,ethnicity_concept_id,domain_id,,,,,column,counts
+3106,Current Age histogram,concept_id,current_age_decile,domain_id,,,,,column,counts
+3107,Participant count by date,concept_name,date,,,,,,line,counts
+3110,Response Distribution,survey_concept_id,question_concept_id,answer_concept_id,answer_value_string,question_order,question_path,hasSubQuestions,column,counts
+3111,Sex Assigned at Birth,survey_concept_id,question_concept_id,answer_concept_id,answer_value_string,gender_concept_id,question_path,version_id,column,counts
+3112,Age at occurrence,survey_concept_id,question_concept_id,answer_concept_id,answer_value_string,age_decile,question_path,version_id,column,counts
+3113,Survey response counts by version,survey_concept_id,question_concept_id,answer_concept_id,answer_value_string,question_order,question_path,version_id,column,counts
+3200,Survey Module counts by gender,survey_concept_id,gender_concept_id,,,,,,column,counts
+3201,Survey Module counts by age,survey_concept_id,age_decile,,,,,,column,counts
+3203,Survey Module counts by question addition date,survey_concept_id,question_concept_id,,,,,path,,counts
+3300,Domain counts by gender,domain_concept_id,,domain_name,gender_concept_id,,,,column,counts
+3301,Domain counts by age,domain_concept_id,,domain_name,gender_concept_id,,,,column,counts
+3310,Biological Sex,concept_id,ppi_sex_at_birth_concept_id,domain_id,count_percentage,,,,column,percentage
+3311,Age at Occurrence,concept_id,age_decile,domain_id,count_percentage,,,,column,percentage
+3320,Sex Assigned at Birth,survey_concept_id,question_concept_id,,,gender_concept_id,question_path,,column,percentage
+3321,Age at occurrence,survey_concept_id,question_concept_id,,,age_decile,question_path,,column,percentage
+3331,Sex Assigned at Birth,survey_concept_id,question_concept_id,answer_concept_id,answer_value_string,gender_concept_id,question_path,,column,percentage_counts_by_question_counts
+3332,Age at occurrence,survey_concept_id,question_concept_id,answer_concept_id,answer_value_string,age_decile,question_path,,column,percentage_counts_by_question_counts
+3400,Survey Module Counts By Version,survey_concept_id,version_id,version_month,,,,,,
+3401,Survey Question Counts By Version,survey_concept_id,version_id,version_month,,,,,,

@@ -1,0 +1,79 @@
+col0,col1,col2
+Tool_URL,tool_URL,PubMed
+Tool_Name,tool_name,PubMed
+Tool_Description,tool_description,PubMed
+PMID,PMID,PubMed
+PMC,PMC,PubMed
+DOI,doi,PubMed
+Article_Title,Article.ArticleTitle,PubMed
+Abstract,Article.Abstract.AbstractText,PubMed
+Author_Information,Article.AuthorList,PubMed
+Electronic_Location_Identifier,Article.ELocationID,PubMed
+Publication_Type,Article.PublicationTypeList,PubMed
+Copyright_Information,Article.Abstract.CopyrightInformation,PubMed
+Grant_List,Article.GrantList,PubMed
+Chemical_List,ChemicalList,PubMed
+Cited By (PMC_ids),pmc_ids,PubMed
+Citations,num_citations,PubMed
+Article_Language,Article.Language,PubMed
+KeywordList,KeywordList,PubMed
+Last_Updated,last_updated,PubMed
+Added_On,added_on,PubMed
+Date_Revised_Month,DateRevised.Month,PubMed
+Date_Revised_Day,DateRevised.Day,PubMed
+Date_Revised_Year,DateRevised.Year,PubMed
+Date_Completed_Day,DateCompleted.Day,PubMed
+Date_Completed_Month,DateCompleted.Month,PubMed
+Date_Completed_Year,DateCompleted.Yesr,PubMed
+Published_On,published_on,PubMed
+Article_Date,Article.ArticleDate,PubMed
+Journal,journal,PubMed
+ISSN,Article.Journal.ISSN,PubMed
+Journal_Title,Article.Journal.Title,PubMed
+Journal_ISO_Abbreviation,Article.Journal.ISOAbbreviation,PubMed
+Altmetric_Subject,subjects,Altmetric
+Publisher_Subjects,publisher_subjects,Altmetric
+JournalIssue_Issue,Article.Journal.JournalIssue.Issue,Altmetric
+Journal_Issue_Volume,Article.Journal.JournalIssue.Volume,Altmetric
+Journal_Issue_PubDate_Day,Article.Journal.JournalIssue.PubDate.Day,Altmetric
+Journal_Issue_PubDate_Month,Article.Journal.JournalIssue.PubDate.Month,Altmetric
+Journal_Issue_PubDate_Year,Article.Journal.JournalIssue.PubDate.Year,Altmetric
+Medline_Journal_Info,MedlineJournalInfo.MedlineTA,Altmetric
+MEDLINE_ID,MedlineJournalInfo.NlmUniqueID,Altmetric
+Medline_Journal_Info_Country,MedlineJournalInfo.Country,Altmetric
+Medline_Journal_Info_ISSN_Linking,MedlineJournalInfo.ISSNLinking,Altmetric
+Pagination_Medline,Article.Pagination.MedlinePgn,Altmetric
+Mesh_Heading_List,MeshHeadingList,Altmetric
+Altmetric_ID,altmetric_id,Altmetric
+Altmetric_Score,score,Altmetric
+Altmetric_Journal_ID,altmetric_jid,Altmetric
+Publicaions in this journal,context.journal.count,Altmetric
+Publications in this journal in the last 3 month,context.similar_age_journal_3m.pct,Altmetric
+Publications in the last 3 month,context_similar_age_3m_count,Altmetric
+Altmetric's score in context rank within publications in the journal,context.all.rank,Altmetric
+Readers_Count,readers_count,Altmetric
+Readers in Mendeley,readers.mendeley,Altmetric
+Readers in Connotea,readers.connotea,Altmetric
+Readers in Citeulike,readers.citeulike,Altmetric
+Cited_By_Posts_Count,cited_by_posts_count,Altmetric
+Twitter accounts that tweeted this publication,cited_by_tweeters_count,Altmetric
+Users who've mentioned the publication on Twitter,cohorts.pub,Altmetric
+Publications from this journal with fewer mentions,context.journal.higher_than,Altmetric
+% publications from this journal with fewer mentions,context_journal_pct,Altmetric
+% publications from this journal with fewer mentions in the last 3 month,context_similar_age_3m_pct,Altmetric
+Score in context rank within publications in the last 3 month,context.similar_age_3m.rank,Altmetric
+Score in context rank within publications in the journal,context.journal.rank,Altmetric
+Score in context rank within publications in the journal in the last 3 month,context.similar_age_journal_3m.rank,Altmetric
+Mean score for publications,context.all.mean,Altmetric
+Mean score for publications in the last 3 month,context.similar_age_3m.mean,Altmetric
+Mean score for publications in this journal,context.journal.mean,Altmetric
+Mean score for publications in this journal in the last 3 month,context.similar_age_journal_3m.mean,Altmetric
+Publications in the last 3 month,context.similar_age_3m.count,Altmetric
+Publications from the last 3 month with fewer mentions,context.similar_age_journal_3m.higher_than,Altmetric
+Scientists who mentioned  the publication on Twitter,cohorts.sci,Altmetric
+News sources that mentioned the publication,cited_by_msm_count,Altmetric
+Mentions in social media,cited_by_accounts_count,Altmetric
+Facebook_Shares,cited_by_fbwalls_count,Altmetric
+Publications in the last 3 month with fewer mentions,context.similar_age_3m.higher_than,Altmetric
+Altmetric URL,details_url,Altmetric
+url_status,status,self

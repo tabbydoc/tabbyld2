@@ -1,0 +1,17 @@
+col0,col1,col2
+id,bigint,"Unique id representing a release, compiled_release or record"
+release_type,text,"Either release, record, compiled_release or embedded_release. With ""release"", individual releases are read through the release table. With ""record"", a compiled release is read from a record's compiledRelease field through the record table. With ""compiled_release"", a compiled release is read through the compiled_release table, which is calculated by Kingfisher Process (for example, by merging a collection of releases). With ""embedded_releases"", individual releases are read from a record's releases array through the record table."
+collection_id,integer,id from Kingfisher collection table
+ocid,text,ocid from the data
+release_id,text,Release id from the data. Relevant for releases and not for compiled_releases or records
+data_id,integer,"id for the ""data"" table in Kingfisher that holds the original JSON data."
+procuringentity,jsonb,JSONB of procuringEntity object
+procuringentity_parties_id,text,`id` from procuringEntity object
+procuringentity_identifier,text,Concatenation of `scheme` and `id` from `identifier` object in the form `<scheme>-<id>`
+unique_identifier_attempt,text,"The `id` from procuringEntity object if it exists, otherwise the identifier described above if it exists, otherwise the party name"
+procuringentity_additionalidentifiers_ids,jsonb,JSONB list of the concatenation of scheme and id of all additionalIdentifier objects
+procuringentity_additionalidentifiers_count,integer,Count of additional identifiers
+link_to_parties,integer,"Does this procuringEntity link to a party in the parties array using the `id` field from buyer object linking to the `id` field in a party object? If this is true then 1, otherwise 0"
+link_with_role,integer,If there is a link does the parties object have `procuringEntity` in its roles list? If it does then 1 otherwise 0
+party_index,bigint,If there is a link what is the index of the party in the `parties` array then this can be used for joining to the `parties_summary` table
+field_list,jsonb,"All JSON paths in the procuringentity object, excluding array indices, expressed as a JSONB object in which keys are paths and values are NULL. This column is only available if the --field-lists option was used."

@@ -1,0 +1,57 @@
+col0,col1,col2,col3
+fac9b2b,2013-06-06T00:07:55,Rb stuff needs a non-const reference to dof_indices.,0.0
+c3ea18f,2013-06-06T00:08:56,Use accessor API for FEMContext.,0.0
+52b4023,2013-06-06T00:49:36,Update solvers to use updated FEMContext API.,0.0
+b72ce0d,2013-06-06T00:52:18,Need non-const versions of these accessors. I'm not convinced this is the right way to go here  but rolling with it for now.,0.0
+b2d82f4,2013-06-06T00:58:42,Updating reduced_basis to use new FEMContext API's.,0.0
+72de92c,2013-06-06T01:17:40,Assert on the private data structures.,0.0
+34266d6,2013-06-06T15:18:08,Update to use new FEMContext API. Also needed a non-const Elem&.,0.0
+9c757bd,2013-06-06T15:22:41,Return a reference to the QBase instead of a pointer.,0.0
+ac9dadd,2013-06-06T15:23:39,Now make everything protected/private. The library builds for me  but the examples still need to be updated so likely make check will fail at this point.,0.0
+a54c4b2,2013-06-06T15:40:47,Updated adjoints_ex1 to use the new FEMContext API.,0.0
+e152bb7,2013-06-07T09:08:14,Update adjoint_ex2 for new FEMContext API.,0.0
+b9c13e2,2013-06-07T09:23:03,Update adjoints_ex3 to use new FEMContext API.,0.0
+4f1b73e,2013-06-07T09:55:00,Updated adjoint_ex4 to use updated FEMContext API.,0.0
+1068ade,2013-06-08T15:14:46,Updated adjoints_ex5 to use updated FEMContext API.,0.0
+8f02d31,2013-06-08T15:38:34,Updated fem_system examples to use updated FEMContext API.,0.0
+0a6375c,2013-06-15T05:13:02,Updated reduced_basis examples to conform to new FEMContext API.,0.0
+86336a2,2013-06-15T05:22:18,UPdated vector_fe examples to conform to new FEMContext API.,0.0
+e30bcfa,2013-06-25T13:17:31,Adding Rossa and Coutinho preprint.,0.0
+3581ba3,2013-06-27T09:41:14,Fix broken libtool script with install-data-hook commands.,1.0
+c0d77a4,2013-06-27T10:37:53,Make nCalls column have width 11.,0.0
+a575f37,2013-06-30T23:30:37,Reduced Basis change: Removed singe_matrix_mode. The purpose of this mode was to provide a low-memory version  which re-assembled matrices rather than storing them. But it wasn't used and therefore wasn't well tested  and it complicated the code for little benefit. If this functionality is desired in the future  better to put it in a subclass.,0.0
+6769426.0,2013-07-01T14:35:57,Patch from @dknez to fixed reduced_basis_ex2 for FEMContext API updated.,0.0
+4.318e+32,2013-07-01T14:38:47,Patch from @dknez to fix reduced_basis_ex7 for FEMContext API changes.,0.0
+bddd1de,2013-07-01T22:36:00,Fixes for PetscInt!=int compatibility,1.0
+3539428.0,2013-07-02T10:37:20,"Revert ""Now make everything protected/private. The library builds for me """,0.0
+d25f5fc,2013-07-02T12:53:19,Merge pull request ,
+72dcf7d,2013-07-02T15:00:22,Update NEWS for FEMContext API.,0.0
+948a35e,2013-07-03T15:24:10,Adding Kirk AIAA  Corsini JFE  Widmer JMBBM  and Tahir Acta Materialia papers.,0.0
+6.651e+68,2013-07-04T00:47:35,Fixes for *_id_type > int,1.0
+1a4a619,2013-07-05T15:57:18,Default to 32-bit XdrIO for now,0.0
+fa7d53d,2013-07-05T16:17:58,unsigned int -> dof_id_type fix,0.0
+f6c6bca,2013-07-08T08:47:29,Confirmed Corsini paper does use libmesh.,0.0
+7fa20be,2013-07-08T10:04:58,Merge pull request ,
+1d60493,2013-07-08T14:47:26,Fix for syntax highlighting,1.0
+4.581e+102,2013-07-08T15:01:08,Fix for printing with 1-byte id types,1.0
+db36276,2013-07-08T15:43:36,Formatting fixes for --with-processor-id-bytes=1,0.0
+df4eb94,2013-07-08T16:14:39,remove caching from hermites,0.0
+ea9bca1,2013-07-08T17:19:34,Bugfix for Xdr with non-32-bit dof_id_type,0.0
+b3281e9,2013-07-09T12:49:53,Avoid unused variable warnings when --disable-blocked-storage,0.0
+7b807c5,2013-07-09T13:19:56,Dummy change to README to see if I can re-sync the github web interface.,0.0
+8b72572,2013-07-11T12:52:04,Merge pull request ,
+aaae75d,2013-07-17T13:22:20,Add Vikram to developers page,0.0
+6b99352,2013-07-18T08:18:46,Adding directories to .gitignore,0.0
+507071f,2013-07-18T08:32:23,add tests to beautify rule  but not running it yet,0.0
+bdfb099,2013-07-18T09:08:49,proper quoting of shell variable in tag message,0.0
+3e7299d,2013-07-18T09:23:56,Merge branch 'master' of https://github.com/libMesh/libmesh,0.0
+6d96674,2013-07-18T09:28:27,default blocked DOF support to off for 0.9.2 release,0.0
+e2ca564,2013-07-18T09:47:39,Updated statistics for Jun 2013.,0.0
+aaeb11c,2013-07-18T10:29:20,Fixing typo in error message.,0.0
+61d1605,2013-07-18T11:22:44,Make adjoints_ex3 solver verbose,0.0
+78d9855,2013-07-18T12:10:44,Add absolute_residual_tolerance to adjoints_ex3,0.0
+962bd2c,2013-07-19T14:41:08,Bugfix for adjoints_ex4 adaptive refinement,0.0
+4fe367d,2013-07-19T14:41:40,Fix and reenable AdjointRefinementEE splitting,1.0
+b056941,2013-07-19T15:03:34,Cut-n-paste typo fix in adjoints_ex4,0.0
+43187c6,2013-07-19T17:42:33,Dirichlet bugfix on refined meshes,0.0
+a235157,2013-07-19T17:44:11,AdjointRefinementEE bugfix,1.0

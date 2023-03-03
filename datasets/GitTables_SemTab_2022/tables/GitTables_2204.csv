@@ -1,0 +1,11 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15
+OMIP,CAS,FGOALS-f3-L,omip1,r1i1p1f1,Omon,hfds,gn,gs://cmip6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/hfds/gn/,1638-01-16,2009-12-16,4464,0.875,2019-10-25,created,
+OMIP,CAS,FGOALS-f3-L,omip1,r1i1p1f1,Omon,mlotst,gn,gs://cmip6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/mlotst/gn/,1638-01-16,2009-12-16,4464,0.845,2019-10-25,created,
+OMIP,CAS,FGOALS-f3-L,omip1,r1i1p1f1,Omon,msftmz,gn,gs://cmip6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/msftmz/gn/,1638-01-16,2009-12-16,4464,0.231,2019-10-25,created,
+OMIP,CAS,FGOALS-f3-L,omip1,r1i1p1f1,Omon,obvfsq,gn,gs://cmip6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/obvfsq/gn/,1638-01-16,2009-12-16,4464,23.0,2019-10-25,created,
+OMIP,CAS,FGOALS-f3-L,omip1,r1i1p1f1,Omon,so,gn,gs://cmip6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/so/gn/,1638-01-16,2009-12-16,4464,16.9,2019-10-25,created,
+OMIP,CAS,FGOALS-f3-L,omip1,r1i1p1f1,Omon,thetao,gn,gs://cmip6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/thetao/gn/,1638-01-16,2009-12-16,4464,21.7,2019-10-25,created,
+OMIP,CAS,FGOALS-f3-L,omip1,r1i1p1f1,Omon,tos,gn,gs://cmip6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/tos/gn/,1638-01-16,2009-12-16,4464,0.795,2019-10-25,created,
+OMIP,CAS,FGOALS-f3-L,omip1,r1i1p1f1,Omon,uo,gn,gs://cmip6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/uo/gn/,1638-01-16,2009-12-16,4464,23.3,2019-10-25,created,
+OMIP,CAS,FGOALS-f3-L,omip1,r1i1p1f1,Omon,vo,gn,gs://cmip6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/vo/gn/,1638-01-16,2009-12-16,4464,24.4,2019-10-25,created,
+OMIP,CAS,FGOALS-f3-L,omip1,r1i1p1f1,Omon,wo,gn,gs://cmip6/OMIP/CAS/FGOALS-f3-L/omip1/r1i1p1f1/Omon/wo/gn/,1638-01-16,2009-12-16,4464,24.4,2019-10-25,created,

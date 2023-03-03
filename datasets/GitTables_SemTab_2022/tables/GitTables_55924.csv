@@ -1,0 +1,252 @@
+col0,col1,col2
+AD,Andorra,77265.0
+AE,United Arab Emirates,9890400.0
+AF,Afghanistan,38928341.0
+AG,Antigua and Barbuda,97928.0
+AI,Anguilla,15002.0
+AL,Albania,2877800.0
+AM,Armenia,2963234.0
+AO,Angola,32866267.0
+AQ,Antarctica,
+AR,Argentina,45195777.0
+AS,American Samoa,55197.0
+AT,Austria,9006400.0
+AU,Australia,25499881.0
+AW,Aruba,106766.0
+AX,Aland Islands,
+AZ,Azerbaijan,10139175.0
+BA,Bosnia and Herzegovina,3280815.0
+BB,Barbados,287371.0
+BD,Bangladesh,164689383.0
+BE,Belgium,11589616.0
+BF,Burkina Faso,20903278.0
+BG,Bulgaria,6948445.0
+BH,Bahrain,1701583.0
+BI,Burundi,11890781.0
+BJ,Benin,12123198.0
+BL,Saint Barthelemy,9885.0
+BM,Bermuda,62273.0
+BN,Brunei,437483.0
+BO,Bolivia,11673029.0
+BQ,Caribbean Netherlands,26221.0
+BR,Brazil,212559409.0
+BS,Bahamas,393248.0
+BT,Bhutan,771612.0
+BV,Bouvet Island,
+BW,Botswana,2351625.0
+BY,Belarus,9449321.0
+BZ,Belize,397621.0
+CA,Canada,37742157.0
+CC,Cocos Islands,
+CD,Democratic Republic of the Congo,89561404.0
+CF,Central African Republic,4829764.0
+CG,Congo,5518092.0
+CH,Switzerland,8654618.0
+CI,Ivory Coast,26378275.0
+CK,Cook Islands,17564.0
+CL,Chile,19116209.0
+CM,Cameroon,26545864.0
+CN,China,1439323774.0
+CO,Colombia,50882884.0
+CR,Costa Rica,5094114.0
+CU,Cuba,11326616.0
+CV,Cape Verde,555988.0
+CW,Curacao,164100.0
+CX,Christmas Island,
+CY,Cyprus,1207361.0
+CZ,Czech Republic,10708982.0
+DE,Germany,83783945.0
+DJ,Djibouti,988002.0
+DK,Denmark,5792203.0
+DM,Dominica,71991.0
+DO,Dominican Republic,10847904.0
+DZ,Algeria,43851043.0
+EC,Ecuador,17643060.0
+EE,Estonia,1326539.0
+EG,Egypt,102334403.0
+EH,Western Sahara,597330.0
+ER,Eritrea,3546427.0
+ES,Spain,46754783.0
+ET,Ethiopia,114963583.0
+FI,Finland,5540718.0
+FJ,Fiji,896444.0
+FK,Falkland Islands,3483.0
+FM,Micronesia,548927.0
+FO,Faroe Islands,48865.0
+FR,France,65273512.0
+GA,Gabon,2225728.0
+GB,United Kingdom,67886004.0
+GD,Grenada,112519.0
+GE,Georgia,3989175.0
+GF,French Guiana,298682.0
+GG,Guernsey,
+GH,Ghana,31072945.0
+GI,Gibraltar,33691.0
+GL,Greenland,56772.0
+GM,Gambia,2416664.0
+GN,Guinea,13132792.0
+GP,Guadeloupe,400127.0
+GQ,Equatorial Guinea,1402985.0
+GR,Greece,10423056.0
+GS,South Georgia and the South Sandwich Islands,
+GT,Guatemala,17915567.0
+GU,Guam,168783.0
+GW,Guinea-Bissau,1967998.0
+GY,Guyana,786559.0
+GZ,Gaza Strip,
+HK,Hong Kong,7496988.0
+HM,Heard Island and McDonald Islands,
+HN,Honduras,9904608.0
+HR,Croatia,4105268.0
+HT,Haiti,11402533.0
+HU,Hungary,9660350.0
+ID,Indonesia,273523621.0
+IE,Ireland,4937796.0
+IL,Israel,8655541.0
+IM,Isle of Man,85032.0
+IN,India,1380004385.0
+IO,British Indian Ocean Territory,
+IQ,Iraq,40222503.0
+IR,Iran,83992953.0
+IS,Iceland,341250.0
+IT,Italy,60461828.0
+JE,Jersey,
+JM,Jamaica,2961161.0
+JO,Jordan,10203140.0
+JP,Japan,126476458.0
+KE,Kenya,53771300.0
+KG,Kyrgyzstan,6524191.0
+KH,Cambodia,16718971.0
+KI,Kiribati,119446.0
+KM,Comoros,869595.0
+KN,Saint Kitts and Nevis,53192.0
+KP,North Korea,25778815.0
+KR,South Korea,51269183.0
+KW,Kuwait,4270563.0
+KY,Cayman Islands,65720.0
+KZ,Kazakhstan,18776707.0
+LA,Laos,7275556.0
+LB,Lebanon,6825442.0
+LC,Saint Lucia,183629.0
+LI,Liechtenstein,38137.0
+LK,Sri Lanka,21413250.0
+LR,Liberia,5057677.0
+LS,Lesotho,2142252.0
+LT,Lithuania,2722291.0
+LU,Luxembourg,625976.0
+LV,Latvia,1886202.0
+LY,Libya,6871287.0
+MA,Morocco,36910558.0
+MC,Monaco,39244.0
+MD,Moldova,4033963.0
+ME,Montenegro,628062.0
+MF,Saint Martin,38659.0
+MG,Madagascar,27691019.0
+MH,Marshall Islands,59194.0
+MK,Macedonia,2083380.0
+ML,Mali,20250834.0
+MM,Myanmar,54409794.0
+MN,Mongolia,3278292.0
+MO,Macau,649342.0
+MP,Northern Mariana Islands,57557.0
+MQ,Martinique,375265.0
+MR,Mauritania,4649660.0
+MS,Montserrat,4999.0
+MT,Malta,441539.0
+MU,Mauritius,1271767.0
+MV,Maldives,540542.0
+MW,Malawi,19129955.0
+MX,Mexico,128932753.0
+MY,Malaysia,32365998.0
+MZ,Mozambique,31255435.0
+,Namibia,2540916.0
+NC,New Caledonia,285491.0
+NE,Niger,24206636.0
+NF,Norfolk Island,
+NG,Nigeria,206139587.0
+NI,Nicaragua,6624554.0
+NL,Netherlands,17134873.0
+NO,Norway,5421242.0
+NP,Nepal,29136808.0
+NR,Nauru,10834.0
+NU,Niue,1618.0
+NZ,New Zealand,4822233.0
+OM,Oman,5106622.0
+PA,Panama,4314768.0
+PE,Peru,32971845.0
+PF,French Polynesia,280904.0
+PG,Papua New Guinea,8947027.0
+PH,Philippines,109581085.0
+PK,Pakistan,220892331.0
+PL,Poland,37846605.0
+PM,Saint Pierre and Miquelon,5795.0
+PN,Pitcairn Islands,
+PR,Puerto Rico,2860840.0
+PS,Palestinian Territories,5101416.0
+PT,Portugal,10196707.0
+PW,Palau,18092.0
+PY,Paraguay,7132530.0
+QA,Qatar,2881060.0
+RE,Reunion,895308.0
+RO,Romania,19237682.0
+RS,Serbia,8737370.0
+RU,Russia,145934460.0
+RW,Rwanda,12952209.0
+SA,Saudi Arabia,34813867.0
+SB,Solomon Islands,686878.0
+SC,Seychelles,98340.0
+SD,Sudan,43849269.0
+SE,Sweden,10099270.0
+SG,Singapore,5850343.0
+SH,Saint Helena,6071.0
+SI,Slovenia,2078931.0
+SJ,Svalbard and Jan Mayen,
+SK,Slovakia,5459643.0
+SL,Sierra Leone,7976985.0
+SM,San Marino,33938.0
+SN,Senegal,16743930.0
+SO,Somalia,15893219.0
+SR,Suriname,586634.0
+SS,South Sudan,11193729.0
+ST,Sao Tome And Principe,219161.0
+SV,El Salvador,6486201.0
+SX,Sint Maarten,42882.0
+SY,Syria,17500657.0
+SZ,Swaziland,1160164.0
+TC,Turks and Caicos Islands,38718.0
+TD,Chad,16425859.0
+TF,French Southern Territories,
+TG,Togo,8278736.0
+TH,Thailand,69799978.0
+TJ,Tajikistan,9537642.0
+TK,Tokelau,1350.0
+TL,Timor-Leste,1318442.0
+TM,Turkmenistan,6031187.0
+TN,Tunisia,11818618.0
+TO,Tonga,105697.0
+TR,Turkey,84339067.0
+TT,Trinidad and Tobago,1399491.0
+TV,Tuvalu,11792.0
+TW,Taiwan,23816775.0
+TZ,Tanzania,59734213.0
+UA,Ukraine,43733759.0
+UG,Uganda,45741000.0
+UM,United States Minor Outlying Islands,
+US,United States,331002647.0
+UY,Uruguay,3473727.0
+UZ,Uzbekistan,33469199.0
+VA,Vatican City State,809.0
+VC,Saint Vincent and the Grenadines,110947.0
+VE,Venezuela,28435943.0
+VG,British Virgin Islands,30237.0
+VI,United States Virgin Islands,104423.0
+VN,Vietnam,97338583.0
+VU,Vanuatu,307150.0
+WF,Wallis and Futuna Islands,11246.0
+WS,Samoa,198410.0
+XK,Kosovo,
+YE,Yemen,29825968.0
+YT,Mayotte,272813.0
+ZA,South Africa,59308690.0
+ZM,Zambia,18383956.0
+ZW,Zimbabwe,14862927.0

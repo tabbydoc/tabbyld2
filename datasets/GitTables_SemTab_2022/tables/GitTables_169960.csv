@@ -1,0 +1,24 @@
+col0,col1,col2,col3,col4,col5,col6
+1,V1,1,6.1,Pour  les  bâtiments  à  usage  principal  d’habitation : Consommations  estimées  (consommation  conventionnelle),1_V1_DPE_6.1.pdf,0
+2,V2,1,6.2,Pour  les  bâtiments  à  usage  principal  d’habitation  : Consommations  réelles  (Méthode Facture),2_V2_DPE_6.2.pdf,0
+3,V3,1,6.3a,"Pour  les  bâtiments  à  usage  principal  de  bureau,  d’administration  ou  d’enseignement : Consommation par Usage",3_V3_DPE_6.3a.pdf,0
+4,V4,1,6.3a bis,"Pour  les  bâtiments  à  usage  principal  de  bureau,  d’administration  ou  d’enseignement : Consommation par Energie",4_V4_DPE_6.3a_bis.pdf,0
+5,V5,1,6.3b,Pour  les  bâtiments  à  occupation  continue : Consommation par Usage,5_V5_DPE_6.3b.pdf,0
+6,V6,1,6.3b bis,Pour  les  bâtiments  à  occupation  continue : Consommation par Energie,6_V6_DPE_6.3b_bis.pdf,0
+7,V7,1,6.3c,Pour  les  autres  bâtiments  non  mentionnés  dans  les  deux  précédents  cas : Consommation par Usage,7_V7_DPE_6.3c.pdf,0
+8,V8,1,6.3c bis,Pour  les  autres  bâtiments  non  mentionnés  dans  les  deux  précédents  cas : Consommation par Energie,8_V8_DPE_6.3c_bis.pdf,0
+9,L1,4,6.A,Pour  les  bâtiments  à  usage  principal  d’habitation : Consommations  estimées  (consommation  conventionnelle),9_L1_DPE_6.A.pdf,0
+10,L2,4,6.B,Pour  les  bâtiments  à  usage  principal  d’habitation  : Consommations  réelles  (Méthode Facture),10_L2_DPE_6.B.pdf,0
+11,N1,3,6.1 neuf,Pour  les  bâtiments  neufs  à  usage  principal  d’habitation,11_N1_DPE_6.1_neuf.pdf,0
+12,N2,3,6.2 neuf,Pour  les  bâtiments  à  usage  autre  que  d’habitation,12_N2_DPE_6.2_neuf.pdf,0
+14,P1,2,6.1 public,"Pour les bâtiments à usage principal de bureau, d’administration ou d’enseignement : Consommation par Usage",14_P1_DPE_6.1_public.pdf,0
+15,P2,2,6.1 bis public,"Pour les bâtiments à usage principal de bureau, d’administration ou d’enseignement : Consommation par Energie",15_P2_DPE_6.1_public_bis.pdf,0
+16,P3,2,6.2 public,Pour  les  bâtiments  à  occupation  continue : Consommation par Usage,16_P3_DPE_6.2_public.pdf,0
+17,P4,2,6.2 bis public,Pour  les  bâtiments  à  occupation  continue : Consommation par Energie,17_P4_DPE_6.2_public_bis.pdf,0
+18,P5,2,6.3 public,Pour  les  autres  bâtiments  non  mentionnés  dans  les  deux  précédents  cas : Consommation par Usage,18_P5_DPE_6.3_public.pdf,0
+19,P6,2,6.3 bis public,Pour  les  autres  bâtiments  non  mentionnés  dans  les  deux  précédents  cas : Consommation par Energie,19_P6_DPE_6.3_public_bis.pdf,0
+20,C1,5,Par usage,Pour les centres commerciaux,20_C1_DPE_6.a.pdf,0
+21,C2,5,Par énergie,Pour les centres commerciaux,21_C2_DPE_6.b.pdf,0
+22,I1,6,6.1 (Vente),Pour  les  bâtiments  à  usage  principal  d’habitation : Consommations  estimées  (consommation  conventionnelle),22_I1_DPE_6.1.pdf,0
+23,I2,6,6.2 (Vente),Pour  les  bâtiments  à  usage  principal  d’habitation  : Consommations  réelles  (Méthode Facture),23_I2_DPE_6.2.pdf,0
+24,XX,7,,"Autres cas : Demande de subventions, baux commerciaux, ...",,0

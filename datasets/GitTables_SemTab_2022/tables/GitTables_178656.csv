@@ -1,0 +1,15 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14
+Home,1,home,1, true, true, true, true,,, false," """""," """"",30,
+Introduction,1,introduction,1, true, true, true, true,," """"", false," """""," """"",30,1.0
+About RODA,1,about_roda,1, true, true, true, true, ," """"", false," """""," """"",30,1.0
+Objectives,1,objectives,1, true, true, true, true, ," """"", false," """""," """"",30,1.0
+Contact,4,contacts,1, true, true, true, true, ," """"", false," """""," """"",30,1.0
+Ordering Data,1,ordering_data,1, true, true, true, true, ," """"", false," """""," """"",30,1.0
+Introduction,1,introduction_ordering_data,1, true, true, true, true, ," """"", false," """""," """"",30,6.0
+User categories,1,ordering_data_user_categories,1, true, true, true, true, ," """"", false," """""," """"",30,6.0
+Access Levels,1,ordering_data_access_levels,1, true, true, true, true, ," """"", false," """""," """"",30,6.0
+Access Agreement,1,ordering_data_access_agreement,1, true, true, true, true, ," ""_blank""", false," """""," """"",30,6.0
+Free access,1,free_access,1, true, true, true, true, ," """"", false," """""," """"",30,9.0
+Free for academic use,1,free_academic,1, true, true, false, true, ," """"", false," """""," """"",30,9.0
+Restricted by owner,1,free_academic,1, true, true, true, true, ," """"", false," """""," """"",30,9.0
+Commercial data,1,commercial_data,1, true, true, false, true, ," """"", false," """""," """"",30,9.0

@@ -1,0 +1,14 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12
+1001,1,lat20190213,pwg-pmn,2019-02-13,pwg-pmn,pwg-pmn,pwg-pmn,"- This is a dummy test with a lat map
+- This should not depend on any beam",2019-02-13 10:05:23,2019-02-13 16:45:30,1,2.0
+1002,3,xyz-s1234-20200101,abc-def,2019-03-15,abc-def,abc-def,,"- note 1
+- note 2",2019-03-15 09:11:25,,1,
+1010,2,20180101,pwg-pmn,2018-01-01,pwg-pmn,pwg-pmn,,- test entry,2018-01-01 15:32:10,,1,
+1012,1,lat20200120,pwg-pmn,2020-01-20,pwg-pmn,pwg-pmn,pwg-pmn,"- This is a dummy test with a lat map
+- A beam depends on this map",2020-01-20 18:10:05,2020-01-20 21:52:32,1,2.0
+1013,1,lat20200201,pwg-pmn,2020-02-01,pwg-pmn,pwg-pmn,pwg-pmn,"- This is a dummy test with a lat map
+- A beam depends on this map",2020-02-01 11:05:02,2020-02-01 19:02:15,1,2.0
+1070,2,20190304,pwg-pmn,2019-03-04,pwg-pmn,pwg-pmn,,- test entry,2019-03-04 08:12:41,,1,
+1120,2,20190607,pwg-pmn,2019-06-07,pwg-pmn,pwg-pmn,,- test entry,2019-06-07 18:21:21,,1,
+1130,2,20200123,pwg-pmn,2020-01-23,pwg-pmn,pwg-pmn,,- test entry,2020-01-23 12:11:45,,1,
+1150,2,20200207,pwg-pmn,2020-02-07,pwg-pmn,pwg-pmn,,- test entry,2020-02-07 09:42:11,,1,

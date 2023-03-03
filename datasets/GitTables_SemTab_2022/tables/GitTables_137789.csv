@@ -1,0 +1,24 @@
+col0,col1,col2,col3,col4,col5,col6
+B00001,Exchange Reaction of NADH,NADH[c] <=> NADH[b],,-1000,1000,0
+B00002,Exchange Reaction of H+,H+[c] <=> H+[b],,-1000,1000,0
+B00003,Exchange Reaction of Pyruvate,Pyruvate[c] <=> Pyruvate[b],,-1000,1000,0
+B00004,Exchange Reaction of alpha-D-Glucose,alpha-D-Glucose[c] <=> alpha-D-Glucose[b],,-1,1000,0
+B00005,Exchange Reaction of NAD+,NAD+[c] <=> NAD+[b],,-1000,1000,0
+B00006,Exchange Reaction of Orthophosphate,Orthophosphate[c] <=> Orthophosphate[b],,-1000,1000,0
+B00007,Exchange Reaction of ATP,ATP[c] <=> ATP[b],,-1000,1000,0
+B00008,Exchange Reaction of ADP,ADP[c] <=> ADP[b],,-1000,1000,0
+B00009,Exchange Reaction of H2O,H2O[c] <=> H2O[b],,-1000,1000,0
+F01015,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,D-Glyceraldehyde 3-phosphate[c] <=> 2 Glycerone phosphate[c],( 5232 and 5230 ),-1000,1000,0
+F01061,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),D-Glyceraldehyde 3-phosphate[c] + 5->Orthophosphate[c] + NAD+[c] => 3-Phospho-D-glyceroyl phosphate[c] + NADH[c] + H+[c],( 230 and 226 and 229 ),0,1000,0
+F01070,"beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)","2 2 beta-D-Fructose 1,6-bisphosphate[c] <=> Glycerone phosphate[c] + D-Glyceraldehyde 3-phosphate[c]",( 5315 ) or ( 5313 ),-1000,1000,0
+F01786,ATP:alpha-D-glucose 6-phosphotransferase,alpha-D-Glucose[c] + Orthophosphate[c] => 4 alpha-D-Glucose 6-phosphate[c] + H2O[c],( 2597 ) or ( 26330 ),0,1000,0
+R00200,ATP:pyruvate 2-O-phosphotransferase,ADP[c] + Phosphoenolpyruvate[c] => Pyruvate[c] + ATP[c],( 5223 and 5224 and 441531 ) or ( 669 ),0,1000,1
+R00658,2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming),2-Phospho-D-glycerate[c] <=> Phosphoenolpyruvate[c] + H2O[c],2821,-1000,1000,0
+R01015,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,D-Glyceraldehyde 3-phosphate[c] <=> Glycerone phosphate[c],( 5232 and 5230 ),-1000,1000,0
+R01061,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),D-Glyceraldehyde 3-phosphate[c] + Orthophosphate[c] + NAD+[c] => 3-Phospho-D-glyceroyl phosphate[c] + NADH[c] + H+[c],( 230 and 226 and 229 ),0,1000,0
+R01070,"beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)","beta-D-Fructose 1,6-bisphosphate[c] <=> Glycerone phosphate[c] + D-Glyceraldehyde 3-phosphate[c]",( 5315 ) or ( 5313 ),-1000,1000,0
+R01512,ATP:3-phospho-D-glycerate 1-phosphotransferase,ATP[c] + 3-Phospho-D-glycerate[c] <=> ADP[c] + 3-Phospho-D-glyceroyl phosphate[c],( 2027 and 2026 and 2023 ),-1000,1000,0
+R01518,"D-phosphoglycerate 2,3-phosphomutase",2-Phospho-D-glycerate[c] <=> 3-Phospho-D-glycerate[c],7176,-1000,1000,0
+R01786,ATP:alpha-D-glucose 6-phosphotransferase,alpha-D-Glucose[c] + Orthophosphate[c] => alpha-D-Glucose 6-phosphate[c] + H2O[c],( 2597 ) or ( 26330 ),0,1000,0
+R02740,alpha-D-Glucose 6-phosphate ketol-isomerase,alpha-D-Glucose 6-phosphate[c] <=> beta-D-Fructose 6-phosphate[c],( 3101 and 3098 and 3099 and 80201 ) or ( 2645 ),-1000,1000,0
+R04779,ATP:D-fructose-6-phosphate 1-phosphotransferase,"ATP[c] + beta-D-Fructose 6-phosphate[c] => ADP[c] + beta-D-Fructose 1,6-bisphosphate[c]",( 5213 and 5214 and 5211 ),0,1000,0

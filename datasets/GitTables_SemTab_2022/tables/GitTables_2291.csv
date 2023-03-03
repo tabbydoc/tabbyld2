@@ -1,0 +1,43 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+1,1,2,2,,,,wpcc1,commitment
+2,0,0,0,,,,,
+3,4,12,2,,,,wpcc4,training
+4,0,0,0,,,,,
+5,3,31,1,,,,wpcc3,hazards
+6,6,22,1,,,,wpcc6,awareness
+7,6,23,2,,,,wpcc6,awareness
+8,6,24,3,,,,wpcc6,awareness
+9,5,27,1,,,,wpcc5,inspections
+10,5,28,2,,,,wpcc5,inspections
+11,2,16,1,,,,wpcc2,requirements
+12,2,17,2,,,,wpcc2,requirements
+13,7,35,1,,,,wpcc7,emergency
+14,7,36,2,,,,wpcc7,emergency
+15,3,32,2,,,,wpcc3,hazards
+16,1,4,1,,,,wpcc1,commitment
+17,4,11,1,,,,wpcc4,training
+18,8,4,1,,,,wpcc8,visitors
+19,0,0,0,,,,,
+20,9,71,1,,,,wpcc signature series,
+21,9,72,2,,,,wpcc signature series,
+22,9,73,3,,,,wpcc signature series,
+23,9,74,4,,,,wpcc signature series,
+24,9,75,5,,,,wpcc signature series,
+25,9,76,6,,,,wpcc signature series,
+26,9,77,7,,,,wpcc signature series,
+27,0,0,0,,,,,
+28,0,0,0,,,,,
+29,0,0,0,,,,,
+30,0,0,0,,,,,
+31,0,0,0,,,,,
+32,0,0,0,,,,,
+33,0,0,0,,,,,
+34,0,0,0,,,,,
+35,0,0,0,,,,,
+36,8,49,2,,,,wpcc8,visitors
+37,0,0,0,,,,,
+38,9,48,8,,,,wpcc signature series,
+39,10,81,1,,,,wpcc cube,
+40,10,82,2,,,,wpcc cube,
+41,10,83,3,,,,wpcc cube,
+42,10,84,4,,,,wpcc cube,

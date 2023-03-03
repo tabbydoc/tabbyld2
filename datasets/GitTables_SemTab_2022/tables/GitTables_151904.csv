@@ -1,0 +1,119 @@
+col0,col1,col2,col3,col4
+Before your cruise,1.0,Information and Documentation,RATING,
+,,Pre cruise Hotel/Transfor arrangements,RATING,
+,,Air Arrangements,RATING,
+Accommodations,2.0,Bedding /Sleep Experience,RATING,
+,,Stateroom or Suite  Cleanliess,RATING,
+,,Stateroom Maintenance,RATING,
+Ship Services and Amenities,3.0,Casino,RATING,
+,,Canyon Ranch Spaclub,RATING,
+,,Executive Lounge Facilities,RATING,
+,,Concierge Lounge Facilities,RATING,
+,,Valet Laundry Services,RATING,
+,,Medical Services ,RATING,
+,,Boutiques,RATING,
+,,Library Selection,RATING,
+,,TV Programming & Movies,RATING,
+,,Oceania@Sea Staff,RATING,
+,,Tender Service,RATING,
+Culinary Experience,4.0,Overall quality of cuisine,RATING,
+,,Variety of menu items,RATING,
+,,Presentation of cuisine,RATING,
+,,Overall cuisine- Grand dining room ,RATING,
+,,Overall cuisine- Jacques,RATING,
+,,Overall cuisine - Red ginger,RATING,
+,,Overall cuisine- Polo grill,RATING,
+,,Overall cuisine -Toscana,RATING,
+,,Overall cuisine- Terrace cafe,RATING,
+,,Overall cuisine- Waves Grill,RATING,
+,,Overall reserve cuisine &wine experience,RATING,
+,,Afternoon tea,RATING,
+,,Wine selelctions,RATING,
+,,Room service menu,RATING,
+,,Baristas,RATING,
+Culinary Activities & Enrichment,5.0,The culinary center classes,RATING,
+,,Artist Loft,RATING,
+Entertainment,6.0,"Lights,camera music - production show",RATING,
+,,World beat - production show,RATING,
+,,Salute from the crew,RATING,
+,,Riviera Orchestra,RATING,
+,,Ocean string Quartet,RATING,
+,,Andrea fontana- cocktail planist,RATING,
+,,Music station band,RATING,
+,,Graham denison- Artist in residence,RATING,
+,,Jerryspeed- Ventrlioquist,RATING,
+,,Jennifer Singer- Vocalist,RATING,
+,,Ashley carruthers- Plano show man,RATING,
+Destination Services,7.0,Destination services staff,RATING,
+,,Port Lectures,RATING,
+,,Quality of shore excursion experience,RATING,
+Overall rating,8.0,Overall curise experience,RATING,
+,,Ports of call,RATING,
+Satisfaction,9.0,How likely are you to recommend oceania cruises to a friend?,RADIOBUTTONS,Definitely
+,,,,Highly likely
+,,,,Probably
+,,,,Probably not
+,,,,Definitely not 
+,,How likely are you to cruises with oceania cruises again?,RADIOBUTTONS,Definitely
+,,,,Highly likely
+,,,,Probably
+,,,,Probably not
+,,,,Definitely not 
+Staff Performance & Service,10.0,Officers,RATING,
+,,Oceania club ambassador,RATING,
+,,Reception staff,RATING,
+,,Cruise director,RATING,
+,,Entertainment staff,RATING,
+,,Staterooms or suites -Steward/Stewardess,RATING,
+,,Room service staff,RATING,
+,,Maitre D's,RATING,
+,,Wait staff- Grand dining room ,RATING,
+,,Wait staff- Jacques,RATING,
+,,Wait staff - Red ginger,RATING,
+,,Wait staff- Polo grill,RATING,
+,,Wait staff-Toscana,RATING,
+,,Wait staff- Terrace cafe,RATING,
+,,Wait staff- Wave Grill,RATING,
+,,Wait staff- La Reserve,RATING,
+,,The culinary center chef,RATING,
+,,Bar staff,RATING,
+,,Head sommelier/Celler master,RATING,
+,,Wine waiters/Sommelier,RATING,
+,,Deck attendants- Pool deck service,RATING,
+,,Gangway security staff ,RATING,
+"""Overall Performance of ships crew,staff and officers""",11.0,Consistency of personalized service and attention to detail,RATING,
+,,Friendliness & interaction with guests,RATING,
+conclusion,12.0,Have you ever cruised before,RADIOBUTTONS,Yes
+,,,,No
+,,"If yes,which cruise lines have you sailed with previously?",CHECKBOXES,Azamara
+,,,,Celebrity cruis
+,,,,Crystal Cruises
+,,,,Holland America
+,,,,Oceania CRUISES
+,,,,Princes cruises
+,,,,Royal Caribbean
+,,,,Silver sea cruises
+,,,,The Yachts of seabours
+,,,, Other
+,,What was the deciding factor in booking this cruises,CHECKBOXES,Itinerary 
+,,,,Price
+,,,,Reputation of cruise Line
+,,,,Travel agent
+,,,,Reputation of Ship
+,,,,Other
+,,Which destination would you like to cruise next ?,CHECKBOXES,Africa
+,,,,Alaska
+,,,,Asia
+,,,,Australia/New Zealand
+,,,,Caribbean/Tropics
+,,,,Greeek Isles
+,,,,Holy land
+,,,,Mediterranean
+,,,,Panama Canal
+,,,,Northern Europe
+,,,,Southern America
+,,,,Canada/New England
+,,,,Other
+,,When would you like to cruise next?,CHECKBOXES,0-12 months
+,,,,12-36 months
+,,,,more than 36 months

@@ -1,0 +1,45 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27,col28
+,SASEA,V2519107,V2519107,12/10/20,2020-12-10 13:14:00+00:00,CA,,nasal_swab,Human,EXCITE Lab,"423 Bell Heights
+Brittanyberg, ME 51359","Rebecca Fielding-Miller, Laura Kohn, Patricia Gonzalez-Zuniga, Fitri Carrissa Wijaya, Vinton Omaleki, Marlene Flores, Araz Majnoonian, Megan Nguyen, Ashkan Hassani, Smruthi Karthikeyan, Rodolfo Salido, Victor Cantu, Greg Humphrey, Sawyer Farmer, Abigail Schnapper, Helena Tubb, Tommy Valles + SEARCH",SASEA,-1.0,29.802,24.824,24.788,24.832,-1,-1.0,-1.0,-1.0,-1.0,Unknown,9,,92102.0,Thermo
+SEARCH-10143,RTL,EXC_MW4_254550,EXC_MW4_254550,2/4/21,2021-02-03 03:21:00+00:00,SAN DIEGO,,nasal_swab,Human,EXCITE Lab,"93523 Dana Lane
+Johnsonshire, WI 87296","Chip Schooley, Natasha Martin, Cheryl Anderson, Angela Scioscia, Smruthi Karthikeyan, Greg Humphrey, Sawyer Farmer, Abigail Schnapper, Helena Tubb, Tommy Valles  + SEARCH",RTL,-1.0,30.77,15.61,14.17,-1.0,-1,-1.0,-1.0,-1.0,-1.0,Male,39,,92113.0,PE
+,Control Sample,Neg_002914,Neg_002914,3/9/21,,,,Control,Human,EXCITE Lab,"1427 Odonnell Rapids
+North Troyport, NH 07035",,Control Sample,28.509,-1.0,-1.0,-1.0,-1.0,-1,-1.0,-1.0,-1.0,-1.0,,0,,,Thermo
+SEARCH-16195,SANDBANK,SB_0181_ANW_V1,SB_0181_ANW_V1,,,,,,,,"81206 Stewart Forest Apt. 089
+East Davidborough, ME 37198",Sydney Morgan + Marni Jacobs + Celestine Magallanes + Holly Valentine + Louise C. Laurent + SEARCH,SANDBANK,-1.0,-1.0,-1.0,-1.0,-1.0,-1,-1.0,-1.0,-1.0,-1.0,,0,,,Thermo
+SEARCH-16660,RTL,EXC_MW4_261273,EXC_MW4_261273,2/2/21,2021-02-01 03:33:00+00:00,SAN DIEGO,,nasal_swab,Human,EXCITE Lab,"76104 Marsh Crescent
+Dennishaven, SD 85034","Chip Schooley, Natasha Martin, Cheryl Anderson, Angela Scioscia, Smruthi Karthikeyan, Greg Humphrey, Sawyer Farmer, Abigail Schnapper, Helena Tubb, Tommy Valles  + SEARCH",RTL,-1.0,32.2,25.54,24.17,-1.0,-1,-1.0,-1.0,-1.0,-1.0,Female,21,,92122.0,PE
+SEARCH-12024,CALM,CALM_SEP_001835_63,1000480806,2/1/21,2020-12-16 10:45:00+00:00,CA,,nasal_swab,Human,EXCITE Lab,"0003 Grant Lakes
+Port Karafort, SD 60619","David Pride, Sharon Reed, Chip Schooley, Angela Scioscia, Natasha Martin Cheryl Anderson, Sawyer Farmer, Abigail Schnapper, Helena Tubb, Tommy Valles + SEARCH",CALM,-1.0,-1.0,19.825,20.416,20.807,-1,-1.0,-1.0,-1.0,-1.0,Male,39,,92122.0,Thermo
+SEARCH-16201,SANDBANK,SB_0171_ANW_V1,SB_0171_ANW_V1,,,,,,,,"236 Smith Drive Suite 555
+West Kimberlyton, KY 21978",Sydney Morgan + Marni Jacobs + Celestine Magallanes + Holly Valentine + Louise C. Laurent + SEARCH,SANDBANK,-1.0,-1.0,-1.0,-1.0,-1.0,-1,-1.0,-1.0,-1.0,-1.0,,0,,,Thermo
+,San Diego Fire-Rescue Department,V2537472,V2537472,1/7/21,2021-01-07 13:28:26.696552+00:00, CHULA VISTA,,nasal_swab,Human,EXCITE Lab,"6824 Timothy Garden Apt. 428
+West Richardmouth, MT 14742","J. Joelle Donofrio-Odmann, Brent Brainard+ SEARCH",San Diego Fire-Rescue Department,-1.0,29.762,32.445,31.936,-1.0,-1,-1.0,-1.0,-1.0,-1.0,Male,68,,91911.0,Thermo
+,Control Sample,Neg_000335,Neg_000335,11/12/20,,,,Control,Human,EXCITE Lab,"5517 Holly Meadow Apt. 452
+Lake Anne, SC 11894",,Control Sample,-1.0,29.326,-1.0,-1.0,-1.0,-1,-1.0,-1.0,-1.0,-1.0,,0,,,Thermo
+,HELIX,STM-0000038-H09,STM-0000038-H09,1/26/21,2021-01-18 00:00:00+00:00,CA,,nasal_swab,Human,EXCITE Lab,"30601 Hawkins Highway
+Morashire, TX 28976","Nicole L Washington, Simon White, Geraint Levan, Kelly Schiabor Barrett, Elizabeth Cirulli, Alexandre Bolze, Charlotte Rivera-Garcia, Ryan Cho, Jason Nguyen, Sherry Wang, Jimmy Ramirez, Celena Andrade, Alice Summerfield, Tyler Cassens, Efren Sandoval, Francisco Tanudjaja, Magnus Isaksson, William Lee, David Becker, Marc Laurent, James Lu  + SEARCH",HELIX,-1.0,29.871,24.776,24.01,24.321,-1,28.68512917,25.7708149,26.68533516,26.71963692,Male,24,,92028.0,Thermo
+SEARCH-12615,Control Sample,Neg_002880,Neg_002880,3/10/21,,,,Control,Human,EXCITE Lab,"49263 Wilson View Apt. 873
+South Raymondborough, AZ 28798",,Control Sample,29.341,-1.0,-1.0,-1.0,-1.0,-1,-1.0,-1.0,-1.0,-1.0,,0,,,Thermo
+SEARCH-12610,San Diego Fire-Rescue Department,V2596630,V2596630,12/11/20,2020-12-10 15:33:16.159150+00:00, SAN DIEGO,,nasal_swab,Human,EXCITE Lab,"76582 Vanessa Oval
+New Richard, NE 68819","J. Joelle Donofrio-Odmann, Brent Brainard+ SEARCH",San Diego Fire-Rescue Department,-1.0,31.162,24.474,23.44,23.841,-1,-1.0,-1.0,-1.0,-1.0,Female,49,,92107.0,Thermo
+,CALM,CALM_SEP_001332_03,Y00000002AI,1/14/21,2021-01-11 17:17:00+00:00,CA,,nasal_swab,Human,EXCITE Lab,"7389 Alec Squares Suite 508
+Port Jonathan, FL 50177","David Pride, Sharon Reed, Chip Schooley, Angela Scioscia, Natasha Martin Cheryl Anderson, Sawyer Farmer, Abigail Schnapper, Helena Tubb, Tommy Valles + SEARCH",CALM,-1.0,-1.0,20.528,20.965,22.087,-1,-1.0,-1.0,-1.0,-1.0,Male,20,,91911.0,Thermo
+,Control Sample,Neg_000008,Neg_000008,10/7/20,,,,Control,Human,EXCITE Lab,"18013 Billy Bridge Suite 522
+Schmitthaven, NC 66355",,Control Sample,-1.0,31.409,-1.0,-1.0,-1.0,-1,-1.0,-1.0,-1.0,-1.0,,0,,,Thermo
+,Control Sample,Pos_002768,Pos_002768,3/19/21,,,,Control,Human,EXCITE Lab,"891 Bullock Ford
+Amandachester, NJ 51431",,Control Sample,-1.0,-1.0,28.834,28.422,27.662,-1,-1.0,-1.0,-1.0,-1.0,,0,,,Thermo
+,Control Sample,Pos_000371,Pos_000371,11/16/20,,,,Control,Human,EXCITE Lab,"02489 Cook Park
+Sherriport, MT 50853",,Control Sample,-1.0,-1.0,28.951,28.18,28.281,-1,-1.0,-1.0,-1.0,-1.0,,0,,,Thermo
+,Control Sample,Pos_001027,Pos_001027,1/4/21,,,,Control,Human,EXCITE Lab,"23450 Timothy Divide
+Wuland, UT 20341",,Control Sample,-1.0,-1.0,29.941,28.904,29.729,-1,-1.0,-1.0,-1.0,-1.0,,0,,,Thermo
+SEARCH-10313,HELIX,STM-0000028-H03,STM-0000028-H03,1/21/21,2021-01-15 00:00:00+00:00,CA,,nasal_swab,Human,EXCITE Lab,"0976 Williams Mountains Apt. 009
+Lake Mario, OH 85565","Nicole L Washington, Simon White, Geraint Levan, Kelly Schiabor Barrett, Elizabeth Cirulli, Alexandre Bolze, Charlotte Rivera-Garcia, Ryan Cho, Jason Nguyen, Sherry Wang, Jimmy Ramirez, Celena Andrade, Alice Summerfield, Tyler Cassens, Efren Sandoval, Francisco Tanudjaja, Magnus Isaksson, William Lee, David Becker, Marc Laurent, James Lu  + SEARCH",HELIX,-1.0,-1.0,20.72,20.801,21.071,-1,27.91685486,20.81959724,21.79944992,21.72691727,Male,35,,92102.0,Thermo
+SEARCH-12563,HELIX,STM-0000045-H10,STM-0000045-H10,1/26/21,2021-01-21 00:00:00+00:00,CA,,nasal_swab,Human,EXCITE Lab,"1097 Santos Springs Suite 264
+New Michelleborough, WY 51884","Nicole L Washington, Simon White, Geraint Levan, Kelly Schiabor Barrett, Elizabeth Cirulli, Alexandre Bolze, Charlotte Rivera-Garcia, Ryan Cho, Jason Nguyen, Sherry Wang, Jimmy Ramirez, Celena Andrade, Alice Summerfield, Tyler Cassens, Efren Sandoval, Francisco Tanudjaja, Magnus Isaksson, William Lee, David Becker, Marc Laurent, James Lu  + SEARCH",HELIX,-1.0,35.685,20.551,20.687,21.253,-1,31.87973213,20.6780014,21.01651573,21.20522881,Female,48,,91917.0,Thermo
+,Control Sample,Pos_002807,Pos_002807,3/18/21,,,,Control,Human,EXCITE Lab,"5100 Scott Burg
+East Clayton, SC 66353",,Control Sample,-1.0,-1.0,28.808,27.848,27.443,-1,-1.0,-1.0,-1.0,-1.0,,0,,,Thermo
+SEARCH-10386,CALM,CALM_SEP_001974_34,1000172420,2/5/21,2020-05-19 09:23:00+00:00,CA,,nasal_swab,Human,EXCITE Lab,"412 Snow Manors Apt. 161
+South Kimtown, NV 57004","David Pride, Sharon Reed, Chip Schooley, Angela Scioscia, Natasha Martin Cheryl Anderson, Sawyer Farmer, Abigail Schnapper, Helena Tubb, Tommy Valles + SEARCH",CALM,-1.0,30.048,26.393,25.922,26.391,-1,-1.0,-1.0,-1.0,-1.0,Male,22,,92115.0,Thermo
+,Control Sample,Neg_000411,Neg_000411,11/19/20,,,,Control,Human,EXCITE Lab,"5415 David Square
+West Michaeltown, IN 48447",,Control Sample,-1.0,30.195,-1.0,-1.0,-1.0,-1,-1.0,-1.0,-1.0,-1.0,,0,,,Thermo

@@ -1,0 +1,39 @@
+col0,col1,col2,col3,col4,col5,col6
+localId,empi_localId,,,Required,No,MUSC EPIC Medical Record Number
+systemCode,empi_systemCode,,,Required,No,Code identifying sending system
+addressLine1,empi_addressLine1,,,Required,No,First line of home address
+addressLine2,empi_addressLine2,,,Required,No,Second line of home address
+city,empi_city,CITY,Optional,Required,No,City of home address
+countryCode,empi_coutry,,,Required,No,Country of residence
+county,empi_county,COUNTY_NAME,Optional,Required,Yes,Coded value for county
+postalCode,empi_postalCod,ZIP_CODE,Optional,Required,No,Five digit ZIP code of US based home address
+postalCodeExt,empi_postalCodeExt,,,Required,No,Four digit ZIP code extension of US based address
+stateCode,empi_state,STATE,Optional,Required,No,State of home address
+birthDate,empi_birthDate,DATE,Required,Required,Yes,Patient’s date of birth in YYYYMMDDHH24MISS format
+deathDate,empi_deathDate,,,Required,No,Deceased date of patient in YYYYMMDDHH24MISS format
+deathIndicator,empi_deathIndicator,,,Required,No,Boolean Y/N value indicating whether patient is deceased or not
+email,empi_email,,,Required,No,Email address provided by patient
+ethnicity,empi_ethnicity,,,Optional,Yes,Ethnic group code provided by patient
+firstName,empi_firstName,FIRST_NAME,Required,Required,No,Patient’s first given name
+gender,empi_gender,GENDER,Required,Required,Yes,Gender of patient
+language,empi_language,,,Optional,Yes,Reported language of patient
+lastName,empi_lastName,LAST_NAME,Required,Required,No,Patient’s family name
+maritalStatus,empi_maritalStatus,,,Optional,Yes,Patient’s marital status code at time of visit
+middleName,empi_middleName,,,Required,No,Patient’s second given name
+militaryBranch,empi_militaryBranch,,,Optional,Yes,Military Branch of Service
+militaryRank,empi_militaryRank,,,Required,No,Level of rank patient holds in military
+militaryStatus,empi_militaryStatus,,,Required,No,Status of patient’s involvement in military
+motherMN,empi_motherMN,,,Required,No,Mother's Maiden Name
+nationality,empi_nationality,,,Required,No,Nation of patient’s residence
+homePhone,empi_homePhone,,,Required,No,Patient’s home phone number
+workPhone,empi_workPhone,,,Required,No,Patient's work phone number
+mobilePhone,empi_mobilePhone,,,Required,No,Patient's mobile phone number
+race,empi_race,,,Optional,Yes,Race code reported by patient
+religion,empi_religion,,,Optional,Yes,Stated religion of patient
+SSN,empi_SSN,PATIENT_SSN,Required,Required,No,Patient Social Security Number
+suffix,empi_suffixName,,,Required,No,Patient's name suffix
+title,empi_titleName,,,Required,No,Patient's name title
+vetStatus,empi_veteranStatus,,,Required,No,Patient veteran status
+comparisonScore,empi_matchScore,,,Required,No,searchBlock comparison score
+EUID,empi_ID,,,Internal,No,Enterprise ID
+hStat,empi_ESTAT,,,Optional,No,Status of Extraction of HTTP Response

@@ -1,0 +1,106 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+1,2,Queen St,Eagle St,City,23,12,29/09/2010,-27.466369,153.029597
+2,3,Elizabeth St,Creek St,City,21,11,17/02/2011,-27.467925,153.029126
+3,4,Charlotte St,Eagle St,City,23,12,30/09/2010,-27.468675,153.029834
+4,5,Market St,Mary St,City,21,11,29/09/2010,-27.469702,153.029828
+5,6,Alice St,Edward St,City,22,11,30/09/2010,-27.472291,153.030639
+6,7,Margaret St,Edward St,City,29,15,29/09/2010,-27.47148,153.029647
+7,8,Mary St,Edward St,City,12,6,27/09/2010,-27.470801,153.028839
+8,9,Charlotte St,Edward St,City,23,12,30/09/2010,-27.469924,153.02822
+9,10,Edward St,Queen St,City,15,8,30/09/2010,-27.468206,153.026744
+10,11,King George Square,Ann St,City,20,10,30/09/2010,-27.468422,153.024635
+11,12,Albert Street Mall,Adelaide St,City,15,8,30/09/2010,-27.468963,153.02461
+12,13,Albert St Mall,Adelaide St,City,18,9,16/03/2011,-27.469183,153.024719
+13,14,Albert St Mall,Elizabeth St,City,21,11,12/05/2011,-27.47011,153.025627
+14,15,Albert Street Mall,Elizabeth Street,City,18,9,11/04/2011,-27.47019,153.025852
+15,16,Mary St,Albert St,City,10,5,27/09/2010,-27.472044,153.027193
+16,17,Margaret St,Albert St,City,11,6,1/03/2011,-27.472494,153.028373
+17,18,Alice St,Albert St,City,23,12,29/09/2010,-27.473592,153.028636
+18,19,Garden Point Road,Adj. Bridge,City,20,10,29/09/2010,-27.479004,153.028853
+19,20,Garden Point Road,SE of Goodwill Bridge,City,16,8,29/09/2010,-27.478846,153.028296
+20,22,William St,Alice St,City,23,12,25/09/2010,-27.475024,153.026438
+21,23,Mary St,George St,City,21,11,27/09/2010,-27.473021,153.025988
+22,28,George St,Adelaide St,City,17,9,30/09/2010,-27.469902,153.022603
+23,29,George St,Ann St,City,22,11,29/09/2010,-27.469075,153.021808
+24,30,Roma St,Ann St,City,12,6,17/03/2011,-27.467907,153.023122
+25,31,Roma St,Turbot St,City,11,6,17/06/2011,-27.467629,153.022243
+26,32,Tank St,George St,City,18,9,25/03/2011,-27.468678,153.019801
+27,33,Roma St,Herschel St,City,16,8,29/09/2010,-27.466684,153.019898
+28,34,Makeston St,Roma St,City,22,11,29/09/2010,-27.466911,153.018649
+29,35,Roma St,Makeston St,City,12,6,29/09/2010,-27.46637,153.018506
+30,36,Roma St,Garrick St,City,17,9,8/11/2010,-27.466307,153.017351
+31,37,Upper Roma Street,Eagle Terrace,City,24,12,29/09/2010,-27.466032,153.01476
+32,39,Turbot St,Wickham Tce,City,19,10,6/05/2011,-27.464681,153.026714
+33,40,Ann St,Creek St,City,18,9,29/09/2010,-27.464986,153.027679
+34,41,Ann St,Wharf St,City,21,11,6/04/2011,-27.46388,153.028835
+35,42,Wharf St,Adelaide St,City,19,10,30/09/2010,-27.464647,153.029361
+36,43,Queen Street,Wharf Street,City,24,12,29/09/2010,-27.465043,153.030991
+37,44,Queen St,Adelaide St,City,16,8,29/09/2010,-27.463405,153.031142
+38,45,Turbot St,Bowen St,Fortitude Valley,20,10,9/11/2010,-27.462665,153.029087
+39,46,Ann St,Boundary St,Fortitude Valley,19,10,4/03/2011,-27.461984,153.031782
+40,47,Turbot St,Barry Pde,Fortitude Valley,17,9,8/12/2010,-27.46123,153.031077
+41,48,Ann St,Gotha St,Fortitude Valley,10,5,1/02/2011,-27.46048,153.032768
+42,49,Ann St,Gipps St,Fortitude Valley,20,10,28/01/2011,-27.459833,153.033445
+43,50,Gipps Street,Wickham Street,Fortitude Valley,21,11,25/11/2010,-27.458641,153.03208
+44,51,Brunswick St,Alfred St,Fortitude Valley,23,12,8/07/2011,-27.45663,153.032779
+45,52,Brunswick St Mall,Wickham St,Fortitude Valley,14,7,15/03/2011,-27.457512,153.033841
+46,54,McLachlan St,Winn St,Fortitude Valley,25,13,29/03/2011,-27.457825,153.036866
+47,55,Alden Street,Wickham St,Fortitude Valley,15,8,15/12/2010,-27.456085,153.03453
+48,56,Constance Street,St Pauls Terrace,Fortitude Valley,24,12,17/03/2011,-27.454089,153.034
+49,57,Bridge St,Wickham St,New Farm,19,10,6/11/2010,-27.454746,153.036154
+50,58,East St,Ann St,Fortitude Valley,39,20,15/12/2010,-27.455472,153.037775
+51,59,James St,McLachlan St,Fortitude Valley,21,11,3/11/2010,-27.456276,153.039196
+52,61,Wickham St,Murri Way,Fortitude Valley,22,11,13/02/2011,-27.451793,153.039562
+53,62,Ann St,Chester St,Fortitude Valley,16,8,23/02/2011,-27.453195,153.0401
+54,63,Ann St,Murri Way,Fortitude Valley,20,10,17/11/2010,-27.452468,153.040565
+55,65,Chermside St,Commercial Rd,New Farm,21,11,21/09/2010,-27.454482,153.046802
+56,66,Commercial Road,Skyring Tce,Tenerife,21,11,10/12/2010,-27.45296,153.048107
+57,67,Vernon Tce,Commercial Rd,New Farm,23,12,26/11/2010,-27.452918,153.048607
+58,68,Vernon Tce,Ethel St,New Farm,21,11,8/11/2010,-27.454394,153.049519
+59,69,Vernon Tce,Florence St,New Farm,23,12,30/09/2010,-27.455907,153.050013
+60,70,Macquarie St,Beeston St,New Farm,17,9,21/09/2010,-27.459091,153.050239
+61,71,Hastings St,Macquarie St,New Farm,21,11,16/02/2011,-27.460927,153.049861
+62,72,Lamington St,Powerhouse,Fortitude Valley,20,10,21/09/2010,-27.467785,153.053644
+63,73,Lamington St,Refinery Pde,Fortitude Valley,21,11,17/11/2010,-27.465285,153.0509
+64,74,Merthyr St,James St,New Farm,23,12,4/09/2010,-27.463526,153.049608
+65,75,Browne St,James St,Tenerife,23,12,25/09/2010,-27.461852,153.047049
+66,77,James Street,Harcourt St,New Farm,23,12,22/09/2010,-27.458262,153.04173
+67,78,Malt St,Brunswick St,Fortitude Valley,15,8,15/12/2010,-27.46105,153.037875
+68,79,Balfour St,Brunswick St,New Farm,20,10,30/09/2010,-27.463431,153.041031
+69,80,Barker St,Brunswick St,New Farm,21,11,23/02/2011,-27.464712,153.042547
+70,81,Langshaw St,Brunswick St,New Farm,21,11,25/11/2010,-27.465911,153.043754
+71,82,Brunswick St,Merthyr St,New Farm,23,12,30/09/2010,-27.467498,153.0467
+72,83,Sydney St,Brunswick St,New Farm,23,12,1/08/2011,-27.46844,153.048251
+73,84,New Farm Ferry Terminal,New Farm Park,New Farm,30,15,29/09/2010,-27.471473,153.051981
+74,85,Oxlade Drive,Turner Ave,New Farm,22,11,22/12/2010,-27.473304,153.048757
+75,86,Sydney St,Moray St,New Farm,21,11,30/09/2010,-27.471386,153.045216
+76,87,Merthyr St,Reginald St,New Farm,17,9,1/10/2010,-27.469931,153.043525
+77,88,Sydney St Ferry Terminal,Park,New Farm,30,15,30/09/2010,-27.474531,153.042728
+78,89,Holman St,Main St,Kangaroo Point,18,9,25/09/2010,-27.465733,153.034329
+79,90,Main St,Rotherham St (Mahoney Park),Kangaroo Point,45,23,30/09/2010,-27.469296,153.035533
+80,91,Deakin St,Darragh St,Kangaroo Point,21,11,30/09/2010,-27.47059,153.036046
+81,92,Thornton St Ferry Terminal,Main St,Kangaroo Point,21,11,25/09/2010,-27.471025,153.034306
+82,94,Merivale St,Glenelg St,City,21,11,15/02/2011,-27.478653,153.019123
+83,96,Grey St,Melbourne St,City,23,12,11/02/2011,-27.474722,153.018694
+84,99,Cordelia Street,Peel Street,West End,20,10,16/12/2010,-27.474011,153.014541
+85,100,Melbourne St,Edmondstone St,West End,16,8,12/02/2011,-27.47678,153.013024
+86,101,Russell St,Edmondstone St,West End,22,11,22/11/2010,-27.478235,153.015173
+87,102,Besant St,Vulture St,West End,31,16,22/02/2011,-27.480885,153.014585
+88,103,Vulture St,Thomas St,West End,21,11,12/02/2011,-27.480768,153.011121
+89,104,Hardgrave Rd,Skinner St,West End,21,11,23/02/2011,-27.482082,153.006981
+90,106,Orleigh St,Hoogley St,West End,22,11,20/09/2010,-27.48983,153.002573
+91,107,Drury St,Montague Rd,West End,21,11,25/08/2010,-27.48872,152.999585
+92,108,Rogers St,Montague Rd,West End,18,9,25/08/2010,-27.485078,153.002382
+93,109,Montague Rd,Skinner St,West End,14,7,21/10/2010,-27.481725,153.00436
+94,110,Jane St,Montague Rd,West End,21,11,27/08/2010,-27.478214,153.006181
+95,111,Donkin St,Montague Rd,West End,21,11,14/10/2010,-27.47658,153.008255
+96,112,Bank St,Mollison St,West End,20,10,24/11/2010,-27.476716,153.010047
+97,114,Colchester St,Ernest St,South Brisbane,20,10,15/02/2011,-27.47989,153.021076
+98,115,Montague Rd,Brereton St,West End,20,10,22/02/2011,-27.47423,153.01115
+99,116,Cordelia St,Ernest St,West End,19,10,6/05/2011,-27.48108,153.019156
+100,118,Melbourne St,Merivale St,West End,16,8,5/05/2011,-27.47557,153.015254
+101,120,Boundary St,Vulture St,South Brisbane,13,7,6/04/2011,-27.4825,153.011831
+102,123,Charlotte St,Albert St,City,19,10,6/04/2011,-27.4714,153.026526
+103,126,Jane St,Boundary St,West End,18,9,12/02/2011,-27.47965,153.012406
+104,128,Bouquet St,Montague Rd,West End,33,17,12/02/2011,-27.47189,153.013322
+105,1101,King George Square 2,Ann St,City,20,10,30/09/2010,-27.468422,153.024635

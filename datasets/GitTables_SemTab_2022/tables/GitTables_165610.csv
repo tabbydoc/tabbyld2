@@ -1,0 +1,26 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18,col19,col20,col21,col22,col23,col24,col25,col26,col27,col28
+127,admin,,,Public,2,opportunity,,,0,,workflow,2014/09/15 07:59:07,No,,,,2014/09/15 07:59:07,jvalerian,,,,,,,0,1,0,
+614,admin,,,Public,0,contacts,,2014/09/16 09:27:21,0,3.0,,2014/09/15 08:06:19,Yes,Yes,api,2014/09/15 13:21:37,2014/09/15 08:06:19,chames,,,,0.0,Green,,0,1,0,Introduction Call
+633,admin,,,Public,14,product,"Campbell's Cloud Pro (per month, per user)",2014/09/16 10:34:11,0,,attachment,2014/09/15 18:26:36,Yes,,acarisella,2014/09/15 18:26:36,,,,,,,,,0,1,0,Pro_Selling_Points.odt:17
+1181,admin,,,Public,150,contacts,Francesca Spencer,,0,,email,2014/09/15 09:59:22,Yes,,api,2014/09/15 09:59:22,,,,,,,,,0,1,0,"<b>Campaign: Web Lead Intro Campaign</b>
+
+Subject: Interested in moving to the Cloud?
+
+<img alt=""Dreaming of the Cloud"" src=""http://demo.x2developer.com/uploads/media/admin/Cloud.jpg"" style=""height: 167px; width: 250px; border-width: 10px; border-style: solid; margin: 10px;"" /><br />
+<br />
+<span style=""font-family:trebuchet ms,helvetica,sans-serif;""><span style=""font-size:14px;""><span style=""font-size:24px;""><span style=""font-family:georgia,serif;"">Dreaming of the Cloud?</span></span><br />
+<br />
+<span style=""font-size:12px;"">Dear&nbsp;</span></span></span>{name},<br />
+<br />
+<span style=""font-family:trebuchet ms,helvetica,sans-serif;""><span style=""font-size:14px;""><span style=""font-size:12px;"">Campbell&"
+1500,admin,,,Public,0,actions,none,2014/09/16 12:23:59,0,3.0,event,2014/09/16 11:21:42,No,No,,,2014/09/15 10:41:05,admin,,,,1.0,Orange,,0,1,0,New Branding!
+3044,admin,,,Public,0,actions,none,2014/09/16 13:15:54,0,1.0,event,2014/09/16 10:15:58,No,No,,,2014/09/15 16:44:58,admin,,,,0.0,Green,,0,1,0,Staff Meeting
+3332,admin,,,Public,613,contacts,Bernard Sims,,0,,emailOpened,2014/09/15 22:38:31,Yes,,,2014/09/15 22:38:31,2014/09/15 22:38:31,admin,,,,,,,0,1,0,"Contact has opened the email sent on December 13, 2012 1:26 PM.
+
+<b>test</b>
+
+test<!--EndSig-->"
+3333,admin,,,Public,3,opportunity,,,0,,workflow,2014/09/15 23:30:42,Yes,,admin,2014/09/15 23:30:42,,,,,,,,,0,1,0,Approved Quote
+3351,admin,,,Public,1156,contacts,Marissa Romero,,0,,webactivity,2014/09/16 02:00:51,Yes,,,2014/09/16 02:00:51,2014/09/16 02:00:51,admin,,,,,,,0,1,0,http://www.x2engine.com/pricing-plans/
+3380,,,,Public,1,contacts,Contacts,2014/09/17 03:06:18,0,,quotes,2014/09/17 03:06:18,Yes,,admin,2014/09/17 03:06:18,2014/09/17 03:06:18,admin,,,,,,,0,0,0,1001
+3385,admin,,,Public,1,contacts,Contacts,2014/09/17 03:06:18,0,,call,2014/09/17 03:06:18,Yes,,admin,2014/09/17 03:06:18,2014/09/17 03:06:18,admin,,,,,,,0,0,0,1001

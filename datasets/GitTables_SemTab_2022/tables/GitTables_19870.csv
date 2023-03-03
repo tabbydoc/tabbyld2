@@ -1,0 +1,17 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14
+int,varchar,int,varchar,varchar,int,int,varchar,varchar,int,varchar,int,int,varchar,int
+cs,c,cs,c,c,cs,cs,cs,cs,cs,c,cs,cs,cs,cs
+商品id(CS),name(C),商店id(CS),显示图标图集名称(C),显示图标名称(C),消耗货币类型与currencyCfg对应(CS),价格(CS),获取物品(CS),"额外获得物品{类型,id,数量}(CS)",持续天数(CS),描述(C),限购次数(CS),需要玩家满足等级(CS),前置商品购买(CS),"限购刷新周期,1=永久限购,2=每月限购,3=每周限购,4=每日限购,5=每周末(CS)"
+1,几颗虹晶,4,CurrencyAtlas,icon_diamond,10,60,"{{1,1,60}}",{},-1,购买可以获得60虹晶,-1,0,{},-1
+2,一小袋虹晶,4,CurrencyAtlas,icon_diamond,10,300,"{{1,1,300}}",{},-1,购买可以获得300虹晶,-1,0,{},-1
+3,一大袋虹晶,4,CurrencyAtlas,icon_diamond,10,1280,"{{1,1,1280}}",{},-1,购买可以获得1280虹晶,-1,0,{},-1
+4,一盒虹晶,4,CurrencyAtlas,icon_diamond,10,3280,"{{1,1,3280}}",{},-1,购买可以获得3280虹晶,-1,0,{},-1
+5,一箱虹晶,4,CurrencyAtlas,icon_diamond,10,6480,"{{1,1,6480}}",{},-1,购买可以获得6480虹晶,-1,0,{},-1
+6,新人礼包,5,CurrencyAtlas,icon_rmb,1,6,{},{},-1,新人礼包未配置,1,0,{},-1
+7,10级礼包,5,CurrencyAtlas,icon_rmb,1,30,{},{},-1,10级礼包,1,10,{},-1
+8,10级免费礼包,5,CurrencyAtlas,icon_rmb,1,0,{},{},-1,10级免费礼包,1,10,{},-1
+9,周末福袋,5,CurrencyAtlas,icon_rmb,1,328,{},{},-1,周末福袋,1,0,{},5
+10,20级礼包,5,CurrencyAtlas,icon_rmb,1,30,{},{},-1,20级礼包,1,20,{7},-1
+11,20级免费礼包,5,CurrencyAtlas,icon_rmb,1,0,{},{},-1,20级免费礼包,1,20,{8},-1
+12,30级礼包,5,CurrencyAtlas,icon_rmb,1,30,{},{},-1,30级礼包,1,30,{10},-1
+13,30级免费礼包,5,CurrencyAtlas,icon_rmb,1,0,{},{},-1,30级免费礼包,1,30,{11},-1

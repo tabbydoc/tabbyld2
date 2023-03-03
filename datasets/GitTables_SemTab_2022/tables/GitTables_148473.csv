@@ -1,0 +1,23 @@
+col0,col1,col2,col3,col4,col5
+1,62,open gate to dahuta,1,IndunActionChangeDoodadPhase,
+2,62,close gate to dahuta,2,IndunActionChangeDoodadPhase,
+3,62,open indun exit,3,IndunActionChangeDoodadPhase,1.0
+4,62,enable summon aranzebia,4,IndunActionChangeDoodadPhase,1.0
+5,62,remove aranzebia colleague,1,IndunActionRemoveTaggedNpc,4.0
+6,64,open gate to dahuta,5,IndunActionChangeDoodadPhase,
+7,64,close gate to dahuta,6,IndunActionChangeDoodadPhase,
+8,64,open indun exit,7,IndunActionChangeDoodadPhase,6.0
+9,64,enable summon aranzebia,8,IndunActionChangeDoodadPhase,6.0
+10,64,remove aranzebia colleague,2,IndunActionRemoveTaggedNpc,9.0
+11,62,set aranzebia cleared,1,IndunActionSetRoomCleared,3.0
+12,64,set aranzebia cleared,2,IndunActionSetRoomCleared,8.0
+13,66,room_01_door_close,9,IndunActionChangeDoodadPhase,
+14,66,room_05_clear,3,IndunActionSetRoomCleared,16.0
+15,66,room_05_doodad_enable,10,IndunActionChangeDoodadPhase,
+16,66,room_01_door_open,11,IndunActionChangeDoodadPhase,
+22,66,room_10_door_close,16,IndunActionChangeDoodadPhase,
+23,66,room_10_door_open,17,IndunActionChangeDoodadPhase,
+24,66,room_10_doodad_enable,18,IndunActionChangeDoodadPhase,
+25,66,room_10_clear,5,IndunActionSetRoomCleared,23.0
+26,66,remove_05_tag,3,IndunActionRemoveTaggedNpc,15.0
+27,66,remove_10_tag,4,IndunActionRemoveTaggedNpc,24.0

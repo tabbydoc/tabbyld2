@@ -1,0 +1,64 @@
+col0,col1,col2,col3,col4,col5,col6
+Species 1,Species 1,1.0,non-living,detritus,1,0
+Species 2,Species 2,2.0,non-living,carrion,1,0
+Species 3,Species 3,3.0,free-living,phytoplankton,1,0
+Species 4,Species 4,4.0,free-living,benthic microalgae/periphyton,1,0
+Species 5,Species 5,5.0,free-living,vascular plants,1,0
+Species 6,Species 6,6.0,free-living,zooplankton,1,0
+Species 7,Species 7,7.0,free-living,meiofauna,1,0
+Species 8,Species 8,8.0,free-living,bacteria,1,0
+Species 9,Species 9,9.0,free-living,Dero sp.,1,0
+Species 10,Species 10,10.0,free-living,Tubificidae,1,0
+Species 11,Species 11,11.0,free-living,Chaetogaster sp.,1,0
+Species 12,Species 12,12.0,free-living,Erpobdella sp.,1,0
+Species 13,Species 13,13.0,free-living,Physa sp.,1,0
+Species 14,Species 14,14.0,free-living,Helisoma sp.,1,0
+Species 15,Species 15,15.0,free-living,Hyalella sp.,1,0
+Species 16,Species 16,16.0,free-living,Macrocyclops sp.,1,0
+Species 17,Species 17,17.0,free-living,diaptomidae,1,0
+Species 18,Species 18,18.0,free-living,Simocephalus sp.,1,0
+Species 19,Species 19,19.0,free-living,Cyzicus californicus,1,0
+Species 20,Species 20,20.5,free-living,Callibaetis sp.,2,1
+Species 21,Species 21,22.5,free-living,Haliplus sp.,2,1
+Species 22,Species 22,24.5,free-living,Hydrophilus sp.,2,1
+Species 23,Species 23,26.5,free-living,Tropisternus sp.,2,1
+Species 24,Species 24,28.5,free-living,Notonecta sp.,2,1
+Species 25,Species 25,30.5,free-living,gerridae,2,1
+Species 26,Species 26,32.5,free-living,Hesperocorixa sp.,2,1
+Species 27,Species 27,34.5,free-living,Lethocerus americanus,2,1
+Species 28,Species 28,36.5,free-living,Belostoma sp.,2,1
+Species 29,Species 29,39.0,free-living,chironomidae,3,1
+Species 30,Species 30,42.0,free-living,ceratopogonidae,3,1
+Species 31,Species 31,45.0,free-living,ephydridae,3,1
+Species 32,Species 32,47.5,free-living,Tramea sp.,2,1
+Species 33,Species 33,49.5,free-living,Coenagrion sp.,2,1
+Species 34,Species 34,51.5,free-living,Lestes sp.,2,1
+Species 35,Species 35,53.5,free-living,Anax junius,2,1
+Species 36,Species 36,55.5,free-living,Taricha torosa,2,1
+Species 37,Species 37,57.5,free-living,Anaxyrus boreas,2,1
+Species 38,Species 38,59.5,free-living,Pseudacris regilla,2,1
+Species 39,Species 39,61.5,free-living,Rana draytonii,2,1
+Species 40,Species 40,63.0,free-living,Thamnophis atratus,1,0
+Species 41,Species 41,64.0,free-living,Tachycineta bicolor,1,0
+Species 42,Species 42,65.0,free-living,Hirundo rustica,1,0
+Species 43,Species 43,66.0,free-living,Agelaius phoeniceus,1,0
+Species 44,Species 44,67.0,free-living,Fulica americana,1,0
+Species 45,Species 45,68.0,free-living,Buteo jamaicensis,1,0
+Species 46,Species 46,69.0,free-living,Ardea herodias,1,0
+Species 47,Species 47,70.0,free-living,Spermophilus beecheyi,1,0
+Species 48,Species 48,71.0,free-living,Canis latrans,1,0
+Species 49,Species 49,72.0,infectious,Arrenurus sp.,1,0
+Species 50,Species 50,73.5,infectious,Opalina sp.,2,1
+Species 51,Species 51,75.5,infectious,Nyctotherus sp.,2,1
+Species 52,Species 52,77.5,infectious,Gregarinidae,2,1
+Species 53,Species 53,79.5,infectious,Batrachochytrium dendrobatidis,2,1
+Species 54,Species 54,81.0,infectious,Nematode,1,0
+Species 55,Species 55,82.0,infectious,Daubaylia sp.,1,0
+Species 56,Species 56,84.5,infectious,Ribeiroia ondatrae,4,1
+Species 57,Species 57,88.5,infectious,Megalodiscus sp.,4,1
+Species 58,Species 58,92.5,infectious,Echinostoma trivolvis,4,1
+Species 59,Species 59,96.5,infectious,Echinostoma sp.,4,1
+Species 60,Species 60,100.5,infectious,Halipegus sp.,4,1
+Species 61,Species 61,104.5,infectious,Alaria sp.,4,1
+Species 62,Species 62,108.5,infectious,Cephalogonimus americanus,4,1
+Species 63,Species 63,112.0,infectious,Pseudocorynosoma constrictum,3,1

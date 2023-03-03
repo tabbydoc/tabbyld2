@@ -1,0 +1,48 @@
+col0,col1,col2,col3
+9991,Ranitidine user,9991,Ranitidine_user
+997276,Cimetidine user,997276,Cimetidine_user
+43009003,Lafutidine user,43009003,Lafutidine_user
+953076,Famotidine user,953076,Famotidine_user
+950696,Nizatidine user,950696,Nizatidine_user
+19011685,Roxatidine user,19011685,Roxatidine_user
+101,"Overall cancer except skin cancer, hospitalized",101,Cancer_except_skin
+102,"Overall cancer, hospitalized",102,Cancer
+103,"Overall cancer except thyroid cancer, hospitalized",103,Cancer_except_thyroid
+104,"Stomach cancer, hospitalized",104,Stomach_cancer
+105,"Esophagus cancer, hospitalized",105,Esophagus_cancer
+106,"Colon and rectum cancer, hospitalized",106,Colorectal_cancer
+107,"Lung cancer, hospitalized",107,Lung_cancer
+108,"Liver cancer, hospitalized",108,Liver_cancer
+109,"Prostate cancer, hospitalized",109,Prostate_cancer
+110,"Breast cancer, hospitalized",110,Breast_cancer
+111,"Bladder cancer, hospitalized",111,Bladder_cancer
+112,"Cervix uteri cancer, hospitalized",112,Cervix_uteri_cancer
+113,"Corpus uteri cancer, hospitalized",113,Corpus_uteri_cancer
+114,"Gall bladder and biliary tract cancer, hospitalized",114,GB_and_biliary_tract_cancer
+115,"Lip, oral cavity and pharynx cancer, hospitalized",115,Head_n_neck_cancer
+116,"Leukemia, hospitalized",116,Leukemia
+117,"Ovary cancer, hospitalized",117,Ovary_cancer
+118,"Pancreas cancer, hospitalized",118,Pancreas_cancer
+119,"Thyroid Cancer, hospitalized",119,Thyroid_cancer
+20,Cancer mortality,20,Cancer_death
+9998,Other H2 blocker user,9998,Other_h2
+9999,Other H2 blocker user without gastric ulcer,9999,Other_h2_without_gastric_ulcer
+1,Overall cancer except skin cancer,1,Broad_Cancer_except_skin
+2,Overall cancer,2,Broad_Cancer
+3,Overall cancer except thyroid cancer,3,Broad_Cancer_except_thyroid
+4,Stomach cancer,4,Broad_Stomach_cancer
+5,Esophagus cancer,5,Broad_Esophagus_cancer
+6,Colon and rectum cancer,6,Broad_Colorectal_cancer
+7,Lung cancer,7,Broad_Lung_cancer
+8,Liver cancer,8,Broad_Liver_cancer
+9,Prostate cancer,9,Broad_Prostate_cancer
+10,Breast cancer,10,Broad_Breast_cancer
+11,Bladder cancer,11,Broad_Bladder_cancer
+12,Cervix uteri cancer,12,Broad_Cervix_uteri_cancer
+13,Corpus uteri cancer,13,Broad_Corpus_uteri_cancer
+14,Gall bladder and biliary tract cancer,14,Broad_GB_and_biliary_tract_cancer
+15,"Lip, oral cavity and pharynx cancer",15,Broad_Head_n_neck_cancer
+16,Leukemia,16,Broad_Leukemia
+17,Ovary cancer,17,Broad_Ovary_cancer
+18,Pancreas cancer,18,Broad_Pancreas_cancer
+19,Thyroid Cancer,19,Broad_Thyroid_cancer

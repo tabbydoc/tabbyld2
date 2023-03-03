@@ -1,0 +1,101 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13
+1,Vernon,Kleinholz,Genderfluid,1,0,0,1,1,1,0,1,0,Common cold
+2,Barclay,Behnen,Non-binary,1,0,0,0,1,1,0,0,0,Strep throat
+3,Jilli,Umfrey,Genderqueer,1,0,1,0,1,1,0,1,0,Tonsillitis
+4,Filbert,Budding,Non-binary,1,1,1,1,1,1,1,1,1,Layrnx cancer
+5,Ansell,Buckerfield,Non-binary,1,0,1,1,1,1,1,0,1,Glandular fever
+6,Kit,Diplock,Non-binary,1,0,0,0,0,1,0,0,0,Strep throat
+7,Beverley,Aistrop,Agender,1,1,1,1,1,1,0,1,1,Common cold
+8,Fleurette,Convery,Genderfluid,1,0,0,1,1,1,0,1,0,Tonsillitis
+9,Davida,Whatley,Genderqueer,1,0,1,0,1,1,0,1,0,Glandular fever
+10,Cirillo,Conibeer,Female,0,0,1,1,1,1,1,0,1,Layrnx cancer
+11,Delcina,Jewson,Genderqueer,1,0,0,1,1,1,0,1,0,Common cold
+12,Lillis,Petkov,Bigender,1,0,0,0,1,1,0,0,0,Strep throat
+13,Royal,Comello,Male,1,0,1,0,1,1,0,1,0,Tonsillitis
+14,Charline,Adderley,Genderfluid,1,1,1,1,1,1,1,1,1,Layrnx cancer
+15,Clementius,Desforges,Female,1,0,1,1,1,1,1,0,1,Glandular fever
+16,Arline,Bambrough,Male,1,0,0,0,0,1,0,0,0,Strep throat
+17,Birk,Critch,Agender,1,1,1,1,1,1,0,1,1,Common cold
+18,Adora,Nolton,Genderfluid,1,0,0,1,1,1,0,1,0,Tonsillitis
+19,Dionisio,Alsop,Agender,1,0,1,0,1,1,0,1,0,Glandular fever
+20,Mehetabel,Moodie,Polygender,0,0,1,1,1,1,1,0,1,Layrnx cancer
+21,Mignon,Marchington,Genderqueer,1,0,0,1,1,1,0,1,0,Common cold
+22,Xavier,Castleman,Genderfluid,1,0,0,0,1,1,0,0,0,Strep throat
+23,Correna,Garstang,Genderfluid,1,0,1,0,1,1,0,1,0,Tonsillitis
+24,Katinka,Whitta,Male,1,1,1,1,1,1,1,1,1,Layrnx cancer
+25,Ofelia,Reyes,Male,1,0,1,1,1,1,1,0,1,Glandular fever
+26,Mariana,Barley,Genderqueer,1,0,0,0,0,1,0,0,0,Strep throat
+27,Alvira,Sitwell,Agender,1,1,1,1,1,1,0,1,1,Common cold
+28,Frederique,Probbings,Male,1,0,0,1,1,1,0,1,0,Tonsillitis
+29,Hamel,Kaveney,Male,1,0,1,0,1,1,0,1,0,Glandular fever
+30,Leonerd,Hrycek,Male,0,0,1,1,1,1,1,0,1,Layrnx cancer
+31,Gianni,Minghi,Genderqueer,1,0,0,1,1,1,0,1,0,Common cold
+32,Jacquenetta,Gleder,Bigender,1,0,0,0,1,1,0,0,0,Strep throat
+33,Wrennie,Lacy,Bigender,1,0,1,0,1,1,0,1,0,Tonsillitis
+34,Hugues,Kendle,Agender,1,1,1,1,1,1,1,1,1,Layrnx cancer
+35,Duncan,Cordoba,Agender,1,0,1,1,1,1,1,0,1,Glandular fever
+36,Theadora,Dickings,Bigender,1,0,0,0,0,1,0,0,0,Strep throat
+37,Genia,Learman,Genderqueer,1,1,1,1,1,1,0,1,1,Common cold
+38,Koenraad,Harling,Genderfluid,1,0,0,1,1,1,0,1,0,Tonsillitis
+39,Balduin,Heavyside,Non-binary,1,0,1,0,1,1,0,1,0,Glandular fever
+40,Cami,Wittleton,Genderfluid,0,0,1,1,1,1,1,0,1,Layrnx cancer
+41,Rosco,Frewer,Bigender,1,0,0,1,1,1,0,1,0,Common cold
+42,Brynn,Hanks,Agender,1,0,0,0,1,1,0,0,0,Strep throat
+43,Davina,Boshers,Genderfluid,1,0,1,0,1,1,0,1,0,Tonsillitis
+44,Woody,Gagie,Female,1,1,1,1,1,1,1,1,1,Layrnx cancer
+45,Madelle,Yanshinov,Agender,1,0,1,1,1,1,1,0,1,Glandular fever
+46,Morgen,Godsmark,Male,1,0,0,0,0,1,0,0,0,Strep throat
+47,Lyell,Farryan,Bigender,1,1,1,1,1,1,0,1,1,Common cold
+48,Rhodie,Mc Menamin,Bigender,1,0,0,1,1,1,0,1,0,Tonsillitis
+49,Cooper,Boycott,Genderqueer,1,0,1,0,1,1,0,1,0,Glandular fever
+50,Zebadiah,Malyon,Genderfluid,0,0,1,1,1,1,1,0,1,Layrnx cancer
+51,Larissa,Disbrey,Genderqueer,1,0,0,1,1,1,0,1,0,Common cold
+52,Ransell,Legrand,Agender,1,0,0,0,1,1,0,0,0,Strep throat
+53,Moe,Filochov,Agender,1,0,1,0,1,1,0,1,0,Tonsillitis
+54,Helenka,Farnill,Polygender,1,1,1,1,1,1,1,1,1,Layrnx cancer
+55,Ernestine,Harbard,Agender,1,0,1,1,1,1,1,0,1,Glandular fever
+56,Maisie,Cavee,Polygender,1,0,0,0,0,1,0,0,0,Strep throat
+57,Kirsten,McWard,Bigender,1,1,1,1,1,1,0,1,1,Common cold
+58,Vassili,Pittford,Female,1,0,0,1,1,1,0,1,0,Tonsillitis
+59,Gabriel,Camerati,Bigender,1,0,1,0,1,1,0,1,0,Glandular fever
+60,Jacquelin,Toulch,Genderfluid,0,0,1,1,1,1,1,0,1,Layrnx cancer
+61,Guss,Dragoe,Genderfluid,1,0,0,1,1,1,0,1,0,Common cold
+62,Jennica,O'Finan,Female,1,0,0,0,1,1,0,0,0,Strep throat
+63,Maddie,Dixey,Female,1,0,1,0,1,1,0,1,0,Tonsillitis
+64,Frasier,Kinrade,Polygender,1,1,1,1,1,1,1,1,1,Layrnx cancer
+65,Sly,Speachley,Female,1,0,1,1,1,1,1,0,1,Glandular fever
+66,Genia,Course,Polygender,1,0,0,0,0,1,0,0,0,Strep throat
+67,Jone,Gareisr,Male,1,1,1,1,1,1,0,1,1,Common cold
+68,Alejandro,Orridge,Polygender,1,0,0,1,1,1,0,1,0,Tonsillitis
+69,Sanderson,Orme,Genderfluid,1,0,1,0,1,1,0,1,0,Glandular fever
+70,Aridatha,Obell,Polygender,0,0,1,1,1,1,1,0,1,Layrnx cancer
+71,Emelina,Klempke,Genderqueer,1,0,0,1,1,1,0,1,0,Common cold
+72,Audrie,Creaser,Agender,1,0,0,0,1,1,0,0,0,Strep throat
+73,Jacquette,Felgate,Male,1,0,1,0,1,1,0,1,0,Tonsillitis
+74,Indira,McKenna,Genderfluid,1,1,1,1,1,1,1,1,1,Layrnx cancer
+75,Rorke,Babon,Polygender,1,0,1,1,1,1,1,0,1,Glandular fever
+76,Kin,Colcutt,Female,1,0,0,0,0,1,0,0,0,Strep throat
+77,Kingsley,Peggs,Polygender,1,1,1,1,1,1,0,1,1,Common cold
+78,Claudian,Grimsditch,Agender,1,0,0,1,1,1,0,1,0,Tonsillitis
+79,Hedwiga,Pearton,Female,1,0,1,0,1,1,0,1,0,Glandular fever
+80,Udale,Pellew,Agender,0,0,1,1,1,1,1,0,1,Layrnx cancer
+81,Dot,Adamsky,Non-binary,1,0,0,1,1,1,0,1,0,Common cold
+82,Conn,Forestall,Polygender,1,0,0,0,1,1,0,0,0,Strep throat
+83,Markus,Smedmoor,Agender,1,0,1,0,1,1,0,1,0,Tonsillitis
+84,Glennie,Burroughes,Non-binary,1,1,1,1,1,1,1,1,1,Layrnx cancer
+85,Sybyl,Lorkings,Polygender,1,0,1,1,1,1,1,0,1,Glandular fever
+86,Torey,Hospital,Non-binary,1,0,0,0,0,1,0,0,0,Strep throat
+87,Jerrie,Bosman,Bigender,1,1,1,1,1,1,0,1,1,Common cold
+88,Aluin,Bambury,Genderfluid,1,0,0,1,1,1,0,1,0,Tonsillitis
+89,Charyl,Rickets,Polygender,1,0,1,0,1,1,0,1,0,Glandular fever
+90,Angel,Gofford,Bigender,0,0,1,1,1,1,1,0,1,Layrnx cancer
+91,Rex,Mayow,Female,1,0,0,1,1,1,0,1,0,Common cold
+92,Carmine,Winnard,Genderfluid,1,0,0,0,1,1,0,0,0,Strep throat
+93,Janis,Archbutt,Bigender,1,0,1,0,1,1,0,1,0,Tonsillitis
+94,Beulah,Todman,Agender,1,1,1,1,1,1,1,1,1,Layrnx cancer
+95,Sheila,Sally,Polygender,1,0,1,1,1,1,1,0,1,Glandular fever
+96,Juli,Duckett,Agender,1,0,0,0,0,1,0,0,0,Strep throat
+97,Danielle,Clemenceau,Polygender,1,1,1,1,1,1,0,1,1,Common cold
+98,Valencia,Verden,Genderqueer,1,0,0,1,1,1,0,1,0,Tonsillitis
+99,Dolly,Trillow,Non-binary,1,0,1,0,1,1,0,1,0,Glandular fever
+100,Bunnie,Maylard,Agender,0,0,1,1,1,1,1,0,1,Layrnx cancer

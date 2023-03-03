@@ -1,0 +1,8 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14
+1,ACCELEROMETER,EMPATICA_E4_v1_ACCELEROMETER,32.0,G,RAW,,,org.radarcns.kafka.ObservationKey,org.radarcns.passive.empatica.EmpaticaE4Acceleration,android_empatica_e4_acceleration,,True,1,system
+2,BATTERY,EMPATICA_E4_v1_BATTERY,32.0,PERCENTAGE,RAW,,,org.radarcns.kafka.ObservationKey,org.radarcns.passive.empatica.EmpaticaE4BatteryLevel,android_empatica_e4_battery_level,,True,1,system
+3,QUESTIONNAIRE,Thinc IT App QUESTIONNAIRE,,,RAW,,,,,,,True,2,system
+4,BLOOD_VOLUME_PULSE,EMPATICA_E4_v1_BLOOD_VOLUME_PULSE,32.0,NANO_WATT,RAW,,,org.radarcns.kafka.ObservationKey,org.radarcns.passive.empatica.EmpaticaE4BloodVolumePulse,android_empatica_e4_blood_volume_pulse,,True,1,system
+5,ELECTRODERMAL_ACTIVITY,EMPATICA_E4_v1_ELECTRODERMAL_ACTIVITY,4.0,MICRO_SIEMENS,RAW,,,org.radarcns.kafka.ObservationKey,org.radarcns.passive.empatica.EmpaticaE4ElectroDermalActivity,android_empatica_e4_electrodermal_activity,,True,1,system
+6,INTER_BEAT_INTERVAL,EMPATICA_E4_v1_INTER_BEAT_INTERVAL,1.0,BEATS_PER_MIN,VENDOR,,,org.radarcns.kafka.ObservationKey,org.radarcns.passive.empatica.EmpaticaE4InterBeatInterval,android_empatica_e4_inter_beat_interval,,True,1,system
+7,THERMOMETER,EMPATICA_E4_v1_THERMOMETER,4.0,CELSIUS,RAW,,,org.radarcns.kafka.ObservationKey,org.radarcns.passive.empatica.EmpaticaE4Temperature,android_empatica_e4_temperature,,True,1,system

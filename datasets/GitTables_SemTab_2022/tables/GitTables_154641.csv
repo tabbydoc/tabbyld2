@@ -1,0 +1,46 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11
+1,Cap 50V 0.1uF 10% 0805,C_0.1uF,C12,0.1uF,C_0805_OEM,1.0,http://datasheets.avx.com/X7RDielectric.pdf,Value,478-3352-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=478-3352-1-ND
+2,CAP CER 1UF 25V X7R 0805,C_1uF,C11,1uF,C_0805_OEM,1.0,http://datasheets.avx.com/X7RDielectric.pdf,Value,478-10487-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/avx-corporation/08053C105JAT2A/478-10487-1-ND/6797628
+3,CAP CER 47UF 6.3V X5R 0805,C_47uF,C7,47uF,C_0805_OEM,1.0,http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf,Value,587-4280-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/taiyo-yuden/JMK212BBJ476MG-T/587-4280-1-ND/5344315
+4,Cap 50V 0.1uF 10% 0805,C_0.1uF,C1 C2 C5 C9 C10,C_0.1uF,C_0805_OEM,5.0,http://datasheets.avx.com/X7RDielectric.pdf,Value,478-3352-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=478-3352-1-ND
+5,Cap 50V 100pF 5% 0805,C_100pF,C3,C_100pF,C_0805_OEM,1.0,https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf,Value,399-1122-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/kemet/C0805C101J5GACTU/399-1122-1-ND/411397
+6,Unpolarized capacitor,C_22uF,C4,C_22uF,C_1206_OEM,1.0,http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2017/07/28/S_CL31A226KOCLFNC.pdf,Value,1276-2725-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=1276-2725-1-ND
+7,Cap 50V 30pF 5% 0805,C_30pF,C6 C8,C_30pF,C_0805_OEM,2.0,https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf,Value,1276-1130-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL21C300JBANNNC/1276-1130-1-ND/3889216
+8,DIODE ZENER 18V 5W DO214AA,D_Zener_18V,D7,D_Zener_18V,DO-214AA,1.0,http://www.mccsemi.com/up_pdf/SMBJ5338B-SMBJ5388B(SMB).pdf,DO-214AA (SMB),SMBJ5355B-TPMSCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=SMBJ5355B-TPMSCT-ND
+9,LED_0805,LED_0805,D1 D2 D3 D4 D5 D6,LED_0805,LED_0805_OEM,6.0,http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf,Value,475-1410-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=475-1410-1-ND
+10,LED_0805,LED_0805,D8 D9,LED_0805,D_0805_OEM,2.0,http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf,Value,475-1410-1-ND,Digi-Key,https://www.digikey.com/products/en?keywords=475-1410-1-ND
+11,PTC Fuse 16V 500mA,F_500mA_16V,F1,F_500mA_16V,Fuse_1210,1.0,https://belfuse.com/resources/CircuitProtection/datasheets/0ZCH%20Nov2016.pdf,Value,507-1786-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCH0050FF2G/507-1786-1-ND/4156209
+12,"TQFP32, 16k Flash, 1k SRAM, 512B EEPROM, CAN",ATMEGA16M1,IC1,ATMEGA16M1,TQFP-32_7x7mm_Pitch0.8mm,1.0,http://www.atmel.com/Images/Atmel-8209-8-bit%20AVR%20ATmega16M1-32M1-64M1_Datasheet.pdf,Value,ATMEGA16M1-AU-ND,Digi-Key,https://www.digikey.com/product-detail/en/atmel/ATMEGA16M1-AU/ATMEGA16M1-AU-ND/2271208
+13,CONN FMALE-ON-BRD 20POS VERT T/H,micromatch_female_TOP_ENTRY_locking_20,J2,micromatch_female_TOP_ENTRY_locking_20,micromatch_female_vert_20,1.0,,Value,A99499CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/2-338068-0/A99499CT-ND/1955732
+14,CONN FMALE-ON-BRD 4POS VERT T/H,micromatch_female_TOP_ENTRY_locking_4,J1,micromatch_female_TOP_ENTRY_locking_4,micromatch_female_vert_4,1.0,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=338068&DocType=Customer+Drawing&DocLang=English,Value,338068-4,Digi-Key,https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/338068-4/A99438CT-ND/1955740
+15,Inductor 4.7uH 4.4A,L_4.7uH,L1,L_4.7uH,4.7uH_Inductor_OEM,1.0,https://product.tdk.com/info/en/documents/wdcatalog/withdrawn_inductor_commercial_power_vlp8040_en.pdf,Value,445-6583-1-ND,Digi-Key,https://www.digikey.com/product-detail/en/tdk-corporation/VLP8040T-4R7M/445-6583-1-ND/2465893
+16,"Connector, double row, 02x03",CONN_02X03,P1,CONN_02X03,Pin_Header_Straight_2x03,1.0,http://portal.fciconnect.com/Comergent//fci/drawing/67996.pdf,Value,609-3234-ND,Digi-Key,https://www.digikey.com/product-detail/en/amphenol-fci/67997-206HLF/609-3234-ND/1878491
+17,"60V Vds, 0.115A Id, N-channel MOSFET, SOT-23",SSM3K333R,Q1 Q2 Q3 Q4,SSM3K333R,SOT-23F,4.0,file:///home/sherrieshen/Downloads/SSM3K333R_datasheet_en_20140301.pdf,SOT-23-3 Flat Leads,SSM3K333RLFCT-ND,Digi-Key,https://www.digikey.com/product-detail/en/toshiba-semiconductor-and-storage/SSM3K333RLF/SSM3K333RLFCT-ND/3522391
+18,Res 0 2512 3W Jumper,R_0_Jumper,R26,R_0_Jumper,R_2512_OEM,1.0,http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English,Value,A121322CT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=A121322CT-ND
+19,Res 100 1%,R_100,R19,R_100,R_0805_OEM,1.0,https://www.seielect.com/Catalog/SEI-rncp.pdf,Value,RNCP0805FTD100RCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=RNCP0805FTD100RCT-ND
+20,Res 100k 1%,R_100k,R6 R11 R17 R29,R_100k,R_0805_OEM,4.0,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,Value,311-100KCRCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=311-100KCRCT-ND
+21,Res 10k 1%,R_10k,R9 R12 R18 R21 R22 R27,R_10k,R_0805_OEM,6.0,http://www.bourns.com/data/global/pdfs/CRS.pdf,Value,CRS0805-FX-1002ELFCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=CRS0805-FX-1002ELFCT-ND
+22,RES SMD 1M OHM 5% 1/8W 0805,R_1M,R4 R13,R_1M,R_0805_OEM,2.0,https://www.seielect.com/Catalog/SEI-rncp.pdf,Value,RMCF0805JT1M00CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805JT1M00/RMCF0805JT1M00CT-ND/1942600
+23,Res 1k 1%,R_1k,R5 R7 R10 R16 R20,R_1k,R_0805_OEM,5.0,https://www.seielect.com/Catalog/SEI-rncp.pdf,Value,RNCP0805FTD1K00CT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=RNCP0805FTD1K00CT-ND
+24,RES SMD 2.2K OHM 1% 1/8W 0805,R_2.2k,R8 R14 R15,R_2.2k,R_0805_OEM,3.0,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Value,RMCF0805FT2K20CT-ND,Digi-Key,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RMCF0805FT2K20/RMCF0805FT2K20CT-ND/1942387
+25,Res 200 5%,R_200,R1 R2 R3 R24 R25 R28,R_200,R_0805_OEM,6.0,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Value,RMCF0805JT200RCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=RMCF0805JT200RCT-ND
+26,Res 55.1k 1%,R_55.1k,R23,R_55.1k,R_0805_OEM,1.0,http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf,Value,311-51.1KCRCT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=311-51.1KCRCT-ND
+27,"High-Speed CAN Transceiver, 1Mbps, 5V supply, SPLIT pin, -40C to +125C, SOIC8 package",CAN_Transceiver,U2,CAN_Transceiver,SOIC-8_3.9x4.9mm_Pitch1.27mm_OEM,1.0,http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en561044,Value,MCP2561-E/SN-ND,Digi-Key,https://www.digikey.com/products/en?keywords=mcp2561-e%2Fsn
+28,IC OPAMP GP 1MHZ RRO SOT23-5  1.8-6V,MCP6001RT,U1 U3,MCP6001RT,SOT-23-5_OEM,2.0,http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf,Value,MCP6001RT-I/OTCT-ND,Digi-Key,https://www.digikey.com/product-detail/en/microchip-technology/MCP6001RT-I-OT/MCP6001RT-I-OTCT-ND/669498
+29,4.5V - 17V Input 1A Synchronous Buck Converter,TPS561201,U4,TPS561201,SOT-23-6_OEM,1.0,http://www.ti.com/lit/ds/symlink/tps561201.pdf,Value,TPS561201,Digi-Key,https://www.digikey.com/products/en?keywords=296-46928-1-ND
+30,"Two pin crystal, two ground/package pins (pin2 and 3) small symbol",Crystal_SMD,Y1,Crystal_SMD,Crystal_SMD_FA238,1.0,https://support.epson.biz/td/api/doc_check.php?dl=brief_FA-238V_en.pdf,Value,SER3686CT-ND,Digi-Key,https://www.digikey.com/products/en?keywords=SER3686CT-ND
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+Component Groups:,30,,,,,,,,,,
+Component Count:,65,,,,,,,,,,
+Fitted Components:,65,,,,,,,,,,
+Number of PCBs:,1,,,,,,,,,,
+Total components:,65,,,,,,,,,,
+Schematic Version:,2,,,,,,,,,,
+Schematic Date:,2/2/2018,,,,,,,,,,
+BoM Date:,Sun 11 Feb 2018 10:46:42 AM EST,,,,,,,,,,
+Schematic Source:,/home/corey/Desktop/Formula/MK_III-Boards/boards/throttle-steering/throttle-steering.sch,,,,,,,,,,
+KiCad Version:,Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1,,,,,,,,,,

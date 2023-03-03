@@ -1,0 +1,9 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8
+user_sms_confirmed_number,User access SMS confirmed number,campos_sms.model_sms_confirmed_number,"[('user_id', '=', user.id), ('state', '=', 'draft')]",,True,True,True,True
+user_sms_confirmed_number,User access SMS confirmed number,campos_sms.model_sms_confirmed_number,"[('user_id', '=', user.id)]",,True,False,False,True
+sms_master_create,SMS Master create,campos_sms.model_sms_master,"[('create_uid', '=', user.id)]",campos_event.group_campos_user,True,False,False,False
+sms_master_own_struct,SMS Master own/struct,campos_sms.model_sms_master,"[('organization_id.user_full_ids', 'in', user.id.committee_ids.ids)]",campos_event.group_campos_committee,True,False,False,False
+sms_master_all,SMS Master all,campos_sms.model_sms_master,"[(1, '=', 1)]",campos_event.group_campos_admin,True,False,False,False
+sms_client_queue_create,SMS Client Queue create,smsclient.model_sms_smsclient_queue,"[('create_uid', '=', user.id)]",campos_event.group_campos_user,True,False,False,False
+sms_client_queue_own_struct,SMS Client Queue own/struct,smsclient.model_sms_smsclient_queue,"[('organization_id.user_full_ids', 'in', user.id.committee_ids.ids)]",campos_event.group_campos_committee,True,False,False,False
+sms_client_queue_all,SMS Client Queue all,smsclient.model_sms_smsclient_queue,"[(1, '=', 1)]",campos_event.group_campos_admin,True,False,False,False

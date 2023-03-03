@@ -1,0 +1,9 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17
+resource,resource,/reports/api/v1/resource/resource/,reports_metahash,[key],[title],[key],0,,"Resource describes tables, queries that are available through the API",Resource,Resources,[l;d;e;c],,,reports,[json],
+field,resource,/reports/api/v1/resource/field/,reports_metahash,[scope;key],[scope;/;title],[scope;key],0,,Field Resource,Field,Fields,[l;d;e;c],,,reports,[xls],
+vocabulary,resource,/reports/api/v1/resource/vocabulary/,reports_vocabulary,[scope;key],[scope;/;title],[scope;key],0,,Vocabularies describe controlled vocabularies,Vocabulary,Vocabularies,[l;d;e;c],,,reports,[xls],
+apilog,resource,/reports/api/v1/resource/apilog/,reports_apilog,[ref_resource_name;key;date_time],[ref_resource_name;/;key;/;date_time],[ref_resource_name;key;date_time],0,,The Change log resource,Change log,Change Logs,[l;d],,,reports,[xls],
+user,resource,/reports/api/v1/resource/user/,reports_userprofile,[username],[first_name;' ';last_name;' (';username;)],[username],0,,The admin user view,User,Users,[l;d;e;c],,,reports,[xls],
+usergroup,resource,/reports/api/v1/resource/usergroup/,reports_usergroup,[name],[name],[name],0,,UserGroup,User Group,User Groups,[l;d;e;c],,,reports,[xls],
+permission,resource,/reports/api/v1/resource/permission/,reports_permission,[scope;key;type],[scope;/;key;:;type],[scope;key;type],0,,Permission,Permission,Permissions,[l;d;e;c],,,reports,[xls],
+job,resource,/reports/api/v1/resource/job/,reports_job,[id],[id;-;uri],[id],0,,Job Executed in offline task,Job,Jobs,[l;d;e;c],,,reports,[xls],True

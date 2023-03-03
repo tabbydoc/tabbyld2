@@ -1,0 +1,43 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16
+appraiser1id,appraiser,"67109 Mendez Junction Apt. 942
+Lloydville, WY 25290",appraiser1,appraiser1,x,0,0,,,,,,,,,
+manager1id,manager1,"5375 Sue Canyon Suite 408
+East Clayton, SC 66353",manager1,manager1,x,0,0,,,,,,,,,
+manager2id,manager2,"412 Snow Manors Apt. 161
+South Kimtown, NV 57004",manager2,manager2,x,0,0,manager2jaid1,full2,,,,,,,
+id10,username10,"5415 David Square
+West Michaeltown, IN 48447",first10,last10,x,0,0,,,,,,,,,
+id11,username11,"03104 Norris Rapids
+Port Donald, DE 62982",first11,last11,x,0,0,,,,,,,,,
+id12,username12,"03557 Phillips Wells Suite 291
+New Beverlyburgh, FL 16915",first12,last12,x,0,0,onlyjaid,,,,,,,,
+id13,username13,"332 Watson Shore Apt. 290
+Millerland, MT 39742",first13,last13,x,0,0,newjaid,,,,,,,,
+id14,username14,"645 John Roads
+Danahaven, MS 54060",first14,last14,x,0,0,matchingjaid,,,,,,,,
+id15,username15,"3547 Stephanie Underpass Apt. 418
+Port Jacqueline, HI 55774",first15,last15,x,0,0,,no jaid no existing,1460692800.0,1463284800.0,org1,pos1,manager3,manager3jaid1,appraiser1id
+id16,username16,"5825 Welch Corners
+Fischerport, UT 59363",first16,last16,x,0,0,,no jaid with existing,1460692800.0,1463284800.0,org1,pos1,manager3,manager3jaid1,appraiser1id
+id17,username17,"41489 Roger Terrace
+Davisfort, IN 71770",first17,last17,x,0,0,newjaid,good data,1460692800.0,1463284800.0,org1,pos1,manager3,manager3jaid1,appraiser1id
+id18,username18,"014 Aaron Locks Suite 714
+Justinborough, CO 05147",first18,last18,x,0,0,matchingjaid,good data,1460692800.0,1463284800.0,org1,pos1,manager2id,manager2jaid1,appraiser1id
+id19,username19,"8518 Pamela Track Apt. 164
+Aprilshire, SC 28062",first19,last19,x,0,0,newjaid,bad data,1460692800.0,1463284800.0,org2,pos2,managerxyz,,appraiseridx
+id20,username20,"864 Ramos Port Apt. 211
+Moralesmouth, OH 88090",first20,last20,x,0,0,matchingjaid,bad data,1460692800.0,1463284800.0,org2,pos2,managerxyz,,appraiseridx
+id21,username21,"637 Neal Island Suite 074
+Lake Tyler, RI 28775",first21,last21,x,0,0,jaid,manager id only manager has no assignment,,,,,manager1id,,
+id22,username22,"0811 Smith Canyon Apt. 904
+Jessicabury, WV 75585",first22,last22,x,0,0,jaid,manager id only manager has existing assignment,,,,,manager2id,,
+id23,username23,"7562 Fisher Spur
+Hernandezberg, MD 17438",first23,last23,x,0,0,jaid,manager with job assignment id manager new second,,,,,manager4,manager4jaid2,
+id24,username24,"5667 Blair Underpass
+South Shelby, VT 07027",first24,last24,x,0,0,jaid,manager with job assignment id manager match second,,,,,manager5,manager5jaid2,
+id26,username26,"PSC 0312, Box 5023
+APO AP 39498",first26,last26,x,0,0,jaid1,multiple import ,,,,,,,
+id26,username26,"6708 Carpenter Overpass Suite 735
+Bobbyton, MI 01008",first26,last26,x,0,0,jaid2,multiple import ,,,,,,,
+id27,username27,"16396 Shawn Junction
+New Nicolemouth, ND 60236",first27,last27,x,0,0,jaidy,match second jaid,1460692800.0,1463284800.0,org1,pos1,manager3,manager3jaid1,appraiser1id

@@ -1,0 +1,31 @@
+col0,col1,col2,col3,col4,col5,col6
+1,record,Wrapper element representing the linkage between a publication and supplementary products.,,,,
+1.1,identifier,Persistent ID assigned to this metajelo record (ID types attribute: DataCite) ,,,,
+1.2,date,Date of original creation of this record,,,,
+1.3,lastModified,Date of most recent modification of this record,,,,
+1.4,relatedIdentifier,"Identifiers (links) to the object (article) with which the supplementary products are associated (ID types attribute: DataCite)  This could be a link to the object itself or to metadata.  Note presence of attribute indicating relationship type, controlled vocabular of datacite:relationTypes .",repeatable,,DataCite,
+1.5,supplementaryProducts,Wrapper element packaging set of supplementary products,,,,
+,,,,,,
+1.5.1,supplementaryProduct,Wrapper element around the metadata for an individual supplementary product.,repeatable,,,
+1.5.1.1 ,resourceID,Persistent ID  of supplementary product  (ID types attribute: DataCite) ,Optional (some products will not have PID),,,where to put non-persistent ID (URL + date)?
+1.5.1.2,basicMetadata,"Bibliographic metadata (Creator, Title, PublicationYear [DataCite]). Note that Publisher is drawn from institutionName.",Required,,DataCite,Copy from DataCite
+1.5.1.3,resourceType,Description of supplementary product,,,DataCite,
+1.5.1.3.1,resourceTypeGeneral,General type of the supplementary product. ,Controlled vocabulary ,,DataCite,
+1.5.1.4,Format,"Technical format of the product (e.g., stata, csv, zip, gzip). Use file extension or MIME type if possible.","optional, repeatable",,DataCite,
+1.5.1.5,resourceMetadataSource,"Handle referencing metadata describing this supplementary product (e.g., in DataCite) (ID types attribute: DataCite) ",optional,,,
+1.5.1.6,location,Wrapper element for metadata describing location of supplementary product,,,,
+1.5.1.6.1,institutionID,"Persistent ID assigned to the institution holding this object  (ID types attribute: DataCite). This should be the same as in re3data, CoreTrustSeal, etc.","optional, repeatable",,re3data,"Should this be repeatable? If we have a re3data, a FunderRef, and an OpenAIRE ID?"
+1.5.1.6.2,institutionName,Free text name of location. Maps to datacite:Publisher and re3data:repositoryName or re3data:institutionName. Used for bibliographic citation.,,,"re3data, DataCite",This should be consistent with re3data schema
+1.5.1.6.3,institutionType,Organization type of the location.,"Controlled vocabulary based on re3data, possibly expanded",,re3data,This should be consistent with re3data schema
+1.5.1.6.4,superOrganizationName,Broader organization  context of the location,Optional,,,
+1.5.1.6.5,institutionContact,Email address or online contact form of contact party,Suggested,,re3data,
+1.5.1.6.6,institutionSustainability,Wrapper element for assertions concerning institution sustainability,,,,
+1.5.1.6.6.1,missionStatementURL,Link to institution mission statement,Optional,,re3data,
+1.5.1.6.6.2,fundingStatementURL,Link to documentation of institution funding,Optional,,,
+1.5.1.6.7,institutionPolicies,"Wrapper element for set of policies at institution regarding access, archiving, etc)",,,,
+1.5.1.6.7.1,institutionPolicy,A policy of the institution.,Repeatable.  ,,re3data,
+,,"Attribute re3data:policyType specifies the nature of the policy (access, collection, etc.). We also include License here.",At least one of Preservation policy and (Terms of Use or License) are required.,,,
+,,Attribute appliesToProduct is true for policies that apply to this product. ,,,,
+1.5.1.6.7.1.1,institutionPolicyFreeText,A free text explanation of the policy. This may be scraped from the URI if not a PID.,Choice,,,
+1.5.1.6.7.1.2,institutionPolicyURL,URI of policy. Attribute re3data:policyURL points to an online copy of the policy. (ID types attribute: DataCite) ,Suggested,,re3data,This should be consistent with re3data schema
+1.5.1.6.7.2,versioning,Does the location support versioning of content,"Allowed values: yes, no, unknown",,re3data,This should be consistent with re3data schema

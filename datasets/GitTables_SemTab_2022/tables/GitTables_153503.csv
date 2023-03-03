@@ -1,0 +1,58 @@
+col0,col1,col2
+p_rivalScoreView1,"Select A.ver,A.init,A.title,A.play,A.deg,A.lev 
+,X.score as score_0,X.rank as rank_0, X.combo as combo_0,X.skill as skill_0 
+,X1.score as score_1,X.score-X1.score as diff_1,X1.rank as rank_1, X1.combo as combo_1,X1.skill as skill_1 
+ FROM (MusicLevel0 A 
+left join ScoreView0 X On A.ID=X.ID and A.classID=X.classID) 
+left join (select * from rivalScoreView0 where rivalID=[@rival_1]) X1 on A.ID=X1.ID and A.classID=X1.classID",[@rival_1] long
+p_rivalScoreView2,"Select A.ver,A.init,A.title,A.play,A.deg,A.lev 
+,X.score as score_0,X.rank as rank_0, X.combo as combo_0,X.skill as skill_0 
+,X1.score as score_1,X.score-X1.score as diff_1,X1.rank as rank_1, X1.combo as combo_1,X1.skill as skill_1 
+,X2.score as score_2,X.score-X2.score as diff_2,X2.rank as rank_2, X2.combo as combo_2,X2.skill as skill_2 
+ FROM ((MusicLevel0 A 
+left join ScoreView0 X On A.ID=X.ID and A.classID=X.classID) 
+left join (select * from rivalScoreView0 where rivalID=[@rival_1]) X1 on A.ID=X1.ID and A.classID=X1.classID) 
+left join (select * from rivalScoreView0 where rivalID=[@rival_2]) X2 on A.ID=X2.ID and A.classID=X2.classID","[@rival_1] long
+,[@rival_2] long"
+p_rivalScoreView3,"Select A.ver,A.init,A.title,A.play,A.deg,A.lev 
+,X.score as score_0,X.rank as rank_0, X.combo as combo_0,X.skill as skill_0 
+,X1.score as score_1,X.score-X1.score as diff_1,X1.rank as rank_1, X1.combo as combo_1,X1.skill as skill_1 
+,X2.score as score_2,X.score-X2.score as diff_2,X2.rank as rank_2, X2.combo as combo_2,X2.skill as skill_2 
+,X3.score as score_3,X.score-X3.score as diff_3,X3.rank as rank_3, X3.combo as combo_3,X3.skill as skill_3 
+ FROM (((MusicLevel0 A 
+left join ScoreView0 X On A.ID=X.ID and A.classID=X.classID) 
+left join (select * from rivalScoreView0 where rivalID=[@rival_1]) X1 on A.ID=X1.ID and A.classID=X1.classID) 
+left join (select * from rivalScoreView0 where rivalID=[@rival_2]) X2 on A.ID=X2.ID and A.classID=X2.classID) 
+left join (select * from rivalScoreView0 where rivalID=[@rival_3]) X3 on A.ID=X3.ID and A.classID=X3.classID","[@rival_1] long
+,[@rival_2] long
+,[@rival_3] long "
+p_rivalScoreView4,"Select A.ver,A.init,A.title,A.play,A.deg,A.lev 
+,X.score as score_0,X.rank as rank_0, X.combo as combo_0,X.skill as skill_0 
+,X1.score as score_1,X.score-X1.score as diff_1,X1.rank as rank_1, X1.combo as combo_1,X1.skill as skill_1 
+,X2.score as score_2,X.score-X2.score as diff_2,X2.rank as rank_2, X2.combo as combo_2,X2.skill as skill_2 
+,X3.score as score_3,X.score-X3.score as diff_3,X3.rank as rank_3, X3.combo as combo_3,X3.skill as skill_3 
+,X4.score as score_4,X.score-X4.score as diff_4,X4.rank as rank_4, X4.combo as combo_4,X4.skill as skill_4 
+ FROM ((((MusicLevel0 A 
+left join ScoreView0 X On A.ID=X.ID and A.classID=X.classID) 
+left join (select * from rivalScoreView0 where rivalID=[@rival_1]) X1 on A.ID=X1.ID and A.classID=X1.classID) 
+left join (select * from rivalScoreView0 where rivalID=[@rival_2]) X2 on A.ID=X2.ID and A.classID=X2.classID) 
+left join (select * from rivalScoreView0 where rivalID=[@rival_3]) X3 on A.ID=X3.ID and A.classID=X3.classID) 
+left join (select * from rivalScoreView0 where rivalID=[@rival_4]) X4 on A.ID=X4.ID and A.classID=X4.classID","[@rival_1] long
+,[@rival_2] long
+,[@rival_3] long 
+,[@rival_4] long"
+p_rivalScoreView0,"Select A.ver,A.init,A.title,A.play,A.deg,A.lev 
+,X.score as score_0,R.rank as rank_0, C.combo as combo_0,X.skill as skill_0 
+,X1.rivalID as rival_1,X1.score as score_1,R1.rank as rank_1, C1.combo as combo_1,X1.skill as skill_1 
+ FROM (((((MusicLevel0 A 
+left join ScoreTbl X On A.ID=X.ID and A.classID=X.classID) 
+left join (select * from rivalScoreTbl where rivalID=?) X1 on A.ID=X1.ID and A.classID=X1.classID) 
+left Join rankTbl R On X.rankID=R.rankID ) 
+left Join comboTbl C On X.comboID=C.comboID) 
+left join rankTbl R1 on X1.rankID=R1.rankID) 
+left join comboTbl C1 on X1.comboID=C1.comboID",
+horizontalData1,"transform 
+max(data) 
+select num from score0 
+group by num 
+pivot classID",

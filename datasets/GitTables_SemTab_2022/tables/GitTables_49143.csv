@@ -1,0 +1,68 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9
+1,11 ,ASU,3/14,11 ,SYR,9:10,First Four,"Dayton, OH",0
+2,11 ,SBON,3/13,11 ,UCLA,9:10,First Four,"Dayton, OH",0
+3,16 ,NCCU,3/14,16 ,TXSO,6:40,First Four,"Dayton, OH",0
+4,16 ,LIU,3/13,16 ,RAD,6:40,First Four,"Dayton, OH",0
+5,1 ,UVA,3/16,16 ,UMBC,9:20,SOUTH,"Charlotte, NC",1
+6,8 ,CREI,3/16,9 ,KSU,6:50,SOUTH,"Charlotte, NC",1
+7,5 ,UK,3/15,12 ,DAV,7:10,SOUTH,"Boise, ID",1
+8,4 ,ARIZ,3/15,13 ,BUFF,9:40,SOUTH,"Boise, ID",1
+9,6 ,MIA,3/15,11 ,L-IL,3:10,SOUTH,"Dallas, TX",1
+10,3 ,TENN,3/15,14 ,WRST,12:40,SOUTH,"Dallas, TX",1
+11,7 ,NEV,3/16,10 ,TEX,4:30,SOUTH,"Nashville, TN",1
+12,2 ,CIN,3/16,15 ,GAST,2:00,SOUTH,"Nashville, TN",1
+13,?,?,?,?,?,?,SOUTH,"Charlotte, NC",2
+14,?,?,?,?,?,?,SOUTH,"Boise, ID",2
+15,?,?,?,?,?,?,SOUTH,"Dallas, TX",2
+16,?,?,?,?,?,?,SOUTH,"Nashville, TN",2
+17,?,?,?,?,?,?,SOUTH,"Atlanta, GA",3
+18,?,?,?,?,?,?,SOUTH,"Atlanta, GA",3
+19,?,?,?,?,?,?,SOUTH,"Atlanta, GA",4
+20,1 ,XAV, / ,16 ,NCCU,TXSO,WEST,"Nashville, TN",1
+21,8 ,MIZ,3/16,9 ,FSU,9:50,WEST,"Nashville, TN",1
+22,5 ,OSU,3/15,12 ,SDST,4:00,WEST,"Boise, ID",1
+23,4 ,GONZ,3/15,13 ,UNCG,1:30,WEST,"Boise, ID",1
+24,6 ,HOU,3/15,11 ,SDSU,7:20,WEST,"Wichita, KS",1
+25,3 ,MICH,3/15,14 ,MONT,9:50,WEST,"Wichita, KS",1
+26,7 ,TAMU,3/16,10 ,PROV,12:15,WEST,"Charlotte, NC",1
+27,2 ,UNC,3/16,15 ,LIP,2:45,WEST,"Charlotte, NC",1
+28,?,?,?,?,?,?,WEST,"Nashville, TN",2
+29,?,?,?,?,?,?,WEST,"Boise, ID",2
+30,?,?,?,?,?,?,WEST,"Wichita, KS",2
+31,?,?,?,?,?,?,WEST,"Charlotte, NC",2
+32,?,?,?,?,?,?,WEST,"Los Angeles, CA",3
+33,?,?,?,?,?,?,WEST,"Los Angeles, CA",3
+34,?,?,?,?,?,?,WEST,"Los Angeles, CA",4
+35,1 ,VILL, / ,16 ,LIU,RAD,EAST,"Pittsburgh, PA",1
+36,8 ,VT,3/15,9 ,ALA,9:20,EAST,"Pittsburgh, PA",1
+37,5 ,WVU,3/16,12 ,MURR,4:00,EAST,"San Diego, CA",1
+38,4 ,WICH,3/16,13 ,MRSH,1:30,EAST,"San Diego, CA",1
+39,6 ,FLA, / ,11 ,SBON,UCLA,EAST,"Dallas, TX",1
+40,3 ,TTU,3/15,14 ,SFA,7:27,EAST,"Dallas, TX",1
+41,7 ,ARK,3/16,10 ,BUT,3:10,EAST,"Detroit, MI",1
+42,2 ,PUR,3/16,15 ,CSF,12:40,EAST,"Detroit, MI",1
+43,?,?,?,?,?,?,EAST,"Pittsburgh, PA",2
+44,?,?,?,?,?,?,EAST,"San Diego, CA",2
+45,?,?,?,?,?,?,EAST,"Dallas, TX",2
+46,?,?,?,?,?,?,EAST,"Detroit, MI",2
+47,?,?,?,?,?,?,EAST,"Boston, MA",3
+48,?,?,?,?,?,?,EAST,"Boston, MA",3
+49,?,?,?,?,?,?,EAST,"Boston, MA",4
+50,1 ,KU,3/15,16 ,PENN,2:00,MIDWEST,"Wichita, KS",1
+51,8 ,HALL,3/15,9 ,NCST,4:30,MIDWEST,"Wichita, KS",1
+52,5 ,CLEM,3/16,12 ,NMSU,9:57,MIDWEST,"San Diego, CA",1
+53,4 ,AUB,3/16,13 ,COFC,7:27,MIDWEST,"San Diego, CA",1
+54,6 ,TCU, / ,11 ,ASU,SYR,MIDWEST,"Detroit, MI",1
+55,3 ,MSU,3/16,14 ,BUCK,7:10,MIDWEST,"Detroit, MI",1
+56,7 ,URI,3/15,10 ,OKLA,12:15,MIDWEST,"Pittsburgh, PA",1
+57,2 ,DUKE,3/15,15 ,IONA,2:45,MIDWEST,"Pittsburgh, PA",1
+58,?,?,?,?,?,?,MIDWEST,"Wichita, KS",2
+59,?,?,?,?,?,?,MIDWEST,"San Diego, CA",2
+60,?,?,?,?,?,?,MIDWEST,"Detroit, MI",2
+61,?,?,?,?,?,?,MIDWEST,"Pittsburgh, PA",2
+62,?,?,?,?,?,?,MIDWEST,"Omaha, NE",3
+63,?,?,?,?,?,?,MIDWEST,"Omaha, NE",3
+64,?,?,?,?,?,?,MIDWEST,"Omaha, NE",4
+65,?,?,?,?,?,?,Final Four,"San Antonio, TX",5
+66,?,?,?,?,?,?,Final Four,"San Antonio, TX",5
+67,?,?,?,?,?,?,Championship,"San Antonio, TX",6

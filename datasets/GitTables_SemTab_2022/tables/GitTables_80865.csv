@@ -1,0 +1,25 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18
+6,Gentle reminder 1,False,,,,5,,,True,False,Email,0.0,,1,Key Customer User,0,17,0
+10,Gentle reminder 2,False,,,,10,,,True,False,Email,0.0,,1,Key Customer User,0,17,0
+15,Standard Reminder 1,False,,,,15,,,True,False,Email,0.0,,1,All Customer Users,0,18,0
+17,Standard Fax Reminder 1,False,,,,17,,,True,False,Fax,0.0,,1,All Customer Users,0,18,0
+20,Standard Reminder 2,False,,,,20,,,True,False,Email,0.0,,1,All Customer Users,0,18,0
+25,Standard Fax Reminder 2,False,,,,25,,,True,False,Fax,0.0,,1,All Customer Users,0,18,0
+30,Serious Reminder 1,False,,,,30,,,True,True,Email,0.0,,1,All Customer Users,0,19,0
+35,Personal phone call reminder,False,,,,35,,,True,False,Email,0.0,,1,My Key User,0,21,0
+40,Personal phone call reminder 2,False,,,,40,,,True,False,Email,0.0,,1,All My Users,0,21,0
+45,Serious Reminder 2,False,,,,45,,,True,True,Email and Fax,0.0,,1,All Customer Users,0,20,0
+60,Final Demand Letter,False,,,,60,,,True,True,Letter,0.0,,1,All Customer Users,0,21,0
+61,Place for collections,False,,,,60,,,True,True,Letter,0.0,,1,All Customer Users,0,21,0
+80,Gentle reminder 1,False,2.0,,,5,,,True,False,Email,0.0,,1,Key Customer User,0,1077,0
+81,Gentle reminder 2,False,2.0,,,10,,,True,False,Email,0.0,,1,Key Customer User,0,1070,0
+82,Standard Reminder 1,False,2.0,,,15,,,True,False,Email,0.0,,1,All Customer Users,0,1060,0
+83,Standard Fax Reminder 1,False,2.0,,,17,,,True,False,Fax,0.0,,1,All Customer Users,0,1060,0
+84,Standard Reminder 2,False,2.0,,,20,,,True,False,Email,0.0,,1,All Customer Users,0,1060,0
+85,Standard Fax Reminder 2,False,2.0,,,25,,,True,False,Fax,0.0,,1,All Customer Users,0,1060,0
+86,Serious Reminder 1,False,2.0,,,30,,,True,True,Email,0.0,,1,All Customer Users,0,1030,0
+87,Personal phone call reminder,False,2.0,,,35,,,True,False,Email,0.0,,1,My Key User,0,1050,0
+88,Personal phone call reminder 2,False,2.0,,,40,,,True,False,Email,0.0,,1,All My Users,0,1050,0
+89,Serious Reminder 2,False,2.0,,,45,,,True,True,Email and Fax,0.0,,1,All Customer Users,0,1040,0
+90,Final Demand Letter,False,2.0,,,60,,,True,True,Letter,0.0,,1,All Customer Users,0,1050,0
+91,Place for collections,False,2.0,,,60,,,True,True,Letter,0.0,,1,All Customer Users,0,1050,0

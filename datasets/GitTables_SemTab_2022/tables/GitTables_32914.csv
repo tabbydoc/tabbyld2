@@ -1,0 +1,29 @@
+col0,col1,col2,col3,col4,col5
+MSP430 LaunchPad (MSP-EXP430G2),2,10,http://www.ti.com/tool/msp-exp430g2,,ok
+SainSmart 4WD Drive Aluminum Mobile Car (Silver)Robot Platform,1,48,http://www.ebay.com/itm/SainSmart-4WD-Drive-Aluminum-Mobile-Car-Silver-Robot-Platform-for-Arduino-Motor-/280934561862?pt=LH_DefaultDomain_0&hash=item4169013846,,ok
+L298N Stepper Motor Drive Controller Board Dual H Bridge Module,5,4,http://www.ebay.com/itm/5pcs-L298N-Stepper-Motor-Drive-Controller-Board-Dual-H-Bridge-Module-for-Arduino/370795547137?_trksid=p5713.m2061&_trkparms=aid%3D333005%26algo%3DRIC.FIT%26ao%3D1%26asc%3D25%26meid%3D517706951877703030%26pid%3D100041%26prg%3D1010%26rk%3D1%26rkt%3D9%26sd%3D280934561862%26,2 motors on 1 line,ok
+CC2500 2.4Ghz RF Transreceiver Module,2,5,http://www.canton-electronics.com/1836v-cc2500-ic-wireless-rf-transceiver-24g-2400mhz-module-ism-spi-demo-code-p-284.html,Canton TB015,ok
+DualShock2 joystick (from PlayStation2),1,12,,,ok
+"NRF24L01 (2.4 GHz Transceiver, cheap)",10,1.2,http://www.ebay.com/itm/10Pcs-NRF24L01-2-4GHz-Antenna-Wireless-Transceiver-For-Microcontroller-EP98-New-/111146954656?pt=LH_DefaultDomain_0&hash=item19e0dfefa0,,on the way
+RC Model SG5010 High Speed & Torque Hobby Coreless Servo ,4,4.5,http://www.ebay.com/itm/4-x-RC-Model-SG5010-High-Speed-Torque-Hobby-Coreless-Servo-/271127440737?pt=UK_ToysGames_RadioControlled_JN&hash=item3f20746d61,,on the way
+"accumulators: NiMH, 9V, 2600mAh",6,???,http://www.authorstream.com/Presentation/pradelou-637078-robie-arduino-platforme-4wd/,,ok
+Charger for NiMH accumulators,1,???,,,ok
+,,,,,
+Servo-platform (rotate),2,,,,to order
+Ultra-sonic sensor (HC-SR04),1,2,http://www.ebay.com/itm/New-Arduino-Ultrasonic-Module-HC-SR04-Distance-Sensor-Measuring-Transducer-M9-/221250415696?pt=LH_DefaultDomain_0&hash=item33838d6c50,,to order
+Robo-hand (manipulator),1,,,,to order
+ZGRM12FT20-298 (dc-motor+reductor),4,,,,to order
+encoders,2,7,http://www.ebay.com/itm/Photoelectric-Speed-Sensor-Encoder-Coded-Disc-for-Freescale-Smart-car-/121147926866?pt=LH_DefaultDomain_0&hash=item1c34faa952,,to order
+,,,,,
+M3x6 screws,40,???,,,ok
+M3 nuts,40,???,,,ok
+M3x8 standoffs,20,???,,,ok
+M3x5 standoffs,20,???,,,ok
+"DB9F sockets (female, for cable)",4,???,http://en.wikipedia.org/wiki/D-subminiature,,ok
+"DB9M sockets (male, for PCB, i.e. right angle)",3,???,http://en.wikipedia.org/wiki/D-subminiature,,ok
+DB9 plastic case,4,???,,,ok
+Pin header straight (male) 2.54 1x50,4,???,http://en.wikipedia.org/wiki/Pin_header,,ok
+"Multicore cable (screened, 8 cores)",7 meters,???,http://www.kenable.co.uk/product_info.php?products_id=4620,,ok
+,,,,,
+// MSP430 MOTOR CONTROL BOARD,1,25,http://www.launchpadbling.com/cgi-bin/viewstore.cgi?prod_type=KITS,,not needed
+// CC2500 BoosterPack,2,5,http://store.43oh.com/index.php?route=product/product&path=64&product_id=74,,not needed

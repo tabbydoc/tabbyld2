@@ -1,0 +1,37 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17,col18
+43392,NC_000913,"4,296,286",SNP,C→T,"gltP, yjcO",,glutamate/aspartate:proton symporter/Sel1 family TPR-like repeat protein,,,intergenic (+492/+150),,,0.29,,,,,
+58726,NC_000913,"4,184,557",SNP,T→C,rpoB,,"RNA polymerase, beta subunit",,,S1105P (TCT→CCT),,,1.0,1.0,,,,
+43395,NC_000913,"4,296,380",INS,+CG,"gltP, yjcO",,glutamate/aspartate:proton symporter/Sel1 family TPR-like repeat protein,,,intergenic (+586/+56),,,1.0,,,,1.0,
+43393,NC_000913,"4,296,303",SNP,A→G,"gltP, yjcO",,glutamate/aspartate:proton symporter/Sel1 family TPR-like repeat protein,,,intergenic (+509/+133),,,0.22,,,,,
+80486,NC_000913,"3,546,127",SNP,G→A,nfuA,,"Fe/S biogenesis protein, putative scaffold/chaperone protein",,,L168L (CTG→CTA),,,0.29,,,,,
+26191,NC_000913,"1,299,499",DEL,"Δ1,199 bp","ychE, oppA",,UPF0056 family inner membrane protein/oligopeptide ABC transporter periplasmic binding protein,,,intergenic (+254/‑485),1.0,,,1.0,,,1.0,
+43352,NC_000913,"1,529,185",SNP,C→T,rhsE,,"pseudogene, Rhs family",,,pseudogene (1284/2037 nt),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+43350,NC_000913,"1,529,175",SNP,T→C,rhsE,,"pseudogene, Rhs family",,,pseudogene (1274/2037 nt),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+43351,NC_000913,"1,529,180",SNP,T→C,rhsE,,"pseudogene, Rhs family",,,pseudogene (1279/2037 nt),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+83992,NC_000913,"77,405",SNP,G→T,sgrS|sgrT,,"sRNA antisense regulator destabilzes ptsG mRNA, Hfq-dependent; regulated by sgrR|inhibitor of glucose uptake",,,noncoding (39/227 nt)Q6H (CAG→CAT),1.0,1.0,1.0,1.0,,,,
+43353,NC_000913,"1,529,203",SNP,C→A,rhsE,,"pseudogene, Rhs family",,,pseudogene (1302/2037 nt),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+43354,NC_000913,"1,529,218",SNP,C→T,rhsE,,"pseudogene, Rhs family",,,pseudogene (1317/2037 nt),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+80475,NC_000913,"2,760,805",MOB,IS2 (+) +5 bp,yfjJ,,CP4-57 prophage; uncharacterized protein,,,coding (259‑263/627 nt),1.0,1.0,1.0,1.0,,,,
+80348,NC_000913,"4,070,817",SNP,C→A,yihS,,sulphoquinovose isomerase,,,V314L (GTA→TTA),,1.0,1.0,1.0,,1.0,1.0,1.0
+83866,NC_000913,"1,978,503",DEL,Δ776 bp,"insB1,insA",,"insB1,insA",,,,1.0,1.0,1.0,1.0,,,1.0,
+80485,NC_000913,"3,546,088",SNP,C→G,nfuA,,"Fe/S biogenesis protein, putative scaffold/chaperone protein",,,V155V (GTC→GTG),,,0.31,,,,,
+80346,NC_000913,"1,531,253",MOB,IS5 (–) +4 bp,yncI,,pseudogene,,,pseudogene (668‑671/738 nt),,,,,,1.0,,
+80481,NC_000913,"3,545,860",SNP,T→C,nfuA,,"Fe/S biogenesis protein, putative scaffold/chaperone protein",,,D79D (GAT→GAC),,,0.24,,,,,
+80482,NC_000913,"3,545,884",SNP,C→T,nfuA,,"Fe/S biogenesis protein, putative scaffold/chaperone protein",,,S87S (TCC→TCT),,,0.27,,,,,
+80483,NC_000913,"3,545,902",SNP,C→G,nfuA,,"Fe/S biogenesis protein, putative scaffold/chaperone protein",,,A93A (GCC→GCG),,,0.27,,,,,
+80484,NC_000913,"3,545,905",SNP,G→T,nfuA,,"Fe/S biogenesis protein, putative scaffold/chaperone protein",,,P94P (CCG→CCT),,,0.28,,,,,
+80549,NC_000913,"4,075,154",DEL,Δ2 bp,yihW,,putative transcriptional regulator for sulphoquinovose utilization,,,coding (486‑487/786 nt),1.0,1.0,1.0,1.0,,,,
+80550,NC_000913,"4,283,323",INS,+AC,actP,,acetate transporter,,,coding (1580/1650 nt),1.0,1.0,,1.0,,,,
+80490,NC_000913,"4,070,814",SNP,G→T,yihS,,sulphoquinovose isomerase,,,R315S (CGT→AGT),1.0,1.0,1.0,1.0,,,,
+80492,NC_000913,"4,283,320",INS,+CA,actP,,acetate transporter,,,coding (1583/1650 nt),,,1.0,,,,,
+80349,NC_000913,"4,075,135",SNP,T→G,yihW,,putative transcriptional regulator for sulphoquinovose utilization,,,I156S (ATC→AGC),,,,,1.0,1.0,1.0,1.0
+83890,NC_000913,"3,815,859",DEL,Δ82 bp,"[rph],[rph]",,"[rph],[rph]",,,,,,1.0,1.0,,,,
+37939,NC_000913,"2,173,363",DEL,Δ2 bp,"gatC, gatC",,"pseudogene, galactitol-specific enzyme IIC component of PTS;transport; Transport of small molecules: Carbohydrates, organic acids, alcohols; PTS system galactitol-specific enzyme IIC/pseudogene, galactitol-specific enzyme IIC component of PTS;transport; Transport of small molecules: Carbohydrates, organic acids, alcohols; PTS system galactitol-specific enzyme IIC",,,intergenic (‑1/+1),1.0,1.0,,1.0,1.0,1.0,,1.0
+43390,NC_000913,"4,296,191",SNP,A→C,"gltP, yjcO",,glutamate/aspartate:proton symporter/Sel1 family TPR-like repeat protein,,,intergenic (+397/+245),,,,,,,0.25,
+26102,NC_000913,"257,908",DEL,Δ776 bp,[crl],,[crl],,,,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+43389,NC_000913,"4,296,190",SNP,A→G,"gltP, yjcO",,glutamate/aspartate:proton symporter/Sel1 family TPR-like repeat protein,,,intergenic (+396/+246),,,,,,,0.24,
+37945,NC_000913,"3,560,455",INS,+G,"glpR, glpR",,"pseudogene, DNA-binding transcriptional repressor;regulator; Energy metabolism, carbon: Anaerobic respiration; repressor of the glp operon/pseudogene, DNA-binding transcriptional repressor;regulator; Energy metabolism, carbon: Anaerobic respiration; repressor of the glp operon",,,intergenic (‑2/+1),1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+37947,NC_000913,"4,296,381",INS,+GC,"gltP, yjcO",,glutamate/aspartate:proton symporter/Sel1 family TPR-like repeat protein,,,intergenic (+587/+55),1.0,1.0,,1.0,1.0,1.0,,1.0
+80317,NC_000913,"2,173,361",DEL,Δ2 bp,gatC,,"pseudogene, galactitol-specific enzyme IIC component of PTS;transport; Transport of small molecules: Carbohydrates, organic acids, alcohols; PTS system galactitol-specific enzyme IIC",,,pseudogene (1‑2/442 nt),,,1.0,,,,1.0,
+80347,NC_000913,"4,070,814",SNP,G→A,yihS,,sulphoquinovose isomerase,,,R315C (CGT→TGT),,,,,1.0,1.0,1.0,1.0
+43391,NC_000913,"4,296,268",SNP,T→C,"gltP, yjcO",,glutamate/aspartate:proton symporter/Sel1 family TPR-like repeat protein,,,intergenic (+474/+168),,,0.33,,,,0.24,

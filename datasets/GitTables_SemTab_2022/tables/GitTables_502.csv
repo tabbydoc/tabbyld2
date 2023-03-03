@@ -1,0 +1,43 @@
+col0,col1,col2,col3,col4,col5,col6,col7,col8,col9,col10,col11,col12,col13,col14,col15,col16,col17
+Survey,Parenting,,,"Can we ask you a few questions? If you do not want to answer any questions, it is completely okay. Remember, everything you say will be completely private.",Yes,No,,,,,,,,,PLH - Survey - Parenting,29671a10-0063-46c1-98c1-598dca9ba717,3915ca20-34e7-4a26-bdde-b35593b6494b
+Survey,Parenting,,,"Sorry, I don't understand what you mean. ",,,,,,,,,,,PLH - Survey - Parenting,29671a10-0063-46c1-98c1-598dca9ba717,c74f0d65-4457-4306-aca1-172acc2c32ed
+Survey,Parenting,,,Thank you!,,,,,,,,,,,PLH - Survey - Parenting,29671a10-0063-46c1-98c1-598dca9ba717,95780a1d-08b4-41c5-93af-5ebd285fd6bb
+Survey,Parenting,,,Thanks so much for answering these questions! We really appreciate it.,,,,,,,,,,,PLH - Survey - Parenting,29671a10-0063-46c1-98c1-598dca9ba717,f35f36dc-ca8d-41b2-99ee-bf4f5bdf6eba
+Survey,Parenting,,,It is okay if this is not a good time. Chat later!,,,,,,,,,,,PLH - Survey - Parenting,29671a10-0063-46c1-98c1-598dca9ba717,e04c343d-7de0-42a3-aa21-213a8ad68820
+Survey,Parenting,,,It is okay if this is not a good time. We will try again tomorrow. Chat later!,,,,,,,,,,,PLH - Survey - Parenting,29671a10-0063-46c1-98c1-598dca9ba717,5cee0780-e8e7-45b5-8857-b98e9deffbfa
+Survey,Parenting,,,It looks like you are busy right now. Please type “GoBack” to receive the most recent messages again.,,,,,,,,,,,PLH - Survey - Parenting,29671a10-0063-46c1-98c1-598dca9ba717,a2447fe3-09a1-4794-8ac0-90800de5861f
+Survey,Parenting,Questions,,"It is hard to find time to have fun with your children. How many days in the past week did you do something fun together? (0, 1, 2, 3, 4, 5, 6, 7)
+
+If you don't want to answer, please type 99.",,,,,,,,,,,PLH - Survey - Parenting - Questions,49128c83-e6d0-4ddf-8ce5-878ebd3184ae,62ba1321-b5e5-4c59-a7b0-3a9f36674eb8
+Survey,Parenting,Questions,,"Sorry, I don't understand what you mean. Please reply with a number between 0 and 7.
+If you don't want to answer, please type 99.",,,,,,,,,,,PLH - Survey - Parenting - Questions,49128c83-e6d0-4ddf-8ce5-878ebd3184ae,7a67c71f-de74-46d4-a52b-10980f9113a2
+Survey,Parenting,Questions,,"Focusing on the positive will help you see that behaviour more. How many days in the past week have you praised your child? (0, 1, 2, 3, 4, 5, 6, 7)
+
+If you don't want to answer, please type 99.",,,,,,,,,,,PLH - Survey - Parenting - Questions,49128c83-e6d0-4ddf-8ce5-878ebd3184ae,7d24413b-17b0-4d64-bc8c-412558794e10
+Survey,Parenting,Questions,,"Sorry, I don't understand what you mean. Please reply with a number between 0 and 7.
+If you don't want to answer, please type 99.",,,,,,,,,,,PLH - Survey - Parenting - Questions,49128c83-e6d0-4ddf-8ce5-878ebd3184ae,d0e348f4-28ed-4e23-a623-f0432c916f6c
+Survey,Parenting,Questions,,"This is a very stressful time for families. How many days in the past week did you feel very stressed as a parent/caregiver? (0, 1, 2, 3, 4, 5, 6, 7)
+
+If you don't want to answer, please type 99.",,,,,,,,,,,PLH - Survey - Parenting - Questions,49128c83-e6d0-4ddf-8ce5-878ebd3184ae,0a3c91cb-3898-4035-8693-12a6644eec97
+Survey,Parenting,Questions,,"Sorry, I don't understand what you mean. Please reply with a number between 0 and 7.
+If you don't want to answer, please type 99.",,,,,,,,,,,PLH - Survey - Parenting - Questions,49128c83-e6d0-4ddf-8ce5-878ebd3184ae,353dc732-de2d-4b12-ad22-7f6d0231bccc
+Survey,Parenting,Questions,,"It is so stressful when children misbehave. How many days in the past week did you physically discipline your children by hitting, spanking, or slapping with your hand or an object like a stick or a belt? (0, 1, 2, 3, 4, 5, 6, 7)
+
+If you don't want to answer, please type 99.",,,,,,,,,,,PLH - Survey - Parenting - Questions,49128c83-e6d0-4ddf-8ce5-878ebd3184ae,aeb31ab2-29d8-46cb-8b00-52037074f467
+Survey,Parenting,Questions,,"Sorry, I don't understand what you mean. Please reply with a number between 0 and 7.
+If you don't want to answer, please type 99.",,,,,,,,,,,PLH - Survey - Parenting - Questions,49128c83-e6d0-4ddf-8ce5-878ebd3184ae,6905871c-7e57-4a42-a94b-e2e6af621109
+Survey,Parenting,Questions,,"Sometimes our children make us really upset. How many days in the past week did you shout, scream, or yell at your children? (0, 1, 2, 3, 4, 5, 6, 7)
+
+If you don't want to answer, please type 99.",,,,,,,,,,,PLH - Survey - Parenting - Questions,49128c83-e6d0-4ddf-8ce5-878ebd3184ae,d10a22d2-839c-425e-abf4-0fd9953b6b6d
+Survey,Parenting,Questions,,"Sorry, I don't understand what you mean. Please reply with a number between 0 and 7.
+If you don't want to answer, please type 99.",,,,,,,,,,,PLH - Survey - Parenting - Questions,49128c83-e6d0-4ddf-8ce5-878ebd3184ae,a91aa3b8-cf5c-4949-b1e1-a78b1ad71e92
+Survey,Parenting,Questions,,"It can sometimes be difficult to have a positive relationship with our children. How confident do you feel about your ability as a parent/caregiver to have a positive relationship with your children? (0=not confident to 7=extremely confident)
+
+If you don't want to answer, please type 99.",,,,,,,,,,,PLH - Survey - Parenting - Questions,49128c83-e6d0-4ddf-8ce5-878ebd3184ae,cae26546-7999-4786-938c-1353e61a65f7
+Survey,Parenting,Questions,,"Sorry, I don't understand what you mean. Please reply with a number between 0 and 7.
+If you don't want to answer, please type 99.",,,,,,,,,,,PLH - Survey - Parenting - Questions,49128c83-e6d0-4ddf-8ce5-878ebd3184ae,3b30cccf-f427-4fd2-afd6-757964439b88
+Survey,Parenting,Questions,,"We all want to keep our children safe. How confident do you feel you are to protect your child from sexual abuse online or in-person? (0=not confident to 7=extremely confident)
+
+If you don't want to answer, please type 99.",,,,,,,,,,,PLH - Survey - Parenting - Questions,49128c83-e6d0-4ddf-8ce5-878ebd3184ae,326e3d5a-b81a-45ec-bc6f-ea53ce474db8
+Survey,Parenting,Questions,,"Sorry, I don't understand what you mean. Please reply with a number between 0 and 7.
+If you don't want to answer, please type 99.",,,,,,,,,,,PLH - Survey - Parenting - Questions,49128c83-e6d0-4ddf-8ce5-878ebd3184ae,b9915f74-a1ba-4074-8319-9e99eed91628
