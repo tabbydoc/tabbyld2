@@ -127,8 +127,7 @@ class TableEvaluation:
         for i in range(len(checked_data.get(0))):
             if checked_data.get(0)[i] == self.table.table_name:
                 for j in range(len(self.table.columns)):
-                    if j == int(checked_data.get(1)[i]) and (self.table.columns[j].column_type == ColumnType.SUBJECT_COLUMN or
-                                                             self.table.columns[j].column_type == ColumnType.CATEGORICAL_COLUMN):
+                    if j == int(checked_data.get(1)[i]) and (self.table.columns[j].column_type != ColumnType.LITERAL_COLUMN):
                         categorical_column_number += 1
         literal_column_number = len(self.table.columns) - categorical_column_number
         cor_cls_columns = categorical_column_number + literal_column_number

@@ -4,7 +4,6 @@ from datetime import datetime
 
 import stanza
 from duckling import DucklingWrapper
-
 from experimental_evaluation.evaluation_model import TableEvaluation
 from tabbyld2.config import EvaluationPath, ResultPath
 from tabbyld2.helpers.file import allowed_file, remove_suffix_in_filename, write_json_file
