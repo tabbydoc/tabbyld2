@@ -413,7 +413,12 @@ class TableModel(AbstractTableModel):
     def serialize_annotated_cells(self) -> Dict[str, Dict[str, str]]:
         serialized = {}
         for column in self.columns:
-            serialized[column.header_name] = {cell.cleared_value: cell.annotation.uri for cell in column.cells if cell.annotation}
+            for cell in column.cells:
+                if cell.annotation is not None:
+                    print(cell.annotation)
+                else:
+                    print(cell.cleared_value + " / " + " None!")
+            serialized[column.header_name] = {cell.cleared_value: cell.annotation.uri for cell in column.cells if cell.annotation is not None}
         return serialized
 
     def serialize_ranked_candidate_classes(self, method: str = None) -> Dict[str, Dict[str, float]]:
