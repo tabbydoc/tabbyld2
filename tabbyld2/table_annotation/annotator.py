@@ -1,16 +1,22 @@
+import json
 from collections import Counter
 from typing import Tuple
+import gensim
 
 import tabbyld2.table_annotation.dbpedia_lookup as dbl
 from Levenshtein._levenshtein import distance
-from gensim.models.word2vec import Word2Vec
+from gensim.models.word2vec import Word2Vec as W2V
 from tabbyld2.datamodel.knowledge_graph_model import ClassModel, EntityModel
 from tabbyld2.datamodel.tabular_data_model import TableModel
 from tabbyld2.preprocessing.atomic_column_classifier import ColumnType
 from tabbyld2.table_annotation.abstract import AbstractSemanticTableAnnotator
 from tabbyld2.table_annotation.concept_mapping import CLASS_MAPPING, DATATYPE_MAPPING, OntologyClass, XMLSchemaDataType
-from tabbyld2.table_annotation.dbpedia_sparql_endpoint import DBPediaConfig, get_candidate_classes, get_candidate_entities, \
-    get_classes_for_entity, get_distance_to_class
+from tabbyld2.table_annotation.dbpedia_sparql_endpoint import DBPediaConfig, get_candidate_classes, \
+    get_candidate_entities, \
+    get_classes_for_entity, get_distance_to_class, get_objects_for_entity, get_subjects_for_entity
+from gensim.models.doc2vec import Doc2Vec, TaggedDocument
+from concurrent.futures import ThreadPoolExecutor
+import concurrent.futures
 
 
 class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
@@ -22,7 +28,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
     def table_model(self):
         return self._table_model
 
-    def find_candidate_entities(self, only_subject_column: bool = False):
+    def find_candidate_entities(self, only_subject_column: bool = True):
         for column in self.table_model.columns:
             if (column.column_type == ColumnType.CATEGORICAL_COLUMN and not only_subject_column) or \
                     column.column_type == ColumnType.SUBJECT_COLUMN:
@@ -31,13 +37,15 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                         # Get a set of candidate entities using the DBpedia Lookup
                         candidate_entities_from_dbl = dbl.get_candidate_entities(cell.cleared_value, 100, None)
                         # Get a set of candidate entities using the DBpedia SPARQL Endpoint
-                        candidate_entities = get_candidate_entities(cell.cleared_value, False if candidate_entities_from_dbl else True)
+                        candidate_entities = get_candidate_entities(cell.cleared_value,
+                                                                    False if candidate_entities_from_dbl else True)
                         # Form common dict for candidate entities
                         for entity_uri, item in candidate_entities_from_dbl.items():
                             if entity_uri not in candidate_entities:
                                 candidate_entities[entity_uri] = item
                         if candidate_entities:
-                            cell.set_candidate_entities([EntityModel(uri, lb, cm, rd) for uri, (lb, cm, rd) in candidate_entities.items()])
+                            cell.set_candidate_entities(
+                                [EntityModel(uri, lb, cm, rd) for uri, (lb, cm, rd) in candidate_entities.items()])
                         # Form a set of candidate entities for cells with same values
                         for cl in column.cells:
                             if cl.cleared_value == cell.cleared_value and cl.candidate_entities is None:
@@ -72,12 +80,14 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
         if underscore_replacement:
             candidate = candidate.replace("_", " ")
         if short_name:
-            candidate = candidate.replace(DBPediaConfig.BASE_RESOURCE_URI, "").replace(DBPediaConfig.BASE_ONTOLOGY_URI, "")
+            candidate = candidate.replace(DBPediaConfig.BASE_RESOURCE_URI, "").replace(DBPediaConfig.BASE_ONTOLOGY_URI,
+                                                                                       "")
         levenshtein_distance = distance(text_mention, candidate)  # Calculate Levenshtein distance
         # Normalize Levenshtein distance
         max_range = len(text_mention)
         for c in candidates:
-            cnd = c.uri.replace(DBPediaConfig.BASE_RESOURCE_URI, "").replace(DBPediaConfig.BASE_ONTOLOGY_URI, "") if short_name else c.uri
+            cnd = c.uri.replace(DBPediaConfig.BASE_RESOURCE_URI, "").replace(DBPediaConfig.BASE_ONTOLOGY_URI,
+                                                                             "") if short_name else c.uri
             if len(cnd) > max_range:
                 max_range = len(cnd)
         return 1 - self._normalize(levenshtein_distance, max_range)
@@ -137,7 +147,7 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
             dictionary_sym.setdefault(entity2, []).append(float(count))
 
         print("Model is loading")
-        modeller = Word2Vec.load("model")
+        modeller = W2V.load("model")
         print("Model loading completed")
         count_list_candidates = 0
         print("Similarity begin")
@@ -201,11 +211,105 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
         print("Ranking of candidate entities by entity embeddings based similarity is complete.")
 
     def rank_candidate_entities_by_context_based_similarity(self):
+        num_of_threads = 32
+        dict_ans = {}
+        l = 0
+        list_candidate = []
+        list_cell = []
+        list_of_list_candidates = []
+        help_dict = {}
+        help_list = []
+        temp_result = []
+        header_names = ""
+        for column in self.table_model.columns:
+            header_names += column.header_name + " "
+
+        print(header_names)
         for column in self.table_model.columns:
             for cell in column.cells:
                 if cell.candidate_entities is not None:
                     for candidate_entity in cell.candidate_entities:
-                        candidate_entity._context_based_similarity = 0
+                        if candidate_entity:
+                            help_list.append(candidate_entity.uri)
+        help_list = list(set(help_list))
+        with ThreadPoolExecutor(num_of_threads) as executor:
+            results = []
+            for candidate in help_list:
+                flag = 1
+                while flag:
+                    try:
+                        results.append((executor.submit(get_subjects_for_entity, candidate, True), candidate))
+                        results.append((executor.submit(get_objects_for_entity, candidate, True), candidate))
+                        flag = 0
+                    except:
+                        flag = 1
+                        print(candidate)
+                        print("error")
+        for result in results:
+            temp_result.append(result[0])
+            help_dict.setdefault(result[1], {})
+
+        for future in concurrent.futures.as_completed(temp_result):
+            for i in range(0, len(results)):
+                if future == results[i][0]:
+                    help_dict[results[i][1]] = {**future.result()}
+
+        for column in self.table_model.columns:
+            i = 0
+            for cell in column.cells:
+                temp_list = []
+                for temp in self.table_model.context(i, l):
+                    if temp is not None:
+                        temp_list.append(temp)
+                if self.table_model.cell(l, i):
+                    list_candidate.append(header_names + self.table_model.cell(l, i) + " "
+                                          + " ".join(temp_list))
+                    list_cell.append(header_names + self.table_model.cell(l, i) + " "
+                                     + " ".join(temp_list))
+                    temp_list1 = []
+                    if cell.candidate_entities is not None:
+                        for candidate_entity in cell.candidate_entities:
+                            if candidate_entity:
+                                t_str = candidate_entity.uri + " " + candidate_entity.comment + " "
+                                for key in help_dict[candidate_entity.uri].keys():
+                                    t_str += key + " "
+                                    for value in help_dict[candidate_entity.uri][key]:
+                                        t_str += " ".join(value) + " "
+                                list_candidate.append(t_str)
+                                temp_list1.append(t_str)
+                    list_of_list_candidates.append(temp_list1)
+                i += 1
+            l += 1
+        train = 1
+        while train:
+            try:
+                tagged_data = [TaggedDocument(_d.lower(), tags=[str(k)]) for k, _d in enumerate(list_candidate)]
+                model = gensim.models.doc2vec.Doc2Vec(vector_size=100, min_count=2, epochs=80)
+                model.build_vocab(tagged_data)
+                model.train(tagged_data, total_examples=model.corpus_count, epochs=80)
+                train = 0
+            except:
+                train = 1
+                print("cant train")
+        for i in range(0, len(list_cell)):
+            similar_doc = model.dv.most_similar(str(list_candidate.index(list_cell[i])), topn=len(list_candidate))
+
+            for j in range(len(similar_doc)):
+                if list_candidate[int(similar_doc[j][0])] in list_of_list_candidates[i]:
+                    dict_ans.setdefault(
+                        list_candidate[int(similar_doc[j][0])][0:list_candidate[int(similar_doc[j][0])]
+                            .find(" ")], []).append(similar_doc[j][1])
+        for column in self.table_model.columns:
+            for cell in column.cells:
+                if cell.candidate_entities is not None:
+                    for candidate_entity in cell.candidate_entities:
+                        try:
+                            candidate_entity._context_based_similarity = max(dict_ans[
+                                                                                 candidate_entity.uri])
+                        except:
+                            candidate_entity._context_based_similarity = 0
+                            print("not found")
+
         print("Ranking of candidate entities by context based similarity is complete.")
 
     def aggregate_ranked_candidate_entities(self):
@@ -230,11 +334,13 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                 for cell in column.cells:
                     if cell.annotation is not None:
                         # Get a set of classes from DBpedia for a referent entity
-                        if cell.annotation.uri not in response:
-                            response[cell.annotation.uri] = get_classes_for_entity(cell.annotation.uri, False)
-                        dbpedia_classes.update(response[cell.annotation.uri])
-                        frequency.update(Counter([*response[cell.annotation.uri]]))  # Calculate a class occurrence frequency
-                result = dict(sorted(dict(frequency).items(), key=lambda item: item[1], reverse=True))  # Sort by frequency
+                        if cell.annotation not in response:
+                            response[cell.annotation] = get_classes_for_entity(cell.annotation, False)
+                        dbpedia_classes.update(response[cell.annotation])
+                        frequency.update(
+                            Counter([*response[cell.annotation]]))  # Calculate a class occurrence frequency
+                result = dict(
+                    sorted(dict(frequency).items(), key=lambda item: item[1], reverse=True))  # Sort by frequency
                 if result:
                     # Normalize scores based on frequency
                     candidate_classes = []
@@ -243,7 +349,8 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                             score = value / list(result.values())[0]
                         except ZeroDivisionError:
                             score = 0
-                        candidate_classes.append(ClassModel(key, dbpedia_classes.get(key)[0], dbpedia_classes.get(key)[1], score))
+                        candidate_classes.append(
+                            ClassModel(key, dbpedia_classes.get(key)[0], dbpedia_classes.get(key)[1], score))
                     column.set_candidate_classes(candidate_classes)
         print("Ranking of candidate classes by majority voting is complete.")
 
@@ -262,11 +369,13 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                             if c.uri == class_uri:
                                 exist_class = True
                         if not exist_class:
-                            column._candidate_classes += (ClassModel(class_uri, class_label, class_comment),)  # Add new candidate class
+                            column._candidate_classes += (
+                                ClassModel(class_uri, class_label, class_comment),)  # Add new candidate class
                 if column.candidate_classes is not None:
                     for candidate_class in column.candidate_classes:
                         candidate_class.set_heading_similarity(
-                            self.get_levenshtein_distance(column.header_name, candidate_class.uri, column.candidate_classes)
+                            self.get_levenshtein_distance(column.header_name, candidate_class.uri,
+                                                          column.candidate_classes)
                         )
                     # Sort candidate classes by heading similarity
                     column.candidate_classes.sort(key=lambda cl: cl.heading_similarity, reverse=True)
@@ -292,11 +401,13 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                 ranks = Counter(labels).most_common()
                 if column.candidate_classes is None:
                     column.set_candidate_classes([
-                        ClassModel(label.value, ner_based_similarity=self._normalize(count, ranks[0][1])) for label, count in ranks
+                        ClassModel(label.value, ner_based_similarity=self._normalize(count, ranks[0][1])) for
+                        label, count in ranks
                     ])
                 else:
                     for candidate_class in column.candidate_classes:
-                        new_candidate_classes = {label.value: self._normalize(count, ranks[0][1]) for label, count in ranks}
+                        new_candidate_classes = {label.value: self._normalize(count, ranks[0][1]) for label, count in
+                                                 ranks}
                         if candidate_class.uri in new_candidate_classes:
                             candidate_class.set_ner_based_similarity(new_candidate_classes.get(candidate_class.uri))
         print("Ranking of candidate classes by NER based similarity is complete.")
@@ -306,7 +417,8 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
             if column.candidate_classes is not None:
                 for candidate_class in column.candidate_classes:
                     candidate_class.aggregate_scores()
-                column.candidate_classes.sort(key=lambda c: c.final_score, reverse=True)  # Sort candidate classes by final score
+                column.candidate_classes.sort(key=lambda c: c.final_score,
+                                              reverse=True)  # Sort candidate classes by final score
         print("Aggregation of scores for candidate classes is complete.")
 
     def annotate_categorical_columns(self):
@@ -322,7 +434,8 @@ class SemanticTableAnnotator(AbstractSemanticTableAnnotator):
                 for cell in column.cells:
                     for label in cell.label:
                         # Mapping between NER and XML Schema datatype
-                        datatype = DATATYPE_MAPPING.get(label) if DATATYPE_MAPPING.get(label) is not None else XMLSchemaDataType.STRING
+                        datatype = DATATYPE_MAPPING.get(label) if DATATYPE_MAPPING.get(
+                            label) is not None else XMLSchemaDataType.STRING
                         xml_schema_data_types.append(datatype)
                 column.set_annotation([dt for dt, dt_count in Counter(xml_schema_data_types).most_common(1)][0])
         print("Annotation of literal columns of table is completed.")
